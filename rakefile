@@ -1,0 +1,503 @@
+=begin
+The code in bin and lib comes from another LDC repo, ldcsplbtk.
+The code gets copied into this repo for convenience, and to avoid any
+version issues.  If you want to use the latest code, you could put that
+repo parallel to this one and run "rake code".
+=end
+
+%w[
+  models
+  combine
+  split
+  stm
+  ctm
+  normalize_speakers
+  print_only_these
+  sum
+  print_files
+  rttm
+].each do |x|
+  fn = "#{ x == 'models' ? 'lib' : 'bin' }/#{x}.rb"
+  file fn => "../ldcsplbtk/#{fn}" do |t|
+    cp t.source, t.name
+  end
+  task :code => fn
+end
+
+$tk = "bin"
+
+def sets
+  %w[ human aws azure nemo google ibm rev whisper whispercpp ]
+end
+
+desc "check that each set has the same base filenames"
+task :check do
+  x = nil
+  sets.each do |set|
+    y = `bin/print_files.rb combined/#{set}.tsv`
+    x ||= y
+    raise "#{set} doesn't match" if y != x
+  end
+  puts 'ok'
+end
+
+def hubscr
+  begin
+    sh "docker run -it -v $PWD:/var/sctk sctk hubscr.pl -V -g english.glm -l english -h hub4 -r ref.stm *.ctm"
+  rescue => e
+    puts e
+  end
+  sh "docker run -it -v $PWD:/var/sctk sctk chmod 775 *"
+end
+
+desc "score all systems"
+task :test_a do
+  dn = 'test_a'
+  mkdir dn
+  sets.each do |set|
+    if set == 'human'
+      sh "#$tk/normalize_speakers.rb combined/human.tsv > #{dn}/human.tsv"
+      sh "#$tk/stm.rb #{dn}/human.tsv > #{dn}/ref.stm"
+    else
+      sh "#$tk/ctm.rb combined/#{set}.tsv > #{dn}/#{set}.ctm"
+    end
+  end
+  sh "cp english.glm #{dn}/english.glm"
+  cd dn
+  hubscr
+end
+
+desc "score all systems, one segment"
+task :test_b do
+  dn = 'test_b'
+  mkdir dn
+  sets.each do |set|
+    if set == 'human'
+      sh "#$tk/normalize_speakers.rb combined/one.tsv > #{dn}/human.tsv"
+      sh "#$tk/stm.rb #{dn}/human.tsv > #{dn}/ref.stm"
+    else
+      sh "#$tk/ctm.rb combined/#{set}.tsv > #{dn}/#{set}.ctm"
+    end
+  end
+  sh "cp english.glm #{dn}/english.glm"
+  cd dn
+  hubscr
+end
+
+desc "aws wers"
+task :test_c do
+  dn = 'test_c'
+  mkdir dn
+  human = File.readlines 'combined/human.tsv'
+  aws = File.readlines 'combined/aws.tsv'
+  map.each do |short, long|
+    mkdir "#{dn}/#{short}"
+    open("#{dn}/#{short}/a.tsv", 'w') do |f|
+      f.puts human[0]
+      f.puts human.select { |x| x.split[0] == long }
+    end
+    open("#{dn}/#{short}/b.tsv", 'w') do |f|
+      f.puts aws[0]
+      f.puts aws.select { |x| x.split[0] == long }
+    end
+    sh "#$tk/normalize_speakers.rb #{dn}/#{short}/a.tsv > #{dn}/#{short}/human.tsv"
+    sh "#$tk/stm.rb #{dn}/#{short}/human.tsv > #{dn}/#{short}/ref.stm"
+    sh "#$tk/ctm.rb #{dn}/#{short}/b.tsv > #{dn}/#{short}/aws.ctm"
+    sh "cp english.glm #{dn}/#{short}/english.glm"
+    cd "#{dn}/#{short}"
+    hubscr
+    cd "../.."
+    exit
+  end
+end
+
+desc "score wh1"
+task :test1 do
+  dn = 'test1'
+  mkdir dn
+  sets2 = [ 'human' ]
+  (0..13).to_a.each { |x| sets2 << "whlab#{x}" }
+  (17..20).to_a.each { |x| sets2 << "whlab#{x}" }
+  sets2.each do |set|
+    if set == 'human'
+      sh "#$tk/change_speakers.rb x combined/human.tsv > #{dn}/human.tsv"
+      sh "#$tk/stm.rb #{dn}/human.tsv > #{dn}/ref.stm"
+    else
+      sh "#$tk/ctm.rb combined/#{set}.tsv > #{dn}/#{set}.ctm"
+    end
+  end
+  sh "cp english.glm #{dn}/english.glm"
+  cd dn
+  hubscr
+end
+
+desc "score all systems assuming one speaker per file"
+task :test_d do
+  dn = 'test_d'
+  mkdir_p dn
+  (0..3).to_a.each { |i| mkdir_p "#{dn}/q#{i}" }
+  # divide into quarters because sclite crashes with too many speakers
+  partitions = [{}]
+  map.each do |k, v|
+    partitions << {} if partitions[-1].length == 25
+    partitions[-1][v] = k
+  end
+  wer = {}
+  partitions.each_with_index do |h, i|
+    # open("#{dn}/q#{i}/print_only_these.txt", 'w') do |f|
+    #   f.puts h.to_a.map { |x| x.join ' ' }
+    # end
+    # %w[ human aws ].each do |set|
+    #   sh "#$tk/print_only_these.rb #{dn}/q#{i}/print_only_these.txt combined/#{set}.tsv > #{dn}/q#{i}/#{set}.tsv"
+    #   tm = set == 'human' ? 'stm' : 'ctm'
+    #   sh "#$tk/#{tm}.rb #{dn}/q#{i}/#{set}.tsv > #{dn}/q#{i}/#{set == 'human' ? 'ref' : set}.#{tm}"
+    # end
+    # sh "cp english.glm #{dn}/q#{i}/english.glm"
+    # cd "#{dn}/q#{i}"
+    # hubscr
+    File.readlines("#{dn}/q#{i}/aws.ctm.filt.sys").each do |x|
+      if x =~ /^\s+\| [a-z]/
+        y = x.split
+        wer[y[1]] = y[-3]
+      end
+    end
+    # cd "../.."
+  end
+  partitions = {}
+  wer.each do |k, v|
+    f = v.to_f
+    if f <= 4.7
+      partitions['a'] ||= []
+      partitions['a'] << k
+    elsif f <= 9.4
+      partitions['b'] ||= []
+      partitions['b'] << k
+    elsif f <= 17.6
+      partitions['c'] ||= []
+      partitions['c'] << k
+    elsif f <= 29.6
+      partitions['d'] ||= []
+      partitions['d'] << k
+    else
+      partitions['e'] ||= []
+      partitions['e'] << k
+    end
+  end
+  partitions.each do |k, v|
+    mkdir_p "#{dn}/#{k}"
+    open("#{dn}/#{k}/print_only_these.txt", 'w') do |f|
+      f.puts map.to_a.select { |x, y| v.include? x.downcase }.map { |x| x.reverse.join ' ' }
+    end
+  end
+  partitions.keys.sort.each do |i|
+    %w[ human nemod ].each do |set|
+      sh "#$tk/print_only_these.rb #{dn}/#{i}/print_only_these.txt combined/#{set == 'human' ? 'one' : set}.tsv > #{dn}/#{i}/#{set}.tsv"
+      tm = set == 'human' ? 'stm' : 'ctm'
+      sh "#$tk/#{tm}.rb #{dn}/#{i}/#{set}.tsv > #{dn}/#{i}/#{set == 'human' ? 'ref' : set}.#{tm}"
+    end
+    sh "cp english.glm #{dn}/#{i}/english.glm"
+    cd "#{dn}/#{i}"
+    hubscr
+    cd '../..'
+  end
+end
+
+desc "score all systems assuming one speaker per file"
+task :test_e do
+  dn = 'test_e'
+  mkdir_p dn
+  fns = File.readlines('/clinical/poetry/wav/snr.rank').map { |x| x.split.last.sub('.wav', '') }
+  partitions = {
+    'a' => fns[0..24],
+    'b' => fns[25..49],
+    'c' => fns[50..74],
+    'd' => fns[75..99]
+  }
+  partitions.each do |k, v|
+    mkdir_p "#{dn}/#{k}"
+    open("#{dn}/#{k}/print_only_these.txt", 'w') do |f|
+      f.puts map.to_a.select { |x, y| v.include? y }.map { |x| x.reverse.join ' ' }
+    end
+  end
+  partitions.keys.sort.each do |i|
+    sets.each do |set|
+      sh "#$tk/print_only_these.rb #{dn}/#{i}/print_only_these.txt combined/#{set == 'human' ? 'one' : set}.tsv > #{dn}/#{i}/#{set}.tsv"
+      tm = set == 'human' ? 'stm' : 'ctm'
+      sh "#$tk/#{tm}.rb #{dn}/#{i}/#{set}.tsv > #{dn}/#{i}/#{set == 'human' ? 'ref' : set}.#{tm}"
+    end
+    sh "cp english.glm #{dn}/#{i}/english.glm"
+    cd "#{dn}/#{i}"
+    hubscr
+    cd '../..'
+  end
+end
+
+file 'split' do |t|
+  dn = t.name
+  mkdir_p dn
+  (sets+['one']).each do |set|
+    dnn = "#{dn}/#{set}"
+    mkdir_p dnn
+    sh "bin/split.rb combined/#{set}.tsv #{dnn}"
+  end
+end
+
+task :test_f => 'split' do |t|
+  dn = t.name
+  mkdir_p dn
+  map.each do |k, v|
+    dnn = "#{dn}/#{k.downcase}"
+    mkdir_p dnn
+    next if k == 'Andrews'
+    sets.each do |set|
+      if set == 'human'
+        sh "bin/stm.rb split/one/#{v}.tsv > #{dnn}/ref.stm"
+      else
+        sh "bin/ctm.rb split/#{set}/#{v}.tsv > #{dnn}/#{set}.ctm"
+      end
+    end
+    sh "cp english.glm #{dnn}/english.glm"
+    cd dnn
+    hubscr
+    cd '../..'
+  end
+end
+
+task :testf do
+
+  snr = {}
+  File.readlines('/clinical/poetry/wav/snr.rank').each do |x|
+    a = x.split
+    snr[a[1].sub('.wav', '')] = a[0]
+  end
+  map.each do |k, v|
+    snr[k.downcase] = snr[v]
+  end
+
+  sp = {}
+  map.each do |k, v|
+    x = `grep #{v} combined/human.tsv | cut -f 5 | sort -u | wc -l`
+    sp[k.downcase] = x
+  end
+
+  puts %w[ file aws azure google ibm nemo rev whisper whispercpp snr nsp ].join("\t")
+  Dir['test_f/*/En*sys'].each do |x|
+    y = `grep Average #{x}`
+    z = x.split('/')[1]
+    puts [ z, y.split('|')[2..-2], snr[z], sp[z] ].flatten.join("\t").gsub(' ', '')
+  end
+
+end
+
+desc "score using cleanest inputs"
+task :test3 do
+  dn = 'test3'
+  mkdir dn
+  inputs = %w[ Berssenbrugge2 Berssenbrugge1 Gladman Ashbery6 Bromige2 DuPlessis2 Auster DuPlessis1 Robinson1 Hawkins Moore Ashbery1
+             Greenwald Ashbery2 Robinson3 Richards Bloch Coolidge Ashbery3 Jarnot DiPalma Piombino Ashbery7 Ashbery8 Bellamy Dorn
+             Drucker2 Halpern Robinson2 Scalapino1 Wisher ]
+  open("#{dn}/print_only_these.txt", 'w') do |f|
+    f.puts inputs.map { |x| [ map[x], x ].join ' ' }
+  end
+  sets.each do |set|
+    sh "#$tk/print_only_these.rb #{dn}/print_only_these.txt combined/#{set}.tsv > #{dn}/#{set}.tsv"
+    if set == 'human'
+      sh "#$tk/stm.rb #{dn}/human.tsv > #{dn}/ref.stm"
+    else
+      sh "#$tk/ctm.rb #{dn}/#{set}.tsv > #{dn}/#{set}.ctm"
+    end
+  end
+  sh "cp english.glm #{dn}/english.glm"
+  cd dn
+  hubscr
+end
+
+
+desc "score using p2fa"
+task :test4 do
+  dn = 'test4'
+  mkdir_p dn
+  mkdir_p "#{dn}/flac"
+  #sh "cp penn_sound_audio/data/* #{dn}/flac"
+  sets.each do |set|
+    mkdir_p "#{dn}/txt/#{set}"
+    mkdir_p "#{dn}/words/#{set}"
+    mkdir_p "#{dn}/phones/#{set}"
+    mkdir_p "#{dn}/unks/#{set}"
+    #sh "rm #{dn}/txt/#{set}/*"
+    sh "#$tk/text_only.rb combined/#{set}.tsv #{dn}/txt/#{set}"
+    if set =~ /nemoa/
+      map.each do |k, v|
+        next if File.exist? "#{dn}/#{v}.unks"
+        sh "docker run -it --rm -v ./#{dn}:/mount align2 python3 /app/aligner/align_english.py flac/#{v}.flac txt/#{set}/#{v}.txt words/#{set}/#{v}.words phones/#{set}/#{v}.phones"
+      end
+      sh "mv #{dn}/*.unks #{dn}/unks/#{set}"
+    end
+    if set == 'human'
+      sh "#$tk/change_speakers.rb x combined/human.tsv > #{dn}/human.tsv" unless File.exist? "#{dn}/human.tsv"
+      sh "#$tk/stm.rb #{dn}/human.tsv > #{dn}/ref.stm" unless File.exist? "#{dn}/ref.stm"
+    else
+      aa = [%w[ file beg end text speaker ].join("\t")]
+      Dir["#{dn}/words/#{set}/*"].each do |x|
+        fn = File.basename x, '.words'
+        y = File.readlines(x).select { |x| x !~ /SIL/ }.map { |x| a=x.split; [ fn, a[0], a[1], a[2], 'spk' ].join "\t" }
+        aa << y
+      end
+      File.write "#{dn}/#{set}.tsv", aa.flatten.join("\n") + "\n"
+      sh "rm #{dn}/#{set}.ctm" if File.exist? "#{dn}/#{set}.ctm"
+      sh "#$tk/ctm.rb #{dn}/#{set}.tsv > #{dn}/#{set}.ctm" unless File.exist? "#{dn}/#{set}.ctm" if set =~ /aws|nemoa/
+      #a = File.readlines("#{dn}/#{set}.ctm")
+      #puts a.first(10)
+      #exit
+    end
+  end
+  sh "cp english.glm #{dn}/english.glm"
+  cd dn
+  hubscr
+end
+
+desc "rttm"
+task :rttm do
+  dn = 'rttm'
+  mkdir_p dn
+  der_sets = sets - %w[ nemo whisper whispercpp ]
+  der = {}
+  jer = {}
+  der_sets.each do |set|
+    dnn = "#{dn}/#{set}"
+    mkdir_p dnn
+    sh "bin/rttm.rb combined/#{set}.tsv #{dnn}"
+    next if set == 'human'
+    sh "python /opt/local/github/dscore/score.py -r rttm/human/* -s rttm/#{set}/* > rttm/#{set}.scores"
+    x = File.readlines "rttm/#{set}.scores"
+    x[2..-2].each do |line|
+      a = line.split
+      der[a[0]] ||= {}
+      jer[a[0]] ||= {}
+      der[a[0]][set] = a[1]
+      jer[a[0]][set] = a[2]
+    end
+  end
+  sets_no_h = der_sets - %w[ human ]
+  der_helper "#{dn}/der.tsv", der, sets_no_h
+  der_helper "#{dn}/jer.tsv", jer, sets_no_h
+end
+
+def der_helper(fn, h, sets)
+  open(fn, 'w') do |f|
+    f.puts [ 'file', sets ].flatten.join "\t"
+    h.each do |k, v|
+      scores = sets.map do |set|
+        v[set]
+      end.compact
+      f.puts [ k, scores ].flatten.join "\t"
+    end
+  end
+end
+
+def map
+  {
+    "Andrews" => "Andrews-Bruce-and-Charles-North_Complete-Recording_Ear-Inn-NY_10-28-78",
+    "Antin" => "Antin-David_Complete_Seminar_University-Buffalo_3-27-03",
+    "Ashbery1" => "Ashbery-John_01_Complete-Reading_WBAI-FM_New-York_5-14-75",
+    "Ashbery2" => "Ashbery-John_Complete-Reading_Contemporary-American-Poetry_BBC-Radio-3_7-24-99",
+    "Ashbery3" => "Ashbery-John_Complete-Recording_Attitudes-Towards-the-Flame_Territory-of-Art_MOCA_LA_83",
+    "Ashbery4" => "Ashbery-John_Complete-Recording_Honoring-Illuminations-Translation_NYU_5-12-11",
+    "Ashbery5" => "Ashbery-John_Complete-Recording_Pioneer-Works_12-8-15",
+    "Ashbery6" => "Ashbery-John_Complete-Recording_St-Marks_NY",
+    "Ashbery7" => "Ashbery-John_Complete-Recording_The-Songs-We-Know-Best_1973-and-1988",
+    "Ashbery8" => "Ashbery-John_Complete-Recording_WBAI-Broadcast_Kush_1974",
+    "Auster" => "Auster-Paul_Complete-Reading_UB_4-26-95",
+    "Beaulieu" => "Beaulieu-Derek_Complete-Reading_Brodsky-Gallery_KWH-UPenn_3-31-11",
+    "Bellamy" => "Bellamy-Dodie_Complete-Reading_A-Voice-Box_Canessa-Park_1-17-09",
+    "Benson1" => "Benson-Steve-and-Robinson-Kit_Complete-Reading_Bloughshares_Palo-Alto_02-18-79",
+    "Benson2" => "Benson-Steve_Complete-Recording_Views-of-Communist-China_1220-Folsom-SF_05-19-77",
+    "Berkson1" => "Berkson-Bill_Complete-Reading_Poetry-Project_St-Marks-NY_5-17-78",
+    "Berkson2" => "Berkson-Bill_Complete-Reading_UPenn_4-3-2013",
+    "Berrigan" => "Berrigan-Ted-and-Schiff-Harris_Complete-recording_Public-access-poetry_8-4-77",
+    "Berssenbrugge1" => "Berssenbrugge-Mei-Mei_Complete-Reading_UB_9-20-00",
+    "Berssenbrugge2" => "Berssenbrugge-Mei-Mei_Complete-Recording_Segue-DH_NYC_2-21-98",
+    "Bervin" => "Bervin-Jen_Complete-Recording_Contemporary-Writers-Series_Mills-College_9-28-10",
+    "Bloch" => "Bloch-Julia_03_Complete-Reading_Emergency-Series_KWH-UPenn_3-27-12",
+    "Bonvicino" => "Bonvicino-Regis_Complete-Reading_Close-Listening_10-13-09",
+    "Bromige1" => "Bromige-David_Complete-Reading_Albany-CA_Fall-1968",
+    "Bromige2" => "Bromige-David_Complete-Recording_Cal-Tech_3-7-72",
+    "Bromige3" => "Bromige-David_Complete-Recording_New-Poems_Unknown-Reel",
+    "Bromige4" => "Bromige-David_Complete-Recording_With-Ron-Loewinsohn_SF_1-29-64",
+    "Browne" => "Browne-Laynie_Complete-Reading_Contemporary-Writers-Series_Brown-University_3-11-09",
+    "Brown" => "Brown-Lee-Ann_Complete-Reading_Tender-Buttons-Press_UPenn_10-21-03",
+    "Clay" => "Clay-Steve_Close-Listening_5-17-21",
+    "Conrad" => "Conrad-CA_Complete-Reading_War-and-Peace-3_Peace-on-A_11-2007",
+    "Coolidge" => "Coolidge-Clark_Complete-Reading_Buffalo_11-14-90",
+    "Corrigan" => "Corrigan-Cecilia_Complete-Reading_Segue-BPC_1-9-11",
+    "Darragh" => "Darragh-Tina_Complete-Recording_Segue_Zinc-Bar_01-05-13",
+    "Davies" => "Davies-Alan_01_Complete-Reading_2-13-88",
+    "DiPalma" => "DiPalma-Lally-Andrews_Complete-Recording_11-10-77",
+    "Donovan" => "Donovan-Thom_Conrad_Complete-Reading_Zebulon-Cafe_Brooklyn_2-8-11",
+    "Dorn" => "Dorn-Ed_Complete-Recording_North-Atlantic-Turbine_London_1967",
+    "Drucker1" => "Drucker-Johanna_02_Complete-Lecture_UPenn_02-14-08",
+    "Drucker2" => "Drucker-Johanna_Complete-reading_Weds-at-four-plus_Buffalo_10-23-02",
+    "Duncan1" => "Duncan-Robert_Complete-Recording_Albuquerque_02-29-64",
+    "Duncan2" => "Duncan-Robert_Complete-Recording_Lecture-On-Dickinson_New-College_6-23-81",
+    "Duncan3" => "Duncan-Robert_Complete-Recording_On-Dickinson_New-College_6-30-81",
+    "DuPlessis1" => "DuPlessis-Blau-Rachel_Complete-Recording_Draft-109_Wall-Newspaper_UA_New-Zealand_3-15-2012",
+    "DuPlessis2" => "DuPlessis-Rachel-Blau_Complete-Reading_KU_Lawrence-KS_03-07-2011",
+    "DuPlessis3" => "DuPlessis-Rachel-Blau_Complete-Recording_Arcade-Taberna-Reading-Series_Durham-NC_4-24-09",
+    "Dworkin" => "Dworkin-Craig_Complete-Reading_Segue-Series_12-14-2013",
+    "Fiedler" => "Fiedler_Layton_Ginsberg_DeLoach_Complete-Recording_Allentown-Community-Center-Buffalo_10-06-78",
+    "Foster" => "Foster-Tonya_Complete-Reading_Segue-Zinc-Bar_2-23-13",
+    "Fuchs" => "Fuchs-Greg_Complete-Recording_Segue-DH_NYC_4-22-00",
+    "Garrison" => "Garrison-Deborah-and-Komunyakaa-Yusef_Complete-Reading_Contemporary-American-Poetry_BBC-Radio-3_7-22-99",
+    "Ginsberg" => "Ginsberg-Allen_Complete-Reading_WCW-Lecture_3-17-88",
+    "Gladman" => "Gladman-Renee_Complete-Reading_Drawing-Room_Tuscon_AZ_02-21-09",
+    "Greenwald" => "Greenwald-Ted_Complete-Recording_WAMU-FM_3-26-76",
+    "Halpern" => "Halpern-Rob_Complete-BPC-Segue_3-3-07",
+    "Halsey" => "Halsey-Alan_Complete-Reading_BUS-MFA_Boise_10-15-10",
+    "Hawkins" => "Hawkins-Bobbie-Louise_01_Complete-Reading_Alfred-University_10-14-75",
+    "Howe1" => "Howe-Susan_04_Complete-Reading_SUNY-Buffalo_11-6-94",
+    "Howe2" => "Howe-Susan_Complete-Reading_Segue-Series_Ear-Inn_4-12-86",
+    "Howe3" => "Howe-Susan_Complete-Recording_Emily-Dickinson-Lecture_Buffalo_9-28-90",
+    "Jarnot" => "Jarnot-Lisa-and-Laynie-Browne_Complete-Reading_KWH-UPenn_4-22-14",
+    "Joris" => "Joris-Pierre_Complete-reading_Weds-at-four-plus_Buffalo_9-25-96",
+    "Kimmelman" => "Kimmelman-Burt_Complete-reading_KWH-UPenn_10-26-2010",
+    "Kinsella" => "Kinsella-John_02_Complete-Reading_SUNY-Buffalo_11-6-96",
+    "Kyger" => "Kyger-Creeley-Hewlett_Complete-Discussion_Location-Unknown_06-19-72",
+    "Lauterbach1" => "Lauterbach-Ann_Complete-Reading_Segue-Series_BPC_21-4-99",
+    "Lauterbach2" => "Lauterbach-Ann_Complete-Reading_SUNY-Buffalo_10-17-01",
+    "Levy" => "Levy-Andrew_Complete-Recording_Segue-Ear-Inn_NYC_3-9-96",
+    "Mirakove" => "Mirakove-Carol_Complete-Reading_New-reading-Series_a-Voice-Box_10-18-09",
+    "Moore" => "Moore-Richard_Complete-Reading_Lee-Anderson_Berkeley_03-23-52",
+    "Moxley" => "Moxley-Jennifer_Complete-Recording_Segue-Ear-Inn_NYC_4-27-96",
+    "Oppen" => "Oppen-George_Complete-Recording_SUNY-Buffalo_02-17-67",
+    "PhillyTalks10" => "PhillyTalks10_Complete-Reading_03-01-99_UPenn",
+    "PhillyTalks1" => "PhillyTalks1_Complete-Discussion_10-31-97_UPenn",
+    "PhillyTalks3" => "PhillyTalks3_Complete-Recording_01-21-98_UPenn",
+    "PhillyTalks5" => "PhillyTalks5_Complete-Recording_03-03-98_UPenn",
+    "Piombino" => "Piombino-Nick_Complete-Recording_Ear-Inn_NY_4-22-89",
+    "PoemTalk" => "PoemTalk-198_On-three-Larry-Price-poems",
+    "Raworth" => "Raworth-Tom_Complete-Reading_MFA-Reading-Series_Boise_2-22-13",
+    "Retalack" => "Retalack-Selah-Smith-Stephens-Wilson_Complete-Recording_Body-As-Discourse_ADFEMPO_NYC_9-25-09",
+    "Reznikoff" => "Reznikoff_Charles_Complete-Recording_St-Marks-Poetry-Project_NYC_1972",
+    "Richards" => "Richards-MC_Complete-Recording_Indre-Studios-Philadelphia_5-5-97",
+    "Robinson1" => "Robinson-Elizabeth_Complete-Reading_A-Voice-Box_Pegasus-Books_04-13-08",
+    "Robinson2" => "Robinson-Kit_Complete-Reading_POG-Drawing-Studio_10-24-09",
+    "Robinson3" => "Robinson-Kit_Complete-Reading_Xavier-Univ_10-27-09",
+    "Rothenberg" => "Rothenberg-Michael_02_Complete-Reading_Pog-and-Chax-press_Tuscon-Arizona_10-8-07",
+    "Scalapino1" => "Scalapino-Leslie_Complete-Reading_Buffalo_3-6-91",
+    "Scalapino2" => "Scalapino-Leslie_Complete-Recording_Lecture-And-Discussion_Buffalo_3-7-91",
+    "Sherlock" => "Sherlock-Frank_and_Savich-Zach_Complete-Reading_WWFLI_KWH-UPenn_9-18-13",
+    "Silliman1" => "Silliman-Ron_Complete-Discussion_Fellows_KWH-UPenn_3-20-12",
+    "Silliman2" => "Silliman-Ron_Complete-Reading_Birkbeck-Poetics-Centre_05-05-09",
+    "Silliman3" => "Silliman-Ron_Complete-Recording_The-New-Sentence_SanFranArtInstitute_09-16-79",
+    "Smith" => "Smith-Rod_01_Complete-Recording_University-at-Buffalo_2-25-98",
+    "Spahr" => "Spahr-Juliana_Complete-Reading_Line-Reading_05-14-02",
+    "Sze" => "Sze-Arthur_Complete-Recording_UPenn_12-5-06",
+    "Templeton" => "Templeton-Fiona_Complete-Reading_Ear-Inn_01-14-89",
+    "Torres" => "Torres-Edwin_Complete-Recording_Interview_Copp-Street_San-Francisco_9-7-90",
+    "Towle" => "Towle-Tony_Complete-Reading_Blue-Mountain-Gallery_NYC_2-8-86",
+    "Wisher" => "Wisher-Yolanda_Complete-Recording_8-4-16",
+    "Yau" => "Yau-John_02_Complete-Reading_SUNY-Buffalo_2-4-98"
+  }
+end
+
+
