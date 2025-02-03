@@ -195,7 +195,26 @@ class Sample
           @segments << s
         end
       end
-    elsif object['results'] # assume google cloud
+    elsif object['results'] # assume google cloud v2
+      a = object['results'].last['alternatives']
+      raise "the file name must be set" if @fn.nil?
+      set_header %w[ file beg end text speaker ]
+      object['results'].each do |r|
+        r['alternatives'].first['words'].each do |w|
+          s = {}
+          if true #e['type'] == 'text'
+            s = {
+              file: @fn,
+              beg: gctsv2(w['startOffset']),
+              end: gctsv2(w['endOffset']),
+              text: w['word'],
+              speaker: w['speakerLabel']
+            }
+            @segments << s
+          end
+        end
+      end
+    elsif object['results'] # assume google cloud v1
       a = object['results'].last['alternatives']
       if a.first.keys.length == 3
         raise "unknown format; might be google cloud without speaker tags"
@@ -241,15 +260,35 @@ class Sample
       raise "the file name must be set" if @fn.nil?
       set_header %w[ file beg end text ]
       # @header ||= %w[ file beg end text speaker ]
-      object['segments'].each do |m|
-        m['words'].each do |e|
-          s = {
-            file: @fn,
-            beg: e['start'],
-            end: e['end'],
-            text: e['word'].gsub(/\s/, '')
-          }
-          @segments << s
+      if object['segments'].first['words']
+        object['segments'].each do |m|
+          m['words'].each do |e|
+            s = {
+              file: @fn,
+              beg: e['start'],
+              end: e['end'],
+              text: e['word'].gsub(/\s/, '')
+            }
+            @segments << s
+          end
+        end
+      else
+        object['segments'].each do |m|
+          words = m['text'].split
+          bb = m['start']
+          inc = (m['end']-bb) / words.length
+          words.each_with_index do |e, i|
+            ee = bb + inc
+            s = {
+              file: @fn,
+              beg: bb.round(3),
+              end: ee.round(3),
+              text: e.gsub(/\s/, '')
+            }
+            @segments << s
+            bb = ee
+          end
+          @segments[-1][:end] = m['end']
         end
       end
     elsif object['transcription'] # assume whisper.cpp
@@ -332,6 +371,11 @@ class Sample
 
   def gcts(x)
     x['nanos'].to_f / 1_000_000_000 + x['seconds'].to_f
+  end
+
+  def gctsv2(x)
+    return 0.0 if x.nil?
+    x.sub('s','').to_f
   end
 
   def print_prep(norm: false, after_time: nil, after_time_with_map: nil)
