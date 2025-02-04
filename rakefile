@@ -91,7 +91,7 @@ task :test_b do |t|
 end
 
 desc "score whisper trials"
-task :test_bbb do |t|
+task :test_c do |t|
   dn = t.name
   mkdir dn
   %w[ human tiny small medium large largev2 largev3 turbo whisper ].each do |set|
@@ -105,10 +105,12 @@ task :test_bbb do |t|
   sh "cp english.glm #{dn}/english.glm"
   cd dn
   hubscr
+  sh "bin/check_for_final_hallucination.rb combined/turbo.tsv durations.txt > #{dn}/turbo_h.tsv"
+  sh "bin/text_only.rb #{dn}/turbo_h.tsv #{dn}/turbo_h_text"
 end
 
 desc "aws wers"
-task :test_c do
+task :test_cx do
   dn = 'test_c'
   mkdir dn
   human = File.readlines 'combined/human.tsv'
