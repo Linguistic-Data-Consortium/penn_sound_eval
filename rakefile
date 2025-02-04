@@ -18,6 +18,7 @@ repo parallel to this one and run "rake code".
   rttm
   check_for_final_hallucination
   text_only
+  filter_pra
 ].each do |x|
   fn = "#{ x == 'models' ? 'lib' : 'bin' }/#{x}.rb"
   file fn => "../ldcsplbtk/#{fn}" do |t|
@@ -52,9 +53,9 @@ def hubscr
   sh "docker run -it -v $PWD:/var/sctk sctk chmod 775 *"
 end
 
-desc "score all systems"
-task :test_a do
-  dn = 'test_a'
+desc "score all systems with original segmentation"
+task :test_a do |t|
+  dn = t.name
   mkdir dn
   sets.each do |set|
     if set == 'human'
@@ -67,9 +68,12 @@ task :test_a do
   sh "cp english.glm #{dn}/english.glm"
   cd dn
   hubscr
+  Dir["#{dn}/*pra"].each do |x|
+    sh "bin/filter_pra.rb #{x} > #{x}.errors"
+  end
 end
 
-desc "score all systems, one segment"
+desc "score all systems with human transcripts as single segments"
 task :test_b do |t|
   dn = t.name
   mkdir dn
