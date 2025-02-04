@@ -1,0 +1,80 @@
+aws https://docs.aws.amazon.com/transcribe/latest/APIReference/API\_StartTranscriptionJob.html
+
+    LanguageCode: "en-US",
+    Settings: {
+      ShowSpeakerLabels: true,
+      MaxSpeakerLabels: 5,
+      ChannelIdentification: true
+    },
+
+
+azure https://learn.microsoft.com/en-us/dotnet/api/microsoft.cognitiveservices.speech.speechconfig?view=azure-dotnet
+
+    speechConfig.speechRecognitionLanguage = "en-US";
+
+
+google https://cloud.google.com/speech-to-text/v2/docs/transcription-model
+
+    config = cloud_speech.RecognitionConfig(
+        auto_decoding_config=cloud_speech.AutoDetectDecodingConfig(),
+        language_codes=["en-US"],
+        model="chirp_2",
+        features=cloud_speech.RecognitionFeatures(
+            enable_word_time_offsets=True,
+        )
+    )
+
+
+ibm https://cloud.ibm.com/docs/speech-to-text?topic=speech-to-text-models-use
+endpoint: /v1/recognize
+
+model=en-US
+timestamps=true
+speaker_labels=true
+audio_metrics=true
+
+
+rev https://docs.rev.ai/api/asynchronous/reference/#operation/SubmitTranscriptionJob
+
+    jobOptions = {
+        transcriber: "fusion",
+        diarization_type: "premium",
+        forced_alignment: true
+    };
+
+
+nemo https://docs.nvidia.com/nemo-framework/user-guide/24.09/nemotoolkit/asr/intro.html
+
+    asr_model = EncDecMultiTaskModel.from_pretrained('nvidia/canary-1b')
+    decoding_cfg = asr_model.cfg.decoding
+    with open_dict(decoding_cfg):
+        decoding_cfg.preserve_alignments = True
+        decoding_cfg.compute_timestamps = True
+        decoding_cfg.segment_seperators = [".", "?", "!"]
+        decoding_cfg.word_seperator = " "
+        decoding_cfg.beam.beam_size = 1
+        asr_model.change_decoding_strategy(decoding_cfg)
+    hypotheses = asr_model.transcribe(
+        [fn],
+        return_hypotheses=True,
+        task="asr",
+        source_lang="en",
+        target_lang="en",
+        pnc="yes"
+    )
+
+
+whisper https://github.com/openai/whisper
+
+    --model turbo
+    --word_timestamps True
+    --hallucination_silence_threshold 0.5
+
+
+whispercpp https://github.com/ggerganov/whisper.cpp
+
+-m models/ggml-large-v3-turbo.bin
+-ml 1
+-sow
+
+
