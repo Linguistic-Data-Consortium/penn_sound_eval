@@ -19,7 +19,7 @@ Transcripts for the individual recordings can be found in the `split` directory.
 # Test A
 
 `test_a` contains the output of SCTK using the original reference segmentation.  This data wasn't used for the paper, but is useful for looking at individual errors.  SCTK produces .pra
-files that align the reference and hypothesis segments.  However, these files include perfect alignments with no errors.  `test_a` also includes .pra.error files which contain only segments with errors, so these are useful for browsing.
+files that align the reference and hypothesis segments.  However, these files include perfect alignments with no errors.  `test_a` also includes .pra.errors files which contain only segments with errors, so these are useful for browsing.
 
 `test_b` contains the output of SCTK using no segmentation, or rather, where each reference transcript was turned into a single segment.  This eliminates errors that are due to differences in timestamps on otherwise correct words.  These numbers were reported in the paper.
 
