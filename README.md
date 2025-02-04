@@ -25,7 +25,9 @@ files that align the reference and hypothesis segments.  However, these files in
 
 `test_b` contains the output of SCTK using no segmentation, or rather, where each reference transcript was turned into a single segment.  This eliminates errors that are due to differences in timestamps on otherwise correct words.  These numbers were reported in the paper.
 
+# Test C
 
+`test_c` contains the output of SCTK on whisper trials meant to test the occurrence of hallucinations.
 
 
 
