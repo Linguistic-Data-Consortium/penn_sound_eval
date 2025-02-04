@@ -395,7 +395,7 @@ class Sample
   end
 
   def print(norm: false, after_time: nil, after_time_with_map: nil)
-    segments = print_prep(norm: false, after_time: nil, after_time_with_map: nil)
+    segments = print_prep(norm: , after_time: , after_time_with_map: )
     #puts @segments.first[:end]
     #puts after_time_with_map[@segments.first[:file]]
     puts segments.map { |x| segment2line x }

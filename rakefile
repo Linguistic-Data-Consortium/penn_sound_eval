@@ -16,6 +16,8 @@ repo parallel to this one and run "rake code".
   sum
   print_files
   rttm
+  check_for_final_hallucination
+  text_only
 ].each do |x|
   fn = "#{ x == 'models' ? 'lib' : 'bin' }/#{x}.rb"
   file fn => "../ldcsplbtk/#{fn}" do |t|
@@ -68,10 +70,27 @@ task :test_a do
 end
 
 desc "score all systems, one segment"
-task :test_b do
-  dn = 'test_b'
+task :test_b do |t|
+  dn = t.name
   mkdir dn
   sets.each do |set|
+    if set == 'human'
+      sh "#$tk/normalize_speakers.rb combined/one.tsv > #{dn}/human.tsv"
+      sh "#$tk/stm.rb #{dn}/human.tsv > #{dn}/ref.stm"
+    else
+      sh "#$tk/ctm.rb combined/#{set}.tsv > #{dn}/#{set}.ctm"
+    end
+  end
+  sh "cp english.glm #{dn}/english.glm"
+  cd dn
+  hubscr
+end
+
+desc "score whisper trials"
+task :test_bbb do |t|
+  dn = t.name
+  mkdir dn
+  %w[ human tiny small medium large largev2 largev3 turbo whisper ].each do |set|
     if set == 'human'
       sh "#$tk/normalize_speakers.rb combined/one.tsv > #{dn}/human.tsv"
       sh "#$tk/stm.rb #{dn}/human.tsv > #{dn}/ref.stm"
@@ -247,8 +266,31 @@ task :test_f => 'split' do |t|
   mkdir_p dn
   map.each do |k, v|
     dnn = "#{dn}/#{k.downcase}"
+    next if File.exist? dnn
     mkdir_p dnn
-    next if k == 'Andrews'
+    sets.each do |set|
+      if set == 'human'
+        sh "bin/stm.rb split/one/#{v}.tsv > #{dnn}/ref.stm"
+      else
+        sh "bin/ctm.rb split/#{set}/#{v}.tsv > #{dnn}/#{set}.ctm"
+      end
+    end
+    sh "cp english.glm #{dnn}/english.glm"
+    cd dnn
+    hubscr
+    cd '../..'
+  end
+end
+
+task :test_ff => 'split' do |t|
+  dn = t.name
+  mkdir_p dn
+  map.each do |k, v|
+    dnn = "#{dn}/#{k.downcase}"
+    next if File.exist? dnn
+    mkdir_p dnn
+    next unless File.exists? "split/rev/#{v}.tsv"
+    sets = %w[ human aws rev newrev ]
     sets.each do |set|
       if set == 'human'
         sh "bin/stm.rb split/one/#{v}.tsv > #{dnn}/ref.stm"
@@ -281,10 +323,21 @@ task :testf do
   end
 
   puts %w[ file aws azure google ibm nemo rev whisper whispercpp snr nsp ].join("\t")
-  Dir['test_f/*/En*sys'].each do |x|
-    y = `grep Average #{x}`
+  # Dir['test_f/*/En*sys'].each do |x|
+  Dir['test_f/*'].each do |x|
+    y = []
+    sets.sort.each do |set|
+      next if set == 'human'
+      if set == 'rev'
+        y << `bin/wer.rb #{x.sub('_f','_ff')}/new#{set}.ctm.filt.sys`.split.first
+      else
+        y << `bin/wer.rb #{x}/#{set}.ctm.filt.sys`.split.first
+      end
+    end
+    # y = `grep Average #{x}`
     z = x.split('/')[1]
-    puts [ z, y.split('|')[2..-2], snr[z], sp[z] ].flatten.join("\t").gsub(' ', '')
+    # puts [ z, y.split('|')[2..-2], snr[z], sp[z] ].flatten.join("\t").gsub(' ', '')
+    puts [ z, y, snr[z], sp[z] ].flatten.join("\t").gsub(' ', '')
   end
 
 end
@@ -360,7 +413,7 @@ desc "rttm"
 task :rttm do
   dn = 'rttm'
   mkdir_p dn
-  der_sets = sets - %w[ nemo whisper whispercpp ]
+  der_sets = sets - %w[ google nemo whisper whispercpp ]
   der = {}
   jer = {}
   der_sets.each do |set|
