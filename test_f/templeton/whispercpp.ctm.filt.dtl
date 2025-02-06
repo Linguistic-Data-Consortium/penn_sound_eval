@@ -1,0 +1,348 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.0%   ( 186)
+
+Percent Correct           =   86.9%   ( 948)
+
+Percent Substitution      =    6.0%   (  66)
+Percent Deletions         =    7.1%   (  77)
+Percent Insertions        =    3.9%   (  43)
+Percent Word Accuracy     =   83.0%
+
+
+Ref. words                =           (1091)
+Hyp. words                =           (1057)
+Aligned words             =           (1134)
+
+CONFUSION PAIRS                  Total                 (65)
+                                 With >=  1 occurrences (65)
+
+   1:    2  ->  x ==> and
+   2:    1  ->  actually ==> because
+   3:    1  ->  an ==> and
+   4:    1  ->  and ==> on
+   5:    1  ->  and ==> us
+   6:    1  ->  are ==> whole
+   7:    1  ->  beam ==> bees
+   8:    1  ->  because ==> shy
+   9:    1  ->  brain ==> rain
+  10:    1  ->  cluster ==> just
+  11:    1  ->  conches ==> conscious
+  12:    1  ->  constructions ==> construction
+  13:    1  ->  destroy ==> destroyed
+  14:    1  ->  doing's ==> doings
+  15:    1  ->  effects ==> affects
+  16:    1  ->  existent ==> guard
+  17:    1  ->  exploit ==> be
+  18:    1  ->  face ==> kiss
+  19:    1  ->  from ==> me
+  20:    1  ->  head ==> heads
+  21:    1  ->  how's ==> where's
+  22:    1  ->  in ==> and
+  23:    1  ->  insists ==> insist
+  24:    1  ->  is ==> was
+  25:    1  ->  it ==> they
+  26:    1  ->  kick ==> kicker
+  27:    1  ->  kiss ==> out
+  28:    1  ->  la ==> allay
+  29:    1  ->  lev ==> love
+  30:    1  ->  minder ==> earth
+  31:    1  ->  non ==> her
+  32:    1  ->  oh ==> well
+  33:    1  ->  others ==> line
+  34:    1  ->  papercut ==> cut
+  35:    1  ->  question ==> today
+  36:    1  ->  replied ==> bout
+  37:    1  ->  rumor ==> rumors
+  38:    1  ->  she ==> he
+  39:    1  ->  sounds ==> hounds
+  40:    1  ->  stained ==> staying
+  41:    1  ->  status ==> face
+  42:    1  ->  straw ==> strong
+  43:    1  ->  the ==> a
+  44:    1  ->  their ==> the
+  45:    1  ->  there's ==> it's
+  46:    1  ->  this ==> it
+  47:    1  ->  this ==> on
+  48:    1  ->  til ==> till
+  49:    1  ->  turns ==> terms
+  50:    1  ->  us ==> kicker
+  51:    1  ->  viv ==> have
+  52:    1  ->  was ==> is
+  53:    1  ->  width ==> lips
+  54:    1  ->  wooing ==> doing
+  55:    1  ->  x ==> at
+  56:    1  ->  x ==> blood
+  57:    1  ->  x ==> conscientious
+  58:    1  ->  x ==> drinks
+  59:    1  ->  x ==> going
+  60:    1  ->  x ==> of
+  61:    1  ->  x ==> psychopolis
+  62:    1  ->  x ==> to
+  63:    1  ->  x ==> up
+  64:    1  ->  x ==> venizio
+  65:    1  ->  x ==> your
+     -------
+        66
+
+
+
+INSERTIONS                       Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  of
+   2:    2  ->  to
+   3:    1  ->  absentia
+   4:    1  ->  aimed
+   5:    1  ->  am
+   6:    1  ->  and
+   7:    1  ->  back
+   8:    1  ->  because
+   9:    1  ->  bunch
+  10:    1  ->  cabeascorpus
+  11:    1  ->  cluster
+  12:    1  ->  convention
+  13:    1  ->  countless
+  14:    1  ->  fall
+  15:    1  ->  for
+  16:    1  ->  free
+  17:    1  ->  i
+  18:    1  ->  infection
+  19:    1  ->  just
+  20:    1  ->  laten
+  21:    1  ->  made
+  22:    1  ->  me
+  23:    1  ->  mind
+  24:    1  ->  misconduct
+  25:    1  ->  must
+  26:    1  ->  on
+  27:    1  ->  paper
+  28:    1  ->  permission
+  29:    1  ->  refugees
+  30:    1  ->  sentences
+  31:    1  ->  shy
+  32:    1  ->  spoke
+  33:    1  ->  status
+  34:    1  ->  the
+  35:    1  ->  their
+  36:    1  ->  up
+  37:    1  ->  utilities
+  38:    1  ->  visit
+  39:    1  ->  was
+  40:    1  ->  why
+     -------
+        43
+
+
+
+DELETIONS                        Total                 (57)
+                                 With >=  1 occurrences (57)
+
+   1:   10  ->  x
+   2:    3  ->  it
+   3:    3  ->  of
+   4:    2  ->  i
+   5:    2  ->  just
+   6:    2  ->  mean
+   7:    2  ->  shy
+   8:    2  ->  the
+   9:    2  ->  to
+  10:    2  ->  what
+  11:    1  ->  a
+  12:    1  ->  absentia
+  13:    1  ->  and
+  14:    1  ->  are
+  15:    1  ->  at
+  16:    1  ->  authorities
+  17:    1  ->  b
+  18:    1  ->  back
+  19:    1  ->  blatant
+  20:    1  ->  by
+  21:    1  ->  can
+  22:    1  ->  conscientious
+  23:    1  ->  convention
+  24:    1  ->  corpus
+  25:    1  ->  deci
+  26:    1  ->  fine
+  27:    1  ->  habeas
+  28:    1  ->  have
+  29:    1  ->  how
+  30:    1  ->  if
+  31:    1  ->  in
+  32:    1  ->  is
+  33:    1  ->  me
+  34:    1  ->  misconduct
+  35:    1  ->  more
+  36:    1  ->  much
+  37:    1  ->  not
+  38:    1  ->  on
+  39:    1  ->  out
+  40:    1  ->  permission
+  41:    1  ->  pillows
+  42:    1  ->  read
+  43:    1  ->  refugees
+  44:    1  ->  saw
+  45:    1  ->  sentences
+  46:    1  ->  streets
+  47:    1  ->  their
+  48:    1  ->  this
+  49:    1  ->  time
+  50:    1  ->  up
+  51:    1  ->  utilities
+  52:    1  ->  visit
+  53:    1  ->  way
+  54:    1  ->  we
+  55:    1  ->  what's
+  56:    1  ->  yeah
+  57:    1  ->  yet
+     -------
+        77
+
+
+
+SUBSTITUTIONS                    Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:   13  ->  x
+   2:    2  ->  and
+   3:    2  ->  this
+   4:    1  ->  actually
+   5:    1  ->  an
+   6:    1  ->  are
+   7:    1  ->  beam
+   8:    1  ->  because
+   9:    1  ->  brain
+  10:    1  ->  cluster
+  11:    1  ->  conches
+  12:    1  ->  constructions
+  13:    1  ->  destroy
+  14:    1  ->  doing's
+  15:    1  ->  effects
+  16:    1  ->  existent
+  17:    1  ->  exploit
+  18:    1  ->  face
+  19:    1  ->  from
+  20:    1  ->  head
+  21:    1  ->  how's
+  22:    1  ->  in
+  23:    1  ->  insists
+  24:    1  ->  is
+  25:    1  ->  it
+  26:    1  ->  kick
+  27:    1  ->  kiss
+  28:    1  ->  la
+  29:    1  ->  lev
+  30:    1  ->  minder
+  31:    1  ->  non
+  32:    1  ->  oh
+  33:    1  ->  others
+  34:    1  ->  papercut
+  35:    1  ->  question
+  36:    1  ->  replied
+  37:    1  ->  rumor
+  38:    1  ->  she
+  39:    1  ->  sounds
+  40:    1  ->  stained
+  41:    1  ->  status
+  42:    1  ->  straw
+  43:    1  ->  the
+  44:    1  ->  their
+  45:    1  ->  there's
+  46:    1  ->  til
+  47:    1  ->  turns
+  48:    1  ->  us
+  49:    1  ->  viv
+  50:    1  ->  was
+  51:    1  ->  width
+  52:    1  ->  wooing
+     -------
+        66
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:    4  ->  and
+   2:    2  ->  kicker
+   3:    2  ->  on
+   4:    1  ->  a
+   5:    1  ->  affects
+   6:    1  ->  allay
+   7:    1  ->  at
+   8:    1  ->  be
+   9:    1  ->  because
+  10:    1  ->  bees
+  11:    1  ->  blood
+  12:    1  ->  bout
+  13:    1  ->  conscientious
+  14:    1  ->  conscious
+  15:    1  ->  construction
+  16:    1  ->  cut
+  17:    1  ->  destroyed
+  18:    1  ->  doing
+  19:    1  ->  doings
+  20:    1  ->  drinks
+  21:    1  ->  earth
+  22:    1  ->  face
+  23:    1  ->  going
+  24:    1  ->  guard
+  25:    1  ->  have
+  26:    1  ->  he
+  27:    1  ->  heads
+  28:    1  ->  her
+  29:    1  ->  hounds
+  30:    1  ->  insist
+  31:    1  ->  is
+  32:    1  ->  it
+  33:    1  ->  it's
+  34:    1  ->  just
+  35:    1  ->  kiss
+  36:    1  ->  line
+  37:    1  ->  lips
+  38:    1  ->  love
+  39:    1  ->  me
+  40:    1  ->  of
+  41:    1  ->  out
+  42:    1  ->  psychopolis
+  43:    1  ->  rain
+  44:    1  ->  rumors
+  45:    1  ->  shy
+  46:    1  ->  staying
+  47:    1  ->  strong
+  48:    1  ->  terms
+  49:    1  ->  the
+  50:    1  ->  they
+  51:    1  ->  till
+  52:    1  ->  to
+  53:    1  ->  today
+  54:    1  ->  up
+  55:    1  ->  us
+  56:    1  ->  venizio
+  57:    1  ->  was
+  58:    1  ->  well
+  59:    1  ->  where's
+  60:    1  ->  whole
+  61:    1  ->  your
+     -------
+        66
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

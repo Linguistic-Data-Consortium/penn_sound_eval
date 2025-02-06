@@ -1,0 +1,226 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.1%   (  88)
+
+Percent Correct           =   93.3%   ( 901)
+
+Percent Substitution      =    3.9%   (  38)
+Percent Deletions         =    2.8%   (  27)
+Percent Insertions        =    2.4%   (  23)
+Percent Word Accuracy     =   90.9%
+
+
+Ref. words                =           ( 966)
+Hyp. words                =           ( 962)
+Aligned words             =           ( 989)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    1  ->  a ==> it
+   2:    1  ->  a ==> to
+   3:    1  ->  allen ==> alan
+   4:    1  ->  always ==> is
+   5:    1  ->  and ==> aunt
+   6:    1  ->  and ==> in
+   7:    1  ->  audibly ==> inaudibly
+   8:    1  ->  because ==> cuz
+   9:    1  ->  benefits ==> benefit
+  10:    1  ->  blank's ==> blanks
+  11:    1  ->  cum ==> come
+  12:    1  ->  discotheque ==> take
+  13:    1  ->  ginsberg ==> ginsburg
+  14:    1  ->  given ==> it
+  15:    1  ->  hiding ==> high
+  16:    1  ->  in ==> on
+  17:    1  ->  in ==> the
+  18:    1  ->  longawaited ==> awaited
+  19:    1  ->  mine ==> mind
+  20:    1  ->  mosquitos ==> sun
+  21:    1  ->  nerves ==> nurse
+  22:    1  ->  off ==> jackoff
+  23:    1  ->  paterson ==> patterson
+  24:    1  ->  pity ==> selfpity
+  25:    1  ->  ripoff ==> a
+  26:    1  ->  shaded ==> palmshaded
+  27:    1  ->  stomachaches ==> eggs
+  28:    1  ->  suite ==> sweet
+  29:    1  ->  sunburn ==> burn
+  30:    1  ->  tout ==> too
+  31:    1  ->  walk ==> walk"
+  32:    1  ->  were ==> give
+  33:    1  ->  what ==> "what
+  34:    1  ->  when ==> with
+  35:    1  ->  wrote ==> prometeo
+  36:    1  ->  x ==> any
+  37:    1  ->  x ==> lose
+  38:    1  ->  x ==> winnie
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  to
+   2:    1  ->  a
+   3:    1  ->  disco
+   4:    1  ->  go
+   5:    1  ->  in
+   6:    1  ->  just
+   7:    1  ->  laugh
+   8:    1  ->  long
+   9:    1  ->  make
+  10:    1  ->  minute
+  11:    1  ->  mosquitoes
+  12:    1  ->  off
+  13:    1  ->  people
+  14:    1  ->  rip
+  15:    1  ->  soon
+  16:    1  ->  stomach
+  17:    1  ->  the
+  18:    1  ->  them
+  19:    1  ->  these
+  20:    1  ->  want
+  21:    1  ->  will
+  22:    1  ->  you
+     -------
+        23
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    3  ->  not
+   2:    2  ->  i
+   3:    2  ->  x
+   4:    1  ->  a
+   5:    1  ->  am
+   6:    1  ->  been
+   7:    1  ->  corpus
+   8:    1  ->  do
+   9:    1  ->  excited
+  10:    1  ->  get
+  11:    1  ->  habeas
+  12:    1  ->  has
+  13:    1  ->  is
+  14:    1  ->  it's
+  15:    1  ->  jack
+  16:    1  ->  k.
+  17:    1  ->  o.
+  18:    1  ->  on
+  19:    1  ->  out
+  20:    1  ->  palm
+  21:    1  ->  poem
+  22:    1  ->  self
+  23:    1  ->  very
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  x
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  in
+   5:    1  ->  allen
+   6:    1  ->  always
+   7:    1  ->  audibly
+   8:    1  ->  because
+   9:    1  ->  benefits
+  10:    1  ->  blank's
+  11:    1  ->  cum
+  12:    1  ->  discotheque
+  13:    1  ->  ginsberg
+  14:    1  ->  given
+  15:    1  ->  hiding
+  16:    1  ->  longawaited
+  17:    1  ->  mine
+  18:    1  ->  mosquitos
+  19:    1  ->  nerves
+  20:    1  ->  off
+  21:    1  ->  paterson
+  22:    1  ->  pity
+  23:    1  ->  ripoff
+  24:    1  ->  shaded
+  25:    1  ->  stomachaches
+  26:    1  ->  suite
+  27:    1  ->  sunburn
+  28:    1  ->  tout
+  29:    1  ->  walk
+  30:    1  ->  were
+  31:    1  ->  what
+  32:    1  ->  when
+  33:    1  ->  wrote
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  it
+   2:    1  ->  "what
+   3:    1  ->  a
+   4:    1  ->  alan
+   5:    1  ->  any
+   6:    1  ->  aunt
+   7:    1  ->  awaited
+   8:    1  ->  benefit
+   9:    1  ->  blanks
+  10:    1  ->  burn
+  11:    1  ->  come
+  12:    1  ->  cuz
+  13:    1  ->  eggs
+  14:    1  ->  ginsburg
+  15:    1  ->  give
+  16:    1  ->  high
+  17:    1  ->  in
+  18:    1  ->  inaudibly
+  19:    1  ->  is
+  20:    1  ->  jackoff
+  21:    1  ->  lose
+  22:    1  ->  mind
+  23:    1  ->  nurse
+  24:    1  ->  on
+  25:    1  ->  palmshaded
+  26:    1  ->  patterson
+  27:    1  ->  prometeo
+  28:    1  ->  selfpity
+  29:    1  ->  sun
+  30:    1  ->  sweet
+  31:    1  ->  take
+  32:    1  ->  the
+  33:    1  ->  to
+  34:    1  ->  too
+  35:    1  ->  walk"
+  36:    1  ->  winnie
+  37:    1  ->  with
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

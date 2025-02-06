@@ -1,0 +1,153 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.8%   (  52)
+
+Percent Correct           =   96.3%   (1036)
+
+Percent Substitution      =    2.7%   (  29)
+Percent Deletions         =    1.0%   (  11)
+Percent Insertions        =    1.1%   (  12)
+Percent Word Accuracy     =   95.2%
+
+
+Ref. words                =           (1076)
+Hyp. words                =           (1077)
+Aligned words             =           (1088)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    5  ->  fifteen ==> five
+   2:    2  ->  ninety ==> nine
+   3:    2  ->  ten ==> oh
+   4:    2  ->  x ==> sinto
+   5:    1  ->  b ==> bee
+   6:    1  ->  bot ==> bought
+   7:    1  ->  eleven ==> one
+   8:    1  ->  get ==> will
+   9:    1  ->  illumined ==> ium
+  10:    1  ->  insufflations ==> insufflation
+  11:    1  ->  laney's ==> laney
+  12:    1  ->  mine ==> mind
+  13:    1  ->  naïve ==> naive
+  14:    1  ->  or ==> we
+  15:    1  ->  permutational ==> permutation
+  16:    1  ->  purpor ==> pur
+  17:    1  ->  this ==> the
+  18:    1  ->  wanted ==> to
+  19:    1  ->  were ==> your
+  20:    1  ->  works ==> work
+  21:    1  ->  x ==> d
+  22:    1  ->  x ==> estivate
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    6  ->  one
+   2:    1  ->  emily
+   3:    1  ->  i
+   4:    1  ->  it
+   5:    1  ->  or
+   6:    1  ->  them
+   7:    1  ->  want
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  i
+   2:    2  ->  the
+   3:    1  ->  but
+   4:    1  ->  eight
+   5:    1  ->  it
+   6:    1  ->  of
+   7:    1  ->  we
+   8:    1  ->  will
+   9:    1  ->  x
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    5  ->  fifteen
+   2:    4  ->  x
+   3:    2  ->  ninety
+   4:    2  ->  ten
+   5:    1  ->  b
+   6:    1  ->  bot
+   7:    1  ->  eleven
+   8:    1  ->  get
+   9:    1  ->  illumined
+  10:    1  ->  insufflations
+  11:    1  ->  laney's
+  12:    1  ->  mine
+  13:    1  ->  naïve
+  14:    1  ->  or
+  15:    1  ->  permutational
+  16:    1  ->  purpor
+  17:    1  ->  this
+  18:    1  ->  wanted
+  19:    1  ->  were
+  20:    1  ->  works
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    5  ->  five
+   2:    2  ->  nine
+   3:    2  ->  oh
+   4:    2  ->  sinto
+   5:    1  ->  bee
+   6:    1  ->  bought
+   7:    1  ->  d
+   8:    1  ->  estivate
+   9:    1  ->  insufflation
+  10:    1  ->  ium
+  11:    1  ->  laney
+  12:    1  ->  mind
+  13:    1  ->  naive
+  14:    1  ->  one
+  15:    1  ->  permutation
+  16:    1  ->  pur
+  17:    1  ->  the
+  18:    1  ->  to
+  19:    1  ->  we
+  20:    1  ->  will
+  21:    1  ->  work
+  22:    1  ->  your
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,198 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.5%   (  67)
+
+Percent Correct           =   95.0%   (1149)
+
+Percent Substitution      =    2.7%   (  33)
+Percent Deletions         =    2.3%   (  28)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   94.5%
+
+
+Ref. words                =           (1210)
+Hyp. words                =           (1188)
+Aligned words             =           (1216)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  a ==> amber
+   2:    1  ->  amis ==> amos
+   3:    1  ->  another ==> another's
+   4:    1  ->  carpentered ==> it
+   5:    1  ->  famous ==> anybody
+   6:    1  ->  flap ==> aflap
+   7:    1  ->  gone ==> going
+   8:    1  ->  handsaw ==> handsail
+   9:    1  ->  have ==> are
+  10:    1  ->  hole ==> hold
+  11:    1  ->  hourglass ==> glass
+  12:    1  ->  in ==> and
+  13:    1  ->  is ==> tastes
+  14:    1  ->  is ==> was
+  15:    1  ->  it's ==> am
+  16:    1  ->  leathered ==> levered
+  17:    1  ->  on ==> now
+  18:    1  ->  others ==> other's
+  19:    1  ->  planed ==> plain
+  20:    1  ->  realise ==> realised
+  21:    1  ->  sawed ==> saw
+  22:    1  ->  t ==> tea
+  23:    1  ->  the ==> a
+  24:    1  ->  the ==> this
+  25:    1  ->  the ==> with
+  26:    1  ->  through ==> to
+  27:    1  ->  til ==> till
+  28:    1  ->  toenail ==> nail
+  29:    1  ->  waist ==> waste
+  30:    1  ->  walk ==> walked
+  31:    1  ->  who ==> whom
+  32:    1  ->  window ==> winder
+  33:    1  ->  works ==> worked
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  cottoned
+   3:    1  ->  hour
+   4:    1  ->  i
+   5:    1  ->  on
+   6:    1  ->  toe
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    4  ->  i
+   2:    2  ->  am
+   3:    2  ->  and
+   4:    1  ->  a
+   5:    1  ->  about
+   6:    1  ->  anyone
+   7:    1  ->  as
+   8:    1  ->  at
+   9:    1  ->  good
+  10:    1  ->  has
+  11:    1  ->  her
+  12:    1  ->  in
+  13:    1  ->  is
+  14:    1  ->  it
+  15:    1  ->  it's
+  16:    1  ->  of
+  17:    1  ->  plumbed
+  18:    1  ->  sort
+  19:    1  ->  taste
+  20:    1  ->  the
+  21:    1  ->  there's
+  22:    1  ->  this
+  23:    1  ->  times
+     -------
+        28
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  the
+   2:    2  ->  is
+   3:    1  ->  a
+   4:    1  ->  amis
+   5:    1  ->  another
+   6:    1  ->  carpentered
+   7:    1  ->  famous
+   8:    1  ->  flap
+   9:    1  ->  gone
+  10:    1  ->  handsaw
+  11:    1  ->  have
+  12:    1  ->  hole
+  13:    1  ->  hourglass
+  14:    1  ->  in
+  15:    1  ->  it's
+  16:    1  ->  leathered
+  17:    1  ->  on
+  18:    1  ->  others
+  19:    1  ->  planed
+  20:    1  ->  realise
+  21:    1  ->  sawed
+  22:    1  ->  t
+  23:    1  ->  through
+  24:    1  ->  til
+  25:    1  ->  toenail
+  26:    1  ->  waist
+  27:    1  ->  walk
+  28:    1  ->  who
+  29:    1  ->  window
+  30:    1  ->  works
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  a
+   2:    1  ->  aflap
+   3:    1  ->  am
+   4:    1  ->  amber
+   5:    1  ->  amos
+   6:    1  ->  and
+   7:    1  ->  another's
+   8:    1  ->  anybody
+   9:    1  ->  are
+  10:    1  ->  glass
+  11:    1  ->  going
+  12:    1  ->  handsail
+  13:    1  ->  hold
+  14:    1  ->  it
+  15:    1  ->  levered
+  16:    1  ->  nail
+  17:    1  ->  now
+  18:    1  ->  other's
+  19:    1  ->  plain
+  20:    1  ->  realised
+  21:    1  ->  saw
+  22:    1  ->  tastes
+  23:    1  ->  tea
+  24:    1  ->  this
+  25:    1  ->  till
+  26:    1  ->  to
+  27:    1  ->  walked
+  28:    1  ->  was
+  29:    1  ->  waste
+  30:    1  ->  whom
+  31:    1  ->  winder
+  32:    1  ->  with
+  33:    1  ->  worked
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

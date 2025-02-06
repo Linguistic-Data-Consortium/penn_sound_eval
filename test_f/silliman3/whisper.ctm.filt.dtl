@@ -1,0 +1,201 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.5%   (  74)
+
+Percent Correct           =   93.2%   ( 925)
+
+Percent Substitution      =    3.8%   (  38)
+Percent Deletions         =    2.9%   (  29)
+Percent Insertions        =    0.7%   (   7)
+Percent Word Accuracy     =   92.5%
+
+
+Ref. words                =           ( 992)
+Hyp. words                =           ( 970)
+Aligned words             =           ( 999)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  a ==> the
+   2:    2  ->  landi ==> landy
+   3:    2  ->  point ==> 5
+   4:    1  ->  analogues ==> analogs
+   5:    1  ->  anton ==> antin
+   6:    1  ->  bones ==> poems
+   7:    1  ->  bronwich's ==> bromage's
+   8:    1  ->  eightieth ==> eddie
+   9:    1  ->  has ==> as
+  10:    1  ->  in ==> and
+  11:    1  ->  its ==> the
+  12:    1  ->  mottoes ==> mottos
+  13:    1  ->  of ==> a
+  14:    1  ->  oppression ==> suppression
+  15:    1  ->  others' ==> others
+  16:    1  ->  peers ==> is
+  17:    1  ->  plane ==> plene
+  18:    1  ->  premised ==> premise
+  19:    1  ->  question's ==> is
+  20:    1  ->  rig ==> great
+  21:    1  ->  seem ==> seems
+  22:    1  ->  sofala ==> cephala
+  23:    1  ->  tagmemic ==> tagmetic
+  24:    1  ->  the ==> a
+  25:    1  ->  thirteen ==> three
+  26:    1  ->  tight ==> of
+  27:    1  ->  together ==> altogether
+  28:    1  ->  towards ==> toward
+  29:    1  ->  twentieth ==> 20th
+  30:    1  ->  voloshinov ==> volashinov
+  31:    1  ->  voloshinov's ==> volusino's
+  32:    1  ->  well ==> although
+  33:    1  ->  wellek ==> willock
+  34:    1  ->  what ==> one
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  the
+   2:    1  ->  here
+   3:    1  ->  of
+   4:    1  ->  one
+   5:    1  ->  question
+   6:    1  ->  type
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  all
+   2:    2  ->  classic
+   3:    2  ->  five
+   4:    2  ->  in
+   5:    2  ->  of
+   6:    2  ->  this
+   7:    1  ->  a
+   8:    1  ->  and
+   9:    1  ->  intere
+  10:    1  ->  is
+  11:    1  ->  it
+  12:    1  ->  n
+  13:    1  ->  now
+  14:    1  ->  paragra
+  15:    1  ->  s
+  16:    1  ->  sen
+  17:    1  ->  t
+  18:    1  ->  th
+  19:    1  ->  that
+  20:    1  ->  these
+  21:    1  ->  two
+  22:    1  ->  type
+  23:    1  ->  x
+     -------
+        29
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  a
+   2:    2  ->  landi
+   3:    2  ->  point
+   4:    1  ->  analogues
+   5:    1  ->  anton
+   6:    1  ->  bones
+   7:    1  ->  bronwich's
+   8:    1  ->  eightieth
+   9:    1  ->  has
+  10:    1  ->  in
+  11:    1  ->  its
+  12:    1  ->  mottoes
+  13:    1  ->  of
+  14:    1  ->  oppression
+  15:    1  ->  others'
+  16:    1  ->  peers
+  17:    1  ->  plane
+  18:    1  ->  premised
+  19:    1  ->  question's
+  20:    1  ->  rig
+  21:    1  ->  seem
+  22:    1  ->  sofala
+  23:    1  ->  tagmemic
+  24:    1  ->  the
+  25:    1  ->  thirteen
+  26:    1  ->  tight
+  27:    1  ->  together
+  28:    1  ->  towards
+  29:    1  ->  twentieth
+  30:    1  ->  voloshinov
+  31:    1  ->  voloshinov's
+  32:    1  ->  well
+  33:    1  ->  wellek
+  34:    1  ->  what
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    4  ->  the
+   2:    2  ->  5
+   3:    2  ->  a
+   4:    2  ->  is
+   5:    2  ->  landy
+   6:    1  ->  20th
+   7:    1  ->  although
+   8:    1  ->  altogether
+   9:    1  ->  analogs
+  10:    1  ->  and
+  11:    1  ->  antin
+  12:    1  ->  as
+  13:    1  ->  bromage's
+  14:    1  ->  cephala
+  15:    1  ->  eddie
+  16:    1  ->  great
+  17:    1  ->  mottos
+  18:    1  ->  of
+  19:    1  ->  one
+  20:    1  ->  others
+  21:    1  ->  plene
+  22:    1  ->  poems
+  23:    1  ->  premise
+  24:    1  ->  seems
+  25:    1  ->  suppression
+  26:    1  ->  tagmetic
+  27:    1  ->  three
+  28:    1  ->  toward
+  29:    1  ->  volashinov
+  30:    1  ->  volusino's
+  31:    1  ->  willock
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

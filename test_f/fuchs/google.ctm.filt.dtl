@@ -1,0 +1,281 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.2%   (  97)
+
+Percent Correct           =   90.6%   ( 861)
+
+Percent Substitution      =    6.7%   (  64)
+Percent Deletions         =    2.6%   (  25)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   89.8%
+
+
+Ref. words                =           ( 950)
+Hyp. words                =           ( 933)
+Aligned words             =           ( 958)
+
+CONFUSION PAIRS                  Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:    3  ->  taped ==> tape
+   2:    2  ->  in ==> and
+   3:    1  ->  a ==> or
+   4:    1  ->  a ==> tna
+   5:    1  ->  a ==> twins
+   6:    1  ->  and ==> in
+   7:    1  ->  ansem ==> ansom
+   8:    1  ->  ansem's ==> ansom's
+   9:    1  ->  asked ==> asks
+  10:    1  ->  attendant ==> attended
+  11:    1  ->  bandanna ==> bandana
+  12:    1  ->  befriending ==> befriend
+  13:    1  ->  broken ==> heartbroken
+  14:    1  ->  casts ==> cast
+  15:    1  ->  colored ==> rustcolored
+  16:    1  ->  com ==> worldspycom
+  17:    1  ->  conditioned ==> airconditioned
+  18:    1  ->  crushed ==> crush
+  19:    1  ->  doctor ==> dr
+  20:    1  ->  duct ==> duck
+  21:    1  ->  eight ==> emotion
+  22:    1  ->  end ==> highend
+  23:    1  ->  families' ==> family's
+  24:    1  ->  feckless ==> ex
+  25:    1  ->  fill ==> phil
+  26:    1  ->  fourteenth ==> 14th
+  27:    1  ->  fourth ==> 4th
+  28:    1  ->  hamburger ==> hamburgers
+  29:    1  ->  how ==> "how
+  30:    1  ->  hundred ==> 1800
+  31:    1  ->  kids' ==> kids
+  32:    1  ->  know ==> no
+  33:    1  ->  lee ==> look
+  34:    1  ->  lookalike ==> alike
+  35:    1  ->  m ==> s&m
+  36:    1  ->  me ==> me"
+  37:    1  ->  meika ==> micah
+  38:    1  ->  mind ==> mine
+  39:    1  ->  mommas ==> mamas
+  40:    1  ->  my ==> "my
+  41:    1  ->  nights ==> knights
+  42:    1  ->  on ==> in
+  43:    1  ->  onto ==> to
+  44:    1  ->  open ==> and
+  45:    1  ->  pasa ==> pesa
+  46:    1  ->  phat ==> fat
+  47:    1  ->  prowl ==> prow
+  48:    1  ->  pushe ==> push
+  49:    1  ->  que ==> k
+  50:    1  ->  scheme ==> skiene
+  51:    1  ->  schemerhorn ==> horn
+  52:    1  ->  sleep ==> fecklessly
+  53:    1  ->  snakeskin ==> skin
+  54:    1  ->  spike ==> spikily
+  55:    1  ->  stares ==> stairs
+  56:    1  ->  twins' ==> twins
+  57:    1  ->  up ==> windup
+  58:    1  ->  walkman ==> walk
+  59:    1  ->  wise ==> babelwise
+  60:    1  ->  yo ==> yoyo
+  61:    1  ->  you ==> you"
+     -------
+        64
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  are
+   3:    1  ->  it
+   4:    1  ->  on
+   5:    1  ->  pain
+   6:    1  ->  shimmer
+   7:    1  ->  snakes
+   8:    1  ->  tambour
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  dollar
+   2:    2  ->  and
+   3:    1  ->  air
+   4:    1  ->  babble
+   5:    1  ->  cle
+   6:    1  ->  dot
+   7:    1  ->  have
+   8:    1  ->  heart
+   9:    1  ->  high
+  10:    1  ->  in
+  11:    1  ->  me
+  12:    1  ->  motion
+  13:    1  ->  one
+  14:    1  ->  rust
+  15:    1  ->  s
+  16:    1  ->  spy
+  17:    1  ->  t
+  18:    1  ->  twins'
+  19:    1  ->  wind
+  20:    1  ->  world
+  21:    1  ->  x
+  22:    1  ->  yo
+     -------
+        25
+
+
+
+SUBSTITUTIONS                    Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    3  ->  a
+   2:    3  ->  taped
+   3:    2  ->  in
+   4:    1  ->  and
+   5:    1  ->  ansem
+   6:    1  ->  ansem's
+   7:    1  ->  asked
+   8:    1  ->  attendant
+   9:    1  ->  bandanna
+  10:    1  ->  befriending
+  11:    1  ->  broken
+  12:    1  ->  casts
+  13:    1  ->  colored
+  14:    1  ->  com
+  15:    1  ->  conditioned
+  16:    1  ->  crushed
+  17:    1  ->  doctor
+  18:    1  ->  duct
+  19:    1  ->  eight
+  20:    1  ->  end
+  21:    1  ->  families'
+  22:    1  ->  feckless
+  23:    1  ->  fill
+  24:    1  ->  fourteenth
+  25:    1  ->  fourth
+  26:    1  ->  hamburger
+  27:    1  ->  how
+  28:    1  ->  hundred
+  29:    1  ->  kids'
+  30:    1  ->  know
+  31:    1  ->  lee
+  32:    1  ->  lookalike
+  33:    1  ->  m
+  34:    1  ->  me
+  35:    1  ->  meika
+  36:    1  ->  mind
+  37:    1  ->  mommas
+  38:    1  ->  my
+  39:    1  ->  nights
+  40:    1  ->  on
+  41:    1  ->  onto
+  42:    1  ->  open
+  43:    1  ->  pasa
+  44:    1  ->  phat
+  45:    1  ->  prowl
+  46:    1  ->  pushe
+  47:    1  ->  que
+  48:    1  ->  scheme
+  49:    1  ->  schemerhorn
+  50:    1  ->  sleep
+  51:    1  ->  snakeskin
+  52:    1  ->  spike
+  53:    1  ->  stares
+  54:    1  ->  twins'
+  55:    1  ->  up
+  56:    1  ->  walkman
+  57:    1  ->  wise
+  58:    1  ->  yo
+  59:    1  ->  you
+     -------
+        64
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (58)
+                                 With >=  1 occurrences (58)
+
+   1:    3  ->  and
+   2:    3  ->  tape
+   3:    2  ->  in
+   4:    2  ->  twins
+   5:    1  ->  "how
+   6:    1  ->  "my
+   7:    1  ->  14th
+   8:    1  ->  1800
+   9:    1  ->  4th
+  10:    1  ->  airconditioned
+  11:    1  ->  alike
+  12:    1  ->  ansom
+  13:    1  ->  ansom's
+  14:    1  ->  asks
+  15:    1  ->  attended
+  16:    1  ->  babelwise
+  17:    1  ->  bandana
+  18:    1  ->  befriend
+  19:    1  ->  cast
+  20:    1  ->  crush
+  21:    1  ->  dr
+  22:    1  ->  duck
+  23:    1  ->  emotion
+  24:    1  ->  ex
+  25:    1  ->  family's
+  26:    1  ->  fat
+  27:    1  ->  fecklessly
+  28:    1  ->  hamburgers
+  29:    1  ->  heartbroken
+  30:    1  ->  highend
+  31:    1  ->  horn
+  32:    1  ->  k
+  33:    1  ->  kids
+  34:    1  ->  knights
+  35:    1  ->  look
+  36:    1  ->  mamas
+  37:    1  ->  me"
+  38:    1  ->  micah
+  39:    1  ->  mine
+  40:    1  ->  no
+  41:    1  ->  or
+  42:    1  ->  pesa
+  43:    1  ->  phil
+  44:    1  ->  prow
+  45:    1  ->  push
+  46:    1  ->  rustcolored
+  47:    1  ->  s&m
+  48:    1  ->  skiene
+  49:    1  ->  skin
+  50:    1  ->  spikily
+  51:    1  ->  stairs
+  52:    1  ->  tna
+  53:    1  ->  to
+  54:    1  ->  walk
+  55:    1  ->  windup
+  56:    1  ->  worldspycom
+  57:    1  ->  you"
+  58:    1  ->  yoyo
+     -------
+        64
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,186 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.8%   (  58)
+
+Percent Correct           =   95.8%   (1159)
+
+Percent Substitution      =    2.9%   (  35)
+Percent Deletions         =    1.3%   (  16)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   95.2%
+
+
+Ref. words                =           (1210)
+Hyp. words                =           (1201)
+Aligned words             =           (1217)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  fourteen ==> four
+   2:    2  ->  the ==> a
+   3:    2  ->  twenty ==> two
+   4:    1  ->  amis ==> amos
+   5:    1  ->  broker ==> powerbroker
+   6:    1  ->  glides ==> glass
+   7:    1  ->  gone ==> going
+   8:    1  ->  handsaw ==> saw
+   9:    1  ->  have ==> are
+  10:    1  ->  hole ==> hold
+  11:    1  ->  in ==> and
+  12:    1  ->  is ==> tastes
+  13:    1  ->  is ==> was
+  14:    1  ->  it's ==> am
+  15:    1  ->  leathered ==> levered
+  16:    1  ->  on ==> now
+  17:    1  ->  one ==> when
+  18:    1  ->  others ==> other's
+  19:    1  ->  owned ==> own
+  20:    1  ->  planed ==> plain
+  21:    1  ->  pm ==> m
+  22:    1  ->  realise ==> realised
+  23:    1  ->  sawed ==> sold
+  24:    1  ->  schoolgirl ==> girl
+  25:    1  ->  seal ==> sealed
+  26:    1  ->  the ==> this
+  27:    1  ->  the ==> with
+  28:    1  ->  through ==> to
+  29:    1  ->  til ==> till
+  30:    1  ->  waist ==> waste
+  31:    1  ->  who ==> whom
+  32:    1  ->  works ==> worked
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  one
+   2:    1  ->  and
+   3:    1  ->  hand
+   4:    1  ->  i
+   5:    1  ->  p
+   6:    1  ->  school
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  i
+   2:    1  ->  about
+   3:    1  ->  am
+   4:    1  ->  and
+   5:    1  ->  as
+   6:    1  ->  her
+   7:    1  ->  in
+   8:    1  ->  is
+   9:    1  ->  it
+  10:    1  ->  it's
+  11:    1  ->  power
+  12:    1  ->  taste
+  13:    1  ->  there's
+  14:    1  ->  this
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  the
+   2:    2  ->  fourteen
+   3:    2  ->  is
+   4:    2  ->  twenty
+   5:    1  ->  amis
+   6:    1  ->  broker
+   7:    1  ->  glides
+   8:    1  ->  gone
+   9:    1  ->  handsaw
+  10:    1  ->  have
+  11:    1  ->  hole
+  12:    1  ->  in
+  13:    1  ->  it's
+  14:    1  ->  leathered
+  15:    1  ->  on
+  16:    1  ->  one
+  17:    1  ->  others
+  18:    1  ->  owned
+  19:    1  ->  planed
+  20:    1  ->  pm
+  21:    1  ->  realise
+  22:    1  ->  sawed
+  23:    1  ->  schoolgirl
+  24:    1  ->  seal
+  25:    1  ->  through
+  26:    1  ->  til
+  27:    1  ->  waist
+  28:    1  ->  who
+  29:    1  ->  works
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  a
+   2:    2  ->  four
+   3:    2  ->  two
+   4:    1  ->  am
+   5:    1  ->  amos
+   6:    1  ->  and
+   7:    1  ->  are
+   8:    1  ->  girl
+   9:    1  ->  glass
+  10:    1  ->  going
+  11:    1  ->  hold
+  12:    1  ->  levered
+  13:    1  ->  m
+  14:    1  ->  now
+  15:    1  ->  other's
+  16:    1  ->  own
+  17:    1  ->  plain
+  18:    1  ->  powerbroker
+  19:    1  ->  realised
+  20:    1  ->  saw
+  21:    1  ->  sealed
+  22:    1  ->  sold
+  23:    1  ->  tastes
+  24:    1  ->  this
+  25:    1  ->  till
+  26:    1  ->  to
+  27:    1  ->  was
+  28:    1  ->  waste
+  29:    1  ->  when
+  30:    1  ->  whom
+  31:    1  ->  with
+  32:    1  ->  worked
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

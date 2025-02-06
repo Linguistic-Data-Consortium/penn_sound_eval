@@ -1,0 +1,168 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.6%   ( 190)
+
+Percent Correct           =   96.2%   (1037)
+
+Percent Substitution      =    2.2%   (  24)
+Percent Deletions         =    1.6%   (  17)
+Percent Insertions        =   13.8%   ( 149)
+Percent Word Accuracy     =   82.4%
+
+
+Ref. words                =           (1078)
+Hyp. words                =           (1210)
+Aligned words             =           (1227)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  fourteenth ==> 14th
+   2:    1  ->  and ==> eighteen
+   3:    1  ->  and ==> in
+   4:    1  ->  conservative's ==> as
+   5:    1  ->  dentist's ==> dentist
+   6:    1  ->  dollars ==> oh
+   7:    1  ->  doorjamb ==> jamb
+   8:    1  ->  down ==> and
+   9:    1  ->  high ==> 20foothigh
+  10:    1  ->  landladies ==> landlady
+  11:    1  ->  penned ==> and
+  12:    1  ->  protection ==> selfprotection
+  13:    1  ->  realise ==> realised
+  14:    1  ->  room ==> threeroom
+  15:    1  ->  seven ==> 7
+  16:    1  ->  sixteen ==> six
+  17:    1  ->  sixty ==> oh
+  18:    1  ->  that ==> it
+  19:    1  ->  the ==> a
+  20:    1  ->  them ==> then
+  21:    1  ->  towards ==> toward
+  22:    1  ->  twenty ==> two
+  23:    1  ->  year ==> fiveyear
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:   21  ->  i
+   2:   21  ->  later
+   3:   21  ->  see
+   4:   21  ->  you
+   5:   20  ->  am
+   6:   20  ->  going
+   7:   20  ->  to
+   8:    1  ->  and
+   9:    1  ->  conservative
+  10:    1  ->  door
+  11:    1  ->  one
+  12:    1  ->  will
+     -------
+       149
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  a
+   2:    1  ->  bo
+   3:    1  ->  eight
+   4:    1  ->  five
+   5:    1  ->  foot
+   6:    1  ->  got
+   7:    1  ->  hundred
+   8:    1  ->  i
+   9:    1  ->  one
+  10:    1  ->  self
+  11:    1  ->  slowed
+  12:    1  ->  so
+  13:    1  ->  ten
+  14:    1  ->  the
+  15:    1  ->  thousand
+  16:    1  ->  three
+  17:    1  ->  twenty
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  and
+   2:    2  ->  fourteenth
+   3:    1  ->  conservative's
+   4:    1  ->  dentist's
+   5:    1  ->  dollars
+   6:    1  ->  doorjamb
+   7:    1  ->  down
+   8:    1  ->  high
+   9:    1  ->  landladies
+  10:    1  ->  penned
+  11:    1  ->  protection
+  12:    1  ->  realise
+  13:    1  ->  room
+  14:    1  ->  seven
+  15:    1  ->  sixteen
+  16:    1  ->  sixty
+  17:    1  ->  that
+  18:    1  ->  the
+  19:    1  ->  them
+  20:    1  ->  towards
+  21:    1  ->  twenty
+  22:    1  ->  year
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  14th
+   2:    2  ->  and
+   3:    2  ->  oh
+   4:    1  ->  20foothigh
+   5:    1  ->  7
+   6:    1  ->  a
+   7:    1  ->  as
+   8:    1  ->  dentist
+   9:    1  ->  eighteen
+  10:    1  ->  fiveyear
+  11:    1  ->  in
+  12:    1  ->  it
+  13:    1  ->  jamb
+  14:    1  ->  landlady
+  15:    1  ->  realised
+  16:    1  ->  selfprotection
+  17:    1  ->  six
+  18:    1  ->  then
+  19:    1  ->  threeroom
+  20:    1  ->  toward
+  21:    1  ->  two
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

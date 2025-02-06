@@ -1,0 +1,178 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.3%   (  51)
+
+Percent Correct           =   94.6%   ( 766)
+
+Percent Substitution      =    4.2%   (  34)
+Percent Deletions         =    1.2%   (  10)
+Percent Insertions        =    0.9%   (   7)
+Percent Word Accuracy     =   93.7%
+
+
+Ref. words                =           ( 810)
+Hyp. words                =           ( 807)
+Aligned words             =           ( 817)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  gianlorenzo ==> lorenzo
+   2:    2  ->  in ==> and
+   3:    1  ->  a ==> the
+   4:    1  ->  aire ==> ay
+   5:    1  ->  bare ==> bear
+   6:    1  ->  bauble ==> bobble
+   7:    1  ->  bower ==> and
+   8:    1  ->  chemise ==> chamise
+   9:    1  ->  constanza ==> castanza
+  10:    1  ->  costanza ==> castanza
+  11:    1  ->  distant ==> instant
+  12:    1  ->  eight ==> 2008
+  13:    1  ->  et ==> a
+  14:    1  ->  exogeny ==> exogen
+  15:    1  ->  gtmo ==> bauer
+  16:    1  ->  guessed ==> guess
+  17:    1  ->  he ==> you
+  18:    1  ->  illusory ==> illusionary
+  19:    1  ->  is ==> has
+  20:    1  ->  lead ==> led
+  21:    1  ->  lucca ==> luca
+  22:    1  ->  mathilda's ==> matilda's
+  23:    1  ->  matteo ==> mateo
+  24:    1  ->  nine ==> 2009
+  25:    1  ->  s ==> sw
+  26:    1  ->  saint ==> st
+  27:    1  ->  seventies ==> 1970s
+  28:    1  ->  the ==> a
+  29:    1  ->  twenty ==> two
+  30:    1  ->  un ==> and
+  31:    1  ->  wittkower’s ==> er's
+  32:    1  ->  zookeepers' ==> zookeepers
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  a
+   2:    2  ->  jean
+   3:    1  ->  <laugh>
+   4:    1  ->  gimo
+   5:    1  ->  i
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  thousand
+   2:    2  ->  two
+   3:    1  ->  is
+   4:    1  ->  nineteen
+   5:    1  ->  oh
+   6:    1  ->  p
+   7:    1  ->  t
+   8:    1  ->  u
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  gianlorenzo
+   2:    2  ->  in
+   3:    1  ->  a
+   4:    1  ->  aire
+   5:    1  ->  bare
+   6:    1  ->  bauble
+   7:    1  ->  bower
+   8:    1  ->  chemise
+   9:    1  ->  constanza
+  10:    1  ->  costanza
+  11:    1  ->  distant
+  12:    1  ->  eight
+  13:    1  ->  et
+  14:    1  ->  exogeny
+  15:    1  ->  gtmo
+  16:    1  ->  guessed
+  17:    1  ->  he
+  18:    1  ->  illusory
+  19:    1  ->  is
+  20:    1  ->  lead
+  21:    1  ->  lucca
+  22:    1  ->  mathilda's
+  23:    1  ->  matteo
+  24:    1  ->  nine
+  25:    1  ->  s
+  26:    1  ->  saint
+  27:    1  ->  seventies
+  28:    1  ->  the
+  29:    1  ->  twenty
+  30:    1  ->  un
+  31:    1  ->  wittkower’s
+  32:    1  ->  zookeepers'
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    4  ->  and
+   2:    2  ->  a
+   3:    2  ->  castanza
+   4:    2  ->  lorenzo
+   5:    1  ->  1970s
+   6:    1  ->  2008
+   7:    1  ->  2009
+   8:    1  ->  ay
+   9:    1  ->  bauer
+  10:    1  ->  bear
+  11:    1  ->  bobble
+  12:    1  ->  chamise
+  13:    1  ->  er's
+  14:    1  ->  exogen
+  15:    1  ->  guess
+  16:    1  ->  has
+  17:    1  ->  illusionary
+  18:    1  ->  instant
+  19:    1  ->  led
+  20:    1  ->  luca
+  21:    1  ->  mateo
+  22:    1  ->  matilda's
+  23:    1  ->  st
+  24:    1  ->  sw
+  25:    1  ->  the
+  26:    1  ->  two
+  27:    1  ->  you
+  28:    1  ->  zookeepers
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

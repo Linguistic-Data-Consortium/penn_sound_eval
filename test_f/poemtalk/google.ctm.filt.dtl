@@ -1,0 +1,216 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.2%   ( 107)
+
+Percent Correct           =   91.6%   ( 957)
+
+Percent Substitution      =    4.5%   (  47)
+Percent Deletions         =    3.9%   (  41)
+Percent Insertions        =    1.8%   (  19)
+Percent Word Accuracy     =   89.8%
+
+
+Ref. words                =           (1045)
+Hyp. words                =           (1023)
+Aligned words             =           (1064)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    5  ->  i ==> eye
+   2:    2  ->  and ==> in
+   3:    2  ->  fifteen ==> five
+   4:    2  ->  x ==> in
+   5:    1  ->  a ==> an
+   6:    1  ->  a ==> to
+   7:    1  ->  all ==> "all
+   8:    1  ->  altogether ==> together
+   9:    1  ->  antipersona ==> persona
+  10:    1  ->  be ==> else
+  11:    1  ->  big ==> see
+  12:    1  ->  connection ==> connection"
+  13:    1  ->  conservation ==> conversation
+  14:    1  ->  ethical ==> it's
+  15:    1  ->  have ==> yeah
+  16:    1  ->  in ==> an
+  17:    1  ->  inner ==> a
+  18:    1  ->  ism ==> talkism
+  19:    1  ->  it's ==> that's
+  20:    1  ->  its ==> it's
+  21:    1  ->  of ==> a
+  22:    1  ->  oh ==> k.
+  23:    1  ->  show ==> so
+  24:    1  ->  so ==> some
+  25:    1  ->  so ==> though
+  26:    1  ->  soci ==> social
+  27:    1  ->  stages ==> as
+  28:    1  ->  th ==> the
+  29:    1  ->  that ==> the
+  30:    1  ->  that ==> them
+  31:    1  ->  theirs ==> it's
+  32:    1  ->  then ==> in
+  33:    1  ->  thought ==> think
+  34:    1  ->  to ==> just
+  35:    1  ->  x ==> course
+  36:    1  ->  x ==> mean
+  37:    1  ->  x ==> o.
+  38:    1  ->  x ==> seriously
+  39:    1  ->  x ==> undercutting
+  40:    1  ->  x ==> with
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  of
+   2:    2  ->  one
+   3:    2  ->  there
+   4:    1  ->  all
+   5:    1  ->  and
+   6:    1  ->  anti
+   7:    1  ->  as
+   8:    1  ->  i
+   9:    1  ->  in
+  10:    1  ->  k.
+  11:    1  ->  o.
+  12:    1  ->  on
+  13:    1  ->  stage
+  14:    1  ->  think
+  15:    1  ->  we
+  16:    1  ->  you
+     -------
+        19
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:   11  ->  x
+   2:    4  ->  %bcack
+   3:    3  ->  a
+   4:    2  ->  e
+   5:    2  ->  s
+   6:    2  ->  you
+   7:    1  ->  and
+   8:    1  ->  at
+   9:    1  ->  but
+  10:    1  ->  em
+  11:    1  ->  fact
+  12:    1  ->  it
+  13:    1  ->  r
+  14:    1  ->  right
+  15:    1  ->  so
+  16:    1  ->  talk
+  17:    1  ->  th
+  18:    1  ->  that
+  19:    1  ->  the
+  20:    1  ->  to
+  21:    1  ->  well
+  22:    1  ->  y
+  23:    1  ->  yes
+     -------
+        41
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    8  ->  x
+   2:    5  ->  i
+   3:    2  ->  a
+   4:    2  ->  and
+   5:    2  ->  fifteen
+   6:    2  ->  so
+   7:    2  ->  that
+   8:    1  ->  all
+   9:    1  ->  altogether
+  10:    1  ->  antipersona
+  11:    1  ->  be
+  12:    1  ->  big
+  13:    1  ->  connection
+  14:    1  ->  conservation
+  15:    1  ->  ethical
+  16:    1  ->  have
+  17:    1  ->  in
+  18:    1  ->  inner
+  19:    1  ->  ism
+  20:    1  ->  it's
+  21:    1  ->  its
+  22:    1  ->  of
+  23:    1  ->  oh
+  24:    1  ->  show
+  25:    1  ->  soci
+  26:    1  ->  stages
+  27:    1  ->  th
+  28:    1  ->  theirs
+  29:    1  ->  then
+  30:    1  ->  thought
+  31:    1  ->  to
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    5  ->  eye
+   2:    5  ->  in
+   3:    3  ->  it's
+   4:    2  ->  a
+   5:    2  ->  an
+   6:    2  ->  five
+   7:    2  ->  the
+   8:    1  ->  "all
+   9:    1  ->  as
+  10:    1  ->  connection"
+  11:    1  ->  conversation
+  12:    1  ->  course
+  13:    1  ->  else
+  14:    1  ->  just
+  15:    1  ->  k.
+  16:    1  ->  mean
+  17:    1  ->  o.
+  18:    1  ->  persona
+  19:    1  ->  see
+  20:    1  ->  seriously
+  21:    1  ->  so
+  22:    1  ->  social
+  23:    1  ->  some
+  24:    1  ->  talkism
+  25:    1  ->  that's
+  26:    1  ->  them
+  27:    1  ->  think
+  28:    1  ->  though
+  29:    1  ->  to
+  30:    1  ->  together
+  31:    1  ->  undercutting
+  32:    1  ->  with
+  33:    1  ->  yeah
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

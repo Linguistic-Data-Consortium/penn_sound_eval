@@ -1,0 +1,209 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.3%   (  70)
+
+Percent Correct           =   91.7%   ( 689)
+
+Percent Substitution      =    7.6%   (  57)
+Percent Deletions         =    0.7%   (   5)
+Percent Insertions        =    1.1%   (   8)
+Percent Word Accuracy     =   90.7%
+
+
+Ref. words                =           ( 751)
+Hyp. words                =           ( 754)
+Aligned words             =           ( 759)
+
+CONFUSION PAIRS                  Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    7  ->  psalm ==> song
+   2:    2  ->  psalm ==> sam
+   3:    2  ->  psalm ==> some
+   4:    2  ->  psalms ==> songs
+   5:    1  ->  a ==> an
+   6:    1  ->  a ==> at
+   7:    1  ->  a ==> the
+   8:    1  ->  alms ==> arms
+   9:    1  ->  amulet ==> ambulance
+  10:    1  ->  an ==> and
+  11:    1  ->  cot ==> cat
+  12:    1  ->  erudite ==> audit
+  13:    1  ->  eruptions ==> eruption
+  14:    1  ->  exist ==> exists
+  15:    1  ->  for ==> samford
+  16:    1  ->  heroine ==> heroin
+  17:    1  ->  j ==> jay
+  18:    1  ->  jades ==> jade's
+  19:    1  ->  kyger ==> kiger
+  20:    1  ->  lost ==> last
+  21:    1  ->  lost ==> of
+  22:    1  ->  lost ==> park
+  23:    1  ->  mesh ==> mash
+  24:    1  ->  nets ==> nuts
+  25:    1  ->  nor ==> or
+  26:    1  ->  noun ==> known
+  27:    1  ->  parentheses ==> parenthesis
+  28:    1  ->  parkour ==> corp
+  29:    1  ->  parkour ==> horse
+  30:    1  ->  parkour ==> parker
+  31:    1  ->  psalm ==> i
+  32:    1  ->  psalm ==> son
+  33:    1  ->  psalm ==> sound
+  34:    1  ->  psalms ==> sam's
+  35:    1  ->  psalms ==> sams
+  36:    1  ->  reading ==> meeting
+  37:    1  ->  rebbe ==> rabbi
+  38:    1  ->  sonnets ==> sonics
+  39:    1  ->  sung ==> song
+  40:    1  ->  taut ==> tot
+  41:    1  ->  th ==> that
+  42:    1  ->  th ==> the
+  43:    1  ->  tout ==> out
+  44:    1  ->  treasons ==> a
+  45:    1  ->  uninscribed ==> inscribed
+  46:    1  ->  x ==> anglers
+  47:    1  ->  x ==> comfort
+  48:    1  ->  you ==> ou
+     -------
+        57
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    4  ->  i
+   2:    1  ->  and
+   3:    1  ->  last
+   4:    1  ->  park
+   5:    1  ->  treason
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  oh
+   2:    1  ->  a
+   3:    1  ->  in
+   4:    1  ->  ps
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:   14  ->  psalm
+   2:    4  ->  psalms
+   3:    3  ->  a
+   4:    3  ->  lost
+   5:    3  ->  parkour
+   6:    2  ->  th
+   7:    2  ->  x
+   8:    1  ->  alms
+   9:    1  ->  amulet
+  10:    1  ->  an
+  11:    1  ->  cot
+  12:    1  ->  erudite
+  13:    1  ->  eruptions
+  14:    1  ->  exist
+  15:    1  ->  for
+  16:    1  ->  heroine
+  17:    1  ->  j
+  18:    1  ->  jades
+  19:    1  ->  kyger
+  20:    1  ->  mesh
+  21:    1  ->  nets
+  22:    1  ->  nor
+  23:    1  ->  noun
+  24:    1  ->  parentheses
+  25:    1  ->  reading
+  26:    1  ->  rebbe
+  27:    1  ->  sonnets
+  28:    1  ->  sung
+  29:    1  ->  taut
+  30:    1  ->  tout
+  31:    1  ->  treasons
+  32:    1  ->  uninscribed
+  33:    1  ->  you
+     -------
+        57
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    8  ->  song
+   2:    2  ->  sam
+   3:    2  ->  some
+   4:    2  ->  songs
+   5:    2  ->  the
+   6:    1  ->  a
+   7:    1  ->  ambulance
+   8:    1  ->  an
+   9:    1  ->  and
+  10:    1  ->  anglers
+  11:    1  ->  arms
+  12:    1  ->  at
+  13:    1  ->  audit
+  14:    1  ->  cat
+  15:    1  ->  comfort
+  16:    1  ->  corp
+  17:    1  ->  eruption
+  18:    1  ->  exists
+  19:    1  ->  heroin
+  20:    1  ->  horse
+  21:    1  ->  i
+  22:    1  ->  inscribed
+  23:    1  ->  jade's
+  24:    1  ->  jay
+  25:    1  ->  kiger
+  26:    1  ->  known
+  27:    1  ->  last
+  28:    1  ->  mash
+  29:    1  ->  meeting
+  30:    1  ->  nuts
+  31:    1  ->  of
+  32:    1  ->  or
+  33:    1  ->  ou
+  34:    1  ->  out
+  35:    1  ->  parenthesis
+  36:    1  ->  park
+  37:    1  ->  parker
+  38:    1  ->  rabbi
+  39:    1  ->  sam's
+  40:    1  ->  samford
+  41:    1  ->  sams
+  42:    1  ->  son
+  43:    1  ->  sonics
+  44:    1  ->  sound
+  45:    1  ->  that
+  46:    1  ->  tot
+     -------
+        57
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

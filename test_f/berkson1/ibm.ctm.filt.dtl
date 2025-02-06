@@ -1,0 +1,227 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.6%   (  88)
+
+Percent Correct           =   90.9%   ( 831)
+
+Percent Substitution      =    5.0%   (  46)
+Percent Deletions         =    4.0%   (  37)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   90.4%
+
+
+Ref. words                =           ( 914)
+Hyp. words                =           ( 882)
+Aligned words             =           ( 919)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    3  ->  icebox ==> box
+   2:    3  ->  poem ==> phone
+   3:    2  ->  plums ==> plus
+   4:    1  ->  %bcack ==> delarosa
+   5:    1  ->  and ==> in
+   6:    1  ->  bluhm ==> bloom
+   7:    1  ->  carlos ==> cross
+   8:    1  ->  carlos ==> polis
+   9:    1  ->  casay ==> cassa
+  10:    1  ->  claven's ==> clavin
+  11:    1  ->  davide ==> david
+  12:    1  ->  diaghilev ==> degale
+  13:    1  ->  dolorosa ==> matter
+  14:    1  ->  doom ==> dum
+  15:    1  ->  either ==> other
+  16:    1  ->  fading ==> shading
+  17:    1  ->  fagin ==> fagan
+  18:    1  ->  fuck ==> ***
+  19:    1  ->  fucking ==> ***
+  20:    1  ->  glennan's ==> glenn's
+  21:    1  ->  heathens ==> heaven
+  22:    1  ->  in ==> an
+  23:    1  ->  mcgillivray's ==> gulliver's
+  24:    1  ->  mcgivern's ==> mcgivern
+  25:    1  ->  md ==> d
+  26:    1  ->  musique ==> music
+  27:    1  ->  of ==> palm
+  28:    1  ->  of ==> whereas
+  29:    1  ->  or ==> lila
+  30:    1  ->  pitcher ==> picture
+  31:    1  ->  plat ==> offer
+  32:    1  ->  plums ==> plum
+  33:    1  ->  poem ==> pam
+  34:    1  ->  ron ==> run
+  35:    1  ->  sapeep ==> sapp
+  36:    1  ->  stripe ==> strike
+  37:    1  ->  the ==> a
+  38:    1  ->  we ==> were
+  39:    1  ->  went ==> wins
+  40:    1  ->  williams' ==> williams
+  41:    1  ->  with ==> of
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    3  ->  ice
+   2:    1  ->  a
+   3:    1  ->  m
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  a
+   2:    2  ->  take
+   3:    2  ->  that
+   4:    2  ->  we
+   5:    1  ->  actually
+   6:    1  ->  come
+   7:    1  ->  had
+   8:    1  ->  halfway
+   9:    1  ->  i
+  10:    1  ->  if
+  11:    1  ->  is
+  12:    1  ->  k.
+  13:    1  ->  le
+  14:    1  ->  let
+  15:    1  ->  mater
+  16:    1  ->  me
+  17:    1  ->  meet
+  18:    1  ->  o.
+  19:    1  ->  oeufs
+  20:    1  ->  poem
+  21:    1  ->  so
+  22:    1  ->  stage
+  23:    1  ->  sur
+  24:    1  ->  ted
+  25:    1  ->  time
+  26:    1  ->  to
+  27:    1  ->  up
+  28:    1  ->  water
+  29:    1  ->  where
+  30:    1  ->  will
+  31:    1  ->  x
+  32:    1  ->  you
+  33:    1  ->  your
+     -------
+        37
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    4  ->  poem
+   2:    3  ->  icebox
+   3:    3  ->  plums
+   4:    2  ->  carlos
+   5:    2  ->  of
+   6:    1  ->  %bcack
+   7:    1  ->  and
+   8:    1  ->  bluhm
+   9:    1  ->  casay
+  10:    1  ->  claven's
+  11:    1  ->  davide
+  12:    1  ->  diaghilev
+  13:    1  ->  dolorosa
+  14:    1  ->  doom
+  15:    1  ->  either
+  16:    1  ->  fading
+  17:    1  ->  fagin
+  18:    1  ->  fuck
+  19:    1  ->  fucking
+  20:    1  ->  glennan's
+  21:    1  ->  heathens
+  22:    1  ->  in
+  23:    1  ->  mcgillivray's
+  24:    1  ->  mcgivern's
+  25:    1  ->  md
+  26:    1  ->  musique
+  27:    1  ->  or
+  28:    1  ->  pitcher
+  29:    1  ->  plat
+  30:    1  ->  ron
+  31:    1  ->  sapeep
+  32:    1  ->  stripe
+  33:    1  ->  the
+  34:    1  ->  we
+  35:    1  ->  went
+  36:    1  ->  williams'
+  37:    1  ->  with
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  box
+   2:    3  ->  phone
+   3:    2  ->  ***
+   4:    2  ->  plus
+   5:    1  ->  a
+   6:    1  ->  an
+   7:    1  ->  bloom
+   8:    1  ->  cassa
+   9:    1  ->  clavin
+  10:    1  ->  cross
+  11:    1  ->  d
+  12:    1  ->  david
+  13:    1  ->  degale
+  14:    1  ->  delarosa
+  15:    1  ->  dum
+  16:    1  ->  fagan
+  17:    1  ->  glenn's
+  18:    1  ->  gulliver's
+  19:    1  ->  heaven
+  20:    1  ->  in
+  21:    1  ->  lila
+  22:    1  ->  matter
+  23:    1  ->  mcgivern
+  24:    1  ->  music
+  25:    1  ->  of
+  26:    1  ->  offer
+  27:    1  ->  other
+  28:    1  ->  palm
+  29:    1  ->  pam
+  30:    1  ->  picture
+  31:    1  ->  plum
+  32:    1  ->  polis
+  33:    1  ->  run
+  34:    1  ->  sapp
+  35:    1  ->  shading
+  36:    1  ->  strike
+  37:    1  ->  were
+  38:    1  ->  whereas
+  39:    1  ->  williams
+  40:    1  ->  wins
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

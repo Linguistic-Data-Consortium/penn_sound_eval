@@ -1,0 +1,353 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.0%   ( 135)
+
+Percent Correct           =   86.4%   ( 776)
+
+Percent Substitution      =   10.9%   (  98)
+Percent Deletions         =    2.7%   (  24)
+Percent Insertions        =    1.4%   (  13)
+Percent Word Accuracy     =   85.0%
+
+
+Ref. words                =           ( 898)
+Hyp. words                =           ( 887)
+Aligned words             =           ( 911)
+
+CONFUSION PAIRS                  Total                 (92)
+                                 With >=  1 occurrences (92)
+
+   1:    3  ->  no ==> know
+   2:    2  ->  mourning ==> morning
+   3:    2  ->  poem ==> palm
+   4:    2  ->  provenance ==> providence
+   5:    2  ->  resist ==> this
+   6:    1  ->  a ==> on
+   7:    1  ->  a ==> the
+   8:    1  ->  and ==> in
+   9:    1  ->  and ==> pushing
+  10:    1  ->  as ==> is
+  11:    1  ->  astride ==> stride
+  12:    1  ->  because ==> but
+  13:    1  ->  bleiben ==> is
+  14:    1  ->  bleiben ==> on
+  15:    1  ->  bright ==> right
+  16:    1  ->  brightness ==> dryness
+  17:    1  ->  brightness ==> miss
+  18:    1  ->  degre ==> degree
+  19:    1  ->  denn ==> dan
+  20:    1  ->  denn ==> live
+  21:    1  ->  denn ==> livin
+  22:    1  ->  englobed ==> globe
+  23:    1  ->  fold ==> food
+  24:    1  ->  fullness ==> fulness
+  25:    1  ->  going ==> have
+  26:    1  ->  going ==> this
+  27:    1  ->  heartbreaking ==> and
+  28:    1  ->  henna ==> a
+  29:    1  ->  here ==> tighter
+  30:    1  ->  hinged ==> huge
+  31:    1  ->  in ==> dana
+  32:    1  ->  in ==> merrin
+  33:    1  ->  ing ==> exciting
+  34:    1  ->  ink ==> in
+  35:    1  ->  ist ==> east
+  36:    1  ->  ist ==> near
+  37:    1  ->  it ==> digit
+  38:    1  ->  it ==> have
+  39:    1  ->  jot ==> got
+  40:    1  ->  keats ==> sought
+  41:    1  ->  know ==> others
+  42:    1  ->  looming ==> losing
+  43:    1  ->  mnemosyne ==> lumosity
+  44:    1  ->  nirgends ==> against
+  45:    1  ->  nirgends ==> nugent
+  46:    1  ->  not ==> in
+  47:    1  ->  ns ==> ends
+  48:    1  ->  of ==> in
+  49:    1  ->  of ==> live
+  50:    1  ->  one ==> soon
+  51:    1  ->  palimpsest ==> complicit
+  52:    1  ->  parentheses ==> parenthesis
+  53:    1  ->  parnassius ==> parnassus
+  54:    1  ->  poem ==> come
+  55:    1  ->  poems ==> palms
+  56:    1  ->  rainbow ==> rabo
+  57:    1  ->  red ==> rid
+  58:    1  ->  redness ==> witness
+  59:    1  ->  riven ==> driven
+  60:    1  ->  rooted ==> routed
+  61:    1  ->  rs ==> ours
+  62:    1  ->  saldana ==> call
+  63:    1  ->  setting ==> sending
+  64:    1  ->  shadowed ==> shattered
+  65:    1  ->  shadows ==> shadow
+  66:    1  ->  shadows ==> shadowed
+  67:    1  ->  snorkels ==> snorkle
+  68:    1  ->  so ==> and
+  69:    1  ->  sonnet ==> at
+  70:    1  ->  starter ==> started
+  71:    1  ->  swallowtail ==> tail
+  72:    1  ->  that ==> yesthat
+  73:    1  ->  the ==> that
+  74:    1  ->  their ==> are
+  75:    1  ->  then ==> that
+  76:    1  ->  there's ==> were
+  77:    1  ->  those ==> this
+  78:    1  ->  thought ==> sought
+  79:    1  ->  throes ==> throws
+  80:    1  ->  tight ==> tightest
+  81:    1  ->  tight ==> type
+  82:    1  ->  to ==> been
+  83:    1  ->  to ==> could
+  84:    1  ->  torn ==> torrent
+  85:    1  ->  trackable ==> intractable
+  86:    1  ->  two ==> too
+  87:    1  ->  want ==> wanted
+  88:    1  ->  was ==> were
+  89:    1  ->  wing ==> win
+  90:    1  ->  wor ==> not
+  91:    1  ->  you ==> the
+  92:    1  ->  ys ==> wise
+     -------
+        98
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  dan
+   2:    2  ->  was
+   3:    1  ->  and
+   4:    1  ->  bright
+   5:    1  ->  hand
+   6:    1  ->  heartbreak
+   7:    1  ->  is
+   8:    1  ->  kid
+   9:    1  ->  of
+  10:    1  ->  swallow
+  11:    1  ->  they
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  a
+   2:    1  ->  am
+   3:    1  ->  and
+   4:    1  ->  are
+   5:    1  ->  german
+   6:    1  ->  gul
+   7:    1  ->  in
+   8:    1  ->  indy
+   9:    1  ->  ink
+  10:    1  ->  is
+  11:    1  ->  just
+  12:    1  ->  l
+  13:    1  ->  line
+  14:    1  ->  push
+  15:    1  ->  s
+  16:    1  ->  subtle
+  17:    1  ->  tact
+  18:    1  ->  the
+  19:    1  ->  there's
+  20:    1  ->  un
+  21:    1  ->  we
+  22:    1  ->  x
+  23:    1  ->  yes
+     -------
+        24
+
+
+
+SUBSTITUTIONS                    Total                 (76)
+                                 With >=  1 occurrences (76)
+
+   1:    3  ->  denn
+   2:    3  ->  no
+   3:    3  ->  poem
+   4:    2  ->  a
+   5:    2  ->  and
+   6:    2  ->  bleiben
+   7:    2  ->  brightness
+   8:    2  ->  going
+   9:    2  ->  in
+  10:    2  ->  ist
+  11:    2  ->  it
+  12:    2  ->  mourning
+  13:    2  ->  nirgends
+  14:    2  ->  of
+  15:    2  ->  provenance
+  16:    2  ->  resist
+  17:    2  ->  shadows
+  18:    2  ->  tight
+  19:    2  ->  to
+  20:    1  ->  as
+  21:    1  ->  astride
+  22:    1  ->  because
+  23:    1  ->  bright
+  24:    1  ->  degre
+  25:    1  ->  englobed
+  26:    1  ->  fold
+  27:    1  ->  fullness
+  28:    1  ->  heartbreaking
+  29:    1  ->  henna
+  30:    1  ->  here
+  31:    1  ->  hinged
+  32:    1  ->  ing
+  33:    1  ->  ink
+  34:    1  ->  jot
+  35:    1  ->  keats
+  36:    1  ->  know
+  37:    1  ->  looming
+  38:    1  ->  mnemosyne
+  39:    1  ->  not
+  40:    1  ->  ns
+  41:    1  ->  one
+  42:    1  ->  palimpsest
+  43:    1  ->  parentheses
+  44:    1  ->  parnassius
+  45:    1  ->  poems
+  46:    1  ->  rainbow
+  47:    1  ->  red
+  48:    1  ->  redness
+  49:    1  ->  riven
+  50:    1  ->  rooted
+  51:    1  ->  rs
+  52:    1  ->  saldana
+  53:    1  ->  setting
+  54:    1  ->  shadowed
+  55:    1  ->  snorkels
+  56:    1  ->  so
+  57:    1  ->  sonnet
+  58:    1  ->  starter
+  59:    1  ->  swallowtail
+  60:    1  ->  that
+  61:    1  ->  the
+  62:    1  ->  their
+  63:    1  ->  then
+  64:    1  ->  there's
+  65:    1  ->  those
+  66:    1  ->  thought
+  67:    1  ->  throes
+  68:    1  ->  torn
+  69:    1  ->  trackable
+  70:    1  ->  two
+  71:    1  ->  want
+  72:    1  ->  was
+  73:    1  ->  wing
+  74:    1  ->  wor
+  75:    1  ->  you
+  76:    1  ->  ys
+     -------
+        98
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (78)
+                                 With >=  1 occurrences (78)
+
+   1:    4  ->  in
+   2:    4  ->  this
+   3:    3  ->  know
+   4:    2  ->  and
+   5:    2  ->  have
+   6:    2  ->  is
+   7:    2  ->  live
+   8:    2  ->  morning
+   9:    2  ->  on
+  10:    2  ->  palm
+  11:    2  ->  providence
+  12:    2  ->  sought
+  13:    2  ->  that
+  14:    2  ->  the
+  15:    2  ->  were
+  16:    1  ->  a
+  17:    1  ->  against
+  18:    1  ->  are
+  19:    1  ->  at
+  20:    1  ->  been
+  21:    1  ->  but
+  22:    1  ->  call
+  23:    1  ->  come
+  24:    1  ->  complicit
+  25:    1  ->  could
+  26:    1  ->  dan
+  27:    1  ->  dana
+  28:    1  ->  degree
+  29:    1  ->  digit
+  30:    1  ->  driven
+  31:    1  ->  dryness
+  32:    1  ->  east
+  33:    1  ->  ends
+  34:    1  ->  exciting
+  35:    1  ->  food
+  36:    1  ->  fulness
+  37:    1  ->  globe
+  38:    1  ->  got
+  39:    1  ->  huge
+  40:    1  ->  intractable
+  41:    1  ->  livin
+  42:    1  ->  losing
+  43:    1  ->  lumosity
+  44:    1  ->  merrin
+  45:    1  ->  miss
+  46:    1  ->  near
+  47:    1  ->  not
+  48:    1  ->  nugent
+  49:    1  ->  others
+  50:    1  ->  ours
+  51:    1  ->  palms
+  52:    1  ->  parenthesis
+  53:    1  ->  parnassus
+  54:    1  ->  pushing
+  55:    1  ->  rabo
+  56:    1  ->  rid
+  57:    1  ->  right
+  58:    1  ->  routed
+  59:    1  ->  sending
+  60:    1  ->  shadow
+  61:    1  ->  shadowed
+  62:    1  ->  shattered
+  63:    1  ->  snorkle
+  64:    1  ->  soon
+  65:    1  ->  started
+  66:    1  ->  stride
+  67:    1  ->  tail
+  68:    1  ->  throws
+  69:    1  ->  tighter
+  70:    1  ->  tightest
+  71:    1  ->  too
+  72:    1  ->  torrent
+  73:    1  ->  type
+  74:    1  ->  wanted
+  75:    1  ->  win
+  76:    1  ->  wise
+  77:    1  ->  witness
+  78:    1  ->  yesthat
+     -------
+        98
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

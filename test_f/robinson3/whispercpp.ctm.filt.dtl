@@ -1,0 +1,157 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.3%   (  55)
+
+Percent Correct           =   95.4%   ( 992)
+
+Percent Substitution      =    1.9%   (  20)
+Percent Deletions         =    2.7%   (  28)
+Percent Insertions        =    0.7%   (   7)
+Percent Word Accuracy     =   94.7%
+
+
+Ref. words                =           (1040)
+Hyp. words                =           (1019)
+Aligned words             =           (1047)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  ten ==> oh
+   2:    1  ->  and ==> them
+   3:    1  ->  and ==> to
+   4:    1  ->  came ==> cane
+   5:    1  ->  combined ==> combine
+   6:    1  ->  draws ==> dross
+   7:    1  ->  eyed ==> glassyeyed
+   8:    1  ->  following ==> halffollowing
+   9:    1  ->  inscribed ==> preinscribed
+  10:    1  ->  jena ==> jenna
+  11:    1  ->  now ==> and
+  12:    1  ->  onto ==> to
+  13:    1  ->  osman ==> osmond
+  14:    1  ->  planes ==> plains
+  15:    1  ->  seventies ==> 70s
+  16:    1  ->  spahr ==> sparr
+  17:    1  ->  the ==> a
+  18:    1  ->  ups ==> changeups
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  the
+   2:    1  ->  of
+   3:    1  ->  on
+   4:    1  ->  or
+   5:    1  ->  this
+   6:    1  ->  train
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    3  ->  a
+   2:    1  ->  change
+   3:    1  ->  could
+   4:    1  ->  e
+   5:    1  ->  from
+   6:    1  ->  glassy
+   7:    1  ->  half
+   8:    1  ->  in
+   9:    1  ->  inside
+  10:    1  ->  it
+  11:    1  ->  lowercase
+  12:    1  ->  next
+  13:    1  ->  nothing
+  14:    1  ->  po
+  15:    1  ->  pre
+  16:    1  ->  set
+  17:    1  ->  shop
+  18:    1  ->  so
+  19:    1  ->  space
+  20:    1  ->  that
+  21:    1  ->  the
+  22:    1  ->  there
+  23:    1  ->  to
+  24:    1  ->  up
+  25:    1  ->  was
+  26:    1  ->  you
+     -------
+        28
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    3  ->  ten
+   2:    2  ->  and
+   3:    1  ->  came
+   4:    1  ->  combined
+   5:    1  ->  draws
+   6:    1  ->  eyed
+   7:    1  ->  following
+   8:    1  ->  inscribed
+   9:    1  ->  jena
+  10:    1  ->  now
+  11:    1  ->  onto
+  12:    1  ->  osman
+  13:    1  ->  planes
+  14:    1  ->  seventies
+  15:    1  ->  spahr
+  16:    1  ->  the
+  17:    1  ->  ups
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    3  ->  oh
+   2:    2  ->  to
+   3:    1  ->  70s
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  cane
+   7:    1  ->  changeups
+   8:    1  ->  combine
+   9:    1  ->  dross
+  10:    1  ->  glassyeyed
+  11:    1  ->  halffollowing
+  12:    1  ->  jenna
+  13:    1  ->  osmond
+  14:    1  ->  plains
+  15:    1  ->  preinscribed
+  16:    1  ->  sparr
+  17:    1  ->  them
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,112 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.1%   (  15)
+
+Percent Correct           =   98.1%   ( 709)
+
+Percent Substitution      =    1.7%   (  12)
+Percent Deletions         =    0.3%   (   2)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   97.9%
+
+
+Ref. words                =           ( 723)
+Hyp. words                =           ( 722)
+Aligned words             =           ( 724)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  awls ==> alls
+   2:    1  ->  chimera ==> mira
+   3:    1  ->  combustable ==> combustible
+   4:    1  ->  gulley ==> gully
+   5:    1  ->  historiated ==> ated
+   6:    1  ->  incipits ==> kipps
+   7:    1  ->  lehman ==> layman
+   8:    1  ->  managed ==> mannered
+   9:    1  ->  scuro ==> kero
+  10:    1  ->  slice ==> notch
+  11:    1  ->  splay ==> display
+  12:    1  ->  strage ==> je
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  in
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  chiaro
+   2:    1  ->  la
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  awls
+   2:    1  ->  chimera
+   3:    1  ->  combustable
+   4:    1  ->  gulley
+   5:    1  ->  historiated
+   6:    1  ->  incipits
+   7:    1  ->  lehman
+   8:    1  ->  managed
+   9:    1  ->  scuro
+  10:    1  ->  slice
+  11:    1  ->  splay
+  12:    1  ->  strage
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  alls
+   2:    1  ->  ated
+   3:    1  ->  combustible
+   4:    1  ->  display
+   5:    1  ->  gully
+   6:    1  ->  je
+   7:    1  ->  kero
+   8:    1  ->  kipps
+   9:    1  ->  layman
+  10:    1  ->  mannered
+  11:    1  ->  mira
+  12:    1  ->  notch
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

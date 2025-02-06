@@ -1,0 +1,127 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.2%   (  23)
+
+Percent Correct           =   97.9%   (1011)
+
+Percent Substitution      =    1.8%   (  19)
+Percent Deletions         =    0.3%   (   3)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   97.8%
+
+
+Ref. words                =           (1033)
+Hyp. words                =           (1031)
+Aligned words             =           (1034)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  air ==> error
+   2:    2  ->  m ==> em
+   3:    1  ->  celsius ==> °c
+   4:    1  ->  degrees ==> oh
+   5:    1  ->  experience ==> experienced
+   6:    1  ->  feeling's ==> feelings
+   7:    1  ->  for ==> from
+   8:    1  ->  haunted ==> at
+   9:    1  ->  ho ==> how
+  10:    1  ->  it ==> and
+  11:    1  ->  moods ==> moves
+  12:    1  ->  o ==> if
+  13:    1  ->  rewritings ==> rewriting
+  14:    1  ->  ten ==> oh
+  15:    1  ->  this ==> the
+  16:    1  ->  thrown ==> throw
+  17:    1  ->  your ==> you
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  hunt
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  and
+   2:    1  ->  as
+   3:    1  ->  thirty
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  air
+   2:    2  ->  m
+   3:    1  ->  celsius
+   4:    1  ->  degrees
+   5:    1  ->  experience
+   6:    1  ->  feeling's
+   7:    1  ->  for
+   8:    1  ->  haunted
+   9:    1  ->  ho
+  10:    1  ->  it
+  11:    1  ->  moods
+  12:    1  ->  o
+  13:    1  ->  rewritings
+  14:    1  ->  ten
+  15:    1  ->  this
+  16:    1  ->  thrown
+  17:    1  ->  your
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  em
+   2:    2  ->  error
+   3:    2  ->  oh
+   4:    1  ->  and
+   5:    1  ->  at
+   6:    1  ->  experienced
+   7:    1  ->  feelings
+   8:    1  ->  from
+   9:    1  ->  how
+  10:    1  ->  if
+  11:    1  ->  moves
+  12:    1  ->  rewriting
+  13:    1  ->  the
+  14:    1  ->  throw
+  15:    1  ->  you
+  16:    1  ->  °c
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

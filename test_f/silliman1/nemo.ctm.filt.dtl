@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.0%   (  61)
+
+Percent Correct           =   93.3%   ( 814)
+
+Percent Substitution      =    1.4%   (  12)
+Percent Deletions         =    5.3%   (  46)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   93.0%
+
+
+Ref. words                =           ( 872)
+Hyp. words                =           ( 829)
+Aligned words             =           ( 875)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  hurdle ==> hurtle
+   2:    1  ->  and ==> in
+   3:    1  ->  balled ==> bald
+   4:    1  ->  comments ==> comment
+   5:    1  ->  listserv ==> serve
+   6:    1  ->  mind ==> mine
+   7:    1  ->  self ==> themselves
+   8:    1  ->  streetlamp ==> lamp
+   9:    1  ->  that ==> out
+  10:    1  ->  thing ==> generation
+  11:    1  ->  tomb ==> tune
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  gender
+   2:    1  ->  list
+   3:    1  ->  street
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    5  ->  i
+   2:    5  ->  the
+   3:    4  ->  you
+   4:    3  ->  know
+   5:    3  ->  x
+   6:    2  ->  it's
+   7:    2  ->  like
+   8:    2  ->  of
+   9:    1  ->  a
+  10:    1  ->  abo
+  11:    1  ->  faction
+  12:    1  ->  from
+  13:    1  ->  g
+  14:    1  ->  gender
+  15:    1  ->  generational
+  16:    1  ->  get
+  17:    1  ->  if
+  18:    1  ->  l
+  19:    1  ->  lot
+  20:    1  ->  my
+  21:    1  ->  talked
+  22:    1  ->  than
+  23:    1  ->  them
+  24:    1  ->  traction
+  25:    1  ->  university
+  26:    1  ->  was
+  27:    1  ->  witness
+  28:    1  ->  yes
+     -------
+        46
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  hurdle
+   2:    1  ->  and
+   3:    1  ->  balled
+   4:    1  ->  comments
+   5:    1  ->  listserv
+   6:    1  ->  mind
+   7:    1  ->  self
+   8:    1  ->  streetlamp
+   9:    1  ->  that
+  10:    1  ->  thing
+  11:    1  ->  tomb
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  hurtle
+   2:    1  ->  bald
+   3:    1  ->  comment
+   4:    1  ->  generation
+   5:    1  ->  in
+   6:    1  ->  lamp
+   7:    1  ->  mine
+   8:    1  ->  out
+   9:    1  ->  serve
+  10:    1  ->  themselves
+  11:    1  ->  tune
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

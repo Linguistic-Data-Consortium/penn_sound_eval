@@ -1,0 +1,143 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.9%   (  31)
+
+Percent Correct           =   96.8%   ( 765)
+
+Percent Substitution      =    2.8%   (  22)
+Percent Deletions         =    0.4%   (   3)
+Percent Insertions        =    0.8%   (   6)
+Percent Word Accuracy     =   96.1%
+
+
+Ref. words                =           ( 790)
+Hyp. words                =           ( 793)
+Aligned words             =           ( 796)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  reentrance ==> entrance
+   2:    1  ->  about ==> out
+   3:    1  ->  aerodynamic ==> dynamic
+   4:    1  ->  an ==> and
+   5:    1  ->  are ==> were
+   6:    1  ->  as ==> languages
+   7:    1  ->  balloon ==> boom
+   8:    1  ->  closeup ==> up
+   9:    1  ->  either ==> ether
+  10:    1  ->  eviction ==> fiction
+  11:    1  ->  forty ==> oh
+  12:    1  ->  g ==> jib
+  13:    1  ->  he ==> you
+  14:    1  ->  homebase ==> base
+  15:    1  ->  in ==> and
+  16:    1  ->  kim ==> khin
+  17:    1  ->  phan ==> fon
+  18:    1  ->  syvash ==> sivash
+  19:    1  ->  the ==> a
+  20:    1  ->  though ==> through
+  21:    1  ->  well ==> while
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  re
+   2:    1  ->  aero
+   3:    1  ->  close
+   4:    1  ->  home
+   5:    1  ->  if
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  as
+   2:    1  ->  language
+   3:    1  ->  spree
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  reentrance
+   2:    1  ->  about
+   3:    1  ->  aerodynamic
+   4:    1  ->  an
+   5:    1  ->  are
+   6:    1  ->  as
+   7:    1  ->  balloon
+   8:    1  ->  closeup
+   9:    1  ->  either
+  10:    1  ->  eviction
+  11:    1  ->  forty
+  12:    1  ->  g
+  13:    1  ->  he
+  14:    1  ->  homebase
+  15:    1  ->  in
+  16:    1  ->  kim
+  17:    1  ->  phan
+  18:    1  ->  syvash
+  19:    1  ->  the
+  20:    1  ->  though
+  21:    1  ->  well
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  and
+   2:    2  ->  entrance
+   3:    1  ->  a
+   4:    1  ->  base
+   5:    1  ->  boom
+   6:    1  ->  dynamic
+   7:    1  ->  ether
+   8:    1  ->  fiction
+   9:    1  ->  fon
+  10:    1  ->  jib
+  11:    1  ->  khin
+  12:    1  ->  languages
+  13:    1  ->  oh
+  14:    1  ->  out
+  15:    1  ->  sivash
+  16:    1  ->  through
+  17:    1  ->  up
+  18:    1  ->  were
+  19:    1  ->  while
+  20:    1  ->  you
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,153 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.1%   (  44)
+
+Percent Correct           =   96.2%   (1025)
+
+Percent Substitution      =    2.5%   (  27)
+Percent Deletions         =    1.3%   (  14)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   95.9%
+
+
+Ref. words                =           (1066)
+Hyp. words                =           (1055)
+Aligned words             =           (1069)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  law ==> sisterinlaw
+   2:    2  ->  oh ==> 0
+   3:    2  ->  return ==> returned
+   4:    2  ->  x ==> our
+   5:    1  ->  a ==> the
+   6:    1  ->  address ==> dress
+   7:    1  ->  alecks ==> alex
+   8:    1  ->  are ==> your
+   9:    1  ->  at ==> in
+  10:    1  ->  auster ==> oster
+  11:    1  ->  can ==> could
+  12:    1  ->  course ==> chorus
+  13:    1  ->  families ==> family's
+  14:    1  ->  fifteen ==> 15th
+  15:    1  ->  hundred ==> zero
+  16:    1  ->  hustvedt ==> <inaudible>
+  17:    1  ->  mail ==> male
+  18:    1  ->  satisfaction ==> selfsatisfaction
+  19:    1  ->  scant ==> scanned
+  20:    1  ->  ten ==> oh
+  21:    1  ->  thousand ==> 10000
+  22:    1  ->  twelve ==> two
+  23:    1  ->  written ==> typewritten
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  <laugh>
+   2:    1  ->  one
+   3:    1  ->  quote
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    3  ->  a
+   2:    3  ->  and
+   3:    2  ->  in
+   4:    2  ->  sister
+   5:    1  ->  self
+   6:    1  ->  ten
+   7:    1  ->  type
+   8:    1  ->  you
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  law
+   2:    2  ->  oh
+   3:    2  ->  return
+   4:    2  ->  x
+   5:    1  ->  a
+   6:    1  ->  address
+   7:    1  ->  alecks
+   8:    1  ->  are
+   9:    1  ->  at
+  10:    1  ->  auster
+  11:    1  ->  can
+  12:    1  ->  course
+  13:    1  ->  families
+  14:    1  ->  fifteen
+  15:    1  ->  hundred
+  16:    1  ->  hustvedt
+  17:    1  ->  mail
+  18:    1  ->  satisfaction
+  19:    1  ->  scant
+  20:    1  ->  ten
+  21:    1  ->  thousand
+  22:    1  ->  twelve
+  23:    1  ->  written
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  0
+   2:    2  ->  our
+   3:    2  ->  returned
+   4:    2  ->  sisterinlaw
+   5:    1  ->  10000
+   6:    1  ->  15th
+   7:    1  ->  <inaudible>
+   8:    1  ->  alex
+   9:    1  ->  chorus
+  10:    1  ->  could
+  11:    1  ->  dress
+  12:    1  ->  family's
+  13:    1  ->  in
+  14:    1  ->  male
+  15:    1  ->  oh
+  16:    1  ->  oster
+  17:    1  ->  scanned
+  18:    1  ->  selfsatisfaction
+  19:    1  ->  the
+  20:    1  ->  two
+  21:    1  ->  typewritten
+  22:    1  ->  your
+  23:    1  ->  zero
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

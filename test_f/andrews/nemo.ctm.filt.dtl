@@ -1,0 +1,386 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.8%   ( 154)
+
+Percent Correct           =   84.5%   ( 694)
+
+Percent Substitution      =   14.3%   ( 117)
+Percent Deletions         =    1.2%   (  10)
+Percent Insertions        =    3.3%   (  27)
+Percent Word Accuracy     =   81.2%
+
+
+Ref. words                =           ( 821)
+Hyp. words                =           ( 838)
+Aligned words             =           ( 848)
+
+CONFUSION PAIRS                  Total                 (114)
+                                 With >=  1 occurrences (114)
+
+   1:    3  ->  a ==> the
+   2:    2  ->  the ==> a
+   3:    1  ->  all ==> old
+   4:    1  ->  an ==> and
+   5:    1  ->  and ==> as
+   6:    1  ->  and ==> in
+   7:    1  ->  are ==> the
+   8:    1  ->  baseman ==> basement
+   9:    1  ->  be ==> ruby
+  10:    1  ->  be ==> the
+  11:    1  ->  boredom ==> borden
+  12:    1  ->  brooklynese ==> burgundy's
+  13:    1  ->  but ==> up
+  14:    1  ->  by ==> are
+  15:    1  ->  by ==> at
+  16:    1  ->  can ==> should
+  17:    1  ->  capital ==> capitol
+  18:    1  ->  card ==> hot
+  19:    1  ->  charred ==> charmed
+  20:    1  ->  chaucer ==> chaucer's
+  21:    1  ->  colored ==> cold
+  22:    1  ->  devouring ==> bowling
+  23:    1  ->  dish ==> ditch
+  24:    1  ->  distractions ==> distraction
+  25:    1  ->  does ==> winter's
+  26:    1  ->  drove ==> throwing
+  27:    1  ->  face's ==> race's
+  28:    1  ->  fire ==> ground
+  29:    1  ->  for ==> but
+  30:    1  ->  for ==> four
+  31:    1  ->  geoffrey ==> jeffrey
+  32:    1  ->  green ==> gloom
+  33:    1  ->  here ==> if
+  34:    1  ->  his ==> the
+  35:    1  ->  i ==> one
+  36:    1  ->  if ==> it
+  37:    1  ->  its ==> his
+  38:    1  ->  layer ==> litter
+  39:    1  ->  longer ==> run
+  40:    1  ->  louisville ==> luteal
+  41:    1  ->  masonic ==> massage
+  42:    1  ->  morning ==> mourning
+  43:    1  ->  no ==> will
+  44:    1  ->  our ==> on
+  45:    1  ->  returned ==> return
+  46:    1  ->  rose ==> nose
+  47:    1  ->  sexual ==> follow
+  48:    1  ->  slugger ==> slaughter
+  49:    1  ->  smegma ==> smega
+  50:    1  ->  smell ==> two
+  51:    1  ->  terror ==> parallel
+  52:    1  ->  the ==> you
+  53:    1  ->  there ==> fillet
+  54:    1  ->  these ==> b's
+  55:    1  ->  they ==> for
+  56:    1  ->  through ==> with
+  57:    1  ->  to ==> they
+  58:    1  ->  wait ==> wheat
+  59:    1  ->  was ==> always
+  60:    1  ->  way ==> more
+  61:    1  ->  were ==> or
+  62:    1  ->  were ==> where
+  63:    1  ->  when ==> where
+  64:    1  ->  whitefish ==> wife
+  65:    1  ->  wigwam ==> lock
+  66:    1  ->  will ==> the
+  67:    1  ->  x ==> abrasive
+  68:    1  ->  x ==> air
+  69:    1  ->  x ==> are
+  70:    1  ->  x ==> armpit
+  71:    1  ->  x ==> arms
+  72:    1  ->  x ==> beaudry
+  73:    1  ->  x ==> boats
+  74:    1  ->  x ==> bookcase
+  75:    1  ->  x ==> cannons
+  76:    1  ->  x ==> contable
+  77:    1  ->  x ==> decoder
+  78:    1  ->  x ==> falling
+  79:    1  ->  x ==> festall
+  80:    1  ->  x ==> gesso
+  81:    1  ->  x ==> greenberg
+  82:    1  ->  x ==> hills
+  83:    1  ->  x ==> home
+  84:    1  ->  x ==> hudson
+  85:    1  ->  x ==> if
+  86:    1  ->  x ==> interurban
+  87:    1  ->  x ==> into
+  88:    1  ->  x ==> june
+  89:    1  ->  x ==> linking
+  90:    1  ->  x ==> loop
+  91:    1  ->  x ==> manner
+  92:    1  ->  x ==> newhouser
+  93:    1  ->  x ==> nose
+  94:    1  ->  x ==> of
+  95:    1  ->  x ==> orchid
+  96:    1  ->  x ==> padding
+  97:    1  ->  x ==> par
+  98:    1  ->  x ==> paul
+  99:    1  ->  x ==> porter's
+ 100:    1  ->  x ==> quilts
+ 101:    1  ->  x ==> shown
+ 102:    1  ->  x ==> store
+ 103:    1  ->  x ==> stump
+ 104:    1  ->  x ==> throated
+ 105:    1  ->  x ==> tweezing
+ 106:    1  ->  x ==> wall
+ 107:    1  ->  x ==> well
+ 108:    1  ->  x ==> windy
+ 109:    1  ->  x ==> wisdom's
+ 110:    1  ->  x ==> your
+ 111:    1  ->  x ==> zabars
+ 112:    1  ->  x ==> zoil
+ 113:    1  ->  year ==> you
+ 114:    1  ->  your ==> samuel
+     -------
+       117
+
+
+
+INSERTIONS                       Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    3  ->  the
+   2:    2  ->  and
+   3:    2  ->  one
+   4:    1  ->  am
+   5:    1  ->  cough
+   6:    1  ->  court
+   7:    1  ->  drop
+   8:    1  ->  five
+   9:    1  ->  garden
+  10:    1  ->  hal
+  11:    1  ->  i
+  12:    1  ->  king
+  13:    1  ->  livium
+  14:    1  ->  meadow
+  15:    1  ->  mean
+  16:    1  ->  meta
+  17:    1  ->  paul
+  18:    1  ->  shoe
+  19:    1  ->  smellway
+  20:    1  ->  that
+  21:    1  ->  west
+  22:    1  ->  wig
+  23:    1  ->  you
+     -------
+        27
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  the
+   2:    2  ->  x
+   3:    1  ->  joke
+   4:    1  ->  so
+   5:    1  ->  some
+   6:    1  ->  there
+   7:    1  ->  when
+   8:    1  ->  will
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (63)
+                                 With >=  1 occurrences (63)
+
+   1:   46  ->  x
+   2:    3  ->  a
+   3:    3  ->  the
+   4:    2  ->  and
+   5:    2  ->  be
+   6:    2  ->  by
+   7:    2  ->  for
+   8:    2  ->  were
+   9:    1  ->  all
+  10:    1  ->  an
+  11:    1  ->  are
+  12:    1  ->  baseman
+  13:    1  ->  boredom
+  14:    1  ->  brooklynese
+  15:    1  ->  but
+  16:    1  ->  can
+  17:    1  ->  capital
+  18:    1  ->  card
+  19:    1  ->  charred
+  20:    1  ->  chaucer
+  21:    1  ->  colored
+  22:    1  ->  devouring
+  23:    1  ->  dish
+  24:    1  ->  distractions
+  25:    1  ->  does
+  26:    1  ->  drove
+  27:    1  ->  face's
+  28:    1  ->  fire
+  29:    1  ->  geoffrey
+  30:    1  ->  green
+  31:    1  ->  here
+  32:    1  ->  his
+  33:    1  ->  i
+  34:    1  ->  if
+  35:    1  ->  its
+  36:    1  ->  layer
+  37:    1  ->  longer
+  38:    1  ->  louisville
+  39:    1  ->  masonic
+  40:    1  ->  morning
+  41:    1  ->  no
+  42:    1  ->  our
+  43:    1  ->  returned
+  44:    1  ->  rose
+  45:    1  ->  sexual
+  46:    1  ->  slugger
+  47:    1  ->  smegma
+  48:    1  ->  smell
+  49:    1  ->  terror
+  50:    1  ->  there
+  51:    1  ->  these
+  52:    1  ->  they
+  53:    1  ->  through
+  54:    1  ->  to
+  55:    1  ->  wait
+  56:    1  ->  was
+  57:    1  ->  way
+  58:    1  ->  when
+  59:    1  ->  whitefish
+  60:    1  ->  wigwam
+  61:    1  ->  will
+  62:    1  ->  year
+  63:    1  ->  your
+     -------
+       117
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (105)
+                                 With >=  1 occurrences (105)
+
+   1:    7  ->  the
+   2:    2  ->  a
+   3:    2  ->  are
+   4:    2  ->  if
+   5:    2  ->  nose
+   6:    2  ->  where
+   7:    2  ->  you
+   8:    1  ->  abrasive
+   9:    1  ->  air
+  10:    1  ->  always
+  11:    1  ->  and
+  12:    1  ->  armpit
+  13:    1  ->  arms
+  14:    1  ->  as
+  15:    1  ->  at
+  16:    1  ->  b's
+  17:    1  ->  basement
+  18:    1  ->  beaudry
+  19:    1  ->  boats
+  20:    1  ->  bookcase
+  21:    1  ->  borden
+  22:    1  ->  bowling
+  23:    1  ->  burgundy's
+  24:    1  ->  but
+  25:    1  ->  cannons
+  26:    1  ->  capitol
+  27:    1  ->  charmed
+  28:    1  ->  chaucer's
+  29:    1  ->  cold
+  30:    1  ->  contable
+  31:    1  ->  decoder
+  32:    1  ->  distraction
+  33:    1  ->  ditch
+  34:    1  ->  falling
+  35:    1  ->  festall
+  36:    1  ->  fillet
+  37:    1  ->  follow
+  38:    1  ->  for
+  39:    1  ->  four
+  40:    1  ->  gesso
+  41:    1  ->  gloom
+  42:    1  ->  greenberg
+  43:    1  ->  ground
+  44:    1  ->  hills
+  45:    1  ->  his
+  46:    1  ->  home
+  47:    1  ->  hot
+  48:    1  ->  hudson
+  49:    1  ->  in
+  50:    1  ->  interurban
+  51:    1  ->  into
+  52:    1  ->  it
+  53:    1  ->  jeffrey
+  54:    1  ->  june
+  55:    1  ->  linking
+  56:    1  ->  litter
+  57:    1  ->  lock
+  58:    1  ->  loop
+  59:    1  ->  luteal
+  60:    1  ->  manner
+  61:    1  ->  massage
+  62:    1  ->  more
+  63:    1  ->  mourning
+  64:    1  ->  newhouser
+  65:    1  ->  of
+  66:    1  ->  old
+  67:    1  ->  on
+  68:    1  ->  one
+  69:    1  ->  or
+  70:    1  ->  orchid
+  71:    1  ->  padding
+  72:    1  ->  par
+  73:    1  ->  parallel
+  74:    1  ->  paul
+  75:    1  ->  porter's
+  76:    1  ->  quilts
+  77:    1  ->  race's
+  78:    1  ->  return
+  79:    1  ->  ruby
+  80:    1  ->  run
+  81:    1  ->  samuel
+  82:    1  ->  should
+  83:    1  ->  shown
+  84:    1  ->  slaughter
+  85:    1  ->  smega
+  86:    1  ->  store
+  87:    1  ->  stump
+  88:    1  ->  they
+  89:    1  ->  throated
+  90:    1  ->  throwing
+  91:    1  ->  tweezing
+  92:    1  ->  two
+  93:    1  ->  up
+  94:    1  ->  wall
+  95:    1  ->  well
+  96:    1  ->  wheat
+  97:    1  ->  wife
+  98:    1  ->  will
+  99:    1  ->  windy
+ 100:    1  ->  winter's
+ 101:    1  ->  wisdom's
+ 102:    1  ->  with
+ 103:    1  ->  your
+ 104:    1  ->  zabars
+ 105:    1  ->  zoil
+     -------
+       117
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

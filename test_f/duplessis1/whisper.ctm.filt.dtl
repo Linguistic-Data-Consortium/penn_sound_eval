@@ -1,0 +1,103 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    1.9%   (  14)
+
+Percent Correct           =   98.2%   ( 710)
+
+Percent Substitution      =    1.1%   (   8)
+Percent Deletions         =    0.7%   (   5)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   98.1%
+
+
+Ref. words                =           ( 723)
+Hyp. words                =           ( 719)
+Aligned words             =           ( 724)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  combustable ==> combustible
+   2:    1  ->  gulley ==> gully
+   3:    1  ->  incipits ==> kippets
+   4:    1  ->  managed ==> mannered
+   5:    1  ->  ogham ==> agam
+   6:    1  ->  scuro ==> chiaroscuro
+   7:    1  ->  slice ==> notch
+   8:    1  ->  symbol ==> cymbal
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  in
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  chiaro
+   2:    1  ->  genre
+   3:    1  ->  said
+   4:    1  ->  the
+   5:    1  ->  what
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  combustable
+   2:    1  ->  gulley
+   3:    1  ->  incipits
+   4:    1  ->  managed
+   5:    1  ->  ogham
+   6:    1  ->  scuro
+   7:    1  ->  slice
+   8:    1  ->  symbol
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  agam
+   2:    1  ->  chiaroscuro
+   3:    1  ->  combustible
+   4:    1  ->  cymbal
+   5:    1  ->  gully
+   6:    1  ->  kippets
+   7:    1  ->  mannered
+   8:    1  ->  notch
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

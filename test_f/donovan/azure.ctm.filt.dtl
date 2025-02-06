@@ -1,0 +1,216 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.9%   (  78)
+
+Percent Correct           =   94.3%   ( 936)
+
+Percent Substitution      =    4.9%   (  49)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    2.1%   (  21)
+Percent Word Accuracy     =   92.1%
+
+
+Ref. words                =           ( 993)
+Hyp. words                =           (1006)
+Aligned words             =           (1014)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    7  ->  russell's ==> 's
+   2:    1  ->  a ==> ca
+   3:    1  ->  a ==> california
+   4:    1  ->  and ==> in
+   5:    1  ->  arthur's ==> 's
+   6:    1  ->  book ==> bug
+   7:    1  ->  boombox ==> box
+   8:    1  ->  boykoff's ==> boycotts
+   9:    1  ->  cd ==> cv
+  10:    1  ->  cellist ==> chalice
+  11:    1  ->  clothespins ==> pins
+  12:    1  ->  coeval ==> evil
+  13:    1  ->  conrad's ==> 's
+  14:    1  ->  controls ==> control
+  15:    1  ->  echo ==> ecker
+  16:    1  ->  folktales ==> tales
+  17:    1  ->  gave ==> gained
+  18:    1  ->  had ==> have
+  19:    1  ->  hellen ==> keller
+  20:    1  ->  housesitting ==> sitting
+  21:    1  ->  included ==> include
+  22:    1  ->  infusion ==> fusion
+  23:    1  ->  intention ==> tension
+  24:    1  ->  is ==> 's
+  25:    1  ->  jambet ==> bay
+  26:    1  ->  jules ==> jewels
+  27:    1  ->  keller's ==> 's
+  28:    1  ->  koch's ==> 's
+  29:    1  ->  liljestrand ==> lestrand
+  30:    1  ->  line ==> midline
+  31:    1  ->  merleau ==> merlot
+  32:    1  ->  my ==> by
+  33:    1  ->  on ==> at
+  34:    1  ->  on ==> of
+  35:    1  ->  on ==> upon
+  36:    1  ->  onto ==> to
+  37:    1  ->  ponty's ==> pontius
+  38:    1  ->  sacks's ==> sacks
+  39:    1  ->  singlehandedly ==> handedly
+  40:    1  ->  the ==> a
+  41:    1  ->  triply ==> tripoli
+  42:    1  ->  was ==> is
+  43:    1  ->  wholly ==> holy
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    7  ->  russell
+   2:    1  ->  and
+   3:    1  ->  arthur
+   4:    1  ->  boom
+   5:    1  ->  clothes
+   6:    1  ->  co
+   7:    1  ->  conrad
+   8:    1  ->  folk
+   9:    1  ->  helen
+  10:    1  ->  house
+  11:    1  ->  jean
+  12:    1  ->  kochek
+  13:    1  ->  on
+  14:    1  ->  single
+  15:    1  ->  the
+     -------
+        21
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  c
+   2:    1  ->  dependent
+   3:    1  ->  had
+   4:    1  ->  it's
+   5:    1  ->  mid
+   6:    1  ->  on
+   7:    1  ->  our
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    7  ->  russell's
+   2:    3  ->  on
+   3:    2  ->  a
+   4:    1  ->  and
+   5:    1  ->  arthur's
+   6:    1  ->  book
+   7:    1  ->  boombox
+   8:    1  ->  boykoff's
+   9:    1  ->  cd
+  10:    1  ->  cellist
+  11:    1  ->  clothespins
+  12:    1  ->  coeval
+  13:    1  ->  conrad's
+  14:    1  ->  controls
+  15:    1  ->  echo
+  16:    1  ->  folktales
+  17:    1  ->  gave
+  18:    1  ->  had
+  19:    1  ->  hellen
+  20:    1  ->  housesitting
+  21:    1  ->  included
+  22:    1  ->  infusion
+  23:    1  ->  intention
+  24:    1  ->  is
+  25:    1  ->  jambet
+  26:    1  ->  jules
+  27:    1  ->  keller's
+  28:    1  ->  koch's
+  29:    1  ->  liljestrand
+  30:    1  ->  line
+  31:    1  ->  merleau
+  32:    1  ->  my
+  33:    1  ->  onto
+  34:    1  ->  ponty's
+  35:    1  ->  sacks's
+  36:    1  ->  singlehandedly
+  37:    1  ->  the
+  38:    1  ->  triply
+  39:    1  ->  was
+  40:    1  ->  wholly
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:   12  ->  's
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  bay
+   5:    1  ->  box
+   6:    1  ->  boycotts
+   7:    1  ->  bug
+   8:    1  ->  by
+   9:    1  ->  ca
+  10:    1  ->  california
+  11:    1  ->  chalice
+  12:    1  ->  control
+  13:    1  ->  cv
+  14:    1  ->  ecker
+  15:    1  ->  evil
+  16:    1  ->  fusion
+  17:    1  ->  gained
+  18:    1  ->  handedly
+  19:    1  ->  have
+  20:    1  ->  holy
+  21:    1  ->  in
+  22:    1  ->  include
+  23:    1  ->  is
+  24:    1  ->  jewels
+  25:    1  ->  keller
+  26:    1  ->  lestrand
+  27:    1  ->  merlot
+  28:    1  ->  midline
+  29:    1  ->  of
+  30:    1  ->  pins
+  31:    1  ->  pontius
+  32:    1  ->  sacks
+  33:    1  ->  sitting
+  34:    1  ->  tales
+  35:    1  ->  tension
+  36:    1  ->  to
+  37:    1  ->  tripoli
+  38:    1  ->  upon
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

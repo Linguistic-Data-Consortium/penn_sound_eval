@@ -1,0 +1,203 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.9%   (  63)
+
+Percent Correct           =   94.0%   ( 853)
+
+Percent Substitution      =    4.5%   (  41)
+Percent Deletions         =    1.4%   (  13)
+Percent Insertions        =    1.0%   (   9)
+Percent Word Accuracy     =   93.1%
+
+
+Ref. words                =           ( 907)
+Hyp. words                =           ( 903)
+Aligned words             =           ( 916)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  pear ==> pair
+   2:    1  ->  antidote ==> anecdote
+   3:    1  ->  ask ==> asked
+   4:    1  ->  at ==> of
+   5:    1  ->  bannister ==> banister
+   6:    1  ->  blade ==> splayed
+   7:    1  ->  continue ==> continued
+   8:    1  ->  contrive ==> entrive
+   9:    1  ->  death ==> deft
+  10:    1  ->  deporting ==> supporting
+  11:    1  ->  ether ==> aether
+  12:    1  ->  fall ==> befall
+  13:    1  ->  felt ==> spelt
+  14:    1  ->  grasp ==> grasped
+  15:    1  ->  hold ==> cold
+  16:    1  ->  illuminates ==> eliminates
+  17:    1  ->  in ==> lighten
+  18:    1  ->  inaction ==> action
+  19:    1  ->  it ==> none
+  20:    1  ->  limbs ==> forelimbs
+  21:    1  ->  mind ==> mime
+  22:    1  ->  other ==> utter
+  23:    1  ->  pleaded ==> pleated
+  24:    1  ->  pray ==> prayed
+  25:    1  ->  retinol ==> retinal
+  26:    1  ->  scores ==> squares
+  27:    1  ->  sod ==> sawed
+  28:    1  ->  spherical ==> spiracle
+  29:    1  ->  stays ==> sentencing
+  30:    1  ->  thoreau ==> rest
+  31:    1  ->  wait ==> weight
+  32:    1  ->  windowpane ==> pane
+  33:    1  ->  world ==> word
+  34:    1  ->  x ==> arest
+  35:    1  ->  x ==> palimpsest
+  36:    1  ->  x ==> psalmist
+  37:    1  ->  x ==> salve
+  38:    1  ->  x ==> the
+  39:    1  ->  x ==> tigerish
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  interlude
+   2:    2  ->  the
+   3:    1  ->  charmed
+   4:    1  ->  in
+   5:    1  ->  staves
+   6:    1  ->  to
+   7:    1  ->  window
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    3  ->  the
+   2:    1  ->  and
+   3:    1  ->  be
+   4:    1  ->  four
+   5:    1  ->  is
+   6:    1  ->  light
+   7:    1  ->  nat
+   8:    1  ->  of
+   9:    1  ->  slender
+  10:    1  ->  then
+  11:    1  ->  which
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    6  ->  x
+   2:    3  ->  pear
+   3:    1  ->  antidote
+   4:    1  ->  ask
+   5:    1  ->  at
+   6:    1  ->  bannister
+   7:    1  ->  blade
+   8:    1  ->  continue
+   9:    1  ->  contrive
+  10:    1  ->  death
+  11:    1  ->  deporting
+  12:    1  ->  ether
+  13:    1  ->  fall
+  14:    1  ->  felt
+  15:    1  ->  grasp
+  16:    1  ->  hold
+  17:    1  ->  illuminates
+  18:    1  ->  in
+  19:    1  ->  inaction
+  20:    1  ->  it
+  21:    1  ->  limbs
+  22:    1  ->  mind
+  23:    1  ->  other
+  24:    1  ->  pleaded
+  25:    1  ->  pray
+  26:    1  ->  retinol
+  27:    1  ->  scores
+  28:    1  ->  sod
+  29:    1  ->  spherical
+  30:    1  ->  stays
+  31:    1  ->  thoreau
+  32:    1  ->  wait
+  33:    1  ->  windowpane
+  34:    1  ->  world
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  pair
+   2:    1  ->  action
+   3:    1  ->  aether
+   4:    1  ->  anecdote
+   5:    1  ->  arest
+   6:    1  ->  asked
+   7:    1  ->  banister
+   8:    1  ->  befall
+   9:    1  ->  cold
+  10:    1  ->  continued
+  11:    1  ->  deft
+  12:    1  ->  eliminates
+  13:    1  ->  entrive
+  14:    1  ->  forelimbs
+  15:    1  ->  grasped
+  16:    1  ->  lighten
+  17:    1  ->  mime
+  18:    1  ->  none
+  19:    1  ->  of
+  20:    1  ->  palimpsest
+  21:    1  ->  pane
+  22:    1  ->  pleated
+  23:    1  ->  prayed
+  24:    1  ->  psalmist
+  25:    1  ->  rest
+  26:    1  ->  retinal
+  27:    1  ->  salve
+  28:    1  ->  sawed
+  29:    1  ->  sentencing
+  30:    1  ->  spelt
+  31:    1  ->  spiracle
+  32:    1  ->  splayed
+  33:    1  ->  squares
+  34:    1  ->  supporting
+  35:    1  ->  the
+  36:    1  ->  tigerish
+  37:    1  ->  utter
+  38:    1  ->  weight
+  39:    1  ->  word
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

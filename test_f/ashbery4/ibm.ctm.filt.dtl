@@ -1,0 +1,338 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.4%   ( 172)
+
+Percent Correct           =   84.8%   ( 840)
+
+Percent Substitution      =    9.3%   (  92)
+Percent Deletions         =    5.9%   (  58)
+Percent Insertions        =    2.2%   (  22)
+Percent Word Accuracy     =   82.6%
+
+
+Ref. words                =           ( 990)
+Hyp. words                =           ( 954)
+Aligned words             =           (1012)
+
+CONFUSION PAIRS                  Total                 (87)
+                                 With >=  1 occurrences (87)
+
+   1:    2  ->  champagne ==> champaign
+   2:    2  ->  f ==> have
+   3:    2  ->  had ==> have
+   4:    2  ->  montmartre ==> march
+   5:    2  ->  yeah ==> you
+   6:    1  ->  a ==> and
+   7:    1  ->  a ==> one
+   8:    1  ->  a ==> right
+   9:    1  ->  a ==> was
+  10:    1  ->  anthology ==> analogy
+  11:    1  ->  as ==> is
+  12:    1  ->  beat ==> beaten
+  13:    1  ->  champagne ==> as
+  14:    1  ->  crime ==> time
+  15:    1  ->  deadlier ==> deadly
+  16:    1  ->  des ==> corner
+  17:    1  ->  des ==> day
+  18:    1  ->  describe ==> describes
+  19:    1  ->  du ==> de
+  20:    1  ->  du ==> makoto
+  21:    1  ->  edition ==> and
+  22:    1  ->  france ==> falls
+  23:    1  ->  frank ==> franco
+  24:    1  ->  frederic ==> frittering
+  25:    1  ->  h ==> his
+  26:    1  ->  hear ==> heard
+  27:    1  ->  him ==> them
+  28:    1  ->  i ==> all
+  29:    1  ->  i ==> vexa
+  30:    1  ->  in ==> and
+  31:    1  ->  in ==> more
+  32:    1  ->  it ==> a
+  33:    1  ->  jacob ==> cub
+  34:    1  ->  kenneth ==> of
+  35:    1  ->  koch ==> coke
+  36:    1  ->  m ==> in
+  37:    1  ->  max ==> maxi
+  38:    1  ->  n ==> texin
+  39:    1  ->  named ==> and
+  40:    1  ->  now ==> no
+  41:    1  ->  o'hara ==> here
+  42:    1  ->  obligitoire ==> well
+  43:    1  ->  obligitoire ==> will
+  44:    1  ->  of ==> narrative
+  45:    1  ->  poem ==> all
+  46:    1  ->  poem ==> bomb
+  47:    1  ->  poets ==> boats
+  48:    1  ->  pole ==> poll
+  49:    1  ->  press ==> breath
+  50:    1  ->  reverdy ==> arrived
+  51:    1  ->  reverdy ==> d
+  52:    1  ->  reverdy ==> reverie
+  53:    1  ->  she ==> that
+  54:    1  ->  sorbonne ==> soon
+  55:    1  ->  that ==> the
+  56:    1  ->  the ==> a
+  57:    1  ->  though ==> stoke
+  58:    1  ->  translations ==> translation
+  59:    1  ->  was ==> always
+  60:    1  ->  was ==> are
+  61:    1  ->  was ==> is
+  62:    1  ->  wh ==> what
+  63:    1  ->  who ==> it
+  64:    1  ->  who ==> mom
+  65:    1  ->  who ==> them
+  66:    1  ->  whose ==> it
+  67:    1  ->  whose ==> who's
+  68:    1  ->  x ==> all
+  69:    1  ->  x ==> appeal
+  70:    1  ->  x ==> but
+  71:    1  ->  x ==> contacted
+  72:    1  ->  x ==> county
+  73:    1  ->  x ==> drama
+  74:    1  ->  x ==> dts
+  75:    1  ->  x ==> i
+  76:    1  ->  x ==> if
+  77:    1  ->  x ==> it
+  78:    1  ->  x ==> lip
+  79:    1  ->  x ==> maria
+  80:    1  ->  x ==> members
+  81:    1  ->  x ==> that
+  82:    1  ->  x ==> was
+  83:    1  ->  x ==> you
+  84:    1  ->  yeah ==> afternoon
+  85:    1  ->  yeah ==> ready
+  86:    1  ->  you ==> not
+  87:    1  ->  you ==> who
+     -------
+        92
+
+
+
+INSERTIONS                       Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  i
+   2:    2  ->  a
+   3:    2  ->  in
+   4:    1  ->  and
+   5:    1  ->  annually
+   6:    1  ->  champ
+   7:    1  ->  eckhart
+   8:    1  ->  have
+   9:    1  ->  it
+  10:    1  ->  jacob
+  11:    1  ->  kind
+  12:    1  ->  mayor
+  13:    1  ->  meister
+  14:    1  ->  obliga
+  15:    1  ->  on
+  16:    1  ->  river
+  17:    1  ->  sex
+  18:    1  ->  there
+     -------
+        22
+
+
+
+DELETIONS                        Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    9  ->  x
+   2:    5  ->  i
+   3:    4  ->  it
+   4:    3  ->  a
+   5:    3  ->  to
+   6:    2  ->  cornet
+   7:    2  ->  oh
+   8:    2  ->  th
+   9:    2  ->  yeah
+  10:    1  ->  %bcack
+  11:    1  ->  am
+  12:    1  ->  and
+  13:    1  ->  bef
+  14:    1  ->  contact
+  15:    1  ->  d
+  16:    1  ->  did
+  17:    1  ->  e
+  18:    1  ->  enamored
+  19:    1  ->  he
+  20:    1  ->  is
+  21:    1  ->  maurice
+  22:    1  ->  my
+  23:    1  ->  not
+  24:    1  ->  novel
+  25:    1  ->  of
+  26:    1  ->  reverdy
+  27:    1  ->  that
+  28:    1  ->  them
+  29:    1  ->  two
+  30:    1  ->  v
+  31:    1  ->  vexin
+  32:    1  ->  w
+  33:    1  ->  where
+  34:    1  ->  yep
+  35:    1  ->  you
+     -------
+        58
+
+
+
+SUBSTITUTIONS                    Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:   16  ->  x
+   2:    4  ->  a
+   3:    4  ->  yeah
+   4:    3  ->  champagne
+   5:    3  ->  reverdy
+   6:    3  ->  was
+   7:    3  ->  who
+   8:    2  ->  des
+   9:    2  ->  du
+  10:    2  ->  f
+  11:    2  ->  had
+  12:    2  ->  i
+  13:    2  ->  in
+  14:    2  ->  montmartre
+  15:    2  ->  obligitoire
+  16:    2  ->  poem
+  17:    2  ->  whose
+  18:    2  ->  you
+  19:    1  ->  anthology
+  20:    1  ->  as
+  21:    1  ->  beat
+  22:    1  ->  crime
+  23:    1  ->  deadlier
+  24:    1  ->  describe
+  25:    1  ->  edition
+  26:    1  ->  france
+  27:    1  ->  frank
+  28:    1  ->  frederic
+  29:    1  ->  h
+  30:    1  ->  hear
+  31:    1  ->  him
+  32:    1  ->  it
+  33:    1  ->  jacob
+  34:    1  ->  kenneth
+  35:    1  ->  koch
+  36:    1  ->  m
+  37:    1  ->  max
+  38:    1  ->  n
+  39:    1  ->  named
+  40:    1  ->  now
+  41:    1  ->  o'hara
+  42:    1  ->  of
+  43:    1  ->  poets
+  44:    1  ->  pole
+  45:    1  ->  press
+  46:    1  ->  she
+  47:    1  ->  sorbonne
+  48:    1  ->  that
+  49:    1  ->  the
+  50:    1  ->  though
+  51:    1  ->  translations
+  52:    1  ->  wh
+     -------
+        92
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (73)
+                                 With >=  1 occurrences (73)
+
+   1:    4  ->  and
+   2:    4  ->  have
+   3:    3  ->  all
+   4:    3  ->  it
+   5:    3  ->  you
+   6:    2  ->  a
+   7:    2  ->  champaign
+   8:    2  ->  is
+   9:    2  ->  march
+  10:    2  ->  that
+  11:    2  ->  them
+  12:    2  ->  was
+  13:    1  ->  afternoon
+  14:    1  ->  always
+  15:    1  ->  analogy
+  16:    1  ->  appeal
+  17:    1  ->  are
+  18:    1  ->  arrived
+  19:    1  ->  as
+  20:    1  ->  beaten
+  21:    1  ->  boats
+  22:    1  ->  bomb
+  23:    1  ->  breath
+  24:    1  ->  but
+  25:    1  ->  coke
+  26:    1  ->  contacted
+  27:    1  ->  corner
+  28:    1  ->  county
+  29:    1  ->  cub
+  30:    1  ->  d
+  31:    1  ->  day
+  32:    1  ->  de
+  33:    1  ->  deadly
+  34:    1  ->  describes
+  35:    1  ->  drama
+  36:    1  ->  dts
+  37:    1  ->  falls
+  38:    1  ->  franco
+  39:    1  ->  frittering
+  40:    1  ->  heard
+  41:    1  ->  here
+  42:    1  ->  his
+  43:    1  ->  i
+  44:    1  ->  if
+  45:    1  ->  in
+  46:    1  ->  lip
+  47:    1  ->  makoto
+  48:    1  ->  maria
+  49:    1  ->  maxi
+  50:    1  ->  members
+  51:    1  ->  mom
+  52:    1  ->  more
+  53:    1  ->  narrative
+  54:    1  ->  no
+  55:    1  ->  not
+  56:    1  ->  of
+  57:    1  ->  one
+  58:    1  ->  poll
+  59:    1  ->  ready
+  60:    1  ->  reverie
+  61:    1  ->  right
+  62:    1  ->  soon
+  63:    1  ->  stoke
+  64:    1  ->  texin
+  65:    1  ->  the
+  66:    1  ->  time
+  67:    1  ->  translation
+  68:    1  ->  vexa
+  69:    1  ->  well
+  70:    1  ->  what
+  71:    1  ->  who
+  72:    1  ->  who's
+  73:    1  ->  will
+     -------
+        92
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

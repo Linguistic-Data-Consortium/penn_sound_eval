@@ -1,0 +1,218 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.6%   (  74)
+
+Percent Correct           =   93.5%   (1049)
+
+Percent Substitution      =    4.2%   (  47)
+Percent Deletions         =    2.3%   (  26)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   93.4%
+
+
+Ref. words                =           (1122)
+Hyp. words                =           (1097)
+Aligned words             =           (1123)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    3  ->  velazquez ==> velasquez
+   2:    2  ->  fourth ==> 24th
+   3:    2  ->  manet ==> monet
+   4:    2  ->  pere ==> père
+   5:    1  ->  absorption ==> selfabsorption
+   6:    1  ->  allan ==> alan
+   7:    1  ->  and ==> because
+   8:    1  ->  anne ==> ann
+   9:    1  ->  antoine ==> marcantoine
+  10:    1  ->  as ==> is
+  11:    1  ->  ask ==> asked
+  12:    1  ->  brainard ==> brainerd
+  13:    1  ->  carpentier ==> charpentier
+  14:    1  ->  ceravolo ==> travalo
+  15:    1  ->  cetera ==> etc
+  16:    1  ->  concertina ==> concertino
+  17:    1  ->  do ==> be
+  18:    1  ->  does ==> is
+  19:    1  ->  elmslie ==> elmsley
+  20:    1  ->  enquire ==> inquire
+  21:    1  ->  fagin ==> fagan
+  22:    1  ->  girono ==> giorno
+  23:    1  ->  hurt ==> heard
+  24:    1  ->  in ==> and
+  25:    1  ->  intoxicant ==> toxicant
+  26:    1  ->  it ==> at
+  27:    1  ->  kenward ==> kenrod
+  28:    1  ->  lewis ==> louis
+  29:    1  ->  like ==> rubberlike
+  30:    1  ->  oh ==> though
+  31:    1  ->  old ==> sixyearold
+  32:    1  ->  pacing ==> facing
+  33:    1  ->  parts ==> parks
+  34:    1  ->  poised ==> poise
+  35:    1  ->  results ==> result
+  36:    1  ->  schjeldahl ==> sheldahl
+  37:    1  ->  shelves ==> shells
+  38:    1  ->  sixteen ==> sixty
+  39:    1  ->  sixty ==> 1862
+  40:    1  ->  two ==> well
+  41:    1  ->  velazquez ==> it's
+  42:    1  ->  we ==> you
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  and
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    4  ->  and
+   2:    2  ->  k.
+   3:    2  ->  o.
+   4:    2  ->  twenty
+   5:    1  ->  but
+   6:    1  ->  eighteen
+   7:    1  ->  et
+   8:    1  ->  fourth
+   9:    1  ->  from
+  10:    1  ->  let
+  11:    1  ->  marc
+  12:    1  ->  me
+  13:    1  ->  read
+  14:    1  ->  rubber
+  15:    1  ->  self
+  16:    1  ->  six
+  17:    1  ->  soul
+  18:    1  ->  the
+  19:    1  ->  well
+  20:    1  ->  year
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    4  ->  velazquez
+   2:    2  ->  fourth
+   3:    2  ->  manet
+   4:    2  ->  pere
+   5:    1  ->  absorption
+   6:    1  ->  allan
+   7:    1  ->  and
+   8:    1  ->  anne
+   9:    1  ->  antoine
+  10:    1  ->  as
+  11:    1  ->  ask
+  12:    1  ->  brainard
+  13:    1  ->  carpentier
+  14:    1  ->  ceravolo
+  15:    1  ->  cetera
+  16:    1  ->  concertina
+  17:    1  ->  do
+  18:    1  ->  does
+  19:    1  ->  elmslie
+  20:    1  ->  enquire
+  21:    1  ->  fagin
+  22:    1  ->  girono
+  23:    1  ->  hurt
+  24:    1  ->  in
+  25:    1  ->  intoxicant
+  26:    1  ->  it
+  27:    1  ->  kenward
+  28:    1  ->  lewis
+  29:    1  ->  like
+  30:    1  ->  oh
+  31:    1  ->  old
+  32:    1  ->  pacing
+  33:    1  ->  parts
+  34:    1  ->  poised
+  35:    1  ->  results
+  36:    1  ->  schjeldahl
+  37:    1  ->  shelves
+  38:    1  ->  sixteen
+  39:    1  ->  sixty
+  40:    1  ->  two
+  41:    1  ->  we
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    3  ->  velasquez
+   2:    2  ->  24th
+   3:    2  ->  is
+   4:    2  ->  monet
+   5:    2  ->  père
+   6:    1  ->  1862
+   7:    1  ->  alan
+   8:    1  ->  and
+   9:    1  ->  ann
+  10:    1  ->  asked
+  11:    1  ->  at
+  12:    1  ->  be
+  13:    1  ->  because
+  14:    1  ->  brainerd
+  15:    1  ->  charpentier
+  16:    1  ->  concertino
+  17:    1  ->  elmsley
+  18:    1  ->  etc
+  19:    1  ->  facing
+  20:    1  ->  fagan
+  21:    1  ->  giorno
+  22:    1  ->  heard
+  23:    1  ->  inquire
+  24:    1  ->  it's
+  25:    1  ->  kenrod
+  26:    1  ->  louis
+  27:    1  ->  marcantoine
+  28:    1  ->  parks
+  29:    1  ->  poise
+  30:    1  ->  result
+  31:    1  ->  rubberlike
+  32:    1  ->  selfabsorption
+  33:    1  ->  sheldahl
+  34:    1  ->  shells
+  35:    1  ->  sixty
+  36:    1  ->  sixyearold
+  37:    1  ->  though
+  38:    1  ->  toxicant
+  39:    1  ->  travalo
+  40:    1  ->  well
+  41:    1  ->  you
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

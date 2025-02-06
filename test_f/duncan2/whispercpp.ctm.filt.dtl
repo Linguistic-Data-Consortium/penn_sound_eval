@@ -1,0 +1,299 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   19.2%   ( 226)
+
+Percent Correct           =   81.6%   ( 960)
+
+Percent Substitution      =    5.0%   (  59)
+Percent Deletions         =   13.4%   ( 157)
+Percent Insertions        =    0.9%   (  10)
+Percent Word Accuracy     =   80.8%
+
+
+Ref. words                =           (1176)
+Hyp. words                =           (1029)
+Aligned words             =           (1186)
+
+CONFUSION PAIRS                  Total                 (56)
+                                 With >=  1 occurrences (56)
+
+   1:    3  ->  employ ==> employee
+   2:    2  ->  the ==> that
+   3:    1  ->  %bcack ==> of
+   4:    1  ->  a ==> annoying
+   5:    1  ->  a ==> gnomics
+   6:    1  ->  a ==> so
+   7:    1  ->  and ==> sorry
+   8:    1  ->  began ==> to
+   9:    1  ->  encircling ==> circling
+  10:    1  ->  encountered ==> encounter
+  11:    1  ->  eupheries ==> furious
+  12:    1  ->  for ==> versus
+  13:    1  ->  had ==> was
+  14:    1  ->  has ==> poems
+  15:    1  ->  her ==> those
+  16:    1  ->  here ==> her
+  17:    1  ->  i ==> it
+  18:    1  ->  i ==> rhymes
+  19:    1  ->  i ==> would
+  20:    1  ->  in ==> and
+  21:    1  ->  in ==> roman
+  22:    1  ->  into ==> to
+  23:    1  ->  invade ==> invades
+  24:    1  ->  is ==> as
+  25:    1  ->  is ==> oh
+  26:    1  ->  it's ==> realise
+  27:    1  ->  know ==> no
+  28:    1  ->  line ==> kind
+  29:    1  ->  mark ==> more
+  30:    1  ->  mea ==> mean
+  31:    1  ->  mean ==> in
+  32:    1  ->  need ==> you
+  33:    1  ->  no ==> knows
+  34:    1  ->  now ==> mean
+  35:    1  ->  observes ==> observed
+  36:    1  ->  sai ==> said
+  37:    1  ->  sea ==> and
+  38:    1  ->  she's ==> experience
+  39:    1  ->  sorry ==> class
+  40:    1  ->  take ==> remember
+  41:    1  ->  ten ==> oh
+  42:    1  ->  that ==> what
+  43:    1  ->  the ==> get
+  44:    1  ->  the ==> something
+  45:    1  ->  there ==> yep
+  46:    1  ->  to ==> the
+  47:    1  ->  vis ==> as
+  48:    1  ->  w ==> would
+  49:    1  ->  wanted ==> want
+  50:    1  ->  was ==> knows
+  51:    1  ->  was ==> the
+  52:    1  ->  we ==> i
+  53:    1  ->  we ==> me
+  54:    1  ->  will ==> cannot
+  55:    1  ->  you ==> being
+  56:    1  ->  you ==> u
+     -------
+        59
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  a
+   2:    1  ->  begin
+   3:    1  ->  in
+   4:    1  ->  is
+   5:    1  ->  now
+   6:    1  ->  the
+   7:    1  ->  to
+   8:    1  ->  want
+   9:    1  ->  while
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (68)
+                                 With >=  1 occurrences (68)
+
+   1:   22  ->  and
+   2:   10  ->  a
+   3:   10  ->  the
+   4:    9  ->  an
+   5:    8  ->  i
+   6:    8  ->  in
+   7:    6  ->  but
+   8:    6  ->  that
+   9:    4  ->  she
+  10:    4  ->  wh
+  11:    3  ->  are
+  12:    2  ->  classes
+  13:    2  ->  e
+  14:    2  ->  enc
+  15:    2  ->  eni
+  16:    2  ->  if
+  17:    2  ->  it
+  18:    2  ->  now
+  19:    2  ->  of
+  20:    2  ->  or
+  21:    2  ->  this
+  22:    1  ->  %bcack
+  23:    1  ->  also
+  24:    1  ->  around
+  25:    1  ->  be
+  26:    1  ->  been
+  27:    1  ->  book
+  28:    1  ->  canter
+  29:    1  ->  d
+  30:    1  ->  does
+  31:    1  ->  encircling
+  32:    1  ->  encount
+  33:    1  ->  experien
+  34:    1  ->  fo
+  35:    1  ->  gnawing
+  36:    1  ->  gno
+  37:    1  ->  gnomic's
+  38:    1  ->  have
+  39:    1  ->  is
+  40:    1  ->  it's
+  41:    1  ->  j
+  42:    1  ->  k.
+  43:    1  ->  kno
+  44:    1  ->  mean
+  45:    1  ->  no
+  46:    1  ->  not
+  47:    1  ->  o.
+  48:    1  ->  on
+  49:    1  ->  p
+  50:    1  ->  parked
+  51:    1  ->  poem
+  52:    1  ->  re
+  53:    1  ->  reali
+  54:    1  ->  realised
+  55:    1  ->  realm
+  56:    1  ->  s
+  57:    1  ->  ten
+  58:    1  ->  then
+  59:    1  ->  thi
+  60:    1  ->  to
+  61:    1  ->  unloo
+  62:    1  ->  v
+  63:    1  ->  w
+  64:    1  ->  well
+  65:    1  ->  where
+  66:    1  ->  will
+  67:    1  ->  yeah
+  68:    1  ->  you
+     -------
+       157
+
+
+
+SUBSTITUTIONS                    Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    4  ->  the
+   2:    3  ->  a
+   3:    3  ->  employ
+   4:    3  ->  i
+   5:    2  ->  in
+   6:    2  ->  is
+   7:    2  ->  was
+   8:    2  ->  we
+   9:    2  ->  you
+  10:    1  ->  %bcack
+  11:    1  ->  and
+  12:    1  ->  began
+  13:    1  ->  encircling
+  14:    1  ->  encountered
+  15:    1  ->  eupheries
+  16:    1  ->  for
+  17:    1  ->  had
+  18:    1  ->  has
+  19:    1  ->  her
+  20:    1  ->  here
+  21:    1  ->  into
+  22:    1  ->  invade
+  23:    1  ->  it's
+  24:    1  ->  know
+  25:    1  ->  line
+  26:    1  ->  mark
+  27:    1  ->  mea
+  28:    1  ->  mean
+  29:    1  ->  need
+  30:    1  ->  no
+  31:    1  ->  now
+  32:    1  ->  observes
+  33:    1  ->  sai
+  34:    1  ->  sea
+  35:    1  ->  she's
+  36:    1  ->  sorry
+  37:    1  ->  take
+  38:    1  ->  ten
+  39:    1  ->  that
+  40:    1  ->  there
+  41:    1  ->  to
+  42:    1  ->  vis
+  43:    1  ->  w
+  44:    1  ->  wanted
+  45:    1  ->  will
+     -------
+        59
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    3  ->  employee
+   2:    2  ->  and
+   3:    2  ->  as
+   4:    2  ->  knows
+   5:    2  ->  mean
+   6:    2  ->  oh
+   7:    2  ->  that
+   8:    2  ->  the
+   9:    2  ->  to
+  10:    2  ->  would
+  11:    1  ->  annoying
+  12:    1  ->  being
+  13:    1  ->  cannot
+  14:    1  ->  circling
+  15:    1  ->  class
+  16:    1  ->  encounter
+  17:    1  ->  experience
+  18:    1  ->  furious
+  19:    1  ->  get
+  20:    1  ->  gnomics
+  21:    1  ->  her
+  22:    1  ->  i
+  23:    1  ->  in
+  24:    1  ->  invades
+  25:    1  ->  it
+  26:    1  ->  kind
+  27:    1  ->  me
+  28:    1  ->  more
+  29:    1  ->  no
+  30:    1  ->  observed
+  31:    1  ->  of
+  32:    1  ->  poems
+  33:    1  ->  realise
+  34:    1  ->  remember
+  35:    1  ->  rhymes
+  36:    1  ->  roman
+  37:    1  ->  said
+  38:    1  ->  so
+  39:    1  ->  something
+  40:    1  ->  sorry
+  41:    1  ->  those
+  42:    1  ->  u
+  43:    1  ->  versus
+  44:    1  ->  want
+  45:    1  ->  was
+  46:    1  ->  what
+  47:    1  ->  yep
+  48:    1  ->  you
+     -------
+        59
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

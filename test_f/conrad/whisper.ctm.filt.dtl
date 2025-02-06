@@ -1,0 +1,219 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.5%   (  99)
+
+Percent Correct           =   92.6%   ( 960)
+
+Percent Substitution      =    3.7%   (  38)
+Percent Deletions         =    3.8%   (  39)
+Percent Insertions        =    2.1%   (  22)
+Percent Word Accuracy     =   90.5%
+
+
+Ref. words                =           (1037)
+Hyp. words                =           (1020)
+Aligned words             =           (1059)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  cent ==> oh
+   2:    3  ->  write ==> right
+   3:    2  ->  a ==> the
+   4:    1  ->  a ==> &a
+   5:    1  ->  and ==> in
+   6:    1  ->  as ==> it's
+   7:    1  ->  cent ==> 75
+   8:    1  ->  days ==> daze
+   9:    1  ->  ducts ==> thanks
+  10:    1  ->  estimate ==> estimated
+  11:    1  ->  for ==> from
+  12:    1  ->  forests ==> forest
+  13:    1  ->  had ==> kaufman
+  14:    1  ->  i ==> that
+  15:    1  ->  my ==> a
+  16:    1  ->  one ==> i
+  17:    1  ->  prayer ==> are
+  18:    1  ->  pulling ==> plying
+  19:    1  ->  quaker's ==> quakers
+  20:    1  ->  scent ==> descent
+  21:    1  ->  slick ==> mudslip
+  22:    1  ->  streets ==> street
+  23:    1  ->  temouzi ==> tammuzi
+  24:    1  ->  that ==> nice
+  25:    1  ->  the ==> these
+  26:    1  ->  the ==> this
+  27:    1  ->  them ==> him
+  28:    1  ->  tune ==> tomb
+  29:    1  ->  two ==> ii
+  30:    1  ->  under ==> enter
+  31:    1  ->  unless ==> last
+  32:    1  ->  view ==> you
+  33:    1  ->  while ==> will
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  american
+   4:    1  ->  are
+   5:    1  ->  back
+   6:    1  ->  come
+   7:    1  ->  ducks
+   8:    1  ->  gis
+   9:    1  ->  here
+  10:    1  ->  hundreds
+  11:    1  ->  iraq
+  12:    1  ->  of
+  13:    1  ->  oh
+  14:    1  ->  only
+  15:    1  ->  prey
+  16:    1  ->  seriously
+  17:    1  ->  there
+  18:    1  ->  veterans
+  19:    1  ->  war
+  20:    1  ->  who
+  21:    1  ->  your
+     -------
+        22
+
+
+
+DELETIONS                        Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  per
+   2:    3  ->  had
+   3:    3  ->  we
+   4:    2  ->  i
+   5:    2  ->  in
+   6:    2  ->  the
+   7:    1  ->  a
+   8:    1  ->  and
+   9:    1  ->  are
+  10:    1  ->  at
+  11:    1  ->  fifty
+  12:    1  ->  five
+  13:    1  ->  front
+  14:    1  ->  he
+  15:    1  ->  inst
+  16:    1  ->  is
+  17:    1  ->  k.
+  18:    1  ->  kauffman
+  19:    1  ->  mud
+  20:    1  ->  ninety
+  21:    1  ->  not
+  22:    1  ->  o.
+  23:    1  ->  of
+  24:    1  ->  only
+  25:    1  ->  seventy
+  26:    1  ->  ten
+  27:    1  ->  thinking
+  28:    1  ->  where
+  29:    1  ->  wo
+     -------
+        39
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    4  ->  cent
+   2:    3  ->  a
+   3:    3  ->  write
+   4:    2  ->  the
+   5:    1  ->  and
+   6:    1  ->  as
+   7:    1  ->  days
+   8:    1  ->  ducts
+   9:    1  ->  estimate
+  10:    1  ->  for
+  11:    1  ->  forests
+  12:    1  ->  had
+  13:    1  ->  i
+  14:    1  ->  my
+  15:    1  ->  one
+  16:    1  ->  prayer
+  17:    1  ->  pulling
+  18:    1  ->  quaker's
+  19:    1  ->  scent
+  20:    1  ->  slick
+  21:    1  ->  streets
+  22:    1  ->  temouzi
+  23:    1  ->  that
+  24:    1  ->  them
+  25:    1  ->  tune
+  26:    1  ->  two
+  27:    1  ->  under
+  28:    1  ->  unless
+  29:    1  ->  view
+  30:    1  ->  while
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  oh
+   2:    3  ->  right
+   3:    2  ->  the
+   4:    1  ->  &a
+   5:    1  ->  75
+   6:    1  ->  a
+   7:    1  ->  are
+   8:    1  ->  daze
+   9:    1  ->  descent
+  10:    1  ->  enter
+  11:    1  ->  estimated
+  12:    1  ->  forest
+  13:    1  ->  from
+  14:    1  ->  him
+  15:    1  ->  i
+  16:    1  ->  ii
+  17:    1  ->  in
+  18:    1  ->  it's
+  19:    1  ->  kaufman
+  20:    1  ->  last
+  21:    1  ->  mudslip
+  22:    1  ->  nice
+  23:    1  ->  plying
+  24:    1  ->  quakers
+  25:    1  ->  street
+  26:    1  ->  tammuzi
+  27:    1  ->  thanks
+  28:    1  ->  that
+  29:    1  ->  these
+  30:    1  ->  this
+  31:    1  ->  tomb
+  32:    1  ->  will
+  33:    1  ->  you
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

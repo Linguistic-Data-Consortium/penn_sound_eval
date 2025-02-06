@@ -1,0 +1,152 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.2%   (  47)
+
+Percent Correct           =   96.1%   (1063)
+
+Percent Substitution      =    2.5%   (  28)
+Percent Deletions         =    1.4%   (  15)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   95.8%
+
+
+Ref. words                =           (1106)
+Hyp. words                =           (1095)
+Aligned words             =           (1110)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    6  ->  hennaed ==> henned
+   2:    2  ->  or ==> are
+   3:    1  ->  amid ==> in
+   4:    1  ->  blow ==> blowing
+   5:    1  ->  cocooned ==> cocoon's
+   6:    1  ->  deserts ==> desert
+   7:    1  ->  eyeholes ==> holes
+   8:    1  ->  flippering ==> flickering
+   9:    1  ->  from ==> that's
+  10:    1  ->  happened ==> happen
+  11:    1  ->  head ==> ahead
+  12:    1  ->  hennaed ==> and
+  13:    1  ->  hooping ==> whooping
+  14:    1  ->  in ==> and
+  15:    1  ->  its ==> it
+  16:    1  ->  orb ==> orbed
+  17:    1  ->  sheath ==> sheaf
+  18:    1  ->  side ==> outside
+  19:    1  ->  were ==> are
+  20:    1  ->  which ==> with
+  21:    1  ->  with ==> which
+  22:    1  ->  wrapped ==> rabbed
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  and
+   2:    1  ->  are
+   3:    1  ->  eye
+   4:    1  ->  hen
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  night
+   2:    2  ->  the
+   3:    2  ->  to
+   4:    1  ->  but
+   5:    1  ->  have
+   6:    1  ->  i
+   7:    1  ->  muscular
+   8:    1  ->  out
+   9:    1  ->  see
+  10:    1  ->  w
+  11:    1  ->  who
+  12:    1  ->  with
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    7  ->  hennaed
+   2:    2  ->  or
+   3:    1  ->  amid
+   4:    1  ->  blow
+   5:    1  ->  cocooned
+   6:    1  ->  deserts
+   7:    1  ->  eyeholes
+   8:    1  ->  flippering
+   9:    1  ->  from
+  10:    1  ->  happened
+  11:    1  ->  head
+  12:    1  ->  hooping
+  13:    1  ->  in
+  14:    1  ->  its
+  15:    1  ->  orb
+  16:    1  ->  sheath
+  17:    1  ->  side
+  18:    1  ->  were
+  19:    1  ->  which
+  20:    1  ->  with
+  21:    1  ->  wrapped
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    6  ->  henned
+   2:    3  ->  are
+   3:    2  ->  and
+   4:    1  ->  ahead
+   5:    1  ->  blowing
+   6:    1  ->  cocoon's
+   7:    1  ->  desert
+   8:    1  ->  flickering
+   9:    1  ->  happen
+  10:    1  ->  holes
+  11:    1  ->  in
+  12:    1  ->  it
+  13:    1  ->  orbed
+  14:    1  ->  outside
+  15:    1  ->  rabbed
+  16:    1  ->  sheaf
+  17:    1  ->  that's
+  18:    1  ->  which
+  19:    1  ->  whooping
+  20:    1  ->  with
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

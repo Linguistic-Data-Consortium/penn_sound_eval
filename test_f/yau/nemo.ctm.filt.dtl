@@ -1,0 +1,156 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.4%   (  42)
+
+Percent Correct           =   95.8%   ( 923)
+
+Percent Substitution      =    2.5%   (  24)
+Percent Deletions         =    1.7%   (  16)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   95.6%
+
+
+Ref. words                =           ( 963)
+Hyp. words                =           ( 949)
+Aligned words             =           ( 965)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  atrapado ==> atropato
+   2:    2  ->  in ==> and
+   3:    1  ->  a ==> the
+   4:    1  ->  above ==> about
+   5:    1  ->  fandangoes ==> fandangos
+   6:    1  ->  gingham's ==> ginghams
+   7:    1  ->  has ==> is
+   8:    1  ->  it ==> this
+   9:    1  ->  kneed ==> knee
+  10:    1  ->  lackey ==> lacquey
+  11:    1  ->  nougat ==> newgate
+  12:    1  ->  planes ==> plains
+  13:    1  ->  pray ==> prey
+  14:    1  ->  purdahs ==> pouradahs
+  15:    1  ->  rust ==> hair
+  16:    1  ->  sand ==> air
+  17:    1  ->  sighs ==> size
+  18:    1  ->  slop ==> slot
+  19:    1  ->  stoop ==> stout
+  20:    1  ->  to ==> through
+  21:    1  ->  towards ==> toward
+  22:    1  ->  trim ==> trimmed
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  bar
+   2:    1  ->  seaweed
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  of
+   2:    1  ->  and
+   3:    1  ->  ch
+   4:    1  ->  had
+   5:    1  ->  in
+   6:    1  ->  is
+   7:    1  ->  island
+   8:    1  ->  m
+   9:    1  ->  oh
+  10:    1  ->  stee
+  11:    1  ->  story
+  12:    1  ->  strapped
+  13:    1  ->  this
+  14:    1  ->  towe
+  15:    1  ->  trails
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  atrapado
+   2:    2  ->  in
+   3:    1  ->  a
+   4:    1  ->  above
+   5:    1  ->  fandangoes
+   6:    1  ->  gingham's
+   7:    1  ->  has
+   8:    1  ->  it
+   9:    1  ->  kneed
+  10:    1  ->  lackey
+  11:    1  ->  nougat
+  12:    1  ->  planes
+  13:    1  ->  pray
+  14:    1  ->  purdahs
+  15:    1  ->  rust
+  16:    1  ->  sand
+  17:    1  ->  sighs
+  18:    1  ->  slop
+  19:    1  ->  stoop
+  20:    1  ->  to
+  21:    1  ->  towards
+  22:    1  ->  trim
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  and
+   2:    2  ->  atropato
+   3:    1  ->  about
+   4:    1  ->  air
+   5:    1  ->  fandangos
+   6:    1  ->  ginghams
+   7:    1  ->  hair
+   8:    1  ->  is
+   9:    1  ->  knee
+  10:    1  ->  lacquey
+  11:    1  ->  newgate
+  12:    1  ->  plains
+  13:    1  ->  pouradahs
+  14:    1  ->  prey
+  15:    1  ->  size
+  16:    1  ->  slot
+  17:    1  ->  stout
+  18:    1  ->  the
+  19:    1  ->  this
+  20:    1  ->  through
+  21:    1  ->  toward
+  22:    1  ->  trimmed
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

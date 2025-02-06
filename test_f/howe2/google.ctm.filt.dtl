@@ -1,0 +1,192 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.3%   (  53)
+
+Percent Correct           =   91.5%   ( 520)
+
+Percent Substitution      =    6.3%   (  36)
+Percent Deletions         =    2.1%   (  12)
+Percent Insertions        =    0.9%   (   5)
+Percent Word Accuracy     =   90.7%
+
+
+Ref. words                =           ( 568)
+Hyp. words                =           ( 561)
+Aligned words             =           ( 573)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  sentries ==> centuries
+   2:    2  ->  shoal ==> show
+   3:    1  ->  a ==> of
+   4:    1  ->  abasol ==> abysmal
+   5:    1  ->  aria ==> arya
+   6:    1  ->  as ==> is
+   7:    1  ->  colon ==> on
+   8:    1  ->  emancipation ==> emancipator
+   9:    1  ->  empirion ==> imperian
+  10:    1  ->  enzyme ==> sign
+  11:    1  ->  eyed ==> pineyed
+  12:    1  ->  ferocity ==> verosity
+  13:    1  ->  had ==> hood
+  14:    1  ->  heaped ==> kept
+  15:    1  ->  here ==> hare's
+  16:    1  ->  icarian ==> in
+  17:    1  ->  investigations ==> investigate
+  18:    1  ->  is ==> call
+  19:    1  ->  kinsmen ==> kinsman
+  20:    1  ->  muffle ==> muffled
+  21:    1  ->  nimbus ==> service
+  22:    1  ->  occult ==> ocultic
+  23:    1  ->  or ==> where
+  24:    1  ->  origin ==> region
+  25:    1  ->  point ==> standpoint
+  26:    1  ->  screaming ==> streaming
+  27:    1  ->  shadow ==> scroll
+  28:    1  ->  shear ==> she're
+  29:    1  ->  spoken ==> unspoken
+  30:    1  ->  stamp ==> stamped
+  31:    1  ->  steeps ==> deeps
+  32:    1  ->  sundial ==> sundried
+  33:    1  ->  transmutation ==> patient
+  34:    1  ->  undertow ==> toe
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  carry
+   4:    1  ->  our
+   5:    1  ->  under
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  arrow
+   2:    1  ->  ascetic
+   3:    1  ->  deposed
+   4:    1  ->  hero
+   5:    1  ->  mistletoe
+   6:    1  ->  pin
+   7:    1  ->  roost
+   8:    1  ->  scrawl
+   9:    1  ->  stand
+  10:    1  ->  tyrant
+  11:    1  ->  under
+  12:    1  ->  who
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  sentries
+   2:    2  ->  shoal
+   3:    1  ->  a
+   4:    1  ->  abasol
+   5:    1  ->  aria
+   6:    1  ->  as
+   7:    1  ->  colon
+   8:    1  ->  emancipation
+   9:    1  ->  empirion
+  10:    1  ->  enzyme
+  11:    1  ->  eyed
+  12:    1  ->  ferocity
+  13:    1  ->  had
+  14:    1  ->  heaped
+  15:    1  ->  here
+  16:    1  ->  icarian
+  17:    1  ->  investigations
+  18:    1  ->  is
+  19:    1  ->  kinsmen
+  20:    1  ->  muffle
+  21:    1  ->  nimbus
+  22:    1  ->  occult
+  23:    1  ->  or
+  24:    1  ->  origin
+  25:    1  ->  point
+  26:    1  ->  screaming
+  27:    1  ->  shadow
+  28:    1  ->  shear
+  29:    1  ->  spoken
+  30:    1  ->  stamp
+  31:    1  ->  steeps
+  32:    1  ->  sundial
+  33:    1  ->  transmutation
+  34:    1  ->  undertow
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  centuries
+   2:    2  ->  show
+   3:    1  ->  abysmal
+   4:    1  ->  arya
+   5:    1  ->  call
+   6:    1  ->  deeps
+   7:    1  ->  emancipator
+   8:    1  ->  hare's
+   9:    1  ->  hood
+  10:    1  ->  imperian
+  11:    1  ->  in
+  12:    1  ->  investigate
+  13:    1  ->  is
+  14:    1  ->  kept
+  15:    1  ->  kinsman
+  16:    1  ->  muffled
+  17:    1  ->  ocultic
+  18:    1  ->  of
+  19:    1  ->  on
+  20:    1  ->  patient
+  21:    1  ->  pineyed
+  22:    1  ->  region
+  23:    1  ->  scroll
+  24:    1  ->  service
+  25:    1  ->  she're
+  26:    1  ->  sign
+  27:    1  ->  stamped
+  28:    1  ->  standpoint
+  29:    1  ->  streaming
+  30:    1  ->  sundried
+  31:    1  ->  toe
+  32:    1  ->  unspoken
+  33:    1  ->  verosity
+  34:    1  ->  where
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

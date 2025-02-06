@@ -1,0 +1,232 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.3%   (  81)
+
+Percent Correct           =   93.0%   ( 912)
+
+Percent Substitution      =    4.7%   (  46)
+Percent Deletions         =    2.3%   (  23)
+Percent Insertions        =    1.2%   (  12)
+Percent Word Accuracy     =   91.7%
+
+
+Ref. words                =           ( 981)
+Hyp. words                =           ( 970)
+Aligned words             =           ( 993)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    2  ->  a ==> the
+   2:    1  ->  a ==> is
+   3:    1  ->  a ==> of
+   4:    1  ->  alone ==> along
+   5:    1  ->  blanket ==> blankets
+   6:    1  ->  brakes ==> breaks
+   7:    1  ->  chiaroscuro ==> of
+   8:    1  ->  complacencies ==> complacence
+   9:    1  ->  crosspiece ==> piece
+  10:    1  ->  cutthroat ==> throat
+  11:    1  ->  eddies ==> is
+  12:    1  ->  enormity ==> anonymity
+  13:    1  ->  faded ==> it
+  14:    1  ->  falls ==> false
+  15:    1  ->  five ==> 1965
+  16:    1  ->  gorse ==> coarse
+  17:    1  ->  governments ==> government's
+  18:    1  ->  heath ==> heat
+  19:    1  ->  her ==> the
+  20:    1  ->  hold ==> old
+  21:    1  ->  hundred ==> oh
+  22:    1  ->  in ==> into
+  23:    1  ->  in ==> striking
+  24:    1  ->  is ==> was
+  25:    1  ->  it ==> that
+  26:    1  ->  leader ==> it
+  27:    1  ->  lugged ==> locked
+  28:    1  ->  moon ==> new
+  29:    1  ->  night ==> might
+  30:    1  ->  of ==> off
+  31:    1  ->  often ==> him
+  32:    1  ->  pool ==> full
+  33:    1  ->  posit ==> possit
+  34:    1  ->  save ==> saved
+  35:    1  ->  saw ==> sigh
+  36:    1  ->  seen ==> scene
+  37:    1  ->  shadow ==> shadows
+  38:    1  ->  slide ==> side
+  39:    1  ->  the ==> a
+  40:    1  ->  the ==> believe
+  41:    1  ->  tommy's ==> his
+  42:    1  ->  turnstile ==> style
+  43:    1  ->  went ==> when
+  44:    1  ->  you ==> he
+  45:    1  ->  your ==> can
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  cross
+   3:    1  ->  cup
+   4:    1  ->  fade
+   5:    1  ->  had
+   6:    1  ->  here
+   7:    1  ->  it
+   8:    1  ->  off
+   9:    1  ->  sheer
+  10:    1  ->  ton
+  11:    1  ->  turn
+  12:    1  ->  you
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  a
+   2:    2  ->  book
+   3:    2  ->  with
+   4:    1  ->  came
+   5:    1  ->  first
+   6:    1  ->  found
+   7:    1  ->  i
+   8:    1  ->  in
+   9:    1  ->  indistinctly
+  10:    1  ->  lit
+  11:    1  ->  my
+  12:    1  ->  nineteen
+  13:    1  ->  out
+  14:    1  ->  poems
+  15:    1  ->  sixty
+  16:    1  ->  start
+  17:    1  ->  strike
+  18:    1  ->  to
+  19:    1  ->  want
+  20:    1  ->  which
+     -------
+        23
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    4  ->  a
+   2:    2  ->  in
+   3:    2  ->  the
+   4:    1  ->  alone
+   5:    1  ->  blanket
+   6:    1  ->  brakes
+   7:    1  ->  chiaroscuro
+   8:    1  ->  complacencies
+   9:    1  ->  crosspiece
+  10:    1  ->  cutthroat
+  11:    1  ->  eddies
+  12:    1  ->  enormity
+  13:    1  ->  faded
+  14:    1  ->  falls
+  15:    1  ->  five
+  16:    1  ->  gorse
+  17:    1  ->  governments
+  18:    1  ->  heath
+  19:    1  ->  her
+  20:    1  ->  hold
+  21:    1  ->  hundred
+  22:    1  ->  is
+  23:    1  ->  it
+  24:    1  ->  leader
+  25:    1  ->  lugged
+  26:    1  ->  moon
+  27:    1  ->  night
+  28:    1  ->  of
+  29:    1  ->  often
+  30:    1  ->  pool
+  31:    1  ->  posit
+  32:    1  ->  save
+  33:    1  ->  saw
+  34:    1  ->  seen
+  35:    1  ->  shadow
+  36:    1  ->  slide
+  37:    1  ->  tommy's
+  38:    1  ->  turnstile
+  39:    1  ->  went
+  40:    1  ->  you
+  41:    1  ->  your
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    3  ->  the
+   2:    2  ->  is
+   3:    2  ->  it
+   4:    2  ->  of
+   5:    1  ->  1965
+   6:    1  ->  a
+   7:    1  ->  along
+   8:    1  ->  anonymity
+   9:    1  ->  believe
+  10:    1  ->  blankets
+  11:    1  ->  breaks
+  12:    1  ->  can
+  13:    1  ->  coarse
+  14:    1  ->  complacence
+  15:    1  ->  false
+  16:    1  ->  full
+  17:    1  ->  government's
+  18:    1  ->  he
+  19:    1  ->  heat
+  20:    1  ->  him
+  21:    1  ->  his
+  22:    1  ->  into
+  23:    1  ->  locked
+  24:    1  ->  might
+  25:    1  ->  new
+  26:    1  ->  off
+  27:    1  ->  oh
+  28:    1  ->  old
+  29:    1  ->  piece
+  30:    1  ->  possit
+  31:    1  ->  saved
+  32:    1  ->  scene
+  33:    1  ->  shadows
+  34:    1  ->  side
+  35:    1  ->  sigh
+  36:    1  ->  striking
+  37:    1  ->  style
+  38:    1  ->  that
+  39:    1  ->  throat
+  40:    1  ->  was
+  41:    1  ->  when
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

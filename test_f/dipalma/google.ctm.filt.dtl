@@ -1,0 +1,172 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.9%   (  47)
+
+Percent Correct           =   96.6%   (1162)
+
+Percent Substitution      =    2.8%   (  34)
+Percent Deletions         =    0.6%   (   7)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   96.1%
+
+
+Ref. words                =           (1203)
+Hyp. words                =           (1202)
+Aligned words             =           (1209)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  and ==> in
+   2:    2  ->  elitist ==> elite
+   3:    1  ->  a ==> the
+   4:    1  ->  add ==> ad
+   5:    1  ->  and ==> then
+   6:    1  ->  baude ==> baudelaire
+   7:    1  ->  baudelairean ==> in
+   8:    1  ->  best ==> test
+   9:    1  ->  cetera ==> etc
+  10:    1  ->  creep ==> cretin
+  11:    1  ->  emotionalisms ==> emotionalism
+  12:    1  ->  fate ==> faith
+  13:    1  ->  heartstring ==> string
+  14:    1  ->  images ==> is
+  15:    1  ->  influenced ==> influence
+  16:    1  ->  lamenting ==> contemplating
+  17:    1  ->  o'hara's ==> harris's
+  18:    1  ->  o'hara's ==> o'hara
+  19:    1  ->  old ==> all
+  20:    1  ->  or ==> and
+  21:    1  ->  others' ==> others
+  22:    1  ->  pose ==> prose
+  23:    1  ->  quarterlies ==> quarterly
+  24:    1  ->  romantics ==> romanticists
+  25:    1  ->  to ==> and
+  26:    1  ->  weepiness ==> as
+  27:    1  ->  writer's ==> writers
+  28:    1  ->  x ==> iowa
+  29:    1  ->  x ==> that's
+  30:    1  ->  x ==> twoedged
+  31:    1  ->  x ==> years
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  but
+   3:    1  ->  heart
+   4:    1  ->  image
+   5:    1  ->  oh
+   6:    1  ->  weeping
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  et
+   3:    1  ->  genius
+   4:    1  ->  he's
+   5:    1  ->  it
+   6:    1  ->  one
+   7:    1  ->  to
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    4  ->  and
+   2:    4  ->  x
+   3:    2  ->  elitist
+   4:    2  ->  o'hara's
+   5:    1  ->  a
+   6:    1  ->  add
+   7:    1  ->  baude
+   8:    1  ->  baudelairean
+   9:    1  ->  best
+  10:    1  ->  cetera
+  11:    1  ->  creep
+  12:    1  ->  emotionalisms
+  13:    1  ->  fate
+  14:    1  ->  heartstring
+  15:    1  ->  images
+  16:    1  ->  influenced
+  17:    1  ->  lamenting
+  18:    1  ->  old
+  19:    1  ->  or
+  20:    1  ->  others'
+  21:    1  ->  pose
+  22:    1  ->  quarterlies
+  23:    1  ->  romantics
+  24:    1  ->  to
+  25:    1  ->  weepiness
+  26:    1  ->  writer's
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  in
+   2:    2  ->  and
+   3:    2  ->  elite
+   4:    1  ->  ad
+   5:    1  ->  all
+   6:    1  ->  as
+   7:    1  ->  baudelaire
+   8:    1  ->  contemplating
+   9:    1  ->  cretin
+  10:    1  ->  emotionalism
+  11:    1  ->  etc
+  12:    1  ->  faith
+  13:    1  ->  harris's
+  14:    1  ->  influence
+  15:    1  ->  iowa
+  16:    1  ->  is
+  17:    1  ->  o'hara
+  18:    1  ->  others
+  19:    1  ->  prose
+  20:    1  ->  quarterly
+  21:    1  ->  romanticists
+  22:    1  ->  string
+  23:    1  ->  test
+  24:    1  ->  that's
+  25:    1  ->  the
+  26:    1  ->  then
+  27:    1  ->  twoedged
+  28:    1  ->  writers
+  29:    1  ->  years
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,270 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.1%   (  86)
+
+Percent Correct           =   91.4%   ( 868)
+
+Percent Substitution      =    6.9%   (  66)
+Percent Deletions         =    1.7%   (  16)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   90.9%
+
+
+Ref. words                =           ( 950)
+Hyp. words                =           ( 938)
+Aligned words             =           ( 954)
+
+CONFUSION PAIRS                  Total                 (62)
+                                 With >=  1 occurrences (62)
+
+   1:    3  ->  in ==> and
+   2:    3  ->  taped ==> tape
+   3:    1  ->  a ==> caster
+   4:    1  ->  a ==> twins
+   5:    1  ->  and ==> in
+   6:    1  ->  and ==> levin
+   7:    1  ->  and ==> tan
+   8:    1  ->  ansem ==> some
+   9:    1  ->  ansem's ==> some
+  10:    1  ->  are ==> or
+  11:    1  ->  attendant ==> attendance
+  12:    1  ->  bandanna ==> bandana
+  13:    1  ->  bass ==> base
+  14:    1  ->  broken ==> heartbroken
+  15:    1  ->  cashmere ==> kashmir
+  16:    1  ->  crushed ==> crush
+  17:    1  ->  delancey ==> delancy
+  18:    1  ->  duct ==> duck
+  19:    1  ->  families' ==> families
+  20:    1  ->  groove ==> group
+  21:    1  ->  hamburger ==> hamburgers
+  22:    1  ->  hoochie ==> uchi
+  23:    1  ->  hooky ==> hookie
+  24:    1  ->  in ==> taking
+  25:    1  ->  is ==> was
+  26:    1  ->  j ==> jay
+  27:    1  ->  kids' ==> kids
+  28:    1  ->  know ==> no
+  29:    1  ->  ladies ==> lady's
+  30:    1  ->  lee ==> look
+  31:    1  ->  lookalike ==> alike
+  32:    1  ->  love ==> paws
+  33:    1  ->  meika ==> mica
+  34:    1  ->  mind ==> mine
+  35:    1  ->  mommas ==> mama's
+  36:    1  ->  motion ==> emotion
+  37:    1  ->  nights ==> knights
+  38:    1  ->  noir ==> near
+  39:    1  ->  obsesso ==> obsess
+  40:    1  ->  on ==> and
+  41:    1  ->  on ==> solution
+  42:    1  ->  pasa ==> capas
+  43:    1  ->  phat ==> fat
+  44:    1  ->  plane ==> plain
+  45:    1  ->  prowl ==> proud
+  46:    1  ->  saks ==> sax
+  47:    1  ->  schemerhorn ==> horn
+  48:    1  ->  shit ==> ***
+  49:    1  ->  sleep ==> recklessly
+  50:    1  ->  so ==> chucks
+  51:    1  ->  speckle ==> speck
+  52:    1  ->  spike ==> spikey
+  53:    1  ->  t ==> or
+  54:    1  ->  tambourine ==> tampering
+  55:    1  ->  the ==> a
+  56:    1  ->  thing ==> something
+  57:    1  ->  totally ==> tolly
+  58:    1  ->  twins' ==> twins
+  59:    1  ->  wack ==> whack
+  60:    1  ->  weekenders ==> weekender
+  61:    1  ->  whose ==> he's
+  62:    1  ->  yo ==> yoyo
+     -------
+        66
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  add
+   2:    1  ->  and
+   3:    1  ->  it
+   4:    1  ->  shimmer
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  are
+   2:    1  ->  casts
+   3:    1  ->  chuck
+   4:    1  ->  cle
+   5:    1  ->  feckless
+   6:    1  ->  have
+   7:    1  ->  heart
+   8:    1  ->  in
+   9:    1  ->  pals
+  10:    1  ->  pushe
+  11:    1  ->  que
+  12:    1  ->  some
+  13:    1  ->  swoosh
+  14:    1  ->  take
+  15:    1  ->  twins'
+  16:    1  ->  yo
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (57)
+                                 With >=  1 occurrences (57)
+
+   1:    4  ->  in
+   2:    3  ->  and
+   3:    3  ->  taped
+   4:    2  ->  a
+   5:    2  ->  on
+   6:    1  ->  ansem
+   7:    1  ->  ansem's
+   8:    1  ->  are
+   9:    1  ->  attendant
+  10:    1  ->  bandanna
+  11:    1  ->  bass
+  12:    1  ->  broken
+  13:    1  ->  cashmere
+  14:    1  ->  crushed
+  15:    1  ->  delancey
+  16:    1  ->  duct
+  17:    1  ->  families'
+  18:    1  ->  groove
+  19:    1  ->  hamburger
+  20:    1  ->  hoochie
+  21:    1  ->  hooky
+  22:    1  ->  is
+  23:    1  ->  j
+  24:    1  ->  kids'
+  25:    1  ->  know
+  26:    1  ->  ladies
+  27:    1  ->  lee
+  28:    1  ->  lookalike
+  29:    1  ->  love
+  30:    1  ->  meika
+  31:    1  ->  mind
+  32:    1  ->  mommas
+  33:    1  ->  motion
+  34:    1  ->  nights
+  35:    1  ->  noir
+  36:    1  ->  obsesso
+  37:    1  ->  pasa
+  38:    1  ->  phat
+  39:    1  ->  plane
+  40:    1  ->  prowl
+  41:    1  ->  saks
+  42:    1  ->  schemerhorn
+  43:    1  ->  shit
+  44:    1  ->  sleep
+  45:    1  ->  so
+  46:    1  ->  speckle
+  47:    1  ->  spike
+  48:    1  ->  t
+  49:    1  ->  tambourine
+  50:    1  ->  the
+  51:    1  ->  thing
+  52:    1  ->  totally
+  53:    1  ->  twins'
+  54:    1  ->  wack
+  55:    1  ->  weekenders
+  56:    1  ->  whose
+  57:    1  ->  yo
+     -------
+        66
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (58)
+                                 With >=  1 occurrences (58)
+
+   1:    4  ->  and
+   2:    3  ->  tape
+   3:    2  ->  or
+   4:    2  ->  some
+   5:    2  ->  twins
+   6:    1  ->  ***
+   7:    1  ->  a
+   8:    1  ->  alike
+   9:    1  ->  attendance
+  10:    1  ->  bandana
+  11:    1  ->  base
+  12:    1  ->  capas
+  13:    1  ->  caster
+  14:    1  ->  chucks
+  15:    1  ->  crush
+  16:    1  ->  delancy
+  17:    1  ->  duck
+  18:    1  ->  emotion
+  19:    1  ->  families
+  20:    1  ->  fat
+  21:    1  ->  group
+  22:    1  ->  hamburgers
+  23:    1  ->  he's
+  24:    1  ->  heartbroken
+  25:    1  ->  hookie
+  26:    1  ->  horn
+  27:    1  ->  in
+  28:    1  ->  jay
+  29:    1  ->  kashmir
+  30:    1  ->  kids
+  31:    1  ->  knights
+  32:    1  ->  lady's
+  33:    1  ->  levin
+  34:    1  ->  look
+  35:    1  ->  mama's
+  36:    1  ->  mica
+  37:    1  ->  mine
+  38:    1  ->  near
+  39:    1  ->  no
+  40:    1  ->  obsess
+  41:    1  ->  paws
+  42:    1  ->  plain
+  43:    1  ->  proud
+  44:    1  ->  recklessly
+  45:    1  ->  sax
+  46:    1  ->  solution
+  47:    1  ->  something
+  48:    1  ->  speck
+  49:    1  ->  spikey
+  50:    1  ->  taking
+  51:    1  ->  tampering
+  52:    1  ->  tan
+  53:    1  ->  tolly
+  54:    1  ->  uchi
+  55:    1  ->  was
+  56:    1  ->  weekender
+  57:    1  ->  whack
+  58:    1  ->  yoyo
+     -------
+        66
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

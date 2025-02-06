@@ -1,0 +1,669 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.4%   ( 274)
+
+Percent Correct           =   70.4%   ( 578)
+
+Percent Substitution      =   26.7%   ( 219)
+Percent Deletions         =    2.9%   (  24)
+Percent Insertions        =    3.8%   (  31)
+Percent Word Accuracy     =   66.6%
+
+
+Ref. words                =           ( 821)
+Hyp. words                =           ( 828)
+Aligned words             =           ( 852)
+
+CONFUSION PAIRS                  Total                 (216)
+                                 With >=  1 occurrences (216)
+
+   1:    3  ->  the ==> a
+   2:    2  ->  x ==> well
+   3:    1  ->  a ==> of
+   4:    1  ->  a ==> sure
+   5:    1  ->  a ==> the
+   6:    1  ->  aimlessness ==> endlessness
+   7:    1  ->  alps ==> abs
+   8:    1  ->  ambition's ==> ambitions
+   9:    1  ->  an ==> and
+  10:    1  ->  anglophile ==> anglo
+  11:    1  ->  are ==> the
+  12:    1  ->  arm's ==> arms
+  13:    1  ->  as ==> and
+  14:    1  ->  asshole ==> ***
+  15:    1  ->  ballet ==> quartile
+  16:    1  ->  baseman ==> basement
+  17:    1  ->  be ==> really
+  18:    1  ->  be ==> the
+  19:    1  ->  beret ==> tray
+  20:    1  ->  blossoms ==> suits
+  21:    1  ->  boredom ==> border
+  22:    1  ->  brandisher ==> assured
+  23:    1  ->  brooklynese ==> is
+  24:    1  ->  brooklynese ==> lebanese
+  25:    1  ->  bus ==> us
+  26:    1  ->  by ==> are
+  27:    1  ->  by ==> at
+  28:    1  ->  can ==> could
+  29:    1  ->  card ==> had
+  30:    1  ->  cartel ==> caught
+  31:    1  ->  causes ==> closes
+  32:    1  ->  charred ==> chart
+  33:    1  ->  chaucer ==> chaser
+  34:    1  ->  chaucer ==> choice
+  35:    1  ->  chaucer ==> crosser
+  36:    1  ->  chaucer ==> motor
+  37:    1  ->  chaucer ==> shorter
+  38:    1  ->  chaucer's ==> choices
+  39:    1  ->  chief ==> cheap
+  40:    1  ->  chopin ==> how
+  41:    1  ->  code ==> your
+  42:    1  ->  colored ==> cold
+  43:    1  ->  convention ==> prevention
+  44:    1  ->  coup ==> coop
+  45:    1  ->  courts ==> course
+  46:    1  ->  critic ==> credit
+  47:    1  ->  cupid ==> cute
+  48:    1  ->  dawn ==> door
+  49:    1  ->  delayer ==> layer
+  50:    1  ->  dents ==> dance
+  51:    1  ->  devouring ==> battery
+  52:    1  ->  dim ==> doom
+  53:    1  ->  dish ==> ditch
+  54:    1  ->  distractions ==> distraction
+  55:    1  ->  does ==> windows
+  56:    1  ->  drawn ==> thrown
+  57:    1  ->  drinking ==> making
+  58:    1  ->  drove ==> throwing
+  59:    1  ->  egg ==> freight
+  60:    1  ->  ending ==> engine
+  61:    1  ->  escape ==> escaped
+  62:    1  ->  fingered ==> finger
+  63:    1  ->  fire ==> are
+  64:    1  ->  flounder ==> launder
+  65:    1  ->  for ==> but
+  66:    1  ->  for ==> four
+  67:    1  ->  from ==> of
+  68:    1  ->  game ==> the
+  69:    1  ->  geoffrey ==> jeffrey
+  70:    1  ->  glory ==> for
+  71:    1  ->  gravy ==> greatest
+  72:    1  ->  guided ==> guarded
+  73:    1  ->  her ==> his
+  74:    1  ->  here ==> yes
+  75:    1  ->  his ==> the
+  76:    1  ->  honeysuckle ==> encircled
+  77:    1  ->  if ==> in
+  78:    1  ->  in ==> claim
+  79:    1  ->  in ==> judging
+  80:    1  ->  in ==> law
+  81:    1  ->  in ==> with
+  82:    1  ->  inspector ==> inspectors
+  83:    1  ->  into ==> choice
+  84:    1  ->  it ==> image
+  85:    1  ->  its ==> it's
+  86:    1  ->  jerry's ==> joys
+  87:    1  ->  layer ==> litter
+  88:    1  ->  length ==> leg
+  89:    1  ->  lines ==> mine's
+  90:    1  ->  london ==> mother
+  91:    1  ->  longer ==> running
+  92:    1  ->  lounge ==> a
+  93:    1  ->  love ==> sir
+  94:    1  ->  managed ==> marriage
+  95:    1  ->  masonic ==> massage
+  96:    1  ->  mood ==> faces
+  97:    1  ->  morning ==> i
+  98:    1  ->  mortality's ==> mortalities
+  99:    1  ->  night ==> line
+ 100:    1  ->  night's ==> nice
+ 101:    1  ->  no ==> the
+ 102:    1  ->  of ==> and
+ 103:    1  ->  of ==> apparated
+ 104:    1  ->  of ==> followed
+ 105:    1  ->  of ==> longer
+ 106:    1  ->  of ==> low
+ 107:    1  ->  of ==> or
+ 108:    1  ->  oil's ==> is
+ 109:    1  ->  omelets ==> outlets
+ 110:    1  ->  on ==> fired
+ 111:    1  ->  one ==> old
+ 112:    1  ->  one ==> on
+ 113:    1  ->  ornaments ==> wilderness
+ 114:    1  ->  our ==> on
+ 115:    1  ->  pam ==> par
+ 116:    1  ->  parasitic ==> pacific
+ 117:    1  ->  parasol ==> parcel
+ 118:    1  ->  past ==> has
+ 119:    1  ->  peel ==> appeal
+ 120:    1  ->  penis ==> cold
+ 121:    1  ->  plucked ==> plus
+ 122:    1  ->  poem ==> hello
+ 123:    1  ->  poem ==> home
+ 124:    1  ->  reiterator ==> reiterate
+ 125:    1  ->  ring ==> movement
+ 126:    1  ->  rum ==> long
+ 127:    1  ->  runner's ==> runners
+ 128:    1  ->  schnitzel ==> sizzle
+ 129:    1  ->  settee ==> he
+ 130:    1  ->  sight ==> side
+ 131:    1  ->  silhouettes ==> cigarettes
+ 132:    1  ->  slurper ==> server
+ 133:    1  ->  smegma ==> these
+ 134:    1  ->  so ==> well
+ 135:    1  ->  stallion's ==> casting
+ 136:    1  ->  sunset's ==> sunsets
+ 137:    1  ->  terror ==> peril
+ 138:    1  ->  that ==> had
+ 139:    1  ->  that ==> internet
+ 140:    1  ->  the ==> he
+ 141:    1  ->  the ==> health
+ 142:    1  ->  the ==> of
+ 143:    1  ->  the ==> rather
+ 144:    1  ->  the ==> running
+ 145:    1  ->  the ==> shoe
+ 146:    1  ->  the ==> them
+ 147:    1  ->  the ==> this
+ 148:    1  ->  the ==> we
+ 149:    1  ->  then ==> than
+ 150:    1  ->  theory ==> few
+ 151:    1  ->  there ==> throated
+ 152:    1  ->  these ==> b's
+ 153:    1  ->  they ==> for
+ 154:    1  ->  through ==> with
+ 155:    1  ->  to ==> the
+ 156:    1  ->  tourniquet ==> turkey
+ 157:    1  ->  tulips ==> tours
+ 158:    1  ->  turquoise ==> turquois
+ 159:    1  ->  unison ==> jason
+ 160:    1  ->  up ==> out
+ 161:    1  ->  waist ==> waste
+ 162:    1  ->  wait ==> what
+ 163:    1  ->  walls ==> wall
+ 164:    1  ->  warm ==> more
+ 165:    1  ->  was ==> heard
+ 166:    1  ->  were ==> where
+ 167:    1  ->  whale ==> wall
+ 168:    1  ->  when ==> where
+ 169:    1  ->  wigwam ==> and
+ 170:    1  ->  will ==> they
+ 171:    1  ->  works ==> worst
+ 172:    1  ->  x ==> abrasive
+ 173:    1  ->  x ==> am
+ 174:    1  ->  x ==> arms
+ 175:    1  ->  x ==> bars
+ 176:    1  ->  x ==> bolts
+ 177:    1  ->  x ==> brand
+ 178:    1  ->  x ==> car
+ 179:    1  ->  x ==> care
+ 180:    1  ->  x ==> case
+ 181:    1  ->  x ==> decreed
+ 182:    1  ->  x ==> does
+ 183:    1  ->  x ==> falling
+ 184:    1  ->  x ==> faster
+ 185:    1  ->  x ==> fate
+ 186:    1  ->  x ==> greenberg
+ 187:    1  ->  x ==> hazard
+ 188:    1  ->  x ==> hills
+ 189:    1  ->  x ==> home
+ 190:    1  ->  x ==> hudson
+ 191:    1  ->  x ==> if
+ 192:    1  ->  x ==> internal
+ 193:    1  ->  x ==> into
+ 194:    1  ->  x ==> jesse
+ 195:    1  ->  x ==> july
+ 196:    1  ->  x ==> june
+ 197:    1  ->  x ==> kenning
+ 198:    1  ->  x ==> linking
+ 199:    1  ->  x ==> look
+ 200:    1  ->  x ==> mannerist
+ 201:    1  ->  x ==> paying
+ 202:    1  ->  x ==> pit
+ 203:    1  ->  x ==> portion
+ 204:    1  ->  x ==> pull
+ 205:    1  ->  x ==> quilts
+ 206:    1  ->  x ==> ruby
+ 207:    1  ->  x ==> second
+ 208:    1  ->  x ==> shown
+ 209:    1  ->  x ==> store
+ 210:    1  ->  x ==> threaded
+ 211:    1  ->  x ==> tolerate
+ 212:    1  ->  x ==> tweezing
+ 213:    1  ->  x ==> wall
+ 214:    1  ->  xeno's ==> zero
+ 215:    1  ->  year ==> you
+ 216:    1  ->  your ==> samuel
+     -------
+       219
+
+
+
+INSERTIONS                       Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  ***
+   2:    1  ->  a
+   3:    1  ->  an
+   4:    1  ->  are
+   5:    1  ->  brooklyn
+   6:    1  ->  cannot
+   7:    1  ->  clock
+   8:    1  ->  dropped
+   9:    1  ->  five
+  10:    1  ->  games
+  11:    1  ->  hard
+  12:    1  ->  his
+  13:    1  ->  i
+  14:    1  ->  lillian
+  15:    1  ->  maroon
+  16:    1  ->  mate
+  17:    1  ->  mean
+  18:    1  ->  more
+  19:    1  ->  new
+  20:    1  ->  nose
+  21:    1  ->  oil
+  22:    1  ->  pull
+  23:    1  ->  said
+  24:    1  ->  stump
+  25:    1  ->  two
+  26:    1  ->  west
+  27:    1  ->  when
+  28:    1  ->  where
+  29:    1  ->  white
+  30:    1  ->  you
+  31:    1  ->  your
+     -------
+        31
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    4  ->  x
+   2:    3  ->  the
+   3:    2  ->  in
+   4:    2  ->  when
+   5:    1  ->  a
+   6:    1  ->  chaucer
+   7:    1  ->  coin
+   8:    1  ->  face's
+   9:    1  ->  fried
+  10:    1  ->  glow
+  11:    1  ->  judge
+  12:    1  ->  leap
+  13:    1  ->  olive
+  14:    1  ->  parade
+  15:    1  ->  sea
+  16:    1  ->  there
+  17:    1  ->  will
+     -------
+        24
+
+
+
+SUBSTITUTIONS                    Total                 (144)
+                                 With >=  1 occurrences (144)
+
+   1:   44  ->  x
+   2:   12  ->  the
+   3:    6  ->  of
+   4:    5  ->  chaucer
+   5:    4  ->  in
+   6:    3  ->  a
+   7:    2  ->  be
+   8:    2  ->  brooklynese
+   9:    2  ->  by
+  10:    2  ->  for
+  11:    2  ->  one
+  12:    2  ->  poem
+  13:    2  ->  that
+  14:    1  ->  aimlessness
+  15:    1  ->  alps
+  16:    1  ->  ambition's
+  17:    1  ->  an
+  18:    1  ->  anglophile
+  19:    1  ->  are
+  20:    1  ->  arm's
+  21:    1  ->  as
+  22:    1  ->  asshole
+  23:    1  ->  ballet
+  24:    1  ->  baseman
+  25:    1  ->  beret
+  26:    1  ->  blossoms
+  27:    1  ->  boredom
+  28:    1  ->  brandisher
+  29:    1  ->  bus
+  30:    1  ->  can
+  31:    1  ->  card
+  32:    1  ->  cartel
+  33:    1  ->  causes
+  34:    1  ->  charred
+  35:    1  ->  chaucer's
+  36:    1  ->  chief
+  37:    1  ->  chopin
+  38:    1  ->  code
+  39:    1  ->  colored
+  40:    1  ->  convention
+  41:    1  ->  coup
+  42:    1  ->  courts
+  43:    1  ->  critic
+  44:    1  ->  cupid
+  45:    1  ->  dawn
+  46:    1  ->  delayer
+  47:    1  ->  dents
+  48:    1  ->  devouring
+  49:    1  ->  dim
+  50:    1  ->  dish
+  51:    1  ->  distractions
+  52:    1  ->  does
+  53:    1  ->  drawn
+  54:    1  ->  drinking
+  55:    1  ->  drove
+  56:    1  ->  egg
+  57:    1  ->  ending
+  58:    1  ->  escape
+  59:    1  ->  fingered
+  60:    1  ->  fire
+  61:    1  ->  flounder
+  62:    1  ->  from
+  63:    1  ->  game
+  64:    1  ->  geoffrey
+  65:    1  ->  glory
+  66:    1  ->  gravy
+  67:    1  ->  guided
+  68:    1  ->  her
+  69:    1  ->  here
+  70:    1  ->  his
+  71:    1  ->  honeysuckle
+  72:    1  ->  if
+  73:    1  ->  inspector
+  74:    1  ->  into
+  75:    1  ->  it
+  76:    1  ->  its
+  77:    1  ->  jerry's
+  78:    1  ->  layer
+  79:    1  ->  length
+  80:    1  ->  lines
+  81:    1  ->  london
+  82:    1  ->  longer
+  83:    1  ->  lounge
+  84:    1  ->  love
+  85:    1  ->  managed
+  86:    1  ->  masonic
+  87:    1  ->  mood
+  88:    1  ->  morning
+  89:    1  ->  mortality's
+  90:    1  ->  night
+  91:    1  ->  night's
+  92:    1  ->  no
+  93:    1  ->  oil's
+  94:    1  ->  omelets
+  95:    1  ->  on
+  96:    1  ->  ornaments
+  97:    1  ->  our
+  98:    1  ->  pam
+  99:    1  ->  parasitic
+ 100:    1  ->  parasol
+ 101:    1  ->  past
+ 102:    1  ->  peel
+ 103:    1  ->  penis
+ 104:    1  ->  plucked
+ 105:    1  ->  reiterator
+ 106:    1  ->  ring
+ 107:    1  ->  rum
+ 108:    1  ->  runner's
+ 109:    1  ->  schnitzel
+ 110:    1  ->  settee
+ 111:    1  ->  sight
+ 112:    1  ->  silhouettes
+ 113:    1  ->  slurper
+ 114:    1  ->  smegma
+ 115:    1  ->  so
+ 116:    1  ->  stallion's
+ 117:    1  ->  sunset's
+ 118:    1  ->  terror
+ 119:    1  ->  then
+ 120:    1  ->  theory
+ 121:    1  ->  there
+ 122:    1  ->  these
+ 123:    1  ->  they
+ 124:    1  ->  through
+ 125:    1  ->  to
+ 126:    1  ->  tourniquet
+ 127:    1  ->  tulips
+ 128:    1  ->  turquoise
+ 129:    1  ->  unison
+ 130:    1  ->  up
+ 131:    1  ->  waist
+ 132:    1  ->  wait
+ 133:    1  ->  walls
+ 134:    1  ->  warm
+ 135:    1  ->  was
+ 136:    1  ->  were
+ 137:    1  ->  whale
+ 138:    1  ->  when
+ 139:    1  ->  wigwam
+ 140:    1  ->  will
+ 141:    1  ->  works
+ 142:    1  ->  xeno's
+ 143:    1  ->  year
+ 144:    1  ->  your
+     -------
+       219
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (188)
+                                 With >=  1 occurrences (188)
+
+   1:    7  ->  the
+   2:    4  ->  a
+   3:    4  ->  and
+   4:    3  ->  of
+   5:    3  ->  wall
+   6:    3  ->  well
+   7:    2  ->  are
+   8:    2  ->  arms
+   9:    2  ->  choice
+  10:    2  ->  cold
+  11:    2  ->  for
+  12:    2  ->  had
+  13:    2  ->  he
+  14:    2  ->  home
+  15:    2  ->  is
+  16:    2  ->  on
+  17:    2  ->  running
+  18:    2  ->  where
+  19:    2  ->  with
+  20:    1  ->  ***
+  21:    1  ->  abrasive
+  22:    1  ->  abs
+  23:    1  ->  am
+  24:    1  ->  ambitions
+  25:    1  ->  anglo
+  26:    1  ->  apparated
+  27:    1  ->  appeal
+  28:    1  ->  assured
+  29:    1  ->  at
+  30:    1  ->  b's
+  31:    1  ->  bars
+  32:    1  ->  basement
+  33:    1  ->  battery
+  34:    1  ->  bolts
+  35:    1  ->  border
+  36:    1  ->  brand
+  37:    1  ->  but
+  38:    1  ->  car
+  39:    1  ->  care
+  40:    1  ->  case
+  41:    1  ->  casting
+  42:    1  ->  caught
+  43:    1  ->  chart
+  44:    1  ->  chaser
+  45:    1  ->  cheap
+  46:    1  ->  choices
+  47:    1  ->  cigarettes
+  48:    1  ->  claim
+  49:    1  ->  closes
+  50:    1  ->  coop
+  51:    1  ->  could
+  52:    1  ->  course
+  53:    1  ->  credit
+  54:    1  ->  crosser
+  55:    1  ->  cute
+  56:    1  ->  dance
+  57:    1  ->  decreed
+  58:    1  ->  distraction
+  59:    1  ->  ditch
+  60:    1  ->  does
+  61:    1  ->  doom
+  62:    1  ->  door
+  63:    1  ->  encircled
+  64:    1  ->  endlessness
+  65:    1  ->  engine
+  66:    1  ->  escaped
+  67:    1  ->  faces
+  68:    1  ->  falling
+  69:    1  ->  faster
+  70:    1  ->  fate
+  71:    1  ->  few
+  72:    1  ->  finger
+  73:    1  ->  fired
+  74:    1  ->  followed
+  75:    1  ->  four
+  76:    1  ->  freight
+  77:    1  ->  greatest
+  78:    1  ->  greenberg
+  79:    1  ->  guarded
+  80:    1  ->  has
+  81:    1  ->  hazard
+  82:    1  ->  health
+  83:    1  ->  heard
+  84:    1  ->  hello
+  85:    1  ->  hills
+  86:    1  ->  his
+  87:    1  ->  how
+  88:    1  ->  hudson
+  89:    1  ->  i
+  90:    1  ->  if
+  91:    1  ->  image
+  92:    1  ->  in
+  93:    1  ->  inspectors
+  94:    1  ->  internal
+  95:    1  ->  internet
+  96:    1  ->  into
+  97:    1  ->  it's
+  98:    1  ->  jason
+  99:    1  ->  jeffrey
+ 100:    1  ->  jesse
+ 101:    1  ->  joys
+ 102:    1  ->  judging
+ 103:    1  ->  july
+ 104:    1  ->  june
+ 105:    1  ->  kenning
+ 106:    1  ->  launder
+ 107:    1  ->  law
+ 108:    1  ->  layer
+ 109:    1  ->  lebanese
+ 110:    1  ->  leg
+ 111:    1  ->  line
+ 112:    1  ->  linking
+ 113:    1  ->  litter
+ 114:    1  ->  long
+ 115:    1  ->  longer
+ 116:    1  ->  look
+ 117:    1  ->  low
+ 118:    1  ->  making
+ 119:    1  ->  mannerist
+ 120:    1  ->  marriage
+ 121:    1  ->  massage
+ 122:    1  ->  mine's
+ 123:    1  ->  more
+ 124:    1  ->  mortalities
+ 125:    1  ->  mother
+ 126:    1  ->  motor
+ 127:    1  ->  movement
+ 128:    1  ->  nice
+ 129:    1  ->  old
+ 130:    1  ->  or
+ 131:    1  ->  out
+ 132:    1  ->  outlets
+ 133:    1  ->  pacific
+ 134:    1  ->  par
+ 135:    1  ->  parcel
+ 136:    1  ->  paying
+ 137:    1  ->  peril
+ 138:    1  ->  pit
+ 139:    1  ->  plus
+ 140:    1  ->  portion
+ 141:    1  ->  prevention
+ 142:    1  ->  pull
+ 143:    1  ->  quartile
+ 144:    1  ->  quilts
+ 145:    1  ->  rather
+ 146:    1  ->  really
+ 147:    1  ->  reiterate
+ 148:    1  ->  ruby
+ 149:    1  ->  runners
+ 150:    1  ->  samuel
+ 151:    1  ->  second
+ 152:    1  ->  server
+ 153:    1  ->  shoe
+ 154:    1  ->  shorter
+ 155:    1  ->  shown
+ 156:    1  ->  side
+ 157:    1  ->  sir
+ 158:    1  ->  sizzle
+ 159:    1  ->  store
+ 160:    1  ->  suits
+ 161:    1  ->  sunsets
+ 162:    1  ->  sure
+ 163:    1  ->  than
+ 164:    1  ->  them
+ 165:    1  ->  these
+ 166:    1  ->  they
+ 167:    1  ->  this
+ 168:    1  ->  threaded
+ 169:    1  ->  throated
+ 170:    1  ->  throwing
+ 171:    1  ->  thrown
+ 172:    1  ->  tolerate
+ 173:    1  ->  tours
+ 174:    1  ->  tray
+ 175:    1  ->  turkey
+ 176:    1  ->  turquois
+ 177:    1  ->  tweezing
+ 178:    1  ->  us
+ 179:    1  ->  waste
+ 180:    1  ->  we
+ 181:    1  ->  what
+ 182:    1  ->  wilderness
+ 183:    1  ->  windows
+ 184:    1  ->  worst
+ 185:    1  ->  yes
+ 186:    1  ->  you
+ 187:    1  ->  your
+ 188:    1  ->  zero
+     -------
+       219
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

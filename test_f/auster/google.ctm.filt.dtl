@@ -1,0 +1,205 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.3%   (  88)
+
+Percent Correct           =   92.3%   ( 984)
+
+Percent Substitution      =    3.6%   (  38)
+Percent Deletions         =    4.1%   (  44)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   91.7%
+
+
+Ref. words                =           (1066)
+Hyp. words                =           (1028)
+Aligned words             =           (1072)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  ninth ==> 109th
+   2:    2  ->  hand ==> lefthand
+   3:    2  ->  law ==> sisterinlaw
+   4:    1  ->  alecks ==> alex
+   5:    1  ->  asked ==> ask
+   6:    1  ->  astounding ==> astounded
+   7:    1  ->  at ==> and
+   8:    1  ->  auster ==> oster
+   9:    1  ->  can ==> could
+  10:    1  ->  course ==> chorus
+  11:    1  ->  fifteen ==> five
+  12:    1  ->  flown ==> highflown
+  13:    1  ->  hundred ==> zero
+  14:    1  ->  hustvedt ==> hustven
+  15:    1  ->  i ==> "i
+  16:    1  ->  i ==> i"
+  17:    1  ->  made ==> custommade
+  18:    1  ->  mail ==> male
+  19:    1  ->  marveled ==> marvelled
+  20:    1  ->  mine ==> line
+  21:    1  ->  mine ==> mine"
+  22:    1  ->  my ==> "my
+  23:    1  ->  satisfaction ==> selfsatisfaction
+  24:    1  ->  siri's ==> siri
+  25:    1  ->  so ==> "so
+  26:    1  ->  support ==> supported
+  27:    1  ->  ten ==> oh
+  28:    1  ->  that ==> that"
+  29:    1  ->  thousand ==> 10000
+  30:    1  ->  twelve ==> two
+  31:    1  ->  written ==> typewritten
+  32:    1  ->  x ==> always
+  33:    1  ->  x ==> or
+  34:    1  ->  yes ==> "yes
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  one
+   2:    1  ->  %bcack
+   3:    1  ->  building
+   4:    1  ->  i
+   5:    1  ->  my
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    5  ->  a
+   2:    4  ->  and
+   3:    3  ->  hundred
+   4:    3  ->  in
+   5:    2  ->  had
+   6:    2  ->  left
+   7:    2  ->  sister
+   8:    2  ->  three
+   9:    2  ->  to
+  10:    1  ->  been
+  11:    1  ->  crossed
+  12:    1  ->  custom
+  13:    1  ->  deliverable
+  14:    1  ->  forward
+  15:    1  ->  high
+  16:    1  ->  mister
+  17:    1  ->  morgan's
+  18:    1  ->  name
+  19:    1  ->  not
+  20:    1  ->  out
+  21:    1  ->  pen
+  22:    1  ->  return
+  23:    1  ->  self
+  24:    1  ->  ten
+  25:    1  ->  type
+  26:    1  ->  unable
+  27:    1  ->  with
+  28:    1  ->  writer
+     -------
+        44
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  ninth
+   2:    2  ->  hand
+   3:    2  ->  i
+   4:    2  ->  law
+   5:    2  ->  mine
+   6:    2  ->  x
+   7:    1  ->  alecks
+   8:    1  ->  asked
+   9:    1  ->  astounding
+  10:    1  ->  at
+  11:    1  ->  auster
+  12:    1  ->  can
+  13:    1  ->  course
+  14:    1  ->  fifteen
+  15:    1  ->  flown
+  16:    1  ->  hundred
+  17:    1  ->  hustvedt
+  18:    1  ->  made
+  19:    1  ->  mail
+  20:    1  ->  marveled
+  21:    1  ->  my
+  22:    1  ->  satisfaction
+  23:    1  ->  siri's
+  24:    1  ->  so
+  25:    1  ->  support
+  26:    1  ->  ten
+  27:    1  ->  that
+  28:    1  ->  thousand
+  29:    1  ->  twelve
+  30:    1  ->  written
+  31:    1  ->  yes
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  109th
+   2:    2  ->  lefthand
+   3:    2  ->  sisterinlaw
+   4:    1  ->  "i
+   5:    1  ->  "my
+   6:    1  ->  "so
+   7:    1  ->  "yes
+   8:    1  ->  10000
+   9:    1  ->  alex
+  10:    1  ->  always
+  11:    1  ->  and
+  12:    1  ->  ask
+  13:    1  ->  astounded
+  14:    1  ->  chorus
+  15:    1  ->  could
+  16:    1  ->  custommade
+  17:    1  ->  five
+  18:    1  ->  highflown
+  19:    1  ->  hustven
+  20:    1  ->  i"
+  21:    1  ->  line
+  22:    1  ->  male
+  23:    1  ->  marvelled
+  24:    1  ->  mine"
+  25:    1  ->  oh
+  26:    1  ->  or
+  27:    1  ->  oster
+  28:    1  ->  selfsatisfaction
+  29:    1  ->  siri
+  30:    1  ->  supported
+  31:    1  ->  that"
+  32:    1  ->  two
+  33:    1  ->  typewritten
+  34:    1  ->  zero
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

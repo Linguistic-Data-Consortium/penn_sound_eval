@@ -1,0 +1,160 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.1%   (  41)
+
+Percent Correct           =   96.8%   ( 961)
+
+Percent Substitution      =    2.7%   (  27)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   95.9%
+
+
+Ref. words                =           ( 993)
+Hyp. words                =           ( 997)
+Aligned words             =           (1002)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  twelve ==> two
+   2:    1  ->  a ==> the
+   3:    1  ->  am ==> m
+   4:    1  ->  book ==> bug
+   5:    1  ->  dependent ==> i
+   6:    1  ->  gave ==> gained
+   7:    1  ->  had ==> have
+   8:    1  ->  hellen ==> helen
+   9:    1  ->  housesitting ==> sitting
+  10:    1  ->  intention ==> attention
+  11:    1  ->  jambet ==> jambé
+  12:    1  ->  koch's ==> rur
+  13:    1  ->  liljestrand ==> lestrand
+  14:    1  ->  line ==> midline
+  15:    1  ->  move ==> moved
+  16:    1  ->  on ==> at
+  17:    1  ->  on ==> of
+  18:    1  ->  on ==> upon
+  19:    1  ->  on ==> would
+  20:    1  ->  onto ==> to
+  21:    1  ->  pm ==> m
+  22:    1  ->  rerecord ==> record
+  23:    1  ->  rhubarb ==> bar
+  24:    1  ->  sacks's ==> saxe's
+  25:    1  ->  singlehandedly ==> handedly
+  26:    1  ->  the ==> a
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  one
+   2:    1  ->  a
+   3:    1  ->  house
+   4:    1  ->  kochek's
+   5:    1  ->  on
+   6:    1  ->  p
+   7:    1  ->  re
+   8:    1  ->  single
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  became
+   2:    1  ->  it
+   3:    1  ->  it's
+   4:    1  ->  mid
+   5:    1  ->  unquote
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    4  ->  on
+   2:    2  ->  twelve
+   3:    1  ->  a
+   4:    1  ->  am
+   5:    1  ->  book
+   6:    1  ->  dependent
+   7:    1  ->  gave
+   8:    1  ->  had
+   9:    1  ->  hellen
+  10:    1  ->  housesitting
+  11:    1  ->  intention
+  12:    1  ->  jambet
+  13:    1  ->  koch's
+  14:    1  ->  liljestrand
+  15:    1  ->  line
+  16:    1  ->  move
+  17:    1  ->  onto
+  18:    1  ->  pm
+  19:    1  ->  rerecord
+  20:    1  ->  rhubarb
+  21:    1  ->  sacks's
+  22:    1  ->  singlehandedly
+  23:    1  ->  the
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  m
+   2:    2  ->  two
+   3:    1  ->  a
+   4:    1  ->  at
+   5:    1  ->  attention
+   6:    1  ->  bar
+   7:    1  ->  bug
+   8:    1  ->  gained
+   9:    1  ->  handedly
+  10:    1  ->  have
+  11:    1  ->  helen
+  12:    1  ->  i
+  13:    1  ->  jambé
+  14:    1  ->  lestrand
+  15:    1  ->  midline
+  16:    1  ->  moved
+  17:    1  ->  of
+  18:    1  ->  record
+  19:    1  ->  rur
+  20:    1  ->  saxe's
+  21:    1  ->  sitting
+  22:    1  ->  the
+  23:    1  ->  to
+  24:    1  ->  upon
+  25:    1  ->  would
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

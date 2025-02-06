@@ -1,0 +1,238 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.6%   (  74)
+
+Percent Correct           =   92.7%   ( 905)
+
+Percent Substitution      =    5.4%   (  53)
+Percent Deletions         =    1.8%   (  18)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   92.4%
+
+
+Ref. words                =           ( 976)
+Hyp. words                =           ( 961)
+Aligned words             =           ( 979)
+
+CONFUSION PAIRS                  Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    2  ->  fashioned ==> oldfashioned
+   2:    2  ->  in ==> and
+   3:    1  ->  a ==> the
+   4:    1  ->  ability ==> incommensurability
+   5:    1  ->  antimony ==> antonym
+   6:    1  ->  apathetic ==> epiphetic
+   7:    1  ->  armpit's ==> armpits
+   8:    1  ->  as ==> this
+   9:    1  ->  borne ==> born
+  10:    1  ->  cart ==> car
+  11:    1  ->  charmed ==> charm
+  12:    1  ->  colored ==> applecolored
+  13:    1  ->  dew ==> do
+  14:    1  ->  disjuncture ==> disjunction
+  15:    1  ->  dot ==> adopt
+  16:    1  ->  eared ==> goldeneared
+  17:    1  ->  end ==> talent
+  18:    1  ->  failing ==> unfailing
+  19:    1  ->  forbes' ==> forbes
+  20:    1  ->  gnat ==> rat
+  21:    1  ->  i ==> and
+  22:    1  ->  is ==> as
+  23:    1  ->  is ==> with
+  24:    1  ->  it ==> i
+  25:    1  ->  man ==> and
+  26:    1  ->  modernism ==> postmodernism
+  27:    1  ->  name ==> names
+  28:    1  ->  now ==> how
+  29:    1  ->  of ==> and
+  30:    1  ->  phones ==> foams
+  31:    1  ->  prophesize ==> prophesies
+  32:    1  ->  purpled ==> purple
+  33:    1  ->  rider ==> writer
+  34:    1  ->  righted ==> right
+  35:    1  ->  scalp ==> gap
+  36:    1  ->  seacoast ==> coast
+  37:    1  ->  see ==> c
+  38:    1  ->  shortage ==> short
+  39:    1  ->  slashed ==> slash
+  40:    1  ->  so ==> some
+  41:    1  ->  soo ==> sue
+  42:    1  ->  strong ==> sperm
+  43:    1  ->  sudden ==> also
+  44:    1  ->  that ==> and
+  45:    1  ->  the ==> this
+  46:    1  ->  they ==> they"
+  47:    1  ->  this ==> "this
+  48:    1  ->  time ==> tongue
+  49:    1  ->  tinder ==> tender
+  50:    1  ->  to ==> the
+  51:    1  ->  weiner ==> winer
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  and
+   2:    1  ->  or
+   3:    1  ->  sea
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  a
+   2:    2  ->  old
+   3:    1  ->  all
+   4:    1  ->  and
+   5:    1  ->  apple
+   6:    1  ->  golden
+   7:    1  ->  her
+   8:    1  ->  increments
+   9:    1  ->  it
+  10:    1  ->  posse
+  11:    1  ->  post
+  12:    1  ->  s
+  13:    1  ->  shadow
+  14:    1  ->  tail
+  15:    1  ->  the
+  16:    1  ->  who
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  fashioned
+   2:    2  ->  in
+   3:    2  ->  is
+   4:    1  ->  a
+   5:    1  ->  ability
+   6:    1  ->  antimony
+   7:    1  ->  apathetic
+   8:    1  ->  armpit's
+   9:    1  ->  as
+  10:    1  ->  borne
+  11:    1  ->  cart
+  12:    1  ->  charmed
+  13:    1  ->  colored
+  14:    1  ->  dew
+  15:    1  ->  disjuncture
+  16:    1  ->  dot
+  17:    1  ->  eared
+  18:    1  ->  end
+  19:    1  ->  failing
+  20:    1  ->  forbes'
+  21:    1  ->  gnat
+  22:    1  ->  i
+  23:    1  ->  it
+  24:    1  ->  man
+  25:    1  ->  modernism
+  26:    1  ->  name
+  27:    1  ->  now
+  28:    1  ->  of
+  29:    1  ->  phones
+  30:    1  ->  prophesize
+  31:    1  ->  purpled
+  32:    1  ->  rider
+  33:    1  ->  righted
+  34:    1  ->  scalp
+  35:    1  ->  seacoast
+  36:    1  ->  see
+  37:    1  ->  shortage
+  38:    1  ->  slashed
+  39:    1  ->  so
+  40:    1  ->  soo
+  41:    1  ->  strong
+  42:    1  ->  sudden
+  43:    1  ->  that
+  44:    1  ->  the
+  45:    1  ->  they
+  46:    1  ->  this
+  47:    1  ->  time
+  48:    1  ->  tinder
+  49:    1  ->  to
+  50:    1  ->  weiner
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    6  ->  and
+   2:    2  ->  oldfashioned
+   3:    2  ->  the
+   4:    2  ->  this
+   5:    1  ->  "this
+   6:    1  ->  adopt
+   7:    1  ->  also
+   8:    1  ->  antonym
+   9:    1  ->  applecolored
+  10:    1  ->  armpits
+  11:    1  ->  as
+  12:    1  ->  born
+  13:    1  ->  c
+  14:    1  ->  car
+  15:    1  ->  charm
+  16:    1  ->  coast
+  17:    1  ->  disjunction
+  18:    1  ->  do
+  19:    1  ->  epiphetic
+  20:    1  ->  foams
+  21:    1  ->  forbes
+  22:    1  ->  gap
+  23:    1  ->  goldeneared
+  24:    1  ->  how
+  25:    1  ->  i
+  26:    1  ->  incommensurability
+  27:    1  ->  names
+  28:    1  ->  postmodernism
+  29:    1  ->  prophesies
+  30:    1  ->  purple
+  31:    1  ->  rat
+  32:    1  ->  right
+  33:    1  ->  short
+  34:    1  ->  slash
+  35:    1  ->  some
+  36:    1  ->  sperm
+  37:    1  ->  sue
+  38:    1  ->  talent
+  39:    1  ->  tender
+  40:    1  ->  they"
+  41:    1  ->  tongue
+  42:    1  ->  unfailing
+  43:    1  ->  winer
+  44:    1  ->  with
+  45:    1  ->  writer
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

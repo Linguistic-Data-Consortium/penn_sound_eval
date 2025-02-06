@@ -1,0 +1,142 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.2%   (  43)
+
+Percent Correct           =   96.0%   ( 992)
+
+Percent Substitution      =    1.5%   (  15)
+Percent Deletions         =    2.5%   (  26)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   95.8%
+
+
+Ref. words                =           (1033)
+Hyp. words                =           (1009)
+Aligned words             =           (1035)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  air ==> error
+   2:    1  ->  blinding ==> blindness
+   3:    1  ->  chubby ==> cheby
+   4:    1  ->  experience ==> experienced
+   5:    1  ->  feeling's ==> feelings
+   6:    1  ->  finished ==> finish
+   7:    1  ->  it ==> and
+   8:    1  ->  m ==> em
+   9:    1  ->  over ==> of
+  10:    1  ->  reader ==> city
+  11:    1  ->  reworkings ==> reworking
+  12:    1  ->  shelvings ==> shelving
+  13:    1  ->  text ==> texts
+  14:    1  ->  tree ==> friends
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  city
+   2:    1  ->  the
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  the
+   2:    1  ->  and
+   3:    1  ->  appear
+   4:    1  ->  as
+   5:    1  ->  concrete
+   6:    1  ->  deep
+   7:    1  ->  did
+   8:    1  ->  fat
+   9:    1  ->  feels
+  10:    1  ->  first
+  11:    1  ->  for
+  12:    1  ->  good
+  13:    1  ->  had
+  14:    1  ->  ho
+  15:    1  ->  is
+  16:    1  ->  not
+  17:    1  ->  o
+  18:    1  ->  reason
+  19:    1  ->  rid
+  20:    1  ->  she
+  21:    1  ->  smile
+  22:    1  ->  some
+  23:    1  ->  that
+  24:    1  ->  time
+  25:    1  ->  trial
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  air
+   2:    1  ->  blinding
+   3:    1  ->  chubby
+   4:    1  ->  experience
+   5:    1  ->  feeling's
+   6:    1  ->  finished
+   7:    1  ->  it
+   8:    1  ->  m
+   9:    1  ->  over
+  10:    1  ->  reader
+  11:    1  ->  reworkings
+  12:    1  ->  shelvings
+  13:    1  ->  text
+  14:    1  ->  tree
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  error
+   2:    1  ->  and
+   3:    1  ->  blindness
+   4:    1  ->  cheby
+   5:    1  ->  city
+   6:    1  ->  em
+   7:    1  ->  experienced
+   8:    1  ->  feelings
+   9:    1  ->  finish
+  10:    1  ->  friends
+  11:    1  ->  of
+  12:    1  ->  reworking
+  13:    1  ->  shelving
+  14:    1  ->  texts
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

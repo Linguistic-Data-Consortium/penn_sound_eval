@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.2%   (  23)
+
+Percent Correct           =   97.1%   ( 691)
+
+Percent Substitution      =    2.1%   (  15)
+Percent Deletions         =    0.8%   (   6)
+Percent Insertions        =    0.3%   (   2)
+Percent Word Accuracy     =   96.8%
+
+
+Ref. words                =           ( 712)
+Hyp. words                =           ( 708)
+Aligned words             =           ( 714)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  airs ==> heirs
+   2:    1  ->  conciliation ==> reconciliation
+   3:    1  ->  corrugated ==> currugated
+   4:    1  ->  disfigured ==> disfigure
+   5:    1  ->  election's ==> elections
+   6:    1  ->  faux ==> foe
+   7:    1  ->  fiber ==> fibre
+   8:    1  ->  fishers ==> and
+   9:    1  ->  for ==> where
+  10:    1  ->  girder ==> girter
+  11:    1  ->  grips ==> grives
+  12:    1  ->  incoherent ==> coherence
+  13:    1  ->  seemed ==> seems
+  14:    1  ->  stills ==> instills
+  15:    1  ->  that ==> this
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  death
+   2:    1  ->  fissures
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  i
+   2:    1  ->  in
+   3:    1  ->  me
+   4:    1  ->  our
+   5:    1  ->  remind
+   6:    1  ->  wealth
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  airs
+   2:    1  ->  conciliation
+   3:    1  ->  corrugated
+   4:    1  ->  disfigured
+   5:    1  ->  election's
+   6:    1  ->  faux
+   7:    1  ->  fiber
+   8:    1  ->  fishers
+   9:    1  ->  for
+  10:    1  ->  girder
+  11:    1  ->  grips
+  12:    1  ->  incoherent
+  13:    1  ->  seemed
+  14:    1  ->  stills
+  15:    1  ->  that
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  and
+   2:    1  ->  coherence
+   3:    1  ->  currugated
+   4:    1  ->  disfigure
+   5:    1  ->  elections
+   6:    1  ->  fibre
+   7:    1  ->  foe
+   8:    1  ->  girter
+   9:    1  ->  grives
+  10:    1  ->  heirs
+  11:    1  ->  instills
+  12:    1  ->  reconciliation
+  13:    1  ->  seems
+  14:    1  ->  this
+  15:    1  ->  where
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

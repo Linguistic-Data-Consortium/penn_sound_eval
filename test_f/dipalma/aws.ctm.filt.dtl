@@ -1,0 +1,185 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.4%   (  53)
+
+Percent Correct           =   96.6%   (1162)
+
+Percent Substitution      =    3.1%   (  37)
+Percent Deletions         =    0.3%   (   4)
+Percent Insertions        =    1.0%   (  12)
+Percent Word Accuracy     =   95.6%
+
+
+Ref. words                =           (1203)
+Hyp. words                =           (1211)
+Aligned words             =           (1215)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  and ==> in
+   2:    1  ->  a ==> the
+   3:    1  ->  add ==> ad
+   4:    1  ->  and ==> the
+   5:    1  ->  and ==> then
+   6:    1  ->  baude ==> baudelaire
+   7:    1  ->  baudelairean ==> in
+   8:    1  ->  crabbed ==> crabs
+   9:    1  ->  creep ==> cretin
+  10:    1  ->  cried ==> cry
+  11:    1  ->  elitism ==> and
+  12:    1  ->  emotionalisms ==> emotionalism
+  13:    1  ->  ensured ==> insured
+  14:    1  ->  fact ==> effect
+  15:    1  ->  for ==> leaders
+  16:    1  ->  ginsberg ==> ginsburg
+  17:    1  ->  images ==> is
+  18:    1  ->  influenced ==> influence
+  19:    1  ->  or ==> and
+  20:    1  ->  others' ==> others
+  21:    1  ->  quarterlies ==> quarterly
+  22:    1  ->  selfconscious ==> conscious
+  23:    1  ->  selfdestruction ==> destruction
+  24:    1  ->  selfsatisfied ==> satisfied
+  25:    1  ->  the ==> a
+  26:    1  ->  thus ==> as
+  27:    1  ->  to ==> and
+  28:    1  ->  weepiness ==> weepings
+  29:    1  ->  wellfounded ==> founded
+  30:    1  ->  wellorganised ==> organised
+  31:    1  ->  worldrenowned ==> renowned
+  32:    1  ->  writer's ==> writers
+  33:    1  ->  x ==> edged
+  34:    1  ->  x ==> iowa
+  35:    1  ->  x ==> that's
+  36:    1  ->  x ==> years
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    3  ->  self
+   2:    2  ->  well
+   3:    1  ->  bo
+   4:    1  ->  but
+   5:    1  ->  by
+   6:    1  ->  image
+   7:    1  ->  it
+   8:    1  ->  two
+   9:    1  ->  world
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  he's
+   3:    1  ->  in
+   4:    1  ->  to
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    4  ->  and
+   2:    4  ->  x
+   3:    1  ->  a
+   4:    1  ->  add
+   5:    1  ->  baude
+   6:    1  ->  baudelairean
+   7:    1  ->  crabbed
+   8:    1  ->  creep
+   9:    1  ->  cried
+  10:    1  ->  elitism
+  11:    1  ->  emotionalisms
+  12:    1  ->  ensured
+  13:    1  ->  fact
+  14:    1  ->  for
+  15:    1  ->  ginsberg
+  16:    1  ->  images
+  17:    1  ->  influenced
+  18:    1  ->  or
+  19:    1  ->  others'
+  20:    1  ->  quarterlies
+  21:    1  ->  selfconscious
+  22:    1  ->  selfdestruction
+  23:    1  ->  selfsatisfied
+  24:    1  ->  the
+  25:    1  ->  thus
+  26:    1  ->  to
+  27:    1  ->  weepiness
+  28:    1  ->  wellfounded
+  29:    1  ->  wellorganised
+  30:    1  ->  worldrenowned
+  31:    1  ->  writer's
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    3  ->  and
+   2:    3  ->  in
+   3:    2  ->  the
+   4:    1  ->  a
+   5:    1  ->  ad
+   6:    1  ->  as
+   7:    1  ->  baudelaire
+   8:    1  ->  conscious
+   9:    1  ->  crabs
+  10:    1  ->  cretin
+  11:    1  ->  cry
+  12:    1  ->  destruction
+  13:    1  ->  edged
+  14:    1  ->  effect
+  15:    1  ->  emotionalism
+  16:    1  ->  founded
+  17:    1  ->  ginsburg
+  18:    1  ->  influence
+  19:    1  ->  insured
+  20:    1  ->  iowa
+  21:    1  ->  is
+  22:    1  ->  leaders
+  23:    1  ->  organised
+  24:    1  ->  others
+  25:    1  ->  quarterly
+  26:    1  ->  renowned
+  27:    1  ->  satisfied
+  28:    1  ->  that's
+  29:    1  ->  then
+  30:    1  ->  weepings
+  31:    1  ->  writers
+  32:    1  ->  years
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

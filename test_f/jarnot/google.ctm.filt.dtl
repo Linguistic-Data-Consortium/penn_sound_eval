@@ -1,0 +1,138 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.5%   (  34)
+
+Percent Correct           =   96.0%   ( 721)
+
+Percent Substitution      =    2.8%   (  21)
+Percent Deletions         =    1.2%   (   9)
+Percent Insertions        =    0.5%   (   4)
+Percent Word Accuracy     =   95.5%
+
+
+Ref. words                =           ( 751)
+Hyp. words                =           ( 746)
+Aligned words             =           ( 755)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  lost ==> last
+   2:    2  ->  seen ==> scene
+   3:    2  ->  th ==> the
+   4:    1  ->  a ==> it
+   5:    1  ->  alms ==> psalms
+   6:    1  ->  an ==> and
+   7:    1  ->  apt ==> app
+   8:    1  ->  eruptions ==> eruption
+   9:    1  ->  genomics ==> genomic
+  10:    1  ->  jades ==> jade's
+  11:    1  ->  kyger ==> kaiger
+  12:    1  ->  miniscule ==> minuscule
+  13:    1  ->  overrun ==> run
+  14:    1  ->  psalm ==> song
+  15:    1  ->  rebbe ==> rabbi
+  16:    1  ->  seemed ==> seems
+  17:    1  ->  x ==> confident
+  18:    1  ->  x ==> hangers
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  over
+   4:    1  ->  when
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  psalm
+   2:    1  ->  a
+   3:    1  ->  am
+   4:    1  ->  expectancy
+   5:    1  ->  for
+   6:    1  ->  lost
+   7:    1  ->  ps
+   8:    1  ->  vanishing
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  lost
+   2:    2  ->  seen
+   3:    2  ->  th
+   4:    2  ->  x
+   5:    1  ->  a
+   6:    1  ->  alms
+   7:    1  ->  an
+   8:    1  ->  apt
+   9:    1  ->  eruptions
+  10:    1  ->  genomics
+  11:    1  ->  jades
+  12:    1  ->  kyger
+  13:    1  ->  miniscule
+  14:    1  ->  overrun
+  15:    1  ->  psalm
+  16:    1  ->  rebbe
+  17:    1  ->  seemed
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  last
+   2:    2  ->  scene
+   3:    2  ->  the
+   4:    1  ->  and
+   5:    1  ->  app
+   6:    1  ->  confident
+   7:    1  ->  eruption
+   8:    1  ->  genomic
+   9:    1  ->  hangers
+  10:    1  ->  it
+  11:    1  ->  jade's
+  12:    1  ->  kaiger
+  13:    1  ->  minuscule
+  14:    1  ->  psalms
+  15:    1  ->  rabbi
+  16:    1  ->  run
+  17:    1  ->  seems
+  18:    1  ->  song
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

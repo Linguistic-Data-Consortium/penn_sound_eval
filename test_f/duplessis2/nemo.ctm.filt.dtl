@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.9%   (  25)
+
+Percent Correct           =   97.8%   ( 836)
+
+Percent Substitution      =    1.5%   (  13)
+Percent Deletions         =    0.7%   (   6)
+Percent Insertions        =    0.7%   (   6)
+Percent Word Accuracy     =   97.1%
+
+
+Ref. words                =           ( 855)
+Hyp. words                =           ( 855)
+Aligned words             =           ( 861)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  stair ==> stare
+   2:    1  ->  barrettes ==> burettes
+   3:    1  ->  bits ==> alphabets
+   4:    1  ->  bloodied ==> bloody
+   5:    1  ->  call ==> called
+   6:    1  ->  connections ==> confusion
+   7:    1  ->  cosy ==> cozy
+   8:    1  ->  laid ==> lay
+   9:    1  ->  l’ingresso ==> lingresso
+  10:    1  ->  ownership ==> friendship
+  11:    1  ->  vow ==> avow
+  12:    1  ->  watch ==> watched
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  better
+   2:    1  ->  feed
+   3:    1  ->  my
+   4:    1  ->  she
+   5:    1  ->  soul
+   6:    1  ->  was
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  alpha
+   3:    1  ->  empathy
+   4:    1  ->  in
+   5:    1  ->  its
+   6:    1  ->  live
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  stair
+   2:    1  ->  barrettes
+   3:    1  ->  bits
+   4:    1  ->  bloodied
+   5:    1  ->  call
+   6:    1  ->  connections
+   7:    1  ->  cosy
+   8:    1  ->  laid
+   9:    1  ->  l’ingresso
+  10:    1  ->  ownership
+  11:    1  ->  vow
+  12:    1  ->  watch
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  stare
+   2:    1  ->  alphabets
+   3:    1  ->  avow
+   4:    1  ->  bloody
+   5:    1  ->  burettes
+   6:    1  ->  called
+   7:    1  ->  confusion
+   8:    1  ->  cozy
+   9:    1  ->  friendship
+  10:    1  ->  lay
+  11:    1  ->  lingresso
+  12:    1  ->  watched
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

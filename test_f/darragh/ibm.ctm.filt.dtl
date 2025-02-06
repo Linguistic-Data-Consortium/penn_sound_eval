@@ -1,0 +1,220 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.6%   (  84)
+
+Percent Correct           =   92.8%   ( 907)
+
+Percent Substitution      =    4.6%   (  45)
+Percent Deletions         =    2.6%   (  25)
+Percent Insertions        =    1.4%   (  14)
+Percent Word Accuracy     =   91.4%
+
+
+Ref. words                =           ( 977)
+Hyp. words                =           ( 966)
+Aligned words             =           ( 991)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    3  ->  hon ==> hun
+   2:    2  ->  burqa ==> burke
+   3:    2  ->  x ==> levent
+   4:    1  ->  a ==> aha
+   5:    1  ->  a ==> the
+   6:    1  ->  as ==> is
+   7:    1  ->  at ==> that
+   8:    1  ->  bayhdole ==> dole
+   9:    1  ->  bayhdole ==> doll
+  10:    1  ->  can ==> could
+  11:    1  ->  creme ==> lacrim
+  12:    1  ->  deepening ==> in
+  13:    1  ->  gal ==> call
+  14:    1  ->  gal ==> i
+  15:    1  ->  gene ==> jen
+  16:    1  ->  handout ==> out
+  17:    1  ->  hands ==> hand
+  18:    1  ->  her ==> are
+  19:    1  ->  hon ==> hunt
+  20:    1  ->  hons ==> huns
+  21:    1  ->  i ==> eye
+  22:    1  ->  in ==> marching
+  23:    1  ->  la ==> crime
+  24:    1  ->  lib ==> limb
+  25:    1  ->  lib ==> lip
+  26:    1  ->  nation ==> generation
+  27:    1  ->  our ==> or
+  28:    1  ->  our ==> tudor
+  29:    1  ->  p ==> asap
+  30:    1  ->  patent ==> impatient
+  31:    1  ->  right ==> rights
+  32:    1  ->  s ==> us
+  33:    1  ->  singalong ==> along
+  34:    1  ->  the ==> a
+  35:    1  ->  thinks ==> thing
+  36:    1  ->  to ==> the
+  37:    1  ->  would ==> will
+  38:    1  ->  x ==> corey
+  39:    1  ->  x ==> corky
+  40:    1  ->  x ==> quick
+  41:    1  ->  x ==> quickie
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a
+   2:    1  ->  am
+   3:    1  ->  bod
+   4:    1  ->  by
+   5:    1  ->  deeping
+   6:    1  ->  gal
+   7:    1  ->  had
+   8:    1  ->  hand
+   9:    1  ->  have
+  10:    1  ->  i
+  11:    1  ->  paper
+  12:    1  ->  sing
+  13:    1  ->  there's
+  14:    1  ->  yeah
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    4  ->  a
+   2:    2  ->  and
+   3:    1  ->  all
+   4:    1  ->  at
+   5:    1  ->  burqa
+   6:    1  ->  creme
+   7:    1  ->  de
+   8:    1  ->  do
+   9:    1  ->  f
+  10:    1  ->  gene
+  11:    1  ->  m
+  12:    1  ->  march
+  13:    1  ->  microphone
+  14:    1  ->  oh
+  15:    1  ->  our
+  16:    1  ->  s
+  17:    1  ->  the
+  18:    1  ->  this
+  19:    1  ->  u
+  20:    1  ->  will
+  21:    1  ->  x
+     -------
+        25
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    6  ->  x
+   2:    4  ->  hon
+   3:    2  ->  a
+   4:    2  ->  bayhdole
+   5:    2  ->  burqa
+   6:    2  ->  gal
+   7:    2  ->  lib
+   8:    2  ->  our
+   9:    1  ->  as
+  10:    1  ->  at
+  11:    1  ->  can
+  12:    1  ->  creme
+  13:    1  ->  deepening
+  14:    1  ->  gene
+  15:    1  ->  handout
+  16:    1  ->  hands
+  17:    1  ->  her
+  18:    1  ->  hons
+  19:    1  ->  i
+  20:    1  ->  in
+  21:    1  ->  la
+  22:    1  ->  nation
+  23:    1  ->  p
+  24:    1  ->  patent
+  25:    1  ->  right
+  26:    1  ->  s
+  27:    1  ->  singalong
+  28:    1  ->  the
+  29:    1  ->  thinks
+  30:    1  ->  to
+  31:    1  ->  would
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  hun
+   2:    2  ->  burke
+   3:    2  ->  levent
+   4:    2  ->  the
+   5:    1  ->  a
+   6:    1  ->  aha
+   7:    1  ->  along
+   8:    1  ->  are
+   9:    1  ->  asap
+  10:    1  ->  call
+  11:    1  ->  corey
+  12:    1  ->  corky
+  13:    1  ->  could
+  14:    1  ->  crime
+  15:    1  ->  dole
+  16:    1  ->  doll
+  17:    1  ->  eye
+  18:    1  ->  generation
+  19:    1  ->  hand
+  20:    1  ->  huns
+  21:    1  ->  hunt
+  22:    1  ->  i
+  23:    1  ->  impatient
+  24:    1  ->  in
+  25:    1  ->  is
+  26:    1  ->  jen
+  27:    1  ->  lacrim
+  28:    1  ->  limb
+  29:    1  ->  lip
+  30:    1  ->  marching
+  31:    1  ->  or
+  32:    1  ->  out
+  33:    1  ->  quick
+  34:    1  ->  quickie
+  35:    1  ->  rights
+  36:    1  ->  that
+  37:    1  ->  thing
+  38:    1  ->  tudor
+  39:    1  ->  us
+  40:    1  ->  will
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

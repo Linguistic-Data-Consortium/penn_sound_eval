@@ -1,0 +1,337 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.6%   ( 287)
+
+Percent Correct           =   80.2%   (1115)
+
+Percent Substitution      =    3.8%   (  53)
+Percent Deletions         =   16.0%   ( 222)
+Percent Insertions        =    0.9%   (  12)
+Percent Word Accuracy     =   79.4%
+
+
+Ref. words                =           (1390)
+Hyp. words                =           (1180)
+Aligned words             =           (1402)
+
+CONFUSION PAIRS                  Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    2  ->  self ==> oneself
+   2:    1  ->  am ==> been
+   3:    1  ->  an ==> a
+   4:    1  ->  and ==> in
+   5:    1  ->  ashbery ==> ashbury
+   6:    1  ->  being ==> poetry
+   7:    1  ->  dun ==> all
+   8:    1  ->  fantasy ==> that
+   9:    1  ->  has ==> is
+  10:    1  ->  here ==> hera
+  11:    1  ->  i ==> as
+  12:    1  ->  i ==> if
+  13:    1  ->  i ==> sort
+  14:    1  ->  if ==> it's
+  15:    1  ->  impulse ==> is
+  16:    1  ->  in ==> and
+  17:    1  ->  in ==> gay
+  18:    1  ->  in ==> impulsive
+  19:    1  ->  is ==> 's
+  20:    1  ->  it ==> opponent
+  21:    1  ->  like ==> i
+  22:    1  ->  moment ==> mode
+  23:    1  ->  o'hara's ==> 's
+  24:    1  ->  of ==> or
+  25:    1  ->  of ==> that
+  26:    1  ->  or ==> are
+  27:    1  ->  or ==> is
+  28:    1  ->  or ==> right
+  29:    1  ->  passed ==> past
+  30:    1  ->  poetry ==> identities
+  31:    1  ->  procession ==> perception
+  32:    1  ->  removing ==> moving
+  33:    1  ->  s ==> this
+  34:    1  ->  th ==> that
+  35:    1  ->  that ==> the
+  36:    1  ->  the ==> a
+  37:    1  ->  there's ==> are
+  38:    1  ->  through ==> for
+  39:    1  ->  to ==> do
+  40:    1  ->  unifying ==> unified
+  41:    1  ->  vague ==> big
+  42:    1  ->  w ==> what
+  43:    1  ->  wanting ==> wine
+  44:    1  ->  was ==> as
+  45:    1  ->  was ==> have
+  46:    1  ->  was ==> of
+  47:    1  ->  we ==> were
+  48:    1  ->  we ==> you
+  49:    1  ->  would ==> you
+  50:    1  ->  writhe ==> by
+  51:    1  ->  writing ==> riding
+  52:    1  ->  your ==> here
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    3  ->  it
+   2:    1  ->  a
+   3:    1  ->  always
+   4:    1  ->  dumb
+   5:    1  ->  have
+   6:    1  ->  just
+   7:    1  ->  like
+   8:    1  ->  o'hara
+   9:    1  ->  they
+  10:    1  ->  what
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (117)
+                                 With >=  1 occurrences (117)
+
+   1:   13  ->  the
+   2:    8  ->  a
+   3:    8  ->  i
+   4:    7  ->  not
+   5:    6  ->  of
+   6:    6  ->  you
+   7:    5  ->  are
+   8:    5  ->  in
+   9:    5  ->  it
+  10:    5  ->  something
+  11:    5  ->  what
+  12:    4  ->  it's
+  13:    4  ->  oh
+  14:    4  ->  or
+  15:    4  ->  so
+  16:    4  ->  u
+  17:    3  ->  as
+  18:    3  ->  is
+  19:    3  ->  that
+  20:    3  ->  w
+  21:    2  ->  about
+  22:    2  ->  and
+  23:    2  ->  be
+  24:    2  ->  c
+  25:    2  ->  duncan's
+  26:    2  ->  have
+  27:    2  ->  his
+  28:    2  ->  if
+  29:    2  ->  just
+  30:    2  ->  o
+  31:    2  ->  o'hara
+  32:    2  ->  reading
+  33:    2  ->  s
+  34:    2  ->  sense
+  35:    2  ->  talking
+  36:    2  ->  than
+  37:    2  ->  thing
+  38:    2  ->  this
+  39:    2  ->  to
+  40:    2  ->  we
+  41:    1  ->  %bcack
+  42:    1  ->  anything
+  43:    1  ->  been
+  44:    1  ->  belabour
+  45:    1  ->  beyond
+  46:    1  ->  big
+  47:    1  ->  bit
+  48:    1  ->  boy
+  49:    1  ->  but
+  50:    1  ->  crossed
+  51:    1  ->  damned
+  52:    1  ->  did
+  53:    1  ->  duncan
+  54:    1  ->  enemies
+  55:    1  ->  ex
+  56:    1  ->  experience
+  57:    1  ->  fair
+  58:    1  ->  for
+  59:    1  ->  h
+  60:    1  ->  had
+  61:    1  ->  how
+  62:    1  ->  human
+  63:    1  ->  idea
+  64:    1  ->  immediacy
+  65:    1  ->  important
+  66:    1  ->  itself
+  67:    1  ->  junk
+  68:    1  ->  k.
+  69:    1  ->  know
+  70:    1  ->  let
+  71:    1  ->  like
+  72:    1  ->  little
+  73:    1  ->  me
+  74:    1  ->  meaning
+  75:    1  ->  miss
+  76:    1  ->  missed
+  77:    1  ->  more
+  78:    1  ->  much
+  79:    1  ->  no
+  80:    1  ->  o.
+  81:    1  ->  one
+  82:    1  ->  one's
+  83:    1  ->  out
+  84:    1  ->  part
+  85:    1  ->  paths
+  86:    1  ->  platonic
+  87:    1  ->  poems
+  88:    1  ->  point
+  89:    1  ->  present
+  90:    1  ->  quite
+  91:    1  ->  rather
+  92:    1  ->  realm
+  93:    1  ->  reflection
+  94:    1  ->  right
+  95:    1  ->  said
+  96:    1  ->  say
+  97:    1  ->  saying
+  98:    1  ->  see
+  99:    1  ->  simp
+ 100:    1  ->  some
+ 101:    1  ->  soul
+ 102:    1  ->  speaking
+ 103:    1  ->  talked
+ 104:    1  ->  terms
+ 105:    1  ->  that's
+ 106:    1  ->  there
+ 107:    1  ->  think
+ 108:    1  ->  time
+ 109:    1  ->  times
+ 110:    1  ->  well
+ 111:    1  ->  when
+ 112:    1  ->  wow
+ 113:    1  ->  wr
+ 114:    1  ->  x
+ 115:    1  ->  y
+ 116:    1  ->  yeah
+ 117:    1  ->  yes
+     -------
+       222
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    3  ->  i
+   2:    3  ->  in
+   3:    3  ->  or
+   4:    3  ->  was
+   5:    2  ->  of
+   6:    2  ->  self
+   7:    2  ->  we
+   8:    1  ->  am
+   9:    1  ->  an
+  10:    1  ->  and
+  11:    1  ->  ashbery
+  12:    1  ->  being
+  13:    1  ->  dun
+  14:    1  ->  fantasy
+  15:    1  ->  has
+  16:    1  ->  here
+  17:    1  ->  if
+  18:    1  ->  impulse
+  19:    1  ->  is
+  20:    1  ->  it
+  21:    1  ->  like
+  22:    1  ->  moment
+  23:    1  ->  o'hara's
+  24:    1  ->  passed
+  25:    1  ->  poetry
+  26:    1  ->  procession
+  27:    1  ->  removing
+  28:    1  ->  s
+  29:    1  ->  th
+  30:    1  ->  that
+  31:    1  ->  the
+  32:    1  ->  there's
+  33:    1  ->  through
+  34:    1  ->  to
+  35:    1  ->  unifying
+  36:    1  ->  vague
+  37:    1  ->  w
+  38:    1  ->  wanting
+  39:    1  ->  would
+  40:    1  ->  writhe
+  41:    1  ->  writing
+  42:    1  ->  your
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    3  ->  is
+   2:    3  ->  that
+   3:    2  ->  's
+   4:    2  ->  a
+   5:    2  ->  are
+   6:    2  ->  as
+   7:    2  ->  oneself
+   8:    2  ->  you
+   9:    1  ->  all
+  10:    1  ->  and
+  11:    1  ->  ashbury
+  12:    1  ->  been
+  13:    1  ->  big
+  14:    1  ->  by
+  15:    1  ->  do
+  16:    1  ->  for
+  17:    1  ->  gay
+  18:    1  ->  have
+  19:    1  ->  hera
+  20:    1  ->  here
+  21:    1  ->  i
+  22:    1  ->  identities
+  23:    1  ->  if
+  24:    1  ->  impulsive
+  25:    1  ->  in
+  26:    1  ->  it's
+  27:    1  ->  mode
+  28:    1  ->  moving
+  29:    1  ->  of
+  30:    1  ->  opponent
+  31:    1  ->  or
+  32:    1  ->  past
+  33:    1  ->  perception
+  34:    1  ->  poetry
+  35:    1  ->  riding
+  36:    1  ->  right
+  37:    1  ->  sort
+  38:    1  ->  the
+  39:    1  ->  this
+  40:    1  ->  unified
+  41:    1  ->  were
+  42:    1  ->  what
+  43:    1  ->  wine
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

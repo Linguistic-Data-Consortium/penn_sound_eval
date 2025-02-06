@@ -1,0 +1,185 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.7%   (  65)
+
+Percent Correct           =   94.9%   ( 927)
+
+Percent Substitution      =    3.9%   (  38)
+Percent Deletions         =    1.2%   (  12)
+Percent Insertions        =    1.5%   (  15)
+Percent Word Accuracy     =   93.3%
+
+
+Ref. words                =           ( 977)
+Hyp. words                =           ( 980)
+Aligned words             =           ( 992)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  bayhdole ==> dole
+   2:    2  ->  hon ==> h
+   3:    2  ->  hon ==> hun
+   4:    2  ->  x ==> corky
+   5:    2  ->  x ==> levent
+   6:    2  ->  x ==> quix
+   7:    1  ->  a ==> aha
+   8:    1  ->  burqa ==> bura
+   9:    1  ->  burqa ==> burka
+  10:    1  ->  can ==> could
+  11:    1  ->  cooperative ==> cooper
+  12:    1  ->  gal ==> gail
+  13:    1  ->  gal ==> i
+  14:    1  ->  genies ==> genie
+  15:    1  ->  hairdos ==> hairdo
+  16:    1  ->  her ==> are
+  17:    1  ->  hons ==> huns
+  18:    1  ->  lib ==> lube
+  19:    1  ->  lib ==> the
+  20:    1  ->  liberty ==> erie
+  21:    1  ->  liberty ==> ty
+  22:    1  ->  our ==> jr
+  23:    1  ->  p ==> asap
+  24:    1  ->  patapsco ==> paps
+  25:    1  ->  patapsco ==> poso
+  26:    1  ->  s ==> us
+  27:    1  ->  singalong ==> along
+  28:    1  ->  the ==> a
+  29:    1  ->  tortured ==> torture
+  30:    1  ->  twentieth ==> 20th
+  31:    1  ->  will ==> would
+  32:    1  ->  would ==> will
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  gal
+   2:    2  ->  lib
+   3:    1  ->  a
+   4:    1  ->  am
+   5:    1  ->  bog
+   6:    1  ->  by
+   7:    1  ->  had
+   8:    1  ->  have
+   9:    1  ->  i
+  10:    1  ->  paper
+  11:    1  ->  sing
+  12:    1  ->  there's
+  13:    1  ->  yeah
+     -------
+        15
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  a
+   2:    1  ->  f
+   3:    1  ->  gene
+   4:    1  ->  m
+   5:    1  ->  microphone
+   6:    1  ->  oh
+   7:    1  ->  right
+   8:    1  ->  s
+   9:    1  ->  u
+  10:    1  ->  will
+  11:    1  ->  x
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    6  ->  x
+   2:    4  ->  hon
+   3:    2  ->  bayhdole
+   4:    2  ->  burqa
+   5:    2  ->  gal
+   6:    2  ->  lib
+   7:    2  ->  liberty
+   8:    2  ->  patapsco
+   9:    1  ->  a
+  10:    1  ->  can
+  11:    1  ->  cooperative
+  12:    1  ->  genies
+  13:    1  ->  hairdos
+  14:    1  ->  her
+  15:    1  ->  hons
+  16:    1  ->  our
+  17:    1  ->  p
+  18:    1  ->  s
+  19:    1  ->  singalong
+  20:    1  ->  the
+  21:    1  ->  tortured
+  22:    1  ->  twentieth
+  23:    1  ->  will
+  24:    1  ->  would
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  corky
+   2:    2  ->  dole
+   3:    2  ->  h
+   4:    2  ->  hun
+   5:    2  ->  levent
+   6:    2  ->  quix
+   7:    1  ->  20th
+   8:    1  ->  a
+   9:    1  ->  aha
+  10:    1  ->  along
+  11:    1  ->  are
+  12:    1  ->  asap
+  13:    1  ->  bura
+  14:    1  ->  burka
+  15:    1  ->  cooper
+  16:    1  ->  could
+  17:    1  ->  erie
+  18:    1  ->  gail
+  19:    1  ->  genie
+  20:    1  ->  hairdo
+  21:    1  ->  huns
+  22:    1  ->  i
+  23:    1  ->  jr
+  24:    1  ->  lube
+  25:    1  ->  paps
+  26:    1  ->  poso
+  27:    1  ->  the
+  28:    1  ->  torture
+  29:    1  ->  ty
+  30:    1  ->  us
+  31:    1  ->  will
+  32:    1  ->  would
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,161 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.7%   (  47)
+
+Percent Correct           =   95.2%   ( 780)
+
+Percent Substitution      =    2.6%   (  21)
+Percent Deletions         =    2.2%   (  18)
+Percent Insertions        =    1.0%   (   8)
+Percent Word Accuracy     =   94.3%
+
+
+Ref. words                =           ( 819)
+Hyp. words                =           ( 809)
+Aligned words             =           ( 827)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  bailiwick ==> ballywick
+   3:    1  ->  bleacher ==> bleachers
+   4:    1  ->  calling ==> telling
+   5:    1  ->  dao ==> tao
+   6:    1  ->  edition ==> addition
+   7:    1  ->  emmylou ==> lou
+   8:    1  ->  evident ==> evidence
+   9:    1  ->  hymns ==> hems
+  10:    1  ->  impostor ==> impasto
+  11:    1  ->  juvenalia ==> juvenilia
+  12:    1  ->  memoir's ==> memoirs
+  13:    1  ->  mirror ==> mere
+  14:    1  ->  park's ==> park
+  15:    1  ->  skies ==> sky
+  16:    1  ->  sun ==> son
+  17:    1  ->  theatre ==> theater
+  18:    1  ->  trickily ==> trickly
+  19:    1  ->  welish ==> wellish
+  20:    1  ->  wind ==> wing
+  21:    1  ->  with ==> of
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  april
+   2:    1  ->  emmy
+   3:    1  ->  in
+   4:    1  ->  much
+   5:    1  ->  pathos
+   6:    1  ->  really
+   7:    1  ->  so
+   8:    1  ->  well
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  and
+   2:    1  ->  am
+   3:    1  ->  come
+   4:    1  ->  cu
+   5:    1  ->  d
+   6:    1  ->  flag
+   7:    1  ->  get
+   8:    1  ->  got
+   9:    1  ->  i
+  10:    1  ->  ke
+  11:    1  ->  l
+  12:    1  ->  like
+  13:    1  ->  m
+  14:    1  ->  oh
+  15:    1  ->  really
+  16:    1  ->  wr
+  17:    1  ->  yeah
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  a
+   2:    1  ->  bailiwick
+   3:    1  ->  bleacher
+   4:    1  ->  calling
+   5:    1  ->  dao
+   6:    1  ->  edition
+   7:    1  ->  emmylou
+   8:    1  ->  evident
+   9:    1  ->  hymns
+  10:    1  ->  impostor
+  11:    1  ->  juvenalia
+  12:    1  ->  memoir's
+  13:    1  ->  mirror
+  14:    1  ->  park's
+  15:    1  ->  skies
+  16:    1  ->  sun
+  17:    1  ->  theatre
+  18:    1  ->  trickily
+  19:    1  ->  welish
+  20:    1  ->  wind
+  21:    1  ->  with
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  addition
+   2:    1  ->  ballywick
+   3:    1  ->  bleachers
+   4:    1  ->  evidence
+   5:    1  ->  hems
+   6:    1  ->  impasto
+   7:    1  ->  juvenilia
+   8:    1  ->  lou
+   9:    1  ->  memoirs
+  10:    1  ->  mere
+  11:    1  ->  of
+  12:    1  ->  park
+  13:    1  ->  sky
+  14:    1  ->  son
+  15:    1  ->  tao
+  16:    1  ->  telling
+  17:    1  ->  the
+  18:    1  ->  theater
+  19:    1  ->  trickly
+  20:    1  ->  wellish
+  21:    1  ->  wing
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

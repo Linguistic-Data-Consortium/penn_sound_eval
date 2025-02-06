@@ -1,0 +1,213 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.8%   (  64)
+
+Percent Correct           =   94.8%   (1039)
+
+Percent Substitution      =    4.6%   (  50)
+Percent Deletions         =    0.6%   (   7)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   94.2%
+
+
+Ref. words                =           (1096)
+Hyp. words                =           (1096)
+Aligned words             =           (1103)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    3  ->  as ==> is
+   2:    3  ->  in ==> and
+   3:    2  ->  into ==> a
+   4:    2  ->  stuart ==> stewart
+   5:    1  ->  and ==> an
+   6:    1  ->  and ==> in
+   7:    1  ->  artlessly ==> artless
+   8:    1  ->  bindweed ==> weed
+   9:    1  ->  but ==> that
+  10:    1  ->  days ==> is
+  11:    1  ->  dully ==> duly
+  12:    1  ->  fours ==> four
+  13:    1  ->  gnossienne ==> nausea
+  14:    1  ->  has ==> is
+  15:    1  ->  hoople ==> hope
+  16:    1  ->  hydrangea ==> hydrogen
+  17:    1  ->  in ==> building
+  18:    1  ->  interest ==> interests
+  19:    1  ->  its ==> it's
+  20:    1  ->  jicky ==> jackie
+  21:    1  ->  later ==> late
+  22:    1  ->  leaves ==> believes
+  23:    1  ->  lilacs ==> lilac
+  24:    1  ->  motionless ==> emotionless
+  25:    1  ->  objects ==> object
+  26:    1  ->  on ==> down
+  27:    1  ->  past ==> passed
+  28:    1  ->  pereire ==> are
+  29:    1  ->  petit ==> pit
+  30:    1  ->  place ==> per
+  31:    1  ->  plain ==> plane
+  32:    1  ->  read ==> red
+  33:    1  ->  reason's ==> reasons
+  34:    1  ->  scheherazade ==> shahrazad
+  35:    1  ->  scrawled ==> scroll
+  36:    1  ->  seem ==> seemed
+  37:    1  ->  setting ==> sitting
+  38:    1  ->  soir ==> war
+  39:    1  ->  static ==> estatic
+  40:    1  ->  story ==> stories
+  41:    1  ->  survive ==> survived
+  42:    1  ->  take ==> taken
+  43:    1  ->  that ==> he
+  44:    1  ->  ways ==> way
+     -------
+        50
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  in
+   2:    1  ->  bind
+   3:    1  ->  day
+   4:    1  ->  he
+   5:    1  ->  plus
+   6:    1  ->  was
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  s
+   2:    1  ->  a
+   3:    1  ->  built
+   4:    1  ->  the
+   5:    1  ->  was
+   6:    1  ->  you
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    4  ->  in
+   2:    3  ->  as
+   3:    2  ->  and
+   4:    2  ->  into
+   5:    2  ->  stuart
+   6:    1  ->  artlessly
+   7:    1  ->  bindweed
+   8:    1  ->  but
+   9:    1  ->  days
+  10:    1  ->  dully
+  11:    1  ->  fours
+  12:    1  ->  gnossienne
+  13:    1  ->  has
+  14:    1  ->  hoople
+  15:    1  ->  hydrangea
+  16:    1  ->  interest
+  17:    1  ->  its
+  18:    1  ->  jicky
+  19:    1  ->  later
+  20:    1  ->  leaves
+  21:    1  ->  lilacs
+  22:    1  ->  motionless
+  23:    1  ->  objects
+  24:    1  ->  on
+  25:    1  ->  past
+  26:    1  ->  pereire
+  27:    1  ->  petit
+  28:    1  ->  place
+  29:    1  ->  plain
+  30:    1  ->  read
+  31:    1  ->  reason's
+  32:    1  ->  scheherazade
+  33:    1  ->  scrawled
+  34:    1  ->  seem
+  35:    1  ->  setting
+  36:    1  ->  soir
+  37:    1  ->  static
+  38:    1  ->  story
+  39:    1  ->  survive
+  40:    1  ->  take
+  41:    1  ->  that
+  42:    1  ->  ways
+     -------
+        50
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    5  ->  is
+   2:    3  ->  and
+   3:    2  ->  a
+   4:    2  ->  stewart
+   5:    1  ->  an
+   6:    1  ->  are
+   7:    1  ->  artless
+   8:    1  ->  believes
+   9:    1  ->  building
+  10:    1  ->  down
+  11:    1  ->  duly
+  12:    1  ->  emotionless
+  13:    1  ->  estatic
+  14:    1  ->  four
+  15:    1  ->  he
+  16:    1  ->  hope
+  17:    1  ->  hydrogen
+  18:    1  ->  in
+  19:    1  ->  interests
+  20:    1  ->  it's
+  21:    1  ->  jackie
+  22:    1  ->  late
+  23:    1  ->  lilac
+  24:    1  ->  nausea
+  25:    1  ->  object
+  26:    1  ->  passed
+  27:    1  ->  per
+  28:    1  ->  pit
+  29:    1  ->  plane
+  30:    1  ->  reasons
+  31:    1  ->  red
+  32:    1  ->  scroll
+  33:    1  ->  seemed
+  34:    1  ->  shahrazad
+  35:    1  ->  sitting
+  36:    1  ->  stories
+  37:    1  ->  survived
+  38:    1  ->  taken
+  39:    1  ->  that
+  40:    1  ->  war
+  41:    1  ->  way
+  42:    1  ->  weed
+     -------
+        50
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,249 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.4%   ( 168)
+
+Percent Correct           =   86.5%   (1011)
+
+Percent Substitution      =    3.1%   (  36)
+Percent Deletions         =   10.4%   ( 122)
+Percent Insertions        =    0.9%   (  10)
+Percent Word Accuracy     =   85.6%
+
+
+Ref. words                =           (1169)
+Hyp. words                =           (1057)
+Aligned words             =           (1179)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  in ==> and
+   2:    2  ->  liturgy ==> literary
+   3:    1  ->  a ==> red
+   4:    1  ->  a ==> the
+   5:    1  ->  am ==> was
+   6:    1  ->  c ==> like
+   7:    1  ->  could ==> can
+   8:    1  ->  etel ==> atel
+   9:    1  ->  i ==> litter
+  10:    1  ->  is ==> as
+  11:    1  ->  it ==> invited
+  12:    1  ->  it ==> said
+  13:    1  ->  its ==> it's
+  14:    1  ->  kabbalah ==> kabala
+  15:    1  ->  kinship's ==> kinships
+  16:    1  ->  liturgy ==> allergy
+  17:    1  ->  liturgy ==> g
+  18:    1  ->  mackey's ==> macy's
+  19:    1  ->  midra ==> collecting
+  20:    1  ->  midrashim ==> rathman
+  21:    1  ->  n ==> a
+  22:    1  ->  oh ==> me
+  23:    1  ->  phrase ==> afraid
+  24:    1  ->  saf ==> south
+  25:    1  ->  safed ==> safe
+  26:    1  ->  safed ==> stuffed
+  27:    1  ->  talmud ==> wood
+  28:    1  ->  that ==> no
+  29:    1  ->  there ==> it
+  30:    1  ->  thereof ==> of
+  31:    1  ->  voice ==> to
+  32:    1  ->  way ==> away
+  33:    1  ->  well ==> and
+  34:    1  ->  yeah ==> notice
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  i
+   3:    1  ->  litter
+   4:    1  ->  mid
+   5:    1  ->  of
+   6:    1  ->  than
+   7:    1  ->  that
+   8:    1  ->  there
+   9:    1  ->  things
+  10:    1  ->  tom
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (70)
+                                 With >=  1 occurrences (70)
+
+   1:   10  ->  a
+   2:    9  ->  i
+   3:    7  ->  the
+   4:    5  ->  it
+   5:    5  ->  that
+   6:    5  ->  w
+   7:    4  ->  you
+   8:    3  ->  am
+   9:    3  ->  question
+  10:    2  ->  answer
+  11:    2  ->  in
+  12:    2  ->  is
+  13:    2  ->  just
+  14:    2  ->  that's
+  15:    2  ->  to
+  16:    2  ->  u
+  17:    2  ->  what
+  18:    2  ->  y
+  19:    2  ->  yeah
+  20:    1  ->  about
+  21:    1  ->  actually
+  22:    1  ->  and
+  23:    1  ->  anth
+  24:    1  ->  ask
+  25:    1  ->  asking
+  26:    1  ->  at
+  27:    1  ->  before
+  28:    1  ->  can
+  29:    1  ->  colle
+  30:    1  ->  collected
+  31:    1  ->  do
+  32:    1  ->  first
+  33:    1  ->  g
+  34:    1  ->  gave
+  35:    1  ->  heard
+  36:    1  ->  her
+  37:    1  ->  invite
+  38:    1  ->  it's
+  39:    1  ->  k.
+  40:    1  ->  know
+  41:    1  ->  liturgy
+  42:    1  ->  m
+  43:    1  ->  made
+  44:    1  ->  mean
+  45:    1  ->  my
+  46:    1  ->  name
+  47:    1  ->  not
+  48:    1  ->  o.
+  49:    1  ->  oh
+  50:    1  ->  or
+  51:    1  ->  p
+  52:    1  ->  people
+  53:    1  ->  qu
+  54:    1  ->  r
+  55:    1  ->  s
+  56:    1  ->  say
+  57:    1  ->  scream
+  58:    1  ->  see
+  59:    1  ->  simple
+  60:    1  ->  so
+  61:    1  ->  speak
+  62:    1  ->  such
+  63:    1  ->  this
+  64:    1  ->  too
+  65:    1  ->  v
+  66:    1  ->  wh
+  67:    1  ->  wondering
+  68:    1  ->  would
+  69:    1  ->  wq
+  70:    1  ->  wr
+     -------
+       122
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  liturgy
+   2:    2  ->  a
+   3:    2  ->  in
+   4:    2  ->  it
+   5:    2  ->  safed
+   6:    1  ->  am
+   7:    1  ->  c
+   8:    1  ->  could
+   9:    1  ->  etel
+  10:    1  ->  i
+  11:    1  ->  is
+  12:    1  ->  its
+  13:    1  ->  kabbalah
+  14:    1  ->  kinship's
+  15:    1  ->  mackey's
+  16:    1  ->  midra
+  17:    1  ->  midrashim
+  18:    1  ->  n
+  19:    1  ->  oh
+  20:    1  ->  phrase
+  21:    1  ->  saf
+  22:    1  ->  talmud
+  23:    1  ->  that
+  24:    1  ->  there
+  25:    1  ->  thereof
+  26:    1  ->  voice
+  27:    1  ->  way
+  28:    1  ->  well
+  29:    1  ->  yeah
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  and
+   2:    2  ->  literary
+   3:    1  ->  a
+   4:    1  ->  afraid
+   5:    1  ->  allergy
+   6:    1  ->  as
+   7:    1  ->  atel
+   8:    1  ->  away
+   9:    1  ->  can
+  10:    1  ->  collecting
+  11:    1  ->  g
+  12:    1  ->  invited
+  13:    1  ->  it
+  14:    1  ->  it's
+  15:    1  ->  kabala
+  16:    1  ->  kinships
+  17:    1  ->  like
+  18:    1  ->  litter
+  19:    1  ->  macy's
+  20:    1  ->  me
+  21:    1  ->  no
+  22:    1  ->  notice
+  23:    1  ->  of
+  24:    1  ->  rathman
+  25:    1  ->  red
+  26:    1  ->  safe
+  27:    1  ->  said
+  28:    1  ->  south
+  29:    1  ->  stuffed
+  30:    1  ->  the
+  31:    1  ->  to
+  32:    1  ->  was
+  33:    1  ->  wood
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

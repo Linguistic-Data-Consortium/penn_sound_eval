@@ -1,0 +1,341 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.8%   ( 162)
+
+Percent Correct           =   86.2%   ( 941)
+
+Percent Substitution      =    7.1%   (  78)
+Percent Deletions         =    6.7%   (  73)
+Percent Insertions        =    1.0%   (  11)
+Percent Word Accuracy     =   85.2%
+
+
+Ref. words                =           (1092)
+Hyp. words                =           (1030)
+Aligned words             =           (1103)
+
+CONFUSION PAIRS                  Total                 (76)
+                                 With >=  1 occurrences (76)
+
+   1:    2  ->  in ==> and
+   2:    2  ->  kicker ==> kiker
+   3:    1  ->  alleged ==> legendary
+   4:    1  ->  an ==> and
+   5:    1  ->  and ==> in
+   6:    1  ->  and ==> on
+   7:    1  ->  are ==> row
+   8:    1  ->  authorities ==> authority
+   9:    1  ->  be ==> your
+  10:    1  ->  beam ==> beat
+  11:    1  ->  bedroom's ==> bedrooms
+  12:    1  ->  brain ==> rain
+  13:    1  ->  car ==> me
+  14:    1  ->  conches ==> conscious
+  15:    1  ->  conscientious ==> conscience
+  16:    1  ->  conspirators ==> spiriters
+  17:    1  ->  cultivate ==> cultivated
+  18:    1  ->  destroy ==> destroyed
+  19:    1  ->  divine ==> design
+  20:    1  ->  doing's ==> doings
+  21:    1  ->  ever ==> been
+  22:    1  ->  fifty ==> oh
+  23:    1  ->  first ==> permission
+  24:    1  ->  from ==> of
+  25:    1  ->  he ==> she
+  26:    1  ->  head ==> heads
+  27:    1  ->  her ==> car
+  28:    1  ->  indiscriminate ==> indiscriminately
+  29:    1  ->  insists ==> insist
+  30:    1  ->  it ==> it"
+  31:    1  ->  jugular ==> jagular
+  32:    1  ->  just ==> steps
+  33:    1  ->  known ==> no
+  34:    1  ->  lev ==> love
+  35:    1  ->  make ==> convention
+  36:    1  ->  obedient ==> obeying
+  37:    1  ->  of ==> on
+  38:    1  ->  of ==> refugees
+  39:    1  ->  of ==> tell
+  40:    1  ->  oh ==> well
+  41:    1  ->  on ==> what's
+  42:    1  ->  opportunistic ==> to
+  43:    1  ->  others ==> alliance
+  44:    1  ->  out ==> corpus
+  45:    1  ->  out ==> you
+  46:    1  ->  papercut ==> cut
+  47:    1  ->  shy ==> for
+  48:    1  ->  sounds ==> hound's
+  49:    1  ->  stained ==> staying
+  50:    1  ->  straw ==> strong
+  51:    1  ->  talk ==> top
+  52:    1  ->  their ==> the
+  53:    1  ->  there's ==> this
+  54:    1  ->  til ==> till
+  55:    1  ->  turns ==> terms
+  56:    1  ->  two ==> too
+  57:    1  ->  until ==> till
+  58:    1  ->  used ==> spoke
+  59:    1  ->  victims ==> survivors
+  60:    1  ->  viv ==> have
+  61:    1  ->  was ==> is
+  62:    1  ->  who ==> "who
+  63:    1  ->  width ==> lips
+  64:    1  ->  with ==> you
+  65:    1  ->  wither ==> her
+  66:    1  ->  x ==> and
+  67:    1  ->  x ==> blood
+  68:    1  ->  x ==> count
+  69:    1  ->  x ==> drinks
+  70:    1  ->  x ==> going
+  71:    1  ->  x ==> of
+  72:    1  ->  x ==> psychopalis
+  73:    1  ->  x ==> up
+  74:    1  ->  x ==> venezio
+  75:    1  ->  x ==> visit
+  76:    1  ->  x ==> was
+     -------
+        78
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  and
+   2:    1  ->  have
+   3:    1  ->  how
+   4:    1  ->  it
+   5:    1  ->  made
+   6:    1  ->  out
+   7:    1  ->  paper
+   8:    1  ->  the
+   9:    1  ->  they
+  10:    1  ->  why
+  11:    1  ->  with
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:   12  ->  x
+   2:    3  ->  and
+   3:    3  ->  it
+   4:    3  ->  of
+   5:    3  ->  to
+   6:    3  ->  what
+   7:    2  ->  are
+   8:    2  ->  i
+   9:    2  ->  pillows
+  10:    1  ->  a
+  11:    1  ->  absentia
+  12:    1  ->  b
+  13:    1  ->  back
+  14:    1  ->  beer
+  15:    1  ->  blatant
+  16:    1  ->  cluster
+  17:    1  ->  convention
+  18:    1  ->  corpus
+  19:    1  ->  deci
+  20:    1  ->  drinking
+  21:    1  ->  expression
+  22:    1  ->  feigns
+  23:    1  ->  habeas
+  24:    1  ->  how
+  25:    1  ->  in
+  26:    1  ->  is
+  27:    1  ->  just
+  28:    1  ->  kick
+  29:    1  ->  mean
+  30:    1  ->  misconduct
+  31:    1  ->  overgrown
+  32:    1  ->  permission
+  33:    1  ->  presence
+  34:    1  ->  refugees
+  35:    1  ->  saw
+  36:    1  ->  sentences
+  37:    1  ->  shy
+  38:    1  ->  status
+  39:    1  ->  street
+  40:    1  ->  the
+  41:    1  ->  this
+  42:    1  ->  time
+  43:    1  ->  up
+  44:    1  ->  us
+  45:    1  ->  utilities
+  46:    1  ->  visit
+  47:    1  ->  with
+  48:    1  ->  women
+  49:    1  ->  yeah
+     -------
+        73
+
+
+
+SUBSTITUTIONS                    Total                 (62)
+                                 With >=  1 occurrences (62)
+
+   1:   11  ->  x
+   2:    3  ->  of
+   3:    2  ->  and
+   4:    2  ->  in
+   5:    2  ->  kicker
+   6:    2  ->  out
+   7:    1  ->  alleged
+   8:    1  ->  an
+   9:    1  ->  are
+  10:    1  ->  authorities
+  11:    1  ->  be
+  12:    1  ->  beam
+  13:    1  ->  bedroom's
+  14:    1  ->  brain
+  15:    1  ->  car
+  16:    1  ->  conches
+  17:    1  ->  conscientious
+  18:    1  ->  conspirators
+  19:    1  ->  cultivate
+  20:    1  ->  destroy
+  21:    1  ->  divine
+  22:    1  ->  doing's
+  23:    1  ->  ever
+  24:    1  ->  fifty
+  25:    1  ->  first
+  26:    1  ->  from
+  27:    1  ->  he
+  28:    1  ->  head
+  29:    1  ->  her
+  30:    1  ->  indiscriminate
+  31:    1  ->  insists
+  32:    1  ->  it
+  33:    1  ->  jugular
+  34:    1  ->  just
+  35:    1  ->  known
+  36:    1  ->  lev
+  37:    1  ->  make
+  38:    1  ->  obedient
+  39:    1  ->  oh
+  40:    1  ->  on
+  41:    1  ->  opportunistic
+  42:    1  ->  others
+  43:    1  ->  papercut
+  44:    1  ->  shy
+  45:    1  ->  sounds
+  46:    1  ->  stained
+  47:    1  ->  straw
+  48:    1  ->  talk
+  49:    1  ->  their
+  50:    1  ->  there's
+  51:    1  ->  til
+  52:    1  ->  turns
+  53:    1  ->  two
+  54:    1  ->  until
+  55:    1  ->  used
+  56:    1  ->  victims
+  57:    1  ->  viv
+  58:    1  ->  was
+  59:    1  ->  who
+  60:    1  ->  width
+  61:    1  ->  with
+  62:    1  ->  wither
+     -------
+        78
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (70)
+                                 With >=  1 occurrences (70)
+
+   1:    4  ->  and
+   2:    2  ->  kiker
+   3:    2  ->  of
+   4:    2  ->  on
+   5:    2  ->  till
+   6:    2  ->  you
+   7:    1  ->  "who
+   8:    1  ->  alliance
+   9:    1  ->  authority
+  10:    1  ->  beat
+  11:    1  ->  bedrooms
+  12:    1  ->  been
+  13:    1  ->  blood
+  14:    1  ->  car
+  15:    1  ->  conscience
+  16:    1  ->  conscious
+  17:    1  ->  convention
+  18:    1  ->  corpus
+  19:    1  ->  count
+  20:    1  ->  cultivated
+  21:    1  ->  cut
+  22:    1  ->  design
+  23:    1  ->  destroyed
+  24:    1  ->  doings
+  25:    1  ->  drinks
+  26:    1  ->  for
+  27:    1  ->  going
+  28:    1  ->  have
+  29:    1  ->  heads
+  30:    1  ->  her
+  31:    1  ->  hound's
+  32:    1  ->  in
+  33:    1  ->  indiscriminately
+  34:    1  ->  insist
+  35:    1  ->  is
+  36:    1  ->  it"
+  37:    1  ->  jagular
+  38:    1  ->  legendary
+  39:    1  ->  lips
+  40:    1  ->  love
+  41:    1  ->  me
+  42:    1  ->  no
+  43:    1  ->  obeying
+  44:    1  ->  oh
+  45:    1  ->  permission
+  46:    1  ->  psychopalis
+  47:    1  ->  rain
+  48:    1  ->  refugees
+  49:    1  ->  row
+  50:    1  ->  she
+  51:    1  ->  spiriters
+  52:    1  ->  spoke
+  53:    1  ->  staying
+  54:    1  ->  steps
+  55:    1  ->  strong
+  56:    1  ->  survivors
+  57:    1  ->  tell
+  58:    1  ->  terms
+  59:    1  ->  the
+  60:    1  ->  this
+  61:    1  ->  to
+  62:    1  ->  too
+  63:    1  ->  top
+  64:    1  ->  up
+  65:    1  ->  venezio
+  66:    1  ->  visit
+  67:    1  ->  was
+  68:    1  ->  well
+  69:    1  ->  what's
+  70:    1  ->  your
+     -------
+        78
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

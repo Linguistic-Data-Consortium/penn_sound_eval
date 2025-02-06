@@ -1,0 +1,279 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.2%   (  86)
+
+Percent Correct           =   91.3%   ( 855)
+
+Percent Substitution      =    7.9%   (  74)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   90.8%
+
+
+Ref. words                =           ( 936)
+Hyp. words                =           ( 934)
+Aligned words             =           ( 941)
+
+CONFUSION PAIRS                  Total                 (68)
+                                 With >=  1 occurrences (68)
+
+   1:    3  ->  daisies ==> daisy
+   2:    3  ->  in ==> and
+   3:    2  ->  an ==> and
+   4:    2  ->  had ==> have
+   5:    1  ->  a ==> the
+   6:    1  ->  a ==> va
+   7:    1  ->  about ==> but
+   8:    1  ->  abstractions ==> abstraction
+   9:    1  ->  and ==> nation
+  10:    1  ->  bangs ==> veins
+  11:    1  ->  barber's ==> barbara's
+  12:    1  ->  beatniks ==> beatnik
+  13:    1  ->  bet ==> bed
+  14:    1  ->  biggest ==> big
+  15:    1  ->  burgeoning ==> burdening
+  16:    1  ->  cartwheel ==> carbon
+  17:    1  ->  cheers ==> cheer
+  18:    1  ->  cock ==> ***
+  19:    1  ->  deaf ==> death
+  20:    1  ->  door's ==> is
+  21:    1  ->  doorjamb ==> jam
+  22:    1  ->  es ==> estes
+  23:    1  ->  extoll ==> extol
+  24:    1  ->  flower ==> flowers
+  25:    1  ->  fluidly ==> fluently
+  26:    1  ->  fog ==> fall
+  27:    1  ->  fucking ==> ***
+  28:    1  ->  getting ==> it
+  29:    1  ->  gold ==> goal
+  30:    1  ->  groundskeepers ==> keepers
+  31:    1  ->  hassled ==> hassles
+  32:    1  ->  his ==> is
+  33:    1  ->  hits ==> it's
+  34:    1  ->  hones ==> owns
+  35:    1  ->  horn ==> foreign
+  36:    1  ->  horrors ==> horse
+  37:    1  ->  ignorant ==> ignore
+  38:    1  ->  is ==> must
+  39:    1  ->  liquor ==> liquors
+  40:    1  ->  marigold ==> miracle
+  41:    1  ->  marigolds ==> marigold
+  42:    1  ->  marigolds ==> miracle
+  43:    1  ->  mi ==> my
+  44:    1  ->  nasturtiums ==> distortions
+  45:    1  ->  nasturtiums ==> merson's
+  46:    1  ->  nights ==> knights
+  47:    1  ->  north ==> norm
+  48:    1  ->  oh ==> all
+  49:    1  ->  our ==> or
+  50:    1  ->  parque ==> face
+  51:    1  ->  paths ==> pads
+  52:    1  ->  poem ==> pam
+  53:    1  ->  rain ==> rained
+  54:    1  ->  rain ==> rape
+  55:    1  ->  regally ==> legally
+  56:    1  ->  roofs ==> roof
+  57:    1  ->  seemed ==> seem
+  58:    1  ->  shingled ==> shingle
+  59:    1  ->  shops ==> shop
+  60:    1  ->  sluices ==> slices
+  61:    1  ->  state ==> estate
+  62:    1  ->  streamings ==> streaming
+  63:    1  ->  streets ==> street
+  64:    1  ->  the ==> a
+  65:    1  ->  the ==> put
+  66:    1  ->  walk ==> walked
+  67:    1  ->  walked ==> walk
+  68:    1  ->  why ==> by
+     -------
+        74
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  door
+   2:    1  ->  get
+   3:    1  ->  grounds
+   4:    1  ->  with
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and
+   2:    1  ->  ea
+   3:    1  ->  este
+   4:    1  ->  necks
+   5:    1  ->  to
+   6:    1  ->  v
+   7:    1  ->  yeah
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (63)
+                                 With >=  1 occurrences (63)
+
+   1:    3  ->  daisies
+   2:    3  ->  in
+   3:    2  ->  a
+   4:    2  ->  an
+   5:    2  ->  had
+   6:    2  ->  marigolds
+   7:    2  ->  nasturtiums
+   8:    2  ->  rain
+   9:    2  ->  the
+  10:    1  ->  about
+  11:    1  ->  abstractions
+  12:    1  ->  and
+  13:    1  ->  bangs
+  14:    1  ->  barber's
+  15:    1  ->  beatniks
+  16:    1  ->  bet
+  17:    1  ->  biggest
+  18:    1  ->  burgeoning
+  19:    1  ->  cartwheel
+  20:    1  ->  cheers
+  21:    1  ->  cock
+  22:    1  ->  deaf
+  23:    1  ->  door's
+  24:    1  ->  doorjamb
+  25:    1  ->  es
+  26:    1  ->  extoll
+  27:    1  ->  flower
+  28:    1  ->  fluidly
+  29:    1  ->  fog
+  30:    1  ->  fucking
+  31:    1  ->  getting
+  32:    1  ->  gold
+  33:    1  ->  groundskeepers
+  34:    1  ->  hassled
+  35:    1  ->  his
+  36:    1  ->  hits
+  37:    1  ->  hones
+  38:    1  ->  horn
+  39:    1  ->  horrors
+  40:    1  ->  ignorant
+  41:    1  ->  is
+  42:    1  ->  liquor
+  43:    1  ->  marigold
+  44:    1  ->  mi
+  45:    1  ->  nights
+  46:    1  ->  north
+  47:    1  ->  oh
+  48:    1  ->  our
+  49:    1  ->  parque
+  50:    1  ->  paths
+  51:    1  ->  poem
+  52:    1  ->  regally
+  53:    1  ->  roofs
+  54:    1  ->  seemed
+  55:    1  ->  shingled
+  56:    1  ->  shops
+  57:    1  ->  sluices
+  58:    1  ->  state
+  59:    1  ->  streamings
+  60:    1  ->  streets
+  61:    1  ->  walk
+  62:    1  ->  walked
+  63:    1  ->  why
+     -------
+        74
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:    5  ->  and
+   2:    3  ->  daisy
+   3:    2  ->  ***
+   4:    2  ->  have
+   5:    2  ->  is
+   6:    2  ->  miracle
+   7:    1  ->  a
+   8:    1  ->  abstraction
+   9:    1  ->  all
+  10:    1  ->  barbara's
+  11:    1  ->  beatnik
+  12:    1  ->  bed
+  13:    1  ->  big
+  14:    1  ->  burdening
+  15:    1  ->  but
+  16:    1  ->  by
+  17:    1  ->  carbon
+  18:    1  ->  cheer
+  19:    1  ->  death
+  20:    1  ->  distortions
+  21:    1  ->  estate
+  22:    1  ->  estes
+  23:    1  ->  extol
+  24:    1  ->  face
+  25:    1  ->  fall
+  26:    1  ->  flowers
+  27:    1  ->  fluently
+  28:    1  ->  foreign
+  29:    1  ->  goal
+  30:    1  ->  hassles
+  31:    1  ->  horse
+  32:    1  ->  ignore
+  33:    1  ->  it
+  34:    1  ->  it's
+  35:    1  ->  jam
+  36:    1  ->  keepers
+  37:    1  ->  knights
+  38:    1  ->  legally
+  39:    1  ->  liquors
+  40:    1  ->  marigold
+  41:    1  ->  merson's
+  42:    1  ->  must
+  43:    1  ->  my
+  44:    1  ->  nation
+  45:    1  ->  norm
+  46:    1  ->  or
+  47:    1  ->  owns
+  48:    1  ->  pads
+  49:    1  ->  pam
+  50:    1  ->  put
+  51:    1  ->  rained
+  52:    1  ->  rape
+  53:    1  ->  roof
+  54:    1  ->  seem
+  55:    1  ->  shingle
+  56:    1  ->  shop
+  57:    1  ->  slices
+  58:    1  ->  streaming
+  59:    1  ->  street
+  60:    1  ->  the
+  61:    1  ->  va
+  62:    1  ->  veins
+  63:    1  ->  walk
+  64:    1  ->  walked
+     -------
+        74
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

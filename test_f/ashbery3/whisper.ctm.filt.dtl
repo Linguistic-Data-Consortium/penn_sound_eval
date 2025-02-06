@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.7%   (  45)
+
+Percent Correct           =   95.6%   ( 906)
+
+Percent Substitution      =    0.9%   (   9)
+Percent Deletions         =    3.5%   (  33)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   95.3%
+
+
+Ref. words                =           ( 948)
+Hyp. words                =           ( 918)
+Aligned words             =           ( 951)
+
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  an ==> and
+   2:    1  ->  and ==> but
+   3:    1  ->  and ==> in
+   4:    1  ->  elliott ==> elliot
+   5:    1  ->  not ==> no
+   6:    1  ->  shall ==> should
+   7:    1  ->  shown ==> shone
+   8:    1  ->  the ==> a
+   9:    1  ->  would ==> will
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  ¶¶
+   2:    1  ->  the
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    5  ->  a
+   2:    4  ->  and
+   3:    4  ->  i
+   4:    3  ->  of
+   5:    2  ->  it
+   6:    1  ->  did
+   7:    1  ->  going
+   8:    1  ->  had
+   9:    1  ->  in
+  10:    1  ->  kind
+  11:    1  ->  not
+  12:    1  ->  p
+  13:    1  ->  r
+  14:    1  ->  seems
+  15:    1  ->  so
+  16:    1  ->  stop
+  17:    1  ->  that
+  18:    1  ->  to
+  19:    1  ->  when
+  20:    1  ->  x
+     -------
+        33
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  and
+   2:    1  ->  an
+   3:    1  ->  elliott
+   4:    1  ->  not
+   5:    1  ->  shall
+   6:    1  ->  shown
+   7:    1  ->  the
+   8:    1  ->  would
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  but
+   4:    1  ->  elliot
+   5:    1  ->  in
+   6:    1  ->  no
+   7:    1  ->  shone
+   8:    1  ->  should
+   9:    1  ->  will
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

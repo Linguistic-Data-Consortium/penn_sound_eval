@@ -1,0 +1,177 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.5%   (  40)
+
+Percent Correct           =   96.9%   (1103)
+
+Percent Substitution      =    2.8%   (  32)
+Percent Deletions         =    0.3%   (   3)
+Percent Insertions        =    0.4%   (   5)
+Percent Word Accuracy     =   96.5%
+
+
+Ref. words                =           (1138)
+Hyp. words                =           (1140)
+Aligned words             =           (1143)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  as ==> his
+   3:    1  ->  canons ==> cannons
+   4:    1  ->  days ==> is
+   5:    1  ->  fours ==> four
+   6:    1  ->  francks' ==> franck's
+   7:    1  ->  gnossienne ==> gnaussienne
+   8:    1  ->  hoople ==> hoopel
+   9:    1  ->  i'v ==> have
+  10:    1  ->  immigrated ==> emigrated
+  11:    1  ->  indifference ==> difference
+  12:    1  ->  into ==> in
+  13:    1  ->  it's ==> its
+  14:    1  ->  jicky ==> jiki
+  15:    1  ->  muddled ==> muddle
+  16:    1  ->  nineteenth ==> 19th
+  17:    1  ->  occurence ==> occurrence
+  18:    1  ->  one ==> someone
+  19:    1  ->  passed ==> past
+  20:    1  ->  plain ==> plane
+  21:    1  ->  plus ==> per
+  22:    1  ->  refused ==> refuse
+  23:    1  ->  route ==> root
+  24:    1  ->  same ==> sane
+  25:    1  ->  scheherazade ==> shahrazad
+  26:    1  ->  soir ==> soire
+  27:    1  ->  survive ==> survived
+  28:    1  ->  transformed ==> transform
+  29:    1  ->  ways ==> way
+  30:    1  ->  white ==> light
+  31:    1  ->  with ==> was
+  32:    1  ->  x ==> air
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  any
+   2:    1  ->  day
+   3:    1  ->  i
+   4:    1  ->  place
+   5:    1  ->  what
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  s
+   2:    1  ->  so
+   3:    1  ->  the
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  a
+   2:    1  ->  as
+   3:    1  ->  canons
+   4:    1  ->  days
+   5:    1  ->  fours
+   6:    1  ->  francks'
+   7:    1  ->  gnossienne
+   8:    1  ->  hoople
+   9:    1  ->  i'v
+  10:    1  ->  immigrated
+  11:    1  ->  indifference
+  12:    1  ->  into
+  13:    1  ->  it's
+  14:    1  ->  jicky
+  15:    1  ->  muddled
+  16:    1  ->  nineteenth
+  17:    1  ->  occurence
+  18:    1  ->  one
+  19:    1  ->  passed
+  20:    1  ->  plain
+  21:    1  ->  plus
+  22:    1  ->  refused
+  23:    1  ->  route
+  24:    1  ->  same
+  25:    1  ->  scheherazade
+  26:    1  ->  soir
+  27:    1  ->  survive
+  28:    1  ->  transformed
+  29:    1  ->  ways
+  30:    1  ->  white
+  31:    1  ->  with
+  32:    1  ->  x
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  19th
+   2:    1  ->  air
+   3:    1  ->  cannons
+   4:    1  ->  difference
+   5:    1  ->  emigrated
+   6:    1  ->  four
+   7:    1  ->  franck's
+   8:    1  ->  gnaussienne
+   9:    1  ->  have
+  10:    1  ->  his
+  11:    1  ->  hoopel
+  12:    1  ->  in
+  13:    1  ->  is
+  14:    1  ->  its
+  15:    1  ->  jiki
+  16:    1  ->  light
+  17:    1  ->  muddle
+  18:    1  ->  occurrence
+  19:    1  ->  past
+  20:    1  ->  per
+  21:    1  ->  plane
+  22:    1  ->  refuse
+  23:    1  ->  root
+  24:    1  ->  sane
+  25:    1  ->  shahrazad
+  26:    1  ->  soire
+  27:    1  ->  someone
+  28:    1  ->  survived
+  29:    1  ->  the
+  30:    1  ->  transform
+  31:    1  ->  was
+  32:    1  ->  way
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,415 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   24.4%   ( 286)
+
+Percent Correct           =   76.5%   ( 895)
+
+Percent Substitution      =    8.5%   (  99)
+Percent Deletions         =   15.0%   ( 176)
+Percent Insertions        =    0.9%   (  11)
+Percent Word Accuracy     =   75.6%
+
+
+Ref. words                =           (1170)
+Hyp. words                =           (1005)
+Aligned words             =           (1181)
+
+CONFUSION PAIRS                  Total                 (94)
+                                 With >=  1 occurrences (94)
+
+   1:    3  ->  self ==> cell
+   2:    2  ->  joan's ==> jones
+   3:    2  ->  relationship ==> relationships
+   4:    2  ->  the ==> a
+   5:    1  ->  %bcack ==> quiddian
+   6:    1  ->  a ==> i
+   7:    1  ->  a ==> world
+   8:    1  ->  alteri ==> alternate
+   9:    1  ->  am ==> the
+  10:    1  ->  amenity ==> then
+  11:    1  ->  ample ==> echo
+  12:    1  ->  an ==> had
+  13:    1  ->  and ==> bring
+  14:    1  ->  and ==> leathered
+  15:    1  ->  as ==> is
+  16:    1  ->  attrition ==> third
+  17:    1  ->  awful ==> also
+  18:    1  ->  be ==> been
+  19:    1  ->  been ==> being
+  20:    1  ->  embodied ==> involved
+  21:    1  ->  epidural ==> ethical
+  22:    1  ->  fusing ==> using
+  23:    1  ->  going ==> one
+  24:    1  ->  had ==> has
+  25:    1  ->  hartman ==> hartman's
+  26:    1  ->  i ==> on
+  27:    1  ->  ideal ==> of
+  28:    1  ->  illness ==> transcendence
+  29:    1  ->  in ==> animal
+  30:    1  ->  in ==> kind
+  31:    1  ->  in ==> labynasian
+  32:    1  ->  in ==> mean
+  33:    1  ->  in ==> right
+  34:    1  ->  into ==> variety
+  35:    1  ->  less ==> us
+  36:    1  ->  levinas ==> labynas
+  37:    1  ->  like ==> and
+  38:    1  ->  like ==> being
+  39:    1  ->  lot ==> like
+  40:    1  ->  love ==> wanted
+  41:    1  ->  me ==> you
+  42:    1  ->  michaela ==> akeelah
+  43:    1  ->  mind ==> mine
+  44:    1  ->  nathalie ==> natalie
+  45:    1  ->  nathanael ==> randall
+  46:    1  ->  necessarily ==> necessary
+  47:    1  ->  need ==> that
+  48:    1  ->  not ==> together
+  49:    1  ->  of ==> to
+  50:    1  ->  on ==> in
+  51:    1  ->  oneself ==> self
+  52:    1  ->  plotting ==> flouting
+  53:    1  ->  praise ==> ways
+  54:    1  ->  reciprocation ==> precipitation
+  55:    1  ->  retalack ==> ratellik
+  56:    1  ->  reynaldo ==> ronaldo
+  57:    1  ->  right ==> monopolize
+  58:    1  ->  rupture ==> rapture
+  59:    1  ->  saidiya ==> sydia
+  60:    1  ->  simple ==> cyclical
+  61:    1  ->  so ==> still
+  62:    1  ->  studies ==> done
+  63:    1  ->  stuffed ==> stuff
+  64:    1  ->  than ==> then
+  65:    1  ->  that ==> but
+  66:    1  ->  that ==> then
+  67:    1  ->  the ==> i
+  68:    1  ->  the ==> that
+  69:    1  ->  themselves ==> yourself
+  70:    1  ->  then ==> this
+  71:    1  ->  thing ==> darren
+  72:    1  ->  thing ==> to
+  73:    1  ->  this ==> among
+  74:    1  ->  to ==> hand
+  75:    1  ->  to ==> have
+  76:    1  ->  to ==> of
+  77:    1  ->  too ==> to
+  78:    1  ->  trance ==> trish
+  79:    1  ->  trends ==> trans
+  80:    1  ->  valerie ==> done
+  81:    1  ->  var ==> of
+  82:    1  ->  varyingly ==> very
+  83:    1  ->  verbs ==> matters
+  84:    1  ->  violent ==> violence
+  85:    1  ->  what's ==> otherness
+  86:    1  ->  with ==> the
+  87:    1  ->  within ==> in
+  88:    1  ->  within ==> space
+  89:    1  ->  witness ==> things
+  90:    1  ->  worldscape ==> scape
+  91:    1  ->  writing ==> of
+  92:    1  ->  yeah ==> be
+  93:    1  ->  yeah ==> patrician
+  94:    1  ->  you ==> we
+     -------
+        99
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  is
+   2:    1  ->  a
+   3:    1  ->  cyclical
+   4:    1  ->  good
+   5:    1  ->  ideas
+   6:    1  ->  in
+   7:    1  ->  it
+   8:    1  ->  one's
+   9:    1  ->  space
+  10:    1  ->  the
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (78)
+                                 With >=  1 occurrences (78)
+
+   1:   14  ->  and
+   2:   14  ->  i
+   3:   12  ->  %bcack
+   4:   10  ->  yeah
+   5:    7  ->  not
+   6:    6  ->  a
+   7:    6  ->  the
+   8:    5  ->  to
+   9:    4  ->  are
+  10:    4  ->  you
+  11:    3  ->  in
+  12:    3  ->  is
+  13:    3  ->  it
+  14:    3  ->  it's
+  15:    3  ->  of
+  16:    3  ->  that
+  17:    3  ->  that's
+  18:    2  ->  be
+  19:    2  ->  but
+  20:    2  ->  do
+  21:    2  ->  for
+  22:    2  ->  had
+  23:    2  ->  know
+  24:    2  ->  other
+  25:    2  ->  right
+  26:    2  ->  so
+  27:    2  ->  they
+  28:    2  ->  we
+  29:    2  ->  x
+  30:    1  ->  able
+  31:    1  ->  all
+  32:    1  ->  alter
+  33:    1  ->  an
+  34:    1  ->  any
+  35:    1  ->  at
+  36:    1  ->  because
+  37:    1  ->  bit
+  38:    1  ->  blind
+  39:    1  ->  branded
+  40:    1  ->  by
+  41:    1  ->  d
+  42:    1  ->  dia
+  43:    1  ->  disagreement
+  44:    1  ->  down
+  45:    1  ->  get
+  46:    1  ->  great
+  47:    1  ->  have
+  48:    1  ->  he's
+  49:    1  ->  interesting
+  50:    1  ->  leather
+  51:    1  ->  levinas
+  52:    1  ->  like
+  53:    1  ->  little
+  54:    1  ->  loved
+  55:    1  ->  me
+  56:    1  ->  men
+  57:    1  ->  mom
+  58:    1  ->  no
+  59:    1  ->  now
+  60:    1  ->  on
+  61:    1  ->  others
+  62:    1  ->  period
+  63:    1  ->  polyneme
+  64:    1  ->  r
+  65:    1  ->  re
+  66:    1  ->  relate
+  67:    1  ->  s
+  68:    1  ->  supposed
+  69:    1  ->  sure
+  70:    1  ->  th
+  71:    1  ->  than
+  72:    1  ->  there
+  73:    1  ->  third's
+  74:    1  ->  time
+  75:    1  ->  trans
+  76:    1  ->  ver
+  77:    1  ->  very
+  78:    1  ->  with
+     -------
+       176
+
+
+
+SUBSTITUTIONS                    Total                 (79)
+                                 With >=  1 occurrences (79)
+
+   1:    5  ->  in
+   2:    4  ->  the
+   3:    3  ->  self
+   4:    3  ->  to
+   5:    2  ->  a
+   6:    2  ->  and
+   7:    2  ->  joan's
+   8:    2  ->  like
+   9:    2  ->  relationship
+  10:    2  ->  that
+  11:    2  ->  thing
+  12:    2  ->  within
+  13:    2  ->  yeah
+  14:    1  ->  %bcack
+  15:    1  ->  alteri
+  16:    1  ->  am
+  17:    1  ->  amenity
+  18:    1  ->  ample
+  19:    1  ->  an
+  20:    1  ->  as
+  21:    1  ->  attrition
+  22:    1  ->  awful
+  23:    1  ->  be
+  24:    1  ->  been
+  25:    1  ->  embodied
+  26:    1  ->  epidural
+  27:    1  ->  fusing
+  28:    1  ->  going
+  29:    1  ->  had
+  30:    1  ->  hartman
+  31:    1  ->  i
+  32:    1  ->  ideal
+  33:    1  ->  illness
+  34:    1  ->  into
+  35:    1  ->  less
+  36:    1  ->  levinas
+  37:    1  ->  lot
+  38:    1  ->  love
+  39:    1  ->  me
+  40:    1  ->  michaela
+  41:    1  ->  mind
+  42:    1  ->  nathalie
+  43:    1  ->  nathanael
+  44:    1  ->  necessarily
+  45:    1  ->  need
+  46:    1  ->  not
+  47:    1  ->  of
+  48:    1  ->  on
+  49:    1  ->  oneself
+  50:    1  ->  plotting
+  51:    1  ->  praise
+  52:    1  ->  reciprocation
+  53:    1  ->  retalack
+  54:    1  ->  reynaldo
+  55:    1  ->  right
+  56:    1  ->  rupture
+  57:    1  ->  saidiya
+  58:    1  ->  simple
+  59:    1  ->  so
+  60:    1  ->  studies
+  61:    1  ->  stuffed
+  62:    1  ->  than
+  63:    1  ->  themselves
+  64:    1  ->  then
+  65:    1  ->  this
+  66:    1  ->  too
+  67:    1  ->  trance
+  68:    1  ->  trends
+  69:    1  ->  valerie
+  70:    1  ->  var
+  71:    1  ->  varyingly
+  72:    1  ->  verbs
+  73:    1  ->  violent
+  74:    1  ->  what's
+  75:    1  ->  with
+  76:    1  ->  witness
+  77:    1  ->  worldscape
+  78:    1  ->  writing
+  79:    1  ->  you
+     -------
+        99
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (81)
+                                 With >=  1 occurrences (81)
+
+   1:    4  ->  of
+   2:    3  ->  cell
+   3:    3  ->  then
+   4:    3  ->  to
+   5:    2  ->  a
+   6:    2  ->  being
+   7:    2  ->  done
+   8:    2  ->  i
+   9:    2  ->  in
+  10:    2  ->  jones
+  11:    2  ->  relationships
+  12:    2  ->  that
+  13:    2  ->  the
+  14:    1  ->  akeelah
+  15:    1  ->  also
+  16:    1  ->  alternate
+  17:    1  ->  among
+  18:    1  ->  and
+  19:    1  ->  animal
+  20:    1  ->  be
+  21:    1  ->  been
+  22:    1  ->  bring
+  23:    1  ->  but
+  24:    1  ->  cyclical
+  25:    1  ->  darren
+  26:    1  ->  echo
+  27:    1  ->  ethical
+  28:    1  ->  flouting
+  29:    1  ->  had
+  30:    1  ->  hand
+  31:    1  ->  hartman's
+  32:    1  ->  has
+  33:    1  ->  have
+  34:    1  ->  involved
+  35:    1  ->  is
+  36:    1  ->  kind
+  37:    1  ->  labynas
+  38:    1  ->  labynasian
+  39:    1  ->  leathered
+  40:    1  ->  like
+  41:    1  ->  matters
+  42:    1  ->  mean
+  43:    1  ->  mine
+  44:    1  ->  monopolize
+  45:    1  ->  natalie
+  46:    1  ->  necessary
+  47:    1  ->  on
+  48:    1  ->  one
+  49:    1  ->  otherness
+  50:    1  ->  patrician
+  51:    1  ->  precipitation
+  52:    1  ->  quiddian
+  53:    1  ->  randall
+  54:    1  ->  rapture
+  55:    1  ->  ratellik
+  56:    1  ->  right
+  57:    1  ->  ronaldo
+  58:    1  ->  scape
+  59:    1  ->  self
+  60:    1  ->  space
+  61:    1  ->  still
+  62:    1  ->  stuff
+  63:    1  ->  sydia
+  64:    1  ->  things
+  65:    1  ->  third
+  66:    1  ->  this
+  67:    1  ->  together
+  68:    1  ->  trans
+  69:    1  ->  transcendence
+  70:    1  ->  trish
+  71:    1  ->  us
+  72:    1  ->  using
+  73:    1  ->  variety
+  74:    1  ->  very
+  75:    1  ->  violence
+  76:    1  ->  wanted
+  77:    1  ->  ways
+  78:    1  ->  we
+  79:    1  ->  world
+  80:    1  ->  you
+  81:    1  ->  yourself
+     -------
+        99
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

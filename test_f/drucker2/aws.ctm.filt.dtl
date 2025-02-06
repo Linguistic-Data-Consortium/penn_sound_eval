@@ -1,0 +1,171 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.6%   (  43)
+
+Percent Correct           =   95.7%   ( 898)
+
+Percent Substitution      =    3.4%   (  32)
+Percent Deletions         =    0.9%   (   8)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   95.4%
+
+
+Ref. words                =           ( 938)
+Hyp. words                =           ( 933)
+Aligned words             =           ( 941)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> chart
+   3:    1  ->  and ==> on
+   4:    1  ->  balanced ==> bounced
+   5:    1  ->  branded ==> spread
+   6:    1  ->  changed ==> change
+   7:    1  ->  dollar ==> 180
+   8:    1  ->  eighteen ==> eight
+   9:    1  ->  emulsions ==> emotions
+  10:    1  ->  extopian ==> dystopian
+  11:    1  ->  fetishizes ==> as
+  12:    1  ->  film ==> films
+  13:    1  ->  forty ==> oh
+  14:    1  ->  her ==> for
+  15:    1  ->  kisch ==> cus
+  16:    1  ->  leaving ==> leading
+  17:    1  ->  line ==> on
+  18:    1  ->  love ==> loved
+  19:    1  ->  mien ==> amien
+  20:    1  ->  mottled ==> modeled
+  21:    1  ->  of ==> on
+  22:    1  ->  on ==> in
+  23:    1  ->  petal ==> pedal
+  24:    1  ->  petal ==> petals
+  25:    1  ->  shoulders ==> shoulder
+  26:    1  ->  sixty ==> oh
+  27:    1  ->  ten ==> oh
+  28:    1  ->  thirty ==> oh
+  29:    1  ->  thirty ==> three
+  30:    1  ->  tiny ==> tight
+  31:    1  ->  twenty ==> two
+  32:    1  ->  weeks ==> week
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  fetishize
+   2:    1  ->  lie
+   3:    1  ->  one
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  s
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  blonde
+   5:    1  ->  eighty
+   6:    1  ->  hundred
+   7:    1  ->  short
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  and
+   2:    2  ->  petal
+   3:    2  ->  thirty
+   4:    1  ->  a
+   5:    1  ->  balanced
+   6:    1  ->  branded
+   7:    1  ->  changed
+   8:    1  ->  dollar
+   9:    1  ->  eighteen
+  10:    1  ->  emulsions
+  11:    1  ->  extopian
+  12:    1  ->  fetishizes
+  13:    1  ->  film
+  14:    1  ->  forty
+  15:    1  ->  her
+  16:    1  ->  kisch
+  17:    1  ->  leaving
+  18:    1  ->  line
+  19:    1  ->  love
+  20:    1  ->  mien
+  21:    1  ->  mottled
+  22:    1  ->  of
+  23:    1  ->  on
+  24:    1  ->  shoulders
+  25:    1  ->  sixty
+  26:    1  ->  ten
+  27:    1  ->  tiny
+  28:    1  ->  twenty
+  29:    1  ->  weeks
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    4  ->  oh
+   2:    3  ->  on
+   3:    1  ->  180
+   4:    1  ->  amien
+   5:    1  ->  as
+   6:    1  ->  bounced
+   7:    1  ->  change
+   8:    1  ->  chart
+   9:    1  ->  cus
+  10:    1  ->  dystopian
+  11:    1  ->  eight
+  12:    1  ->  emotions
+  13:    1  ->  films
+  14:    1  ->  for
+  15:    1  ->  in
+  16:    1  ->  leading
+  17:    1  ->  loved
+  18:    1  ->  modeled
+  19:    1  ->  pedal
+  20:    1  ->  petals
+  21:    1  ->  shoulder
+  22:    1  ->  spread
+  23:    1  ->  the
+  24:    1  ->  three
+  25:    1  ->  tight
+  26:    1  ->  two
+  27:    1  ->  week
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

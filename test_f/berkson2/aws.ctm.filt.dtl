@@ -1,0 +1,154 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.1%   (  41)
+
+Percent Correct           =   95.8%   ( 775)
+
+Percent Substitution      =    3.0%   (  24)
+Percent Deletions         =    1.2%   (  10)
+Percent Insertions        =    0.9%   (   7)
+Percent Word Accuracy     =   94.9%
+
+
+Ref. words                =           ( 809)
+Hyp. words                =           ( 806)
+Aligned words             =           ( 816)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  gianlorenzo ==> lorenzo
+   2:    1  ->  a ==> an
+   3:    1  ->  aire ==> air
+   4:    1  ->  bare ==> bear
+   5:    1  ->  bower ==> and
+   6:    1  ->  constanza ==> castanza
+   7:    1  ->  distant ==> instant
+   8:    1  ->  eight ==> 2008
+   9:    1  ->  et ==> a
+  10:    1  ->  exogeny ==> exogen
+  11:    1  ->  gtmo ==> bauer
+  12:    1  ->  in ==> and
+  13:    1  ->  lead ==> led
+  14:    1  ->  mathilda's ==> matilda's
+  15:    1  ->  nine ==> 2009
+  16:    1  ->  nineteen ==> nine
+  17:    1  ->  s ==> a
+  18:    1  ->  the ==> a
+  19:    1  ->  twenty ==> two
+  20:    1  ->  unselfconsciously ==> consciously
+  21:    1  ->  was ==> is
+  22:    1  ->  wittkower’s ==> wit's
+  23:    1  ->  zookeepers' ==> zookeepers
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  %bcack
+   2:    1  ->  a
+   3:    1  ->  gitmo
+   4:    1  ->  jean
+   5:    1  ->  john
+   6:    1  ->  one
+   7:    1  ->  unself
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  thousand
+   2:    2  ->  two
+   3:    1  ->  it
+   4:    1  ->  oh
+   5:    1  ->  p
+   6:    1  ->  rea
+   7:    1  ->  t
+   8:    1  ->  u
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  gianlorenzo
+   2:    1  ->  a
+   3:    1  ->  aire
+   4:    1  ->  bare
+   5:    1  ->  bower
+   6:    1  ->  constanza
+   7:    1  ->  distant
+   8:    1  ->  eight
+   9:    1  ->  et
+  10:    1  ->  exogeny
+  11:    1  ->  gtmo
+  12:    1  ->  in
+  13:    1  ->  lead
+  14:    1  ->  mathilda's
+  15:    1  ->  nine
+  16:    1  ->  nineteen
+  17:    1  ->  s
+  18:    1  ->  the
+  19:    1  ->  twenty
+  20:    1  ->  unselfconsciously
+  21:    1  ->  was
+  22:    1  ->  wittkower’s
+  23:    1  ->  zookeepers'
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  a
+   2:    2  ->  and
+   3:    2  ->  lorenzo
+   4:    1  ->  2008
+   5:    1  ->  2009
+   6:    1  ->  air
+   7:    1  ->  an
+   8:    1  ->  bauer
+   9:    1  ->  bear
+  10:    1  ->  castanza
+  11:    1  ->  consciously
+  12:    1  ->  exogen
+  13:    1  ->  instant
+  14:    1  ->  is
+  15:    1  ->  led
+  16:    1  ->  matilda's
+  17:    1  ->  nine
+  18:    1  ->  two
+  19:    1  ->  wit's
+  20:    1  ->  zookeepers
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.4%   (  25)
+
+Percent Correct           =   97.7%   (1010)
+
+Percent Substitution      =    1.5%   (  16)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   97.6%
+
+
+Ref. words                =           (1034)
+Hyp. words                =           (1027)
+Aligned words             =           (1035)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  air ==> error
+   2:    1  ->  cause ==> because
+   3:    1  ->  diary ==> from
+   4:    1  ->  fallen ==> falling
+   5:    1  ->  feeling's ==> feelings
+   6:    1  ->  in ==> and
+   7:    1  ->  is ==> 's
+   8:    1  ->  it ==> and
+   9:    1  ->  m ==> em
+  10:    1  ->  moods ==> moves
+  11:    1  ->  over ==> of
+  12:    1  ->  protest ==> protests
+  13:    1  ->  rid ==> ridden
+  14:    1  ->  this ==> the
+  15:    1  ->  thrown ==> throw
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  humph
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  done
+   2:    1  ->  fat
+   3:    1  ->  for
+   4:    1  ->  ho
+   5:    1  ->  my
+   6:    1  ->  o
+   7:    1  ->  of
+   8:    1  ->  type
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  air
+   2:    1  ->  cause
+   3:    1  ->  diary
+   4:    1  ->  fallen
+   5:    1  ->  feeling's
+   6:    1  ->  in
+   7:    1  ->  is
+   8:    1  ->  it
+   9:    1  ->  m
+  10:    1  ->  moods
+  11:    1  ->  over
+  12:    1  ->  protest
+  13:    1  ->  rid
+  14:    1  ->  this
+  15:    1  ->  thrown
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  and
+   2:    2  ->  error
+   3:    1  ->  's
+   4:    1  ->  because
+   5:    1  ->  em
+   6:    1  ->  falling
+   7:    1  ->  feelings
+   8:    1  ->  from
+   9:    1  ->  moves
+  10:    1  ->  of
+  11:    1  ->  protests
+  12:    1  ->  ridden
+  13:    1  ->  the
+  14:    1  ->  throw
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

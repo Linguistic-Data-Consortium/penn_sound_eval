@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.7%   (  53)
+
+Percent Correct           =   95.2%   ( 891)
+
+Percent Substitution      =    3.0%   (  28)
+Percent Deletions         =    1.8%   (  17)
+Percent Insertions        =    0.9%   (   8)
+Percent Word Accuracy     =   94.3%
+
+
+Ref. words                =           ( 936)
+Hyp. words                =           ( 927)
+Aligned words             =           ( 944)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  a ==> va
+   3:    1  ->  bangs ==> veins
+   4:    1  ->  cartwheel ==> will
+   5:    1  ->  cut ==> covered
+   6:    1  ->  door's ==> is
+   7:    1  ->  doorjamb ==> jamb
+   8:    1  ->  elder ==> elmer
+   9:    1  ->  extoll ==> extol
+  10:    1  ->  five ==> 5
+  11:    1  ->  flower ==> flowers
+  12:    1  ->  forty ==> four
+  13:    1  ->  had ==> have
+  14:    1  ->  has ==> have
+  15:    1  ->  hassled ==> hassles
+  16:    1  ->  hits ==> it's
+  17:    1  ->  house ==> houses
+  18:    1  ->  hundred ==> zero
+  19:    1  ->  marigold ==> marigolds
+  20:    1  ->  paths ==> pads
+  21:    1  ->  poem ==> hall
+  22:    1  ->  roofs ==> roof
+  23:    1  ->  rooftop ==> rooftops
+  24:    1  ->  seemed ==> seem
+  25:    1  ->  shingled ==> shingles
+  26:    1  ->  shops ==> shop
+  27:    1  ->  silk ==> sylph
+  28:    1  ->  streets ==> street
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  door
+   2:    1  ->  i
+   3:    1  ->  k.
+   4:    1  ->  now
+   5:    1  ->  o.
+   6:    1  ->  park
+   7:    1  ->  the
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  the
+   2:    2  ->  on
+   3:    1  ->  a
+   4:    1  ->  black
+   5:    1  ->  cheers
+   6:    1  ->  ea
+   7:    1  ->  is
+   8:    1  ->  of
+   9:    1  ->  patron
+  10:    1  ->  rain
+  11:    1  ->  to
+  12:    1  ->  v
+  13:    1  ->  water
+  14:    1  ->  yeah
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  a
+   2:    1  ->  bangs
+   3:    1  ->  cartwheel
+   4:    1  ->  cut
+   5:    1  ->  door's
+   6:    1  ->  doorjamb
+   7:    1  ->  elder
+   8:    1  ->  extoll
+   9:    1  ->  five
+  10:    1  ->  flower
+  11:    1  ->  forty
+  12:    1  ->  had
+  13:    1  ->  has
+  14:    1  ->  hassled
+  15:    1  ->  hits
+  16:    1  ->  house
+  17:    1  ->  hundred
+  18:    1  ->  marigold
+  19:    1  ->  paths
+  20:    1  ->  poem
+  21:    1  ->  roofs
+  22:    1  ->  rooftop
+  23:    1  ->  seemed
+  24:    1  ->  shingled
+  25:    1  ->  shops
+  26:    1  ->  silk
+  27:    1  ->  streets
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  have
+   2:    1  ->  5
+   3:    1  ->  covered
+   4:    1  ->  elmer
+   5:    1  ->  extol
+   6:    1  ->  flowers
+   7:    1  ->  four
+   8:    1  ->  hall
+   9:    1  ->  hassles
+  10:    1  ->  houses
+  11:    1  ->  is
+  12:    1  ->  it's
+  13:    1  ->  jamb
+  14:    1  ->  marigolds
+  15:    1  ->  pads
+  16:    1  ->  roof
+  17:    1  ->  rooftops
+  18:    1  ->  seem
+  19:    1  ->  shingles
+  20:    1  ->  shop
+  21:    1  ->  street
+  22:    1  ->  sylph
+  23:    1  ->  the
+  24:    1  ->  va
+  25:    1  ->  veins
+  26:    1  ->  will
+  27:    1  ->  zero
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

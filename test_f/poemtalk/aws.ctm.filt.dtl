@@ -1,0 +1,212 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.1%   ( 116)
+
+Percent Correct           =   90.6%   ( 949)
+
+Percent Substitution      =    3.7%   (  39)
+Percent Deletions         =    5.7%   (  60)
+Percent Insertions        =    1.6%   (  17)
+Percent Word Accuracy     =   88.9%
+
+
+Ref. words                =           (1048)
+Hyp. words                =           (1005)
+Aligned words             =           (1065)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  antited ==> ted
+   2:    3  ->  i ==> eye
+   3:    2  ->  fifteen ==> five
+   4:    1  ->  a ==> an
+   5:    1  ->  and ==> in
+   6:    1  ->  andy ==> he
+   7:    1  ->  antipersona ==> persona
+   8:    1  ->  b ==> an
+   9:    1  ->  cocreate ==> create
+  10:    1  ->  conservation ==> conversation
+  11:    1  ->  cooperative ==> cooper
+  12:    1  ->  crowd's ==> crowd
+  13:    1  ->  diselect ==> dissect
+  14:    1  ->  have ==> but
+  15:    1  ->  inner ==> a
+  16:    1  ->  ism ==> is
+  17:    1  ->  oh ==> be
+  18:    1  ->  selfhood ==> foot
+  19:    1  ->  soci ==> social
+  20:    1  ->  th ==> the
+  21:    1  ->  that ==> the
+  22:    1  ->  theirs ==> there
+  23:    1  ->  thought ==> think
+  24:    1  ->  warhol ==> we
+  25:    1  ->  when ==> one
+  26:    1  ->  x ==> an
+  27:    1  ->  x ==> and
+  28:    1  ->  x ==> ill
+  29:    1  ->  x ==> in
+  30:    1  ->  x ==> it's
+  31:    1  ->  x ==> quite
+  32:    1  ->  x ==> to
+  33:    1  ->  x ==> with
+  34:    1  ->  you ==> yeah
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    4  ->  anti
+   2:    2  ->  and
+   3:    2  ->  one
+   4:    1  ->  co
+   5:    1  ->  i
+   6:    1  ->  in
+   7:    1  ->  of
+   8:    1  ->  or
+   9:    1  ->  self
+  10:    1  ->  there
+  11:    1  ->  we
+  12:    1  ->  yeah
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:   11  ->  x
+   2:    4  ->  %bcack
+   3:    4  ->  right
+   4:    3  ->  a
+   5:    3  ->  is
+   6:    2  ->  e
+   7:    2  ->  in
+   8:    2  ->  s
+   9:    2  ->  so
+  10:    1  ->  add
+  11:    1  ->  aisle
+  12:    1  ->  all
+  13:    1  ->  at
+  14:    1  ->  be
+  15:    1  ->  big
+  16:    1  ->  but
+  17:    1  ->  em
+  18:    1  ->  every
+  19:    1  ->  i
+  20:    1  ->  it
+  21:    1  ->  it's
+  22:    1  ->  like
+  23:    1  ->  no
+  24:    1  ->  not
+  25:    1  ->  oh
+  26:    1  ->  one
+  27:    1  ->  r
+  28:    1  ->  th
+  29:    1  ->  that
+  30:    1  ->  that's
+  31:    1  ->  the
+  32:    1  ->  to
+  33:    1  ->  well
+  34:    1  ->  y
+  35:    1  ->  yes
+  36:    1  ->  you
+     -------
+        60
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    8  ->  x
+   2:    3  ->  antited
+   3:    3  ->  i
+   4:    2  ->  fifteen
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  andy
+   8:    1  ->  antipersona
+   9:    1  ->  b
+  10:    1  ->  cocreate
+  11:    1  ->  conservation
+  12:    1  ->  cooperative
+  13:    1  ->  crowd's
+  14:    1  ->  diselect
+  15:    1  ->  have
+  16:    1  ->  inner
+  17:    1  ->  ism
+  18:    1  ->  oh
+  19:    1  ->  selfhood
+  20:    1  ->  soci
+  21:    1  ->  th
+  22:    1  ->  that
+  23:    1  ->  theirs
+  24:    1  ->  thought
+  25:    1  ->  warhol
+  26:    1  ->  when
+  27:    1  ->  you
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  an
+   2:    3  ->  eye
+   3:    3  ->  ted
+   4:    2  ->  five
+   5:    2  ->  in
+   6:    2  ->  the
+   7:    1  ->  a
+   8:    1  ->  and
+   9:    1  ->  be
+  10:    1  ->  but
+  11:    1  ->  conversation
+  12:    1  ->  cooper
+  13:    1  ->  create
+  14:    1  ->  crowd
+  15:    1  ->  dissect
+  16:    1  ->  foot
+  17:    1  ->  he
+  18:    1  ->  ill
+  19:    1  ->  is
+  20:    1  ->  it's
+  21:    1  ->  one
+  22:    1  ->  persona
+  23:    1  ->  quite
+  24:    1  ->  social
+  25:    1  ->  there
+  26:    1  ->  think
+  27:    1  ->  to
+  28:    1  ->  we
+  29:    1  ->  with
+  30:    1  ->  yeah
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

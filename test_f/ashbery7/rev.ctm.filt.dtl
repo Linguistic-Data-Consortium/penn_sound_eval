@@ -1,0 +1,209 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.2%   (  57)
+
+Percent Correct           =   95.4%   (1048)
+
+Percent Substitution      =    4.3%   (  47)
+Percent Deletions         =    0.4%   (   4)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   94.8%
+
+
+Ref. words                =           (1099)
+Hyp. words                =           (1101)
+Aligned words             =           (1105)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    2  ->  and ==> in
+   2:    2  ->  servant's ==> servants
+   3:    1  ->  a ==> the
+   4:    1  ->  air ==> heir
+   5:    1  ->  along ==> the
+   6:    1  ->  bade ==> bad
+   7:    1  ->  bottomward ==> bottom
+   8:    1  ->  cultivate ==> cultivates
+   9:    1  ->  eighteen ==> eight
+  10:    1  ->  encases ==> incase
+  11:    1  ->  find ==> define
+  12:    1  ->  grey ==> gray
+  13:    1  ->  in ==> and
+  14:    1  ->  is ==> as
+  15:    1  ->  is ==> marvelous
+  16:    1  ->  is ==> was
+  17:    1  ->  jests ==> jest
+  18:    1  ->  line ==> wine
+  19:    1  ->  marked ==> mocked
+  20:    1  ->  musing ==> amusing
+  21:    1  ->  narcissus ==> narcissist
+  22:    1  ->  ours ==> hours
+  23:    1  ->  pack ==> packed
+  24:    1  ->  patterned ==> pattern
+  25:    1  ->  peace ==> piece
+  26:    1  ->  pent ==> pant
+  27:    1  ->  plant ==> plan
+  28:    1  ->  poem ==> swamp
+  29:    1  ->  privet ==> pri
+  30:    1  ->  sepulcher ==> curve
+  31:    1  ->  sepulcher ==> sica
+  32:    1  ->  sepulcher ==> sker
+  33:    1  ->  store ==> drugstore
+  34:    1  ->  the ==> a
+  35:    1  ->  this ==> the
+  36:    1  ->  thyme ==> time
+  37:    1  ->  to ==> from
+  38:    1  ->  to ==> who
+  39:    1  ->  to ==> word
+  40:    1  ->  treetop's ==> treetops
+  41:    1  ->  twenty ==> two
+  42:    1  ->  unassassinated ==> assassinated
+  43:    1  ->  wan ==> one
+  44:    1  ->  writing ==> riding
+  45:    1  ->  x ==> with
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  to
+   2:    1  ->  among
+   3:    1  ->  ce
+   4:    1  ->  in
+   5:    1  ->  one
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  drug
+   2:    1  ->  marvel
+   3:    1  ->  the
+   4:    1  ->  to
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  is
+   2:    3  ->  sepulcher
+   3:    3  ->  to
+   4:    2  ->  and
+   5:    2  ->  servant's
+   6:    1  ->  a
+   7:    1  ->  air
+   8:    1  ->  along
+   9:    1  ->  bade
+  10:    1  ->  bottomward
+  11:    1  ->  cultivate
+  12:    1  ->  eighteen
+  13:    1  ->  encases
+  14:    1  ->  find
+  15:    1  ->  grey
+  16:    1  ->  in
+  17:    1  ->  jests
+  18:    1  ->  line
+  19:    1  ->  marked
+  20:    1  ->  musing
+  21:    1  ->  narcissus
+  22:    1  ->  ours
+  23:    1  ->  pack
+  24:    1  ->  patterned
+  25:    1  ->  peace
+  26:    1  ->  pent
+  27:    1  ->  plant
+  28:    1  ->  poem
+  29:    1  ->  privet
+  30:    1  ->  store
+  31:    1  ->  the
+  32:    1  ->  this
+  33:    1  ->  thyme
+  34:    1  ->  treetop's
+  35:    1  ->  twenty
+  36:    1  ->  unassassinated
+  37:    1  ->  wan
+  38:    1  ->  writing
+  39:    1  ->  x
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    3  ->  the
+   2:    2  ->  in
+   3:    2  ->  servants
+   4:    1  ->  a
+   5:    1  ->  amusing
+   6:    1  ->  and
+   7:    1  ->  as
+   8:    1  ->  assassinated
+   9:    1  ->  bad
+  10:    1  ->  bottom
+  11:    1  ->  cultivates
+  12:    1  ->  curve
+  13:    1  ->  define
+  14:    1  ->  drugstore
+  15:    1  ->  eight
+  16:    1  ->  from
+  17:    1  ->  gray
+  18:    1  ->  heir
+  19:    1  ->  hours
+  20:    1  ->  incase
+  21:    1  ->  jest
+  22:    1  ->  marvelous
+  23:    1  ->  mocked
+  24:    1  ->  narcissist
+  25:    1  ->  one
+  26:    1  ->  packed
+  27:    1  ->  pant
+  28:    1  ->  pattern
+  29:    1  ->  piece
+  30:    1  ->  plan
+  31:    1  ->  pri
+  32:    1  ->  riding
+  33:    1  ->  sica
+  34:    1  ->  sker
+  35:    1  ->  swamp
+  36:    1  ->  time
+  37:    1  ->  treetops
+  38:    1  ->  two
+  39:    1  ->  was
+  40:    1  ->  who
+  41:    1  ->  wine
+  42:    1  ->  with
+  43:    1  ->  word
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

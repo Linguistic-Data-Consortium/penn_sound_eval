@@ -1,0 +1,164 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.7%   (  44)
+
+Percent Correct           =   92.4%   ( 525)
+
+Percent Substitution      =    4.6%   (  26)
+Percent Deletions         =    3.0%   (  17)
+Percent Insertions        =    0.2%   (   1)
+Percent Word Accuracy     =   92.3%
+
+
+Ref. words                =           ( 568)
+Hyp. words                =           ( 552)
+Aligned words             =           ( 569)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  sentries ==> centuries
+   2:    1  ->  a ==> of
+   3:    1  ->  abasol ==> abyssal
+   4:    1  ->  colon ==> on
+   5:    1  ->  cycle ==> cycles
+   6:    1  ->  emancipation ==> emancipator
+   7:    1  ->  empirion ==> empyrean
+   8:    1  ->  enzyme ==> ensign
+   9:    1  ->  ferocity ==> veracity
+  10:    1  ->  garden ==> guardian
+  11:    1  ->  gathers ==> gather's
+  12:    1  ->  had ==> hooed
+  13:    1  ->  here ==> hares
+  14:    1  ->  is ==> call
+  15:    1  ->  muffle ==> muffled
+  16:    1  ->  negation ==> indication
+  17:    1  ->  or ==> where
+  18:    1  ->  point ==> standpoint
+  19:    1  ->  reevaluation ==> revaluation
+  20:    1  ->  screaming ==> streaming
+  21:    1  ->  snare ==> ensnare
+  22:    1  ->  spoken ==> underspoken
+  23:    1  ->  stamp ==> stamped
+  24:    1  ->  steeps ==> deeps
+  25:    1  ->  voracity ==> veracity
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  thought
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  of
+   2:    1  ->  and
+   3:    1  ->  consecration
+   4:    1  ->  enunciate
+   5:    1  ->  extinction
+   6:    1  ->  figuration
+   7:    1  ->  icarian
+   8:    1  ->  in
+   9:    1  ->  nimbus
+  10:    1  ->  shadowy
+  11:    1  ->  smoke
+  12:    1  ->  splendor
+  13:    1  ->  stand
+  14:    1  ->  tender
+  15:    1  ->  under
+  16:    1  ->  who
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  sentries
+   2:    1  ->  a
+   3:    1  ->  abasol
+   4:    1  ->  colon
+   5:    1  ->  cycle
+   6:    1  ->  emancipation
+   7:    1  ->  empirion
+   8:    1  ->  enzyme
+   9:    1  ->  ferocity
+  10:    1  ->  garden
+  11:    1  ->  gathers
+  12:    1  ->  had
+  13:    1  ->  here
+  14:    1  ->  is
+  15:    1  ->  muffle
+  16:    1  ->  negation
+  17:    1  ->  or
+  18:    1  ->  point
+  19:    1  ->  reevaluation
+  20:    1  ->  screaming
+  21:    1  ->  snare
+  22:    1  ->  spoken
+  23:    1  ->  stamp
+  24:    1  ->  steeps
+  25:    1  ->  voracity
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  centuries
+   2:    2  ->  veracity
+   3:    1  ->  abyssal
+   4:    1  ->  call
+   5:    1  ->  cycles
+   6:    1  ->  deeps
+   7:    1  ->  emancipator
+   8:    1  ->  empyrean
+   9:    1  ->  ensign
+  10:    1  ->  ensnare
+  11:    1  ->  gather's
+  12:    1  ->  guardian
+  13:    1  ->  hares
+  14:    1  ->  hooed
+  15:    1  ->  indication
+  16:    1  ->  muffled
+  17:    1  ->  of
+  18:    1  ->  on
+  19:    1  ->  revaluation
+  20:    1  ->  stamped
+  21:    1  ->  standpoint
+  22:    1  ->  streaming
+  23:    1  ->  underspoken
+  24:    1  ->  where
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

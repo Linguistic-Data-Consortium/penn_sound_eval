@@ -1,0 +1,167 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.3%   ( 121)
+
+Percent Correct           =   95.6%   ( 758)
+
+Percent Substitution      =    3.0%   (  24)
+Percent Deletions         =    1.4%   (  11)
+Percent Insertions        =   10.8%   (  86)
+Percent Word Accuracy     =   84.7%
+
+
+Ref. words                =           ( 793)
+Hyp. words                =           ( 868)
+Aligned words             =           ( 879)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  air ==> heir
+   3:    1  ->  and ==> in
+   4:    1  ->  balance ==> balanced
+   5:    1  ->  blocked ==> block
+   6:    1  ->  but ==> about
+   7:    1  ->  casa ==> the
+   8:    1  ->  cheesemaking ==> making
+   9:    1  ->  cola ==> intoxicola
+  10:    1  ->  do ==> will
+  11:    1  ->  farmworker's ==> worker's
+  12:    1  ->  ficcio ==> cassafici
+  13:    1  ->  growth ==> grove
+  14:    1  ->  in ==> and
+  15:    1  ->  into ==> to
+  16:    1  ->  laughingstock ==> stock
+  17:    1  ->  louie ==> louis
+  18:    1  ->  mass ==> mask
+  19:    1  ->  nature ==> natured
+  20:    1  ->  sue ==> soothe
+  21:    1  ->  talking ==> talked
+  22:    1  ->  their ==> there
+  23:    1  ->  unrights ==> unwrites
+  24:    1  ->  xs ==> x's
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:   37  ->  windows
+   2:   34  ->  of
+   3:    6  ->  window
+   4:    1  ->  and
+   5:    1  ->  bed
+   6:    1  ->  cheese
+   7:    1  ->  farm
+   8:    1  ->  i
+   9:    1  ->  its
+  10:    1  ->  laughing
+  11:    1  ->  own
+  12:    1  ->  speech
+     -------
+        86
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  in
+   4:    1  ->  that
+   5:    1  ->  then
+   6:    1  ->  toxin
+   7:    1  ->  walnut
+   8:    1  ->  was
+   9:    1  ->  were
+  10:    1  ->  will
+  11:    1  ->  x
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  a
+   2:    1  ->  air
+   3:    1  ->  and
+   4:    1  ->  balance
+   5:    1  ->  blocked
+   6:    1  ->  but
+   7:    1  ->  casa
+   8:    1  ->  cheesemaking
+   9:    1  ->  cola
+  10:    1  ->  do
+  11:    1  ->  farmworker's
+  12:    1  ->  ficcio
+  13:    1  ->  growth
+  14:    1  ->  in
+  15:    1  ->  into
+  16:    1  ->  laughingstock
+  17:    1  ->  louie
+  18:    1  ->  mass
+  19:    1  ->  nature
+  20:    1  ->  sue
+  21:    1  ->  talking
+  22:    1  ->  their
+  23:    1  ->  unrights
+  24:    1  ->  xs
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  the
+   2:    1  ->  about
+   3:    1  ->  and
+   4:    1  ->  balanced
+   5:    1  ->  block
+   6:    1  ->  cassafici
+   7:    1  ->  grove
+   8:    1  ->  heir
+   9:    1  ->  in
+  10:    1  ->  intoxicola
+  11:    1  ->  louis
+  12:    1  ->  making
+  13:    1  ->  mask
+  14:    1  ->  natured
+  15:    1  ->  soothe
+  16:    1  ->  stock
+  17:    1  ->  talked
+  18:    1  ->  there
+  19:    1  ->  to
+  20:    1  ->  unwrites
+  21:    1  ->  will
+  22:    1  ->  worker's
+  23:    1  ->  x's
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

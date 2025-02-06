@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.4%   (  62)
+
+Percent Correct           =   94.7%   ( 918)
+
+Percent Substitution      =    2.6%   (  25)
+Percent Deletions         =    2.7%   (  26)
+Percent Insertions        =    1.1%   (  11)
+Percent Word Accuracy     =   93.6%
+
+
+Ref. words                =           ( 969)
+Hyp. words                =           ( 954)
+Aligned words             =           ( 980)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  bellied ==> potbellied
+   2:    1  ->  day ==> makemyday
+   3:    1  ->  deckered ==> doubledeckered
+   4:    1  ->  eighty ==> oh
+   5:    1  ->  first ==> 21st
+   6:    1  ->  forty ==> oh
+   7:    1  ->  from ==> for
+   8:    1  ->  gnawed ==> nod
+   9:    1  ->  inch ==> fourinch
+  10:    1  ->  is ==> as
+  11:    1  ->  jutting ==> jetting
+  12:    1  ->  knuckling ==> whiteknuckling
+  13:    1  ->  long ==> longed
+  14:    1  ->  men ==> deliverymen
+  15:    1  ->  my ==> goahead
+  16:    1  ->  nine ==> 2009
+  17:    1  ->  old ==> 19yearold
+  18:    1  ->  one ==> 1981
+  19:    1  ->  our ==> her
+  20:    1  ->  painted ==> spraypainted
+  21:    1  ->  pitched ==> highpitched
+  22:    1  ->  smoker's ==> chainsmoker's
+  23:    1  ->  the ==> a
+  24:    1  ->  turn ==> turned
+  25:    1  ->  wide ==> halfinchwide
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    3  ->  da
+   2:    3  ->  shikos
+   3:    2  ->  a
+   4:    2  ->  zutza
+   5:    1  ->  had
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  had
+   2:    2  ->  nineteen
+   3:    1  ->  ahead
+   4:    1  ->  and
+   5:    1  ->  chain
+   6:    1  ->  delivery
+   7:    1  ->  double
+   8:    1  ->  eighty
+   9:    1  ->  four
+  10:    1  ->  go
+  11:    1  ->  half
+  12:    1  ->  high
+  13:    1  ->  inch
+  14:    1  ->  j
+  15:    1  ->  janice
+  16:    1  ->  make
+  17:    1  ->  pot
+  18:    1  ->  spray
+  19:    1  ->  thousand
+  20:    1  ->  twenty
+  21:    1  ->  two
+  22:    1  ->  white
+  23:    1  ->  yeah
+  24:    1  ->  year
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  bellied
+   2:    1  ->  day
+   3:    1  ->  deckered
+   4:    1  ->  eighty
+   5:    1  ->  first
+   6:    1  ->  forty
+   7:    1  ->  from
+   8:    1  ->  gnawed
+   9:    1  ->  inch
+  10:    1  ->  is
+  11:    1  ->  jutting
+  12:    1  ->  knuckling
+  13:    1  ->  long
+  14:    1  ->  men
+  15:    1  ->  my
+  16:    1  ->  nine
+  17:    1  ->  old
+  18:    1  ->  one
+  19:    1  ->  our
+  20:    1  ->  painted
+  21:    1  ->  pitched
+  22:    1  ->  smoker's
+  23:    1  ->  the
+  24:    1  ->  turn
+  25:    1  ->  wide
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  oh
+   2:    1  ->  1981
+   3:    1  ->  19yearold
+   4:    1  ->  2009
+   5:    1  ->  21st
+   6:    1  ->  a
+   7:    1  ->  as
+   8:    1  ->  chainsmoker's
+   9:    1  ->  deliverymen
+  10:    1  ->  doubledeckered
+  11:    1  ->  for
+  12:    1  ->  fourinch
+  13:    1  ->  goahead
+  14:    1  ->  halfinchwide
+  15:    1  ->  her
+  16:    1  ->  highpitched
+  17:    1  ->  jetting
+  18:    1  ->  longed
+  19:    1  ->  makemyday
+  20:    1  ->  nod
+  21:    1  ->  potbellied
+  22:    1  ->  spraypainted
+  23:    1  ->  turned
+  24:    1  ->  whiteknuckling
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

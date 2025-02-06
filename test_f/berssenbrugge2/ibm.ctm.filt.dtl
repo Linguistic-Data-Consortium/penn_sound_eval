@@ -1,0 +1,296 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.9%   (  98)
+
+Percent Correct           =   91.2%   ( 901)
+
+Percent Substitution      =    8.0%   (  79)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    1.1%   (  11)
+Percent Word Accuracy     =   90.1%
+
+
+Ref. words                =           ( 988)
+Hyp. words                =           ( 991)
+Aligned words             =           ( 999)
+
+CONFUSION PAIRS                  Total                 (72)
+                                 With >=  1 occurrences (72)
+
+   1:    3  ->  an ==> and
+   2:    2  ->  a ==> the
+   3:    2  ->  hole ==> whole
+   4:    2  ->  in ==> and
+   5:    2  ->  space ==> face
+   6:    2  ->  susie ==> suzie
+   7:    1  ->  a ==> apr
+   8:    1  ->  a ==> of
+   9:    1  ->  ambiguity ==> antiquity
+  10:    1  ->  and ==> than
+  11:    1  ->  appear ==> her
+  12:    1  ->  associated ==> associative
+  13:    1  ->  bleeds ==> leads
+  14:    1  ->  both ==> folks
+  15:    1  ->  bursts ==> bruce
+  16:    1  ->  causes ==> cause
+  17:    1  ->  consist ==> consists
+  18:    1  ->  construes ==> construe
+  19:    1  ->  encounter ==> counter
+  20:    1  ->  enters ==> injuries
+  21:    1  ->  fawn ==> fan
+  22:    1  ->  ferns ==> bins
+  23:    1  ->  formerly ==> formally
+  24:    1  ->  friend ==> fan
+  25:    1  ->  fronds ==> funds
+  26:    1  ->  gentle ==> gentleman
+  27:    1  ->  girls ==> girl
+  28:    1  ->  glints ==> lift
+  29:    1  ->  gourd ==> accord
+  30:    1  ->  had ==> passed
+  31:    1  ->  horses ==> courses
+  32:    1  ->  in ==> my
+  33:    1  ->  ink ==> in
+  34:    1  ->  innocent ==> innocence
+  35:    1  ->  it ==> as
+  36:    1  ->  its ==> his
+  37:    1  ->  light ==> like
+  38:    1  ->  like ==> lack
+  39:    1  ->  lines ==> wine
+  40:    1  ->  loss ==> mass
+  41:    1  ->  lover ==> another
+  42:    1  ->  mass ==> mess
+  43:    1  ->  meets ==> needs
+  44:    1  ->  minnie ==> mini
+  45:    1  ->  molecules ==> was
+  46:    1  ->  mouse ==> mouth
+  47:    1  ->  nonchalant ==> charlotte
+  48:    1  ->  of ==> active
+  49:    1  ->  one ==> on
+  50:    1  ->  organs ==> is
+  51:    1  ->  poem ==> time
+  52:    1  ->  priori ==> orient
+  53:    1  ->  pupil ==> cuba
+  54:    1  ->  return ==> turned
+  55:    1  ->  script ==> scripts
+  56:    1  ->  sick ==> thick
+  57:    1  ->  smock ==> smack
+  58:    1  ->  smock ==> smoke
+  59:    1  ->  stolid ==> started
+  60:    1  ->  suspense ==> insistence
+  61:    1  ->  thermal ==> external
+  62:    1  ->  these ==> b
+  63:    1  ->  they ==> may
+  64:    1  ->  this ==> the
+  65:    1  ->  thoroughly ==> barely
+  66:    1  ->  time ==> tongue
+  67:    1  ->  tom ==> tongue
+  68:    1  ->  turns ==> turned
+  69:    1  ->  unfolds ==> unfold
+  70:    1  ->  uninterested ==> interested
+  71:    1  ->  walking ==> working
+  72:    1  ->  while ==> well
+     -------
+        79
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  and
+   2:    1  ->  am
+   3:    1  ->  at
+   4:    1  ->  be
+   5:    1  ->  his
+   6:    1  ->  i
+   7:    1  ->  monarchy
+   8:    1  ->  not
+   9:    1  ->  of
+  10:    1  ->  oregon
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    3  ->  a
+   2:    1  ->  act
+   3:    1  ->  annie
+   4:    1  ->  have
+   5:    1  ->  it's
+   6:    1  ->  me
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (68)
+                                 With >=  1 occurrences (68)
+
+   1:    4  ->  a
+   2:    3  ->  an
+   3:    3  ->  in
+   4:    2  ->  hole
+   5:    2  ->  smock
+   6:    2  ->  space
+   7:    2  ->  susie
+   8:    1  ->  ambiguity
+   9:    1  ->  and
+  10:    1  ->  appear
+  11:    1  ->  associated
+  12:    1  ->  bleeds
+  13:    1  ->  both
+  14:    1  ->  bursts
+  15:    1  ->  causes
+  16:    1  ->  consist
+  17:    1  ->  construes
+  18:    1  ->  encounter
+  19:    1  ->  enters
+  20:    1  ->  fawn
+  21:    1  ->  ferns
+  22:    1  ->  formerly
+  23:    1  ->  friend
+  24:    1  ->  fronds
+  25:    1  ->  gentle
+  26:    1  ->  girls
+  27:    1  ->  glints
+  28:    1  ->  gourd
+  29:    1  ->  had
+  30:    1  ->  horses
+  31:    1  ->  ink
+  32:    1  ->  innocent
+  33:    1  ->  it
+  34:    1  ->  its
+  35:    1  ->  light
+  36:    1  ->  like
+  37:    1  ->  lines
+  38:    1  ->  loss
+  39:    1  ->  lover
+  40:    1  ->  mass
+  41:    1  ->  meets
+  42:    1  ->  minnie
+  43:    1  ->  molecules
+  44:    1  ->  mouse
+  45:    1  ->  nonchalant
+  46:    1  ->  of
+  47:    1  ->  one
+  48:    1  ->  organs
+  49:    1  ->  poem
+  50:    1  ->  priori
+  51:    1  ->  pupil
+  52:    1  ->  return
+  53:    1  ->  script
+  54:    1  ->  sick
+  55:    1  ->  stolid
+  56:    1  ->  suspense
+  57:    1  ->  thermal
+  58:    1  ->  these
+  59:    1  ->  they
+  60:    1  ->  this
+  61:    1  ->  thoroughly
+  62:    1  ->  time
+  63:    1  ->  tom
+  64:    1  ->  turns
+  65:    1  ->  unfolds
+  66:    1  ->  uninterested
+  67:    1  ->  walking
+  68:    1  ->  while
+     -------
+        79
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (67)
+                                 With >=  1 occurrences (67)
+
+   1:    5  ->  and
+   2:    3  ->  the
+   3:    2  ->  face
+   4:    2  ->  fan
+   5:    2  ->  suzie
+   6:    2  ->  tongue
+   7:    2  ->  turned
+   8:    2  ->  whole
+   9:    1  ->  accord
+  10:    1  ->  active
+  11:    1  ->  another
+  12:    1  ->  antiquity
+  13:    1  ->  apr
+  14:    1  ->  as
+  15:    1  ->  associative
+  16:    1  ->  b
+  17:    1  ->  barely
+  18:    1  ->  bins
+  19:    1  ->  bruce
+  20:    1  ->  cause
+  21:    1  ->  charlotte
+  22:    1  ->  consists
+  23:    1  ->  construe
+  24:    1  ->  counter
+  25:    1  ->  courses
+  26:    1  ->  cuba
+  27:    1  ->  external
+  28:    1  ->  folks
+  29:    1  ->  formally
+  30:    1  ->  funds
+  31:    1  ->  gentleman
+  32:    1  ->  girl
+  33:    1  ->  her
+  34:    1  ->  his
+  35:    1  ->  in
+  36:    1  ->  injuries
+  37:    1  ->  innocence
+  38:    1  ->  insistence
+  39:    1  ->  interested
+  40:    1  ->  is
+  41:    1  ->  lack
+  42:    1  ->  leads
+  43:    1  ->  lift
+  44:    1  ->  like
+  45:    1  ->  mass
+  46:    1  ->  may
+  47:    1  ->  mess
+  48:    1  ->  mini
+  49:    1  ->  mouth
+  50:    1  ->  my
+  51:    1  ->  needs
+  52:    1  ->  of
+  53:    1  ->  on
+  54:    1  ->  orient
+  55:    1  ->  passed
+  56:    1  ->  scripts
+  57:    1  ->  smack
+  58:    1  ->  smoke
+  59:    1  ->  started
+  60:    1  ->  than
+  61:    1  ->  thick
+  62:    1  ->  time
+  63:    1  ->  unfold
+  64:    1  ->  was
+  65:    1  ->  well
+  66:    1  ->  wine
+  67:    1  ->  working
+     -------
+        79
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

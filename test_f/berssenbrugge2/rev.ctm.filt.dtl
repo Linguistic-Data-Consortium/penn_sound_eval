@@ -1,0 +1,163 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.1%   (  41)
+
+Percent Correct           =   96.3%   ( 951)
+
+Percent Substitution      =    3.0%   (  30)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   95.9%
+
+
+Ref. words                =           ( 988)
+Hyp. words                =           ( 985)
+Aligned words             =           ( 992)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  an ==> and
+   2:    2  ->  in ==> and
+   3:    2  ->  space ==> face
+   4:    1  ->  a ==> of
+   5:    1  ->  arch ==> arched
+   6:    1  ->  asleep ==> sleek
+   7:    1  ->  bleeds ==> leads
+   8:    1  ->  clothes ==> clogs
+   9:    1  ->  course ==> chorus
+  10:    1  ->  encounter ==> counter
+  11:    1  ->  formerly ==> formally
+  12:    1  ->  fox ==> false
+  13:    1  ->  had ==> passed
+  14:    1  ->  interrelations ==> relations
+  15:    1  ->  is ==> if
+  16:    1  ->  it ==> as
+  17:    1  ->  light ==> life
+  18:    1  ->  like ==> lack
+  19:    1  ->  minnie ==> mini
+  20:    1  ->  model ==> modeled
+  21:    1  ->  old ==> 4yearold
+  22:    1  ->  priori ==> apriori
+  23:    1  ->  scout ==> scowl
+  24:    1  ->  smock ==> smog
+  25:    1  ->  specificity ==> specificate
+  26:    1  ->  stolid ==> solid
+  27:    1  ->  these ==> b
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  and
+   2:    1  ->  inter
+   3:    1  ->  its
+   4:    1  ->  of
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  a
+   2:    1  ->  and
+   3:    1  ->  four
+   4:    1  ->  had
+   5:    1  ->  have
+   6:    1  ->  year
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  an
+   2:    2  ->  in
+   3:    2  ->  space
+   4:    1  ->  a
+   5:    1  ->  arch
+   6:    1  ->  asleep
+   7:    1  ->  bleeds
+   8:    1  ->  clothes
+   9:    1  ->  course
+  10:    1  ->  encounter
+  11:    1  ->  formerly
+  12:    1  ->  fox
+  13:    1  ->  had
+  14:    1  ->  interrelations
+  15:    1  ->  is
+  16:    1  ->  it
+  17:    1  ->  light
+  18:    1  ->  like
+  19:    1  ->  minnie
+  20:    1  ->  model
+  21:    1  ->  old
+  22:    1  ->  priori
+  23:    1  ->  scout
+  24:    1  ->  smock
+  25:    1  ->  specificity
+  26:    1  ->  stolid
+  27:    1  ->  these
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    4  ->  and
+   2:    2  ->  face
+   3:    1  ->  4yearold
+   4:    1  ->  apriori
+   5:    1  ->  arched
+   6:    1  ->  as
+   7:    1  ->  b
+   8:    1  ->  chorus
+   9:    1  ->  clogs
+  10:    1  ->  counter
+  11:    1  ->  false
+  12:    1  ->  formally
+  13:    1  ->  if
+  14:    1  ->  lack
+  15:    1  ->  leads
+  16:    1  ->  life
+  17:    1  ->  mini
+  18:    1  ->  modeled
+  19:    1  ->  of
+  20:    1  ->  passed
+  21:    1  ->  relations
+  22:    1  ->  scowl
+  23:    1  ->  sleek
+  24:    1  ->  smog
+  25:    1  ->  solid
+  26:    1  ->  specificate
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,203 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.9%   (  72)
+
+Percent Correct           =   92.7%   ( 849)
+
+Percent Substitution      =    4.1%   (  38)
+Percent Deletions         =    3.2%   (  29)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   92.1%
+
+
+Ref. words                =           ( 916)
+Hyp. words                =           ( 892)
+Aligned words             =           ( 921)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    5  ->  bridget ==> brigid
+   2:    1  ->  bluhm ==> bloom
+   3:    1  ->  born ==> porn
+   4:    1  ->  casay ==> cassesa
+   5:    1  ->  claven's ==> clavins
+   6:    1  ->  concrete ==> concret
+   7:    1  ->  davide ==> david
+   8:    1  ->  diaghilev ==> diagolev
+   9:    1  ->  dum ==> doom
+  10:    1  ->  fagin ==> fagan
+  11:    1  ->  glennan's ==> 's
+  12:    1  ->  guston ==> gustin
+  13:    1  ->  i ==> mdi
+  14:    1  ->  icebox ==> box
+  15:    1  ->  in ==> an
+  16:    1  ->  is ==> 's
+  17:    1  ->  it ==> paget
+  18:    1  ->  le ==> sir
+  19:    1  ->  mcgillivray's ==> mcgillivrays
+  20:    1  ->  mcgivern's ==> mcgiverns
+  21:    1  ->  mcgovern's ==> 's
+  22:    1  ->  mitchell's ==> 's
+  23:    1  ->  musique ==> music
+  24:    1  ->  philip ==> phillip
+  25:    1  ->  pitcher ==> picture
+  26:    1  ->  plat ==> laplace
+  27:    1  ->  poem ==> phone
+  28:    1  ->  ron's ==> 's
+  29:    1  ->  roundness ==> groundness
+  30:    1  ->  sapeep ==> peep
+  31:    1  ->  sur ==> if
+  32:    1  ->  the ==> a
+  33:    1  ->  williams' ==> williams
+  34:    1  ->  with ==> of
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  glennon
+   2:    1  ->  ice
+   3:    1  ->  mcgovern
+   4:    1  ->  mitchell
+   5:    1  ->  ron
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  take
+   2:    2  ->  that
+   3:    1  ->  %bcack
+   4:    1  ->  a
+   5:    1  ->  actually
+   6:    1  ->  alive
+   7:    1  ->  come
+   8:    1  ->  had
+   9:    1  ->  halfway
+  10:    1  ->  if
+  11:    1  ->  is
+  12:    1  ->  k.
+  13:    1  ->  let
+  14:    1  ->  md
+  15:    1  ->  me
+  16:    1  ->  o.
+  17:    1  ->  oeufs
+  18:    1  ->  padgett
+  19:    1  ->  so
+  20:    1  ->  stage
+  21:    1  ->  the
+  22:    1  ->  time
+  23:    1  ->  to
+  24:    1  ->  up
+  25:    1  ->  water
+  26:    1  ->  x
+  27:    1  ->  your
+     -------
+        29
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    5  ->  bridget
+   2:    1  ->  bluhm
+   3:    1  ->  born
+   4:    1  ->  casay
+   5:    1  ->  claven's
+   6:    1  ->  concrete
+   7:    1  ->  davide
+   8:    1  ->  diaghilev
+   9:    1  ->  dum
+  10:    1  ->  fagin
+  11:    1  ->  glennan's
+  12:    1  ->  guston
+  13:    1  ->  i
+  14:    1  ->  icebox
+  15:    1  ->  in
+  16:    1  ->  is
+  17:    1  ->  it
+  18:    1  ->  le
+  19:    1  ->  mcgillivray's
+  20:    1  ->  mcgivern's
+  21:    1  ->  mcgovern's
+  22:    1  ->  mitchell's
+  23:    1  ->  musique
+  24:    1  ->  philip
+  25:    1  ->  pitcher
+  26:    1  ->  plat
+  27:    1  ->  poem
+  28:    1  ->  ron's
+  29:    1  ->  roundness
+  30:    1  ->  sapeep
+  31:    1  ->  sur
+  32:    1  ->  the
+  33:    1  ->  williams'
+  34:    1  ->  with
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    5  ->  's
+   2:    5  ->  brigid
+   3:    1  ->  a
+   4:    1  ->  an
+   5:    1  ->  bloom
+   6:    1  ->  box
+   7:    1  ->  cassesa
+   8:    1  ->  clavins
+   9:    1  ->  concret
+  10:    1  ->  david
+  11:    1  ->  diagolev
+  12:    1  ->  doom
+  13:    1  ->  fagan
+  14:    1  ->  groundness
+  15:    1  ->  gustin
+  16:    1  ->  if
+  17:    1  ->  laplace
+  18:    1  ->  mcgillivrays
+  19:    1  ->  mcgiverns
+  20:    1  ->  mdi
+  21:    1  ->  music
+  22:    1  ->  of
+  23:    1  ->  paget
+  24:    1  ->  peep
+  25:    1  ->  phillip
+  26:    1  ->  phone
+  27:    1  ->  picture
+  28:    1  ->  porn
+  29:    1  ->  sir
+  30:    1  ->  williams
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

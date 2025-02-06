@@ -1,0 +1,148 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.4%   (  50)
+
+Percent Correct           =   96.2%   ( 896)
+
+Percent Substitution      =    2.4%   (  22)
+Percent Deletions         =    1.4%   (  13)
+Percent Insertions        =    1.6%   (  15)
+Percent Word Accuracy     =   94.6%
+
+
+Ref. words                =           ( 931)
+Hyp. words                =           ( 933)
+Aligned words             =           ( 946)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    3  ->  twenty ==> two
+   2:    2  ->  of ==> a
+   3:    1  ->  a ==> of
+   4:    1  ->  asl ==> also
+   5:    1  ->  cerebration ==> celebration
+   6:    1  ->  could ==> can
+   7:    1  ->  eight ==> 1188
+   8:    1  ->  eighteen ==> eight
+   9:    1  ->  eighty ==> 7
+  10:    1  ->  forgo ==> forego
+  11:    1  ->  fourteen ==> 714
+  12:    1  ->  ruined ==> really
+  13:    1  ->  sanjo's ==> his
+  14:    1  ->  seventeen ==> 817
+  15:    1  ->  that ==> the
+  16:    1  ->  thirteen ==> three
+  17:    1  ->  to ==> of
+  18:    1  ->  to ==> the
+  19:    1  ->  weeping ==> reaping
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    5  ->  of
+   2:    2  ->  one
+   3:    2  ->  the
+   4:    1  ->  andrews
+   5:    1  ->  determination
+   6:    1  ->  origination
+   7:    1  ->  these
+   8:    1  ->  value
+   9:    1  ->  you
+     -------
+        15
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  seven
+   2:    1  ->  anxious
+   3:    1  ->  conquistad
+   4:    1  ->  eight
+   5:    1  ->  eleven
+   6:    1  ->  embattled
+   7:    1  ->  fast
+   8:    1  ->  res
+   9:    1  ->  same
+  10:    1  ->  terrai
+  11:    1  ->  thing
+  12:    1  ->  two
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  twenty
+   2:    2  ->  of
+   3:    2  ->  to
+   4:    1  ->  a
+   5:    1  ->  asl
+   6:    1  ->  cerebration
+   7:    1  ->  could
+   8:    1  ->  eight
+   9:    1  ->  eighteen
+  10:    1  ->  eighty
+  11:    1  ->  forgo
+  12:    1  ->  fourteen
+  13:    1  ->  ruined
+  14:    1  ->  sanjo's
+  15:    1  ->  seventeen
+  16:    1  ->  that
+  17:    1  ->  thirteen
+  18:    1  ->  weeping
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    3  ->  two
+   2:    2  ->  a
+   3:    2  ->  of
+   4:    2  ->  the
+   5:    1  ->  1188
+   6:    1  ->  7
+   7:    1  ->  714
+   8:    1  ->  817
+   9:    1  ->  also
+  10:    1  ->  can
+  11:    1  ->  celebration
+  12:    1  ->  eight
+  13:    1  ->  forego
+  14:    1  ->  his
+  15:    1  ->  really
+  16:    1  ->  reaping
+  17:    1  ->  three
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

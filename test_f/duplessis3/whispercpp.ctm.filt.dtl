@@ -1,0 +1,213 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.4%   (  75)
+
+Percent Correct           =   92.1%   ( 827)
+
+Percent Substitution      =    4.3%   (  39)
+Percent Deletions         =    3.6%   (  32)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   91.6%
+
+
+Ref. words                =           ( 898)
+Hyp. words                =           ( 870)
+Aligned words             =           ( 902)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  german ==> durable
+   2:    1  ->  a ==> the
+   3:    1  ->  are ==> is
+   4:    1  ->  be ==> it
+   5:    1  ->  being ==> no
+   6:    1  ->  denn ==> den
+   7:    1  ->  drafts ==> crossdrafts
+   8:    1  ->  hatches ==> crosshatches
+   9:    1  ->  in ==> into
+  10:    1  ->  indy ==> miami
+  11:    1  ->  ing ==> in
+  12:    1  ->  ink ==> in
+  13:    1  ->  is ==> i
+  14:    1  ->  it ==> spell
+  15:    1  ->  just ==> mark
+  16:    1  ->  know ==> the
+  17:    1  ->  known ==> wellknown
+  18:    1  ->  ninety ==> nine
+  19:    1  ->  nirgends ==> nirgens
+  20:    1  ->  not ==> fall
+  21:    1  ->  ns ==> n's
+  22:    1  ->  palimpsest ==> palacest
+  23:    1  ->  provenance ==> providence
+  24:    1  ->  rooted ==> place
+  25:    1  ->  rs ==> r's
+  26:    1  ->  screams ==> scrims
+  27:    1  ->  spelled ==> out
+  28:    1  ->  starter ==> starker
+  29:    1  ->  tact ==> tight
+  30:    1  ->  there's ==> it's
+  31:    1  ->  there's ==> others
+  32:    1  ->  they ==> there
+  33:    1  ->  throws ==> throes
+  34:    1  ->  trackable ==> untrackable
+  35:    1  ->  want ==> wanted
+  36:    1  ->  wor ==> were
+  37:    1  ->  work ==> were
+  38:    1  ->  ys ==> y's
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  is
+   2:    1  ->  slash
+   3:    1  ->  that
+   4:    1  ->  the
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    3  ->  a
+   2:    2  ->  cross
+   3:    2  ->  denn
+   4:    2  ->  it
+   5:    2  ->  the
+   6:    1  ->  at
+   7:    1  ->  bleiben
+   8:    1  ->  by
+   9:    1  ->  dana
+  10:    1  ->  degre
+  11:    1  ->  gul
+  12:    1  ->  ist
+  13:    1  ->  l
+  14:    1  ->  matt
+  15:    1  ->  nirgends
+  16:    1  ->  no
+  17:    1  ->  place
+  18:    1  ->  remaining
+  19:    1  ->  s
+  20:    1  ->  simply
+  21:    1  ->  to
+  22:    1  ->  un
+  23:    1  ->  well
+  24:    1  ->  what
+  25:    1  ->  which
+  26:    1  ->  you
+     -------
+        32
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  german
+   2:    2  ->  there's
+   3:    1  ->  a
+   4:    1  ->  are
+   5:    1  ->  be
+   6:    1  ->  being
+   7:    1  ->  denn
+   8:    1  ->  drafts
+   9:    1  ->  hatches
+  10:    1  ->  in
+  11:    1  ->  indy
+  12:    1  ->  ing
+  13:    1  ->  ink
+  14:    1  ->  is
+  15:    1  ->  it
+  16:    1  ->  just
+  17:    1  ->  know
+  18:    1  ->  known
+  19:    1  ->  ninety
+  20:    1  ->  nirgends
+  21:    1  ->  not
+  22:    1  ->  ns
+  23:    1  ->  palimpsest
+  24:    1  ->  provenance
+  25:    1  ->  rooted
+  26:    1  ->  rs
+  27:    1  ->  screams
+  28:    1  ->  spelled
+  29:    1  ->  starter
+  30:    1  ->  tact
+  31:    1  ->  they
+  32:    1  ->  throws
+  33:    1  ->  trackable
+  34:    1  ->  want
+  35:    1  ->  wor
+  36:    1  ->  work
+  37:    1  ->  ys
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  durable
+   2:    2  ->  in
+   3:    2  ->  the
+   4:    2  ->  were
+   5:    1  ->  crossdrafts
+   6:    1  ->  crosshatches
+   7:    1  ->  den
+   8:    1  ->  fall
+   9:    1  ->  i
+  10:    1  ->  into
+  11:    1  ->  is
+  12:    1  ->  it
+  13:    1  ->  it's
+  14:    1  ->  mark
+  15:    1  ->  miami
+  16:    1  ->  n's
+  17:    1  ->  nine
+  18:    1  ->  nirgens
+  19:    1  ->  no
+  20:    1  ->  others
+  21:    1  ->  out
+  22:    1  ->  palacest
+  23:    1  ->  place
+  24:    1  ->  providence
+  25:    1  ->  r's
+  26:    1  ->  scrims
+  27:    1  ->  spell
+  28:    1  ->  starker
+  29:    1  ->  there
+  30:    1  ->  throes
+  31:    1  ->  tight
+  32:    1  ->  untrackable
+  33:    1  ->  wanted
+  34:    1  ->  wellknown
+  35:    1  ->  y's
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

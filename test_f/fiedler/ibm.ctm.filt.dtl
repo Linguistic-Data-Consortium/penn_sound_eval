@@ -1,0 +1,241 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.2%   (  94)
+
+Percent Correct           =   92.8%   (1063)
+
+Percent Substitution      =    5.7%   (  65)
+Percent Deletions         =    1.5%   (  17)
+Percent Insertions        =    1.0%   (  12)
+Percent Word Accuracy     =   91.8%
+
+
+Ref. words                =           (1145)
+Hyp. words                =           (1140)
+Aligned words             =           (1157)
+
+CONFUSION PAIRS                  Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    4  ->  poem ==> time
+   2:    3  ->  donburi ==> body
+   3:    2  ->  a ==> the
+   4:    2  ->  antiheroic ==> heroic
+   5:    2  ->  borne ==> born
+   6:    2  ->  it ==> i
+   7:    2  ->  peach ==> beach
+   8:    2  ->  poem ==> form
+   9:    2  ->  poem ==> problem
+  10:    1  ->  afloat ==> float
+  11:    1  ->  an ==> anti
+  12:    1  ->  and ==> in
+  13:    1  ->  could ==> can
+  14:    1  ->  dango ==> done
+  15:    1  ->  doggerel ==> dogra
+  16:    1  ->  doggerel ==> girl
+  17:    1  ->  donburi ==> dome
+  18:    1  ->  donburi ==> done
+  19:    1  ->  form ==> forum
+  20:    1  ->  frayed ==> prayed
+  21:    1  ->  had ==> have
+  22:    1  ->  he ==> it
+  23:    1  ->  him ==> in
+  24:    1  ->  hum ==> body
+  25:    1  ->  in ==> them
+  26:    1  ->  jima ==> ogema
+  27:    1  ->  kibi ==> be
+  28:    1  ->  longish ==> longest
+  29:    1  ->  mending ==> amending
+  30:    1  ->  millet ==> kevin
+  31:    1  ->  onigashima ==> ashima
+  32:    1  ->  or ==> washer
+  33:    1  ->  pain ==> paying
+  34:    1  ->  peach ==> pitch
+  35:    1  ->  poem ==> pam
+  36:    1  ->  poem ==> point
+  37:    1  ->  poem ==> pone
+  38:    1  ->  poem ==> porn
+  39:    1  ->  poem ==> prime
+  40:    1  ->  poems ==> pollen
+  41:    1  ->  see ==> say
+  42:    1  ->  seed ==> miles
+  43:    1  ->  she ==> i
+  44:    1  ->  stopped ==> stop
+  45:    1  ->  sum ==> some
+  46:    1  ->  t ==> could
+  47:    1  ->  this ==> they
+  48:    1  ->  until ==> till
+  49:    1  ->  was ==> is
+  50:    1  ->  wet ==> watch
+  51:    1  ->  where ==> wear
+  52:    1  ->  woodchopper ==> shopper
+  53:    1  ->  your ==> her
+     -------
+        65
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  dome
+   2:    1  ->  and
+   3:    1  ->  anti
+   4:    1  ->  body
+   5:    1  ->  dog
+   6:    1  ->  done
+   7:    1  ->  home
+   8:    1  ->  it
+   9:    1  ->  only
+  10:    1  ->  tale
+  11:    1  ->  wood
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    4  ->  a
+   2:    2  ->  it
+   3:    1  ->  b
+   4:    1  ->  can
+   5:    1  ->  dango
+   6:    1  ->  have
+   7:    1  ->  iwo
+   8:    1  ->  kibi
+   9:    1  ->  sic
+  10:    1  ->  the
+  11:    1  ->  to
+  12:    1  ->  two
+  13:    1  ->  wash
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:   13  ->  poem
+   2:    5  ->  donburi
+   3:    3  ->  peach
+   4:    2  ->  a
+   5:    2  ->  antiheroic
+   6:    2  ->  borne
+   7:    2  ->  doggerel
+   8:    2  ->  it
+   9:    1  ->  afloat
+  10:    1  ->  an
+  11:    1  ->  and
+  12:    1  ->  could
+  13:    1  ->  dango
+  14:    1  ->  form
+  15:    1  ->  frayed
+  16:    1  ->  had
+  17:    1  ->  he
+  18:    1  ->  him
+  19:    1  ->  hum
+  20:    1  ->  in
+  21:    1  ->  jima
+  22:    1  ->  kibi
+  23:    1  ->  longish
+  24:    1  ->  mending
+  25:    1  ->  millet
+  26:    1  ->  onigashima
+  27:    1  ->  or
+  28:    1  ->  pain
+  29:    1  ->  poems
+  30:    1  ->  see
+  31:    1  ->  seed
+  32:    1  ->  she
+  33:    1  ->  stopped
+  34:    1  ->  sum
+  35:    1  ->  t
+  36:    1  ->  this
+  37:    1  ->  until
+  38:    1  ->  was
+  39:    1  ->  wet
+  40:    1  ->  where
+  41:    1  ->  woodchopper
+  42:    1  ->  your
+     -------
+        65
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    4  ->  body
+   2:    4  ->  time
+   3:    3  ->  i
+   4:    2  ->  beach
+   5:    2  ->  born
+   6:    2  ->  done
+   7:    2  ->  form
+   8:    2  ->  heroic
+   9:    2  ->  in
+  10:    2  ->  problem
+  11:    2  ->  the
+  12:    1  ->  amending
+  13:    1  ->  anti
+  14:    1  ->  ashima
+  15:    1  ->  be
+  16:    1  ->  can
+  17:    1  ->  could
+  18:    1  ->  dogra
+  19:    1  ->  dome
+  20:    1  ->  float
+  21:    1  ->  forum
+  22:    1  ->  girl
+  23:    1  ->  have
+  24:    1  ->  her
+  25:    1  ->  is
+  26:    1  ->  it
+  27:    1  ->  kevin
+  28:    1  ->  longest
+  29:    1  ->  miles
+  30:    1  ->  ogema
+  31:    1  ->  pam
+  32:    1  ->  paying
+  33:    1  ->  pitch
+  34:    1  ->  point
+  35:    1  ->  pollen
+  36:    1  ->  pone
+  37:    1  ->  porn
+  38:    1  ->  prayed
+  39:    1  ->  prime
+  40:    1  ->  say
+  41:    1  ->  shopper
+  42:    1  ->  some
+  43:    1  ->  stop
+  44:    1  ->  them
+  45:    1  ->  they
+  46:    1  ->  till
+  47:    1  ->  washer
+  48:    1  ->  watch
+  49:    1  ->  wear
+     -------
+        65
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,207 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.5%   (  61)
+
+Percent Correct           =   95.0%   (1059)
+
+Percent Substitution      =    3.8%   (  42)
+Percent Deletions         =    1.3%   (  14)
+Percent Insertions        =    0.4%   (   5)
+Percent Word Accuracy     =   94.5%
+
+
+Ref. words                =           (1115)
+Hyp. words                =           (1106)
+Aligned words             =           (1120)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  garnett ==> garnet
+   2:    1  ->  a ==> and
+   3:    1  ->  a ==> not
+   4:    1  ->  again ==> k.
+   5:    1  ->  along ==> on
+   6:    1  ->  bit ==> it
+   7:    1  ->  conscious ==> selfconscious
+   8:    1  ->  culls ==> calls
+   9:    1  ->  culmney ==> right
+  10:    1  ->  during ==> and
+  11:    1  ->  fil ==> film
+  12:    1  ->  flash ==> flesh
+  13:    1  ->  god ==> could
+  14:    1  ->  gratifications ==> gratification
+  15:    1  ->  hearst ==> hurst
+  16:    1  ->  i ==> you
+  17:    1  ->  installati ==> installation
+  18:    1  ->  intellectual ==> intellectuals
+  19:    1  ->  into ==> in
+  20:    1  ->  its ==> this
+  21:    1  ->  itself ==> yourself
+  22:    1  ->  mak ==> making
+  23:    1  ->  mark ==> market
+  24:    1  ->  murra ==> economy
+  25:    1  ->  obser ==> ober
+  26:    1  ->  or ==> of
+  27:    1  ->  out ==> her
+  28:    1  ->  out ==> up
+  29:    1  ->  person's ==> persons
+  30:    1  ->  prized ==> priced
+  31:    1  ->  said ==> says
+  32:    1  ->  smiths ==> smith
+  33:    1  ->  smiths' ==> smiths
+  34:    1  ->  someone ==> how
+  35:    1  ->  stakes ==> stake
+  36:    1  ->  tell ==> tells
+  37:    1  ->  though ==> thought
+  38:    1  ->  to ==> he
+  39:    1  ->  who's ==> as
+  40:    1  ->  x ==> know
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  at
+   2:    1  ->  mur
+   3:    1  ->  o.
+   4:    1  ->  some
+   5:    1  ->  that's
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  it
+   2:    1  ->  and
+   3:    1  ->  ar
+   4:    1  ->  b
+   5:    1  ->  how
+   6:    1  ->  is
+   7:    1  ->  not
+   8:    1  ->  o
+   9:    1  ->  of
+  10:    1  ->  or
+  11:    1  ->  priced
+  12:    1  ->  self
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    3  ->  garnett
+   2:    2  ->  a
+   3:    2  ->  out
+   4:    1  ->  again
+   5:    1  ->  along
+   6:    1  ->  bit
+   7:    1  ->  conscious
+   8:    1  ->  culls
+   9:    1  ->  culmney
+  10:    1  ->  during
+  11:    1  ->  fil
+  12:    1  ->  flash
+  13:    1  ->  god
+  14:    1  ->  gratifications
+  15:    1  ->  hearst
+  16:    1  ->  i
+  17:    1  ->  installati
+  18:    1  ->  intellectual
+  19:    1  ->  into
+  20:    1  ->  its
+  21:    1  ->  itself
+  22:    1  ->  mak
+  23:    1  ->  mark
+  24:    1  ->  murra
+  25:    1  ->  obser
+  26:    1  ->  or
+  27:    1  ->  person's
+  28:    1  ->  prized
+  29:    1  ->  said
+  30:    1  ->  smiths
+  31:    1  ->  smiths'
+  32:    1  ->  someone
+  33:    1  ->  stakes
+  34:    1  ->  tell
+  35:    1  ->  though
+  36:    1  ->  to
+  37:    1  ->  who's
+  38:    1  ->  x
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  garnet
+   2:    2  ->  and
+   3:    1  ->  as
+   4:    1  ->  calls
+   5:    1  ->  could
+   6:    1  ->  economy
+   7:    1  ->  film
+   8:    1  ->  flesh
+   9:    1  ->  gratification
+  10:    1  ->  he
+  11:    1  ->  her
+  12:    1  ->  how
+  13:    1  ->  hurst
+  14:    1  ->  in
+  15:    1  ->  installation
+  16:    1  ->  intellectuals
+  17:    1  ->  it
+  18:    1  ->  k.
+  19:    1  ->  know
+  20:    1  ->  making
+  21:    1  ->  market
+  22:    1  ->  not
+  23:    1  ->  ober
+  24:    1  ->  of
+  25:    1  ->  on
+  26:    1  ->  persons
+  27:    1  ->  priced
+  28:    1  ->  right
+  29:    1  ->  says
+  30:    1  ->  selfconscious
+  31:    1  ->  smith
+  32:    1  ->  smiths
+  33:    1  ->  stake
+  34:    1  ->  tells
+  35:    1  ->  this
+  36:    1  ->  thought
+  37:    1  ->  up
+  38:    1  ->  you
+  39:    1  ->  yourself
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

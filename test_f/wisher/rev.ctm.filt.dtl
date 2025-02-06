@@ -1,0 +1,194 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.5%   (  54)
+
+Percent Correct           =   95.3%   ( 932)
+
+Percent Substitution      =    4.3%   (  42)
+Percent Deletions         =    0.4%   (   4)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   94.5%
+
+
+Ref. words                =           ( 978)
+Hyp. words                =           ( 982)
+Aligned words             =           ( 986)
+
+CONFUSION PAIRS                  Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    5  ->  forty ==> oh
+   2:    2  ->  in ==> and
+   3:    1  ->  a ==> the
+   4:    1  ->  ailing ==> in
+   5:    1  ->  and ==> in
+   6:    1  ->  banton ==> bonton
+   7:    1  ->  bellay ==> belay
+   8:    1  ->  bewitched ==> witch
+   9:    1  ->  boll ==> bull
+  10:    1  ->  buju ==> bourgou
+  11:    1  ->  coltraine ==> coltrane
+  12:    1  ->  dido ==> man
+  13:    1  ->  doctors ==> docked
+  14:    1  ->  doom ==> dune
+  15:    1  ->  du ==> do
+  16:    1  ->  eyed ==> blueeyed
+  17:    1  ->  fifth ==> 45th
+  18:    1  ->  formed ==> halfformed
+  19:    1  ->  fourth ==> 44th
+  20:    1  ->  high ==> hi
+  21:    1  ->  jump ==> jumped
+  22:    1  ->  mandingo ==> dingo
+  23:    1  ->  montigo ==> montego
+  24:    1  ->  ninety ==> nine
+  25:    1  ->  noel ==> noelle
+  26:    1  ->  past ==> passed
+  27:    1  ->  people's ==> pee's
+  28:    1  ->  prez ==> pre
+  29:    1  ->  raps ==> rats
+  30:    1  ->  shearling ==> hurling
+  31:    1  ->  slims ==> slim
+  32:    1  ->  steal ==> still
+  33:    1  ->  threatened ==> threaten
+  34:    1  ->  turncoats ==> coach
+  35:    1  ->  washboards ==> boards
+  36:    1  ->  windowsill ==> sill
+  37:    1  ->  yvonda's ==> vonda's
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  <affirmative>
+   2:    1  ->  ail
+   3:    1  ->  be
+   4:    1  ->  dedo
+   5:    1  ->  i
+   6:    1  ->  turn
+   7:    1  ->  wash
+   8:    1  ->  window
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  forty
+   2:    1  ->  blue
+   3:    1  ->  half
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    5  ->  forty
+   2:    2  ->  in
+   3:    1  ->  a
+   4:    1  ->  ailing
+   5:    1  ->  and
+   6:    1  ->  banton
+   7:    1  ->  bellay
+   8:    1  ->  bewitched
+   9:    1  ->  boll
+  10:    1  ->  buju
+  11:    1  ->  coltraine
+  12:    1  ->  dido
+  13:    1  ->  doctors
+  14:    1  ->  doom
+  15:    1  ->  du
+  16:    1  ->  eyed
+  17:    1  ->  fifth
+  18:    1  ->  formed
+  19:    1  ->  fourth
+  20:    1  ->  high
+  21:    1  ->  jump
+  22:    1  ->  mandingo
+  23:    1  ->  montigo
+  24:    1  ->  ninety
+  25:    1  ->  noel
+  26:    1  ->  past
+  27:    1  ->  people's
+  28:    1  ->  prez
+  29:    1  ->  raps
+  30:    1  ->  shearling
+  31:    1  ->  slims
+  32:    1  ->  steal
+  33:    1  ->  threatened
+  34:    1  ->  turncoats
+  35:    1  ->  washboards
+  36:    1  ->  windowsill
+  37:    1  ->  yvonda's
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    5  ->  oh
+   2:    2  ->  and
+   3:    2  ->  in
+   4:    1  ->  44th
+   5:    1  ->  45th
+   6:    1  ->  belay
+   7:    1  ->  blueeyed
+   8:    1  ->  boards
+   9:    1  ->  bonton
+  10:    1  ->  bourgou
+  11:    1  ->  bull
+  12:    1  ->  coach
+  13:    1  ->  coltrane
+  14:    1  ->  dingo
+  15:    1  ->  do
+  16:    1  ->  docked
+  17:    1  ->  dune
+  18:    1  ->  halfformed
+  19:    1  ->  hi
+  20:    1  ->  hurling
+  21:    1  ->  jumped
+  22:    1  ->  man
+  23:    1  ->  montego
+  24:    1  ->  nine
+  25:    1  ->  noelle
+  26:    1  ->  passed
+  27:    1  ->  pee's
+  28:    1  ->  pre
+  29:    1  ->  rats
+  30:    1  ->  sill
+  31:    1  ->  slim
+  32:    1  ->  still
+  33:    1  ->  the
+  34:    1  ->  threaten
+  35:    1  ->  vonda's
+  36:    1  ->  witch
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

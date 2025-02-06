@@ -1,0 +1,153 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.4%   (  37)
+
+Percent Correct           =   97.2%   (1065)
+
+Percent Substitution      =    2.1%   (  23)
+Percent Deletions         =    0.7%   (   8)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   96.6%
+
+
+Ref. words                =           (1096)
+Hyp. words                =           (1094)
+Aligned words             =           (1102)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  approved ==> approve
+   2:    1  ->  days ==> is
+   3:    1  ->  fall ==> befall
+   4:    1  ->  has ==> is
+   5:    1  ->  hoople ==> hoopel
+   6:    1  ->  humor ==> humour
+   7:    1  ->  immigrated ==> emigrated
+   8:    1  ->  incidentally ==> a
+   9:    1  ->  later ==> late
+  10:    1  ->  passed ==> past
+  11:    1  ->  petit ==> petits
+  12:    1  ->  plain ==> plane
+  13:    1  ->  reason's ==> reasons
+  14:    1  ->  refused ==> refuse
+  15:    1  ->  route ==> root
+  16:    1  ->  seem ==> seemed
+  17:    1  ->  sign ==> you
+  18:    1  ->  static ==> ecstatic
+  19:    1  ->  story ==> stories
+  20:    1  ->  survive ==> survived
+  21:    1  ->  take ==> taken
+  22:    1  ->  that ==> the
+  23:    1  ->  ways ==> way
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  day
+   2:    1  ->  incidentally
+   3:    1  ->  signs
+   4:    1  ->  the
+   5:    1  ->  upon
+   6:    1  ->  were
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  a
+   2:    2  ->  s
+   3:    1  ->  and
+   4:    1  ->  be
+   5:    1  ->  pereire
+   6:    1  ->  the
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  approved
+   2:    1  ->  days
+   3:    1  ->  fall
+   4:    1  ->  has
+   5:    1  ->  hoople
+   6:    1  ->  humor
+   7:    1  ->  immigrated
+   8:    1  ->  incidentally
+   9:    1  ->  later
+  10:    1  ->  passed
+  11:    1  ->  petit
+  12:    1  ->  plain
+  13:    1  ->  reason's
+  14:    1  ->  refused
+  15:    1  ->  route
+  16:    1  ->  seem
+  17:    1  ->  sign
+  18:    1  ->  static
+  19:    1  ->  story
+  20:    1  ->  survive
+  21:    1  ->  take
+  22:    1  ->  that
+  23:    1  ->  ways
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  is
+   2:    1  ->  a
+   3:    1  ->  approve
+   4:    1  ->  befall
+   5:    1  ->  ecstatic
+   6:    1  ->  emigrated
+   7:    1  ->  hoopel
+   8:    1  ->  humour
+   9:    1  ->  late
+  10:    1  ->  past
+  11:    1  ->  petits
+  12:    1  ->  plane
+  13:    1  ->  reasons
+  14:    1  ->  refuse
+  15:    1  ->  root
+  16:    1  ->  seemed
+  17:    1  ->  stories
+  18:    1  ->  survived
+  19:    1  ->  taken
+  20:    1  ->  the
+  21:    1  ->  way
+  22:    1  ->  you
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

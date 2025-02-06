@@ -1,0 +1,192 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.2%   (  49)
+
+Percent Correct           =   95.5%   ( 894)
+
+Percent Substitution      =    4.0%   (  37)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    0.7%   (   7)
+Percent Word Accuracy     =   94.8%
+
+
+Ref. words                =           ( 936)
+Hyp. words                =           ( 938)
+Aligned words             =           ( 943)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  and ==> in
+   2:    1  ->  am ==> and
+   3:    1  ->  arcane ==> arcade
+   4:    1  ->  at ==> that
+   5:    1  ->  craft ==> cropped
+   6:    1  ->  dawn ==> don
+   7:    1  ->  declined ==> clyde
+   8:    1  ->  i ==> has
+   9:    1  ->  inadequately ==> inadequate
+  10:    1  ->  is ==> a
+  11:    1  ->  it ==> market
+  12:    1  ->  jenn ==> jen
+  13:    1  ->  kill ==> skill
+  14:    1  ->  lease ==> paralees
+  15:    1  ->  loaded ==> looted
+  16:    1  ->  loves ==> love
+  17:    1  ->  lush ==> alush
+  18:    1  ->  oft ==> off
+  19:    1  ->  pretense ==> pretence
+  20:    1  ->  remains ==> to
+  21:    1  ->  seeing ==> seen
+  22:    1  ->  sense ==> since
+  23:    1  ->  shelled ==> germane
+  24:    1  ->  shoulder ==> children
+  25:    1  ->  then ==> the
+  26:    1  ->  trace ==> traced
+  27:    1  ->  unaware ==> where
+  28:    1  ->  vines ==> binds
+  29:    1  ->  waiting ==> weighting
+  30:    1  ->  walfisch ==> fish
+  31:    1  ->  want ==> wants
+  32:    1  ->  were ==> are
+  33:    1  ->  what ==> when
+  34:    1  ->  yours' ==> yours
+  35:    1  ->  zizek ==> jack
+  36:    1  ->  zizek ==> shijak
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  g
+   3:    1  ->  of
+   4:    1  ->  out
+   5:    1  ->  shells
+   6:    1  ->  umm
+   7:    1  ->  well
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  in
+   3:    1  ->  mark
+   4:    1  ->  para
+   5:    1  ->  soil
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  and
+   2:    2  ->  zizek
+   3:    1  ->  am
+   4:    1  ->  arcane
+   5:    1  ->  at
+   6:    1  ->  craft
+   7:    1  ->  dawn
+   8:    1  ->  declined
+   9:    1  ->  i
+  10:    1  ->  inadequately
+  11:    1  ->  is
+  12:    1  ->  it
+  13:    1  ->  jenn
+  14:    1  ->  kill
+  15:    1  ->  lease
+  16:    1  ->  loaded
+  17:    1  ->  loves
+  18:    1  ->  lush
+  19:    1  ->  oft
+  20:    1  ->  pretense
+  21:    1  ->  remains
+  22:    1  ->  seeing
+  23:    1  ->  sense
+  24:    1  ->  shelled
+  25:    1  ->  shoulder
+  26:    1  ->  then
+  27:    1  ->  trace
+  28:    1  ->  unaware
+  29:    1  ->  vines
+  30:    1  ->  waiting
+  31:    1  ->  walfisch
+  32:    1  ->  want
+  33:    1  ->  were
+  34:    1  ->  what
+  35:    1  ->  yours'
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  in
+   2:    1  ->  a
+   3:    1  ->  alush
+   4:    1  ->  and
+   5:    1  ->  arcade
+   6:    1  ->  are
+   7:    1  ->  binds
+   8:    1  ->  children
+   9:    1  ->  clyde
+  10:    1  ->  cropped
+  11:    1  ->  don
+  12:    1  ->  fish
+  13:    1  ->  germane
+  14:    1  ->  has
+  15:    1  ->  inadequate
+  16:    1  ->  jack
+  17:    1  ->  jen
+  18:    1  ->  looted
+  19:    1  ->  love
+  20:    1  ->  market
+  21:    1  ->  off
+  22:    1  ->  paralees
+  23:    1  ->  pretence
+  24:    1  ->  seen
+  25:    1  ->  shijak
+  26:    1  ->  since
+  27:    1  ->  skill
+  28:    1  ->  that
+  29:    1  ->  the
+  30:    1  ->  to
+  31:    1  ->  traced
+  32:    1  ->  wants
+  33:    1  ->  weighting
+  34:    1  ->  when
+  35:    1  ->  where
+  36:    1  ->  yours
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,345 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.6%   ( 193)
+
+Percent Correct           =   84.0%   ( 919)
+
+Percent Substitution      =    6.9%   (  76)
+Percent Deletions         =    9.0%   (  99)
+Percent Insertions        =    1.6%   (  18)
+Percent Word Accuracy     =   82.4%
+
+
+Ref. words                =           (1094)
+Hyp. words                =           (1013)
+Aligned words             =           (1112)
+
+CONFUSION PAIRS                  Total                 (71)
+                                 With >=  1 occurrences (71)
+
+   1:    4  ->  in ==> and
+   2:    3  ->  is ==> 's
+   3:    1  ->  a ==> her
+   4:    1  ->  accumulative ==> cumulative
+   5:    1  ->  all ==> reddit
+   6:    1  ->  allowed ==> loud
+   7:    1  ->  an ==> a
+   8:    1  ->  an ==> and
+   9:    1  ->  and ==> in
+  10:    1  ->  and ==> oh
+  11:    1  ->  and ==> on
+  12:    1  ->  are ==> world
+  13:    1  ->  be ==> your
+  14:    1  ->  beam ==> beating
+  15:    1  ->  bedroom's ==> bedrooms
+  16:    1  ->  blast ==> blessed
+  17:    1  ->  blatant ==> latent
+  18:    1  ->  brain ==> frame
+  19:    1  ->  car ==> me
+  20:    1  ->  conches ==> crunches
+  21:    1  ->  destroy ==> construction
+  22:    1  ->  doing's ==> doings
+  23:    1  ->  dropped ==> drop
+  24:    1  ->  face ==> faith
+  25:    1  ->  glenn ==> glen
+  26:    1  ->  ground ==> aground
+  27:    1  ->  head ==> heads
+  28:    1  ->  her ==> car
+  29:    1  ->  hides ==> hide
+  30:    1  ->  ids ==> ds
+  31:    1  ->  is ==> as
+  32:    1  ->  is ==> was
+  33:    1  ->  kremlin's ==> 's
+  34:    1  ->  lapped ==> left
+  35:    1  ->  lev ==> love
+  36:    1  ->  mailman's ==> 's
+  37:    1  ->  man ==> stickman
+  38:    1  ->  oh ==> well
+  39:    1  ->  others ==> alliance
+  40:    1  ->  papercut ==> cut
+  41:    1  ->  refugees ==> refugee
+  42:    1  ->  rumor ==> rumors
+  43:    1  ->  runnerup ==> up
+  44:    1  ->  scene ==> steam
+  45:    1  ->  she ==> he
+  46:    1  ->  shells ==> shell
+  47:    1  ->  sounds ==> hounds
+  48:    1  ->  stained ==> staying
+  49:    1  ->  straw ==> strong
+  50:    1  ->  street ==> streets
+  51:    1  ->  talk ==> top
+  52:    1  ->  til ==> till
+  53:    1  ->  turns ==> terms
+  54:    1  ->  used ==> spoke
+  55:    1  ->  utilities ==> utility
+  56:    1  ->  viv ==> have
+  57:    1  ->  was ==> is
+  58:    1  ->  width ==> lips
+  59:    1  ->  wither ==> or
+  60:    1  ->  word's ==> 's
+  61:    1  ->  x ==> and
+  62:    1  ->  x ==> at
+  63:    1  ->  x ==> blood
+  64:    1  ->  x ==> characters
+  65:    1  ->  x ==> drinks
+  66:    1  ->  x ==> going
+  67:    1  ->  x ==> of
+  68:    1  ->  x ==> psychopolis
+  69:    1  ->  x ==> up
+  70:    1  ->  x ==> venezia
+  71:    1  ->  x ==> was
+     -------
+        76
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  a
+   2:    1  ->  aimed
+   3:    1  ->  and
+   4:    1  ->  i
+   5:    1  ->  in
+   6:    1  ->  it
+   7:    1  ->  kremlin
+   8:    1  ->  made
+   9:    1  ->  mailman
+  10:    1  ->  out
+  11:    1  ->  paper
+  12:    1  ->  runner
+  13:    1  ->  they
+  14:    1  ->  was
+  15:    1  ->  why
+  16:    1  ->  with
+  17:    1  ->  word
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:   12  ->  x
+   2:    7  ->  of
+   3:    5  ->  the
+   4:    4  ->  it
+   5:    3  ->  i
+   6:    3  ->  to
+   7:    2  ->  first
+   8:    2  ->  in
+   9:    2  ->  kick
+  10:    2  ->  kicker
+  11:    2  ->  mean
+  12:    2  ->  out
+  13:    2  ->  shy
+  14:    1  ->  a
+  15:    1  ->  absentia
+  16:    1  ->  alleged
+  17:    1  ->  almost
+  18:    1  ->  and
+  19:    1  ->  are
+  20:    1  ->  b
+  21:    1  ->  back
+  22:    1  ->  beer
+  23:    1  ->  constructions
+  24:    1  ->  corners
+  25:    1  ->  corpus
+  26:    1  ->  deci
+  27:    1  ->  dies
+  28:    1  ->  drinking
+  29:    1  ->  ever
+  30:    1  ->  expression
+  31:    1  ->  fine
+  32:    1  ->  from
+  33:    1  ->  habeas
+  34:    1  ->  how
+  35:    1  ->  if
+  36:    1  ->  just
+  37:    1  ->  make
+  38:    1  ->  me
+  39:    1  ->  more
+  40:    1  ->  much
+  41:    1  ->  names
+  42:    1  ->  new
+  43:    1  ->  no
+  44:    1  ->  obtain
+  45:    1  ->  one
+  46:    1  ->  opportunistic
+  47:    1  ->  pillows
+  48:    1  ->  presence
+  49:    1  ->  read
+  50:    1  ->  saw
+  51:    1  ->  sentences
+  52:    1  ->  stick
+  53:    1  ->  streets
+  54:    1  ->  their
+  55:    1  ->  time
+  56:    1  ->  up
+  57:    1  ->  us
+  58:    1  ->  what
+  59:    1  ->  what's
+  60:    1  ->  where
+  61:    1  ->  with
+  62:    1  ->  women
+  63:    1  ->  yeah
+  64:    1  ->  york
+     -------
+        99
+
+
+
+SUBSTITUTIONS                    Total                 (56)
+                                 With >=  1 occurrences (56)
+
+   1:   11  ->  x
+   2:    5  ->  is
+   3:    4  ->  in
+   4:    3  ->  and
+   5:    2  ->  an
+   6:    1  ->  a
+   7:    1  ->  accumulative
+   8:    1  ->  all
+   9:    1  ->  allowed
+  10:    1  ->  are
+  11:    1  ->  be
+  12:    1  ->  beam
+  13:    1  ->  bedroom's
+  14:    1  ->  blast
+  15:    1  ->  blatant
+  16:    1  ->  brain
+  17:    1  ->  car
+  18:    1  ->  conches
+  19:    1  ->  destroy
+  20:    1  ->  doing's
+  21:    1  ->  dropped
+  22:    1  ->  face
+  23:    1  ->  glenn
+  24:    1  ->  ground
+  25:    1  ->  head
+  26:    1  ->  her
+  27:    1  ->  hides
+  28:    1  ->  ids
+  29:    1  ->  kremlin's
+  30:    1  ->  lapped
+  31:    1  ->  lev
+  32:    1  ->  mailman's
+  33:    1  ->  man
+  34:    1  ->  oh
+  35:    1  ->  others
+  36:    1  ->  papercut
+  37:    1  ->  refugees
+  38:    1  ->  rumor
+  39:    1  ->  runnerup
+  40:    1  ->  scene
+  41:    1  ->  she
+  42:    1  ->  shells
+  43:    1  ->  sounds
+  44:    1  ->  stained
+  45:    1  ->  straw
+  46:    1  ->  street
+  47:    1  ->  talk
+  48:    1  ->  til
+  49:    1  ->  turns
+  50:    1  ->  used
+  51:    1  ->  utilities
+  52:    1  ->  viv
+  53:    1  ->  was
+  54:    1  ->  width
+  55:    1  ->  wither
+  56:    1  ->  word's
+     -------
+        76
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:    6  ->  's
+   2:    6  ->  and
+   3:    2  ->  up
+   4:    2  ->  was
+   5:    1  ->  a
+   6:    1  ->  aground
+   7:    1  ->  alliance
+   8:    1  ->  as
+   9:    1  ->  at
+  10:    1  ->  beating
+  11:    1  ->  bedrooms
+  12:    1  ->  blessed
+  13:    1  ->  blood
+  14:    1  ->  car
+  15:    1  ->  characters
+  16:    1  ->  construction
+  17:    1  ->  crunches
+  18:    1  ->  cumulative
+  19:    1  ->  cut
+  20:    1  ->  doings
+  21:    1  ->  drinks
+  22:    1  ->  drop
+  23:    1  ->  ds
+  24:    1  ->  faith
+  25:    1  ->  frame
+  26:    1  ->  glen
+  27:    1  ->  going
+  28:    1  ->  have
+  29:    1  ->  he
+  30:    1  ->  heads
+  31:    1  ->  her
+  32:    1  ->  hide
+  33:    1  ->  hounds
+  34:    1  ->  in
+  35:    1  ->  is
+  36:    1  ->  latent
+  37:    1  ->  left
+  38:    1  ->  lips
+  39:    1  ->  loud
+  40:    1  ->  love
+  41:    1  ->  me
+  42:    1  ->  of
+  43:    1  ->  oh
+  44:    1  ->  on
+  45:    1  ->  or
+  46:    1  ->  psychopolis
+  47:    1  ->  reddit
+  48:    1  ->  refugee
+  49:    1  ->  rumors
+  50:    1  ->  shell
+  51:    1  ->  spoke
+  52:    1  ->  staying
+  53:    1  ->  steam
+  54:    1  ->  stickman
+  55:    1  ->  streets
+  56:    1  ->  strong
+  57:    1  ->  terms
+  58:    1  ->  till
+  59:    1  ->  top
+  60:    1  ->  utility
+  61:    1  ->  venezia
+  62:    1  ->  well
+  63:    1  ->  world
+  64:    1  ->  your
+     -------
+        76
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

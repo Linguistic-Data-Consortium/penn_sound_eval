@@ -1,0 +1,161 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.0%   (  52)
+
+Percent Correct           =   95.5%   ( 997)
+
+Percent Substitution      =    2.0%   (  21)
+Percent Deletions         =    2.5%   (  26)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   95.0%
+
+
+Ref. words                =           (1044)
+Hyp. words                =           (1023)
+Aligned words             =           (1049)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  in ==> of
+   2:    1  ->  a ==> if
+   3:    1  ->  about ==> gear
+   4:    1  ->  around ==> on
+   5:    1  ->  but ==> may
+   6:    1  ->  dog ==> door
+   7:    1  ->  gained ==> came
+   8:    1  ->  here ==> new
+   9:    1  ->  mar ==> marsh
+  10:    1  ->  minute ==> i
+  11:    1  ->  motorcars ==> cars
+  12:    1  ->  oh ==> him
+  13:    1  ->  oh ==> o.
+  14:    1  ->  or ==> are
+  15:    1  ->  round ==> merrygoround
+  16:    1  ->  stock ==> stuck
+  17:    1  ->  the ==> a
+  18:    1  ->  thumping ==> bumping
+  19:    1  ->  wait ==> waiter
+  20:    1  ->  will ==> the
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  he
+   2:    1  ->  held
+   3:    1  ->  motor
+   4:    1  ->  the
+   5:    1  ->  to
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    3  ->  i
+   2:    1  ->  a
+   3:    1  ->  about
+   4:    1  ->  and
+   5:    1  ->  are
+   6:    1  ->  do
+   7:    1  ->  excuse
+   8:    1  ->  go
+   9:    1  ->  has
+  10:    1  ->  he
+  11:    1  ->  it
+  12:    1  ->  know
+  13:    1  ->  late
+  14:    1  ->  me
+  15:    1  ->  merry
+  16:    1  ->  move
+  17:    1  ->  not
+  18:    1  ->  now
+  19:    1  ->  that
+  20:    1  ->  that's
+  21:    1  ->  the
+  22:    1  ->  this
+  23:    1  ->  who
+  24:    1  ->  x
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  in
+   2:    2  ->  oh
+   3:    1  ->  a
+   4:    1  ->  about
+   5:    1  ->  around
+   6:    1  ->  but
+   7:    1  ->  dog
+   8:    1  ->  gained
+   9:    1  ->  here
+  10:    1  ->  mar
+  11:    1  ->  minute
+  12:    1  ->  motorcars
+  13:    1  ->  or
+  14:    1  ->  round
+  15:    1  ->  stock
+  16:    1  ->  the
+  17:    1  ->  thumping
+  18:    1  ->  wait
+  19:    1  ->  will
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  are
+   4:    1  ->  bumping
+   5:    1  ->  came
+   6:    1  ->  cars
+   7:    1  ->  door
+   8:    1  ->  gear
+   9:    1  ->  him
+  10:    1  ->  i
+  11:    1  ->  if
+  12:    1  ->  marsh
+  13:    1  ->  may
+  14:    1  ->  merrygoround
+  15:    1  ->  new
+  16:    1  ->  o.
+  17:    1  ->  on
+  18:    1  ->  stuck
+  19:    1  ->  the
+  20:    1  ->  waiter
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

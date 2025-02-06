@@ -1,0 +1,161 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.6%   (  39)
+
+Percent Correct           =   96.9%   (1045)
+
+Percent Substitution      =    2.8%   (  30)
+Percent Deletions         =    0.3%   (   3)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   96.4%
+
+
+Ref. words                =           (1078)
+Hyp. words                =           (1081)
+Aligned words             =           (1084)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  a ==> of
+   2:    2  ->  in ==> and
+   3:    2  ->  whiz ==> whizz
+   4:    1  ->  and ==> in
+   5:    1  ->  as ==> is
+   6:    1  ->  bo ==> about
+   7:    1  ->  conservative's ==> as
+   8:    1  ->  dentist's ==> dentist
+   9:    1  ->  doorjamb ==> jam
+  10:    1  ->  fillings ==> filling
+  11:    1  ->  girl ==> girls
+  12:    1  ->  he ==> she
+  13:    1  ->  honeysuckle ==> suckle
+  14:    1  ->  landladies ==> ladies
+  15:    1  ->  last ==> blast
+  16:    1  ->  penned ==> and
+  17:    1  ->  precluded ==> secluded
+  18:    1  ->  presents ==> presence
+  19:    1  ->  realise ==> realised
+  20:    1  ->  that ==> it
+  21:    1  ->  the ==> a
+  22:    1  ->  thelma's ==> this
+  23:    1  ->  them ==> then
+  24:    1  ->  towards ==> toward
+  25:    1  ->  wells ==> wealth
+  26:    1  ->  what ==> but
+  27:    1  ->  when ==> and
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  conservative
+   2:    1  ->  door
+   3:    1  ->  fell
+   4:    1  ->  honey
+   5:    1  ->  land
+   6:    1  ->  new
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  had
+   3:    1  ->  the
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  a
+   2:    2  ->  in
+   3:    2  ->  whiz
+   4:    1  ->  and
+   5:    1  ->  as
+   6:    1  ->  bo
+   7:    1  ->  conservative's
+   8:    1  ->  dentist's
+   9:    1  ->  doorjamb
+  10:    1  ->  fillings
+  11:    1  ->  girl
+  12:    1  ->  he
+  13:    1  ->  honeysuckle
+  14:    1  ->  landladies
+  15:    1  ->  last
+  16:    1  ->  penned
+  17:    1  ->  precluded
+  18:    1  ->  presents
+  19:    1  ->  realise
+  20:    1  ->  that
+  21:    1  ->  the
+  22:    1  ->  thelma's
+  23:    1  ->  them
+  24:    1  ->  towards
+  25:    1  ->  wells
+  26:    1  ->  what
+  27:    1  ->  when
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    4  ->  and
+   2:    2  ->  of
+   3:    2  ->  whizz
+   4:    1  ->  a
+   5:    1  ->  about
+   6:    1  ->  as
+   7:    1  ->  blast
+   8:    1  ->  but
+   9:    1  ->  dentist
+  10:    1  ->  filling
+  11:    1  ->  girls
+  12:    1  ->  in
+  13:    1  ->  is
+  14:    1  ->  it
+  15:    1  ->  jam
+  16:    1  ->  ladies
+  17:    1  ->  presence
+  18:    1  ->  realised
+  19:    1  ->  secluded
+  20:    1  ->  she
+  21:    1  ->  suckle
+  22:    1  ->  then
+  23:    1  ->  this
+  24:    1  ->  toward
+  25:    1  ->  wealth
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

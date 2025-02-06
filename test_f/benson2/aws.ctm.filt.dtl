@@ -1,0 +1,352 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.2%   ( 206)
+
+Percent Correct           =   82.3%   ( 929)
+
+Percent Substitution      =    7.9%   (  89)
+Percent Deletions         =    9.8%   ( 111)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   81.8%
+
+
+Ref. words                =           (1129)
+Hyp. words                =           (1024)
+Aligned words             =           (1135)
+
+CONFUSION PAIRS                  Total                 (87)
+                                 With >=  1 occurrences (87)
+
+   1:    2  ->  it ==> the
+   2:    2  ->  you ==> in
+   3:    1  ->  a ==> do
+   4:    1  ->  and ==> i
+   5:    1  ->  and ==> in
+   6:    1  ->  and ==> that's
+   7:    1  ->  and ==> you
+   8:    1  ->  announcements ==> announcement
+   9:    1  ->  anything ==> it
+  10:    1  ->  back ==> down
+  11:    1  ->  back ==> up
+  12:    1  ->  barry's ==> g
+  13:    1  ->  be ==> and
+  14:    1  ->  careful ==> %bcack
+  15:    1  ->  do ==> berkeley
+  16:    1  ->  do ==> if
+  17:    1  ->  dust ==> just
+  18:    1  ->  every ==> any
+  19:    1  ->  everything ==> it
+  20:    1  ->  everything ==> think
+  21:    1  ->  few ==> not
+  22:    1  ->  gee ==> she
+  23:    1  ->  got ==> get
+  24:    1  ->  happen ==> but
+  25:    1  ->  have ==> do
+  26:    1  ->  here ==> not
+  27:    1  ->  i ==> in
+  28:    1  ->  impress ==> dress
+  29:    1  ->  in ==> when
+  30:    1  ->  is ==> bo
+  31:    1  ->  it ==> wants
+  32:    1  ->  know ==> a
+  33:    1  ->  know ==> get
+  34:    1  ->  know ==> they
+  35:    1  ->  like ==> targeting
+  36:    1  ->  no ==> know
+  37:    1  ->  not ==> this
+  38:    1  ->  not ==> to
+  39:    1  ->  obsolete ==> absolutely
+  40:    1  ->  of ==> that
+  41:    1  ->  oh ==> at
+  42:    1  ->  oh ==> well
+  43:    1  ->  oil ==> he
+  44:    1  ->  oil ==> way
+  45:    1  ->  on ==> i
+  46:    1  ->  on ==> tin
+  47:    1  ->  peanut ==> the
+  48:    1  ->  say ==> scent
+  49:    1  ->  scen ==> sense
+  50:    1  ->  scents ==> sense
+  51:    1  ->  seeing ==> saying
+  52:    1  ->  smell ==> is
+  53:    1  ->  smell ==> smoke
+  54:    1  ->  steve ==> to
+  55:    1  ->  tacks ==> tax
+  56:    1  ->  that's ==> all
+  57:    1  ->  that's ==> just
+  58:    1  ->  the ==> tin
+  59:    1  ->  them ==> that
+  60:    1  ->  then ==> when
+  61:    1  ->  things ==> know
+  62:    1  ->  those ==> that
+  63:    1  ->  to ==> way
+  64:    1  ->  told ==> would
+  65:    1  ->  vacuum ==> ever
+  66:    1  ->  want ==> a
+  67:    1  ->  what ==> have
+  68:    1  ->  when ==> see
+  69:    1  ->  when ==> think
+  70:    1  ->  whiz ==> was
+  71:    1  ->  who ==> yes
+  72:    1  ->  x ==> all
+  73:    1  ->  x ==> dust
+  74:    1  ->  x ==> go
+  75:    1  ->  x ==> mean
+  76:    1  ->  x ==> oil
+  77:    1  ->  x ==> that
+  78:    1  ->  x ==> them
+  79:    1  ->  x ==> what's
+  80:    1  ->  yeah ==> minutes
+  81:    1  ->  yeah ==> pay
+  82:    1  ->  you ==> go
+  83:    1  ->  you ==> hear
+  84:    1  ->  you ==> to
+  85:    1  ->  your ==> do
+  86:    1  ->  your ==> you
+  87:    1  ->  yours ==> say
+     -------
+        89
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  do
+   2:    1  ->  good
+   3:    1  ->  it
+   4:    1  ->  to
+   5:    1  ->  what
+   6:    1  ->  you
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (65)
+                                 With >=  1 occurrences (65)
+
+   1:   12  ->  x
+   2:    5  ->  the
+   3:    4  ->  do
+   4:    4  ->  i
+   5:    4  ->  you
+   6:    3  ->  and
+   7:    3  ->  it
+   8:    3  ->  not
+   9:    3  ->  yeah
+  10:    2  ->  a
+  11:    2  ->  am
+  12:    2  ->  does
+  13:    2  ->  dust
+  14:    2  ->  for
+  15:    2  ->  oh
+  16:    2  ->  peanut
+  17:    2  ->  right
+  18:    2  ->  save
+  19:    2  ->  take
+  20:    2  ->  that
+  21:    2  ->  them
+  22:    2  ->  then
+  23:    2  ->  tiny
+  24:    1  ->  adult
+  25:    1  ->  all
+  26:    1  ->  an
+  27:    1  ->  any
+  28:    1  ->  berkeley
+  29:    1  ->  bringing
+  30:    1  ->  but
+  31:    1  ->  cabinet
+  32:    1  ->  d
+  33:    1  ->  ev
+  34:    1  ->  ever
+  35:    1  ->  found
+  36:    1  ->  glass
+  37:    1  ->  guess
+  38:    1  ->  have
+  39:    1  ->  know
+  40:    1  ->  like
+  41:    1  ->  likes
+  42:    1  ->  little
+  43:    1  ->  look
+  44:    1  ->  lot
+  45:    1  ->  me
+  46:    1  ->  messages
+  47:    1  ->  months
+  48:    1  ->  my
+  49:    1  ->  o
+  50:    1  ->  of
+  51:    1  ->  oil
+  52:    1  ->  oily
+  53:    1  ->  out
+  54:    1  ->  over
+  55:    1  ->  probably
+  56:    1  ->  rearrange
+  57:    1  ->  scent
+  58:    1  ->  shawn
+  59:    1  ->  this
+  60:    1  ->  those
+  61:    1  ->  times
+  62:    1  ->  to
+  63:    1  ->  together
+  64:    1  ->  vote
+  65:    1  ->  when
+     -------
+       111
+
+
+
+SUBSTITUTIONS                    Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    8  ->  x
+   2:    5  ->  you
+   3:    4  ->  and
+   4:    3  ->  it
+   5:    3  ->  know
+   6:    2  ->  back
+   7:    2  ->  do
+   8:    2  ->  everything
+   9:    2  ->  not
+  10:    2  ->  oh
+  11:    2  ->  oil
+  12:    2  ->  on
+  13:    2  ->  smell
+  14:    2  ->  that's
+  15:    2  ->  when
+  16:    2  ->  yeah
+  17:    2  ->  your
+  18:    1  ->  a
+  19:    1  ->  announcements
+  20:    1  ->  anything
+  21:    1  ->  barry's
+  22:    1  ->  be
+  23:    1  ->  careful
+  24:    1  ->  dust
+  25:    1  ->  every
+  26:    1  ->  few
+  27:    1  ->  gee
+  28:    1  ->  got
+  29:    1  ->  happen
+  30:    1  ->  have
+  31:    1  ->  here
+  32:    1  ->  i
+  33:    1  ->  impress
+  34:    1  ->  in
+  35:    1  ->  is
+  36:    1  ->  like
+  37:    1  ->  no
+  38:    1  ->  obsolete
+  39:    1  ->  of
+  40:    1  ->  peanut
+  41:    1  ->  say
+  42:    1  ->  scen
+  43:    1  ->  scents
+  44:    1  ->  seeing
+  45:    1  ->  steve
+  46:    1  ->  tacks
+  47:    1  ->  the
+  48:    1  ->  them
+  49:    1  ->  then
+  50:    1  ->  things
+  51:    1  ->  those
+  52:    1  ->  to
+  53:    1  ->  told
+  54:    1  ->  vacuum
+  55:    1  ->  want
+  56:    1  ->  what
+  57:    1  ->  whiz
+  58:    1  ->  who
+  59:    1  ->  yours
+     -------
+        89
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (62)
+                                 With >=  1 occurrences (62)
+
+   1:    4  ->  in
+   2:    4  ->  that
+   3:    3  ->  do
+   4:    3  ->  the
+   5:    3  ->  to
+   6:    2  ->  a
+   7:    2  ->  all
+   8:    2  ->  get
+   9:    2  ->  go
+  10:    2  ->  i
+  11:    2  ->  it
+  12:    2  ->  just
+  13:    2  ->  know
+  14:    2  ->  not
+  15:    2  ->  sense
+  16:    2  ->  think
+  17:    2  ->  tin
+  18:    2  ->  way
+  19:    2  ->  when
+  20:    2  ->  you
+  21:    1  ->  %bcack
+  22:    1  ->  absolutely
+  23:    1  ->  and
+  24:    1  ->  announcement
+  25:    1  ->  any
+  26:    1  ->  at
+  27:    1  ->  berkeley
+  28:    1  ->  bo
+  29:    1  ->  but
+  30:    1  ->  down
+  31:    1  ->  dress
+  32:    1  ->  dust
+  33:    1  ->  ever
+  34:    1  ->  g
+  35:    1  ->  have
+  36:    1  ->  he
+  37:    1  ->  hear
+  38:    1  ->  if
+  39:    1  ->  is
+  40:    1  ->  mean
+  41:    1  ->  minutes
+  42:    1  ->  oil
+  43:    1  ->  pay
+  44:    1  ->  say
+  45:    1  ->  saying
+  46:    1  ->  scent
+  47:    1  ->  see
+  48:    1  ->  she
+  49:    1  ->  smoke
+  50:    1  ->  targeting
+  51:    1  ->  tax
+  52:    1  ->  that's
+  53:    1  ->  them
+  54:    1  ->  they
+  55:    1  ->  this
+  56:    1  ->  up
+  57:    1  ->  wants
+  58:    1  ->  was
+  59:    1  ->  well
+  60:    1  ->  what's
+  61:    1  ->  would
+  62:    1  ->  yes
+     -------
+        89
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

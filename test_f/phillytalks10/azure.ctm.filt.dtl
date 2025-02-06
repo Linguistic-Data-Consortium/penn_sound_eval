@@ -1,0 +1,179 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.3%   (  82)
+
+Percent Correct           =   92.8%   ( 738)
+
+Percent Substitution      =    5.9%   (  47)
+Percent Deletions         =    1.3%   (  10)
+Percent Insertions        =    3.1%   (  25)
+Percent Word Accuracy     =   89.7%
+
+
+Ref. words                =           ( 795)
+Hyp. words                =           ( 810)
+Aligned words             =           ( 820)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:   15  ->  onto ==> to
+   2:    2  ->  in ==> and
+   3:    2  ->  is ==> 's
+   4:    1  ->  a ==> of
+   5:    1  ->  a ==> the
+   6:    1  ->  air ==> heir
+   7:    1  ->  an ==> and
+   8:    1  ->  as ==> is
+   9:    1  ->  balance ==> balanced
+  10:    1  ->  blocked ==> block
+  11:    1  ->  book's ==> 's
+  12:    1  ->  bread ==> bred
+  13:    1  ->  but ==> about
+  14:    1  ->  cheesemaking ==> making
+  15:    1  ->  do ==> will
+  16:    1  ->  farmworker's ==> 's
+  17:    1  ->  ghostlike ==> like
+  18:    1  ->  growth ==> grove
+  19:    1  ->  is ==> as
+  20:    1  ->  keeper's ==> 's
+  21:    1  ->  labours ==> labourers
+  22:    1  ->  laughingstock ==> stock
+  23:    1  ->  lit ==> highlight
+  24:    1  ->  mass ==> mast
+  25:    1  ->  nature ==> natured
+  26:    1  ->  one ==> a
+  27:    1  ->  squatter's ==> 's
+  28:    1  ->  sue ==> soothe
+  29:    1  ->  talking ==> talked
+  30:    1  ->  unrights ==> unwrites
+  31:    1  ->  xs ==> 's
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:   15  ->  on
+   2:    1  ->  book
+   3:    1  ->  cheese
+   4:    1  ->  farm
+   5:    1  ->  ghost
+   6:    1  ->  i
+   7:    1  ->  keeper
+   8:    1  ->  laughing
+   9:    1  ->  squatter
+  10:    1  ->  worker
+  11:    1  ->  x
+     -------
+        25
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  am
+   3:    1  ->  going
+   4:    1  ->  high
+   5:    1  ->  then
+   6:    1  ->  to
+   7:    1  ->  were
+   8:    1  ->  will
+   9:    1  ->  with
+  10:    1  ->  x
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:   15  ->  onto
+   2:    3  ->  is
+   3:    2  ->  a
+   4:    2  ->  in
+   5:    1  ->  air
+   6:    1  ->  an
+   7:    1  ->  as
+   8:    1  ->  balance
+   9:    1  ->  blocked
+  10:    1  ->  book's
+  11:    1  ->  bread
+  12:    1  ->  but
+  13:    1  ->  cheesemaking
+  14:    1  ->  do
+  15:    1  ->  farmworker's
+  16:    1  ->  ghostlike
+  17:    1  ->  growth
+  18:    1  ->  keeper's
+  19:    1  ->  labours
+  20:    1  ->  laughingstock
+  21:    1  ->  lit
+  22:    1  ->  mass
+  23:    1  ->  nature
+  24:    1  ->  one
+  25:    1  ->  squatter's
+  26:    1  ->  sue
+  27:    1  ->  talking
+  28:    1  ->  unrights
+  29:    1  ->  xs
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:   15  ->  to
+   2:    7  ->  's
+   3:    3  ->  and
+   4:    1  ->  a
+   5:    1  ->  about
+   6:    1  ->  as
+   7:    1  ->  balanced
+   8:    1  ->  block
+   9:    1  ->  bred
+  10:    1  ->  grove
+  11:    1  ->  heir
+  12:    1  ->  highlight
+  13:    1  ->  is
+  14:    1  ->  labourers
+  15:    1  ->  like
+  16:    1  ->  making
+  17:    1  ->  mast
+  18:    1  ->  natured
+  19:    1  ->  of
+  20:    1  ->  soothe
+  21:    1  ->  stock
+  22:    1  ->  talked
+  23:    1  ->  the
+  24:    1  ->  unwrites
+  25:    1  ->  will
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

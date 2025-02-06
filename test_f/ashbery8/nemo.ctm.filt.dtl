@@ -1,0 +1,188 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.7%   (  53)
+
+Percent Correct           =   95.9%   (1091)
+
+Percent Substitution      =    3.1%   (  35)
+Percent Deletions         =    1.1%   (  12)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   95.3%
+
+
+Ref. words                =           (1138)
+Hyp. words                =           (1132)
+Aligned words             =           (1144)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  a ==> the
+   2:    2  ->  passed ==> past
+   3:    1  ->  a ==> of
+   4:    1  ->  approved ==> approve
+   5:    1  ->  colored ==> coloured
+   6:    1  ->  francks' ==> franc's
+   7:    1  ->  gnossienne ==> gnossian
+   8:    1  ->  has ==> is
+   9:    1  ->  hoople ==> hoopel
+  10:    1  ->  humor ==> humour
+  11:    1  ->  i'v ==> have
+  12:    1  ->  immigrated ==> emigrated
+  13:    1  ->  it's ==> its
+  14:    1  ->  muddled ==> muddle
+  15:    1  ->  occurence ==> occurrence
+  16:    1  ->  pachelbel ==> belle
+  17:    1  ->  plain ==> plane
+  18:    1  ->  plus ==> place
+  19:    1  ->  refused ==> refuse
+  20:    1  ->  route ==> root
+  21:    1  ->  same ==> sane
+  22:    1  ->  scrawled ==> sprawled
+  23:    1  ->  story ==> stories
+  24:    1  ->  survive ==> survived
+  25:    1  ->  that ==> the
+  26:    1  ->  today ==> i
+  27:    1  ->  transformed ==> transform
+  28:    1  ->  us ==> it
+  29:    1  ->  wariness ==> weariness
+  30:    1  ->  ways ==> way
+  31:    1  ->  white ==> light
+  32:    1  ->  with ==> was
+  33:    1  ->  x ==> pereire
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  day
+   2:    1  ->  incorrect
+   3:    1  ->  is
+   4:    1  ->  paco
+   5:    1  ->  to
+   6:    1  ->  what
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  days
+   2:    1  ->  each
+   3:    1  ->  i
+   4:    1  ->  know
+   5:    1  ->  like
+   6:    1  ->  mountain
+   7:    1  ->  of
+   8:    1  ->  really
+   9:    1  ->  s
+  10:    1  ->  the
+  11:    1  ->  to
+  12:    1  ->  would
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    3  ->  a
+   2:    2  ->  passed
+   3:    1  ->  approved
+   4:    1  ->  colored
+   5:    1  ->  francks'
+   6:    1  ->  gnossienne
+   7:    1  ->  has
+   8:    1  ->  hoople
+   9:    1  ->  humor
+  10:    1  ->  i'v
+  11:    1  ->  immigrated
+  12:    1  ->  it's
+  13:    1  ->  muddled
+  14:    1  ->  occurence
+  15:    1  ->  pachelbel
+  16:    1  ->  plain
+  17:    1  ->  plus
+  18:    1  ->  refused
+  19:    1  ->  route
+  20:    1  ->  same
+  21:    1  ->  scrawled
+  22:    1  ->  story
+  23:    1  ->  survive
+  24:    1  ->  that
+  25:    1  ->  today
+  26:    1  ->  transformed
+  27:    1  ->  us
+  28:    1  ->  wariness
+  29:    1  ->  ways
+  30:    1  ->  white
+  31:    1  ->  with
+  32:    1  ->  x
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    3  ->  the
+   2:    2  ->  past
+   3:    1  ->  approve
+   4:    1  ->  belle
+   5:    1  ->  coloured
+   6:    1  ->  emigrated
+   7:    1  ->  franc's
+   8:    1  ->  gnossian
+   9:    1  ->  have
+  10:    1  ->  hoopel
+  11:    1  ->  humour
+  12:    1  ->  i
+  13:    1  ->  is
+  14:    1  ->  it
+  15:    1  ->  its
+  16:    1  ->  light
+  17:    1  ->  muddle
+  18:    1  ->  occurrence
+  19:    1  ->  of
+  20:    1  ->  pereire
+  21:    1  ->  place
+  22:    1  ->  plane
+  23:    1  ->  refuse
+  24:    1  ->  root
+  25:    1  ->  sane
+  26:    1  ->  sprawled
+  27:    1  ->  stories
+  28:    1  ->  survived
+  29:    1  ->  transform
+  30:    1  ->  was
+  31:    1  ->  way
+  32:    1  ->  weariness
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

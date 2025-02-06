@@ -1,0 +1,339 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.9%   ( 134)
+
+Percent Correct           =   89.9%   ( 806)
+
+Percent Substitution      =    9.4%   (  84)
+Percent Deletions         =    0.8%   (   7)
+Percent Insertions        =    4.8%   (  43)
+Percent Word Accuracy     =   85.1%
+
+
+Ref. words                =           ( 897)
+Hyp. words                =           ( 933)
+Aligned words             =           ( 940)
+
+CONFUSION PAIRS                  Total                 (83)
+                                 With >=  1 occurrences (83)
+
+   1:    2  ->  i ==> eye
+   2:    1  ->  a ==> to
+   3:    1  ->  alight ==> light
+   4:    1  ->  analyst's ==> analyst
+   5:    1  ->  are ==> if
+   6:    1  ->  baldfaced ==> face
+   7:    1  ->  batter ==> butter
+   8:    1  ->  came ==> tame
+   9:    1  ->  cocks ==> cs
+  10:    1  ->  commie ==> me
+  11:    1  ->  crowd ==> proud
+  12:    1  ->  crowdsourced ==> source
+  13:    1  ->  eight ==> 100008
+  14:    1  ->  erikson ==> eriksson
+  15:    1  ->  farmhands ==> hands
+  16:    1  ->  float ==> the
+  17:    1  ->  gaming ==> me
+  18:    1  ->  gimpy ==> gymy
+  19:    1  ->  head ==> ahead
+  20:    1  ->  heyerdahl ==> ol
+  21:    1  ->  impale ==> impel
+  22:    1  ->  in ==> and
+  23:    1  ->  irony ==> only
+  24:    1  ->  is ==> iss
+  25:    1  ->  it ==> in
+  26:    1  ->  last ==> tent
+  27:    1  ->  limos ==> limo's
+  28:    1  ->  line ==> lk
+  29:    1  ->  memo ==> mo
+  30:    1  ->  mopey ==> moping
+  31:    1  ->  moss ==> mars
+  32:    1  ->  myopic ==> opic
+  33:    1  ->  numerals ==> rules
+  34:    1  ->  of ==> for
+  35:    1  ->  of ==> or
+  36:    1  ->  over ==> ogle
+  37:    1  ->  parrot ==> appar
+  38:    1  ->  play ==> claim
+  39:    1  ->  poems ==> poem
+  40:    1  ->  quote ==> tea
+  41:    1  ->  received ==> receive
+  42:    1  ->  researchers ==> research
+  43:    1  ->  scam ==> scan
+  44:    1  ->  service ==> it's
+  45:    1  ->  sights ==> sight
+  46:    1  ->  simonize ==> simonizes
+  47:    1  ->  slimy ==> slimey
+  48:    1  ->  spine ==> spy
+  49:    1  ->  teacakes ==> cakes
+  50:    1  ->  the ==> wild
+  51:    1  ->  thirty ==> three
+  52:    1  ->  thought ==> not
+  53:    1  ->  usual ==> interval
+  54:    1  ->  void ==> voyage
+  55:    1  ->  wait ==> wake
+  56:    1  ->  wallowing ==> while
+  57:    1  ->  want ==> wants
+  58:    1  ->  well ==> physicist
+  59:    1  ->  were ==> where
+  60:    1  ->  wholesaled ==> sailed
+  61:    1  ->  wig ==> wing
+  62:    1  ->  x ==> bald
+  63:    1  ->  x ==> cage
+  64:    1  ->  x ==> cinder
+  65:    1  ->  x ==> contiki
+  66:    1  ->  x ==> ever
+  67:    1  ->  x ==> frowsier
+  68:    1  ->  x ==> gms
+  69:    1  ->  x ==> groundless
+  70:    1  ->  x ==> he
+  71:    1  ->  x ==> hunting
+  72:    1  ->  x ==> i
+  73:    1  ->  x ==> in
+  74:    1  ->  x ==> j
+  75:    1  ->  x ==> key
+  76:    1  ->  x ==> like
+  77:    1  ->  x ==> limo
+  78:    1  ->  x ==> nylon
+  79:    1  ->  x ==> of
+  80:    1  ->  x ==> polis
+  81:    1  ->  x ==> sloss
+  82:    1  ->  x ==> tints
+  83:    1  ->  x ==> woo
+     -------
+        84
+
+
+
+INSERTIONS                       Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  k.
+   2:    3  ->  o.
+   3:    2  ->  and
+   4:    2  ->  on
+   5:    2  ->  that
+   6:    2  ->  yeah
+   7:    1  ->  a
+   8:    1  ->  arm
+   9:    1  ->  at
+  10:    1  ->  circle
+  11:    1  ->  com
+  12:    1  ->  cop
+  13:    1  ->  crowd
+  14:    1  ->  e
+  15:    1  ->  farm
+  16:    1  ->  g
+  17:    1  ->  gave
+  18:    1  ->  ge
+  19:    1  ->  hoofs
+  20:    1  ->  hooter
+  21:    1  ->  hope
+  22:    1  ->  hume
+  23:    1  ->  i
+  24:    1  ->  igloo
+  25:    1  ->  it
+  26:    1  ->  my
+  27:    1  ->  note
+  28:    1  ->  of
+  29:    1  ->  quotes
+  30:    1  ->  shak
+  31:    1  ->  stop
+  32:    1  ->  succeeded
+  33:    1  ->  trolling
+  34:    1  ->  will
+  35:    1  ->  youth
+     -------
+        43
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  a
+   2:    1  ->  hundred
+   3:    1  ->  tents
+   4:    1  ->  thousand
+   5:    1  ->  while
+   6:    1  ->  x
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:   22  ->  x
+   2:    2  ->  i
+   3:    2  ->  of
+   4:    1  ->  a
+   5:    1  ->  alight
+   6:    1  ->  analyst's
+   7:    1  ->  are
+   8:    1  ->  baldfaced
+   9:    1  ->  batter
+  10:    1  ->  came
+  11:    1  ->  cocks
+  12:    1  ->  commie
+  13:    1  ->  crowd
+  14:    1  ->  crowdsourced
+  15:    1  ->  eight
+  16:    1  ->  erikson
+  17:    1  ->  farmhands
+  18:    1  ->  float
+  19:    1  ->  gaming
+  20:    1  ->  gimpy
+  21:    1  ->  head
+  22:    1  ->  heyerdahl
+  23:    1  ->  impale
+  24:    1  ->  in
+  25:    1  ->  irony
+  26:    1  ->  is
+  27:    1  ->  it
+  28:    1  ->  last
+  29:    1  ->  limos
+  30:    1  ->  line
+  31:    1  ->  memo
+  32:    1  ->  mopey
+  33:    1  ->  moss
+  34:    1  ->  myopic
+  35:    1  ->  numerals
+  36:    1  ->  over
+  37:    1  ->  parrot
+  38:    1  ->  play
+  39:    1  ->  poems
+  40:    1  ->  quote
+  41:    1  ->  received
+  42:    1  ->  researchers
+  43:    1  ->  scam
+  44:    1  ->  service
+  45:    1  ->  sights
+  46:    1  ->  simonize
+  47:    1  ->  slimy
+  48:    1  ->  spine
+  49:    1  ->  teacakes
+  50:    1  ->  the
+  51:    1  ->  thirty
+  52:    1  ->  thought
+  53:    1  ->  usual
+  54:    1  ->  void
+  55:    1  ->  wait
+  56:    1  ->  wallowing
+  57:    1  ->  want
+  58:    1  ->  well
+  59:    1  ->  were
+  60:    1  ->  wholesaled
+  61:    1  ->  wig
+     -------
+        84
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (81)
+                                 With >=  1 occurrences (81)
+
+   1:    2  ->  eye
+   2:    2  ->  in
+   3:    2  ->  me
+   4:    1  ->  100008
+   5:    1  ->  ahead
+   6:    1  ->  analyst
+   7:    1  ->  and
+   8:    1  ->  appar
+   9:    1  ->  bald
+  10:    1  ->  butter
+  11:    1  ->  cage
+  12:    1  ->  cakes
+  13:    1  ->  cinder
+  14:    1  ->  claim
+  15:    1  ->  contiki
+  16:    1  ->  cs
+  17:    1  ->  eriksson
+  18:    1  ->  ever
+  19:    1  ->  face
+  20:    1  ->  for
+  21:    1  ->  frowsier
+  22:    1  ->  gms
+  23:    1  ->  groundless
+  24:    1  ->  gymy
+  25:    1  ->  hands
+  26:    1  ->  he
+  27:    1  ->  hunting
+  28:    1  ->  i
+  29:    1  ->  if
+  30:    1  ->  impel
+  31:    1  ->  interval
+  32:    1  ->  iss
+  33:    1  ->  it's
+  34:    1  ->  j
+  35:    1  ->  key
+  36:    1  ->  light
+  37:    1  ->  like
+  38:    1  ->  limo
+  39:    1  ->  limo's
+  40:    1  ->  lk
+  41:    1  ->  mars
+  42:    1  ->  mo
+  43:    1  ->  moping
+  44:    1  ->  not
+  45:    1  ->  nylon
+  46:    1  ->  of
+  47:    1  ->  ogle
+  48:    1  ->  ol
+  49:    1  ->  only
+  50:    1  ->  opic
+  51:    1  ->  or
+  52:    1  ->  physicist
+  53:    1  ->  poem
+  54:    1  ->  polis
+  55:    1  ->  proud
+  56:    1  ->  receive
+  57:    1  ->  research
+  58:    1  ->  rules
+  59:    1  ->  sailed
+  60:    1  ->  scan
+  61:    1  ->  sight
+  62:    1  ->  simonizes
+  63:    1  ->  slimey
+  64:    1  ->  sloss
+  65:    1  ->  source
+  66:    1  ->  spy
+  67:    1  ->  tame
+  68:    1  ->  tea
+  69:    1  ->  tent
+  70:    1  ->  the
+  71:    1  ->  three
+  72:    1  ->  tints
+  73:    1  ->  to
+  74:    1  ->  voyage
+  75:    1  ->  wake
+  76:    1  ->  wants
+  77:    1  ->  where
+  78:    1  ->  while
+  79:    1  ->  wild
+  80:    1  ->  wing
+  81:    1  ->  woo
+     -------
+        84
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

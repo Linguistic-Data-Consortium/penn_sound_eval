@@ -1,0 +1,144 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.7%   (  29)
+
+Percent Correct           =   96.4%   ( 756)
+
+Percent Substitution      =    2.9%   (  23)
+Percent Deletions         =    0.6%   (   5)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   96.3%
+
+
+Ref. words                =           ( 784)
+Hyp. words                =           ( 780)
+Aligned words             =           ( 785)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  rightness ==> ripeness
+   2:    1  ->  abandoned ==> abandon
+   3:    1  ->  an ==> and
+   4:    1  ->  and ==> an
+   5:    1  ->  burly ==> hurlyburly
+   6:    1  ->  caw ==> call
+   7:    1  ->  fenceposts ==> post
+   8:    1  ->  flooding ==> nightflooding
+   9:    1  ->  molding ==> moulding
+  10:    1  ->  nailing ==> coffinnailing
+  11:    1  ->  out ==> of
+  12:    1  ->  relief ==> release
+  13:    1  ->  rioting ==> riding
+  14:    1  ->  rocked ==> rot
+  15:    1  ->  saying ==> same
+  16:    1  ->  sea ==> nightsea
+  17:    1  ->  seperation ==> separation
+  18:    1  ->  speaking ==> heartspeaking
+  19:    1  ->  spittle ==> spittled
+  20:    1  ->  that ==> but
+  21:    1  ->  whit ==> wit
+  22:    1  ->  wrath ==> rap
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  fence
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  night
+   2:    1  ->  coffin
+   3:    1  ->  heart
+   4:    1  ->  hurly
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  rightness
+   2:    1  ->  abandoned
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  burly
+   6:    1  ->  caw
+   7:    1  ->  fenceposts
+   8:    1  ->  flooding
+   9:    1  ->  molding
+  10:    1  ->  nailing
+  11:    1  ->  out
+  12:    1  ->  relief
+  13:    1  ->  rioting
+  14:    1  ->  rocked
+  15:    1  ->  saying
+  16:    1  ->  sea
+  17:    1  ->  seperation
+  18:    1  ->  speaking
+  19:    1  ->  spittle
+  20:    1  ->  that
+  21:    1  ->  whit
+  22:    1  ->  wrath
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  ripeness
+   2:    1  ->  abandon
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  but
+   6:    1  ->  call
+   7:    1  ->  coffinnailing
+   8:    1  ->  heartspeaking
+   9:    1  ->  hurlyburly
+  10:    1  ->  moulding
+  11:    1  ->  nightflooding
+  12:    1  ->  nightsea
+  13:    1  ->  of
+  14:    1  ->  post
+  15:    1  ->  rap
+  16:    1  ->  release
+  17:    1  ->  riding
+  18:    1  ->  rot
+  19:    1  ->  same
+  20:    1  ->  separation
+  21:    1  ->  spittled
+  22:    1  ->  wit
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

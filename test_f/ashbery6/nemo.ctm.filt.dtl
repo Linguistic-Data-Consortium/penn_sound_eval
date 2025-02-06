@@ -1,0 +1,116 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.8%   (  28)
+
+Percent Correct           =   97.4%   ( 962)
+
+Percent Substitution      =    0.8%   (   8)
+Percent Deletions         =    1.8%   (  18)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   97.2%
+
+
+Ref. words                =           ( 988)
+Hyp. words                =           ( 972)
+Aligned words             =           ( 990)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  balks ==> bulks
+   3:    1  ->  bill ==> bed
+   4:    1  ->  car ==> boxcar
+   5:    1  ->  in ==> and
+   6:    1  ->  oak ==> oil
+   7:    1  ->  others ==> others'
+   8:    1  ->  stares ==> stairs
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  digestion
+   2:    1  ->  is
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  again
+   4:    1  ->  and
+   5:    1  ->  appropriate
+   6:    1  ->  box
+   7:    1  ->  built
+   8:    1  ->  is
+   9:    1  ->  it
+  10:    1  ->  mid
+  11:    1  ->  not
+  12:    1  ->  one
+  13:    1  ->  someone
+  14:    1  ->  this
+  15:    1  ->  to
+  16:    1  ->  we
+  17:    1  ->  weather
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  balks
+   3:    1  ->  bill
+   4:    1  ->  car
+   5:    1  ->  in
+   6:    1  ->  oak
+   7:    1  ->  others
+   8:    1  ->  stares
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  bed
+   3:    1  ->  boxcar
+   4:    1  ->  bulks
+   5:    1  ->  of
+   6:    1  ->  oil
+   7:    1  ->  others'
+   8:    1  ->  stairs
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

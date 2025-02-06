@@ -1,0 +1,154 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.4%   (  41)
+
+Percent Correct           =   96.2%   ( 896)
+
+Percent Substitution      =    2.7%   (  25)
+Percent Deletions         =    1.1%   (  10)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   95.6%
+
+
+Ref. words                =           ( 931)
+Hyp. words                =           ( 927)
+Aligned words             =           ( 937)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    3  ->  twenty ==> two
+   2:    1  ->  a ==> of
+   3:    1  ->  cerebration ==> celebration
+   4:    1  ->  could ==> can
+   5:    1  ->  eight ==> 88
+   6:    1  ->  eight ==> one
+   7:    1  ->  eighteen ==> eight
+   8:    1  ->  eighty ==> 7eleven
+   9:    1  ->  equivalence ==> equivalents
+  10:    1  ->  fascinate ==> fascinating
+  11:    1  ->  first ==> 1st
+  12:    1  ->  forgo ==> forego
+  13:    1  ->  fourteen ==> 714
+  14:    1  ->  furthers ==> this
+  15:    1  ->  of ==> a
+  16:    1  ->  produced ==> produce
+  17:    1  ->  ruined ==> really
+  18:    1  ->  sanjo's ==> andrews'
+  19:    1  ->  seventeen ==> seven
+  20:    1  ->  shed ==> shared
+  21:    1  ->  thirteen ==> three
+  22:    1  ->  to ==> of
+  23:    1  ->  weeping ==> reaping
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  one
+   2:    1  ->  for
+   3:    1  ->  of
+   4:    1  ->  these
+   5:    1  ->  yeah
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  seven
+   2:    1  ->  asl
+   3:    1  ->  conquistad
+   4:    1  ->  eleven
+   5:    1  ->  fast
+   6:    1  ->  quote
+   7:    1  ->  res
+   8:    1  ->  terrai
+   9:    1  ->  that
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  twenty
+   2:    2  ->  eight
+   3:    1  ->  a
+   4:    1  ->  cerebration
+   5:    1  ->  could
+   6:    1  ->  eighteen
+   7:    1  ->  eighty
+   8:    1  ->  equivalence
+   9:    1  ->  fascinate
+  10:    1  ->  first
+  11:    1  ->  forgo
+  12:    1  ->  fourteen
+  13:    1  ->  furthers
+  14:    1  ->  of
+  15:    1  ->  produced
+  16:    1  ->  ruined
+  17:    1  ->  sanjo's
+  18:    1  ->  seventeen
+  19:    1  ->  shed
+  20:    1  ->  thirteen
+  21:    1  ->  to
+  22:    1  ->  weeping
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  two
+   2:    2  ->  of
+   3:    1  ->  1st
+   4:    1  ->  714
+   5:    1  ->  7eleven
+   6:    1  ->  88
+   7:    1  ->  a
+   8:    1  ->  andrews'
+   9:    1  ->  can
+  10:    1  ->  celebration
+  11:    1  ->  eight
+  12:    1  ->  equivalents
+  13:    1  ->  fascinating
+  14:    1  ->  forego
+  15:    1  ->  one
+  16:    1  ->  produce
+  17:    1  ->  really
+  18:    1  ->  reaping
+  19:    1  ->  seven
+  20:    1  ->  shared
+  21:    1  ->  this
+  22:    1  ->  three
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

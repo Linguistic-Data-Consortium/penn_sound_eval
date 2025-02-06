@@ -1,0 +1,308 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.7%   ( 103)
+
+Percent Correct           =   89.9%   ( 867)
+
+Percent Substitution      =    8.5%   (  82)
+Percent Deletions         =    1.6%   (  15)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   89.3%
+
+
+Ref. words                =           ( 964)
+Hyp. words                =           ( 955)
+Aligned words             =           ( 970)
+
+CONFUSION PAIRS                  Total                 (76)
+                                 With >=  1 occurrences (76)
+
+   1:    5  ->  in ==> and
+   2:    2  ->  and ==> in
+   3:    2  ->  atrapado ==> copano
+   4:    1  ->  a ==> he
+   5:    1  ->  a ==> the
+   6:    1  ->  acne ==> acting
+   7:    1  ->  ants ==> aunts
+   8:    1  ->  arcade's ==> arcades
+   9:    1  ->  are ==> your
+  10:    1  ->  called ==> call
+  11:    1  ->  cauldrons ==> cauldron
+  12:    1  ->  clowns ==> clouds
+  13:    1  ->  debuts ==> abuse
+  14:    1  ->  debuts ==> abused
+  15:    1  ->  earthen ==> and
+  16:    1  ->  facade ==> fact
+  17:    1  ->  famished ==> famish
+  18:    1  ->  fandangoes ==> fandango's
+  19:    1  ->  frayed ==> freight
+  20:    1  ->  gallopers ==> gallop
+  21:    1  ->  ghouls ==> schools
+  22:    1  ->  gingham's ==> gingham
+  23:    1  ->  ham ==> him
+  24:    1  ->  hammer ==> hammered
+  25:    1  ->  has ==> is
+  26:    1  ->  hems ==> hims
+  27:    1  ->  hubcap ==> cap
+  28:    1  ->  husks ==> tusks
+  29:    1  ->  i ==> and
+  30:    1  ->  in ==> to
+  31:    1  ->  incandescence ==> incandescents
+  32:    1  ->  is ==> has
+  33:    1  ->  is ==> was
+  34:    1  ->  its ==> it's
+  35:    1  ->  kneecap ==> cap
+  36:    1  ->  kneed ==> neat
+  37:    1  ->  licking ==> leaking
+  38:    1  ->  licks ==> lick
+  39:    1  ->  molasses ==> malas
+  40:    1  ->  mop ==> up
+  41:    1  ->  night ==> knight
+  42:    1  ->  nougat ==> nuget
+  43:    1  ->  of ==> with
+  44:    1  ->  oh ==> o
+  45:    1  ->  ointment ==> appointment
+  46:    1  ->  on ==> in
+  47:    1  ->  our ==> are
+  48:    1  ->  our ==> her
+  49:    1  ->  paint's ==> paints
+  50:    1  ->  phonograph ==> photograph
+  51:    1  ->  planes ==> plans
+  52:    1  ->  pliers ==> appliers
+  53:    1  ->  pores ==> powers
+  54:    1  ->  purdahs ==> us
+  55:    1  ->  puttied ==> buddied
+  56:    1  ->  raise ==> raised
+  57:    1  ->  roars ==> rows
+  58:    1  ->  scalp ==> scout
+  59:    1  ->  sea ==> steps
+  60:    1  ->  sieve ==> sip
+  61:    1  ->  sighs ==> size
+  62:    1  ->  skeleton ==> skelton
+  63:    1  ->  slivers ==> livers
+  64:    1  ->  slop ==> slot
+  65:    1  ->  sod ==> sad
+  66:    1  ->  someone ==> selling
+  67:    1  ->  stoop ==> stop
+  68:    1  ->  sweetened ==> and
+  69:    1  ->  the ==> tha
+  70:    1  ->  towards ==> toward
+  71:    1  ->  towe ==> towel
+  72:    1  ->  trays ==> trees
+  73:    1  ->  vials ==> viles
+  74:    1  ->  vomit ==> bombing
+  75:    1  ->  were ==> are
+  76:    1  ->  whose ==> his
+     -------
+        82
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  cured
+   3:    1  ->  earth
+   4:    1  ->  hub
+   5:    1  ->  knee
+   6:    1  ->  sweet
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    2  ->  it
+   4:    1  ->  ch
+   5:    1  ->  had
+   6:    1  ->  in
+   7:    1  ->  is
+   8:    1  ->  m
+   9:    1  ->  of
+  10:    1  ->  stee
+  11:    1  ->  the
+  12:    1  ->  you
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (71)
+                                 With >=  1 occurrences (71)
+
+   1:    6  ->  in
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  atrapado
+   5:    2  ->  debuts
+   6:    2  ->  is
+   7:    2  ->  our
+   8:    1  ->  acne
+   9:    1  ->  ants
+  10:    1  ->  arcade's
+  11:    1  ->  are
+  12:    1  ->  called
+  13:    1  ->  cauldrons
+  14:    1  ->  clowns
+  15:    1  ->  earthen
+  16:    1  ->  facade
+  17:    1  ->  famished
+  18:    1  ->  fandangoes
+  19:    1  ->  frayed
+  20:    1  ->  gallopers
+  21:    1  ->  ghouls
+  22:    1  ->  gingham's
+  23:    1  ->  ham
+  24:    1  ->  hammer
+  25:    1  ->  has
+  26:    1  ->  hems
+  27:    1  ->  hubcap
+  28:    1  ->  husks
+  29:    1  ->  i
+  30:    1  ->  incandescence
+  31:    1  ->  its
+  32:    1  ->  kneecap
+  33:    1  ->  kneed
+  34:    1  ->  licking
+  35:    1  ->  licks
+  36:    1  ->  molasses
+  37:    1  ->  mop
+  38:    1  ->  night
+  39:    1  ->  nougat
+  40:    1  ->  of
+  41:    1  ->  oh
+  42:    1  ->  ointment
+  43:    1  ->  on
+  44:    1  ->  paint's
+  45:    1  ->  phonograph
+  46:    1  ->  planes
+  47:    1  ->  pliers
+  48:    1  ->  pores
+  49:    1  ->  purdahs
+  50:    1  ->  puttied
+  51:    1  ->  raise
+  52:    1  ->  roars
+  53:    1  ->  scalp
+  54:    1  ->  sea
+  55:    1  ->  sieve
+  56:    1  ->  sighs
+  57:    1  ->  skeleton
+  58:    1  ->  slivers
+  59:    1  ->  slop
+  60:    1  ->  sod
+  61:    1  ->  someone
+  62:    1  ->  stoop
+  63:    1  ->  sweetened
+  64:    1  ->  the
+  65:    1  ->  towards
+  66:    1  ->  towe
+  67:    1  ->  trays
+  68:    1  ->  vials
+  69:    1  ->  vomit
+  70:    1  ->  were
+  71:    1  ->  whose
+     -------
+        82
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (70)
+                                 With >=  1 occurrences (70)
+
+   1:    8  ->  and
+   2:    3  ->  in
+   3:    2  ->  are
+   4:    2  ->  cap
+   5:    2  ->  copano
+   6:    1  ->  abuse
+   7:    1  ->  abused
+   8:    1  ->  acting
+   9:    1  ->  appliers
+  10:    1  ->  appointment
+  11:    1  ->  arcades
+  12:    1  ->  aunts
+  13:    1  ->  bombing
+  14:    1  ->  buddied
+  15:    1  ->  call
+  16:    1  ->  cauldron
+  17:    1  ->  clouds
+  18:    1  ->  fact
+  19:    1  ->  famish
+  20:    1  ->  fandango's
+  21:    1  ->  freight
+  22:    1  ->  gallop
+  23:    1  ->  gingham
+  24:    1  ->  hammered
+  25:    1  ->  has
+  26:    1  ->  he
+  27:    1  ->  her
+  28:    1  ->  him
+  29:    1  ->  hims
+  30:    1  ->  his
+  31:    1  ->  incandescents
+  32:    1  ->  is
+  33:    1  ->  it's
+  34:    1  ->  knight
+  35:    1  ->  leaking
+  36:    1  ->  lick
+  37:    1  ->  livers
+  38:    1  ->  malas
+  39:    1  ->  neat
+  40:    1  ->  nuget
+  41:    1  ->  o
+  42:    1  ->  paints
+  43:    1  ->  photograph
+  44:    1  ->  plans
+  45:    1  ->  powers
+  46:    1  ->  raised
+  47:    1  ->  rows
+  48:    1  ->  sad
+  49:    1  ->  schools
+  50:    1  ->  scout
+  51:    1  ->  selling
+  52:    1  ->  sip
+  53:    1  ->  size
+  54:    1  ->  skelton
+  55:    1  ->  slot
+  56:    1  ->  steps
+  57:    1  ->  stop
+  58:    1  ->  tha
+  59:    1  ->  the
+  60:    1  ->  to
+  61:    1  ->  toward
+  62:    1  ->  towel
+  63:    1  ->  trees
+  64:    1  ->  tusks
+  65:    1  ->  up
+  66:    1  ->  us
+  67:    1  ->  viles
+  68:    1  ->  was
+  69:    1  ->  with
+  70:    1  ->  your
+     -------
+        82
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

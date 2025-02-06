@@ -1,0 +1,123 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.5%   (  21)
+
+Percent Correct           =   97.6%   ( 810)
+
+Percent Substitution      =    1.8%   (  15)
+Percent Deletions         =    0.6%   (   5)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   97.5%
+
+
+Ref. words                =           ( 830)
+Hyp. words                =           ( 826)
+Aligned words             =           ( 831)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  aye ==> i
+   2:    1  ->  bay ==> bathe
+   3:    1  ->  bombs ==> firebombs
+   4:    1  ->  contained ==> selfcontained
+   5:    1  ->  croyden ==> croydon
+   6:    1  ->  economic ==> geoeconomic
+   7:    1  ->  herriman ==> harriman
+   8:    1  ->  interest ==> selfinterest
+   9:    1  ->  ishamelite ==> ishmaelite
+  10:    1  ->  katmandu ==> kathmandu
+  11:    1  ->  nation ==> nations
+  12:    1  ->  productions ==> production
+  13:    1  ->  regents ==> regent
+  14:    1  ->  shutter ==> shudder
+  15:    1  ->  starved ==> halfstarved
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  self
+   2:    1  ->  fire
+   3:    1  ->  geo
+   4:    1  ->  half
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  aye
+   2:    1  ->  bay
+   3:    1  ->  bombs
+   4:    1  ->  contained
+   5:    1  ->  croyden
+   6:    1  ->  economic
+   7:    1  ->  herriman
+   8:    1  ->  interest
+   9:    1  ->  ishamelite
+  10:    1  ->  katmandu
+  11:    1  ->  nation
+  12:    1  ->  productions
+  13:    1  ->  regents
+  14:    1  ->  shutter
+  15:    1  ->  starved
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  bathe
+   2:    1  ->  croydon
+   3:    1  ->  firebombs
+   4:    1  ->  geoeconomic
+   5:    1  ->  halfstarved
+   6:    1  ->  harriman
+   7:    1  ->  i
+   8:    1  ->  ishmaelite
+   9:    1  ->  kathmandu
+  10:    1  ->  nations
+  11:    1  ->  production
+  12:    1  ->  regent
+  13:    1  ->  selfcontained
+  14:    1  ->  selfinterest
+  15:    1  ->  shudder
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

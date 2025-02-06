@@ -1,0 +1,604 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   87.2%   ( 689)
+
+Percent Correct           =   12.8%   ( 101)
+
+Percent Substitution      =    8.0%   (  63)
+Percent Deletions         =   79.2%   ( 626)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   12.8%
+
+
+Ref. words                =           ( 790)
+Hyp. words                =           ( 164)
+Aligned words             =           ( 790)
+
+CONFUSION PAIRS                  Total                 (63)
+                                 With >=  1 occurrences (63)
+
+   1:    1  ->  a ==> four
+   2:    1  ->  a ==> second
+   3:    1  ->  airs ==> yes
+   4:    1  ->  anguish ==> this
+   5:    1  ->  around ==> in
+   6:    1  ->  basement ==> name
+   7:    1  ->  be ==> they
+   8:    1  ->  bet ==> deathbed
+   9:    1  ->  by ==> stacey
+  10:    1  ->  cambridge ==> her
+  11:    1  ->  cantilevers ==> media
+  12:    1  ->  careful ==> car
+  13:    1  ->  cave ==> found
+  14:    1  ->  change ==> place
+  15:    1  ->  curies ==> juries
+  16:    1  ->  demise ==> their
+  17:    1  ->  eighth ==> differences
+  18:    1  ->  heave ==> have
+  19:    1  ->  hypertext ==> hypo
+  20:    1  ->  i ==> my
+  21:    1  ->  incise ==> insist
+  22:    1  ->  invest ==> officer
+  23:    1  ->  langorous ==> agree
+  24:    1  ->  lemur ==> dilemma
+  25:    1  ->  lemur ==> eight
+  26:    1  ->  lemur ==> terrorism
+  27:    1  ->  mockingbird ==> grounds
+  28:    1  ->  mood ==> transaction
+  29:    1  ->  morning ==> transgression
+  30:    1  ->  now ==> i
+  31:    1  ->  of ==> you
+  32:    1  ->  old ==> and
+  33:    1  ->  one ==> thank
+  34:    1  ->  or ==> stuff
+  35:    1  ->  our ==> order
+  36:    1  ->  passes ==> three
+  37:    1  ->  pull ==> i
+  38:    1  ->  reassured ==> reassert
+  39:    1  ->  savants ==> savant
+  40:    1  ->  sloth ==> tool
+  41:    1  ->  slower ==> lower
+  42:    1  ->  the ==> and
+  43:    1  ->  the ==> i
+  44:    1  ->  the ==> level
+  45:    1  ->  the ==> questioning
+  46:    1  ->  thing ==> bez
+  47:    1  ->  thought ==> throughout
+  48:    1  ->  throats ==> to
+  49:    1  ->  topographies ==> medical
+  50:    1  ->  trigonometry ==> may
+  51:    1  ->  trumped ==> is
+  52:    1  ->  unavowable ==> community
+  53:    1  ->  up ==> and
+  54:    1  ->  visual ==> and
+  55:    1  ->  voicing ==> hi
+  56:    1  ->  what ==> just
+  57:    1  ->  who ==> he
+  58:    1  ->  woods ==> thank
+  59:    1  ->  x ==> can
+  60:    1  ->  x ==> funds
+  61:    1  ->  x ==> idaho
+  62:    1  ->  x ==> know
+  63:    1  ->  x ==> to
+     -------
+        63
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (359)
+                                 With >=  1 occurrences (359)
+
+   1:   44  ->  the
+   2:   43  ->  x
+   3:   28  ->  of
+   4:   20  ->  a
+   5:   13  ->  to
+   6:   10  ->  in
+   7:    8  ->  we
+   8:    7  ->  an
+   9:    5  ->  and
+  10:    5  ->  it
+  11:    5  ->  not
+  12:    5  ->  this
+  13:    4  ->  are
+  14:    4  ->  as
+  15:    4  ->  is
+  16:    4  ->  or
+  17:    4  ->  so
+  18:    4  ->  that
+  19:    4  ->  with
+  20:    3  ->  all
+  21:    3  ->  ashes
+  22:    3  ->  furry
+  23:    3  ->  here
+  24:    3  ->  it's
+  25:    3  ->  last
+  26:    3  ->  on
+  27:    3  ->  one
+  28:    3  ->  only
+  29:    3  ->  soft
+  30:    3  ->  stur
+  31:    3  ->  their
+  32:    3  ->  what
+  33:    2  ->  actually
+  34:    2  ->  against
+  35:    2  ->  am
+  36:    2  ->  another
+  37:    2  ->  at
+  38:    2  ->  attempt
+  39:    2  ->  beloved
+  40:    2  ->  called
+  41:    2  ->  death
+  42:    2  ->  do
+  43:    2  ->  end
+  44:    2  ->  fire
+  45:    2  ->  for
+  46:    2  ->  grass
+  47:    2  ->  hands
+  48:    2  ->  have
+  49:    2  ->  hold
+  50:    2  ->  how
+  51:    2  ->  i
+  52:    2  ->  image
+  53:    2  ->  into
+  54:    2  ->  lake
+  55:    2  ->  lines
+  56:    2  ->  matter
+  57:    2  ->  moon
+  58:    2  ->  more
+  59:    2  ->  my
+  60:    2  ->  name
+  61:    2  ->  no
+  62:    2  ->  oaks
+  63:    2  ->  other
+  64:    2  ->  our
+  65:    2  ->  pleasure
+  66:    2  ->  stray
+  67:    2  ->  than
+  68:    2  ->  through
+  69:    2  ->  try
+  70:    2  ->  writing
+  71:    2  ->  yet
+  72:    1  ->  added
+  73:    1  ->  aerodynamic
+  74:    1  ->  aesthetics
+  75:    1  ->  aged
+  76:    1  ->  alienated
+  77:    1  ->  always
+  78:    1  ->  american
+  79:    1  ->  arabic
+  80:    1  ->  argument
+  81:    1  ->  arrogance
+  82:    1  ->  atoms
+  83:    1  ->  avoid
+  84:    1  ->  back
+  85:    1  ->  balloon
+  86:    1  ->  be
+  87:    1  ->  bead
+  88:    1  ->  bee
+  89:    1  ->  behind
+  90:    1  ->  behooves
+  91:    1  ->  beijing
+  92:    1  ->  birds
+  93:    1  ->  bit
+  94:    1  ->  black
+  95:    1  ->  blue
+  96:    1  ->  bone
+  97:    1  ->  box
+  98:    1  ->  bring
+  99:    1  ->  brood
+ 100:    1  ->  bullets
+ 101:    1  ->  but
+ 102:    1  ->  call
+ 103:    1  ->  can
+ 104:    1  ->  canon
+ 105:    1  ->  caravan
+ 106:    1  ->  caravans
+ 107:    1  ->  careful
+ 108:    1  ->  cats
+ 109:    1  ->  century's
+ 110:    1  ->  certain
+ 111:    1  ->  chain
+ 112:    1  ->  chainsaw
+ 113:    1  ->  christian
+ 114:    1  ->  cloth
+ 115:    1  ->  cold
+ 116:    1  ->  combustion
+ 117:    1  ->  concatenation
+ 118:    1  ->  consumption
+ 119:    1  ->  continental
+ 120:    1  ->  count
+ 121:    1  ->  counted
+ 122:    1  ->  court
+ 123:    1  ->  cross
+ 124:    1  ->  cup
+ 125:    1  ->  cut
+ 126:    1  ->  d
+ 127:    1  ->  dawn
+ 128:    1  ->  day
+ 129:    1  ->  dead
+ 130:    1  ->  defect
+ 131:    1  ->  demand
+ 132:    1  ->  desire
+ 133:    1  ->  desperate
+ 134:    1  ->  despot
+ 135:    1  ->  die
+ 136:    1  ->  difference
+ 137:    1  ->  disparage
+ 138:    1  ->  distant
+ 139:    1  ->  does
+ 140:    1  ->  dogs
+ 141:    1  ->  down
+ 142:    1  ->  draws
+ 143:    1  ->  dream
+ 144:    1  ->  drift
+ 145:    1  ->  drink
+ 146:    1  ->  early
+ 147:    1  ->  earth
+ 148:    1  ->  eat
+ 149:    1  ->  echo
+ 150:    1  ->  edge
+ 151:    1  ->  elegies
+ 152:    1  ->  elsewhere
+ 153:    1  ->  ending
+ 154:    1  ->  engine
+ 155:    1  ->  english
+ 156:    1  ->  escape
+ 157:    1  ->  every
+ 158:    1  ->  exertion
+ 159:    1  ->  extinction
+ 160:    1  ->  eyes
+ 161:    1  ->  fatigue
+ 162:    1  ->  fireflies
+ 163:    1  ->  flight
+ 164:    1  ->  floated
+ 165:    1  ->  fools
+ 166:    1  ->  forethought
+ 167:    1  ->  forged
+ 168:    1  ->  forget
+ 169:    1  ->  form
+ 170:    1  ->  fuchsia
+ 171:    1  ->  funny
+ 172:    1  ->  gem
+ 173:    1  ->  ghosts
+ 174:    1  ->  giant
+ 175:    1  ->  grain
+ 176:    1  ->  growth
+ 177:    1  ->  hair
+ 178:    1  ->  handheld
+ 179:    1  ->  haze
+ 180:    1  ->  hear
+ 181:    1  ->  helicopter
+ 182:    1  ->  her
+ 183:    1  ->  hole
+ 184:    1  ->  homilies
+ 185:    1  ->  homo
+ 186:    1  ->  hotel
+ 187:    1  ->  house
+ 188:    1  ->  hover
+ 189:    1  ->  howl
+ 190:    1  ->  human
+ 191:    1  ->  if
+ 192:    1  ->  immediate
+ 193:    1  ->  imposition
+ 194:    1  ->  insert
+ 195:    1  ->  inside
+ 196:    1  ->  island
+ 197:    1  ->  itself
+ 198:    1  ->  japanese
+ 199:    1  ->  king
+ 200:    1  ->  king's
+ 201:    1  ->  knoweth
+ 202:    1  ->  lacks
+ 203:    1  ->  lady
+ 204:    1  ->  lake's
+ 205:    1  ->  land
+ 206:    1  ->  language
+ 207:    1  ->  lapping
+ 208:    1  ->  lapping's
+ 209:    1  ->  law
+ 210:    1  ->  leads
+ 211:    1  ->  lemur
+ 212:    1  ->  less
+ 213:    1  ->  let
+ 214:    1  ->  levels
+ 215:    1  ->  lies
+ 216:    1  ->  line
+ 217:    1  ->  lion
+ 218:    1  ->  live
+ 219:    1  ->  lord
+ 220:    1  ->  lottery
+ 221:    1  ->  many
+ 222:    1  ->  maybe
+ 223:    1  ->  melli
+ 224:    1  ->  mellifluency
+ 225:    1  ->  middle
+ 226:    1  ->  midmorning
+ 227:    1  ->  mirror
+ 228:    1  ->  misuse
+ 229:    1  ->  mondays
+ 230:    1  ->  mowed
+ 231:    1  ->  named
+ 232:    1  ->  near
+ 233:    1  ->  needle
+ 234:    1  ->  needs
+ 235:    1  ->  neighbour's
+ 236:    1  ->  neither
+ 237:    1  ->  news
+ 238:    1  ->  nomad
+ 239:    1  ->  nomads
+ 240:    1  ->  nor
+ 241:    1  ->  now
+ 242:    1  ->  oblong
+ 243:    1  ->  obvious
+ 244:    1  ->  off
+ 245:    1  ->  old
+ 246:    1  ->  out
+ 247:    1  ->  outside
+ 248:    1  ->  overhead
+ 249:    1  ->  page
+ 250:    1  ->  part
+ 251:    1  ->  physical
+ 252:    1  ->  pig
+ 253:    1  ->  piss
+ 254:    1  ->  plants
+ 255:    1  ->  play
+ 256:    1  ->  poems
+ 257:    1  ->  poison
+ 258:    1  ->  political
+ 259:    1  ->  preislamic
+ 260:    1  ->  prosimian
+ 261:    1  ->  put
+ 262:    1  ->  quest
+ 263:    1  ->  rabbit
+ 264:    1  ->  read
+ 265:    1  ->  really
+ 266:    1  ->  resistance
+ 267:    1  ->  rest
+ 268:    1  ->  restaurant
+ 269:    1  ->  rhythm
+ 270:    1  ->  ribs
+ 271:    1  ->  rorschach
+ 272:    1  ->  rosy
+ 273:    1  ->  round
+ 274:    1  ->  rub
+ 275:    1  ->  ruins
+ 276:    1  ->  run
+ 277:    1  ->  runs
+ 278:    1  ->  sacramental
+ 279:    1  ->  sanity
+ 280:    1  ->  saves
+ 281:    1  ->  scattershot
+ 282:    1  ->  second
+ 283:    1  ->  sexy
+ 284:    1  ->  shed
+ 285:    1  ->  sheets
+ 286:    1  ->  shift
+ 287:    1  ->  shot
+ 288:    1  ->  side
+ 289:    1  ->  simulacrum
+ 290:    1  ->  sing
+ 291:    1  ->  singleminded
+ 292:    1  ->  sky
+ 293:    1  ->  sleek
+ 294:    1  ->  sleep
+ 295:    1  ->  somersault
+ 296:    1  ->  something
+ 297:    1  ->  song
+ 298:    1  ->  sorry
+ 299:    1  ->  space
+ 300:    1  ->  spangled
+ 301:    1  ->  spare
+ 302:    1  ->  species
+ 303:    1  ->  speech
+ 304:    1  ->  speed
+ 305:    1  ->  squat
+ 306:    1  ->  squish
+ 307:    1  ->  stands
+ 308:    1  ->  stars
+ 309:    1  ->  steed
+ 310:    1  ->  stop
+ 311:    1  ->  strain
+ 312:    1  ->  street
+ 313:    1  ->  strips
+ 314:    1  ->  structures
+ 315:    1  ->  tall
+ 316:    1  ->  tear
+ 317:    1  ->  terror
+ 318:    1  ->  there
+ 319:    1  ->  they
+ 320:    1  ->  threes
+ 321:    1  ->  tires
+ 322:    1  ->  toehold
+ 323:    1  ->  tonight
+ 324:    1  ->  transgression
+ 325:    1  ->  tribe
+ 326:    1  ->  truck's
+ 327:    1  ->  tuesdays
+ 328:    1  ->  typed
+ 329:    1  ->  uncommunity
+ 330:    1  ->  up
+ 331:    1  ->  upon
+ 332:    1  ->  use
+ 333:    1  ->  vanity
+ 334:    1  ->  vanquish
+ 335:    1  ->  vanquished
+ 336:    1  ->  verbs
+ 337:    1  ->  vertical
+ 338:    1  ->  visitors
+ 339:    1  ->  was
+ 340:    1  ->  watering
+ 341:    1  ->  way
+ 342:    1  ->  weekend
+ 343:    1  ->  were
+ 344:    1  ->  wheel
+ 345:    1  ->  where
+ 346:    1  ->  which
+ 347:    1  ->  white
+ 348:    1  ->  whom
+ 349:    1  ->  will
+ 350:    1  ->  wine
+ 351:    1  ->  wonderful
+ 352:    1  ->  words
+ 353:    1  ->  worry
+ 354:    1  ->  written
+ 355:    1  ->  year
+ 356:    1  ->  year's
+ 357:    1  ->  you
+ 358:    1  ->  young
+ 359:    1  ->  your
+     -------
+       626
+
+
+
+SUBSTITUTIONS                    Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    5  ->  x
+   2:    4  ->  the
+   3:    3  ->  lemur
+   4:    2  ->  a
+   5:    1  ->  airs
+   6:    1  ->  anguish
+   7:    1  ->  around
+   8:    1  ->  basement
+   9:    1  ->  be
+  10:    1  ->  bet
+  11:    1  ->  by
+  12:    1  ->  cambridge
+  13:    1  ->  cantilevers
+  14:    1  ->  careful
+  15:    1  ->  cave
+  16:    1  ->  change
+  17:    1  ->  curies
+  18:    1  ->  demise
+  19:    1  ->  eighth
+  20:    1  ->  heave
+  21:    1  ->  hypertext
+  22:    1  ->  i
+  23:    1  ->  incise
+  24:    1  ->  invest
+  25:    1  ->  langorous
+  26:    1  ->  mockingbird
+  27:    1  ->  mood
+  28:    1  ->  morning
+  29:    1  ->  now
+  30:    1  ->  of
+  31:    1  ->  old
+  32:    1  ->  one
+  33:    1  ->  or
+  34:    1  ->  our
+  35:    1  ->  passes
+  36:    1  ->  pull
+  37:    1  ->  reassured
+  38:    1  ->  savants
+  39:    1  ->  sloth
+  40:    1  ->  slower
+  41:    1  ->  thing
+  42:    1  ->  thought
+  43:    1  ->  throats
+  44:    1  ->  topographies
+  45:    1  ->  trigonometry
+  46:    1  ->  trumped
+  47:    1  ->  unavowable
+  48:    1  ->  up
+  49:    1  ->  visual
+  50:    1  ->  voicing
+  51:    1  ->  what
+  52:    1  ->  who
+  53:    1  ->  woods
+     -------
+        63
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (56)
+                                 With >=  1 occurrences (56)
+
+   1:    4  ->  and
+   2:    3  ->  i
+   3:    2  ->  thank
+   4:    2  ->  to
+   5:    1  ->  agree
+   6:    1  ->  bez
+   7:    1  ->  can
+   8:    1  ->  car
+   9:    1  ->  community
+  10:    1  ->  deathbed
+  11:    1  ->  differences
+  12:    1  ->  dilemma
+  13:    1  ->  eight
+  14:    1  ->  found
+  15:    1  ->  four
+  16:    1  ->  funds
+  17:    1  ->  grounds
+  18:    1  ->  have
+  19:    1  ->  he
+  20:    1  ->  her
+  21:    1  ->  hi
+  22:    1  ->  hypo
+  23:    1  ->  idaho
+  24:    1  ->  in
+  25:    1  ->  insist
+  26:    1  ->  is
+  27:    1  ->  juries
+  28:    1  ->  just
+  29:    1  ->  know
+  30:    1  ->  level
+  31:    1  ->  lower
+  32:    1  ->  may
+  33:    1  ->  media
+  34:    1  ->  medical
+  35:    1  ->  my
+  36:    1  ->  name
+  37:    1  ->  officer
+  38:    1  ->  order
+  39:    1  ->  place
+  40:    1  ->  questioning
+  41:    1  ->  reassert
+  42:    1  ->  savant
+  43:    1  ->  second
+  44:    1  ->  stacey
+  45:    1  ->  stuff
+  46:    1  ->  terrorism
+  47:    1  ->  their
+  48:    1  ->  they
+  49:    1  ->  this
+  50:    1  ->  three
+  51:    1  ->  throughout
+  52:    1  ->  tool
+  53:    1  ->  transaction
+  54:    1  ->  transgression
+  55:    1  ->  yes
+  56:    1  ->  you
+     -------
+        63
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

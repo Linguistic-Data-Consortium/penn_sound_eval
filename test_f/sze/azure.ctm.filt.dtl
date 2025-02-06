@@ -1,0 +1,157 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.1%   (  36)
+
+Percent Correct           =   95.8%   ( 681)
+
+Percent Substitution      =    3.4%   (  24)
+Percent Deletions         =    0.8%   (   6)
+Percent Insertions        =    0.8%   (   6)
+Percent Word Accuracy     =   94.9%
+
+
+Ref. words                =           ( 711)
+Hyp. words                =           ( 711)
+Aligned words             =           ( 717)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  at ==> wedded
+   2:    1  ->  bass ==> base
+   3:    1  ->  blackbird ==> bird
+   4:    1  ->  cars ==> 's
+   5:    1  ->  central ==> essential
+   6:    1  ->  combust ==> combusts
+   7:    1  ->  dingy ==> stingy
+   8:    1  ->  forsythia ==> scythia
+   9:    1  ->  fresh ==> rash
+  10:    1  ->  frieze ==> freeze
+  11:    1  ->  laurel ==> laura
+  12:    1  ->  lay ==> chinakalay
+  13:    1  ->  lyres ==> liars
+  14:    1  ->  on ==> whitecaps
+  15:    1  ->  one ==> when
+  16:    1  ->  palmettes ==> pomets
+  17:    1  ->  peristyle ==> style
+  18:    1  ->  place ==> a
+  19:    1  ->  scumsucker ==> sucker
+  20:    1  ->  shards ==> charts
+  21:    1  ->  teal ==> until
+  22:    1  ->  the ==> black
+  23:    1  ->  winstead ==> that
+  24:    1  ->  woman ==> women
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  car
+   2:    1  ->  for
+   3:    1  ->  para
+   4:    1  ->  placed
+   5:    1  ->  scum
+   6:    1  ->  winds
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  caps
+   3:    1  ->  chenaga
+   4:    1  ->  strin
+   5:    1  ->  wet
+   6:    1  ->  what
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  at
+   2:    1  ->  bass
+   3:    1  ->  blackbird
+   4:    1  ->  cars
+   5:    1  ->  central
+   6:    1  ->  combust
+   7:    1  ->  dingy
+   8:    1  ->  forsythia
+   9:    1  ->  fresh
+  10:    1  ->  frieze
+  11:    1  ->  laurel
+  12:    1  ->  lay
+  13:    1  ->  lyres
+  14:    1  ->  on
+  15:    1  ->  one
+  16:    1  ->  palmettes
+  17:    1  ->  peristyle
+  18:    1  ->  place
+  19:    1  ->  scumsucker
+  20:    1  ->  shards
+  21:    1  ->  teal
+  22:    1  ->  the
+  23:    1  ->  winstead
+  24:    1  ->  woman
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  's
+   2:    1  ->  a
+   3:    1  ->  base
+   4:    1  ->  bird
+   5:    1  ->  black
+   6:    1  ->  charts
+   7:    1  ->  chinakalay
+   8:    1  ->  combusts
+   9:    1  ->  essential
+  10:    1  ->  freeze
+  11:    1  ->  laura
+  12:    1  ->  liars
+  13:    1  ->  pomets
+  14:    1  ->  rash
+  15:    1  ->  scythia
+  16:    1  ->  stingy
+  17:    1  ->  style
+  18:    1  ->  sucker
+  19:    1  ->  that
+  20:    1  ->  until
+  21:    1  ->  wedded
+  22:    1  ->  when
+  23:    1  ->  whitecaps
+  24:    1  ->  women
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

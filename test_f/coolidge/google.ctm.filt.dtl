@@ -1,0 +1,208 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.6%   (  64)
+
+Percent Correct           =   94.3%   ( 913)
+
+Percent Substitution      =    4.1%   (  40)
+Percent Deletions         =    1.5%   (  15)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   93.4%
+
+
+Ref. words                =           ( 968)
+Hyp. words                =           ( 962)
+Aligned words             =           ( 977)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  firehouse ==> house
+   2:    2  ->  open ==> opened
+   3:    1  ->  a ==> an
+   4:    1  ->  barn ==> in
+   5:    1  ->  bleak ==> oblique
+   6:    1  ->  brain ==> brain"
+   7:    1  ->  cow ==> count
+   8:    1  ->  desserts ==> deserts
+   9:    1  ->  dew ==> do
+  10:    1  ->  dons ==> tormodons
+  11:    1  ->  eleven ==> one
+  12:    1  ->  emits ==> omits
+  13:    1  ->  en ==> on
+  14:    1  ->  finger's ==> fingers
+  15:    1  ->  fish ==> goldfish
+  16:    1  ->  flair ==> flare
+  17:    1  ->  hear ==> here
+  18:    1  ->  in ==> and
+  19:    1  ->  inch ==> 3in
+  20:    1  ->  ja ==> yeah
+  21:    1  ->  lock ==> ringlock
+  22:    1  ->  masse ==> moss
+  23:    1  ->  mists ==> mist
+  24:    1  ->  obliquer ==> oblique
+  25:    1  ->  our ==> are
+  26:    1  ->  quislings ==> quizzlings
+  27:    1  ->  smell ==> smells
+  28:    1  ->  stakes ==> mistakes
+  29:    1  ->  steaks ==> stakes
+  30:    1  ->  supposed ==> it
+  31:    1  ->  tamps ==> tamp
+  32:    1  ->  the ==> to
+  33:    1  ->  there's ==> as
+  34:    1  ->  those ==> "those
+  35:    1  ->  ticket ==> at
+  36:    1  ->  to ==> of
+  37:    1  ->  to ==> till
+  38:    1  ->  unknown ==> known
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  fire
+   2:    1  ->  bar
+   3:    1  ->  is
+   4:    1  ->  one
+   5:    1  ->  suppose
+   6:    1  ->  the
+   7:    1  ->  tick
+   8:    1  ->  whoop
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  bombings
+   4:    1  ->  goal
+   5:    1  ->  guava
+   6:    1  ->  it
+   7:    1  ->  not
+   8:    1  ->  ring
+   9:    1  ->  the
+  10:    1  ->  they
+  11:    1  ->  three
+  12:    1  ->  torma
+  13:    1  ->  we
+  14:    1  ->  will
+  15:    1  ->  would
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  firehouse
+   2:    2  ->  open
+   3:    2  ->  to
+   4:    1  ->  a
+   5:    1  ->  barn
+   6:    1  ->  bleak
+   7:    1  ->  brain
+   8:    1  ->  cow
+   9:    1  ->  desserts
+  10:    1  ->  dew
+  11:    1  ->  dons
+  12:    1  ->  eleven
+  13:    1  ->  emits
+  14:    1  ->  en
+  15:    1  ->  finger's
+  16:    1  ->  fish
+  17:    1  ->  flair
+  18:    1  ->  hear
+  19:    1  ->  in
+  20:    1  ->  inch
+  21:    1  ->  ja
+  22:    1  ->  lock
+  23:    1  ->  masse
+  24:    1  ->  mists
+  25:    1  ->  obliquer
+  26:    1  ->  our
+  27:    1  ->  quislings
+  28:    1  ->  smell
+  29:    1  ->  stakes
+  30:    1  ->  steaks
+  31:    1  ->  supposed
+  32:    1  ->  tamps
+  33:    1  ->  the
+  34:    1  ->  there's
+  35:    1  ->  those
+  36:    1  ->  ticket
+  37:    1  ->  unknown
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  house
+   2:    2  ->  oblique
+   3:    2  ->  opened
+   4:    1  ->  "those
+   5:    1  ->  3in
+   6:    1  ->  an
+   7:    1  ->  and
+   8:    1  ->  are
+   9:    1  ->  as
+  10:    1  ->  at
+  11:    1  ->  brain"
+  12:    1  ->  count
+  13:    1  ->  deserts
+  14:    1  ->  do
+  15:    1  ->  fingers
+  16:    1  ->  flare
+  17:    1  ->  goldfish
+  18:    1  ->  here
+  19:    1  ->  in
+  20:    1  ->  it
+  21:    1  ->  known
+  22:    1  ->  mist
+  23:    1  ->  mistakes
+  24:    1  ->  moss
+  25:    1  ->  of
+  26:    1  ->  omits
+  27:    1  ->  on
+  28:    1  ->  one
+  29:    1  ->  quizzlings
+  30:    1  ->  ringlock
+  31:    1  ->  smells
+  32:    1  ->  stakes
+  33:    1  ->  tamp
+  34:    1  ->  till
+  35:    1  ->  to
+  36:    1  ->  tormodons
+  37:    1  ->  yeah
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

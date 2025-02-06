@@ -1,0 +1,237 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.1%   (  73)
+
+Percent Correct           =   94.0%   ( 962)
+
+Percent Substitution      =    5.3%   (  54)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    1.2%   (  12)
+Percent Word Accuracy     =   92.9%
+
+
+Ref. words                =           (1023)
+Hyp. words                =           (1028)
+Aligned words             =           (1035)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    3  ->  in ==> and
+   2:    2  ->  as ==> is
+   3:    2  ->  tried ==> try
+   4:    1  ->  a ==> aisle
+   5:    1  ->  beetle ==> beatle
+   6:    1  ->  bluet ==> blue
+   7:    1  ->  burned ==> burn
+   8:    1  ->  chubsucker ==> sucker
+   9:    1  ->  claimed ==> claim
+  10:    1  ->  climactic ==> climatic
+  11:    1  ->  colombia ==> columbia
+  12:    1  ->  duskywing ==> wing
+  13:    1  ->  fjord ==> for
+  14:    1  ->  fjords ==> fears
+  15:    1  ->  goshawk ==> hawk
+  16:    1  ->  hood ==> monkshood
+  17:    1  ->  ironcolor ==> color
+  18:    1  ->  jair ==> jar
+  19:    1  ->  karner ==> carner
+  20:    1  ->  kiribati ==> boss
+  21:    1  ->  kiribati ==> carabus
+  22:    1  ->  lamprey ==> free
+  23:    1  ->  leedy's ==> rose
+  24:    1  ->  lived ==> live
+  25:    1  ->  longear ==> ear
+  26:    1  ->  longhead ==> had
+  27:    1  ->  longtail ==> tail
+  28:    1  ->  massasauga ==> massage
+  29:    1  ->  meant ==> man
+  30:    1  ->  mooneye ==> mooney
+  31:    1  ->  mottled ==> dusky
+  32:    1  ->  or ==> are
+  33:    1  ->  poles ==> polls
+  34:    1  ->  receding ==> receiving
+  35:    1  ->  roseroot ==> root
+  36:    1  ->  shrike ==> strike
+  37:    1  ->  tern ==> turn
+  38:    1  ->  the ==> a
+  39:    1  ->  the ==> nacha
+  40:    1  ->  their ==> her
+  41:    1  ->  there ==> long
+  42:    1  ->  this ==> the
+  43:    1  ->  tokelau ==> ocala
+  44:    1  ->  tokelau ==> talal
+  45:    1  ->  try ==> tried
+  46:    1  ->  tuvalu ==> value
+  47:    1  ->  valvata ==> alvada
+  48:    1  ->  vatnajokull ==> cul
+  49:    1  ->  water ==> groundwater
+  50:    1  ->  water ==> underwater
+     -------
+        54
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  long
+   2:    1  ->  chop
+   3:    1  ->  ghost
+   4:    1  ->  iron
+   5:    1  ->  kira
+   6:    1  ->  lady's
+   7:    1  ->  lamb
+   8:    1  ->  malted
+   9:    1  ->  that
+  10:    1  ->  their
+  11:    1  ->  two
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  ground
+   3:    1  ->  hap
+   4:    1  ->  is
+   5:    1  ->  monk's
+   6:    1  ->  under
+   7:    1  ->  w
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    3  ->  in
+   2:    2  ->  as
+   3:    2  ->  kiribati
+   4:    2  ->  the
+   5:    2  ->  tokelau
+   6:    2  ->  tried
+   7:    2  ->  water
+   8:    1  ->  a
+   9:    1  ->  beetle
+  10:    1  ->  bluet
+  11:    1  ->  burned
+  12:    1  ->  chubsucker
+  13:    1  ->  claimed
+  14:    1  ->  climactic
+  15:    1  ->  colombia
+  16:    1  ->  duskywing
+  17:    1  ->  fjord
+  18:    1  ->  fjords
+  19:    1  ->  goshawk
+  20:    1  ->  hood
+  21:    1  ->  ironcolor
+  22:    1  ->  jair
+  23:    1  ->  karner
+  24:    1  ->  lamprey
+  25:    1  ->  leedy's
+  26:    1  ->  lived
+  27:    1  ->  longear
+  28:    1  ->  longhead
+  29:    1  ->  longtail
+  30:    1  ->  massasauga
+  31:    1  ->  meant
+  32:    1  ->  mooneye
+  33:    1  ->  mottled
+  34:    1  ->  or
+  35:    1  ->  poles
+  36:    1  ->  receding
+  37:    1  ->  roseroot
+  38:    1  ->  shrike
+  39:    1  ->  tern
+  40:    1  ->  their
+  41:    1  ->  there
+  42:    1  ->  this
+  43:    1  ->  try
+  44:    1  ->  tuvalu
+  45:    1  ->  valvata
+  46:    1  ->  vatnajokull
+     -------
+        54
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    3  ->  and
+   2:    2  ->  is
+   3:    2  ->  try
+   4:    1  ->  a
+   5:    1  ->  aisle
+   6:    1  ->  alvada
+   7:    1  ->  are
+   8:    1  ->  beatle
+   9:    1  ->  blue
+  10:    1  ->  boss
+  11:    1  ->  burn
+  12:    1  ->  carabus
+  13:    1  ->  carner
+  14:    1  ->  claim
+  15:    1  ->  climatic
+  16:    1  ->  color
+  17:    1  ->  columbia
+  18:    1  ->  cul
+  19:    1  ->  dusky
+  20:    1  ->  ear
+  21:    1  ->  fears
+  22:    1  ->  for
+  23:    1  ->  free
+  24:    1  ->  groundwater
+  25:    1  ->  had
+  26:    1  ->  hawk
+  27:    1  ->  her
+  28:    1  ->  jar
+  29:    1  ->  live
+  30:    1  ->  long
+  31:    1  ->  man
+  32:    1  ->  massage
+  33:    1  ->  monkshood
+  34:    1  ->  mooney
+  35:    1  ->  nacha
+  36:    1  ->  ocala
+  37:    1  ->  polls
+  38:    1  ->  receiving
+  39:    1  ->  root
+  40:    1  ->  rose
+  41:    1  ->  strike
+  42:    1  ->  sucker
+  43:    1  ->  tail
+  44:    1  ->  talal
+  45:    1  ->  the
+  46:    1  ->  tried
+  47:    1  ->  turn
+  48:    1  ->  underwater
+  49:    1  ->  value
+  50:    1  ->  wing
+     -------
+        54
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

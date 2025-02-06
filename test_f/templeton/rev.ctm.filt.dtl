@@ -1,0 +1,393 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   16.1%   ( 176)
+
+Percent Correct           =   87.4%   ( 954)
+
+Percent Substitution      =    8.6%   (  94)
+Percent Deletions         =    4.0%   (  44)
+Percent Insertions        =    3.5%   (  38)
+Percent Word Accuracy     =   83.9%
+
+
+Ref. words                =           (1092)
+Hyp. words                =           (1086)
+Aligned words             =           (1130)
+
+CONFUSION PAIRS                  Total                 (94)
+                                 With >=  1 occurrences (94)
+
+   1:    1  ->  accumulative ==> cumulative
+   2:    1  ->  an ==> and
+   3:    1  ->  and ==> <laugh>
+   4:    1  ->  and ==> in
+   5:    1  ->  and ==> on
+   6:    1  ->  and ==> the
+   7:    1  ->  are ==> a
+   8:    1  ->  away ==> way
+   9:    1  ->  back ==> of
+  10:    1  ->  beam ==> beating
+  11:    1  ->  because ==> shy
+  12:    1  ->  bedroom's ==> bedrooms
+  13:    1  ->  by ==> going
+  14:    1  ->  cluster ==> just
+  15:    1  ->  conches ==> conscious
+  16:    1  ->  corpus ==> the
+  17:    1  ->  deci ==> dec
+  18:    1  ->  divine ==> design
+  19:    1  ->  doing's ==> doings
+  20:    1  ->  effects ==> affects
+  21:    1  ->  elated ==> mated
+  22:    1  ->  ever ==> corpus
+  23:    1  ->  face ==> kiss
+  24:    1  ->  fifty ==> oh
+  25:    1  ->  first ==> visit
+  26:    1  ->  gardens ==> guardians
+  27:    1  ->  glenn ==> glen
+  28:    1  ->  habeas ==> make
+  29:    1  ->  having ==> and
+  30:    1  ->  head ==> heads
+  31:    1  ->  in ==> and
+  32:    1  ->  in ==> imp
+  33:    1  ->  just ==> cluster
+  34:    1  ->  kiss ==> out
+  35:    1  ->  lapped ==> la
+  36:    1  ->  lev ==> love
+  37:    1  ->  make ==> utility
+  38:    1  ->  man ==> stickman
+  39:    1  ->  me ==> drinking
+  40:    1  ->  much ==> match
+  41:    1  ->  of ==> beer
+  42:    1  ->  of ==> outta
+  43:    1  ->  oh ==> well
+  44:    1  ->  out ==> habe
+  45:    1  ->  papercut ==> cut
+  46:    1  ->  presence ==> status
+  47:    1  ->  runnerup ==> up
+  48:    1  ->  saw ==> expression
+  49:    1  ->  scene ==> seen
+  50:    1  ->  sentences ==> because
+  51:    1  ->  she ==> he
+  52:    1  ->  shells ==> shell
+  53:    1  ->  shy ==> bunch
+  54:    1  ->  sounds ==> hounds
+  55:    1  ->  stained ==> staying
+  56:    1  ->  status ==> face
+  57:    1  ->  straw ==> strong
+  58:    1  ->  street ==> streets
+  59:    1  ->  talk ==> top
+  60:    1  ->  tameless ==> timeless
+  61:    1  ->  the ==> right
+  62:    1  ->  their ==> the
+  63:    1  ->  thrall ==> thro
+  64:    1  ->  til ==> till
+  65:    1  ->  to ==> a
+  66:    1  ->  to ==> conscientious
+  67:    1  ->  turns ==> terms
+  68:    1  ->  up ==> their
+  69:    1  ->  us ==> kicker
+  70:    1  ->  viv ==> have
+  71:    1  ->  was ==> is
+  72:    1  ->  way ==> away
+  73:    1  ->  what ==> <laugh>
+  74:    1  ->  width ==> lips
+  75:    1  ->  wither ==> withers
+  76:    1  ->  wooing ==> totaling
+  77:    1  ->  word's ==> words
+  78:    1  ->  wraith ==> wrath
+  79:    1  ->  x ==> alliance
+  80:    1  ->  x ==> and
+  81:    1  ->  x ==> beginning
+  82:    1  ->  x ==> blood
+  83:    1  ->  x ==> drinks
+  84:    1  ->  x ==> ezio
+  85:    1  ->  x ==> from
+  86:    1  ->  x ==> k.
+  87:    1  ->  x ==> psycholo
+  88:    1  ->  x ==> that
+  89:    1  ->  x ==> the
+  90:    1  ->  x ==> to
+  91:    1  ->  x ==> up
+  92:    1  ->  x ==> was
+  93:    1  ->  x ==> yeah
+  94:    1  ->  x ==> your
+     -------
+        94
+
+
+
+INSERTIONS                       Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    3  ->  to
+   2:    1  ->  <affirmative>
+   3:    1  ->  <laugh>
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  blatant
+   7:    1  ->  child
+   8:    1  ->  convention
+   9:    1  ->  countless
+  10:    1  ->  fine
+  11:    1  ->  five
+  12:    1  ->  i
+  13:    1  ->  it
+  14:    1  ->  it's
+  15:    1  ->  just
+  16:    1  ->  like
+  17:    1  ->  made
+  18:    1  ->  me
+  19:    1  ->  means
+  20:    1  ->  misconduct
+  21:    1  ->  mmhmm
+  22:    1  ->  more
+  23:    1  ->  o.
+  24:    1  ->  oh
+  25:    1  ->  on
+  26:    1  ->  paper
+  27:    1  ->  permission
+  28:    1  ->  refugee
+  29:    1  ->  runner
+  30:    1  ->  same
+  31:    1  ->  sentences
+  32:    1  ->  spoke
+  33:    1  ->  stack
+  34:    1  ->  they
+  35:    1  ->  up
+  36:    1  ->  y
+     -------
+        38
+
+
+
+DELETIONS                        Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    7  ->  x
+   2:    3  ->  the
+   3:    2  ->  in
+   4:    2  ->  it
+   5:    2  ->  out
+   6:    2  ->  to
+   7:    1  ->  a
+   8:    1  ->  absentia
+   9:    1  ->  am
+  10:    1  ->  are
+  11:    1  ->  authorities
+  12:    1  ->  b
+  13:    1  ->  beer
+  14:    1  ->  blatant
+  15:    1  ->  conscientious
+  16:    1  ->  convention
+  17:    1  ->  drinking
+  18:    1  ->  expression
+  19:    1  ->  just
+  20:    1  ->  kick
+  21:    1  ->  misconduct
+  22:    1  ->  of
+  23:    1  ->  on
+  24:    1  ->  permission
+  25:    1  ->  pillows
+  26:    1  ->  refugees
+  27:    1  ->  shy
+  28:    1  ->  stick
+  29:    1  ->  their
+  30:    1  ->  utilities
+  31:    1  ->  visit
+  32:    1  ->  with
+     -------
+        44
+
+
+
+SUBSTITUTIONS                    Total                 (73)
+                                 With >=  1 occurrences (73)
+
+   1:   16  ->  x
+   2:    4  ->  and
+   3:    2  ->  in
+   4:    2  ->  of
+   5:    2  ->  to
+   6:    1  ->  accumulative
+   7:    1  ->  an
+   8:    1  ->  are
+   9:    1  ->  away
+  10:    1  ->  back
+  11:    1  ->  beam
+  12:    1  ->  because
+  13:    1  ->  bedroom's
+  14:    1  ->  by
+  15:    1  ->  cluster
+  16:    1  ->  conches
+  17:    1  ->  corpus
+  18:    1  ->  deci
+  19:    1  ->  divine
+  20:    1  ->  doing's
+  21:    1  ->  effects
+  22:    1  ->  elated
+  23:    1  ->  ever
+  24:    1  ->  face
+  25:    1  ->  fifty
+  26:    1  ->  first
+  27:    1  ->  gardens
+  28:    1  ->  glenn
+  29:    1  ->  habeas
+  30:    1  ->  having
+  31:    1  ->  head
+  32:    1  ->  just
+  33:    1  ->  kiss
+  34:    1  ->  lapped
+  35:    1  ->  lev
+  36:    1  ->  make
+  37:    1  ->  man
+  38:    1  ->  me
+  39:    1  ->  much
+  40:    1  ->  oh
+  41:    1  ->  out
+  42:    1  ->  papercut
+  43:    1  ->  presence
+  44:    1  ->  runnerup
+  45:    1  ->  saw
+  46:    1  ->  scene
+  47:    1  ->  sentences
+  48:    1  ->  she
+  49:    1  ->  shells
+  50:    1  ->  shy
+  51:    1  ->  sounds
+  52:    1  ->  stained
+  53:    1  ->  status
+  54:    1  ->  straw
+  55:    1  ->  street
+  56:    1  ->  talk
+  57:    1  ->  tameless
+  58:    1  ->  the
+  59:    1  ->  their
+  60:    1  ->  thrall
+  61:    1  ->  til
+  62:    1  ->  turns
+  63:    1  ->  up
+  64:    1  ->  us
+  65:    1  ->  viv
+  66:    1  ->  was
+  67:    1  ->  way
+  68:    1  ->  what
+  69:    1  ->  width
+  70:    1  ->  wither
+  71:    1  ->  wooing
+  72:    1  ->  word's
+  73:    1  ->  wraith
+     -------
+        94
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (85)
+                                 With >=  1 occurrences (85)
+
+   1:    4  ->  and
+   2:    4  ->  the
+   3:    2  ->  <laugh>
+   4:    2  ->  a
+   5:    2  ->  up
+   6:    1  ->  affects
+   7:    1  ->  alliance
+   8:    1  ->  away
+   9:    1  ->  beating
+  10:    1  ->  because
+  11:    1  ->  bedrooms
+  12:    1  ->  beer
+  13:    1  ->  beginning
+  14:    1  ->  blood
+  15:    1  ->  bunch
+  16:    1  ->  cluster
+  17:    1  ->  conscientious
+  18:    1  ->  conscious
+  19:    1  ->  corpus
+  20:    1  ->  cumulative
+  21:    1  ->  cut
+  22:    1  ->  dec
+  23:    1  ->  design
+  24:    1  ->  doings
+  25:    1  ->  drinking
+  26:    1  ->  drinks
+  27:    1  ->  expression
+  28:    1  ->  ezio
+  29:    1  ->  face
+  30:    1  ->  from
+  31:    1  ->  glen
+  32:    1  ->  going
+  33:    1  ->  guardians
+  34:    1  ->  habe
+  35:    1  ->  have
+  36:    1  ->  he
+  37:    1  ->  heads
+  38:    1  ->  hounds
+  39:    1  ->  imp
+  40:    1  ->  in
+  41:    1  ->  is
+  42:    1  ->  just
+  43:    1  ->  k.
+  44:    1  ->  kicker
+  45:    1  ->  kiss
+  46:    1  ->  la
+  47:    1  ->  lips
+  48:    1  ->  love
+  49:    1  ->  make
+  50:    1  ->  match
+  51:    1  ->  mated
+  52:    1  ->  of
+  53:    1  ->  oh
+  54:    1  ->  on
+  55:    1  ->  out
+  56:    1  ->  outta
+  57:    1  ->  psycholo
+  58:    1  ->  right
+  59:    1  ->  seen
+  60:    1  ->  shell
+  61:    1  ->  shy
+  62:    1  ->  status
+  63:    1  ->  staying
+  64:    1  ->  stickman
+  65:    1  ->  streets
+  66:    1  ->  strong
+  67:    1  ->  terms
+  68:    1  ->  that
+  69:    1  ->  their
+  70:    1  ->  thro
+  71:    1  ->  till
+  72:    1  ->  timeless
+  73:    1  ->  to
+  74:    1  ->  top
+  75:    1  ->  totaling
+  76:    1  ->  utility
+  77:    1  ->  visit
+  78:    1  ->  was
+  79:    1  ->  way
+  80:    1  ->  well
+  81:    1  ->  withers
+  82:    1  ->  words
+  83:    1  ->  wrath
+  84:    1  ->  yeah
+  85:    1  ->  your
+     -------
+        94
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.4%   (  24)
+
+Percent Correct           =   98.1%   ( 969)
+
+Percent Substitution      =    1.5%   (  15)
+Percent Deletions         =    0.4%   (   4)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   97.6%
+
+
+Ref. words                =           ( 988)
+Hyp. words                =           ( 989)
+Aligned words             =           ( 993)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  an ==> and
+   2:    1  ->  as ==> his
+   3:    1  ->  as ==> is
+   4:    1  ->  car ==> boxcar
+   5:    1  ->  comings ==> cummings
+   6:    1  ->  enfolding ==> folding
+   7:    1  ->  falbalas ==> ballaz
+   8:    1  ->  in ==> foul
+   9:    1  ->  kafka's ==> 's
+  10:    1  ->  perspective ==> prospective
+  11:    1  ->  raban ==> rabban
+  12:    1  ->  seem ==> seemed
+  13:    1  ->  stares ==> stairs
+  14:    1  ->  the ==> a
+  15:    1  ->  too ==> two
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  in
+   4:    1  ->  is
+   5:    1  ->  kafka
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  box
+   3:    1  ->  mid
+   4:    1  ->  the
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  as
+   2:    1  ->  an
+   3:    1  ->  car
+   4:    1  ->  comings
+   5:    1  ->  enfolding
+   6:    1  ->  falbalas
+   7:    1  ->  in
+   8:    1  ->  kafka's
+   9:    1  ->  perspective
+  10:    1  ->  raban
+  11:    1  ->  seem
+  12:    1  ->  stares
+  13:    1  ->  the
+  14:    1  ->  too
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  's
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  ballaz
+   5:    1  ->  boxcar
+   6:    1  ->  cummings
+   7:    1  ->  folding
+   8:    1  ->  foul
+   9:    1  ->  his
+  10:    1  ->  is
+  11:    1  ->  prospective
+  12:    1  ->  rabban
+  13:    1  ->  seemed
+  14:    1  ->  stairs
+  15:    1  ->  two
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

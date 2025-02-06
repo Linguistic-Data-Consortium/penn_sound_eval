@@ -1,0 +1,248 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.6%   (  81)
+
+Percent Correct           =   93.3%   ( 992)
+
+Percent Substitution      =    5.3%   (  56)
+Percent Deletions         =    1.4%   (  15)
+Percent Insertions        =    0.9%   (  10)
+Percent Word Accuracy     =   92.4%
+
+
+Ref. words                =           (1063)
+Hyp. words                =           (1058)
+Aligned words             =           (1073)
+
+CONFUSION PAIRS                  Total                 (54)
+                                 With >=  1 occurrences (54)
+
+   1:    3  ->  in ==> and
+   2:    1  ->  adult ==> addled
+   3:    1  ->  and ==> his
+   4:    1  ->  at ==> of
+   5:    1  ->  biscuit ==> seabiscuit
+   6:    1  ->  calls ==> the
+   7:    1  ->  chooses ==> choose
+   8:    1  ->  choses ==> chooses
+   9:    1  ->  christmas' ==> christmas
+  10:    1  ->  clerk's ==> 's
+  11:    1  ->  coactivations ==> activations
+  12:    1  ->  connective ==> connected
+  13:    1  ->  downward ==> downwards
+  14:    1  ->  easter's ==> 's
+  15:    1  ->  end ==> and
+  16:    1  ->  etiolated ==> etiated
+  17:    1  ->  face ==> base
+  18:    1  ->  face ==> space
+  19:    1  ->  filled ==> film
+  20:    1  ->  gentler ==> arc
+  21:    1  ->  he ==> you
+  22:    1  ->  he's ==> these
+  23:    1  ->  herbs ==> earth
+  24:    1  ->  hershey's ==> 's
+  25:    1  ->  hop ==> how
+  26:    1  ->  illustrated ==> illustrative
+  27:    1  ->  is ==> 's
+  28:    1  ->  its ==> it's
+  29:    1  ->  leaf ==> belief
+  30:    1  ->  leaf ==> believe
+  31:    1  ->  leaves ==> assemblies
+  32:    1  ->  lily ==> lilly
+  33:    1  ->  live ==> life
+  34:    1  ->  maw ==> ma
+  35:    1  ->  mclaughlan ==> mclaughlin
+  36:    1  ->  muscles ==> muscle
+  37:    1  ->  of ==> an
+  38:    1  ->  opened ==> open
+  39:    1  ->  piqued ==> peaked
+  40:    1  ->  ploat ==> float
+  41:    1  ->  sprig ==> spring
+  42:    1  ->  squealed ==> wheels
+  43:    1  ->  stat ==> stacked
+  44:    1  ->  sun ==> aronel
+  45:    1  ->  tax ==> text
+  46:    1  ->  the ==> arc
+  47:    1  ->  the ==> that
+  48:    1  ->  the ==> this
+  49:    1  ->  throve ==> drove
+  50:    1  ->  toms ==> tongs
+  51:    1  ->  try ==> trying
+  52:    1  ->  two ==> to
+  53:    1  ->  vagina ==> of
+  54:    1  ->  would ==> are
+     -------
+        56
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  at
+   2:    1  ->  called
+   3:    1  ->  clerk
+   4:    1  ->  co
+   5:    1  ->  easter
+   6:    1  ->  eat
+   7:    1  ->  gentle
+   8:    1  ->  hershey
+   9:    1  ->  that
+  10:    1  ->  the
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  a
+   2:    2  ->  in
+   3:    1  ->  and
+   4:    1  ->  another
+   5:    1  ->  future
+   6:    1  ->  he
+   7:    1  ->  her
+   8:    1  ->  of
+   9:    1  ->  ronnel
+  10:    1  ->  sea
+  11:    1  ->  sigh
+  12:    1  ->  the
+  13:    1  ->  this
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    3  ->  in
+   2:    3  ->  the
+   3:    2  ->  face
+   4:    2  ->  leaf
+   5:    1  ->  adult
+   6:    1  ->  and
+   7:    1  ->  at
+   8:    1  ->  biscuit
+   9:    1  ->  calls
+  10:    1  ->  chooses
+  11:    1  ->  choses
+  12:    1  ->  christmas'
+  13:    1  ->  clerk's
+  14:    1  ->  coactivations
+  15:    1  ->  connective
+  16:    1  ->  downward
+  17:    1  ->  easter's
+  18:    1  ->  end
+  19:    1  ->  etiolated
+  20:    1  ->  filled
+  21:    1  ->  gentler
+  22:    1  ->  he
+  23:    1  ->  he's
+  24:    1  ->  herbs
+  25:    1  ->  hershey's
+  26:    1  ->  hop
+  27:    1  ->  illustrated
+  28:    1  ->  is
+  29:    1  ->  its
+  30:    1  ->  leaves
+  31:    1  ->  lily
+  32:    1  ->  live
+  33:    1  ->  maw
+  34:    1  ->  mclaughlan
+  35:    1  ->  muscles
+  36:    1  ->  of
+  37:    1  ->  opened
+  38:    1  ->  piqued
+  39:    1  ->  ploat
+  40:    1  ->  sprig
+  41:    1  ->  squealed
+  42:    1  ->  stat
+  43:    1  ->  sun
+  44:    1  ->  tax
+  45:    1  ->  throve
+  46:    1  ->  toms
+  47:    1  ->  try
+  48:    1  ->  two
+  49:    1  ->  vagina
+  50:    1  ->  would
+     -------
+        56
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    4  ->  's
+   2:    4  ->  and
+   3:    2  ->  arc
+   4:    2  ->  of
+   5:    1  ->  activations
+   6:    1  ->  addled
+   7:    1  ->  an
+   8:    1  ->  are
+   9:    1  ->  aronel
+  10:    1  ->  assemblies
+  11:    1  ->  base
+  12:    1  ->  belief
+  13:    1  ->  believe
+  14:    1  ->  choose
+  15:    1  ->  chooses
+  16:    1  ->  christmas
+  17:    1  ->  connected
+  18:    1  ->  downwards
+  19:    1  ->  drove
+  20:    1  ->  earth
+  21:    1  ->  etiated
+  22:    1  ->  film
+  23:    1  ->  float
+  24:    1  ->  his
+  25:    1  ->  how
+  26:    1  ->  illustrative
+  27:    1  ->  it's
+  28:    1  ->  life
+  29:    1  ->  lilly
+  30:    1  ->  ma
+  31:    1  ->  mclaughlin
+  32:    1  ->  muscle
+  33:    1  ->  open
+  34:    1  ->  peaked
+  35:    1  ->  seabiscuit
+  36:    1  ->  space
+  37:    1  ->  spring
+  38:    1  ->  stacked
+  39:    1  ->  text
+  40:    1  ->  that
+  41:    1  ->  the
+  42:    1  ->  these
+  43:    1  ->  this
+  44:    1  ->  to
+  45:    1  ->  tongs
+  46:    1  ->  trying
+  47:    1  ->  wheels
+  48:    1  ->  you
+     -------
+        56
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

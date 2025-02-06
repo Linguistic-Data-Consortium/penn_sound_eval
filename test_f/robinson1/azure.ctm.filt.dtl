@@ -1,0 +1,133 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.8%   (  30)
+
+Percent Correct           =   97.7%   (1034)
+
+Percent Substitution      =    1.8%   (  19)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   97.2%
+
+
+Ref. words                =           (1058)
+Hyp. words                =           (1059)
+Aligned words             =           (1064)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  bough ==> bow
+   2:    1  ->  a ==> abuzz
+   3:    1  ->  a ==> the
+   4:    1  ->  bird's ==> 's
+   5:    1  ->  buzzsaw ==> saw
+   6:    1  ->  deadheaded ==> headed
+   7:    1  ->  flowerbed ==> bed
+   8:    1  ->  griffin's ==> 's
+   9:    1  ->  i ==> let
+  10:    1  ->  neighbour's ==> 's
+  11:    1  ->  neighbour's ==> flower
+  12:    1  ->  summery ==> summary
+  13:    1  ->  the ==> to
+  14:    1  ->  then ==> it
+  15:    1  ->  toward ==> told
+  16:    1  ->  turn ==> turned
+  17:    1  ->  will ==> me
+  18:    1  ->  witch ==> which
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  neighbour
+   2:    1  ->  's
+   3:    1  ->  bird
+   4:    1  ->  dead
+   5:    1  ->  griffin
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  but
+   2:    1  ->  c
+   3:    1  ->  had
+   4:    1  ->  is
+   5:    1  ->  it
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  a
+   2:    2  ->  bough
+   3:    2  ->  neighbour's
+   4:    1  ->  bird's
+   5:    1  ->  buzzsaw
+   6:    1  ->  deadheaded
+   7:    1  ->  flowerbed
+   8:    1  ->  griffin's
+   9:    1  ->  i
+  10:    1  ->  summery
+  11:    1  ->  the
+  12:    1  ->  then
+  13:    1  ->  toward
+  14:    1  ->  turn
+  15:    1  ->  will
+  16:    1  ->  witch
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  's
+   2:    2  ->  bow
+   3:    1  ->  abuzz
+   4:    1  ->  bed
+   5:    1  ->  flower
+   6:    1  ->  headed
+   7:    1  ->  it
+   8:    1  ->  let
+   9:    1  ->  me
+  10:    1  ->  saw
+  11:    1  ->  summary
+  12:    1  ->  the
+  13:    1  ->  to
+  14:    1  ->  told
+  15:    1  ->  turned
+  16:    1  ->  which
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

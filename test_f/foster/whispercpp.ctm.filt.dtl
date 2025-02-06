@@ -1,0 +1,169 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.8%   (  52)
+
+Percent Correct           =   93.6%   ( 713)
+
+Percent Substitution      =    4.5%   (  34)
+Percent Deletions         =    2.0%   (  15)
+Percent Insertions        =    0.4%   (   3)
+Percent Word Accuracy     =   93.2%
+
+
+Ref. words                =           ( 762)
+Hyp. words                =           ( 750)
+Aligned words             =           ( 765)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    7  ->  b ==> be
+   2:    2  ->  eating ==> eaten
+   3:    1  ->  as ==> of
+   4:    1  ->  ben ==> been
+   5:    1  ->  coming ==> becoming
+   6:    1  ->  coulades ==> culottes
+   7:    1  ->  face ==> faces
+   8:    1  ->  filled ==> airfilled
+   9:    1  ->  fist ==> fists
+  10:    1  ->  had ==> have
+  11:    1  ->  is ==> was
+  12:    1  ->  jemima's ==> jemima
+  13:    1  ->  mix ==> mixed
+  14:    1  ->  momma ==> mama
+  15:    1  ->  months' ==> months
+  16:    1  ->  mourning ==> morning
+  17:    1  ->  old ==> 12yearold
+  18:    1  ->  reenie ==> renie
+  19:    1  ->  shoes ==> twoshoes
+  20:    1  ->  shutters ==> shudders
+  21:    1  ->  somniloquies ==> niloquies
+  22:    1  ->  the ==> a
+  23:    1  ->  tongues ==> tongue
+  24:    1  ->  unheeded ==> unheated
+  25:    1  ->  where ==> wear
+  26:    1  ->  which ==> what
+  27:    1  ->  yore ==> your
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  not
+   2:    1  ->  some
+   3:    1  ->  someone
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    4  ->  had
+   2:    1  ->  air
+   3:    1  ->  be
+   4:    1  ->  husk
+   5:    1  ->  m
+   6:    1  ->  shoe
+   7:    1  ->  tem
+   8:    1  ->  that
+   9:    1  ->  the
+  10:    1  ->  twelve
+  11:    1  ->  two
+  12:    1  ->  year
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    7  ->  b
+   2:    2  ->  eating
+   3:    1  ->  as
+   4:    1  ->  ben
+   5:    1  ->  coming
+   6:    1  ->  coulades
+   7:    1  ->  face
+   8:    1  ->  filled
+   9:    1  ->  fist
+  10:    1  ->  had
+  11:    1  ->  is
+  12:    1  ->  jemima's
+  13:    1  ->  mix
+  14:    1  ->  momma
+  15:    1  ->  months'
+  16:    1  ->  mourning
+  17:    1  ->  old
+  18:    1  ->  reenie
+  19:    1  ->  shoes
+  20:    1  ->  shutters
+  21:    1  ->  somniloquies
+  22:    1  ->  the
+  23:    1  ->  tongues
+  24:    1  ->  unheeded
+  25:    1  ->  where
+  26:    1  ->  which
+  27:    1  ->  yore
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    7  ->  be
+   2:    2  ->  eaten
+   3:    1  ->  12yearold
+   4:    1  ->  a
+   5:    1  ->  airfilled
+   6:    1  ->  becoming
+   7:    1  ->  been
+   8:    1  ->  culottes
+   9:    1  ->  faces
+  10:    1  ->  fists
+  11:    1  ->  have
+  12:    1  ->  jemima
+  13:    1  ->  mama
+  14:    1  ->  mixed
+  15:    1  ->  months
+  16:    1  ->  morning
+  17:    1  ->  niloquies
+  18:    1  ->  of
+  19:    1  ->  renie
+  20:    1  ->  shudders
+  21:    1  ->  tongue
+  22:    1  ->  twoshoes
+  23:    1  ->  unheated
+  24:    1  ->  was
+  25:    1  ->  wear
+  26:    1  ->  what
+  27:    1  ->  your
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

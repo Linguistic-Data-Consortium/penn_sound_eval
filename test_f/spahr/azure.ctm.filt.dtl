@@ -1,0 +1,204 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.1%   (  62)
+
+Percent Correct           =   95.3%   ( 975)
+
+Percent Substitution      =    3.8%   (  39)
+Percent Deletions         =    0.9%   (   9)
+Percent Insertions        =    1.4%   (  14)
+Percent Word Accuracy     =   93.9%
+
+
+Ref. words                =           (1023)
+Hyp. words                =           (1028)
+Aligned words             =           (1037)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  topsoil ==> soil
+   2:    1  ->  bluet ==> it
+   3:    1  ->  claimed ==> claim
+   4:    1  ->  climactic ==> climatic
+   5:    1  ->  colombia ==> columbia
+   6:    1  ->  duskywing ==> wing
+   7:    1  ->  goshawk ==> hawk
+   8:    1  ->  hap ==> half
+   9:    1  ->  humpback ==> back
+  10:    1  ->  in ==> and
+  11:    1  ->  ironcolor ==> color
+  12:    1  ->  is ==> 's
+  13:    1  ->  jair ==> jar
+  14:    1  ->  karner ==> carner
+  15:    1  ->  kiribati ==> karabas
+  16:    1  ->  leedy's ==> rose
+  17:    1  ->  longear ==> ear
+  18:    1  ->  longhead ==> had
+  19:    1  ->  longtail ==> tail
+  20:    1  ->  massasauga ==> saga
+  21:    1  ->  monk's ==> monks
+  22:    1  ->  mooneye ==> eye
+  23:    1  ->  most ==> almost
+  24:    1  ->  mottled ==> dusky
+  25:    1  ->  or ==> are
+  26:    1  ->  place ==> police
+  27:    1  ->  roseroot ==> room
+  28:    1  ->  scientist ==> scientists
+  29:    1  ->  tern ==> turn
+  30:    1  ->  the ==> are
+  31:    1  ->  the ==> nacho
+  32:    1  ->  tokelau ==> tokalau
+  33:    1  ->  tokelau ==> tokolow
+  34:    1  ->  try ==> tried
+  35:    1  ->  valvata ==> valvada
+  36:    1  ->  vatnajokull ==> cool
+  37:    1  ->  water ==> groundwater
+  38:    1  ->  water ==> underwater
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  long
+   2:    1  ->  blew
+   3:    1  ->  ghost
+   4:    1  ->  hum
+   5:    1  ->  iron
+   6:    1  ->  ladies
+   7:    1  ->  masa
+   8:    1  ->  moon
+   9:    1  ->  mortal
+  10:    1  ->  that
+  11:    1  ->  they
+  12:    1  ->  top
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  ground
+   4:    1  ->  had
+   5:    1  ->  one
+   6:    1  ->  under
+   7:    1  ->  w
+   8:    1  ->  will
+   9:    1  ->  with
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  the
+   2:    2  ->  tokelau
+   3:    2  ->  topsoil
+   4:    2  ->  water
+   5:    1  ->  bluet
+   6:    1  ->  claimed
+   7:    1  ->  climactic
+   8:    1  ->  colombia
+   9:    1  ->  duskywing
+  10:    1  ->  goshawk
+  11:    1  ->  hap
+  12:    1  ->  humpback
+  13:    1  ->  in
+  14:    1  ->  ironcolor
+  15:    1  ->  is
+  16:    1  ->  jair
+  17:    1  ->  karner
+  18:    1  ->  kiribati
+  19:    1  ->  leedy's
+  20:    1  ->  longear
+  21:    1  ->  longhead
+  22:    1  ->  longtail
+  23:    1  ->  massasauga
+  24:    1  ->  monk's
+  25:    1  ->  mooneye
+  26:    1  ->  most
+  27:    1  ->  mottled
+  28:    1  ->  or
+  29:    1  ->  place
+  30:    1  ->  roseroot
+  31:    1  ->  scientist
+  32:    1  ->  tern
+  33:    1  ->  try
+  34:    1  ->  valvata
+  35:    1  ->  vatnajokull
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  are
+   2:    2  ->  soil
+   3:    1  ->  's
+   4:    1  ->  almost
+   5:    1  ->  and
+   6:    1  ->  back
+   7:    1  ->  carner
+   8:    1  ->  claim
+   9:    1  ->  climatic
+  10:    1  ->  color
+  11:    1  ->  columbia
+  12:    1  ->  cool
+  13:    1  ->  dusky
+  14:    1  ->  ear
+  15:    1  ->  eye
+  16:    1  ->  groundwater
+  17:    1  ->  had
+  18:    1  ->  half
+  19:    1  ->  hawk
+  20:    1  ->  it
+  21:    1  ->  jar
+  22:    1  ->  karabas
+  23:    1  ->  monks
+  24:    1  ->  nacho
+  25:    1  ->  police
+  26:    1  ->  room
+  27:    1  ->  rose
+  28:    1  ->  saga
+  29:    1  ->  scientists
+  30:    1  ->  tail
+  31:    1  ->  tokalau
+  32:    1  ->  tokolow
+  33:    1  ->  tried
+  34:    1  ->  turn
+  35:    1  ->  underwater
+  36:    1  ->  valvada
+  37:    1  ->  wing
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

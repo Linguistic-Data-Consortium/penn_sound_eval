@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.9%   (  25)
+
+Percent Correct           =   96.6%   ( 625)
+
+Percent Substitution      =    3.1%   (  20)
+Percent Deletions         =    0.3%   (   2)
+Percent Insertions        =    0.5%   (   3)
+Percent Word Accuracy     =   96.1%
+
+
+Ref. words                =           ( 647)
+Hyp. words                =           ( 648)
+Aligned words             =           ( 650)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  breast ==> breath
+   2:    1  ->  cock's ==> cocks
+   3:    1  ->  hen's ==> hens
+   4:    1  ->  hours ==> our
+   5:    1  ->  in ==> and
+   6:    1  ->  it ==> a
+   7:    1  ->  now ==> no
+   8:    1  ->  of ==> at
+   9:    1  ->  poem ==> oh
+  10:    1  ->  pouchy ==> pouy
+  11:    1  ->  sand ==> sound
+  12:    1  ->  seas ==> seeds
+  13:    1  ->  slake ==> sli
+  14:    1  ->  somewhere ==> some
+  15:    1  ->  sun ==> s
+  16:    1  ->  thousand ==> oh
+  17:    1  ->  tines ==> times
+  18:    1  ->  towards ==> toward
+  19:    1  ->  unwasted ==> wasted
+  20:    1  ->  yolk ==> yoke
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  %bcack
+   2:    1  ->  sorry
+   3:    1  ->  un
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  t
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  breast
+   2:    1  ->  cock's
+   3:    1  ->  hen's
+   4:    1  ->  hours
+   5:    1  ->  in
+   6:    1  ->  it
+   7:    1  ->  now
+   8:    1  ->  of
+   9:    1  ->  poem
+  10:    1  ->  pouchy
+  11:    1  ->  sand
+  12:    1  ->  seas
+  13:    1  ->  slake
+  14:    1  ->  somewhere
+  15:    1  ->  sun
+  16:    1  ->  thousand
+  17:    1  ->  tines
+  18:    1  ->  towards
+  19:    1  ->  unwasted
+  20:    1  ->  yolk
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  oh
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  at
+   5:    1  ->  breath
+   6:    1  ->  cocks
+   7:    1  ->  hens
+   8:    1  ->  no
+   9:    1  ->  our
+  10:    1  ->  pouy
+  11:    1  ->  s
+  12:    1  ->  seeds
+  13:    1  ->  sli
+  14:    1  ->  some
+  15:    1  ->  sound
+  16:    1  ->  times
+  17:    1  ->  toward
+  18:    1  ->  wasted
+  19:    1  ->  yoke
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

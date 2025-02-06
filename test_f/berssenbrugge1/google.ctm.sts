@@ -1,0 +1,27 @@
+                   Summary of Statistical Significance Tests:                   
+                              Comparing the System                              
+                                   google.ctm                                   
+                       for the  Test with other Systems:                        
+
+                       MP              SI              WI              MN       
+                 --------------  --------------  --------------  -------------- 
+        aws.ctm     aws.ctm           same            same            same      
+      azure.ctm       same            same            same            same      
+        ibm.ctm    google.ctm         same            same            same      
+       nemo.ctm       same            same            same            same      
+        rev.ctm       same            same            same            same      
+    whisper.ctm       same            same            same            same      
+ whispercpp.ctm       same            same            same            same      
+
+
+
+                             Test Name                            Abbrev.
+       ------------------------------------------------------     -------
+             Matched Pair Sentence Segment (Word Error)             MP   
+       Signed Paired Comparison (Speaker Word Error Rate (%))       SI   
+         Wilcoxon Signed Rank (Speaker Word Error Rate (%))         WI   
+                      McNemar (Sentence Error)                      MN   
+
+Note: System ID with lower error rate is printed if the Null
+      Hypothesis is rejected at the 95% Confidence Level,
+      if not, 'same' is printed.

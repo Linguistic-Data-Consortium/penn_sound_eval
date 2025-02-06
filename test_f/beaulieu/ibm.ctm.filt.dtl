@@ -1,0 +1,215 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.8%   (  62)
+
+Percent Correct           =   94.5%   (1005)
+
+Percent Substitution      =    4.3%   (  46)
+Percent Deletions         =    1.2%   (  13)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   94.2%
+
+
+Ref. words                =           (1064)
+Hyp. words                =           (1054)
+Aligned words             =           (1067)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  in ==> and
+   2:    2  ->  none ==> nine
+   3:    2  ->  one ==> on
+   4:    1  ->  a ==> of
+   5:    1  ->  ace ==> each
+   6:    1  ->  am ==> and
+   7:    1  ->  ammo ==> me
+   8:    1  ->  and ==> seasoned
+   9:    1  ->  brad ==> bread
+  10:    1  ->  bratatat ==> benita
+  11:    1  ->  brattata ==> practice
+  12:    1  ->  clothed ==> closed
+  13:    1  ->  dear ==> deer
+  14:    1  ->  desist ==> assist
+  15:    1  ->  few ==> you
+  16:    1  ->  flatten ==> and
+  17:    1  ->  from ==> for
+  18:    1  ->  grimly ==> dreamily
+  19:    1  ->  half ==> have
+  20:    1  ->  his ==> a
+  21:    1  ->  it ==> put
+  22:    1  ->  lot ==> lock
+  23:    1  ->  mere ==> amer
+  24:    1  ->  once ==> one
+  25:    1  ->  out ==> it
+  26:    1  ->  outfit ==> that
+  27:    1  ->  peevishly ==> peevish
+  28:    1  ->  reticently ==> recently
+  29:    1  ->  return ==> returned
+  30:    1  ->  roberts ==> robert's
+  31:    1  ->  ruff ==> flat
+  32:    1  ->  takka ==> takata
+  33:    1  ->  tex ==> tax
+  34:    1  ->  thing ==> things
+  35:    1  ->  thr ==> three
+  36:    1  ->  thung ==> fung
+  37:    1  ->  try ==> tried
+  38:    1  ->  two ==> to
+  39:    1  ->  vip ==> two
+  40:    1  ->  why ==> might
+  41:    1  ->  why ==> white
+  42:    1  ->  wingding ==> winding
+  43:    1  ->  zing ==> ringing
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  her
+   2:    1  ->  i
+   3:    1  ->  out
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  c
+   3:    1  ->  cease
+   4:    1  ->  co
+   5:    1  ->  i
+   6:    1  ->  oh
+   7:    1  ->  pai
+   8:    1  ->  pull
+   9:    1  ->  ring
+  10:    1  ->  s
+  11:    1  ->  takka
+  12:    1  ->  tho
+  13:    1  ->  toot
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  in
+   2:    2  ->  none
+   3:    2  ->  one
+   4:    2  ->  why
+   5:    1  ->  a
+   6:    1  ->  ace
+   7:    1  ->  am
+   8:    1  ->  ammo
+   9:    1  ->  and
+  10:    1  ->  brad
+  11:    1  ->  bratatat
+  12:    1  ->  brattata
+  13:    1  ->  clothed
+  14:    1  ->  dear
+  15:    1  ->  desist
+  16:    1  ->  few
+  17:    1  ->  flatten
+  18:    1  ->  from
+  19:    1  ->  grimly
+  20:    1  ->  half
+  21:    1  ->  his
+  22:    1  ->  it
+  23:    1  ->  lot
+  24:    1  ->  mere
+  25:    1  ->  once
+  26:    1  ->  out
+  27:    1  ->  outfit
+  28:    1  ->  peevishly
+  29:    1  ->  reticently
+  30:    1  ->  return
+  31:    1  ->  roberts
+  32:    1  ->  ruff
+  33:    1  ->  takka
+  34:    1  ->  tex
+  35:    1  ->  thing
+  36:    1  ->  thr
+  37:    1  ->  thung
+  38:    1  ->  try
+  39:    1  ->  two
+  40:    1  ->  vip
+  41:    1  ->  wingding
+  42:    1  ->  zing
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    4  ->  and
+   2:    2  ->  nine
+   3:    2  ->  on
+   4:    1  ->  a
+   5:    1  ->  amer
+   6:    1  ->  assist
+   7:    1  ->  benita
+   8:    1  ->  bread
+   9:    1  ->  closed
+  10:    1  ->  deer
+  11:    1  ->  dreamily
+  12:    1  ->  each
+  13:    1  ->  flat
+  14:    1  ->  for
+  15:    1  ->  fung
+  16:    1  ->  have
+  17:    1  ->  it
+  18:    1  ->  lock
+  19:    1  ->  me
+  20:    1  ->  might
+  21:    1  ->  of
+  22:    1  ->  one
+  23:    1  ->  peevish
+  24:    1  ->  practice
+  25:    1  ->  put
+  26:    1  ->  recently
+  27:    1  ->  returned
+  28:    1  ->  ringing
+  29:    1  ->  robert's
+  30:    1  ->  seasoned
+  31:    1  ->  takata
+  32:    1  ->  tax
+  33:    1  ->  that
+  34:    1  ->  things
+  35:    1  ->  three
+  36:    1  ->  to
+  37:    1  ->  tried
+  38:    1  ->  two
+  39:    1  ->  white
+  40:    1  ->  winding
+  41:    1  ->  you
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

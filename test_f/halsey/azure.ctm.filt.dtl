@@ -1,0 +1,294 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.1%   ( 115)
+
+Percent Correct           =   87.4%   ( 712)
+
+Percent Substitution      =    8.0%   (  65)
+Percent Deletions         =    4.7%   (  38)
+Percent Insertions        =    1.5%   (  12)
+Percent Word Accuracy     =   85.9%
+
+
+Ref. words                =           ( 815)
+Hyp. words                =           ( 789)
+Aligned words             =           ( 827)
+
+CONFUSION PAIRS                  Total                 (65)
+                                 With >=  1 occurrences (65)
+
+   1:    1  ->  a ==> scribbler
+   2:    1  ->  a ==> whether
+   3:    1  ->  an ==> and
+   4:    1  ->  and ==> rounded
+   5:    1  ->  and ==> the
+   6:    1  ->  are ==> a
+   7:    1  ->  are ==> of
+   8:    1  ->  around ==> contradictional
+   9:    1  ->  ashville ==> asheville
+  10:    1  ->  bled ==> bed
+  11:    1  ->  bows ==> bowls
+  12:    1  ->  called ==> mangled
+  13:    1  ->  cnr ==> devil
+  14:    1  ->  coleridge ==> coverage
+  15:    1  ->  crawled ==> crowd
+  16:    1  ->  cumberbark ==> bark
+  17:    1  ->  curtainment ==> uncertainment
+  18:    1  ->  devil's ==> 's
+  19:    1  ->  doctor ==> to
+  20:    1  ->  ebon ==> and
+  21:    1  ->  ebon ==> eben
+  22:    1  ->  elliott ==> elliot
+  23:    1  ->  enfetters ==> fetters
+  24:    1  ->  era ==> error
+  25:    1  ->  feeling ==> fleeing
+  26:    1  ->  geraldine ==> jeremy
+  27:    1  ->  h ==> sh
+  28:    1  ->  harkley ==> hartley
+  29:    1  ->  henry ==> henley
+  30:    1  ->  hit ==> hip
+  31:    1  ->  johnson's ==> a
+  32:    1  ->  kessick ==> keswick
+  33:    1  ->  liking ==> lighting
+  34:    1  ->  mute ==> new
+  35:    1  ->  never ==> double
+  36:    1  ->  nobody's ==> he's
+  37:    1  ->  nuncinations ==> nations
+  38:    1  ->  nunia ==> mamia
+  39:    1  ->  of ==> am
+  40:    1  ->  of ==> at
+  41:    1  ->  of ==> favourite
+  42:    1  ->  of ==> so
+  43:    1  ->  out ==> i
+  44:    1  ->  paul ==> poor
+  45:    1  ->  pisermine ==> pizzermine
+  46:    1  ->  poet's ==> 's
+  47:    1  ->  pulcherrima ==> pulquerima
+  48:    1  ->  riot ==> write
+  49:    1  ->  s ==> st
+  50:    1  ->  shawnson ==> johnson
+  51:    1  ->  soul ==> souls
+  52:    1  ->  spiderweb ==> web
+  53:    1  ->  t ==> coomba
+  54:    1  ->  tax ==> attacks
+  55:    1  ->  that ==> meant
+  56:    1  ->  the ==> a
+  57:    1  ->  the ==> that
+  58:    1  ->  there's ==> of
+  59:    1  ->  these ==> his
+  60:    1  ->  these ==> one
+  61:    1  ->  they ==> there's
+  62:    1  ->  too ==> to
+  63:    1  ->  w's ==> ws
+  64:    1  ->  watchman ==> watchmen
+  65:    1  ->  whirled ==> world
+     -------
+        65
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  and
+   2:    1  ->  clr
+   3:    1  ->  ebb
+   4:    1  ->  he's
+   5:    1  ->  in
+   6:    1  ->  johnsons
+   7:    1  ->  lance
+   8:    1  ->  poet
+   9:    1  ->  sense
+  10:    1  ->  spider
+  11:    1  ->  talk
+  12:    1  ->  which
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    6  ->  i
+   2:    2  ->  had
+   3:    2  ->  of
+   4:    2  ->  sort
+   5:    2  ->  you
+   6:    1  ->  a
+   7:    1  ->  and
+   8:    1  ->  as
+   9:    1  ->  be
+  10:    1  ->  contradiction
+  11:    1  ->  echo
+  12:    1  ->  favourites
+  13:    1  ->  have
+  14:    1  ->  it
+  15:    1  ->  man
+  16:    1  ->  me
+  17:    1  ->  meant
+  18:    1  ->  on
+  19:    1  ->  s
+  20:    1  ->  scribble
+  21:    1  ->  sense
+  22:    1  ->  that
+  23:    1  ->  these
+  24:    1  ->  when
+  25:    1  ->  who
+  26:    1  ->  wi
+  27:    1  ->  with
+  28:    1  ->  x
+  29:    1  ->  y
+     -------
+        38
+
+
+
+SUBSTITUTIONS                    Total                 (56)
+                                 With >=  1 occurrences (56)
+
+   1:    4  ->  of
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  are
+   5:    2  ->  ebon
+   6:    2  ->  the
+   7:    2  ->  these
+   8:    1  ->  an
+   9:    1  ->  around
+  10:    1  ->  ashville
+  11:    1  ->  bled
+  12:    1  ->  bows
+  13:    1  ->  called
+  14:    1  ->  cnr
+  15:    1  ->  coleridge
+  16:    1  ->  crawled
+  17:    1  ->  cumberbark
+  18:    1  ->  curtainment
+  19:    1  ->  devil's
+  20:    1  ->  doctor
+  21:    1  ->  elliott
+  22:    1  ->  enfetters
+  23:    1  ->  era
+  24:    1  ->  feeling
+  25:    1  ->  geraldine
+  26:    1  ->  h
+  27:    1  ->  harkley
+  28:    1  ->  henry
+  29:    1  ->  hit
+  30:    1  ->  johnson's
+  31:    1  ->  kessick
+  32:    1  ->  liking
+  33:    1  ->  mute
+  34:    1  ->  never
+  35:    1  ->  nobody's
+  36:    1  ->  nuncinations
+  37:    1  ->  nunia
+  38:    1  ->  out
+  39:    1  ->  paul
+  40:    1  ->  pisermine
+  41:    1  ->  poet's
+  42:    1  ->  pulcherrima
+  43:    1  ->  riot
+  44:    1  ->  s
+  45:    1  ->  shawnson
+  46:    1  ->  soul
+  47:    1  ->  spiderweb
+  48:    1  ->  t
+  49:    1  ->  tax
+  50:    1  ->  that
+  51:    1  ->  there's
+  52:    1  ->  they
+  53:    1  ->  too
+  54:    1  ->  w's
+  55:    1  ->  watchman
+  56:    1  ->  whirled
+     -------
+        65
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    3  ->  a
+   2:    2  ->  's
+   3:    2  ->  and
+   4:    2  ->  of
+   5:    2  ->  to
+   6:    1  ->  am
+   7:    1  ->  asheville
+   8:    1  ->  at
+   9:    1  ->  attacks
+  10:    1  ->  bark
+  11:    1  ->  bed
+  12:    1  ->  bowls
+  13:    1  ->  contradictional
+  14:    1  ->  coomba
+  15:    1  ->  coverage
+  16:    1  ->  crowd
+  17:    1  ->  devil
+  18:    1  ->  double
+  19:    1  ->  eben
+  20:    1  ->  elliot
+  21:    1  ->  error
+  22:    1  ->  favourite
+  23:    1  ->  fetters
+  24:    1  ->  fleeing
+  25:    1  ->  hartley
+  26:    1  ->  he's
+  27:    1  ->  henley
+  28:    1  ->  hip
+  29:    1  ->  his
+  30:    1  ->  i
+  31:    1  ->  jeremy
+  32:    1  ->  johnson
+  33:    1  ->  keswick
+  34:    1  ->  lighting
+  35:    1  ->  mamia
+  36:    1  ->  mangled
+  37:    1  ->  meant
+  38:    1  ->  nations
+  39:    1  ->  new
+  40:    1  ->  one
+  41:    1  ->  pizzermine
+  42:    1  ->  poor
+  43:    1  ->  pulquerima
+  44:    1  ->  rounded
+  45:    1  ->  scribbler
+  46:    1  ->  sh
+  47:    1  ->  so
+  48:    1  ->  souls
+  49:    1  ->  st
+  50:    1  ->  that
+  51:    1  ->  the
+  52:    1  ->  there's
+  53:    1  ->  uncertainment
+  54:    1  ->  watchmen
+  55:    1  ->  web
+  56:    1  ->  whether
+  57:    1  ->  world
+  58:    1  ->  write
+  59:    1  ->  ws
+     -------
+        65
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,244 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.4%   (  72)
+
+Percent Correct           =   94.0%   (1050)
+
+Percent Substitution      =    5.1%   (  57)
+Percent Deletions         =    0.9%   (  10)
+Percent Insertions        =    0.4%   (   5)
+Percent Word Accuracy     =   93.6%
+
+
+Ref. words                =           (1117)
+Hyp. words                =           (1112)
+Aligned words             =           (1122)
+
+CONFUSION PAIRS                  Total                 (55)
+                                 With >=  1 occurrences (55)
+
+   1:    2  ->  and ==> in
+   2:    2  ->  settled ==> settle
+   3:    1  ->  a ==> the
+   4:    1  ->  air'll ==> will
+   5:    1  ->  an ==> and
+   6:    1  ->  apply ==> applied
+   7:    1  ->  as ==> visitors
+   8:    1  ->  at ==> it
+   9:    1  ->  cocked ==> caught
+  10:    1  ->  dulls ==> dolls
+  11:    1  ->  feeling ==> filling
+  12:    1  ->  follow ==> fall
+  13:    1  ->  from ==> room
+  14:    1  ->  frond ==> front
+  15:    1  ->  grazing ==> raising
+  16:    1  ->  greens ==> green
+  17:    1  ->  had ==> cultured
+  18:    1  ->  halo ==> hazel
+  19:    1  ->  having ==> not
+  20:    1  ->  holocausts ==> holocaust
+  21:    1  ->  i ==> a
+  22:    1  ->  immediate ==> it
+  23:    1  ->  in ==> an
+  24:    1  ->  in ==> and
+  25:    1  ->  lavender ==> the
+  26:    1  ->  like ==> life
+  27:    1  ->  mere ==> meal
+  28:    1  ->  moon'll ==> will
+  29:    1  ->  mrs ==> analysis
+  30:    1  ->  of ==> a
+  31:    1  ->  on ==> among
+  32:    1  ->  patience ==> patients
+  33:    1  ->  pleased ==> please
+  34:    1  ->  same ==> saying
+  35:    1  ->  seem ==> same
+  36:    1  ->  sense ==> since
+  37:    1  ->  sight ==> side
+  38:    1  ->  spring ==> spraying
+  39:    1  ->  talk ==> talked
+  40:    1  ->  that ==> then
+  41:    1  ->  then ==> them
+  42:    1  ->  they ==> the
+  43:    1  ->  thigh ==> the
+  44:    1  ->  throbs ==> throws
+  45:    1  ->  true ==> tru
+  46:    1  ->  until ==> till
+  47:    1  ->  up ==> the
+  48:    1  ->  very ==> ferry
+  49:    1  ->  visions ==> vision
+  50:    1  ->  waistbands ==> bands
+  51:    1  ->  where ==> were
+  52:    1  ->  whiff ==> with
+  53:    1  ->  whitened ==> wedded
+  54:    1  ->  wider ==> whiter
+  55:    1  ->  with ==> upward
+     -------
+        57
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  air
+   2:    1  ->  have
+   3:    1  ->  levin
+   4:    1  ->  moon
+   5:    1  ->  waste
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  am
+   3:    1  ->  and
+   4:    1  ->  i
+   5:    1  ->  it
+   6:    1  ->  me
+   7:    1  ->  poem
+   8:    1  ->  seltzer
+   9:    1  ->  social
+  10:    1  ->  vivid
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (54)
+                                 With >=  1 occurrences (54)
+
+   1:    2  ->  and
+   2:    2  ->  in
+   3:    2  ->  settled
+   4:    1  ->  a
+   5:    1  ->  air'll
+   6:    1  ->  an
+   7:    1  ->  apply
+   8:    1  ->  as
+   9:    1  ->  at
+  10:    1  ->  cocked
+  11:    1  ->  dulls
+  12:    1  ->  feeling
+  13:    1  ->  follow
+  14:    1  ->  from
+  15:    1  ->  frond
+  16:    1  ->  grazing
+  17:    1  ->  greens
+  18:    1  ->  had
+  19:    1  ->  halo
+  20:    1  ->  having
+  21:    1  ->  holocausts
+  22:    1  ->  i
+  23:    1  ->  immediate
+  24:    1  ->  lavender
+  25:    1  ->  like
+  26:    1  ->  mere
+  27:    1  ->  moon'll
+  28:    1  ->  mrs
+  29:    1  ->  of
+  30:    1  ->  on
+  31:    1  ->  patience
+  32:    1  ->  pleased
+  33:    1  ->  same
+  34:    1  ->  seem
+  35:    1  ->  sense
+  36:    1  ->  sight
+  37:    1  ->  spring
+  38:    1  ->  talk
+  39:    1  ->  that
+  40:    1  ->  then
+  41:    1  ->  they
+  42:    1  ->  thigh
+  43:    1  ->  throbs
+  44:    1  ->  true
+  45:    1  ->  until
+  46:    1  ->  up
+  47:    1  ->  very
+  48:    1  ->  visions
+  49:    1  ->  waistbands
+  50:    1  ->  where
+  51:    1  ->  whiff
+  52:    1  ->  whitened
+  53:    1  ->  wider
+  54:    1  ->  with
+     -------
+        57
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    5  ->  the
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  in
+   5:    2  ->  it
+   6:    2  ->  settle
+   7:    2  ->  will
+   8:    1  ->  among
+   9:    1  ->  an
+  10:    1  ->  analysis
+  11:    1  ->  applied
+  12:    1  ->  bands
+  13:    1  ->  caught
+  14:    1  ->  cultured
+  15:    1  ->  dolls
+  16:    1  ->  fall
+  17:    1  ->  ferry
+  18:    1  ->  filling
+  19:    1  ->  front
+  20:    1  ->  green
+  21:    1  ->  hazel
+  22:    1  ->  holocaust
+  23:    1  ->  life
+  24:    1  ->  meal
+  25:    1  ->  not
+  26:    1  ->  patients
+  27:    1  ->  please
+  28:    1  ->  raising
+  29:    1  ->  room
+  30:    1  ->  same
+  31:    1  ->  saying
+  32:    1  ->  side
+  33:    1  ->  since
+  34:    1  ->  spraying
+  35:    1  ->  talked
+  36:    1  ->  them
+  37:    1  ->  then
+  38:    1  ->  throws
+  39:    1  ->  till
+  40:    1  ->  tru
+  41:    1  ->  upward
+  42:    1  ->  vision
+  43:    1  ->  visitors
+  44:    1  ->  wedded
+  45:    1  ->  were
+  46:    1  ->  whiter
+  47:    1  ->  with
+     -------
+        57
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

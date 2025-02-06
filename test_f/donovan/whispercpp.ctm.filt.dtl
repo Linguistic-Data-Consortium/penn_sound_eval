@@ -1,0 +1,155 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.1%   (  41)
+
+Percent Correct           =   96.5%   ( 958)
+
+Percent Substitution      =    2.5%   (  25)
+Percent Deletions         =    1.0%   (  10)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   95.9%
+
+
+Ref. words                =           ( 993)
+Hyp. words                =           ( 989)
+Aligned words             =           ( 999)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  a ==> ca
+   2:    1  ->  a ==> the
+   3:    1  ->  book ==> bug
+   4:    1  ->  dependent ==> i
+   5:    1  ->  echo ==> racco
+   6:    1  ->  gave ==> gained
+   7:    1  ->  had ==> have
+   8:    1  ->  hellen ==> helen
+   9:    1  ->  his ==> this
+  10:    1  ->  intention ==> attention
+  11:    1  ->  koch's ==> rue
+  12:    1  ->  liljestrand ==> lestrand
+  13:    1  ->  line ==> midline
+  14:    1  ->  merleau ==> merlot
+  15:    1  ->  move ==> moved
+  16:    1  ->  on ==> at
+  17:    1  ->  on ==> of
+  18:    1  ->  on ==> upon
+  19:    1  ->  on ==> would
+  20:    1  ->  onto ==> to
+  21:    1  ->  rhubarb ==> bard
+  22:    1  ->  sacks's ==> saxe's
+  23:    1  ->  the ==> a
+  24:    1  ->  tuning ==> finetuning
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  he
+   3:    1  ->  kochek's
+   4:    1  ->  means
+   5:    1  ->  on
+   6:    1  ->  would
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  and
+   2:    2  ->  c
+   3:    1  ->  became
+   4:    1  ->  fine
+   5:    1  ->  his
+   6:    1  ->  it
+   7:    1  ->  it's
+   8:    1  ->  mid
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    4  ->  on
+   2:    3  ->  a
+   3:    1  ->  book
+   4:    1  ->  dependent
+   5:    1  ->  echo
+   6:    1  ->  gave
+   7:    1  ->  had
+   8:    1  ->  hellen
+   9:    1  ->  his
+  10:    1  ->  intention
+  11:    1  ->  koch's
+  12:    1  ->  liljestrand
+  13:    1  ->  line
+  14:    1  ->  merleau
+  15:    1  ->  move
+  16:    1  ->  onto
+  17:    1  ->  rhubarb
+  18:    1  ->  sacks's
+  19:    1  ->  the
+  20:    1  ->  tuning
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  ca
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  attention
+   5:    1  ->  bard
+   6:    1  ->  bug
+   7:    1  ->  finetuning
+   8:    1  ->  gained
+   9:    1  ->  have
+  10:    1  ->  helen
+  11:    1  ->  i
+  12:    1  ->  lestrand
+  13:    1  ->  merlot
+  14:    1  ->  midline
+  15:    1  ->  moved
+  16:    1  ->  of
+  17:    1  ->  racco
+  18:    1  ->  rue
+  19:    1  ->  saxe's
+  20:    1  ->  the
+  21:    1  ->  this
+  22:    1  ->  to
+  23:    1  ->  upon
+  24:    1  ->  would
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,174 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.1%   (  48)
+
+Percent Correct           =   95.5%   ( 907)
+
+Percent Substitution      =    3.4%   (  32)
+Percent Deletions         =    1.2%   (  11)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   94.9%
+
+
+Ref. words                =           ( 950)
+Hyp. words                =           ( 944)
+Aligned words             =           ( 955)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  in ==> and
+   2:    1  ->  a ==> &a
+   3:    1  ->  and ==> in
+   4:    1  ->  ansem ==> and
+   5:    1  ->  ansem's ==> anselm's
+   6:    1  ->  asked ==> asks
+   7:    1  ->  bandanna ==> bandana
+   8:    1  ->  beep ==> beat
+   9:    1  ->  doctor ==> dr
+  10:    1  ->  dot ==> worldspy
+  11:    1  ->  families' ==> family's
+  12:    1  ->  fourteenth ==> 14th
+  13:    1  ->  fourth ==> 4th
+  14:    1  ->  hamburger ==> hamburgers
+  15:    1  ->  hundred ==> zero
+  16:    1  ->  kids' ==> kid's
+  17:    1  ->  m ==> &m
+  18:    1  ->  meika ==> micah
+  19:    1  ->  mommas ==> mamas
+  20:    1  ->  onto ==> to
+  21:    1  ->  path ==> half
+  22:    1  ->  phat ==> fat
+  23:    1  ->  prince ==> prints
+  24:    1  ->  scheme ==> skein
+  25:    1  ->  schemerhorn ==> shimmerhorn
+  26:    1  ->  sleep ==> fecklessly
+  27:    1  ->  snakeskin ==> skin
+  28:    1  ->  wack ==> whack
+  29:    1  ->  walkman ==> man
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  anselm
+   2:    1  ->  on
+   3:    1  ->  rhythm
+   4:    1  ->  snake
+   5:    1  ->  walk
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  cle
+   4:    1  ->  feckless
+   5:    1  ->  have
+   6:    1  ->  of
+   7:    1  ->  pushe
+   8:    1  ->  spy
+   9:    1  ->  twins'
+  10:    1  ->  world
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  in
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  ansem
+   5:    1  ->  ansem's
+   6:    1  ->  asked
+   7:    1  ->  bandanna
+   8:    1  ->  beep
+   9:    1  ->  doctor
+  10:    1  ->  dot
+  11:    1  ->  families'
+  12:    1  ->  fourteenth
+  13:    1  ->  fourth
+  14:    1  ->  hamburger
+  15:    1  ->  hundred
+  16:    1  ->  kids'
+  17:    1  ->  m
+  18:    1  ->  meika
+  19:    1  ->  mommas
+  20:    1  ->  onto
+  21:    1  ->  path
+  22:    1  ->  phat
+  23:    1  ->  prince
+  24:    1  ->  scheme
+  25:    1  ->  schemerhorn
+  26:    1  ->  sleep
+  27:    1  ->  snakeskin
+  28:    1  ->  wack
+  29:    1  ->  walkman
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    5  ->  and
+   2:    1  ->  &a
+   3:    1  ->  &m
+   4:    1  ->  14th
+   5:    1  ->  4th
+   6:    1  ->  anselm's
+   7:    1  ->  asks
+   8:    1  ->  bandana
+   9:    1  ->  beat
+  10:    1  ->  dr
+  11:    1  ->  family's
+  12:    1  ->  fat
+  13:    1  ->  fecklessly
+  14:    1  ->  half
+  15:    1  ->  hamburgers
+  16:    1  ->  in
+  17:    1  ->  kid's
+  18:    1  ->  mamas
+  19:    1  ->  man
+  20:    1  ->  micah
+  21:    1  ->  prints
+  22:    1  ->  shimmerhorn
+  23:    1  ->  skein
+  24:    1  ->  skin
+  25:    1  ->  to
+  26:    1  ->  whack
+  27:    1  ->  worldspy
+  28:    1  ->  zero
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

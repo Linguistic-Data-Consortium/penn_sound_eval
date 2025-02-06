@@ -1,0 +1,202 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.3%   (  60)
+
+Percent Correct           =   93.7%   ( 767)
+
+Percent Substitution      =    5.1%   (  42)
+Percent Deletions         =    1.2%   (  10)
+Percent Insertions        =    1.0%   (   8)
+Percent Word Accuracy     =   92.7%
+
+
+Ref. words                =           ( 819)
+Hyp. words                =           ( 817)
+Aligned words             =           ( 827)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  and ==> in
+   2:    2  ->  forrest ==> forest
+   3:    2  ->  in ==> i
+   4:    2  ->  rah ==> ra
+   5:    1  ->  a ==> the
+   6:    1  ->  and ==> margarine
+   7:    1  ->  at ==> t
+   8:    1  ->  bailiwick ==> balliwick
+   9:    1  ->  bleacher ==> bleachers
+  10:    1  ->  d ==> di
+  11:    1  ->  dao ==> tao
+  12:    1  ->  edition ==> addition
+  13:    1  ->  ekphrastic ==> ecphrastic
+  14:    1  ->  emmylou ==> lou
+  15:    1  ->  enunciations ==> enunciation
+  16:    1  ->  evident ==> evidence
+  17:    1  ->  fabulist ==> fabulous
+  18:    1  ->  flag ==> frag
+  19:    1  ->  glassed ==> glass
+  20:    1  ->  hymns ==> hems
+  21:    1  ->  impostor ==> pasto
+  22:    1  ->  juvenalia ==> juvenilia
+  23:    1  ->  ke ==> kk
+  24:    1  ->  marjorie ==> margarine
+  25:    1  ->  memoir's ==> memoirs
+  26:    1  ->  mere ==> mirror
+  27:    1  ->  mirror ==> me
+  28:    1  ->  names ==> mes
+  29:    1  ->  oh ==> o
+  30:    1  ->  park's ==> park
+  31:    1  ->  skies ==> sky
+  32:    1  ->  sun ==> so
+  33:    1  ->  theatre ==> theater
+  34:    1  ->  trickily ==> trickly
+  35:    1  ->  welish ==> wellis
+  36:    1  ->  wind ==> wing
+  37:    1  ->  with ==> of
+  38:    1  ->  wr ==> wri
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  a
+   2:    1  ->  and
+   3:    1  ->  emmy
+   4:    1  ->  na
+   5:    1  ->  oh
+   6:    1  ->  really
+   7:    1  ->  yeah
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  cu
+   2:    1  ->  got
+   3:    1  ->  l
+   4:    1  ->  like
+   5:    1  ->  m
+   6:    1  ->  marjorie
+   7:    1  ->  oh
+   8:    1  ->  really
+   9:    1  ->  the
+  10:    1  ->  yeah
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    3  ->  and
+   2:    2  ->  forrest
+   3:    2  ->  in
+   4:    2  ->  rah
+   5:    1  ->  a
+   6:    1  ->  at
+   7:    1  ->  bailiwick
+   8:    1  ->  bleacher
+   9:    1  ->  d
+  10:    1  ->  dao
+  11:    1  ->  edition
+  12:    1  ->  ekphrastic
+  13:    1  ->  emmylou
+  14:    1  ->  enunciations
+  15:    1  ->  evident
+  16:    1  ->  fabulist
+  17:    1  ->  flag
+  18:    1  ->  glassed
+  19:    1  ->  hymns
+  20:    1  ->  impostor
+  21:    1  ->  juvenalia
+  22:    1  ->  ke
+  23:    1  ->  marjorie
+  24:    1  ->  memoir's
+  25:    1  ->  mere
+  26:    1  ->  mirror
+  27:    1  ->  names
+  28:    1  ->  oh
+  29:    1  ->  park's
+  30:    1  ->  skies
+  31:    1  ->  sun
+  32:    1  ->  theatre
+  33:    1  ->  trickily
+  34:    1  ->  welish
+  35:    1  ->  wind
+  36:    1  ->  with
+  37:    1  ->  wr
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  forest
+   2:    2  ->  i
+   3:    2  ->  in
+   4:    2  ->  margarine
+   5:    2  ->  ra
+   6:    1  ->  addition
+   7:    1  ->  balliwick
+   8:    1  ->  bleachers
+   9:    1  ->  di
+  10:    1  ->  ecphrastic
+  11:    1  ->  enunciation
+  12:    1  ->  evidence
+  13:    1  ->  fabulous
+  14:    1  ->  frag
+  15:    1  ->  glass
+  16:    1  ->  hems
+  17:    1  ->  juvenilia
+  18:    1  ->  kk
+  19:    1  ->  lou
+  20:    1  ->  me
+  21:    1  ->  memoirs
+  22:    1  ->  mes
+  23:    1  ->  mirror
+  24:    1  ->  o
+  25:    1  ->  of
+  26:    1  ->  park
+  27:    1  ->  pasto
+  28:    1  ->  sky
+  29:    1  ->  so
+  30:    1  ->  t
+  31:    1  ->  tao
+  32:    1  ->  the
+  33:    1  ->  theater
+  34:    1  ->  trickly
+  35:    1  ->  wellis
+  36:    1  ->  wing
+  37:    1  ->  wri
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

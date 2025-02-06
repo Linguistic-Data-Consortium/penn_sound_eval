@@ -1,0 +1,190 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.8%   (  56)
+
+Percent Correct           =   93.7%   ( 767)
+
+Percent Substitution      =    4.2%   (  34)
+Percent Deletions         =    2.2%   (  18)
+Percent Insertions        =    0.5%   (   4)
+Percent Word Accuracy     =   93.2%
+
+
+Ref. words                =           ( 819)
+Hyp. words                =           ( 805)
+Aligned words             =           ( 823)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  and ==> margarine
+   2:    2  ->  rah ==> ra
+   3:    1  ->  bailiwick ==> valleywick
+   4:    1  ->  bleacher ==> bleachers
+   5:    1  ->  dao ==> dow
+   6:    1  ->  drafts ==> draft
+   7:    1  ->  edition ==> addition
+   8:    1  ->  ekphrastic ==> echtic
+   9:    1  ->  evident ==> evidence
+  10:    1  ->  fabulist ==> fabulous
+  11:    1  ->  fist ==> fists
+  12:    1  ->  forrest ==> forest
+  13:    1  ->  four ==> for
+  14:    1  ->  get ==> got
+  15:    1  ->  glassed ==> glass
+  16:    1  ->  impostor ==> pasto
+  17:    1  ->  is ==> his
+  18:    1  ->  juvenalia ==> juvenilia
+  19:    1  ->  memoir's ==> memoirs
+  20:    1  ->  mirror ==> amir
+  21:    1  ->  park's ==> park
+  22:    1  ->  skies ==> sky
+  23:    1  ->  slovenly ==> lovingly
+  24:    1  ->  struts ==> trots
+  25:    1  ->  the ==> this
+  26:    1  ->  theatre ==> theater
+  27:    1  ->  tomorrow ==> morrow
+  28:    1  ->  trickily ==> trickly
+  29:    1  ->  trot ==> taught
+  30:    1  ->  welish ==> wellish
+  31:    1  ->  wind ==> wing
+  32:    1  ->  with ==> of
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  really
+   4:    1  ->  to
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  marjorie
+   2:    1  ->  a
+   3:    1  ->  cu
+   4:    1  ->  d
+   5:    1  ->  flag
+   6:    1  ->  got
+   7:    1  ->  hymns
+   8:    1  ->  ke
+   9:    1  ->  l
+  10:    1  ->  like
+  11:    1  ->  m
+  12:    1  ->  oh
+  13:    1  ->  really
+  14:    1  ->  the
+  15:    1  ->  trot
+  16:    1  ->  wr
+  17:    1  ->  yeah
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  and
+   2:    2  ->  rah
+   3:    1  ->  bailiwick
+   4:    1  ->  bleacher
+   5:    1  ->  dao
+   6:    1  ->  drafts
+   7:    1  ->  edition
+   8:    1  ->  ekphrastic
+   9:    1  ->  evident
+  10:    1  ->  fabulist
+  11:    1  ->  fist
+  12:    1  ->  forrest
+  13:    1  ->  four
+  14:    1  ->  get
+  15:    1  ->  glassed
+  16:    1  ->  impostor
+  17:    1  ->  is
+  18:    1  ->  juvenalia
+  19:    1  ->  memoir's
+  20:    1  ->  mirror
+  21:    1  ->  park's
+  22:    1  ->  skies
+  23:    1  ->  slovenly
+  24:    1  ->  struts
+  25:    1  ->  the
+  26:    1  ->  theatre
+  27:    1  ->  tomorrow
+  28:    1  ->  trickily
+  29:    1  ->  trot
+  30:    1  ->  welish
+  31:    1  ->  wind
+  32:    1  ->  with
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  margarine
+   2:    2  ->  ra
+   3:    1  ->  addition
+   4:    1  ->  amir
+   5:    1  ->  bleachers
+   6:    1  ->  dow
+   7:    1  ->  draft
+   8:    1  ->  echtic
+   9:    1  ->  evidence
+  10:    1  ->  fabulous
+  11:    1  ->  fists
+  12:    1  ->  for
+  13:    1  ->  forest
+  14:    1  ->  glass
+  15:    1  ->  got
+  16:    1  ->  his
+  17:    1  ->  juvenilia
+  18:    1  ->  lovingly
+  19:    1  ->  memoirs
+  20:    1  ->  morrow
+  21:    1  ->  of
+  22:    1  ->  park
+  23:    1  ->  pasto
+  24:    1  ->  sky
+  25:    1  ->  taught
+  26:    1  ->  theater
+  27:    1  ->  this
+  28:    1  ->  trickly
+  29:    1  ->  trots
+  30:    1  ->  valleywick
+  31:    1  ->  wellish
+  32:    1  ->  wing
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

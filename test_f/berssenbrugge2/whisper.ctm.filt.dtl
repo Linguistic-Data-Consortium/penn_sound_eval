@@ -1,0 +1,123 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.5%   (  25)
+
+Percent Correct           =   98.0%   ( 968)
+
+Percent Substitution      =    1.6%   (  16)
+Percent Deletions         =    0.4%   (   4)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   97.5%
+
+
+Ref. words                =           ( 988)
+Hyp. words                =           ( 989)
+Aligned words             =           ( 993)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  susie ==> suzy
+   2:    2  ->  whole ==> hole
+   3:    1  ->  and ==> in
+   4:    1  ->  and ==> then
+   5:    1  ->  associated ==> associative
+   6:    1  ->  clothes ==> cloths
+   7:    1  ->  encounter ==> counter
+   8:    1  ->  had ==> passed
+   9:    1  ->  model ==> mottled
+  10:    1  ->  scout ==> scowl
+  11:    1  ->  sinus ==> that
+  12:    1  ->  stolid ==> stalled
+  13:    1  ->  thoroughly ==> barely
+  14:    1  ->  uninterested ==> interested
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  am
+   2:    1  ->  and
+   3:    1  ->  i
+   4:    1  ->  in
+   5:    1  ->  sign
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  have
+   4:    1  ->  i
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  and
+   2:    2  ->  susie
+   3:    2  ->  whole
+   4:    1  ->  associated
+   5:    1  ->  clothes
+   6:    1  ->  encounter
+   7:    1  ->  had
+   8:    1  ->  model
+   9:    1  ->  scout
+  10:    1  ->  sinus
+  11:    1  ->  stolid
+  12:    1  ->  thoroughly
+  13:    1  ->  uninterested
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  hole
+   2:    2  ->  suzy
+   3:    1  ->  associative
+   4:    1  ->  barely
+   5:    1  ->  cloths
+   6:    1  ->  counter
+   7:    1  ->  in
+   8:    1  ->  interested
+   9:    1  ->  mottled
+  10:    1  ->  passed
+  11:    1  ->  scowl
+  12:    1  ->  stalled
+  13:    1  ->  that
+  14:    1  ->  then
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

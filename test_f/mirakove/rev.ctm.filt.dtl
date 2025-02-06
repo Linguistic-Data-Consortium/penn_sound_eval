@@ -1,0 +1,187 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.9%   (  55)
+
+Percent Correct           =   95.1%   ( 890)
+
+Percent Substitution      =    4.1%   (  38)
+Percent Deletions         =    0.9%   (   8)
+Percent Insertions        =    1.0%   (   9)
+Percent Word Accuracy     =   94.1%
+
+
+Ref. words                =           ( 936)
+Hyp. words                =           ( 937)
+Aligned words             =           ( 945)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  in ==> and
+   2:    2  ->  ninety ==> nine
+   3:    2  ->  saint ==> st
+   4:    1  ->  am ==> in
+   5:    1  ->  and ==> in
+   6:    1  ->  arcane ==> archaic
+   7:    1  ->  conscious ==> unconscious
+   8:    1  ->  craft ==> cropped
+   9:    1  ->  dawn ==> don
+  10:    1  ->  declined ==> clyde
+  11:    1  ->  four ==> 2004
+  12:    1  ->  i ==> a
+  13:    1  ->  in ==> pussing
+  14:    1  ->  is ==> a
+  15:    1  ->  it ==> market
+  16:    1  ->  jenn ==> jen
+  17:    1  ->  lease ==> perise
+  18:    1  ->  nests ==> nest
+  19:    1  ->  oft ==> off
+  20:    1  ->  remains ==> to
+  21:    1  ->  seeing ==> scene
+  22:    1  ->  shelled ==> germane
+  23:    1  ->  tensegrity ==> tene
+  24:    1  ->  tent ==> oh
+  25:    1  ->  then ==> the
+  26:    1  ->  trace ==> traced
+  27:    1  ->  twenty ==> two
+  28:    1  ->  unaware ==> where
+  29:    1  ->  walfisch ==> fish
+  30:    1  ->  want ==> wants
+  31:    1  ->  what ==> when
+  32:    1  ->  yours' ==> yours
+  33:    1  ->  zizek ==> jacque
+  34:    1  ->  zizek ==> je
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  <laugh>
+   2:    1  ->  <inaudible>
+   3:    1  ->  a
+   4:    1  ->  of
+   5:    1  ->  out
+   6:    1  ->  shell's
+   7:    1  ->  so
+   8:    1  ->  wild
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  in
+   3:    1  ->  mark
+   4:    1  ->  para
+   5:    1  ->  puss
+   6:    1  ->  soil
+   7:    1  ->  thousand
+   8:    1  ->  two
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    4  ->  in
+   2:    2  ->  ninety
+   3:    2  ->  saint
+   4:    2  ->  zizek
+   5:    1  ->  am
+   6:    1  ->  and
+   7:    1  ->  arcane
+   8:    1  ->  conscious
+   9:    1  ->  craft
+  10:    1  ->  dawn
+  11:    1  ->  declined
+  12:    1  ->  four
+  13:    1  ->  i
+  14:    1  ->  is
+  15:    1  ->  it
+  16:    1  ->  jenn
+  17:    1  ->  lease
+  18:    1  ->  nests
+  19:    1  ->  oft
+  20:    1  ->  remains
+  21:    1  ->  seeing
+  22:    1  ->  shelled
+  23:    1  ->  tensegrity
+  24:    1  ->  tent
+  25:    1  ->  then
+  26:    1  ->  trace
+  27:    1  ->  twenty
+  28:    1  ->  unaware
+  29:    1  ->  walfisch
+  30:    1  ->  want
+  31:    1  ->  what
+  32:    1  ->  yours'
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    3  ->  and
+   2:    2  ->  a
+   3:    2  ->  in
+   4:    2  ->  nine
+   5:    2  ->  st
+   6:    1  ->  2004
+   7:    1  ->  archaic
+   8:    1  ->  clyde
+   9:    1  ->  cropped
+  10:    1  ->  don
+  11:    1  ->  fish
+  12:    1  ->  germane
+  13:    1  ->  jacque
+  14:    1  ->  je
+  15:    1  ->  jen
+  16:    1  ->  market
+  17:    1  ->  nest
+  18:    1  ->  off
+  19:    1  ->  oh
+  20:    1  ->  perise
+  21:    1  ->  pussing
+  22:    1  ->  scene
+  23:    1  ->  tene
+  24:    1  ->  the
+  25:    1  ->  to
+  26:    1  ->  traced
+  27:    1  ->  two
+  28:    1  ->  unconscious
+  29:    1  ->  wants
+  30:    1  ->  when
+  31:    1  ->  where
+  32:    1  ->  yours
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,265 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.6%   ( 145)
+
+Percent Correct           =   88.0%   ( 871)
+
+Percent Substitution      =    6.8%   (  67)
+Percent Deletions         =    5.3%   (  52)
+Percent Insertions        =    2.6%   (  26)
+Percent Word Accuracy     =   85.4%
+
+
+Ref. words                =           ( 990)
+Hyp. words                =           ( 964)
+Aligned words             =           (1016)
+
+CONFUSION PAIRS                  Total                 (58)
+                                 With >=  1 occurrences (58)
+
+   1:    2  ->  des ==> day
+   2:    2  ->  dollars ==> oh
+   3:    2  ->  du ==> de
+   4:    2  ->  f ==> have
+   5:    2  ->  had ==> have
+   6:    2  ->  hundred ==> oh
+   7:    2  ->  reverdy ==> d
+   8:    2  ->  was ==> is
+   9:    2  ->  x ==> was
+  10:    1  ->  a ==> cor
+  11:    1  ->  a ==> cornea
+  12:    1  ->  a ==> in
+  13:    1  ->  at ==> in
+  14:    1  ->  contact ==> i
+  15:    1  ->  edition ==> diti
+  16:    1  ->  france ==> falls
+  17:    1  ->  frederic ==> frederick
+  18:    1  ->  h ==> he
+  19:    1  ->  it ==> a
+  20:    1  ->  jacob ==> co
+  21:    1  ->  max ==> laksa
+  22:    1  ->  now ==> no
+  23:    1  ->  obligitoire ==> toi
+  24:    1  ->  one ==> anyone
+  25:    1  ->  poem ==> one
+  26:    1  ->  reverdy ==> rod
+  27:    1  ->  she ==> actually
+  28:    1  ->  sixty ==> in
+  29:    1  ->  th ==> the
+  30:    1  ->  them ==> and
+  31:    1  ->  them ==> that
+  32:    1  ->  was ==> always
+  33:    1  ->  wh ==> what
+  34:    1  ->  who ==> and
+  35:    1  ->  who ==> it
+  36:    1  ->  whose ==> it
+  37:    1  ->  whose ==> who's
+  38:    1  ->  x ==> a
+  39:    1  ->  x ==> all
+  40:    1  ->  x ==> but
+  41:    1  ->  x ==> contacted
+  42:    1  ->  x ==> did
+  43:    1  ->  x ==> diti
+  44:    1  ->  x ==> gt
+  45:    1  ->  x ==> jacobs
+  46:    1  ->  x ==> kani
+  47:    1  ->  x ==> know
+  48:    1  ->  x ==> le
+  49:    1  ->  x ==> me
+  50:    1  ->  x ==> mercure
+  51:    1  ->  x ==> monon
+  52:    1  ->  x ==> p
+  53:    1  ->  x ==> saye
+  54:    1  ->  x ==> well
+  55:    1  ->  yeah ==> rod
+  56:    1  ->  yeah ==> you
+  57:    1  ->  yep ==> oh
+  58:    1  ->  you ==> i
+     -------
+        67
+
+
+
+INSERTIONS                       Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    3  ->  that
+   2:    2  ->  a
+   3:    2  ->  i
+   4:    2  ->  in
+   5:    1  ->  %bcack
+   6:    1  ->  eckhart
+   7:    1  ->  edison
+   8:    1  ->  have
+   9:    1  ->  ii
+  10:    1  ->  it
+  11:    1  ->  mayor
+  12:    1  ->  meister
+  13:    1  ->  oblige
+  14:    1  ->  oh
+  15:    1  ->  on
+  16:    1  ->  river
+  17:    1  ->  rubio
+  18:    1  ->  sex
+  19:    1  ->  the
+  20:    1  ->  vexa
+  21:    1  ->  you
+     -------
+        26
+
+
+
+DELETIONS                        Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    6  ->  x
+   2:    4  ->  a
+   3:    4  ->  i
+   4:    4  ->  yeah
+   5:    3  ->  it
+   6:    2  ->  cornet
+   7:    2  ->  fifty
+   8:    2  ->  oh
+   9:    1  ->  %bcack
+  10:    1  ->  about
+  11:    1  ->  am
+  12:    1  ->  and
+  13:    1  ->  anyway
+  14:    1  ->  bef
+  15:    1  ->  d
+  16:    1  ->  do
+  17:    1  ->  e
+  18:    1  ->  into
+  19:    1  ->  is
+  20:    1  ->  m
+  21:    1  ->  my
+  22:    1  ->  n
+  23:    1  ->  no
+  24:    1  ->  obligitoire
+  25:    1  ->  reverdy
+  26:    1  ->  right
+  27:    1  ->  th
+  28:    1  ->  that
+  29:    1  ->  to
+  30:    1  ->  v
+  31:    1  ->  w
+  32:    1  ->  who
+  33:    1  ->  you
+     -------
+        52
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:   19  ->  x
+   2:    3  ->  a
+   3:    3  ->  reverdy
+   4:    3  ->  was
+   5:    2  ->  des
+   6:    2  ->  dollars
+   7:    2  ->  du
+   8:    2  ->  f
+   9:    2  ->  had
+  10:    2  ->  hundred
+  11:    2  ->  them
+  12:    2  ->  who
+  13:    2  ->  whose
+  14:    2  ->  yeah
+  15:    1  ->  at
+  16:    1  ->  contact
+  17:    1  ->  edition
+  18:    1  ->  france
+  19:    1  ->  frederic
+  20:    1  ->  h
+  21:    1  ->  it
+  22:    1  ->  jacob
+  23:    1  ->  max
+  24:    1  ->  now
+  25:    1  ->  obligitoire
+  26:    1  ->  one
+  27:    1  ->  poem
+  28:    1  ->  she
+  29:    1  ->  sixty
+  30:    1  ->  th
+  31:    1  ->  wh
+  32:    1  ->  yep
+  33:    1  ->  you
+     -------
+        67
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    5  ->  oh
+   2:    4  ->  have
+   3:    3  ->  in
+   4:    2  ->  a
+   5:    2  ->  and
+   6:    2  ->  d
+   7:    2  ->  day
+   8:    2  ->  de
+   9:    2  ->  diti
+  10:    2  ->  i
+  11:    2  ->  is
+  12:    2  ->  it
+  13:    2  ->  rod
+  14:    2  ->  was
+  15:    1  ->  actually
+  16:    1  ->  all
+  17:    1  ->  always
+  18:    1  ->  anyone
+  19:    1  ->  but
+  20:    1  ->  co
+  21:    1  ->  contacted
+  22:    1  ->  cor
+  23:    1  ->  cornea
+  24:    1  ->  did
+  25:    1  ->  falls
+  26:    1  ->  frederick
+  27:    1  ->  gt
+  28:    1  ->  he
+  29:    1  ->  jacobs
+  30:    1  ->  kani
+  31:    1  ->  know
+  32:    1  ->  laksa
+  33:    1  ->  le
+  34:    1  ->  me
+  35:    1  ->  mercure
+  36:    1  ->  monon
+  37:    1  ->  no
+  38:    1  ->  one
+  39:    1  ->  p
+  40:    1  ->  saye
+  41:    1  ->  that
+  42:    1  ->  the
+  43:    1  ->  toi
+  44:    1  ->  well
+  45:    1  ->  what
+  46:    1  ->  who's
+  47:    1  ->  you
+     -------
+        67
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,252 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.8%   (  74)
+
+Percent Correct           =   93.1%   ( 884)
+
+Percent Substitution      =    6.1%   (  58)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   92.2%
+
+
+Ref. words                =           ( 950)
+Hyp. words                =           ( 950)
+Aligned words             =           ( 958)
+
+CONFUSION PAIRS                  Total                 (56)
+                                 With >=  1 occurrences (56)
+
+   1:    2  ->  an ==> and
+   2:    2  ->  in ==> and
+   3:    1  ->  a ==> the
+   4:    1  ->  as ==> is
+   5:    1  ->  burned ==> bird
+   6:    1  ->  cobwebbed ==> cobweb
+   7:    1  ->  connotations ==> connotation
+   8:    1  ->  corners ==> corner
+   9:    1  ->  defies ==> buys
+  10:    1  ->  emerges ==> merges
+  11:    1  ->  face ==> base
+  12:    1  ->  filmy ==> filming
+  13:    1  ->  for ==> four
+  14:    1  ->  googawed ==> god
+  15:    1  ->  gullywasher ==> washer
+  16:    1  ->  have ==> had
+  17:    1  ->  havoc ==> habit
+  18:    1  ->  his ==> this
+  19:    1  ->  is ==> 's
+  20:    1  ->  it ==> moved
+  21:    1  ->  it's ==> that's
+  22:    1  ->  kit ==> kids
+  23:    1  ->  laid ==> late
+  24:    1  ->  lingonberry ==> berry
+  25:    1  ->  lip ==> lisp
+  26:    1  ->  memory's ==> memories
+  27:    1  ->  misshapen ==> mistaken
+  28:    1  ->  mowed ==> moment
+  29:    1  ->  muted ==> needed
+  30:    1  ->  nine ==> mine
+  31:    1  ->  occurred ==> heard
+  32:    1  ->  occurs ==> heard
+  33:    1  ->  officious ==> vicious
+  34:    1  ->  one ==> my
+  35:    1  ->  our ==> her
+  36:    1  ->  penny's ==> pennies
+  37:    1  ->  plaster ==> plastic
+  38:    1  ->  reader's ==> readers
+  39:    1  ->  reservoir's ==> reservoirs
+  40:    1  ->  return ==> returned
+  41:    1  ->  seizes ==> ceases
+  42:    1  ->  shower ==> showers
+  43:    1  ->  stain ==> stains
+  44:    1  ->  swoony ==> swooning
+  45:    1  ->  than ==> the
+  46:    1  ->  through ==> for
+  47:    1  ->  train ==> crane
+  48:    1  ->  travelled ==> traveled
+  49:    1  ->  trunks ==> crohn's
+  50:    1  ->  turned ==> turn
+  51:    1  ->  until ==> that
+  52:    1  ->  until ==> to
+  53:    1  ->  wake ==> wait
+  54:    1  ->  whistle ==> muscle
+  55:    1  ->  woolworth ==> woolworths
+  56:    1  ->  wrought ==> brought
+     -------
+        58
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  goo
+   4:    1  ->  gully
+   5:    1  ->  have
+   6:    1  ->  i
+   7:    1  ->  so
+   8:    1  ->  william
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  the
+   2:    1  ->  and
+   3:    1  ->  bathroom
+   4:    1  ->  do
+   5:    1  ->  i
+   6:    1  ->  in
+   7:    1  ->  what
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (55)
+                                 With >=  1 occurrences (55)
+
+   1:    2  ->  an
+   2:    2  ->  in
+   3:    2  ->  until
+   4:    1  ->  a
+   5:    1  ->  as
+   6:    1  ->  burned
+   7:    1  ->  cobwebbed
+   8:    1  ->  connotations
+   9:    1  ->  corners
+  10:    1  ->  defies
+  11:    1  ->  emerges
+  12:    1  ->  face
+  13:    1  ->  filmy
+  14:    1  ->  for
+  15:    1  ->  googawed
+  16:    1  ->  gullywasher
+  17:    1  ->  have
+  18:    1  ->  havoc
+  19:    1  ->  his
+  20:    1  ->  is
+  21:    1  ->  it
+  22:    1  ->  it's
+  23:    1  ->  kit
+  24:    1  ->  laid
+  25:    1  ->  lingonberry
+  26:    1  ->  lip
+  27:    1  ->  memory's
+  28:    1  ->  misshapen
+  29:    1  ->  mowed
+  30:    1  ->  muted
+  31:    1  ->  nine
+  32:    1  ->  occurred
+  33:    1  ->  occurs
+  34:    1  ->  officious
+  35:    1  ->  one
+  36:    1  ->  our
+  37:    1  ->  penny's
+  38:    1  ->  plaster
+  39:    1  ->  reader's
+  40:    1  ->  reservoir's
+  41:    1  ->  return
+  42:    1  ->  seizes
+  43:    1  ->  shower
+  44:    1  ->  stain
+  45:    1  ->  swoony
+  46:    1  ->  than
+  47:    1  ->  through
+  48:    1  ->  train
+  49:    1  ->  travelled
+  50:    1  ->  trunks
+  51:    1  ->  turned
+  52:    1  ->  wake
+  53:    1  ->  whistle
+  54:    1  ->  woolworth
+  55:    1  ->  wrought
+     -------
+        58
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    4  ->  and
+   2:    2  ->  heard
+   3:    2  ->  the
+   4:    1  ->  's
+   5:    1  ->  base
+   6:    1  ->  berry
+   7:    1  ->  bird
+   8:    1  ->  brought
+   9:    1  ->  buys
+  10:    1  ->  ceases
+  11:    1  ->  cobweb
+  12:    1  ->  connotation
+  13:    1  ->  corner
+  14:    1  ->  crane
+  15:    1  ->  crohn's
+  16:    1  ->  filming
+  17:    1  ->  for
+  18:    1  ->  four
+  19:    1  ->  god
+  20:    1  ->  habit
+  21:    1  ->  had
+  22:    1  ->  her
+  23:    1  ->  is
+  24:    1  ->  kids
+  25:    1  ->  late
+  26:    1  ->  lisp
+  27:    1  ->  memories
+  28:    1  ->  merges
+  29:    1  ->  mine
+  30:    1  ->  mistaken
+  31:    1  ->  moment
+  32:    1  ->  moved
+  33:    1  ->  muscle
+  34:    1  ->  my
+  35:    1  ->  needed
+  36:    1  ->  pennies
+  37:    1  ->  plastic
+  38:    1  ->  readers
+  39:    1  ->  reservoirs
+  40:    1  ->  returned
+  41:    1  ->  showers
+  42:    1  ->  stains
+  43:    1  ->  swooning
+  44:    1  ->  that
+  45:    1  ->  that's
+  46:    1  ->  this
+  47:    1  ->  to
+  48:    1  ->  traveled
+  49:    1  ->  turn
+  50:    1  ->  vicious
+  51:    1  ->  wait
+  52:    1  ->  washer
+  53:    1  ->  woolworths
+     -------
+        58
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

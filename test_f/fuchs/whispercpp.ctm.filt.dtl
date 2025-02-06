@@ -1,0 +1,254 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.1%   (  86)
+
+Percent Correct           =   91.5%   ( 869)
+
+Percent Substitution      =    5.6%   (  53)
+Percent Deletions         =    2.9%   (  28)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   90.9%
+
+
+Ref. words                =           ( 950)
+Hyp. words                =           ( 927)
+Aligned words             =           ( 955)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  and ==> in
+   2:    2  ->  in ==> and
+   3:    2  ->  twins' ==> twins
+   4:    1  ->  a ==> are
+   5:    1  ->  a ==> tna
+   6:    1  ->  aggressive ==> passiveaggressive
+   7:    1  ->  air ==> prints
+   8:    1  ->  ansem ==> anselm
+   9:    1  ->  ansem's ==> anselm's
+  10:    1  ->  are ==> or
+  11:    1  ->  bandanna ==> bandana
+  12:    1  ->  beep ==> beat
+  13:    1  ->  blank ==> fillintheblank
+  14:    1  ->  broken ==> heartbroken
+  15:    1  ->  casts ==> cast
+  16:    1  ->  charles's ==> charles'
+  17:    1  ->  com ==> worldspycom
+  18:    1  ->  conditioned ==> airconditioned
+  19:    1  ->  crazy ==> stircrazy
+  20:    1  ->  dealing ==> planedealing
+  21:    1  ->  doctor ==> dr
+  22:    1  ->  dot ==> 1800divorce
+  23:    1  ->  end ==> highend
+  24:    1  ->  families' ==> family's
+  25:    1  ->  fourteenth ==> 14th
+  26:    1  ->  hamburger ==> hamburgers
+  27:    1  ->  ho ==> gungho
+  28:    1  ->  is ==> was
+  29:    1  ->  kids' ==> kid's
+  30:    1  ->  m ==> s&m
+  31:    1  ->  meika ==> micah
+  32:    1  ->  mommas ==> mamas
+  33:    1  ->  nights ==> night's
+  34:    1  ->  obsesso ==> obseso
+  35:    1  ->  onto ==> to
+  36:    1  ->  pasa ==> passa
+  37:    1  ->  phat ==> fat
+  38:    1  ->  pushe ==> it
+  39:    1  ->  que ==> ke
+  40:    1  ->  saks ==> sax
+  41:    1  ->  scheme ==> skein
+  42:    1  ->  schemerhorn ==> shimmerhorn
+  43:    1  ->  sleep ==> fecklessly
+  44:    1  ->  snakeskin ==> skin
+  45:    1  ->  thing ==> something
+  46:    1  ->  train ==> sixtrain
+  47:    1  ->  up ==> windup
+  48:    1  ->  walkman ==> man
+  49:    1  ->  wise ==> babblewise
+  50:    1  ->  yo ==> yoyo
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  go
+   2:    1  ->  on
+   3:    1  ->  push
+   4:    1  ->  snake
+   5:    1  ->  walk
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  and
+   2:    1  ->  babble
+   3:    1  ->  cle
+   4:    1  ->  divorce
+   5:    1  ->  eight
+   6:    1  ->  feckless
+   7:    1  ->  fill
+   8:    1  ->  gung
+   9:    1  ->  have
+  10:    1  ->  heart
+  11:    1  ->  high
+  12:    1  ->  hundred
+  13:    1  ->  in
+  14:    1  ->  one
+  15:    1  ->  passive
+  16:    1  ->  plane
+  17:    1  ->  prince
+  18:    1  ->  s
+  19:    1  ->  six
+  20:    1  ->  some
+  21:    1  ->  spy
+  22:    1  ->  stir
+  23:    1  ->  t
+  24:    1  ->  the
+  25:    1  ->  wind
+  26:    1  ->  world
+  27:    1  ->  yo
+     -------
+        28
+
+
+
+SUBSTITUTIONS                    Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    2  ->  in
+   4:    2  ->  twins'
+   5:    1  ->  aggressive
+   6:    1  ->  air
+   7:    1  ->  ansem
+   8:    1  ->  ansem's
+   9:    1  ->  are
+  10:    1  ->  bandanna
+  11:    1  ->  beep
+  12:    1  ->  blank
+  13:    1  ->  broken
+  14:    1  ->  casts
+  15:    1  ->  charles's
+  16:    1  ->  com
+  17:    1  ->  conditioned
+  18:    1  ->  crazy
+  19:    1  ->  dealing
+  20:    1  ->  doctor
+  21:    1  ->  dot
+  22:    1  ->  end
+  23:    1  ->  families'
+  24:    1  ->  fourteenth
+  25:    1  ->  hamburger
+  26:    1  ->  ho
+  27:    1  ->  is
+  28:    1  ->  kids'
+  29:    1  ->  m
+  30:    1  ->  meika
+  31:    1  ->  mommas
+  32:    1  ->  nights
+  33:    1  ->  obsesso
+  34:    1  ->  onto
+  35:    1  ->  pasa
+  36:    1  ->  phat
+  37:    1  ->  pushe
+  38:    1  ->  que
+  39:    1  ->  saks
+  40:    1  ->  scheme
+  41:    1  ->  schemerhorn
+  42:    1  ->  sleep
+  43:    1  ->  snakeskin
+  44:    1  ->  thing
+  45:    1  ->  train
+  46:    1  ->  up
+  47:    1  ->  walkman
+  48:    1  ->  wise
+  49:    1  ->  yo
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  and
+   2:    2  ->  in
+   3:    2  ->  twins
+   4:    1  ->  14th
+   5:    1  ->  1800divorce
+   6:    1  ->  airconditioned
+   7:    1  ->  anselm
+   8:    1  ->  anselm's
+   9:    1  ->  are
+  10:    1  ->  babblewise
+  11:    1  ->  bandana
+  12:    1  ->  beat
+  13:    1  ->  cast
+  14:    1  ->  charles'
+  15:    1  ->  dr
+  16:    1  ->  family's
+  17:    1  ->  fat
+  18:    1  ->  fecklessly
+  19:    1  ->  fillintheblank
+  20:    1  ->  gungho
+  21:    1  ->  hamburgers
+  22:    1  ->  heartbroken
+  23:    1  ->  highend
+  24:    1  ->  it
+  25:    1  ->  ke
+  26:    1  ->  kid's
+  27:    1  ->  mamas
+  28:    1  ->  man
+  29:    1  ->  micah
+  30:    1  ->  night's
+  31:    1  ->  obseso
+  32:    1  ->  or
+  33:    1  ->  passa
+  34:    1  ->  passiveaggressive
+  35:    1  ->  planedealing
+  36:    1  ->  prints
+  37:    1  ->  s&m
+  38:    1  ->  sax
+  39:    1  ->  shimmerhorn
+  40:    1  ->  sixtrain
+  41:    1  ->  skein
+  42:    1  ->  skin
+  43:    1  ->  something
+  44:    1  ->  stircrazy
+  45:    1  ->  tna
+  46:    1  ->  to
+  47:    1  ->  was
+  48:    1  ->  windup
+  49:    1  ->  worldspycom
+  50:    1  ->  yoyo
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

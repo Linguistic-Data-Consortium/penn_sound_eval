@@ -1,0 +1,156 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.0%   (  69)
+
+Percent Correct           =   92.1%   ( 793)
+
+Percent Substitution      =    2.7%   (  23)
+Percent Deletions         =    5.2%   (  45)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   92.0%
+
+
+Ref. words                =           ( 861)
+Hyp. words                =           ( 817)
+Aligned words             =           ( 862)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  and ==> at
+   2:    2  ->  bare ==> bear
+   3:    2  ->  pai ==> pair
+   4:    1  ->  am ==> was
+   5:    1  ->  anoth ==> another
+   6:    1  ->  another's ==> another
+   7:    1  ->  bet ==> that
+   8:    1  ->  diction ==> dictionary
+   9:    1  ->  frayed ==> freight
+  10:    1  ->  just ==> this
+  11:    1  ->  know ==> do
+  12:    1  ->  not ==> i
+  13:    1  ->  now ==> on
+  14:    1  ->  oed ==> oem
+  15:    1  ->  proce ==> process
+  16:    1  ->  there's ==> to
+  17:    1  ->  wealth ==> well
+  18:    1  ->  when ==> anything
+  19:    1  ->  words ==> word
+  20:    1  ->  you ==> not
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  just
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    8  ->  and
+   2:    5  ->  the
+   3:    4  ->  know
+   4:    4  ->  you
+   5:    3  ->  a
+   6:    2  ->  i
+   7:    2  ->  on
+   8:    2  ->  so
+   9:    1  ->  as
+  10:    1  ->  catastrophic
+  11:    1  ->  find
+  12:    1  ->  in
+  13:    1  ->  it
+  14:    1  ->  it's
+  15:    1  ->  its
+  16:    1  ->  of
+  17:    1  ->  or
+  18:    1  ->  th
+  19:    1  ->  u
+  20:    1  ->  w
+  21:    1  ->  what
+  22:    1  ->  when
+  23:    1  ->  y
+     -------
+        45
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  and
+   2:    2  ->  bare
+   3:    2  ->  pai
+   4:    1  ->  am
+   5:    1  ->  anoth
+   6:    1  ->  another's
+   7:    1  ->  bet
+   8:    1  ->  diction
+   9:    1  ->  frayed
+  10:    1  ->  just
+  11:    1  ->  know
+  12:    1  ->  not
+  13:    1  ->  now
+  14:    1  ->  oed
+  15:    1  ->  proce
+  16:    1  ->  there's
+  17:    1  ->  wealth
+  18:    1  ->  when
+  19:    1  ->  words
+  20:    1  ->  you
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  another
+   2:    2  ->  at
+   3:    2  ->  bear
+   4:    2  ->  pair
+   5:    1  ->  anything
+   6:    1  ->  dictionary
+   7:    1  ->  do
+   8:    1  ->  freight
+   9:    1  ->  i
+  10:    1  ->  not
+  11:    1  ->  oem
+  12:    1  ->  on
+  13:    1  ->  process
+  14:    1  ->  that
+  15:    1  ->  this
+  16:    1  ->  to
+  17:    1  ->  was
+  18:    1  ->  well
+  19:    1  ->  word
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

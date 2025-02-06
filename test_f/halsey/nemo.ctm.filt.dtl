@@ -1,0 +1,265 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.8%   ( 121)
+
+Percent Correct           =   85.9%   ( 700)
+
+Percent Substitution      =    6.3%   (  51)
+Percent Deletions         =    7.9%   (  64)
+Percent Insertions        =    0.7%   (   6)
+Percent Word Accuracy     =   85.2%
+
+
+Ref. words                =           ( 815)
+Hyp. words                =           ( 757)
+Aligned words             =           ( 821)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  elliott ==> eliot
+   2:    1  ->  a ==> one
+   3:    1  ->  a ==> scribbler
+   4:    1  ->  a ==> whether
+   5:    1  ->  and ==> it
+   6:    1  ->  are ==> of
+   7:    1  ->  bled ==> bed
+   8:    1  ->  brothers ==> brother
+   9:    1  ->  crawled ==> crowd
+  10:    1  ->  curtainment ==> uncurtainment
+  11:    1  ->  elusive ==> delusive
+  12:    1  ->  enfetters ==> fetters
+  13:    1  ->  era ==> error
+  14:    1  ->  feeling ==> fleeing
+  15:    1  ->  h ==> sh
+  16:    1  ->  harkley ==> heartley
+  17:    1  ->  his ==> bowles'
+  18:    1  ->  hit ==> hipt
+  19:    1  ->  house ==> pesthouse
+  20:    1  ->  i ==> no
+  21:    1  ->  is ==> his
+  22:    1  ->  kessick ==> keswick
+  23:    1  ->  mean ==> and
+  24:    1  ->  mute ==> new
+  25:    1  ->  never ==> ever
+  26:    1  ->  nuncinations ==> lancinations
+  27:    1  ->  nunia ==> mammia
+  28:    1  ->  of ==> at
+  29:    1  ->  of ==> is
+  30:    1  ->  on ==> am
+  31:    1  ->  paul ==> poor
+  32:    1  ->  perfectible ==> perfectable
+  33:    1  ->  pest ==> henley
+  34:    1  ->  pisermine ==> pizermine
+  35:    1  ->  pocketbooks ==> books
+  36:    1  ->  pulcherrima ==> pulcherima
+  37:    1  ->  riot ==> write
+  38:    1  ->  salvi ==> southey
+  39:    1  ->  shawnson ==> shanson
+  40:    1  ->  soul ==> souls
+  41:    1  ->  spiderweb ==> webbed
+  42:    1  ->  sun ==> son
+  43:    1  ->  that ==> there
+  44:    1  ->  that ==> which
+  45:    1  ->  the ==> a
+  46:    1  ->  the ==> that
+  47:    1  ->  these ==> his
+  48:    1  ->  these ==> one
+  49:    1  ->  willful ==> willfull
+  50:    1  ->  worm ==> maltworm
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  he's
+   3:    1  ->  i
+   4:    1  ->  pocket
+   5:    1  ->  sense
+   6:    1  ->  spider
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    7  ->  of
+   2:    6  ->  i
+   3:    4  ->  and
+   4:    3  ->  sort
+   5:    2  ->  it
+   6:    2  ->  out
+   7:    2  ->  s
+   8:    2  ->  you
+   9:    1  ->  a
+  10:    1  ->  as
+  11:    1  ->  ashville
+  12:    1  ->  be
+  13:    1  ->  bows
+  14:    1  ->  cake
+  15:    1  ->  cnr
+  16:    1  ->  cumberbark
+  17:    1  ->  ebenezer
+  18:    1  ->  elliott
+  19:    1  ->  follows
+  20:    1  ->  henry
+  21:    1  ->  his
+  22:    1  ->  lot
+  23:    1  ->  malt
+  24:    1  ->  me
+  25:    1  ->  meant
+  26:    1  ->  note
+  27:    1  ->  on
+  28:    1  ->  our
+  29:    1  ->  quite
+  30:    1  ->  scribble
+  31:    1  ->  sense
+  32:    1  ->  t
+  33:    1  ->  that
+  34:    1  ->  there's
+  35:    1  ->  these
+  36:    1  ->  throw
+  37:    1  ->  to
+  38:    1  ->  was
+  39:    1  ->  when
+  40:    1  ->  who
+  41:    1  ->  wi
+  42:    1  ->  with
+  43:    1  ->  x
+  44:    1  ->  y
+     -------
+        64
+
+
+
+SUBSTITUTIONS                    Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    3  ->  a
+   2:    2  ->  elliott
+   3:    2  ->  of
+   4:    2  ->  that
+   5:    2  ->  the
+   6:    2  ->  these
+   7:    1  ->  and
+   8:    1  ->  are
+   9:    1  ->  bled
+  10:    1  ->  brothers
+  11:    1  ->  crawled
+  12:    1  ->  curtainment
+  13:    1  ->  elusive
+  14:    1  ->  enfetters
+  15:    1  ->  era
+  16:    1  ->  feeling
+  17:    1  ->  h
+  18:    1  ->  harkley
+  19:    1  ->  his
+  20:    1  ->  hit
+  21:    1  ->  house
+  22:    1  ->  i
+  23:    1  ->  is
+  24:    1  ->  kessick
+  25:    1  ->  mean
+  26:    1  ->  mute
+  27:    1  ->  never
+  28:    1  ->  nuncinations
+  29:    1  ->  nunia
+  30:    1  ->  on
+  31:    1  ->  paul
+  32:    1  ->  perfectible
+  33:    1  ->  pest
+  34:    1  ->  pisermine
+  35:    1  ->  pocketbooks
+  36:    1  ->  pulcherrima
+  37:    1  ->  riot
+  38:    1  ->  salvi
+  39:    1  ->  shawnson
+  40:    1  ->  soul
+  41:    1  ->  spiderweb
+  42:    1  ->  sun
+  43:    1  ->  willful
+  44:    1  ->  worm
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    2  ->  eliot
+   2:    2  ->  his
+   3:    2  ->  one
+   4:    1  ->  a
+   5:    1  ->  am
+   6:    1  ->  and
+   7:    1  ->  at
+   8:    1  ->  bed
+   9:    1  ->  books
+  10:    1  ->  bowles'
+  11:    1  ->  brother
+  12:    1  ->  crowd
+  13:    1  ->  delusive
+  14:    1  ->  error
+  15:    1  ->  ever
+  16:    1  ->  fetters
+  17:    1  ->  fleeing
+  18:    1  ->  heartley
+  19:    1  ->  henley
+  20:    1  ->  hipt
+  21:    1  ->  is
+  22:    1  ->  it
+  23:    1  ->  keswick
+  24:    1  ->  lancinations
+  25:    1  ->  maltworm
+  26:    1  ->  mammia
+  27:    1  ->  new
+  28:    1  ->  no
+  29:    1  ->  of
+  30:    1  ->  perfectable
+  31:    1  ->  pesthouse
+  32:    1  ->  pizermine
+  33:    1  ->  poor
+  34:    1  ->  pulcherima
+  35:    1  ->  scribbler
+  36:    1  ->  sh
+  37:    1  ->  shanson
+  38:    1  ->  son
+  39:    1  ->  souls
+  40:    1  ->  southey
+  41:    1  ->  that
+  42:    1  ->  there
+  43:    1  ->  uncurtainment
+  44:    1  ->  webbed
+  45:    1  ->  whether
+  46:    1  ->  which
+  47:    1  ->  willfull
+  48:    1  ->  write
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

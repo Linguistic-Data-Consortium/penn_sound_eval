@@ -1,0 +1,233 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.7%   (  81)
+
+Percent Correct           =   93.9%   (1136)
+
+Percent Substitution      =    4.7%   (  57)
+Percent Deletions         =    1.4%   (  17)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   93.3%
+
+
+Ref. words                =           (1210)
+Hyp. words                =           (1200)
+Aligned words             =           (1217)
+
+CONFUSION PAIRS                  Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    3  ->  twenty ==> two
+   2:    2  ->  and ==> in
+   3:    2  ->  fourteen ==> four
+   4:    2  ->  idle ==> idol
+   5:    2  ->  in ==> and
+   6:    2  ->  passed ==> pass
+   7:    2  ->  the ==> a
+   8:    1  ->  a ==> imber
+   9:    1  ->  a ==> the
+  10:    1  ->  amis ==> amos
+  11:    1  ->  boards ==> longboards
+  12:    1  ->  broker ==> broke
+  13:    1  ->  carpentered ==> dirt
+  14:    1  ->  dos ==> candos
+  15:    1  ->  forty ==> oh
+  16:    1  ->  gone ==> going
+  17:    1  ->  have ==> are
+  18:    1  ->  hole ==> hold
+  19:    1  ->  is ==> tastes
+  20:    1  ->  is ==> was
+  21:    1  ->  leathered ==> levered
+  22:    1  ->  many ==> the
+  23:    1  ->  one ==> when
+  24:    1  ->  others ==> other's
+  25:    1  ->  owned ==> own
+  26:    1  ->  planed ==> plain
+  27:    1  ->  pleated ==> pleaded
+  28:    1  ->  plumbed ==> plumb
+  29:    1  ->  realise ==> realised
+  30:    1  ->  salt ==> thought
+  31:    1  ->  sawed ==> sold
+  32:    1  ->  schoolgirl ==> girl
+  33:    1  ->  seal ==> sealed
+  34:    1  ->  seductresses ==> seduces
+  35:    1  ->  so ==> of
+  36:    1  ->  swing ==> sway
+  37:    1  ->  ten ==> 10:00
+  38:    1  ->  the ==> with
+  39:    1  ->  thirty ==> oh
+  40:    1  ->  through ==> to
+  41:    1  ->  til ==> till
+  42:    1  ->  tinny ==> tin
+  43:    1  ->  toenail ==> toenails
+  44:    1  ->  waist ==> waste
+  45:    1  ->  walk ==> walked
+  46:    1  ->  who ==> whom
+  47:    1  ->  window ==> winder
+  48:    1  ->  working ==> were
+  49:    1  ->  works ==> worked
+     -------
+        57
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  one
+   2:    1  ->  and
+   3:    1  ->  c
+   4:    1  ->  oops
+   5:    1  ->  school
+   6:    1  ->  some
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    4  ->  i
+   2:    2  ->  am
+   3:    2  ->  it's
+   4:    1  ->  about
+   5:    1  ->  and
+   6:    1  ->  as
+   7:    1  ->  at
+   8:    1  ->  can
+   9:    1  ->  had
+  10:    1  ->  in
+  11:    1  ->  long
+  12:    1  ->  taste
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    3  ->  the
+   2:    3  ->  twenty
+   3:    2  ->  a
+   4:    2  ->  and
+   5:    2  ->  fourteen
+   6:    2  ->  idle
+   7:    2  ->  in
+   8:    2  ->  is
+   9:    2  ->  passed
+  10:    1  ->  amis
+  11:    1  ->  boards
+  12:    1  ->  broker
+  13:    1  ->  carpentered
+  14:    1  ->  dos
+  15:    1  ->  forty
+  16:    1  ->  gone
+  17:    1  ->  have
+  18:    1  ->  hole
+  19:    1  ->  leathered
+  20:    1  ->  many
+  21:    1  ->  one
+  22:    1  ->  others
+  23:    1  ->  owned
+  24:    1  ->  planed
+  25:    1  ->  pleated
+  26:    1  ->  plumbed
+  27:    1  ->  realise
+  28:    1  ->  salt
+  29:    1  ->  sawed
+  30:    1  ->  schoolgirl
+  31:    1  ->  seal
+  32:    1  ->  seductresses
+  33:    1  ->  so
+  34:    1  ->  swing
+  35:    1  ->  ten
+  36:    1  ->  thirty
+  37:    1  ->  through
+  38:    1  ->  til
+  39:    1  ->  tinny
+  40:    1  ->  toenail
+  41:    1  ->  waist
+  42:    1  ->  walk
+  43:    1  ->  who
+  44:    1  ->  window
+  45:    1  ->  working
+  46:    1  ->  works
+     -------
+        57
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    3  ->  two
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  four
+   5:    2  ->  idol
+   6:    2  ->  in
+   7:    2  ->  oh
+   8:    2  ->  pass
+   9:    2  ->  the
+  10:    1  ->  10:00
+  11:    1  ->  amos
+  12:    1  ->  are
+  13:    1  ->  broke
+  14:    1  ->  candos
+  15:    1  ->  dirt
+  16:    1  ->  girl
+  17:    1  ->  going
+  18:    1  ->  hold
+  19:    1  ->  imber
+  20:    1  ->  levered
+  21:    1  ->  longboards
+  22:    1  ->  of
+  23:    1  ->  other's
+  24:    1  ->  own
+  25:    1  ->  plain
+  26:    1  ->  pleaded
+  27:    1  ->  plumb
+  28:    1  ->  realised
+  29:    1  ->  sealed
+  30:    1  ->  seduces
+  31:    1  ->  sold
+  32:    1  ->  sway
+  33:    1  ->  tastes
+  34:    1  ->  thought
+  35:    1  ->  till
+  36:    1  ->  tin
+  37:    1  ->  to
+  38:    1  ->  toenails
+  39:    1  ->  walked
+  40:    1  ->  was
+  41:    1  ->  waste
+  42:    1  ->  were
+  43:    1  ->  when
+  44:    1  ->  whom
+  45:    1  ->  winder
+  46:    1  ->  with
+  47:    1  ->  worked
+     -------
+        57
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

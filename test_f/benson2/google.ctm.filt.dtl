@@ -1,0 +1,323 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   22.8%   ( 257)
+
+Percent Correct           =   78.5%   ( 886)
+
+Percent Substitution      =    4.5%   (  51)
+Percent Deletions         =   17.0%   ( 192)
+Percent Insertions        =    1.2%   (  14)
+Percent Word Accuracy     =   77.2%
+
+
+Ref. words                =           (1129)
+Hyp. words                =           ( 951)
+Aligned words             =           (1143)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  is ==> was
+   2:    1  ->  and ==> did
+   3:    1  ->  and ==> on
+   4:    1  ->  because ==> cuz
+   5:    1  ->  can ==> to
+   6:    1  ->  changed ==> changed"
+   7:    1  ->  did ==> do
+   8:    1  ->  door ==> store
+   9:    1  ->  ever ==> stand
+  10:    1  ->  every ==> really
+  11:    1  ->  guest ==> gay
+  12:    1  ->  have ==> yeah
+  13:    1  ->  here ==> it
+  14:    1  ->  holidays ==> days
+  15:    1  ->  it ==> no
+  16:    1  ->  it ==> stuff
+  17:    1  ->  it ==> to
+  18:    1  ->  likes ==> loves
+  19:    1  ->  months ==> minutes
+  20:    1  ->  no ==> happened
+  21:    1  ->  not ==> i
+  22:    1  ->  now ==> "now
+  23:    1  ->  of ==> that
+  24:    1  ->  oh ==> actual
+  25:    1  ->  old ==> want
+  26:    1  ->  or ==> oil
+  27:    1  ->  peanuts ==> peanut
+  28:    1  ->  pull ==> open
+  29:    1  ->  scen ==> sense
+  30:    1  ->  scents ==> sense
+  31:    1  ->  section ==> intersection
+  32:    1  ->  shawn ==> sean
+  33:    1  ->  spend ==> holiday
+  34:    1  ->  sweated ==> sweat
+  35:    1  ->  tacks ==> tax
+  36:    1  ->  that ==> it
+  37:    1  ->  that's ==> it's
+  38:    1  ->  they ==> think
+  39:    1  ->  this ==> the
+  40:    1  ->  to ==> at
+  41:    1  ->  vote ==> boat
+  42:    1  ->  when ==> mean
+  43:    1  ->  x ==> dust
+  44:    1  ->  x ==> go
+  45:    1  ->  x ==> know
+  46:    1  ->  x ==> more
+  47:    1  ->  x ==> thing
+  48:    1  ->  yeah ==> done
+  49:    1  ->  you ==> we
+  50:    1  ->  yours ==> here
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a
+   2:    1  ->  any
+   3:    1  ->  but
+   4:    1  ->  do
+   5:    1  ->  ever
+   6:    1  ->  have
+   7:    1  ->  i
+   8:    1  ->  is
+   9:    1  ->  just
+  10:    1  ->  not
+  11:    1  ->  the
+  12:    1  ->  them
+  13:    1  ->  to
+  14:    1  ->  we
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (96)
+                                 With >=  1 occurrences (96)
+
+   1:   15  ->  x
+   2:   11  ->  i
+   3:   10  ->  it
+   4:   10  ->  not
+   5:    8  ->  do
+   6:    7  ->  you
+   7:    6  ->  the
+   8:    6  ->  yeah
+   9:    4  ->  is
+  10:    4  ->  know
+  11:    4  ->  that
+  12:    4  ->  them
+  13:    3  ->  and
+  14:    3  ->  are
+  15:    3  ->  does
+  16:    3  ->  oh
+  17:    2  ->  am
+  18:    2  ->  because
+  19:    2  ->  for
+  20:    2  ->  like
+  21:    2  ->  oil
+  22:    2  ->  on
+  23:    2  ->  or
+  24:    2  ->  peanut
+  25:    2  ->  right
+  26:    2  ->  that's
+  27:    2  ->  they
+  28:    1  ->  adult
+  29:    1  ->  all
+  30:    1  ->  an
+  31:    1  ->  angry
+  32:    1  ->  anything
+  33:    1  ->  at
+  34:    1  ->  barry's
+  35:    1  ->  be
+  36:    1  ->  berkeley
+  37:    1  ->  better
+  38:    1  ->  bringing
+  39:    1  ->  but
+  40:    1  ->  careful
+  41:    1  ->  could
+  42:    1  ->  d
+  43:    1  ->  estimate
+  44:    1  ->  ev
+  45:    1  ->  ever
+  46:    1  ->  feel
+  47:    1  ->  found
+  48:    1  ->  gee
+  49:    1  ->  get
+  50:    1  ->  glass
+  51:    1  ->  got
+  52:    1  ->  guess
+  53:    1  ->  happen
+  54:    1  ->  have
+  55:    1  ->  house
+  56:    1  ->  in
+  57:    1  ->  invalid
+  58:    1  ->  just
+  59:    1  ->  look
+  60:    1  ->  lower
+  61:    1  ->  make
+  62:    1  ->  my
+  63:    1  ->  notice
+  64:    1  ->  o
+  65:    1  ->  of
+  66:    1  ->  oily
+  67:    1  ->  once
+  68:    1  ->  one
+  69:    1  ->  out
+  70:    1  ->  over
+  71:    1  ->  people
+  72:    1  ->  pink
+  73:    1  ->  read
+  74:    1  ->  really
+  75:    1  ->  saw
+  76:    1  ->  say
+  77:    1  ->  scent
+  78:    1  ->  seemed
+  79:    1  ->  smell
+  80:    1  ->  something
+  81:    1  ->  strong
+  82:    1  ->  then
+  83:    1  ->  this
+  84:    1  ->  those
+  85:    1  ->  through
+  86:    1  ->  to
+  87:    1  ->  together
+  88:    1  ->  told
+  89:    1  ->  vacuum
+  90:    1  ->  validation
+  91:    1  ->  very
+  92:    1  ->  well
+  93:    1  ->  what
+  94:    1  ->  whiz
+  95:    1  ->  who
+  96:    1  ->  your
+     -------
+       192
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    5  ->  x
+   2:    3  ->  it
+   3:    2  ->  and
+   4:    2  ->  is
+   5:    1  ->  because
+   6:    1  ->  can
+   7:    1  ->  changed
+   8:    1  ->  did
+   9:    1  ->  door
+  10:    1  ->  ever
+  11:    1  ->  every
+  12:    1  ->  guest
+  13:    1  ->  have
+  14:    1  ->  here
+  15:    1  ->  holidays
+  16:    1  ->  likes
+  17:    1  ->  months
+  18:    1  ->  no
+  19:    1  ->  not
+  20:    1  ->  now
+  21:    1  ->  of
+  22:    1  ->  oh
+  23:    1  ->  old
+  24:    1  ->  or
+  25:    1  ->  peanuts
+  26:    1  ->  pull
+  27:    1  ->  scen
+  28:    1  ->  scents
+  29:    1  ->  section
+  30:    1  ->  shawn
+  31:    1  ->  spend
+  32:    1  ->  sweated
+  33:    1  ->  tacks
+  34:    1  ->  that
+  35:    1  ->  that's
+  36:    1  ->  they
+  37:    1  ->  this
+  38:    1  ->  to
+  39:    1  ->  vote
+  40:    1  ->  when
+  41:    1  ->  yeah
+  42:    1  ->  you
+  43:    1  ->  yours
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  it
+   2:    2  ->  sense
+   3:    2  ->  to
+   4:    2  ->  was
+   5:    1  ->  "now
+   6:    1  ->  actual
+   7:    1  ->  at
+   8:    1  ->  boat
+   9:    1  ->  changed"
+  10:    1  ->  cuz
+  11:    1  ->  days
+  12:    1  ->  did
+  13:    1  ->  do
+  14:    1  ->  done
+  15:    1  ->  dust
+  16:    1  ->  gay
+  17:    1  ->  go
+  18:    1  ->  happened
+  19:    1  ->  here
+  20:    1  ->  holiday
+  21:    1  ->  i
+  22:    1  ->  intersection
+  23:    1  ->  it's
+  24:    1  ->  know
+  25:    1  ->  loves
+  26:    1  ->  mean
+  27:    1  ->  minutes
+  28:    1  ->  more
+  29:    1  ->  no
+  30:    1  ->  oil
+  31:    1  ->  on
+  32:    1  ->  open
+  33:    1  ->  peanut
+  34:    1  ->  really
+  35:    1  ->  sean
+  36:    1  ->  stand
+  37:    1  ->  store
+  38:    1  ->  stuff
+  39:    1  ->  sweat
+  40:    1  ->  tax
+  41:    1  ->  that
+  42:    1  ->  the
+  43:    1  ->  thing
+  44:    1  ->  think
+  45:    1  ->  want
+  46:    1  ->  we
+  47:    1  ->  yeah
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

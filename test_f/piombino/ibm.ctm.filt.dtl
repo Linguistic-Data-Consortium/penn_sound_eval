@@ -1,0 +1,193 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.8%   (  54)
+
+Percent Correct           =   94.6%   ( 881)
+
+Percent Substitution      =    4.5%   (  42)
+Percent Deletions         =    0.9%   (   8)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   94.2%
+
+
+Ref. words                =           ( 931)
+Hyp. words                =           ( 927)
+Aligned words             =           ( 935)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  in ==> and
+   2:    2  ->  its ==> it's
+   3:    2  ->  two ==> too
+   4:    1  ->  a ==> of
+   5:    1  ->  a ==> the
+   6:    1  ->  betray ==> tray
+   7:    1  ->  bruce ==> los
+   8:    1  ->  but ==> for
+   9:    1  ->  cerebration ==> celebration
+  10:    1  ->  could ==> can
+  11:    1  ->  equivalence ==> equivalents
+  12:    1  ->  forgo ==> forego
+  13:    1  ->  furthers ==> furthest
+  14:    1  ->  grave ==> engrave
+  15:    1  ->  has ==> as
+  16:    1  ->  in ==> an
+  17:    1  ->  it ==> transforma
+  18:    1  ->  known ==> name
+  19:    1  ->  leaks ==> weeks
+  20:    1  ->  live ==> move
+  21:    1  ->  membrane ==> membering
+  22:    1  ->  of ==> a
+  23:    1  ->  peripheral ==> pre
+  24:    1  ->  portrayal ==> portray
+  25:    1  ->  ruined ==> rooming
+  26:    1  ->  sanjo's ==> angels
+  27:    1  ->  sea ==> c
+  28:    1  ->  shed ==> shade
+  29:    1  ->  staccato ==> ducato
+  30:    1  ->  strengths ==> strength
+  31:    1  ->  terrai ==> or
+  32:    1  ->  that ==> of
+  33:    1  ->  that ==> the
+  34:    1  ->  the ==> this
+  35:    1  ->  the ==> to
+  36:    1  ->  to ==> of
+  37:    1  ->  to ==> the
+  38:    1  ->  vast ==> fast
+  39:    1  ->  zone ==> frozone
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  be
+   2:    1  ->  of
+   3:    1  ->  these
+   4:    1  ->  to
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  an
+   3:    1  ->  asl
+   4:    1  ->  conquistad
+   5:    1  ->  in
+   6:    1  ->  res
+   7:    1  ->  then
+   8:    1  ->  transform
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  in
+   2:    2  ->  a
+   3:    2  ->  its
+   4:    2  ->  that
+   5:    2  ->  the
+   6:    2  ->  to
+   7:    2  ->  two
+   8:    1  ->  betray
+   9:    1  ->  bruce
+  10:    1  ->  but
+  11:    1  ->  cerebration
+  12:    1  ->  could
+  13:    1  ->  equivalence
+  14:    1  ->  forgo
+  15:    1  ->  furthers
+  16:    1  ->  grave
+  17:    1  ->  has
+  18:    1  ->  it
+  19:    1  ->  known
+  20:    1  ->  leaks
+  21:    1  ->  live
+  22:    1  ->  membrane
+  23:    1  ->  of
+  24:    1  ->  peripheral
+  25:    1  ->  portrayal
+  26:    1  ->  ruined
+  27:    1  ->  sanjo's
+  28:    1  ->  sea
+  29:    1  ->  shed
+  30:    1  ->  staccato
+  31:    1  ->  strengths
+  32:    1  ->  terrai
+  33:    1  ->  vast
+  34:    1  ->  zone
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  of
+   2:    3  ->  the
+   3:    2  ->  and
+   4:    2  ->  it's
+   5:    2  ->  too
+   6:    1  ->  a
+   7:    1  ->  an
+   8:    1  ->  angels
+   9:    1  ->  as
+  10:    1  ->  c
+  11:    1  ->  can
+  12:    1  ->  celebration
+  13:    1  ->  ducato
+  14:    1  ->  engrave
+  15:    1  ->  equivalents
+  16:    1  ->  fast
+  17:    1  ->  for
+  18:    1  ->  forego
+  19:    1  ->  frozone
+  20:    1  ->  furthest
+  21:    1  ->  los
+  22:    1  ->  membering
+  23:    1  ->  move
+  24:    1  ->  name
+  25:    1  ->  or
+  26:    1  ->  portray
+  27:    1  ->  pre
+  28:    1  ->  rooming
+  29:    1  ->  shade
+  30:    1  ->  strength
+  31:    1  ->  this
+  32:    1  ->  to
+  33:    1  ->  transforma
+  34:    1  ->  tray
+  35:    1  ->  weeks
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

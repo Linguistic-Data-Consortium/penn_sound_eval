@@ -1,0 +1,173 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.5%   (  44)
+
+Percent Correct           =   95.8%   ( 937)
+
+Percent Substitution      =    3.6%   (  35)
+Percent Deletions         =    0.6%   (   6)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   95.5%
+
+
+Ref. words                =           ( 978)
+Hyp. words                =           ( 975)
+Aligned words             =           ( 981)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    5  ->  forty ==> oh
+   2:    1  ->  ailing ==> in
+   3:    1  ->  banton ==> bantan
+   4:    1  ->  bellay ==> belay
+   5:    1  ->  boll ==> bull
+   6:    1  ->  buju ==> boujou
+   7:    1  ->  coltraine ==> coltrane
+   8:    1  ->  dido ==> ditto
+   9:    1  ->  eye ==> i
+  10:    1  ->  eyed ==> blueeyed
+  11:    1  ->  fifth ==> 45th
+  12:    1  ->  formed ==> halfformed
+  13:    1  ->  fourth ==> 44th
+  14:    1  ->  handedness ==> secondhandedness
+  15:    1  ->  headedness ==> twoheadedness
+  16:    1  ->  high ==> i
+  17:    1  ->  in ==> and
+  18:    1  ->  martyr ==> martyrs
+  19:    1  ->  minks ==> minx
+  20:    1  ->  montigo ==> montego
+  21:    1  ->  ninety ==> nine
+  22:    1  ->  noel ==> noelle
+  23:    1  ->  plotting ==> plottin'
+  24:    1  ->  raps ==> rats
+  25:    1  ->  shearling ==> shirling
+  26:    1  ->  sipping ==> sippin'
+  27:    1  ->  slims ==> slim
+  28:    1  ->  threatened ==> threaten
+  29:    1  ->  turncoats ==> coach
+  30:    1  ->  wiz ==> whiz
+  31:    1  ->  yvonda's ==> yvanda's
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  ale
+   2:    1  ->  mmm
+   3:    1  ->  turn
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  forty
+   2:    1  ->  blue
+   3:    1  ->  half
+   4:    1  ->  second
+   5:    1  ->  two
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    5  ->  forty
+   2:    1  ->  ailing
+   3:    1  ->  banton
+   4:    1  ->  bellay
+   5:    1  ->  boll
+   6:    1  ->  buju
+   7:    1  ->  coltraine
+   8:    1  ->  dido
+   9:    1  ->  eye
+  10:    1  ->  eyed
+  11:    1  ->  fifth
+  12:    1  ->  formed
+  13:    1  ->  fourth
+  14:    1  ->  handedness
+  15:    1  ->  headedness
+  16:    1  ->  high
+  17:    1  ->  in
+  18:    1  ->  martyr
+  19:    1  ->  minks
+  20:    1  ->  montigo
+  21:    1  ->  ninety
+  22:    1  ->  noel
+  23:    1  ->  plotting
+  24:    1  ->  raps
+  25:    1  ->  shearling
+  26:    1  ->  sipping
+  27:    1  ->  slims
+  28:    1  ->  threatened
+  29:    1  ->  turncoats
+  30:    1  ->  wiz
+  31:    1  ->  yvonda's
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    5  ->  oh
+   2:    2  ->  i
+   3:    1  ->  44th
+   4:    1  ->  45th
+   5:    1  ->  and
+   6:    1  ->  bantan
+   7:    1  ->  belay
+   8:    1  ->  blueeyed
+   9:    1  ->  boujou
+  10:    1  ->  bull
+  11:    1  ->  coach
+  12:    1  ->  coltrane
+  13:    1  ->  ditto
+  14:    1  ->  halfformed
+  15:    1  ->  in
+  16:    1  ->  martyrs
+  17:    1  ->  minx
+  18:    1  ->  montego
+  19:    1  ->  nine
+  20:    1  ->  noelle
+  21:    1  ->  plottin'
+  22:    1  ->  rats
+  23:    1  ->  secondhandedness
+  24:    1  ->  shirling
+  25:    1  ->  sippin'
+  26:    1  ->  slim
+  27:    1  ->  threaten
+  28:    1  ->  twoheadedness
+  29:    1  ->  whiz
+  30:    1  ->  yvanda's
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

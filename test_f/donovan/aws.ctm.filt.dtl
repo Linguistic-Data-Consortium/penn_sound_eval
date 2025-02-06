@@ -1,0 +1,207 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.6%   (  56)
+
+Percent Correct           =   95.5%   ( 947)
+
+Percent Substitution      =    4.3%   (  43)
+Percent Deletions         =    0.2%   (   2)
+Percent Insertions        =    1.1%   (  11)
+Percent Word Accuracy     =   94.4%
+
+
+Ref. words                =           ( 992)
+Hyp. words                =           (1001)
+Aligned words             =           (1003)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  twelve ==> two
+   2:    1  ->  bass ==> base
+   3:    1  ->  book ==> buck
+   4:    1  ->  boombox ==> box
+   5:    1  ->  boykoff's ==> boycotts
+   6:    1  ->  clothespins ==> pins
+   7:    1  ->  dependent ==> i
+   8:    1  ->  folktales ==> tales
+   9:    1  ->  gave ==> gained
+  10:    1  ->  had ==> have
+  11:    1  ->  hellen ==> helen
+  12:    1  ->  his ==> this
+  13:    1  ->  housesitting ==> sitting
+  14:    1  ->  included ==> include
+  15:    1  ->  infusion ==> fusion
+  16:    1  ->  intention ==> attention
+  17:    1  ->  jambet ==> jebet
+  18:    1  ->  jules ==> jewels
+  19:    1  ->  koch's ==> koi's
+  20:    1  ->  liljestrand ==> lrad
+  21:    1  ->  line ==> midline
+  22:    1  ->  merleau ==> merlot
+  23:    1  ->  move ==> moved
+  24:    1  ->  multitrack ==> track
+  25:    1  ->  my ==> by
+  26:    1  ->  on ==> at
+  27:    1  ->  on ==> of
+  28:    1  ->  on ==> upon
+  29:    1  ->  on ==> would
+  30:    1  ->  onlooking ==> onl
+  31:    1  ->  onto ==> to
+  32:    1  ->  peer ==> appear
+  33:    1  ->  ponty's ==> pontis
+  34:    1  ->  sacks's ==> sacks'
+  35:    1  ->  singlehandedly ==> handedly
+  36:    1  ->  splice ==> slice
+  37:    1  ->  the ==> a
+  38:    1  ->  through ==> to
+  39:    1  ->  track ==> trap
+  40:    1  ->  treble ==> trouble
+  41:    1  ->  triply ==> tripoli
+  42:    1  ->  wholly ==> hoy
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  one
+   2:    1  ->  and
+   3:    1  ->  boom
+   4:    1  ->  clothes
+   5:    1  ->  folk
+   6:    1  ->  house
+   7:    1  ->  in
+   8:    1  ->  multi
+   9:    1  ->  on
+  10:    1  ->  single
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  had
+   2:    1  ->  mid
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    4  ->  on
+   2:    2  ->  twelve
+   3:    1  ->  bass
+   4:    1  ->  book
+   5:    1  ->  boombox
+   6:    1  ->  boykoff's
+   7:    1  ->  clothespins
+   8:    1  ->  dependent
+   9:    1  ->  folktales
+  10:    1  ->  gave
+  11:    1  ->  had
+  12:    1  ->  hellen
+  13:    1  ->  his
+  14:    1  ->  housesitting
+  15:    1  ->  included
+  16:    1  ->  infusion
+  17:    1  ->  intention
+  18:    1  ->  jambet
+  19:    1  ->  jules
+  20:    1  ->  koch's
+  21:    1  ->  liljestrand
+  22:    1  ->  line
+  23:    1  ->  merleau
+  24:    1  ->  move
+  25:    1  ->  multitrack
+  26:    1  ->  my
+  27:    1  ->  onlooking
+  28:    1  ->  onto
+  29:    1  ->  peer
+  30:    1  ->  ponty's
+  31:    1  ->  sacks's
+  32:    1  ->  singlehandedly
+  33:    1  ->  splice
+  34:    1  ->  the
+  35:    1  ->  through
+  36:    1  ->  track
+  37:    1  ->  treble
+  38:    1  ->  triply
+  39:    1  ->  wholly
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  to
+   2:    2  ->  two
+   3:    1  ->  a
+   4:    1  ->  appear
+   5:    1  ->  at
+   6:    1  ->  attention
+   7:    1  ->  base
+   8:    1  ->  box
+   9:    1  ->  boycotts
+  10:    1  ->  buck
+  11:    1  ->  by
+  12:    1  ->  fusion
+  13:    1  ->  gained
+  14:    1  ->  handedly
+  15:    1  ->  have
+  16:    1  ->  helen
+  17:    1  ->  hoy
+  18:    1  ->  i
+  19:    1  ->  include
+  20:    1  ->  jebet
+  21:    1  ->  jewels
+  22:    1  ->  koi's
+  23:    1  ->  lrad
+  24:    1  ->  merlot
+  25:    1  ->  midline
+  26:    1  ->  moved
+  27:    1  ->  of
+  28:    1  ->  onl
+  29:    1  ->  pins
+  30:    1  ->  pontis
+  31:    1  ->  sacks'
+  32:    1  ->  sitting
+  33:    1  ->  slice
+  34:    1  ->  tales
+  35:    1  ->  this
+  36:    1  ->  track
+  37:    1  ->  trap
+  38:    1  ->  tripoli
+  39:    1  ->  trouble
+  40:    1  ->  upon
+  41:    1  ->  would
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

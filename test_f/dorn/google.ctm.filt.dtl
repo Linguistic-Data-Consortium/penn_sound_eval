@@ -1,0 +1,180 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.3%   (  69)
+
+Percent Correct           =   92.4%   ( 767)
+
+Percent Substitution      =    3.5%   (  29)
+Percent Deletions         =    4.1%   (  34)
+Percent Insertions        =    0.7%   (   6)
+Percent Word Accuracy     =   91.7%
+
+
+Ref. words                =           ( 830)
+Hyp. words                =           ( 802)
+Aligned words             =           ( 836)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    4  ->  aklavik ==> aklovik
+   2:    2  ->  aklavik ==> aklavic
+   3:    2  ->  aklavik ==> uaklavik
+   4:    1  ->  aklavik ==> aklovic
+   5:    1  ->  aye ==> i
+   6:    1  ->  bay ==> bathe
+   7:    1  ->  castanets ==> castinets
+   8:    1  ->  color ==> colour
+   9:    1  ->  contained ==> selfcontained
+  10:    1  ->  croyden ==> croydon
+  11:    1  ->  cunts ==> cuntis
+  12:    1  ->  economic ==> geoeconomic
+  13:    1  ->  herriman ==> harryman
+  14:    1  ->  insupportably ==> the
+  15:    1  ->  interest ==> selfinterest
+  16:    1  ->  ishamelite ==> ishmaelites
+  17:    1  ->  jailbird ==> bird
+  18:    1  ->  katmandu ==> kathmandu
+  19:    1  ->  mellifluous ==> malefluous
+  20:    1  ->  nation ==> nations
+  21:    1  ->  pocatello ==> pocahontas
+  22:    1  ->  productions ==> production
+  23:    1  ->  shutter ==> shudder
+  24:    1  ->  to ==> into
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  for
+   2:    1  ->  in
+   3:    1  ->  jail
+   4:    1  ->  known
+   5:    1  ->  support
+   6:    1  ->  the
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  self
+   2:    2  ->  you
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  are
+   6:    1  ->  back
+   7:    1  ->  bolivar
+   8:    1  ->  cry
+   9:    1  ->  engaged
+  10:    1  ->  geo
+  11:    1  ->  home
+  12:    1  ->  is
+  13:    1  ->  jewel
+  14:    1  ->  less
+  15:    1  ->  none
+  16:    1  ->  off
+  17:    1  ->  out
+  18:    1  ->  paper
+  19:    1  ->  regents
+  20:    1  ->  sealed
+  21:    1  ->  situation
+  22:    1  ->  slightly
+  23:    1  ->  so
+  24:    1  ->  strolled
+  25:    1  ->  that
+  26:    1  ->  the
+  27:    1  ->  they
+  28:    1  ->  thinking
+  29:    1  ->  to
+  30:    1  ->  where
+  31:    1  ->  whose
+  32:    1  ->  winter
+     -------
+        34
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    9  ->  aklavik
+   2:    1  ->  aye
+   3:    1  ->  bay
+   4:    1  ->  castanets
+   5:    1  ->  color
+   6:    1  ->  contained
+   7:    1  ->  croyden
+   8:    1  ->  cunts
+   9:    1  ->  economic
+  10:    1  ->  herriman
+  11:    1  ->  insupportably
+  12:    1  ->  interest
+  13:    1  ->  ishamelite
+  14:    1  ->  jailbird
+  15:    1  ->  katmandu
+  16:    1  ->  mellifluous
+  17:    1  ->  nation
+  18:    1  ->  pocatello
+  19:    1  ->  productions
+  20:    1  ->  shutter
+  21:    1  ->  to
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    4  ->  aklovik
+   2:    2  ->  aklavic
+   3:    2  ->  uaklavik
+   4:    1  ->  aklovic
+   5:    1  ->  bathe
+   6:    1  ->  bird
+   7:    1  ->  castinets
+   8:    1  ->  colour
+   9:    1  ->  croydon
+  10:    1  ->  cuntis
+  11:    1  ->  geoeconomic
+  12:    1  ->  harryman
+  13:    1  ->  i
+  14:    1  ->  into
+  15:    1  ->  ishmaelites
+  16:    1  ->  kathmandu
+  17:    1  ->  malefluous
+  18:    1  ->  nations
+  19:    1  ->  pocahontas
+  20:    1  ->  production
+  21:    1  ->  selfcontained
+  22:    1  ->  selfinterest
+  23:    1  ->  shudder
+  24:    1  ->  the
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

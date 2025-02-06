@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.0%   (  22)
+
+Percent Correct           =   97.8%   ( 707)
+
+Percent Substitution      =    2.1%   (  15)
+Percent Deletions         =    0.1%   (   1)
+Percent Insertions        =    0.8%   (   6)
+Percent Word Accuracy     =   97.0%
+
+
+Ref. words                =           ( 723)
+Hyp. words                =           ( 728)
+Aligned words             =           ( 729)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  awls ==> s
+   2:    1  ->  combustable ==> combustible
+   3:    1  ->  firewall ==> wall
+   4:    1  ->  gulley ==> gully
+   5:    1  ->  historiated ==> stared
+   6:    1  ->  incipits ==> kippes
+   7:    1  ->  managed ==> mannered
+   8:    1  ->  ogham ==> ham
+   9:    1  ->  pouring ==> poring
+  10:    1  ->  scuro ==> chiaroscuro
+  11:    1  ->  slice ==> notch
+  12:    1  ->  someone's ==> one's
+  13:    1  ->  strage ==> str
+  14:    1  ->  takeout ==> out
+  15:    1  ->  untrackable ==> trackable
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  fire
+   2:    1  ->  his
+   3:    1  ->  in
+   4:    1  ->  some
+   5:    1  ->  take
+   6:    1  ->  un
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  chiaro
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  awls
+   2:    1  ->  combustable
+   3:    1  ->  firewall
+   4:    1  ->  gulley
+   5:    1  ->  historiated
+   6:    1  ->  incipits
+   7:    1  ->  managed
+   8:    1  ->  ogham
+   9:    1  ->  pouring
+  10:    1  ->  scuro
+  11:    1  ->  slice
+  12:    1  ->  someone's
+  13:    1  ->  strage
+  14:    1  ->  takeout
+  15:    1  ->  untrackable
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  chiaroscuro
+   2:    1  ->  combustible
+   3:    1  ->  gully
+   4:    1  ->  ham
+   5:    1  ->  kippes
+   6:    1  ->  mannered
+   7:    1  ->  notch
+   8:    1  ->  one's
+   9:    1  ->  out
+  10:    1  ->  poring
+  11:    1  ->  s
+  12:    1  ->  stared
+  13:    1  ->  str
+  14:    1  ->  trackable
+  15:    1  ->  wall
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

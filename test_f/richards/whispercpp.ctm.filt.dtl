@@ -1,0 +1,144 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.1%   (  46)
+
+Percent Correct           =   96.6%   ( 625)
+
+Percent Substitution      =    2.3%   (  15)
+Percent Deletions         =    1.1%   (   7)
+Percent Insertions        =    3.7%   (  24)
+Percent Word Accuracy     =   92.9%
+
+
+Ref. words                =           ( 647)
+Hyp. words                =           ( 664)
+Aligned words             =           ( 671)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  breast ==> breath
+   2:    1  ->  double ==> hibiscus
+   3:    1  ->  groan ==> grown
+   4:    1  ->  hen's ==> hands
+   5:    1  ->  holds ==> holes
+   6:    1  ->  hours ==> ours
+   7:    1  ->  of ==> at
+   8:    1  ->  pallor ==> power
+   9:    1  ->  right ==> rite
+  10:    1  ->  somewhere ==> how
+  11:    1  ->  sun ==> sunturned
+  12:    1  ->  third ==> 3rd
+  13:    1  ->  towards ==> toward
+  14:    1  ->  turning ==> sunturning
+  15:    1  ->  yolk ==> doubleyolk
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    3  ->  morning
+   2:    2  ->  jasper
+   3:    2  ->  prayer
+   4:    2  ->  the
+   5:    1  ->  a
+   6:    1  ->  about
+   7:    1  ->  asking
+   8:    1  ->  doubleyolk
+   9:    1  ->  florida
+  10:    1  ->  grown
+  11:    1  ->  hands
+  12:    1  ->  in
+  13:    1  ->  is
+  14:    1  ->  me
+  15:    1  ->  sitting
+  16:    1  ->  some
+  17:    1  ->  were
+  18:    1  ->  when
+  19:    1  ->  you
+     -------
+        24
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  begins
+   2:    1  ->  dry
+   3:    1  ->  sun
+   4:    1  ->  t
+   5:    1  ->  turned
+   6:    1  ->  water
+   7:    1  ->  with
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  breast
+   2:    1  ->  double
+   3:    1  ->  groan
+   4:    1  ->  hen's
+   5:    1  ->  holds
+   6:    1  ->  hours
+   7:    1  ->  of
+   8:    1  ->  pallor
+   9:    1  ->  right
+  10:    1  ->  somewhere
+  11:    1  ->  sun
+  12:    1  ->  third
+  13:    1  ->  towards
+  14:    1  ->  turning
+  15:    1  ->  yolk
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  3rd
+   2:    1  ->  at
+   3:    1  ->  breath
+   4:    1  ->  doubleyolk
+   5:    1  ->  grown
+   6:    1  ->  hands
+   7:    1  ->  hibiscus
+   8:    1  ->  holes
+   9:    1  ->  how
+  10:    1  ->  ours
+  11:    1  ->  power
+  12:    1  ->  rite
+  13:    1  ->  sunturned
+  14:    1  ->  sunturning
+  15:    1  ->  toward
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

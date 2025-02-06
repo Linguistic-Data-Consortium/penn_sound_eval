@@ -1,0 +1,505 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.4%   ( 213)
+
+Percent Correct           =   83.1%   ( 962)
+
+Percent Substitution      =   13.1%   ( 151)
+Percent Deletions         =    3.8%   (  44)
+Percent Insertions        =    1.6%   (  18)
+Percent Word Accuracy     =   81.6%
+
+
+Ref. words                =           (1157)
+Hyp. words                =           (1131)
+Aligned words             =           (1175)
+
+CONFUSION PAIRS                  Total                 (143)
+                                 With >=  1 occurrences (143)
+
+   1:    5  ->  a ==> the
+   2:    3  ->  in ==> and
+   3:    2  ->  and ==> in
+   4:    2  ->  the ==> of
+   5:    1  ->  a ==> i
+   6:    1  ->  a ==> street
+   7:    1  ->  accuity ==> acuity
+   8:    1  ->  airs ==> dares
+   9:    1  ->  among ==> along
+  10:    1  ->  an ==> motors
+  11:    1  ->  an ==> unforeseeable
+  12:    1  ->  and ==> been
+  13:    1  ->  and ==> of
+  14:    1  ->  approach ==> approached
+  15:    1  ->  are ==> were
+  16:    1  ->  areas ==> is
+  17:    1  ->  astrolabes ==> astrologes
+  18:    1  ->  at ==> the
+  19:    1  ->  average ==> which
+  20:    1  ->  bad ==> bare
+  21:    1  ->  beyond ==> young
+  22:    1  ->  bow ==> battle
+  23:    1  ->  but ==> or
+  24:    1  ->  called ==> could
+  25:    1  ->  called ==> so
+  26:    1  ->  children ==> them
+  27:    1  ->  cities ==> city
+  28:    1  ->  concorde ==> concord
+  29:    1  ->  connection ==> interconnection
+  30:    1  ->  curious ==> it
+  31:    1  ->  de ==> to
+  32:    1  ->  defying ==> defined
+  33:    1  ->  dies ==> liquid
+  34:    1  ->  do ==> review
+  35:    1  ->  elated ==> it
+  36:    1  ->  embarkment ==> embarrassment
+  37:    1  ->  envies ==> entities
+  38:    1  ->  eye ==> swans
+  39:    1  ->  eyes ==> guys
+  40:    1  ->  for ==> her
+  41:    1  ->  for ==> or
+  42:    1  ->  for ==> scene
+  43:    1  ->  for ==> therefore
+  44:    1  ->  forest ==> forests
+  45:    1  ->  gawk ==> god
+  46:    1  ->  gear ==> ears
+  47:    1  ->  had ==> have
+  48:    1  ->  harder ==> hardest
+  49:    1  ->  he ==> they
+  50:    1  ->  he ==> you
+  51:    1  ->  henri ==> mean
+  52:    1  ->  his ==> nearest
+  53:    1  ->  how ==> our
+  54:    1  ->  if ==> do
+  55:    1  ->  illogic ==> logic
+  56:    1  ->  in ==> an
+  57:    1  ->  in ==> comments
+  58:    1  ->  in ==> dyson
+  59:    1  ->  intermission ==> minutes
+  60:    1  ->  iron ==> and
+  61:    1  ->  is ==> 's
+  62:    1  ->  is ==> as
+  63:    1  ->  is ==> of
+  64:    1  ->  it's ==> are
+  65:    1  ->  jew ==> to
+  66:    1  ->  la ==> le
+  67:    1  ->  layer ==> glare
+  68:    1  ->  like ==> likely
+  69:    1  ->  lobsterman's ==> s
+  70:    1  ->  mad ==> had
+  71:    1  ->  makes ==> make
+  72:    1  ->  mesh ==> irmesh
+  73:    1  ->  mic ==> make
+  74:    1  ->  mind's ==> 's
+  75:    1  ->  motes ==> moats
+  76:    1  ->  myth ==> meth
+  77:    1  ->  need ==> needs
+  78:    1  ->  newest ==> owned
+  79:    1  ->  nineteenth ==> nineteen
+  80:    1  ->  no ==> little
+  81:    1  ->  not ==> no
+  82:    1  ->  not ==> nor
+  83:    1  ->  notices ==> notice
+  84:    1  ->  nurse ==> nurses
+  85:    1  ->  of ==> and
+  86:    1  ->  of ==> is
+  87:    1  ->  off ==> shamo
+  88:    1  ->  on ==> and
+  89:    1  ->  one ==> we
+  90:    1  ->  one ==> when
+  91:    1  ->  or ==> and
+  92:    1  ->  or ==> are
+  93:    1  ->  ours' ==> ours
+  94:    1  ->  outlive ==> outlived
+  95:    1  ->  owed ==> old
+  96:    1  ->  peter's ==> 's
+  97:    1  ->  poem ==> a
+  98:    1  ->  poem's ==> palm
+  99:    1  ->  poor ==> singapore
+ 100:    1  ->  postponed ==> a
+ 101:    1  ->  put ==> called
+ 102:    1  ->  rain ==> reign
+ 103:    1  ->  right ==> rowing
+ 104:    1  ->  rock ==> wire
+ 105:    1  ->  round ==> around
+ 106:    1  ->  sea ==> seas
+ 107:    1  ->  seeing ==> and
+ 108:    1  ->  self ==> herself
+ 109:    1  ->  sepulcher ==> sacrificer
+ 110:    1  ->  set ==> sunset
+ 111:    1  ->  she ==> bossy
+ 112:    1  ->  short ==> chart
+ 113:    1  ->  short ==> showing
+ 114:    1  ->  shown ==> butte
+ 115:    1  ->  smokes ==> 's
+ 116:    1  ->  so ==> also
+ 117:    1  ->  swallowed ==> swallow
+ 118:    1  ->  that ==> petite
+ 119:    1  ->  the ==> air
+ 120:    1  ->  the ==> movement
+ 121:    1  ->  the ==> neither
+ 122:    1  ->  the ==> seven
+ 123:    1  ->  their ==> egg
+ 124:    1  ->  these ==> ease
+ 125:    1  ->  they ==> may
+ 126:    1  ->  they ==> quote
+ 127:    1  ->  this ==> preface
+ 128:    1  ->  though ==> of
+ 129:    1  ->  tightening ==> thickening
+ 130:    1  ->  to ==> they
+ 131:    1  ->  triggered ==> it
+ 132:    1  ->  tv ==> la
+ 133:    1  ->  under ==> and
+ 134:    1  ->  unforseeable ==> that
+ 135:    1  ->  up ==> a
+ 136:    1  ->  was ==> is
+ 137:    1  ->  way ==> island
+ 138:    1  ->  weeping ==> weakened
+ 139:    1  ->  which ==> power
+ 140:    1  ->  wrote ==> roast
+ 141:    1  ->  x ==> it
+ 142:    1  ->  x ==> south
+ 143:    1  ->  yes ==> is
+     -------
+       151
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  a
+   2:    2  ->  the
+   3:    1  ->  are
+   4:    1  ->  he
+   5:    1  ->  i
+   6:    1  ->  it
+   7:    1  ->  later
+   8:    1  ->  mind
+   9:    1  ->  noons
+  10:    1  ->  peter
+  11:    1  ->  showed
+  12:    1  ->  sure
+  13:    1  ->  that
+  14:    1  ->  they
+  15:    1  ->  took
+  16:    1  ->  who
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  the
+   2:    2  ->  all
+   3:    2  ->  i
+   4:    2  ->  it
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  beaut
+   8:    1  ->  cool
+   9:    1  ->  excuse
+  10:    1  ->  foresee
+  11:    1  ->  forgot
+  12:    1  ->  had
+  13:    1  ->  his
+  14:    1  ->  in
+  15:    1  ->  intermission
+  16:    1  ->  know
+  17:    1  ->  let
+  18:    1  ->  me
+  19:    1  ->  minute
+  20:    1  ->  name
+  21:    1  ->  near
+  22:    1  ->  need
+  23:    1  ->  of
+  24:    1  ->  oh
+  25:    1  ->  one
+  26:    1  ->  poem
+  27:    1  ->  poems
+  28:    1  ->  reviewer
+  29:    1  ->  right
+  30:    1  ->  some
+  31:    1  ->  streets
+  32:    1  ->  sun
+  33:    1  ->  swan's
+  34:    1  ->  that
+  35:    1  ->  there
+  36:    1  ->  to
+  37:    1  ->  want
+  38:    1  ->  what
+  39:    1  ->  you
+     -------
+        44
+
+
+
+SUBSTITUTIONS                    Total                 (117)
+                                 With >=  1 occurrences (117)
+
+   1:    7  ->  a
+   2:    6  ->  in
+   3:    6  ->  the
+   4:    4  ->  and
+   5:    4  ->  for
+   6:    3  ->  is
+   7:    2  ->  an
+   8:    2  ->  called
+   9:    2  ->  he
+  10:    2  ->  not
+  11:    2  ->  of
+  12:    2  ->  one
+  13:    2  ->  or
+  14:    2  ->  short
+  15:    2  ->  they
+  16:    2  ->  x
+  17:    1  ->  accuity
+  18:    1  ->  airs
+  19:    1  ->  among
+  20:    1  ->  approach
+  21:    1  ->  are
+  22:    1  ->  areas
+  23:    1  ->  astrolabes
+  24:    1  ->  at
+  25:    1  ->  average
+  26:    1  ->  bad
+  27:    1  ->  beyond
+  28:    1  ->  bow
+  29:    1  ->  but
+  30:    1  ->  children
+  31:    1  ->  cities
+  32:    1  ->  concorde
+  33:    1  ->  connection
+  34:    1  ->  curious
+  35:    1  ->  de
+  36:    1  ->  defying
+  37:    1  ->  dies
+  38:    1  ->  do
+  39:    1  ->  elated
+  40:    1  ->  embarkment
+  41:    1  ->  envies
+  42:    1  ->  eye
+  43:    1  ->  eyes
+  44:    1  ->  forest
+  45:    1  ->  gawk
+  46:    1  ->  gear
+  47:    1  ->  had
+  48:    1  ->  harder
+  49:    1  ->  henri
+  50:    1  ->  his
+  51:    1  ->  how
+  52:    1  ->  if
+  53:    1  ->  illogic
+  54:    1  ->  intermission
+  55:    1  ->  iron
+  56:    1  ->  it's
+  57:    1  ->  jew
+  58:    1  ->  la
+  59:    1  ->  layer
+  60:    1  ->  like
+  61:    1  ->  lobsterman's
+  62:    1  ->  mad
+  63:    1  ->  makes
+  64:    1  ->  mesh
+  65:    1  ->  mic
+  66:    1  ->  mind's
+  67:    1  ->  motes
+  68:    1  ->  myth
+  69:    1  ->  need
+  70:    1  ->  newest
+  71:    1  ->  nineteenth
+  72:    1  ->  no
+  73:    1  ->  notices
+  74:    1  ->  nurse
+  75:    1  ->  off
+  76:    1  ->  on
+  77:    1  ->  ours'
+  78:    1  ->  outlive
+  79:    1  ->  owed
+  80:    1  ->  peter's
+  81:    1  ->  poem
+  82:    1  ->  poem's
+  83:    1  ->  poor
+  84:    1  ->  postponed
+  85:    1  ->  put
+  86:    1  ->  rain
+  87:    1  ->  right
+  88:    1  ->  rock
+  89:    1  ->  round
+  90:    1  ->  sea
+  91:    1  ->  seeing
+  92:    1  ->  self
+  93:    1  ->  sepulcher
+  94:    1  ->  set
+  95:    1  ->  she
+  96:    1  ->  shown
+  97:    1  ->  smokes
+  98:    1  ->  so
+  99:    1  ->  swallowed
+ 100:    1  ->  that
+ 101:    1  ->  their
+ 102:    1  ->  these
+ 103:    1  ->  this
+ 104:    1  ->  though
+ 105:    1  ->  tightening
+ 106:    1  ->  to
+ 107:    1  ->  triggered
+ 108:    1  ->  tv
+ 109:    1  ->  under
+ 110:    1  ->  unforseeable
+ 111:    1  ->  up
+ 112:    1  ->  was
+ 113:    1  ->  way
+ 114:    1  ->  weeping
+ 115:    1  ->  which
+ 116:    1  ->  wrote
+ 117:    1  ->  yes
+     -------
+       151
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (117)
+                                 With >=  1 occurrences (117)
+
+   1:    9  ->  and
+   2:    6  ->  the
+   3:    5  ->  of
+   4:    4  ->  's
+   5:    4  ->  is
+   6:    4  ->  it
+   7:    3  ->  a
+   8:    2  ->  are
+   9:    2  ->  in
+  10:    2  ->  make
+  11:    2  ->  or
+  12:    2  ->  they
+  13:    2  ->  to
+  14:    1  ->  acuity
+  15:    1  ->  air
+  16:    1  ->  along
+  17:    1  ->  also
+  18:    1  ->  an
+  19:    1  ->  approached
+  20:    1  ->  around
+  21:    1  ->  as
+  22:    1  ->  astrologes
+  23:    1  ->  bare
+  24:    1  ->  battle
+  25:    1  ->  been
+  26:    1  ->  bossy
+  27:    1  ->  butte
+  28:    1  ->  called
+  29:    1  ->  chart
+  30:    1  ->  city
+  31:    1  ->  comments
+  32:    1  ->  concord
+  33:    1  ->  could
+  34:    1  ->  dares
+  35:    1  ->  defined
+  36:    1  ->  do
+  37:    1  ->  dyson
+  38:    1  ->  ears
+  39:    1  ->  ease
+  40:    1  ->  egg
+  41:    1  ->  embarrassment
+  42:    1  ->  entities
+  43:    1  ->  forests
+  44:    1  ->  glare
+  45:    1  ->  god
+  46:    1  ->  guys
+  47:    1  ->  had
+  48:    1  ->  hardest
+  49:    1  ->  have
+  50:    1  ->  her
+  51:    1  ->  herself
+  52:    1  ->  i
+  53:    1  ->  interconnection
+  54:    1  ->  irmesh
+  55:    1  ->  island
+  56:    1  ->  la
+  57:    1  ->  le
+  58:    1  ->  likely
+  59:    1  ->  liquid
+  60:    1  ->  little
+  61:    1  ->  logic
+  62:    1  ->  may
+  63:    1  ->  mean
+  64:    1  ->  meth
+  65:    1  ->  minutes
+  66:    1  ->  moats
+  67:    1  ->  motors
+  68:    1  ->  movement
+  69:    1  ->  nearest
+  70:    1  ->  needs
+  71:    1  ->  neither
+  72:    1  ->  nineteen
+  73:    1  ->  no
+  74:    1  ->  nor
+  75:    1  ->  notice
+  76:    1  ->  nurses
+  77:    1  ->  old
+  78:    1  ->  our
+  79:    1  ->  ours
+  80:    1  ->  outlived
+  81:    1  ->  owned
+  82:    1  ->  palm
+  83:    1  ->  petite
+  84:    1  ->  power
+  85:    1  ->  preface
+  86:    1  ->  quote
+  87:    1  ->  reign
+  88:    1  ->  review
+  89:    1  ->  roast
+  90:    1  ->  rowing
+  91:    1  ->  s
+  92:    1  ->  sacrificer
+  93:    1  ->  scene
+  94:    1  ->  seas
+  95:    1  ->  seven
+  96:    1  ->  shamo
+  97:    1  ->  showing
+  98:    1  ->  singapore
+  99:    1  ->  so
+ 100:    1  ->  south
+ 101:    1  ->  street
+ 102:    1  ->  sunset
+ 103:    1  ->  swallow
+ 104:    1  ->  swans
+ 105:    1  ->  that
+ 106:    1  ->  them
+ 107:    1  ->  therefore
+ 108:    1  ->  thickening
+ 109:    1  ->  unforeseeable
+ 110:    1  ->  we
+ 111:    1  ->  weakened
+ 112:    1  ->  were
+ 113:    1  ->  when
+ 114:    1  ->  which
+ 115:    1  ->  wire
+ 116:    1  ->  you
+ 117:    1  ->  young
+     -------
+       151
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,321 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.1%   ( 202)
+
+Percent Correct           =   83.5%   ( 984)
+
+Percent Substitution      =    7.0%   (  82)
+Percent Deletions         =    9.5%   ( 112)
+Percent Insertions        =    0.7%   (   8)
+Percent Word Accuracy     =   82.9%
+
+
+Ref. words                =           (1178)
+Hyp. words                =           (1074)
+Aligned words             =           (1186)
+
+CONFUSION PAIRS                  Total                 (70)
+                                 With >=  1 occurrences (70)
+
+   1:    5  ->  gnomic ==> nomic
+   2:    3  ->  i ==> eye
+   3:    3  ->  rune ==> ruin
+   4:    2  ->  an ==> and
+   5:    2  ->  employ ==> employee
+   6:    2  ->  know ==> no
+   7:    2  ->  ten ==> oh
+   8:    1  ->  a ==> annoying
+   9:    1  ->  a ==> are
+  10:    1  ->  a ==> i
+  11:    1  ->  a ==> nomics
+  12:    1  ->  a ==> so
+  13:    1  ->  again ==> game
+  14:    1  ->  around ==> park
+  15:    1  ->  belonged ==> belong
+  16:    1  ->  different ==> differing
+  17:    1  ->  employ ==> employed
+  18:    1  ->  encircling ==> and
+  19:    1  ->  encircling ==> circling
+  20:    1  ->  encount ==> encounter
+  21:    1  ->  eupheries ==> furious
+  22:    1  ->  featured ==> future
+  23:    1  ->  fo ==> for
+  24:    1  ->  gno ==> where
+  25:    1  ->  gnomic's ==> not
+  26:    1  ->  had ==> was
+  27:    1  ->  here ==> her
+  28:    1  ->  him ==> them
+  29:    1  ->  i ==> design
+  30:    1  ->  i ==> employee
+  31:    1  ->  i ==> in
+  32:    1  ->  i ==> it
+  33:    1  ->  i ==> would
+  34:    1  ->  in ==> and
+  35:    1  ->  in ==> ramen
+  36:    1  ->  into ==> the
+  37:    1  ->  invade ==> in
+  38:    1  ->  kno ==> know
+  39:    1  ->  mark ==> more
+  40:    1  ->  mea ==> mean
+  41:    1  ->  mean ==> the
+  42:    1  ->  metaphoric ==> metaphor
+  43:    1  ->  no ==> knows
+  44:    1  ->  now ==> in
+  45:    1  ->  observes ==> observed
+  46:    1  ->  only ==> all
+  47:    1  ->  openly ==> opening
+  48:    1  ->  poetry ==> pottery
+  49:    1  ->  realised ==> realise
+  50:    1  ->  sai ==> so
+  51:    1  ->  schools ==> is
+  52:    1  ->  sea ==> circling
+  53:    1  ->  she's ==> experience
+  54:    1  ->  sorry ==> place
+  55:    1  ->  susan ==> what
+  56:    1  ->  that ==> she
+  57:    1  ->  the ==> a
+  58:    1  ->  the ==> get
+  59:    1  ->  the ==> miss
+  60:    1  ->  the ==> something
+  61:    1  ->  there ==> yeah
+  62:    1  ->  thi ==> every
+  63:    1  ->  to ==> the
+  64:    1  ->  twerp ==> twirp
+  65:    1  ->  w ==> would
+  66:    1  ->  wanted ==> want
+  67:    1  ->  we ==> i
+  68:    1  ->  we ==> me
+  69:    1  ->  will ==> cannot
+  70:    1  ->  you ==> being
+     -------
+        82
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  a
+   2:    2  ->  to
+   3:    1  ->  have
+   4:    1  ->  next
+   5:    1  ->  said
+   6:    1  ->  school
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    8  ->  a
+   2:    8  ->  and
+   3:    6  ->  an
+   4:    6  ->  i
+   5:    6  ->  the
+   6:    4  ->  it
+   7:    4  ->  wh
+   8:    3  ->  but
+   9:    3  ->  in
+  10:    3  ->  that
+  11:    2  ->  %bcack
+  12:    2  ->  classes
+  13:    2  ->  does
+  14:    2  ->  e
+  15:    2  ->  enc
+  16:    2  ->  eni
+  17:    2  ->  have
+  18:    2  ->  now
+  19:    2  ->  of
+  20:    2  ->  or
+  21:    2  ->  she
+  22:    2  ->  was
+  23:    1  ->  also
+  24:    1  ->  are
+  25:    1  ->  been
+  26:    1  ->  book
+  27:    1  ->  canter
+  28:    1  ->  d
+  29:    1  ->  did
+  30:    1  ->  employ
+  31:    1  ->  experien
+  32:    1  ->  gnawing
+  33:    1  ->  her
+  34:    1  ->  is
+  35:    1  ->  it's
+  36:    1  ->  j
+  37:    1  ->  line
+  38:    1  ->  mean
+  39:    1  ->  missed
+  40:    1  ->  mmmm
+  41:    1  ->  need
+  42:    1  ->  no
+  43:    1  ->  on
+  44:    1  ->  p
+  45:    1  ->  parked
+  46:    1  ->  re
+  47:    1  ->  reali
+  48:    1  ->  realm
+  49:    1  ->  runic
+  50:    1  ->  s
+  51:    1  ->  then
+  52:    1  ->  to
+  53:    1  ->  unloo
+  54:    1  ->  v
+  55:    1  ->  vis
+  56:    1  ->  w
+  57:    1  ->  well
+  58:    1  ->  yeah
+  59:    1  ->  you
+     -------
+       112
+
+
+
+SUBSTITUTIONS                    Total                 (54)
+                                 With >=  1 occurrences (54)
+
+   1:    8  ->  i
+   2:    5  ->  a
+   3:    5  ->  gnomic
+   4:    4  ->  the
+   5:    3  ->  employ
+   6:    3  ->  rune
+   7:    2  ->  an
+   8:    2  ->  encircling
+   9:    2  ->  in
+  10:    2  ->  know
+  11:    2  ->  ten
+  12:    2  ->  we
+  13:    1  ->  again
+  14:    1  ->  around
+  15:    1  ->  belonged
+  16:    1  ->  different
+  17:    1  ->  encount
+  18:    1  ->  eupheries
+  19:    1  ->  featured
+  20:    1  ->  fo
+  21:    1  ->  gno
+  22:    1  ->  gnomic's
+  23:    1  ->  had
+  24:    1  ->  here
+  25:    1  ->  him
+  26:    1  ->  into
+  27:    1  ->  invade
+  28:    1  ->  kno
+  29:    1  ->  mark
+  30:    1  ->  mea
+  31:    1  ->  mean
+  32:    1  ->  metaphoric
+  33:    1  ->  no
+  34:    1  ->  now
+  35:    1  ->  observes
+  36:    1  ->  only
+  37:    1  ->  openly
+  38:    1  ->  poetry
+  39:    1  ->  realised
+  40:    1  ->  sai
+  41:    1  ->  schools
+  42:    1  ->  sea
+  43:    1  ->  she's
+  44:    1  ->  sorry
+  45:    1  ->  susan
+  46:    1  ->  that
+  47:    1  ->  there
+  48:    1  ->  thi
+  49:    1  ->  to
+  50:    1  ->  twerp
+  51:    1  ->  w
+  52:    1  ->  wanted
+  53:    1  ->  will
+  54:    1  ->  you
+     -------
+        82
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    5  ->  nomic
+   2:    4  ->  and
+   3:    3  ->  employee
+   4:    3  ->  eye
+   5:    3  ->  in
+   6:    3  ->  ruin
+   7:    3  ->  the
+   8:    2  ->  circling
+   9:    2  ->  i
+  10:    2  ->  no
+  11:    2  ->  oh
+  12:    2  ->  so
+  13:    2  ->  would
+  14:    1  ->  a
+  15:    1  ->  all
+  16:    1  ->  annoying
+  17:    1  ->  are
+  18:    1  ->  being
+  19:    1  ->  belong
+  20:    1  ->  cannot
+  21:    1  ->  design
+  22:    1  ->  differing
+  23:    1  ->  employed
+  24:    1  ->  encounter
+  25:    1  ->  every
+  26:    1  ->  experience
+  27:    1  ->  for
+  28:    1  ->  furious
+  29:    1  ->  future
+  30:    1  ->  game
+  31:    1  ->  get
+  32:    1  ->  her
+  33:    1  ->  is
+  34:    1  ->  it
+  35:    1  ->  know
+  36:    1  ->  knows
+  37:    1  ->  me
+  38:    1  ->  mean
+  39:    1  ->  metaphor
+  40:    1  ->  miss
+  41:    1  ->  more
+  42:    1  ->  nomics
+  43:    1  ->  not
+  44:    1  ->  observed
+  45:    1  ->  opening
+  46:    1  ->  park
+  47:    1  ->  place
+  48:    1  ->  pottery
+  49:    1  ->  ramen
+  50:    1  ->  realise
+  51:    1  ->  she
+  52:    1  ->  something
+  53:    1  ->  them
+  54:    1  ->  twirp
+  55:    1  ->  want
+  56:    1  ->  was
+  57:    1  ->  what
+  58:    1  ->  where
+  59:    1  ->  yeah
+     -------
+        82
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

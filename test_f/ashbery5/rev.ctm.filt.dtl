@@ -1,0 +1,169 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.6%   (  41)
+
+Percent Correct           =   96.1%   ( 859)
+
+Percent Substitution      =    3.4%   (  30)
+Percent Deletions         =    0.6%   (   5)
+Percent Insertions        =    0.7%   (   6)
+Percent Word Accuracy     =   95.4%
+
+
+Ref. words                =           ( 894)
+Hyp. words                =           ( 895)
+Aligned words             =           ( 900)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  a ==> or
+   2:    1  ->  and ==> in
+   3:    1  ->  ashbery ==> ashbury
+   4:    1  ->  asides ==> aside
+   5:    1  ->  bills ==> bill
+   6:    1  ->  bursts ==> burst
+   7:    1  ->  days' ==> days
+   8:    1  ->  ferrying ==> faring
+   9:    1  ->  fulsome ==> and
+  10:    1  ->  in ==> and
+  11:    1  ->  into ==> to
+  12:    1  ->  is ==> was
+  13:    1  ->  lithography ==> otography
+  14:    1  ->  lived ==> lift
+  15:    1  ->  near ==> know
+  16:    1  ->  of ==> s
+  17:    1  ->  prowled ==> plow
+  18:    1  ->  sensual ==> central
+  19:    1  ->  seraphic ==> sarraf
+  20:    1  ->  shadows ==> shadow
+  21:    1  ->  some ==> in
+  22:    1  ->  stained ==> stain
+  23:    1  ->  that ==> winded
+  24:    1  ->  the ==> a
+  25:    1  ->  the ==> that
+  26:    1  ->  to ==> onto
+  27:    1  ->  towards ==> toward
+  28:    1  ->  trembled ==> crumbled
+  29:    1  ->  w ==> jmw
+  30:    1  ->  warm ==> and
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  and
+   2:    1  ->  f
+   3:    1  ->  it's
+   4:    1  ->  warren
+   5:    1  ->  you
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  at
+   2:    1  ->  j
+   3:    1  ->  m
+   4:    1  ->  on
+   5:    1  ->  wind
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  ashbery
+   5:    1  ->  asides
+   6:    1  ->  bills
+   7:    1  ->  bursts
+   8:    1  ->  days'
+   9:    1  ->  ferrying
+  10:    1  ->  fulsome
+  11:    1  ->  in
+  12:    1  ->  into
+  13:    1  ->  is
+  14:    1  ->  lithography
+  15:    1  ->  lived
+  16:    1  ->  near
+  17:    1  ->  of
+  18:    1  ->  prowled
+  19:    1  ->  sensual
+  20:    1  ->  seraphic
+  21:    1  ->  shadows
+  22:    1  ->  some
+  23:    1  ->  stained
+  24:    1  ->  that
+  25:    1  ->  to
+  26:    1  ->  towards
+  27:    1  ->  trembled
+  28:    1  ->  w
+  29:    1  ->  warm
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  and
+   2:    2  ->  in
+   3:    1  ->  a
+   4:    1  ->  ashbury
+   5:    1  ->  aside
+   6:    1  ->  bill
+   7:    1  ->  burst
+   8:    1  ->  central
+   9:    1  ->  crumbled
+  10:    1  ->  days
+  11:    1  ->  faring
+  12:    1  ->  jmw
+  13:    1  ->  know
+  14:    1  ->  lift
+  15:    1  ->  onto
+  16:    1  ->  or
+  17:    1  ->  otography
+  18:    1  ->  plow
+  19:    1  ->  s
+  20:    1  ->  sarraf
+  21:    1  ->  shadow
+  22:    1  ->  stain
+  23:    1  ->  that
+  24:    1  ->  to
+  25:    1  ->  toward
+  26:    1  ->  was
+  27:    1  ->  winded
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

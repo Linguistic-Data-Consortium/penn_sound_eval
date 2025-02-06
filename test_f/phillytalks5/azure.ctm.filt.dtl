@@ -1,0 +1,209 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.8%   ( 162)
+
+Percent Correct           =   86.7%   (1014)
+
+Percent Substitution      =    2.0%   (  23)
+Percent Deletions         =   11.4%   ( 133)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   86.2%
+
+
+Ref. words                =           (1170)
+Hyp. words                =           (1043)
+Aligned words             =           (1176)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  in ==> and
+   2:    2  ->  there ==> it
+   3:    1  ->  a ==> ia
+   4:    1  ->  a ==> the
+   5:    1  ->  arrogant ==> arrogance
+   6:    1  ->  could ==> can
+   7:    1  ->  duncan's ==> 's
+   8:    1  ->  etel ==> atel
+   9:    1  ->  is ==> as
+  10:    1  ->  it ==> invited
+  11:    1  ->  it ==> so
+  12:    1  ->  its ==> it's
+  13:    1  ->  kinship's ==> 's
+  14:    1  ->  mackey's ==> 's
+  15:    1  ->  safed ==> sophed
+  16:    1  ->  scholar ==> scholars
+  17:    1  ->  they ==> there
+  18:    1  ->  to ==> will
+  19:    1  ->  w ==> 's
+  20:    1  ->  well ==> and
+  21:    1  ->  yeah ==> another
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  duncan
+   3:    1  ->  it's
+   4:    1  ->  kinship
+   5:    1  ->  mackey
+   6:    1  ->  things
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (73)
+                                 With >=  1 occurrences (73)
+
+   1:   10  ->  a
+   2:   10  ->  i
+   3:    7  ->  that
+   4:    7  ->  the
+   5:    5  ->  it
+   6:    4  ->  am
+   7:    4  ->  is
+   8:    4  ->  w
+   9:    4  ->  you
+  10:    3  ->  question
+  11:    3  ->  that's
+  12:    3  ->  what
+  13:    2  ->  and
+  14:    2  ->  answer
+  15:    2  ->  in
+  16:    2  ->  just
+  17:    2  ->  to
+  18:    2  ->  u
+  19:    2  ->  y
+  20:    2  ->  yeah
+  21:    1  ->  about
+  22:    1  ->  actually
+  23:    1  ->  anth
+  24:    1  ->  ask
+  25:    1  ->  asking
+  26:    1  ->  at
+  27:    1  ->  before
+  28:    1  ->  c
+  29:    1  ->  can
+  30:    1  ->  colle
+  31:    1  ->  do
+  32:    1  ->  first
+  33:    1  ->  g
+  34:    1  ->  gave
+  35:    1  ->  going
+  36:    1  ->  heard
+  37:    1  ->  her
+  38:    1  ->  invite
+  39:    1  ->  it's
+  40:    1  ->  k.
+  41:    1  ->  know
+  42:    1  ->  m
+  43:    1  ->  made
+  44:    1  ->  mean
+  45:    1  ->  midra
+  46:    1  ->  my
+  47:    1  ->  n
+  48:    1  ->  name
+  49:    1  ->  not
+  50:    1  ->  o.
+  51:    1  ->  or
+  52:    1  ->  p
+  53:    1  ->  people
+  54:    1  ->  qu
+  55:    1  ->  r
+  56:    1  ->  rather
+  57:    1  ->  s
+  58:    1  ->  saf
+  59:    1  ->  say
+  60:    1  ->  scream
+  61:    1  ->  see
+  62:    1  ->  simple
+  63:    1  ->  so
+  64:    1  ->  such
+  65:    1  ->  this
+  66:    1  ->  too
+  67:    1  ->  v
+  68:    1  ->  voice
+  69:    1  ->  wh
+  70:    1  ->  wondering
+  71:    1  ->  would
+  72:    1  ->  wq
+  73:    1  ->  wr
+     -------
+       133
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  a
+   2:    2  ->  in
+   3:    2  ->  it
+   4:    2  ->  there
+   5:    1  ->  arrogant
+   6:    1  ->  could
+   7:    1  ->  duncan's
+   8:    1  ->  etel
+   9:    1  ->  is
+  10:    1  ->  its
+  11:    1  ->  kinship's
+  12:    1  ->  mackey's
+  13:    1  ->  safed
+  14:    1  ->  scholar
+  15:    1  ->  they
+  16:    1  ->  to
+  17:    1  ->  w
+  18:    1  ->  well
+  19:    1  ->  yeah
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    4  ->  's
+   2:    3  ->  and
+   3:    2  ->  it
+   4:    1  ->  another
+   5:    1  ->  arrogance
+   6:    1  ->  as
+   7:    1  ->  atel
+   8:    1  ->  can
+   9:    1  ->  ia
+  10:    1  ->  invited
+  11:    1  ->  it's
+  12:    1  ->  scholars
+  13:    1  ->  so
+  14:    1  ->  sophed
+  15:    1  ->  the
+  16:    1  ->  there
+  17:    1  ->  will
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

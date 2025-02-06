@@ -1,0 +1,212 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.3%   ( 120)
+
+Percent Correct           =   89.5%   ( 952)
+
+Percent Substitution      =    5.7%   (  61)
+Percent Deletions         =    4.8%   (  51)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   88.7%
+
+
+Ref. words                =           (1064)
+Hyp. words                =           (1021)
+Aligned words             =           (1072)
+
+CONFUSION PAIRS                  Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:   19  ->  ten ==> oh
+   2:    3  ->  four ==> 4
+   3:    2  ->  reinhold ==> rinehart
+   4:    2  ->  seven ==> 7
+   5:    2  ->  takka ==> taka
+   6:    2  ->  ten ==> one
+   7:    1  ->  bratatat ==> up
+   8:    1  ->  clamoring ==> clambering
+   9:    1  ->  did ==> do
+  10:    1  ->  eighty ==> oh
+  11:    1  ->  eleven ==> one
+  12:    1  ->  fifteen ==> five
+  13:    1  ->  five ==> 5
+  14:    1  ->  fleas ==> he's
+  15:    1  ->  hundred ==> zero
+  16:    1  ->  in ==> and
+  17:    1  ->  lichtenstein ==> liechtenstein
+  18:    1  ->  looking ==> goodlooking
+  19:    1  ->  mom ==> mum
+  20:    1  ->  neckties ==> ties
+  21:    1  ->  none ==> nine
+  22:    1  ->  one ==> 177166155144144133122111111
+  23:    1  ->  roberts ==> roberts'
+  24:    1  ->  ruff ==> herf
+  25:    1  ->  six ==> 36
+  26:    1  ->  sixteen ==> six
+  27:    1  ->  sixties ==> sixtys
+  28:    1  ->  ten ==> 0
+  29:    1  ->  thousand ==> oh
+  30:    1  ->  thung ==> fung
+  31:    1  ->  try ==> tried
+  32:    1  ->  twelve ==> two
+  33:    1  ->  twenty ==> oh
+  34:    1  ->  twenty ==> two
+  35:    1  ->  wealth ==> wellif
+  36:    1  ->  why ==> my
+  37:    1  ->  wingding ==> wending
+     -------
+        61
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    4  ->  one
+   2:    1  ->  brat
+   3:    1  ->  it
+   4:    1  ->  neck
+   5:    1  ->  oh
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:   12  ->  one
+   2:    4  ->  four
+   3:    2  ->  a
+   4:    2  ->  five
+   5:    2  ->  seven
+   6:    2  ->  six
+   7:    2  ->  three
+   8:    2  ->  two
+   9:    1  ->  am
+  10:    1  ->  ammo
+  11:    1  ->  blam
+  12:    1  ->  brattata
+  13:    1  ->  c
+  14:    1  ->  co
+  15:    1  ->  cover
+  16:    1  ->  good
+  17:    1  ->  i
+  18:    1  ->  it
+  19:    1  ->  live
+  20:    1  ->  of
+  21:    1  ->  pai
+  22:    1  ->  ring
+  23:    1  ->  s
+  24:    1  ->  take
+  25:    1  ->  tex
+  26:    1  ->  thirty
+  27:    1  ->  tho
+  28:    1  ->  thr
+  29:    1  ->  toot
+  30:    1  ->  vip
+  31:    1  ->  zing
+     -------
+        51
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:   22  ->  ten
+   2:    3  ->  four
+   3:    2  ->  reinhold
+   4:    2  ->  seven
+   5:    2  ->  takka
+   6:    2  ->  twenty
+   7:    1  ->  bratatat
+   8:    1  ->  clamoring
+   9:    1  ->  did
+  10:    1  ->  eighty
+  11:    1  ->  eleven
+  12:    1  ->  fifteen
+  13:    1  ->  five
+  14:    1  ->  fleas
+  15:    1  ->  hundred
+  16:    1  ->  in
+  17:    1  ->  lichtenstein
+  18:    1  ->  looking
+  19:    1  ->  mom
+  20:    1  ->  neckties
+  21:    1  ->  none
+  22:    1  ->  one
+  23:    1  ->  roberts
+  24:    1  ->  ruff
+  25:    1  ->  six
+  26:    1  ->  sixteen
+  27:    1  ->  sixties
+  28:    1  ->  thousand
+  29:    1  ->  thung
+  30:    1  ->  try
+  31:    1  ->  twelve
+  32:    1  ->  wealth
+  33:    1  ->  why
+  34:    1  ->  wingding
+     -------
+        61
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:   22  ->  oh
+   2:    3  ->  4
+   3:    3  ->  one
+   4:    2  ->  7
+   5:    2  ->  rinehart
+   6:    2  ->  taka
+   7:    2  ->  two
+   8:    1  ->  0
+   9:    1  ->  177166155144144133122111111
+  10:    1  ->  36
+  11:    1  ->  5
+  12:    1  ->  and
+  13:    1  ->  clambering
+  14:    1  ->  do
+  15:    1  ->  five
+  16:    1  ->  fung
+  17:    1  ->  goodlooking
+  18:    1  ->  he's
+  19:    1  ->  herf
+  20:    1  ->  liechtenstein
+  21:    1  ->  mum
+  22:    1  ->  my
+  23:    1  ->  nine
+  24:    1  ->  roberts'
+  25:    1  ->  six
+  26:    1  ->  sixtys
+  27:    1  ->  ties
+  28:    1  ->  tried
+  29:    1  ->  up
+  30:    1  ->  wellif
+  31:    1  ->  wending
+  32:    1  ->  zero
+     -------
+        61
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

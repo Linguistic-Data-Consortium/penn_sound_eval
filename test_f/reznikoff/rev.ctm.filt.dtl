@@ -1,0 +1,181 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.1%   (  64)
+
+Percent Correct           =   94.4%   ( 986)
+
+Percent Substitution      =    3.2%   (  33)
+Percent Deletions         =    2.4%   (  25)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   93.9%
+
+
+Ref. words                =           (1044)
+Hyp. words                =           (1025)
+Aligned words             =           (1050)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  dog ==> door
+   2:    2  ->  five ==> 5
+   3:    2  ->  four ==> 4
+   4:    2  ->  ten ==> oh
+   5:    2  ->  twenty ==> oh
+   6:    1  ->  are ==> by
+   7:    1  ->  coyly ==> coily
+   8:    1  ->  eighty ==> oh
+   9:    1  ->  gained ==> came
+  10:    1  ->  he ==> held
+  11:    1  ->  hurried ==> hurry
+  12:    1  ->  it ==> fields
+  13:    1  ->  late ==> agree
+  14:    1  ->  leaped ==> leaked
+  15:    1  ->  light ==> life
+  16:    1  ->  mar ==> marsh
+  17:    1  ->  motorcars ==> cars
+  18:    1  ->  ninety ==> oh
+  19:    1  ->  oh ==> him
+  20:    1  ->  oh ==> o.
+  21:    1  ->  or ==> are
+  22:    1  ->  round ==> merrygoround
+  23:    1  ->  stock ==> stuck
+  24:    1  ->  the ==> a
+  25:    1  ->  thumping ==> bumping
+  26:    1  ->  wait ==> weight
+  27:    1  ->  while ==> wild
+  28:    1  ->  will ==> a
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  the
+   2:    1  ->  and
+   3:    1  ->  he
+   4:    1  ->  motor
+   5:    1  ->  to
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  about
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  but
+   5:    1  ->  continue
+   6:    1  ->  do
+   7:    1  ->  go
+   8:    1  ->  has
+   9:    1  ->  he
+  10:    1  ->  here
+  11:    1  ->  hills
+  12:    1  ->  i
+  13:    1  ->  know
+  14:    1  ->  merry
+  15:    1  ->  minute
+  16:    1  ->  move
+  17:    1  ->  not
+  18:    1  ->  that
+  19:    1  ->  that's
+  20:    1  ->  this
+  21:    1  ->  who
+  22:    1  ->  will
+  23:    1  ->  with
+  24:    1  ->  x
+     -------
+        25
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  dog
+   2:    2  ->  five
+   3:    2  ->  four
+   4:    2  ->  oh
+   5:    2  ->  ten
+   6:    2  ->  twenty
+   7:    1  ->  are
+   8:    1  ->  coyly
+   9:    1  ->  eighty
+  10:    1  ->  gained
+  11:    1  ->  he
+  12:    1  ->  hurried
+  13:    1  ->  it
+  14:    1  ->  late
+  15:    1  ->  leaped
+  16:    1  ->  light
+  17:    1  ->  mar
+  18:    1  ->  motorcars
+  19:    1  ->  ninety
+  20:    1  ->  or
+  21:    1  ->  round
+  22:    1  ->  stock
+  23:    1  ->  the
+  24:    1  ->  thumping
+  25:    1  ->  wait
+  26:    1  ->  while
+  27:    1  ->  will
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    6  ->  oh
+   2:    2  ->  4
+   3:    2  ->  5
+   4:    2  ->  a
+   5:    2  ->  door
+   6:    1  ->  agree
+   7:    1  ->  are
+   8:    1  ->  bumping
+   9:    1  ->  by
+  10:    1  ->  came
+  11:    1  ->  cars
+  12:    1  ->  coily
+  13:    1  ->  fields
+  14:    1  ->  held
+  15:    1  ->  him
+  16:    1  ->  hurry
+  17:    1  ->  leaked
+  18:    1  ->  life
+  19:    1  ->  marsh
+  20:    1  ->  merrygoround
+  21:    1  ->  o.
+  22:    1  ->  stuck
+  23:    1  ->  weight
+  24:    1  ->  wild
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

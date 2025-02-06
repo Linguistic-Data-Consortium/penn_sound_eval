@@ -1,0 +1,177 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.0%   (  61)
+
+Percent Correct           =   95.4%   (1156)
+
+Percent Substitution      =    2.3%   (  28)
+Percent Deletions         =    2.3%   (  28)
+Percent Insertions        =    0.4%   (   5)
+Percent Word Accuracy     =   95.0%
+
+
+Ref. words                =           (1212)
+Hyp. words                =           (1189)
+Aligned words             =           (1217)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  and ==> an
+   2:    1  ->  apostrophe ==> v
+   3:    1  ->  arithmatic ==> arithmetic
+   4:    1  ->  bad ==> that
+   5:    1  ->  behinds ==> behind
+   6:    1  ->  cockhead ==> head
+   7:    1  ->  emboldened ==> embolden
+   8:    1  ->  hundred ==> oh
+   9:    1  ->  it's ==> there's
+  10:    1  ->  languages ==> language
+  11:    1  ->  lustrous ==> blustrous
+  12:    1  ->  moved ==> lewd
+  13:    1  ->  peer ==> here
+  14:    1  ->  place ==> places
+  15:    1  ->  pore ==> poor
+  16:    1  ->  prehistoric ==> postprehistoric
+  17:    1  ->  saint ==> st
+  18:    1  ->  sod ==> so
+  19:    1  ->  t'aime ==> tam
+  20:    1  ->  temps ==> tont
+  21:    1  ->  the ==> this
+  22:    1  ->  then ==> the
+  23:    1  ->  titled ==> called
+  24:    1  ->  valentines ==> valentine's
+  25:    1  ->  vulva ==> volvo
+  26:    1  ->  we ==> tepees
+  27:    1  ->  will ==> were
+  28:    1  ->  worry ==> are
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  cock
+   2:    1  ->  f
+   3:    1  ->  h
+   4:    1  ->  me
+   5:    1  ->  where
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    7  ->  je
+   2:    4  ->  t'aime
+   3:    3  ->  temps
+   4:    2  ->  beaucoup
+   5:    2  ->  comme
+   6:    1  ->  a
+   7:    1  ->  and
+   8:    1  ->  c
+   9:    1  ->  et
+  10:    1  ->  i
+  11:    1  ->  post
+  12:    1  ->  teepees
+  13:    1  ->  that
+  14:    1  ->  tout
+  15:    1  ->  you
+     -------
+        28
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  and
+   2:    1  ->  apostrophe
+   3:    1  ->  arithmatic
+   4:    1  ->  bad
+   5:    1  ->  behinds
+   6:    1  ->  cockhead
+   7:    1  ->  emboldened
+   8:    1  ->  hundred
+   9:    1  ->  it's
+  10:    1  ->  languages
+  11:    1  ->  lustrous
+  12:    1  ->  moved
+  13:    1  ->  peer
+  14:    1  ->  place
+  15:    1  ->  pore
+  16:    1  ->  prehistoric
+  17:    1  ->  saint
+  18:    1  ->  sod
+  19:    1  ->  t'aime
+  20:    1  ->  temps
+  21:    1  ->  the
+  22:    1  ->  then
+  23:    1  ->  titled
+  24:    1  ->  valentines
+  25:    1  ->  vulva
+  26:    1  ->  we
+  27:    1  ->  will
+  28:    1  ->  worry
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  an
+   2:    1  ->  are
+   3:    1  ->  arithmetic
+   4:    1  ->  behind
+   5:    1  ->  blustrous
+   6:    1  ->  called
+   7:    1  ->  embolden
+   8:    1  ->  head
+   9:    1  ->  here
+  10:    1  ->  language
+  11:    1  ->  lewd
+  12:    1  ->  oh
+  13:    1  ->  places
+  14:    1  ->  poor
+  15:    1  ->  postprehistoric
+  16:    1  ->  so
+  17:    1  ->  st
+  18:    1  ->  tam
+  19:    1  ->  tepees
+  20:    1  ->  that
+  21:    1  ->  the
+  22:    1  ->  there's
+  23:    1  ->  this
+  24:    1  ->  tont
+  25:    1  ->  v
+  26:    1  ->  valentine's
+  27:    1  ->  volvo
+  28:    1  ->  were
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

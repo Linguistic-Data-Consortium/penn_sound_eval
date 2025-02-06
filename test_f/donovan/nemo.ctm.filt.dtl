@@ -1,0 +1,205 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.2%   (  71)
+
+Percent Correct           =   93.9%   ( 931)
+
+Percent Substitution      =    3.6%   (  36)
+Percent Deletions         =    2.5%   (  25)
+Percent Insertions        =    1.0%   (  10)
+Percent Word Accuracy     =   92.8%
+
+
+Ref. words                =           ( 992)
+Hyp. words                =           ( 977)
+Aligned words             =           (1002)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  a ==> ca
+   2:    1  ->  book ==> bug
+   3:    1  ->  boombox ==> box
+   4:    1  ->  cd ==> cv
+   5:    1  ->  corbin ==> corman
+   6:    1  ->  dependent ==> i
+   7:    1  ->  distraction ==> abstraction
+   8:    1  ->  ends ==> depends
+   9:    1  ->  folktales ==> tales
+  10:    1  ->  gave ==> gained
+  11:    1  ->  had ==> have
+  12:    1  ->  hellen ==> helen
+  13:    1  ->  his ==> this
+  14:    1  ->  housesitting ==> sitting
+  15:    1  ->  included ==> include
+  16:    1  ->  inhabit ==> inhabitation
+  17:    1  ->  intention ==> attention
+  18:    1  ->  jambet ==> janvet
+  19:    1  ->  koch's ==> kociak's
+  20:    1  ->  liljestrand ==> lestrand
+  21:    1  ->  line ==> midline
+  22:    1  ->  merleau ==> merlot
+  23:    1  ->  move ==> moved
+  24:    1  ->  on ==> at
+  25:    1  ->  on ==> of
+  26:    1  ->  on ==> upon
+  27:    1  ->  on ==> would
+  28:    1  ->  onlooking ==> looking
+  29:    1  ->  onto ==> to
+  30:    1  ->  ponty's ==> pointy's
+  31:    1  ->  sacks's ==> saxe's
+  32:    1  ->  singlehandedly ==> handedly
+  33:    1  ->  the ==> a
+  34:    1  ->  treetops ==> tops
+  35:    1  ->  triply ==> tripoli
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  boom
+   2:    1  ->  discussion
+   3:    1  ->  envelope
+   4:    1  ->  folk
+   5:    1  ->  house
+   6:    1  ->  on
+   7:    1  ->  russell
+   8:    1  ->  single
+   9:    1  ->  the
+  10:    1  ->  tree
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  and
+   2:    2  ->  a
+   3:    2  ->  c
+   4:    2  ->  on
+   5:    1  ->  became
+   6:    1  ->  clothespins
+   7:    1  ->  covered
+   8:    1  ->  had
+   9:    1  ->  his
+  10:    1  ->  it's
+  11:    1  ->  little
+  12:    1  ->  mid
+  13:    1  ->  of
+  14:    1  ->  page
+  15:    1  ->  pottery
+  16:    1  ->  quote
+  17:    1  ->  so
+  18:    1  ->  table
+  19:    1  ->  unquote
+  20:    1  ->  with
+     -------
+        25
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    4  ->  on
+   2:    2  ->  a
+   3:    1  ->  book
+   4:    1  ->  boombox
+   5:    1  ->  cd
+   6:    1  ->  corbin
+   7:    1  ->  dependent
+   8:    1  ->  distraction
+   9:    1  ->  ends
+  10:    1  ->  folktales
+  11:    1  ->  gave
+  12:    1  ->  had
+  13:    1  ->  hellen
+  14:    1  ->  his
+  15:    1  ->  housesitting
+  16:    1  ->  included
+  17:    1  ->  inhabit
+  18:    1  ->  intention
+  19:    1  ->  jambet
+  20:    1  ->  koch's
+  21:    1  ->  liljestrand
+  22:    1  ->  line
+  23:    1  ->  merleau
+  24:    1  ->  move
+  25:    1  ->  onlooking
+  26:    1  ->  onto
+  27:    1  ->  ponty's
+  28:    1  ->  sacks's
+  29:    1  ->  singlehandedly
+  30:    1  ->  the
+  31:    1  ->  treetops
+  32:    1  ->  triply
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  ca
+   2:    1  ->  a
+   3:    1  ->  abstraction
+   4:    1  ->  at
+   5:    1  ->  attention
+   6:    1  ->  box
+   7:    1  ->  bug
+   8:    1  ->  corman
+   9:    1  ->  cv
+  10:    1  ->  depends
+  11:    1  ->  gained
+  12:    1  ->  handedly
+  13:    1  ->  have
+  14:    1  ->  helen
+  15:    1  ->  i
+  16:    1  ->  include
+  17:    1  ->  inhabitation
+  18:    1  ->  janvet
+  19:    1  ->  kociak's
+  20:    1  ->  lestrand
+  21:    1  ->  looking
+  22:    1  ->  merlot
+  23:    1  ->  midline
+  24:    1  ->  moved
+  25:    1  ->  of
+  26:    1  ->  pointy's
+  27:    1  ->  saxe's
+  28:    1  ->  sitting
+  29:    1  ->  tales
+  30:    1  ->  this
+  31:    1  ->  to
+  32:    1  ->  tops
+  33:    1  ->  tripoli
+  34:    1  ->  upon
+  35:    1  ->  would
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

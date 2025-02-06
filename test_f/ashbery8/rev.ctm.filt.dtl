@@ -1,0 +1,223 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.4%   (  61)
+
+Percent Correct           =   95.3%   (1084)
+
+Percent Substitution      =    4.3%   (  49)
+Percent Deletions         =    0.4%   (   5)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   94.6%
+
+
+Ref. words                =           (1138)
+Hyp. words                =           (1140)
+Aligned words             =           (1145)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  an ==> and
+   2:    2  ->  into ==> a
+   3:    1  ->  a ==> the
+   4:    1  ->  air ==> era
+   5:    1  ->  alighting ==> lighting
+   6:    1  ->  and ==> in
+   7:    1  ->  as ==> his
+   8:    1  ->  bloom ==> womb
+   9:    1  ->  canons ==> cannons
+  10:    1  ->  celebre ==> libra
+  11:    1  ->  days ==> is
+  12:    1  ->  fours ==> four
+  13:    1  ->  francks' ==> frank
+  14:    1  ->  gnossienne ==> ian
+  15:    1  ->  i'v ==> have
+  16:    1  ->  in ==> and
+  17:    1  ->  it's ==> its
+  18:    1  ->  its ==> it's
+  19:    1  ->  jicky ==> jy
+  20:    1  ->  light ==> life
+  21:    1  ->  muddled ==> muddle
+  22:    1  ->  nineteenth ==> 19th
+  23:    1  ->  occurence ==> occurrence
+  24:    1  ->  one ==> someone
+  25:    1  ->  pachelbel ==> pacbell
+  26:    1  ->  plain ==> plane
+  27:    1  ->  possess ==> possessed
+  28:    1  ->  reason's ==> reasons
+  29:    1  ->  refused ==> refuse
+  30:    1  ->  route ==> root
+  31:    1  ->  same ==> sane
+  32:    1  ->  scheherazade ==> shaharazad
+  33:    1  ->  scrawled ==> sprawl
+  34:    1  ->  seem ==> seen
+  35:    1  ->  soir ==> sua
+  36:    1  ->  spake ==> spand
+  37:    1  ->  story ==> stories
+  38:    1  ->  stuart ==> stewart
+  39:    1  ->  survive ==> survived
+  40:    1  ->  that ==> the
+  41:    1  ->  to ==> it
+  42:    1  ->  transformed ==> transform
+  43:    1  ->  ways ==> way
+  44:    1  ->  white ==> light
+  45:    1  ->  with ==> was
+  46:    1  ->  wriggle ==> riggle
+  47:    1  ->  x ==> pere
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  in
+   2:    1  ->  day
+   3:    1  ->  g
+   4:    1  ->  i
+   5:    1  ->  of
+   6:    1  ->  what
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  it
+   2:    1  ->  le
+   3:    1  ->  s
+   4:    1  ->  so
+   5:    1  ->  the
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  an
+   2:    2  ->  into
+   3:    1  ->  a
+   4:    1  ->  air
+   5:    1  ->  alighting
+   6:    1  ->  and
+   7:    1  ->  as
+   8:    1  ->  bloom
+   9:    1  ->  canons
+  10:    1  ->  celebre
+  11:    1  ->  days
+  12:    1  ->  fours
+  13:    1  ->  francks'
+  14:    1  ->  gnossienne
+  15:    1  ->  i'v
+  16:    1  ->  in
+  17:    1  ->  it's
+  18:    1  ->  its
+  19:    1  ->  jicky
+  20:    1  ->  light
+  21:    1  ->  muddled
+  22:    1  ->  nineteenth
+  23:    1  ->  occurence
+  24:    1  ->  one
+  25:    1  ->  pachelbel
+  26:    1  ->  plain
+  27:    1  ->  possess
+  28:    1  ->  reason's
+  29:    1  ->  refused
+  30:    1  ->  route
+  31:    1  ->  same
+  32:    1  ->  scheherazade
+  33:    1  ->  scrawled
+  34:    1  ->  seem
+  35:    1  ->  soir
+  36:    1  ->  spake
+  37:    1  ->  story
+  38:    1  ->  stuart
+  39:    1  ->  survive
+  40:    1  ->  that
+  41:    1  ->  to
+  42:    1  ->  transformed
+  43:    1  ->  ways
+  44:    1  ->  white
+  45:    1  ->  with
+  46:    1  ->  wriggle
+  47:    1  ->  x
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    3  ->  and
+   2:    2  ->  a
+   3:    2  ->  the
+   4:    1  ->  19th
+   5:    1  ->  cannons
+   6:    1  ->  era
+   7:    1  ->  four
+   8:    1  ->  frank
+   9:    1  ->  have
+  10:    1  ->  his
+  11:    1  ->  ian
+  12:    1  ->  in
+  13:    1  ->  is
+  14:    1  ->  it
+  15:    1  ->  it's
+  16:    1  ->  its
+  17:    1  ->  jy
+  18:    1  ->  libra
+  19:    1  ->  life
+  20:    1  ->  light
+  21:    1  ->  lighting
+  22:    1  ->  muddle
+  23:    1  ->  occurrence
+  24:    1  ->  pacbell
+  25:    1  ->  pere
+  26:    1  ->  plane
+  27:    1  ->  possessed
+  28:    1  ->  reasons
+  29:    1  ->  refuse
+  30:    1  ->  riggle
+  31:    1  ->  root
+  32:    1  ->  sane
+  33:    1  ->  seen
+  34:    1  ->  shaharazad
+  35:    1  ->  someone
+  36:    1  ->  spand
+  37:    1  ->  sprawl
+  38:    1  ->  stewart
+  39:    1  ->  stories
+  40:    1  ->  sua
+  41:    1  ->  survived
+  42:    1  ->  transform
+  43:    1  ->  was
+  44:    1  ->  way
+  45:    1  ->  womb
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,314 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.7%   ( 152)
+
+Percent Correct           =   85.3%   ( 828)
+
+Percent Substitution      =    7.4%   (  72)
+Percent Deletions         =    7.3%   (  71)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   84.3%
+
+
+Ref. words                =           ( 971)
+Hyp. words                =           ( 909)
+Aligned words             =           ( 980)
+
+CONFUSION PAIRS                  Total                 (69)
+                                 With >=  1 occurrences (69)
+
+   1:    3  ->  the ==> that
+   2:    2  ->  the ==> a
+   3:    1  ->  'tis ==> line
+   4:    1  ->  a ==> in
+   5:    1  ->  a ==> symptoms
+   6:    1  ->  actually ==> lecture
+   7:    1  ->  after ==> thereafter
+   8:    1  ->  and ==> i
+   9:    1  ->  and ==> not
+  10:    1  ->  any ==> albers
+  11:    1  ->  author's ==> albers
+  12:    1  ->  bauhau ==> bauhaus
+  13:    1  ->  bunch ==> but
+  14:    1  ->  but ==> where
+  15:    1  ->  coming ==> me
+  16:    1  ->  could ==> can
+  17:    1  ->  county ==> lauren
+  18:    1  ->  cover ==> of
+  19:    1  ->  curious ==> hearing
+  20:    1  ->  deluxe ==> less
+  21:    1  ->  dickinson ==> digging
+  22:    1  ->  down ==> jackson
+  23:    1  ->  elder's ==> albert's
+  24:    1  ->  exhilaration ==> illusion
+  25:    1  ->  fresh ==> interviews
+  26:    1  ->  gave ==> i
+  27:    1  ->  got ==> kept
+  28:    1  ->  had ==> at
+  29:    1  ->  had ==> have
+  30:    1  ->  have ==> there's
+  31:    1  ->  just ==> which
+  32:    1  ->  livingfield ==> linfield
+  33:    1  ->  lot ==> jubilat
+  34:    1  ->  lovely ==> woven
+  35:    1  ->  manu ==> of
+  36:    1  ->  me ==> increasing
+  37:    1  ->  move ==> run
+  38:    1  ->  not ==> and
+  39:    1  ->  notice ==> noticed
+  40:    1  ->  of ==> with
+  41:    1  ->  others ==> for
+  42:    1  ->  put ==> in
+  43:    1  ->  quotes ==> symptoms
+  44:    1  ->  salt ==> it's
+  45:    1  ->  sand ==> pennsylvania
+  46:    1  ->  sewed ==> sew
+  47:    1  ->  showed ==> shows
+  48:    1  ->  specifically ==> with
+  49:    1  ->  spent ==> spend
+  50:    1  ->  that ==> edit
+  51:    1  ->  that ==> the
+  52:    1  ->  that ==> there
+  53:    1  ->  the ==> i
+  54:    1  ->  the ==> than
+  55:    1  ->  the ==> this
+  56:    1  ->  there's ==> other
+  57:    1  ->  they ==> it
+  58:    1  ->  thought ==> but
+  59:    1  ->  to ==> one
+  60:    1  ->  to ==> was
+  61:    1  ->  us ==> think
+  62:    1  ->  wanted ==> is
+  63:    1  ->  way ==> mean
+  64:    1  ->  weaving's ==> is
+  65:    1  ->  where ==> there
+  66:    1  ->  with ==> at
+  67:    1  ->  worked ==> looked
+  68:    1  ->  x ==> thing
+  69:    1  ->  yeah ==> her
+     -------
+        72
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  annie
+   2:    1  ->  be
+   3:    1  ->  is
+   4:    1  ->  it's
+   5:    1  ->  like
+   6:    1  ->  other
+   7:    1  ->  the
+   8:    1  ->  this
+   9:    1  ->  weaving
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    6  ->  the
+   2:    5  ->  it
+   3:    4  ->  a
+   4:    3  ->  and
+   5:    3  ->  like
+   6:    3  ->  so
+   7:    3  ->  you
+   8:    2  ->  i
+   9:    2  ->  oh
+  10:    2  ->  them
+  11:    2  ->  up
+  12:    2  ->  what
+  13:    1  ->  as
+  14:    1  ->  because
+  15:    1  ->  de
+  16:    1  ->  did
+  17:    1  ->  do
+  18:    1  ->  does
+  19:    1  ->  everything
+  20:    1  ->  gorgeous
+  21:    1  ->  had
+  22:    1  ->  how
+  23:    1  ->  it's
+  24:    1  ->  just
+  25:    1  ->  know
+  26:    1  ->  l
+  27:    1  ->  laura
+  28:    1  ->  lines
+  29:    1  ->  not
+  30:    1  ->  of
+  31:    1  ->  pregnant
+  32:    1  ->  recall
+  33:    1  ->  see
+  34:    1  ->  seem
+  35:    1  ->  some
+  36:    1  ->  that
+  37:    1  ->  that's
+  38:    1  ->  then
+  39:    1  ->  there
+  40:    1  ->  to
+  41:    1  ->  took
+  42:    1  ->  totaled
+  43:    1  ->  track
+  44:    1  ->  was
+  45:    1  ->  wha
+  46:    1  ->  yeah
+     -------
+        71
+
+
+
+SUBSTITUTIONS                    Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    8  ->  the
+   2:    3  ->  that
+   3:    2  ->  a
+   4:    2  ->  and
+   5:    2  ->  had
+   6:    2  ->  to
+   7:    1  ->  'tis
+   8:    1  ->  actually
+   9:    1  ->  after
+  10:    1  ->  any
+  11:    1  ->  author's
+  12:    1  ->  bauhau
+  13:    1  ->  bunch
+  14:    1  ->  but
+  15:    1  ->  coming
+  16:    1  ->  could
+  17:    1  ->  county
+  18:    1  ->  cover
+  19:    1  ->  curious
+  20:    1  ->  deluxe
+  21:    1  ->  dickinson
+  22:    1  ->  down
+  23:    1  ->  elder's
+  24:    1  ->  exhilaration
+  25:    1  ->  fresh
+  26:    1  ->  gave
+  27:    1  ->  got
+  28:    1  ->  have
+  29:    1  ->  just
+  30:    1  ->  livingfield
+  31:    1  ->  lot
+  32:    1  ->  lovely
+  33:    1  ->  manu
+  34:    1  ->  me
+  35:    1  ->  move
+  36:    1  ->  not
+  37:    1  ->  notice
+  38:    1  ->  of
+  39:    1  ->  others
+  40:    1  ->  put
+  41:    1  ->  quotes
+  42:    1  ->  salt
+  43:    1  ->  sand
+  44:    1  ->  sewed
+  45:    1  ->  showed
+  46:    1  ->  specifically
+  47:    1  ->  spent
+  48:    1  ->  there's
+  49:    1  ->  they
+  50:    1  ->  thought
+  51:    1  ->  us
+  52:    1  ->  wanted
+  53:    1  ->  way
+  54:    1  ->  weaving's
+  55:    1  ->  where
+  56:    1  ->  with
+  57:    1  ->  worked
+  58:    1  ->  x
+  59:    1  ->  yeah
+     -------
+        72
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (58)
+                                 With >=  1 occurrences (58)
+
+   1:    3  ->  i
+   2:    3  ->  that
+   3:    2  ->  a
+   4:    2  ->  albers
+   5:    2  ->  at
+   6:    2  ->  but
+   7:    2  ->  in
+   8:    2  ->  is
+   9:    2  ->  of
+  10:    2  ->  symptoms
+  11:    2  ->  there
+  12:    2  ->  with
+  13:    1  ->  albert's
+  14:    1  ->  and
+  15:    1  ->  bauhaus
+  16:    1  ->  can
+  17:    1  ->  digging
+  18:    1  ->  edit
+  19:    1  ->  for
+  20:    1  ->  have
+  21:    1  ->  hearing
+  22:    1  ->  her
+  23:    1  ->  illusion
+  24:    1  ->  increasing
+  25:    1  ->  interviews
+  26:    1  ->  it
+  27:    1  ->  it's
+  28:    1  ->  jackson
+  29:    1  ->  jubilat
+  30:    1  ->  kept
+  31:    1  ->  lauren
+  32:    1  ->  lecture
+  33:    1  ->  less
+  34:    1  ->  line
+  35:    1  ->  linfield
+  36:    1  ->  looked
+  37:    1  ->  me
+  38:    1  ->  mean
+  39:    1  ->  not
+  40:    1  ->  noticed
+  41:    1  ->  one
+  42:    1  ->  other
+  43:    1  ->  pennsylvania
+  44:    1  ->  run
+  45:    1  ->  sew
+  46:    1  ->  shows
+  47:    1  ->  spend
+  48:    1  ->  than
+  49:    1  ->  the
+  50:    1  ->  there's
+  51:    1  ->  thereafter
+  52:    1  ->  thing
+  53:    1  ->  think
+  54:    1  ->  this
+  55:    1  ->  was
+  56:    1  ->  where
+  57:    1  ->  which
+  58:    1  ->  woven
+     -------
+        72
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,216 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.7%   (  69)
+
+Percent Correct           =   93.3%   ( 839)
+
+Percent Substitution      =    5.1%   (  46)
+Percent Deletions         =    1.6%   (  14)
+Percent Insertions        =    1.0%   (   9)
+Percent Word Accuracy     =   92.3%
+
+
+Ref. words                =           ( 899)
+Hyp. words                =           ( 894)
+Aligned words             =           ( 908)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  a ==> the
+   2:    2  ->  bleiben ==> is
+   3:    2  ->  denn ==> and
+   4:    2  ->  nirgends ==> against
+   5:    1  ->  are ==> is
+   6:    1  ->  are ==> me
+   7:    1  ->  denn ==> bly
+   8:    1  ->  englobed ==> englobe
+   9:    1  ->  german ==> d
+  10:    1  ->  henna ==> a
+  11:    1  ->  ing ==> in
+  12:    1  ->  ist ==> near
+  13:    1  ->  ist ==> new
+  14:    1  ->  it ==> spell
+  15:    1  ->  jot ==> dot
+  16:    1  ->  keats ==> ke
+  17:    1  ->  know ==> others
+  18:    1  ->  loss ==> lost
+  19:    1  ->  mnemosyne ==> nemos
+  20:    1  ->  ninety ==> nine
+  21:    1  ->  ns ==> ends
+  22:    1  ->  palimpsest ==> pcs
+  23:    1  ->  parnassius ==> parnassus
+  24:    1  ->  quipu ==> creep
+  25:    1  ->  rs ==> r's
+  26:    1  ->  saldana ==> dana
+  27:    1  ->  snorkels ==> snorkel
+  28:    1  ->  spelled ==> out
+  29:    1  ->  starker ==> stalker
+  30:    1  ->  swallowtail ==> tale
+  31:    1  ->  tact ==> tight
+  32:    1  ->  there ==> this
+  33:    1  ->  there's ==> were
+  34:    1  ->  they ==> there
+  35:    1  ->  tight ==> t
+  36:    1  ->  transcode ==> transco
+  37:    1  ->  want ==> wanted
+  38:    1  ->  was ==> were
+  39:    1  ->  which ==> with
+  40:    1  ->  wor ==> not
+  41:    1  ->  you ==> the
+  42:    1  ->  ys ==> why's
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  are
+   2:    1  ->  blithe
+   3:    1  ->  dame
+   4:    1  ->  dd
+   5:    1  ->  hen
+   6:    1  ->  sal
+   7:    1  ->  swallow
+   8:    1  ->  that
+   9:    1  ->  the
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a
+   2:    1  ->  degre
+   3:    1  ->  german
+   4:    1  ->  gul
+   5:    1  ->  in
+   6:    1  ->  indy
+   7:    1  ->  ink
+   8:    1  ->  just
+   9:    1  ->  k.
+  10:    1  ->  l
+  11:    1  ->  o.
+  12:    1  ->  s
+  13:    1  ->  the
+  14:    1  ->  we
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  denn
+   2:    2  ->  a
+   3:    2  ->  are
+   4:    2  ->  bleiben
+   5:    2  ->  ist
+   6:    2  ->  nirgends
+   7:    1  ->  englobed
+   8:    1  ->  german
+   9:    1  ->  henna
+  10:    1  ->  ing
+  11:    1  ->  it
+  12:    1  ->  jot
+  13:    1  ->  keats
+  14:    1  ->  know
+  15:    1  ->  loss
+  16:    1  ->  mnemosyne
+  17:    1  ->  ninety
+  18:    1  ->  ns
+  19:    1  ->  palimpsest
+  20:    1  ->  parnassius
+  21:    1  ->  quipu
+  22:    1  ->  rs
+  23:    1  ->  saldana
+  24:    1  ->  snorkels
+  25:    1  ->  spelled
+  26:    1  ->  starker
+  27:    1  ->  swallowtail
+  28:    1  ->  tact
+  29:    1  ->  there
+  30:    1  ->  there's
+  31:    1  ->  they
+  32:    1  ->  tight
+  33:    1  ->  transcode
+  34:    1  ->  want
+  35:    1  ->  was
+  36:    1  ->  which
+  37:    1  ->  wor
+  38:    1  ->  you
+  39:    1  ->  ys
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  is
+   2:    3  ->  the
+   3:    2  ->  against
+   4:    2  ->  and
+   5:    2  ->  were
+   6:    1  ->  a
+   7:    1  ->  bly
+   8:    1  ->  creep
+   9:    1  ->  d
+  10:    1  ->  dana
+  11:    1  ->  dot
+  12:    1  ->  ends
+  13:    1  ->  englobe
+  14:    1  ->  in
+  15:    1  ->  ke
+  16:    1  ->  lost
+  17:    1  ->  me
+  18:    1  ->  near
+  19:    1  ->  nemos
+  20:    1  ->  new
+  21:    1  ->  nine
+  22:    1  ->  not
+  23:    1  ->  others
+  24:    1  ->  out
+  25:    1  ->  parnassus
+  26:    1  ->  pcs
+  27:    1  ->  r's
+  28:    1  ->  snorkel
+  29:    1  ->  spell
+  30:    1  ->  stalker
+  31:    1  ->  t
+  32:    1  ->  tale
+  33:    1  ->  there
+  34:    1  ->  this
+  35:    1  ->  tight
+  36:    1  ->  transco
+  37:    1  ->  wanted
+  38:    1  ->  why's
+  39:    1  ->  with
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,140 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.1%   (  24)
+
+Percent Correct           =   97.1%   ( 761)
+
+Percent Substitution      =    2.9%   (  23)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   96.9%
+
+
+Ref. words                =           ( 784)
+Hyp. words                =           ( 785)
+Aligned words             =           ( 785)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  rightness ==> ripeness
+   2:    1  ->  an ==> and
+   3:    1  ->  and ==> an
+   4:    1  ->  caught ==> cot
+   5:    1  ->  caw ==> call
+   6:    1  ->  clawed ==> clad
+   7:    1  ->  fenceposts ==> posts
+   8:    1  ->  ills ==> eels
+   9:    1  ->  out ==> of
+  10:    1  ->  red ==> read
+  11:    1  ->  relief ==> release
+  12:    1  ->  rioting ==> riding
+  13:    1  ->  rocked ==> rot
+  14:    1  ->  saying ==> same
+  15:    1  ->  seperation ==> separation
+  16:    1  ->  spearing ==> spring
+  17:    1  ->  swinking ==> swinging
+  18:    1  ->  that ==> but
+  19:    1  ->  undeliberate ==> deliberate
+  20:    1  ->  wage ==> rage
+  21:    1  ->  whit ==> wit
+  22:    1  ->  wrath ==> rap
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  fence
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  rightness
+   2:    1  ->  an
+   3:    1  ->  and
+   4:    1  ->  caught
+   5:    1  ->  caw
+   6:    1  ->  clawed
+   7:    1  ->  fenceposts
+   8:    1  ->  ills
+   9:    1  ->  out
+  10:    1  ->  red
+  11:    1  ->  relief
+  12:    1  ->  rioting
+  13:    1  ->  rocked
+  14:    1  ->  saying
+  15:    1  ->  seperation
+  16:    1  ->  spearing
+  17:    1  ->  swinking
+  18:    1  ->  that
+  19:    1  ->  undeliberate
+  20:    1  ->  wage
+  21:    1  ->  whit
+  22:    1  ->  wrath
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  ripeness
+   2:    1  ->  an
+   3:    1  ->  and
+   4:    1  ->  but
+   5:    1  ->  call
+   6:    1  ->  clad
+   7:    1  ->  cot
+   8:    1  ->  deliberate
+   9:    1  ->  eels
+  10:    1  ->  of
+  11:    1  ->  posts
+  12:    1  ->  rage
+  13:    1  ->  rap
+  14:    1  ->  read
+  15:    1  ->  release
+  16:    1  ->  riding
+  17:    1  ->  rot
+  18:    1  ->  same
+  19:    1  ->  separation
+  20:    1  ->  spring
+  21:    1  ->  swinging
+  22:    1  ->  wit
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

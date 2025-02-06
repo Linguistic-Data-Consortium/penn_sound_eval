@@ -1,0 +1,152 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.3%   (  43)
+
+Percent Correct           =   96.6%   ( 955)
+
+Percent Substitution      =    2.0%   (  20)
+Percent Deletions         =    1.4%   (  14)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   95.7%
+
+
+Ref. words                =           ( 989)
+Hyp. words                =           ( 984)
+Aligned words             =           ( 998)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  among ==> of
+   2:    1  ->  asleep ==> sleep
+   3:    1  ->  associated ==> associative
+   4:    1  ->  back ==> black
+   5:    1  ->  bleeds ==> leaves
+   6:    1  ->  both ==> folks
+   7:    1  ->  clothes ==> cloth
+   8:    1  ->  ground ==> brown
+   9:    1  ->  had ==> passed
+  10:    1  ->  her ==> it
+  11:    1  ->  in ==> except
+  12:    1  ->  innocent ==> innocence
+  13:    1  ->  minnie ==> mini
+  14:    1  ->  molecules ==> it
+  15:    1  ->  scout ==> scowl
+  16:    1  ->  smear ==> sneer
+  17:    1  ->  the ==> its
+  18:    1  ->  thoroughly ==> barely
+  19:    1  ->  uninterested ==> interested
+  20:    1  ->  whole ==> hole
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  am
+   2:    2  ->  i
+   3:    1  ->  going
+   4:    1  ->  of
+   5:    1  ->  one
+   6:    1  ->  so
+   7:    1  ->  to
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  it's
+   2:    1  ->  a
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  called
+   6:    1  ->  engine
+   7:    1  ->  have
+   8:    1  ->  her
+   9:    1  ->  i
+  10:    1  ->  is
+  11:    1  ->  oxygenating
+  12:    1  ->  susie
+  13:    1  ->  there
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  among
+   2:    1  ->  asleep
+   3:    1  ->  associated
+   4:    1  ->  back
+   5:    1  ->  bleeds
+   6:    1  ->  both
+   7:    1  ->  clothes
+   8:    1  ->  ground
+   9:    1  ->  had
+  10:    1  ->  her
+  11:    1  ->  in
+  12:    1  ->  innocent
+  13:    1  ->  minnie
+  14:    1  ->  molecules
+  15:    1  ->  scout
+  16:    1  ->  smear
+  17:    1  ->  the
+  18:    1  ->  thoroughly
+  19:    1  ->  uninterested
+  20:    1  ->  whole
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  it
+   2:    1  ->  associative
+   3:    1  ->  barely
+   4:    1  ->  black
+   5:    1  ->  brown
+   6:    1  ->  cloth
+   7:    1  ->  except
+   8:    1  ->  folks
+   9:    1  ->  hole
+  10:    1  ->  innocence
+  11:    1  ->  interested
+  12:    1  ->  its
+  13:    1  ->  leaves
+  14:    1  ->  mini
+  15:    1  ->  of
+  16:    1  ->  passed
+  17:    1  ->  scowl
+  18:    1  ->  sleep
+  19:    1  ->  sneer
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

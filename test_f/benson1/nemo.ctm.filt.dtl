@@ -1,0 +1,210 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.1%   (  97)
+
+Percent Correct           =   92.1%   (1099)
+
+Percent Substitution      =    2.4%   (  29)
+Percent Deletions         =    5.4%   (  65)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   91.9%
+
+
+Ref. words                =           (1193)
+Hyp. words                =           (1131)
+Aligned words             =           (1196)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  at ==> out
+   2:    1  ->  cells ==> selves
+   3:    1  ->  code ==> cold
+   4:    1  ->  date ==> dates
+   5:    1  ->  even ==> eating
+   6:    1  ->  fires ==> buyers
+   7:    1  ->  gone ==> on
+   8:    1  ->  he ==> e
+   9:    1  ->  i ==> going
+  10:    1  ->  it ==> at
+  11:    1  ->  it's ==> so
+  12:    1  ->  know ==> what
+  13:    1  ->  like ==> around
+  14:    1  ->  now ==> there
+  15:    1  ->  peering ==> hearing
+  16:    1  ->  sense ==> says
+  17:    1  ->  signed ==> sign
+  18:    1  ->  sleeks ==> sleep
+  19:    1  ->  sore ==> soar
+  20:    1  ->  standing ==> notwithstanding
+  21:    1  ->  sweet ==> sweep
+  22:    1  ->  tacky ==> different
+  23:    1  ->  taut ==> top
+  24:    1  ->  the ==> a
+  25:    1  ->  them ==> from
+  26:    1  ->  used ==> use
+  27:    1  ->  will ==> all
+  28:    1  ->  wrought ==> brought
+  29:    1  ->  you ==> yeah
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  high
+   2:    1  ->  the
+   3:    1  ->  woods
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    5  ->  i
+   2:    5  ->  yeah
+   3:    3  ->  that
+   4:    3  ->  the
+   5:    3  ->  wh
+   6:    2  ->  s
+   7:    2  ->  to
+   8:    2  ->  with
+   9:    2  ->  you
+  10:    1  ->  %bcack
+  11:    1  ->  a
+  12:    1  ->  all
+  13:    1  ->  and
+  14:    1  ->  another
+  15:    1  ->  are
+  16:    1  ->  bee
+  17:    1  ->  bridge
+  18:    1  ->  could
+  19:    1  ->  decided
+  20:    1  ->  down
+  21:    1  ->  fascinating
+  22:    1  ->  games
+  23:    1  ->  had
+  24:    1  ->  imply
+  25:    1  ->  it
+  26:    1  ->  knocked
+  27:    1  ->  licence
+  28:    1  ->  line
+  29:    1  ->  love
+  30:    1  ->  low
+  31:    1  ->  not
+  32:    1  ->  out
+  33:    1  ->  over
+  34:    1  ->  place
+  35:    1  ->  plate
+  36:    1  ->  poem
+  37:    1  ->  read
+  38:    1  ->  see
+  39:    1  ->  spelled
+  40:    1  ->  takes
+  41:    1  ->  that's
+  42:    1  ->  think
+  43:    1  ->  this
+  44:    1  ->  type
+  45:    1  ->  well
+  46:    1  ->  where
+  47:    1  ->  words
+     -------
+        65
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  at
+   2:    1  ->  cells
+   3:    1  ->  code
+   4:    1  ->  date
+   5:    1  ->  even
+   6:    1  ->  fires
+   7:    1  ->  gone
+   8:    1  ->  he
+   9:    1  ->  i
+  10:    1  ->  it
+  11:    1  ->  it's
+  12:    1  ->  know
+  13:    1  ->  like
+  14:    1  ->  now
+  15:    1  ->  peering
+  16:    1  ->  sense
+  17:    1  ->  signed
+  18:    1  ->  sleeks
+  19:    1  ->  sore
+  20:    1  ->  standing
+  21:    1  ->  sweet
+  22:    1  ->  tacky
+  23:    1  ->  taut
+  24:    1  ->  the
+  25:    1  ->  them
+  26:    1  ->  used
+  27:    1  ->  will
+  28:    1  ->  wrought
+  29:    1  ->  you
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  a
+   2:    1  ->  all
+   3:    1  ->  around
+   4:    1  ->  at
+   5:    1  ->  brought
+   6:    1  ->  buyers
+   7:    1  ->  cold
+   8:    1  ->  dates
+   9:    1  ->  different
+  10:    1  ->  e
+  11:    1  ->  eating
+  12:    1  ->  from
+  13:    1  ->  going
+  14:    1  ->  hearing
+  15:    1  ->  notwithstanding
+  16:    1  ->  on
+  17:    1  ->  out
+  18:    1  ->  says
+  19:    1  ->  selves
+  20:    1  ->  sign
+  21:    1  ->  sleep
+  22:    1  ->  so
+  23:    1  ->  soar
+  24:    1  ->  sweep
+  25:    1  ->  there
+  26:    1  ->  top
+  27:    1  ->  use
+  28:    1  ->  what
+  29:    1  ->  yeah
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

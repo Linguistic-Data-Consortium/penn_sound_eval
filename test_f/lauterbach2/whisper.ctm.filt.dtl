@@ -1,0 +1,153 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.0%   (  60)
+
+Percent Correct           =   93.3%   ( 803)
+
+Percent Substitution      =    3.0%   (  26)
+Percent Deletions         =    3.7%   (  32)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   93.0%
+
+
+Ref. words                =           ( 861)
+Hyp. words                =           ( 831)
+Aligned words             =           ( 863)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  na ==> nah
+   2:    3  ->  and ==> at
+   3:    2  ->  bare ==> bear
+   4:    2  ->  pai ==> pair
+   5:    1  ->  abraids ==> abrades
+   6:    1  ->  anoth ==> another
+   7:    1  ->  charles' ==> charles's
+   8:    1  ->  diction ==> dictionary
+   9:    1  ->  it ==> this
+  10:    1  ->  know ==> do
+  11:    1  ->  parody ==> parity
+  12:    1  ->  proce ==> process
+  13:    1  ->  there's ==> are
+  14:    1  ->  thirty ==> oh
+  15:    1  ->  twenty ==> two
+  16:    1  ->  wealth ==> well
+  17:    1  ->  when ==> they
+  18:    1  ->  words ==> word
+  19:    1  ->  you ==> not
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  just
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    5  ->  and
+   2:    4  ->  know
+   3:    4  ->  you
+   4:    2  ->  the
+   5:    1  ->  a
+   6:    1  ->  as
+   7:    1  ->  had
+   8:    1  ->  i
+   9:    1  ->  in
+  10:    1  ->  it's
+  11:    1  ->  its
+  12:    1  ->  now
+  13:    1  ->  of
+  14:    1  ->  or
+  15:    1  ->  so
+  16:    1  ->  th
+  17:    1  ->  u
+  18:    1  ->  w
+  19:    1  ->  what
+  20:    1  ->  when
+  21:    1  ->  y
+     -------
+        32
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  na
+   2:    3  ->  and
+   3:    2  ->  bare
+   4:    2  ->  pai
+   5:    1  ->  abraids
+   6:    1  ->  anoth
+   7:    1  ->  charles'
+   8:    1  ->  diction
+   9:    1  ->  it
+  10:    1  ->  know
+  11:    1  ->  parody
+  12:    1  ->  proce
+  13:    1  ->  there's
+  14:    1  ->  thirty
+  15:    1  ->  twenty
+  16:    1  ->  wealth
+  17:    1  ->  when
+  18:    1  ->  words
+  19:    1  ->  you
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  nah
+   2:    3  ->  at
+   3:    2  ->  bear
+   4:    2  ->  pair
+   5:    1  ->  abrades
+   6:    1  ->  another
+   7:    1  ->  are
+   8:    1  ->  charles's
+   9:    1  ->  dictionary
+  10:    1  ->  do
+  11:    1  ->  not
+  12:    1  ->  oh
+  13:    1  ->  parity
+  14:    1  ->  process
+  15:    1  ->  they
+  16:    1  ->  this
+  17:    1  ->  two
+  18:    1  ->  well
+  19:    1  ->  word
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

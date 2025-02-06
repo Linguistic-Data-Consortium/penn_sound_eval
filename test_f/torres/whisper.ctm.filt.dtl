@@ -1,0 +1,375 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   30.4%   ( 346)
+
+Percent Correct           =   73.3%   ( 835)
+
+Percent Substitution      =    8.7%   (  99)
+Percent Deletions         =   18.0%   ( 205)
+Percent Insertions        =    3.7%   (  42)
+Percent Word Accuracy     =   69.6%
+
+
+Ref. words                =           (1139)
+Hyp. words                =           ( 976)
+Aligned words             =           (1181)
+
+CONFUSION PAIRS                  Total                 (89)
+                                 With >=  1 occurrences (89)
+
+   1:    3  ->  x ==> know
+   2:    2  ->  a ==> know
+   3:    2  ->  gioconda ==> gioconde
+   4:    2  ->  in ==> you
+   5:    2  ->  x ==> a
+   6:    2  ->  x ==> locionus
+   7:    2  ->  x ==> now
+   8:    2  ->  x ==> of
+   9:    2  ->  x ==> this
+  10:    1  ->  %bcack ==> lot
+  11:    1  ->  a ==> so
+  12:    1  ->  almost ==> sounds
+  13:    1  ->  and ==> artists
+  14:    1  ->  and ==> the
+  15:    1  ->  another ==> in
+  16:    1  ->  are ==> he
+  17:    1  ->  begin ==> beginning
+  18:    1  ->  blowups ==> ups
+  19:    1  ->  but ==> that
+  20:    1  ->  but ==> what
+  21:    1  ->  controversy ==> was
+  22:    1  ->  doubleedged ==> edged
+  23:    1  ->  even ==> it's
+  24:    1  ->  extra ==> actually
+  25:    1  ->  forties ==> 40s
+  26:    1  ->  has ==> have
+  27:    1  ->  have ==> people
+  28:    1  ->  in ==> and
+  29:    1  ->  in ==> so
+  30:    1  ->  inexperience ==> experience
+  31:    1  ->  isabella ==> isabel
+  32:    1  ->  it ==> that
+  33:    1  ->  it ==> there
+  34:    1  ->  it's ==> and
+  35:    1  ->  it's ==> happen
+  36:    1  ->  kinds ==> kind
+  37:    1  ->  know ==> national
+  38:    1  ->  know ==> sense
+  39:    1  ->  like ==> had
+  40:    1  ->  m ==> but
+  41:    1  ->  men ==> man
+  42:    1  ->  oh ==> crossover
+  43:    1  ->  or ==> right
+  44:    1  ->  oth ==> it
+  45:    1  ->  preysler ==> preissler
+  46:    1  ->  read ==> mean
+  47:    1  ->  seen ==> see
+  48:    1  ->  strata ==> strategy
+  49:    1  ->  than ==> and
+  50:    1  ->  that ==> who
+  51:    1  ->  the ==> of
+  52:    1  ->  the ==> their
+  53:    1  ->  the ==> with
+  54:    1  ->  there ==> that
+  55:    1  ->  there ==> they
+  56:    1  ->  though ==> modernism
+  57:    1  ->  to ==> actually
+  58:    1  ->  to ==> dirty
+  59:    1  ->  was ==> is
+  60:    1  ->  who ==> what
+  61:    1  ->  who's ==> whose
+  62:    1  ->  would ==> more
+  63:    1  ->  x ==> all
+  64:    1  ->  x ==> and
+  65:    1  ->  x ==> because
+  66:    1  ->  x ==> cibachromes
+  67:    1  ->  x ==> fairly
+  68:    1  ->  x ==> from
+  69:    1  ->  x ==> guerra
+  70:    1  ->  x ==> is
+  71:    1  ->  x ==> like
+  72:    1  ->  x ==> linen
+  73:    1  ->  x ==> luck
+  74:    1  ->  x ==> mean
+  75:    1  ->  x ==> screen
+  76:    1  ->  x ==> socialist
+  77:    1  ->  x ==> that's
+  78:    1  ->  x ==> the
+  79:    1  ->  x ==> there
+  80:    1  ->  x ==> these
+  81:    1  ->  x ==> tip
+  82:    1  ->  x ==> total
+  83:    1  ->  x ==> treat
+  84:    1  ->  x ==> worry
+  85:    1  ->  yeah ==> respect
+  86:    1  ->  yeah ==> yes
+  87:    1  ->  yes ==> was
+  88:    1  ->  you ==> i
+  89:    1  ->  you ==> little
+     -------
+        99
+
+
+
+INSERTIONS                       Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    4  ->  i
+   2:    4  ->  you
+   3:    3  ->  a
+   4:    3  ->  that
+   5:    2  ->  it
+   6:    1  ->  alfonso
+   7:    1  ->  are
+   8:    1  ->  blow
+   9:    1  ->  completely
+  10:    1  ->  contrarism
+  11:    1  ->  do
+  12:    1  ->  doing
+  13:    1  ->  double
+  14:    1  ->  europe
+  15:    1  ->  have
+  16:    1  ->  know
+  17:    1  ->  may
+  18:    1  ->  mean
+  19:    1  ->  not
+  20:    1  ->  part
+  21:    1  ->  read
+  22:    1  ->  she
+  23:    1  ->  something
+  24:    1  ->  still
+  25:    1  ->  the
+  26:    1  ->  then
+  27:    1  ->  there
+  28:    1  ->  they
+  29:    1  ->  time
+  30:    1  ->  when
+  31:    1  ->  yeah
+     -------
+        42
+
+
+
+DELETIONS                        Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:   22  ->  the
+   2:   20  ->  x
+   3:   17  ->  and
+   4:   15  ->  you
+   5:   12  ->  a
+   6:   12  ->  know
+   7:   11  ->  in
+   8:    6  ->  like
+   9:    6  ->  they
+  10:    5  ->  %bcack
+  11:    5  ->  have
+  12:    5  ->  i
+  13:    5  ->  of
+  14:    5  ->  that
+  15:    4  ->  to
+  16:    4  ->  with
+  17:    3  ->  yeah
+  18:    2  ->  main
+  19:    2  ->  not
+  20:    2  ->  really
+  21:    2  ->  there
+  22:    2  ->  was
+  23:    1  ->  any
+  24:    1  ->  artist
+  25:    1  ->  as
+  26:    1  ->  at
+  27:    1  ->  because
+  28:    1  ->  but
+  29:    1  ->  corner
+  30:    1  ->  could
+  31:    1  ->  crossed
+  32:    1  ->  d
+  33:    1  ->  did
+  34:    1  ->  glass
+  35:    1  ->  happened
+  36:    1  ->  he's
+  37:    1  ->  here
+  38:    1  ->  his
+  39:    1  ->  if
+  40:    1  ->  international
+  41:    1  ->  is
+  42:    1  ->  it
+  43:    1  ->  just
+  44:    1  ->  kind
+  45:    1  ->  modernism
+  46:    1  ->  or
+  47:    1  ->  power
+  48:    1  ->  president's
+  49:    1  ->  sh
+  50:    1  ->  so
+  51:    1  ->  th
+  52:    1  ->  that's
+  53:    1  ->  these
+  54:    1  ->  vice
+  55:    1  ->  w
+  56:    1  ->  when
+  57:    1  ->  whit
+  58:    1  ->  who
+  59:    1  ->  would
+  60:    1  ->  y
+     -------
+       205
+
+
+
+SUBSTITUTIONS                    Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:   35  ->  x
+   2:    4  ->  in
+   3:    3  ->  a
+   4:    3  ->  the
+   5:    2  ->  and
+   6:    2  ->  but
+   7:    2  ->  gioconda
+   8:    2  ->  it
+   9:    2  ->  it's
+  10:    2  ->  know
+  11:    2  ->  there
+  12:    2  ->  to
+  13:    2  ->  yeah
+  14:    2  ->  you
+  15:    1  ->  %bcack
+  16:    1  ->  almost
+  17:    1  ->  another
+  18:    1  ->  are
+  19:    1  ->  begin
+  20:    1  ->  blowups
+  21:    1  ->  controversy
+  22:    1  ->  doubleedged
+  23:    1  ->  even
+  24:    1  ->  extra
+  25:    1  ->  forties
+  26:    1  ->  has
+  27:    1  ->  have
+  28:    1  ->  inexperience
+  29:    1  ->  isabella
+  30:    1  ->  kinds
+  31:    1  ->  like
+  32:    1  ->  m
+  33:    1  ->  men
+  34:    1  ->  oh
+  35:    1  ->  or
+  36:    1  ->  oth
+  37:    1  ->  preysler
+  38:    1  ->  read
+  39:    1  ->  seen
+  40:    1  ->  strata
+  41:    1  ->  than
+  42:    1  ->  that
+  43:    1  ->  though
+  44:    1  ->  was
+  45:    1  ->  who
+  46:    1  ->  who's
+  47:    1  ->  would
+  48:    1  ->  yes
+     -------
+        99
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (74)
+                                 With >=  1 occurrences (74)
+
+   1:    5  ->  know
+   2:    4  ->  and
+   3:    3  ->  of
+   4:    3  ->  that
+   5:    2  ->  a
+   6:    2  ->  actually
+   7:    2  ->  gioconde
+   8:    2  ->  is
+   9:    2  ->  locionus
+  10:    2  ->  mean
+  11:    2  ->  now
+  12:    2  ->  so
+  13:    2  ->  the
+  14:    2  ->  there
+  15:    2  ->  this
+  16:    2  ->  was
+  17:    2  ->  what
+  18:    2  ->  you
+  19:    1  ->  40s
+  20:    1  ->  all
+  21:    1  ->  artists
+  22:    1  ->  because
+  23:    1  ->  beginning
+  24:    1  ->  but
+  25:    1  ->  cibachromes
+  26:    1  ->  crossover
+  27:    1  ->  dirty
+  28:    1  ->  edged
+  29:    1  ->  experience
+  30:    1  ->  fairly
+  31:    1  ->  from
+  32:    1  ->  guerra
+  33:    1  ->  had
+  34:    1  ->  happen
+  35:    1  ->  have
+  36:    1  ->  he
+  37:    1  ->  i
+  38:    1  ->  in
+  39:    1  ->  isabel
+  40:    1  ->  it
+  41:    1  ->  it's
+  42:    1  ->  kind
+  43:    1  ->  like
+  44:    1  ->  linen
+  45:    1  ->  little
+  46:    1  ->  lot
+  47:    1  ->  luck
+  48:    1  ->  man
+  49:    1  ->  modernism
+  50:    1  ->  more
+  51:    1  ->  national
+  52:    1  ->  people
+  53:    1  ->  preissler
+  54:    1  ->  respect
+  55:    1  ->  right
+  56:    1  ->  screen
+  57:    1  ->  see
+  58:    1  ->  sense
+  59:    1  ->  socialist
+  60:    1  ->  sounds
+  61:    1  ->  strategy
+  62:    1  ->  that's
+  63:    1  ->  their
+  64:    1  ->  these
+  65:    1  ->  they
+  66:    1  ->  tip
+  67:    1  ->  total
+  68:    1  ->  treat
+  69:    1  ->  ups
+  70:    1  ->  who
+  71:    1  ->  whose
+  72:    1  ->  with
+  73:    1  ->  worry
+  74:    1  ->  yes
+     -------
+        99
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

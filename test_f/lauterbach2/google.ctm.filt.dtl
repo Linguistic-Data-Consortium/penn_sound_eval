@@ -1,0 +1,189 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.2%   (  62)
+
+Percent Correct           =   94.1%   ( 810)
+
+Percent Substitution      =    4.3%   (  37)
+Percent Deletions         =    1.6%   (  14)
+Percent Insertions        =    1.3%   (  11)
+Percent Word Accuracy     =   92.8%
+
+
+Ref. words                =           ( 861)
+Hyp. words                =           ( 858)
+Aligned words             =           ( 872)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  and ==> hither
+   2:    2  ->  bare ==> bear
+   3:    2  ->  hitherto ==> to
+   4:    2  ->  its ==> it's
+   5:    1  ->  abraids ==> braid's
+   6:    1  ->  anoth ==> another
+   7:    1  ->  carte ==> cart
+   8:    1  ->  carte ==> kart
+   9:    1  ->  charles' ==> charles's
+  10:    1  ->  could ==> can
+  11:    1  ->  effected ==> affected
+  12:    1  ->  frayed ==> freight
+  13:    1  ->  highly ==> well
+  14:    1  ->  how ==> what
+  15:    1  ->  know ==> do
+  16:    1  ->  la ==> allah
+  17:    1  ->  lacerating ==> selflacerating
+  18:    1  ->  now ==> out
+  19:    1  ->  of ==> a
+  20:    1  ->  pai ==> another
+  21:    1  ->  pai ==> pair
+  22:    1  ->  parody ==> parity
+  23:    1  ->  proce ==> process
+  24:    1  ->  proof ==> flameproof
+  25:    1  ->  sadnesses ==> sadness
+  26:    1  ->  surefire ==> fire
+  27:    1  ->  there's ==> the
+  28:    1  ->  thirty ==> oh
+  29:    1  ->  twenty ==> two
+  30:    1  ->  unexplained ==> explained
+  31:    1  ->  wares ==> wears
+  32:    1  ->  words ==> word
+  33:    1  ->  you ==> not
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    3  ->  i
+   2:    2  ->  at
+   3:    1  ->  a
+   4:    1  ->  am
+   5:    1  ->  and
+   6:    1  ->  just
+   7:    1  ->  on
+   8:    1  ->  shore
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    2  ->  when
+   3:    1  ->  another's
+   4:    1  ->  flame
+   5:    1  ->  it's
+   6:    1  ->  oed
+   7:    1  ->  self
+   8:    1  ->  th
+   9:    1  ->  u
+  10:    1  ->  w
+  11:    1  ->  wealth
+  12:    1  ->  y
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  and
+   2:    2  ->  bare
+   3:    2  ->  carte
+   4:    2  ->  hitherto
+   5:    2  ->  its
+   6:    2  ->  pai
+   7:    1  ->  abraids
+   8:    1  ->  anoth
+   9:    1  ->  charles'
+  10:    1  ->  could
+  11:    1  ->  effected
+  12:    1  ->  frayed
+  13:    1  ->  highly
+  14:    1  ->  how
+  15:    1  ->  know
+  16:    1  ->  la
+  17:    1  ->  lacerating
+  18:    1  ->  now
+  19:    1  ->  of
+  20:    1  ->  parody
+  21:    1  ->  proce
+  22:    1  ->  proof
+  23:    1  ->  sadnesses
+  24:    1  ->  surefire
+  25:    1  ->  there's
+  26:    1  ->  thirty
+  27:    1  ->  twenty
+  28:    1  ->  unexplained
+  29:    1  ->  wares
+  30:    1  ->  words
+  31:    1  ->  you
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  another
+   2:    2  ->  bear
+   3:    2  ->  hither
+   4:    2  ->  it's
+   5:    2  ->  to
+   6:    1  ->  a
+   7:    1  ->  affected
+   8:    1  ->  allah
+   9:    1  ->  braid's
+  10:    1  ->  can
+  11:    1  ->  cart
+  12:    1  ->  charles's
+  13:    1  ->  do
+  14:    1  ->  explained
+  15:    1  ->  fire
+  16:    1  ->  flameproof
+  17:    1  ->  freight
+  18:    1  ->  kart
+  19:    1  ->  not
+  20:    1  ->  oh
+  21:    1  ->  out
+  22:    1  ->  pair
+  23:    1  ->  parity
+  24:    1  ->  process
+  25:    1  ->  sadness
+  26:    1  ->  selflacerating
+  27:    1  ->  the
+  28:    1  ->  two
+  29:    1  ->  wears
+  30:    1  ->  well
+  31:    1  ->  what
+  32:    1  ->  word
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

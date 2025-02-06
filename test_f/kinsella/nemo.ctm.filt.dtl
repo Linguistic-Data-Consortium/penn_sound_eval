@@ -1,0 +1,347 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   12.9%   ( 125)
+
+Percent Correct           =   88.7%   ( 858)
+
+Percent Substitution      =    8.9%   (  86)
+Percent Deletions         =    2.4%   (  23)
+Percent Insertions        =    1.7%   (  16)
+Percent Word Accuracy     =   87.1%
+
+
+Ref. words                =           ( 967)
+Hyp. words                =           ( 960)
+Aligned words             =           ( 983)
+
+CONFUSION PAIRS                  Total                 (82)
+                                 With >=  1 occurrences (82)
+
+   1:    3  ->  a ==> the
+   2:    2  ->  and ==> in
+   3:    2  ->  the ==> a
+   4:    1  ->  adjuncting ==> junking
+   5:    1  ->  adjuncting ==> tin
+   6:    1  ->  air ==> era
+   7:    1  ->  an ==> a
+   8:    1  ->  and ==> an
+   9:    1  ->  and ==> downstand
+  10:    1  ->  azurine ==> esuarine
+  11:    1  ->  backs ==> halfbacks
+  12:    1  ->  bas ==> bass
+  13:    1  ->  budding ==> flooding
+  14:    1  ->  chair ==> cha
+  15:    1  ->  clods ==> clouds
+  16:    1  ->  contrivers ==> contrivas
+  17:    1  ->  cracking ==> tracking
+  18:    1  ->  cutter’s ==> cutters
+  19:    1  ->  derrida ==> are
+  20:    1  ->  doorpost ==> doorposts
+  21:    1  ->  drabness ==> grabness
+  22:    1  ->  ericsson ==> erosion
+  23:    1  ->  excelling ==> ceiling
+  24:    1  ->  faustus ==> fourth
+  25:    1  ->  fencewire ==> wire
+  26:    1  ->  first ==> though
+  27:    1  ->  folds ==> balls
+  28:    1  ->  for ==> there
+  29:    1  ->  for ==> with
+  30:    1  ->  from ==> high
+  31:    1  ->  glamor ==> disclaimer
+  32:    1  ->  glistening ==> blistering
+  33:    1  ->  grated ==> graded
+  34:    1  ->  gritted ==> gridded
+  35:    1  ->  half ==> goodsides
+  36:    1  ->  headlights ==> headlight
+  37:    1  ->  heady ==> heavy
+  38:    1  ->  highlife ==> life
+  39:    1  ->  hole ==> hull
+  40:    1  ->  homonculus ==> homunculous
+  41:    1  ->  humitrophic ==> humotrophic
+  42:    1  ->  is ==> as
+  43:    1  ->  it ==> chernake
+  44:    1  ->  it ==> that
+  45:    1  ->  it's ==> that's
+  46:    1  ->  jacques ==> it
+  47:    1  ->  lax ==> lacks
+  48:    1  ->  light ==> lights
+  49:    1  ->  load ==> contentional
+  50:    1  ->  looting ==> losing
+  51:    1  ->  lugging ==> lagging
+  52:    1  ->  mallee ==> melly
+  53:    1  ->  miasma ==> asthma
+  54:    1  ->  moving ==> movement
+  55:    1  ->  needles ==> needle
+  56:    1  ->  on ==> or
+  57:    1  ->  pellegra ==> pollegra
+  58:    1  ->  pinheaded ==> a
+  59:    1  ->  predella ==> junk
+  60:    1  ->  raddled ==> rattled
+  61:    1  ->  riddled ==> riddle
+  62:    1  ->  separation ==> inseparation
+  63:    1  ->  shade ==> shader
+  64:    1  ->  sibilance ==> siblings
+  65:    1  ->  small ==> spool
+  66:    1  ->  souls ==> selves
+  67:    1  ->  spent ==> spence
+  68:    1  ->  squirrel ==> swirl
+  69:    1  ->  stills ==> loadstools
+  70:    1  ->  striping ==> stripping
+  71:    1  ->  sursurrous ==> serious
+  72:    1  ->  swarming ==> warming
+  73:    1  ->  tales ==> tails
+  74:    1  ->  the ==> poisons
+  75:    1  ->  the ==> to
+  76:    1  ->  tired ==> tide
+  77:    1  ->  tractor ==> detracted
+  78:    1  ->  tree ==> tri
+  79:    1  ->  trifolate ==> trifolite
+  80:    1  ->  undermovings ==> oxygen
+  81:    1  ->  year ==> goodyear
+  82:    1  ->  zebra ==> one
+     -------
+        86
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  a
+   2:    1  ->  as
+   3:    1  ->  etched
+   4:    1  ->  every
+   5:    1  ->  fence
+   6:    1  ->  light
+   7:    1  ->  my
+   8:    1  ->  of
+   9:    1  ->  pinhead
+  10:    1  ->  prudella
+  11:    1  ->  so
+  12:    1  ->  spot
+  13:    1  ->  storms
+  14:    1  ->  the
+  15:    1  ->  very
+  16:    1  ->  when
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  good
+   2:    2  ->  it's
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  churn
+   6:    1  ->  contention
+   7:    1  ->  cross
+   8:    1  ->  dowsed
+   9:    1  ->  foo
+  10:    1  ->  from
+  11:    1  ->  grow
+  12:    1  ->  i
+  13:    1  ->  in
+  14:    1  ->  now
+  15:    1  ->  poem's
+  16:    1  ->  poise
+  17:    1  ->  sides
+  18:    1  ->  the
+  19:    1  ->  this
+  20:    1  ->  very
+  21:    1  ->  with
+     -------
+        23
+
+
+
+SUBSTITUTIONS                    Total                 (75)
+                                 With >=  1 occurrences (75)
+
+   1:    4  ->  and
+   2:    4  ->  the
+   3:    3  ->  a
+   4:    2  ->  adjuncting
+   5:    2  ->  for
+   6:    2  ->  it
+   7:    1  ->  air
+   8:    1  ->  an
+   9:    1  ->  azurine
+  10:    1  ->  backs
+  11:    1  ->  bas
+  12:    1  ->  budding
+  13:    1  ->  chair
+  14:    1  ->  clods
+  15:    1  ->  contrivers
+  16:    1  ->  cracking
+  17:    1  ->  cutter’s
+  18:    1  ->  derrida
+  19:    1  ->  doorpost
+  20:    1  ->  drabness
+  21:    1  ->  ericsson
+  22:    1  ->  excelling
+  23:    1  ->  faustus
+  24:    1  ->  fencewire
+  25:    1  ->  first
+  26:    1  ->  folds
+  27:    1  ->  from
+  28:    1  ->  glamor
+  29:    1  ->  glistening
+  30:    1  ->  grated
+  31:    1  ->  gritted
+  32:    1  ->  half
+  33:    1  ->  headlights
+  34:    1  ->  heady
+  35:    1  ->  highlife
+  36:    1  ->  hole
+  37:    1  ->  homonculus
+  38:    1  ->  humitrophic
+  39:    1  ->  is
+  40:    1  ->  it's
+  41:    1  ->  jacques
+  42:    1  ->  lax
+  43:    1  ->  light
+  44:    1  ->  load
+  45:    1  ->  looting
+  46:    1  ->  lugging
+  47:    1  ->  mallee
+  48:    1  ->  miasma
+  49:    1  ->  moving
+  50:    1  ->  needles
+  51:    1  ->  on
+  52:    1  ->  pellegra
+  53:    1  ->  pinheaded
+  54:    1  ->  predella
+  55:    1  ->  raddled
+  56:    1  ->  riddled
+  57:    1  ->  separation
+  58:    1  ->  shade
+  59:    1  ->  sibilance
+  60:    1  ->  small
+  61:    1  ->  souls
+  62:    1  ->  spent
+  63:    1  ->  squirrel
+  64:    1  ->  stills
+  65:    1  ->  striping
+  66:    1  ->  sursurrous
+  67:    1  ->  swarming
+  68:    1  ->  tales
+  69:    1  ->  tired
+  70:    1  ->  tractor
+  71:    1  ->  tree
+  72:    1  ->  trifolate
+  73:    1  ->  undermovings
+  74:    1  ->  year
+  75:    1  ->  zebra
+     -------
+        86
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (80)
+                                 With >=  1 occurrences (80)
+
+   1:    4  ->  a
+   2:    3  ->  the
+   3:    2  ->  in
+   4:    1  ->  an
+   5:    1  ->  are
+   6:    1  ->  as
+   7:    1  ->  asthma
+   8:    1  ->  balls
+   9:    1  ->  bass
+  10:    1  ->  blistering
+  11:    1  ->  ceiling
+  12:    1  ->  cha
+  13:    1  ->  chernake
+  14:    1  ->  clouds
+  15:    1  ->  contentional
+  16:    1  ->  contrivas
+  17:    1  ->  cutters
+  18:    1  ->  detracted
+  19:    1  ->  disclaimer
+  20:    1  ->  doorposts
+  21:    1  ->  downstand
+  22:    1  ->  era
+  23:    1  ->  erosion
+  24:    1  ->  esuarine
+  25:    1  ->  flooding
+  26:    1  ->  fourth
+  27:    1  ->  goodsides
+  28:    1  ->  goodyear
+  29:    1  ->  grabness
+  30:    1  ->  graded
+  31:    1  ->  gridded
+  32:    1  ->  halfbacks
+  33:    1  ->  headlight
+  34:    1  ->  heavy
+  35:    1  ->  high
+  36:    1  ->  homunculous
+  37:    1  ->  hull
+  38:    1  ->  humotrophic
+  39:    1  ->  inseparation
+  40:    1  ->  it
+  41:    1  ->  junk
+  42:    1  ->  junking
+  43:    1  ->  lacks
+  44:    1  ->  lagging
+  45:    1  ->  life
+  46:    1  ->  lights
+  47:    1  ->  loadstools
+  48:    1  ->  losing
+  49:    1  ->  melly
+  50:    1  ->  movement
+  51:    1  ->  needle
+  52:    1  ->  one
+  53:    1  ->  or
+  54:    1  ->  oxygen
+  55:    1  ->  poisons
+  56:    1  ->  pollegra
+  57:    1  ->  rattled
+  58:    1  ->  riddle
+  59:    1  ->  selves
+  60:    1  ->  serious
+  61:    1  ->  shader
+  62:    1  ->  siblings
+  63:    1  ->  spence
+  64:    1  ->  spool
+  65:    1  ->  stripping
+  66:    1  ->  swirl
+  67:    1  ->  tails
+  68:    1  ->  that
+  69:    1  ->  that's
+  70:    1  ->  there
+  71:    1  ->  though
+  72:    1  ->  tide
+  73:    1  ->  tin
+  74:    1  ->  to
+  75:    1  ->  tracking
+  76:    1  ->  tri
+  77:    1  ->  trifolite
+  78:    1  ->  warming
+  79:    1  ->  wire
+  80:    1  ->  with
+     -------
+        86
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

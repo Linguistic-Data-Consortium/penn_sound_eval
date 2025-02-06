@@ -1,0 +1,223 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.2%   (  75)
+
+Percent Correct           =   92.8%   ( 760)
+
+Percent Substitution      =    5.3%   (  43)
+Percent Deletions         =    2.0%   (  16)
+Percent Insertions        =    2.0%   (  16)
+Percent Word Accuracy     =   90.8%
+
+
+Ref. words                =           ( 819)
+Hyp. words                =           ( 819)
+Aligned words             =           ( 835)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  forrest ==> forest
+   2:    1  ->  andante ==> ante
+   3:    1  ->  appellate ==> applet
+   4:    1  ->  atavistic ==> istic
+   5:    1  ->  bailiwick ==> ballywick
+   6:    1  ->  bleacher ==> bleachers
+   7:    1  ->  dao ==> tao
+   8:    1  ->  dot ==> do
+   9:    1  ->  draft ==> raft
+  10:    1  ->  drafts ==> draft
+  11:    1  ->  edition ==> addition
+  12:    1  ->  ekphrastic ==> astic
+  13:    1  ->  emendation ==> inundation
+  14:    1  ->  emmylou ==> lou
+  15:    1  ->  entreaty ==> treaty
+  16:    1  ->  enunciations ==> annunciations
+  17:    1  ->  evident ==> evidence
+  18:    1  ->  fabulist ==> fabulous
+  19:    1  ->  fist ==> fisk
+  20:    1  ->  forrest ==> forests
+  21:    1  ->  four ==> for
+  22:    1  ->  gates ==> gate's
+  23:    1  ->  get ==> got
+  24:    1  ->  homespun ==> spun
+  25:    1  ->  impostor ==> passow
+  26:    1  ->  insignias ==> insignia
+  27:    1  ->  is ==> his
+  28:    1  ->  juvenalia ==> il
+  29:    1  ->  memoir's ==> memoirs
+  30:    1  ->  mirror ==> amir
+  31:    1  ->  non ==> the
+  32:    1  ->  park's ==> park
+  33:    1  ->  pathos ==> pats
+  34:    1  ->  shostakovich ==> shastakovich
+  35:    1  ->  skies ==> sky
+  36:    1  ->  sun ==> son
+  37:    1  ->  theatre ==> theater
+  38:    1  ->  trickily ==> trickling
+  39:    1  ->  upbraid ==> upgrade
+  40:    1  ->  welish ==> wes
+  41:    1  ->  wind ==> wing
+  42:    1  ->  with ==> of
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    7  ->  <laugh>
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  emmi
+   5:    1  ->  ent
+   6:    1  ->  home
+   7:    1  ->  i
+   8:    1  ->  on
+   9:    1  ->  really
+  10:    1  ->  top
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  a
+   2:    1  ->  and
+   3:    1  ->  cu
+   4:    1  ->  d
+   5:    1  ->  dot
+   6:    1  ->  flag
+   7:    1  ->  got
+   8:    1  ->  ke
+   9:    1  ->  l
+  10:    1  ->  like
+  11:    1  ->  m
+  12:    1  ->  oh
+  13:    1  ->  really
+  14:    1  ->  wr
+  15:    1  ->  yeah
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    3  ->  forrest
+   2:    1  ->  andante
+   3:    1  ->  appellate
+   4:    1  ->  atavistic
+   5:    1  ->  bailiwick
+   6:    1  ->  bleacher
+   7:    1  ->  dao
+   8:    1  ->  dot
+   9:    1  ->  draft
+  10:    1  ->  drafts
+  11:    1  ->  edition
+  12:    1  ->  ekphrastic
+  13:    1  ->  emendation
+  14:    1  ->  emmylou
+  15:    1  ->  entreaty
+  16:    1  ->  enunciations
+  17:    1  ->  evident
+  18:    1  ->  fabulist
+  19:    1  ->  fist
+  20:    1  ->  four
+  21:    1  ->  gates
+  22:    1  ->  get
+  23:    1  ->  homespun
+  24:    1  ->  impostor
+  25:    1  ->  insignias
+  26:    1  ->  is
+  27:    1  ->  juvenalia
+  28:    1  ->  memoir's
+  29:    1  ->  mirror
+  30:    1  ->  non
+  31:    1  ->  park's
+  32:    1  ->  pathos
+  33:    1  ->  shostakovich
+  34:    1  ->  skies
+  35:    1  ->  sun
+  36:    1  ->  theatre
+  37:    1  ->  trickily
+  38:    1  ->  upbraid
+  39:    1  ->  welish
+  40:    1  ->  wind
+  41:    1  ->  with
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  forest
+   2:    1  ->  addition
+   3:    1  ->  amir
+   4:    1  ->  annunciations
+   5:    1  ->  ante
+   6:    1  ->  applet
+   7:    1  ->  astic
+   8:    1  ->  ballywick
+   9:    1  ->  bleachers
+  10:    1  ->  do
+  11:    1  ->  draft
+  12:    1  ->  evidence
+  13:    1  ->  fabulous
+  14:    1  ->  fisk
+  15:    1  ->  for
+  16:    1  ->  forests
+  17:    1  ->  gate's
+  18:    1  ->  got
+  19:    1  ->  his
+  20:    1  ->  il
+  21:    1  ->  insignia
+  22:    1  ->  inundation
+  23:    1  ->  istic
+  24:    1  ->  lou
+  25:    1  ->  memoirs
+  26:    1  ->  of
+  27:    1  ->  park
+  28:    1  ->  passow
+  29:    1  ->  pats
+  30:    1  ->  raft
+  31:    1  ->  shastakovich
+  32:    1  ->  sky
+  33:    1  ->  son
+  34:    1  ->  spun
+  35:    1  ->  tao
+  36:    1  ->  the
+  37:    1  ->  theater
+  38:    1  ->  treaty
+  39:    1  ->  trickling
+  40:    1  ->  upgrade
+  41:    1  ->  wes
+  42:    1  ->  wing
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

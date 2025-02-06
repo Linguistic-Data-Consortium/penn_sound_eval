@@ -1,0 +1,153 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.5%   (  57)
+
+Percent Correct           =   95.5%   ( 989)
+
+Percent Substitution      =    2.0%   (  21)
+Percent Deletions         =    2.5%   (  26)
+Percent Insertions        =    1.0%   (  10)
+Percent Word Accuracy     =   94.5%
+
+
+Ref. words                =           (1036)
+Hyp. words                =           (1020)
+Aligned words             =           (1046)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    4  ->  ten ==> oh
+   2:    2  ->  in ==> and
+   3:    1  ->  a ==> the
+   4:    1  ->  as ==> whereas
+   5:    1  ->  doors ==> is
+   6:    1  ->  eyed ==> glassyeyed
+   7:    1  ->  jena ==> gina
+   8:    1  ->  onto ==> to
+   9:    1  ->  pee ==> p
+  10:    1  ->  seventies ==> 70s
+  11:    1  ->  seventy ==> seven
+  12:    1  ->  stumbles ==> stumble
+  13:    1  ->  th ==> spar
+  14:    1  ->  th ==> that
+  15:    1  ->  tightrope ==> rope
+  16:    1  ->  wee ==> w
+  17:    1  ->  year ==> 10year
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    4  ->  the
+   2:    1  ->  door
+   3:    1  ->  it
+   4:    1  ->  of
+   5:    1  ->  on
+   6:    1  ->  tight
+   7:    1  ->  will
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  m
+   2:    2  ->  the
+   3:    2  ->  x
+   4:    1  ->  a
+   5:    1  ->  an
+   6:    1  ->  and
+   7:    1  ->  auto
+   8:    1  ->  forward
+   9:    1  ->  front
+  10:    1  ->  glassy
+  11:    1  ->  handlebars
+  12:    1  ->  just
+  13:    1  ->  know
+  14:    1  ->  on
+  15:    1  ->  or
+  16:    1  ->  right
+  17:    1  ->  spahr
+  18:    1  ->  ten
+  19:    1  ->  to
+  20:    1  ->  up
+  21:    1  ->  w
+  22:    1  ->  wh
+  23:    1  ->  you
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    4  ->  ten
+   2:    2  ->  in
+   3:    2  ->  th
+   4:    1  ->  a
+   5:    1  ->  as
+   6:    1  ->  doors
+   7:    1  ->  eyed
+   8:    1  ->  jena
+   9:    1  ->  onto
+  10:    1  ->  pee
+  11:    1  ->  seventies
+  12:    1  ->  seventy
+  13:    1  ->  stumbles
+  14:    1  ->  tightrope
+  15:    1  ->  wee
+  16:    1  ->  year
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    4  ->  oh
+   2:    2  ->  and
+   3:    1  ->  10year
+   4:    1  ->  70s
+   5:    1  ->  gina
+   6:    1  ->  glassyeyed
+   7:    1  ->  is
+   8:    1  ->  p
+   9:    1  ->  rope
+  10:    1  ->  seven
+  11:    1  ->  spar
+  12:    1  ->  stumble
+  13:    1  ->  that
+  14:    1  ->  the
+  15:    1  ->  to
+  16:    1  ->  w
+  17:    1  ->  whereas
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

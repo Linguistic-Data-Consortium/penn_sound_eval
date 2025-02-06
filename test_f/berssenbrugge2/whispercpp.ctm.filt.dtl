@@ -1,0 +1,136 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.2%   (  32)
+
+Percent Correct           =   97.5%   ( 964)
+
+Percent Substitution      =    1.8%   (  18)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    0.7%   (   7)
+Percent Word Accuracy     =   96.8%
+
+
+Ref. words                =           ( 989)
+Hyp. words                =           ( 989)
+Aligned words             =           ( 996)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  whole ==> hole
+   2:    1  ->  and ==> in
+   3:    1  ->  and ==> then
+   4:    1  ->  associated ==> associative
+   5:    1  ->  both ==> folds
+   6:    1  ->  cells ==> bcells
+   7:    1  ->  clothes ==> clogs
+   8:    1  ->  encounter ==> in
+   9:    1  ->  girl ==> fouryearoldgirl
+  10:    1  ->  model ==> mottled
+  11:    1  ->  reflections ==> counterreflections
+  12:    1  ->  scout ==> scowl
+  13:    1  ->  sinus ==> that
+  14:    1  ->  smock ==> smog
+  15:    1  ->  stolid ==> stalid
+  16:    1  ->  thoroughly ==> barely
+  17:    1  ->  uninterested ==> interested
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  am
+   2:    1  ->  i
+   3:    1  ->  in
+   4:    1  ->  present
+   5:    1  ->  sign
+   6:    1  ->  situation
+   7:    1  ->  the
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  four
+   3:    1  ->  i
+   4:    1  ->  is
+   5:    1  ->  old
+   6:    1  ->  these
+   7:    1  ->  year
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  and
+   2:    2  ->  whole
+   3:    1  ->  associated
+   4:    1  ->  both
+   5:    1  ->  cells
+   6:    1  ->  clothes
+   7:    1  ->  encounter
+   8:    1  ->  girl
+   9:    1  ->  model
+  10:    1  ->  reflections
+  11:    1  ->  scout
+  12:    1  ->  sinus
+  13:    1  ->  smock
+  14:    1  ->  stolid
+  15:    1  ->  thoroughly
+  16:    1  ->  uninterested
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  hole
+   2:    2  ->  in
+   3:    1  ->  associative
+   4:    1  ->  barely
+   5:    1  ->  bcells
+   6:    1  ->  clogs
+   7:    1  ->  counterreflections
+   8:    1  ->  folds
+   9:    1  ->  fouryearoldgirl
+  10:    1  ->  interested
+  11:    1  ->  mottled
+  12:    1  ->  scowl
+  13:    1  ->  smog
+  14:    1  ->  stalid
+  15:    1  ->  that
+  16:    1  ->  then
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

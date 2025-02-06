@@ -1,0 +1,197 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.7%   (  69)
+
+Percent Correct           =   93.4%   ( 839)
+
+Percent Substitution      =    3.9%   (  35)
+Percent Deletions         =    2.7%   (  24)
+Percent Insertions        =    1.1%   (  10)
+Percent Word Accuracy     =   92.3%
+
+
+Ref. words                =           ( 898)
+Hyp. words                =           ( 884)
+Aligned words             =           ( 908)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  german ==> durable
+   2:    1  ->  a ==> the
+   3:    1  ->  are ==> is
+   4:    1  ->  bleiben ==> is
+   5:    1  ->  dana ==> saldania
+   6:    1  ->  denn ==> and
+   7:    1  ->  denn ==> den
+   8:    1  ->  indy ==> maybe
+   9:    1  ->  ing ==> in
+  10:    1  ->  ink ==> the
+  11:    1  ->  ist ==> near
+  12:    1  ->  just ==> mark
+  13:    1  ->  know ==> the
+  14:    1  ->  ninety ==> nine
+  15:    1  ->  nirgends ==> against
+  16:    1  ->  nirgends ==> nirgens
+  17:    1  ->  ns ==> n's
+  18:    1  ->  palimpsest ==> palaces
+  19:    1  ->  provenance ==> providence
+  20:    1  ->  rs ==> r's
+  21:    1  ->  screams ==> scrims
+  22:    1  ->  starter ==> starker
+  23:    1  ->  tact ==> tight
+  24:    1  ->  their ==> are
+  25:    1  ->  there ==> are
+  26:    1  ->  there's ==> it's
+  27:    1  ->  there's ==> others
+  28:    1  ->  they ==> there
+  29:    1  ->  throws ==> throes
+  30:    1  ->  trackable ==> untrackable
+  31:    1  ->  want ==> wanted
+  32:    1  ->  wor ==> were
+  33:    1  ->  work ==> were
+  34:    1  ->  ys ==> y's
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  and
+   2:    1  ->  blive
+   3:    1  ->  deign
+   4:    1  ->  in
+   5:    1  ->  slash
+   6:    1  ->  spell
+   7:    1  ->  that
+   8:    1  ->  the
+   9:    1  ->  there
+  10:    1  ->  was
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  a
+   2:    2  ->  it
+   3:    2  ->  the
+   4:    1  ->  at
+   5:    1  ->  by
+   6:    1  ->  degre
+   7:    1  ->  denn
+   8:    1  ->  gul
+   9:    1  ->  in
+  10:    1  ->  it's
+  11:    1  ->  k.
+  12:    1  ->  l
+  13:    1  ->  matt
+  14:    1  ->  o.
+  15:    1  ->  s
+  16:    1  ->  saldana
+  17:    1  ->  spelled
+  18:    1  ->  there's
+  19:    1  ->  un
+  20:    1  ->  you
+     -------
+        24
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  denn
+   2:    2  ->  german
+   3:    2  ->  nirgends
+   4:    2  ->  there's
+   5:    1  ->  a
+   6:    1  ->  are
+   7:    1  ->  bleiben
+   8:    1  ->  dana
+   9:    1  ->  indy
+  10:    1  ->  ing
+  11:    1  ->  ink
+  12:    1  ->  ist
+  13:    1  ->  just
+  14:    1  ->  know
+  15:    1  ->  ninety
+  16:    1  ->  ns
+  17:    1  ->  palimpsest
+  18:    1  ->  provenance
+  19:    1  ->  rs
+  20:    1  ->  screams
+  21:    1  ->  starter
+  22:    1  ->  tact
+  23:    1  ->  their
+  24:    1  ->  there
+  25:    1  ->  they
+  26:    1  ->  throws
+  27:    1  ->  trackable
+  28:    1  ->  want
+  29:    1  ->  wor
+  30:    1  ->  work
+  31:    1  ->  ys
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  the
+   2:    2  ->  are
+   3:    2  ->  durable
+   4:    2  ->  is
+   5:    2  ->  were
+   6:    1  ->  against
+   7:    1  ->  and
+   8:    1  ->  den
+   9:    1  ->  in
+  10:    1  ->  it's
+  11:    1  ->  mark
+  12:    1  ->  maybe
+  13:    1  ->  n's
+  14:    1  ->  near
+  15:    1  ->  nine
+  16:    1  ->  nirgens
+  17:    1  ->  others
+  18:    1  ->  palaces
+  19:    1  ->  providence
+  20:    1  ->  r's
+  21:    1  ->  saldania
+  22:    1  ->  scrims
+  23:    1  ->  starker
+  24:    1  ->  there
+  25:    1  ->  throes
+  26:    1  ->  tight
+  27:    1  ->  untrackable
+  28:    1  ->  wanted
+  29:    1  ->  y's
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

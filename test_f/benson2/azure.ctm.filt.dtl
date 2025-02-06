@@ -1,0 +1,310 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.3%   ( 241)
+
+Percent Correct           =   79.4%   ( 897)
+
+Percent Substitution      =    4.8%   (  54)
+Percent Deletions         =   15.8%   ( 179)
+Percent Insertions        =    0.7%   (   8)
+Percent Word Accuracy     =   78.7%
+
+
+Ref. words                =           (1130)
+Hyp. words                =           ( 959)
+Aligned words             =           (1138)
+
+CONFUSION PAIRS                  Total                 (54)
+                                 With >=  1 occurrences (54)
+
+   1:    1  ->  adult ==> way
+   2:    1  ->  always ==> all
+   3:    1  ->  am ==> all
+   4:    1  ->  an ==> the
+   5:    1  ->  and ==> do
+   6:    1  ->  and ==> on
+   7:    1  ->  anything ==> talking
+   8:    1  ->  back ==> up
+   9:    1  ->  barry's ==> right
+  10:    1  ->  bringing ==> in
+  11:    1  ->  can ==> to
+  12:    1  ->  careful ==> again
+  13:    1  ->  does ==> did
+  14:    1  ->  enough ==> not
+  15:    1  ->  happen ==> happened
+  16:    1  ->  is ==> 's
+  17:    1  ->  it ==> to
+  18:    1  ->  like ==> is
+  19:    1  ->  likes ==> wants
+  20:    1  ->  natural ==> sure
+  21:    1  ->  no ==> know
+  22:    1  ->  notice ==> know
+  23:    1  ->  obsolete ==> absolutely
+  24:    1  ->  of ==> that
+  25:    1  ->  oh ==> actual
+  26:    1  ->  oh ==> well
+  27:    1  ->  oily ==> an
+  28:    1  ->  old ==> want
+  29:    1  ->  on ==> for
+  30:    1  ->  or ==> oil
+  31:    1  ->  peanuts ==> peanut
+  32:    1  ->  scen ==> sense
+  33:    1  ->  scents ==> sense
+  34:    1  ->  shawn ==> sean
+  35:    1  ->  shelves ==> just
+  36:    1  ->  smell ==> smoke
+  37:    1  ->  smell ==> this
+  38:    1  ->  tacks ==> tax
+  39:    1  ->  that ==> it
+  40:    1  ->  that ==> you
+  41:    1  ->  that's ==> just
+  42:    1  ->  the ==> does
+  43:    1  ->  the ==> those
+  44:    1  ->  them ==> stuff
+  45:    1  ->  those ==> this
+  46:    1  ->  try ==> tried
+  47:    1  ->  vote ==> boat
+  48:    1  ->  x ==> a
+  49:    1  ->  x ==> things
+  50:    1  ->  x ==> yeah
+  51:    1  ->  yeah ==> minutes
+  52:    1  ->  you ==> we
+  53:    1  ->  you ==> who
+  54:    1  ->  yours ==> say
+     -------
+        54
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  not
+   2:    1  ->  and
+   3:    1  ->  do
+   4:    1  ->  i
+   5:    1  ->  just
+   6:    1  ->  shots
+   7:    1  ->  varied
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (82)
+                                 With >=  1 occurrences (82)
+
+   1:   17  ->  x
+   2:   11  ->  you
+   3:    9  ->  i
+   4:    8  ->  it
+   5:    7  ->  and
+   6:    7  ->  the
+   7:    6  ->  do
+   8:    6  ->  not
+   9:    5  ->  then
+  10:    4  ->  dust
+  11:    4  ->  is
+  12:    4  ->  know
+  13:    4  ->  yeah
+  14:    3  ->  they
+  15:    3  ->  when
+  16:    2  ->  a
+  17:    2  ->  are
+  18:    2  ->  be
+  19:    2  ->  ever
+  20:    2  ->  everything
+  21:    2  ->  in
+  22:    2  ->  oil
+  23:    2  ->  peanut
+  24:    2  ->  right
+  25:    2  ->  sure
+  26:    2  ->  that
+  27:    2  ->  that's
+  28:    2  ->  them
+  29:    2  ->  your
+  30:    1  ->  all
+  31:    1  ->  am
+  32:    1  ->  any
+  33:    1  ->  back
+  34:    1  ->  better
+  35:    1  ->  cabinet
+  36:    1  ->  coming
+  37:    1  ->  d
+  38:    1  ->  did
+  39:    1  ->  does
+  40:    1  ->  ev
+  41:    1  ->  every
+  42:    1  ->  for
+  43:    1  ->  found
+  44:    1  ->  glass
+  45:    1  ->  got
+  46:    1  ->  guess
+  47:    1  ->  guest
+  48:    1  ->  have
+  49:    1  ->  holidays
+  50:    1  ->  house
+  51:    1  ->  just
+  52:    1  ->  like
+  53:    1  ->  look
+  54:    1  ->  me
+  55:    1  ->  medicine
+  56:    1  ->  months
+  57:    1  ->  my
+  58:    1  ->  o
+  59:    1  ->  oh
+  60:    1  ->  on
+  61:    1  ->  out
+  62:    1  ->  over
+  63:    1  ->  pink
+  64:    1  ->  put
+  65:    1  ->  rearrange
+  66:    1  ->  save
+  67:    1  ->  scent
+  68:    1  ->  soon
+  69:    1  ->  spend
+  70:    1  ->  strong
+  71:    1  ->  there
+  72:    1  ->  this
+  73:    1  ->  those
+  74:    1  ->  times
+  75:    1  ->  to
+  76:    1  ->  together
+  77:    1  ->  told
+  78:    1  ->  try
+  79:    1  ->  vacuum
+  80:    1  ->  what
+  81:    1  ->  who
+  82:    1  ->  will
+     -------
+       179
+
+
+
+SUBSTITUTIONS                    Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    3  ->  x
+   2:    2  ->  and
+   3:    2  ->  oh
+   4:    2  ->  smell
+   5:    2  ->  that
+   6:    2  ->  the
+   7:    2  ->  you
+   8:    1  ->  adult
+   9:    1  ->  always
+  10:    1  ->  am
+  11:    1  ->  an
+  12:    1  ->  anything
+  13:    1  ->  back
+  14:    1  ->  barry's
+  15:    1  ->  bringing
+  16:    1  ->  can
+  17:    1  ->  careful
+  18:    1  ->  does
+  19:    1  ->  enough
+  20:    1  ->  happen
+  21:    1  ->  is
+  22:    1  ->  it
+  23:    1  ->  like
+  24:    1  ->  likes
+  25:    1  ->  natural
+  26:    1  ->  no
+  27:    1  ->  notice
+  28:    1  ->  obsolete
+  29:    1  ->  of
+  30:    1  ->  oily
+  31:    1  ->  old
+  32:    1  ->  on
+  33:    1  ->  or
+  34:    1  ->  peanuts
+  35:    1  ->  scen
+  36:    1  ->  scents
+  37:    1  ->  shawn
+  38:    1  ->  shelves
+  39:    1  ->  tacks
+  40:    1  ->  that's
+  41:    1  ->  them
+  42:    1  ->  those
+  43:    1  ->  try
+  44:    1  ->  vote
+  45:    1  ->  yeah
+  46:    1  ->  yours
+     -------
+        54
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    2  ->  all
+   2:    2  ->  just
+   3:    2  ->  know
+   4:    2  ->  sense
+   5:    2  ->  this
+   6:    2  ->  to
+   7:    1  ->  's
+   8:    1  ->  a
+   9:    1  ->  absolutely
+  10:    1  ->  actual
+  11:    1  ->  again
+  12:    1  ->  an
+  13:    1  ->  boat
+  14:    1  ->  did
+  15:    1  ->  do
+  16:    1  ->  does
+  17:    1  ->  for
+  18:    1  ->  happened
+  19:    1  ->  in
+  20:    1  ->  is
+  21:    1  ->  it
+  22:    1  ->  minutes
+  23:    1  ->  not
+  24:    1  ->  oil
+  25:    1  ->  on
+  26:    1  ->  peanut
+  27:    1  ->  right
+  28:    1  ->  say
+  29:    1  ->  sean
+  30:    1  ->  smoke
+  31:    1  ->  stuff
+  32:    1  ->  sure
+  33:    1  ->  talking
+  34:    1  ->  tax
+  35:    1  ->  that
+  36:    1  ->  the
+  37:    1  ->  things
+  38:    1  ->  those
+  39:    1  ->  tried
+  40:    1  ->  up
+  41:    1  ->  want
+  42:    1  ->  wants
+  43:    1  ->  way
+  44:    1  ->  we
+  45:    1  ->  well
+  46:    1  ->  who
+  47:    1  ->  yeah
+  48:    1  ->  you
+     -------
+        54
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

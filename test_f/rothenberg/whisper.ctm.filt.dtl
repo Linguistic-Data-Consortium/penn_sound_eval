@@ -1,0 +1,208 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.9%   (  97)
+
+Percent Correct           =   89.2%   ( 728)
+
+Percent Substitution      =    3.8%   (  31)
+Percent Deletions         =    7.0%   (  57)
+Percent Insertions        =    1.1%   (   9)
+Percent Word Accuracy     =   88.1%
+
+
+Ref. words                =           ( 816)
+Hyp. words                =           ( 768)
+Aligned words             =           ( 825)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  chez ==> shave
+   2:    2  ->  whalen ==> whelan
+   3:    1  ->  been ==> nothing
+   4:    1  ->  blacklight ==> light
+   5:    1  ->  coffeepot ==> pot
+   6:    1  ->  courvoisier ==> corvassier
+   7:    1  ->  damage ==> damaged
+   8:    1  ->  forty ==> four
+   9:    1  ->  frances ==> francis
+  10:    1  ->  grew ==> of
+  11:    1  ->  guerneville ==> gurneville
+  12:    1  ->  have ==> right
+  13:    1  ->  in ==> and
+  14:    1  ->  in ==> on
+  15:    1  ->  jeanne ==> jean
+  16:    1  ->  menthe ==> minthe
+  17:    1  ->  mo ==> moved
+  18:    1  ->  ninety ==> oh
+  19:    1  ->  on ==> in
+  20:    1  ->  pelted ==> peltate
+  21:    1  ->  souther ==> southern
+  22:    1  ->  stoles ==> stalls
+  23:    1  ->  tha ==> that
+  24:    1  ->  then ==> and
+  25:    1  ->  thirty ==> three
+  26:    1  ->  thousand ==> zero
+  27:    1  ->  wagon ==> but
+  28:    1  ->  was ==> it's
+  29:    1  ->  woods ==> redwoods
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  black
+   3:    1  ->  coffee
+   4:    1  ->  go
+   5:    1  ->  group
+   6:    1  ->  on
+   7:    1  ->  shuffle
+   8:    1  ->  stove
+   9:    1  ->  wooden
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    6  ->  i
+   2:    3  ->  it
+   3:    2  ->  and
+   4:    2  ->  br
+   5:    2  ->  know
+   6:    2  ->  like
+   7:    2  ->  my
+   8:    2  ->  then
+   9:    2  ->  was
+  10:    2  ->  yeah
+  11:    2  ->  you
+  12:    1  ->  a
+  13:    1  ->  all
+  14:    1  ->  am
+  15:    1  ->  course
+  16:    1  ->  f
+  17:    1  ->  here
+  18:    1  ->  if
+  19:    1  ->  is
+  20:    1  ->  it's
+  21:    1  ->  items
+  22:    1  ->  k.
+  23:    1  ->  might
+  24:    1  ->  mike
+  25:    1  ->  moved
+  26:    1  ->  no
+  27:    1  ->  not
+  28:    1  ->  o.
+  29:    1  ->  of
+  30:    1  ->  one
+  31:    1  ->  ph
+  32:    1  ->  red
+  33:    1  ->  right
+  34:    1  ->  sorry
+  35:    1  ->  the
+  36:    1  ->  there's
+  37:    1  ->  to
+  38:    1  ->  want
+  39:    1  ->  water
+  40:    1  ->  welcome
+  41:    1  ->  y
+     -------
+        57
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  chez
+   2:    2  ->  in
+   3:    2  ->  whalen
+   4:    1  ->  been
+   5:    1  ->  blacklight
+   6:    1  ->  coffeepot
+   7:    1  ->  courvoisier
+   8:    1  ->  damage
+   9:    1  ->  forty
+  10:    1  ->  frances
+  11:    1  ->  grew
+  12:    1  ->  guerneville
+  13:    1  ->  have
+  14:    1  ->  jeanne
+  15:    1  ->  menthe
+  16:    1  ->  mo
+  17:    1  ->  ninety
+  18:    1  ->  on
+  19:    1  ->  pelted
+  20:    1  ->  souther
+  21:    1  ->  stoles
+  22:    1  ->  tha
+  23:    1  ->  then
+  24:    1  ->  thirty
+  25:    1  ->  thousand
+  26:    1  ->  wagon
+  27:    1  ->  was
+  28:    1  ->  woods
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  and
+   2:    2  ->  shave
+   3:    2  ->  whelan
+   4:    1  ->  but
+   5:    1  ->  corvassier
+   6:    1  ->  damaged
+   7:    1  ->  four
+   8:    1  ->  francis
+   9:    1  ->  gurneville
+  10:    1  ->  in
+  11:    1  ->  it's
+  12:    1  ->  jean
+  13:    1  ->  light
+  14:    1  ->  minthe
+  15:    1  ->  moved
+  16:    1  ->  nothing
+  17:    1  ->  of
+  18:    1  ->  oh
+  19:    1  ->  on
+  20:    1  ->  peltate
+  21:    1  ->  pot
+  22:    1  ->  redwoods
+  23:    1  ->  right
+  24:    1  ->  southern
+  25:    1  ->  stalls
+  26:    1  ->  that
+  27:    1  ->  three
+  28:    1  ->  zero
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

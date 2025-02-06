@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.3%   (  35)
+
+Percent Correct           =   96.9%   (1033)
+
+Percent Substitution      =    1.7%   (  18)
+Percent Deletions         =    1.4%   (  15)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   96.7%
+
+
+Ref. words                =           (1066)
+Hyp. words                =           (1053)
+Aligned words             =           (1068)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  ninth ==> 109th
+   2:    2  ->  x ==> r
+   3:    1  ->  a ==> the
+   4:    1  ->  alecks ==> alex
+   5:    1  ->  at ==> and
+   6:    1  ->  auster ==> oster
+   7:    1  ->  can ==> could
+   8:    1  ->  fifteen ==> five
+   9:    1  ->  hundred ==> zero
+  10:    1  ->  mail ==> male
+  11:    1  ->  return ==> returned
+  12:    1  ->  ten ==> oh
+  13:    1  ->  thousand ==> zero
+  14:    1  ->  us ==> s
+  15:    1  ->  written ==> typewritten
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  one
+   2:    1  ->  u
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    4  ->  and
+   2:    3  ->  a
+   3:    3  ->  hundred
+   4:    2  ->  three
+   5:    1  ->  because
+   6:    1  ->  i
+   7:    1  ->  type
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  ninth
+   2:    2  ->  x
+   3:    1  ->  a
+   4:    1  ->  alecks
+   5:    1  ->  at
+   6:    1  ->  auster
+   7:    1  ->  can
+   8:    1  ->  fifteen
+   9:    1  ->  hundred
+  10:    1  ->  mail
+  11:    1  ->  return
+  12:    1  ->  ten
+  13:    1  ->  thousand
+  14:    1  ->  us
+  15:    1  ->  written
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  109th
+   2:    2  ->  r
+   3:    2  ->  zero
+   4:    1  ->  alex
+   5:    1  ->  and
+   6:    1  ->  could
+   7:    1  ->  five
+   8:    1  ->  male
+   9:    1  ->  oh
+  10:    1  ->  oster
+  11:    1  ->  returned
+  12:    1  ->  s
+  13:    1  ->  the
+  14:    1  ->  typewritten
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

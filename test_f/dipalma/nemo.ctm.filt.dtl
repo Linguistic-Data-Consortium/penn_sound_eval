@@ -1,0 +1,161 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.8%   (  46)
+
+Percent Correct           =   97.3%   (1170)
+
+Percent Substitution      =    2.2%   (  27)
+Percent Deletions         =    0.5%   (   6)
+Percent Insertions        =    1.1%   (  13)
+Percent Word Accuracy     =   96.2%
+
+
+Ref. words                =           (1203)
+Hyp. words                =           (1210)
+Aligned words             =           (1216)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  and ==> in
+   2:    1  ->  a ==> the
+   3:    1  ->  add ==> ad
+   4:    1  ->  and ==> then
+   5:    1  ->  baude ==> baudelaire
+   6:    1  ->  baudelairean ==> in
+   7:    1  ->  best ==> poet
+   8:    1  ->  creep ==> cretan
+   9:    1  ->  especially ==> that
+  10:    1  ->  ginsberg ==> ginsburg
+  11:    1  ->  grueling ==> gruelling
+  12:    1  ->  it ==> that
+  13:    1  ->  or ==> and
+  14:    1  ->  poem ==> poem's
+  15:    1  ->  selfconscious ==> conscious
+  16:    1  ->  selfdestruction ==> destruction
+  17:    1  ->  selfsatisfied ==> satisfied
+  18:    1  ->  the ==> a
+  19:    1  ->  to ==> and
+  20:    1  ->  wellfounded ==> founded
+  21:    1  ->  wellorganised ==> organised
+  22:    1  ->  worldrenowned ==> renowned
+  23:    1  ->  writer's ==> writers
+  24:    1  ->  x ==> edged
+  25:    1  ->  x ==> iowa
+  26:    1  ->  x ==> years
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    3  ->  self
+   2:    2  ->  well
+   3:    1  ->  and
+   4:    1  ->  but
+   5:    1  ->  love
+   6:    1  ->  romanesque
+   7:    1  ->  two
+   8:    1  ->  was
+   9:    1  ->  we
+  10:    1  ->  world
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  he's
+   3:    1  ->  thus
+   4:    1  ->  to
+   5:    1  ->  written
+   6:    1  ->  x
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    3  ->  and
+   2:    3  ->  x
+   3:    1  ->  a
+   4:    1  ->  add
+   5:    1  ->  baude
+   6:    1  ->  baudelairean
+   7:    1  ->  best
+   8:    1  ->  creep
+   9:    1  ->  especially
+  10:    1  ->  ginsberg
+  11:    1  ->  grueling
+  12:    1  ->  it
+  13:    1  ->  or
+  14:    1  ->  poem
+  15:    1  ->  selfconscious
+  16:    1  ->  selfdestruction
+  17:    1  ->  selfsatisfied
+  18:    1  ->  the
+  19:    1  ->  to
+  20:    1  ->  wellfounded
+  21:    1  ->  wellorganised
+  22:    1  ->  worldrenowned
+  23:    1  ->  writer's
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    3  ->  in
+   2:    2  ->  and
+   3:    2  ->  that
+   4:    1  ->  a
+   5:    1  ->  ad
+   6:    1  ->  baudelaire
+   7:    1  ->  conscious
+   8:    1  ->  cretan
+   9:    1  ->  destruction
+  10:    1  ->  edged
+  11:    1  ->  founded
+  12:    1  ->  ginsburg
+  13:    1  ->  gruelling
+  14:    1  ->  iowa
+  15:    1  ->  organised
+  16:    1  ->  poem's
+  17:    1  ->  poet
+  18:    1  ->  renowned
+  19:    1  ->  satisfied
+  20:    1  ->  the
+  21:    1  ->  then
+  22:    1  ->  writers
+  23:    1  ->  years
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

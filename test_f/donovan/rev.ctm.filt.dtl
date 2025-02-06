@@ -1,0 +1,211 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.0%   (  60)
+
+Percent Correct           =   94.8%   ( 940)
+
+Percent Substitution      =    4.6%   (  46)
+Percent Deletions         =    0.6%   (   6)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   94.0%
+
+
+Ref. words                =           ( 992)
+Hyp. words                =           ( 994)
+Aligned words             =           (1000)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  a ==> ca
+   2:    2  ->  nine ==> 9:00
+   3:    2  ->  twelve ==> two
+   4:    1  ->  acolyte ==> accolade
+   5:    1  ->  bass ==> base
+   6:    1  ->  book ==> bug
+   7:    1  ->  boykoff's ==> boycots
+   8:    1  ->  cd ==> cv
+   9:    1  ->  clothespins ==> pins
+  10:    1  ->  coeval ==> coval
+  11:    1  ->  computer ==> computers
+  12:    1  ->  dependent ==> i
+  13:    1  ->  echo ==> raco
+  14:    1  ->  flower ==> flour
+  15:    1  ->  folktales ==> tales
+  16:    1  ->  gave ==> gained
+  17:    1  ->  had ==> have
+  18:    1  ->  he ==> it
+  19:    1  ->  hellen ==> helen
+  20:    1  ->  housesitting ==> sitting
+  21:    1  ->  included ==> include
+  22:    1  ->  infusion ==> fusion
+  23:    1  ->  intention ==> attention
+  24:    1  ->  jambet ==> jambe
+  25:    1  ->  jules ==> jewels
+  26:    1  ->  koch's ==> koic
+  27:    1  ->  liljestrand ==> strand
+  28:    1  ->  line ==> midline
+  29:    1  ->  merleau ==> merlo
+  30:    1  ->  move ==> moved
+  31:    1  ->  on ==> at
+  32:    1  ->  on ==> of
+  33:    1  ->  on ==> upon
+  34:    1  ->  on ==> would
+  35:    1  ->  onlooking ==> looking
+  36:    1  ->  otherworldly ==> worldly
+  37:    1  ->  peer ==> appear
+  38:    1  ->  ponty's ==> ponti
+  39:    1  ->  sacks's ==> sack's
+  40:    1  ->  tabla ==> tab
+  41:    1  ->  the ==> a
+  42:    1  ->  triply ==> tripoli
+  43:    1  ->  wholly ==> holy
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  one
+   2:    1  ->  clothes
+   3:    1  ->  folk
+   4:    1  ->  house
+   5:    1  ->  la
+   6:    1  ->  on
+   7:    1  ->  other
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  c
+   2:    1  ->  had
+   3:    1  ->  it's
+   4:    1  ->  mid
+   5:    1  ->  unquote
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    4  ->  on
+   2:    2  ->  a
+   3:    2  ->  nine
+   4:    2  ->  twelve
+   5:    1  ->  acolyte
+   6:    1  ->  bass
+   7:    1  ->  book
+   8:    1  ->  boykoff's
+   9:    1  ->  cd
+  10:    1  ->  clothespins
+  11:    1  ->  coeval
+  12:    1  ->  computer
+  13:    1  ->  dependent
+  14:    1  ->  echo
+  15:    1  ->  flower
+  16:    1  ->  folktales
+  17:    1  ->  gave
+  18:    1  ->  had
+  19:    1  ->  he
+  20:    1  ->  hellen
+  21:    1  ->  housesitting
+  22:    1  ->  included
+  23:    1  ->  infusion
+  24:    1  ->  intention
+  25:    1  ->  jambet
+  26:    1  ->  jules
+  27:    1  ->  koch's
+  28:    1  ->  liljestrand
+  29:    1  ->  line
+  30:    1  ->  merleau
+  31:    1  ->  move
+  32:    1  ->  onlooking
+  33:    1  ->  otherworldly
+  34:    1  ->  peer
+  35:    1  ->  ponty's
+  36:    1  ->  sacks's
+  37:    1  ->  tabla
+  38:    1  ->  the
+  39:    1  ->  triply
+  40:    1  ->  wholly
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  9:00
+   2:    2  ->  ca
+   3:    2  ->  two
+   4:    1  ->  a
+   5:    1  ->  accolade
+   6:    1  ->  appear
+   7:    1  ->  at
+   8:    1  ->  attention
+   9:    1  ->  base
+  10:    1  ->  boycots
+  11:    1  ->  bug
+  12:    1  ->  computers
+  13:    1  ->  coval
+  14:    1  ->  cv
+  15:    1  ->  flour
+  16:    1  ->  fusion
+  17:    1  ->  gained
+  18:    1  ->  have
+  19:    1  ->  helen
+  20:    1  ->  holy
+  21:    1  ->  i
+  22:    1  ->  include
+  23:    1  ->  it
+  24:    1  ->  jambe
+  25:    1  ->  jewels
+  26:    1  ->  koic
+  27:    1  ->  looking
+  28:    1  ->  merlo
+  29:    1  ->  midline
+  30:    1  ->  moved
+  31:    1  ->  of
+  32:    1  ->  pins
+  33:    1  ->  ponti
+  34:    1  ->  raco
+  35:    1  ->  sack's
+  36:    1  ->  sitting
+  37:    1  ->  strand
+  38:    1  ->  tab
+  39:    1  ->  tales
+  40:    1  ->  tripoli
+  41:    1  ->  upon
+  42:    1  ->  worldly
+  43:    1  ->  would
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

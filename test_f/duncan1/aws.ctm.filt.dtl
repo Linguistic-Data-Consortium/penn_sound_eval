@@ -1,0 +1,318 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   12.0%   ( 138)
+
+Percent Correct           =   89.1%   (1021)
+
+Percent Substitution      =    7.3%   (  84)
+Percent Deletions         =    3.6%   (  41)
+Percent Insertions        =    1.1%   (  13)
+Percent Word Accuracy     =   88.0%
+
+
+Ref. words                =           (1146)
+Hyp. words                =           (1118)
+Aligned words             =           (1159)
+
+CONFUSION PAIRS                  Total                 (79)
+                                 With >=  1 occurrences (79)
+
+   1:    3  ->  form ==> poem
+   2:    2  ->  a ==> the
+   3:    2  ->  d ==> hd
+   4:    2  ->  doves ==> dove
+   5:    1  ->  a ==> or
+   6:    1  ->  about ==> boughs
+   7:    1  ->  age ==> eight
+   8:    1  ->  an ==> it
+   9:    1  ->  and ==> any
+  10:    1  ->  and ==> in
+  11:    1  ->  anyway ==> way
+  12:    1  ->  beat ==> in
+  13:    1  ->  bough ==> boughs
+  14:    1  ->  boxe ==> box
+  15:    1  ->  but ==> the
+  16:    1  ->  cantos ==> and
+  17:    1  ->  cantos ==> candles
+  18:    1  ->  define ==> find
+  19:    1  ->  dove ==> doves
+  20:    1  ->  ears ==> years
+  21:    1  ->  eighteen ==> eight
+  22:    1  ->  eighth ==> 8th
+  23:    1  ->  essential ==> central
+  24:    1  ->  fateful ==> faithful
+  25:    1  ->  fitfully ==> fiercely
+  26:    1  ->  fled ==> flat
+  27:    1  ->  formed ==> transformed
+  28:    1  ->  fort ==> it
+  29:    1  ->  got ==> be
+  30:    1  ->  had ==> head
+  31:    1  ->  have ==> candles
+  32:    1  ->  i ==> you
+  33:    1  ->  in ==> a
+  34:    1  ->  is ==> the
+  35:    1  ->  is ==> was
+  36:    1  ->  it ==> williams
+  37:    1  ->  it's ==> as
+  38:    1  ->  just ==> with
+  39:    1  ->  light ==> like
+  40:    1  ->  loved ==> k.
+  41:    1  ->  loved ==> love's
+  42:    1  ->  masks ==> to
+  43:    1  ->  mimeographed ==> mimeograph
+  44:    1  ->  mouthings ==> mouthing
+  45:    1  ->  nineteen ==> nine
+  46:    1  ->  pass ==> and
+  47:    1  ->  pearson ==> parson
+  48:    1  ->  pit ==> pits
+  49:    1  ->  poem ==> form
+  50:    1  ->  quimby ==> quinley
+  51:    1  ->  rind ==> rhine
+  52:    1  ->  sensitive ==> sentencer
+  53:    1  ->  sequences ==> sequence
+  54:    1  ->  shapes ==> shakes
+  55:    1  ->  since ==> the
+  56:    1  ->  sound ==> sounds
+  57:    1  ->  spri ==> the
+  58:    1  ->  strayed ==> shade
+  59:    1  ->  that ==> the
+  60:    1  ->  that's ==> a
+  61:    1  ->  the ==> a
+  62:    1  ->  the ==> which
+  63:    1  ->  thirty ==> three
+  64:    1  ->  to ==> a
+  65:    1  ->  to ==> as
+  66:    1  ->  to ==> would
+  67:    1  ->  tones ==> tone
+  68:    1  ->  too ==> two
+  69:    1  ->  top ==> cupped
+  70:    1  ->  turtle ==> total
+  71:    1  ->  verging ==> virgin
+  72:    1  ->  when ==> and
+  73:    1  ->  where ==> with
+  74:    1  ->  will ==> or
+  75:    1  ->  wings ==> wing
+  76:    1  ->  with ==> which
+  77:    1  ->  woodwinds ==> winds
+  78:    1  ->  words ==> word
+  79:    1  ->  worked ==> work
+     -------
+        84
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  and
+   2:    2  ->  one
+   3:    1  ->  a
+   4:    1  ->  candles
+   5:    1  ->  for
+   6:    1  ->  love
+   7:    1  ->  mask
+   8:    1  ->  o.
+   9:    1  ->  of
+  10:    1  ->  really
+  11:    1  ->  wood
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    5  ->  and
+   2:    5  ->  i
+   3:    4  ->  a
+   4:    2  ->  an
+   5:    2  ->  h
+   6:    2  ->  have
+   7:    2  ->  just
+   8:    2  ->  that
+   9:    2  ->  you
+  10:    1  ->  cannot
+  11:    1  ->  cantos
+  12:    1  ->  find
+  13:    1  ->  in
+  14:    1  ->  not
+  15:    1  ->  or
+  16:    1  ->  th
+  17:    1  ->  the
+  18:    1  ->  they
+  19:    1  ->  this
+  20:    1  ->  was
+  21:    1  ->  were
+  22:    1  ->  what
+  23:    1  ->  williams'
+  24:    1  ->  with
+     -------
+        41
+
+
+
+SUBSTITUTIONS                    Total                 (71)
+                                 With >=  1 occurrences (71)
+
+   1:    3  ->  a
+   2:    3  ->  form
+   3:    3  ->  to
+   4:    2  ->  and
+   5:    2  ->  cantos
+   6:    2  ->  d
+   7:    2  ->  doves
+   8:    2  ->  is
+   9:    2  ->  loved
+  10:    2  ->  the
+  11:    1  ->  about
+  12:    1  ->  age
+  13:    1  ->  an
+  14:    1  ->  anyway
+  15:    1  ->  beat
+  16:    1  ->  bough
+  17:    1  ->  boxe
+  18:    1  ->  but
+  19:    1  ->  define
+  20:    1  ->  dove
+  21:    1  ->  ears
+  22:    1  ->  eighteen
+  23:    1  ->  eighth
+  24:    1  ->  essential
+  25:    1  ->  fateful
+  26:    1  ->  fitfully
+  27:    1  ->  fled
+  28:    1  ->  formed
+  29:    1  ->  fort
+  30:    1  ->  got
+  31:    1  ->  had
+  32:    1  ->  have
+  33:    1  ->  i
+  34:    1  ->  in
+  35:    1  ->  it
+  36:    1  ->  it's
+  37:    1  ->  just
+  38:    1  ->  light
+  39:    1  ->  masks
+  40:    1  ->  mimeographed
+  41:    1  ->  mouthings
+  42:    1  ->  nineteen
+  43:    1  ->  pass
+  44:    1  ->  pearson
+  45:    1  ->  pit
+  46:    1  ->  poem
+  47:    1  ->  quimby
+  48:    1  ->  rind
+  49:    1  ->  sensitive
+  50:    1  ->  sequences
+  51:    1  ->  shapes
+  52:    1  ->  since
+  53:    1  ->  sound
+  54:    1  ->  spri
+  55:    1  ->  strayed
+  56:    1  ->  that
+  57:    1  ->  that's
+  58:    1  ->  thirty
+  59:    1  ->  tones
+  60:    1  ->  too
+  61:    1  ->  top
+  62:    1  ->  turtle
+  63:    1  ->  verging
+  64:    1  ->  when
+  65:    1  ->  where
+  66:    1  ->  will
+  67:    1  ->  wings
+  68:    1  ->  with
+  69:    1  ->  woodwinds
+  70:    1  ->  words
+  71:    1  ->  worked
+     -------
+        84
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    7  ->  the
+   2:    4  ->  a
+   3:    3  ->  and
+   4:    3  ->  poem
+   5:    2  ->  as
+   6:    2  ->  boughs
+   7:    2  ->  candles
+   8:    2  ->  dove
+   9:    2  ->  eight
+  10:    2  ->  hd
+  11:    2  ->  in
+  12:    2  ->  it
+  13:    2  ->  or
+  14:    2  ->  which
+  15:    2  ->  with
+  16:    1  ->  8th
+  17:    1  ->  any
+  18:    1  ->  be
+  19:    1  ->  box
+  20:    1  ->  central
+  21:    1  ->  cupped
+  22:    1  ->  doves
+  23:    1  ->  faithful
+  24:    1  ->  fiercely
+  25:    1  ->  find
+  26:    1  ->  flat
+  27:    1  ->  form
+  28:    1  ->  head
+  29:    1  ->  k.
+  30:    1  ->  like
+  31:    1  ->  love's
+  32:    1  ->  mimeograph
+  33:    1  ->  mouthing
+  34:    1  ->  nine
+  35:    1  ->  parson
+  36:    1  ->  pits
+  37:    1  ->  quinley
+  38:    1  ->  rhine
+  39:    1  ->  sentencer
+  40:    1  ->  sequence
+  41:    1  ->  shade
+  42:    1  ->  shakes
+  43:    1  ->  sounds
+  44:    1  ->  three
+  45:    1  ->  to
+  46:    1  ->  tone
+  47:    1  ->  total
+  48:    1  ->  transformed
+  49:    1  ->  two
+  50:    1  ->  virgin
+  51:    1  ->  was
+  52:    1  ->  way
+  53:    1  ->  williams
+  54:    1  ->  winds
+  55:    1  ->  wing
+  56:    1  ->  word
+  57:    1  ->  work
+  58:    1  ->  would
+  59:    1  ->  years
+  60:    1  ->  you
+     -------
+        84
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

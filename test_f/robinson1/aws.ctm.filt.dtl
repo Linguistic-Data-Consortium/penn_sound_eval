@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.0%   (  32)
+
+Percent Correct           =   97.5%   (1031)
+
+Percent Substitution      =    1.7%   (  18)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   97.0%
+
+
+Ref. words                =           (1057)
+Hyp. words                =           (1055)
+Aligned words             =           (1063)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  a ==> the
+   2:    1  ->  bough ==> bow
+   3:    1  ->  buzzsaw ==> saw
+   4:    1  ->  flowerbed ==> bed
+   5:    1  ->  half ==> five
+   6:    1  ->  homophonic ==> homophone
+   7:    1  ->  hour ==> mph
+   8:    1  ->  i ==> do
+   9:    1  ->  is ==> crows
+  10:    1  ->  nearby ==> by
+  11:    1  ->  npr ==> pr
+  12:    1  ->  per ==> oh
+  13:    1  ->  the ==> that
+  14:    1  ->  the ==> to
+  15:    1  ->  then ==> it
+  16:    1  ->  will ==> you
+  17:    1  ->  witch ==> which
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  buzz
+   2:    1  ->  flower
+   3:    1  ->  n
+   4:    1  ->  near
+   5:    1  ->  what
+   6:    1  ->  yeah
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  but
+   4:    1  ->  c
+   5:    1  ->  crow
+   6:    1  ->  fifty
+   7:    1  ->  had
+   8:    1  ->  miles
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  a
+   2:    2  ->  the
+   3:    1  ->  bough
+   4:    1  ->  buzzsaw
+   5:    1  ->  flowerbed
+   6:    1  ->  half
+   7:    1  ->  homophonic
+   8:    1  ->  hour
+   9:    1  ->  i
+  10:    1  ->  is
+  11:    1  ->  nearby
+  12:    1  ->  npr
+  13:    1  ->  per
+  14:    1  ->  then
+  15:    1  ->  will
+  16:    1  ->  witch
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  the
+   2:    1  ->  bed
+   3:    1  ->  bow
+   4:    1  ->  by
+   5:    1  ->  crows
+   6:    1  ->  do
+   7:    1  ->  five
+   8:    1  ->  homophone
+   9:    1  ->  it
+  10:    1  ->  mph
+  11:    1  ->  oh
+  12:    1  ->  pr
+  13:    1  ->  saw
+  14:    1  ->  that
+  15:    1  ->  to
+  16:    1  ->  which
+  17:    1  ->  you
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

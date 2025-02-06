@@ -1,0 +1,191 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.3%   ( 100)
+
+Percent Correct           =   92.7%   ( 997)
+
+Percent Substitution      =    2.0%   (  22)
+Percent Deletions         =    5.3%   (  57)
+Percent Insertions        =    2.0%   (  21)
+Percent Word Accuracy     =   90.7%
+
+
+Ref. words                =           (1076)
+Hyp. words                =           (1040)
+Aligned words             =           (1097)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  bot ==> toybot
+   2:    1  ->  collar ==> choler
+   3:    1  ->  encyclopedia ==> encyclopaedia
+   4:    1  ->  get ==> will
+   5:    1  ->  india's ==> indias
+   6:    1  ->  insufflations ==> ensuflations
+   7:    1  ->  meltdown ==> meltdowns
+   8:    1  ->  naïve ==> naive
+   9:    1  ->  of ==> a
+  10:    1  ->  oh ==> right
+  11:    1  ->  or ==> we
+  12:    1  ->  pass ==> passed
+  13:    1  ->  purported ==> reported
+  14:    1  ->  rain ==> reign
+  15:    1  ->  sinead ==> chanade
+  16:    1  ->  solitude ==> det
+  17:    1  ->  want ==> wanted
+  18:    1  ->  works ==> work
+  19:    1  ->  x ==> cento
+  20:    1  ->  x ==> centos
+  21:    1  ->  x ==> d
+  22:    1  ->  x ==> estivations
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    5  ->  hundred
+   2:    3  ->  dollars
+   3:    2  ->  i
+   4:    1  ->  '
+   5:    1  ->  a
+   6:    1  ->  all
+   7:    1  ->  and
+   8:    1  ->  are
+   9:    1  ->  cents
+  10:    1  ->  emily
+  11:    1  ->  it
+  12:    1  ->  them
+  13:    1  ->  they
+  14:    1  ->  your
+     -------
+        21
+
+
+
+DELETIONS                        Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    5  ->  i
+   2:    4  ->  the
+   3:    2  ->  and
+   4:    2  ->  eight
+   5:    2  ->  it's
+   6:    2  ->  like
+   7:    2  ->  of
+   8:    2  ->  to
+   9:    2  ->  we
+  10:    2  ->  years
+  11:    2  ->  you
+  12:    1  ->  a
+  13:    1  ->  any
+  14:    1  ->  are
+  15:    1  ->  because
+  16:    1  ->  but
+  17:    1  ->  debt
+  18:    1  ->  definitions
+  19:    1  ->  dis
+  20:    1  ->  for
+  21:    1  ->  going
+  22:    1  ->  had
+  23:    1  ->  have
+  24:    1  ->  home
+  25:    1  ->  ins
+  26:    1  ->  just
+  27:    1  ->  know
+  28:    1  ->  much
+  29:    1  ->  on
+  30:    1  ->  or
+  31:    1  ->  purpor
+  32:    1  ->  so
+  33:    1  ->  take
+  34:    1  ->  ten
+  35:    1  ->  them
+  36:    1  ->  this
+  37:    1  ->  toy
+  38:    1  ->  what
+  39:    1  ->  when
+  40:    1  ->  will
+  41:    1  ->  x
+     -------
+        57
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  x
+   2:    1  ->  bot
+   3:    1  ->  collar
+   4:    1  ->  encyclopedia
+   5:    1  ->  get
+   6:    1  ->  india's
+   7:    1  ->  insufflations
+   8:    1  ->  meltdown
+   9:    1  ->  naïve
+  10:    1  ->  of
+  11:    1  ->  oh
+  12:    1  ->  or
+  13:    1  ->  pass
+  14:    1  ->  purported
+  15:    1  ->  rain
+  16:    1  ->  sinead
+  17:    1  ->  solitude
+  18:    1  ->  want
+  19:    1  ->  works
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  a
+   2:    1  ->  cento
+   3:    1  ->  centos
+   4:    1  ->  chanade
+   5:    1  ->  choler
+   6:    1  ->  d
+   7:    1  ->  det
+   8:    1  ->  encyclopaedia
+   9:    1  ->  ensuflations
+  10:    1  ->  estivations
+  11:    1  ->  indias
+  12:    1  ->  meltdowns
+  13:    1  ->  naive
+  14:    1  ->  passed
+  15:    1  ->  reign
+  16:    1  ->  reported
+  17:    1  ->  right
+  18:    1  ->  toybot
+  19:    1  ->  wanted
+  20:    1  ->  we
+  21:    1  ->  will
+  22:    1  ->  work
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

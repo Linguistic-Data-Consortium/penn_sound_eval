@@ -1,0 +1,265 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.3%   (  79)
+
+Percent Correct           =   92.5%   ( 878)
+
+Percent Substitution      =    6.6%   (  63)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   91.7%
+
+
+Ref. words                =           ( 949)
+Hyp. words                =           ( 949)
+Aligned words             =           ( 957)
+
+CONFUSION PAIRS                  Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    2  ->  as ==> is
+   2:    2  ->  have ==> had
+   3:    2  ->  the ==> a
+   4:    1  ->  barbells ==> varbel
+   5:    1  ->  brambles ==> brandies
+   6:    1  ->  burned ==> bird
+   7:    1  ->  cobwebbed ==> cobweb
+   8:    1  ->  comprehending ==> pending
+   9:    1  ->  connotations ==> connotation
+  10:    1  ->  corners ==> corner
+  11:    1  ->  defies ==> buys
+  12:    1  ->  face ==> base
+  13:    1  ->  fifteen ==> five
+  14:    1  ->  fuchsias ==> fushies
+  15:    1  ->  googawed ==> google
+  16:    1  ->  his ==> this
+  17:    1  ->  hoots ==> hoot
+  18:    1  ->  in ==> and
+  19:    1  ->  it ==> moved
+  20:    1  ->  it's ==> the
+  21:    1  ->  laid ==> lay
+  22:    1  ->  lightened ==> lighted
+  23:    1  ->  lingonberry ==> berry
+  24:    1  ->  memory's ==> memories
+  25:    1  ->  mowed ==> moment
+  26:    1  ->  nine ==> 9:00
+  27:    1  ->  notebooks ==> rocks
+  28:    1  ->  obsessively ==> of
+  29:    1  ->  occurred ==> hurt
+  30:    1  ->  one ==> my
+  31:    1  ->  our ==> her
+  32:    1  ->  penny's ==> pennies
+  33:    1  ->  phones ==> bones
+  34:    1  ->  pick ==> picked
+  35:    1  ->  plaster ==> plastic
+  36:    1  ->  pound ==> 25lb
+  37:    1  ->  return ==> returned
+  38:    1  ->  ring ==> rings
+  39:    1  ->  rustling ==> wrestling
+  40:    1  ->  seizes ==> ceases
+  41:    1  ->  sore ==> sort
+  42:    1  ->  stain ==> stains
+  43:    1  ->  surgeon ==> surgery
+  44:    1  ->  swoony ==> s'lummy
+  45:    1  ->  tea ==> key
+  46:    1  ->  ten ==> oh
+  47:    1  ->  than ==> the
+  48:    1  ->  then ==> them
+  49:    1  ->  these ==> the
+  50:    1  ->  throat ==> rope
+  51:    1  ->  through ==> for
+  52:    1  ->  tiny ==> ankletiny
+  53:    1  ->  travelled ==> travels
+  54:    1  ->  turned ==> turn
+  55:    1  ->  twelve ==> two
+  56:    1  ->  until ==> that
+  57:    1  ->  until ==> till
+  58:    1  ->  weak ==> week
+  59:    1  ->  wetlands ==> west
+  60:    1  ->  woolworth ==> woolworth's
+     -------
+        63
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  one
+   2:    1  ->  and
+   3:    1  ->  i
+   4:    1  ->  is
+   5:    1  ->  lingam
+   6:    1  ->  no
+   7:    1  ->  so
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  ankle
+   3:    1  ->  are
+   4:    1  ->  do
+   5:    1  ->  five
+   6:    1  ->  have
+   7:    1  ->  twenty
+   8:    1  ->  what
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    2  ->  as
+   2:    2  ->  have
+   3:    2  ->  the
+   4:    2  ->  until
+   5:    1  ->  barbells
+   6:    1  ->  brambles
+   7:    1  ->  burned
+   8:    1  ->  cobwebbed
+   9:    1  ->  comprehending
+  10:    1  ->  connotations
+  11:    1  ->  corners
+  12:    1  ->  defies
+  13:    1  ->  face
+  14:    1  ->  fifteen
+  15:    1  ->  fuchsias
+  16:    1  ->  googawed
+  17:    1  ->  his
+  18:    1  ->  hoots
+  19:    1  ->  in
+  20:    1  ->  it
+  21:    1  ->  it's
+  22:    1  ->  laid
+  23:    1  ->  lightened
+  24:    1  ->  lingonberry
+  25:    1  ->  memory's
+  26:    1  ->  mowed
+  27:    1  ->  nine
+  28:    1  ->  notebooks
+  29:    1  ->  obsessively
+  30:    1  ->  occurred
+  31:    1  ->  one
+  32:    1  ->  our
+  33:    1  ->  penny's
+  34:    1  ->  phones
+  35:    1  ->  pick
+  36:    1  ->  plaster
+  37:    1  ->  pound
+  38:    1  ->  return
+  39:    1  ->  ring
+  40:    1  ->  rustling
+  41:    1  ->  seizes
+  42:    1  ->  sore
+  43:    1  ->  stain
+  44:    1  ->  surgeon
+  45:    1  ->  swoony
+  46:    1  ->  tea
+  47:    1  ->  ten
+  48:    1  ->  than
+  49:    1  ->  then
+  50:    1  ->  these
+  51:    1  ->  throat
+  52:    1  ->  through
+  53:    1  ->  tiny
+  54:    1  ->  travelled
+  55:    1  ->  turned
+  56:    1  ->  twelve
+  57:    1  ->  weak
+  58:    1  ->  wetlands
+  59:    1  ->  woolworth
+     -------
+        63
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (58)
+                                 With >=  1 occurrences (58)
+
+   1:    3  ->  the
+   2:    2  ->  a
+   3:    2  ->  had
+   4:    2  ->  is
+   5:    1  ->  25lb
+   6:    1  ->  9:00
+   7:    1  ->  and
+   8:    1  ->  ankletiny
+   9:    1  ->  base
+  10:    1  ->  berry
+  11:    1  ->  bird
+  12:    1  ->  bones
+  13:    1  ->  brandies
+  14:    1  ->  buys
+  15:    1  ->  ceases
+  16:    1  ->  cobweb
+  17:    1  ->  connotation
+  18:    1  ->  corner
+  19:    1  ->  five
+  20:    1  ->  for
+  21:    1  ->  fushies
+  22:    1  ->  google
+  23:    1  ->  her
+  24:    1  ->  hoot
+  25:    1  ->  hurt
+  26:    1  ->  key
+  27:    1  ->  lay
+  28:    1  ->  lighted
+  29:    1  ->  memories
+  30:    1  ->  moment
+  31:    1  ->  moved
+  32:    1  ->  my
+  33:    1  ->  of
+  34:    1  ->  oh
+  35:    1  ->  pending
+  36:    1  ->  pennies
+  37:    1  ->  picked
+  38:    1  ->  plastic
+  39:    1  ->  returned
+  40:    1  ->  rings
+  41:    1  ->  rocks
+  42:    1  ->  rope
+  43:    1  ->  s'lummy
+  44:    1  ->  sort
+  45:    1  ->  stains
+  46:    1  ->  surgery
+  47:    1  ->  that
+  48:    1  ->  them
+  49:    1  ->  this
+  50:    1  ->  till
+  51:    1  ->  travels
+  52:    1  ->  turn
+  53:    1  ->  two
+  54:    1  ->  varbel
+  55:    1  ->  week
+  56:    1  ->  west
+  57:    1  ->  woolworth's
+  58:    1  ->  wrestling
+     -------
+        63
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

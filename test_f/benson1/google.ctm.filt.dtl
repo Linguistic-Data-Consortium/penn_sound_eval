@@ -1,0 +1,223 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.7%   (  80)
+
+Percent Correct           =   93.6%   (1117)
+
+Percent Substitution      =    3.8%   (  45)
+Percent Deletions         =    2.6%   (  31)
+Percent Insertions        =    0.3%   (   4)
+Percent Word Accuracy     =   93.3%
+
+
+Ref. words                =           (1193)
+Hyp. words                =           (1166)
+Aligned words             =           (1197)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    3  ->  wh ==> what
+   2:    2  ->  the ==> a
+   3:    1  ->  %bcack ==> stable
+   4:    1  ->  as ==> is
+   5:    1  ->  at ==> that
+   6:    1  ->  awry ==> arrive
+   7:    1  ->  bee ==> canoelike
+   8:    1  ->  date ==> dates
+   9:    1  ->  even ==> eating
+  10:    1  ->  fascinating ==> yeah
+  11:    1  ->  fires ==> bires
+  12:    1  ->  gone ==> on
+  13:    1  ->  he ==> e
+  14:    1  ->  here ==> more
+  15:    1  ->  hundred ==> zero
+  16:    1  ->  i ==> "i
+  17:    1  ->  it ==> at
+  18:    1  ->  mess ==> mist
+  19:    1  ->  now ==> there
+  20:    1  ->  over ==> are
+  21:    1  ->  peering ==> here
+  22:    1  ->  ravaged ==> antiragged
+  23:    1  ->  reopen ==> open
+  24:    1  ->  s ==> is
+  25:    1  ->  sense ==> the
+  26:    1  ->  sleeks ==> sleeps
+  27:    1  ->  sore ==> soar
+  28:    1  ->  standing ==> withstanding
+  29:    1  ->  sweet ==> sweep
+  30:    1  ->  taut ==> top
+  31:    1  ->  the ==> "the
+  32:    1  ->  the ==> to
+  33:    1  ->  them ==> from
+  34:    1  ->  then ==> then"
+  35:    1  ->  tier ==> tear
+  36:    1  ->  to ==> read
+  37:    1  ->  used ==> use
+  38:    1  ->  window ==> linda
+  39:    1  ->  with ==> not
+  40:    1  ->  words ==> word
+  41:    1  ->  wrought ==> brought
+  42:    1  ->  you ==> yeah
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  but
+   3:    1  ->  high
+   4:    1  ->  says
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    3  ->  that
+   2:    3  ->  yeah
+   3:    2  ->  are
+   4:    2  ->  i
+   5:    2  ->  like
+   6:    1  ->  another
+   7:    1  ->  anti
+   8:    1  ->  canoe
+   9:    1  ->  could
+  10:    1  ->  emphatic
+  11:    1  ->  fairly
+  12:    1  ->  had
+  13:    1  ->  imply
+  14:    1  ->  knocked
+  15:    1  ->  line
+  16:    1  ->  love
+  17:    1  ->  or
+  18:    1  ->  poem
+  19:    1  ->  s
+  20:    1  ->  that's
+  21:    1  ->  think
+  22:    1  ->  type
+  23:    1  ->  well
+  24:    1  ->  you
+     -------
+        31
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    4  ->  the
+   2:    3  ->  wh
+   3:    1  ->  %bcack
+   4:    1  ->  as
+   5:    1  ->  at
+   6:    1  ->  awry
+   7:    1  ->  bee
+   8:    1  ->  date
+   9:    1  ->  even
+  10:    1  ->  fascinating
+  11:    1  ->  fires
+  12:    1  ->  gone
+  13:    1  ->  he
+  14:    1  ->  here
+  15:    1  ->  hundred
+  16:    1  ->  i
+  17:    1  ->  it
+  18:    1  ->  mess
+  19:    1  ->  now
+  20:    1  ->  over
+  21:    1  ->  peering
+  22:    1  ->  ravaged
+  23:    1  ->  reopen
+  24:    1  ->  s
+  25:    1  ->  sense
+  26:    1  ->  sleeks
+  27:    1  ->  sore
+  28:    1  ->  standing
+  29:    1  ->  sweet
+  30:    1  ->  taut
+  31:    1  ->  them
+  32:    1  ->  then
+  33:    1  ->  tier
+  34:    1  ->  to
+  35:    1  ->  used
+  36:    1  ->  window
+  37:    1  ->  with
+  38:    1  ->  words
+  39:    1  ->  wrought
+  40:    1  ->  you
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  what
+   2:    2  ->  a
+   3:    2  ->  is
+   4:    2  ->  yeah
+   5:    1  ->  "i
+   6:    1  ->  "the
+   7:    1  ->  antiragged
+   8:    1  ->  are
+   9:    1  ->  arrive
+  10:    1  ->  at
+  11:    1  ->  bires
+  12:    1  ->  brought
+  13:    1  ->  canoelike
+  14:    1  ->  dates
+  15:    1  ->  e
+  16:    1  ->  eating
+  17:    1  ->  from
+  18:    1  ->  here
+  19:    1  ->  linda
+  20:    1  ->  mist
+  21:    1  ->  more
+  22:    1  ->  not
+  23:    1  ->  on
+  24:    1  ->  open
+  25:    1  ->  read
+  26:    1  ->  sleeps
+  27:    1  ->  soar
+  28:    1  ->  stable
+  29:    1  ->  sweep
+  30:    1  ->  tear
+  31:    1  ->  that
+  32:    1  ->  the
+  33:    1  ->  then"
+  34:    1  ->  there
+  35:    1  ->  to
+  36:    1  ->  top
+  37:    1  ->  use
+  38:    1  ->  withstanding
+  39:    1  ->  word
+  40:    1  ->  zero
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

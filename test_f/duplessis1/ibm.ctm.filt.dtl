@@ -1,0 +1,157 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.4%   (  32)
+
+Percent Correct           =   96.1%   ( 695)
+
+Percent Substitution      =    3.6%   (  26)
+Percent Deletions         =    0.3%   (   2)
+Percent Insertions        =    0.6%   (   4)
+Percent Word Accuracy     =   95.6%
+
+
+Ref. words                =           ( 723)
+Hyp. words                =           ( 725)
+Aligned words             =           ( 727)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  at ==> of
+   2:    1  ->  awls ==> alls
+   3:    1  ->  chiaro ==> cato
+   4:    1  ->  chimera ==> camera
+   5:    1  ->  combustable ==> combustible
+   6:    1  ->  effortlessly ==> sleep
+   7:    1  ->  etches ==> itches
+   8:    1  ->  gulley ==> gully
+   9:    1  ->  historiated ==> ted
+  10:    1  ->  in ==> uson
+  11:    1  ->  incipits ==> pits
+  12:    1  ->  lehman ==> layman
+  13:    1  ->  managed ==> mannered
+  14:    1  ->  noir ==> near
+  15:    1  ->  ogham ==> gum
+  16:    1  ->  poem ==> pam
+  17:    1  ->  scrim ==> scream
+  18:    1  ->  scuro ==> scordo
+  19:    1  ->  slice ==> notch
+  20:    1  ->  solvency ==> sovereignty
+  21:    1  ->  splay ==> display
+  22:    1  ->  stearns ==> sterns
+  23:    1  ->  strage ==> lasting
+  24:    1  ->  synapse ==> sinus
+  25:    1  ->  untrackable ==> uncrackable
+  26:    1  ->  wood ==> would
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  effort
+   2:    1  ->  hysteria
+   3:    1  ->  inc
+   4:    1  ->  little
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  la
+   2:    1  ->  use
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  at
+   2:    1  ->  awls
+   3:    1  ->  chiaro
+   4:    1  ->  chimera
+   5:    1  ->  combustable
+   6:    1  ->  effortlessly
+   7:    1  ->  etches
+   8:    1  ->  gulley
+   9:    1  ->  historiated
+  10:    1  ->  in
+  11:    1  ->  incipits
+  12:    1  ->  lehman
+  13:    1  ->  managed
+  14:    1  ->  noir
+  15:    1  ->  ogham
+  16:    1  ->  poem
+  17:    1  ->  scrim
+  18:    1  ->  scuro
+  19:    1  ->  slice
+  20:    1  ->  solvency
+  21:    1  ->  splay
+  22:    1  ->  stearns
+  23:    1  ->  strage
+  24:    1  ->  synapse
+  25:    1  ->  untrackable
+  26:    1  ->  wood
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  alls
+   2:    1  ->  camera
+   3:    1  ->  cato
+   4:    1  ->  combustible
+   5:    1  ->  display
+   6:    1  ->  gully
+   7:    1  ->  gum
+   8:    1  ->  itches
+   9:    1  ->  lasting
+  10:    1  ->  layman
+  11:    1  ->  mannered
+  12:    1  ->  near
+  13:    1  ->  notch
+  14:    1  ->  of
+  15:    1  ->  pam
+  16:    1  ->  pits
+  17:    1  ->  scordo
+  18:    1  ->  scream
+  19:    1  ->  sinus
+  20:    1  ->  sleep
+  21:    1  ->  sovereignty
+  22:    1  ->  sterns
+  23:    1  ->  ted
+  24:    1  ->  uncrackable
+  25:    1  ->  uson
+  26:    1  ->  would
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

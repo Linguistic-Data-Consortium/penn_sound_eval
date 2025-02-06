@@ -1,0 +1,146 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.8%   (  36)
+
+Percent Correct           =   96.5%   ( 905)
+
+Percent Substitution      =    2.3%   (  22)
+Percent Deletions         =    1.2%   (  11)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   96.2%
+
+
+Ref. words                =           ( 938)
+Hyp. words                =           ( 930)
+Aligned words             =           ( 941)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  back ==> paperback
+   2:    1  ->  blonde ==> blood
+   3:    1  ->  branded ==> spreaded
+   4:    1  ->  dollar ==> 180
+   5:    1  ->  eighteen ==> eight
+   6:    1  ->  film ==> filmed
+   7:    1  ->  forty ==> oh
+   8:    1  ->  leaving ==> leading
+   9:    1  ->  line ==> on
+  10:    1  ->  love ==> loved
+  11:    1  ->  macadam ==> adam
+  12:    1  ->  mien ==> amiens
+  13:    1  ->  of ==> on
+  14:    1  ->  petal ==> petals
+  15:    1  ->  short ==> chartres
+  16:    1  ->  shoulders ==> shoulder
+  17:    1  ->  sixty ==> oh
+  18:    1  ->  ten ==> oh
+  19:    1  ->  thirty ==> oh
+  20:    1  ->  thirty ==> three
+  21:    1  ->  twenty ==> two
+  22:    1  ->  weeks ==> week
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  lie
+   2:    1  ->  mac
+   3:    1  ->  one
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  and
+   2:    2  ->  s
+   3:    1  ->  a
+   4:    1  ->  asphalt
+   5:    1  ->  eighty
+   6:    1  ->  hundred
+   7:    1  ->  kisch
+   8:    1  ->  on
+   9:    1  ->  paper
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  thirty
+   2:    1  ->  back
+   3:    1  ->  blonde
+   4:    1  ->  branded
+   5:    1  ->  dollar
+   6:    1  ->  eighteen
+   7:    1  ->  film
+   8:    1  ->  forty
+   9:    1  ->  leaving
+  10:    1  ->  line
+  11:    1  ->  love
+  12:    1  ->  macadam
+  13:    1  ->  mien
+  14:    1  ->  of
+  15:    1  ->  petal
+  16:    1  ->  short
+  17:    1  ->  shoulders
+  18:    1  ->  sixty
+  19:    1  ->  ten
+  20:    1  ->  twenty
+  21:    1  ->  weeks
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    4  ->  oh
+   2:    2  ->  on
+   3:    1  ->  180
+   4:    1  ->  adam
+   5:    1  ->  amiens
+   6:    1  ->  blood
+   7:    1  ->  chartres
+   8:    1  ->  eight
+   9:    1  ->  filmed
+  10:    1  ->  leading
+  11:    1  ->  loved
+  12:    1  ->  paperback
+  13:    1  ->  petals
+  14:    1  ->  shoulder
+  15:    1  ->  spreaded
+  16:    1  ->  three
+  17:    1  ->  two
+  18:    1  ->  week
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

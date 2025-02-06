@@ -1,0 +1,142 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.6%   (  35)
+
+Percent Correct           =   96.4%   ( 927)
+
+Percent Substitution      =    2.5%   (  24)
+Percent Deletions         =    1.1%   (  11)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   96.4%
+
+
+Ref. words                =           ( 962)
+Hyp. words                =           ( 951)
+Aligned words             =           ( 962)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    4  ->  in ==> and
+   2:    2  ->  twenty ==> two
+   3:    1  ->  a ==> the
+   4:    1  ->  above ==> about
+   5:    1  ->  and ==> in
+   6:    1  ->  atrapado ==> atrapato
+   7:    1  ->  atrapado ==> atropato
+   8:    1  ->  coy ==> koi
+   9:    1  ->  fandangoes ==> fandangos
+  10:    1  ->  has ==> is
+  11:    1  ->  m ==> my
+  12:    1  ->  oh ==> o
+  13:    1  ->  parish ==> perished
+  14:    1  ->  purdahs ==> purdaws
+  15:    1  ->  sighs ==> size
+  16:    1  ->  slop ==> slot
+  17:    1  ->  to ==> through
+  18:    1  ->  towards ==> toward
+  19:    1  ->  trim ==> trimmed
+  20:    1  ->  who ==> that
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  and
+   2:    1  ->  ch
+   3:    1  ->  debuts
+   4:    1  ->  had
+   5:    1  ->  in
+   6:    1  ->  kneed
+   7:    1  ->  scuffed
+   8:    1  ->  stee
+   9:    1  ->  strapped
+  10:    1  ->  towe
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  in
+   2:    2  ->  atrapado
+   3:    2  ->  twenty
+   4:    1  ->  a
+   5:    1  ->  above
+   6:    1  ->  and
+   7:    1  ->  coy
+   8:    1  ->  fandangoes
+   9:    1  ->  has
+  10:    1  ->  m
+  11:    1  ->  oh
+  12:    1  ->  parish
+  13:    1  ->  purdahs
+  14:    1  ->  sighs
+  15:    1  ->  slop
+  16:    1  ->  to
+  17:    1  ->  towards
+  18:    1  ->  trim
+  19:    1  ->  who
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    4  ->  and
+   2:    2  ->  two
+   3:    1  ->  about
+   4:    1  ->  atrapato
+   5:    1  ->  atropato
+   6:    1  ->  fandangos
+   7:    1  ->  in
+   8:    1  ->  is
+   9:    1  ->  koi
+  10:    1  ->  my
+  11:    1  ->  o
+  12:    1  ->  perished
+  13:    1  ->  purdaws
+  14:    1  ->  size
+  15:    1  ->  slot
+  16:    1  ->  that
+  17:    1  ->  the
+  18:    1  ->  through
+  19:    1  ->  toward
+  20:    1  ->  trimmed
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

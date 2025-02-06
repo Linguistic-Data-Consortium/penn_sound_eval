@@ -1,0 +1,273 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.6%   ( 218)
+
+Percent Correct           =   82.8%   ( 972)
+
+Percent Substitution      =    3.6%   (  42)
+Percent Deletions         =   13.6%   ( 160)
+Percent Insertions        =    1.4%   (  16)
+Percent Word Accuracy     =   81.4%
+
+
+Ref. words                =           (1174)
+Hyp. words                =           (1030)
+Aligned words             =           (1190)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  als ==> also
+   2:    1  ->  an ==> a
+   3:    1  ->  and ==> marriage
+   4:    1  ->  asked ==> asking
+   5:    1  ->  ass ==> symmetry
+   6:    1  ->  asymmetry ==> symmetry
+   7:    1  ->  attached ==> attach
+   8:    1  ->  be ==> going
+   9:    1  ->  changed ==> change
+  10:    1  ->  choice ==> change
+  11:    1  ->  gone ==> are
+  12:    1  ->  had ==> are
+  13:    1  ->  i ==> or
+  14:    1  ->  if ==> yeah
+  15:    1  ->  in ==> and
+  16:    1  ->  in ==> at
+  17:    1  ->  it's ==> as
+  18:    1  ->  its ==> it's
+  19:    1  ->  lenin ==> limp
+  20:    1  ->  like ==> well
+  21:    1  ->  many ==> informative
+  22:    1  ->  n ==> cemeteries
+  23:    1  ->  paragraph ==> you
+  24:    1  ->  poems ==> cones
+  25:    1  ->  points ==> what
+  26:    1  ->  stasis ==> antistasis
+  27:    1  ->  symmetries ==> funds
+  28:    1  ->  tackling ==> cackling
+  29:    1  ->  tha ==> that
+  30:    1  ->  that ==> good
+  31:    1  ->  that ==> nuvo
+  32:    1  ->  that's ==> thinking
+  33:    1  ->  then ==> and
+  34:    1  ->  thing ==> might
+  35:    1  ->  this ==> the
+  36:    1  ->  though ==> through
+  37:    1  ->  to ==> you
+  38:    1  ->  we ==> way
+  39:    1  ->  were ==> been
+  40:    1  ->  whereas ==> so
+  41:    1  ->  would ==> will
+  42:    1  ->  yeah ==> know
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    3  ->  it
+   2:    2  ->  no
+   3:    1  ->  a
+   4:    1  ->  but
+   5:    1  ->  david
+   6:    1  ->  have
+   7:    1  ->  i
+   8:    1  ->  know
+   9:    1  ->  oh
+  10:    1  ->  should
+  11:    1  ->  that
+  12:    1  ->  they
+  13:    1  ->  with
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (68)
+                                 With >=  1 occurrences (68)
+
+   1:   13  ->  and
+   2:   12  ->  you
+   3:    9  ->  %bcack
+   4:    8  ->  i
+   5:    8  ->  so
+   6:    7  ->  a
+   7:    7  ->  know
+   8:    5  ->  in
+   9:    5  ->  no
+  10:    4  ->  it
+  11:    4  ->  of
+  12:    4  ->  that
+  13:    4  ->  they
+  14:    4  ->  yeah
+  15:    3  ->  it's
+  16:    3  ->  the
+  17:    2  ->  an
+  18:    2  ->  are
+  19:    2  ->  as
+  20:    2  ->  but
+  21:    2  ->  he
+  22:    2  ->  not
+  23:    2  ->  to
+  24:    2  ->  x
+  25:    1  ->  anti
+  26:    1  ->  any
+  27:    1  ->  asymmetry
+  28:    1  ->  bec
+  29:    1  ->  book
+  30:    1  ->  ending
+  31:    1  ->  ess
+  32:    1  ->  evoking
+  33:    1  ->  go
+  34:    1  ->  had
+  35:    1  ->  have
+  36:    1  ->  if
+  37:    1  ->  its
+  38:    1  ->  just
+  39:    1  ->  kind
+  40:    1  ->  lots
+  41:    1  ->  make
+  42:    1  ->  merit
+  43:    1  ->  my
+  44:    1  ->  notes
+  45:    1  ->  now
+  46:    1  ->  oh
+  47:    1  ->  on
+  48:    1  ->  puns
+  49:    1  ->  right
+  50:    1  ->  said
+  51:    1  ->  same
+  52:    1  ->  see
+  53:    1  ->  should
+  54:    1  ->  some
+  55:    1  ->  sort
+  56:    1  ->  symmetry
+  57:    1  ->  taking
+  58:    1  ->  there
+  59:    1  ->  thing
+  60:    1  ->  this
+  61:    1  ->  up
+  62:    1  ->  w
+  63:    1  ->  when
+  64:    1  ->  will
+  65:    1  ->  wit
+  66:    1  ->  within
+  67:    1  ->  ye
+  68:    1  ->  yo
+     -------
+       160
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  in
+   2:    2  ->  that
+   3:    1  ->  als
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  asked
+   7:    1  ->  ass
+   8:    1  ->  asymmetry
+   9:    1  ->  attached
+  10:    1  ->  be
+  11:    1  ->  changed
+  12:    1  ->  choice
+  13:    1  ->  gone
+  14:    1  ->  had
+  15:    1  ->  i
+  16:    1  ->  if
+  17:    1  ->  it's
+  18:    1  ->  its
+  19:    1  ->  lenin
+  20:    1  ->  like
+  21:    1  ->  many
+  22:    1  ->  n
+  23:    1  ->  paragraph
+  24:    1  ->  poems
+  25:    1  ->  points
+  26:    1  ->  stasis
+  27:    1  ->  symmetries
+  28:    1  ->  tackling
+  29:    1  ->  tha
+  30:    1  ->  that's
+  31:    1  ->  then
+  32:    1  ->  thing
+  33:    1  ->  this
+  34:    1  ->  though
+  35:    1  ->  to
+  36:    1  ->  we
+  37:    1  ->  were
+  38:    1  ->  whereas
+  39:    1  ->  would
+  40:    1  ->  yeah
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  and
+   2:    2  ->  are
+   3:    2  ->  change
+   4:    2  ->  symmetry
+   5:    2  ->  you
+   6:    1  ->  a
+   7:    1  ->  also
+   8:    1  ->  antistasis
+   9:    1  ->  as
+  10:    1  ->  asking
+  11:    1  ->  at
+  12:    1  ->  attach
+  13:    1  ->  been
+  14:    1  ->  cackling
+  15:    1  ->  cemeteries
+  16:    1  ->  cones
+  17:    1  ->  funds
+  18:    1  ->  going
+  19:    1  ->  good
+  20:    1  ->  informative
+  21:    1  ->  it's
+  22:    1  ->  know
+  23:    1  ->  limp
+  24:    1  ->  marriage
+  25:    1  ->  might
+  26:    1  ->  nuvo
+  27:    1  ->  or
+  28:    1  ->  so
+  29:    1  ->  that
+  30:    1  ->  the
+  31:    1  ->  thinking
+  32:    1  ->  through
+  33:    1  ->  way
+  34:    1  ->  well
+  35:    1  ->  what
+  36:    1  ->  will
+  37:    1  ->  yeah
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,157 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.8%   (  38)
+
+Percent Correct           =   95.8%   ( 757)
+
+Percent Substitution      =    3.0%   (  24)
+Percent Deletions         =    1.1%   (   9)
+Percent Insertions        =    0.6%   (   5)
+Percent Word Accuracy     =   95.2%
+
+
+Ref. words                =           ( 790)
+Hyp. words                =           ( 786)
+Aligned words             =           ( 795)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  about ==> jibout
+   2:    1  ->  an ==> and
+   3:    1  ->  are ==> were
+   4:    1  ->  artificers ==> artivisers
+   5:    1  ->  as ==> languages
+   6:    1  ->  balloon ==> boom
+   7:    1  ->  closeup ==> up
+   8:    1  ->  either ==> ether
+   9:    1  ->  emitting ==> getting
+  10:    1  ->  error ==> era
+  11:    1  ->  eviction ==> fiction
+  12:    1  ->  he ==> you
+  13:    1  ->  homebase ==> base
+  14:    1  ->  in ==> and
+  15:    1  ->  in ==> fading
+  16:    1  ->  is ==> in
+  17:    1  ->  kim ==> kin
+  18:    1  ->  phan ==> fan
+  19:    1  ->  returning ==> returns
+  20:    1  ->  spinnaker ==> tug
+  21:    1  ->  starboat ==> stone
+  22:    1  ->  syvash ==> sivash
+  23:    1  ->  the ==> a
+  24:    1  ->  though ==> through
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  close
+   2:    1  ->  ether
+   3:    1  ->  floats
+   4:    1  ->  home
+   5:    1  ->  if
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  as
+   2:    1  ->  culture
+   3:    1  ->  fade
+   4:    1  ->  g
+   5:    1  ->  language
+   6:    1  ->  now
+   7:    1  ->  spree
+   8:    1  ->  the
+   9:    1  ->  tugging
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  in
+   2:    1  ->  about
+   3:    1  ->  an
+   4:    1  ->  are
+   5:    1  ->  artificers
+   6:    1  ->  as
+   7:    1  ->  balloon
+   8:    1  ->  closeup
+   9:    1  ->  either
+  10:    1  ->  emitting
+  11:    1  ->  error
+  12:    1  ->  eviction
+  13:    1  ->  he
+  14:    1  ->  homebase
+  15:    1  ->  is
+  16:    1  ->  kim
+  17:    1  ->  phan
+  18:    1  ->  returning
+  19:    1  ->  spinnaker
+  20:    1  ->  starboat
+  21:    1  ->  syvash
+  22:    1  ->  the
+  23:    1  ->  though
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  artivisers
+   4:    1  ->  base
+   5:    1  ->  boom
+   6:    1  ->  era
+   7:    1  ->  ether
+   8:    1  ->  fading
+   9:    1  ->  fan
+  10:    1  ->  fiction
+  11:    1  ->  getting
+  12:    1  ->  in
+  13:    1  ->  jibout
+  14:    1  ->  kin
+  15:    1  ->  languages
+  16:    1  ->  returns
+  17:    1  ->  sivash
+  18:    1  ->  stone
+  19:    1  ->  through
+  20:    1  ->  tug
+  21:    1  ->  up
+  22:    1  ->  were
+  23:    1  ->  you
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

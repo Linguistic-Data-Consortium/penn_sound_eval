@@ -1,0 +1,200 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.8%   (  91)
+
+Percent Correct           =   93.1%   (1089)
+
+Percent Substitution      =    2.6%   (  30)
+Percent Deletions         =    4.4%   (  51)
+Percent Insertions        =    0.9%   (  10)
+Percent Word Accuracy     =   92.2%
+
+
+Ref. words                =           (1170)
+Hyp. words                =           (1129)
+Aligned words             =           (1180)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  safed ==> saed
+   2:    2  ->  there ==> it
+   3:    1  ->  a ==> are
+   4:    1  ->  a ==> the
+   5:    1  ->  absence ==> absent
+   6:    1  ->  at ==> this
+   7:    1  ->  could ==> can
+   8:    1  ->  etel ==> atel
+   9:    1  ->  her ==> out
+  10:    1  ->  is ==> as
+  11:    1  ->  it ==> invited
+  12:    1  ->  it ==> read
+  13:    1  ->  its ==> that's
+  14:    1  ->  kinship's ==> kinships
+  15:    1  ->  midra ==> mid
+  16:    1  ->  midrashim ==> and
+  17:    1  ->  not ==> no
+  18:    1  ->  r ==> re
+  19:    1  ->  round ==> around
+  20:    1  ->  saf ==> sa
+  21:    1  ->  see ==> it's
+  22:    1  ->  sixteenth ==> 16th
+  23:    1  ->  so ==> should
+  24:    1  ->  the ==> an
+  25:    1  ->  they ==> there
+  26:    1  ->  well ==> and
+  27:    1  ->  yeah ==> another
+  28:    1  ->  yeah ==> but
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  <laugh>
+   2:    1  ->  and
+   3:    1  ->  k.
+   4:    1  ->  midras
+   5:    1  ->  o.
+   6:    1  ->  of
+   7:    1  ->  oh
+   8:    1  ->  that
+   9:    1  ->  the
+  10:    1  ->  things
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    4  ->  it
+   2:    3  ->  that
+   3:    3  ->  the
+   4:    3  ->  w
+   5:    2  ->  a
+   6:    2  ->  i
+   7:    2  ->  is
+   8:    2  ->  u
+   9:    2  ->  y
+  10:    1  ->  anth
+  11:    1  ->  c
+  12:    1  ->  colle
+  13:    1  ->  do
+  14:    1  ->  g
+  15:    1  ->  in
+  16:    1  ->  invite
+  17:    1  ->  it's
+  18:    1  ->  just
+  19:    1  ->  k.
+  20:    1  ->  know
+  21:    1  ->  m
+  22:    1  ->  n
+  23:    1  ->  name
+  24:    1  ->  o.
+  25:    1  ->  oh
+  26:    1  ->  or
+  27:    1  ->  p
+  28:    1  ->  people
+  29:    1  ->  qu
+  30:    1  ->  s
+  31:    1  ->  scream
+  32:    1  ->  too
+  33:    1  ->  v
+  34:    1  ->  wh
+  35:    1  ->  would
+  36:    1  ->  wq
+  37:    1  ->  wr
+     -------
+        51
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  a
+   2:    2  ->  it
+   3:    2  ->  safed
+   4:    2  ->  there
+   5:    2  ->  yeah
+   6:    1  ->  absence
+   7:    1  ->  at
+   8:    1  ->  could
+   9:    1  ->  etel
+  10:    1  ->  her
+  11:    1  ->  is
+  12:    1  ->  its
+  13:    1  ->  kinship's
+  14:    1  ->  midra
+  15:    1  ->  midrashim
+  16:    1  ->  not
+  17:    1  ->  r
+  18:    1  ->  round
+  19:    1  ->  saf
+  20:    1  ->  see
+  21:    1  ->  sixteenth
+  22:    1  ->  so
+  23:    1  ->  the
+  24:    1  ->  they
+  25:    1  ->  well
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  and
+   2:    2  ->  it
+   3:    2  ->  saed
+   4:    1  ->  16th
+   5:    1  ->  absent
+   6:    1  ->  an
+   7:    1  ->  another
+   8:    1  ->  are
+   9:    1  ->  around
+  10:    1  ->  as
+  11:    1  ->  atel
+  12:    1  ->  but
+  13:    1  ->  can
+  14:    1  ->  invited
+  15:    1  ->  it's
+  16:    1  ->  kinships
+  17:    1  ->  mid
+  18:    1  ->  no
+  19:    1  ->  out
+  20:    1  ->  re
+  21:    1  ->  read
+  22:    1  ->  sa
+  23:    1  ->  should
+  24:    1  ->  that's
+  25:    1  ->  the
+  26:    1  ->  there
+  27:    1  ->  this
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

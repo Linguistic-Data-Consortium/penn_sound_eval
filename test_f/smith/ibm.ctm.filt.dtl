@@ -1,0 +1,212 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.5%   (  63)
+
+Percent Correct           =   93.7%   ( 785)
+
+Percent Substitution      =    5.7%   (  48)
+Percent Deletions         =    0.6%   (   5)
+Percent Insertions        =    1.2%   (  10)
+Percent Word Accuracy     =   92.5%
+
+
+Ref. words                =           ( 838)
+Hyp. words                =           ( 843)
+Aligned words             =           ( 848)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    2  ->  boober ==> bober
+   2:    2  ->  boober ==> buber
+   3:    2  ->  toad ==> towed
+   4:    1  ->  as ==> is
+   5:    1  ->  backcountry ==> country
+   6:    1  ->  boober ==> bobber
+   7:    1  ->  clenched ==> clinched
+   8:    1  ->  culled ==> called
+   9:    1  ->  did ==> in
+  10:    1  ->  disearned ==> disarmed
+  11:    1  ->  for ==> or
+  12:    1  ->  impenetrability ==> impenetrably
+  13:    1  ->  intervenient ==> intervening
+  14:    1  ->  jiggs ==> jigs
+  15:    1  ->  latticework ==> work
+  16:    1  ->  laze ==> lay
+  17:    1  ->  lone ==> loan
+  18:    1  ->  m ==> am
+  19:    1  ->  me ==> be
+  20:    1  ->  meow ==> me
+  21:    1  ->  meow ==> meal
+  22:    1  ->  micromanaged ==> managed
+  23:    1  ->  notice ==> noticed
+  24:    1  ->  o ==> of
+  25:    1  ->  oaf ==> of
+  26:    1  ->  orgone ==> oregon
+  27:    1  ->  partici ==> partition
+  28:    1  ->  passed ==> past
+  29:    1  ->  patience ==> patients
+  30:    1  ->  plac ==> a
+  31:    1  ->  porn ==> poor
+  32:    1  ->  reencode ==> encode
+  33:    1  ->  seen ==> scene
+  34:    1  ->  they ==> that
+  35:    1  ->  toad ==> tow
+  36:    1  ->  twi ==> twin
+  37:    1  ->  warts ==> war
+  38:    1  ->  what ==> well
+  39:    1  ->  x ==> graffito
+  40:    1  ->  x ==> keep
+  41:    1  ->  x ==> knox
+  42:    1  ->  x ==> laura
+  43:    1  ->  x ==> nine
+  44:    1  ->  x ==> woman
+  45:    1  ->  yearn ==> year
+     -------
+        48
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  an
+   2:    1  ->  a
+   3:    1  ->  back
+   4:    1  ->  clock
+   5:    1  ->  keep
+   6:    1  ->  lattice
+   7:    1  ->  micro
+   8:    1  ->  re
+   9:    1  ->  what
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  al
+   2:    1  ->  and
+   3:    1  ->  c
+   4:    1  ->  lo
+   5:    1  ->  weapon
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    6  ->  x
+   2:    5  ->  boober
+   3:    3  ->  toad
+   4:    2  ->  meow
+   5:    1  ->  as
+   6:    1  ->  backcountry
+   7:    1  ->  clenched
+   8:    1  ->  culled
+   9:    1  ->  did
+  10:    1  ->  disearned
+  11:    1  ->  for
+  12:    1  ->  impenetrability
+  13:    1  ->  intervenient
+  14:    1  ->  jiggs
+  15:    1  ->  latticework
+  16:    1  ->  laze
+  17:    1  ->  lone
+  18:    1  ->  m
+  19:    1  ->  me
+  20:    1  ->  micromanaged
+  21:    1  ->  notice
+  22:    1  ->  o
+  23:    1  ->  oaf
+  24:    1  ->  orgone
+  25:    1  ->  partici
+  26:    1  ->  passed
+  27:    1  ->  patience
+  28:    1  ->  plac
+  29:    1  ->  porn
+  30:    1  ->  reencode
+  31:    1  ->  seen
+  32:    1  ->  they
+  33:    1  ->  twi
+  34:    1  ->  warts
+  35:    1  ->  what
+  36:    1  ->  yearn
+     -------
+        48
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    2  ->  bober
+   2:    2  ->  buber
+   3:    2  ->  of
+   4:    2  ->  towed
+   5:    1  ->  a
+   6:    1  ->  am
+   7:    1  ->  be
+   8:    1  ->  bobber
+   9:    1  ->  called
+  10:    1  ->  clinched
+  11:    1  ->  country
+  12:    1  ->  disarmed
+  13:    1  ->  encode
+  14:    1  ->  graffito
+  15:    1  ->  impenetrably
+  16:    1  ->  in
+  17:    1  ->  intervening
+  18:    1  ->  is
+  19:    1  ->  jigs
+  20:    1  ->  keep
+  21:    1  ->  knox
+  22:    1  ->  laura
+  23:    1  ->  lay
+  24:    1  ->  loan
+  25:    1  ->  managed
+  26:    1  ->  me
+  27:    1  ->  meal
+  28:    1  ->  nine
+  29:    1  ->  noticed
+  30:    1  ->  or
+  31:    1  ->  oregon
+  32:    1  ->  partition
+  33:    1  ->  past
+  34:    1  ->  patients
+  35:    1  ->  poor
+  36:    1  ->  scene
+  37:    1  ->  that
+  38:    1  ->  tow
+  39:    1  ->  twin
+  40:    1  ->  war
+  41:    1  ->  well
+  42:    1  ->  woman
+  43:    1  ->  work
+  44:    1  ->  year
+     -------
+        48
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

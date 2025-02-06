@@ -1,0 +1,223 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.2%   (  74)
+
+Percent Correct           =   93.6%   ( 849)
+
+Percent Substitution      =    5.1%   (  46)
+Percent Deletions         =    1.3%   (  12)
+Percent Insertions        =    1.8%   (  16)
+Percent Word Accuracy     =   91.8%
+
+
+Ref. words                =           ( 907)
+Hyp. words                =           ( 911)
+Aligned words             =           ( 923)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    3  ->  pear ==> pair
+   2:    1  ->  ask ==> asked
+   3:    1  ->  at ==> of
+   4:    1  ->  bidden ==> bitten
+   5:    1  ->  blade ==> splayed
+   6:    1  ->  continue ==> continued
+   7:    1  ->  contrive ==> tried
+   8:    1  ->  death ==> deft
+   9:    1  ->  deporting ==> supporting
+  10:    1  ->  ether ==> aether
+  11:    1  ->  fall ==> befall
+  12:    1  ->  felt ==> spell
+  13:    1  ->  ghosts ==> ghost
+  14:    1  ->  grasp ==> grasped
+  15:    1  ->  hold ==> cold
+  16:    1  ->  illuminates ==> eliminates
+  17:    1  ->  in ==> lighten
+  18:    1  ->  it ==> none
+  19:    1  ->  light ==> eyes
+  20:    1  ->  like ==> gownlike
+  21:    1  ->  limbs ==> forelimbs
+  22:    1  ->  mind ==> mime
+  23:    1  ->  of ==> returns
+  24:    1  ->  other ==> utter
+  25:    1  ->  played ==> plagued
+  26:    1  ->  pleads ==> please
+  27:    1  ->  pray ==> prayed
+  28:    1  ->  put ==> but
+  29:    1  ->  retinol ==> retinal
+  30:    1  ->  scores ==> squares
+  31:    1  ->  sod ==> sawed
+  32:    1  ->  spherical ==> spiracle
+  33:    1  ->  stays ==> staves
+  34:    1  ->  they ==> there
+  35:    1  ->  thoreau ==> furrow
+  36:    1  ->  wait ==> weight
+  37:    1  ->  wise ==> moonwise
+  38:    1  ->  world ==> threeword
+  39:    1  ->  x ==> arest
+  40:    1  ->  x ==> palimpsest
+  41:    1  ->  x ==> psalmist
+  42:    1  ->  x ==> rest
+  43:    1  ->  x ==> salve
+  44:    1  ->  x ==> tigrish
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    4  ->  the
+   2:    1  ->  barricade
+   3:    1  ->  get
+   4:    1  ->  interrupted
+   5:    1  ->  lighten
+   6:    1  ->  moment
+   7:    1  ->  must
+   8:    1  ->  my
+   9:    1  ->  plow
+  10:    1  ->  purple
+  11:    1  ->  scorpion
+  12:    1  ->  superstition
+  13:    1  ->  to
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  the
+   2:    2  ->  then
+   3:    1  ->  and
+   4:    1  ->  be
+   5:    1  ->  four
+   6:    1  ->  gown
+   7:    1  ->  moon
+   8:    1  ->  nat
+   9:    1  ->  slender
+  10:    1  ->  three
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    6  ->  x
+   2:    3  ->  pear
+   3:    1  ->  ask
+   4:    1  ->  at
+   5:    1  ->  bidden
+   6:    1  ->  blade
+   7:    1  ->  continue
+   8:    1  ->  contrive
+   9:    1  ->  death
+  10:    1  ->  deporting
+  11:    1  ->  ether
+  12:    1  ->  fall
+  13:    1  ->  felt
+  14:    1  ->  ghosts
+  15:    1  ->  grasp
+  16:    1  ->  hold
+  17:    1  ->  illuminates
+  18:    1  ->  in
+  19:    1  ->  it
+  20:    1  ->  light
+  21:    1  ->  like
+  22:    1  ->  limbs
+  23:    1  ->  mind
+  24:    1  ->  of
+  25:    1  ->  other
+  26:    1  ->  played
+  27:    1  ->  pleads
+  28:    1  ->  pray
+  29:    1  ->  put
+  30:    1  ->  retinol
+  31:    1  ->  scores
+  32:    1  ->  sod
+  33:    1  ->  spherical
+  34:    1  ->  stays
+  35:    1  ->  they
+  36:    1  ->  thoreau
+  37:    1  ->  wait
+  38:    1  ->  wise
+  39:    1  ->  world
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    3  ->  pair
+   2:    1  ->  aether
+   3:    1  ->  arest
+   4:    1  ->  asked
+   5:    1  ->  befall
+   6:    1  ->  bitten
+   7:    1  ->  but
+   8:    1  ->  cold
+   9:    1  ->  continued
+  10:    1  ->  deft
+  11:    1  ->  eliminates
+  12:    1  ->  eyes
+  13:    1  ->  forelimbs
+  14:    1  ->  furrow
+  15:    1  ->  ghost
+  16:    1  ->  gownlike
+  17:    1  ->  grasped
+  18:    1  ->  lighten
+  19:    1  ->  mime
+  20:    1  ->  moonwise
+  21:    1  ->  none
+  22:    1  ->  of
+  23:    1  ->  palimpsest
+  24:    1  ->  plagued
+  25:    1  ->  please
+  26:    1  ->  prayed
+  27:    1  ->  psalmist
+  28:    1  ->  rest
+  29:    1  ->  retinal
+  30:    1  ->  returns
+  31:    1  ->  salve
+  32:    1  ->  sawed
+  33:    1  ->  spell
+  34:    1  ->  spiracle
+  35:    1  ->  splayed
+  36:    1  ->  squares
+  37:    1  ->  staves
+  38:    1  ->  supporting
+  39:    1  ->  there
+  40:    1  ->  threeword
+  41:    1  ->  tigrish
+  42:    1  ->  tried
+  43:    1  ->  utter
+  44:    1  ->  weight
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

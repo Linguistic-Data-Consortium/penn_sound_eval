@@ -1,0 +1,160 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.1%   (  64)
+
+Percent Correct           =   94.5%   ( 749)
+
+Percent Substitution      =    4.7%   (  37)
+Percent Deletions         =    0.9%   (   7)
+Percent Insertions        =    2.5%   (  20)
+Percent Word Accuracy     =   91.9%
+
+
+Ref. words                =           ( 793)
+Hyp. words                =           ( 806)
+Aligned words             =           ( 813)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   13  ->  onto ==> to
+   2:    2  ->  a ==> the
+   3:    1  ->  as ==> is
+   4:    1  ->  balance ==> balanced
+   5:    1  ->  blocked ==> block
+   6:    1  ->  but ==> about
+   7:    1  ->  cheesemaking ==> making
+   8:    1  ->  do ==> will
+   9:    1  ->  farmworker's ==> worker's
+  10:    1  ->  ficcio ==> vio
+  11:    1  ->  ghostlike ==> like
+  12:    1  ->  growth ==> grove
+  13:    1  ->  keeper's ==> keeper
+  14:    1  ->  laughingstock ==> stock
+  15:    1  ->  luminators ==> luminator
+  16:    1  ->  mass ==> masked
+  17:    1  ->  metonymy ==> metonomy
+  18:    1  ->  mirepoix ==> pois
+  19:    1  ->  sue ==> soothe
+  20:    1  ->  talking ==> talked
+  21:    1  ->  this ==> us
+  22:    1  ->  unrights ==> rights
+  23:    1  ->  vacuo ==> vcu
+  24:    1  ->  xs ==> x's
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:   13  ->  on
+   2:    1  ->  cheese
+   3:    1  ->  farm
+   4:    1  ->  ghost
+   5:    1  ->  i
+   6:    1  ->  laughing
+   7:    1  ->  mira
+   8:    1  ->  un
+     -------
+        20
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  am
+   2:    1  ->  going
+   3:    1  ->  then
+   4:    1  ->  to
+   5:    1  ->  were
+   6:    1  ->  will
+   7:    1  ->  x
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   13  ->  onto
+   2:    2  ->  a
+   3:    1  ->  as
+   4:    1  ->  balance
+   5:    1  ->  blocked
+   6:    1  ->  but
+   7:    1  ->  cheesemaking
+   8:    1  ->  do
+   9:    1  ->  farmworker's
+  10:    1  ->  ficcio
+  11:    1  ->  ghostlike
+  12:    1  ->  growth
+  13:    1  ->  keeper's
+  14:    1  ->  laughingstock
+  15:    1  ->  luminators
+  16:    1  ->  mass
+  17:    1  ->  metonymy
+  18:    1  ->  mirepoix
+  19:    1  ->  sue
+  20:    1  ->  talking
+  21:    1  ->  this
+  22:    1  ->  unrights
+  23:    1  ->  vacuo
+  24:    1  ->  xs
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   13  ->  to
+   2:    2  ->  the
+   3:    1  ->  about
+   4:    1  ->  balanced
+   5:    1  ->  block
+   6:    1  ->  grove
+   7:    1  ->  is
+   8:    1  ->  keeper
+   9:    1  ->  like
+  10:    1  ->  luminator
+  11:    1  ->  making
+  12:    1  ->  masked
+  13:    1  ->  metonomy
+  14:    1  ->  pois
+  15:    1  ->  rights
+  16:    1  ->  soothe
+  17:    1  ->  stock
+  18:    1  ->  talked
+  19:    1  ->  us
+  20:    1  ->  vcu
+  21:    1  ->  vio
+  22:    1  ->  will
+  23:    1  ->  worker's
+  24:    1  ->  x's
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

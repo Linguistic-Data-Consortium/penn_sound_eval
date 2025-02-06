@@ -1,0 +1,232 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.0%   (  93)
+
+Percent Correct           =   93.0%   ( 964)
+
+Percent Substitution      =    4.7%   (  49)
+Percent Deletions         =    2.3%   (  24)
+Percent Insertions        =    1.9%   (  20)
+Percent Word Accuracy     =   91.0%
+
+
+Ref. words                =           (1037)
+Hyp. words                =           (1033)
+Aligned words             =           (1057)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    4  ->  a ==> the
+   2:    3  ->  cent ==> oh
+   3:    3  ->  write ==> right
+   4:    1  ->  and ==> in
+   5:    1  ->  as ==> it's
+   6:    1  ->  burying ==> varying
+   7:    1  ->  cent ==> 75
+   8:    1  ->  doorframe ==> frame
+   9:    1  ->  ducts ==> ducks
+  10:    1  ->  estimate ==> estimated
+  11:    1  ->  for ==> from
+  12:    1  ->  forests ==> forest
+  13:    1  ->  front ==> friend
+  14:    1  ->  has ==> is
+  15:    1  ->  highballs ==> balls
+  16:    1  ->  hyperapathy ==> apathy
+  17:    1  ->  i ==> that
+  18:    1  ->  is ==> his
+  19:    1  ->  its ==> it's
+  20:    1  ->  kauffman ==> kaufman
+  21:    1  ->  my ==> a
+  22:    1  ->  one ==> i
+  23:    1  ->  ooh ==> oh
+  24:    1  ->  phone ==> payphone
+  25:    1  ->  pierced ==> pierce
+  26:    1  ->  pulling ==> plying
+  27:    1  ->  quaker's ==> quakers
+  28:    1  ->  scent ==> descent
+  29:    1  ->  streets ==> street
+  30:    1  ->  temouzi ==> tam
+  31:    1  ->  that ==> nice
+  32:    1  ->  the ==> these
+  33:    1  ->  the ==> this
+  34:    1  ->  them ==> him
+  35:    1  ->  too ==> two
+  36:    1  ->  tune ==> tomb
+  37:    1  ->  two ==> ii
+  38:    1  ->  view ==> you
+  39:    1  ->  waterlogged ==> log
+  40:    1  ->  we ==> to
+  41:    1  ->  webs ==> webb's
+  42:    1  ->  wo ==> world
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  american
+   2:    1  ->  are
+   3:    1  ->  back
+   4:    1  ->  come
+   5:    1  ->  door
+   6:    1  ->  gis
+   7:    1  ->  here
+   8:    1  ->  high
+   9:    1  ->  hundreds
+  10:    1  ->  hyper
+  11:    1  ->  iraq
+  12:    1  ->  of
+  13:    1  ->  oh
+  14:    1  ->  only
+  15:    1  ->  there
+  16:    1  ->  veterans
+  17:    1  ->  war
+  18:    1  ->  water
+  19:    1  ->  who
+  20:    1  ->  your
+     -------
+        20
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    4  ->  had
+   2:    4  ->  per
+   3:    2  ->  we
+   4:    1  ->  are
+   5:    1  ->  fifty
+   6:    1  ->  five
+   7:    1  ->  he
+   8:    1  ->  inst
+   9:    1  ->  ninety
+  10:    1  ->  not
+  11:    1  ->  of
+  12:    1  ->  only
+  13:    1  ->  pay
+  14:    1  ->  seventy
+  15:    1  ->  ten
+  16:    1  ->  the
+  17:    1  ->  thinking
+     -------
+        24
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    4  ->  a
+   2:    4  ->  cent
+   3:    3  ->  write
+   4:    2  ->  the
+   5:    1  ->  and
+   6:    1  ->  as
+   7:    1  ->  burying
+   8:    1  ->  doorframe
+   9:    1  ->  ducts
+  10:    1  ->  estimate
+  11:    1  ->  for
+  12:    1  ->  forests
+  13:    1  ->  front
+  14:    1  ->  has
+  15:    1  ->  highballs
+  16:    1  ->  hyperapathy
+  17:    1  ->  i
+  18:    1  ->  is
+  19:    1  ->  its
+  20:    1  ->  kauffman
+  21:    1  ->  my
+  22:    1  ->  one
+  23:    1  ->  ooh
+  24:    1  ->  phone
+  25:    1  ->  pierced
+  26:    1  ->  pulling
+  27:    1  ->  quaker's
+  28:    1  ->  scent
+  29:    1  ->  streets
+  30:    1  ->  temouzi
+  31:    1  ->  that
+  32:    1  ->  them
+  33:    1  ->  too
+  34:    1  ->  tune
+  35:    1  ->  two
+  36:    1  ->  view
+  37:    1  ->  waterlogged
+  38:    1  ->  we
+  39:    1  ->  webs
+  40:    1  ->  wo
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    4  ->  oh
+   2:    4  ->  the
+   3:    3  ->  right
+   4:    2  ->  it's
+   5:    1  ->  75
+   6:    1  ->  a
+   7:    1  ->  apathy
+   8:    1  ->  balls
+   9:    1  ->  descent
+  10:    1  ->  ducks
+  11:    1  ->  estimated
+  12:    1  ->  forest
+  13:    1  ->  frame
+  14:    1  ->  friend
+  15:    1  ->  from
+  16:    1  ->  him
+  17:    1  ->  his
+  18:    1  ->  i
+  19:    1  ->  ii
+  20:    1  ->  in
+  21:    1  ->  is
+  22:    1  ->  kaufman
+  23:    1  ->  log
+  24:    1  ->  nice
+  25:    1  ->  payphone
+  26:    1  ->  pierce
+  27:    1  ->  plying
+  28:    1  ->  quakers
+  29:    1  ->  street
+  30:    1  ->  tam
+  31:    1  ->  that
+  32:    1  ->  these
+  33:    1  ->  this
+  34:    1  ->  to
+  35:    1  ->  tomb
+  36:    1  ->  two
+  37:    1  ->  varying
+  38:    1  ->  webb's
+  39:    1  ->  world
+  40:    1  ->  you
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,135 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.0%   (  28)
+
+Percent Correct           =   97.3%   ( 907)
+
+Percent Substitution      =    2.0%   (  19)
+Percent Deletions         =    0.6%   (   6)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   97.0%
+
+
+Ref. words                =           ( 932)
+Hyp. words                =           ( 929)
+Aligned words             =           ( 935)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  a ==> the
+   3:    1  ->  betray ==> tray
+   4:    1  ->  cerebration ==> celebration
+   5:    1  ->  could ==> can
+   6:    1  ->  forgo ==> forego
+   7:    1  ->  has ==> says
+   8:    1  ->  in ==> an
+   9:    1  ->  in ==> and
+  10:    1  ->  is ==> 's
+  11:    1  ->  life's ==> lifes
+  12:    1  ->  machines ==> machine
+  13:    1  ->  of ==> a
+  14:    1  ->  ruined ==> really
+  15:    1  ->  sanjo's ==> andrews
+  16:    1  ->  terrai ==> terrain
+  17:    1  ->  that ==> of
+  18:    1  ->  to ==> of
+  19:    1  ->  weeping ==> reaping
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  be
+   2:    1  ->  of
+   3:    1  ->  these
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  asl
+   2:    1  ->  conquistad
+   3:    1  ->  embattled
+   4:    1  ->  outcome
+   5:    1  ->  res
+   6:    1  ->  then
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  a
+   2:    2  ->  in
+   3:    1  ->  betray
+   4:    1  ->  cerebration
+   5:    1  ->  could
+   6:    1  ->  forgo
+   7:    1  ->  has
+   8:    1  ->  is
+   9:    1  ->  life's
+  10:    1  ->  machines
+  11:    1  ->  of
+  12:    1  ->  ruined
+  13:    1  ->  sanjo's
+  14:    1  ->  terrai
+  15:    1  ->  that
+  16:    1  ->  to
+  17:    1  ->  weeping
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    3  ->  of
+   2:    1  ->  's
+   3:    1  ->  a
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  andrews
+   7:    1  ->  can
+   8:    1  ->  celebration
+   9:    1  ->  forego
+  10:    1  ->  lifes
+  11:    1  ->  machine
+  12:    1  ->  really
+  13:    1  ->  reaping
+  14:    1  ->  says
+  15:    1  ->  terrain
+  16:    1  ->  the
+  17:    1  ->  tray
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

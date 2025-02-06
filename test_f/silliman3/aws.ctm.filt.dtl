@@ -1,0 +1,233 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.1%   (  80)
+
+Percent Correct           =   92.6%   ( 919)
+
+Percent Substitution      =    5.2%   (  52)
+Percent Deletions         =    2.1%   (  21)
+Percent Insertions        =    0.7%   (   7)
+Percent Word Accuracy     =   91.9%
+
+
+Ref. words                =           ( 992)
+Hyp. words                =           ( 978)
+Aligned words             =           ( 999)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    4  ->  a ==> the
+   2:    2  ->  landi ==> landy
+   3:    2  ->  vitiated ==> officiated
+   4:    1  ->  a ==> is
+   5:    1  ->  analogues ==> analogs
+   6:    1  ->  and ==> an
+   7:    1  ->  bronwich's ==> brahm's
+   8:    1  ->  claw ==> cloth
+   9:    1  ->  conflicts ==> conflict
+  10:    1  ->  eightieth ==> eddie
+  11:    1  ->  illogicalities ==> illogicality
+  12:    1  ->  it ==> he
+  13:    1  ->  its ==> the
+  14:    1  ->  less ==> as
+  15:    1  ->  mottoes ==> mottos
+  16:    1  ->  n ==> no
+  17:    1  ->  of ==> eoin
+  18:    1  ->  one ==> 51
+  19:    1  ->  one ==> we
+  20:    1  ->  oppression ==> suppression
+  21:    1  ->  or ==> cleaner
+  22:    1  ->  others' ==> others
+  23:    1  ->  peers ==> is
+  24:    1  ->  premised ==> premise
+  25:    1  ->  presumptiveness ==> presumptive
+  26:    1  ->  question's ==> is
+  27:    1  ->  referent ==> reference
+  28:    1  ->  revolving ==> evolving
+  29:    1  ->  rig ==> r
+  30:    1  ->  seem ==> seems
+  31:    1  ->  semiotician ==> semitic
+  32:    1  ->  sen ==> cent
+  33:    1  ->  sentence ==> sense
+  34:    1  ->  tagmemic ==> mimic
+  35:    1  ->  th ==> paragraph
+  36:    1  ->  the ==> still
+  37:    1  ->  the ==> that
+  38:    1  ->  thirteen ==> three
+  39:    1  ->  three ==> 53
+  40:    1  ->  tight ==> type
+  41:    1  ->  together ==> altogether
+  42:    1  ->  towards ==> toward
+  43:    1  ->  twentieth ==> 20th
+  44:    1  ->  voloshinov ==> ashinoff
+  45:    1  ->  voloshinov's ==> know's
+  46:    1  ->  warren ==> were
+  47:    1  ->  wellek ==> well
+     -------
+        52
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  here
+   2:    1  ->  in
+   3:    1  ->  one
+   4:    1  ->  question
+   5:    1  ->  tag
+   6:    1  ->  the
+   7:    1  ->  when
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  five
+   2:    2  ->  point
+   3:    2  ->  well
+   4:    1  ->  a
+   5:    1  ->  all
+   6:    1  ->  and
+   7:    1  ->  as
+   8:    1  ->  in
+   9:    1  ->  intere
+  10:    1  ->  is
+  11:    1  ->  of
+  12:    1  ->  paragra
+  13:    1  ->  plane
+  14:    1  ->  s
+  15:    1  ->  t
+  16:    1  ->  that
+  17:    1  ->  their
+  18:    1  ->  x
+     -------
+        21
+
+
+
+SUBSTITUTIONS                    Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    5  ->  a
+   2:    2  ->  landi
+   3:    2  ->  one
+   4:    2  ->  the
+   5:    2  ->  vitiated
+   6:    1  ->  analogues
+   7:    1  ->  and
+   8:    1  ->  bronwich's
+   9:    1  ->  claw
+  10:    1  ->  conflicts
+  11:    1  ->  eightieth
+  12:    1  ->  illogicalities
+  13:    1  ->  it
+  14:    1  ->  its
+  15:    1  ->  less
+  16:    1  ->  mottoes
+  17:    1  ->  n
+  18:    1  ->  of
+  19:    1  ->  oppression
+  20:    1  ->  or
+  21:    1  ->  others'
+  22:    1  ->  peers
+  23:    1  ->  premised
+  24:    1  ->  presumptiveness
+  25:    1  ->  question's
+  26:    1  ->  referent
+  27:    1  ->  revolving
+  28:    1  ->  rig
+  29:    1  ->  seem
+  30:    1  ->  semiotician
+  31:    1  ->  sen
+  32:    1  ->  sentence
+  33:    1  ->  tagmemic
+  34:    1  ->  th
+  35:    1  ->  thirteen
+  36:    1  ->  three
+  37:    1  ->  tight
+  38:    1  ->  together
+  39:    1  ->  towards
+  40:    1  ->  twentieth
+  41:    1  ->  voloshinov
+  42:    1  ->  voloshinov's
+  43:    1  ->  warren
+  44:    1  ->  wellek
+     -------
+        52
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    5  ->  the
+   2:    3  ->  is
+   3:    2  ->  landy
+   4:    2  ->  officiated
+   5:    1  ->  20th
+   6:    1  ->  51
+   7:    1  ->  53
+   8:    1  ->  altogether
+   9:    1  ->  an
+  10:    1  ->  analogs
+  11:    1  ->  as
+  12:    1  ->  ashinoff
+  13:    1  ->  brahm's
+  14:    1  ->  cent
+  15:    1  ->  cleaner
+  16:    1  ->  cloth
+  17:    1  ->  conflict
+  18:    1  ->  eddie
+  19:    1  ->  eoin
+  20:    1  ->  evolving
+  21:    1  ->  he
+  22:    1  ->  illogicality
+  23:    1  ->  know's
+  24:    1  ->  mimic
+  25:    1  ->  mottos
+  26:    1  ->  no
+  27:    1  ->  others
+  28:    1  ->  paragraph
+  29:    1  ->  premise
+  30:    1  ->  presumptive
+  31:    1  ->  r
+  32:    1  ->  reference
+  33:    1  ->  seems
+  34:    1  ->  semitic
+  35:    1  ->  sense
+  36:    1  ->  still
+  37:    1  ->  suppression
+  38:    1  ->  that
+  39:    1  ->  three
+  40:    1  ->  toward
+  41:    1  ->  type
+  42:    1  ->  we
+  43:    1  ->  well
+  44:    1  ->  were
+     -------
+        52
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

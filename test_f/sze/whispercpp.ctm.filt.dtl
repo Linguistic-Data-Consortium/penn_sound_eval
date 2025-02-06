@@ -1,0 +1,138 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.4%   (  31)
+
+Percent Correct           =   96.1%   ( 683)
+
+Percent Substitution      =    2.4%   (  17)
+Percent Deletions         =    1.5%   (  11)
+Percent Insertions        =    0.4%   (   3)
+Percent Word Accuracy     =   95.6%
+
+
+Ref. words                =           ( 711)
+Hyp. words                =           ( 703)
+Aligned words             =           ( 714)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  are ==> were
+   2:    1  ->  bass ==> base
+   3:    1  ->  caps ==> whitecaps
+   4:    1  ->  combust ==> combusts
+   5:    1  ->  dashboard ==> dashboards
+   6:    1  ->  foot ==> 65foot
+   7:    1  ->  fresh ==> bloodreshed
+   8:    1  ->  hooped ==> goldhooped
+   9:    1  ->  hundred ==> eighteen
+  10:    1  ->  lay ==> chinacale
+  11:    1  ->  place ==> placed
+  12:    1  ->  scumsucker ==> sucker
+  13:    1  ->  the ==> a
+  14:    1  ->  wet ==> quet
+  15:    1  ->  when ==> one
+  16:    1  ->  white ==> chalkwhite
+  17:    1  ->  winstead ==> at
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  blossom
+   2:    1  ->  scum
+   3:    1  ->  winced
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  blood
+   2:    1  ->  chalk
+   3:    1  ->  chenaga
+   4:    1  ->  eight
+   5:    1  ->  five
+   6:    1  ->  gold
+   7:    1  ->  one
+   8:    1  ->  sixty
+   9:    1  ->  strin
+  10:    1  ->  thousand
+  11:    1  ->  what
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  are
+   2:    1  ->  bass
+   3:    1  ->  caps
+   4:    1  ->  combust
+   5:    1  ->  dashboard
+   6:    1  ->  foot
+   7:    1  ->  fresh
+   8:    1  ->  hooped
+   9:    1  ->  hundred
+  10:    1  ->  lay
+  11:    1  ->  place
+  12:    1  ->  scumsucker
+  13:    1  ->  the
+  14:    1  ->  wet
+  15:    1  ->  when
+  16:    1  ->  white
+  17:    1  ->  winstead
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  65foot
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  base
+   5:    1  ->  bloodreshed
+   6:    1  ->  chalkwhite
+   7:    1  ->  chinacale
+   8:    1  ->  combusts
+   9:    1  ->  dashboards
+  10:    1  ->  eighteen
+  11:    1  ->  goldhooped
+  12:    1  ->  one
+  13:    1  ->  placed
+  14:    1  ->  quet
+  15:    1  ->  sucker
+  16:    1  ->  were
+  17:    1  ->  whitecaps
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

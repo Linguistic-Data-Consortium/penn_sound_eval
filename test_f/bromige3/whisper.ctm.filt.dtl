@@ -1,0 +1,196 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.7%   (  56)
+
+Percent Correct           =   95.6%   ( 938)
+
+Percent Substitution      =    3.6%   (  35)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    1.3%   (  13)
+Percent Word Accuracy     =   94.3%
+
+
+Ref. words                =           ( 981)
+Hyp. words                =           ( 986)
+Aligned words             =           ( 994)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  alone ==> along
+   3:    1  ->  blanket ==> blankets
+   4:    1  ->  but ==> that
+   5:    1  ->  butcher's ==> butchers
+   6:    1  ->  chiaroscuro ==> of
+   7:    1  ->  complacencies ==> complacences
+   8:    1  ->  crosspiece ==> piece
+   9:    1  ->  cutthroat ==> throat
+  10:    1  ->  eddies ==> is
+  11:    1  ->  falls ==> false
+  12:    1  ->  five ==> 1965
+  13:    1  ->  flick ==> flicked
+  14:    1  ->  fractions ==> bifractions
+  15:    1  ->  governments ==> government's
+  16:    1  ->  hatrack ==> wrack
+  17:    1  ->  heath ==> heap
+  18:    1  ->  hold ==> old
+  19:    1  ->  in ==> into
+  20:    1  ->  in ==> striking
+  21:    1  ->  is ==> was
+  22:    1  ->  of ==> on
+  23:    1  ->  poems ==> from
+  24:    1  ->  posit ==> it
+  25:    1  ->  pupil ==> people
+  26:    1  ->  save ==> saved
+  27:    1  ->  seen ==> seemed
+  28:    1  ->  slide ==> side
+  29:    1  ->  tommy's ==> tummy's
+  30:    1  ->  wed ==> newlywed
+  31:    1  ->  went ==> when
+  32:    1  ->  wherein ==> in
+  33:    1  ->  with ==> poem
+  34:    1  ->  you ==> he
+  35:    1  ->  your ==> you
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    1  ->  are
+   3:    1  ->  cross
+   4:    1  ->  cup
+   5:    1  ->  hat
+   6:    1  ->  it
+   7:    1  ->  key
+   8:    1  ->  of
+   9:    1  ->  or
+  10:    1  ->  pause
+  11:    1  ->  skewer
+  12:    1  ->  we
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  at
+   2:    1  ->  by
+   3:    1  ->  newly
+   4:    1  ->  nineteen
+   5:    1  ->  sixty
+   6:    1  ->  strike
+   7:    1  ->  welcome
+   8:    1  ->  your
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  in
+   2:    1  ->  a
+   3:    1  ->  alone
+   4:    1  ->  blanket
+   5:    1  ->  but
+   6:    1  ->  butcher's
+   7:    1  ->  chiaroscuro
+   8:    1  ->  complacencies
+   9:    1  ->  crosspiece
+  10:    1  ->  cutthroat
+  11:    1  ->  eddies
+  12:    1  ->  falls
+  13:    1  ->  five
+  14:    1  ->  flick
+  15:    1  ->  fractions
+  16:    1  ->  governments
+  17:    1  ->  hatrack
+  18:    1  ->  heath
+  19:    1  ->  hold
+  20:    1  ->  is
+  21:    1  ->  of
+  22:    1  ->  poems
+  23:    1  ->  posit
+  24:    1  ->  pupil
+  25:    1  ->  save
+  26:    1  ->  seen
+  27:    1  ->  slide
+  28:    1  ->  tommy's
+  29:    1  ->  wed
+  30:    1  ->  went
+  31:    1  ->  wherein
+  32:    1  ->  with
+  33:    1  ->  you
+  34:    1  ->  your
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  of
+   2:    1  ->  1965
+   3:    1  ->  along
+   4:    1  ->  bifractions
+   5:    1  ->  blankets
+   6:    1  ->  butchers
+   7:    1  ->  complacences
+   8:    1  ->  false
+   9:    1  ->  flicked
+  10:    1  ->  from
+  11:    1  ->  government's
+  12:    1  ->  he
+  13:    1  ->  heap
+  14:    1  ->  in
+  15:    1  ->  into
+  16:    1  ->  is
+  17:    1  ->  it
+  18:    1  ->  newlywed
+  19:    1  ->  old
+  20:    1  ->  on
+  21:    1  ->  people
+  22:    1  ->  piece
+  23:    1  ->  poem
+  24:    1  ->  saved
+  25:    1  ->  seemed
+  26:    1  ->  side
+  27:    1  ->  striking
+  28:    1  ->  that
+  29:    1  ->  throat
+  30:    1  ->  tummy's
+  31:    1  ->  was
+  32:    1  ->  when
+  33:    1  ->  wrack
+  34:    1  ->  you
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,154 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.5%   (  34)
+
+Percent Correct           =   96.8%   ( 937)
+
+Percent Substitution      =    2.6%   (  25)
+Percent Deletions         =    0.6%   (   6)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   96.5%
+
+
+Ref. words                =           ( 968)
+Hyp. words                =           ( 965)
+Aligned words             =           ( 971)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  open ==> opened
+   2:    1  ->  a ==> an
+   3:    1  ->  always ==> as
+   4:    1  ->  bend ==> firebend
+   5:    1  ->  bleak ==> oblique
+   6:    1  ->  cow ==> count
+   7:    1  ->  dons ==> dents
+   8:    1  ->  finger's ==> fingers
+   9:    1  ->  fish ==> goldfish
+  10:    1  ->  flair ==> flare
+  11:    1  ->  in ==> and
+  12:    1  ->  ja ==> yeah
+  13:    1  ->  lock ==> ringlock
+  14:    1  ->  mists ==> mist
+  15:    1  ->  our ==> are
+  16:    1  ->  plum ==> plumb
+  17:    1  ->  quislings ==> quizlings
+  18:    1  ->  smell ==> smelled
+  19:    1  ->  supposed ==> it
+  20:    1  ->  the ==> a
+  21:    1  ->  to ==> of
+  22:    1  ->  torma ==> tourma
+  23:    1  ->  unknown ==> known
+  24:    1  ->  would ==> wood
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  is
+   2:    1  ->  oh
+   3:    1  ->  suppose
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  fire
+   3:    1  ->  goal
+   4:    1  ->  it
+   5:    1  ->  ring
+   6:    1  ->  the
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  open
+   2:    1  ->  a
+   3:    1  ->  always
+   4:    1  ->  bend
+   5:    1  ->  bleak
+   6:    1  ->  cow
+   7:    1  ->  dons
+   8:    1  ->  finger's
+   9:    1  ->  fish
+  10:    1  ->  flair
+  11:    1  ->  in
+  12:    1  ->  ja
+  13:    1  ->  lock
+  14:    1  ->  mists
+  15:    1  ->  our
+  16:    1  ->  plum
+  17:    1  ->  quislings
+  18:    1  ->  smell
+  19:    1  ->  supposed
+  20:    1  ->  the
+  21:    1  ->  to
+  22:    1  ->  torma
+  23:    1  ->  unknown
+  24:    1  ->  would
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  opened
+   2:    1  ->  a
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  are
+   6:    1  ->  as
+   7:    1  ->  count
+   8:    1  ->  dents
+   9:    1  ->  fingers
+  10:    1  ->  firebend
+  11:    1  ->  flare
+  12:    1  ->  goldfish
+  13:    1  ->  it
+  14:    1  ->  known
+  15:    1  ->  mist
+  16:    1  ->  oblique
+  17:    1  ->  of
+  18:    1  ->  plumb
+  19:    1  ->  quizlings
+  20:    1  ->  ringlock
+  21:    1  ->  smelled
+  22:    1  ->  tourma
+  23:    1  ->  wood
+  24:    1  ->  yeah
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

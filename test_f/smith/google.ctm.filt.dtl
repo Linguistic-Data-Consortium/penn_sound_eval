@@ -1,0 +1,183 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.7%   (  56)
+
+Percent Correct           =   94.9%   ( 795)
+
+Percent Substitution      =    3.9%   (  33)
+Percent Deletions         =    1.2%   (  10)
+Percent Insertions        =    1.6%   (  13)
+Percent Word Accuracy     =   93.3%
+
+
+Ref. words                =           ( 838)
+Hyp. words                =           ( 841)
+Aligned words             =           ( 851)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  boober ==> boomer
+   2:    1  ->  acupressure ==> acupuncture
+   3:    1  ->  an ==> and
+   4:    1  ->  as ==> is
+   5:    1  ->  backcountry ==> country
+   6:    1  ->  clenched ==> clinch
+   7:    1  ->  culled ==> called
+   8:    1  ->  entire ==> tired
+   9:    1  ->  for ==> or
+  10:    1  ->  had ==> really
+  11:    1  ->  jiggs ==> jigs
+  12:    1  ->  keeping ==> keepy
+  13:    1  ->  latticework ==> work
+  14:    1  ->  laze ==> lays
+  15:    1  ->  lo ==> low
+  16:    1  ->  lone ==> loan
+  17:    1  ->  loss ==> lost
+  18:    1  ->  m ==> am
+  19:    1  ->  micromanaged ==> managed
+  20:    1  ->  oaf ==> oath
+  21:    1  ->  orgone ==> organ
+  22:    1  ->  other's ==> others
+  23:    1  ->  paddle ==> prattle
+  24:    1  ->  seen ==> scene
+  25:    1  ->  tawdry ==> tadri
+  26:    1  ->  x ==> graffitied
+  27:    1  ->  x ==> keepy
+  28:    1  ->  x ==> laura
+  29:    1  ->  x ==> none
+  30:    1  ->  x ==> nucks
+  31:    1  ->  x ==> woman
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  about
+   2:    1  ->  am
+   3:    1  ->  an
+   4:    1  ->  back
+   5:    1  ->  clock
+   6:    1  ->  is
+   7:    1  ->  keepy
+   8:    1  ->  lattice
+   9:    1  ->  micro
+  10:    1  ->  of
+  11:    1  ->  on
+  12:    1  ->  the
+  13:    1  ->  what
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  al
+   2:    1  ->  and
+   3:    1  ->  c
+   4:    1  ->  is
+   5:    1  ->  it
+   6:    1  ->  o
+   7:    1  ->  partici
+   8:    1  ->  plac
+   9:    1  ->  time
+  10:    1  ->  twi
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    6  ->  x
+   2:    3  ->  boober
+   3:    1  ->  acupressure
+   4:    1  ->  an
+   5:    1  ->  as
+   6:    1  ->  backcountry
+   7:    1  ->  clenched
+   8:    1  ->  culled
+   9:    1  ->  entire
+  10:    1  ->  for
+  11:    1  ->  had
+  12:    1  ->  jiggs
+  13:    1  ->  keeping
+  14:    1  ->  latticework
+  15:    1  ->  laze
+  16:    1  ->  lo
+  17:    1  ->  lone
+  18:    1  ->  loss
+  19:    1  ->  m
+  20:    1  ->  micromanaged
+  21:    1  ->  oaf
+  22:    1  ->  orgone
+  23:    1  ->  other's
+  24:    1  ->  paddle
+  25:    1  ->  seen
+  26:    1  ->  tawdry
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  boomer
+   2:    2  ->  keepy
+   3:    1  ->  acupuncture
+   4:    1  ->  am
+   5:    1  ->  and
+   6:    1  ->  called
+   7:    1  ->  clinch
+   8:    1  ->  country
+   9:    1  ->  graffitied
+  10:    1  ->  is
+  11:    1  ->  jigs
+  12:    1  ->  laura
+  13:    1  ->  lays
+  14:    1  ->  loan
+  15:    1  ->  lost
+  16:    1  ->  low
+  17:    1  ->  managed
+  18:    1  ->  none
+  19:    1  ->  nucks
+  20:    1  ->  oath
+  21:    1  ->  or
+  22:    1  ->  organ
+  23:    1  ->  others
+  24:    1  ->  prattle
+  25:    1  ->  really
+  26:    1  ->  scene
+  27:    1  ->  tadri
+  28:    1  ->  tired
+  29:    1  ->  woman
+  30:    1  ->  work
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,211 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.5%   (  78)
+
+Percent Correct           =   92.6%   ( 847)
+
+Percent Substitution      =    3.8%   (  35)
+Percent Deletions         =    3.6%   (  33)
+Percent Insertions        =    1.1%   (  10)
+Percent Word Accuracy     =   91.5%
+
+
+Ref. words                =           ( 915)
+Hyp. words                =           ( 892)
+Aligned words             =           ( 925)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  icebox ==> box
+   2:    1  ->  %bcack ==> rosa
+   3:    1  ->  a ==> the
+   4:    1  ->  and ==> in
+   5:    1  ->  bluhm ==> bloom
+   6:    1  ->  casay ==> casse
+   7:    1  ->  claven's ==> clavin
+   8:    1  ->  davide ==> david
+   9:    1  ->  diaghilev ==> diago
+  10:    1  ->  dolorosa ==> la
+  11:    1  ->  dum ==> doom
+  12:    1  ->  fagin ==> fagan
+  13:    1  ->  glennan's ==> glennon
+  14:    1  ->  guston ==> gustin
+  15:    1  ->  in ==> an
+  16:    1  ->  it ==> pagett
+  17:    1  ->  le ==> ecl
+  18:    1  ->  mater ==> de
+  19:    1  ->  mcgillivray's ==> mcgillivray
+  20:    1  ->  mcgivern's ==> mcgivern
+  21:    1  ->  meet ==> got
+  22:    1  ->  mitchell's ==> mitchells
+  23:    1  ->  musique ==> mu
+  24:    1  ->  nine ==> 1939
+  25:    1  ->  plat ==> pla
+  26:    1  ->  poem ==> film
+  27:    1  ->  saint ==> st
+  28:    1  ->  sapeep ==> sape
+  29:    1  ->  the ==> a
+  30:    1  ->  thirty ==> 30th
+  31:    1  ->  three ==> 123
+  32:    1  ->  williams' ==> williams
+  33:    1  ->  with ==> of
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    3  ->  ice
+   2:    1  ->  be
+   3:    1  ->  god
+   4:    1  ->  m
+   5:    1  ->  my
+   6:    1  ->  oh
+   7:    1  ->  or
+   8:    1  ->  yes
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  take
+   2:    2  ->  that
+   3:    1  ->  a
+   4:    1  ->  actually
+   5:    1  ->  but
+   6:    1  ->  come
+   7:    1  ->  had
+   8:    1  ->  halfway
+   9:    1  ->  if
+  10:    1  ->  is
+  11:    1  ->  k.
+  12:    1  ->  let
+  13:    1  ->  me
+  14:    1  ->  nineteen
+  15:    1  ->  o.
+  16:    1  ->  oeufs
+  17:    1  ->  one
+  18:    1  ->  padgett
+  19:    1  ->  so
+  20:    1  ->  stage
+  21:    1  ->  sur
+  22:    1  ->  the
+  23:    1  ->  thirtieth
+  24:    1  ->  time
+  25:    1  ->  to
+  26:    1  ->  two
+  27:    1  ->  up
+  28:    1  ->  water
+  29:    1  ->  we
+  30:    1  ->  x
+  31:    1  ->  your
+     -------
+        33
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  icebox
+   2:    1  ->  %bcack
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  bluhm
+   6:    1  ->  casay
+   7:    1  ->  claven's
+   8:    1  ->  davide
+   9:    1  ->  diaghilev
+  10:    1  ->  dolorosa
+  11:    1  ->  dum
+  12:    1  ->  fagin
+  13:    1  ->  glennan's
+  14:    1  ->  guston
+  15:    1  ->  in
+  16:    1  ->  it
+  17:    1  ->  le
+  18:    1  ->  mater
+  19:    1  ->  mcgillivray's
+  20:    1  ->  mcgivern's
+  21:    1  ->  meet
+  22:    1  ->  mitchell's
+  23:    1  ->  musique
+  24:    1  ->  nine
+  25:    1  ->  plat
+  26:    1  ->  poem
+  27:    1  ->  saint
+  28:    1  ->  sapeep
+  29:    1  ->  the
+  30:    1  ->  thirty
+  31:    1  ->  three
+  32:    1  ->  williams'
+  33:    1  ->  with
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  box
+   2:    1  ->  123
+   3:    1  ->  1939
+   4:    1  ->  30th
+   5:    1  ->  a
+   6:    1  ->  an
+   7:    1  ->  bloom
+   8:    1  ->  casse
+   9:    1  ->  clavin
+  10:    1  ->  david
+  11:    1  ->  de
+  12:    1  ->  diago
+  13:    1  ->  doom
+  14:    1  ->  ecl
+  15:    1  ->  fagan
+  16:    1  ->  film
+  17:    1  ->  glennon
+  18:    1  ->  got
+  19:    1  ->  gustin
+  20:    1  ->  in
+  21:    1  ->  la
+  22:    1  ->  mcgillivray
+  23:    1  ->  mcgivern
+  24:    1  ->  mitchells
+  25:    1  ->  mu
+  26:    1  ->  of
+  27:    1  ->  pagett
+  28:    1  ->  pla
+  29:    1  ->  rosa
+  30:    1  ->  sape
+  31:    1  ->  st
+  32:    1  ->  the
+  33:    1  ->  williams
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

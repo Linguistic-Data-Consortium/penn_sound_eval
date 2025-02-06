@@ -1,0 +1,205 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.0%   (  59)
+
+Percent Correct           =   94.8%   ( 927)
+
+Percent Substitution      =    4.4%   (  43)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   94.0%
+
+
+Ref. words                =           ( 978)
+Hyp. words                =           ( 978)
+Aligned words             =           ( 986)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    5  ->  forty ==> oh
+   2:    1  ->  a ==> the
+   3:    1  ->  ailing ==> alien
+   4:    1  ->  banton ==> bantan
+   5:    1  ->  bellay ==> dubelet
+   6:    1  ->  bewitched ==> bewitch
+   7:    1  ->  boll ==> bull
+   8:    1  ->  buju ==> boju
+   9:    1  ->  coltraine ==> train
+  10:    1  ->  eyed ==> blueeyed
+  11:    1  ->  fifth ==> 45th
+  12:    1  ->  formed ==> halfformed
+  13:    1  ->  fourth ==> 44th
+  14:    1  ->  handedness ==> secondhandedness
+  15:    1  ->  headedness ==> twoheadedness
+  16:    1  ->  high ==> i
+  17:    1  ->  in ==> and
+  18:    1  ->  instinctual ==> instinctive
+  19:    1  ->  laundromat ==> mat
+  20:    1  ->  martyr ==> mother
+  21:    1  ->  montenegro ==> negro
+  22:    1  ->  montigo ==> montego
+  23:    1  ->  ninety ==> nine
+  24:    1  ->  prez ==> praise
+  25:    1  ->  rain ==> reign
+  26:    1  ->  raps ==> rats
+  27:    1  ->  risque ==> riske
+  28:    1  ->  seven ==> 7
+  29:    1  ->  shearling ==> shirling
+  30:    1  ->  slims ==> slim
+  31:    1  ->  squash ==> squashed
+  32:    1  ->  steal ==> still
+  33:    1  ->  threatened ==> threaten
+  34:    1  ->  turncoats ==> coach
+  35:    1  ->  untied ==> untyed
+  36:    1  ->  vines ==> veins
+  37:    1  ->  virginia ==> virginia's
+  38:    1  ->  windowsill ==> sill
+  39:    1  ->  yvonda's ==> yavanda's
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  cult
+   2:    1  ->  it
+   3:    1  ->  laundry
+   4:    1  ->  monte
+   5:    1  ->  see
+   6:    1  ->  turn
+   7:    1  ->  way
+   8:    1  ->  window
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  forty
+   2:    1  ->  blue
+   3:    1  ->  du
+   4:    1  ->  half
+   5:    1  ->  scent
+   6:    1  ->  second
+   7:    1  ->  two
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    5  ->  forty
+   2:    1  ->  a
+   3:    1  ->  ailing
+   4:    1  ->  banton
+   5:    1  ->  bellay
+   6:    1  ->  bewitched
+   7:    1  ->  boll
+   8:    1  ->  buju
+   9:    1  ->  coltraine
+  10:    1  ->  eyed
+  11:    1  ->  fifth
+  12:    1  ->  formed
+  13:    1  ->  fourth
+  14:    1  ->  handedness
+  15:    1  ->  headedness
+  16:    1  ->  high
+  17:    1  ->  in
+  18:    1  ->  instinctual
+  19:    1  ->  laundromat
+  20:    1  ->  martyr
+  21:    1  ->  montenegro
+  22:    1  ->  montigo
+  23:    1  ->  ninety
+  24:    1  ->  prez
+  25:    1  ->  rain
+  26:    1  ->  raps
+  27:    1  ->  risque
+  28:    1  ->  seven
+  29:    1  ->  shearling
+  30:    1  ->  slims
+  31:    1  ->  squash
+  32:    1  ->  steal
+  33:    1  ->  threatened
+  34:    1  ->  turncoats
+  35:    1  ->  untied
+  36:    1  ->  vines
+  37:    1  ->  virginia
+  38:    1  ->  windowsill
+  39:    1  ->  yvonda's
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    5  ->  oh
+   2:    1  ->  44th
+   3:    1  ->  45th
+   4:    1  ->  7
+   5:    1  ->  alien
+   6:    1  ->  and
+   7:    1  ->  bantan
+   8:    1  ->  bewitch
+   9:    1  ->  blueeyed
+  10:    1  ->  boju
+  11:    1  ->  bull
+  12:    1  ->  coach
+  13:    1  ->  dubelet
+  14:    1  ->  halfformed
+  15:    1  ->  i
+  16:    1  ->  instinctive
+  17:    1  ->  mat
+  18:    1  ->  montego
+  19:    1  ->  mother
+  20:    1  ->  negro
+  21:    1  ->  nine
+  22:    1  ->  praise
+  23:    1  ->  rats
+  24:    1  ->  reign
+  25:    1  ->  riske
+  26:    1  ->  secondhandedness
+  27:    1  ->  shirling
+  28:    1  ->  sill
+  29:    1  ->  slim
+  30:    1  ->  squashed
+  31:    1  ->  still
+  32:    1  ->  the
+  33:    1  ->  threaten
+  34:    1  ->  train
+  35:    1  ->  twoheadedness
+  36:    1  ->  untyed
+  37:    1  ->  veins
+  38:    1  ->  virginia's
+  39:    1  ->  yavanda's
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

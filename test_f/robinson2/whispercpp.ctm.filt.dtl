@@ -1,0 +1,139 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.2%   (  43)
+
+Percent Correct           =   96.6%   (1001)
+
+Percent Substitution      =    1.7%   (  18)
+Percent Deletions         =    1.6%   (  17)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   95.8%
+
+
+Ref. words                =           (1036)
+Hyp. words                =           (1027)
+Aligned words             =           (1044)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  in ==> and
+   2:    1  ->  a ==> the
+   3:    1  ->  are ==> it's
+   4:    1  ->  bearing ==> burying
+   5:    1  ->  cane ==> essentials
+   6:    1  ->  jena ==> gina
+   7:    1  ->  just ==> is
+   8:    1  ->  onto ==> to
+   9:    1  ->  redman ==> redmond
+  10:    1  ->  seventies ==> 70s
+  11:    1  ->  th ==> spar
+  12:    1  ->  th ==> that
+  13:    1  ->  they ==> there
+  14:    1  ->  ups ==> changeups
+  15:    1  ->  wee ==> peewee
+  16:    1  ->  x ==> and
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    4  ->  the
+   2:    1  ->  it
+   3:    1  ->  king
+   4:    1  ->  on
+   5:    1  ->  read
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  a
+   2:    2  ->  m
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  auto
+   6:    1  ->  change
+   7:    1  ->  it
+   8:    1  ->  k.
+   9:    1  ->  o.
+  10:    1  ->  pee
+  11:    1  ->  so
+  12:    1  ->  spahr
+  13:    1  ->  w
+  14:    1  ->  wh
+  15:    1  ->  x
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  in
+   2:    2  ->  th
+   3:    1  ->  a
+   4:    1  ->  are
+   5:    1  ->  bearing
+   6:    1  ->  cane
+   7:    1  ->  jena
+   8:    1  ->  just
+   9:    1  ->  onto
+  10:    1  ->  redman
+  11:    1  ->  seventies
+  12:    1  ->  they
+  13:    1  ->  ups
+  14:    1  ->  wee
+  15:    1  ->  x
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    4  ->  and
+   2:    1  ->  70s
+   3:    1  ->  burying
+   4:    1  ->  changeups
+   5:    1  ->  essentials
+   6:    1  ->  gina
+   7:    1  ->  is
+   8:    1  ->  it's
+   9:    1  ->  peewee
+  10:    1  ->  redmond
+  11:    1  ->  spar
+  12:    1  ->  that
+  13:    1  ->  the
+  14:    1  ->  there
+  15:    1  ->  to
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

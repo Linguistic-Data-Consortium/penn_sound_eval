@@ -1,0 +1,158 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.8%   (  56)
+
+Percent Correct           =   96.0%   ( 930)
+
+Percent Substitution      =    2.6%   (  25)
+Percent Deletions         =    1.4%   (  14)
+Percent Insertions        =    1.8%   (  17)
+Percent Word Accuracy     =   94.2%
+
+
+Ref. words                =           ( 969)
+Hyp. words                =           ( 972)
+Aligned words             =           ( 986)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    4  ->  elka ==> elca
+   2:    1  ->  beds ==> bed
+   3:    1  ->  bellied ==> potbellied
+   4:    1  ->  chenille ==> chanel
+   5:    1  ->  crazed ==> craze
+   6:    1  ->  deckered ==> decked
+   7:    1  ->  eek ==> ee
+   8:    1  ->  eighty ==> oh
+   9:    1  ->  elka ==> has
+  10:    1  ->  elka's ==> is
+  11:    1  ->  first ==> 21st
+  12:    1  ->  forty ==> oh
+  13:    1  ->  gnawed ==> nod
+  14:    1  ->  got ==> scott
+  15:    1  ->  loudmouth ==> mouth
+  16:    1  ->  nine ==> 2009
+  17:    1  ->  old ==> 19yearold
+  18:    1  ->  one ==> 1981
+  19:    1  ->  sisters ==> sister
+  20:    1  ->  stoned ==> stone
+  21:    1  ->  turn ==> turned
+  22:    1  ->  unwedged ==> unwed
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    8  ->  <laugh>
+   2:    2  ->  dash
+   3:    1  ->  and
+   4:    1  ->  azua
+   5:    1  ->  elca
+   6:    1  ->  elk
+   7:    1  ->  loud
+   8:    1  ->  ugh
+   9:    1  ->  za
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  had
+   2:    2  ->  nineteen
+   3:    1  ->  and
+   4:    1  ->  eek
+   5:    1  ->  eighty
+   6:    1  ->  long
+   7:    1  ->  pot
+   8:    1  ->  thousand
+   9:    1  ->  twenty
+  10:    1  ->  two
+  11:    1  ->  yeah
+  12:    1  ->  year
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    5  ->  elka
+   2:    1  ->  beds
+   3:    1  ->  bellied
+   4:    1  ->  chenille
+   5:    1  ->  crazed
+   6:    1  ->  deckered
+   7:    1  ->  eek
+   8:    1  ->  eighty
+   9:    1  ->  elka's
+  10:    1  ->  first
+  11:    1  ->  forty
+  12:    1  ->  gnawed
+  13:    1  ->  got
+  14:    1  ->  loudmouth
+  15:    1  ->  nine
+  16:    1  ->  old
+  17:    1  ->  one
+  18:    1  ->  sisters
+  19:    1  ->  stoned
+  20:    1  ->  turn
+  21:    1  ->  unwedged
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    4  ->  elca
+   2:    2  ->  oh
+   3:    1  ->  1981
+   4:    1  ->  19yearold
+   5:    1  ->  2009
+   6:    1  ->  21st
+   7:    1  ->  bed
+   8:    1  ->  chanel
+   9:    1  ->  craze
+  10:    1  ->  decked
+  11:    1  ->  ee
+  12:    1  ->  has
+  13:    1  ->  is
+  14:    1  ->  mouth
+  15:    1  ->  nod
+  16:    1  ->  potbellied
+  17:    1  ->  scott
+  18:    1  ->  sister
+  19:    1  ->  stone
+  20:    1  ->  turned
+  21:    1  ->  unwed
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

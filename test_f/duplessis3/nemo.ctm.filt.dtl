@@ -1,0 +1,252 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.7%   (  96)
+
+Percent Correct           =   90.5%   ( 813)
+
+Percent Substitution      =    5.9%   (  53)
+Percent Deletions         =    3.6%   (  32)
+Percent Insertions        =    1.2%   (  11)
+Percent Word Accuracy     =   89.3%
+
+
+Ref. words                =           ( 898)
+Hyp. words                =           ( 877)
+Aligned words             =           ( 909)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  denn ==> den
+   2:    2  ->  german ==> durable
+   3:    2  ->  mourning ==> morning
+   4:    1  ->  a ==> the
+   5:    1  ->  and ==> riden
+   6:    1  ->  are ==> is
+   7:    1  ->  because ==> but
+   8:    1  ->  by ==> woman
+   9:    1  ->  cut ==> intercut
+  10:    1  ->  dana ==> dania
+  11:    1  ->  dark ==> henadark
+  12:    1  ->  denn ==> dane
+  13:    1  ->  did ==> do
+  14:    1  ->  else ==> elves
+  15:    1  ->  englobed ==> enclosed
+  16:    1  ->  hatches ==> crosshatches
+  17:    1  ->  ing ==> and
+  18:    1  ->  ist ==> is
+  19:    1  ->  ist ==> you
+  20:    1  ->  it ==> spell
+  21:    1  ->  just ==> mark
+  22:    1  ->  know ==> others
+  23:    1  ->  mnemosyne ==> nemosyne
+  24:    1  ->  nirgends ==> against
+  25:    1  ->  nirgends ==> nirgens
+  26:    1  ->  ns ==> n's
+  27:    1  ->  palimpsest ==> palipsest
+  28:    1  ->  parnassius ==> parnassus
+  29:    1  ->  provenance ==> providence
+  30:    1  ->  quipu ==> blue
+  31:    1  ->  rs ==> r's
+  32:    1  ->  saldana ==> sal
+  33:    1  ->  screams ==> scrims
+  34:    1  ->  so ==> maybe
+  35:    1  ->  spelled ==> out
+  36:    1  ->  starter ==> starker
+  37:    1  ->  stranger ==> stranger's
+  38:    1  ->  tact ==> tight
+  39:    1  ->  there's ==> it's
+  40:    1  ->  there's ==> were
+  41:    1  ->  they ==> there
+  42:    1  ->  things ==> poem
+  43:    1  ->  throws ==> throes
+  44:    1  ->  trackable ==> untrackable
+  45:    1  ->  void ==> intervoid
+  46:    1  ->  want ==> wanted
+  47:    1  ->  wor ==> not
+  48:    1  ->  work ==> were
+  49:    1  ->  you ==> the
+  50:    1  ->  ys ==> y's
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  had
+   4:    1  ->  i
+   5:    1  ->  is
+   6:    1  ->  it
+   7:    1  ->  not
+   8:    1  ->  quick
+   9:    1  ->  slash
+  10:    1  ->  that
+  11:    1  ->  the
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  a
+   2:    3  ->  it
+   3:    2  ->  of
+   4:    2  ->  the
+   5:    2  ->  there
+   6:    1  ->  and
+   7:    1  ->  at
+   8:    1  ->  cross
+   9:    1  ->  degre
+  10:    1  ->  from
+  11:    1  ->  gul
+  12:    1  ->  henna
+  13:    1  ->  in
+  14:    1  ->  indy
+  15:    1  ->  ink
+  16:    1  ->  into
+  17:    1  ->  is
+  18:    1  ->  it's
+  19:    1  ->  kind
+  20:    1  ->  l
+  21:    1  ->  line
+  22:    1  ->  ride
+  23:    1  ->  s
+  24:    1  ->  un
+  25:    1  ->  which
+     -------
+        32
+
+
+
+SUBSTITUTIONS                    Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    3  ->  denn
+   2:    2  ->  german
+   3:    2  ->  ist
+   4:    2  ->  mourning
+   5:    2  ->  nirgends
+   6:    2  ->  there's
+   7:    1  ->  a
+   8:    1  ->  and
+   9:    1  ->  are
+  10:    1  ->  because
+  11:    1  ->  by
+  12:    1  ->  cut
+  13:    1  ->  dana
+  14:    1  ->  dark
+  15:    1  ->  did
+  16:    1  ->  else
+  17:    1  ->  englobed
+  18:    1  ->  hatches
+  19:    1  ->  ing
+  20:    1  ->  it
+  21:    1  ->  just
+  22:    1  ->  know
+  23:    1  ->  mnemosyne
+  24:    1  ->  ns
+  25:    1  ->  palimpsest
+  26:    1  ->  parnassius
+  27:    1  ->  provenance
+  28:    1  ->  quipu
+  29:    1  ->  rs
+  30:    1  ->  saldana
+  31:    1  ->  screams
+  32:    1  ->  so
+  33:    1  ->  spelled
+  34:    1  ->  starter
+  35:    1  ->  stranger
+  36:    1  ->  tact
+  37:    1  ->  they
+  38:    1  ->  things
+  39:    1  ->  throws
+  40:    1  ->  trackable
+  41:    1  ->  void
+  42:    1  ->  want
+  43:    1  ->  wor
+  44:    1  ->  work
+  45:    1  ->  you
+  46:    1  ->  ys
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  den
+   2:    2  ->  durable
+   3:    2  ->  is
+   4:    2  ->  morning
+   5:    2  ->  the
+   6:    2  ->  were
+   7:    1  ->  against
+   8:    1  ->  and
+   9:    1  ->  blue
+  10:    1  ->  but
+  11:    1  ->  crosshatches
+  12:    1  ->  dane
+  13:    1  ->  dania
+  14:    1  ->  do
+  15:    1  ->  elves
+  16:    1  ->  enclosed
+  17:    1  ->  henadark
+  18:    1  ->  intercut
+  19:    1  ->  intervoid
+  20:    1  ->  it's
+  21:    1  ->  mark
+  22:    1  ->  maybe
+  23:    1  ->  n's
+  24:    1  ->  nemosyne
+  25:    1  ->  nirgens
+  26:    1  ->  not
+  27:    1  ->  others
+  28:    1  ->  out
+  29:    1  ->  palipsest
+  30:    1  ->  parnassus
+  31:    1  ->  poem
+  32:    1  ->  providence
+  33:    1  ->  r's
+  34:    1  ->  riden
+  35:    1  ->  sal
+  36:    1  ->  scrims
+  37:    1  ->  spell
+  38:    1  ->  starker
+  39:    1  ->  stranger's
+  40:    1  ->  there
+  41:    1  ->  throes
+  42:    1  ->  tight
+  43:    1  ->  untrackable
+  44:    1  ->  wanted
+  45:    1  ->  woman
+  46:    1  ->  y's
+  47:    1  ->  you
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

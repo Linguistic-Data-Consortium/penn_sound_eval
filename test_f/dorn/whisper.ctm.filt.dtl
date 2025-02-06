@@ -1,0 +1,106 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    1.6%   (  13)
+
+Percent Correct           =   98.7%   ( 819)
+
+Percent Substitution      =    1.2%   (  10)
+Percent Deletions         =    0.1%   (   1)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   98.4%
+
+
+Ref. words                =           ( 830)
+Hyp. words                =           ( 831)
+Aligned words             =           ( 832)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  aye ==> i
+   2:    1  ->  bay ==> bathe
+   3:    1  ->  bombs ==> firebombs
+   4:    1  ->  croyden ==> croydon
+   5:    1  ->  herriman ==> harriman
+   6:    1  ->  ishamelite ==> ishmaelite
+   7:    1  ->  nation ==> nations
+   8:    1  ->  productions ==> production
+   9:    1  ->  regents ==> regent
+  10:    1  ->  shutter ==> shudder
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  the
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  fire
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  aye
+   2:    1  ->  bay
+   3:    1  ->  bombs
+   4:    1  ->  croyden
+   5:    1  ->  herriman
+   6:    1  ->  ishamelite
+   7:    1  ->  nation
+   8:    1  ->  productions
+   9:    1  ->  regents
+  10:    1  ->  shutter
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  bathe
+   2:    1  ->  croydon
+   3:    1  ->  firebombs
+   4:    1  ->  harriman
+   5:    1  ->  i
+   6:    1  ->  ishmaelite
+   7:    1  ->  nations
+   8:    1  ->  production
+   9:    1  ->  regent
+  10:    1  ->  shudder
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,142 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.6%   (  48)
+
+Percent Correct           =   96.7%   (1003)
+
+Percent Substitution      =    1.4%   (  15)
+Percent Deletions         =    1.8%   (  19)
+Percent Insertions        =    1.4%   (  14)
+Percent Word Accuracy     =   95.4%
+
+
+Ref. words                =           (1037)
+Hyp. words                =           (1032)
+Aligned words             =           (1051)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> 80s
+   3:    1  ->  and ==> poetry
+   4:    1  ->  darken ==> in
+   5:    1  ->  down ==> on
+   6:    1  ->  dunne ==> donne
+   7:    1  ->  looming ==> gloomy
+   8:    1  ->  of ==> in
+   9:    1  ->  pea ==> sweepy
+  10:    1  ->  placed ==> place
+  11:    1  ->  pohjola ==> pojola
+  12:    1  ->  scapegrace ==> scapegraced
+  13:    1  ->  sun ==> son
+  14:    1  ->  tania ==> tanya
+  15:    1  ->  thought ==> though
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    4  ->  is
+   2:    2  ->  a
+   3:    1  ->  called
+   4:    1  ->  dark
+   5:    1  ->  i
+   6:    1  ->  so
+   7:    1  ->  them
+   8:    1  ->  this
+   9:    1  ->  was
+  10:    1  ->  what
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    4  ->  and
+   2:    1  ->  a
+   3:    1  ->  b
+   4:    1  ->  eighties
+   5:    1  ->  how
+   6:    1  ->  i
+   7:    1  ->  in
+   8:    1  ->  it
+   9:    1  ->  it's
+  10:    1  ->  just
+  11:    1  ->  or
+  12:    1  ->  s
+  13:    1  ->  sweet
+  14:    1  ->  then
+  15:    1  ->  was
+  16:    1  ->  wha
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  darken
+   4:    1  ->  down
+   5:    1  ->  dunne
+   6:    1  ->  looming
+   7:    1  ->  of
+   8:    1  ->  pea
+   9:    1  ->  placed
+  10:    1  ->  pohjola
+  11:    1  ->  scapegrace
+  12:    1  ->  sun
+  13:    1  ->  tania
+  14:    1  ->  thought
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  in
+   2:    1  ->  80s
+   3:    1  ->  donne
+   4:    1  ->  gloomy
+   5:    1  ->  on
+   6:    1  ->  place
+   7:    1  ->  poetry
+   8:    1  ->  pojola
+   9:    1  ->  scapegraced
+  10:    1  ->  son
+  11:    1  ->  sweepy
+  12:    1  ->  tanya
+  13:    1  ->  the
+  14:    1  ->  though
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

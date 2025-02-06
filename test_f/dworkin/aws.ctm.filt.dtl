@@ -1,0 +1,194 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.4%   (  78)
+
+Percent Correct           =   92.4%   ( 860)
+
+Percent Substitution      =    5.5%   (  51)
+Percent Deletions         =    2.1%   (  20)
+Percent Insertions        =    0.8%   (   7)
+Percent Word Accuracy     =   91.6%
+
+
+Ref. words                =           ( 931)
+Hyp. words                =           ( 918)
+Aligned words             =           ( 938)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    6  ->  ninety ==> nine
+   2:    5  ->  noun ==> no
+   3:    2  ->  forty ==> zero
+   4:    2  ->  hundred ==> zero
+   5:    2  ->  six ==> 606
+   6:    2  ->  two ==> 602
+   7:    1  ->  a ==> of
+   8:    1  ->  and ==> an
+   9:    1  ->  artell ==> held
+  10:    1  ->  choicelessness ==> lessness
+  11:    1  ->  eight ==> 608
+  12:    1  ->  fifty ==> five
+  13:    1  ->  forty ==> four
+  14:    1  ->  future ==> feature
+  15:    1  ->  in ==> and
+  16:    1  ->  in ==> treading
+  17:    1  ->  it's ==> this
+  18:    1  ->  manner ==> matter
+  19:    1  ->  noun ==> now
+  20:    1  ->  oh ==> no
+  21:    1  ->  oh ==> stubbornness
+  22:    1  ->  or ==> of
+  23:    1  ->  perseverace ==> perseverance
+  24:    1  ->  pertinaciousness ==> tenacity
+  25:    1  ->  pertinacity ==> per
+  26:    1  ->  pointing ==> pointed
+  27:    1  ->  principal ==> principle
+  28:    1  ->  right ==> write
+  29:    1  ->  role ==> rule
+  30:    1  ->  seek ==> sake
+  31:    1  ->  six ==> 608
+  32:    1  ->  six ==> tenaciousness
+  33:    1  ->  stars' ==> stars
+  34:    1  ->  stubbornness ==> per
+  35:    1  ->  ten ==> oh
+  36:    1  ->  three ==> 953
+  37:    1  ->  unchangeability ==> unchangeable
+  38:    1  ->  with ==> of
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  four
+   2:    1  ->  a
+   3:    1  ->  are
+   4:    1  ->  choice
+   5:    1  ->  it
+   6:    1  ->  right
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    4  ->  oh
+   2:    4  ->  six
+   3:    2  ->  a
+   4:    1  ->  an
+   5:    1  ->  eight
+   6:    1  ->  fifty
+   7:    1  ->  for
+   8:    1  ->  it
+   9:    1  ->  nine
+  10:    1  ->  noun
+  11:    1  ->  poo
+  12:    1  ->  to
+  13:    1  ->  tread
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    6  ->  ninety
+   2:    6  ->  noun
+   3:    4  ->  six
+   4:    3  ->  forty
+   5:    2  ->  hundred
+   6:    2  ->  in
+   7:    2  ->  oh
+   8:    2  ->  two
+   9:    1  ->  a
+  10:    1  ->  and
+  11:    1  ->  artell
+  12:    1  ->  choicelessness
+  13:    1  ->  eight
+  14:    1  ->  fifty
+  15:    1  ->  future
+  16:    1  ->  it's
+  17:    1  ->  manner
+  18:    1  ->  or
+  19:    1  ->  perseverace
+  20:    1  ->  pertinaciousness
+  21:    1  ->  pertinacity
+  22:    1  ->  pointing
+  23:    1  ->  principal
+  24:    1  ->  right
+  25:    1  ->  role
+  26:    1  ->  seek
+  27:    1  ->  stars'
+  28:    1  ->  stubbornness
+  29:    1  ->  ten
+  30:    1  ->  three
+  31:    1  ->  unchangeability
+  32:    1  ->  with
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    6  ->  nine
+   2:    6  ->  no
+   3:    4  ->  zero
+   4:    3  ->  of
+   5:    2  ->  602
+   6:    2  ->  606
+   7:    2  ->  608
+   8:    2  ->  per
+   9:    1  ->  953
+  10:    1  ->  an
+  11:    1  ->  and
+  12:    1  ->  feature
+  13:    1  ->  five
+  14:    1  ->  four
+  15:    1  ->  held
+  16:    1  ->  lessness
+  17:    1  ->  matter
+  18:    1  ->  now
+  19:    1  ->  oh
+  20:    1  ->  perseverance
+  21:    1  ->  pointed
+  22:    1  ->  principle
+  23:    1  ->  rule
+  24:    1  ->  sake
+  25:    1  ->  stars
+  26:    1  ->  stubbornness
+  27:    1  ->  tenaciousness
+  28:    1  ->  tenacity
+  29:    1  ->  this
+  30:    1  ->  treading
+  31:    1  ->  unchangeable
+  32:    1  ->  write
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

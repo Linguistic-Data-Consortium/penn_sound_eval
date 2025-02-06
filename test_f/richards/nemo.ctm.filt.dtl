@@ -1,0 +1,99 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.8%   (  18)
+
+Percent Correct           =   98.1%   ( 635)
+
+Percent Substitution      =    0.6%   (   4)
+Percent Deletions         =    1.2%   (   8)
+Percent Insertions        =    0.9%   (   6)
+Percent Word Accuracy     =   97.2%
+
+
+Ref. words                =           ( 647)
+Hyp. words                =           ( 645)
+Aligned words             =           ( 653)
+
+CONFUSION PAIRS                  Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  breast ==> breath
+   2:    1  ->  hours ==> ours
+   3:    1  ->  towards ==> toward
+   4:    1  ->  yolk ==> yoke
+     -------
+         4
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  both
+   3:    1  ->  end
+   4:    1  ->  is
+   5:    1  ->  it's
+   6:    1  ->  sun
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  at
+   2:    1  ->  dust
+   3:    1  ->  into
+   4:    1  ->  pools
+   5:    1  ->  t
+   6:    1  ->  were
+   7:    1  ->  yes
+   8:    1  ->  you
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  breast
+   2:    1  ->  hours
+   3:    1  ->  towards
+   4:    1  ->  yolk
+     -------
+         4
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  breath
+   2:    1  ->  ours
+   3:    1  ->  toward
+   4:    1  ->  yoke
+     -------
+         4
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

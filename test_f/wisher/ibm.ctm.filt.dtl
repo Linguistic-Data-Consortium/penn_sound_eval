@@ -1,0 +1,253 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.8%   (  76)
+
+Percent Correct           =   93.4%   ( 913)
+
+Percent Substitution      =    5.8%   (  57)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    1.2%   (  12)
+Percent Word Accuracy     =   92.2%
+
+
+Ref. words                =           ( 977)
+Hyp. words                =           ( 982)
+Aligned words             =           ( 989)
+
+CONFUSION PAIRS                  Total                 (55)
+                                 With >=  1 occurrences (55)
+
+   1:    2  ->  grandmama's ==> grandma's
+   2:    2  ->  who ==> to
+   3:    1  ->  a ==> the
+   4:    1  ->  ailing ==> in
+   5:    1  ->  asses ==> ***
+   6:    1  ->  banks ==> still
+   7:    1  ->  be ==> campy
+   8:    1  ->  bellay ==> ballet
+   9:    1  ->  berets ==> beats
+  10:    1  ->  bewitched ==> high
+  11:    1  ->  bilingual ==> lingle
+  12:    1  ->  boll ==> bull
+  13:    1  ->  chakras ==> shockers
+  14:    1  ->  coltraine ==> culturing
+  15:    1  ->  dido ==> dito
+  16:    1  ->  du ==> do
+  17:    1  ->  fray ==> free
+  18:    1  ->  gamma ==> game
+  19:    1  ->  ghosts ==> ghost
+  20:    1  ->  hoodie ==> hoody
+  21:    1  ->  in ==> and
+  22:    1  ->  laundromat ==> mat
+  23:    1  ->  lingo ==> milingo
+  24:    1  ->  loins ==> lawns
+  25:    1  ->  lullaby ==> leiby
+  26:    1  ->  martyr ==> made
+  27:    1  ->  mic ==> mike
+  28:    1  ->  mist ==> missed
+  29:    1  ->  montigo ==> montego
+  30:    1  ->  our ==> renata
+  31:    1  ->  people's ==> bulls
+  32:    1  ->  poems ==> homes
+  33:    1  ->  prez ==> press
+  34:    1  ->  raps ==> rats
+  35:    1  ->  rims ==> room
+  36:    1  ->  scent ==> sent
+  37:    1  ->  shearling ==> shelling
+  38:    1  ->  shit ==> ***
+  39:    1  ->  sipping ==> in
+  40:    1  ->  slims ==> slim
+  41:    1  ->  steal ==> pit
+  42:    1  ->  steal ==> steel
+  43:    1  ->  the ==> tthe
+  44:    1  ->  threatened ==> threaten
+  45:    1  ->  to ==> hello
+  46:    1  ->  to ==> two
+  47:    1  ->  turncoats ==> coach
+  48:    1  ->  usa ==> a
+  49:    1  ->  vines ==> vans
+  50:    1  ->  wail ==> wall
+  51:    1  ->  washboards ==> boards
+  52:    1  ->  weevil ==> weebles
+  53:    1  ->  windowsill ==> sill
+  54:    1  ->  wino ==> wine
+  55:    1  ->  yvonda's ==> banda's
+     -------
+        57
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  all
+   2:    1  ->  bank
+   3:    1  ->  by
+   4:    1  ->  laundry
+   5:    1  ->  sit
+   6:    1  ->  turn
+   7:    1  ->  us
+   8:    1  ->  view
+   9:    1  ->  wash
+  10:    1  ->  who
+  11:    1  ->  window
+  12:    1  ->  ya
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  cannot
+   2:    1  ->  hell
+   3:    1  ->  high
+   4:    1  ->  my
+   5:    1  ->  on
+   6:    1  ->  rain
+   7:    1  ->  you
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    2  ->  grandmama's
+   2:    2  ->  steal
+   3:    2  ->  to
+   4:    2  ->  who
+   5:    1  ->  a
+   6:    1  ->  ailing
+   7:    1  ->  asses
+   8:    1  ->  banks
+   9:    1  ->  be
+  10:    1  ->  bellay
+  11:    1  ->  berets
+  12:    1  ->  bewitched
+  13:    1  ->  bilingual
+  14:    1  ->  boll
+  15:    1  ->  chakras
+  16:    1  ->  coltraine
+  17:    1  ->  dido
+  18:    1  ->  du
+  19:    1  ->  fray
+  20:    1  ->  gamma
+  21:    1  ->  ghosts
+  22:    1  ->  hoodie
+  23:    1  ->  in
+  24:    1  ->  laundromat
+  25:    1  ->  lingo
+  26:    1  ->  loins
+  27:    1  ->  lullaby
+  28:    1  ->  martyr
+  29:    1  ->  mic
+  30:    1  ->  mist
+  31:    1  ->  montigo
+  32:    1  ->  our
+  33:    1  ->  people's
+  34:    1  ->  poems
+  35:    1  ->  prez
+  36:    1  ->  raps
+  37:    1  ->  rims
+  38:    1  ->  scent
+  39:    1  ->  shearling
+  40:    1  ->  shit
+  41:    1  ->  sipping
+  42:    1  ->  slims
+  43:    1  ->  the
+  44:    1  ->  threatened
+  45:    1  ->  turncoats
+  46:    1  ->  usa
+  47:    1  ->  vines
+  48:    1  ->  wail
+  49:    1  ->  washboards
+  50:    1  ->  weevil
+  51:    1  ->  windowsill
+  52:    1  ->  wino
+  53:    1  ->  yvonda's
+     -------
+        57
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    2  ->  ***
+   2:    2  ->  grandma's
+   3:    2  ->  in
+   4:    2  ->  to
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  ballet
+   8:    1  ->  banda's
+   9:    1  ->  beats
+  10:    1  ->  boards
+  11:    1  ->  bull
+  12:    1  ->  bulls
+  13:    1  ->  campy
+  14:    1  ->  coach
+  15:    1  ->  culturing
+  16:    1  ->  dito
+  17:    1  ->  do
+  18:    1  ->  free
+  19:    1  ->  game
+  20:    1  ->  ghost
+  21:    1  ->  hello
+  22:    1  ->  high
+  23:    1  ->  homes
+  24:    1  ->  hoody
+  25:    1  ->  lawns
+  26:    1  ->  leiby
+  27:    1  ->  lingle
+  28:    1  ->  made
+  29:    1  ->  mat
+  30:    1  ->  mike
+  31:    1  ->  milingo
+  32:    1  ->  missed
+  33:    1  ->  montego
+  34:    1  ->  pit
+  35:    1  ->  press
+  36:    1  ->  rats
+  37:    1  ->  renata
+  38:    1  ->  room
+  39:    1  ->  sent
+  40:    1  ->  shelling
+  41:    1  ->  shockers
+  42:    1  ->  sill
+  43:    1  ->  slim
+  44:    1  ->  steel
+  45:    1  ->  still
+  46:    1  ->  the
+  47:    1  ->  threaten
+  48:    1  ->  tthe
+  49:    1  ->  two
+  50:    1  ->  vans
+  51:    1  ->  wall
+  52:    1  ->  weebles
+  53:    1  ->  wine
+     -------
+        57
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

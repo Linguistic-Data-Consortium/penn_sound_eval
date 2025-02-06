@@ -1,0 +1,164 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.3%   (  68)
+
+Percent Correct           =   93.2%   ( 868)
+
+Percent Substitution      =    4.2%   (  39)
+Percent Deletions         =    2.6%   (  24)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   92.7%
+
+
+Ref. words                =           ( 931)
+Hyp. words                =           ( 912)
+Aligned words             =           ( 936)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    6  ->  ninety ==> nine
+   2:    3  ->  cetera ==> etc
+   3:    2  ->  eight ==> 608
+   4:    2  ->  forty ==> zero
+   5:    2  ->  hundred ==> zero
+   6:    2  ->  six ==> 606
+   7:    2  ->  two ==> 602
+   8:    1  ->  a ==> the
+   9:    1  ->  and ==> an
+  10:    1  ->  artell ==> held
+  11:    1  ->  fifty ==> five
+  12:    1  ->  forty ==> four
+  13:    1  ->  future ==> feature
+  14:    1  ->  in ==> an
+  15:    1  ->  in ==> treading
+  16:    1  ->  it ==> this
+  17:    1  ->  manner ==> matter
+  18:    1  ->  or ==> of
+  19:    1  ->  perseverace ==> perseverance
+  20:    1  ->  principal ==> principle
+  21:    1  ->  roget's ==> roger's
+  22:    1  ->  sane ==> saying
+  23:    1  ->  seek ==> sake
+  24:    1  ->  stars' ==> stars
+  25:    1  ->  ten ==> oh
+  26:    1  ->  three ==> 953
+  27:    1  ->  with ==> of
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  a
+   2:    2  ->  four
+   3:    1  ->  arts
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    6  ->  oh
+   2:    6  ->  six
+   3:    3  ->  et
+   4:    1  ->  a
+   5:    1  ->  an
+   6:    1  ->  fifty
+   7:    1  ->  for
+   8:    1  ->  it's
+   9:    1  ->  nine
+  10:    1  ->  poo
+  11:    1  ->  to
+  12:    1  ->  tread
+     -------
+        24
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    6  ->  ninety
+   2:    3  ->  cetera
+   3:    3  ->  forty
+   4:    2  ->  eight
+   5:    2  ->  hundred
+   6:    2  ->  in
+   7:    2  ->  six
+   8:    2  ->  two
+   9:    1  ->  a
+  10:    1  ->  and
+  11:    1  ->  artell
+  12:    1  ->  fifty
+  13:    1  ->  future
+  14:    1  ->  it
+  15:    1  ->  manner
+  16:    1  ->  or
+  17:    1  ->  perseverace
+  18:    1  ->  principal
+  19:    1  ->  roget's
+  20:    1  ->  sane
+  21:    1  ->  seek
+  22:    1  ->  stars'
+  23:    1  ->  ten
+  24:    1  ->  three
+  25:    1  ->  with
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    6  ->  nine
+   2:    4  ->  zero
+   3:    3  ->  etc
+   4:    2  ->  602
+   5:    2  ->  606
+   6:    2  ->  608
+   7:    2  ->  an
+   8:    2  ->  of
+   9:    1  ->  953
+  10:    1  ->  feature
+  11:    1  ->  five
+  12:    1  ->  four
+  13:    1  ->  held
+  14:    1  ->  matter
+  15:    1  ->  oh
+  16:    1  ->  perseverance
+  17:    1  ->  principle
+  18:    1  ->  roger's
+  19:    1  ->  sake
+  20:    1  ->  saying
+  21:    1  ->  stars
+  22:    1  ->  the
+  23:    1  ->  this
+  24:    1  ->  treading
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

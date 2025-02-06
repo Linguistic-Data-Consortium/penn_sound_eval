@@ -1,0 +1,128 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.7%   (  23)
+
+Percent Correct           =   97.4%   ( 833)
+
+Percent Substitution      =    2.2%   (  19)
+Percent Deletions         =    0.4%   (   3)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   97.3%
+
+
+Ref. words                =           ( 855)
+Hyp. words                =           ( 853)
+Aligned words             =           ( 856)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  hole ==> whole
+   2:    2  ->  stair ==> stare
+   3:    1  ->  behindhand ==> hand
+   4:    1  ->  bits ==> alphabets
+   5:    1  ->  bloodied ==> bloody
+   6:    1  ->  canzone ==> canne
+   7:    1  ->  cosy ==> cozy
+   8:    1  ->  dolls ==> doll
+   9:    1  ->  in ==> and
+  10:    1  ->  it ==> had
+  11:    1  ->  its ==> it's
+  12:    1  ->  laid ==> lay
+  13:    1  ->  l’ingresso ==> reso
+  14:    1  ->  rectitudes ==> rectitude
+  15:    1  ->  shuddering ==> shuttering
+  16:    1  ->  vow ==> avow
+  17:    1  ->  watch ==> watched
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  behind
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  alpha
+   3:    1  ->  vietato
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  hole
+   2:    2  ->  stair
+   3:    1  ->  behindhand
+   4:    1  ->  bits
+   5:    1  ->  bloodied
+   6:    1  ->  canzone
+   7:    1  ->  cosy
+   8:    1  ->  dolls
+   9:    1  ->  in
+  10:    1  ->  it
+  11:    1  ->  its
+  12:    1  ->  laid
+  13:    1  ->  l’ingresso
+  14:    1  ->  rectitudes
+  15:    1  ->  shuddering
+  16:    1  ->  vow
+  17:    1  ->  watch
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  stare
+   2:    2  ->  whole
+   3:    1  ->  alphabets
+   4:    1  ->  and
+   5:    1  ->  avow
+   6:    1  ->  bloody
+   7:    1  ->  canne
+   8:    1  ->  cozy
+   9:    1  ->  doll
+  10:    1  ->  had
+  11:    1  ->  hand
+  12:    1  ->  it's
+  13:    1  ->  lay
+  14:    1  ->  rectitude
+  15:    1  ->  reso
+  16:    1  ->  shuttering
+  17:    1  ->  watched
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

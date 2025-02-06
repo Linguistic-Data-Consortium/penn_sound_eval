@@ -1,0 +1,145 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.8%   (  47)
+
+Percent Correct           =   94.6%   ( 765)
+
+Percent Substitution      =    2.2%   (  18)
+Percent Deletions         =    3.2%   (  26)
+Percent Insertions        =    0.4%   (   3)
+Percent Word Accuracy     =   94.2%
+
+
+Ref. words                =           ( 809)
+Hyp. words                =           ( 786)
+Aligned words             =           ( 812)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  gianlorenzo ==> lorenzo
+   2:    1  ->  a ==> an
+   3:    1  ->  aire ==> ayer
+   4:    1  ->  bare ==> bear
+   5:    1  ->  bower ==> bauer
+   6:    1  ->  constanza ==> costanza
+   7:    1  ->  curators ==> curators'
+   8:    1  ->  eight ==> 2008
+   9:    1  ->  gtmo ==> gitmo
+  10:    1  ->  historians ==> historians'
+  11:    1  ->  mathilda's ==> matilda's
+  12:    1  ->  saint ==> st
+  13:    1  ->  seventies ==> 1970s
+  14:    1  ->  the ==> 2009
+  15:    1  ->  the ==> a
+  16:    1  ->  twenty ==> two
+  17:    1  ->  wittkower’s ==> wittkauer's
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  gian
+   2:    1  ->  now
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    4  ->  in
+   2:    2  ->  the
+   3:    2  ->  thousand
+   4:    2  ->  two
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  as
+   8:    1  ->  is
+   9:    1  ->  it's
+  10:    1  ->  nine
+  11:    1  ->  nineteen
+  12:    1  ->  oh
+  13:    1  ->  on
+  14:    1  ->  or
+  15:    1  ->  p
+  16:    1  ->  rea
+  17:    1  ->  s
+  18:    1  ->  t
+  19:    1  ->  u
+  20:    1  ->  what
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  gianlorenzo
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  aire
+   5:    1  ->  bare
+   6:    1  ->  bower
+   7:    1  ->  constanza
+   8:    1  ->  curators
+   9:    1  ->  eight
+  10:    1  ->  gtmo
+  11:    1  ->  historians
+  12:    1  ->  mathilda's
+  13:    1  ->  saint
+  14:    1  ->  seventies
+  15:    1  ->  twenty
+  16:    1  ->  wittkower’s
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  lorenzo
+   2:    1  ->  1970s
+   3:    1  ->  2008
+   4:    1  ->  2009
+   5:    1  ->  a
+   6:    1  ->  an
+   7:    1  ->  ayer
+   8:    1  ->  bauer
+   9:    1  ->  bear
+  10:    1  ->  costanza
+  11:    1  ->  curators'
+  12:    1  ->  gitmo
+  13:    1  ->  historians'
+  14:    1  ->  matilda's
+  15:    1  ->  st
+  16:    1  ->  two
+  17:    1  ->  wittkauer's
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

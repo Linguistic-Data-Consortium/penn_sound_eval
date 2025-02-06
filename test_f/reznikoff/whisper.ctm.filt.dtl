@@ -1,0 +1,167 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.1%   (  53)
+
+Percent Correct           =   95.4%   ( 996)
+
+Percent Substitution      =    2.5%   (  26)
+Percent Deletions         =    2.1%   (  22)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   94.9%
+
+
+Ref. words                =           (1044)
+Hyp. words                =           (1027)
+Aligned words             =           (1049)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  ten ==> oh
+   2:    2  ->  twenty ==> oh
+   3:    1  ->  a ==> if
+   4:    1  ->  about ==> gear
+   5:    1  ->  around ==> on
+   6:    1  ->  but ==> may
+   7:    1  ->  clock ==> 'clock
+   8:    1  ->  dog ==> door
+   9:    1  ->  gained ==> came
+  10:    1  ->  here ==> new
+  11:    1  ->  icebox ==> box
+  12:    1  ->  in ==> of
+  13:    1  ->  mar ==> marsh
+  14:    1  ->  me ==> as
+  15:    1  ->  minute ==> i
+  16:    1  ->  motorcars ==> cars
+  17:    1  ->  oh ==> him
+  18:    1  ->  oh ==> o
+  19:    1  ->  one ==> when
+  20:    1  ->  or ==> are
+  21:    1  ->  the ==> a
+  22:    1  ->  thumping ==> bumping
+  23:    1  ->  wait ==> waiter
+  24:    1  ->  will ==> a
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  held
+   2:    1  ->  ice
+   3:    1  ->  motor
+   4:    1  ->  the
+   5:    1  ->  to
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  i
+   2:    1  ->  a
+   3:    1  ->  about
+   4:    1  ->  and
+   5:    1  ->  are
+   6:    1  ->  do
+   7:    1  ->  excuse
+   8:    1  ->  has
+   9:    1  ->  he
+  10:    1  ->  it
+  11:    1  ->  know
+  12:    1  ->  late
+  13:    1  ->  move
+  14:    1  ->  not
+  15:    1  ->  that
+  16:    1  ->  that's
+  17:    1  ->  the
+  18:    1  ->  this
+  19:    1  ->  who
+  20:    1  ->  x
+     -------
+        22
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  oh
+   2:    2  ->  ten
+   3:    2  ->  twenty
+   4:    1  ->  a
+   5:    1  ->  about
+   6:    1  ->  around
+   7:    1  ->  but
+   8:    1  ->  clock
+   9:    1  ->  dog
+  10:    1  ->  gained
+  11:    1  ->  here
+  12:    1  ->  icebox
+  13:    1  ->  in
+  14:    1  ->  mar
+  15:    1  ->  me
+  16:    1  ->  minute
+  17:    1  ->  motorcars
+  18:    1  ->  one
+  19:    1  ->  or
+  20:    1  ->  the
+  21:    1  ->  thumping
+  22:    1  ->  wait
+  23:    1  ->  will
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    4  ->  oh
+   2:    2  ->  a
+   3:    1  ->  'clock
+   4:    1  ->  are
+   5:    1  ->  as
+   6:    1  ->  box
+   7:    1  ->  bumping
+   8:    1  ->  came
+   9:    1  ->  cars
+  10:    1  ->  door
+  11:    1  ->  gear
+  12:    1  ->  him
+  13:    1  ->  i
+  14:    1  ->  if
+  15:    1  ->  marsh
+  16:    1  ->  may
+  17:    1  ->  new
+  18:    1  ->  o
+  19:    1  ->  of
+  20:    1  ->  on
+  21:    1  ->  waiter
+  22:    1  ->  when
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

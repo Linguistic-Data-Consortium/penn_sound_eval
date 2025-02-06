@@ -1,0 +1,128 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.6%   (  28)
+
+Percent Correct           =   97.5%   (1039)
+
+Percent Substitution      =    2.0%   (  21)
+Percent Deletions         =    0.6%   (   6)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   97.4%
+
+
+Ref. words                =           (1066)
+Hyp. words                =           (1061)
+Aligned words             =           (1067)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  hundred ==> oh
+   2:    2  ->  return ==> returned
+   3:    1  ->  alecks ==> alex
+   4:    1  ->  asked ==> as
+   5:    1  ->  at ==> and
+   6:    1  ->  course ==> chorus
+   7:    1  ->  eight ==> deeds
+   8:    1  ->  fifteen ==> 15th
+   9:    1  ->  hundred ==> zero
+  10:    1  ->  hustvedt ==> hve
+  11:    1  ->  mail ==> male
+  12:    1  ->  said ==> son
+  13:    1  ->  siri's ==> siri
+  14:    1  ->  ten ==> oh
+  15:    1  ->  thousand ==> 10000
+  16:    1  ->  twelve ==> two
+  17:    1  ->  x ==> or
+  18:    1  ->  x ==> ours
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  one
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    3  ->  a
+   2:    2  ->  three
+   3:    1  ->  ten
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    4  ->  hundred
+   2:    2  ->  return
+   3:    2  ->  x
+   4:    1  ->  alecks
+   5:    1  ->  asked
+   6:    1  ->  at
+   7:    1  ->  course
+   8:    1  ->  eight
+   9:    1  ->  fifteen
+  10:    1  ->  hustvedt
+  11:    1  ->  mail
+  12:    1  ->  said
+  13:    1  ->  siri's
+  14:    1  ->  ten
+  15:    1  ->  thousand
+  16:    1  ->  twelve
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    4  ->  oh
+   2:    2  ->  returned
+   3:    1  ->  10000
+   4:    1  ->  15th
+   5:    1  ->  alex
+   6:    1  ->  and
+   7:    1  ->  as
+   8:    1  ->  chorus
+   9:    1  ->  deeds
+  10:    1  ->  hve
+  11:    1  ->  male
+  12:    1  ->  or
+  13:    1  ->  ours
+  14:    1  ->  siri
+  15:    1  ->  son
+  16:    1  ->  two
+  17:    1  ->  zero
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

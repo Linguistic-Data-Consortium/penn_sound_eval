@@ -1,0 +1,244 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.8%   (  87)
+
+Percent Correct           =   92.8%   (1041)
+
+Percent Substitution      =    5.0%   (  56)
+Percent Deletions         =    2.2%   (  25)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   92.2%
+
+
+Ref. words                =           (1122)
+Hyp. words                =           (1103)
+Aligned words             =           (1128)
+
+CONFUSION PAIRS                  Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    3  ->  velazquez ==> velasquez
+   2:    2  ->  lachaise ==> perilachez
+   3:    2  ->  manet ==> monet
+   4:    2  ->  oh ==> though
+   5:    1  ->  a ==> the
+   6:    1  ->  allan ==> alan
+   7:    1  ->  anne ==> and
+   8:    1  ->  art ==> arts
+   9:    1  ->  berkson ==> and
+  10:    1  ->  brainard ==> brainerd
+  11:    1  ->  carpentier ==> charpentier
+  12:    1  ->  ceravolo ==> travolo
+  13:    1  ->  charpentier ==> pontier
+  14:    1  ->  chartered ==> charted
+  15:    1  ->  concertina ==> concertino
+  16:    1  ->  denby ==> denbigh
+  17:    1  ->  do ==> be
+  18:    1  ->  does ==> was
+  19:    1  ->  earth ==> herb
+  20:    1  ->  elmslie ==> elmsley
+  21:    1  ->  enquire ==> inquire
+  22:    1  ->  fagin ==> fagan
+  23:    1  ->  floors ==> flores
+  24:    1  ->  fourth ==> four
+  25:    1  ->  girono ==> giorno
+  26:    1  ->  hart ==> hard
+  27:    1  ->  hurt ==> heard
+  28:    1  ->  in ==> and
+  29:    1  ->  intoxicant ==> and
+  30:    1  ->  it ==> at
+  31:    1  ->  kenward ==> kenrard
+  32:    1  ->  melancholy ==> melancholic
+  33:    1  ->  not ==> knot
+  34:    1  ->  not ==> of
+  35:    1  ->  or ==> but
+  36:    1  ->  outline ==> outlined
+  37:    1  ->  pacing ==> facing
+  38:    1  ->  padgett ==> paget
+  39:    1  ->  parts ==> parks
+  40:    1  ->  peopling ==> in
+  41:    1  ->  poised ==> poise
+  42:    1  ->  rocked ==> brought
+  43:    1  ->  rubens ==> reubens
+  44:    1  ->  schjeldahl ==> sheldahl
+  45:    1  ->  schuyler ==> skyler
+  46:    1  ->  shelves ==> shells
+  47:    1  ->  sixteen ==> sixty
+  48:    1  ->  soul ==> so
+  49:    1  ->  velazquez ==> skills
+  50:    1  ->  warsh ==> wash
+  51:    1  ->  when ==> and
+     -------
+        56
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  burks
+   3:    1  ->  char
+   4:    1  ->  people
+   5:    1  ->  toxic
+   6:    1  ->  wow
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  and
+   2:    2  ->  k.
+   3:    2  ->  o.
+   4:    2  ->  pere
+   5:    2  ->  the
+   6:    2  ->  time
+   7:    1  ->  at
+   8:    1  ->  did
+   9:    1  ->  fourth
+  10:    1  ->  him
+  11:    1  ->  historical
+  12:    1  ->  i
+  13:    1  ->  know
+  14:    1  ->  let
+  15:    1  ->  me
+  16:    1  ->  not
+  17:    1  ->  read
+  18:    1  ->  well
+     -------
+        25
+
+
+
+SUBSTITUTIONS                    Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    4  ->  velazquez
+   2:    2  ->  lachaise
+   3:    2  ->  manet
+   4:    2  ->  not
+   5:    2  ->  oh
+   6:    1  ->  a
+   7:    1  ->  allan
+   8:    1  ->  anne
+   9:    1  ->  art
+  10:    1  ->  berkson
+  11:    1  ->  brainard
+  12:    1  ->  carpentier
+  13:    1  ->  ceravolo
+  14:    1  ->  charpentier
+  15:    1  ->  chartered
+  16:    1  ->  concertina
+  17:    1  ->  denby
+  18:    1  ->  do
+  19:    1  ->  does
+  20:    1  ->  earth
+  21:    1  ->  elmslie
+  22:    1  ->  enquire
+  23:    1  ->  fagin
+  24:    1  ->  floors
+  25:    1  ->  fourth
+  26:    1  ->  girono
+  27:    1  ->  hart
+  28:    1  ->  hurt
+  29:    1  ->  in
+  30:    1  ->  intoxicant
+  31:    1  ->  it
+  32:    1  ->  kenward
+  33:    1  ->  melancholy
+  34:    1  ->  or
+  35:    1  ->  outline
+  36:    1  ->  pacing
+  37:    1  ->  padgett
+  38:    1  ->  parts
+  39:    1  ->  peopling
+  40:    1  ->  poised
+  41:    1  ->  rocked
+  42:    1  ->  rubens
+  43:    1  ->  schjeldahl
+  44:    1  ->  schuyler
+  45:    1  ->  shelves
+  46:    1  ->  sixteen
+  47:    1  ->  soul
+  48:    1  ->  warsh
+  49:    1  ->  when
+     -------
+        56
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    5  ->  and
+   2:    3  ->  velasquez
+   3:    2  ->  monet
+   4:    2  ->  perilachez
+   5:    2  ->  though
+   6:    1  ->  alan
+   7:    1  ->  arts
+   8:    1  ->  at
+   9:    1  ->  be
+  10:    1  ->  brainerd
+  11:    1  ->  brought
+  12:    1  ->  but
+  13:    1  ->  charpentier
+  14:    1  ->  charted
+  15:    1  ->  concertino
+  16:    1  ->  denbigh
+  17:    1  ->  elmsley
+  18:    1  ->  facing
+  19:    1  ->  fagan
+  20:    1  ->  flores
+  21:    1  ->  four
+  22:    1  ->  giorno
+  23:    1  ->  hard
+  24:    1  ->  heard
+  25:    1  ->  herb
+  26:    1  ->  in
+  27:    1  ->  inquire
+  28:    1  ->  kenrard
+  29:    1  ->  knot
+  30:    1  ->  melancholic
+  31:    1  ->  of
+  32:    1  ->  outlined
+  33:    1  ->  paget
+  34:    1  ->  parks
+  35:    1  ->  poise
+  36:    1  ->  pontier
+  37:    1  ->  reubens
+  38:    1  ->  sheldahl
+  39:    1  ->  shells
+  40:    1  ->  sixty
+  41:    1  ->  skills
+  42:    1  ->  skyler
+  43:    1  ->  so
+  44:    1  ->  the
+  45:    1  ->  travolo
+  46:    1  ->  was
+  47:    1  ->  wash
+     -------
+        56
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

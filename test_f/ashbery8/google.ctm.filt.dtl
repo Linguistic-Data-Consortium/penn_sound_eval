@@ -1,0 +1,188 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.6%   (  52)
+
+Percent Correct           =   96.1%   (1094)
+
+Percent Substitution      =    2.9%   (  33)
+Percent Deletions         =    1.0%   (  11)
+Percent Insertions        =    0.7%   (   8)
+Percent Word Accuracy     =   95.4%
+
+
+Ref. words                =           (1138)
+Hyp. words                =           (1135)
+Aligned words             =           (1146)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  canons ==> cannons
+   2:    1  ->  celebre ==> celebro
+   3:    1  ->  days ==> is
+   4:    1  ->  fours ==> four
+   5:    1  ->  francks' ==> frank
+   6:    1  ->  gnossienne ==> gnossian
+   7:    1  ->  has ==> is
+   8:    1  ->  i'v ==> have
+   9:    1  ->  immigrated ==> emigrated
+  10:    1  ->  interstices ==> interspaces
+  11:    1  ->  into ==> the
+  12:    1  ->  it's ==> its
+  13:    1  ->  le ==> the
+  14:    1  ->  muddled ==> muddle
+  15:    1  ->  occurence ==> occurrence
+  16:    1  ->  pachelbel ==> bell
+  17:    1  ->  passed ==> past
+  18:    1  ->  plain ==> plane
+  19:    1  ->  plus ==> place
+  20:    1  ->  reason's ==> and
+  21:    1  ->  refused ==> refuse
+  22:    1  ->  route ==> root
+  23:    1  ->  sadder ==> sicker
+  24:    1  ->  scheherazade ==> shehrazad
+  25:    1  ->  seemed ==> seem
+  26:    1  ->  soir ==> swir
+  27:    1  ->  that ==> the
+  28:    1  ->  transformed ==> transform
+  29:    1  ->  ways ==> way
+  30:    1  ->  white ==> light
+  31:    1  ->  wiser ==> there
+  32:    1  ->  with ==> was
+  33:    1  ->  x ==> perre
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  birds
+   2:    1  ->  day
+   3:    1  ->  i
+   4:    1  ->  in
+   5:    1  ->  is
+   6:    1  ->  pacello
+   7:    1  ->  reasons
+   8:    1  ->  what
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  american
+   3:    1  ->  century
+   4:    1  ->  incidentally
+   5:    1  ->  it
+   6:    1  ->  merrill
+   7:    1  ->  nineteenth
+   8:    1  ->  s
+   9:    1  ->  stuart
+  10:    1  ->  the
+  11:    1  ->  was
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    1  ->  canons
+   2:    1  ->  celebre
+   3:    1  ->  days
+   4:    1  ->  fours
+   5:    1  ->  francks'
+   6:    1  ->  gnossienne
+   7:    1  ->  has
+   8:    1  ->  i'v
+   9:    1  ->  immigrated
+  10:    1  ->  interstices
+  11:    1  ->  into
+  12:    1  ->  it's
+  13:    1  ->  le
+  14:    1  ->  muddled
+  15:    1  ->  occurence
+  16:    1  ->  pachelbel
+  17:    1  ->  passed
+  18:    1  ->  plain
+  19:    1  ->  plus
+  20:    1  ->  reason's
+  21:    1  ->  refused
+  22:    1  ->  route
+  23:    1  ->  sadder
+  24:    1  ->  scheherazade
+  25:    1  ->  seemed
+  26:    1  ->  soir
+  27:    1  ->  that
+  28:    1  ->  transformed
+  29:    1  ->  ways
+  30:    1  ->  white
+  31:    1  ->  wiser
+  32:    1  ->  with
+  33:    1  ->  x
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  the
+   2:    2  ->  is
+   3:    1  ->  and
+   4:    1  ->  bell
+   5:    1  ->  cannons
+   6:    1  ->  celebro
+   7:    1  ->  emigrated
+   8:    1  ->  four
+   9:    1  ->  frank
+  10:    1  ->  gnossian
+  11:    1  ->  have
+  12:    1  ->  interspaces
+  13:    1  ->  its
+  14:    1  ->  light
+  15:    1  ->  muddle
+  16:    1  ->  occurrence
+  17:    1  ->  past
+  18:    1  ->  perre
+  19:    1  ->  place
+  20:    1  ->  plane
+  21:    1  ->  refuse
+  22:    1  ->  root
+  23:    1  ->  seem
+  24:    1  ->  shehrazad
+  25:    1  ->  sicker
+  26:    1  ->  swir
+  27:    1  ->  there
+  28:    1  ->  transform
+  29:    1  ->  was
+  30:    1  ->  way
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

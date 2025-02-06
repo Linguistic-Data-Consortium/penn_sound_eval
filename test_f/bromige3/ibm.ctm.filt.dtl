@@ -1,0 +1,427 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.0%   ( 147)
+
+Percent Correct           =   86.4%   ( 848)
+
+Percent Substitution      =   12.5%   ( 123)
+Percent Deletions         =    1.1%   (  11)
+Percent Insertions        =    1.3%   (  13)
+Percent Word Accuracy     =   85.0%
+
+
+Ref. words                =           ( 982)
+Hyp. words                =           ( 984)
+Aligned words             =           ( 995)
+
+CONFUSION PAIRS                  Total                 (121)
+                                 With >=  1 occurrences (121)
+
+   1:    3  ->  a ==> the
+   2:    1  ->  a ==> is
+   3:    1  ->  a ==> of
+   4:    1  ->  a ==> so
+   5:    1  ->  ache ==> egg
+   6:    1  ->  all ==> our
+   7:    1  ->  alone ==> along
+   8:    1  ->  as ==> is
+   9:    1  ->  as ==> so
+  10:    1  ->  at ==> quite
+  11:    1  ->  at ==> that
+  12:    1  ->  begun ==> to
+  13:    1  ->  birch ==> butch
+  14:    1  ->  bitch ==> ***
+  15:    1  ->  blanket ==> blankets
+  16:    1  ->  bluff ==> blast
+  17:    1  ->  bluffer ==> bluff
+  18:    1  ->  body ==> bad
+  19:    1  ->  book ==> about
+  20:    1  ->  brought ==> broke
+  21:    1  ->  but ==> and
+  22:    1  ->  but ==> fever
+  23:    1  ->  but ==> that
+  24:    1  ->  but ==> the
+  25:    1  ->  butcher's ==> butches
+  26:    1  ->  called ==> coat
+  27:    1  ->  chevy's ==> chevys
+  28:    1  ->  chiaroscuro ==> of
+  29:    1  ->  closer ==> close
+  30:    1  ->  clumps ==> cups
+  31:    1  ->  complacencies ==> complacency
+  32:    1  ->  conjures ==> comes
+  33:    1  ->  covers ==> cupboards
+  34:    1  ->  crater's ==> crates
+  35:    1  ->  crosspiece ==> piece
+  36:    1  ->  cutthroat ==> throat
+  37:    1  ->  dark ==> dock
+  38:    1  ->  dark ==> duck
+  39:    1  ->  drove ==> throw
+  40:    1  ->  eddies ==> is
+  41:    1  ->  enormity ==> amenity
+  42:    1  ->  falls ==> false
+  43:    1  ->  flick ==> flink
+  44:    1  ->  floods ==> flooded
+  45:    1  ->  forth ==> for
+  46:    1  ->  fragilely ==> fragile
+  47:    1  ->  freckled ==> frankly
+  48:    1  ->  gathering ==> together
+  49:    1  ->  gorse ==> ghost
+  50:    1  ->  governments ==> government's
+  51:    1  ->  handled ==> handles
+  52:    1  ->  hatrack ==> half
+  53:    1  ->  heath ==> east
+  54:    1  ->  hiding ==> fighting
+  55:    1  ->  hips ==> rackets
+  56:    1  ->  hold ==> old
+  57:    1  ->  hot ==> how
+  58:    1  ->  hour ==> of
+  59:    1  ->  in ==> and
+  60:    1  ->  in ==> sign
+  61:    1  ->  indistinctly ==> instantly
+  62:    1  ->  is ==> cylinders
+  63:    1  ->  jammed ==> james
+  64:    1  ->  knock ==> mark
+  65:    1  ->  knocked ==> not
+  66:    1  ->  lamps ==> roseland
+  67:    1  ->  late ==> lake
+  68:    1  ->  light ==> life
+  69:    1  ->  lit ==> slipped
+  70:    1  ->  lugged ==> legged
+  71:    1  ->  mentioned ==> mention
+  72:    1  ->  molded ==> moulded
+  73:    1  ->  mouth ==> now
+  74:    1  ->  move ==> moved
+  75:    1  ->  muddy ==> buddy
+  76:    1  ->  nails ==> mails
+  77:    1  ->  night ==> might
+  78:    1  ->  night ==> nights
+  79:    1  ->  no ==> now
+  80:    1  ->  nose ==> most
+  81:    1  ->  not ==> item
+  82:    1  ->  of ==> op
+  83:    1  ->  often ==> of
+  84:    1  ->  our ==> are
+  85:    1  ->  past ==> pass
+  86:    1  ->  poem's ==> points
+  87:    1  ->  poems ==> for
+  88:    1  ->  pool ==> proved
+  89:    1  ->  posit ==> post
+  90:    1  ->  room ==> run
+  91:    1  ->  saw ==> had
+  92:    1  ->  seen ==> scene
+  93:    1  ->  shouts ==> for
+  94:    1  ->  sinew ==> senior
+  95:    1  ->  skid ==> began
+  96:    1  ->  slide ==> side
+  97:    1  ->  soldier ==> sergeant
+  98:    1  ->  sparse ==> spas
+  99:    1  ->  stir ==> lister
+ 100:    1  ->  that ==> at
+ 101:    1  ->  that's ==> fact
+ 102:    1  ->  the ==> a
+ 103:    1  ->  the ==> of
+ 104:    1  ->  the ==> pulled
+ 105:    1  ->  the ==> they
+ 106:    1  ->  there ==> that
+ 107:    1  ->  thighs ==> size
+ 108:    1  ->  tires ==> ties
+ 109:    1  ->  tommy's ==> of
+ 110:    1  ->  unknowing ==> going
+ 111:    1  ->  use ==> is
+ 112:    1  ->  want ==> got
+ 113:    1  ->  want ==> won
+ 114:    1  ->  wed ==> way
+ 115:    1  ->  weight ==> great
+ 116:    1  ->  went ==> when
+ 117:    1  ->  window ==> windows
+ 118:    1  ->  with ==> five
+ 119:    1  ->  you ==> your
+ 120:    1  ->  your ==> you
+ 121:    1  ->  yours ==> yellow
+     -------
+       123
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  am
+   3:    1  ->  care
+   4:    1  ->  cross
+   5:    1  ->  cut
+   6:    1  ->  have
+   7:    1  ->  i
+   8:    1  ->  it
+   9:    1  ->  out
+  10:    1  ->  scare
+  11:    1  ->  shops
+  12:    1  ->  skate
+  13:    1  ->  ton
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  a
+   2:    2  ->  i
+   3:    1  ->  be
+   4:    1  ->  called
+   5:    1  ->  do
+   6:    1  ->  limbs
+   7:    1  ->  poem
+   8:    1  ->  quiet
+   9:    1  ->  rose
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (106)
+                                 With >=  1 occurrences (106)
+
+   1:    6  ->  a
+   2:    4  ->  but
+   3:    4  ->  the
+   4:    2  ->  as
+   5:    2  ->  at
+   6:    2  ->  dark
+   7:    2  ->  in
+   8:    2  ->  night
+   9:    2  ->  want
+  10:    1  ->  ache
+  11:    1  ->  all
+  12:    1  ->  alone
+  13:    1  ->  begun
+  14:    1  ->  birch
+  15:    1  ->  bitch
+  16:    1  ->  blanket
+  17:    1  ->  bluff
+  18:    1  ->  bluffer
+  19:    1  ->  body
+  20:    1  ->  book
+  21:    1  ->  brought
+  22:    1  ->  butcher's
+  23:    1  ->  called
+  24:    1  ->  chevy's
+  25:    1  ->  chiaroscuro
+  26:    1  ->  closer
+  27:    1  ->  clumps
+  28:    1  ->  complacencies
+  29:    1  ->  conjures
+  30:    1  ->  covers
+  31:    1  ->  crater's
+  32:    1  ->  crosspiece
+  33:    1  ->  cutthroat
+  34:    1  ->  drove
+  35:    1  ->  eddies
+  36:    1  ->  enormity
+  37:    1  ->  falls
+  38:    1  ->  flick
+  39:    1  ->  floods
+  40:    1  ->  forth
+  41:    1  ->  fragilely
+  42:    1  ->  freckled
+  43:    1  ->  gathering
+  44:    1  ->  gorse
+  45:    1  ->  governments
+  46:    1  ->  handled
+  47:    1  ->  hatrack
+  48:    1  ->  heath
+  49:    1  ->  hiding
+  50:    1  ->  hips
+  51:    1  ->  hold
+  52:    1  ->  hot
+  53:    1  ->  hour
+  54:    1  ->  indistinctly
+  55:    1  ->  is
+  56:    1  ->  jammed
+  57:    1  ->  knock
+  58:    1  ->  knocked
+  59:    1  ->  lamps
+  60:    1  ->  late
+  61:    1  ->  light
+  62:    1  ->  lit
+  63:    1  ->  lugged
+  64:    1  ->  mentioned
+  65:    1  ->  molded
+  66:    1  ->  mouth
+  67:    1  ->  move
+  68:    1  ->  muddy
+  69:    1  ->  nails
+  70:    1  ->  no
+  71:    1  ->  nose
+  72:    1  ->  not
+  73:    1  ->  of
+  74:    1  ->  often
+  75:    1  ->  our
+  76:    1  ->  past
+  77:    1  ->  poem's
+  78:    1  ->  poems
+  79:    1  ->  pool
+  80:    1  ->  posit
+  81:    1  ->  room
+  82:    1  ->  saw
+  83:    1  ->  seen
+  84:    1  ->  shouts
+  85:    1  ->  sinew
+  86:    1  ->  skid
+  87:    1  ->  slide
+  88:    1  ->  soldier
+  89:    1  ->  sparse
+  90:    1  ->  stir
+  91:    1  ->  that
+  92:    1  ->  that's
+  93:    1  ->  there
+  94:    1  ->  thighs
+  95:    1  ->  tires
+  96:    1  ->  tommy's
+  97:    1  ->  unknowing
+  98:    1  ->  use
+  99:    1  ->  wed
+ 100:    1  ->  weight
+ 101:    1  ->  went
+ 102:    1  ->  window
+ 103:    1  ->  with
+ 104:    1  ->  you
+ 105:    1  ->  your
+ 106:    1  ->  yours
+     -------
+       123
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (105)
+                                 With >=  1 occurrences (105)
+
+   1:    6  ->  of
+   2:    4  ->  is
+   3:    4  ->  the
+   4:    3  ->  for
+   5:    3  ->  that
+   6:    2  ->  and
+   7:    2  ->  now
+   8:    2  ->  so
+   9:    1  ->  ***
+  10:    1  ->  a
+  11:    1  ->  about
+  12:    1  ->  along
+  13:    1  ->  amenity
+  14:    1  ->  are
+  15:    1  ->  at
+  16:    1  ->  bad
+  17:    1  ->  began
+  18:    1  ->  blankets
+  19:    1  ->  blast
+  20:    1  ->  bluff
+  21:    1  ->  broke
+  22:    1  ->  buddy
+  23:    1  ->  butch
+  24:    1  ->  butches
+  25:    1  ->  chevys
+  26:    1  ->  close
+  27:    1  ->  coat
+  28:    1  ->  comes
+  29:    1  ->  complacency
+  30:    1  ->  crates
+  31:    1  ->  cupboards
+  32:    1  ->  cups
+  33:    1  ->  cylinders
+  34:    1  ->  dock
+  35:    1  ->  duck
+  36:    1  ->  east
+  37:    1  ->  egg
+  38:    1  ->  fact
+  39:    1  ->  false
+  40:    1  ->  fever
+  41:    1  ->  fighting
+  42:    1  ->  five
+  43:    1  ->  flink
+  44:    1  ->  flooded
+  45:    1  ->  fragile
+  46:    1  ->  frankly
+  47:    1  ->  ghost
+  48:    1  ->  going
+  49:    1  ->  got
+  50:    1  ->  government's
+  51:    1  ->  great
+  52:    1  ->  had
+  53:    1  ->  half
+  54:    1  ->  handles
+  55:    1  ->  how
+  56:    1  ->  instantly
+  57:    1  ->  item
+  58:    1  ->  james
+  59:    1  ->  lake
+  60:    1  ->  legged
+  61:    1  ->  life
+  62:    1  ->  lister
+  63:    1  ->  mails
+  64:    1  ->  mark
+  65:    1  ->  mention
+  66:    1  ->  might
+  67:    1  ->  most
+  68:    1  ->  moulded
+  69:    1  ->  moved
+  70:    1  ->  nights
+  71:    1  ->  not
+  72:    1  ->  old
+  73:    1  ->  op
+  74:    1  ->  our
+  75:    1  ->  pass
+  76:    1  ->  piece
+  77:    1  ->  points
+  78:    1  ->  post
+  79:    1  ->  proved
+  80:    1  ->  pulled
+  81:    1  ->  quite
+  82:    1  ->  rackets
+  83:    1  ->  roseland
+  84:    1  ->  run
+  85:    1  ->  scene
+  86:    1  ->  senior
+  87:    1  ->  sergeant
+  88:    1  ->  side
+  89:    1  ->  sign
+  90:    1  ->  size
+  91:    1  ->  slipped
+  92:    1  ->  spas
+  93:    1  ->  they
+  94:    1  ->  throat
+  95:    1  ->  throw
+  96:    1  ->  ties
+  97:    1  ->  to
+  98:    1  ->  together
+  99:    1  ->  way
+ 100:    1  ->  when
+ 101:    1  ->  windows
+ 102:    1  ->  won
+ 103:    1  ->  yellow
+ 104:    1  ->  you
+ 105:    1  ->  your
+     -------
+       123
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

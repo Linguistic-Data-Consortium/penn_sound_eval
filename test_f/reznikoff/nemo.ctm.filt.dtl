@@ -1,0 +1,184 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.1%   (  64)
+
+Percent Correct           =   94.4%   ( 986)
+
+Percent Substitution      =    2.5%   (  26)
+Percent Deletions         =    3.1%   (  32)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   93.9%
+
+
+Ref. words                =           (1044)
+Hyp. words                =           (1018)
+Aligned words             =           (1050)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  a ==> if
+   2:    1  ->  and ==> to
+   3:    1  ->  are ==> by
+   4:    1  ->  around ==> on
+   5:    1  ->  but ==> may
+   6:    1  ->  deck ==> dock
+   7:    1  ->  dog ==> door
+   8:    1  ->  done ==> sandfills
+   9:    1  ->  doughnut ==> doughnuts
+  10:    1  ->  excuse ==> as
+  11:    1  ->  gained ==> came
+  12:    1  ->  he ==> held
+  13:    1  ->  his ==> was
+  14:    1  ->  icebox ==> box
+  15:    1  ->  in ==> of
+  16:    1  ->  mar ==> marsh
+  17:    1  ->  me ==> you
+  18:    1  ->  minute ==> i
+  19:    1  ->  motorcars ==> cars
+  20:    1  ->  move ==> sit
+  21:    1  ->  of ==> it
+  22:    1  ->  oh ==> o.
+  23:    1  ->  or ==> were
+  24:    1  ->  thumping ==> bumping
+  25:    1  ->  wait ==> waiter
+  26:    1  ->  will ==> the
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  dock
+   2:    1  ->  dog
+   3:    1  ->  he
+   4:    1  ->  ice
+   5:    1  ->  motor
+   6:    1  ->  the
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    5  ->  i
+   2:    2  ->  about
+   3:    1  ->  and
+   4:    1  ->  as
+   5:    1  ->  do
+   6:    1  ->  followed
+   7:    1  ->  has
+   8:    1  ->  have
+   9:    1  ->  he
+  10:    1  ->  hills
+  11:    1  ->  him
+  12:    1  ->  it
+  13:    1  ->  know
+  14:    1  ->  late
+  15:    1  ->  not
+  16:    1  ->  now
+  17:    1  ->  on
+  18:    1  ->  sand
+  19:    1  ->  that
+  20:    1  ->  that's
+  21:    1  ->  the
+  22:    1  ->  this
+  23:    1  ->  went
+  24:    1  ->  who
+  25:    1  ->  will
+  26:    1  ->  with
+  27:    1  ->  x
+     -------
+        32
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  are
+   4:    1  ->  around
+   5:    1  ->  but
+   6:    1  ->  deck
+   7:    1  ->  dog
+   8:    1  ->  done
+   9:    1  ->  doughnut
+  10:    1  ->  excuse
+  11:    1  ->  gained
+  12:    1  ->  he
+  13:    1  ->  his
+  14:    1  ->  icebox
+  15:    1  ->  in
+  16:    1  ->  mar
+  17:    1  ->  me
+  18:    1  ->  minute
+  19:    1  ->  motorcars
+  20:    1  ->  move
+  21:    1  ->  of
+  22:    1  ->  oh
+  23:    1  ->  or
+  24:    1  ->  thumping
+  25:    1  ->  wait
+  26:    1  ->  will
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  as
+   2:    1  ->  box
+   3:    1  ->  bumping
+   4:    1  ->  by
+   5:    1  ->  came
+   6:    1  ->  cars
+   7:    1  ->  dock
+   8:    1  ->  door
+   9:    1  ->  doughnuts
+  10:    1  ->  held
+  11:    1  ->  i
+  12:    1  ->  if
+  13:    1  ->  it
+  14:    1  ->  marsh
+  15:    1  ->  may
+  16:    1  ->  o.
+  17:    1  ->  of
+  18:    1  ->  on
+  19:    1  ->  sandfills
+  20:    1  ->  sit
+  21:    1  ->  the
+  22:    1  ->  to
+  23:    1  ->  waiter
+  24:    1  ->  was
+  25:    1  ->  were
+  26:    1  ->  you
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

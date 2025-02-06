@@ -1,0 +1,230 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.3%   (  74)
+
+Percent Correct           =   91.6%   ( 726)
+
+Percent Substitution      =    6.7%   (  53)
+Percent Deletions         =    1.8%   (  14)
+Percent Insertions        =    0.9%   (   7)
+Percent Word Accuracy     =   90.7%
+
+
+Ref. words                =           ( 793)
+Hyp. words                =           ( 786)
+Aligned words             =           ( 800)
+
+CONFUSION PAIRS                  Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    3  ->  one ==> a
+   2:    2  ->  a ==> the
+   3:    2  ->  bereft ==> barrett
+   4:    2  ->  in ==> and
+   5:    1  ->  a ==> of
+   6:    1  ->  an ==> in
+   7:    1  ->  and ==> in
+   8:    1  ->  as ==> is
+   9:    1  ->  blocked ==> block
+  10:    1  ->  book's ==> books
+  11:    1  ->  but ==> about
+  12:    1  ->  careen ==> corrine
+  13:    1  ->  casa ==> the
+  14:    1  ->  cheesemaking ==> making
+  15:    1  ->  claimed ==> claim
+  16:    1  ->  clawed ==> clad
+  17:    1  ->  dreamt ==> dreamed
+  18:    1  ->  drying ==> drawing
+  19:    1  ->  eerie ==> irie
+  20:    1  ->  farmworker's ==> workers
+  21:    1  ->  feigned ==> fined
+  22:    1  ->  ficcio ==> safeco
+  23:    1  ->  flagellates ==> flagellate
+  24:    1  ->  helix ==> heloc
+  25:    1  ->  in ==> an
+  26:    1  ->  in ==> monad
+  27:    1  ->  in ==> tussen
+  28:    1  ->  its ==> it's
+  29:    1  ->  keeper's ==> keepers
+  30:    1  ->  knee ==> name
+  31:    1  ->  laughingstock ==> stock
+  32:    1  ->  lit ==> highlight
+  33:    1  ->  louie ==> louis
+  34:    1  ->  luminators ==> laminators
+  35:    1  ->  mirepoix ==> pa
+  36:    1  ->  nativity ==> inactivity
+  37:    1  ->  onto ==> to
+  38:    1  ->  or ==> were
+  39:    1  ->  plants ==> implants
+  40:    1  ->  poems ==> palms
+  41:    1  ->  squatter's ==> squatters
+  42:    1  ->  talking ==> talked
+  43:    1  ->  there ==> they
+  44:    1  ->  this ==> us
+  45:    1  ->  tills ==> hills
+  46:    1  ->  unrights ==> rights
+  47:    1  ->  vacuo ==> ivaco
+  48:    1  ->  xs ==> x's
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  on
+   2:    1  ->  cheese
+   3:    1  ->  farm
+   4:    1  ->  i
+   5:    1  ->  laughing
+   6:    1  ->  mira
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  a
+   2:    1  ->  am
+   3:    1  ->  going
+   4:    1  ->  high
+   5:    1  ->  in
+   6:    1  ->  is
+   7:    1  ->  monody
+   8:    1  ->  then
+   9:    1  ->  thus
+  10:    1  ->  to
+  11:    1  ->  were
+  12:    1  ->  will
+  13:    1  ->  x
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    5  ->  in
+   2:    3  ->  a
+   3:    3  ->  one
+   4:    2  ->  bereft
+   5:    1  ->  an
+   6:    1  ->  and
+   7:    1  ->  as
+   8:    1  ->  blocked
+   9:    1  ->  book's
+  10:    1  ->  but
+  11:    1  ->  careen
+  12:    1  ->  casa
+  13:    1  ->  cheesemaking
+  14:    1  ->  claimed
+  15:    1  ->  clawed
+  16:    1  ->  dreamt
+  17:    1  ->  drying
+  18:    1  ->  eerie
+  19:    1  ->  farmworker's
+  20:    1  ->  feigned
+  21:    1  ->  ficcio
+  22:    1  ->  flagellates
+  23:    1  ->  helix
+  24:    1  ->  its
+  25:    1  ->  keeper's
+  26:    1  ->  knee
+  27:    1  ->  laughingstock
+  28:    1  ->  lit
+  29:    1  ->  louie
+  30:    1  ->  luminators
+  31:    1  ->  mirepoix
+  32:    1  ->  nativity
+  33:    1  ->  onto
+  34:    1  ->  or
+  35:    1  ->  plants
+  36:    1  ->  poems
+  37:    1  ->  squatter's
+  38:    1  ->  talking
+  39:    1  ->  there
+  40:    1  ->  this
+  41:    1  ->  tills
+  42:    1  ->  unrights
+  43:    1  ->  vacuo
+  44:    1  ->  xs
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    3  ->  a
+   2:    3  ->  the
+   3:    2  ->  and
+   4:    2  ->  barrett
+   5:    2  ->  in
+   6:    1  ->  about
+   7:    1  ->  an
+   8:    1  ->  block
+   9:    1  ->  books
+  10:    1  ->  clad
+  11:    1  ->  claim
+  12:    1  ->  corrine
+  13:    1  ->  drawing
+  14:    1  ->  dreamed
+  15:    1  ->  fined
+  16:    1  ->  flagellate
+  17:    1  ->  heloc
+  18:    1  ->  highlight
+  19:    1  ->  hills
+  20:    1  ->  implants
+  21:    1  ->  inactivity
+  22:    1  ->  irie
+  23:    1  ->  is
+  24:    1  ->  it's
+  25:    1  ->  ivaco
+  26:    1  ->  keepers
+  27:    1  ->  laminators
+  28:    1  ->  louis
+  29:    1  ->  making
+  30:    1  ->  monad
+  31:    1  ->  name
+  32:    1  ->  of
+  33:    1  ->  pa
+  34:    1  ->  palms
+  35:    1  ->  rights
+  36:    1  ->  safeco
+  37:    1  ->  squatters
+  38:    1  ->  stock
+  39:    1  ->  talked
+  40:    1  ->  they
+  41:    1  ->  to
+  42:    1  ->  tussen
+  43:    1  ->  us
+  44:    1  ->  were
+  45:    1  ->  workers
+  46:    1  ->  x's
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

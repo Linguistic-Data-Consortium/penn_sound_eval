@@ -1,0 +1,405 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.1%   ( 167)
+
+Percent Correct           =   85.7%   ( 946)
+
+Percent Substitution      =    9.8%   ( 108)
+Percent Deletions         =    4.5%   (  50)
+Percent Insertions        =    0.8%   (   9)
+Percent Word Accuracy     =   84.9%
+
+
+Ref. words                =           (1104)
+Hyp. words                =           (1063)
+Aligned words             =           (1113)
+
+CONFUSION PAIRS                  Total                 (104)
+                                 With >=  1 occurrences (104)
+
+   1:    3  ->  the ==> a
+   2:    2  ->  and ==> in
+   3:    2  ->  orgy ==> orgie
+   4:    1  ->  a ==> and
+   5:    1  ->  a ==> could
+   6:    1  ->  a ==> this
+   7:    1  ->  accepted ==> acceptance
+   8:    1  ->  all ==> now
+   9:    1  ->  am ==> him
+  10:    1  ->  an ==> in
+  11:    1  ->  an ==> of
+  12:    1  ->  and ==> cruel
+  13:    1  ->  and ==> set
+  14:    1  ->  believe ==> beliefs
+  15:    1  ->  blind ==> belong
+  16:    1  ->  bling ==> poems
+  17:    1  ->  bringing ==> him
+  18:    1  ->  brutal ==> brittle
+  19:    1  ->  but ==> that
+  20:    1  ->  caught ==> cut
+  21:    1  ->  contests ==> contest
+  22:    1  ->  ensuing ==> seen
+  23:    1  ->  ever ==> other
+  24:    1  ->  factor ==> party
+  25:    1  ->  favoured ==> favourite
+  26:    1  ->  fifteen ==> five
+  27:    1  ->  filled ==> full
+  28:    1  ->  finds ==> signed
+  29:    1  ->  fits ==> first
+  30:    1  ->  five ==> 5
+  31:    1  ->  friends ==> friend
+  32:    1  ->  glance ==> lines
+  33:    1  ->  good ==> did
+  34:    1  ->  gubernatorally ==> upon
+  35:    1  ->  had ==> held
+  36:    1  ->  had ==> i
+  37:    1  ->  had ==> me
+  38:    1  ->  have ==> age
+  39:    1  ->  he ==> let
+  40:    1  ->  he ==> me
+  41:    1  ->  helena's ==> helen's
+  42:    1  ->  if ==> to
+  43:    1  ->  in ==> and
+  44:    1  ->  in ==> from
+  45:    1  ->  inanimate ==> animate
+  46:    1  ->  intimidation ==> fine
+  47:    1  ->  is ==> "is
+  48:    1  ->  jenn ==> jen
+  49:    1  ->  law ==> and
+  50:    1  ->  like ==> i
+  51:    1  ->  matter ==> matter"
+  52:    1  ->  means ==> remains
+  53:    1  ->  meek ==> beak
+  54:    1  ->  merely ==> newly
+  55:    1  ->  mouths ==> mass
+  56:    1  ->  mpn ==> pen
+  57:    1  ->  nor ==> though
+  58:    1  ->  nymphomaniac ==> maniac
+  59:    1  ->  of ==> is
+  60:    1  ->  of ==> it's
+  61:    1  ->  of ==> or
+  62:    1  ->  pass ==> passed
+  63:    1  ->  perched ==> perch
+  64:    1  ->  read ==> wrote
+  65:    1  ->  revealing ==> reviewing
+  66:    1  ->  s ==> edith
+  67:    1  ->  said ==> here
+  68:    1  ->  said ==> of
+  69:    1  ->  sat ==> thought
+  70:    1  ->  saw ==> thought
+  71:    1  ->  set ==> so
+  72:    1  ->  snowflake ==> like
+  73:    1  ->  so ==> for
+  74:    1  ->  spout ==> sought
+  75:    1  ->  spread ==> spit
+  76:    1  ->  sullen ==> solemn
+  77:    1  ->  ten ==> oh
+  78:    1  ->  that ==> but
+  79:    1  ->  that ==> it
+  80:    1  ->  that ==> out
+  81:    1  ->  the ==> her
+  82:    1  ->  the ==> to
+  83:    1  ->  there ==> it
+  84:    1  ->  this ==> first
+  85:    1  ->  thy ==> by
+  86:    1  ->  to ==> older
+  87:    1  ->  trap ==> trot
+  88:    1  ->  uncharted ==> unchildled
+  89:    1  ->  vase ==> very
+  90:    1  ->  was ==> for
+  91:    1  ->  was ==> is
+  92:    1  ->  was ==> well
+  93:    1  ->  we ==> these
+  94:    1  ->  were ==> was
+  95:    1  ->  whir ==> whirl
+  96:    1  ->  windowed ==> unhindered
+  97:    1  ->  word ==> world
+  98:    1  ->  wovens ==> ravens
+  99:    1  ->  written ==> hidden
+ 100:    1  ->  wrong ==> volume
+ 101:    1  ->  wrought ==> rod
+ 102:    1  ->  xeroxed ==> xerox
+ 103:    1  ->  you ==> the
+ 104:    1  ->  you ==> your
+     -------
+       108
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  an
+   2:    1  ->  agreed
+   3:    1  ->  bring
+   4:    1  ->  for
+   5:    1  ->  note
+   6:    1  ->  one
+   7:    1  ->  see
+   8:    1  ->  them
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    3  ->  i
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  in
+   5:    2  ->  the
+   6:    1  ->  aft
+   7:    1  ->  become
+   8:    1  ->  clear
+   9:    1  ->  comma
+  10:    1  ->  demeanor
+  11:    1  ->  discussion
+  12:    1  ->  e
+  13:    1  ->  even
+  14:    1  ->  eventually
+  15:    1  ->  faraway
+  16:    1  ->  finely
+  17:    1  ->  front
+  18:    1  ->  helena's
+  19:    1  ->  honed
+  20:    1  ->  if
+  21:    1  ->  is
+  22:    1  ->  just
+  23:    1  ->  no
+  24:    1  ->  of
+  25:    1  ->  ooh
+  26:    1  ->  out
+  27:    1  ->  plums
+  28:    1  ->  poet
+  29:    1  ->  present
+  30:    1  ->  should
+  31:    1  ->  skip
+  32:    1  ->  somewhat
+  33:    1  ->  then
+  34:    1  ->  think
+  35:    1  ->  to
+  36:    1  ->  tool
+  37:    1  ->  under
+  38:    1  ->  unlikely
+  39:    1  ->  vocabulary
+  40:    1  ->  were
+  41:    1  ->  when
+  42:    1  ->  with
+  43:    1  ->  would
+  44:    1  ->  you
+     -------
+        50
+
+
+
+SUBSTITUTIONS                    Total                 (85)
+                                 With >=  1 occurrences (85)
+
+   1:    5  ->  the
+   2:    4  ->  and
+   3:    3  ->  a
+   4:    3  ->  had
+   5:    3  ->  of
+   6:    3  ->  that
+   7:    3  ->  was
+   8:    2  ->  an
+   9:    2  ->  he
+  10:    2  ->  in
+  11:    2  ->  orgy
+  12:    2  ->  said
+  13:    2  ->  you
+  14:    1  ->  accepted
+  15:    1  ->  all
+  16:    1  ->  am
+  17:    1  ->  believe
+  18:    1  ->  blind
+  19:    1  ->  bling
+  20:    1  ->  bringing
+  21:    1  ->  brutal
+  22:    1  ->  but
+  23:    1  ->  caught
+  24:    1  ->  contests
+  25:    1  ->  ensuing
+  26:    1  ->  ever
+  27:    1  ->  factor
+  28:    1  ->  favoured
+  29:    1  ->  fifteen
+  30:    1  ->  filled
+  31:    1  ->  finds
+  32:    1  ->  fits
+  33:    1  ->  five
+  34:    1  ->  friends
+  35:    1  ->  glance
+  36:    1  ->  good
+  37:    1  ->  gubernatorally
+  38:    1  ->  have
+  39:    1  ->  helena's
+  40:    1  ->  if
+  41:    1  ->  inanimate
+  42:    1  ->  intimidation
+  43:    1  ->  is
+  44:    1  ->  jenn
+  45:    1  ->  law
+  46:    1  ->  like
+  47:    1  ->  matter
+  48:    1  ->  means
+  49:    1  ->  meek
+  50:    1  ->  merely
+  51:    1  ->  mouths
+  52:    1  ->  mpn
+  53:    1  ->  nor
+  54:    1  ->  nymphomaniac
+  55:    1  ->  pass
+  56:    1  ->  perched
+  57:    1  ->  read
+  58:    1  ->  revealing
+  59:    1  ->  s
+  60:    1  ->  sat
+  61:    1  ->  saw
+  62:    1  ->  set
+  63:    1  ->  snowflake
+  64:    1  ->  so
+  65:    1  ->  spout
+  66:    1  ->  spread
+  67:    1  ->  sullen
+  68:    1  ->  ten
+  69:    1  ->  there
+  70:    1  ->  this
+  71:    1  ->  thy
+  72:    1  ->  to
+  73:    1  ->  trap
+  74:    1  ->  uncharted
+  75:    1  ->  vase
+  76:    1  ->  we
+  77:    1  ->  were
+  78:    1  ->  whir
+  79:    1  ->  windowed
+  80:    1  ->  word
+  81:    1  ->  wovens
+  82:    1  ->  written
+  83:    1  ->  wrong
+  84:    1  ->  wrought
+  85:    1  ->  xeroxed
+     -------
+       108
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (91)
+                                 With >=  1 occurrences (91)
+
+   1:    3  ->  a
+   2:    3  ->  and
+   3:    3  ->  in
+   4:    2  ->  first
+   5:    2  ->  for
+   6:    2  ->  him
+   7:    2  ->  i
+   8:    2  ->  is
+   9:    2  ->  it
+  10:    2  ->  me
+  11:    2  ->  of
+  12:    2  ->  orgie
+  13:    2  ->  thought
+  14:    2  ->  to
+  15:    1  ->  "is
+  16:    1  ->  5
+  17:    1  ->  acceptance
+  18:    1  ->  age
+  19:    1  ->  animate
+  20:    1  ->  beak
+  21:    1  ->  beliefs
+  22:    1  ->  belong
+  23:    1  ->  brittle
+  24:    1  ->  but
+  25:    1  ->  by
+  26:    1  ->  contest
+  27:    1  ->  could
+  28:    1  ->  cruel
+  29:    1  ->  cut
+  30:    1  ->  did
+  31:    1  ->  edith
+  32:    1  ->  favourite
+  33:    1  ->  fine
+  34:    1  ->  five
+  35:    1  ->  friend
+  36:    1  ->  from
+  37:    1  ->  full
+  38:    1  ->  held
+  39:    1  ->  helen's
+  40:    1  ->  her
+  41:    1  ->  here
+  42:    1  ->  hidden
+  43:    1  ->  it's
+  44:    1  ->  jen
+  45:    1  ->  let
+  46:    1  ->  like
+  47:    1  ->  lines
+  48:    1  ->  maniac
+  49:    1  ->  mass
+  50:    1  ->  matter"
+  51:    1  ->  newly
+  52:    1  ->  now
+  53:    1  ->  oh
+  54:    1  ->  older
+  55:    1  ->  or
+  56:    1  ->  other
+  57:    1  ->  out
+  58:    1  ->  party
+  59:    1  ->  passed
+  60:    1  ->  pen
+  61:    1  ->  perch
+  62:    1  ->  poems
+  63:    1  ->  ravens
+  64:    1  ->  remains
+  65:    1  ->  reviewing
+  66:    1  ->  rod
+  67:    1  ->  seen
+  68:    1  ->  set
+  69:    1  ->  signed
+  70:    1  ->  so
+  71:    1  ->  solemn
+  72:    1  ->  sought
+  73:    1  ->  spit
+  74:    1  ->  that
+  75:    1  ->  the
+  76:    1  ->  these
+  77:    1  ->  this
+  78:    1  ->  though
+  79:    1  ->  trot
+  80:    1  ->  unchildled
+  81:    1  ->  unhindered
+  82:    1  ->  upon
+  83:    1  ->  very
+  84:    1  ->  volume
+  85:    1  ->  was
+  86:    1  ->  well
+  87:    1  ->  whirl
+  88:    1  ->  world
+  89:    1  ->  wrote
+  90:    1  ->  xerox
+  91:    1  ->  your
+     -------
+       108
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

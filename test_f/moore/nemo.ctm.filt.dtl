@@ -1,0 +1,145 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.7%   (  29)
+
+Percent Correct           =   96.6%   ( 757)
+
+Percent Substitution      =    2.9%   (  23)
+Percent Deletions         =    0.5%   (   4)
+Percent Insertions        =    0.3%   (   2)
+Percent Word Accuracy     =   96.3%
+
+
+Ref. words                =           ( 784)
+Hyp. words                =           ( 782)
+Aligned words             =           ( 786)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  rightness ==> ripeness
+   2:    1  ->  abandoned ==> abandon
+   3:    1  ->  an ==> in
+   4:    1  ->  and ==> an
+   5:    1  ->  clawed ==> clod
+   6:    1  ->  fenceposts ==> posts
+   7:    1  ->  forms ==> figs
+   8:    1  ->  in ==> inward
+   9:    1  ->  molding ==> moulding
+  10:    1  ->  out ==> of
+  11:    1  ->  rebirth ==> birth
+  12:    1  ->  relief ==> release
+  13:    1  ->  rioting ==> riding
+  14:    1  ->  rocked ==> rot
+  15:    1  ->  saying ==> same
+  16:    1  ->  sea ==> see
+  17:    1  ->  seperation ==> separation
+  18:    1  ->  spittle ==> spittle's
+  19:    1  ->  that ==> but
+  20:    1  ->  wage ==> rage
+  21:    1  ->  whit ==> it
+  22:    1  ->  wrath ==> rap
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  feathers
+   2:    1  ->  fence
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  hawk
+   2:    1  ->  on
+   3:    1  ->  or
+   4:    1  ->  the
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  rightness
+   2:    1  ->  abandoned
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  clawed
+   6:    1  ->  fenceposts
+   7:    1  ->  forms
+   8:    1  ->  in
+   9:    1  ->  molding
+  10:    1  ->  out
+  11:    1  ->  rebirth
+  12:    1  ->  relief
+  13:    1  ->  rioting
+  14:    1  ->  rocked
+  15:    1  ->  saying
+  16:    1  ->  sea
+  17:    1  ->  seperation
+  18:    1  ->  spittle
+  19:    1  ->  that
+  20:    1  ->  wage
+  21:    1  ->  whit
+  22:    1  ->  wrath
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  ripeness
+   2:    1  ->  abandon
+   3:    1  ->  an
+   4:    1  ->  birth
+   5:    1  ->  but
+   6:    1  ->  clod
+   7:    1  ->  figs
+   8:    1  ->  in
+   9:    1  ->  inward
+  10:    1  ->  it
+  11:    1  ->  moulding
+  12:    1  ->  of
+  13:    1  ->  posts
+  14:    1  ->  rage
+  15:    1  ->  rap
+  16:    1  ->  release
+  17:    1  ->  riding
+  18:    1  ->  rot
+  19:    1  ->  same
+  20:    1  ->  see
+  21:    1  ->  separation
+  22:    1  ->  spittle's
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

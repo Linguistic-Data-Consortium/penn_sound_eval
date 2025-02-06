@@ -1,0 +1,174 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.1%   (  54)
+
+Percent Correct           =   94.2%   ( 720)
+
+Percent Substitution      =    5.0%   (  38)
+Percent Deletions         =    0.8%   (   6)
+Percent Insertions        =    1.3%   (  10)
+Percent Word Accuracy     =   92.9%
+
+
+Ref. words                =           ( 764)
+Hyp. words                =           ( 768)
+Aligned words             =           ( 774)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    7  ->  b ==> be
+   2:    2  ->  eating ==> eaten
+   3:    2  ->  yarn's ==> yarns
+   4:    1  ->  as ==> of
+   5:    1  ->  auntie ==> tea
+   6:    1  ->  colorblind ==> blind
+   7:    1  ->  coulades ==> kots
+   8:    1  ->  decomposers ==> composers
+   9:    1  ->  face ==> faces
+  10:    1  ->  fist ==> fists
+  11:    1  ->  had ==> have
+  12:    1  ->  incognizant ==> cognizant
+  13:    1  ->  is ==> was
+  14:    1  ->  job's ==> job
+  15:    1  ->  job's ==> jobs
+  16:    1  ->  knit ==> knits
+  17:    1  ->  maybe ==> be
+  18:    1  ->  momma ==> mamma
+  19:    1  ->  months' ==> months
+  20:    1  ->  mourning ==> morning
+  21:    1  ->  shoe ==> shoes
+  22:    1  ->  somniloquies ==> eliquis
+  23:    1  ->  tem ==> temp
+  24:    1  ->  the ==> a
+  25:    1  ->  tv's ==> s
+  26:    1  ->  twelve ==> two
+  27:    1  ->  unheeded ==> unheated
+  28:    1  ->  where ==> wear
+  29:    1  ->  which ==> what
+  30:    1  ->  yore ==> your
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  color
+   2:    1  ->  de
+   3:    1  ->  in
+   4:    1  ->  may
+   5:    1  ->  not
+   6:    1  ->  on
+   7:    1  ->  one
+   8:    1  ->  some
+   9:    1  ->  tv
+  10:    1  ->  yes
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    4  ->  had
+   2:    1  ->  is
+   3:    1  ->  m
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    7  ->  b
+   2:    2  ->  eating
+   3:    2  ->  job's
+   4:    2  ->  yarn's
+   5:    1  ->  as
+   6:    1  ->  auntie
+   7:    1  ->  colorblind
+   8:    1  ->  coulades
+   9:    1  ->  decomposers
+  10:    1  ->  face
+  11:    1  ->  fist
+  12:    1  ->  had
+  13:    1  ->  incognizant
+  14:    1  ->  is
+  15:    1  ->  knit
+  16:    1  ->  maybe
+  17:    1  ->  momma
+  18:    1  ->  months'
+  19:    1  ->  mourning
+  20:    1  ->  shoe
+  21:    1  ->  somniloquies
+  22:    1  ->  tem
+  23:    1  ->  the
+  24:    1  ->  tv's
+  25:    1  ->  twelve
+  26:    1  ->  unheeded
+  27:    1  ->  where
+  28:    1  ->  which
+  29:    1  ->  yore
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    8  ->  be
+   2:    2  ->  eaten
+   3:    2  ->  yarns
+   4:    1  ->  a
+   5:    1  ->  blind
+   6:    1  ->  cognizant
+   7:    1  ->  composers
+   8:    1  ->  eliquis
+   9:    1  ->  faces
+  10:    1  ->  fists
+  11:    1  ->  have
+  12:    1  ->  job
+  13:    1  ->  jobs
+  14:    1  ->  knits
+  15:    1  ->  kots
+  16:    1  ->  mamma
+  17:    1  ->  months
+  18:    1  ->  morning
+  19:    1  ->  of
+  20:    1  ->  s
+  21:    1  ->  shoes
+  22:    1  ->  tea
+  23:    1  ->  temp
+  24:    1  ->  two
+  25:    1  ->  unheated
+  26:    1  ->  was
+  27:    1  ->  wear
+  28:    1  ->  what
+  29:    1  ->  your
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

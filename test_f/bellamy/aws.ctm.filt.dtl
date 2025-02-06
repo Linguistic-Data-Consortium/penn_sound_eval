@@ -1,0 +1,138 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.5%   (  44)
+
+Percent Correct           =   96.5%   ( 935)
+
+Percent Substitution      =    2.5%   (  24)
+Percent Deletions         =    1.0%   (  10)
+Percent Insertions        =    1.0%   (  10)
+Percent Word Accuracy     =   95.5%
+
+
+Ref. words                =           ( 969)
+Hyp. words                =           ( 969)
+Aligned words             =           ( 979)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    5  ->  eek ==> ek
+   2:    3  ->  eek ==> ik
+   3:    1  ->  chenille ==> shanil
+   4:    1  ->  deckered ==> decker
+   5:    1  ->  eighty ==> oh
+   6:    1  ->  elka's ==> is
+   7:    1  ->  first ==> 21st
+   8:    1  ->  forty ==> oh
+   9:    1  ->  from ==> for
+  10:    1  ->  gnawed ==> nod
+  11:    1  ->  janice ==> gene
+  12:    1  ->  nine ==> 2009
+  13:    1  ->  nineteen ==> nine
+  14:    1  ->  one ==> 1981
+  15:    1  ->  stoned ==> greenstone
+  16:    1  ->  stoned ==> stone
+  17:    1  ->  turn ==> turned
+  18:    1  ->  unwedged ==> wedged
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    3  ->  daiko
+   2:    2  ->  sa
+   3:    2  ->  zuza
+   4:    1  ->  elka
+   5:    1  ->  one
+   6:    1  ->  un
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    3  ->  had
+   2:    1  ->  and
+   3:    1  ->  eighty
+   4:    1  ->  green
+   5:    1  ->  nineteen
+   6:    1  ->  thousand
+   7:    1  ->  twenty
+   8:    1  ->  two
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    8  ->  eek
+   2:    2  ->  stoned
+   3:    1  ->  chenille
+   4:    1  ->  deckered
+   5:    1  ->  eighty
+   6:    1  ->  elka's
+   7:    1  ->  first
+   8:    1  ->  forty
+   9:    1  ->  from
+  10:    1  ->  gnawed
+  11:    1  ->  janice
+  12:    1  ->  nine
+  13:    1  ->  nineteen
+  14:    1  ->  one
+  15:    1  ->  turn
+  16:    1  ->  unwedged
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    5  ->  ek
+   2:    3  ->  ik
+   3:    2  ->  oh
+   4:    1  ->  1981
+   5:    1  ->  2009
+   6:    1  ->  21st
+   7:    1  ->  decker
+   8:    1  ->  for
+   9:    1  ->  gene
+  10:    1  ->  greenstone
+  11:    1  ->  is
+  12:    1  ->  nine
+  13:    1  ->  nod
+  14:    1  ->  shanil
+  15:    1  ->  stone
+  16:    1  ->  turned
+  17:    1  ->  wedged
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

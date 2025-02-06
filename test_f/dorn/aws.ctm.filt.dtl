@@ -1,0 +1,147 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.3%   (  36)
+
+Percent Correct           =   96.1%   ( 798)
+
+Percent Substitution      =    3.6%   (  30)
+Percent Deletions         =    0.2%   (   2)
+Percent Insertions        =    0.5%   (   4)
+Percent Word Accuracy     =   95.7%
+
+
+Ref. words                =           ( 830)
+Hyp. words                =           ( 832)
+Aligned words             =           ( 834)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    7  ->  aklavik ==> alec
+   2:    2  ->  aklavik ==> avic
+   3:    1  ->  aye ==> i
+   4:    1  ->  bay ==> bathe
+   5:    1  ->  croyden ==> croydon
+   6:    1  ->  feet ==> ft
+   7:    1  ->  halfway ==> way
+   8:    1  ->  herriman ==> harriman
+   9:    1  ->  insupportably ==> insupportable
+  10:    1  ->  is ==> as
+  11:    1  ->  ishamelite ==> light
+  12:    1  ->  jailbird ==> bird
+  13:    1  ->  katmandu ==> kathmandu
+  14:    1  ->  nation ==> nations
+  15:    1  ->  oh ==> o
+  16:    1  ->  old ==> all
+  17:    1  ->  pregnantly ==> pregnant
+  18:    1  ->  productions ==> production
+  19:    1  ->  regents ==> regent
+  20:    1  ->  shutter ==> shudder
+  21:    1  ->  thousand ==> oh
+  22:    1  ->  to ==> into
+  23:    1  ->  visions ==> divisions
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  half
+   2:    1  ->  ishmael
+   3:    1  ->  jail
+   4:    1  ->  the
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  and
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    9  ->  aklavik
+   2:    1  ->  aye
+   3:    1  ->  bay
+   4:    1  ->  croyden
+   5:    1  ->  feet
+   6:    1  ->  halfway
+   7:    1  ->  herriman
+   8:    1  ->  insupportably
+   9:    1  ->  is
+  10:    1  ->  ishamelite
+  11:    1  ->  jailbird
+  12:    1  ->  katmandu
+  13:    1  ->  nation
+  14:    1  ->  oh
+  15:    1  ->  old
+  16:    1  ->  pregnantly
+  17:    1  ->  productions
+  18:    1  ->  regents
+  19:    1  ->  shutter
+  20:    1  ->  thousand
+  21:    1  ->  to
+  22:    1  ->  visions
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    7  ->  alec
+   2:    2  ->  avic
+   3:    1  ->  all
+   4:    1  ->  as
+   5:    1  ->  bathe
+   6:    1  ->  bird
+   7:    1  ->  croydon
+   8:    1  ->  divisions
+   9:    1  ->  ft
+  10:    1  ->  harriman
+  11:    1  ->  i
+  12:    1  ->  insupportable
+  13:    1  ->  into
+  14:    1  ->  kathmandu
+  15:    1  ->  light
+  16:    1  ->  nations
+  17:    1  ->  o
+  18:    1  ->  oh
+  19:    1  ->  pregnant
+  20:    1  ->  production
+  21:    1  ->  regent
+  22:    1  ->  shudder
+  23:    1  ->  way
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

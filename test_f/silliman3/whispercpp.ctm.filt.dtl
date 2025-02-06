@@ -1,0 +1,213 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.0%   (  79)
+
+Percent Correct           =   92.8%   ( 921)
+
+Percent Substitution      =    4.0%   (  40)
+Percent Deletions         =    3.1%   (  31)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   92.0%
+
+
+Ref. words                =           ( 992)
+Hyp. words                =           ( 969)
+Aligned words             =           (1000)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    3  ->  a ==> the
+   2:    1  ->  answer ==> answered
+   3:    1  ->  anton ==> antin
+   4:    1  ->  bones ==> poems
+   5:    1  ->  bronwich's ==> bromage's
+   6:    1  ->  eightieth ==> eddie
+   7:    1  ->  elliptical ==> nonelliptical
+   8:    1  ->  has ==> as
+   9:    1  ->  in ==> and
+  10:    1  ->  its ==> the
+  11:    1  ->  landi ==> landy
+  12:    1  ->  mottoes ==> mottos
+  13:    1  ->  n ==> and
+  14:    1  ->  non ==> then
+  15:    1  ->  of ==> a
+  16:    1  ->  one ==> 51
+  17:    1  ->  oppression ==> suppression
+  18:    1  ->  others' ==> others
+  19:    1  ->  peers ==> is
+  20:    1  ->  plane ==> plin
+  21:    1  ->  premised ==> premise
+  22:    1  ->  question's ==> is
+  23:    1  ->  rig ==> great
+  24:    1  ->  seem ==> seems
+  25:    1  ->  sentence ==> twosentence
+  26:    1  ->  sofala ==> cephala
+  27:    1  ->  tagmemic ==> tagmetic
+  28:    1  ->  the ==> a
+  29:    1  ->  thirteen ==> three
+  30:    1  ->  three ==> 53
+  31:    1  ->  tight ==> of
+  32:    1  ->  together ==> altogether
+  33:    1  ->  towards ==> toward
+  34:    1  ->  twentieth ==> 20th
+  35:    1  ->  voloshinov ==> volashinov
+  36:    1  ->  voloshinov's ==> volusinoff's
+  37:    1  ->  wellek ==> wellick
+  38:    1  ->  what ==> one
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  the
+   2:    1  ->  here
+   3:    1  ->  of
+   4:    1  ->  one
+   5:    1  ->  plasma
+   6:    1  ->  question
+   7:    1  ->  type
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  all
+   2:    2  ->  classic
+   3:    2  ->  five
+   4:    2  ->  in
+   5:    2  ->  of
+   6:    2  ->  point
+   7:    2  ->  this
+   8:    2  ->  two
+   9:    1  ->  a
+  10:    1  ->  and
+  11:    1  ->  intere
+  12:    1  ->  is
+  13:    1  ->  it
+  14:    1  ->  paragra
+  15:    1  ->  s
+  16:    1  ->  sen
+  17:    1  ->  t
+  18:    1  ->  th
+  19:    1  ->  that
+  20:    1  ->  these
+  21:    1  ->  type
+  22:    1  ->  well
+  23:    1  ->  x
+     -------
+        31
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    3  ->  a
+   2:    1  ->  answer
+   3:    1  ->  anton
+   4:    1  ->  bones
+   5:    1  ->  bronwich's
+   6:    1  ->  eightieth
+   7:    1  ->  elliptical
+   8:    1  ->  has
+   9:    1  ->  in
+  10:    1  ->  its
+  11:    1  ->  landi
+  12:    1  ->  mottoes
+  13:    1  ->  n
+  14:    1  ->  non
+  15:    1  ->  of
+  16:    1  ->  one
+  17:    1  ->  oppression
+  18:    1  ->  others'
+  19:    1  ->  peers
+  20:    1  ->  plane
+  21:    1  ->  premised
+  22:    1  ->  question's
+  23:    1  ->  rig
+  24:    1  ->  seem
+  25:    1  ->  sentence
+  26:    1  ->  sofala
+  27:    1  ->  tagmemic
+  28:    1  ->  the
+  29:    1  ->  thirteen
+  30:    1  ->  three
+  31:    1  ->  tight
+  32:    1  ->  together
+  33:    1  ->  towards
+  34:    1  ->  twentieth
+  35:    1  ->  voloshinov
+  36:    1  ->  voloshinov's
+  37:    1  ->  wellek
+  38:    1  ->  what
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    4  ->  the
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  is
+   5:    1  ->  20th
+   6:    1  ->  51
+   7:    1  ->  53
+   8:    1  ->  altogether
+   9:    1  ->  answered
+  10:    1  ->  antin
+  11:    1  ->  as
+  12:    1  ->  bromage's
+  13:    1  ->  cephala
+  14:    1  ->  eddie
+  15:    1  ->  great
+  16:    1  ->  landy
+  17:    1  ->  mottos
+  18:    1  ->  nonelliptical
+  19:    1  ->  of
+  20:    1  ->  one
+  21:    1  ->  others
+  22:    1  ->  plin
+  23:    1  ->  poems
+  24:    1  ->  premise
+  25:    1  ->  seems
+  26:    1  ->  suppression
+  27:    1  ->  tagmetic
+  28:    1  ->  then
+  29:    1  ->  three
+  30:    1  ->  toward
+  31:    1  ->  twosentence
+  32:    1  ->  volashinov
+  33:    1  ->  volusinoff's
+  34:    1  ->  wellick
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

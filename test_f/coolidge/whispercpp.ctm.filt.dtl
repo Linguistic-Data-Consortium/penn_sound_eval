@@ -1,0 +1,177 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.3%   (  51)
+
+Percent Correct           =   95.9%   ( 928)
+
+Percent Substitution      =    3.1%   (  30)
+Percent Deletions         =    1.0%   (  10)
+Percent Insertions        =    1.1%   (  11)
+Percent Word Accuracy     =   94.7%
+
+
+Ref. words                =           ( 968)
+Hyp. words                =           ( 969)
+Aligned words             =           ( 979)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  open ==> opened
+   2:    1  ->  a ==> an
+   3:    1  ->  always ==> as
+   4:    1  ->  and ==> in
+   5:    1  ->  and ==> or
+   6:    1  ->  bend ==> firebend
+   7:    1  ->  bleak ==> oblique
+   8:    1  ->  cow ==> count
+   9:    1  ->  desserts ==> deserts
+  10:    1  ->  dew ==> in
+  11:    1  ->  dons ==> tormodonts
+  12:    1  ->  finger's ==> fingers
+  13:    1  ->  fish ==> goldfish
+  14:    1  ->  flair ==> flare
+  15:    1  ->  hear ==> here
+  16:    1  ->  in ==> and
+  17:    1  ->  inch ==> threeinch
+  18:    1  ->  is ==> his
+  19:    1  ->  ja ==> yah
+  20:    1  ->  mists ==> duemissed
+  21:    1  ->  obliquer ==> oblique
+  22:    1  ->  our ==> are
+  23:    1  ->  plum ==> plumb
+  24:    1  ->  quislings ==> quizlings
+  25:    1  ->  supposed ==> it
+  26:    1  ->  to ==> of
+  27:    1  ->  tolds ==> tolls
+  28:    1  ->  unknown ==> known
+  29:    1  ->  would ==> wood
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  after
+   2:    1  ->  all
+   3:    1  ->  are
+   4:    1  ->  i
+   5:    1  ->  is
+   6:    1  ->  may
+   7:    1  ->  oh
+   8:    1  ->  say
+   9:    1  ->  suppose
+  10:    1  ->  the
+  11:    1  ->  truck
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  and
+   2:    1  ->  fire
+   3:    1  ->  fled
+   4:    1  ->  goal
+   5:    1  ->  it
+   6:    1  ->  open
+   7:    1  ->  the
+   8:    1  ->  three
+   9:    1  ->  torma
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  and
+   2:    2  ->  open
+   3:    1  ->  a
+   4:    1  ->  always
+   5:    1  ->  bend
+   6:    1  ->  bleak
+   7:    1  ->  cow
+   8:    1  ->  desserts
+   9:    1  ->  dew
+  10:    1  ->  dons
+  11:    1  ->  finger's
+  12:    1  ->  fish
+  13:    1  ->  flair
+  14:    1  ->  hear
+  15:    1  ->  in
+  16:    1  ->  inch
+  17:    1  ->  is
+  18:    1  ->  ja
+  19:    1  ->  mists
+  20:    1  ->  obliquer
+  21:    1  ->  our
+  22:    1  ->  plum
+  23:    1  ->  quislings
+  24:    1  ->  supposed
+  25:    1  ->  to
+  26:    1  ->  tolds
+  27:    1  ->  unknown
+  28:    1  ->  would
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  in
+   2:    2  ->  oblique
+   3:    2  ->  opened
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  are
+   7:    1  ->  as
+   8:    1  ->  count
+   9:    1  ->  deserts
+  10:    1  ->  duemissed
+  11:    1  ->  fingers
+  12:    1  ->  firebend
+  13:    1  ->  flare
+  14:    1  ->  goldfish
+  15:    1  ->  here
+  16:    1  ->  his
+  17:    1  ->  it
+  18:    1  ->  known
+  19:    1  ->  of
+  20:    1  ->  or
+  21:    1  ->  plumb
+  22:    1  ->  quizlings
+  23:    1  ->  threeinch
+  24:    1  ->  tolls
+  25:    1  ->  tormodonts
+  26:    1  ->  wood
+  27:    1  ->  yah
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,635 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.2%   ( 424)
+
+Percent Correct           =   70.7%   ( 903)
+
+Percent Substitution      =   16.5%   ( 211)
+Percent Deletions         =   12.8%   ( 164)
+Percent Insertions        =    3.8%   (  49)
+Percent Word Accuracy     =   66.8%
+
+
+Ref. words                =           (1278)
+Hyp. words                =           (1163)
+Aligned words             =           (1327)
+
+CONFUSION PAIRS                  Total                 (202)
+                                 With >=  1 occurrences (202)
+
+   1:    3  ->  in ==> and
+   2:    3  ->  x ==> a
+   3:    2  ->  a ==> the
+   4:    2  ->  this ==> the
+   5:    2  ->  x ==> it
+   6:    2  ->  x ==> that
+   7:    2  ->  x ==> will
+   8:    1  ->  a ==> an
+   9:    1  ->  a ==> like
+  10:    1  ->  a ==> mean
+  11:    1  ->  a ==> not
+  12:    1  ->  a ==> tax
+  13:    1  ->  a ==> that
+  14:    1  ->  almost ==> a
+  15:    1  ->  amounts ==> month
+  16:    1  ->  and ==> depth
+  17:    1  ->  and ==> him
+  18:    1  ->  and ==> in
+  19:    1  ->  and ==> it
+  20:    1  ->  and ==> them
+  21:    1  ->  and ==> to
+  22:    1  ->  anybody ==> and
+  23:    1  ->  are ==> speech
+  24:    1  ->  as ==> intimate
+  25:    1  ->  as ==> it's
+  26:    1  ->  at ==> are
+  27:    1  ->  at ==> realise
+  28:    1  ->  basically ==> open
+  29:    1  ->  beautifully ==> beautiful
+  30:    1  ->  being ==> been
+  31:    1  ->  birdwatching ==> so
+  32:    1  ->  but ==> attitude
+  33:    1  ->  but ==> what
+  34:    1  ->  certain ==> service
+  35:    1  ->  cigarette ==> nobody
+  36:    1  ->  done ==> to
+  37:    1  ->  factually ==> actually
+  38:    1  ->  freshwater ==> it
+  39:    1  ->  friend ==> train
+  40:    1  ->  fuck ==> ***
+  41:    1  ->  got ==> get
+  42:    1  ->  have ==> all
+  43:    1  ->  he ==> i
+  44:    1  ->  he ==> she's
+  45:    1  ->  her ==> given
+  46:    1  ->  him ==> shifted
+  47:    1  ->  i ==> had
+  48:    1  ->  i ==> this
+  49:    1  ->  immediately ==> they
+  50:    1  ->  in ==> playing
+  51:    1  ->  in ==> the
+  52:    1  ->  in ==> within
+  53:    1  ->  involved ==> a
+  54:    1  ->  is ==> place
+  55:    1  ->  is ==> sounded
+  56:    1  ->  it ==> could
+  57:    1  ->  it ==> music
+  58:    1  ->  it ==> not
+  59:    1  ->  it ==> you
+  60:    1  ->  just ==> a
+  61:    1  ->  landform ==> form
+  62:    1  ->  like ==> by
+  63:    1  ->  like ==> cycle
+  64:    1  ->  like ==> i
+  65:    1  ->  lot ==> fertilize
+  66:    1  ->  mallorquin ==> ching
+  67:    1  ->  mallorquin ==> king
+  68:    1  ->  mallorquin ==> marking
+  69:    1  ->  mocking ==> marking
+  70:    1  ->  modes ==> lots
+  71:    1  ->  no ==> professional
+  72:    1  ->  no ==> tom
+  73:    1  ->  not ==> pull
+  74:    1  ->  notes ==> out
+  75:    1  ->  notes ==> those
+  76:    1  ->  of ==> advantage
+  77:    1  ->  of ==> have
+  78:    1  ->  of ==> it
+  79:    1  ->  of ==> porch
+  80:    1  ->  oh ==> and
+  81:    1  ->  or ==> a
+  82:    1  ->  or ==> of
+  83:    1  ->  otherwise ==> possibility
+  84:    1  ->  out ==> seeing
+  85:    1  ->  park ==> part
+  86:    1  ->  parts ==> prices
+  87:    1  ->  poet ==> public
+  88:    1  ->  poetry ==> we
+  89:    1  ->  poets ==> poet
+  90:    1  ->  ponds ==> some
+  91:    1  ->  profess ==> called
+  92:    1  ->  psychologically ==> psychologist
+  93:    1  ->  reading ==> written
+  94:    1  ->  reading ==> you
+  95:    1  ->  really ==> merely
+  96:    1  ->  really ==> real
+  97:    1  ->  relaxed ==> we
+  98:    1  ->  relaxing ==> relax
+  99:    1  ->  sale ==> so
+ 100:    1  ->  say ==> of
+ 101:    1  ->  say ==> said
+ 102:    1  ->  sense ==> stuff
+ 103:    1  ->  she ==> chief
+ 104:    1  ->  she ==> should
+ 105:    1  ->  should ==> shoot
+ 106:    1  ->  slowed ==> slow
+ 107:    1  ->  socalled ==> called
+ 108:    1  ->  socalled ==> so
+ 109:    1  ->  socalled ==> social
+ 110:    1  ->  some ==> but
+ 111:    1  ->  soothing ==> ability
+ 112:    1  ->  sound ==> sounder
+ 113:    1  ->  speaking ==> an
+ 114:    1  ->  sum ==> one
+ 115:    1  ->  sum ==> sound
+ 116:    1  ->  that ==> in
+ 117:    1  ->  that ==> is
+ 118:    1  ->  that ==> of
+ 119:    1  ->  that ==> the
+ 120:    1  ->  that ==> there
+ 121:    1  ->  that ==> to
+ 122:    1  ->  that's ==> it's
+ 123:    1  ->  that's ==> like
+ 124:    1  ->  the ==> did
+ 125:    1  ->  the ==> good
+ 126:    1  ->  the ==> like
+ 127:    1  ->  the ==> whether
+ 128:    1  ->  them ==> involvement
+ 129:    1  ->  then ==> in
+ 130:    1  ->  think ==> estate
+ 131:    1  ->  thinking ==> saying
+ 132:    1  ->  this ==> as
+ 133:    1  ->  through ==> in
+ 134:    1  ->  to ==> that's
+ 135:    1  ->  to ==> the
+ 136:    1  ->  too ==> where
+ 137:    1  ->  us ==> i
+ 138:    1  ->  we ==> move
+ 139:    1  ->  well ==> an
+ 140:    1  ->  were ==> are
+ 141:    1  ->  what ==> it
+ 142:    1  ->  what ==> man
+ 143:    1  ->  what's ==> it
+ 144:    1  ->  when ==> mean
+ 145:    1  ->  where ==> majorca
+ 146:    1  ->  which ==> when
+ 147:    1  ->  with ==> prisoners
+ 148:    1  ->  would ==> we
+ 149:    1  ->  writer ==> writers
+ 150:    1  ->  x ==> am
+ 151:    1  ->  x ==> and
+ 152:    1  ->  x ==> appropriate
+ 153:    1  ->  x ==> as
+ 154:    1  ->  x ==> basically
+ 155:    1  ->  x ==> be
+ 156:    1  ->  x ==> behind
+ 157:    1  ->  x ==> bond
+ 158:    1  ->  x ==> box
+ 159:    1  ->  x ==> death
+ 160:    1  ->  x ==> do
+ 161:    1  ->  x ==> feeling
+ 162:    1  ->  x ==> for
+ 163:    1  ->  x ==> goldenberg
+ 164:    1  ->  x ==> ground
+ 165:    1  ->  x ==> grow
+ 166:    1  ->  x ==> habit
+ 167:    1  ->  x ==> had
+ 168:    1  ->  x ==> having
+ 169:    1  ->  x ==> his
+ 170:    1  ->  x ==> idea
+ 171:    1  ->  x ==> incredible
+ 172:    1  ->  x ==> intimate
+ 173:    1  ->  x ==> into
+ 174:    1  ->  x ==> is
+ 175:    1  ->  x ==> issues
+ 176:    1  ->  x ==> just
+ 177:    1  ->  x ==> know
+ 178:    1  ->  x ==> like
+ 179:    1  ->  x ==> me
+ 180:    1  ->  x ==> mean
+ 181:    1  ->  x ==> off
+ 182:    1  ->  x ==> one
+ 183:    1  ->  x ==> out
+ 184:    1  ->  x ==> part
+ 185:    1  ->  x ==> phone
+ 186:    1  ->  x ==> pies
+ 187:    1  ->  x ==> really
+ 188:    1  ->  x ==> the
+ 189:    1  ->  x ==> those
+ 190:    1  ->  x ==> to
+ 191:    1  ->  x ==> too
+ 192:    1  ->  x ==> vision
+ 193:    1  ->  x ==> well
+ 194:    1  ->  x ==> when
+ 195:    1  ->  x ==> where
+ 196:    1  ->  x ==> would
+ 197:    1  ->  x ==> you
+ 198:    1  ->  yeah ==> and
+ 199:    1  ->  yeah ==> be
+ 200:    1  ->  yeah ==> it
+ 201:    1  ->  yeah ==> them
+ 202:    1  ->  your ==> that
+     -------
+       211
+
+
+
+INSERTIONS                       Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  so
+   2:    2  ->  a
+   3:    2  ->  i
+   4:    2  ->  mayor
+   5:    2  ->  or
+   6:    2  ->  that
+   7:    2  ->  the
+   8:    2  ->  to
+   9:    1  ->  about
+  10:    1  ->  accident
+  11:    1  ->  an
+  12:    1  ->  and
+  13:    1  ->  as
+  14:    1  ->  cut
+  15:    1  ->  do
+  16:    1  ->  for
+  17:    1  ->  fresh
+  18:    1  ->  gone
+  19:    1  ->  if
+  20:    1  ->  in
+  21:    1  ->  is
+  22:    1  ->  land
+  23:    1  ->  long
+  24:    1  ->  most
+  25:    1  ->  not
+  26:    1  ->  of
+  27:    1  ->  on
+  28:    1  ->  out
+  29:    1  ->  personal
+  30:    1  ->  pins
+  31:    1  ->  pull
+  32:    1  ->  really
+  33:    1  ->  some
+  34:    1  ->  there's
+  35:    1  ->  unable
+  36:    1  ->  up
+  37:    1  ->  water
+  38:    1  ->  were
+  39:    1  ->  you
+  40:    1  ->  your
+     -------
+        49
+
+
+
+DELETIONS                        Total                 (83)
+                                 With >=  1 occurrences (83)
+
+   1:   30  ->  x
+   2:    7  ->  i
+   3:    6  ->  you
+   4:    4  ->  no
+   5:    4  ->  to
+   6:    3  ->  and
+   7:    3  ->  be
+   8:    3  ->  it
+   9:    3  ->  like
+  10:    3  ->  not
+  11:    3  ->  oh
+  12:    3  ->  should
+  13:    3  ->  sure
+  14:    3  ->  the
+  15:    3  ->  yeah
+  16:    2  ->  any
+  17:    2  ->  are
+  18:    2  ->  do
+  19:    2  ->  had
+  20:    2  ->  have
+  21:    2  ->  if
+  22:    2  ->  k.
+  23:    2  ->  know
+  24:    2  ->  l
+  25:    2  ->  o.
+  26:    2  ->  play
+  27:    2  ->  right
+  28:    2  ->  that
+  29:    2  ->  w
+  30:    2  ->  well
+  31:    1  ->  %bcack
+  32:    1  ->  a
+  33:    1  ->  add
+  34:    1  ->  advent
+  35:    1  ->  air
+  36:    1  ->  am
+  37:    1  ->  as
+  38:    1  ->  could
+  39:    1  ->  cut
+  40:    1  ->  depths
+  41:    1  ->  did
+  42:    1  ->  example
+  43:    1  ->  find
+  44:    1  ->  for
+  45:    1  ->  has
+  46:    1  ->  how
+  47:    1  ->  in
+  48:    1  ->  inappropriate
+  49:    1  ->  int
+  50:    1  ->  just
+  51:    1  ->  let
+  52:    1  ->  literally
+  53:    1  ->  m
+  54:    1  ->  mallorca
+  55:    1  ->  matter
+  56:    1  ->  one
+  57:    1  ->  out
+  58:    1  ->  person
+  59:    1  ->  possibilities
+  60:    1  ->  reading
+  61:    1  ->  realised
+  62:    1  ->  saying
+  63:    1  ->  see
+  64:    1  ->  shape
+  65:    1  ->  shipped
+  66:    1  ->  so
+  67:    1  ->  sound
+  68:    1  ->  sum
+  69:    1  ->  terrific
+  70:    1  ->  that's
+  71:    1  ->  then
+  72:    1  ->  thing
+  73:    1  ->  think
+  74:    1  ->  thought
+  75:    1  ->  true
+  76:    1  ->  up
+  77:    1  ->  want
+  78:    1  ->  was
+  79:    1  ->  were
+  80:    1  ->  wide
+  81:    1  ->  would
+  82:    1  ->  writing
+  83:    1  ->  y
+     -------
+       164
+
+
+
+SUBSTITUTIONS                    Total                 (96)
+                                 With >=  1 occurrences (96)
+
+   1:   57  ->  x
+   2:    8  ->  a
+   3:    6  ->  and
+   4:    6  ->  in
+   5:    6  ->  that
+   6:    4  ->  it
+   7:    4  ->  of
+   8:    4  ->  the
+   9:    4  ->  yeah
+  10:    3  ->  like
+  11:    3  ->  mallorquin
+  12:    3  ->  socalled
+  13:    3  ->  this
+  14:    2  ->  as
+  15:    2  ->  at
+  16:    2  ->  but
+  17:    2  ->  he
+  18:    2  ->  i
+  19:    2  ->  is
+  20:    2  ->  no
+  21:    2  ->  notes
+  22:    2  ->  or
+  23:    2  ->  reading
+  24:    2  ->  really
+  25:    2  ->  say
+  26:    2  ->  she
+  27:    2  ->  sum
+  28:    2  ->  that's
+  29:    2  ->  to
+  30:    2  ->  what
+  31:    1  ->  almost
+  32:    1  ->  amounts
+  33:    1  ->  anybody
+  34:    1  ->  are
+  35:    1  ->  basically
+  36:    1  ->  beautifully
+  37:    1  ->  being
+  38:    1  ->  birdwatching
+  39:    1  ->  certain
+  40:    1  ->  cigarette
+  41:    1  ->  done
+  42:    1  ->  factually
+  43:    1  ->  freshwater
+  44:    1  ->  friend
+  45:    1  ->  fuck
+  46:    1  ->  got
+  47:    1  ->  have
+  48:    1  ->  her
+  49:    1  ->  him
+  50:    1  ->  immediately
+  51:    1  ->  involved
+  52:    1  ->  just
+  53:    1  ->  landform
+  54:    1  ->  lot
+  55:    1  ->  mocking
+  56:    1  ->  modes
+  57:    1  ->  not
+  58:    1  ->  oh
+  59:    1  ->  otherwise
+  60:    1  ->  out
+  61:    1  ->  park
+  62:    1  ->  parts
+  63:    1  ->  poet
+  64:    1  ->  poetry
+  65:    1  ->  poets
+  66:    1  ->  ponds
+  67:    1  ->  profess
+  68:    1  ->  psychologically
+  69:    1  ->  relaxed
+  70:    1  ->  relaxing
+  71:    1  ->  sale
+  72:    1  ->  sense
+  73:    1  ->  should
+  74:    1  ->  slowed
+  75:    1  ->  some
+  76:    1  ->  soothing
+  77:    1  ->  sound
+  78:    1  ->  speaking
+  79:    1  ->  them
+  80:    1  ->  then
+  81:    1  ->  think
+  82:    1  ->  thinking
+  83:    1  ->  through
+  84:    1  ->  too
+  85:    1  ->  us
+  86:    1  ->  we
+  87:    1  ->  well
+  88:    1  ->  were
+  89:    1  ->  what's
+  90:    1  ->  when
+  91:    1  ->  where
+  92:    1  ->  which
+  93:    1  ->  with
+  94:    1  ->  would
+  95:    1  ->  writer
+  96:    1  ->  your
+     -------
+       211
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (141)
+                                 With >=  1 occurrences (141)
+
+   1:    8  ->  it
+   2:    8  ->  the
+   3:    7  ->  a
+   4:    7  ->  and
+   5:    4  ->  in
+   6:    4  ->  like
+   7:    4  ->  that
+   8:    4  ->  to
+   9:    3  ->  an
+  10:    3  ->  i
+  11:    3  ->  mean
+  12:    3  ->  of
+  13:    3  ->  so
+  14:    3  ->  we
+  15:    3  ->  you
+  16:    2  ->  are
+  17:    2  ->  as
+  18:    2  ->  be
+  19:    2  ->  called
+  20:    2  ->  had
+  21:    2  ->  intimate
+  22:    2  ->  is
+  23:    2  ->  it's
+  24:    2  ->  marking
+  25:    2  ->  not
+  26:    2  ->  one
+  27:    2  ->  out
+  28:    2  ->  part
+  29:    2  ->  them
+  30:    2  ->  those
+  31:    2  ->  when
+  32:    2  ->  where
+  33:    2  ->  will
+  34:    1  ->  ***
+  35:    1  ->  ability
+  36:    1  ->  actually
+  37:    1  ->  advantage
+  38:    1  ->  all
+  39:    1  ->  am
+  40:    1  ->  appropriate
+  41:    1  ->  attitude
+  42:    1  ->  basically
+  43:    1  ->  beautiful
+  44:    1  ->  been
+  45:    1  ->  behind
+  46:    1  ->  bond
+  47:    1  ->  box
+  48:    1  ->  but
+  49:    1  ->  by
+  50:    1  ->  chief
+  51:    1  ->  ching
+  52:    1  ->  could
+  53:    1  ->  cycle
+  54:    1  ->  death
+  55:    1  ->  depth
+  56:    1  ->  did
+  57:    1  ->  do
+  58:    1  ->  estate
+  59:    1  ->  feeling
+  60:    1  ->  fertilize
+  61:    1  ->  for
+  62:    1  ->  form
+  63:    1  ->  get
+  64:    1  ->  given
+  65:    1  ->  goldenberg
+  66:    1  ->  good
+  67:    1  ->  ground
+  68:    1  ->  grow
+  69:    1  ->  habit
+  70:    1  ->  have
+  71:    1  ->  having
+  72:    1  ->  him
+  73:    1  ->  his
+  74:    1  ->  idea
+  75:    1  ->  incredible
+  76:    1  ->  into
+  77:    1  ->  involvement
+  78:    1  ->  issues
+  79:    1  ->  just
+  80:    1  ->  king
+  81:    1  ->  know
+  82:    1  ->  lots
+  83:    1  ->  majorca
+  84:    1  ->  man
+  85:    1  ->  me
+  86:    1  ->  merely
+  87:    1  ->  month
+  88:    1  ->  move
+  89:    1  ->  music
+  90:    1  ->  nobody
+  91:    1  ->  off
+  92:    1  ->  open
+  93:    1  ->  phone
+  94:    1  ->  pies
+  95:    1  ->  place
+  96:    1  ->  playing
+  97:    1  ->  poet
+  98:    1  ->  porch
+  99:    1  ->  possibility
+ 100:    1  ->  prices
+ 101:    1  ->  prisoners
+ 102:    1  ->  professional
+ 103:    1  ->  psychologist
+ 104:    1  ->  public
+ 105:    1  ->  pull
+ 106:    1  ->  real
+ 107:    1  ->  realise
+ 108:    1  ->  really
+ 109:    1  ->  relax
+ 110:    1  ->  said
+ 111:    1  ->  saying
+ 112:    1  ->  seeing
+ 113:    1  ->  service
+ 114:    1  ->  she's
+ 115:    1  ->  shifted
+ 116:    1  ->  shoot
+ 117:    1  ->  should
+ 118:    1  ->  slow
+ 119:    1  ->  social
+ 120:    1  ->  some
+ 121:    1  ->  sound
+ 122:    1  ->  sounded
+ 123:    1  ->  sounder
+ 124:    1  ->  speech
+ 125:    1  ->  stuff
+ 126:    1  ->  tax
+ 127:    1  ->  that's
+ 128:    1  ->  there
+ 129:    1  ->  they
+ 130:    1  ->  this
+ 131:    1  ->  tom
+ 132:    1  ->  too
+ 133:    1  ->  train
+ 134:    1  ->  vision
+ 135:    1  ->  well
+ 136:    1  ->  what
+ 137:    1  ->  whether
+ 138:    1  ->  within
+ 139:    1  ->  would
+ 140:    1  ->  writers
+ 141:    1  ->  written
+     -------
+       211
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

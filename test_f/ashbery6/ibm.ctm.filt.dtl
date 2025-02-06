@@ -1,0 +1,165 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.6%   (  36)
+
+Percent Correct           =   96.8%   ( 956)
+
+Percent Substitution      =    3.1%   (  31)
+Percent Deletions         =    0.1%   (   1)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   96.4%
+
+
+Ref. words                =           ( 988)
+Hyp. words                =           ( 991)
+Aligned words             =           ( 992)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  and ==> in
+   2:    1  ->  alternately ==> ultimately
+   3:    1  ->  and ==> end
+   4:    1  ->  are ==> i
+   5:    1  ->  as ==> his
+   6:    1  ->  as ==> is
+   7:    1  ->  at ==> ed
+   8:    1  ->  avignon ==> avenue
+   9:    1  ->  dirge ==> durg
+  10:    1  ->  dollhouse ==> house
+  11:    1  ->  doze ==> dose
+  12:    1  ->  falbalas ==> fabula
+  13:    1  ->  guessed ==> guest
+  14:    1  ->  its ==> it
+  15:    1  ->  laundresses ==> laundress
+  16:    1  ->  on ==> in
+  17:    1  ->  panes ==> pains
+  18:    1  ->  perspective ==> prospective
+  19:    1  ->  prefaced ==> preference
+  20:    1  ->  projects ==> project
+  21:    1  ->  quotients ==> questions
+  22:    1  ->  raban ==> rabon
+  23:    1  ->  stares ==> stars
+  24:    1  ->  superimposed ==> imposed
+  25:    1  ->  tactfully ==> taxi
+  26:    1  ->  the ==> a
+  27:    1  ->  too ==> two
+  28:    1  ->  trifoliate ==> triphala
+  29:    1  ->  unskillfully ==> skillfully
+  30:    1  ->  worn ==> warren
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  doll
+   2:    1  ->  is
+   3:    1  ->  it
+   4:    1  ->  super
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  mid
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  and
+   2:    2  ->  as
+   3:    1  ->  alternately
+   4:    1  ->  are
+   5:    1  ->  at
+   6:    1  ->  avignon
+   7:    1  ->  dirge
+   8:    1  ->  dollhouse
+   9:    1  ->  doze
+  10:    1  ->  falbalas
+  11:    1  ->  guessed
+  12:    1  ->  its
+  13:    1  ->  laundresses
+  14:    1  ->  on
+  15:    1  ->  panes
+  16:    1  ->  perspective
+  17:    1  ->  prefaced
+  18:    1  ->  projects
+  19:    1  ->  quotients
+  20:    1  ->  raban
+  21:    1  ->  stares
+  22:    1  ->  superimposed
+  23:    1  ->  tactfully
+  24:    1  ->  the
+  25:    1  ->  too
+  26:    1  ->  trifoliate
+  27:    1  ->  unskillfully
+  28:    1  ->  worn
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  in
+   2:    1  ->  a
+   3:    1  ->  avenue
+   4:    1  ->  dose
+   5:    1  ->  durg
+   6:    1  ->  ed
+   7:    1  ->  end
+   8:    1  ->  fabula
+   9:    1  ->  guest
+  10:    1  ->  his
+  11:    1  ->  house
+  12:    1  ->  i
+  13:    1  ->  imposed
+  14:    1  ->  is
+  15:    1  ->  it
+  16:    1  ->  laundress
+  17:    1  ->  pains
+  18:    1  ->  preference
+  19:    1  ->  project
+  20:    1  ->  prospective
+  21:    1  ->  questions
+  22:    1  ->  rabon
+  23:    1  ->  skillfully
+  24:    1  ->  stars
+  25:    1  ->  taxi
+  26:    1  ->  triphala
+  27:    1  ->  two
+  28:    1  ->  ultimately
+  29:    1  ->  warren
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

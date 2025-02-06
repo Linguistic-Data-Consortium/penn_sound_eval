@@ -1,0 +1,203 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.0%   (  61)
+
+Percent Correct           =   95.3%   (1157)
+
+Percent Substitution      =    3.7%   (  45)
+Percent Deletions         =    1.0%   (  12)
+Percent Insertions        =    0.3%   (   4)
+Percent Word Accuracy     =   95.0%
+
+
+Ref. words                =           (1214)
+Hyp. words                =           (1206)
+Aligned words             =           (1218)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  and ==> an
+   2:    2  ->  is ==> 's
+   3:    2  ->  reuben ==> ruben
+   4:    2  ->  temps ==> t'aime
+   5:    1  ->  adjectivize ==> adjectivise
+   6:    1  ->  and ==> commute
+   7:    1  ->  arithmatic ==> arithmetic
+   8:    1  ->  at ==> it
+   9:    1  ->  bad ==> that
+  10:    1  ->  beaucoup ==> a
+  11:    1  ->  beaucoup ==> boku
+  12:    1  ->  behinds ==> behind
+  13:    1  ->  cockhead ==> head
+  14:    1  ->  comme ==> come
+  15:    1  ->  et ==> is
+  16:    1  ->  g ==> jg
+  17:    1  ->  in ==> and
+  18:    1  ->  it's ==> there's
+  19:    1  ->  je ==> j
+  20:    1  ->  je ==> your
+  21:    1  ->  lizard ==> blizzard
+  22:    1  ->  lustrous ==> blusterous
+  23:    1  ->  mark's ==> 's
+  24:    1  ->  moved ==> mood
+  25:    1  ->  peer ==> here
+  26:    1  ->  place ==> places
+  27:    1  ->  pore ==> poor
+  28:    1  ->  pretense ==> pretence
+  29:    1  ->  quran ==> koran
+  30:    1  ->  sod ==> so
+  31:    1  ->  t'aime ==> tam
+  32:    1  ->  temps ==> tom
+  33:    1  ->  temps ==> tone
+  34:    1  ->  the ==> this
+  35:    1  ->  then ==> the
+  36:    1  ->  titled ==> called
+  37:    1  ->  tout ==> too
+  38:    1  ->  turn ==> turned
+  39:    1  ->  valentines ==> valentine's
+  40:    1  ->  vulva ==> avolva
+  41:    1  ->  will ==> were
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  cock
+   2:    1  ->  mark
+   3:    1  ->  me
+   4:    1  ->  you
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  a
+   2:    2  ->  je
+   3:    2  ->  t'aime
+   4:    1  ->  c
+   5:    1  ->  comme
+   6:    1  ->  i
+   7:    1  ->  j
+   8:    1  ->  that
+   9:    1  ->  we
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    4  ->  temps
+   2:    3  ->  and
+   3:    2  ->  beaucoup
+   4:    2  ->  is
+   5:    2  ->  je
+   6:    2  ->  reuben
+   7:    1  ->  adjectivize
+   8:    1  ->  arithmatic
+   9:    1  ->  at
+  10:    1  ->  bad
+  11:    1  ->  behinds
+  12:    1  ->  cockhead
+  13:    1  ->  comme
+  14:    1  ->  et
+  15:    1  ->  g
+  16:    1  ->  in
+  17:    1  ->  it's
+  18:    1  ->  lizard
+  19:    1  ->  lustrous
+  20:    1  ->  mark's
+  21:    1  ->  moved
+  22:    1  ->  peer
+  23:    1  ->  place
+  24:    1  ->  pore
+  25:    1  ->  pretense
+  26:    1  ->  quran
+  27:    1  ->  sod
+  28:    1  ->  t'aime
+  29:    1  ->  the
+  30:    1  ->  then
+  31:    1  ->  titled
+  32:    1  ->  tout
+  33:    1  ->  turn
+  34:    1  ->  valentines
+  35:    1  ->  vulva
+  36:    1  ->  will
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  's
+   2:    2  ->  an
+   3:    2  ->  ruben
+   4:    2  ->  t'aime
+   5:    1  ->  a
+   6:    1  ->  adjectivise
+   7:    1  ->  and
+   8:    1  ->  arithmetic
+   9:    1  ->  avolva
+  10:    1  ->  behind
+  11:    1  ->  blizzard
+  12:    1  ->  blusterous
+  13:    1  ->  boku
+  14:    1  ->  called
+  15:    1  ->  come
+  16:    1  ->  commute
+  17:    1  ->  head
+  18:    1  ->  here
+  19:    1  ->  is
+  20:    1  ->  it
+  21:    1  ->  j
+  22:    1  ->  jg
+  23:    1  ->  koran
+  24:    1  ->  mood
+  25:    1  ->  places
+  26:    1  ->  poor
+  27:    1  ->  pretence
+  28:    1  ->  so
+  29:    1  ->  tam
+  30:    1  ->  that
+  31:    1  ->  the
+  32:    1  ->  there's
+  33:    1  ->  this
+  34:    1  ->  tom
+  35:    1  ->  tone
+  36:    1  ->  too
+  37:    1  ->  turned
+  38:    1  ->  valentine's
+  39:    1  ->  were
+  40:    1  ->  your
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

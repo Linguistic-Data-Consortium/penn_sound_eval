@@ -1,0 +1,174 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.4%   (  59)
+
+Percent Correct           =   95.0%   ( 872)
+
+Percent Substitution      =    4.1%   (  38)
+Percent Deletions         =    0.9%   (   8)
+Percent Insertions        =    1.4%   (  13)
+Percent Word Accuracy     =   93.6%
+
+
+Ref. words                =           ( 918)
+Hyp. words                =           ( 923)
+Aligned words             =           ( 931)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    9  ->  is ==> 's
+   2:    1  ->  an ==> and
+   3:    1  ->  and ==> in
+   4:    1  ->  as ==> members
+   5:    1  ->  coffey ==> coffee
+   6:    1  ->  conto ==> canso
+   7:    1  ->  depazzi ==> depotsi
+   8:    1  ->  eric's ==> 's
+   9:    1  ->  fabula ==> fabiola
+  10:    1  ->  icon's ==> 's
+  11:    1  ->  is ==> italian
+  12:    1  ->  isoleri ==> issoleri
+  13:    1  ->  isoleri ==> larry
+  14:    1  ->  istfan ==> isvan
+  15:    1  ->  italianamerican ==> american
+  16:    1  ->  korkemaz ==> korkamas
+  17:    1  ->  maron's ==> 's
+  18:    1  ->  merrymaking ==> making
+  19:    1  ->  midseventeenth ==> seventeenth
+  20:    1  ->  molise ==> units
+  21:    1  ->  oh ==> o
+  22:    1  ->  parade's ==> 's
+  23:    1  ->  priest ==> priests
+  24:    1  ->  snockey's ==> 's
+  25:    1  ->  tayoun's ==> 's
+  26:    1  ->  the ==> a
+  27:    1  ->  the ==> this
+  28:    1  ->  unita ==> a
+  29:    1  ->  win ==> bahwin
+  30:    1  ->  x ==> festa
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  's
+   2:    1  ->  and
+   3:    1  ->  eric
+   4:    1  ->  icon
+   5:    1  ->  issa
+   6:    1  ->  malice
+   7:    1  ->  marin
+   8:    1  ->  mid
+   9:    1  ->  murray
+  10:    1  ->  parade
+  11:    1  ->  snarky
+  12:    1  ->  the
+  13:    1  ->  tyun
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  ba
+   3:    1  ->  i
+   4:    1  ->  mar
+   5:    1  ->  member
+   6:    1  ->  of
+   7:    1  ->  r
+   8:    1  ->  s
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:   10  ->  is
+   2:    2  ->  isoleri
+   3:    2  ->  the
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  as
+   7:    1  ->  coffey
+   8:    1  ->  conto
+   9:    1  ->  depazzi
+  10:    1  ->  eric's
+  11:    1  ->  fabula
+  12:    1  ->  icon's
+  13:    1  ->  istfan
+  14:    1  ->  italianamerican
+  15:    1  ->  korkemaz
+  16:    1  ->  maron's
+  17:    1  ->  merrymaking
+  18:    1  ->  midseventeenth
+  19:    1  ->  molise
+  20:    1  ->  oh
+  21:    1  ->  parade's
+  22:    1  ->  priest
+  23:    1  ->  snockey's
+  24:    1  ->  tayoun's
+  25:    1  ->  unita
+  26:    1  ->  win
+  27:    1  ->  x
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:   15  ->  's
+   2:    2  ->  a
+   3:    1  ->  american
+   4:    1  ->  and
+   5:    1  ->  bahwin
+   6:    1  ->  canso
+   7:    1  ->  coffee
+   8:    1  ->  depotsi
+   9:    1  ->  fabiola
+  10:    1  ->  festa
+  11:    1  ->  in
+  12:    1  ->  issoleri
+  13:    1  ->  isvan
+  14:    1  ->  italian
+  15:    1  ->  korkamas
+  16:    1  ->  larry
+  17:    1  ->  making
+  18:    1  ->  members
+  19:    1  ->  o
+  20:    1  ->  priests
+  21:    1  ->  seventeenth
+  22:    1  ->  this
+  23:    1  ->  units
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

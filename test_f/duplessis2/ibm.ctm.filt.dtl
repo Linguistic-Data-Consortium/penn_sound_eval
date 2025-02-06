@@ -1,0 +1,215 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.7%   (  57)
+
+Percent Correct           =   93.9%   ( 803)
+
+Percent Substitution      =    5.1%   (  44)
+Percent Deletions         =    0.9%   (   8)
+Percent Insertions        =    0.6%   (   5)
+Percent Word Accuracy     =   93.3%
+
+
+Ref. words                =           ( 855)
+Hyp. words                =           ( 852)
+Aligned words             =           ( 860)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    1  ->  a ==> aline
+   2:    1  ->  and ==> that
+   3:    1  ->  at ==> an
+   4:    1  ->  at ==> not
+   5:    1  ->  barrettes ==> parents
+   6:    1  ->  be ==> b
+   7:    1  ->  behindhand ==> hand
+   8:    1  ->  bits ==> alphabets
+   9:    1  ->  bloodied ==> blood
+  10:    1  ->  call ==> called
+  11:    1  ->  canzone ==> zone
+  12:    1  ->  caring ==> occurring
+  13:    1  ->  child ==> girlchild
+  14:    1  ->  cosy ==> cozy
+  15:    1  ->  dolls ==> doll
+  16:    1  ->  eclipse ==> clips
+  17:    1  ->  hole ==> whole
+  18:    1  ->  in ==> and
+  19:    1  ->  it ==> weeded
+  20:    1  ->  its ==> it's
+  21:    1  ->  knowers ==> nurs
+  22:    1  ->  laid ==> lay
+  23:    1  ->  line ==> whole
+  24:    1  ->  l’ingresso ==> grasso
+  25:    1  ->  mine ==> mind
+  26:    1  ->  moon's ==> music
+  27:    1  ->  nomadic ==> pneumatic
+  28:    1  ->  rectitudes ==> rectitude
+  29:    1  ->  scrunchie ==> scrunchy
+  30:    1  ->  seemed ==> assumed
+  31:    1  ->  shuddering ==> shuttering
+  32:    1  ->  suffusing ==> fusing
+  33:    1  ->  tales ==> tails
+  34:    1  ->  the ==> but
+  35:    1  ->  then ==> than
+  36:    1  ->  thus ==> this
+  37:    1  ->  to ==> the
+  38:    1  ->  torn ==> turn
+  39:    1  ->  vietato ==> vin
+  40:    1  ->  vow ==> allow
+  41:    1  ->  watch ==> watched
+  42:    1  ->  world's ==> rules
+  43:    1  ->  write ==> right
+  44:    1  ->  yearning ==> earning
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  behind
+   2:    1  ->  can
+   3:    1  ->  su
+   4:    1  ->  tato
+   5:    1  ->  via
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  a
+   2:    1  ->  alpha
+   3:    1  ->  girl
+   4:    1  ->  hole
+   5:    1  ->  it
+   6:    1  ->  of
+   7:    1  ->  wait
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  at
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  barrettes
+   5:    1  ->  be
+   6:    1  ->  behindhand
+   7:    1  ->  bits
+   8:    1  ->  bloodied
+   9:    1  ->  call
+  10:    1  ->  canzone
+  11:    1  ->  caring
+  12:    1  ->  child
+  13:    1  ->  cosy
+  14:    1  ->  dolls
+  15:    1  ->  eclipse
+  16:    1  ->  hole
+  17:    1  ->  in
+  18:    1  ->  it
+  19:    1  ->  its
+  20:    1  ->  knowers
+  21:    1  ->  laid
+  22:    1  ->  line
+  23:    1  ->  l’ingresso
+  24:    1  ->  mine
+  25:    1  ->  moon's
+  26:    1  ->  nomadic
+  27:    1  ->  rectitudes
+  28:    1  ->  scrunchie
+  29:    1  ->  seemed
+  30:    1  ->  shuddering
+  31:    1  ->  suffusing
+  32:    1  ->  tales
+  33:    1  ->  the
+  34:    1  ->  then
+  35:    1  ->  thus
+  36:    1  ->  to
+  37:    1  ->  torn
+  38:    1  ->  vietato
+  39:    1  ->  vow
+  40:    1  ->  watch
+  41:    1  ->  world's
+  42:    1  ->  write
+  43:    1  ->  yearning
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  whole
+   2:    1  ->  aline
+   3:    1  ->  allow
+   4:    1  ->  alphabets
+   5:    1  ->  an
+   6:    1  ->  and
+   7:    1  ->  assumed
+   8:    1  ->  b
+   9:    1  ->  blood
+  10:    1  ->  but
+  11:    1  ->  called
+  12:    1  ->  clips
+  13:    1  ->  cozy
+  14:    1  ->  doll
+  15:    1  ->  earning
+  16:    1  ->  fusing
+  17:    1  ->  girlchild
+  18:    1  ->  grasso
+  19:    1  ->  hand
+  20:    1  ->  it's
+  21:    1  ->  lay
+  22:    1  ->  mind
+  23:    1  ->  music
+  24:    1  ->  not
+  25:    1  ->  nurs
+  26:    1  ->  occurring
+  27:    1  ->  parents
+  28:    1  ->  pneumatic
+  29:    1  ->  rectitude
+  30:    1  ->  right
+  31:    1  ->  rules
+  32:    1  ->  scrunchy
+  33:    1  ->  shuttering
+  34:    1  ->  tails
+  35:    1  ->  than
+  36:    1  ->  that
+  37:    1  ->  the
+  38:    1  ->  this
+  39:    1  ->  turn
+  40:    1  ->  vin
+  41:    1  ->  watched
+  42:    1  ->  weeded
+  43:    1  ->  zone
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

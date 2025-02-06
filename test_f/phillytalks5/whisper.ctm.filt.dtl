@@ -1,0 +1,194 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   12.4%   ( 145)
+
+Percent Correct           =   88.2%   (1031)
+
+Percent Substitution      =    1.6%   (  19)
+Percent Deletions         =   10.2%   ( 119)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   87.6%
+
+
+Ref. words                =           (1169)
+Hyp. words                =           (1057)
+Aligned words             =           (1176)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  there ==> it
+   2:    1  ->  a ==> the
+   3:    1  ->  at ==> that
+   4:    1  ->  cetera ==> etc
+   5:    1  ->  could ==> can
+   6:    1  ->  et ==> etc
+   7:    1  ->  her ==> way
+   8:    1  ->  is ==> as
+   9:    1  ->  its ==> that's
+  10:    1  ->  n ==> a
+  11:    1  ->  not ==> and
+  12:    1  ->  scream ==> read
+  13:    1  ->  sensorium ==> censorium
+  14:    1  ->  sixteenth ==> 16th
+  15:    1  ->  so ==> should
+  16:    1  ->  that's ==> no
+  17:    1  ->  well ==> and
+  18:    1  ->  what ==> things
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and
+   2:    1  ->  k.
+   3:    1  ->  o.
+   4:    1  ->  of
+   5:    1  ->  oh
+   6:    1  ->  the
+   7:    1  ->  you
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (62)
+                                 With >=  1 occurrences (62)
+
+   1:   10  ->  a
+   2:    9  ->  the
+   3:    8  ->  that
+   4:    6  ->  i
+   5:    5  ->  is
+   6:    5  ->  w
+   7:    4  ->  in
+   8:    4  ->  of
+   9:    3  ->  and
+  10:    3  ->  it
+  11:    3  ->  not
+  12:    3  ->  what
+  13:    2  ->  do
+  14:    2  ->  know
+  15:    2  ->  to
+  16:    2  ->  u
+  17:    2  ->  y
+  18:    2  ->  yeah
+  19:    1  ->  an
+  20:    1  ->  anth
+  21:    1  ->  at
+  22:    1  ->  c
+  23:    1  ->  cetera
+  24:    1  ->  colle
+  25:    1  ->  et
+  26:    1  ->  g
+  27:    1  ->  have
+  28:    1  ->  if
+  29:    1  ->  it's
+  30:    1  ->  itself
+  31:    1  ->  k.
+  32:    1  ->  liturgy
+  33:    1  ->  m
+  34:    1  ->  mean
+  35:    1  ->  midra
+  36:    1  ->  name
+  37:    1  ->  o.
+  38:    1  ->  oh
+  39:    1  ->  or
+  40:    1  ->  p
+  41:    1  ->  people
+  42:    1  ->  qu
+  43:    1  ->  r
+  44:    1  ->  rather
+  45:    1  ->  round
+  46:    1  ->  s
+  47:    1  ->  saf
+  48:    1  ->  see
+  49:    1  ->  so
+  50:    1  ->  speak
+  51:    1  ->  they
+  52:    1  ->  through
+  53:    1  ->  too
+  54:    1  ->  v
+  55:    1  ->  was
+  56:    1  ->  were
+  57:    1  ->  wh
+  58:    1  ->  work
+  59:    1  ->  would
+  60:    1  ->  wq
+  61:    1  ->  wr
+  62:    1  ->  you
+     -------
+       119
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  there
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  cetera
+   5:    1  ->  could
+   6:    1  ->  et
+   7:    1  ->  her
+   8:    1  ->  is
+   9:    1  ->  its
+  10:    1  ->  n
+  11:    1  ->  not
+  12:    1  ->  scream
+  13:    1  ->  sensorium
+  14:    1  ->  sixteenth
+  15:    1  ->  so
+  16:    1  ->  that's
+  17:    1  ->  well
+  18:    1  ->  what
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  and
+   2:    2  ->  etc
+   3:    2  ->  it
+   4:    1  ->  16th
+   5:    1  ->  a
+   6:    1  ->  as
+   7:    1  ->  can
+   8:    1  ->  censorium
+   9:    1  ->  no
+  10:    1  ->  read
+  11:    1  ->  should
+  12:    1  ->  that
+  13:    1  ->  that's
+  14:    1  ->  the
+  15:    1  ->  things
+  16:    1  ->  way
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

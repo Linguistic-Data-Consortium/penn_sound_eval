@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.0%   (  33)
+
+Percent Correct           =   97.5%   (1072)
+
+Percent Substitution      =    2.3%   (  25)
+Percent Deletions         =    0.2%   (   2)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   97.0%
+
+
+Ref. words                =           (1099)
+Hyp. words                =           (1103)
+Aligned words             =           (1105)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  and ==> in
+   2:    3  ->  sepulcher ==> sepulchre
+   3:    2  ->  the ==> a
+   4:    1  ->  a ==> the
+   5:    1  ->  along ==> the
+   6:    1  ->  and ==> a
+   7:    1  ->  dear ==> deer
+   8:    1  ->  grey ==> gray
+   9:    1  ->  in ==> and
+  10:    1  ->  is ==> as
+  11:    1  ->  pack ==> packed
+  12:    1  ->  patterned ==> pattern
+  13:    1  ->  servant's ==> servants
+  14:    1  ->  store ==> drugstore
+  15:    1  ->  then ==> men
+  16:    1  ->  thyme ==> time
+  17:    1  ->  to ==> from
+  18:    1  ->  treetop's ==> treetops
+  19:    1  ->  wan ==> one
+  20:    1  ->  x ==> with
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  to
+   2:    1  ->  among
+   3:    1  ->  and
+   4:    1  ->  it
+   5:    1  ->  that
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  drug
+   2:    1  ->  to
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  and
+   2:    3  ->  sepulcher
+   3:    2  ->  the
+   4:    1  ->  a
+   5:    1  ->  along
+   6:    1  ->  dear
+   7:    1  ->  grey
+   8:    1  ->  in
+   9:    1  ->  is
+  10:    1  ->  pack
+  11:    1  ->  patterned
+  12:    1  ->  servant's
+  13:    1  ->  store
+  14:    1  ->  then
+  15:    1  ->  thyme
+  16:    1  ->  to
+  17:    1  ->  treetop's
+  18:    1  ->  wan
+  19:    1  ->  x
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  a
+   2:    3  ->  in
+   3:    3  ->  sepulchre
+   4:    2  ->  the
+   5:    1  ->  and
+   6:    1  ->  as
+   7:    1  ->  deer
+   8:    1  ->  drugstore
+   9:    1  ->  from
+  10:    1  ->  gray
+  11:    1  ->  men
+  12:    1  ->  one
+  13:    1  ->  packed
+  14:    1  ->  pattern
+  15:    1  ->  servants
+  16:    1  ->  time
+  17:    1  ->  treetops
+  18:    1  ->  with
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

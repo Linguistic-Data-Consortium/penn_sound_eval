@@ -1,0 +1,364 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   19.4%   ( 263)
+
+Percent Correct           =   84.3%   (1143)
+
+Percent Substitution      =    4.8%   (  65)
+Percent Deletions         =   10.9%   ( 148)
+Percent Insertions        =    3.7%   (  50)
+Percent Word Accuracy     =   80.6%
+
+
+Ref. words                =           (1356)
+Hyp. words                =           (1258)
+Aligned words             =           (1406)
+
+CONFUSION PAIRS                  Total                 (63)
+                                 With >=  1 occurrences (63)
+
+   1:    2  ->  a ==> the
+   2:    2  ->  the ==> a
+   3:    1  ->  a ==> diet
+   4:    1  ->  area ==> and
+   5:    1  ->  as ==> are
+   6:    1  ->  be ==> not
+   7:    1  ->  because ==> but
+   8:    1  ->  but ==> chew
+   9:    1  ->  c ==> and
+  10:    1  ->  called ==> call
+  11:    1  ->  could ==> it's
+  12:    1  ->  disagree ==> what
+  13:    1  ->  fermenting ==> mending
+  14:    1  ->  fifteen ==> five
+  15:    1  ->  fine ==> please
+  16:    1  ->  geurrilla ==> guerrilla
+  17:    1  ->  hecht ==> heck
+  18:    1  ->  i ==> phrase
+  19:    1  ->  in ==> and
+  20:    1  ->  is ==> was
+  21:    1  ->  it's ==> aggressive
+  22:    1  ->  it's ==> kids
+  23:    1  ->  it's ==> that's
+  24:    1  ->  just ==> right
+  25:    1  ->  k. ==> doing
+  26:    1  ->  k. ==> too
+  27:    1  ->  like ==> jack
+  28:    1  ->  like ==> want
+  29:    1  ->  lying ==> running
+  30:    1  ->  mean ==> and
+  31:    1  ->  micromanage ==> o.
+  32:    1  ->  nobody ==> please
+  33:    1  ->  not ==> am
+  34:    1  ->  o ==> on
+  35:    1  ->  o. ==> you
+  36:    1  ->  of ==> in
+  37:    1  ->  phra ==> the
+  38:    1  ->  pieces ==> is
+  39:    1  ->  poems ==> poem
+  40:    1  ->  same ==> this
+  41:    1  ->  shatranj ==> shatranji
+  42:    1  ->  simon ==> simone
+  43:    1  ->  structu ==> structure
+  44:    1  ->  texts ==> text
+  45:    1  ->  the ==> get
+  46:    1  ->  the ==> here
+  47:    1  ->  the ==> k.
+  48:    1  ->  the ==> materials
+  49:    1  ->  the ==> noticed
+  50:    1  ->  the ==> that
+  51:    1  ->  there ==> normal
+  52:    1  ->  thinking ==> figured
+  53:    1  ->  this ==> which
+  54:    1  ->  through ==> between
+  55:    1  ->  to ==> and
+  56:    1  ->  to ==> manage
+  57:    1  ->  toget ==> to
+  58:    1  ->  trying ==> micro
+  59:    1  ->  twenty ==> oh
+  60:    1  ->  wagging ==> whacking
+  61:    1  ->  weil ==> vale
+  62:    1  ->  would ==> do
+  63:    1  ->  you ==> which
+     -------
+        65
+
+
+
+INSERTIONS                       Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    4  ->  i
+   2:    3  ->  to
+   3:    2  ->  a
+   4:    2  ->  am
+   5:    2  ->  and
+   6:    2  ->  just
+   7:    2  ->  like
+   8:    2  ->  of
+   9:    2  ->  you
+  10:    1  ->  are
+  11:    1  ->  because
+  12:    1  ->  bunch
+  13:    1  ->  but
+  14:    1  ->  contribution
+  15:    1  ->  did
+  16:    1  ->  for
+  17:    1  ->  have
+  18:    1  ->  if
+  19:    1  ->  it
+  20:    1  ->  k.
+  21:    1  ->  leaving
+  22:    1  ->  make
+  23:    1  ->  material
+  24:    1  ->  not
+  25:    1  ->  o.
+  26:    1  ->  one
+  27:    1  ->  out
+  28:    1  ->  so
+  29:    1  ->  something
+  30:    1  ->  stop
+  31:    1  ->  stuff
+  32:    1  ->  them
+  33:    1  ->  there's
+  34:    1  ->  town
+  35:    1  ->  trying
+  36:    1  ->  unload
+  37:    1  ->  we
+  38:    1  ->  welcome
+     -------
+        50
+
+
+
+DELETIONS                        Total                 (83)
+                                 With >=  1 occurrences (83)
+
+   1:   21  ->  i
+   2:    7  ->  the
+   3:    6  ->  in
+   4:    6  ->  of
+   5:    6  ->  you
+   6:    4  ->  a
+   7:    4  ->  it
+   8:    4  ->  that
+   9:    3  ->  how
+  10:    3  ->  s
+  11:    2  ->  and
+  12:    2  ->  are
+  13:    2  ->  break
+  14:    2  ->  high
+  15:    2  ->  mean
+  16:    2  ->  o.
+  17:    2  ->  so
+  18:    2  ->  some
+  19:    2  ->  think
+  20:    2  ->  we
+  21:    2  ->  would
+  22:    1  ->  abil
+  23:    1  ->  am
+  24:    1  ->  at
+  25:    1  ->  be
+  26:    1  ->  but
+  27:    1  ->  buy
+  28:    1  ->  can
+  29:    1  ->  cannot
+  30:    1  ->  catholic
+  31:    1  ->  chewies
+  32:    1  ->  chewy
+  33:    1  ->  coke
+  34:    1  ->  complain
+  35:    1  ->  cut
+  36:    1  ->  deal
+  37:    1  ->  digressive
+  38:    1  ->  drink
+  39:    1  ->  ex
+  40:    1  ->  explosi
+  41:    1  ->  exposing
+  42:    1  ->  f
+  43:    1  ->  go
+  44:    1  ->  had
+  45:    1  ->  have
+  46:    1  ->  instr
+  47:    1  ->  is
+  48:    1  ->  it's
+  49:    1  ->  k.
+  50:    1  ->  know
+  51:    1  ->  let
+  52:    1  ->  like
+  53:    1  ->  makes
+  54:    1  ->  mater
+  55:    1  ->  mili
+  56:    1  ->  no
+  57:    1  ->  notice
+  58:    1  ->  now
+  59:    1  ->  o
+  60:    1  ->  off
+  61:    1  ->  pleasure
+  62:    1  ->  r
+  63:    1  ->  re
+  64:    1  ->  require
+  65:    1  ->  saw
+  66:    1  ->  since
+  67:    1  ->  story
+  68:    1  ->  t
+  69:    1  ->  thanks
+  70:    1  ->  that's
+  71:    1  ->  there's
+  72:    1  ->  they
+  73:    1  ->  time
+  74:    1  ->  to
+  75:    1  ->  too
+  76:    1  ->  two
+  77:    1  ->  type
+  78:    1  ->  well
+  79:    1  ->  wh
+  80:    1  ->  what's
+  81:    1  ->  when
+  82:    1  ->  will
+  83:    1  ->  your
+     -------
+       148
+
+
+
+SUBSTITUTIONS                    Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    8  ->  the
+   2:    3  ->  a
+   3:    3  ->  it's
+   4:    2  ->  k.
+   5:    2  ->  like
+   6:    2  ->  to
+   7:    1  ->  area
+   8:    1  ->  as
+   9:    1  ->  be
+  10:    1  ->  because
+  11:    1  ->  but
+  12:    1  ->  c
+  13:    1  ->  called
+  14:    1  ->  could
+  15:    1  ->  disagree
+  16:    1  ->  fermenting
+  17:    1  ->  fifteen
+  18:    1  ->  fine
+  19:    1  ->  geurrilla
+  20:    1  ->  hecht
+  21:    1  ->  i
+  22:    1  ->  in
+  23:    1  ->  is
+  24:    1  ->  just
+  25:    1  ->  lying
+  26:    1  ->  mean
+  27:    1  ->  micromanage
+  28:    1  ->  nobody
+  29:    1  ->  not
+  30:    1  ->  o
+  31:    1  ->  o.
+  32:    1  ->  of
+  33:    1  ->  phra
+  34:    1  ->  pieces
+  35:    1  ->  poems
+  36:    1  ->  same
+  37:    1  ->  shatranj
+  38:    1  ->  simon
+  39:    1  ->  structu
+  40:    1  ->  texts
+  41:    1  ->  there
+  42:    1  ->  thinking
+  43:    1  ->  this
+  44:    1  ->  through
+  45:    1  ->  toget
+  46:    1  ->  trying
+  47:    1  ->  twenty
+  48:    1  ->  wagging
+  49:    1  ->  weil
+  50:    1  ->  would
+  51:    1  ->  you
+     -------
+        65
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (56)
+                                 With >=  1 occurrences (56)
+
+   1:    5  ->  and
+   2:    3  ->  the
+   3:    2  ->  a
+   4:    2  ->  please
+   5:    2  ->  which
+   6:    1  ->  aggressive
+   7:    1  ->  am
+   8:    1  ->  are
+   9:    1  ->  between
+  10:    1  ->  but
+  11:    1  ->  call
+  12:    1  ->  chew
+  13:    1  ->  diet
+  14:    1  ->  do
+  15:    1  ->  doing
+  16:    1  ->  figured
+  17:    1  ->  five
+  18:    1  ->  get
+  19:    1  ->  guerrilla
+  20:    1  ->  heck
+  21:    1  ->  here
+  22:    1  ->  in
+  23:    1  ->  is
+  24:    1  ->  it's
+  25:    1  ->  jack
+  26:    1  ->  k.
+  27:    1  ->  kids
+  28:    1  ->  manage
+  29:    1  ->  materials
+  30:    1  ->  mending
+  31:    1  ->  micro
+  32:    1  ->  normal
+  33:    1  ->  not
+  34:    1  ->  noticed
+  35:    1  ->  o.
+  36:    1  ->  oh
+  37:    1  ->  on
+  38:    1  ->  phrase
+  39:    1  ->  poem
+  40:    1  ->  right
+  41:    1  ->  running
+  42:    1  ->  shatranji
+  43:    1  ->  simone
+  44:    1  ->  structure
+  45:    1  ->  text
+  46:    1  ->  that
+  47:    1  ->  that's
+  48:    1  ->  this
+  49:    1  ->  to
+  50:    1  ->  too
+  51:    1  ->  vale
+  52:    1  ->  want
+  53:    1  ->  was
+  54:    1  ->  whacking
+  55:    1  ->  what
+  56:    1  ->  you
+     -------
+        65
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

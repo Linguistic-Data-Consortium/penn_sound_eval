@@ -1,0 +1,228 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.4%   (  67)
+
+Percent Correct           =   93.8%   ( 851)
+
+Percent Substitution      =    5.4%   (  49)
+Percent Deletions         =    0.8%   (   7)
+Percent Insertions        =    1.2%   (  11)
+Percent Word Accuracy     =   92.6%
+
+
+Ref. words                =           ( 907)
+Hyp. words                =           ( 911)
+Aligned words             =           ( 918)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  isoleri ==> salary
+   2:    2  ->  roots ==> routes
+   3:    1  ->  and ==> a
+   4:    1  ->  and ==> alsen
+   5:    1  ->  and ==> in
+   6:    1  ->  and ==> on
+   7:    1  ->  as ==> members
+   8:    1  ->  ave ==> av
+   9:    1  ->  ba ==> by
+  10:    1  ->  bangladesh ==> dash
+  11:    1  ->  coffey ==> coffee
+  12:    1  ->  contained ==> contain
+  13:    1  ->  conto ==> conso
+  14:    1  ->  depazzi ==> deposi
+  15:    1  ->  dorothy ==> dorthy
+  16:    1  ->  event ==> events
+  17:    1  ->  has ==> was
+  18:    1  ->  icon's ==> icons
+  19:    1  ->  istfan ==> islam
+  20:    1  ->  italianamerican ==> american
+  21:    1  ->  korkemaz ==> korkmaz
+  22:    1  ->  la ==> last
+  23:    1  ->  magdalene ==> magdalen
+  24:    1  ->  maron's ==> marin's
+  25:    1  ->  merrymaking ==> making
+  26:    1  ->  midseventeenth ==> seventeenth
+  27:    1  ->  molise ==> meets
+  28:    1  ->  montrose ==> montre
+  29:    1  ->  newcomers ==> commerce
+  30:    1  ->  nun ==> non
+  31:    1  ->  parade's ==> parades
+  32:    1  ->  paraded ==> it
+  33:    1  ->  pier ==> peer
+  34:    1  ->  priest ==> priests
+  35:    1  ->  snock ==> snack
+  36:    1  ->  snockey's ==> stocky
+  37:    1  ->  tayoun's ==> tunes
+  38:    1  ->  tenth ==> tent
+  39:    1  ->  to ==> the
+  40:    1  ->  tricolor ==> color
+  41:    1  ->  twelfth ==> twelve
+  42:    1  ->  unita ==> nita
+  43:    1  ->  unita ==> up
+  44:    1  ->  version ==> virgin
+  45:    1  ->  wharves ==> wolves
+  46:    1  ->  worked ==> work
+  47:    1  ->  x ==> festa
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  bank
+   2:    1  ->  i
+   3:    1  ->  italian
+   4:    1  ->  malice
+   5:    1  ->  mid
+   6:    1  ->  murray
+   7:    1  ->  new
+   8:    1  ->  prayed
+   9:    1  ->  the
+  10:    1  ->  tri
+  11:    1  ->  who
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  alps
+   2:    1  ->  i
+   3:    1  ->  mar
+   4:    1  ->  member
+   5:    1  ->  of
+   6:    1  ->  r
+   7:    1  ->  s
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    4  ->  and
+   2:    2  ->  isoleri
+   3:    2  ->  roots
+   4:    2  ->  unita
+   5:    1  ->  as
+   6:    1  ->  ave
+   7:    1  ->  ba
+   8:    1  ->  bangladesh
+   9:    1  ->  coffey
+  10:    1  ->  contained
+  11:    1  ->  conto
+  12:    1  ->  depazzi
+  13:    1  ->  dorothy
+  14:    1  ->  event
+  15:    1  ->  has
+  16:    1  ->  icon's
+  17:    1  ->  istfan
+  18:    1  ->  italianamerican
+  19:    1  ->  korkemaz
+  20:    1  ->  la
+  21:    1  ->  magdalene
+  22:    1  ->  maron's
+  23:    1  ->  merrymaking
+  24:    1  ->  midseventeenth
+  25:    1  ->  molise
+  26:    1  ->  montrose
+  27:    1  ->  newcomers
+  28:    1  ->  nun
+  29:    1  ->  parade's
+  30:    1  ->  paraded
+  31:    1  ->  pier
+  32:    1  ->  priest
+  33:    1  ->  snock
+  34:    1  ->  snockey's
+  35:    1  ->  tayoun's
+  36:    1  ->  tenth
+  37:    1  ->  to
+  38:    1  ->  tricolor
+  39:    1  ->  twelfth
+  40:    1  ->  version
+  41:    1  ->  wharves
+  42:    1  ->  worked
+  43:    1  ->  x
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  routes
+   2:    2  ->  salary
+   3:    1  ->  a
+   4:    1  ->  alsen
+   5:    1  ->  american
+   6:    1  ->  av
+   7:    1  ->  by
+   8:    1  ->  coffee
+   9:    1  ->  color
+  10:    1  ->  commerce
+  11:    1  ->  conso
+  12:    1  ->  contain
+  13:    1  ->  dash
+  14:    1  ->  deposi
+  15:    1  ->  dorthy
+  16:    1  ->  events
+  17:    1  ->  festa
+  18:    1  ->  icons
+  19:    1  ->  in
+  20:    1  ->  islam
+  21:    1  ->  it
+  22:    1  ->  korkmaz
+  23:    1  ->  last
+  24:    1  ->  magdalen
+  25:    1  ->  making
+  26:    1  ->  marin's
+  27:    1  ->  meets
+  28:    1  ->  members
+  29:    1  ->  montre
+  30:    1  ->  nita
+  31:    1  ->  non
+  32:    1  ->  on
+  33:    1  ->  parades
+  34:    1  ->  peer
+  35:    1  ->  priests
+  36:    1  ->  seventeenth
+  37:    1  ->  snack
+  38:    1  ->  stocky
+  39:    1  ->  tent
+  40:    1  ->  the
+  41:    1  ->  tunes
+  42:    1  ->  twelve
+  43:    1  ->  up
+  44:    1  ->  virgin
+  45:    1  ->  was
+  46:    1  ->  wolves
+  47:    1  ->  work
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,189 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.1%   (  85)
+
+Percent Correct           =   91.8%   ( 855)
+
+Percent Substitution      =    5.3%   (  49)
+Percent Deletions         =    2.9%   (  27)
+Percent Insertions        =    1.0%   (   9)
+Percent Word Accuracy     =   90.9%
+
+
+Ref. words                =           ( 931)
+Hyp. words                =           ( 913)
+Aligned words             =           ( 940)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    5  ->  ninety ==> nine
+   2:    4  ->  cetera ==> etc
+   3:    2  ->  conducing ==> conducting
+   4:    2  ->  eight ==> 608
+   5:    2  ->  forty ==> zero
+   6:    2  ->  hundred ==> zero
+   7:    2  ->  predetermination ==> predeterminations
+   8:    2  ->  six ==> 606
+   9:    2  ->  two ==> 602
+  10:    1  ->  an ==> and
+  11:    1  ->  and ==> an
+  12:    1  ->  artell ==> tell
+  13:    1  ->  fifty ==> five
+  14:    1  ->  forty ==> four
+  15:    1  ->  future ==> feature
+  16:    1  ->  in ==> an
+  17:    1  ->  in ==> and
+  18:    1  ->  in ==> treading
+  19:    1  ->  it ==> this
+  20:    1  ->  it's ==> this
+  21:    1  ->  manner ==> matter
+  22:    1  ->  ninety ==> two
+  23:    1  ->  or ==> of
+  24:    1  ->  perseverace ==> perseverance
+  25:    1  ->  principal ==> principle
+  26:    1  ->  progress ==> workinprogress
+  27:    1  ->  resolve ==> resolved
+  28:    1  ->  roget's ==> the
+  29:    1  ->  sane ==> saying
+  30:    1  ->  seek ==> sake
+  31:    1  ->  sentence ==> sense
+  32:    1  ->  stars' ==> stars
+  33:    1  ->  ten ==> oh
+  34:    1  ->  three ==> 953
+  35:    1  ->  with ==> of
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  four
+   2:    2  ->  nine
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  at
+   6:    1  ->  or
+   7:    1  ->  roger's
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    6  ->  oh
+   2:    6  ->  six
+   3:    4  ->  et
+   4:    2  ->  a
+   5:    1  ->  an
+   6:    1  ->  fifty
+   7:    1  ->  for
+   8:    1  ->  in
+   9:    1  ->  nine
+  10:    1  ->  poo
+  11:    1  ->  to
+  12:    1  ->  tread
+  13:    1  ->  work
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    6  ->  ninety
+   2:    4  ->  cetera
+   3:    3  ->  forty
+   4:    3  ->  in
+   5:    2  ->  conducing
+   6:    2  ->  eight
+   7:    2  ->  hundred
+   8:    2  ->  predetermination
+   9:    2  ->  six
+  10:    2  ->  two
+  11:    1  ->  an
+  12:    1  ->  and
+  13:    1  ->  artell
+  14:    1  ->  fifty
+  15:    1  ->  future
+  16:    1  ->  it
+  17:    1  ->  it's
+  18:    1  ->  manner
+  19:    1  ->  or
+  20:    1  ->  perseverace
+  21:    1  ->  principal
+  22:    1  ->  progress
+  23:    1  ->  resolve
+  24:    1  ->  roget's
+  25:    1  ->  sane
+  26:    1  ->  seek
+  27:    1  ->  sentence
+  28:    1  ->  stars'
+  29:    1  ->  ten
+  30:    1  ->  three
+  31:    1  ->  with
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    5  ->  nine
+   2:    4  ->  etc
+   3:    4  ->  zero
+   4:    2  ->  602
+   5:    2  ->  606
+   6:    2  ->  608
+   7:    2  ->  an
+   8:    2  ->  and
+   9:    2  ->  conducting
+  10:    2  ->  of
+  11:    2  ->  predeterminations
+  12:    2  ->  this
+  13:    1  ->  953
+  14:    1  ->  feature
+  15:    1  ->  five
+  16:    1  ->  four
+  17:    1  ->  matter
+  18:    1  ->  oh
+  19:    1  ->  perseverance
+  20:    1  ->  principle
+  21:    1  ->  resolved
+  22:    1  ->  sake
+  23:    1  ->  saying
+  24:    1  ->  sense
+  25:    1  ->  stars
+  26:    1  ->  tell
+  27:    1  ->  the
+  28:    1  ->  treading
+  29:    1  ->  two
+  30:    1  ->  workinprogress
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

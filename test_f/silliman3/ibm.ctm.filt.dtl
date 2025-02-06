@@ -1,0 +1,296 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   12.1%   ( 120)
+
+Percent Correct           =   88.9%   ( 882)
+
+Percent Substitution      =    8.5%   (  84)
+Percent Deletions         =    2.6%   (  26)
+Percent Insertions        =    1.0%   (  10)
+Percent Word Accuracy     =   87.9%
+
+
+Ref. words                =           ( 992)
+Hyp. words                =           ( 976)
+Aligned words             =           (1002)
+
+CONFUSION PAIRS                  Total                 (69)
+                                 With >=  1 occurrences (69)
+
+   1:    4  ->  dialogue ==> dialog
+   2:    4  ->  in ==> and
+   3:    3  ->  a ==> the
+   4:    3  ->  is ==> of
+   5:    2  ->  landi ==> landing
+   6:    2  ->  syllogistic ==> logistic
+   7:    2  ->  this ==> his
+   8:    2  ->  to ==> do
+   9:    2  ->  vitiated ==> officiated
+  10:    1  ->  a ==> is
+  11:    1  ->  a ==> si
+  12:    1  ->  addressee's ==> addresses
+  13:    1  ->  and ==> an
+  14:    1  ->  and ==> in
+  15:    1  ->  bronwich's ==> branagh's
+  16:    1  ->  calculation ==> calculations
+  17:    1  ->  claw ==> cloth
+  18:    1  ->  do ==> to
+  19:    1  ->  eightieth ==> any
+  20:    1  ->  has ==> as
+  21:    1  ->  illogicalities ==> ties
+  22:    1  ->  in ==> him
+  23:    1  ->  in ==> on
+  24:    1  ->  is ==> sentences
+  25:    1  ->  langdon ==> landon
+  26:    1  ->  lead ==> ly
+  27:    1  ->  lie ==> like
+  28:    1  ->  monologic ==> logic
+  29:    1  ->  mottoes ==> motos
+  30:    1  ->  n ==> and
+  31:    1  ->  now ==> and
+  32:    1  ->  once ==> one's
+  33:    1  ->  once ==> winds
+  34:    1  ->  one ==> when
+  35:    1  ->  oppression ==> suppression
+  36:    1  ->  or ==> cleaner
+  37:    1  ->  orientation ==> disorientation
+  38:    1  ->  others' ==> others
+  39:    1  ->  our ==> or
+  40:    1  ->  peers ==> appears
+  41:    1  ->  premised ==> premise
+  42:    1  ->  presumptiveness ==> ness
+  43:    1  ->  question's ==> questions
+  44:    1  ->  referent ==> reference
+  45:    1  ->  responses ==> sponsors
+  46:    1  ->  rig ==> rick
+  47:    1  ->  see ==> seen
+  48:    1  ->  seem ==> seems
+  49:    1  ->  semiotician ==> an
+  50:    1  ->  sentence ==> cents
+  51:    1  ->  tagmemic ==> agnatic
+  52:    1  ->  th ==> paragraph
+  53:    1  ->  that ==> of
+  54:    1  ->  the ==> he
+  55:    1  ->  their ==> under
+  56:    1  ->  these ==> interest
+  57:    1  ->  tight ==> type
+  58:    1  ->  to ==> the
+  59:    1  ->  together ==> altogether
+  60:    1  ->  towards ==> toward
+  61:    1  ->  vitiated ==> visited
+  62:    1  ->  vocatives ==> vocative
+  63:    1  ->  voloshinov ==> for
+  64:    1  ->  voloshinov's ==> volcano's
+  65:    1  ->  warren ==> warn
+  66:    1  ->  watton ==> latin
+  67:    1  ->  well ==> although
+  68:    1  ->  wellek ==> sided
+  69:    1  ->  what ==> when
+     -------
+        84
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  china
+   3:    1  ->  have
+   4:    1  ->  illogical
+   5:    1  ->  mono
+   6:    1  ->  presumptive
+   7:    1  ->  semitic
+   8:    1  ->  the
+   9:    1  ->  while
+  10:    1  ->  william
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    3  ->  in
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  the
+   5:    1  ->  all
+   6:    1  ->  as
+   7:    1  ->  at
+   8:    1  ->  cited
+   9:    1  ->  intere
+  10:    1  ->  it
+  11:    1  ->  of
+  12:    1  ->  paragra
+  13:    1  ->  plane
+  14:    1  ->  s
+  15:    1  ->  sen
+  16:    1  ->  sentence
+  17:    1  ->  t
+  18:    1  ->  that
+  19:    1  ->  this
+  20:    1  ->  well
+  21:    1  ->  x
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    6  ->  in
+   2:    5  ->  a
+   3:    4  ->  dialogue
+   4:    4  ->  is
+   5:    3  ->  to
+   6:    3  ->  vitiated
+   7:    2  ->  and
+   8:    2  ->  landi
+   9:    2  ->  once
+  10:    2  ->  syllogistic
+  11:    2  ->  this
+  12:    1  ->  addressee's
+  13:    1  ->  bronwich's
+  14:    1  ->  calculation
+  15:    1  ->  claw
+  16:    1  ->  do
+  17:    1  ->  eightieth
+  18:    1  ->  has
+  19:    1  ->  illogicalities
+  20:    1  ->  langdon
+  21:    1  ->  lead
+  22:    1  ->  lie
+  23:    1  ->  monologic
+  24:    1  ->  mottoes
+  25:    1  ->  n
+  26:    1  ->  now
+  27:    1  ->  one
+  28:    1  ->  oppression
+  29:    1  ->  or
+  30:    1  ->  orientation
+  31:    1  ->  others'
+  32:    1  ->  our
+  33:    1  ->  peers
+  34:    1  ->  premised
+  35:    1  ->  presumptiveness
+  36:    1  ->  question's
+  37:    1  ->  referent
+  38:    1  ->  responses
+  39:    1  ->  rig
+  40:    1  ->  see
+  41:    1  ->  seem
+  42:    1  ->  semiotician
+  43:    1  ->  sentence
+  44:    1  ->  tagmemic
+  45:    1  ->  th
+  46:    1  ->  that
+  47:    1  ->  the
+  48:    1  ->  their
+  49:    1  ->  these
+  50:    1  ->  tight
+  51:    1  ->  together
+  52:    1  ->  towards
+  53:    1  ->  vocatives
+  54:    1  ->  voloshinov
+  55:    1  ->  voloshinov's
+  56:    1  ->  warren
+  57:    1  ->  watton
+  58:    1  ->  well
+  59:    1  ->  wellek
+  60:    1  ->  what
+     -------
+        84
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (63)
+                                 With >=  1 occurrences (63)
+
+   1:    6  ->  and
+   2:    4  ->  dialog
+   3:    4  ->  of
+   4:    4  ->  the
+   5:    2  ->  an
+   6:    2  ->  do
+   7:    2  ->  his
+   8:    2  ->  landing
+   9:    2  ->  logistic
+  10:    2  ->  officiated
+  11:    2  ->  when
+  12:    1  ->  addresses
+  13:    1  ->  agnatic
+  14:    1  ->  although
+  15:    1  ->  altogether
+  16:    1  ->  any
+  17:    1  ->  appears
+  18:    1  ->  as
+  19:    1  ->  branagh's
+  20:    1  ->  calculations
+  21:    1  ->  cents
+  22:    1  ->  cleaner
+  23:    1  ->  cloth
+  24:    1  ->  disorientation
+  25:    1  ->  for
+  26:    1  ->  he
+  27:    1  ->  him
+  28:    1  ->  in
+  29:    1  ->  interest
+  30:    1  ->  is
+  31:    1  ->  landon
+  32:    1  ->  latin
+  33:    1  ->  like
+  34:    1  ->  logic
+  35:    1  ->  ly
+  36:    1  ->  motos
+  37:    1  ->  ness
+  38:    1  ->  on
+  39:    1  ->  one's
+  40:    1  ->  or
+  41:    1  ->  others
+  42:    1  ->  paragraph
+  43:    1  ->  premise
+  44:    1  ->  questions
+  45:    1  ->  reference
+  46:    1  ->  rick
+  47:    1  ->  seems
+  48:    1  ->  seen
+  49:    1  ->  sentences
+  50:    1  ->  si
+  51:    1  ->  sided
+  52:    1  ->  sponsors
+  53:    1  ->  suppression
+  54:    1  ->  ties
+  55:    1  ->  to
+  56:    1  ->  toward
+  57:    1  ->  type
+  58:    1  ->  under
+  59:    1  ->  visited
+  60:    1  ->  vocative
+  61:    1  ->  volcano's
+  62:    1  ->  warn
+  63:    1  ->  winds
+     -------
+        84
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

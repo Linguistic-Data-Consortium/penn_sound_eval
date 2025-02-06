@@ -1,0 +1,133 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.1%   (  43)
+
+Percent Correct           =   96.3%   (1018)
+
+Percent Substitution      =    1.1%   (  12)
+Percent Deletions         =    2.6%   (  27)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   95.9%
+
+
+Ref. words                =           (1057)
+Hyp. words                =           (1034)
+Aligned words             =           (1061)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  a ==> the
+   2:    1  ->  are ==> our
+   3:    1  ->  buzzsaw ==> saw
+   4:    1  ->  flowerbed ==> bed
+   5:    1  ->  he ==> 'he'
+   6:    1  ->  she ==> 'she'
+   7:    1  ->  the ==> to
+   8:    1  ->  then ==> it
+   9:    1  ->  there ==> their
+  10:    1  ->  which ==> 'which'
+  11:    1  ->  witch ==> 'which'
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  buzz
+   2:    1  ->  flower
+   3:    1  ->  light
+   4:    1  ->  porch
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  i
+   2:    2  ->  is
+   3:    2  ->  the
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  ball
+   7:    1  ->  but
+   8:    1  ->  c
+   9:    1  ->  evenly
+  10:    1  ->  following
+  11:    1  ->  griffin
+  12:    1  ->  him
+  13:    1  ->  neighbour
+  14:    1  ->  one
+  15:    1  ->  robin
+  16:    1  ->  rolls
+  17:    1  ->  say
+  18:    1  ->  someone
+  19:    1  ->  there
+  20:    1  ->  to
+  21:    1  ->  want
+  22:    1  ->  was
+  23:    1  ->  why
+  24:    1  ->  will
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  a
+   2:    1  ->  are
+   3:    1  ->  buzzsaw
+   4:    1  ->  flowerbed
+   5:    1  ->  he
+   6:    1  ->  she
+   7:    1  ->  the
+   8:    1  ->  then
+   9:    1  ->  there
+  10:    1  ->  which
+  11:    1  ->  witch
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  'which'
+   2:    2  ->  the
+   3:    1  ->  'he'
+   4:    1  ->  'she'
+   5:    1  ->  bed
+   6:    1  ->  it
+   7:    1  ->  our
+   8:    1  ->  saw
+   9:    1  ->  their
+  10:    1  ->  to
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

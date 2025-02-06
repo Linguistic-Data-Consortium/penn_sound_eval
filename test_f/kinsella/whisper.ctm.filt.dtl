@@ -1,0 +1,283 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.8%   (  95)
+
+Percent Correct           =   91.6%   ( 886)
+
+Percent Substitution      =    6.4%   (  62)
+Percent Deletions         =    2.0%   (  19)
+Percent Insertions        =    1.4%   (  14)
+Percent Word Accuracy     =   90.2%
+
+
+Ref. words                =           ( 967)
+Hyp. words                =           ( 962)
+Aligned words             =           ( 981)
+
+CONFUSION PAIRS                  Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    2  ->  a ==> the
+   2:    2  ->  the ==> a
+   3:    1  ->  an ==> a
+   4:    1  ->  azurine ==> ezurine
+   5:    1  ->  backs ==> halfbacks
+   6:    1  ->  bas ==> bass
+   7:    1  ->  budding ==> butting
+   8:    1  ->  camouflaged ==> camouflage
+   9:    1  ->  chair ==> tricha
+  10:    1  ->  cracking ==> tracking
+  11:    1  ->  cutter’s ==> cutters
+  12:    1  ->  doorpost ==> doorposts
+  13:    1  ->  dowsed ==> doused
+  14:    1  ->  entire ==> tyre
+  15:    1  ->  ericsson ==> erosong
+  16:    1  ->  excelling ==> ceiling
+  17:    1  ->  faustus ==> fourth
+  18:    1  ->  fences ==> offences
+  19:    1  ->  fencewire ==> wire
+  20:    1  ->  first ==> those
+  21:    1  ->  for ==> with
+  22:    1  ->  from ==> high
+  23:    1  ->  glamor ==> disclaimer
+  24:    1  ->  glistening ==> blistening
+  25:    1  ->  grated ==> graded
+  26:    1  ->  gritted ==> gridded
+  27:    1  ->  half ==> goodsides
+  28:    1  ->  headlights ==> headlight
+  29:    1  ->  highlife ==> life
+  30:    1  ->  hole ==> hull
+  31:    1  ->  homonculus ==> homunculus
+  32:    1  ->  humidicribs ==> cribs
+  33:    1  ->  humitrophic ==> humotrophic
+  34:    1  ->  i ==> eye
+  35:    1  ->  is ==> as
+  36:    1  ->  it ==> churnate
+  37:    1  ->  light ==> like
+  38:    1  ->  like ==> light
+  39:    1  ->  litters ==> lisses
+  40:    1  ->  looting ==> loosing
+  41:    1  ->  lugging ==> lagging
+  42:    1  ->  mallee ==> melly
+  43:    1  ->  miasma ==> asthma
+  44:    1  ->  needles ==> needle
+  45:    1  ->  pellegra ==> pellagra
+  46:    1  ->  pinheaded ==> is
+  47:    1  ->  raddled ==> rattled
+  48:    1  ->  reflex ==> reflects
+  49:    1  ->  rhomboidal ==> rhombortal
+  50:    1  ->  shade ==> shader
+  51:    1  ->  souls ==> selves
+  52:    1  ->  spot ==> but
+  53:    1  ->  squirrel ==> swirl
+  54:    1  ->  striping ==> stripping
+  55:    1  ->  sursurrous ==> susurious
+  56:    1  ->  tan ==> tend
+  57:    1  ->  trifolate ==> folate
+  58:    1  ->  wandoo ==> bondu
+  59:    1  ->  warholing ==> holing
+  60:    1  ->  year ==> goodyear
+     -------
+        62
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a
+   2:    1  ->  cry
+   3:    1  ->  etched
+   4:    1  ->  fence
+   5:    1  ->  humidity
+   6:    1  ->  in
+   7:    1  ->  is
+   8:    1  ->  my
+   9:    1  ->  pinhead
+  10:    1  ->  the
+  11:    1  ->  very
+  12:    1  ->  war
+  13:    1  ->  way
+  14:    1  ->  when
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  good
+   2:    2  ->  it's
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  churn
+   6:    1  ->  cross
+   7:    1  ->  foo
+   8:    1  ->  from
+   9:    1  ->  grow
+  10:    1  ->  now
+  11:    1  ->  of
+  12:    1  ->  sides
+  13:    1  ->  taking
+  14:    1  ->  the
+  15:    1  ->  tree
+  16:    1  ->  very
+  17:    1  ->  with
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    2  ->  a
+   2:    2  ->  the
+   3:    1  ->  an
+   4:    1  ->  azurine
+   5:    1  ->  backs
+   6:    1  ->  bas
+   7:    1  ->  budding
+   8:    1  ->  camouflaged
+   9:    1  ->  chair
+  10:    1  ->  cracking
+  11:    1  ->  cutter’s
+  12:    1  ->  doorpost
+  13:    1  ->  dowsed
+  14:    1  ->  entire
+  15:    1  ->  ericsson
+  16:    1  ->  excelling
+  17:    1  ->  faustus
+  18:    1  ->  fences
+  19:    1  ->  fencewire
+  20:    1  ->  first
+  21:    1  ->  for
+  22:    1  ->  from
+  23:    1  ->  glamor
+  24:    1  ->  glistening
+  25:    1  ->  grated
+  26:    1  ->  gritted
+  27:    1  ->  half
+  28:    1  ->  headlights
+  29:    1  ->  highlife
+  30:    1  ->  hole
+  31:    1  ->  homonculus
+  32:    1  ->  humidicribs
+  33:    1  ->  humitrophic
+  34:    1  ->  i
+  35:    1  ->  is
+  36:    1  ->  it
+  37:    1  ->  light
+  38:    1  ->  like
+  39:    1  ->  litters
+  40:    1  ->  looting
+  41:    1  ->  lugging
+  42:    1  ->  mallee
+  43:    1  ->  miasma
+  44:    1  ->  needles
+  45:    1  ->  pellegra
+  46:    1  ->  pinheaded
+  47:    1  ->  raddled
+  48:    1  ->  reflex
+  49:    1  ->  rhomboidal
+  50:    1  ->  shade
+  51:    1  ->  souls
+  52:    1  ->  spot
+  53:    1  ->  squirrel
+  54:    1  ->  striping
+  55:    1  ->  sursurrous
+  56:    1  ->  tan
+  57:    1  ->  trifolate
+  58:    1  ->  wandoo
+  59:    1  ->  warholing
+  60:    1  ->  year
+     -------
+        62
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    3  ->  a
+   2:    2  ->  the
+   3:    1  ->  as
+   4:    1  ->  asthma
+   5:    1  ->  bass
+   6:    1  ->  blistening
+   7:    1  ->  bondu
+   8:    1  ->  but
+   9:    1  ->  butting
+  10:    1  ->  camouflage
+  11:    1  ->  ceiling
+  12:    1  ->  churnate
+  13:    1  ->  cribs
+  14:    1  ->  cutters
+  15:    1  ->  disclaimer
+  16:    1  ->  doorposts
+  17:    1  ->  doused
+  18:    1  ->  erosong
+  19:    1  ->  eye
+  20:    1  ->  ezurine
+  21:    1  ->  folate
+  22:    1  ->  fourth
+  23:    1  ->  goodsides
+  24:    1  ->  goodyear
+  25:    1  ->  graded
+  26:    1  ->  gridded
+  27:    1  ->  halfbacks
+  28:    1  ->  headlight
+  29:    1  ->  high
+  30:    1  ->  holing
+  31:    1  ->  homunculus
+  32:    1  ->  hull
+  33:    1  ->  humotrophic
+  34:    1  ->  is
+  35:    1  ->  lagging
+  36:    1  ->  life
+  37:    1  ->  light
+  38:    1  ->  like
+  39:    1  ->  lisses
+  40:    1  ->  loosing
+  41:    1  ->  melly
+  42:    1  ->  needle
+  43:    1  ->  offences
+  44:    1  ->  pellagra
+  45:    1  ->  rattled
+  46:    1  ->  reflects
+  47:    1  ->  rhombortal
+  48:    1  ->  selves
+  49:    1  ->  shader
+  50:    1  ->  stripping
+  51:    1  ->  susurious
+  52:    1  ->  swirl
+  53:    1  ->  tend
+  54:    1  ->  those
+  55:    1  ->  tracking
+  56:    1  ->  tricha
+  57:    1  ->  tyre
+  58:    1  ->  wire
+  59:    1  ->  with
+     -------
+        62
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

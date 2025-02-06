@@ -1,0 +1,179 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.9%   (  67)
+
+Percent Correct           =   95.3%   (1091)
+
+Percent Substitution      =    3.1%   (  36)
+Percent Deletions         =    1.6%   (  18)
+Percent Insertions        =    1.1%   (  13)
+Percent Word Accuracy     =   94.1%
+
+
+Ref. words                =           (1145)
+Hyp. words                =           (1140)
+Aligned words             =           (1158)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  tale ==> fairytale
+   2:    2  ->  antiheroic ==> heroic
+   3:    2  ->  borne ==> born
+   4:    2  ->  dango ==> dongo
+   5:    2  ->  kibi ==> ki
+   6:    2  ->  tales ==> fairytales
+   7:    1  ->  afloat ==> float
+   8:    1  ->  an ==> anti
+   9:    1  ->  and ==> in
+  10:    1  ->  called ==> socalled
+  11:    1  ->  could ==> can
+  12:    1  ->  doggerel ==> row
+  13:    1  ->  doggerel ==> rule
+  14:    1  ->  donburi ==> don
+  15:    1  ->  emplacement ==> placement
+  16:    1  ->  fairy ==> fairytale
+  17:    1  ->  had ==> have
+  18:    1  ->  in ==> them
+  19:    1  ->  millet ==> milit
+  20:    1  ->  momotaro ==> tado
+  21:    1  ->  onigashima ==> gima
+  22:    1  ->  peach ==> beach
+  23:    1  ->  said ==> so
+  24:    1  ->  stopped ==> stop
+  25:    1  ->  their ==> there
+  26:    1  ->  until ==> till
+  27:    1  ->  was ==> is
+  28:    1  ->  will ==> al
+  29:    1  ->  woodchopper ==> chopper
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  dog
+   2:    2  ->  i
+   3:    1  ->  <laugh>
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  anti
+   7:    1  ->  ho
+   8:    1  ->  it
+   9:    1  ->  momo
+  10:    1  ->  of
+  11:    1  ->  wood
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    5  ->  fairy
+   2:    4  ->  donburi
+   3:    2  ->  it
+   4:    1  ->  a
+   5:    1  ->  b
+   6:    1  ->  i
+   7:    1  ->  sic
+   8:    1  ->  so
+   9:    1  ->  t
+  10:    1  ->  the
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  tale
+   2:    2  ->  antiheroic
+   3:    2  ->  borne
+   4:    2  ->  dango
+   5:    2  ->  doggerel
+   6:    2  ->  kibi
+   7:    2  ->  tales
+   8:    1  ->  afloat
+   9:    1  ->  an
+  10:    1  ->  and
+  11:    1  ->  called
+  12:    1  ->  could
+  13:    1  ->  donburi
+  14:    1  ->  emplacement
+  15:    1  ->  fairy
+  16:    1  ->  had
+  17:    1  ->  in
+  18:    1  ->  millet
+  19:    1  ->  momotaro
+  20:    1  ->  onigashima
+  21:    1  ->  peach
+  22:    1  ->  said
+  23:    1  ->  stopped
+  24:    1  ->  their
+  25:    1  ->  until
+  26:    1  ->  was
+  27:    1  ->  will
+  28:    1  ->  woodchopper
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    4  ->  fairytale
+   2:    2  ->  born
+   3:    2  ->  dongo
+   4:    2  ->  fairytales
+   5:    2  ->  heroic
+   6:    2  ->  ki
+   7:    1  ->  al
+   8:    1  ->  anti
+   9:    1  ->  beach
+  10:    1  ->  can
+  11:    1  ->  chopper
+  12:    1  ->  don
+  13:    1  ->  float
+  14:    1  ->  gima
+  15:    1  ->  have
+  16:    1  ->  in
+  17:    1  ->  is
+  18:    1  ->  milit
+  19:    1  ->  placement
+  20:    1  ->  row
+  21:    1  ->  rule
+  22:    1  ->  so
+  23:    1  ->  socalled
+  24:    1  ->  stop
+  25:    1  ->  tado
+  26:    1  ->  them
+  27:    1  ->  there
+  28:    1  ->  till
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,458 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   33.8%   ( 359)
+
+Percent Correct           =   66.5%   ( 706)
+
+Percent Substitution      =    7.2%   (  76)
+Percent Deletions         =   26.4%   ( 280)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   66.2%
+
+
+Ref. words                =           (1062)
+Hyp. words                =           ( 785)
+Aligned words             =           (1065)
+
+CONFUSION PAIRS                  Total                 (75)
+                                 With >=  1 occurrences (75)
+
+   1:    2  ->  in ==> and
+   2:    1  ->  a ==> from
+   3:    1  ->  a ==> was
+   4:    1  ->  and ==> on
+   5:    1  ->  are ==> were
+   6:    1  ->  australia ==> a
+   7:    1  ->  australias ==> to
+   8:    1  ->  but ==> to
+   9:    1  ->  calls ==> called
+  10:    1  ->  chooses ==> she
+  11:    1  ->  choses ==> chooses
+  12:    1  ->  christmas' ==> is
+  13:    1  ->  clenches ==> lunches
+  14:    1  ->  connective ==> connected
+  15:    1  ->  dragging ==> driving
+  16:    1  ->  easter's ==> easter
+  17:    1  ->  etiolated ==> elated
+  18:    1  ->  femur ==> fee
+  19:    1  ->  filled ==> film
+  20:    1  ->  frames ==> english
+  21:    1  ->  from ==> for
+  22:    1  ->  geographic ==> graphic
+  23:    1  ->  handcart ==> car
+  24:    1  ->  herbs ==> birth
+  25:    1  ->  heroin ==> upon
+  26:    1  ->  illustrated ==> illustrative
+  27:    1  ->  indicating ==> training
+  28:    1  ->  invasion ==> floated
+  29:    1  ->  is ==> i
+  30:    1  ->  is ==> police
+  31:    1  ->  journal ==> legal
+  32:    1  ->  koala ==> kala
+  33:    1  ->  like ==> out
+  34:    1  ->  lily ==> lilly
+  35:    1  ->  line ==> alive
+  36:    1  ->  maelstrom ==> malestrom
+  37:    1  ->  making ==> speaking
+  38:    1  ->  malick ==> male
+  39:    1  ->  map ==> parenthesis
+  40:    1  ->  matte ==> matt
+  41:    1  ->  mauled ==> had
+  42:    1  ->  maw ==> that
+  43:    1  ->  mclaughlan ==> mclaughlin
+  44:    1  ->  mickey ==> nicky
+  45:    1  ->  motion ==> order
+  46:    1  ->  no ==> and
+  47:    1  ->  of ==> and
+  48:    1  ->  one ==> australian
+  49:    1  ->  opened ==> when
+  50:    1  ->  parentheses ==> parenthesis
+  51:    1  ->  piqued ==> peak
+  52:    1  ->  platypus ==> flaps
+  53:    1  ->  ploat ==> float
+  54:    1  ->  poems ==> palms
+  55:    1  ->  poor ==> core
+  56:    1  ->  relevant ==> activations
+  57:    1  ->  says ==> hey
+  58:    1  ->  seeps ==> seats
+  59:    1  ->  she ==> now
+  60:    1  ->  sprig ==> spring
+  61:    1  ->  squealed ==> line
+  62:    1  ->  stat ==> stacked
+  63:    1  ->  steve ==> stephen
+  64:    1  ->  stone ==> it
+  65:    1  ->  terrence ==> terence
+  66:    1  ->  than ==> and
+  67:    1  ->  the ==> meanings
+  68:    1  ->  throve ==> throw
+  69:    1  ->  to ==> into
+  70:    1  ->  try ==> trying
+  71:    1  ->  unfolding ==> unholding
+  72:    1  ->  upward ==> awkward
+  73:    1  ->  wife ==> white
+  74:    1  ->  would ==> was
+  75:    1  ->  write ==> it
+     -------
+        76
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  christmas
+   3:    1  ->  hand
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (166)
+                                 With >=  1 occurrences (166)
+
+   1:   18  ->  the
+   2:   16  ->  a
+   3:   10  ->  in
+   4:   10  ->  of
+   5:    7  ->  and
+   6:    7  ->  australia
+   7:    6  ->  this
+   8:    5  ->  future
+   9:    4  ->  as
+  10:    4  ->  name
+  11:    3  ->  fist
+  12:    3  ->  is
+  13:    3  ->  it
+  14:    3  ->  not
+  15:    3  ->  space
+  16:    3  ->  to
+  17:    2  ->  air
+  18:    2  ->  an
+  19:    2  ->  are
+  20:    2  ->  circle
+  21:    2  ->  clicking
+  22:    2  ->  face
+  23:    2  ->  for
+  24:    2  ->  four
+  25:    2  ->  gesturing
+  26:    2  ->  he
+  27:    2  ->  her
+  28:    2  ->  him
+  29:    2  ->  holding
+  30:    2  ->  it's
+  31:    2  ->  leaf
+  32:    2  ->  map
+  33:    2  ->  punctuation
+  34:    2  ->  real
+  35:    2  ->  siege
+  36:    2  ->  spaces
+  37:    2  ->  star
+  38:    2  ->  still
+  39:    2  ->  under
+  40:    2  ->  we
+  41:    2  ->  you
+  42:    1  ->  across
+  43:    1  ->  aloft
+  44:    1  ->  already
+  45:    1  ->  another
+  46:    1  ->  b
+  47:    1  ->  baby
+  48:    1  ->  battle
+  49:    1  ->  big
+  50:    1  ->  blended
+  51:    1  ->  body
+  52:    1  ->  boldly
+  53:    1  ->  box
+  54:    1  ->  boxes
+  55:    1  ->  breathing
+  56:    1  ->  but
+  57:    1  ->  cars
+  58:    1  ->  coactivations
+  59:    1  ->  control
+  60:    1  ->  diagram
+  61:    1  ->  do
+  62:    1  ->  downward
+  63:    1  ->  dull
+  64:    1  ->  elements
+  65:    1  ->  eleven
+  66:    1  ->  emergent
+  67:    1  ->  end
+  68:    1  ->  entitled
+  69:    1  ->  example
+  70:    1  ->  excavating
+  71:    1  ->  fantasy
+  72:    1  ->  fear
+  73:    1  ->  feral
+  74:    1  ->  figure
+  75:    1  ->  first
+  76:    1  ->  floater
+  77:    1  ->  forget
+  78:    1  ->  found
+  79:    1  ->  fox
+  80:    1  ->  gentler
+  81:    1  ->  had
+  82:    1  ->  hair
+  83:    1  ->  hanging
+  84:    1  ->  he's
+  85:    1  ->  hiding
+  86:    1  ->  high
+  87:    1  ->  hit
+  88:    1  ->  hop
+  89:    1  ->  horizon
+  90:    1  ->  humans
+  91:    1  ->  i
+  92:    1  ->  imagery
+  93:    1  ->  indicating
+  94:    1  ->  into
+  95:    1  ->  invasion
+  96:    1  ->  its
+  97:    1  ->  leaves
+  98:    1  ->  lengthwise
+  99:    1  ->  less
+ 100:    1  ->  list
+ 101:    1  ->  live
+ 102:    1  ->  looks
+ 103:    1  ->  louder
+ 104:    1  ->  main
+ 105:    1  ->  making
+ 106:    1  ->  man
+ 107:    1  ->  martial
+ 108:    1  ->  math
+ 109:    1  ->  me
+ 110:    1  ->  meaning
+ 111:    1  ->  mental
+ 112:    1  ->  microphone
+ 113:    1  ->  midway
+ 114:    1  ->  more
+ 115:    1  ->  mouth
+ 116:    1  ->  moving
+ 117:    1  ->  nature
+ 118:    1  ->  neck
+ 119:    1  ->  needed
+ 120:    1  ->  no
+ 121:    1  ->  now
+ 122:    1  ->  on
+ 123:    1  ->  ounces
+ 124:    1  ->  out
+ 125:    1  ->  pall
+ 126:    1  ->  parentheses
+ 127:    1  ->  past
+ 128:    1  ->  perth
+ 129:    1  ->  piles
+ 130:    1  ->  pleaded
+ 131:    1  ->  point
+ 132:    1  ->  rectangular
+ 133:    1  ->  ronnel
+ 134:    1  ->  same
+ 135:    1  ->  sea
+ 136:    1  ->  sigh
+ 137:    1  ->  smoke
+ 138:    1  ->  some
+ 139:    1  ->  something
+ 140:    1  ->  sprawls
+ 141:    1  ->  stood
+ 142:    1  ->  structure
+ 143:    1  ->  sun
+ 144:    1  ->  sydney
+ 145:    1  ->  symbols
+ 146:    1  ->  tan
+ 147:    1  ->  tax
+ 148:    1  ->  ten
+ 149:    1  ->  that
+ 150:    1  ->  then
+ 151:    1  ->  there
+ 152:    1  ->  thou
+ 153:    1  ->  through
+ 154:    1  ->  today
+ 155:    1  ->  toms
+ 156:    1  ->  twelve
+ 157:    1  ->  two
+ 158:    1  ->  using
+ 159:    1  ->  vagina
+ 160:    1  ->  vegetation
+ 161:    1  ->  want
+ 162:    1  ->  were
+ 163:    1  ->  wild
+ 164:    1  ->  with
+ 165:    1  ->  world
+ 166:    1  ->  your
+     -------
+       280
+
+
+
+SUBSTITUTIONS                    Total                 (73)
+                                 With >=  1 occurrences (73)
+
+   1:    2  ->  a
+   2:    2  ->  in
+   3:    2  ->  is
+   4:    1  ->  and
+   5:    1  ->  are
+   6:    1  ->  australia
+   7:    1  ->  australias
+   8:    1  ->  but
+   9:    1  ->  calls
+  10:    1  ->  chooses
+  11:    1  ->  choses
+  12:    1  ->  christmas'
+  13:    1  ->  clenches
+  14:    1  ->  connective
+  15:    1  ->  dragging
+  16:    1  ->  easter's
+  17:    1  ->  etiolated
+  18:    1  ->  femur
+  19:    1  ->  filled
+  20:    1  ->  frames
+  21:    1  ->  from
+  22:    1  ->  geographic
+  23:    1  ->  handcart
+  24:    1  ->  herbs
+  25:    1  ->  heroin
+  26:    1  ->  illustrated
+  27:    1  ->  indicating
+  28:    1  ->  invasion
+  29:    1  ->  journal
+  30:    1  ->  koala
+  31:    1  ->  like
+  32:    1  ->  lily
+  33:    1  ->  line
+  34:    1  ->  maelstrom
+  35:    1  ->  making
+  36:    1  ->  malick
+  37:    1  ->  map
+  38:    1  ->  matte
+  39:    1  ->  mauled
+  40:    1  ->  maw
+  41:    1  ->  mclaughlan
+  42:    1  ->  mickey
+  43:    1  ->  motion
+  44:    1  ->  no
+  45:    1  ->  of
+  46:    1  ->  one
+  47:    1  ->  opened
+  48:    1  ->  parentheses
+  49:    1  ->  piqued
+  50:    1  ->  platypus
+  51:    1  ->  ploat
+  52:    1  ->  poems
+  53:    1  ->  poor
+  54:    1  ->  relevant
+  55:    1  ->  says
+  56:    1  ->  seeps
+  57:    1  ->  she
+  58:    1  ->  sprig
+  59:    1  ->  squealed
+  60:    1  ->  stat
+  61:    1  ->  steve
+  62:    1  ->  stone
+  63:    1  ->  terrence
+  64:    1  ->  than
+  65:    1  ->  the
+  66:    1  ->  throve
+  67:    1  ->  to
+  68:    1  ->  try
+  69:    1  ->  unfolding
+  70:    1  ->  upward
+  71:    1  ->  wife
+  72:    1  ->  would
+  73:    1  ->  write
+     -------
+        76
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (68)
+                                 With >=  1 occurrences (68)
+
+   1:    5  ->  and
+   2:    2  ->  it
+   3:    2  ->  parenthesis
+   4:    2  ->  to
+   5:    2  ->  was
+   6:    1  ->  a
+   7:    1  ->  activations
+   8:    1  ->  alive
+   9:    1  ->  australian
+  10:    1  ->  awkward
+  11:    1  ->  birth
+  12:    1  ->  called
+  13:    1  ->  car
+  14:    1  ->  chooses
+  15:    1  ->  connected
+  16:    1  ->  core
+  17:    1  ->  driving
+  18:    1  ->  easter
+  19:    1  ->  elated
+  20:    1  ->  english
+  21:    1  ->  fee
+  22:    1  ->  film
+  23:    1  ->  flaps
+  24:    1  ->  float
+  25:    1  ->  floated
+  26:    1  ->  for
+  27:    1  ->  from
+  28:    1  ->  graphic
+  29:    1  ->  had
+  30:    1  ->  hey
+  31:    1  ->  i
+  32:    1  ->  illustrative
+  33:    1  ->  into
+  34:    1  ->  is
+  35:    1  ->  kala
+  36:    1  ->  legal
+  37:    1  ->  lilly
+  38:    1  ->  line
+  39:    1  ->  lunches
+  40:    1  ->  male
+  41:    1  ->  malestrom
+  42:    1  ->  matt
+  43:    1  ->  mclaughlin
+  44:    1  ->  meanings
+  45:    1  ->  nicky
+  46:    1  ->  now
+  47:    1  ->  on
+  48:    1  ->  order
+  49:    1  ->  out
+  50:    1  ->  palms
+  51:    1  ->  peak
+  52:    1  ->  police
+  53:    1  ->  seats
+  54:    1  ->  she
+  55:    1  ->  speaking
+  56:    1  ->  spring
+  57:    1  ->  stacked
+  58:    1  ->  stephen
+  59:    1  ->  terence
+  60:    1  ->  that
+  61:    1  ->  throw
+  62:    1  ->  training
+  63:    1  ->  trying
+  64:    1  ->  unholding
+  65:    1  ->  upon
+  66:    1  ->  were
+  67:    1  ->  when
+  68:    1  ->  white
+     -------
+        76
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

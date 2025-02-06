@@ -1,0 +1,321 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.7%   ( 133)
+
+Percent Correct           =   87.2%   ( 848)
+
+Percent Substitution      =    7.7%   (  75)
+Percent Deletions         =    5.0%   (  49)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   86.3%
+
+
+Ref. words                =           ( 972)
+Hyp. words                =           ( 932)
+Aligned words             =           ( 981)
+
+CONFUSION PAIRS                  Total                 (73)
+                                 With >=  1 occurrences (73)
+
+   1:    3  ->  the ==> that
+   2:    1  ->  'tis ==> line
+   3:    1  ->  a ==> along
+   4:    1  ->  a ==> in
+   5:    1  ->  after ==> thereafter
+   6:    1  ->  and ==> had
+   7:    1  ->  and ==> some
+   8:    1  ->  any ==> vars
+   9:    1  ->  as ==> like
+  10:    1  ->  author's ==> elbers
+  11:    1  ->  bauhau ==> bauhaus
+  12:    1  ->  but ==> where
+  13:    1  ->  coming ==> me
+  14:    1  ->  cover ==> of
+  15:    1  ->  deluxe ==> lu
+  16:    1  ->  down ==> jackson
+  17:    1  ->  elder's ==> alberts
+  18:    1  ->  exhilaration ==> illusion
+  19:    1  ->  fresh ==> interviews
+  20:    1  ->  going ==> mean
+  21:    1  ->  got ==> cut
+  22:    1  ->  gridded ==> grided
+  23:    1  ->  had ==> at
+  24:    1  ->  had ==> have
+  25:    1  ->  haja ==> hydro
+  26:    1  ->  have ==> there's
+  27:    1  ->  howe ==> how
+  28:    1  ->  howe ==> howell
+  29:    1  ->  hundred ==> zero
+  30:    1  ->  if ==> t
+  31:    1  ->  it ==> and
+  32:    1  ->  just ==> which
+  33:    1  ->  livingfield ==> linfield
+  34:    1  ->  lot ==> jubilot
+  35:    1  ->  lovely ==> the
+  36:    1  ->  manu ==> of
+  37:    1  ->  move ==> run
+  38:    1  ->  not ==> and
+  39:    1  ->  notice ==> noticed
+  40:    1  ->  of ==> have
+  41:    1  ->  others ==> for
+  42:    1  ->  our ==> far
+  43:    1  ->  precede ==> proceed
+  44:    1  ->  preceded ==> proceeded
+  45:    1  ->  sand ==> times
+  46:    1  ->  selves ==> cells
+  47:    1  ->  sewed ==> sew
+  48:    1  ->  spent ==> spend
+  49:    1  ->  that ==> it
+  50:    1  ->  that ==> there
+  51:    1  ->  the ==> a
+  52:    1  ->  the ==> and
+  53:    1  ->  the ==> i
+  54:    1  ->  the ==> this
+  55:    1  ->  them ==> told
+  56:    1  ->  they ==> it
+  57:    1  ->  this ==> sound
+  58:    1  ->  thought ==> but
+  59:    1  ->  to ==> i
+  60:    1  ->  to ==> one
+  61:    1  ->  totaled ==> steven
+  62:    1  ->  up ==> that
+  63:    1  ->  variant ==> variance
+  64:    1  ->  variants ==> variant's
+  65:    1  ->  wanted ==> is
+  66:    1  ->  way ==> mean
+  67:    1  ->  we ==> strangely
+  68:    1  ->  weaving ==> leaving
+  69:    1  ->  weaving's ==> is
+  70:    1  ->  wha ==> variance
+  71:    1  ->  where ==> there
+  72:    1  ->  yeah ==> i
+  73:    1  ->  zeroes ==> zeros
+     -------
+        75
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  <laugh>
+   2:    1  ->  a
+   3:    1  ->  annie
+   4:    1  ->  i
+   5:    1  ->  man
+   6:    1  ->  or
+   7:    1  ->  other
+   8:    1  ->  the
+   9:    1  ->  weaving
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    4  ->  it
+   2:    2  ->  and
+   3:    2  ->  i
+   4:    2  ->  like
+   5:    2  ->  oh
+   6:    1  ->  'tis
+   7:    1  ->  a
+   8:    1  ->  are
+   9:    1  ->  county
+  10:    1  ->  everything
+  11:    1  ->  gave
+  12:    1  ->  had
+  13:    1  ->  is
+  14:    1  ->  just
+  15:    1  ->  l
+  16:    1  ->  lines
+  17:    1  ->  me
+  18:    1  ->  not
+  19:    1  ->  of
+  20:    1  ->  pregnant
+  21:    1  ->  quotes
+  22:    1  ->  salt
+  23:    1  ->  see
+  24:    1  ->  seem
+  25:    1  ->  seemed
+  26:    1  ->  some
+  27:    1  ->  specifically
+  28:    1  ->  strange
+  29:    1  ->  the
+  30:    1  ->  them
+  31:    1  ->  then
+  32:    1  ->  there
+  33:    1  ->  to
+  34:    1  ->  took
+  35:    1  ->  track
+  36:    1  ->  up
+  37:    1  ->  us
+  38:    1  ->  variants
+  39:    1  ->  was
+  40:    1  ->  x
+  41:    1  ->  yeah
+  42:    1  ->  you
+     -------
+        49
+
+
+
+SUBSTITUTIONS                    Total                 (63)
+                                 With >=  1 occurrences (63)
+
+   1:    7  ->  the
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  had
+   5:    2  ->  howe
+   6:    2  ->  that
+   7:    2  ->  to
+   8:    1  ->  'tis
+   9:    1  ->  after
+  10:    1  ->  any
+  11:    1  ->  as
+  12:    1  ->  author's
+  13:    1  ->  bauhau
+  14:    1  ->  but
+  15:    1  ->  coming
+  16:    1  ->  cover
+  17:    1  ->  deluxe
+  18:    1  ->  down
+  19:    1  ->  elder's
+  20:    1  ->  exhilaration
+  21:    1  ->  fresh
+  22:    1  ->  going
+  23:    1  ->  got
+  24:    1  ->  gridded
+  25:    1  ->  haja
+  26:    1  ->  have
+  27:    1  ->  hundred
+  28:    1  ->  if
+  29:    1  ->  it
+  30:    1  ->  just
+  31:    1  ->  livingfield
+  32:    1  ->  lot
+  33:    1  ->  lovely
+  34:    1  ->  manu
+  35:    1  ->  move
+  36:    1  ->  not
+  37:    1  ->  notice
+  38:    1  ->  of
+  39:    1  ->  others
+  40:    1  ->  our
+  41:    1  ->  precede
+  42:    1  ->  preceded
+  43:    1  ->  sand
+  44:    1  ->  selves
+  45:    1  ->  sewed
+  46:    1  ->  spent
+  47:    1  ->  them
+  48:    1  ->  they
+  49:    1  ->  this
+  50:    1  ->  thought
+  51:    1  ->  totaled
+  52:    1  ->  up
+  53:    1  ->  variant
+  54:    1  ->  variants
+  55:    1  ->  wanted
+  56:    1  ->  way
+  57:    1  ->  we
+  58:    1  ->  weaving
+  59:    1  ->  weaving's
+  60:    1  ->  wha
+  61:    1  ->  where
+  62:    1  ->  yeah
+  63:    1  ->  zeroes
+     -------
+        75
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:    4  ->  that
+   2:    3  ->  and
+   3:    3  ->  i
+   4:    2  ->  have
+   5:    2  ->  is
+   6:    2  ->  it
+   7:    2  ->  mean
+   8:    2  ->  of
+   9:    2  ->  there
+  10:    2  ->  variance
+  11:    1  ->  a
+  12:    1  ->  alberts
+  13:    1  ->  along
+  14:    1  ->  at
+  15:    1  ->  bauhaus
+  16:    1  ->  but
+  17:    1  ->  cells
+  18:    1  ->  cut
+  19:    1  ->  elbers
+  20:    1  ->  far
+  21:    1  ->  for
+  22:    1  ->  grided
+  23:    1  ->  had
+  24:    1  ->  how
+  25:    1  ->  howell
+  26:    1  ->  hydro
+  27:    1  ->  illusion
+  28:    1  ->  in
+  29:    1  ->  interviews
+  30:    1  ->  jackson
+  31:    1  ->  jubilot
+  32:    1  ->  leaving
+  33:    1  ->  like
+  34:    1  ->  line
+  35:    1  ->  linfield
+  36:    1  ->  lu
+  37:    1  ->  me
+  38:    1  ->  noticed
+  39:    1  ->  one
+  40:    1  ->  proceed
+  41:    1  ->  proceeded
+  42:    1  ->  run
+  43:    1  ->  sew
+  44:    1  ->  some
+  45:    1  ->  sound
+  46:    1  ->  spend
+  47:    1  ->  steven
+  48:    1  ->  strangely
+  49:    1  ->  t
+  50:    1  ->  the
+  51:    1  ->  there's
+  52:    1  ->  thereafter
+  53:    1  ->  this
+  54:    1  ->  times
+  55:    1  ->  told
+  56:    1  ->  variant's
+  57:    1  ->  vars
+  58:    1  ->  where
+  59:    1  ->  which
+  60:    1  ->  zero
+  61:    1  ->  zeros
+     -------
+        75
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

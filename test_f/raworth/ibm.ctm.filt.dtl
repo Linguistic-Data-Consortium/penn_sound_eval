@@ -1,0 +1,481 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.3%   ( 182)
+
+Percent Correct           =   82.5%   ( 740)
+
+Percent Substitution      =   15.2%   ( 136)
+Percent Deletions         =    2.3%   (  21)
+Percent Insertions        =    2.8%   (  25)
+Percent Word Accuracy     =   79.7%
+
+
+Ref. words                =           ( 897)
+Hyp. words                =           ( 901)
+Aligned words             =           ( 922)
+
+CONFUSION PAIRS                  Total                 (135)
+                                 With >=  1 occurrences (135)
+
+   1:    2  ->  poem ==> point
+   2:    1  ->  a ==> ever
+   3:    1  ->  a ==> gail
+   4:    1  ->  a ==> panda
+   5:    1  ->  ageism ==> ages
+   6:    1  ->  analyst's ==> analyst
+   7:    1  ->  and ==> hempen
+   8:    1  ->  are ==> and
+   9:    1  ->  are ==> modify
+  10:    1  ->  baldfaced ==> boldface
+  11:    1  ->  barber's ==> verbier
+  12:    1  ->  batter ==> battery
+  13:    1  ->  cagey ==> kg
+  14:    1  ->  centre ==> legislate
+  15:    1  ->  cocks ==> cops
+  16:    1  ->  coda ==> code
+  17:    1  ->  commie ==> come
+  18:    1  ->  connoisseur ==> closer
+  19:    1  ->  crowd ==> proud
+  20:    1  ->  crowdsourced ==> source
+  21:    1  ->  deadpanned ==> dead
+  22:    1  ->  digit ==> digits
+  23:    1  ->  druid ==> dread
+  24:    1  ->  elbow ==> grave
+  25:    1  ->  elk ==> out
+  26:    1  ->  enshrouded ==> shrouded
+  27:    1  ->  erikson ==> ericsson
+  28:    1  ->  fanny ==> funny
+  29:    1  ->  farmhands ==> hands
+  30:    1  ->  float ==> the
+  31:    1  ->  forests ==> forest
+  32:    1  ->  freud ==> fred
+  33:    1  ->  fur ==> for
+  34:    1  ->  gaming ==> gami
+  35:    1  ->  go ==> doug
+  36:    1  ->  gulags ==> gulag
+  37:    1  ->  handbook ==> hand
+  38:    1  ->  head ==> ahead
+  39:    1  ->  heartbreaking ==> hoof
+  40:    1  ->  heyerdahl ==> will
+  41:    1  ->  honkers ==> hunkers
+  42:    1  ->  horn ==> tinhorn
+  43:    1  ->  how ==> howard
+  44:    1  ->  husk ==> has
+  45:    1  ->  i ==> passed
+  46:    1  ->  impale ==> copies
+  47:    1  ->  in ==> acting
+  48:    1  ->  in ==> and
+  49:    1  ->  in ==> begin
+  50:    1  ->  irony ==> already
+  51:    1  ->  is ==> as
+  52:    1  ->  is ==> has
+  53:    1  ->  is ==> operatives
+  54:    1  ->  it ==> that
+  55:    1  ->  it ==> therein
+  56:    1  ->  lags ==> legs
+  57:    1  ->  last ==> tent
+  58:    1  ->  leif ==> leaf
+  59:    1  ->  leisure ==> satellite
+  60:    1  ->  list ==> lists
+  61:    1  ->  memo ==> claim
+  62:    1  ->  mirthless ==> murphy's
+  63:    1  ->  mole ==> most
+  64:    1  ->  moss ==> mass
+  65:    1  ->  move ==> moved
+  66:    1  ->  my ==> impolite
+  67:    1  ->  my ==> scammy
+  68:    1  ->  numerals ==> rules
+  69:    1  ->  of ==> for
+  70:    1  ->  paradigm ==> paradise
+  71:    1  ->  pigs ==> moping
+  72:    1  ->  poem ==> pie
+  73:    1  ->  poems ==> pine
+  74:    1  ->  pressed ==> press
+  75:    1  ->  put ==> but
+  76:    1  ->  quote ==> tea
+  77:    1  ->  regimes ==> regime
+  78:    1  ->  researchers ==> research
+  79:    1  ->  retina ==> reckoner
+  80:    1  ->  scampi ==> by
+  81:    1  ->  send ==> sent
+  82:    1  ->  service ==> surface
+  83:    1  ->  set ==> sets
+  84:    1  ->  sights ==> sight
+  85:    1  ->  simonize ==> ized
+  86:    1  ->  slut ==> slap
+  87:    1  ->  solved ==> solve
+  88:    1  ->  sorority ==> herod
+  89:    1  ->  spine ==> by
+  90:    1  ->  stamped ==> stamp
+  91:    1  ->  tales ==> tails
+  92:    1  ->  teacakes ==> cakes
+  93:    1  ->  that ==> sat
+  94:    1  ->  the ==> for
+  95:    1  ->  thor ==> i
+  96:    1  ->  thought ==> not
+  97:    1  ->  thus ==> fast
+  98:    1  ->  trek ==> track
+  99:    1  ->  treks ==> tracks
+ 100:    1  ->  trot ==> barbara's
+ 101:    1  ->  usual ==> unusual
+ 102:    1  ->  verb ==> youth
+ 103:    1  ->  void ==> voice
+ 104:    1  ->  wait ==> wake
+ 105:    1  ->  wallowing ==> i
+ 106:    1  ->  want ==> wants
+ 107:    1  ->  web ==> wed
+ 108:    1  ->  well ==> finishes
+ 109:    1  ->  were ==> with
+ 110:    1  ->  wholesaled ==> south
+ 111:    1  ->  wig ==> wing
+ 112:    1  ->  with ==> on
+ 113:    1  ->  wrote ==> broke
+ 114:    1  ->  x ==> canceling
+ 115:    1  ->  x ==> contiki
+ 116:    1  ->  x ==> ever
+ 117:    1  ->  x ==> frasier
+ 118:    1  ->  x ==> groundless
+ 119:    1  ->  x ==> i
+ 120:    1  ->  x ==> in
+ 121:    1  ->  x ==> island
+ 122:    1  ->  x ==> like
+ 123:    1  ->  x ==> limo
+ 124:    1  ->  x ==> loss
+ 125:    1  ->  x ==> make
+ 126:    1  ->  x ==> of
+ 127:    1  ->  x ==> page
+ 128:    1  ->  x ==> police
+ 129:    1  ->  x ==> shank
+ 130:    1  ->  x ==> simon
+ 131:    1  ->  x ==> sinton
+ 132:    1  ->  x ==> tints
+ 133:    1  ->  x ==> were
+ 134:    1  ->  your ==> a
+ 135:    1  ->  yow ==> you
+     -------
+       136
+
+
+
+INSERTIONS                       Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  and
+   2:    2  ->  on
+   3:    1  ->  breaking
+   4:    1  ->  crowd
+   5:    1  ->  farm
+   6:    1  ->  had
+   7:    1  ->  heart
+   8:    1  ->  hope
+   9:    1  ->  hot
+  10:    1  ->  hume
+  11:    1  ->  i
+  12:    1  ->  igloo
+  13:    1  ->  it
+  14:    1  ->  note
+  15:    1  ->  quotes
+  16:    1  ->  rolling
+  17:    1  ->  scan
+  18:    1  ->  succeeded
+  19:    1  ->  though
+  20:    1  ->  top
+  21:    1  ->  while
+  22:    1  ->  will
+     -------
+        25
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  x
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  acts
+   5:    1  ->  alight
+   6:    1  ->  at
+   7:    1  ->  gaily
+   8:    1  ->  hemp
+   9:    1  ->  in
+  10:    1  ->  over
+  11:    1  ->  parrot
+  12:    1  ->  past
+  13:    1  ->  play
+  14:    1  ->  scam
+  15:    1  ->  set
+  16:    1  ->  tents
+  17:    1  ->  there
+  18:    1  ->  tin
+     -------
+        21
+
+
+
+SUBSTITUTIONS                    Total                 (106)
+                                 With >=  1 occurrences (106)
+
+   1:   20  ->  x
+   2:    3  ->  a
+   3:    3  ->  in
+   4:    3  ->  is
+   5:    3  ->  poem
+   6:    2  ->  are
+   7:    2  ->  it
+   8:    2  ->  my
+   9:    1  ->  ageism
+  10:    1  ->  analyst's
+  11:    1  ->  and
+  12:    1  ->  baldfaced
+  13:    1  ->  barber's
+  14:    1  ->  batter
+  15:    1  ->  cagey
+  16:    1  ->  centre
+  17:    1  ->  cocks
+  18:    1  ->  coda
+  19:    1  ->  commie
+  20:    1  ->  connoisseur
+  21:    1  ->  crowd
+  22:    1  ->  crowdsourced
+  23:    1  ->  deadpanned
+  24:    1  ->  digit
+  25:    1  ->  druid
+  26:    1  ->  elbow
+  27:    1  ->  elk
+  28:    1  ->  enshrouded
+  29:    1  ->  erikson
+  30:    1  ->  fanny
+  31:    1  ->  farmhands
+  32:    1  ->  float
+  33:    1  ->  forests
+  34:    1  ->  freud
+  35:    1  ->  fur
+  36:    1  ->  gaming
+  37:    1  ->  go
+  38:    1  ->  gulags
+  39:    1  ->  handbook
+  40:    1  ->  head
+  41:    1  ->  heartbreaking
+  42:    1  ->  heyerdahl
+  43:    1  ->  honkers
+  44:    1  ->  horn
+  45:    1  ->  how
+  46:    1  ->  husk
+  47:    1  ->  i
+  48:    1  ->  impale
+  49:    1  ->  irony
+  50:    1  ->  lags
+  51:    1  ->  last
+  52:    1  ->  leif
+  53:    1  ->  leisure
+  54:    1  ->  list
+  55:    1  ->  memo
+  56:    1  ->  mirthless
+  57:    1  ->  mole
+  58:    1  ->  moss
+  59:    1  ->  move
+  60:    1  ->  numerals
+  61:    1  ->  of
+  62:    1  ->  paradigm
+  63:    1  ->  pigs
+  64:    1  ->  poems
+  65:    1  ->  pressed
+  66:    1  ->  put
+  67:    1  ->  quote
+  68:    1  ->  regimes
+  69:    1  ->  researchers
+  70:    1  ->  retina
+  71:    1  ->  scampi
+  72:    1  ->  send
+  73:    1  ->  service
+  74:    1  ->  set
+  75:    1  ->  sights
+  76:    1  ->  simonize
+  77:    1  ->  slut
+  78:    1  ->  solved
+  79:    1  ->  sorority
+  80:    1  ->  spine
+  81:    1  ->  stamped
+  82:    1  ->  tales
+  83:    1  ->  teacakes
+  84:    1  ->  that
+  85:    1  ->  the
+  86:    1  ->  thor
+  87:    1  ->  thought
+  88:    1  ->  thus
+  89:    1  ->  trek
+  90:    1  ->  treks
+  91:    1  ->  trot
+  92:    1  ->  usual
+  93:    1  ->  verb
+  94:    1  ->  void
+  95:    1  ->  wait
+  96:    1  ->  wallowing
+  97:    1  ->  want
+  98:    1  ->  web
+  99:    1  ->  well
+ 100:    1  ->  were
+ 101:    1  ->  wholesaled
+ 102:    1  ->  wig
+ 103:    1  ->  with
+ 104:    1  ->  wrote
+ 105:    1  ->  your
+ 106:    1  ->  yow
+     -------
+       136
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (127)
+                                 With >=  1 occurrences (127)
+
+   1:    3  ->  for
+   2:    3  ->  i
+   3:    2  ->  and
+   4:    2  ->  by
+   5:    2  ->  ever
+   6:    2  ->  has
+   7:    2  ->  point
+   8:    1  ->  a
+   9:    1  ->  acting
+  10:    1  ->  ages
+  11:    1  ->  ahead
+  12:    1  ->  already
+  13:    1  ->  analyst
+  14:    1  ->  as
+  15:    1  ->  barbara's
+  16:    1  ->  battery
+  17:    1  ->  begin
+  18:    1  ->  boldface
+  19:    1  ->  broke
+  20:    1  ->  but
+  21:    1  ->  cakes
+  22:    1  ->  canceling
+  23:    1  ->  claim
+  24:    1  ->  closer
+  25:    1  ->  code
+  26:    1  ->  come
+  27:    1  ->  contiki
+  28:    1  ->  copies
+  29:    1  ->  cops
+  30:    1  ->  dead
+  31:    1  ->  digits
+  32:    1  ->  doug
+  33:    1  ->  dread
+  34:    1  ->  ericsson
+  35:    1  ->  fast
+  36:    1  ->  finishes
+  37:    1  ->  forest
+  38:    1  ->  frasier
+  39:    1  ->  fred
+  40:    1  ->  funny
+  41:    1  ->  gail
+  42:    1  ->  gami
+  43:    1  ->  grave
+  44:    1  ->  groundless
+  45:    1  ->  gulag
+  46:    1  ->  hand
+  47:    1  ->  hands
+  48:    1  ->  hempen
+  49:    1  ->  herod
+  50:    1  ->  hoof
+  51:    1  ->  howard
+  52:    1  ->  hunkers
+  53:    1  ->  impolite
+  54:    1  ->  in
+  55:    1  ->  island
+  56:    1  ->  ized
+  57:    1  ->  kg
+  58:    1  ->  leaf
+  59:    1  ->  legislate
+  60:    1  ->  legs
+  61:    1  ->  like
+  62:    1  ->  limo
+  63:    1  ->  lists
+  64:    1  ->  loss
+  65:    1  ->  make
+  66:    1  ->  mass
+  67:    1  ->  modify
+  68:    1  ->  moping
+  69:    1  ->  most
+  70:    1  ->  moved
+  71:    1  ->  murphy's
+  72:    1  ->  not
+  73:    1  ->  of
+  74:    1  ->  on
+  75:    1  ->  operatives
+  76:    1  ->  out
+  77:    1  ->  page
+  78:    1  ->  panda
+  79:    1  ->  paradise
+  80:    1  ->  passed
+  81:    1  ->  pie
+  82:    1  ->  pine
+  83:    1  ->  police
+  84:    1  ->  press
+  85:    1  ->  proud
+  86:    1  ->  reckoner
+  87:    1  ->  regime
+  88:    1  ->  research
+  89:    1  ->  rules
+  90:    1  ->  sat
+  91:    1  ->  satellite
+  92:    1  ->  scammy
+  93:    1  ->  sent
+  94:    1  ->  sets
+  95:    1  ->  shank
+  96:    1  ->  shrouded
+  97:    1  ->  sight
+  98:    1  ->  simon
+  99:    1  ->  sinton
+ 100:    1  ->  slap
+ 101:    1  ->  solve
+ 102:    1  ->  source
+ 103:    1  ->  south
+ 104:    1  ->  stamp
+ 105:    1  ->  surface
+ 106:    1  ->  tails
+ 107:    1  ->  tea
+ 108:    1  ->  tent
+ 109:    1  ->  that
+ 110:    1  ->  the
+ 111:    1  ->  therein
+ 112:    1  ->  tinhorn
+ 113:    1  ->  tints
+ 114:    1  ->  track
+ 115:    1  ->  tracks
+ 116:    1  ->  unusual
+ 117:    1  ->  verbier
+ 118:    1  ->  voice
+ 119:    1  ->  wake
+ 120:    1  ->  wants
+ 121:    1  ->  wed
+ 122:    1  ->  were
+ 123:    1  ->  will
+ 124:    1  ->  wing
+ 125:    1  ->  with
+ 126:    1  ->  you
+ 127:    1  ->  youth
+     -------
+       136
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

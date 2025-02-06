@@ -1,0 +1,212 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.6%   (  69)
+
+Percent Correct           =   93.2%   ( 845)
+
+Percent Substitution      =    4.7%   (  43)
+Percent Deletions         =    2.1%   (  19)
+Percent Insertions        =    0.8%   (   7)
+Percent Word Accuracy     =   92.4%
+
+
+Ref. words                =           ( 907)
+Hyp. words                =           ( 895)
+Aligned words             =           ( 914)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  american ==> africanamerican
+   2:    2  ->  one ==> 1901
+   3:    2  ->  twentieth ==> 20th
+   4:    1  ->  african ==> and
+   5:    1  ->  americans ==> africanamericans
+   6:    1  ->  and ==> tenton
+   7:    1  ->  conto ==> canto
+   8:    1  ->  depazzi ==> pazzi
+   9:    1  ->  eighties ==> 1880s
+  10:    1  ->  eleventh ==> 11th
+  11:    1  ->  fabula ==> fabiola
+  12:    1  ->  father ==> fr
+  13:    1  ->  friendly ==> userfriendly
+  14:    1  ->  good ==> feelgood
+  15:    1  ->  hundred ==> oh
+  16:    1  ->  isoleri ==> isolari
+  17:    1  ->  istfan ==> isvan
+  18:    1  ->  korkemaz ==> corkemas
+  19:    1  ->  mar ==> st
+  20:    1  ->  merrymaking ==> murraymaking
+  21:    1  ->  midseventeenth ==> mid17th
+  22:    1  ->  molise ==> malice
+  23:    1  ->  montrose ==> montreux
+  24:    1  ->  nineteen ==> 19th
+  25:    1  ->  ninth ==> 9th
+  26:    1  ->  passyunk ==> passionk
+  27:    1  ->  pier ==> peer
+  28:    1  ->  quarters ==> threequarters
+  29:    1  ->  saint ==> st
+  30:    1  ->  screenings ==> screening
+  31:    1  ->  seven ==> 1887
+  32:    1  ->  seventy ==> seven
+  33:    1  ->  snockey's ==> snocky's
+  34:    1  ->  states ==> states'
+  35:    1  ->  tayoun's ==> tyoon's
+  36:    1  ->  the ==> a
+  37:    1  ->  twelfth ==> 12th
+  38:    1  ->  version ==> virgin
+  39:    1  ->  win ==> nguyen
+  40:    1  ->  x ==> feste
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    3  ->  the
+   2:    1  ->  church's
+   3:    1  ->  de
+   4:    1  ->  is
+   5:    1  ->  saint
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  african
+   2:    2  ->  eighteen
+   3:    2  ->  nineteen
+   4:    2  ->  oh
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  eighty
+   8:    1  ->  feel
+   9:    1  ->  i
+  10:    1  ->  r
+  11:    1  ->  s
+  12:    1  ->  saint
+  13:    1  ->  tenth
+  14:    1  ->  three
+  15:    1  ->  user
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  american
+   2:    2  ->  one
+   3:    2  ->  twentieth
+   4:    1  ->  african
+   5:    1  ->  americans
+   6:    1  ->  and
+   7:    1  ->  conto
+   8:    1  ->  depazzi
+   9:    1  ->  eighties
+  10:    1  ->  eleventh
+  11:    1  ->  fabula
+  12:    1  ->  father
+  13:    1  ->  friendly
+  14:    1  ->  good
+  15:    1  ->  hundred
+  16:    1  ->  isoleri
+  17:    1  ->  istfan
+  18:    1  ->  korkemaz
+  19:    1  ->  mar
+  20:    1  ->  merrymaking
+  21:    1  ->  midseventeenth
+  22:    1  ->  molise
+  23:    1  ->  montrose
+  24:    1  ->  nineteen
+  25:    1  ->  ninth
+  26:    1  ->  passyunk
+  27:    1  ->  pier
+  28:    1  ->  quarters
+  29:    1  ->  saint
+  30:    1  ->  screenings
+  31:    1  ->  seven
+  32:    1  ->  seventy
+  33:    1  ->  snockey's
+  34:    1  ->  states
+  35:    1  ->  tayoun's
+  36:    1  ->  the
+  37:    1  ->  twelfth
+  38:    1  ->  version
+  39:    1  ->  win
+  40:    1  ->  x
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  1901
+   2:    2  ->  20th
+   3:    2  ->  africanamerican
+   4:    2  ->  st
+   5:    1  ->  11th
+   6:    1  ->  12th
+   7:    1  ->  1880s
+   8:    1  ->  1887
+   9:    1  ->  19th
+  10:    1  ->  9th
+  11:    1  ->  a
+  12:    1  ->  africanamericans
+  13:    1  ->  and
+  14:    1  ->  canto
+  15:    1  ->  corkemas
+  16:    1  ->  fabiola
+  17:    1  ->  feelgood
+  18:    1  ->  feste
+  19:    1  ->  fr
+  20:    1  ->  isolari
+  21:    1  ->  isvan
+  22:    1  ->  malice
+  23:    1  ->  mid17th
+  24:    1  ->  montreux
+  25:    1  ->  murraymaking
+  26:    1  ->  nguyen
+  27:    1  ->  oh
+  28:    1  ->  passionk
+  29:    1  ->  pazzi
+  30:    1  ->  peer
+  31:    1  ->  screening
+  32:    1  ->  seven
+  33:    1  ->  snocky's
+  34:    1  ->  states'
+  35:    1  ->  tenton
+  36:    1  ->  threequarters
+  37:    1  ->  tyoon's
+  38:    1  ->  userfriendly
+  39:    1  ->  virgin
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

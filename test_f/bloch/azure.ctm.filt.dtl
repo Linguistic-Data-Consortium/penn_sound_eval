@@ -1,0 +1,159 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.8%   (  52)
+
+Percent Correct           =   95.8%   (1032)
+
+Percent Substitution      =    2.6%   (  28)
+Percent Deletions         =    1.6%   (  17)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   95.2%
+
+
+Ref. words                =           (1077)
+Hyp. words                =           (1067)
+Aligned words             =           (1084)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    4  ->  a ==> la
+   2:    2  ->  there ==> their
+   3:    2  ->  tshirt ==> shirt
+   4:    1  ->  did ==> done
+   5:    1  ->  etiological ==> ideological
+   6:    1  ->  grey ==> gray
+   7:    1  ->  into ==> to
+   8:    1  ->  myles ==> miles
+   9:    1  ->  oh ==> o
+  10:    1  ->  one ==> when
+  11:    1  ->  pass ==> past
+  12:    1  ->  s ==> 's
+  13:    1  ->  schuylkill ==> kill
+  14:    1  ->  shakespeare's ==> son
+  15:    1  ->  so ==> until
+  16:    1  ->  sonnet ==> at
+  17:    1  ->  t ==> pst
+  18:    1  ->  th ==> that
+  19:    1  ->  to ==> two
+  20:    1  ->  writing ==> reading
+  21:    1  ->  x ==> promin
+  22:    1  ->  x ==> xxx
+  23:    1  ->  x ==> ye
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  t
+   2:    1  ->  le
+   3:    1  ->  or
+   4:    1  ->  school
+   5:    1  ->  shakespeare
+   6:    1  ->  then
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    4  ->  l
+   2:    2  ->  x
+   3:    1  ->  and
+   4:    1  ->  devo
+   5:    1  ->  i
+   6:    1  ->  next
+   7:    1  ->  p
+   8:    1  ->  read
+   9:    1  ->  s
+  10:    1  ->  sh
+  11:    1  ->  should
+  12:    1  ->  this
+  13:    1  ->  what
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    4  ->  a
+   2:    3  ->  x
+   3:    2  ->  there
+   4:    2  ->  tshirt
+   5:    1  ->  did
+   6:    1  ->  etiological
+   7:    1  ->  grey
+   8:    1  ->  into
+   9:    1  ->  myles
+  10:    1  ->  oh
+  11:    1  ->  one
+  12:    1  ->  pass
+  13:    1  ->  s
+  14:    1  ->  schuylkill
+  15:    1  ->  shakespeare's
+  16:    1  ->  so
+  17:    1  ->  sonnet
+  18:    1  ->  t
+  19:    1  ->  th
+  20:    1  ->  to
+  21:    1  ->  writing
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    4  ->  la
+   2:    2  ->  shirt
+   3:    2  ->  their
+   4:    1  ->  's
+   5:    1  ->  at
+   6:    1  ->  done
+   7:    1  ->  gray
+   8:    1  ->  ideological
+   9:    1  ->  kill
+  10:    1  ->  miles
+  11:    1  ->  o
+  12:    1  ->  past
+  13:    1  ->  promin
+  14:    1  ->  pst
+  15:    1  ->  reading
+  16:    1  ->  son
+  17:    1  ->  that
+  18:    1  ->  to
+  19:    1  ->  two
+  20:    1  ->  until
+  21:    1  ->  when
+  22:    1  ->  xxx
+  23:    1  ->  ye
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

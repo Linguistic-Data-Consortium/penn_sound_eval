@@ -1,0 +1,139 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.5%   (  41)
+
+Percent Correct           =   95.2%   ( 715)
+
+Percent Substitution      =    2.4%   (  18)
+Percent Deletions         =    2.4%   (  18)
+Percent Insertions        =    0.7%   (   5)
+Percent Word Accuracy     =   94.5%
+
+
+Ref. words                =           ( 751)
+Hyp. words                =           ( 738)
+Aligned words             =           ( 756)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  oh ==> o
+   2:    2  ->  lost ==> lars
+   3:    1  ->  a ==> an
+   4:    1  ->  an ==> and
+   5:    1  ->  dull ==> dole
+   6:    1  ->  eruptions ==> eruption
+   7:    1  ->  jades ==> jade's
+   8:    1  ->  kyger ==> kaiger
+   9:    1  ->  miniscule ==> minuscule
+  10:    1  ->  parkour ==> parcours
+  11:    1  ->  psalm ==> song
+  12:    1  ->  th ==> the
+  13:    1  ->  vanish ==> go
+  14:    1  ->  x ==> accomfit
+  15:    1  ->  x ==> tankers
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  are
+   3:    1  ->  going
+   4:    1  ->  place
+   5:    1  ->  we
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  psalm
+   2:    1  ->  a
+   3:    1  ->  are
+   4:    1  ->  beneath
+   5:    1  ->  in
+   6:    1  ->  is
+   7:    1  ->  loss
+   8:    1  ->  ps
+   9:    1  ->  questioned
+  10:    1  ->  surrender
+  11:    1  ->  th
+  12:    1  ->  the
+  13:    1  ->  to
+  14:    1  ->  transparent
+  15:    1  ->  when
+  16:    1  ->  where
+  17:    1  ->  you
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  oh
+   2:    2  ->  lost
+   3:    2  ->  x
+   4:    1  ->  a
+   5:    1  ->  an
+   6:    1  ->  dull
+   7:    1  ->  eruptions
+   8:    1  ->  jades
+   9:    1  ->  kyger
+  10:    1  ->  miniscule
+  11:    1  ->  parkour
+  12:    1  ->  psalm
+  13:    1  ->  th
+  14:    1  ->  vanish
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  o
+   2:    2  ->  lars
+   3:    1  ->  accomfit
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  dole
+   7:    1  ->  eruption
+   8:    1  ->  go
+   9:    1  ->  jade's
+  10:    1  ->  kaiger
+  11:    1  ->  minuscule
+  12:    1  ->  parcours
+  13:    1  ->  song
+  14:    1  ->  tankers
+  15:    1  ->  the
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

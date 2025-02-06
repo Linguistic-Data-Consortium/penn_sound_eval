@@ -1,0 +1,215 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.2%   (  79)
+
+Percent Correct           =   92.2%   ( 794)
+
+Percent Substitution      =    5.7%   (  49)
+Percent Deletions         =    2.1%   (  18)
+Percent Insertions        =    1.4%   (  12)
+Percent Word Accuracy     =   90.8%
+
+
+Ref. words                =           ( 861)
+Hyp. words                =           ( 855)
+Aligned words             =           ( 873)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  as ==> is
+   2:    2  ->  bare ==> bear
+   3:    2  ->  carte ==> cart
+   4:    2  ->  hitherto ==> to
+   5:    2  ->  its ==> it's
+   6:    2  ->  la ==> ala
+   7:    2  ->  na ==> a
+   8:    1  ->  abraids ==> abrades
+   9:    1  ->  aloud ==> allowed
+  10:    1  ->  and ==> adhiti
+  11:    1  ->  anoth ==> another
+  12:    1  ->  bet ==> that
+  13:    1  ->  charles' ==> charles's
+  14:    1  ->  curiosities ==> is
+  15:    1  ->  effected ==> affected
+  16:    1  ->  erase ==> embrace
+  17:    1  ->  fine ==> find
+  18:    1  ->  foxglove ==> fox
+  19:    1  ->  foxglove ==> glove
+  20:    1  ->  frayed ==> freight
+  21:    1  ->  hole ==> whole
+  22:    1  ->  it ==> not
+  23:    1  ->  just ==> a
+  24:    1  ->  know ==> do
+  25:    1  ->  lay ==> laid
+  26:    1  ->  na ==> no
+  27:    1  ->  na ==> on
+  28:    1  ->  now ==> promo
+  29:    1  ->  of ==> a
+  30:    1  ->  of ==> through
+  31:    1  ->  one ==> on
+  32:    1  ->  pai ==> another
+  33:    1  ->  proce ==> process
+  34:    1  ->  proof ==> flameproof
+  35:    1  ->  surefire ==> fire
+  36:    1  ->  there's ==> the
+  37:    1  ->  to ==> can
+  38:    1  ->  wealth ==> well
+  39:    1  ->  when ==> what
+  40:    1  ->  when ==> who
+  41:    1  ->  words ==> word
+  42:    1  ->  you ==> not
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  i
+   2:    1  ->  a
+   3:    1  ->  am
+   4:    1  ->  and
+   5:    1  ->  curiosity
+   6:    1  ->  fox
+   7:    1  ->  glove
+   8:    1  ->  heather
+   9:    1  ->  just
+  10:    1  ->  sure
+  11:    1  ->  would
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  a
+   2:    1  ->  am
+   3:    1  ->  another's
+   4:    1  ->  flame
+   5:    1  ->  going
+   6:    1  ->  i
+   7:    1  ->  it's
+   8:    1  ->  not
+   9:    1  ->  or
+  10:    1  ->  pai
+  11:    1  ->  poem
+  12:    1  ->  sort
+  13:    1  ->  th
+  14:    1  ->  u
+  15:    1  ->  w
+  16:    1  ->  y
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    4  ->  na
+   2:    2  ->  as
+   3:    2  ->  bare
+   4:    2  ->  carte
+   5:    2  ->  foxglove
+   6:    2  ->  hitherto
+   7:    2  ->  its
+   8:    2  ->  la
+   9:    2  ->  of
+  10:    2  ->  when
+  11:    1  ->  abraids
+  12:    1  ->  aloud
+  13:    1  ->  and
+  14:    1  ->  anoth
+  15:    1  ->  bet
+  16:    1  ->  charles'
+  17:    1  ->  curiosities
+  18:    1  ->  effected
+  19:    1  ->  erase
+  20:    1  ->  fine
+  21:    1  ->  frayed
+  22:    1  ->  hole
+  23:    1  ->  it
+  24:    1  ->  just
+  25:    1  ->  know
+  26:    1  ->  lay
+  27:    1  ->  now
+  28:    1  ->  one
+  29:    1  ->  pai
+  30:    1  ->  proce
+  31:    1  ->  proof
+  32:    1  ->  surefire
+  33:    1  ->  there's
+  34:    1  ->  to
+  35:    1  ->  wealth
+  36:    1  ->  words
+  37:    1  ->  you
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    4  ->  a
+   2:    3  ->  is
+   3:    2  ->  ala
+   4:    2  ->  another
+   5:    2  ->  bear
+   6:    2  ->  cart
+   7:    2  ->  it's
+   8:    2  ->  not
+   9:    2  ->  on
+  10:    2  ->  to
+  11:    1  ->  abrades
+  12:    1  ->  adhiti
+  13:    1  ->  affected
+  14:    1  ->  allowed
+  15:    1  ->  can
+  16:    1  ->  charles's
+  17:    1  ->  do
+  18:    1  ->  embrace
+  19:    1  ->  find
+  20:    1  ->  fire
+  21:    1  ->  flameproof
+  22:    1  ->  fox
+  23:    1  ->  freight
+  24:    1  ->  glove
+  25:    1  ->  laid
+  26:    1  ->  no
+  27:    1  ->  process
+  28:    1  ->  promo
+  29:    1  ->  that
+  30:    1  ->  the
+  31:    1  ->  through
+  32:    1  ->  well
+  33:    1  ->  what
+  34:    1  ->  who
+  35:    1  ->  whole
+  36:    1  ->  word
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

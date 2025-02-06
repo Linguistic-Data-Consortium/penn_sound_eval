@@ -1,0 +1,198 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.3%   (  56)
+
+Percent Correct           =   94.5%   ( 845)
+
+Percent Substitution      =    4.6%   (  41)
+Percent Deletions         =    0.9%   (   8)
+Percent Insertions        =    0.8%   (   7)
+Percent Word Accuracy     =   93.7%
+
+
+Ref. words                =           ( 894)
+Hyp. words                =           ( 893)
+Aligned words             =           ( 901)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  onto ==> to
+   2:    1  ->  always ==> ours
+   3:    1  ->  always ==> was
+   4:    1  ->  and ==> in
+   5:    1  ->  approach ==> approached
+   6:    1  ->  ashbery ==> ashbury
+   7:    1  ->  at ==> of
+   8:    1  ->  bills ==> bill
+   9:    1  ->  days' ==> days
+  10:    1  ->  each ==> the
+  11:    1  ->  ferrying ==> faring
+  12:    1  ->  fulsome ==> folsom
+  13:    1  ->  honorary ==> honoree
+  14:    1  ->  in ==> and
+  15:    1  ->  into ==> to
+  16:    1  ->  is ==> palaces
+  17:    1  ->  its ==> the
+  18:    1  ->  lithography ==> pythography
+  19:    1  ->  lived ==> lift
+  20:    1  ->  mazes ==> as
+  21:    1  ->  of ==> a
+  22:    1  ->  of ==> or
+  23:    1  ->  others' ==> others
+  24:    1  ->  painterly ==> painily
+  25:    1  ->  prowled ==> plowed
+  26:    1  ->  rec ==> wrecked
+  27:    1  ->  shadows ==> shadow
+  28:    1  ->  stained ==> stain
+  29:    1  ->  the ==> a
+  30:    1  ->  the ==> that
+  31:    1  ->  there ==> their
+  32:    1  ->  told ==> tailed
+  33:    1  ->  towards ==> toward
+  34:    1  ->  two ==> to
+  35:    1  ->  w ==> jmw
+  36:    1  ->  warm ==> and
+  37:    1  ->  were ==> are
+  38:    1  ->  where ==> were
+  39:    1  ->  will ==> would
+  40:    1  ->  yeah ==> young
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  and
+   2:    2  ->  on
+   3:    1  ->  i
+   4:    1  ->  maze
+   5:    1  ->  war
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  against
+   2:    1  ->  and
+   3:    1  ->  j
+   4:    1  ->  m
+   5:    1  ->  near
+   6:    1  ->  palace
+   7:    1  ->  sha
+   8:    1  ->  we
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  always
+   2:    2  ->  of
+   3:    2  ->  onto
+   4:    2  ->  the
+   5:    1  ->  and
+   6:    1  ->  approach
+   7:    1  ->  ashbery
+   8:    1  ->  at
+   9:    1  ->  bills
+  10:    1  ->  days'
+  11:    1  ->  each
+  12:    1  ->  ferrying
+  13:    1  ->  fulsome
+  14:    1  ->  honorary
+  15:    1  ->  in
+  16:    1  ->  into
+  17:    1  ->  is
+  18:    1  ->  its
+  19:    1  ->  lithography
+  20:    1  ->  lived
+  21:    1  ->  mazes
+  22:    1  ->  others'
+  23:    1  ->  painterly
+  24:    1  ->  prowled
+  25:    1  ->  rec
+  26:    1  ->  shadows
+  27:    1  ->  stained
+  28:    1  ->  there
+  29:    1  ->  told
+  30:    1  ->  towards
+  31:    1  ->  two
+  32:    1  ->  w
+  33:    1  ->  warm
+  34:    1  ->  were
+  35:    1  ->  where
+  36:    1  ->  will
+  37:    1  ->  yeah
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    4  ->  to
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  the
+   5:    1  ->  approached
+   6:    1  ->  are
+   7:    1  ->  as
+   8:    1  ->  ashbury
+   9:    1  ->  bill
+  10:    1  ->  days
+  11:    1  ->  faring
+  12:    1  ->  folsom
+  13:    1  ->  honoree
+  14:    1  ->  in
+  15:    1  ->  jmw
+  16:    1  ->  lift
+  17:    1  ->  of
+  18:    1  ->  or
+  19:    1  ->  others
+  20:    1  ->  ours
+  21:    1  ->  painily
+  22:    1  ->  palaces
+  23:    1  ->  plowed
+  24:    1  ->  pythography
+  25:    1  ->  shadow
+  26:    1  ->  stain
+  27:    1  ->  tailed
+  28:    1  ->  that
+  29:    1  ->  their
+  30:    1  ->  toward
+  31:    1  ->  was
+  32:    1  ->  were
+  33:    1  ->  would
+  34:    1  ->  wrecked
+  35:    1  ->  young
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

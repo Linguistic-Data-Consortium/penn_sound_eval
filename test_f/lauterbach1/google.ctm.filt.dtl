@@ -1,0 +1,211 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.4%   (  69)
+
+Percent Correct           =   92.3%   ( 756)
+
+Percent Substitution      =    4.5%   (  37)
+Percent Deletions         =    3.2%   (  26)
+Percent Insertions        =    0.7%   (   6)
+Percent Word Accuracy     =   91.6%
+
+
+Ref. words                =           ( 819)
+Hyp. words                =           ( 799)
+Aligned words             =           ( 825)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  forrest ==> forest
+   2:    1  ->  and ==> in
+   3:    1  ->  appellate ==> let
+   4:    1  ->  bailiwick ==> ballywick
+   5:    1  ->  bleacher ==> bleachers
+   6:    1  ->  dao ==> tao
+   7:    1  ->  deep ==> kneedeep
+   8:    1  ->  doc ==> aprildoct
+   9:    1  ->  dot ==> aprildoct
+  10:    1  ->  draft ==> nondraft
+  11:    1  ->  drafts ==> draft
+  12:    1  ->  edition ==> addition
+  13:    1  ->  ekphrastic ==> ecphrastic
+  14:    1  ->  emmylou ==> lou
+  15:    1  ->  eyed ==> smalleyed
+  16:    1  ->  gander ==> welsh
+  17:    1  ->  get ==> got
+  18:    1  ->  girl ==> boygirl
+  19:    1  ->  glassed ==> glass
+  20:    1  ->  hymns ==> hems
+  21:    1  ->  impostor ==> impassioned
+  22:    1  ->  insignias ==> insignia
+  23:    1  ->  juvenalia ==> juvenilia
+  24:    1  ->  knee ==> fabulous
+  25:    1  ->  memoir's ==> memoirs
+  26:    1  ->  mirror ==> mere
+  27:    1  ->  park's ==> park
+  28:    1  ->  plumed ==> plume
+  29:    1  ->  rah ==> ra
+  30:    1  ->  skies ==> sky
+  31:    1  ->  slovenly ==> this
+  32:    1  ->  small ==> lovely
+  33:    1  ->  stationary ==> stationery
+  34:    1  ->  theatre ==> theater
+  35:    1  ->  wind ==> wing
+  36:    1  ->  with ==> of
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  apple
+   3:    1  ->  emmy
+   4:    1  ->  i
+   5:    1  ->  know
+   6:    1  ->  really
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  april
+   2:    1  ->  and
+   3:    1  ->  boy
+   4:    1  ->  cu
+   5:    1  ->  d
+   6:    1  ->  doc
+   7:    1  ->  dot
+   8:    1  ->  fabulist
+   9:    1  ->  flag
+  10:    1  ->  forrest
+  11:    1  ->  got
+  12:    1  ->  it's
+  13:    1  ->  ke
+  14:    1  ->  l
+  15:    1  ->  like
+  16:    1  ->  m
+  17:    1  ->  non
+  18:    1  ->  oh
+  19:    1  ->  rah
+  20:    1  ->  really
+  21:    1  ->  the
+  22:    1  ->  untitled
+  23:    1  ->  welish
+  24:    1  ->  wr
+  25:    1  ->  yeah
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  forrest
+   2:    1  ->  and
+   3:    1  ->  appellate
+   4:    1  ->  bailiwick
+   5:    1  ->  bleacher
+   6:    1  ->  dao
+   7:    1  ->  deep
+   8:    1  ->  doc
+   9:    1  ->  dot
+  10:    1  ->  draft
+  11:    1  ->  drafts
+  12:    1  ->  edition
+  13:    1  ->  ekphrastic
+  14:    1  ->  emmylou
+  15:    1  ->  eyed
+  16:    1  ->  gander
+  17:    1  ->  get
+  18:    1  ->  girl
+  19:    1  ->  glassed
+  20:    1  ->  hymns
+  21:    1  ->  impostor
+  22:    1  ->  insignias
+  23:    1  ->  juvenalia
+  24:    1  ->  knee
+  25:    1  ->  memoir's
+  26:    1  ->  mirror
+  27:    1  ->  park's
+  28:    1  ->  plumed
+  29:    1  ->  rah
+  30:    1  ->  skies
+  31:    1  ->  slovenly
+  32:    1  ->  small
+  33:    1  ->  stationary
+  34:    1  ->  theatre
+  35:    1  ->  wind
+  36:    1  ->  with
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  aprildoct
+   2:    2  ->  forest
+   3:    1  ->  addition
+   4:    1  ->  ballywick
+   5:    1  ->  bleachers
+   6:    1  ->  boygirl
+   7:    1  ->  draft
+   8:    1  ->  ecphrastic
+   9:    1  ->  fabulous
+  10:    1  ->  glass
+  11:    1  ->  got
+  12:    1  ->  hems
+  13:    1  ->  impassioned
+  14:    1  ->  in
+  15:    1  ->  insignia
+  16:    1  ->  juvenilia
+  17:    1  ->  kneedeep
+  18:    1  ->  let
+  19:    1  ->  lou
+  20:    1  ->  lovely
+  21:    1  ->  memoirs
+  22:    1  ->  mere
+  23:    1  ->  nondraft
+  24:    1  ->  of
+  25:    1  ->  park
+  26:    1  ->  plume
+  27:    1  ->  ra
+  28:    1  ->  sky
+  29:    1  ->  smalleyed
+  30:    1  ->  stationery
+  31:    1  ->  tao
+  32:    1  ->  theater
+  33:    1  ->  this
+  34:    1  ->  welsh
+  35:    1  ->  wing
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

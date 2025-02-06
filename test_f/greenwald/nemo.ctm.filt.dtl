@@ -1,0 +1,159 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.4%   (  49)
+
+Percent Correct           =   95.9%   (1071)
+
+Percent Substitution      =    1.8%   (  20)
+Percent Deletions         =    2.3%   (  26)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   95.6%
+
+
+Ref. words                =           (1117)
+Hyp. words                =           (1094)
+Aligned words             =           (1120)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  and ==> an
+   2:    1  ->  and ==> in
+   3:    1  ->  chance ==> chants
+   4:    1  ->  frond ==> front
+   5:    1  ->  greens ==> green
+   6:    1  ->  halo ==> hazel
+   7:    1  ->  holocausts ==> holocaust
+   8:    1  ->  learn ==> learned
+   9:    1  ->  pebbles ==> pebbled
+  10:    1  ->  seem ==> same
+  11:    1  ->  seltzer ==> consultor
+  12:    1  ->  that ==> there
+  13:    1  ->  the ==> a
+  14:    1  ->  they ==> the
+  15:    1  ->  until ==> till
+  16:    1  ->  up ==> the
+  17:    1  ->  whiff ==> wiff
+  18:    1  ->  whitened ==> whited
+  19:    1  ->  wider ==> whiter
+  20:    1  ->  with ==> upward
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  life
+   2:    1  ->  thing
+   3:    1  ->  way
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  but
+   2:    1  ->  down
+   3:    1  ->  elected
+   4:    1  ->  good
+   5:    1  ->  have
+   6:    1  ->  having
+   7:    1  ->  i
+   8:    1  ->  immediate
+   9:    1  ->  in
+  10:    1  ->  it
+  11:    1  ->  me
+  12:    1  ->  my
+  13:    1  ->  opened
+  14:    1  ->  out
+  15:    1  ->  pat
+  16:    1  ->  remain
+  17:    1  ->  sense
+  18:    1  ->  social
+  19:    1  ->  subdued
+  20:    1  ->  the
+  21:    1  ->  thinking
+  22:    1  ->  this
+  23:    1  ->  tiles
+  24:    1  ->  way
+  25:    1  ->  work
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  and
+   2:    1  ->  chance
+   3:    1  ->  frond
+   4:    1  ->  greens
+   5:    1  ->  halo
+   6:    1  ->  holocausts
+   7:    1  ->  learn
+   8:    1  ->  pebbles
+   9:    1  ->  seem
+  10:    1  ->  seltzer
+  11:    1  ->  that
+  12:    1  ->  the
+  13:    1  ->  they
+  14:    1  ->  until
+  15:    1  ->  up
+  16:    1  ->  whiff
+  17:    1  ->  whitened
+  18:    1  ->  wider
+  19:    1  ->  with
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  an
+   4:    1  ->  chants
+   5:    1  ->  consultor
+   6:    1  ->  front
+   7:    1  ->  green
+   8:    1  ->  hazel
+   9:    1  ->  holocaust
+  10:    1  ->  in
+  11:    1  ->  learned
+  12:    1  ->  pebbled
+  13:    1  ->  same
+  14:    1  ->  there
+  15:    1  ->  till
+  16:    1  ->  upward
+  17:    1  ->  whited
+  18:    1  ->  whiter
+  19:    1  ->  wiff
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

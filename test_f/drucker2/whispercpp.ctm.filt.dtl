@@ -1,0 +1,182 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.7%   (  53)
+
+Percent Correct           =   94.7%   ( 888)
+
+Percent Substitution      =    3.3%   (  31)
+Percent Deletions         =    2.0%   (  19)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   94.3%
+
+
+Ref. words                =           ( 938)
+Hyp. words                =           ( 922)
+Aligned words             =           ( 941)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  back ==> paperback
+   2:    1  ->  bering ==> bearing
+   3:    1  ->  blonde ==> longblood
+   4:    1  ->  branded ==> spreaded
+   5:    1  ->  changed ==> change
+   6:    1  ->  defining ==> selfdefining
+   7:    1  ->  dollar ==> 180
+   8:    1  ->  eighteen ==> eight
+   9:    1  ->  extopian ==> ectopian
+  10:    1  ->  film ==> filmed
+  11:    1  ->  forty ==> oh
+  12:    1  ->  heeled ==> highheeled
+  13:    1  ->  invisible ==> nearinvisible
+  14:    1  ->  kneed ==> knockkneed
+  15:    1  ->  leaving ==> leading
+  16:    1  ->  line ==> on
+  17:    1  ->  love ==> loved
+  18:    1  ->  macadam ==> adam
+  19:    1  ->  made ==> machinemade
+  20:    1  ->  mien ==> amiens
+  21:    1  ->  of ==> on
+  22:    1  ->  petal ==> petals
+  23:    1  ->  self ==> autopoetic
+  24:    1  ->  short ==> chartres
+  25:    1  ->  shoulders ==> shoulder
+  26:    1  ->  sixty ==> oh
+  27:    1  ->  thirty ==> oh
+  28:    1  ->  thirty ==> three
+  29:    1  ->  ton ==> 10ton
+  30:    1  ->  twenty ==> two
+  31:    1  ->  weeks ==> week
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  lie
+   2:    1  ->  mac
+   3:    1  ->  one
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  and
+   2:    2  ->  s
+   3:    1  ->  a
+   4:    1  ->  asphalt
+   5:    1  ->  auto
+   6:    1  ->  eighty
+   7:    1  ->  high
+   8:    1  ->  hundred
+   9:    1  ->  kisch
+  10:    1  ->  knock
+  11:    1  ->  long
+  12:    1  ->  machine
+  13:    1  ->  near
+  14:    1  ->  on
+  15:    1  ->  paper
+  16:    1  ->  poetic
+  17:    1  ->  ten
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  thirty
+   2:    1  ->  back
+   3:    1  ->  bering
+   4:    1  ->  blonde
+   5:    1  ->  branded
+   6:    1  ->  changed
+   7:    1  ->  defining
+   8:    1  ->  dollar
+   9:    1  ->  eighteen
+  10:    1  ->  extopian
+  11:    1  ->  film
+  12:    1  ->  forty
+  13:    1  ->  heeled
+  14:    1  ->  invisible
+  15:    1  ->  kneed
+  16:    1  ->  leaving
+  17:    1  ->  line
+  18:    1  ->  love
+  19:    1  ->  macadam
+  20:    1  ->  made
+  21:    1  ->  mien
+  22:    1  ->  of
+  23:    1  ->  petal
+  24:    1  ->  self
+  25:    1  ->  short
+  26:    1  ->  shoulders
+  27:    1  ->  sixty
+  28:    1  ->  ton
+  29:    1  ->  twenty
+  30:    1  ->  weeks
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  oh
+   2:    2  ->  on
+   3:    1  ->  10ton
+   4:    1  ->  180
+   5:    1  ->  adam
+   6:    1  ->  amiens
+   7:    1  ->  autopoetic
+   8:    1  ->  bearing
+   9:    1  ->  change
+  10:    1  ->  chartres
+  11:    1  ->  ectopian
+  12:    1  ->  eight
+  13:    1  ->  filmed
+  14:    1  ->  highheeled
+  15:    1  ->  knockkneed
+  16:    1  ->  leading
+  17:    1  ->  longblood
+  18:    1  ->  loved
+  19:    1  ->  machinemade
+  20:    1  ->  nearinvisible
+  21:    1  ->  paperback
+  22:    1  ->  petals
+  23:    1  ->  selfdefining
+  24:    1  ->  shoulder
+  25:    1  ->  spreaded
+  26:    1  ->  three
+  27:    1  ->  two
+  28:    1  ->  week
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

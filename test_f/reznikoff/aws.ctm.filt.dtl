@@ -1,0 +1,213 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.4%   (  67)
+
+Percent Correct           =   94.3%   ( 984)
+
+Percent Substitution      =    4.5%   (  47)
+Percent Deletions         =    1.2%   (  13)
+Percent Insertions        =    0.7%   (   7)
+Percent Word Accuracy     =   93.6%
+
+
+Ref. words                =           (1044)
+Hyp. words                =           (1038)
+Aligned words             =           (1051)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    3  ->  feet ==> ft
+   2:    2  ->  ten ==> oh
+   3:    2  ->  twenty ==> oh
+   4:    1  ->  a ==> the
+   5:    1  ->  about ==> pills
+   6:    1  ->  and ==> assist
+   7:    1  ->  are ==> by
+   8:    1  ->  around ==> on
+   9:    1  ->  but ==> may
+  10:    1  ->  deck ==> dock
+  11:    1  ->  dock ==> duck
+  12:    1  ->  dog ==> door
+  13:    1  ->  dope ==> do
+  14:    1  ->  doughnut ==> doughnuts
+  15:    1  ->  eighty ==> oh
+  16:    1  ->  excuse ==> because
+  17:    1  ->  from ==> and
+  18:    1  ->  gained ==> came
+  19:    1  ->  he ==> held
+  20:    1  ->  his ==> was
+  21:    1  ->  hundred ==> oh
+  22:    1  ->  icebox ==> box
+  23:    1  ->  it ==> right
+  24:    1  ->  late ==> agree
+  25:    1  ->  mar ==> marsh
+  26:    1  ->  me ==> you
+  27:    1  ->  minute ==> i
+  28:    1  ->  motorcars ==> cars
+  29:    1  ->  move ==> you
+  30:    1  ->  ninety ==> oh
+  31:    1  ->  not ==> you
+  32:    1  ->  of ==> it
+  33:    1  ->  oh ==> o.
+  34:    1  ->  one ==> when
+  35:    1  ->  stock ==> stuck
+  36:    1  ->  the ==> that
+  37:    1  ->  this ==> to
+  38:    1  ->  thumping ==> bumping
+  39:    1  ->  to ==> the
+  40:    1  ->  wait ==> waiter
+  41:    1  ->  while ==> wild
+  42:    1  ->  will ==> a
+  43:    1  ->  x ==> have
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  he
+   5:    1  ->  ice
+   6:    1  ->  motor
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    1  ->  about
+   3:    1  ->  do
+   4:    1  ->  has
+   5:    1  ->  he
+   6:    1  ->  hills
+   7:    1  ->  i
+   8:    1  ->  or
+   9:    1  ->  that
+  10:    1  ->  that's
+  11:    1  ->  will
+  12:    1  ->  with
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    3  ->  feet
+   2:    2  ->  ten
+   3:    2  ->  twenty
+   4:    1  ->  a
+   5:    1  ->  about
+   6:    1  ->  and
+   7:    1  ->  are
+   8:    1  ->  around
+   9:    1  ->  but
+  10:    1  ->  deck
+  11:    1  ->  dock
+  12:    1  ->  dog
+  13:    1  ->  dope
+  14:    1  ->  doughnut
+  15:    1  ->  eighty
+  16:    1  ->  excuse
+  17:    1  ->  from
+  18:    1  ->  gained
+  19:    1  ->  he
+  20:    1  ->  his
+  21:    1  ->  hundred
+  22:    1  ->  icebox
+  23:    1  ->  it
+  24:    1  ->  late
+  25:    1  ->  mar
+  26:    1  ->  me
+  27:    1  ->  minute
+  28:    1  ->  motorcars
+  29:    1  ->  move
+  30:    1  ->  ninety
+  31:    1  ->  not
+  32:    1  ->  of
+  33:    1  ->  oh
+  34:    1  ->  one
+  35:    1  ->  stock
+  36:    1  ->  the
+  37:    1  ->  this
+  38:    1  ->  thumping
+  39:    1  ->  to
+  40:    1  ->  wait
+  41:    1  ->  while
+  42:    1  ->  will
+  43:    1  ->  x
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    7  ->  oh
+   2:    3  ->  ft
+   3:    3  ->  you
+   4:    2  ->  the
+   5:    1  ->  a
+   6:    1  ->  agree
+   7:    1  ->  and
+   8:    1  ->  assist
+   9:    1  ->  because
+  10:    1  ->  box
+  11:    1  ->  bumping
+  12:    1  ->  by
+  13:    1  ->  came
+  14:    1  ->  cars
+  15:    1  ->  do
+  16:    1  ->  dock
+  17:    1  ->  door
+  18:    1  ->  doughnuts
+  19:    1  ->  duck
+  20:    1  ->  have
+  21:    1  ->  held
+  22:    1  ->  i
+  23:    1  ->  it
+  24:    1  ->  marsh
+  25:    1  ->  may
+  26:    1  ->  o.
+  27:    1  ->  on
+  28:    1  ->  pills
+  29:    1  ->  right
+  30:    1  ->  stuck
+  31:    1  ->  that
+  32:    1  ->  to
+  33:    1  ->  waiter
+  34:    1  ->  was
+  35:    1  ->  when
+  36:    1  ->  wild
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,389 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   17.8%   ( 194)
+
+Percent Correct           =   84.6%   ( 923)
+
+Percent Substitution      =    8.0%   (  87)
+Percent Deletions         =    7.4%   (  81)
+Percent Insertions        =    2.4%   (  26)
+Percent Word Accuracy     =   82.2%
+
+
+Ref. words                =           (1091)
+Hyp. words                =           (1036)
+Aligned words             =           (1117)
+
+CONFUSION PAIRS                  Total                 (87)
+                                 With >=  1 occurrences (87)
+
+   1:    1  ->  a ==> misconduct
+   2:    1  ->  alleged ==> shy
+   3:    1  ->  an ==> and
+   4:    1  ->  and ==> on
+   5:    1  ->  are ==> roll
+   6:    1  ->  away ==> way
+   7:    1  ->  be ==> your
+   8:    1  ->  beam ==> beaten
+   9:    1  ->  bedroom's ==> bedrooms
+  10:    1  ->  bread ==> bred
+  11:    1  ->  car ==> me
+  12:    1  ->  cluster ==> drink
+  13:    1  ->  conscientious ==> because
+  14:    1  ->  delivering ==> hearing
+  15:    1  ->  destroy ==> destroyed
+  16:    1  ->  divine ==> design
+  17:    1  ->  doing's ==> doings
+  18:    1  ->  ever ==> call
+  19:    1  ->  first ==> was
+  20:    1  ->  glenn ==> glen
+  21:    1  ->  having ==> it
+  22:    1  ->  he ==> she
+  23:    1  ->  head ==> heads
+  24:    1  ->  her ==> car
+  25:    1  ->  him ==> them
+  26:    1  ->  ids ==> id's
+  27:    1  ->  in ==> and
+  28:    1  ->  in ==> of
+  29:    1  ->  in ==> the
+  30:    1  ->  it ==> a
+  31:    1  ->  kicker ==> a
+  32:    1  ->  kicker ==> kick
+  33:    1  ->  kiss ==> face
+  34:    1  ->  known ==> permission
+  35:    1  ->  la ==> allay
+  36:    1  ->  lapped ==> were
+  37:    1  ->  lev ==> love
+  38:    1  ->  love ==> visit
+  39:    1  ->  make ==> convention
+  40:    1  ->  man ==> stickman
+  41:    1  ->  many ==> not
+  42:    1  ->  minder ==> her
+  43:    1  ->  of ==> on
+  44:    1  ->  of ==> opportunity
+  45:    1  ->  on ==> their
+  46:    1  ->  opportunistic ==> aimed
+  47:    1  ->  others ==> aligned
+  48:    1  ->  out ==> because
+  49:    1  ->  out ==> you
+  50:    1  ->  papercut ==> cut
+  51:    1  ->  prizes ==> uprises
+  52:    1  ->  rumor ==> rumors
+  53:    1  ->  runnerup ==> runner
+  54:    1  ->  shy ==> status
+  55:    1  ->  sounds ==> hounds
+  56:    1  ->  stained ==> stand
+  57:    1  ->  status ==> because
+  58:    1  ->  stick ==> insist
+  59:    1  ->  straw ==> strong
+  60:    1  ->  the ==> conscience
+  61:    1  ->  the ==> to
+  62:    1  ->  the ==> us
+  63:    1  ->  this ==> there's
+  64:    1  ->  til ==> till
+  65:    1  ->  to ==> too
+  66:    1  ->  turns ==> terms
+  67:    1  ->  us ==> a
+  68:    1  ->  used ==> spoke
+  69:    1  ->  utilities ==> your
+  70:    1  ->  victims ==> items
+  71:    1  ->  viv ==> have
+  72:    1  ->  was ==> is
+  73:    1  ->  width ==> lips
+  74:    1  ->  with ==> what
+  75:    1  ->  wooing ==> moving
+  76:    1  ->  x ==> at
+  77:    1  ->  x ==> drinks
+  78:    1  ->  x ==> finding
+  79:    1  ->  x ==> going
+  80:    1  ->  x ==> items
+  81:    1  ->  x ==> no
+  82:    1  ->  x ==> of
+  83:    1  ->  x ==> psychopolis
+  84:    1  ->  x ==> the
+  85:    1  ->  x ==> up
+  86:    1  ->  x ==> venezia
+  87:    1  ->  x ==> was
+     -------
+        87
+
+
+
+INSERTIONS                       Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  shy
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  blood
+   5:    1  ->  conscience
+   6:    1  ->  corpus
+   7:    1  ->  count
+   8:    1  ->  delivered
+   9:    1  ->  habeas
+  10:    1  ->  is
+  11:    1  ->  it
+  12:    1  ->  just
+  13:    1  ->  kick
+  14:    1  ->  made
+  15:    1  ->  matter
+  16:    1  ->  mind
+  17:    1  ->  no
+  18:    1  ->  out
+  19:    1  ->  paper
+  20:    1  ->  refugees
+  21:    1  ->  stack
+  22:    1  ->  they
+  23:    1  ->  to
+  24:    1  ->  up
+  25:    1  ->  why
+     -------
+        26
+
+
+
+DELETIONS                        Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:   11  ->  x
+   2:    4  ->  and
+   3:    3  ->  of
+   4:    3  ->  to
+   5:    2  ->  are
+   6:    2  ->  i
+   7:    2  ->  it
+   8:    2  ->  just
+   9:    2  ->  mean
+  10:    1  ->  absentia
+  11:    1  ->  at
+  12:    1  ->  b
+  13:    1  ->  back
+  14:    1  ->  beer
+  15:    1  ->  blatant
+  16:    1  ->  conches
+  17:    1  ->  convention
+  18:    1  ->  corpus
+  19:    1  ->  crackle
+  20:    1  ->  deci
+  21:    1  ->  dies
+  22:    1  ->  drinking
+  23:    1  ->  expression
+  24:    1  ->  fine
+  25:    1  ->  first
+  26:    1  ->  from
+  27:    1  ->  habeas
+  28:    1  ->  how
+  29:    1  ->  if
+  30:    1  ->  in
+  31:    1  ->  insists
+  32:    1  ->  long
+  33:    1  ->  me
+  34:    1  ->  misconduct
+  35:    1  ->  more
+  36:    1  ->  much
+  37:    1  ->  obtain
+  38:    1  ->  others
+  39:    1  ->  permission
+  40:    1  ->  pillows
+  41:    1  ->  presence
+  42:    1  ->  refugees
+  43:    1  ->  saw
+  44:    1  ->  scattered
+  45:    1  ->  sea
+  46:    1  ->  sentences
+  47:    1  ->  shy
+  48:    1  ->  so
+  49:    1  ->  sparks
+  50:    1  ->  street
+  51:    1  ->  their
+  52:    1  ->  this
+  53:    1  ->  time
+  54:    1  ->  up
+  55:    1  ->  visit
+  56:    1  ->  what
+  57:    1  ->  what's
+  58:    1  ->  women
+  59:    1  ->  yeah
+     -------
+        81
+
+
+
+SUBSTITUTIONS                    Total                 (69)
+                                 With >=  1 occurrences (69)
+
+   1:   12  ->  x
+   2:    3  ->  in
+   3:    3  ->  the
+   4:    2  ->  kicker
+   5:    2  ->  of
+   6:    2  ->  out
+   7:    1  ->  a
+   8:    1  ->  alleged
+   9:    1  ->  an
+  10:    1  ->  and
+  11:    1  ->  are
+  12:    1  ->  away
+  13:    1  ->  be
+  14:    1  ->  beam
+  15:    1  ->  bedroom's
+  16:    1  ->  bread
+  17:    1  ->  car
+  18:    1  ->  cluster
+  19:    1  ->  conscientious
+  20:    1  ->  delivering
+  21:    1  ->  destroy
+  22:    1  ->  divine
+  23:    1  ->  doing's
+  24:    1  ->  ever
+  25:    1  ->  first
+  26:    1  ->  glenn
+  27:    1  ->  having
+  28:    1  ->  he
+  29:    1  ->  head
+  30:    1  ->  her
+  31:    1  ->  him
+  32:    1  ->  ids
+  33:    1  ->  it
+  34:    1  ->  kiss
+  35:    1  ->  known
+  36:    1  ->  la
+  37:    1  ->  lapped
+  38:    1  ->  lev
+  39:    1  ->  love
+  40:    1  ->  make
+  41:    1  ->  man
+  42:    1  ->  many
+  43:    1  ->  minder
+  44:    1  ->  on
+  45:    1  ->  opportunistic
+  46:    1  ->  others
+  47:    1  ->  papercut
+  48:    1  ->  prizes
+  49:    1  ->  rumor
+  50:    1  ->  runnerup
+  51:    1  ->  shy
+  52:    1  ->  sounds
+  53:    1  ->  stained
+  54:    1  ->  status
+  55:    1  ->  stick
+  56:    1  ->  straw
+  57:    1  ->  this
+  58:    1  ->  til
+  59:    1  ->  to
+  60:    1  ->  turns
+  61:    1  ->  us
+  62:    1  ->  used
+  63:    1  ->  utilities
+  64:    1  ->  victims
+  65:    1  ->  viv
+  66:    1  ->  was
+  67:    1  ->  width
+  68:    1  ->  with
+  69:    1  ->  wooing
+     -------
+        87
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (76)
+                                 With >=  1 occurrences (76)
+
+   1:    3  ->  a
+   2:    3  ->  because
+   3:    2  ->  and
+   4:    2  ->  items
+   5:    2  ->  of
+   6:    2  ->  on
+   7:    2  ->  the
+   8:    2  ->  was
+   9:    2  ->  your
+  10:    1  ->  aimed
+  11:    1  ->  aligned
+  12:    1  ->  allay
+  13:    1  ->  at
+  14:    1  ->  beaten
+  15:    1  ->  bedrooms
+  16:    1  ->  bred
+  17:    1  ->  call
+  18:    1  ->  car
+  19:    1  ->  conscience
+  20:    1  ->  convention
+  21:    1  ->  cut
+  22:    1  ->  design
+  23:    1  ->  destroyed
+  24:    1  ->  doings
+  25:    1  ->  drink
+  26:    1  ->  drinks
+  27:    1  ->  face
+  28:    1  ->  finding
+  29:    1  ->  glen
+  30:    1  ->  going
+  31:    1  ->  have
+  32:    1  ->  heads
+  33:    1  ->  hearing
+  34:    1  ->  her
+  35:    1  ->  hounds
+  36:    1  ->  id's
+  37:    1  ->  insist
+  38:    1  ->  is
+  39:    1  ->  it
+  40:    1  ->  kick
+  41:    1  ->  lips
+  42:    1  ->  love
+  43:    1  ->  me
+  44:    1  ->  misconduct
+  45:    1  ->  moving
+  46:    1  ->  no
+  47:    1  ->  not
+  48:    1  ->  opportunity
+  49:    1  ->  permission
+  50:    1  ->  psychopolis
+  51:    1  ->  roll
+  52:    1  ->  rumors
+  53:    1  ->  runner
+  54:    1  ->  she
+  55:    1  ->  shy
+  56:    1  ->  spoke
+  57:    1  ->  stand
+  58:    1  ->  status
+  59:    1  ->  stickman
+  60:    1  ->  strong
+  61:    1  ->  terms
+  62:    1  ->  their
+  63:    1  ->  them
+  64:    1  ->  there's
+  65:    1  ->  till
+  66:    1  ->  to
+  67:    1  ->  too
+  68:    1  ->  up
+  69:    1  ->  uprises
+  70:    1  ->  us
+  71:    1  ->  venezia
+  72:    1  ->  visit
+  73:    1  ->  way
+  74:    1  ->  were
+  75:    1  ->  what
+  76:    1  ->  you
+     -------
+        87
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

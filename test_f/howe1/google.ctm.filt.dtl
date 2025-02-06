@@ -1,0 +1,155 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.3%   (  34)
+
+Percent Correct           =   96.5%   ( 762)
+
+Percent Substitution      =    3.2%   (  25)
+Percent Deletions         =    0.4%   (   3)
+Percent Insertions        =    0.8%   (   6)
+Percent Word Accuracy     =   95.7%
+
+
+Ref. words                =           ( 790)
+Hyp. words                =           ( 793)
+Aligned words             =           ( 796)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  about ==> out
+   2:    1  ->  aerialist ==> aerial
+   3:    1  ->  an ==> and
+   4:    1  ->  antedate ==> ante
+   5:    1  ->  as ==> languages
+   6:    1  ->  away ==> way
+   7:    1  ->  balloon ==> boom
+   8:    1  ->  drifting ==> lifting
+   9:    1  ->  error ==> era
+  10:    1  ->  eviction ==> fiction
+  11:    1  ->  forty ==> oh
+  12:    1  ->  g ==> jib
+  13:    1  ->  he ==> you
+  14:    1  ->  homebase ==> base
+  15:    1  ->  in ==> and
+  16:    1  ->  kim ==> thikin
+  17:    1  ->  language ==> date
+  18:    1  ->  liftoff ==> off
+  19:    1  ->  napalmed ==> napalm
+  20:    1  ->  slogging ==> slog
+  21:    1  ->  starboat ==> boat
+  22:    1  ->  syvash ==> sivash
+  23:    1  ->  the ==> a
+  24:    1  ->  thi ==> fon
+  25:    1  ->  though ==> through
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  a
+   2:    1  ->  home
+   3:    1  ->  is
+   4:    1  ->  lift
+   5:    1  ->  star
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  as
+   2:    1  ->  phan
+   3:    1  ->  spree
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  about
+   2:    1  ->  aerialist
+   3:    1  ->  an
+   4:    1  ->  antedate
+   5:    1  ->  as
+   6:    1  ->  away
+   7:    1  ->  balloon
+   8:    1  ->  drifting
+   9:    1  ->  error
+  10:    1  ->  eviction
+  11:    1  ->  forty
+  12:    1  ->  g
+  13:    1  ->  he
+  14:    1  ->  homebase
+  15:    1  ->  in
+  16:    1  ->  kim
+  17:    1  ->  language
+  18:    1  ->  liftoff
+  19:    1  ->  napalmed
+  20:    1  ->  slogging
+  21:    1  ->  starboat
+  22:    1  ->  syvash
+  23:    1  ->  the
+  24:    1  ->  thi
+  25:    1  ->  though
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  aerial
+   4:    1  ->  ante
+   5:    1  ->  base
+   6:    1  ->  boat
+   7:    1  ->  boom
+   8:    1  ->  date
+   9:    1  ->  era
+  10:    1  ->  fiction
+  11:    1  ->  fon
+  12:    1  ->  jib
+  13:    1  ->  languages
+  14:    1  ->  lifting
+  15:    1  ->  napalm
+  16:    1  ->  off
+  17:    1  ->  oh
+  18:    1  ->  out
+  19:    1  ->  sivash
+  20:    1  ->  slog
+  21:    1  ->  thikin
+  22:    1  ->  through
+  23:    1  ->  way
+  24:    1  ->  you
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

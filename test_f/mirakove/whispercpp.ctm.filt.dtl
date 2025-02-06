@@ -1,0 +1,189 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.4%   (  51)
+
+Percent Correct           =   94.9%   ( 888)
+
+Percent Substitution      =    3.8%   (  36)
+Percent Deletions         =    1.3%   (  12)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   94.6%
+
+
+Ref. words                =           ( 936)
+Hyp. words                =           ( 927)
+Aligned words             =           ( 939)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  ninety ==> nine
+   2:    2  ->  saint ==> st
+   3:    1  ->  am ==> in
+   4:    1  ->  and ==> in
+   5:    1  ->  arcane ==> arcade
+   6:    1  ->  at ==> that
+   7:    1  ->  bound ==> timebound
+   8:    1  ->  constellation ==> constellations
+   9:    1  ->  craft ==> cropped
+  10:    1  ->  declined ==> clyde
+  11:    1  ->  fall ==> freefall
+  12:    1  ->  four ==> 2004
+  13:    1  ->  i ==> a
+  14:    1  ->  in ==> and
+  15:    1  ->  invents ==> invent
+  16:    1  ->  it ==> market
+  17:    1  ->  jenn ==> jen
+  18:    1  ->  lease ==> paralyses
+  19:    1  ->  leg ==> lake
+  20:    1  ->  like ==> exceedinglike
+  21:    1  ->  oft ==> often
+  22:    1  ->  pirates ==> pirate's
+  23:    1  ->  remains ==> to
+  24:    1  ->  seeing ==> scene
+  25:    1  ->  shelled ==> germane
+  26:    1  ->  then ==> the
+  27:    1  ->  twenty ==> two
+  28:    1  ->  unaware ==> where
+  29:    1  ->  vines ==> lines
+  30:    1  ->  waiting ==> weighting
+  31:    1  ->  walfisch ==> walfish
+  32:    1  ->  want ==> wants
+  33:    1  ->  what ==> when
+  34:    1  ->  yours' ==> yours
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  of
+   2:    1  ->  out
+   3:    1  ->  shells
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  exceeding
+   2:    1  ->  free
+   3:    1  ->  in
+   4:    1  ->  kill
+   5:    1  ->  loves
+   6:    1  ->  mark
+   7:    1  ->  para
+   8:    1  ->  soil
+   9:    1  ->  sorry
+  10:    1  ->  thousand
+  11:    1  ->  time
+  12:    1  ->  two
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  ninety
+   2:    2  ->  saint
+   3:    1  ->  am
+   4:    1  ->  and
+   5:    1  ->  arcane
+   6:    1  ->  at
+   7:    1  ->  bound
+   8:    1  ->  constellation
+   9:    1  ->  craft
+  10:    1  ->  declined
+  11:    1  ->  fall
+  12:    1  ->  four
+  13:    1  ->  i
+  14:    1  ->  in
+  15:    1  ->  invents
+  16:    1  ->  it
+  17:    1  ->  jenn
+  18:    1  ->  lease
+  19:    1  ->  leg
+  20:    1  ->  like
+  21:    1  ->  oft
+  22:    1  ->  pirates
+  23:    1  ->  remains
+  24:    1  ->  seeing
+  25:    1  ->  shelled
+  26:    1  ->  then
+  27:    1  ->  twenty
+  28:    1  ->  unaware
+  29:    1  ->  vines
+  30:    1  ->  waiting
+  31:    1  ->  walfisch
+  32:    1  ->  want
+  33:    1  ->  what
+  34:    1  ->  yours'
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  in
+   2:    2  ->  nine
+   3:    2  ->  st
+   4:    1  ->  2004
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  arcade
+   8:    1  ->  clyde
+   9:    1  ->  constellations
+  10:    1  ->  cropped
+  11:    1  ->  exceedinglike
+  12:    1  ->  freefall
+  13:    1  ->  germane
+  14:    1  ->  invent
+  15:    1  ->  jen
+  16:    1  ->  lake
+  17:    1  ->  lines
+  18:    1  ->  market
+  19:    1  ->  often
+  20:    1  ->  paralyses
+  21:    1  ->  pirate's
+  22:    1  ->  scene
+  23:    1  ->  that
+  24:    1  ->  the
+  25:    1  ->  timebound
+  26:    1  ->  to
+  27:    1  ->  two
+  28:    1  ->  walfish
+  29:    1  ->  wants
+  30:    1  ->  weighting
+  31:    1  ->  when
+  32:    1  ->  where
+  33:    1  ->  yours
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

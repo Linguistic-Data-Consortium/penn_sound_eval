@@ -1,0 +1,191 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.6%   (  54)
+
+Percent Correct           =   94.8%   ( 918)
+
+Percent Substitution      =    3.6%   (  35)
+Percent Deletions         =    1.5%   (  15)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   94.4%
+
+
+Ref. words                =           ( 968)
+Hyp. words                =           ( 957)
+Aligned words             =           ( 972)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  open ==> opened
+   2:    1  ->  airplanes ==> aeroplanes
+   3:    1  ->  angel ==> angel's
+   4:    1  ->  barn ==> in
+   5:    1  ->  car ==> carbar
+   6:    1  ->  cow ==> count
+   7:    1  ->  dons ==> tormidons
+   8:    1  ->  ducks ==> duck
+   9:    1  ->  finger's ==> fingers
+  10:    1  ->  fish ==> goldfish
+  11:    1  ->  flair ==> flare
+  12:    1  ->  full ==> trunkful
+  13:    1  ->  hear ==> here
+  14:    1  ->  in ==> and
+  15:    1  ->  ja ==> ya
+  16:    1  ->  lock ==> ringlock
+  17:    1  ->  mists ==> mist
+  18:    1  ->  needers ==> kneaders
+  19:    1  ->  or ==> o'er
+  20:    1  ->  our ==> are
+  21:    1  ->  peels ==> peals
+  22:    1  ->  plum ==> plumb
+  23:    1  ->  quislings ==> things
+  24:    1  ->  smell ==> smelled
+  25:    1  ->  supposed ==> it
+  26:    1  ->  the ==> a
+  27:    1  ->  there ==> audre
+  28:    1  ->  to ==> of
+  29:    1  ->  to ==> till
+  30:    1  ->  tolds ==> tolls
+  31:    1  ->  tomorrow ==> morrow
+  32:    1  ->  top ==> top's
+  33:    1  ->  unknown ==> known
+  34:    1  ->  up ==> out
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  is
+   2:    1  ->  suppose
+   3:    1  ->  to
+   4:    1  ->  whew
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    3  ->  the
+   2:    1  ->  a
+   3:    1  ->  all
+   4:    1  ->  and
+   5:    1  ->  but
+   6:    1  ->  goal
+   7:    1  ->  it
+   8:    1  ->  matter
+   9:    1  ->  might
+  10:    1  ->  ring
+  11:    1  ->  six
+  12:    1  ->  torma
+  13:    1  ->  trunk
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  open
+   2:    2  ->  to
+   3:    1  ->  airplanes
+   4:    1  ->  angel
+   5:    1  ->  barn
+   6:    1  ->  car
+   7:    1  ->  cow
+   8:    1  ->  dons
+   9:    1  ->  ducks
+  10:    1  ->  finger's
+  11:    1  ->  fish
+  12:    1  ->  flair
+  13:    1  ->  full
+  14:    1  ->  hear
+  15:    1  ->  in
+  16:    1  ->  ja
+  17:    1  ->  lock
+  18:    1  ->  mists
+  19:    1  ->  needers
+  20:    1  ->  or
+  21:    1  ->  our
+  22:    1  ->  peels
+  23:    1  ->  plum
+  24:    1  ->  quislings
+  25:    1  ->  smell
+  26:    1  ->  supposed
+  27:    1  ->  the
+  28:    1  ->  there
+  29:    1  ->  tolds
+  30:    1  ->  tomorrow
+  31:    1  ->  top
+  32:    1  ->  unknown
+  33:    1  ->  up
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  opened
+   2:    1  ->  a
+   3:    1  ->  aeroplanes
+   4:    1  ->  and
+   5:    1  ->  angel's
+   6:    1  ->  are
+   7:    1  ->  audre
+   8:    1  ->  carbar
+   9:    1  ->  count
+  10:    1  ->  duck
+  11:    1  ->  fingers
+  12:    1  ->  flare
+  13:    1  ->  goldfish
+  14:    1  ->  here
+  15:    1  ->  in
+  16:    1  ->  it
+  17:    1  ->  kneaders
+  18:    1  ->  known
+  19:    1  ->  mist
+  20:    1  ->  morrow
+  21:    1  ->  o'er
+  22:    1  ->  of
+  23:    1  ->  out
+  24:    1  ->  peals
+  25:    1  ->  plumb
+  26:    1  ->  ringlock
+  27:    1  ->  smelled
+  28:    1  ->  things
+  29:    1  ->  till
+  30:    1  ->  tolls
+  31:    1  ->  top's
+  32:    1  ->  tormidons
+  33:    1  ->  trunkful
+  34:    1  ->  ya
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

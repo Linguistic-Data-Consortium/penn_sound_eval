@@ -1,0 +1,188 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.3%   (  53)
+
+Percent Correct           =   95.7%   ( 802)
+
+Percent Substitution      =    4.2%   (  35)
+Percent Deletions         =    0.1%   (   1)
+Percent Insertions        =    2.0%   (  17)
+Percent Word Accuracy     =   93.7%
+
+
+Ref. words                =           ( 838)
+Hyp. words                =           ( 854)
+Aligned words             =           ( 855)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  as ==> is
+   2:    1  ->  clenched ==> clinched
+   3:    1  ->  culled ==> called
+   4:    1  ->  disearned ==> discerned
+   5:    1  ->  epc ==> pc
+   6:    1  ->  for ==> or
+   7:    1  ->  incongruence ==> incongruent
+   8:    1  ->  intervenient ==> intervening
+   9:    1  ->  jiggs ==> jigs
+  10:    1  ->  keeping ==> keep
+  11:    1  ->  latticework ==> work
+  12:    1  ->  laze ==> lays
+  13:    1  ->  learn ==> learned
+  14:    1  ->  leftover ==> over
+  15:    1  ->  lo ==> loaf
+  16:    1  ->  lone ==> alone
+  17:    1  ->  m ==> am
+  18:    1  ->  o ==> of
+  19:    1  ->  oaf ==> oath
+  20:    1  ->  orgone ==> oregon
+  21:    1  ->  other's ==> others
+  22:    1  ->  paddle ==> prattle
+  23:    1  ->  passed ==> past
+  24:    1  ->  plac ==> pla
+  25:    1  ->  reencode ==> encode
+  26:    1  ->  seen ==> scene
+  27:    1  ->  shapes ==> shaped
+  28:    1  ->  they ==> that
+  29:    1  ->  twi ==> tw
+  30:    1  ->  x ==> graffito
+  31:    1  ->  x ==> laoma
+  32:    1  ->  x ==> laura
+  33:    1  ->  x ==> me
+  34:    1  ->  x ==> no
+  35:    1  ->  x ==> nuck
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  keep
+   2:    2  ->  two
+   3:    2  ->  what
+   4:    1  ->  an
+   5:    1  ->  clk
+   6:    1  ->  e
+   7:    1  ->  good
+   8:    1  ->  k.
+   9:    1  ->  lattice
+  10:    1  ->  left
+  11:    1  ->  me
+  12:    1  ->  o.
+  13:    1  ->  re
+  14:    1  ->  system
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  c
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    6  ->  x
+   2:    1  ->  as
+   3:    1  ->  clenched
+   4:    1  ->  culled
+   5:    1  ->  disearned
+   6:    1  ->  epc
+   7:    1  ->  for
+   8:    1  ->  incongruence
+   9:    1  ->  intervenient
+  10:    1  ->  jiggs
+  11:    1  ->  keeping
+  12:    1  ->  latticework
+  13:    1  ->  laze
+  14:    1  ->  learn
+  15:    1  ->  leftover
+  16:    1  ->  lo
+  17:    1  ->  lone
+  18:    1  ->  m
+  19:    1  ->  o
+  20:    1  ->  oaf
+  21:    1  ->  orgone
+  22:    1  ->  other's
+  23:    1  ->  paddle
+  24:    1  ->  passed
+  25:    1  ->  plac
+  26:    1  ->  reencode
+  27:    1  ->  seen
+  28:    1  ->  shapes
+  29:    1  ->  they
+  30:    1  ->  twi
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    1  ->  alone
+   2:    1  ->  am
+   3:    1  ->  called
+   4:    1  ->  clinched
+   5:    1  ->  discerned
+   6:    1  ->  encode
+   7:    1  ->  graffito
+   8:    1  ->  incongruent
+   9:    1  ->  intervening
+  10:    1  ->  is
+  11:    1  ->  jigs
+  12:    1  ->  keep
+  13:    1  ->  laoma
+  14:    1  ->  laura
+  15:    1  ->  lays
+  16:    1  ->  learned
+  17:    1  ->  loaf
+  18:    1  ->  me
+  19:    1  ->  no
+  20:    1  ->  nuck
+  21:    1  ->  oath
+  22:    1  ->  of
+  23:    1  ->  or
+  24:    1  ->  oregon
+  25:    1  ->  others
+  26:    1  ->  over
+  27:    1  ->  past
+  28:    1  ->  pc
+  29:    1  ->  pla
+  30:    1  ->  prattle
+  31:    1  ->  scene
+  32:    1  ->  shaped
+  33:    1  ->  that
+  34:    1  ->  tw
+  35:    1  ->  work
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

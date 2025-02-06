@@ -1,0 +1,162 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.3%   (  48)
+
+Percent Correct           =   96.4%   (1064)
+
+Percent Substitution      =    3.0%   (  33)
+Percent Deletions         =    0.6%   (   7)
+Percent Insertions        =    0.7%   (   8)
+Percent Word Accuracy     =   95.7%
+
+
+Ref. words                =           (1104)
+Hyp. words                =           (1105)
+Aligned words             =           (1112)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    4  ->  hennaed ==> hen
+   2:    2  ->  hennaed ==> henned
+   3:    2  ->  or ==> are
+   4:    2  ->  serving ==> selfserving
+   5:    1  ->  amid ==> in
+   6:    1  ->  and ==> in
+   7:    1  ->  and ==> on
+   8:    1  ->  blow ==> blowing
+   9:    1  ->  boy's ==> boys
+  10:    1  ->  cocooned ==> cocoon
+  11:    1  ->  crisscrossed ==> crisscross
+  12:    1  ->  deserts ==> desert
+  13:    1  ->  eyeholes ==> holes
+  14:    1  ->  flippering ==> flickering
+  15:    1  ->  from ==> that's
+  16:    1  ->  happened ==> happen
+  17:    1  ->  hennaed ==> henna
+  18:    1  ->  in ==> and
+  19:    1  ->  is ==> his
+  20:    1  ->  jeering ==> cheering
+  21:    1  ->  plain ==> plane
+  22:    1  ->  ribcage ==> cage
+  23:    1  ->  side ==> outside
+  24:    1  ->  sycophancy ==> offense
+  25:    1  ->  their ==> are
+  26:    1  ->  were ==> are
+  27:    1  ->  with ==> which
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  are
+   3:    1  ->  eye
+   4:    1  ->  have
+   5:    1  ->  rib
+   6:    1  ->  s
+   7:    1  ->  sick
+   8:    1  ->  they
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  self
+   2:    1  ->  a
+   3:    1  ->  out
+   4:    1  ->  to
+   5:    1  ->  w
+   6:    1  ->  who
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    7  ->  hennaed
+   2:    2  ->  and
+   3:    2  ->  or
+   4:    2  ->  serving
+   5:    1  ->  amid
+   6:    1  ->  blow
+   7:    1  ->  boy's
+   8:    1  ->  cocooned
+   9:    1  ->  crisscrossed
+  10:    1  ->  deserts
+  11:    1  ->  eyeholes
+  12:    1  ->  flippering
+  13:    1  ->  from
+  14:    1  ->  happened
+  15:    1  ->  in
+  16:    1  ->  is
+  17:    1  ->  jeering
+  18:    1  ->  plain
+  19:    1  ->  ribcage
+  20:    1  ->  side
+  21:    1  ->  sycophancy
+  22:    1  ->  their
+  23:    1  ->  were
+  24:    1  ->  with
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    4  ->  are
+   2:    4  ->  hen
+   3:    2  ->  henned
+   4:    2  ->  in
+   5:    2  ->  selfserving
+   6:    1  ->  and
+   7:    1  ->  blowing
+   8:    1  ->  boys
+   9:    1  ->  cage
+  10:    1  ->  cheering
+  11:    1  ->  cocoon
+  12:    1  ->  crisscross
+  13:    1  ->  desert
+  14:    1  ->  flickering
+  15:    1  ->  happen
+  16:    1  ->  henna
+  17:    1  ->  his
+  18:    1  ->  holes
+  19:    1  ->  offense
+  20:    1  ->  on
+  21:    1  ->  outside
+  22:    1  ->  plane
+  23:    1  ->  that's
+  24:    1  ->  which
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

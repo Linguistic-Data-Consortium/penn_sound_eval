@@ -1,0 +1,291 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.3%   (  91)
+
+Percent Correct           =   91.1%   ( 889)
+
+Percent Substitution      =    7.7%   (  75)
+Percent Deletions         =    1.2%   (  12)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   90.7%
+
+
+Ref. words                =           ( 976)
+Hyp. words                =           ( 968)
+Aligned words             =           ( 980)
+
+CONFUSION PAIRS                  Total                 (72)
+                                 With >=  1 occurrences (72)
+
+   1:    2  ->  a ==> the
+   2:    2  ->  in ==> and
+   3:    2  ->  the ==> this
+   4:    1  ->  a ==> i
+   5:    1  ->  a ==> of
+   6:    1  ->  abandon ==> abandoned
+   7:    1  ->  an ==> in
+   8:    1  ->  and ==> in
+   9:    1  ->  antimony ==> intime
+  10:    1  ->  armpit's ==> armpits
+  11:    1  ->  as ==> is
+  12:    1  ->  borne ==> born
+  13:    1  ->  cart ==> car
+  14:    1  ->  charmed ==> charm
+  15:    1  ->  clairvoyant ==> the
+  16:    1  ->  confidences ==> is
+  17:    1  ->  craft ==> cleft
+  18:    1  ->  dew ==> do
+  19:    1  ->  dot ==> adopt
+  20:    1  ->  doubts ==> down
+  21:    1  ->  filled ==> filmed
+  22:    1  ->  fist ==> fifth
+  23:    1  ->  forbes' ==> forbes
+  24:    1  ->  gnat ==> nat
+  25:    1  ->  had ==> how
+  26:    1  ->  head ==> had
+  27:    1  ->  hell ==> hill
+  28:    1  ->  her ==> incoming
+  29:    1  ->  i ==> and
+  30:    1  ->  is ==> with
+  31:    1  ->  it ==> and
+  32:    1  ->  it ==> that
+  33:    1  ->  its ==> it's
+  34:    1  ->  man ==> and
+  35:    1  ->  modernism ==> postmodernism
+  36:    1  ->  night ==> knight
+  37:    1  ->  nor ==> no
+  38:    1  ->  now ==> how
+  39:    1  ->  of ==> and
+  40:    1  ->  of ==> into
+  41:    1  ->  our ==> or
+  42:    1  ->  phones ==> falls
+  43:    1  ->  place ==> displace
+  44:    1  ->  pronouns ==> pronounce
+  45:    1  ->  prophesize ==> prophesized
+  46:    1  ->  purpled ==> purple
+  47:    1  ->  rider ==> writer
+  48:    1  ->  righted ==> write
+  49:    1  ->  rigor ==> river
+  50:    1  ->  said ==> says
+  51:    1  ->  scalp ==> gap
+  52:    1  ->  scum ==> gun
+  53:    1  ->  see ==> helens
+  54:    1  ->  segue ==> subway
+  55:    1  ->  senses ==> sentences
+  56:    1  ->  shout ==> short
+  57:    1  ->  slow ==> low
+  58:    1  ->  so ==> some
+  59:    1  ->  soo ==> sue
+  60:    1  ->  spill ==> bill
+  61:    1  ->  strong ==> ten
+  62:    1  ->  sudden ==> also
+  63:    1  ->  tawny ==> tony
+  64:    1  ->  that ==> it
+  65:    1  ->  the ==> tthe
+  66:    1  ->  through ==> to
+  67:    1  ->  tinder ==> tender
+  68:    1  ->  trustville ==> trussville
+  69:    1  ->  weiner ==> line
+  70:    1  ->  were ==> are
+  71:    1  ->  why ==> what
+  72:    1  ->  woman ==> women
+     -------
+        75
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  at
+   2:    1  ->  boy
+   3:    1  ->  clara
+   4:    1  ->  confidence
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  a
+   2:    1  ->  all
+   3:    1  ->  end
+   4:    1  ->  helene
+   5:    1  ->  him
+   6:    1  ->  increments
+   7:    1  ->  post
+   8:    1  ->  s
+   9:    1  ->  the
+  10:    1  ->  this
+  11:    1  ->  who
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (67)
+                                 With >=  1 occurrences (67)
+
+   1:    4  ->  a
+   2:    3  ->  the
+   3:    2  ->  in
+   4:    2  ->  it
+   5:    2  ->  of
+   6:    1  ->  abandon
+   7:    1  ->  an
+   8:    1  ->  and
+   9:    1  ->  antimony
+  10:    1  ->  armpit's
+  11:    1  ->  as
+  12:    1  ->  borne
+  13:    1  ->  cart
+  14:    1  ->  charmed
+  15:    1  ->  clairvoyant
+  16:    1  ->  confidences
+  17:    1  ->  craft
+  18:    1  ->  dew
+  19:    1  ->  dot
+  20:    1  ->  doubts
+  21:    1  ->  filled
+  22:    1  ->  fist
+  23:    1  ->  forbes'
+  24:    1  ->  gnat
+  25:    1  ->  had
+  26:    1  ->  head
+  27:    1  ->  hell
+  28:    1  ->  her
+  29:    1  ->  i
+  30:    1  ->  is
+  31:    1  ->  its
+  32:    1  ->  man
+  33:    1  ->  modernism
+  34:    1  ->  night
+  35:    1  ->  nor
+  36:    1  ->  now
+  37:    1  ->  our
+  38:    1  ->  phones
+  39:    1  ->  place
+  40:    1  ->  pronouns
+  41:    1  ->  prophesize
+  42:    1  ->  purpled
+  43:    1  ->  rider
+  44:    1  ->  righted
+  45:    1  ->  rigor
+  46:    1  ->  said
+  47:    1  ->  scalp
+  48:    1  ->  scum
+  49:    1  ->  see
+  50:    1  ->  segue
+  51:    1  ->  senses
+  52:    1  ->  shout
+  53:    1  ->  slow
+  54:    1  ->  so
+  55:    1  ->  soo
+  56:    1  ->  spill
+  57:    1  ->  strong
+  58:    1  ->  sudden
+  59:    1  ->  tawny
+  60:    1  ->  that
+  61:    1  ->  through
+  62:    1  ->  tinder
+  63:    1  ->  trustville
+  64:    1  ->  weiner
+  65:    1  ->  were
+  66:    1  ->  why
+  67:    1  ->  woman
+     -------
+        75
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:    6  ->  and
+   2:    3  ->  the
+   3:    2  ->  how
+   4:    2  ->  in
+   5:    2  ->  is
+   6:    2  ->  this
+   7:    1  ->  abandoned
+   8:    1  ->  adopt
+   9:    1  ->  also
+  10:    1  ->  are
+  11:    1  ->  armpits
+  12:    1  ->  bill
+  13:    1  ->  born
+  14:    1  ->  car
+  15:    1  ->  charm
+  16:    1  ->  cleft
+  17:    1  ->  displace
+  18:    1  ->  do
+  19:    1  ->  down
+  20:    1  ->  falls
+  21:    1  ->  fifth
+  22:    1  ->  filmed
+  23:    1  ->  forbes
+  24:    1  ->  gap
+  25:    1  ->  gun
+  26:    1  ->  had
+  27:    1  ->  helens
+  28:    1  ->  hill
+  29:    1  ->  i
+  30:    1  ->  incoming
+  31:    1  ->  intime
+  32:    1  ->  into
+  33:    1  ->  it
+  34:    1  ->  it's
+  35:    1  ->  knight
+  36:    1  ->  line
+  37:    1  ->  low
+  38:    1  ->  nat
+  39:    1  ->  no
+  40:    1  ->  of
+  41:    1  ->  or
+  42:    1  ->  postmodernism
+  43:    1  ->  pronounce
+  44:    1  ->  prophesized
+  45:    1  ->  purple
+  46:    1  ->  river
+  47:    1  ->  says
+  48:    1  ->  sentences
+  49:    1  ->  short
+  50:    1  ->  some
+  51:    1  ->  subway
+  52:    1  ->  sue
+  53:    1  ->  ten
+  54:    1  ->  tender
+  55:    1  ->  that
+  56:    1  ->  to
+  57:    1  ->  tony
+  58:    1  ->  trussville
+  59:    1  ->  tthe
+  60:    1  ->  what
+  61:    1  ->  with
+  62:    1  ->  women
+  63:    1  ->  write
+  64:    1  ->  writer
+     -------
+        75
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

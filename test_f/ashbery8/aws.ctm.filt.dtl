@@ -1,0 +1,195 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.5%   (  51)
+
+Percent Correct           =   96.2%   (1095)
+
+Percent Substitution      =    3.4%   (  39)
+Percent Deletions         =    0.4%   (   4)
+Percent Insertions        =    0.7%   (   8)
+Percent Word Accuracy     =   95.5%
+
+
+Ref. words                =           (1138)
+Hyp. words                =           (1142)
+Aligned words             =           (1146)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  a ==> is
+   2:    1  ->  a ==> the
+   3:    1  ->  canons ==> cannons
+   4:    1  ->  days ==> is
+   5:    1  ->  forever ==> ever
+   6:    1  ->  fours ==> four
+   7:    1  ->  francks' ==> franck
+   8:    1  ->  get ==> going
+   9:    1  ->  gnossienne ==> gian
+  10:    1  ->  has ==> is
+  11:    1  ->  hydrangea ==> hydran
+  12:    1  ->  i'v ==> have
+  13:    1  ->  immigrated ==> emigrated
+  14:    1  ->  into ==> a
+  15:    1  ->  into ==> the
+  16:    1  ->  it's ==> its
+  17:    1  ->  jicky ==> jikki
+  18:    1  ->  le ==> with
+  19:    1  ->  let ==> sane
+  20:    1  ->  muddled ==> muddle
+  21:    1  ->  nineteenth ==> 119
+  22:    1  ->  occurence ==> occurrence
+  23:    1  ->  pachelbel ==> bell
+  24:    1  ->  passed ==> past
+  25:    1  ->  plus ==> place
+  26:    1  ->  reason's ==> reasons
+  27:    1  ->  refused ==> refuse
+  28:    1  ->  scheherazade ==> shahrazad
+  29:    1  ->  soir ==> soar
+  30:    1  ->  story ==> stories
+  31:    1  ->  survive ==> survived
+  32:    1  ->  that ==> the
+  33:    1  ->  today ==> i
+  34:    1  ->  transformed ==> transform
+  35:    1  ->  us ==> what's
+  36:    1  ->  ways ==> way
+  37:    1  ->  white ==> light
+  38:    1  ->  with ==> was
+  39:    1  ->  x ==> perre
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  day
+   2:    1  ->  and
+   3:    1  ->  for
+   4:    1  ->  in
+   5:    1  ->  taco
+   6:    1  ->  to
+   7:    1  ->  what
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  s
+   3:    1  ->  same
+   4:    1  ->  the
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  a
+   2:    2  ->  into
+   3:    1  ->  canons
+   4:    1  ->  days
+   5:    1  ->  forever
+   6:    1  ->  fours
+   7:    1  ->  francks'
+   8:    1  ->  get
+   9:    1  ->  gnossienne
+  10:    1  ->  has
+  11:    1  ->  hydrangea
+  12:    1  ->  i'v
+  13:    1  ->  immigrated
+  14:    1  ->  it's
+  15:    1  ->  jicky
+  16:    1  ->  le
+  17:    1  ->  let
+  18:    1  ->  muddled
+  19:    1  ->  nineteenth
+  20:    1  ->  occurence
+  21:    1  ->  pachelbel
+  22:    1  ->  passed
+  23:    1  ->  plus
+  24:    1  ->  reason's
+  25:    1  ->  refused
+  26:    1  ->  scheherazade
+  27:    1  ->  soir
+  28:    1  ->  story
+  29:    1  ->  survive
+  30:    1  ->  that
+  31:    1  ->  today
+  32:    1  ->  transformed
+  33:    1  ->  us
+  34:    1  ->  ways
+  35:    1  ->  white
+  36:    1  ->  with
+  37:    1  ->  x
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  is
+   2:    3  ->  the
+   3:    1  ->  119
+   4:    1  ->  a
+   5:    1  ->  bell
+   6:    1  ->  cannons
+   7:    1  ->  emigrated
+   8:    1  ->  ever
+   9:    1  ->  four
+  10:    1  ->  franck
+  11:    1  ->  gian
+  12:    1  ->  going
+  13:    1  ->  have
+  14:    1  ->  hydran
+  15:    1  ->  i
+  16:    1  ->  its
+  17:    1  ->  jikki
+  18:    1  ->  light
+  19:    1  ->  muddle
+  20:    1  ->  occurrence
+  21:    1  ->  past
+  22:    1  ->  perre
+  23:    1  ->  place
+  24:    1  ->  reasons
+  25:    1  ->  refuse
+  26:    1  ->  sane
+  27:    1  ->  shahrazad
+  28:    1  ->  soar
+  29:    1  ->  stories
+  30:    1  ->  survived
+  31:    1  ->  transform
+  32:    1  ->  was
+  33:    1  ->  way
+  34:    1  ->  what's
+  35:    1  ->  with
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

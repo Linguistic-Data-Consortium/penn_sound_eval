@@ -1,0 +1,218 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.6%   (  64)
+
+Percent Correct           =   94.0%   ( 911)
+
+Percent Substitution      =    5.3%   (  51)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   93.4%
+
+
+Ref. words                =           ( 969)
+Hyp. words                =           ( 968)
+Aligned words             =           ( 975)
+
+CONFUSION PAIRS                  Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    3  ->  in ==> and
+   2:    2  ->  a ==> of
+   3:    2  ->  open ==> opened
+   4:    2  ->  to ==> of
+   5:    1  ->  always ==> is
+   6:    1  ->  and ==> in
+   7:    1  ->  at ==> but
+   8:    1  ->  at ==> of
+   9:    1  ->  barn ==> in
+  10:    1  ->  carved ==> curved
+  11:    1  ->  dew ==> do
+  12:    1  ->  dons ==> tomadas
+  13:    1  ->  en ==> mass
+  14:    1  ->  finger's ==> fingers
+  15:    1  ->  fish ==> goldfish
+  16:    1  ->  flair ==> flare
+  17:    1  ->  four ==> for
+  18:    1  ->  gown ==> down
+  19:    1  ->  hear ==> here
+  20:    1  ->  his ==> has
+  21:    1  ->  its ==> it's
+  22:    1  ->  ja ==> ya
+  23:    1  ->  masse ==> oh
+  24:    1  ->  mists ==> miss
+  25:    1  ->  needers ==> leaders
+  26:    1  ->  obliquer ==> oblique
+  27:    1  ->  old ==> al
+  28:    1  ->  or ==> so
+  29:    1  ->  our ==> are
+  30:    1  ->  pastures ==> pastors
+  31:    1  ->  pate ==> pat
+  32:    1  ->  plane ==> plan
+  33:    1  ->  pumpable ==> able
+  34:    1  ->  quislings ==> quizzing
+  35:    1  ->  scent ==> sent
+  36:    1  ->  supposed ==> it
+  37:    1  ->  the ==> a
+  38:    1  ->  the ==> that
+  39:    1  ->  then ==> none
+  40:    1  ->  tolds ==> told
+  41:    1  ->  unknown ==> known
+  42:    1  ->  wake ==> wait
+  43:    1  ->  were ==> or
+  44:    1  ->  wheat ==> weed
+  45:    1  ->  woman ==> women
+  46:    1  ->  worlds ==> world's
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  bar
+   2:    1  ->  of
+   3:    1  ->  on
+   4:    1  ->  pump
+   5:    1  ->  suppose
+   6:    1  ->  the
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  it
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  goal
+   5:    1  ->  the
+   6:    1  ->  torma
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    3  ->  in
+   2:    2  ->  a
+   3:    2  ->  at
+   4:    2  ->  open
+   5:    2  ->  the
+   6:    2  ->  to
+   7:    1  ->  always
+   8:    1  ->  and
+   9:    1  ->  barn
+  10:    1  ->  carved
+  11:    1  ->  dew
+  12:    1  ->  dons
+  13:    1  ->  en
+  14:    1  ->  finger's
+  15:    1  ->  fish
+  16:    1  ->  flair
+  17:    1  ->  four
+  18:    1  ->  gown
+  19:    1  ->  hear
+  20:    1  ->  his
+  21:    1  ->  its
+  22:    1  ->  ja
+  23:    1  ->  masse
+  24:    1  ->  mists
+  25:    1  ->  needers
+  26:    1  ->  obliquer
+  27:    1  ->  old
+  28:    1  ->  or
+  29:    1  ->  our
+  30:    1  ->  pastures
+  31:    1  ->  pate
+  32:    1  ->  plane
+  33:    1  ->  pumpable
+  34:    1  ->  quislings
+  35:    1  ->  scent
+  36:    1  ->  supposed
+  37:    1  ->  then
+  38:    1  ->  tolds
+  39:    1  ->  unknown
+  40:    1  ->  wake
+  41:    1  ->  were
+  42:    1  ->  wheat
+  43:    1  ->  woman
+  44:    1  ->  worlds
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    5  ->  of
+   2:    3  ->  and
+   3:    2  ->  in
+   4:    2  ->  opened
+   5:    1  ->  a
+   6:    1  ->  able
+   7:    1  ->  al
+   8:    1  ->  are
+   9:    1  ->  but
+  10:    1  ->  curved
+  11:    1  ->  do
+  12:    1  ->  down
+  13:    1  ->  fingers
+  14:    1  ->  flare
+  15:    1  ->  for
+  16:    1  ->  goldfish
+  17:    1  ->  has
+  18:    1  ->  here
+  19:    1  ->  is
+  20:    1  ->  it
+  21:    1  ->  it's
+  22:    1  ->  known
+  23:    1  ->  leaders
+  24:    1  ->  mass
+  25:    1  ->  miss
+  26:    1  ->  none
+  27:    1  ->  oblique
+  28:    1  ->  oh
+  29:    1  ->  or
+  30:    1  ->  pastors
+  31:    1  ->  pat
+  32:    1  ->  plan
+  33:    1  ->  quizzing
+  34:    1  ->  sent
+  35:    1  ->  so
+  36:    1  ->  that
+  37:    1  ->  told
+  38:    1  ->  tomadas
+  39:    1  ->  wait
+  40:    1  ->  weed
+  41:    1  ->  women
+  42:    1  ->  world's
+  43:    1  ->  ya
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

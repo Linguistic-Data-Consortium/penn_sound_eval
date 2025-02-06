@@ -1,0 +1,181 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.7%   (  55)
+
+Percent Correct           =   96.0%   ( 927)
+
+Percent Substitution      =    3.2%   (  31)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    1.7%   (  16)
+Percent Word Accuracy     =   94.3%
+
+
+Ref. words                =           ( 966)
+Hyp. words                =           ( 974)
+Aligned words             =           ( 982)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  it's ==> its
+   2:    1  ->  anguished ==> anguish
+   3:    1  ->  audibly ==> inaudibly
+   4:    1  ->  blank's ==> blanks
+   5:    1  ->  coda ==> code
+   6:    1  ->  colt ==> co
+   7:    1  ->  cum ==> come
+   8:    1  ->  day ==> landy
+   9:    1  ->  ginsberg ==> ginsburg
+  10:    1  ->  given ==> its
+  11:    1  ->  in ==> are
+  12:    1  ->  in ==> the
+  13:    1  ->  is ==> poetries
+  14:    1  ->  longawaited ==> awaited
+  15:    1  ->  mind ==> mine
+  16:    1  ->  mosquitos ==> mosquitoes
+  17:    1  ->  or ==> if
+  18:    1  ->  paterson ==> patterson
+  19:    1  ->  poem ==> pro
+  20:    1  ->  ripoff ==> and
+  21:    1  ->  stomachaches ==> eggs
+  22:    1  ->  suite ==> sweet
+  23:    1  ->  surprised ==> surprise
+  24:    1  ->  tout ==> too
+  25:    1  ->  very ==> finished
+  26:    1  ->  were ==> give
+  27:    1  ->  x ==> i
+  28:    1  ->  x ==> minute
+  29:    1  ->  x ==> move
+  30:    1  ->  x ==> winnie
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  yeah
+   2:    1  ->  a
+   3:    1  ->  almost
+   4:    1  ->  can
+   5:    1  ->  do
+   6:    1  ->  go
+   7:    1  ->  i
+   8:    1  ->  just
+   9:    1  ->  long
+  10:    1  ->  off
+  11:    1  ->  perfect
+  12:    1  ->  rip
+  13:    1  ->  six
+  14:    1  ->  stomach
+  15:    1  ->  will
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  day
+   3:    1  ->  land
+   4:    1  ->  not
+   5:    1  ->  on
+   6:    1  ->  out
+   7:    1  ->  poetry
+   8:    1  ->  x
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    4  ->  x
+   2:    2  ->  in
+   3:    2  ->  it's
+   4:    1  ->  anguished
+   5:    1  ->  audibly
+   6:    1  ->  blank's
+   7:    1  ->  coda
+   8:    1  ->  colt
+   9:    1  ->  cum
+  10:    1  ->  day
+  11:    1  ->  ginsberg
+  12:    1  ->  given
+  13:    1  ->  is
+  14:    1  ->  longawaited
+  15:    1  ->  mind
+  16:    1  ->  mosquitos
+  17:    1  ->  or
+  18:    1  ->  paterson
+  19:    1  ->  poem
+  20:    1  ->  ripoff
+  21:    1  ->  stomachaches
+  22:    1  ->  suite
+  23:    1  ->  surprised
+  24:    1  ->  tout
+  25:    1  ->  very
+  26:    1  ->  were
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  its
+   2:    1  ->  and
+   3:    1  ->  anguish
+   4:    1  ->  are
+   5:    1  ->  awaited
+   6:    1  ->  blanks
+   7:    1  ->  co
+   8:    1  ->  code
+   9:    1  ->  come
+  10:    1  ->  eggs
+  11:    1  ->  finished
+  12:    1  ->  ginsburg
+  13:    1  ->  give
+  14:    1  ->  i
+  15:    1  ->  if
+  16:    1  ->  inaudibly
+  17:    1  ->  landy
+  18:    1  ->  mine
+  19:    1  ->  minute
+  20:    1  ->  mosquitoes
+  21:    1  ->  move
+  22:    1  ->  patterson
+  23:    1  ->  poetries
+  24:    1  ->  pro
+  25:    1  ->  surprise
+  26:    1  ->  sweet
+  27:    1  ->  the
+  28:    1  ->  too
+  29:    1  ->  winnie
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

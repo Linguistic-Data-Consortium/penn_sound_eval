@@ -1,0 +1,186 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.6%   (  45)
+
+Percent Correct           =   95.7%   ( 926)
+
+Percent Substitution      =    3.8%   (  37)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   95.4%
+
+
+Ref. words                =           ( 968)
+Hyp. words                =           ( 966)
+Aligned words             =           ( 971)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  open ==> opened
+   2:    1  ->  a ==> of
+   3:    1  ->  am ==> iron
+   4:    1  ->  at ==> that
+   5:    1  ->  barn ==> in
+   6:    1  ->  calabash ==> calaba
+   7:    1  ->  car ==> carbar
+   8:    1  ->  dew ==> do
+   9:    1  ->  dons ==> dots
+  10:    1  ->  eleven ==> one
+  11:    1  ->  en ==> on
+  12:    1  ->  find ==> defined
+  13:    1  ->  finger's ==> fingers
+  14:    1  ->  fish ==> goldfish
+  15:    1  ->  flair ==> flare
+  16:    1  ->  in ==> an
+  17:    1  ->  in ==> and
+  18:    1  ->  ja ==> ya
+  19:    1  ->  lug ==> luged
+  20:    1  ->  masse ==> moss
+  21:    1  ->  mists ==> mist
+  22:    1  ->  monk ==> mon
+  23:    1  ->  obliquer ==> oblique
+  24:    1  ->  our ==> are
+  25:    1  ->  pate ==> paint
+  26:    1  ->  quislings ==> links
+  27:    1  ->  smiled ==> smile
+  28:    1  ->  splay ==> display
+  29:    1  ->  the ==> that
+  30:    1  ->  there's ==> as
+  31:    1  ->  to ==> of
+  32:    1  ->  tolds ==> told
+  33:    1  ->  top ==> tops
+  34:    1  ->  torma ==> toad
+  35:    1  ->  unknown ==> known
+  36:    1  ->  would ==> wood
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  one
+   2:    1  ->  quiz
+   3:    1  ->  the
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  goal
+   2:    1  ->  i
+   3:    1  ->  it
+   4:    1  ->  the
+   5:    1  ->  to
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  in
+   2:    2  ->  open
+   3:    1  ->  a
+   4:    1  ->  am
+   5:    1  ->  at
+   6:    1  ->  barn
+   7:    1  ->  calabash
+   8:    1  ->  car
+   9:    1  ->  dew
+  10:    1  ->  dons
+  11:    1  ->  eleven
+  12:    1  ->  en
+  13:    1  ->  find
+  14:    1  ->  finger's
+  15:    1  ->  fish
+  16:    1  ->  flair
+  17:    1  ->  ja
+  18:    1  ->  lug
+  19:    1  ->  masse
+  20:    1  ->  mists
+  21:    1  ->  monk
+  22:    1  ->  obliquer
+  23:    1  ->  our
+  24:    1  ->  pate
+  25:    1  ->  quislings
+  26:    1  ->  smiled
+  27:    1  ->  splay
+  28:    1  ->  the
+  29:    1  ->  there's
+  30:    1  ->  to
+  31:    1  ->  tolds
+  32:    1  ->  top
+  33:    1  ->  torma
+  34:    1  ->  unknown
+  35:    1  ->  would
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  of
+   2:    2  ->  opened
+   3:    2  ->  that
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  are
+   7:    1  ->  as
+   8:    1  ->  calaba
+   9:    1  ->  carbar
+  10:    1  ->  defined
+  11:    1  ->  display
+  12:    1  ->  do
+  13:    1  ->  dots
+  14:    1  ->  fingers
+  15:    1  ->  flare
+  16:    1  ->  goldfish
+  17:    1  ->  in
+  18:    1  ->  iron
+  19:    1  ->  known
+  20:    1  ->  links
+  21:    1  ->  luged
+  22:    1  ->  mist
+  23:    1  ->  mon
+  24:    1  ->  moss
+  25:    1  ->  oblique
+  26:    1  ->  on
+  27:    1  ->  one
+  28:    1  ->  paint
+  29:    1  ->  smile
+  30:    1  ->  toad
+  31:    1  ->  told
+  32:    1  ->  tops
+  33:    1  ->  wood
+  34:    1  ->  ya
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

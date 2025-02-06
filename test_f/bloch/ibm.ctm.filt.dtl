@@ -1,0 +1,177 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.5%   (  48)
+
+Percent Correct           =   96.4%   (1038)
+
+Percent Substitution      =    3.2%   (  35)
+Percent Deletions         =    0.4%   (   4)
+Percent Insertions        =    0.8%   (   9)
+Percent Word Accuracy     =   95.5%
+
+
+Ref. words                =           (1077)
+Hyp. words                =           (1082)
+Aligned words             =           (1086)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  a ==> of
+   2:    2  ->  there ==> their
+   3:    2  ->  tshirt ==> shirt
+   4:    1  ->  a ==> asha
+   5:    1  ->  a ==> la
+   6:    1  ->  allison ==> also
+   7:    1  ->  as ==> is
+   8:    1  ->  dear ==> near
+   9:    1  ->  erased ==> race
+  10:    1  ->  etiological ==> ideological
+  11:    1  ->  foyer ==> four
+  12:    1  ->  grey ==> gray
+  13:    1  ->  into ==> to
+  14:    1  ->  kay ==> k
+  15:    1  ->  legs ==> leg
+  16:    1  ->  me ==> we
+  17:    1  ->  molded ==> moulded
+  18:    1  ->  myles ==> miles
+  19:    1  ->  next ==> now
+  20:    1  ->  pass ==> past
+  21:    1  ->  poem ==> home
+  22:    1  ->  poems ==> palms
+  23:    1  ->  schuylkill ==> kill
+  24:    1  ->  shaken ==> can
+  25:    1  ->  sighted ==> cited
+  26:    1  ->  sonnet ==> at
+  27:    1  ->  sonnet ==> sonic
+  28:    1  ->  th ==> that
+  29:    1  ->  to ==> two
+  30:    1  ->  was ==> am
+  31:    1  ->  x ==> layout
+  32:    1  ->  x ==> roman
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  t
+   2:    1  ->  a
+   3:    1  ->  i
+   4:    1  ->  in
+   5:    1  ->  or
+   6:    1  ->  school
+   7:    1  ->  son
+   8:    1  ->  then
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  devo
+   2:    1  ->  l
+   3:    1  ->  s
+   4:    1  ->  sh
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    4  ->  a
+   2:    2  ->  sonnet
+   3:    2  ->  there
+   4:    2  ->  tshirt
+   5:    2  ->  x
+   6:    1  ->  allison
+   7:    1  ->  as
+   8:    1  ->  dear
+   9:    1  ->  erased
+  10:    1  ->  etiological
+  11:    1  ->  foyer
+  12:    1  ->  grey
+  13:    1  ->  into
+  14:    1  ->  kay
+  15:    1  ->  legs
+  16:    1  ->  me
+  17:    1  ->  molded
+  18:    1  ->  myles
+  19:    1  ->  next
+  20:    1  ->  pass
+  21:    1  ->  poem
+  22:    1  ->  poems
+  23:    1  ->  schuylkill
+  24:    1  ->  shaken
+  25:    1  ->  sighted
+  26:    1  ->  th
+  27:    1  ->  to
+  28:    1  ->  was
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  of
+   2:    2  ->  shirt
+   3:    2  ->  their
+   4:    1  ->  also
+   5:    1  ->  am
+   6:    1  ->  asha
+   7:    1  ->  at
+   8:    1  ->  can
+   9:    1  ->  cited
+  10:    1  ->  four
+  11:    1  ->  gray
+  12:    1  ->  home
+  13:    1  ->  ideological
+  14:    1  ->  is
+  15:    1  ->  k
+  16:    1  ->  kill
+  17:    1  ->  la
+  18:    1  ->  layout
+  19:    1  ->  leg
+  20:    1  ->  miles
+  21:    1  ->  moulded
+  22:    1  ->  near
+  23:    1  ->  now
+  24:    1  ->  palms
+  25:    1  ->  past
+  26:    1  ->  race
+  27:    1  ->  roman
+  28:    1  ->  sonic
+  29:    1  ->  that
+  30:    1  ->  to
+  31:    1  ->  two
+  32:    1  ->  we
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

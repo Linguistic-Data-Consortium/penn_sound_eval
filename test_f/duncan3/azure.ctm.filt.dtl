@@ -1,0 +1,561 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   28.2%   ( 431)
+
+Percent Correct           =   75.7%   (1158)
+
+Percent Substitution      =   11.3%   ( 173)
+Percent Deletions         =   13.0%   ( 199)
+Percent Insertions        =    3.9%   (  59)
+Percent Word Accuracy     =   71.8%
+
+
+Ref. words                =           (1530)
+Hyp. words                =           (1390)
+Aligned words             =           (1589)
+
+CONFUSION PAIRS                  Total                 (154)
+                                 With >=  1 occurrences (154)
+
+   1:    4  ->  in ==> and
+   2:    4  ->  is ==> 's
+   3:    4  ->  x ==> in
+   4:    2  ->  and ==> when
+   5:    2  ->  not ==> no
+   6:    2  ->  presocratics ==> socratics
+   7:    2  ->  she ==> he
+   8:    2  ->  she ==> you
+   9:    2  ->  x ==> 's
+  10:    2  ->  x ==> and
+  11:    2  ->  x ==> current
+  12:    2  ->  x ==> ponte
+  13:    2  ->  x ==> we
+  14:    1  ->  %bcack ==> condition
+  15:    1  ->  %bcack ==> mmhmm
+  16:    1  ->  %bcack ==> think
+  17:    1  ->  a ==> merge
+  18:    1  ->  a ==> read
+  19:    1  ->  a ==> rid
+  20:    1  ->  a ==> the
+  21:    1  ->  across ==> also
+  22:    1  ->  all ==> and
+  23:    1  ->  all ==> to
+  24:    1  ->  amherst's ==> amherst
+  25:    1  ->  an ==> the
+  26:    1  ->  and ==> all
+  27:    1  ->  and ==> are
+  28:    1  ->  and ==> line
+  29:    1  ->  and ==> ponte
+  30:    1  ->  and ==> rosetta
+  31:    1  ->  and ==> that
+  32:    1  ->  are ==> their
+  33:    1  ->  are ==> think
+  34:    1  ->  at ==> of
+  35:    1  ->  but ==> not
+  36:    1  ->  but ==> take
+  37:    1  ->  called ==> of
+  38:    1  ->  can ==> ten
+  39:    1  ->  christina ==> christine
+  40:    1  ->  could ==> to
+  41:    1  ->  dickinsons ==> have
+  42:    1  ->  diffuse ==> diffused
+  43:    1  ->  diffuse ==> use
+  44:    1  ->  do ==> all
+  45:    1  ->  do ==> not
+  46:    1  ->  eighteenth ==> nineteenth
+  47:    1  ->  fill ==> film
+  48:    1  ->  from ==> when
+  49:    1  ->  gestalt ==> stopped
+  50:    1  ->  got ==> to
+  51:    1  ->  gotten ==> got
+  52:    1  ->  have ==> finally
+  53:    1  ->  have ==> going
+  54:    1  ->  he's ==> over
+  55:    1  ->  head ==> had
+  56:    1  ->  her ==> there
+  57:    1  ->  here ==> is
+  58:    1  ->  how ==> what
+  59:    1  ->  i ==> room
+  60:    1  ->  identi ==> identified
+  61:    1  ->  impalpable ==> uncountable
+  62:    1  ->  in ==> an
+  63:    1  ->  it ==> if
+  64:    1  ->  it ==> inheminy
+  65:    1  ->  it ==> this
+  66:    1  ->  it's ==> words
+  67:    1  ->  italicized ==> what
+  68:    1  ->  journal ==> journals
+  69:    1  ->  journals ==> journal
+  70:    1  ->  k ==> ik
+  71:    1  ->  k. ==> point
+  72:    1  ->  know ==> i
+  73:    1  ->  line ==> lines
+  74:    1  ->  marvel's ==> 's
+  75:    1  ->  marx's ==> 's
+  76:    1  ->  marx's ==> marxist
+  77:    1  ->  my ==> i
+  78:    1  ->  my ==> our
+  79:    1  ->  nonimmediate ==> immediate
+  80:    1  ->  not ==> it's
+  81:    1  ->  not ==> reckon
+  82:    1  ->  not ==> the
+  83:    1  ->  o. ==> the
+  84:    1  ->  of ==> now
+  85:    1  ->  of ==> so
+  86:    1  ->  one ==> and
+  87:    1  ->  one ==> want
+  88:    1  ->  overawed ==> all
+  89:    1  ->  read ==> get
+  90:    1  ->  right ==> is
+  91:    1  ->  rossetti ==> rosetti
+  92:    1  ->  rossetti's ==> rosetti
+  93:    1  ->  she's ==> it's
+  94:    1  ->  short ==> shirt
+  95:    1  ->  sue ==> two
+  96:    1  ->  texts ==> tech
+  97:    1  ->  the ==> a
+  98:    1  ->  the ==> it
+  99:    1  ->  the ==> on
+ 100:    1  ->  the ==> pre
+ 101:    1  ->  the ==> to
+ 102:    1  ->  then ==> the
+ 103:    1  ->  there ==> for
+ 104:    1  ->  they ==> hold
+ 105:    1  ->  they ==> i
+ 106:    1  ->  they ==> that
+ 107:    1  ->  to ==> the
+ 108:    1  ->  was ==> diagnosis
+ 109:    1  ->  we ==> are
+ 110:    1  ->  well ==> but
+ 111:    1  ->  what ==> sixty
+ 112:    1  ->  why ==> out
+ 113:    1  ->  winter's ==> winters
+ 114:    1  ->  with ==> there
+ 115:    1  ->  x ==> abramovich
+ 116:    1  ->  x ==> absolute
+ 117:    1  ->  x ==> also
+ 118:    1  ->  x ==> any
+ 119:    1  ->  x ==> anything
+ 120:    1  ->  x ==> are
+ 121:    1  ->  x ==> bobby
+ 122:    1  ->  x ==> country
+ 123:    1  ->  x ==> curler
+ 124:    1  ->  x ==> developed
+ 125:    1  ->  x ==> feel
+ 126:    1  ->  x ==> government
+ 127:    1  ->  x ==> i
+ 128:    1  ->  x ==> if
+ 129:    1  ->  x ==> is
+ 130:    1  ->  x ==> it
+ 131:    1  ->  x ==> little
+ 132:    1  ->  x ==> many
+ 133:    1  ->  x ==> mark
+ 134:    1  ->  x ==> mean
+ 135:    1  ->  x ==> my
+ 136:    1  ->  x ==> of
+ 137:    1  ->  x ==> out
+ 138:    1  ->  x ==> pre
+ 139:    1  ->  x ==> search
+ 140:    1  ->  x ==> six
+ 141:    1  ->  x ==> t
+ 142:    1  ->  x ==> than
+ 143:    1  ->  x ==> that
+ 144:    1  ->  x ==> them
+ 145:    1  ->  x ==> to
+ 146:    1  ->  x ==> turn
+ 147:    1  ->  x ==> us
+ 148:    1  ->  x ==> valuable
+ 149:    1  ->  x ==> what
+ 150:    1  ->  x ==> whitehead
+ 151:    1  ->  x ==> yet
+ 152:    1  ->  yeah ==> different
+ 153:    1  ->  yeah ==> things
+ 154:    1  ->  yeah ==> was
+     -------
+       173
+
+
+
+INSERTIONS                       Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    5  ->  of
+   2:    3  ->  a
+   3:    3  ->  are
+   4:    2  ->  and
+   5:    2  ->  it
+   6:    2  ->  merlot
+   7:    2  ->  not
+   8:    2  ->  so
+   9:    2  ->  we
+  10:    1  ->  apart
+  11:    1  ->  around
+  12:    1  ->  book
+  13:    1  ->  both
+  14:    1  ->  but
+  15:    1  ->  can
+  16:    1  ->  comes
+  17:    1  ->  could
+  18:    1  ->  course
+  19:    1  ->  did
+  20:    1  ->  do
+  21:    1  ->  folsom
+  22:    1  ->  going
+  23:    1  ->  is
+  24:    1  ->  let
+  25:    1  ->  many
+  26:    1  ->  marvel
+  27:    1  ->  marx
+  28:    1  ->  merrill
+  29:    1  ->  no
+  30:    1  ->  non
+  31:    1  ->  or
+  32:    1  ->  poor
+  33:    1  ->  step
+  34:    1  ->  that
+  35:    1  ->  that's
+  36:    1  ->  the
+  37:    1  ->  them
+  38:    1  ->  thickens
+  39:    1  ->  to
+  40:    1  ->  today
+  41:    1  ->  turn
+  42:    1  ->  upon
+  43:    1  ->  want
+  44:    1  ->  went
+  45:    1  ->  you
+     -------
+        59
+
+
+
+DELETIONS                        Total                 (101)
+                                 With >=  1 occurrences (101)
+
+   1:   26  ->  x
+   2:   11  ->  %bcack
+   3:    9  ->  and
+   4:    8  ->  i
+   5:    7  ->  in
+   6:    6  ->  a
+   7:    6  ->  the
+   8:    5  ->  is
+   9:    5  ->  to
+  10:    4  ->  it
+  11:    4  ->  m
+  12:    3  ->  poetry
+  13:    3  ->  rossetti
+  14:    3  ->  yeah
+  15:    2  ->  be
+  16:    2  ->  but
+  17:    2  ->  got
+  18:    2  ->  h
+  19:    2  ->  marvel
+  20:    2  ->  of
+  21:    2  ->  right
+  22:    2  ->  she
+  23:    2  ->  so
+  24:    2  ->  that
+  25:    2  ->  wh
+  26:    2  ->  when
+  27:    1  ->  about
+  28:    1  ->  als
+  29:    1  ->  also
+  30:    1  ->  anemone
+  31:    1  ->  are
+  32:    1  ->  because
+  33:    1  ->  beneath
+  34:    1  ->  born
+  35:    1  ->  bronte's
+  36:    1  ->  brontes'
+  37:    1  ->  cannot
+  38:    1  ->  christina
+  39:    1  ->  counted
+  40:    1  ->  did
+  41:    1  ->  do
+  42:    1  ->  e
+  43:    1  ->  edition
+  44:    1  ->  emerges
+  45:    1  ->  emily
+  46:    1  ->  emily's
+  47:    1  ->  even
+  48:    1  ->  exactly
+  49:    1  ->  find
+  50:    1  ->  freer
+  51:    1  ->  had
+  52:    1  ->  have
+  53:    1  ->  he
+  54:    1  ->  her
+  55:    1  ->  identical
+  56:    1  ->  immediate
+  57:    1  ->  infinity
+  58:    1  ->  it's
+  59:    1  ->  k
+  60:    1  ->  lines
+  61:    1  ->  might
+  62:    1  ->  no
+  63:    1  ->  none
+  64:    1  ->  now
+  65:    1  ->  on
+  66:    1  ->  one
+  67:    1  ->  period
+  68:    1  ->  poem
+  69:    1  ->  preposterous
+  70:    1  ->  reference
+  71:    1  ->  s
+  72:    1  ->  same
+  73:    1  ->  seem
+  74:    1  ->  seems
+  75:    1  ->  she's
+  76:    1  ->  some
+  77:    1  ->  someone
+  78:    1  ->  such
+  79:    1  ->  sue
+  80:    1  ->  text
+  81:    1  ->  than
+  82:    1  ->  that's
+  83:    1  ->  then
+  84:    1  ->  there
+  85:    1  ->  there's
+  86:    1  ->  they
+  87:    1  ->  this
+  88:    1  ->  time
+  89:    1  ->  two
+  90:    1  ->  un
+  91:    1  ->  underl
+  92:    1  ->  up
+  93:    1  ->  was
+  94:    1  ->  what
+  95:    1  ->  where
+  96:    1  ->  which
+  97:    1  ->  who
+  98:    1  ->  wo
+  99:    1  ->  write
+ 100:    1  ->  yep
+ 101:    1  ->  yes
+     -------
+       199
+
+
+
+SUBSTITUTIONS                    Total                 (76)
+                                 With >=  1 occurrences (76)
+
+   1:   51  ->  x
+   2:    8  ->  and
+   3:    5  ->  in
+   4:    5  ->  not
+   5:    5  ->  the
+   6:    4  ->  a
+   7:    4  ->  is
+   8:    4  ->  she
+   9:    3  ->  %bcack
+  10:    3  ->  it
+  11:    3  ->  they
+  12:    3  ->  yeah
+  13:    2  ->  all
+  14:    2  ->  are
+  15:    2  ->  but
+  16:    2  ->  diffuse
+  17:    2  ->  do
+  18:    2  ->  have
+  19:    2  ->  marx's
+  20:    2  ->  my
+  21:    2  ->  of
+  22:    2  ->  one
+  23:    2  ->  presocratics
+  24:    1  ->  across
+  25:    1  ->  amherst's
+  26:    1  ->  an
+  27:    1  ->  at
+  28:    1  ->  called
+  29:    1  ->  can
+  30:    1  ->  christina
+  31:    1  ->  could
+  32:    1  ->  dickinsons
+  33:    1  ->  eighteenth
+  34:    1  ->  fill
+  35:    1  ->  from
+  36:    1  ->  gestalt
+  37:    1  ->  got
+  38:    1  ->  gotten
+  39:    1  ->  he's
+  40:    1  ->  head
+  41:    1  ->  her
+  42:    1  ->  here
+  43:    1  ->  how
+  44:    1  ->  i
+  45:    1  ->  identi
+  46:    1  ->  impalpable
+  47:    1  ->  it's
+  48:    1  ->  italicized
+  49:    1  ->  journal
+  50:    1  ->  journals
+  51:    1  ->  k
+  52:    1  ->  k.
+  53:    1  ->  know
+  54:    1  ->  line
+  55:    1  ->  marvel's
+  56:    1  ->  nonimmediate
+  57:    1  ->  o.
+  58:    1  ->  overawed
+  59:    1  ->  read
+  60:    1  ->  right
+  61:    1  ->  rossetti
+  62:    1  ->  rossetti's
+  63:    1  ->  she's
+  64:    1  ->  short
+  65:    1  ->  sue
+  66:    1  ->  texts
+  67:    1  ->  then
+  68:    1  ->  there
+  69:    1  ->  to
+  70:    1  ->  was
+  71:    1  ->  we
+  72:    1  ->  well
+  73:    1  ->  what
+  74:    1  ->  why
+  75:    1  ->  winter's
+  76:    1  ->  with
+     -------
+       173
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (112)
+                                 With >=  1 occurrences (112)
+
+   1:    8  ->  's
+   2:    8  ->  and
+   3:    6  ->  the
+   4:    5  ->  to
+   5:    4  ->  i
+   6:    4  ->  in
+   7:    3  ->  all
+   8:    3  ->  are
+   9:    3  ->  is
+  10:    3  ->  of
+  11:    3  ->  ponte
+  12:    3  ->  that
+  13:    3  ->  what
+  14:    3  ->  when
+  15:    2  ->  also
+  16:    2  ->  current
+  17:    2  ->  he
+  18:    2  ->  if
+  19:    2  ->  it
+  20:    2  ->  it's
+  21:    2  ->  no
+  22:    2  ->  not
+  23:    2  ->  out
+  24:    2  ->  pre
+  25:    2  ->  rosetti
+  26:    2  ->  socratics
+  27:    2  ->  there
+  28:    2  ->  think
+  29:    2  ->  we
+  30:    2  ->  you
+  31:    1  ->  a
+  32:    1  ->  abramovich
+  33:    1  ->  absolute
+  34:    1  ->  amherst
+  35:    1  ->  an
+  36:    1  ->  any
+  37:    1  ->  anything
+  38:    1  ->  bobby
+  39:    1  ->  but
+  40:    1  ->  christine
+  41:    1  ->  condition
+  42:    1  ->  country
+  43:    1  ->  curler
+  44:    1  ->  developed
+  45:    1  ->  diagnosis
+  46:    1  ->  different
+  47:    1  ->  diffused
+  48:    1  ->  feel
+  49:    1  ->  film
+  50:    1  ->  finally
+  51:    1  ->  for
+  52:    1  ->  get
+  53:    1  ->  going
+  54:    1  ->  got
+  55:    1  ->  government
+  56:    1  ->  had
+  57:    1  ->  have
+  58:    1  ->  hold
+  59:    1  ->  identified
+  60:    1  ->  ik
+  61:    1  ->  immediate
+  62:    1  ->  inheminy
+  63:    1  ->  journal
+  64:    1  ->  journals
+  65:    1  ->  line
+  66:    1  ->  lines
+  67:    1  ->  little
+  68:    1  ->  many
+  69:    1  ->  mark
+  70:    1  ->  marxist
+  71:    1  ->  mean
+  72:    1  ->  merge
+  73:    1  ->  mmhmm
+  74:    1  ->  my
+  75:    1  ->  nineteenth
+  76:    1  ->  now
+  77:    1  ->  on
+  78:    1  ->  our
+  79:    1  ->  over
+  80:    1  ->  point
+  81:    1  ->  read
+  82:    1  ->  reckon
+  83:    1  ->  rid
+  84:    1  ->  room
+  85:    1  ->  rosetta
+  86:    1  ->  search
+  87:    1  ->  shirt
+  88:    1  ->  six
+  89:    1  ->  sixty
+  90:    1  ->  so
+  91:    1  ->  stopped
+  92:    1  ->  t
+  93:    1  ->  take
+  94:    1  ->  tech
+  95:    1  ->  ten
+  96:    1  ->  than
+  97:    1  ->  their
+  98:    1  ->  them
+  99:    1  ->  things
+ 100:    1  ->  this
+ 101:    1  ->  turn
+ 102:    1  ->  two
+ 103:    1  ->  uncountable
+ 104:    1  ->  us
+ 105:    1  ->  use
+ 106:    1  ->  valuable
+ 107:    1  ->  want
+ 108:    1  ->  was
+ 109:    1  ->  whitehead
+ 110:    1  ->  winters
+ 111:    1  ->  words
+ 112:    1  ->  yet
+     -------
+       173
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

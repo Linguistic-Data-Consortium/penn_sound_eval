@@ -1,0 +1,219 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.6%   (  79)
+
+Percent Correct           =   92.8%   ( 969)
+
+Percent Substitution      =    4.7%   (  49)
+Percent Deletions         =    2.5%   (  26)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   92.4%
+
+
+Ref. words                =           (1044)
+Hyp. words                =           (1022)
+Aligned words             =           (1048)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    3  ->  feet ==> ft
+   2:    2  ->  five ==> 5
+   3:    2  ->  four ==> 4
+   4:    2  ->  ten ==> oh
+   5:    2  ->  the ==> a
+   6:    2  ->  twenty ==> oh
+   7:    1  ->  a ==> the
+   8:    1  ->  a ==> year
+   9:    1  ->  are ==> by
+  10:    1  ->  around ==> on
+  11:    1  ->  but ==> now
+  12:    1  ->  clock ==> 6:00
+  13:    1  ->  close ==> closed
+  14:    1  ->  coyly ==> coily
+  15:    1  ->  deck ==> dock
+  16:    1  ->  dog ==> door
+  17:    1  ->  dogs ==> "dogs
+  18:    1  ->  eighty ==> oh
+  19:    1  ->  excuse ==> as
+  20:    1  ->  from ==> and
+  21:    1  ->  gained ==> came
+  22:    1  ->  he ==> see
+  23:    1  ->  hose ==> hole
+  24:    1  ->  hundred ==> oh
+  25:    1  ->  hurried ==> hurry
+  26:    1  ->  icebox ==> box
+  27:    1  ->  in ==> of
+  28:    1  ->  it ==> it"
+  29:    1  ->  mar ==> marsh
+  30:    1  ->  me ==> you
+  31:    1  ->  minute ==> by
+  32:    1  ->  motorcars ==> cars
+  33:    1  ->  ninety ==> oh
+  34:    1  ->  oh ==> to
+  35:    1  ->  one ==> when
+  36:    1  ->  screeched ==> reached
+  37:    1  ->  sea ==> see
+  38:    1  ->  stock ==> stuck
+  39:    1  ->  this ==> there
+  40:    1  ->  thumping ==> bumping
+  41:    1  ->  wait ==> waiter
+  42:    1  ->  will ==> the
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  he
+   2:    1  ->  ice
+   3:    1  ->  motor
+   4:    1  ->  the
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  about
+   2:    2  ->  i
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  at
+   6:    1  ->  do
+   7:    1  ->  followed
+   8:    1  ->  has
+   9:    1  ->  he
+  10:    1  ->  here
+  11:    1  ->  hills
+  12:    1  ->  it
+  13:    1  ->  know
+  14:    1  ->  late
+  15:    1  ->  move
+  16:    1  ->  not
+  17:    1  ->  oh
+  18:    1  ->  or
+  19:    1  ->  six
+  20:    1  ->  that
+  21:    1  ->  that's
+  22:    1  ->  the
+  23:    1  ->  who
+  24:    1  ->  x
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    3  ->  feet
+   2:    2  ->  a
+   3:    2  ->  five
+   4:    2  ->  four
+   5:    2  ->  ten
+   6:    2  ->  the
+   7:    2  ->  twenty
+   8:    1  ->  are
+   9:    1  ->  around
+  10:    1  ->  but
+  11:    1  ->  clock
+  12:    1  ->  close
+  13:    1  ->  coyly
+  14:    1  ->  deck
+  15:    1  ->  dog
+  16:    1  ->  dogs
+  17:    1  ->  eighty
+  18:    1  ->  excuse
+  19:    1  ->  from
+  20:    1  ->  gained
+  21:    1  ->  he
+  22:    1  ->  hose
+  23:    1  ->  hundred
+  24:    1  ->  hurried
+  25:    1  ->  icebox
+  26:    1  ->  in
+  27:    1  ->  it
+  28:    1  ->  mar
+  29:    1  ->  me
+  30:    1  ->  minute
+  31:    1  ->  motorcars
+  32:    1  ->  ninety
+  33:    1  ->  oh
+  34:    1  ->  one
+  35:    1  ->  screeched
+  36:    1  ->  sea
+  37:    1  ->  stock
+  38:    1  ->  this
+  39:    1  ->  thumping
+  40:    1  ->  wait
+  41:    1  ->  will
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    7  ->  oh
+   2:    3  ->  ft
+   3:    2  ->  4
+   4:    2  ->  5
+   5:    2  ->  a
+   6:    2  ->  by
+   7:    2  ->  see
+   8:    2  ->  the
+   9:    1  ->  "dogs
+  10:    1  ->  6:00
+  11:    1  ->  and
+  12:    1  ->  as
+  13:    1  ->  box
+  14:    1  ->  bumping
+  15:    1  ->  came
+  16:    1  ->  cars
+  17:    1  ->  closed
+  18:    1  ->  coily
+  19:    1  ->  dock
+  20:    1  ->  door
+  21:    1  ->  hole
+  22:    1  ->  hurry
+  23:    1  ->  it"
+  24:    1  ->  marsh
+  25:    1  ->  now
+  26:    1  ->  of
+  27:    1  ->  on
+  28:    1  ->  reached
+  29:    1  ->  stuck
+  30:    1  ->  there
+  31:    1  ->  to
+  32:    1  ->  waiter
+  33:    1  ->  when
+  34:    1  ->  year
+  35:    1  ->  you
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

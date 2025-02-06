@@ -1,0 +1,181 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.5%   (  78)
+
+Percent Correct           =   92.5%   ( 845)
+
+Percent Substitution      =    2.5%   (  23)
+Percent Deletions         =    5.0%   (  46)
+Percent Insertions        =    1.0%   (   9)
+Percent Word Accuracy     =   91.5%
+
+
+Ref. words                =           ( 914)
+Hyp. words                =           ( 877)
+Aligned words             =           ( 923)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    3  ->  icebox ==> box
+   2:    1  ->  bluhm ==> bloom
+   3:    1  ->  bridget ==> brigid
+   4:    1  ->  casay ==> sa
+   5:    1  ->  claven's ==> clavins
+   6:    1  ->  davide ==> david
+   7:    1  ->  diaghilev ==> diagolef
+   8:    1  ->  doom ==> didoom
+   9:    1  ->  glennan's ==> glennans
+  10:    1  ->  guston ==> gustin
+  11:    1  ->  in ==> an
+  12:    1  ->  mcgillivray's ==> mcgillivrays
+  13:    1  ->  mcgivern's ==> mcgiverns
+  14:    1  ->  mcgovern's ==> mcgoverns
+  15:    1  ->  oeufs ==> oeuf
+  16:    1  ->  padgett ==> paget
+  17:    1  ->  sapeep ==> peep
+  18:    1  ->  stripe ==> strike
+  19:    1  ->  the ==> a
+  20:    1  ->  williams' ==> williams
+  21:    1  ->  with ==> of
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    3  ->  ice
+   2:    1  ->  b
+   3:    1  ->  cassez
+   4:    1  ->  has
+   5:    1  ->  he
+   6:    1  ->  or
+   7:    1  ->  went
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    3  ->  that
+   2:    3  ->  you
+   3:    2  ->  a
+   4:    2  ->  so
+   5:    2  ->  take
+   6:    2  ->  will
+   7:    1  ->  %bcack
+   8:    1  ->  actually
+   9:    1  ->  come
+  10:    1  ->  crooked
+  11:    1  ->  de
+  12:    1  ->  either
+  13:    1  ->  had
+  14:    1  ->  halfway
+  15:    1  ->  i
+  16:    1  ->  if
+  17:    1  ->  in
+  18:    1  ->  is
+  19:    1  ->  it
+  20:    1  ->  it's
+  21:    1  ->  k.
+  22:    1  ->  let
+  23:    1  ->  make
+  24:    1  ->  man
+  25:    1  ->  me
+  26:    1  ->  meet
+  27:    1  ->  o.
+  28:    1  ->  of
+  29:    1  ->  stage
+  30:    1  ->  the
+  31:    1  ->  time
+  32:    1  ->  to
+  33:    1  ->  up
+  34:    1  ->  water
+  35:    1  ->  way
+  36:    1  ->  we
+  37:    1  ->  x
+  38:    1  ->  your
+     -------
+        46
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    3  ->  icebox
+   2:    1  ->  bluhm
+   3:    1  ->  bridget
+   4:    1  ->  casay
+   5:    1  ->  claven's
+   6:    1  ->  davide
+   7:    1  ->  diaghilev
+   8:    1  ->  doom
+   9:    1  ->  glennan's
+  10:    1  ->  guston
+  11:    1  ->  in
+  12:    1  ->  mcgillivray's
+  13:    1  ->  mcgivern's
+  14:    1  ->  mcgovern's
+  15:    1  ->  oeufs
+  16:    1  ->  padgett
+  17:    1  ->  sapeep
+  18:    1  ->  stripe
+  19:    1  ->  the
+  20:    1  ->  williams'
+  21:    1  ->  with
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    3  ->  box
+   2:    1  ->  a
+   3:    1  ->  an
+   4:    1  ->  bloom
+   5:    1  ->  brigid
+   6:    1  ->  clavins
+   7:    1  ->  david
+   8:    1  ->  diagolef
+   9:    1  ->  didoom
+  10:    1  ->  glennans
+  11:    1  ->  gustin
+  12:    1  ->  mcgillivrays
+  13:    1  ->  mcgiverns
+  14:    1  ->  mcgoverns
+  15:    1  ->  oeuf
+  16:    1  ->  of
+  17:    1  ->  paget
+  18:    1  ->  peep
+  19:    1  ->  sa
+  20:    1  ->  strike
+  21:    1  ->  williams
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,373 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   16.7%   ( 164)
+
+Percent Correct           =   84.2%   ( 826)
+
+Percent Substitution      =    9.0%   (  88)
+Percent Deletions         =    6.8%   (  67)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   83.3%
+
+
+Ref. words                =           ( 981)
+Hyp. words                =           ( 923)
+Aligned words             =           ( 990)
+
+CONFUSION PAIRS                  Total                 (87)
+                                 With >=  1 occurrences (87)
+
+   1:    2  ->  night ==> nights
+   2:    1  ->  a ==> leak
+   3:    1  ->  a ==> sign
+   4:    1  ->  a ==> the
+   5:    1  ->  a ==> time
+   6:    1  ->  again ==> o.
+   7:    1  ->  angeles ==> is
+   8:    1  ->  back ==> like
+   9:    1  ->  be ==> leave
+  10:    1  ->  below ==> those
+  11:    1  ->  birch ==> butch
+  12:    1  ->  blood ==> life
+  13:    1  ->  body ==> blood
+  14:    1  ->  but ==> it
+  15:    1  ->  but ==> that
+  16:    1  ->  butcher's ==> butches
+  17:    1  ->  by ==> it
+  18:    1  ->  cannot ==> calf
+  19:    1  ->  chevy's ==> is
+  20:    1  ->  chiaroscuro ==> a
+  21:    1  ->  clean ==> please
+  22:    1  ->  clumps ==> comes
+  23:    1  ->  crosspiece ==> piece
+  24:    1  ->  dark ==> liquids
+  25:    1  ->  eddies ==> is
+  26:    1  ->  faded ==> it
+  27:    1  ->  falls ==> false
+  28:    1  ->  fish ==> minded
+  29:    1  ->  fragilely ==> fragile
+  30:    1  ->  gathering ==> 1965
+  31:    1  ->  girl ==> go
+  32:    1  ->  gloom ==> doing
+  33:    1  ->  gorse ==> course
+  34:    1  ->  half ==> have
+  35:    1  ->  hatrack ==> cooked
+  36:    1  ->  heath ==> east
+  37:    1  ->  hips ==> bracket
+  38:    1  ->  hold ==> old
+  39:    1  ->  hundred ==> oh
+  40:    1  ->  i ==> is
+  41:    1  ->  in ==> a
+  42:    1  ->  in ==> and
+  43:    1  ->  in ==> striking
+  44:    1  ->  is ==> those
+  45:    1  ->  its ==> it's
+  46:    1  ->  lake ==> the
+  47:    1  ->  leader ==> leaders
+  48:    1  ->  ligaments ==> senior
+  49:    1  ->  liquid ==> that
+  50:    1  ->  moon ==> me
+  51:    1  ->  next ==> snakes
+  52:    1  ->  night ==> mi
+  53:    1  ->  no ==> facts
+  54:    1  ->  nose ==> was
+  55:    1  ->  of ==> on
+  56:    1  ->  opening ==> what
+  57:    1  ->  over ==> go
+  58:    1  ->  pans ==> pan
+  59:    1  ->  parked ==> acted
+  60:    1  ->  passed ==> past
+  61:    1  ->  poem ==> turn
+  62:    1  ->  pool ==> full
+  63:    1  ->  posit ==> positive
+  64:    1  ->  position ==> positioned
+  65:    1  ->  pupil ==> people
+  66:    1  ->  room ==> through
+  67:    1  ->  rose ==> those
+  68:    1  ->  she ==> he
+  69:    1  ->  shoulder ==> shorter
+  70:    1  ->  shouts ==> shall
+  71:    1  ->  so ==> the
+  72:    1  ->  stir ==> fill
+  73:    1  ->  take ==> tape
+  74:    1  ->  that ==> the
+  75:    1  ->  that's ==> pull
+  76:    1  ->  that's ==> the
+  77:    1  ->  the ==> i
+  78:    1  ->  the ==> li
+  79:    1  ->  the ==> together
+  80:    1  ->  the ==> with
+  81:    1  ->  this ==> those
+  82:    1  ->  tommy's ==> is
+  83:    1  ->  trees ==> tree
+  84:    1  ->  use ==> knowing
+  85:    1  ->  want ==> one
+  86:    1  ->  welcome ==> k.
+  87:    1  ->  wherein ==> ligament
+     -------
+        88
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  can
+   2:    1  ->  crust
+   3:    1  ->  fade
+   4:    1  ->  it
+   5:    1  ->  kask
+   6:    1  ->  of
+   7:    1  ->  she
+   8:    1  ->  so
+   9:    1  ->  they
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (57)
+                                 With >=  1 occurrences (57)
+
+   1:    5  ->  the
+   2:    3  ->  a
+   3:    2  ->  called
+   4:    2  ->  i
+   5:    2  ->  in
+   6:    2  ->  silver
+   7:    1  ->  and
+   8:    1  ->  banks
+   9:    1  ->  bridge
+  10:    1  ->  but
+  11:    1  ->  complacencies
+  12:    1  ->  cutthroat
+  13:    1  ->  door
+  14:    1  ->  down
+  15:    1  ->  eye
+  16:    1  ->  five
+  17:    1  ->  flick
+  18:    1  ->  girl
+  19:    1  ->  grass
+  20:    1  ->  had
+  21:    1  ->  hall
+  22:    1  ->  home
+  23:    1  ->  hooks
+  24:    1  ->  it
+  25:    1  ->  knocked
+  26:    1  ->  laugh
+  27:    1  ->  limbs
+  28:    1  ->  lit
+  29:    1  ->  los
+  30:    1  ->  me
+  31:    1  ->  mind
+  32:    1  ->  months
+  33:    1  ->  my
+  34:    1  ->  nineteen
+  35:    1  ->  on
+  36:    1  ->  our
+  37:    1  ->  patch
+  38:    1  ->  path
+  39:    1  ->  poems
+  40:    1  ->  press
+  41:    1  ->  saw
+  42:    1  ->  seen
+  43:    1  ->  sinew
+  44:    1  ->  sixty
+  45:    1  ->  slender
+  46:    1  ->  slung
+  47:    1  ->  sparrow
+  48:    1  ->  sparse
+  49:    1  ->  strike
+  50:    1  ->  sun
+  51:    1  ->  to
+  52:    1  ->  tomorrow
+  53:    1  ->  where
+  54:    1  ->  while
+  55:    1  ->  with
+  56:    1  ->  would
+  57:    1  ->  wrench
+     -------
+        67
+
+
+
+SUBSTITUTIONS                    Total                 (76)
+                                 With >=  1 occurrences (76)
+
+   1:    4  ->  a
+   2:    4  ->  the
+   3:    3  ->  in
+   4:    3  ->  night
+   5:    2  ->  but
+   6:    2  ->  that's
+   7:    1  ->  again
+   8:    1  ->  angeles
+   9:    1  ->  back
+  10:    1  ->  be
+  11:    1  ->  below
+  12:    1  ->  birch
+  13:    1  ->  blood
+  14:    1  ->  body
+  15:    1  ->  butcher's
+  16:    1  ->  by
+  17:    1  ->  cannot
+  18:    1  ->  chevy's
+  19:    1  ->  chiaroscuro
+  20:    1  ->  clean
+  21:    1  ->  clumps
+  22:    1  ->  crosspiece
+  23:    1  ->  dark
+  24:    1  ->  eddies
+  25:    1  ->  faded
+  26:    1  ->  falls
+  27:    1  ->  fish
+  28:    1  ->  fragilely
+  29:    1  ->  gathering
+  30:    1  ->  girl
+  31:    1  ->  gloom
+  32:    1  ->  gorse
+  33:    1  ->  half
+  34:    1  ->  hatrack
+  35:    1  ->  heath
+  36:    1  ->  hips
+  37:    1  ->  hold
+  38:    1  ->  hundred
+  39:    1  ->  i
+  40:    1  ->  is
+  41:    1  ->  its
+  42:    1  ->  lake
+  43:    1  ->  leader
+  44:    1  ->  ligaments
+  45:    1  ->  liquid
+  46:    1  ->  moon
+  47:    1  ->  next
+  48:    1  ->  no
+  49:    1  ->  nose
+  50:    1  ->  of
+  51:    1  ->  opening
+  52:    1  ->  over
+  53:    1  ->  pans
+  54:    1  ->  parked
+  55:    1  ->  passed
+  56:    1  ->  poem
+  57:    1  ->  pool
+  58:    1  ->  posit
+  59:    1  ->  position
+  60:    1  ->  pupil
+  61:    1  ->  room
+  62:    1  ->  rose
+  63:    1  ->  she
+  64:    1  ->  shoulder
+  65:    1  ->  shouts
+  66:    1  ->  so
+  67:    1  ->  stir
+  68:    1  ->  take
+  69:    1  ->  that
+  70:    1  ->  this
+  71:    1  ->  tommy's
+  72:    1  ->  trees
+  73:    1  ->  use
+  74:    1  ->  want
+  75:    1  ->  welcome
+  76:    1  ->  wherein
+     -------
+        88
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (71)
+                                 With >=  1 occurrences (71)
+
+   1:    5  ->  is
+   2:    5  ->  the
+   3:    4  ->  those
+   4:    3  ->  it
+   5:    2  ->  a
+   6:    2  ->  go
+   7:    2  ->  nights
+   8:    2  ->  that
+   9:    1  ->  1965
+  10:    1  ->  acted
+  11:    1  ->  and
+  12:    1  ->  blood
+  13:    1  ->  bracket
+  14:    1  ->  butch
+  15:    1  ->  butches
+  16:    1  ->  calf
+  17:    1  ->  comes
+  18:    1  ->  cooked
+  19:    1  ->  course
+  20:    1  ->  doing
+  21:    1  ->  east
+  22:    1  ->  facts
+  23:    1  ->  false
+  24:    1  ->  fill
+  25:    1  ->  fragile
+  26:    1  ->  full
+  27:    1  ->  have
+  28:    1  ->  he
+  29:    1  ->  i
+  30:    1  ->  it's
+  31:    1  ->  k.
+  32:    1  ->  knowing
+  33:    1  ->  leaders
+  34:    1  ->  leak
+  35:    1  ->  leave
+  36:    1  ->  li
+  37:    1  ->  life
+  38:    1  ->  ligament
+  39:    1  ->  like
+  40:    1  ->  liquids
+  41:    1  ->  me
+  42:    1  ->  mi
+  43:    1  ->  minded
+  44:    1  ->  o.
+  45:    1  ->  oh
+  46:    1  ->  old
+  47:    1  ->  on
+  48:    1  ->  one
+  49:    1  ->  pan
+  50:    1  ->  past
+  51:    1  ->  people
+  52:    1  ->  piece
+  53:    1  ->  please
+  54:    1  ->  positioned
+  55:    1  ->  positive
+  56:    1  ->  pull
+  57:    1  ->  senior
+  58:    1  ->  shall
+  59:    1  ->  shorter
+  60:    1  ->  sign
+  61:    1  ->  snakes
+  62:    1  ->  striking
+  63:    1  ->  tape
+  64:    1  ->  through
+  65:    1  ->  time
+  66:    1  ->  together
+  67:    1  ->  tree
+  68:    1  ->  turn
+  69:    1  ->  was
+  70:    1  ->  what
+  71:    1  ->  with
+     -------
+        88
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

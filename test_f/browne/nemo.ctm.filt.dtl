@@ -1,0 +1,236 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.9%   (  81)
+
+Percent Correct           =   92.0%   ( 834)
+
+Percent Substitution      =    5.2%   (  47)
+Percent Deletions         =    2.9%   (  26)
+Percent Insertions        =    0.9%   (   8)
+Percent Word Accuracy     =   91.1%
+
+
+Ref. words                =           ( 907)
+Hyp. words                =           ( 889)
+Aligned words             =           ( 915)
+
+CONFUSION PAIRS                  Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    2  ->  tales ==> tails
+   2:    1  ->  as ==> is
+   3:    1  ->  ask ==> asked
+   4:    1  ->  bannister ==> banister
+   5:    1  ->  bidden ==> bitten
+   6:    1  ->  blade ==> splayed
+   7:    1  ->  continue ==> continued
+   8:    1  ->  death ==> deft
+   9:    1  ->  deporting ==> supporting
+  10:    1  ->  e ==> be
+  11:    1  ->  fall ==> befall
+  12:    1  ->  felt ==> spelt
+  13:    1  ->  fire ==> quickfire
+  14:    1  ->  grasp ==> grasped
+  15:    1  ->  hold ==> cold
+  16:    1  ->  illuminates ==> eliminates
+  17:    1  ->  in ==> lighten
+  18:    1  ->  it ==> none
+  19:    1  ->  lest ==> psalmist
+  20:    1  ->  limbs ==> forelimbs
+  21:    1  ->  mind ==> mime
+  22:    1  ->  other ==> utter
+  23:    1  ->  pair ==> pear
+  24:    1  ->  particularity ==> peculiarity
+  25:    1  ->  pear ==> pale
+  26:    1  ->  played ==> plague
+  27:    1  ->  pleaded ==> pleated
+  28:    1  ->  plow ==> plough
+  29:    1  ->  pray ==> prayed
+  30:    1  ->  retinol ==> retinal
+  31:    1  ->  scores ==> squares
+  32:    1  ->  sod ==> sawed
+  33:    1  ->  spherical ==> spiracle
+  34:    1  ->  stays ==> staves
+  35:    1  ->  tale ==> tail
+  36:    1  ->  thoreau ==> furrow
+  37:    1  ->  wait ==> weight
+  38:    1  ->  were ==> worse
+  39:    1  ->  windowpane ==> pane
+  40:    1  ->  wise ==> moonwise
+  41:    1  ->  world ==> word
+  42:    1  ->  x ==> art
+  43:    1  ->  x ==> palimpsest
+  44:    1  ->  x ==> rest
+  45:    1  ->  x ==> salve
+  46:    1  ->  x ==> tigrish
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    3  ->  the
+   2:    1  ->  has
+   3:    1  ->  idea
+   4:    1  ->  no
+   5:    1  ->  to
+   6:    1  ->  window
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    3  ->  the
+   2:    2  ->  a
+   3:    1  ->  be
+   4:    1  ->  body
+   5:    1  ->  door
+   6:    1  ->  four
+   7:    1  ->  i
+   8:    1  ->  in
+   9:    1  ->  is
+  10:    1  ->  ivy
+  11:    1  ->  light
+  12:    1  ->  moon
+  13:    1  ->  nat
+  14:    1  ->  of
+  15:    1  ->  page
+  16:    1  ->  partially
+  17:    1  ->  quick
+  18:    1  ->  separate
+  19:    1  ->  shall
+  20:    1  ->  tangled
+  21:    1  ->  then
+  22:    1  ->  which
+  23:    1  ->  x
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    5  ->  x
+   2:    2  ->  tales
+   3:    1  ->  as
+   4:    1  ->  ask
+   5:    1  ->  bannister
+   6:    1  ->  bidden
+   7:    1  ->  blade
+   8:    1  ->  continue
+   9:    1  ->  death
+  10:    1  ->  deporting
+  11:    1  ->  e
+  12:    1  ->  fall
+  13:    1  ->  felt
+  14:    1  ->  fire
+  15:    1  ->  grasp
+  16:    1  ->  hold
+  17:    1  ->  illuminates
+  18:    1  ->  in
+  19:    1  ->  it
+  20:    1  ->  lest
+  21:    1  ->  limbs
+  22:    1  ->  mind
+  23:    1  ->  other
+  24:    1  ->  pair
+  25:    1  ->  particularity
+  26:    1  ->  pear
+  27:    1  ->  played
+  28:    1  ->  pleaded
+  29:    1  ->  plow
+  30:    1  ->  pray
+  31:    1  ->  retinol
+  32:    1  ->  scores
+  33:    1  ->  sod
+  34:    1  ->  spherical
+  35:    1  ->  stays
+  36:    1  ->  tale
+  37:    1  ->  thoreau
+  38:    1  ->  wait
+  39:    1  ->  were
+  40:    1  ->  windowpane
+  41:    1  ->  wise
+  42:    1  ->  world
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    2  ->  tails
+   2:    1  ->  art
+   3:    1  ->  asked
+   4:    1  ->  banister
+   5:    1  ->  be
+   6:    1  ->  befall
+   7:    1  ->  bitten
+   8:    1  ->  cold
+   9:    1  ->  continued
+  10:    1  ->  deft
+  11:    1  ->  eliminates
+  12:    1  ->  forelimbs
+  13:    1  ->  furrow
+  14:    1  ->  grasped
+  15:    1  ->  is
+  16:    1  ->  lighten
+  17:    1  ->  mime
+  18:    1  ->  moonwise
+  19:    1  ->  none
+  20:    1  ->  pale
+  21:    1  ->  palimpsest
+  22:    1  ->  pane
+  23:    1  ->  pear
+  24:    1  ->  peculiarity
+  25:    1  ->  plague
+  26:    1  ->  pleated
+  27:    1  ->  plough
+  28:    1  ->  prayed
+  29:    1  ->  psalmist
+  30:    1  ->  quickfire
+  31:    1  ->  rest
+  32:    1  ->  retinal
+  33:    1  ->  salve
+  34:    1  ->  sawed
+  35:    1  ->  spelt
+  36:    1  ->  spiracle
+  37:    1  ->  splayed
+  38:    1  ->  squares
+  39:    1  ->  staves
+  40:    1  ->  supporting
+  41:    1  ->  tail
+  42:    1  ->  tigrish
+  43:    1  ->  utter
+  44:    1  ->  weight
+  45:    1  ->  word
+  46:    1  ->  worse
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

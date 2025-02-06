@@ -1,0 +1,132 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.8%   (  24)
+
+Percent Correct           =   97.7%   ( 835)
+
+Percent Substitution      =    2.2%   (  19)
+Percent Deletions         =    0.1%   (   1)
+Percent Insertions        =    0.5%   (   4)
+Percent Word Accuracy     =   97.2%
+
+
+Ref. words                =           ( 855)
+Hyp. words                =           ( 858)
+Aligned words             =           ( 859)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  stair ==> stare
+   2:    1  ->  barrettes ==> pots
+   3:    1  ->  bits ==> alphabets
+   4:    1  ->  bloodied ==> bloody
+   5:    1  ->  canzone ==> zone
+   6:    1  ->  cosy ==> cozy
+   7:    1  ->  had ==> have
+   8:    1  ->  hole ==> whole
+   9:    1  ->  it ==> had
+  10:    1  ->  knowers ==> knower
+  11:    1  ->  laid ==> lay
+  12:    1  ->  l’ingresso ==> nso
+  13:    1  ->  nestled ==> nestle
+  14:    1  ->  rectitudes ==> rectitude
+  15:    1  ->  vietato ==> the
+  16:    1  ->  vow ==> vw
+  17:    1  ->  wait ==> weed
+  18:    1  ->  watch ==> watched
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  can
+   2:    1  ->  tato
+   3:    1  ->  to
+   4:    1  ->  v
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  alpha
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  stair
+   2:    1  ->  barrettes
+   3:    1  ->  bits
+   4:    1  ->  bloodied
+   5:    1  ->  canzone
+   6:    1  ->  cosy
+   7:    1  ->  had
+   8:    1  ->  hole
+   9:    1  ->  it
+  10:    1  ->  knowers
+  11:    1  ->  laid
+  12:    1  ->  l’ingresso
+  13:    1  ->  nestled
+  14:    1  ->  rectitudes
+  15:    1  ->  vietato
+  16:    1  ->  vow
+  17:    1  ->  wait
+  18:    1  ->  watch
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  stare
+   2:    1  ->  alphabets
+   3:    1  ->  bloody
+   4:    1  ->  cozy
+   5:    1  ->  had
+   6:    1  ->  have
+   7:    1  ->  knower
+   8:    1  ->  lay
+   9:    1  ->  nestle
+  10:    1  ->  nso
+  11:    1  ->  pots
+  12:    1  ->  rectitude
+  13:    1  ->  the
+  14:    1  ->  vw
+  15:    1  ->  watched
+  16:    1  ->  weed
+  17:    1  ->  whole
+  18:    1  ->  zone
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

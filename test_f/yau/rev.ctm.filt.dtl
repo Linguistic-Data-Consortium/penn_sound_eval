@@ -1,0 +1,211 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.2%   (  60)
+
+Percent Correct           =   94.4%   ( 908)
+
+Percent Substitution      =    4.8%   (  46)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   93.8%
+
+
+Ref. words                =           ( 962)
+Hyp. words                =           ( 960)
+Aligned words             =           ( 968)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    4  ->  in ==> and
+   2:    2  ->  twenty ==> two
+   3:    1  ->  a ==> the
+   4:    1  ->  always ==> ours
+   5:    1  ->  and ==> in
+   6:    1  ->  arcade's ==> arcades
+   7:    1  ->  atrapado ==> atropa
+   8:    1  ->  atrapado ==> tro
+   9:    1  ->  called ==> recalled
+  10:    1  ->  coy ==> coi
+  11:    1  ->  debuts ==> debut
+  12:    1  ->  earthen ==> and
+  13:    1  ->  famished ==> famish
+  14:    1  ->  fandangoes ==> fandangos
+  15:    1  ->  gallopers ==> or
+  16:    1  ->  gingham's ==> ginghams
+  17:    1  ->  has ==> is
+  18:    1  ->  husks ==> tusks
+  19:    1  ->  incandescence ==> incandescent
+  20:    1  ->  ins ==> driveins
+  21:    1  ->  its ==> it's
+  22:    1  ->  kneed ==> knee
+  23:    1  ->  lackey ==> lacky
+  24:    1  ->  m ==> my
+  25:    1  ->  mainspring ==> spring
+  26:    1  ->  nougat ==> ot
+  27:    1  ->  of ==> outta
+  28:    1  ->  paint's ==> paints
+  29:    1  ->  parish ==> perish
+  30:    1  ->  purdahs ==> <inaudible>
+  31:    1  ->  sighs ==> size
+  32:    1  ->  slop ==> slot
+  33:    1  ->  stammers ==> stas
+  34:    1  ->  stee ==> thete
+  35:    1  ->  the ==> toward
+  36:    1  ->  to ==> through
+  37:    1  ->  towe ==> to
+  38:    1  ->  trim ==> trimmed
+  39:    1  ->  us ==> rust
+  40:    1  ->  wheeled ==> wheel
+  41:    1  ->  whimpers ==> whimper
+  42:    1  ->  who ==> that
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  earth
+   2:    1  ->  gallup
+   3:    1  ->  main
+   4:    1  ->  on
+   5:    1  ->  the
+   6:    1  ->  this
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  ch
+   3:    1  ->  drive
+   4:    1  ->  for
+   5:    1  ->  had
+   6:    1  ->  it
+   7:    1  ->  out
+   8:    1  ->  towards
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    4  ->  in
+   2:    2  ->  atrapado
+   3:    2  ->  twenty
+   4:    1  ->  a
+   5:    1  ->  always
+   6:    1  ->  and
+   7:    1  ->  arcade's
+   8:    1  ->  called
+   9:    1  ->  coy
+  10:    1  ->  debuts
+  11:    1  ->  earthen
+  12:    1  ->  famished
+  13:    1  ->  fandangoes
+  14:    1  ->  gallopers
+  15:    1  ->  gingham's
+  16:    1  ->  has
+  17:    1  ->  husks
+  18:    1  ->  incandescence
+  19:    1  ->  ins
+  20:    1  ->  its
+  21:    1  ->  kneed
+  22:    1  ->  lackey
+  23:    1  ->  m
+  24:    1  ->  mainspring
+  25:    1  ->  nougat
+  26:    1  ->  of
+  27:    1  ->  paint's
+  28:    1  ->  parish
+  29:    1  ->  purdahs
+  30:    1  ->  sighs
+  31:    1  ->  slop
+  32:    1  ->  stammers
+  33:    1  ->  stee
+  34:    1  ->  the
+  35:    1  ->  to
+  36:    1  ->  towe
+  37:    1  ->  trim
+  38:    1  ->  us
+  39:    1  ->  wheeled
+  40:    1  ->  whimpers
+  41:    1  ->  who
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    5  ->  and
+   2:    2  ->  two
+   3:    1  ->  <inaudible>
+   4:    1  ->  arcades
+   5:    1  ->  atropa
+   6:    1  ->  coi
+   7:    1  ->  debut
+   8:    1  ->  driveins
+   9:    1  ->  famish
+  10:    1  ->  fandangos
+  11:    1  ->  ginghams
+  12:    1  ->  in
+  13:    1  ->  incandescent
+  14:    1  ->  is
+  15:    1  ->  it's
+  16:    1  ->  knee
+  17:    1  ->  lacky
+  18:    1  ->  my
+  19:    1  ->  or
+  20:    1  ->  ot
+  21:    1  ->  ours
+  22:    1  ->  outta
+  23:    1  ->  paints
+  24:    1  ->  perish
+  25:    1  ->  recalled
+  26:    1  ->  rust
+  27:    1  ->  size
+  28:    1  ->  slot
+  29:    1  ->  spring
+  30:    1  ->  stas
+  31:    1  ->  that
+  32:    1  ->  the
+  33:    1  ->  thete
+  34:    1  ->  through
+  35:    1  ->  to
+  36:    1  ->  toward
+  37:    1  ->  trimmed
+  38:    1  ->  tro
+  39:    1  ->  tusks
+  40:    1  ->  wheel
+  41:    1  ->  whimper
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

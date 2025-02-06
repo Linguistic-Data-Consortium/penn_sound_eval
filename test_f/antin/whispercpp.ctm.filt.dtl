@@ -1,0 +1,355 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.2%   ( 288)
+
+Percent Correct           =   82.3%   (1116)
+
+Percent Substitution      =    4.0%   (  54)
+Percent Deletions         =   13.7%   ( 186)
+Percent Insertions        =    3.5%   (  48)
+Percent Word Accuracy     =   78.8%
+
+
+Ref. words                =           (1356)
+Hyp. words                =           (1218)
+Aligned words             =           (1404)
+
+CONFUSION PAIRS                  Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    2  ->  a ==> the
+   2:    1  ->  a ==> diet
+   3:    1  ->  area ==> and
+   4:    1  ->  be ==> an
+   5:    1  ->  because ==> but
+   6:    1  ->  break ==> i
+   7:    1  ->  c ==> and
+   8:    1  ->  called ==> call
+   9:    1  ->  cannot ==> that's
+  10:    1  ->  come ==> go
+  11:    1  ->  complain ==> nice
+  12:    1  ->  could ==> not
+  13:    1  ->  fermenting ==> mendy
+  14:    1  ->  fifteen ==> five
+  15:    1  ->  geurrilla ==> guerrilla
+  16:    1  ->  i ==> jackachew
+  17:    1  ->  in ==> and
+  18:    1  ->  information ==> pseudoinformation
+  19:    1  ->  is ==> was
+  20:    1  ->  it ==> so
+  21:    1  ->  it's ==> that's
+  22:    1  ->  like ==> want
+  23:    1  ->  lore ==> law
+  24:    1  ->  not ==> am
+  25:    1  ->  o ==> on
+  26:    1  ->  of ==> in
+  27:    1  ->  poems ==> poem
+  28:    1  ->  shatranj ==> shatranji
+  29:    1  ->  simon ==> simone
+  30:    1  ->  so ==> aggressive
+  31:    1  ->  so ==> just
+  32:    1  ->  structu ==> structure
+  33:    1  ->  tech ==> hightech
+  34:    1  ->  thanks ==> jackachew
+  35:    1  ->  that's ==> except
+  36:    1  ->  the ==> a
+  37:    1  ->  the ==> get
+  38:    1  ->  the ==> here
+  39:    1  ->  the ==> that
+  40:    1  ->  there ==> element
+  41:    1  ->  thinking ==> figured
+  42:    1  ->  this ==> which
+  43:    1  ->  through ==> between
+  44:    1  ->  time ==> am
+  45:    1  ->  to ==> and
+  46:    1  ->  toget ==> to
+  47:    1  ->  twenty ==> oh
+  48:    1  ->  wagging ==> waking
+  49:    1  ->  we ==> going
+  50:    1  ->  weil ==> vale
+  51:    1  ->  will ==> to
+  52:    1  ->  would ==> do
+  53:    1  ->  you ==> which
+     -------
+        54
+
+
+
+INSERTIONS                       Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    3  ->  i
+   2:    2  ->  a
+   3:    2  ->  am
+   4:    2  ->  and
+   5:    2  ->  just
+   6:    2  ->  of
+   7:    2  ->  stuff
+   8:    2  ->  to
+   9:    2  ->  you
+  10:    1  ->  are
+  11:    1  ->  because
+  12:    1  ->  bunch
+  13:    1  ->  but
+  14:    1  ->  contribution
+  15:    1  ->  do
+  16:    1  ->  for
+  17:    1  ->  games
+  18:    1  ->  have
+  19:    1  ->  if
+  20:    1  ->  is
+  21:    1  ->  k.
+  22:    1  ->  like
+  23:    1  ->  living
+  24:    1  ->  make
+  25:    1  ->  material
+  26:    1  ->  o.
+  27:    1  ->  one
+  28:    1  ->  out
+  29:    1  ->  play
+  30:    1  ->  some
+  31:    1  ->  something
+  32:    1  ->  them
+  33:    1  ->  there's
+  34:    1  ->  town
+  35:    1  ->  trying
+  36:    1  ->  unload
+  37:    1  ->  we
+  38:    1  ->  welcome
+     -------
+        48
+
+
+
+DELETIONS                        Total                 (98)
+                                 With >=  1 occurrences (98)
+
+   1:   24  ->  i
+   2:   11  ->  the
+   3:    6  ->  in
+   4:    6  ->  of
+   5:    5  ->  a
+   6:    5  ->  it
+   7:    5  ->  you
+   8:    4  ->  like
+   9:    4  ->  not
+  10:    4  ->  that
+  11:    3  ->  and
+  12:    3  ->  high
+  13:    3  ->  how
+  14:    3  ->  it's
+  15:    3  ->  mean
+  16:    3  ->  no
+  17:    3  ->  s
+  18:    2  ->  are
+  19:    2  ->  do
+  20:    2  ->  is
+  21:    2  ->  k.
+  22:    2  ->  now
+  23:    2  ->  o.
+  24:    2  ->  some
+  25:    2  ->  think
+  26:    2  ->  to
+  27:    2  ->  would
+  28:    1  ->  abil
+  29:    1  ->  all
+  30:    1  ->  am
+  31:    1  ->  as
+  32:    1  ->  at
+  33:    1  ->  back
+  34:    1  ->  break
+  35:    1  ->  but
+  36:    1  ->  buy
+  37:    1  ->  catholic
+  38:    1  ->  chewies
+  39:    1  ->  chewy
+  40:    1  ->  coke
+  41:    1  ->  deal
+  42:    1  ->  digressive
+  43:    1  ->  disagree
+  44:    1  ->  dramatic
+  45:    1  ->  drink
+  46:    1  ->  everybody
+  47:    1  ->  ex
+  48:    1  ->  explosi
+  49:    1  ->  exposing
+  50:    1  ->  f
+  51:    1  ->  fine
+  52:    1  ->  found
+  53:    1  ->  go
+  54:    1  ->  had
+  55:    1  ->  has
+  56:    1  ->  have
+  57:    1  ->  instr
+  58:    1  ->  just
+  59:    1  ->  know
+  60:    1  ->  let
+  61:    1  ->  lying
+  62:    1  ->  makes
+  63:    1  ->  mater
+  64:    1  ->  mili
+  65:    1  ->  nobody
+  66:    1  ->  o
+  67:    1  ->  phra
+  68:    1  ->  pieces
+  69:    1  ->  pleasure
+  70:    1  ->  pseudo
+  71:    1  ->  quite
+  72:    1  ->  r
+  73:    1  ->  re
+  74:    1  ->  recording
+  75:    1  ->  require
+  76:    1  ->  same
+  77:    1  ->  saw
+  78:    1  ->  says
+  79:    1  ->  since
+  80:    1  ->  so
+  81:    1  ->  stop
+  82:    1  ->  story
+  83:    1  ->  t
+  84:    1  ->  that's
+  85:    1  ->  there's
+  86:    1  ->  they
+  87:    1  ->  this
+  88:    1  ->  too
+  89:    1  ->  trying
+  90:    1  ->  two
+  91:    1  ->  type
+  92:    1  ->  we
+  93:    1  ->  well
+  94:    1  ->  wh
+  95:    1  ->  what's
+  96:    1  ->  when
+  97:    1  ->  will
+  98:    1  ->  your
+     -------
+       186
+
+
+
+SUBSTITUTIONS                    Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    4  ->  the
+   2:    3  ->  a
+   3:    2  ->  so
+   4:    1  ->  area
+   5:    1  ->  be
+   6:    1  ->  because
+   7:    1  ->  break
+   8:    1  ->  c
+   9:    1  ->  called
+  10:    1  ->  cannot
+  11:    1  ->  come
+  12:    1  ->  complain
+  13:    1  ->  could
+  14:    1  ->  fermenting
+  15:    1  ->  fifteen
+  16:    1  ->  geurrilla
+  17:    1  ->  i
+  18:    1  ->  in
+  19:    1  ->  information
+  20:    1  ->  is
+  21:    1  ->  it
+  22:    1  ->  it's
+  23:    1  ->  like
+  24:    1  ->  lore
+  25:    1  ->  not
+  26:    1  ->  o
+  27:    1  ->  of
+  28:    1  ->  poems
+  29:    1  ->  shatranj
+  30:    1  ->  simon
+  31:    1  ->  structu
+  32:    1  ->  tech
+  33:    1  ->  thanks
+  34:    1  ->  that's
+  35:    1  ->  there
+  36:    1  ->  thinking
+  37:    1  ->  this
+  38:    1  ->  through
+  39:    1  ->  time
+  40:    1  ->  to
+  41:    1  ->  toget
+  42:    1  ->  twenty
+  43:    1  ->  wagging
+  44:    1  ->  we
+  45:    1  ->  weil
+  46:    1  ->  will
+  47:    1  ->  would
+  48:    1  ->  you
+     -------
+        54
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    4  ->  and
+   2:    2  ->  am
+   3:    2  ->  jackachew
+   4:    2  ->  that's
+   5:    2  ->  the
+   6:    2  ->  to
+   7:    2  ->  which
+   8:    1  ->  a
+   9:    1  ->  aggressive
+  10:    1  ->  an
+  11:    1  ->  between
+  12:    1  ->  but
+  13:    1  ->  call
+  14:    1  ->  diet
+  15:    1  ->  do
+  16:    1  ->  element
+  17:    1  ->  except
+  18:    1  ->  figured
+  19:    1  ->  five
+  20:    1  ->  get
+  21:    1  ->  go
+  22:    1  ->  going
+  23:    1  ->  guerrilla
+  24:    1  ->  here
+  25:    1  ->  hightech
+  26:    1  ->  i
+  27:    1  ->  in
+  28:    1  ->  just
+  29:    1  ->  law
+  30:    1  ->  mendy
+  31:    1  ->  nice
+  32:    1  ->  not
+  33:    1  ->  oh
+  34:    1  ->  on
+  35:    1  ->  poem
+  36:    1  ->  pseudoinformation
+  37:    1  ->  shatranji
+  38:    1  ->  simone
+  39:    1  ->  so
+  40:    1  ->  structure
+  41:    1  ->  that
+  42:    1  ->  vale
+  43:    1  ->  waking
+  44:    1  ->  want
+  45:    1  ->  was
+     -------
+        54
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

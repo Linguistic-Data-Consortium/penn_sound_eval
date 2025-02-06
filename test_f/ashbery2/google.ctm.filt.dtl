@@ -1,0 +1,159 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.2%   (  44)
+
+Percent Correct           =   96.5%   (1001)
+
+Percent Substitution      =    2.3%   (  24)
+Percent Deletions         =    1.2%   (  12)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   95.8%
+
+
+Ref. words                =           (1037)
+Hyp. words                =           (1033)
+Aligned words             =           (1045)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  hag ==> seahag
+   2:    1  ->  a ==> the
+   3:    1  ->  bookshop ==> shop
+   4:    1  ->  down ==> on
+   5:    1  ->  eighties ==> 80s
+   6:    1  ->  finnish ==> finished
+   7:    1  ->  hear ==> were
+   8:    1  ->  heavyset ==> set
+   9:    1  ->  how ==> what
+  10:    1  ->  kalevala ==> calvala
+  11:    1  ->  looming ==> gloomy
+  12:    1  ->  of ==> in
+  13:    1  ->  or ==> are
+  14:    1  ->  passes ==> paths
+  15:    1  ->  placed ==> place
+  16:    1  ->  poem ==> one
+  17:    1  ->  pohjola ==> pojola
+  18:    1  ->  ruder ==> have
+  19:    1  ->  sun ==> son
+  20:    1  ->  tania ==> tanya
+  21:    1  ->  thought ==> though
+  22:    1  ->  wha ==> what
+  23:    1  ->  wimpy ==> whimpie
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  is
+   2:    1  ->  a
+   3:    1  ->  book
+   4:    1  ->  heavy
+   5:    1  ->  i
+   6:    1  ->  them
+   7:    1  ->  was
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  sea
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  appear
+   5:    1  ->  b
+   6:    1  ->  even
+   7:    1  ->  it's
+   8:    1  ->  just
+   9:    1  ->  s
+  10:    1  ->  some
+  11:    1  ->  then
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  hag
+   2:    1  ->  a
+   3:    1  ->  bookshop
+   4:    1  ->  down
+   5:    1  ->  eighties
+   6:    1  ->  finnish
+   7:    1  ->  hear
+   8:    1  ->  heavyset
+   9:    1  ->  how
+  10:    1  ->  kalevala
+  11:    1  ->  looming
+  12:    1  ->  of
+  13:    1  ->  or
+  14:    1  ->  passes
+  15:    1  ->  placed
+  16:    1  ->  poem
+  17:    1  ->  pohjola
+  18:    1  ->  ruder
+  19:    1  ->  sun
+  20:    1  ->  tania
+  21:    1  ->  thought
+  22:    1  ->  wha
+  23:    1  ->  wimpy
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  seahag
+   2:    2  ->  what
+   3:    1  ->  80s
+   4:    1  ->  are
+   5:    1  ->  calvala
+   6:    1  ->  finished
+   7:    1  ->  gloomy
+   8:    1  ->  have
+   9:    1  ->  in
+  10:    1  ->  on
+  11:    1  ->  one
+  12:    1  ->  paths
+  13:    1  ->  place
+  14:    1  ->  pojola
+  15:    1  ->  set
+  16:    1  ->  shop
+  17:    1  ->  son
+  18:    1  ->  tanya
+  19:    1  ->  the
+  20:    1  ->  though
+  21:    1  ->  were
+  22:    1  ->  whimpie
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

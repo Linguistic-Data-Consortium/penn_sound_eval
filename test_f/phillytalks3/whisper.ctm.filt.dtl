@@ -1,0 +1,151 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.7%   (  74)
+
+Percent Correct           =   92.3%   ( 783)
+
+Percent Substitution      =    2.0%   (  17)
+Percent Deletions         =    5.7%   (  48)
+Percent Insertions        =    1.1%   (   9)
+Percent Word Accuracy     =   91.3%
+
+
+Ref. words                =           ( 848)
+Hyp. words                =           ( 809)
+Aligned words             =           ( 857)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  an ==> a
+   2:    1  ->  answers ==> is
+   3:    1  ->  artaud ==> toe
+   4:    1  ->  cross ==> across
+   5:    1  ->  five ==> in
+   6:    1  ->  his ==> this
+   7:    1  ->  interest ==> interesting
+   8:    1  ->  it ==> this
+   9:    1  ->  once ==> was
+  10:    1  ->  or ==> where
+  11:    1  ->  phenomena ==> phenomenon
+  12:    1  ->  the ==> that
+  13:    1  ->  there's ==> it's
+  14:    1  ->  x ==> actually
+  15:    1  ->  x ==> ers
+  16:    1  ->  x ==> facts
+  17:    1  ->  x ==> mean
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  i
+   2:    1  ->  cp
+   3:    1  ->  in
+   4:    1  ->  is
+   5:    1  ->  mean
+   6:    1  ->  of
+   7:    1  ->  our
+   8:    1  ->  so
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    7  ->  x
+   2:    6  ->  and
+   3:    6  ->  it
+   4:    4  ->  the
+   5:    3  ->  a
+   6:    3  ->  i
+   7:    2  ->  %bcack
+   8:    2  ->  of
+   9:    1  ->  any
+  10:    1  ->  debt
+  11:    1  ->  feels
+  12:    1  ->  is
+  13:    1  ->  l
+  14:    1  ->  me
+  15:    1  ->  or
+  16:    1  ->  p
+  17:    1  ->  quite
+  18:    1  ->  so
+  19:    1  ->  social
+  20:    1  ->  that
+  21:    1  ->  there's
+  22:    1  ->  they
+  23:    1  ->  to
+     -------
+        48
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    4  ->  x
+   2:    1  ->  an
+   3:    1  ->  answers
+   4:    1  ->  artaud
+   5:    1  ->  cross
+   6:    1  ->  five
+   7:    1  ->  his
+   8:    1  ->  interest
+   9:    1  ->  it
+  10:    1  ->  once
+  11:    1  ->  or
+  12:    1  ->  phenomena
+  13:    1  ->  the
+  14:    1  ->  there's
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  this
+   2:    1  ->  a
+   3:    1  ->  across
+   4:    1  ->  actually
+   5:    1  ->  ers
+   6:    1  ->  facts
+   7:    1  ->  in
+   8:    1  ->  interesting
+   9:    1  ->  is
+  10:    1  ->  it's
+  11:    1  ->  mean
+  12:    1  ->  phenomenon
+  13:    1  ->  that
+  14:    1  ->  toe
+  15:    1  ->  was
+  16:    1  ->  where
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

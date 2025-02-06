@@ -1,0 +1,525 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   29.0%   ( 238)
+
+Percent Correct           =   76.4%   ( 627)
+
+Percent Substitution      =   20.1%   ( 165)
+Percent Deletions         =    3.5%   (  29)
+Percent Insertions        =    5.4%   (  44)
+Percent Word Accuracy     =   71.0%
+
+
+Ref. words                =           ( 821)
+Hyp. words                =           ( 836)
+Aligned words             =           ( 865)
+
+CONFUSION PAIRS                  Total                 (157)
+                                 With >=  1 occurrences (157)
+
+   1:    4  ->  a ==> the
+   2:    2  ->  poem ==> home
+   3:    2  ->  the ==> a
+   4:    2  ->  will ==> the
+   5:    2  ->  x ==> of
+   6:    2  ->  x ==> well
+   7:    1  ->  a ==> i
+   8:    1  ->  aimlessness ==> endlessness
+   9:    1  ->  all ==> old
+  10:    1  ->  ambition's ==> ambitions
+  11:    1  ->  an ==> and
+  12:    1  ->  and ==> an
+  13:    1  ->  and ==> as
+  14:    1  ->  and ==> in
+  15:    1  ->  annoying ==> and
+  16:    1  ->  are ==> the
+  17:    1  ->  baseman ==> basement
+  18:    1  ->  be ==> ruby
+  19:    1  ->  be ==> wind
+  20:    1  ->  beret ==> beray
+  21:    1  ->  boredom ==> cover
+  22:    1  ->  brandisher ==> shirt
+  23:    1  ->  brooklynese ==> is
+  24:    1  ->  brooklynese ==> lebanese
+  25:    1  ->  bus ==> breath
+  26:    1  ->  by ==> are
+  27:    1  ->  by ==> at
+  28:    1  ->  card ==> hard
+  29:    1  ->  chaucer ==> choicer
+  30:    1  ->  chaucer ==> crosser
+  31:    1  ->  chaucer ==> says
+  32:    1  ->  chaucer ==> schuler
+  33:    1  ->  code ==> cold
+  34:    1  ->  colored ==> cold
+  35:    1  ->  courts ==> course
+  36:    1  ->  cupid ==> cut
+  37:    1  ->  dawn ==> two
+  38:    1  ->  delayer ==> delay
+  39:    1  ->  devouring ==> di
+  40:    1  ->  distractions ==> distraction
+  41:    1  ->  drove ==> throwing
+  42:    1  ->  ending ==> engine
+  43:    1  ->  face's ==> is
+  44:    1  ->  fisher ==> fish
+  45:    1  ->  flounder ==> grounder
+  46:    1  ->  for ==> four
+  47:    1  ->  free ==> abrasive
+  48:    1  ->  geoffrey ==> jeffrey
+  49:    1  ->  glory ==> also
+  50:    1  ->  gravy ==> gray
+  51:    1  ->  head ==> oh
+  52:    1  ->  here ==> yet
+  53:    1  ->  his ==> the
+  54:    1  ->  i ==> one
+  55:    1  ->  if ==> it
+  56:    1  ->  in ==> it
+  57:    1  ->  in ==> with
+  58:    1  ->  its ==> his
+  59:    1  ->  joke ==> j
+  60:    1  ->  knowing ==> globe
+  61:    1  ->  layer ==> letter
+  62:    1  ->  leap ==> with
+  63:    1  ->  leaving ==> use
+  64:    1  ->  lines ==> mind
+  65:    1  ->  lips ==> lives
+  66:    1  ->  locate ==> rotate
+  67:    1  ->  longer ==> run
+  68:    1  ->  masonic ==> massage
+  69:    1  ->  melting ==> melted
+  70:    1  ->  mood ==> moon
+  71:    1  ->  morning ==> she
+  72:    1  ->  mortality's ==> mortality
+  73:    1  ->  movement ==> yeah
+  74:    1  ->  no ==> will
+  75:    1  ->  not ==> the
+  76:    1  ->  oil's ==> is
+  77:    1  ->  on ==> an
+  78:    1  ->  one ==> won
+  79:    1  ->  our ==> on
+  80:    1  ->  penis ==> is
+  81:    1  ->  plague ==> play
+  82:    1  ->  plucked ==> plucks
+  83:    1  ->  reiterator ==> reiterated
+  84:    1  ->  rose ==> world's
+  85:    1  ->  runner's ==> runners
+  86:    1  ->  settee ==> he
+  87:    1  ->  slurper ==> slur
+  88:    1  ->  smegma ==> stigma
+  89:    1  ->  some ==> so
+  90:    1  ->  stallion's ==> cts
+  91:    1  ->  station ==> stations
+  92:    1  ->  sunset's ==> sunsets
+  93:    1  ->  supper ==> sub
+  94:    1  ->  terror ==> perilla
+  95:    1  ->  the ==> meta
+  96:    1  ->  the ==> with
+  97:    1  ->  the ==> you
+  98:    1  ->  then ==> me
+  99:    1  ->  there ==> spread
+ 100:    1  ->  these ==> b's
+ 101:    1  ->  they ==> for
+ 102:    1  ->  through ==> with
+ 103:    1  ->  tourniquet ==> turkey
+ 104:    1  ->  twenty ==> oh
+ 105:    1  ->  unison ==> and
+ 106:    1  ->  wait ==> went
+ 107:    1  ->  warm ==> them
+ 108:    1  ->  was ==> always
+ 109:    1  ->  way ==> more
+ 110:    1  ->  were ==> with
+ 111:    1  ->  when ==> what
+ 112:    1  ->  when ==> where
+ 113:    1  ->  wigwam ==> on
+ 114:    1  ->  wrote ==> went
+ 115:    1  ->  x ==> am
+ 116:    1  ->  x ==> and
+ 117:    1  ->  x ==> arts
+ 118:    1  ->  x ==> boats
+ 119:    1  ->  x ==> bookcase
+ 120:    1  ->  x ==> breathers
+ 121:    1  ->  x ==> canons
+ 122:    1  ->  x ==> deco
+ 123:    1  ->  x ==> farming
+ 124:    1  ->  x ==> festal
+ 125:    1  ->  x ==> hazard
+ 126:    1  ->  x ==> held
+ 127:    1  ->  x ==> hit
+ 128:    1  ->  x ==> home
+ 129:    1  ->  x ==> hudson
+ 130:    1  ->  x ==> into
+ 131:    1  ->  x ==> is
+ 132:    1  ->  x ==> jesse
+ 133:    1  ->  x ==> june
+ 134:    1  ->  x ==> life
+ 135:    1  ->  x ==> linking
+ 136:    1  ->  x ==> loop
+ 137:    1  ->  x ==> manners
+ 138:    1  ->  x ==> more
+ 139:    1  ->  x ==> o
+ 140:    1  ->  x ==> padding
+ 141:    1  ->  x ==> parlor
+ 142:    1  ->  x ==> paula
+ 143:    1  ->  x ==> problem
+ 144:    1  ->  x ==> quotes
+ 145:    1  ->  x ==> shown
+ 146:    1  ->  x ==> store
+ 147:    1  ->  x ==> taking
+ 148:    1  ->  x ==> threaded
+ 149:    1  ->  x ==> tolerate
+ 150:    1  ->  x ==> tweezing
+ 151:    1  ->  x ==> urban
+ 152:    1  ->  x ==> wall
+ 153:    1  ->  x ==> wisdom's
+ 154:    1  ->  x ==> zars
+ 155:    1  ->  xeno's ==> zero
+ 156:    1  ->  year ==> you
+ 157:    1  ->  your ==> s
+     -------
+       165
+
+
+
+INSERTIONS                       Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  the
+   2:    2  ->  can
+   3:    2  ->  i
+   4:    2  ->  of
+   5:    1  ->  a
+   6:    1  ->  am
+   7:    1  ->  an
+   8:    1  ->  brand
+   9:    1  ->  brooklyne
+  10:    1  ->  clark
+  11:    1  ->  court
+  12:    1  ->  door
+  13:    1  ->  drought
+  14:    1  ->  face
+  15:    1  ->  five
+  16:    1  ->  give
+  17:    1  ->  have
+  18:    1  ->  hell
+  19:    1  ->  inter
+  20:    1  ->  li
+  21:    1  ->  me
+  22:    1  ->  men
+  23:    1  ->  no
+  24:    1  ->  nose
+  25:    1  ->  oil
+  26:    1  ->  one
+  27:    1  ->  pen
+  28:    1  ->  po
+  29:    1  ->  put
+  30:    1  ->  said
+  31:    1  ->  shoe
+  32:    1  ->  stump
+  33:    1  ->  that
+  34:    1  ->  two
+  35:    1  ->  wa
+  36:    1  ->  weight
+  37:    1  ->  west
+  38:    1  ->  when
+  39:    1  ->  your
+     -------
+        44
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    4  ->  the
+   2:    4  ->  x
+   3:    2  ->  of
+   4:    2  ->  there
+   5:    1  ->  both
+   6:    1  ->  carver
+   7:    1  ->  cold
+   8:    1  ->  fold
+   9:    1  ->  for
+  10:    1  ->  from
+  11:    1  ->  game
+  12:    1  ->  glow
+  13:    1  ->  her
+  14:    1  ->  hundred
+  15:    1  ->  in
+  16:    1  ->  over
+  17:    1  ->  pam
+  18:    1  ->  sea
+  19:    1  ->  so
+  20:    1  ->  thing
+  21:    1  ->  wind
+     -------
+        29
+
+
+
+SUBSTITUTIONS                    Total                 (102)
+                                 With >=  1 occurrences (102)
+
+   1:   44  ->  x
+   2:    5  ->  a
+   3:    5  ->  the
+   4:    4  ->  chaucer
+   5:    3  ->  and
+   6:    2  ->  be
+   7:    2  ->  brooklynese
+   8:    2  ->  by
+   9:    2  ->  in
+  10:    2  ->  poem
+  11:    2  ->  when
+  12:    2  ->  will
+  13:    1  ->  aimlessness
+  14:    1  ->  all
+  15:    1  ->  ambition's
+  16:    1  ->  an
+  17:    1  ->  annoying
+  18:    1  ->  are
+  19:    1  ->  baseman
+  20:    1  ->  beret
+  21:    1  ->  boredom
+  22:    1  ->  brandisher
+  23:    1  ->  bus
+  24:    1  ->  card
+  25:    1  ->  code
+  26:    1  ->  colored
+  27:    1  ->  courts
+  28:    1  ->  cupid
+  29:    1  ->  dawn
+  30:    1  ->  delayer
+  31:    1  ->  devouring
+  32:    1  ->  distractions
+  33:    1  ->  drove
+  34:    1  ->  ending
+  35:    1  ->  face's
+  36:    1  ->  fisher
+  37:    1  ->  flounder
+  38:    1  ->  for
+  39:    1  ->  free
+  40:    1  ->  geoffrey
+  41:    1  ->  glory
+  42:    1  ->  gravy
+  43:    1  ->  head
+  44:    1  ->  here
+  45:    1  ->  his
+  46:    1  ->  i
+  47:    1  ->  if
+  48:    1  ->  its
+  49:    1  ->  joke
+  50:    1  ->  knowing
+  51:    1  ->  layer
+  52:    1  ->  leap
+  53:    1  ->  leaving
+  54:    1  ->  lines
+  55:    1  ->  lips
+  56:    1  ->  locate
+  57:    1  ->  longer
+  58:    1  ->  masonic
+  59:    1  ->  melting
+  60:    1  ->  mood
+  61:    1  ->  morning
+  62:    1  ->  mortality's
+  63:    1  ->  movement
+  64:    1  ->  no
+  65:    1  ->  not
+  66:    1  ->  oil's
+  67:    1  ->  on
+  68:    1  ->  one
+  69:    1  ->  our
+  70:    1  ->  penis
+  71:    1  ->  plague
+  72:    1  ->  plucked
+  73:    1  ->  reiterator
+  74:    1  ->  rose
+  75:    1  ->  runner's
+  76:    1  ->  settee
+  77:    1  ->  slurper
+  78:    1  ->  smegma
+  79:    1  ->  some
+  80:    1  ->  stallion's
+  81:    1  ->  station
+  82:    1  ->  sunset's
+  83:    1  ->  supper
+  84:    1  ->  terror
+  85:    1  ->  then
+  86:    1  ->  there
+  87:    1  ->  these
+  88:    1  ->  they
+  89:    1  ->  through
+  90:    1  ->  tourniquet
+  91:    1  ->  twenty
+  92:    1  ->  unison
+  93:    1  ->  wait
+  94:    1  ->  warm
+  95:    1  ->  was
+  96:    1  ->  way
+  97:    1  ->  were
+  98:    1  ->  wigwam
+  99:    1  ->  wrote
+ 100:    1  ->  xeno's
+ 101:    1  ->  year
+ 102:    1  ->  your
+     -------
+       165
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (133)
+                                 With >=  1 occurrences (133)
+
+   1:    9  ->  the
+   2:    5  ->  is
+   3:    5  ->  with
+   4:    4  ->  and
+   5:    3  ->  home
+   6:    2  ->  a
+   7:    2  ->  an
+   8:    2  ->  cold
+   9:    2  ->  it
+  10:    2  ->  more
+  11:    2  ->  of
+  12:    2  ->  oh
+  13:    2  ->  on
+  14:    2  ->  well
+  15:    2  ->  went
+  16:    2  ->  you
+  17:    1  ->  abrasive
+  18:    1  ->  also
+  19:    1  ->  always
+  20:    1  ->  am
+  21:    1  ->  ambitions
+  22:    1  ->  are
+  23:    1  ->  arts
+  24:    1  ->  as
+  25:    1  ->  at
+  26:    1  ->  b's
+  27:    1  ->  basement
+  28:    1  ->  beray
+  29:    1  ->  boats
+  30:    1  ->  bookcase
+  31:    1  ->  breath
+  32:    1  ->  breathers
+  33:    1  ->  canons
+  34:    1  ->  choicer
+  35:    1  ->  course
+  36:    1  ->  cover
+  37:    1  ->  crosser
+  38:    1  ->  cts
+  39:    1  ->  cut
+  40:    1  ->  deco
+  41:    1  ->  delay
+  42:    1  ->  di
+  43:    1  ->  distraction
+  44:    1  ->  endlessness
+  45:    1  ->  engine
+  46:    1  ->  farming
+  47:    1  ->  festal
+  48:    1  ->  fish
+  49:    1  ->  for
+  50:    1  ->  four
+  51:    1  ->  globe
+  52:    1  ->  gray
+  53:    1  ->  grounder
+  54:    1  ->  hard
+  55:    1  ->  hazard
+  56:    1  ->  he
+  57:    1  ->  held
+  58:    1  ->  his
+  59:    1  ->  hit
+  60:    1  ->  hudson
+  61:    1  ->  i
+  62:    1  ->  in
+  63:    1  ->  into
+  64:    1  ->  j
+  65:    1  ->  jeffrey
+  66:    1  ->  jesse
+  67:    1  ->  june
+  68:    1  ->  lebanese
+  69:    1  ->  letter
+  70:    1  ->  life
+  71:    1  ->  linking
+  72:    1  ->  lives
+  73:    1  ->  loop
+  74:    1  ->  manners
+  75:    1  ->  massage
+  76:    1  ->  me
+  77:    1  ->  melted
+  78:    1  ->  meta
+  79:    1  ->  mind
+  80:    1  ->  moon
+  81:    1  ->  mortality
+  82:    1  ->  o
+  83:    1  ->  old
+  84:    1  ->  one
+  85:    1  ->  padding
+  86:    1  ->  parlor
+  87:    1  ->  paula
+  88:    1  ->  perilla
+  89:    1  ->  play
+  90:    1  ->  plucks
+  91:    1  ->  problem
+  92:    1  ->  quotes
+  93:    1  ->  reiterated
+  94:    1  ->  rotate
+  95:    1  ->  ruby
+  96:    1  ->  run
+  97:    1  ->  runners
+  98:    1  ->  s
+  99:    1  ->  says
+ 100:    1  ->  schuler
+ 101:    1  ->  she
+ 102:    1  ->  shirt
+ 103:    1  ->  shown
+ 104:    1  ->  slur
+ 105:    1  ->  so
+ 106:    1  ->  spread
+ 107:    1  ->  stations
+ 108:    1  ->  stigma
+ 109:    1  ->  store
+ 110:    1  ->  sub
+ 111:    1  ->  sunsets
+ 112:    1  ->  taking
+ 113:    1  ->  them
+ 114:    1  ->  threaded
+ 115:    1  ->  throwing
+ 116:    1  ->  tolerate
+ 117:    1  ->  turkey
+ 118:    1  ->  tweezing
+ 119:    1  ->  two
+ 120:    1  ->  urban
+ 121:    1  ->  use
+ 122:    1  ->  wall
+ 123:    1  ->  what
+ 124:    1  ->  where
+ 125:    1  ->  will
+ 126:    1  ->  wind
+ 127:    1  ->  wisdom's
+ 128:    1  ->  won
+ 129:    1  ->  world's
+ 130:    1  ->  yeah
+ 131:    1  ->  yet
+ 132:    1  ->  zars
+ 133:    1  ->  zero
+     -------
+       165
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

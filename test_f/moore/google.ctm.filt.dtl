@@ -1,0 +1,179 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.7%   (  45)
+
+Percent Correct           =   94.6%   ( 742)
+
+Percent Substitution      =    4.0%   (  31)
+Percent Deletions         =    1.4%   (  11)
+Percent Insertions        =    0.4%   (   3)
+Percent Word Accuracy     =   94.3%
+
+
+Ref. words                =           ( 784)
+Hyp. words                =           ( 776)
+Aligned words             =           ( 787)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  abandoned ==> abandon
+   2:    1  ->  an ==> and
+   3:    1  ->  and ==> an
+   4:    1  ->  blear ==> bleared
+   5:    1  ->  burly ==> hurlyburly
+   6:    1  ->  caw ==> call
+   7:    1  ->  crests ==> crest
+   8:    1  ->  ditch ==> the
+   9:    1  ->  ease ==> heartease
+  10:    1  ->  fathering ==> fothering
+  11:    1  ->  fenceposts ==> posts
+  12:    1  ->  freshens ==> freshened
+  13:    1  ->  hawk's ==> hawks
+  14:    1  ->  heart ==> timetelling
+  15:    1  ->  livid ==> vivid
+  16:    1  ->  out ==> of
+  17:    1  ->  reeks ==> reaks
+  18:    1  ->  relief ==> release
+  19:    1  ->  rightness ==> brightness
+  20:    1  ->  rightness ==> ripeness
+  21:    1  ->  rioting ==> riding
+  22:    1  ->  rocked ==> rot
+  23:    1  ->  running ==> ditchrunning
+  24:    1  ->  saying ==> same
+  25:    1  ->  seperation ==> separation
+  26:    1  ->  speaking ==> heartspeaking
+  27:    1  ->  spearing ==> frogspearing
+  28:    1  ->  that ==> but
+  29:    1  ->  wheeled ==> wheel
+  30:    1  ->  whit ==> wit
+  31:    1  ->  wrath ==> rap
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  fence
+   2:    1  ->  light
+   3:    1  ->  the
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  air
+   2:    1  ->  frog
+   3:    1  ->  heart
+   4:    1  ->  hurly
+   5:    1  ->  of
+   6:    1  ->  rippling
+   7:    1  ->  silence
+   8:    1  ->  telling
+   9:    1  ->  the
+  10:    1  ->  time
+  11:    1  ->  water
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  rightness
+   2:    1  ->  abandoned
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  blear
+   6:    1  ->  burly
+   7:    1  ->  caw
+   8:    1  ->  crests
+   9:    1  ->  ditch
+  10:    1  ->  ease
+  11:    1  ->  fathering
+  12:    1  ->  fenceposts
+  13:    1  ->  freshens
+  14:    1  ->  hawk's
+  15:    1  ->  heart
+  16:    1  ->  livid
+  17:    1  ->  out
+  18:    1  ->  reeks
+  19:    1  ->  relief
+  20:    1  ->  rioting
+  21:    1  ->  rocked
+  22:    1  ->  running
+  23:    1  ->  saying
+  24:    1  ->  seperation
+  25:    1  ->  speaking
+  26:    1  ->  spearing
+  27:    1  ->  that
+  28:    1  ->  wheeled
+  29:    1  ->  whit
+  30:    1  ->  wrath
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  abandon
+   2:    1  ->  an
+   3:    1  ->  and
+   4:    1  ->  bleared
+   5:    1  ->  brightness
+   6:    1  ->  but
+   7:    1  ->  call
+   8:    1  ->  crest
+   9:    1  ->  ditchrunning
+  10:    1  ->  fothering
+  11:    1  ->  freshened
+  12:    1  ->  frogspearing
+  13:    1  ->  hawks
+  14:    1  ->  heartease
+  15:    1  ->  heartspeaking
+  16:    1  ->  hurlyburly
+  17:    1  ->  of
+  18:    1  ->  posts
+  19:    1  ->  rap
+  20:    1  ->  reaks
+  21:    1  ->  release
+  22:    1  ->  riding
+  23:    1  ->  ripeness
+  24:    1  ->  rot
+  25:    1  ->  same
+  26:    1  ->  separation
+  27:    1  ->  the
+  28:    1  ->  timetelling
+  29:    1  ->  vivid
+  30:    1  ->  wheel
+  31:    1  ->  wit
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

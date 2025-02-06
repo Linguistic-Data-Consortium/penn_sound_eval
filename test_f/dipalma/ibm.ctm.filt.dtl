@@ -1,0 +1,291 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.2%   (  99)
+
+Percent Correct           =   93.0%   (1119)
+
+Percent Substitution      =    6.1%   (  73)
+Percent Deletions         =    0.9%   (  11)
+Percent Insertions        =    1.2%   (  15)
+Percent Word Accuracy     =   91.8%
+
+
+Ref. words                =           (1203)
+Hyp. words                =           (1207)
+Aligned words             =           (1218)
+
+CONFUSION PAIRS                  Total                 (72)
+                                 With >=  1 occurrences (72)
+
+   1:    2  ->  and ==> in
+   2:    1  ->  a ==> is
+   3:    1  ->  a ==> the
+   4:    1  ->  add ==> and
+   5:    1  ->  and ==> the
+   6:    1  ->  and ==> then
+   7:    1  ->  annul ==> annoy
+   8:    1  ->  baudelaire's ==> butler's
+   9:    1  ->  baudelairean ==> dalaran
+  10:    1  ->  beats ==> beach
+  11:    1  ->  campy ==> came
+  12:    1  ->  crabbed ==> crab
+  13:    1  ->  creep ==> creating
+  14:    1  ->  dialogue ==> dialog
+  15:    1  ->  elitism ==> and
+  16:    1  ->  elitist ==> self
+  17:    1  ->  emotionalisms ==> emotionalism
+  18:    1  ->  ensured ==> insured
+  19:    1  ->  fact ==> effect
+  20:    1  ->  for ==> leaders
+  21:    1  ->  ginsberg ==> ginsburg
+  22:    1  ->  grueling ==> ruling
+  23:    1  ->  he ==> witching
+  24:    1  ->  images ==> is
+  25:    1  ->  in ==> and
+  26:    1  ->  in ==> i
+  27:    1  ->  interlude ==> influence
+  28:    1  ->  is ==> harris
+  29:    1  ->  italics ==> talents
+  30:    1  ->  know ==> no
+  31:    1  ->  mocking ==> marking
+  32:    1  ->  no ==> now
+  33:    1  ->  o'hara ==> a
+  34:    1  ->  o'hara's ==> harris
+  35:    1  ->  o'hara's ==> hires
+  36:    1  ->  of ==> promo
+  37:    1  ->  or ==> and
+  38:    1  ->  or ==> for
+  39:    1  ->  or ==> of
+  40:    1  ->  or ==> though
+  41:    1  ->  others' ==> others
+  42:    1  ->  period ==> criteria
+  43:    1  ->  phrase ==> his
+  44:    1  ->  poem ==> form's
+  45:    1  ->  poems ==> poles
+  46:    1  ->  pose ==> polls
+  47:    1  ->  reconcile ==> recognise
+  48:    1  ->  references ==> as
+  49:    1  ->  selfconscious ==> conscious
+  50:    1  ->  selfdestruction ==> destruction
+  51:    1  ->  selfsatisfied ==> satisfied
+  52:    1  ->  shrewdest ==> shortest
+  53:    1  ->  sidestepped ==> sidestep
+  54:    1  ->  sores ==> swords
+  55:    1  ->  the ==> a
+  56:    1  ->  thus ==> unless
+  57:    1  ->  to ==> and
+  58:    1  ->  trying ==> turning
+  59:    1  ->  weepiness ==> weakness
+  60:    1  ->  wellfounded ==> founded
+  61:    1  ->  wellorganised ==> organised
+  62:    1  ->  were ==> with
+  63:    1  ->  what ==> one
+  64:    1  ->  whitman's ==> whitney's
+  65:    1  ->  whitman's ==> women's
+  66:    1  ->  wit ==> with
+  67:    1  ->  with ==> was
+  68:    1  ->  worldrenowned ==> renowned
+  69:    1  ->  x ==> edged
+  70:    1  ->  x ==> iowa
+  71:    1  ->  x ==> that's
+  72:    1  ->  x ==> years
+     -------
+        73
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  self
+   2:    2  ->  well
+   3:    1  ->  and
+   4:    1  ->  but
+   5:    1  ->  by
+   6:    1  ->  elites
+   7:    1  ->  for
+   8:    1  ->  her
+   9:    1  ->  image
+  10:    1  ->  it
+  11:    1  ->  reference
+  12:    1  ->  two
+  13:    1  ->  world
+     -------
+        15
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  a
+   2:    1  ->  an
+   3:    1  ->  baude
+   4:    1  ->  cried
+   5:    1  ->  he's
+   6:    1  ->  in
+   7:    1  ->  o'hara
+   8:    1  ->  poem
+   9:    1  ->  to
+  10:    1  ->  which
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    4  ->  and
+   2:    4  ->  or
+   3:    4  ->  x
+   4:    2  ->  a
+   5:    2  ->  in
+   6:    2  ->  o'hara's
+   7:    2  ->  whitman's
+   8:    1  ->  add
+   9:    1  ->  annul
+  10:    1  ->  baudelaire's
+  11:    1  ->  baudelairean
+  12:    1  ->  beats
+  13:    1  ->  campy
+  14:    1  ->  crabbed
+  15:    1  ->  creep
+  16:    1  ->  dialogue
+  17:    1  ->  elitism
+  18:    1  ->  elitist
+  19:    1  ->  emotionalisms
+  20:    1  ->  ensured
+  21:    1  ->  fact
+  22:    1  ->  for
+  23:    1  ->  ginsberg
+  24:    1  ->  grueling
+  25:    1  ->  he
+  26:    1  ->  images
+  27:    1  ->  interlude
+  28:    1  ->  is
+  29:    1  ->  italics
+  30:    1  ->  know
+  31:    1  ->  mocking
+  32:    1  ->  no
+  33:    1  ->  o'hara
+  34:    1  ->  of
+  35:    1  ->  others'
+  36:    1  ->  period
+  37:    1  ->  phrase
+  38:    1  ->  poem
+  39:    1  ->  poems
+  40:    1  ->  pose
+  41:    1  ->  reconcile
+  42:    1  ->  references
+  43:    1  ->  selfconscious
+  44:    1  ->  selfdestruction
+  45:    1  ->  selfsatisfied
+  46:    1  ->  shrewdest
+  47:    1  ->  sidestepped
+  48:    1  ->  sores
+  49:    1  ->  the
+  50:    1  ->  thus
+  51:    1  ->  to
+  52:    1  ->  trying
+  53:    1  ->  weepiness
+  54:    1  ->  wellfounded
+  55:    1  ->  wellorganised
+  56:    1  ->  were
+  57:    1  ->  what
+  58:    1  ->  wit
+  59:    1  ->  with
+  60:    1  ->  worldrenowned
+     -------
+        73
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (63)
+                                 With >=  1 occurrences (63)
+
+   1:    5  ->  and
+   2:    2  ->  a
+   3:    2  ->  harris
+   4:    2  ->  in
+   5:    2  ->  is
+   6:    2  ->  the
+   7:    2  ->  with
+   8:    1  ->  annoy
+   9:    1  ->  as
+  10:    1  ->  beach
+  11:    1  ->  butler's
+  12:    1  ->  came
+  13:    1  ->  conscious
+  14:    1  ->  crab
+  15:    1  ->  creating
+  16:    1  ->  criteria
+  17:    1  ->  dalaran
+  18:    1  ->  destruction
+  19:    1  ->  dialog
+  20:    1  ->  edged
+  21:    1  ->  effect
+  22:    1  ->  emotionalism
+  23:    1  ->  for
+  24:    1  ->  form's
+  25:    1  ->  founded
+  26:    1  ->  ginsburg
+  27:    1  ->  hires
+  28:    1  ->  his
+  29:    1  ->  i
+  30:    1  ->  influence
+  31:    1  ->  insured
+  32:    1  ->  iowa
+  33:    1  ->  leaders
+  34:    1  ->  marking
+  35:    1  ->  no
+  36:    1  ->  now
+  37:    1  ->  of
+  38:    1  ->  one
+  39:    1  ->  organised
+  40:    1  ->  others
+  41:    1  ->  poles
+  42:    1  ->  polls
+  43:    1  ->  promo
+  44:    1  ->  recognise
+  45:    1  ->  renowned
+  46:    1  ->  ruling
+  47:    1  ->  satisfied
+  48:    1  ->  self
+  49:    1  ->  shortest
+  50:    1  ->  sidestep
+  51:    1  ->  swords
+  52:    1  ->  talents
+  53:    1  ->  that's
+  54:    1  ->  then
+  55:    1  ->  though
+  56:    1  ->  turning
+  57:    1  ->  unless
+  58:    1  ->  was
+  59:    1  ->  weakness
+  60:    1  ->  whitney's
+  61:    1  ->  witching
+  62:    1  ->  women's
+  63:    1  ->  years
+     -------
+        73
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

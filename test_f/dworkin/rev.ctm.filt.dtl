@@ -1,0 +1,200 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.2%   (  76)
+
+Percent Correct           =   92.5%   ( 862)
+
+Percent Substitution      =    5.9%   (  55)
+Percent Deletions         =    1.6%   (  15)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   91.8%
+
+
+Ref. words                =           ( 932)
+Hyp. words                =           ( 923)
+Aligned words             =           ( 938)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    6  ->  ninety ==> 5
+   2:    4  ->  oh ==> 0
+   3:    4  ->  six ==> 96
+   4:    2  ->  forty ==> oh
+   5:    2  ->  hundred ==> zero
+   6:    2  ->  it ==> this
+   7:    2  ->  nine ==> 99
+   8:    2  ->  three ==> 53
+   9:    1  ->  an ==> and
+  10:    1  ->  and ==> an
+  11:    1  ->  artell ==> tell
+  12:    1  ->  choicelessness ==> choice
+  13:    1  ->  collocation ==> colocation
+  14:    1  ->  expositor ==> door
+  15:    1  ->  five ==> and
+  16:    1  ->  five ==> of
+  17:    1  ->  formed ==> foreign
+  18:    1  ->  four ==> 44
+  19:    1  ->  future ==> feature
+  20:    1  ->  in ==> treading
+  21:    1  ->  incorporeal ==> inal
+  22:    1  ->  manner ==> matter
+  23:    1  ->  or ==> of
+  24:    1  ->  penning ==> pen
+  25:    1  ->  perseverace ==> perseverance
+  26:    1  ->  pertinaciousness ==> tenaciousness
+  27:    1  ->  pertinacity ==> per
+  28:    1  ->  poo ==> attract
+  29:    1  ->  principal ==> principle
+  30:    1  ->  roget's ==> rose's
+  31:    1  ->  role ==> rule
+  32:    1  ->  sane ==> saying
+  33:    1  ->  seek ==> sake
+  34:    1  ->  sentence ==> sense
+  35:    1  ->  stars' ==> stars
+  36:    1  ->  ten ==> oh
+  37:    1  ->  unenclosed ==> unclosed
+  38:    1  ->  with ==> of
+  39:    1  ->  writing ==> right
+     -------
+        55
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  art
+   3:    1  ->  exposed
+   4:    1  ->  per
+   5:    1  ->  tenacity
+   6:    1  ->  un
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    4  ->  five
+   2:    3  ->  a
+   3:    2  ->  fifty
+   4:    1  ->  an
+   5:    1  ->  for
+   6:    1  ->  forty
+   7:    1  ->  to
+   8:    1  ->  track
+   9:    1  ->  tread
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    6  ->  ninety
+   2:    4  ->  oh
+   3:    4  ->  six
+   4:    2  ->  five
+   5:    2  ->  forty
+   6:    2  ->  hundred
+   7:    2  ->  it
+   8:    2  ->  nine
+   9:    2  ->  three
+  10:    1  ->  an
+  11:    1  ->  and
+  12:    1  ->  artell
+  13:    1  ->  choicelessness
+  14:    1  ->  collocation
+  15:    1  ->  expositor
+  16:    1  ->  formed
+  17:    1  ->  four
+  18:    1  ->  future
+  19:    1  ->  in
+  20:    1  ->  incorporeal
+  21:    1  ->  manner
+  22:    1  ->  or
+  23:    1  ->  penning
+  24:    1  ->  perseverace
+  25:    1  ->  pertinaciousness
+  26:    1  ->  pertinacity
+  27:    1  ->  poo
+  28:    1  ->  principal
+  29:    1  ->  roget's
+  30:    1  ->  role
+  31:    1  ->  sane
+  32:    1  ->  seek
+  33:    1  ->  sentence
+  34:    1  ->  stars'
+  35:    1  ->  ten
+  36:    1  ->  unenclosed
+  37:    1  ->  with
+  38:    1  ->  writing
+     -------
+        55
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    6  ->  5
+   2:    4  ->  0
+   3:    4  ->  96
+   4:    3  ->  of
+   5:    3  ->  oh
+   6:    2  ->  53
+   7:    2  ->  99
+   8:    2  ->  and
+   9:    2  ->  this
+  10:    2  ->  zero
+  11:    1  ->  44
+  12:    1  ->  an
+  13:    1  ->  attract
+  14:    1  ->  choice
+  15:    1  ->  colocation
+  16:    1  ->  door
+  17:    1  ->  feature
+  18:    1  ->  foreign
+  19:    1  ->  inal
+  20:    1  ->  matter
+  21:    1  ->  pen
+  22:    1  ->  per
+  23:    1  ->  perseverance
+  24:    1  ->  principle
+  25:    1  ->  right
+  26:    1  ->  rose's
+  27:    1  ->  rule
+  28:    1  ->  sake
+  29:    1  ->  saying
+  30:    1  ->  sense
+  31:    1  ->  stars
+  32:    1  ->  tell
+  33:    1  ->  tenaciousness
+  34:    1  ->  treading
+  35:    1  ->  unclosed
+     -------
+        55
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

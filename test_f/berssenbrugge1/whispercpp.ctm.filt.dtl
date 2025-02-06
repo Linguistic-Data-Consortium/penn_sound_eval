@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.2%   (  28)
+
+Percent Correct           =   97.0%   ( 838)
+
+Percent Substitution      =    1.5%   (  13)
+Percent Deletions         =    1.5%   (  13)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   96.8%
+
+
+Ref. words                =           ( 864)
+Hyp. words                =           ( 853)
+Aligned words             =           ( 866)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  aesthetic ==> anesthetic
+   2:    1  ->  comprehension ==> noncomprehension
+   3:    1  ->  feel ==> field
+   4:    1  ->  hatched ==> crosshatched
+   5:    1  ->  head ==> headtohead
+   6:    1  ->  implicated ==> imbricated
+   7:    1  ->  loop ==> looptoloop
+   8:    1  ->  much ==> inasmuch
+   9:    1  ->  photograph ==> photographable
+  10:    1  ->  role ==> room
+  11:    1  ->  tongues ==> tongue
+  12:    1  ->  wherever ==> ever
+  13:    1  ->  you ==> to
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  quan
+   2:    1  ->  yin
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  in
+   2:    2  ->  to
+   3:    1  ->  a
+   4:    1  ->  an
+   5:    1  ->  as
+   6:    1  ->  cross
+   7:    1  ->  do
+   8:    1  ->  head
+   9:    1  ->  loop
+  10:    1  ->  non
+  11:    1  ->  x
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  aesthetic
+   2:    1  ->  comprehension
+   3:    1  ->  feel
+   4:    1  ->  hatched
+   5:    1  ->  head
+   6:    1  ->  implicated
+   7:    1  ->  loop
+   8:    1  ->  much
+   9:    1  ->  photograph
+  10:    1  ->  role
+  11:    1  ->  tongues
+  12:    1  ->  wherever
+  13:    1  ->  you
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  anesthetic
+   2:    1  ->  crosshatched
+   3:    1  ->  ever
+   4:    1  ->  field
+   5:    1  ->  headtohead
+   6:    1  ->  imbricated
+   7:    1  ->  inasmuch
+   8:    1  ->  looptoloop
+   9:    1  ->  noncomprehension
+  10:    1  ->  photographable
+  11:    1  ->  room
+  12:    1  ->  to
+  13:    1  ->  tongue
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

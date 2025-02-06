@@ -1,0 +1,122 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    1.8%   (  21)
+
+Percent Correct           =   98.4%   (1118)
+
+Percent Substitution      =    1.2%   (  14)
+Percent Deletions         =    0.4%   (   4)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   98.2%
+
+
+Ref. words                =           (1136)
+Hyp. words                =           (1135)
+Aligned words             =           (1139)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  acquired ==> required
+   2:    1  ->  elbows ==> elbow
+   3:    1  ->  is ==> highways
+   4:    1  ->  peering ==> appearing
+   5:    1  ->  scorned ==> scorn
+   6:    1  ->  selects ==> select
+   7:    1  ->  self ==> oneself
+   8:    1  ->  sufficed ==> suffice
+   9:    1  ->  ten ==> oh
+  10:    1  ->  the ==> for
+  11:    1  ->  they ==> their
+  12:    1  ->  twenty ==> two
+  13:    1  ->  unslings ==> slings
+  14:    1  ->  until ==> till
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  <laugh>
+   2:    1  ->  is
+   3:    1  ->  un
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  highway
+   2:    1  ->  is
+   3:    1  ->  one's
+   4:    1  ->  th
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  acquired
+   2:    1  ->  elbows
+   3:    1  ->  is
+   4:    1  ->  peering
+   5:    1  ->  scorned
+   6:    1  ->  selects
+   7:    1  ->  self
+   8:    1  ->  sufficed
+   9:    1  ->  ten
+  10:    1  ->  the
+  11:    1  ->  they
+  12:    1  ->  twenty
+  13:    1  ->  unslings
+  14:    1  ->  until
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  appearing
+   2:    1  ->  elbow
+   3:    1  ->  for
+   4:    1  ->  highways
+   5:    1  ->  oh
+   6:    1  ->  oneself
+   7:    1  ->  required
+   8:    1  ->  scorn
+   9:    1  ->  select
+  10:    1  ->  slings
+  11:    1  ->  suffice
+  12:    1  ->  their
+  13:    1  ->  till
+  14:    1  ->  two
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

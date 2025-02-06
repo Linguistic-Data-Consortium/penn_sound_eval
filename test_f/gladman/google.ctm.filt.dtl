@@ -1,0 +1,150 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.2%   (  33)
+
+Percent Correct           =   97.1%   (1003)
+
+Percent Substitution      =    2.2%   (  23)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   96.8%
+
+
+Ref. words                =           (1033)
+Hyp. words                =           (1029)
+Aligned words             =           (1036)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  as ==> just
+   2:    1  ->  bedroom ==> twobedroom
+   3:    1  ->  blinding ==> thing
+   4:    1  ->  celsius ==> c
+   5:    1  ->  degrees ==> 30°
+   6:    1  ->  experience ==> experienced
+   7:    1  ->  fat ==> flat
+   8:    1  ->  feeling's ==> feelings
+   9:    1  ->  for ==> from
+  10:    1  ->  hands ==> hand
+  11:    1  ->  haunted ==> at
+  12:    1  ->  ho ==> how
+  13:    1  ->  in ==> and
+  14:    1  ->  incongruous ==> encumbering
+  15:    1  ->  it ==> and
+  16:    1  ->  lap ==> leg
+  17:    1  ->  lived ==> shortlived
+  18:    1  ->  me ==> me"
+  19:    1  ->  moods ==> moves
+  20:    1  ->  over ==> of
+  21:    1  ->  ten ==> oh
+  22:    1  ->  what ==> "what
+  23:    1  ->  what ==> what"
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  "hmm
+   2:    1  ->  blind
+   3:    1  ->  hunt
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and
+   2:    1  ->  it
+   3:    1  ->  o
+   4:    1  ->  short
+   5:    1  ->  thirty
+   6:    1  ->  two
+   7:    1  ->  were
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  what
+   2:    1  ->  as
+   3:    1  ->  bedroom
+   4:    1  ->  blinding
+   5:    1  ->  celsius
+   6:    1  ->  degrees
+   7:    1  ->  experience
+   8:    1  ->  fat
+   9:    1  ->  feeling's
+  10:    1  ->  for
+  11:    1  ->  hands
+  12:    1  ->  haunted
+  13:    1  ->  ho
+  14:    1  ->  in
+  15:    1  ->  incongruous
+  16:    1  ->  it
+  17:    1  ->  lap
+  18:    1  ->  lived
+  19:    1  ->  me
+  20:    1  ->  moods
+  21:    1  ->  over
+  22:    1  ->  ten
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  and
+   2:    1  ->  "what
+   3:    1  ->  30°
+   4:    1  ->  at
+   5:    1  ->  c
+   6:    1  ->  encumbering
+   7:    1  ->  experienced
+   8:    1  ->  feelings
+   9:    1  ->  flat
+  10:    1  ->  from
+  11:    1  ->  hand
+  12:    1  ->  how
+  13:    1  ->  just
+  14:    1  ->  leg
+  15:    1  ->  me"
+  16:    1  ->  moves
+  17:    1  ->  of
+  18:    1  ->  oh
+  19:    1  ->  shortlived
+  20:    1  ->  thing
+  21:    1  ->  twobedroom
+  22:    1  ->  what"
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

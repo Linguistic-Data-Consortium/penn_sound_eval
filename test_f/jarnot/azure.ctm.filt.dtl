@@ -1,0 +1,143 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.0%   (  30)
+
+Percent Correct           =   96.7%   ( 726)
+
+Percent Substitution      =    2.9%   (  22)
+Percent Deletions         =    0.4%   (   3)
+Percent Insertions        =    0.7%   (   5)
+Percent Word Accuracy     =   96.0%
+
+
+Ref. words                =           ( 751)
+Hyp. words                =           ( 753)
+Aligned words             =           ( 756)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  th ==> the
+   2:    1  ->  a ==> an
+   3:    1  ->  an ==> and
+   4:    1  ->  apt ==> app
+   5:    1  ->  cot ==> caught
+   6:    1  ->  eruptions ==> eruption
+   7:    1  ->  for ==> four
+   8:    1  ->  heroine ==> heroin
+   9:    1  ->  j ==> jay
+  10:    1  ->  jades ==> 's
+  11:    1  ->  kyger ==> kiger
+  12:    1  ->  lost ==> last
+  13:    1  ->  miniscule ==> minuscule
+  14:    1  ->  nets ==> nuts
+  15:    1  ->  oh ==> o
+  16:    1  ->  one's ==> ones
+  17:    1  ->  psalm ==> sound
+  18:    1  ->  taut ==> tot
+  19:    1  ->  treasons ==> a
+  20:    1  ->  x ==> comfort
+  21:    1  ->  x ==> entanglers
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  's
+   2:    1  ->  in
+   3:    1  ->  jade
+   4:    1  ->  parentheses
+   5:    1  ->  treason
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  ps
+   3:    1  ->  silence
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  th
+   2:    2  ->  x
+   3:    1  ->  a
+   4:    1  ->  an
+   5:    1  ->  apt
+   6:    1  ->  cot
+   7:    1  ->  eruptions
+   8:    1  ->  for
+   9:    1  ->  heroine
+  10:    1  ->  j
+  11:    1  ->  jades
+  12:    1  ->  kyger
+  13:    1  ->  lost
+  14:    1  ->  miniscule
+  15:    1  ->  nets
+  16:    1  ->  oh
+  17:    1  ->  one's
+  18:    1  ->  psalm
+  19:    1  ->  taut
+  20:    1  ->  treasons
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  the
+   2:    1  ->  's
+   3:    1  ->  a
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  app
+   7:    1  ->  caught
+   8:    1  ->  comfort
+   9:    1  ->  entanglers
+  10:    1  ->  eruption
+  11:    1  ->  four
+  12:    1  ->  heroin
+  13:    1  ->  jay
+  14:    1  ->  kiger
+  15:    1  ->  last
+  16:    1  ->  minuscule
+  17:    1  ->  nuts
+  18:    1  ->  o
+  19:    1  ->  ones
+  20:    1  ->  sound
+  21:    1  ->  tot
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

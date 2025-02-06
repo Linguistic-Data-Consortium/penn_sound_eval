@@ -1,0 +1,332 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.4%   ( 129)
+
+Percent Correct           =   89.4%   ( 802)
+
+Percent Substitution      =    9.0%   (  81)
+Percent Deletions         =    1.6%   (  14)
+Percent Insertions        =    3.8%   (  34)
+Percent Word Accuracy     =   85.6%
+
+
+Ref. words                =           ( 897)
+Hyp. words                =           ( 917)
+Aligned words             =           ( 931)
+
+CONFUSION PAIRS                  Total                 (79)
+                                 With >=  1 occurrences (79)
+
+   1:    2  ->  i ==> eye
+   2:    2  ->  x ==> your
+   3:    1  ->  an ==> edible
+   4:    1  ->  analyst's ==> analyst
+   5:    1  ->  analyze ==> analyse
+   6:    1  ->  are ==> if
+   7:    1  ->  batter ==> butter
+   8:    1  ->  called ==> call
+   9:    1  ->  came ==> cane
+  10:    1  ->  cocks ==> comps
+  11:    1  ->  coda ==> furlcoder
+  12:    1  ->  color ==> colour
+  13:    1  ->  digit ==> digits
+  14:    1  ->  digit ==> eightdigit
+  15:    1  ->  eight ==> 100000
+  16:    1  ->  farmhands ==> hands
+  17:    1  ->  float ==> the
+  18:    1  ->  gaming ==> gamey
+  19:    1  ->  heyerdahl ==> all
+  20:    1  ->  in ==> and
+  21:    1  ->  irony ==> only
+  22:    1  ->  is ==> aperitifs
+  23:    1  ->  is ==> has
+  24:    1  ->  it ==> therein
+  25:    1  ->  last ==> tent
+  26:    1  ->  limos ==> limo's
+  27:    1  ->  marla ==> mahler
+  28:    1  ->  mom ==> mum
+  29:    1  ->  mopey ==> moping
+  30:    1  ->  moss ==> mars
+  31:    1  ->  of ==> and
+  32:    1  ->  of ==> for
+  33:    1  ->  over ==> ogle
+  34:    1  ->  parrot ==> wild
+  35:    1  ->  phrase ==> phrases
+  36:    1  ->  play ==> clay
+  37:    1  ->  poems ==> poem
+  38:    1  ->  received ==> receive
+  39:    1  ->  road ==> offroad
+  40:    1  ->  scam ==> scan
+  41:    1  ->  scampi ==> scamby
+  42:    1  ->  service ==> it's
+  43:    1  ->  set ==> sets
+  44:    1  ->  sights ==> sight
+  45:    1  ->  simonize ==> simonises
+  46:    1  ->  spine ==> spy
+  47:    1  ->  tales ==> tails
+  48:    1  ->  thirty ==> three
+  49:    1  ->  thor ==> had
+  50:    1  ->  thought ==> not
+  51:    1  ->  trot ==> hightrop
+  52:    1  ->  usual ==> interval
+  53:    1  ->  wait ==> wake
+  54:    1  ->  well ==> fetishists
+  55:    1  ->  were ==> where
+  56:    1  ->  whole ==> hoe
+  57:    1  ->  wholesaled ==> wholesale
+  58:    1  ->  wig ==> wing
+  59:    1  ->  word ==> words
+  60:    1  ->  x ==> cinderton
+  61:    1  ->  x ==> ever
+  62:    1  ->  x ==> groundless
+  63:    1  ->  x ==> gyms
+  64:    1  ->  x ==> gyp
+  65:    1  ->  x ==> he
+  66:    1  ->  x ==> himki
+  67:    1  ->  x ==> huntsling
+  68:    1  ->  x ==> i
+  69:    1  ->  x ==> in
+  70:    1  ->  x ==> kontiki
+  71:    1  ->  x ==> limo
+  72:    1  ->  x ==> nylon
+  73:    1  ->  x ==> of
+  74:    1  ->  x ==> poliacy
+  75:    1  ->  x ==> shunt
+  76:    1  ->  x ==> sloths
+  77:    1  ->  x ==> tints
+  78:    1  ->  x ==> to
+  79:    1  ->  x ==> woo
+     -------
+        81
+
+
+
+INSERTIONS                       Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  and
+   2:    2  ->  i
+   3:    1  ->  air
+   4:    1  ->  am
+   5:    1  ->  ard
+   6:    1  ->  cage
+   7:    1  ->  circle
+   8:    1  ->  coffee
+   9:    1  ->  cop
+  10:    1  ->  farm
+  11:    1  ->  frowse
+  12:    1  ->  games
+  13:    1  ->  hemp
+  14:    1  ->  hoof
+  15:    1  ->  hooter
+  16:    1  ->  igloo
+  17:    1  ->  it
+  18:    1  ->  note
+  19:    1  ->  of
+  20:    1  ->  olympic
+  21:    1  ->  on
+  22:    1  ->  own
+  23:    1  ->  sheen
+  24:    1  ->  succeeded
+  25:    1  ->  thank
+  26:    1  ->  that
+  27:    1  ->  thought
+  28:    1  ->  tobacco
+  29:    1  ->  trolling
+  30:    1  ->  will
+  31:    1  ->  you
+  32:    1  ->  youth
+     -------
+        34
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a
+   2:    1  ->  comma
+   3:    1  ->  fur
+   4:    1  ->  high
+   5:    1  ->  hundred
+   6:    1  ->  of
+   7:    1  ->  off
+   8:    1  ->  out
+   9:    1  ->  tents
+  10:    1  ->  the
+  11:    1  ->  there
+  12:    1  ->  thousand
+  13:    1  ->  while
+  14:    1  ->  x
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (56)
+                                 With >=  1 occurrences (56)
+
+   1:   22  ->  x
+   2:    2  ->  digit
+   3:    2  ->  i
+   4:    2  ->  is
+   5:    2  ->  of
+   6:    1  ->  an
+   7:    1  ->  analyst's
+   8:    1  ->  analyze
+   9:    1  ->  are
+  10:    1  ->  batter
+  11:    1  ->  called
+  12:    1  ->  came
+  13:    1  ->  cocks
+  14:    1  ->  coda
+  15:    1  ->  color
+  16:    1  ->  eight
+  17:    1  ->  farmhands
+  18:    1  ->  float
+  19:    1  ->  gaming
+  20:    1  ->  heyerdahl
+  21:    1  ->  in
+  22:    1  ->  irony
+  23:    1  ->  it
+  24:    1  ->  last
+  25:    1  ->  limos
+  26:    1  ->  marla
+  27:    1  ->  mom
+  28:    1  ->  mopey
+  29:    1  ->  moss
+  30:    1  ->  over
+  31:    1  ->  parrot
+  32:    1  ->  phrase
+  33:    1  ->  play
+  34:    1  ->  poems
+  35:    1  ->  received
+  36:    1  ->  road
+  37:    1  ->  scam
+  38:    1  ->  scampi
+  39:    1  ->  service
+  40:    1  ->  set
+  41:    1  ->  sights
+  42:    1  ->  simonize
+  43:    1  ->  spine
+  44:    1  ->  tales
+  45:    1  ->  thirty
+  46:    1  ->  thor
+  47:    1  ->  thought
+  48:    1  ->  trot
+  49:    1  ->  usual
+  50:    1  ->  wait
+  51:    1  ->  well
+  52:    1  ->  were
+  53:    1  ->  whole
+  54:    1  ->  wholesaled
+  55:    1  ->  wig
+  56:    1  ->  word
+     -------
+        81
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (78)
+                                 With >=  1 occurrences (78)
+
+   1:    2  ->  and
+   2:    2  ->  eye
+   3:    2  ->  your
+   4:    1  ->  100000
+   5:    1  ->  all
+   6:    1  ->  analyse
+   7:    1  ->  analyst
+   8:    1  ->  aperitifs
+   9:    1  ->  butter
+  10:    1  ->  call
+  11:    1  ->  cane
+  12:    1  ->  cinderton
+  13:    1  ->  clay
+  14:    1  ->  colour
+  15:    1  ->  comps
+  16:    1  ->  digits
+  17:    1  ->  edible
+  18:    1  ->  eightdigit
+  19:    1  ->  ever
+  20:    1  ->  fetishists
+  21:    1  ->  for
+  22:    1  ->  furlcoder
+  23:    1  ->  gamey
+  24:    1  ->  groundless
+  25:    1  ->  gyms
+  26:    1  ->  gyp
+  27:    1  ->  had
+  28:    1  ->  hands
+  29:    1  ->  has
+  30:    1  ->  he
+  31:    1  ->  hightrop
+  32:    1  ->  himki
+  33:    1  ->  hoe
+  34:    1  ->  huntsling
+  35:    1  ->  i
+  36:    1  ->  if
+  37:    1  ->  in
+  38:    1  ->  interval
+  39:    1  ->  it's
+  40:    1  ->  kontiki
+  41:    1  ->  limo
+  42:    1  ->  limo's
+  43:    1  ->  mahler
+  44:    1  ->  mars
+  45:    1  ->  moping
+  46:    1  ->  mum
+  47:    1  ->  not
+  48:    1  ->  nylon
+  49:    1  ->  of
+  50:    1  ->  offroad
+  51:    1  ->  ogle
+  52:    1  ->  only
+  53:    1  ->  phrases
+  54:    1  ->  poem
+  55:    1  ->  poliacy
+  56:    1  ->  receive
+  57:    1  ->  scamby
+  58:    1  ->  scan
+  59:    1  ->  sets
+  60:    1  ->  shunt
+  61:    1  ->  sight
+  62:    1  ->  simonises
+  63:    1  ->  sloths
+  64:    1  ->  spy
+  65:    1  ->  tails
+  66:    1  ->  tent
+  67:    1  ->  the
+  68:    1  ->  therein
+  69:    1  ->  three
+  70:    1  ->  tints
+  71:    1  ->  to
+  72:    1  ->  wake
+  73:    1  ->  where
+  74:    1  ->  wholesale
+  75:    1  ->  wild
+  76:    1  ->  wing
+  77:    1  ->  woo
+  78:    1  ->  words
+     -------
+        81
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

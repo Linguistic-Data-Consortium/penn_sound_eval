@@ -1,0 +1,147 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.2%   (  44)
+
+Percent Correct           =   96.9%   (1008)
+
+Percent Substitution      =    1.7%   (  18)
+Percent Deletions         =    1.3%   (  14)
+Percent Insertions        =    1.2%   (  12)
+Percent Word Accuracy     =   95.8%
+
+
+Ref. words                =           (1040)
+Hyp. words                =           (1038)
+Aligned words             =           (1052)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  and ==> them
+   2:    1  ->  and ==> to
+   3:    1  ->  appeal ==> effects
+   4:    1  ->  books ==> scene
+   5:    1  ->  came ==> cane
+   6:    1  ->  combined ==> combine
+   7:    1  ->  draws ==> dross
+   8:    1  ->  eye ==> i
+   9:    1  ->  house ==> coffeehouse
+  10:    1  ->  jena ==> jenna
+  11:    1  ->  lengths ==> light
+  12:    1  ->  lowercase ==> case
+  13:    1  ->  now ==> and
+  14:    1  ->  planes ==> plains
+  15:    1  ->  revving ==> having
+  16:    1  ->  spahr ==> sparr
+  17:    1  ->  the ==> a
+  18:    1  ->  tonight ==> night
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  or
+   2:    2  ->  the
+   3:    1  ->  closely
+   4:    1  ->  have
+   5:    1  ->  looked
+   6:    1  ->  lower
+   7:    1  ->  more
+   8:    1  ->  of
+   9:    1  ->  she
+  10:    1  ->  to
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    3  ->  a
+   2:    2  ->  that
+   3:    1  ->  broadly
+   4:    1  ->  coffee
+   5:    1  ->  from
+   6:    1  ->  in
+   7:    1  ->  of
+   8:    1  ->  po
+   9:    1  ->  series
+  10:    1  ->  speaking
+  11:    1  ->  that's
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  and
+   2:    1  ->  appeal
+   3:    1  ->  books
+   4:    1  ->  came
+   5:    1  ->  combined
+   6:    1  ->  draws
+   7:    1  ->  eye
+   8:    1  ->  house
+   9:    1  ->  jena
+  10:    1  ->  lengths
+  11:    1  ->  lowercase
+  12:    1  ->  now
+  13:    1  ->  planes
+  14:    1  ->  revving
+  15:    1  ->  spahr
+  16:    1  ->  the
+  17:    1  ->  tonight
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  cane
+   4:    1  ->  case
+   5:    1  ->  coffeehouse
+   6:    1  ->  combine
+   7:    1  ->  dross
+   8:    1  ->  effects
+   9:    1  ->  having
+  10:    1  ->  i
+  11:    1  ->  jenna
+  12:    1  ->  light
+  13:    1  ->  night
+  14:    1  ->  plains
+  15:    1  ->  scene
+  16:    1  ->  sparr
+  17:    1  ->  them
+  18:    1  ->  to
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,248 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.2%   (  92)
+
+Percent Correct           =   91.5%   ( 911)
+
+Percent Substitution      =    5.8%   (  58)
+Percent Deletions         =    2.7%   (  27)
+Percent Insertions        =    0.7%   (   7)
+Percent Word Accuracy     =   90.8%
+
+
+Ref. words                =           ( 996)
+Hyp. words                =           ( 976)
+Aligned words             =           (1003)
+
+CONFUSION PAIRS                  Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    4  ->  a ==> the
+   2:    4  ->  is ==> 's
+   3:    2  ->  vitiated ==> officiated
+   4:    1  ->  a ==> is
+   5:    1  ->  addressee's ==> 's
+   6:    1  ->  an ==> and
+   7:    1  ->  analogues ==> analogs
+   8:    1  ->  and ==> in
+   9:    1  ->  at ==> to
+  10:    1  ->  bones ==> phones
+  11:    1  ->  bronwich's ==> 's
+  12:    1  ->  cited ==> sighted
+  13:    1  ->  claw ==> cloth
+  14:    1  ->  eightieth ==> eddie
+  15:    1  ->  exist ==> exists
+  16:    1  ->  illogicalities ==> illegalities
+  17:    1  ->  in ==> and
+  18:    1  ->  its ==> the
+  19:    1  ->  landi ==> landing
+  20:    1  ->  landi ==> landy
+  21:    1  ->  latter's ==> 's
+  22:    1  ->  mottoes ==> mottos
+  23:    1  ->  of ==> volusino
+  24:    1  ->  one ==> when
+  25:    1  ->  oppression ==> suppression
+  26:    1  ->  or ==> cleaner
+  27:    1  ->  orientation ==> disorientation
+  28:    1  ->  others' ==> others
+  29:    1  ->  peers ==> is
+  30:    1  ->  premised ==> premise
+  31:    1  ->  question's ==> is
+  32:    1  ->  revolving ==> evolving
+  33:    1  ->  richard ==> with
+  34:    1  ->  rig ==> great
+  35:    1  ->  seem ==> seems
+  36:    1  ->  sen ==> sentence
+  37:    1  ->  sofala ==> sephala
+  38:    1  ->  stein ==> rickenstein
+  39:    1  ->  tagmemic ==> mimic
+  40:    1  ->  th ==> paragraph
+  41:    1  ->  that ==> now
+  42:    1  ->  the ==> a
+  43:    1  ->  their ==> into
+  44:    1  ->  tight ==> type
+  45:    1  ->  together ==> altogether
+  46:    1  ->  towards ==> toward
+  47:    1  ->  vocatives ==> evocative
+  48:    1  ->  voloshinov ==> volashinov
+  49:    1  ->  voloshinov's ==> 's
+  50:    1  ->  well ==> although
+  51:    1  ->  wellek ==> willick
+     -------
+        58
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  addressee
+   3:    1  ->  brummage
+   4:    1  ->  here
+   5:    1  ->  latter
+   6:    1  ->  question
+   7:    1  ->  tech
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  a
+   2:    2  ->  in
+   3:    1  ->  all
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  as
+   7:    1  ->  at
+   8:    1  ->  impossible
+   9:    1  ->  intere
+  10:    1  ->  is
+  11:    1  ->  n
+  12:    1  ->  now
+  13:    1  ->  of
+  14:    1  ->  paragra
+  15:    1  ->  plane
+  16:    1  ->  s
+  17:    1  ->  t
+  18:    1  ->  terrifying
+  19:    1  ->  that
+  20:    1  ->  the
+  21:    1  ->  these
+  22:    1  ->  this
+  23:    1  ->  type
+  24:    1  ->  well
+  25:    1  ->  x
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    5  ->  a
+   2:    4  ->  is
+   3:    2  ->  landi
+   4:    2  ->  vitiated
+   5:    1  ->  addressee's
+   6:    1  ->  an
+   7:    1  ->  analogues
+   8:    1  ->  and
+   9:    1  ->  at
+  10:    1  ->  bones
+  11:    1  ->  bronwich's
+  12:    1  ->  cited
+  13:    1  ->  claw
+  14:    1  ->  eightieth
+  15:    1  ->  exist
+  16:    1  ->  illogicalities
+  17:    1  ->  in
+  18:    1  ->  its
+  19:    1  ->  latter's
+  20:    1  ->  mottoes
+  21:    1  ->  of
+  22:    1  ->  one
+  23:    1  ->  oppression
+  24:    1  ->  or
+  25:    1  ->  orientation
+  26:    1  ->  others'
+  27:    1  ->  peers
+  28:    1  ->  premised
+  29:    1  ->  question's
+  30:    1  ->  revolving
+  31:    1  ->  richard
+  32:    1  ->  rig
+  33:    1  ->  seem
+  34:    1  ->  sen
+  35:    1  ->  sofala
+  36:    1  ->  stein
+  37:    1  ->  tagmemic
+  38:    1  ->  th
+  39:    1  ->  that
+  40:    1  ->  the
+  41:    1  ->  their
+  42:    1  ->  tight
+  43:    1  ->  together
+  44:    1  ->  towards
+  45:    1  ->  vocatives
+  46:    1  ->  voloshinov
+  47:    1  ->  voloshinov's
+  48:    1  ->  well
+  49:    1  ->  wellek
+     -------
+        58
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    8  ->  's
+   2:    5  ->  the
+   3:    3  ->  is
+   4:    2  ->  and
+   5:    2  ->  officiated
+   6:    1  ->  a
+   7:    1  ->  although
+   8:    1  ->  altogether
+   9:    1  ->  analogs
+  10:    1  ->  cleaner
+  11:    1  ->  cloth
+  12:    1  ->  disorientation
+  13:    1  ->  eddie
+  14:    1  ->  evocative
+  15:    1  ->  evolving
+  16:    1  ->  exists
+  17:    1  ->  great
+  18:    1  ->  illegalities
+  19:    1  ->  in
+  20:    1  ->  into
+  21:    1  ->  landing
+  22:    1  ->  landy
+  23:    1  ->  mimic
+  24:    1  ->  mottos
+  25:    1  ->  now
+  26:    1  ->  others
+  27:    1  ->  paragraph
+  28:    1  ->  phones
+  29:    1  ->  premise
+  30:    1  ->  rickenstein
+  31:    1  ->  seems
+  32:    1  ->  sentence
+  33:    1  ->  sephala
+  34:    1  ->  sighted
+  35:    1  ->  suppression
+  36:    1  ->  to
+  37:    1  ->  toward
+  38:    1  ->  type
+  39:    1  ->  volashinov
+  40:    1  ->  volusino
+  41:    1  ->  when
+  42:    1  ->  willick
+  43:    1  ->  with
+     -------
+        58
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,120 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.9%   (  21)
+
+Percent Correct           =   97.4%   ( 704)
+
+Percent Substitution      =    1.8%   (  13)
+Percent Deletions         =    0.8%   (   6)
+Percent Insertions        =    0.3%   (   2)
+Percent Word Accuracy     =   97.1%
+
+
+Ref. words                =           ( 723)
+Hyp. words                =           ( 719)
+Aligned words             =           ( 725)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  awls ==> all
+   2:    1  ->  braided ==> ribbonbraided
+   3:    1  ->  combustable ==> combustible
+   4:    1  ->  firewall ==> wall
+   5:    1  ->  five ==> 5:00
+   6:    1  ->  gulley ==> gully
+   7:    1  ->  incipits ==> pets
+   8:    1  ->  insomniac ==> insomnic
+   9:    1  ->  keeled ==> keelled
+  10:    1  ->  managed ==> manured
+  11:    1  ->  scuro ==> chiaroscuro
+  12:    1  ->  slice ==> notch
+  13:    1  ->  synapse ==> synopsis
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  fire
+   2:    1  ->  inky
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  chiaro
+   2:    1  ->  collapse
+   3:    1  ->  ogham
+   4:    1  ->  ribbon
+   5:    1  ->  to
+   6:    1  ->  ugly
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  awls
+   2:    1  ->  braided
+   3:    1  ->  combustable
+   4:    1  ->  firewall
+   5:    1  ->  five
+   6:    1  ->  gulley
+   7:    1  ->  incipits
+   8:    1  ->  insomniac
+   9:    1  ->  keeled
+  10:    1  ->  managed
+  11:    1  ->  scuro
+  12:    1  ->  slice
+  13:    1  ->  synapse
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  5:00
+   2:    1  ->  all
+   3:    1  ->  chiaroscuro
+   4:    1  ->  combustible
+   5:    1  ->  gully
+   6:    1  ->  insomnic
+   7:    1  ->  keelled
+   8:    1  ->  manured
+   9:    1  ->  notch
+  10:    1  ->  pets
+  11:    1  ->  ribbonbraided
+  12:    1  ->  synopsis
+  13:    1  ->  wall
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

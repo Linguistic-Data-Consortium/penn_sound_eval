@@ -1,0 +1,330 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.0%   ( 122)
+
+Percent Correct           =   86.6%   ( 706)
+
+Percent Substitution      =   10.2%   (  83)
+Percent Deletions         =    3.2%   (  26)
+Percent Insertions        =    1.6%   (  13)
+Percent Word Accuracy     =   85.0%
+
+
+Ref. words                =           ( 815)
+Hyp. words                =           ( 802)
+Aligned words             =           ( 828)
+
+CONFUSION PAIRS                  Total                 (80)
+                                 With >=  1 occurrences (80)
+
+   1:    2  ->  cancel ==> council
+   2:    2  ->  ebon ==> eben
+   3:    2  ->  nineteenth ==> 19th
+   4:    1  ->  a ==> scribbler
+   5:    1  ->  a ==> whether
+   6:    1  ->  an ==> and
+   7:    1  ->  and ==> it
+   8:    1  ->  and ==> the
+   9:    1  ->  aperta ==> aper
+  10:    1  ->  are ==> of
+  11:    1  ->  ashville ==> ville
+  12:    1  ->  bled ==> bed
+  13:    1  ->  cnr ==> clr
+  14:    1  ->  coleridge ==> coage
+  15:    1  ->  crawled ==> crowd
+  16:    1  ->  cumberbark ==> bach
+  17:    1  ->  curtainment ==> uncurtain
+  18:    1  ->  eighteenth ==> 18th
+  19:    1  ->  elliott ==> elliot
+  20:    1  ->  elusive ==> delusive
+  21:    1  ->  enfetters ==> fetters
+  22:    1  ->  favourites ==> favourite
+  23:    1  ->  feeling ==> fleeing
+  24:    1  ->  fifty ==> oh
+  25:    1  ->  geraldine ==> i
+  26:    1  ->  h ==> sh
+  27:    1  ->  harkley ==> heartley
+  28:    1  ->  he ==> you
+  29:    1  ->  henry ==> henley
+  30:    1  ->  his ==> bowles's
+  31:    1  ->  hit ==> hipped
+  32:    1  ->  hundred ==> oh
+  33:    1  ->  i ==> and
+  34:    1  ->  i ==> iii
+  35:    1  ->  i ==> it
+  36:    1  ->  i ==> though
+  37:    1  ->  imagination ==> nation
+  38:    1  ->  immedicable ==> medicable
+  39:    1  ->  kessick ==> kick
+  40:    1  ->  mean ==> and
+  41:    1  ->  most ==> must
+  42:    1  ->  mute ==> new
+  43:    1  ->  never ==> ever
+  44:    1  ->  note ==> light
+  45:    1  ->  nuncinations ==> nations
+  46:    1  ->  nunia ==> mamia
+  47:    1  ->  of ==> am
+  48:    1  ->  of ==> at
+  49:    1  ->  of ==> is
+  50:    1  ->  out ==> i
+  51:    1  ->  paul ==> poor
+  52:    1  ->  pisermine ==> pum
+  53:    1  ->  poole ==> pool
+  54:    1  ->  pulcherrima ==> pulqueria
+  55:    1  ->  rectories ==> rectory
+  56:    1  ->  riot ==> write
+  57:    1  ->  s ==> st
+  58:    1  ->  salvi ==> salie
+  59:    1  ->  shawnson ==> johnson
+  60:    1  ->  soul ==> souls
+  61:    1  ->  spiderweb ==> web
+  62:    1  ->  sun ==> son
+  63:    1  ->  t ==> cumber
+  64:    1  ->  tax ==> attacks
+  65:    1  ->  that ==> spider
+  66:    1  ->  that ==> which
+  67:    1  ->  the ==> that
+  68:    1  ->  their ==> the
+  69:    1  ->  these ==> his
+  70:    1  ->  these ==> one
+  71:    1  ->  they ==> those
+  72:    1  ->  thirty ==> oh
+  73:    1  ->  transpierced ==> paced
+  74:    1  ->  twelve ==> two
+  75:    1  ->  unchastities ==> is
+  76:    1  ->  w's ==> ws
+  77:    1  ->  wi ==> with
+  78:    1  ->  willful ==> willfull
+  79:    1  ->  x ==> that
+  80:    1  ->  y ==> you
+     -------
+        83
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  and
+   2:    1  ->  chat
+   3:    1  ->  he's
+   4:    1  ->  i
+   5:    1  ->  imagine
+   6:    1  ->  in
+   7:    1  ->  is
+   8:    1  ->  lance
+   9:    1  ->  one
+  10:    1  ->  sense
+  11:    1  ->  that
+  12:    1  ->  trans
+  13:    1  ->  unch
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  a
+   2:    2  ->  i
+   3:    2  ->  of
+   4:    1  ->  and
+   5:    1  ->  as
+   6:    1  ->  be
+   7:    1  ->  bows
+   8:    1  ->  it
+   9:    1  ->  lighter
+  10:    1  ->  me
+  11:    1  ->  meant
+  12:    1  ->  on
+  13:    1  ->  s
+  14:    1  ->  scribble
+  15:    1  ->  sense
+  16:    1  ->  sort
+  17:    1  ->  that
+  18:    1  ->  there's
+  19:    1  ->  these
+  20:    1  ->  when
+  21:    1  ->  who
+  22:    1  ->  with
+  23:    1  ->  you
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (71)
+                                 With >=  1 occurrences (71)
+
+   1:    4  ->  i
+   2:    3  ->  of
+   3:    2  ->  a
+   4:    2  ->  and
+   5:    2  ->  cancel
+   6:    2  ->  ebon
+   7:    2  ->  nineteenth
+   8:    2  ->  that
+   9:    2  ->  these
+  10:    1  ->  an
+  11:    1  ->  aperta
+  12:    1  ->  are
+  13:    1  ->  ashville
+  14:    1  ->  bled
+  15:    1  ->  cnr
+  16:    1  ->  coleridge
+  17:    1  ->  crawled
+  18:    1  ->  cumberbark
+  19:    1  ->  curtainment
+  20:    1  ->  eighteenth
+  21:    1  ->  elliott
+  22:    1  ->  elusive
+  23:    1  ->  enfetters
+  24:    1  ->  favourites
+  25:    1  ->  feeling
+  26:    1  ->  fifty
+  27:    1  ->  geraldine
+  28:    1  ->  h
+  29:    1  ->  harkley
+  30:    1  ->  he
+  31:    1  ->  henry
+  32:    1  ->  his
+  33:    1  ->  hit
+  34:    1  ->  hundred
+  35:    1  ->  imagination
+  36:    1  ->  immedicable
+  37:    1  ->  kessick
+  38:    1  ->  mean
+  39:    1  ->  most
+  40:    1  ->  mute
+  41:    1  ->  never
+  42:    1  ->  note
+  43:    1  ->  nuncinations
+  44:    1  ->  nunia
+  45:    1  ->  out
+  46:    1  ->  paul
+  47:    1  ->  pisermine
+  48:    1  ->  poole
+  49:    1  ->  pulcherrima
+  50:    1  ->  rectories
+  51:    1  ->  riot
+  52:    1  ->  s
+  53:    1  ->  salvi
+  54:    1  ->  shawnson
+  55:    1  ->  soul
+  56:    1  ->  spiderweb
+  57:    1  ->  sun
+  58:    1  ->  t
+  59:    1  ->  tax
+  60:    1  ->  the
+  61:    1  ->  their
+  62:    1  ->  they
+  63:    1  ->  thirty
+  64:    1  ->  transpierced
+  65:    1  ->  twelve
+  66:    1  ->  unchastities
+  67:    1  ->  w's
+  68:    1  ->  wi
+  69:    1  ->  willful
+  70:    1  ->  x
+  71:    1  ->  y
+     -------
+        83
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (70)
+                                 With >=  1 occurrences (70)
+
+   1:    3  ->  and
+   2:    3  ->  oh
+   3:    2  ->  19th
+   4:    2  ->  council
+   5:    2  ->  eben
+   6:    2  ->  i
+   7:    2  ->  is
+   8:    2  ->  it
+   9:    2  ->  that
+  10:    2  ->  the
+  11:    2  ->  you
+  12:    1  ->  18th
+  13:    1  ->  am
+  14:    1  ->  aper
+  15:    1  ->  at
+  16:    1  ->  attacks
+  17:    1  ->  bach
+  18:    1  ->  bed
+  19:    1  ->  bowles's
+  20:    1  ->  clr
+  21:    1  ->  coage
+  22:    1  ->  crowd
+  23:    1  ->  cumber
+  24:    1  ->  delusive
+  25:    1  ->  elliot
+  26:    1  ->  ever
+  27:    1  ->  favourite
+  28:    1  ->  fetters
+  29:    1  ->  fleeing
+  30:    1  ->  heartley
+  31:    1  ->  henley
+  32:    1  ->  hipped
+  33:    1  ->  his
+  34:    1  ->  iii
+  35:    1  ->  johnson
+  36:    1  ->  kick
+  37:    1  ->  light
+  38:    1  ->  mamia
+  39:    1  ->  medicable
+  40:    1  ->  must
+  41:    1  ->  nation
+  42:    1  ->  nations
+  43:    1  ->  new
+  44:    1  ->  of
+  45:    1  ->  one
+  46:    1  ->  paced
+  47:    1  ->  pool
+  48:    1  ->  poor
+  49:    1  ->  pulqueria
+  50:    1  ->  pum
+  51:    1  ->  rectory
+  52:    1  ->  salie
+  53:    1  ->  scribbler
+  54:    1  ->  sh
+  55:    1  ->  son
+  56:    1  ->  souls
+  57:    1  ->  spider
+  58:    1  ->  st
+  59:    1  ->  those
+  60:    1  ->  though
+  61:    1  ->  two
+  62:    1  ->  uncurtain
+  63:    1  ->  ville
+  64:    1  ->  web
+  65:    1  ->  whether
+  66:    1  ->  which
+  67:    1  ->  willfull
+  68:    1  ->  with
+  69:    1  ->  write
+  70:    1  ->  ws
+     -------
+        83
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

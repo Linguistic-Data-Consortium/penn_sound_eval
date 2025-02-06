@@ -1,0 +1,221 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.0%   (  66)
+
+Percent Correct           =   92.9%   ( 771)
+
+Percent Substitution      =    6.6%   (  55)
+Percent Deletions         =    0.5%   (   4)
+Percent Insertions        =    0.8%   (   7)
+Percent Word Accuracy     =   92.0%
+
+
+Ref. words                =           ( 830)
+Hyp. words                =           ( 833)
+Aligned words             =           ( 837)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    4  ->  aklavik ==> alavi
+   2:    3  ->  aklavik ==> civic
+   3:    3  ->  the ==> that
+   4:    2  ->  in ==> and
+   5:    1  ->  aklavik ==> clinic
+   6:    1  ->  aklavik ==> vic
+   7:    1  ->  antiseptically ==> sceptically
+   8:    1  ->  aye ==> i
+   9:    1  ->  bay ==> bath
+  10:    1  ->  bolivar ==> boulevard
+  11:    1  ->  bombs ==> firebombs
+  12:    1  ->  chaste ==> chased
+  13:    1  ->  croyden ==> cried
+  14:    1  ->  cunts ==> cuts
+  15:    1  ->  enlightened ==> enlighten
+  16:    1  ->  fear ==> fair
+  17:    1  ->  flirted ==> floated
+  18:    1  ->  fur ==> for
+  19:    1  ->  goes ==> ghost
+  20:    1  ->  groove ==> grove
+  21:    1  ->  herriman ==> harriman
+  22:    1  ->  insupportably ==> insupportable
+  23:    1  ->  inuvik ==> music
+  24:    1  ->  is ==> notice
+  25:    1  ->  ishamelite ==> light
+  26:    1  ->  isolator ==> isolated
+  27:    1  ->  lifts ==> lists
+  28:    1  ->  moors ==> north
+  29:    1  ->  nation ==> nations
+  30:    1  ->  oh ==> o
+  31:    1  ->  old ==> all
+  32:    1  ->  permafrost ==> frost
+  33:    1  ->  poem ==> problem
+  34:    1  ->  poles ==> polls
+  35:    1  ->  pots ==> parts
+  36:    1  ->  pregnantly ==> pregnancy
+  37:    1  ->  productions ==> production
+  38:    1  ->  radials ==> radios
+  39:    1  ->  regents ==> regent
+  40:    1  ->  shutter ==> shudder
+  41:    1  ->  stiltedly ==> tilted
+  42:    1  ->  sun ==> on
+  43:    1  ->  sun ==> son
+  44:    1  ->  to ==> into
+  45:    1  ->  visions ==> divisions
+  46:    1  ->  when ==> went
+  47:    1  ->  you ==> new
+     -------
+        55
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  anti
+   3:    1  ->  in
+   4:    1  ->  ishma
+   5:    1  ->  oracle
+   6:    1  ->  perma
+   7:    1  ->  the
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  and
+   2:    1  ->  fire
+   3:    1  ->  note
+   4:    1  ->  oh
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    9  ->  aklavik
+   2:    3  ->  the
+   3:    2  ->  in
+   4:    2  ->  sun
+   5:    1  ->  antiseptically
+   6:    1  ->  aye
+   7:    1  ->  bay
+   8:    1  ->  bolivar
+   9:    1  ->  bombs
+  10:    1  ->  chaste
+  11:    1  ->  croyden
+  12:    1  ->  cunts
+  13:    1  ->  enlightened
+  14:    1  ->  fear
+  15:    1  ->  flirted
+  16:    1  ->  fur
+  17:    1  ->  goes
+  18:    1  ->  groove
+  19:    1  ->  herriman
+  20:    1  ->  insupportably
+  21:    1  ->  inuvik
+  22:    1  ->  is
+  23:    1  ->  ishamelite
+  24:    1  ->  isolator
+  25:    1  ->  lifts
+  26:    1  ->  moors
+  27:    1  ->  nation
+  28:    1  ->  oh
+  29:    1  ->  old
+  30:    1  ->  permafrost
+  31:    1  ->  poem
+  32:    1  ->  poles
+  33:    1  ->  pots
+  34:    1  ->  pregnantly
+  35:    1  ->  productions
+  36:    1  ->  radials
+  37:    1  ->  regents
+  38:    1  ->  shutter
+  39:    1  ->  stiltedly
+  40:    1  ->  to
+  41:    1  ->  visions
+  42:    1  ->  when
+  43:    1  ->  you
+     -------
+        55
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    4  ->  alavi
+   2:    3  ->  civic
+   3:    3  ->  that
+   4:    2  ->  and
+   5:    1  ->  all
+   6:    1  ->  bath
+   7:    1  ->  boulevard
+   8:    1  ->  chased
+   9:    1  ->  clinic
+  10:    1  ->  cried
+  11:    1  ->  cuts
+  12:    1  ->  divisions
+  13:    1  ->  enlighten
+  14:    1  ->  fair
+  15:    1  ->  firebombs
+  16:    1  ->  floated
+  17:    1  ->  for
+  18:    1  ->  frost
+  19:    1  ->  ghost
+  20:    1  ->  grove
+  21:    1  ->  harriman
+  22:    1  ->  i
+  23:    1  ->  insupportable
+  24:    1  ->  into
+  25:    1  ->  isolated
+  26:    1  ->  light
+  27:    1  ->  lists
+  28:    1  ->  music
+  29:    1  ->  nations
+  30:    1  ->  new
+  31:    1  ->  north
+  32:    1  ->  notice
+  33:    1  ->  o
+  34:    1  ->  on
+  35:    1  ->  parts
+  36:    1  ->  polls
+  37:    1  ->  pregnancy
+  38:    1  ->  problem
+  39:    1  ->  production
+  40:    1  ->  radios
+  41:    1  ->  regent
+  42:    1  ->  sceptically
+  43:    1  ->  shudder
+  44:    1  ->  son
+  45:    1  ->  tilted
+  46:    1  ->  vic
+  47:    1  ->  went
+     -------
+        55
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,141 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.6%   (  38)
+
+Percent Correct           =   96.6%   (1021)
+
+Percent Substitution      =    1.7%   (  18)
+Percent Deletions         =    1.7%   (  18)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   96.4%
+
+
+Ref. words                =           (1057)
+Hyp. words                =           (1041)
+Aligned words             =           (1059)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  a ==> the
+   2:    2  ->  bough ==> bow
+   3:    1  ->  broken ==> halfbroken
+   4:    1  ->  fifty ==> oh
+   5:    1  ->  flowerbed ==> bed
+   6:    1  ->  i ==> did
+   7:    1  ->  in ==> standin
+   8:    1  ->  its ==> his
+   9:    1  ->  kilter ==> offkilter
+  10:    1  ->  loaded ==> frontloaded
+  11:    1  ->  old ==> oneyearold
+  12:    1  ->  then ==> it
+  13:    1  ->  truck ==> semitruck
+  14:    1  ->  up ==> usedup
+  15:    1  ->  will ==> he
+  16:    1  ->  witch ==> which
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  flower
+   2:    1  ->  what
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  again
+   2:    1  ->  and
+   3:    1  ->  but
+   4:    1  ->  c
+   5:    1  ->  front
+   6:    1  ->  griffin
+   7:    1  ->  half
+   8:    1  ->  i
+   9:    1  ->  is
+  10:    1  ->  neighbour
+  11:    1  ->  off
+  12:    1  ->  one
+  13:    1  ->  semi
+  14:    1  ->  stand
+  15:    1  ->  the
+  16:    1  ->  used
+  17:    1  ->  why
+  18:    1  ->  year
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  a
+   2:    2  ->  bough
+   3:    1  ->  broken
+   4:    1  ->  fifty
+   5:    1  ->  flowerbed
+   6:    1  ->  i
+   7:    1  ->  in
+   8:    1  ->  its
+   9:    1  ->  kilter
+  10:    1  ->  loaded
+  11:    1  ->  old
+  12:    1  ->  then
+  13:    1  ->  truck
+  14:    1  ->  up
+  15:    1  ->  will
+  16:    1  ->  witch
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  bow
+   2:    2  ->  the
+   3:    1  ->  bed
+   4:    1  ->  did
+   5:    1  ->  frontloaded
+   6:    1  ->  halfbroken
+   7:    1  ->  he
+   8:    1  ->  his
+   9:    1  ->  it
+  10:    1  ->  offkilter
+  11:    1  ->  oh
+  12:    1  ->  oneyearold
+  13:    1  ->  semitruck
+  14:    1  ->  standin
+  15:    1  ->  usedup
+  16:    1  ->  which
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

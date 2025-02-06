@@ -1,0 +1,218 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.0%   (  66)
+
+Percent Correct           =   93.6%   ( 878)
+
+Percent Substitution      =    4.7%   (  44)
+Percent Deletions         =    1.7%   (  16)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   93.0%
+
+
+Ref. words                =           ( 938)
+Hyp. words                =           ( 928)
+Aligned words             =           ( 944)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    1  ->  and ==> on
+   2:    1  ->  blonde ==> blood
+   3:    1  ->  branded ==> spread
+   4:    1  ->  chunked ==> chunk
+   5:    1  ->  cool ==> hipcool
+   6:    1  ->  defining ==> selfdefining
+   7:    1  ->  dollar ==> 180
+   8:    1  ->  eighteen ==> eight
+   9:    1  ->  emergent ==> and
+  10:    1  ->  endlessly ==> endless
+  11:    1  ->  equally ==> really
+  12:    1  ->  fantasy ==> fan
+  13:    1  ->  fertile ==> burtle
+  14:    1  ->  film ==> films
+  15:    1  ->  forty ==> oh
+  16:    1  ->  heeled ==> highheeled
+  17:    1  ->  it ==> at
+  18:    1  ->  kneed ==> knockkneed
+  19:    1  ->  leaving ==> leading
+  20:    1  ->  line ==> on
+  21:    1  ->  love ==> loved
+  22:    1  ->  macadam ==> adam
+  23:    1  ->  made ==> machinemade
+  24:    1  ->  mealtime ==> time
+  25:    1  ->  mien ==> amiens
+  26:    1  ->  mottled ==> modeled
+  27:    1  ->  of ==> on
+  28:    1  ->  petal ==> pedal
+  29:    1  ->  petal ==> pedals
+  30:    1  ->  prouder ==> proud
+  31:    1  ->  pulsing ==> impelling
+  32:    1  ->  recovered ==> covered
+  33:    1  ->  self ==> autopoetic
+  34:    1  ->  short ==> chartres
+  35:    1  ->  sixty ==> oh
+  36:    1  ->  swollen ==> swelling
+  37:    1  ->  ten ==> oh
+  38:    1  ->  tepid ==> tiptoed
+  39:    1  ->  the ==> a
+  40:    1  ->  thirty ==> oh
+  41:    1  ->  thirty ==> three
+  42:    1  ->  twenty ==> two
+  43:    1  ->  upscale ==> scale
+  44:    1  ->  weeks ==> week's
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  father's
+   2:    1  ->  lie
+   3:    1  ->  mac
+   4:    1  ->  meal
+   5:    1  ->  one
+   6:    1  ->  up
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  and
+   2:    2  ->  s
+   3:    1  ->  auto
+   4:    1  ->  canterbury
+   5:    1  ->  cheeks
+   6:    1  ->  eighty
+   7:    1  ->  high
+   8:    1  ->  hip
+   9:    1  ->  hundred
+  10:    1  ->  kisch
+  11:    1  ->  knock
+  12:    1  ->  machine
+  13:    1  ->  on
+  14:    1  ->  poetic
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  petal
+   2:    2  ->  thirty
+   3:    1  ->  and
+   4:    1  ->  blonde
+   5:    1  ->  branded
+   6:    1  ->  chunked
+   7:    1  ->  cool
+   8:    1  ->  defining
+   9:    1  ->  dollar
+  10:    1  ->  eighteen
+  11:    1  ->  emergent
+  12:    1  ->  endlessly
+  13:    1  ->  equally
+  14:    1  ->  fantasy
+  15:    1  ->  fertile
+  16:    1  ->  film
+  17:    1  ->  forty
+  18:    1  ->  heeled
+  19:    1  ->  it
+  20:    1  ->  kneed
+  21:    1  ->  leaving
+  22:    1  ->  line
+  23:    1  ->  love
+  24:    1  ->  macadam
+  25:    1  ->  made
+  26:    1  ->  mealtime
+  27:    1  ->  mien
+  28:    1  ->  mottled
+  29:    1  ->  of
+  30:    1  ->  prouder
+  31:    1  ->  pulsing
+  32:    1  ->  recovered
+  33:    1  ->  self
+  34:    1  ->  short
+  35:    1  ->  sixty
+  36:    1  ->  swollen
+  37:    1  ->  ten
+  38:    1  ->  tepid
+  39:    1  ->  the
+  40:    1  ->  twenty
+  41:    1  ->  upscale
+  42:    1  ->  weeks
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    4  ->  oh
+   2:    3  ->  on
+   3:    1  ->  180
+   4:    1  ->  a
+   5:    1  ->  adam
+   6:    1  ->  amiens
+   7:    1  ->  and
+   8:    1  ->  at
+   9:    1  ->  autopoetic
+  10:    1  ->  blood
+  11:    1  ->  burtle
+  12:    1  ->  chartres
+  13:    1  ->  chunk
+  14:    1  ->  covered
+  15:    1  ->  eight
+  16:    1  ->  endless
+  17:    1  ->  fan
+  18:    1  ->  films
+  19:    1  ->  highheeled
+  20:    1  ->  hipcool
+  21:    1  ->  impelling
+  22:    1  ->  knockkneed
+  23:    1  ->  leading
+  24:    1  ->  loved
+  25:    1  ->  machinemade
+  26:    1  ->  modeled
+  27:    1  ->  pedal
+  28:    1  ->  pedals
+  29:    1  ->  proud
+  30:    1  ->  really
+  31:    1  ->  scale
+  32:    1  ->  selfdefining
+  33:    1  ->  spread
+  34:    1  ->  swelling
+  35:    1  ->  three
+  36:    1  ->  time
+  37:    1  ->  tiptoed
+  38:    1  ->  two
+  39:    1  ->  week's
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

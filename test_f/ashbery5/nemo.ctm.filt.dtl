@@ -1,0 +1,161 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.7%   (  51)
+
+Percent Correct           =   94.6%   ( 846)
+
+Percent Substitution      =    2.6%   (  23)
+Percent Deletions         =    2.8%   (  25)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   94.3%
+
+
+Ref. words                =           ( 894)
+Hyp. words                =           ( 872)
+Aligned words             =           ( 897)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  the ==> a
+   2:    1  ->  ashbery ==> ashbury
+   3:    1  ->  days' ==> day's
+   4:    1  ->  interruption ==> were
+   5:    1  ->  is ==> was
+   6:    1  ->  lithography ==> orthography
+   7:    1  ->  lived ==> lift
+   8:    1  ->  near ==> or
+   9:    1  ->  nodes ==> notes
+  10:    1  ->  of ==> or
+  11:    1  ->  out ==> centuries
+  12:    1  ->  painterly ==> painfully
+  13:    1  ->  riverbanks ==> banks
+  14:    1  ->  shadows ==> was
+  15:    1  ->  some ==> in
+  16:    1  ->  the ==> it
+  17:    1  ->  the ==> that
+  18:    1  ->  to ==> onto
+  19:    1  ->  to ==> two
+  20:    1  ->  towards ==> toward
+  21:    1  ->  w ==> jmw
+  22:    1  ->  warm ==> worn
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  it's
+   2:    1  ->  river
+   3:    1  ->  well
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  in
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  asides
+   5:    1  ->  at
+   6:    1  ->  could
+   7:    1  ->  dream
+   8:    1  ->  each
+   9:    1  ->  j
+  10:    1  ->  later
+  11:    1  ->  m
+  12:    1  ->  on
+  13:    1  ->  rec
+  14:    1  ->  sensual
+  15:    1  ->  sha
+  16:    1  ->  sky
+  17:    1  ->  the
+  18:    1  ->  this
+  19:    1  ->  told
+  20:    1  ->  unfold
+  21:    1  ->  was
+  22:    1  ->  we
+  23:    1  ->  with
+  24:    1  ->  written
+     -------
+        25
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  the
+   2:    2  ->  to
+   3:    1  ->  ashbery
+   4:    1  ->  days'
+   5:    1  ->  interruption
+   6:    1  ->  is
+   7:    1  ->  lithography
+   8:    1  ->  lived
+   9:    1  ->  near
+  10:    1  ->  nodes
+  11:    1  ->  of
+  12:    1  ->  out
+  13:    1  ->  painterly
+  14:    1  ->  riverbanks
+  15:    1  ->  shadows
+  16:    1  ->  some
+  17:    1  ->  towards
+  18:    1  ->  w
+  19:    1  ->  warm
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  a
+   2:    2  ->  or
+   3:    2  ->  was
+   4:    1  ->  ashbury
+   5:    1  ->  banks
+   6:    1  ->  centuries
+   7:    1  ->  day's
+   8:    1  ->  in
+   9:    1  ->  it
+  10:    1  ->  jmw
+  11:    1  ->  lift
+  12:    1  ->  notes
+  13:    1  ->  onto
+  14:    1  ->  orthography
+  15:    1  ->  painfully
+  16:    1  ->  that
+  17:    1  ->  toward
+  18:    1  ->  two
+  19:    1  ->  were
+  20:    1  ->  worn
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

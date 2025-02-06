@@ -1,0 +1,175 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.3%   (  68)
+
+Percent Correct           =   95.2%   (1026)
+
+Percent Substitution      =    2.8%   (  30)
+Percent Deletions         =    2.0%   (  22)
+Percent Insertions        =    1.5%   (  16)
+Percent Word Accuracy     =   93.7%
+
+
+Ref. words                =           (1078)
+Hyp. words                =           (1072)
+Aligned words             =           (1094)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  is ==> 's
+   2:    2  ->  laney's ==> 's
+   3:    1  ->  abandon ==> abandoned
+   4:    1  ->  and ==> in
+   5:    1  ->  be's ==> bees
+   6:    1  ->  destiny's ==> 's
+   7:    1  ->  focused ==> focus
+   8:    1  ->  herein ==> in
+   9:    1  ->  i ==> it
+  10:    1  ->  in ==> and
+  11:    1  ->  mine ==> mind
+  12:    1  ->  naïve ==> naive
+  13:    1  ->  odes ==> 's
+  14:    1  ->  or ==> will
+  15:    1  ->  purported ==> reported
+  16:    1  ->  sort ==> out
+  17:    1  ->  spores ==> scores
+  18:    1  ->  stein's ==> 's
+  19:    1  ->  the ==> at
+  20:    1  ->  want ==> wanted
+  21:    1  ->  will ==> and
+  22:    1  ->  works ==> work
+  23:    1  ->  x ==> 's
+  24:    1  ->  x ==> cento
+  25:    1  ->  x ==> d
+  26:    1  ->  x ==> estimations
+  27:    1  ->  you ==> we
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  i
+   2:    1  ->  a
+   3:    1  ->  am
+   4:    1  ->  destiny
+   5:    1  ->  emily
+   6:    1  ->  here
+   7:    1  ->  it
+   8:    1  ->  laney
+   9:    1  ->  lanie
+  10:    1  ->  not
+  11:    1  ->  ode
+  12:    1  ->  sinto
+  13:    1  ->  stein
+  14:    1  ->  we
+  15:    1  ->  your
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    5  ->  i
+   2:    2  ->  the
+   3:    2  ->  we
+   4:    1  ->  and
+   5:    1  ->  because
+   6:    1  ->  dis
+   7:    1  ->  eight
+   8:    1  ->  ins
+   9:    1  ->  it
+  10:    1  ->  just
+  11:    1  ->  of
+  12:    1  ->  oh
+  13:    1  ->  purpor
+  14:    1  ->  when
+  15:    1  ->  will
+  16:    1  ->  x
+     -------
+        22
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    4  ->  x
+   2:    3  ->  is
+   3:    2  ->  laney's
+   4:    1  ->  abandon
+   5:    1  ->  and
+   6:    1  ->  be's
+   7:    1  ->  destiny's
+   8:    1  ->  focused
+   9:    1  ->  herein
+  10:    1  ->  i
+  11:    1  ->  in
+  12:    1  ->  mine
+  13:    1  ->  naïve
+  14:    1  ->  odes
+  15:    1  ->  or
+  16:    1  ->  purported
+  17:    1  ->  sort
+  18:    1  ->  spores
+  19:    1  ->  stein's
+  20:    1  ->  the
+  21:    1  ->  want
+  22:    1  ->  will
+  23:    1  ->  works
+  24:    1  ->  you
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    9  ->  's
+   2:    2  ->  and
+   3:    2  ->  in
+   4:    1  ->  abandoned
+   5:    1  ->  at
+   6:    1  ->  bees
+   7:    1  ->  cento
+   8:    1  ->  d
+   9:    1  ->  estimations
+  10:    1  ->  focus
+  11:    1  ->  it
+  12:    1  ->  mind
+  13:    1  ->  naive
+  14:    1  ->  out
+  15:    1  ->  reported
+  16:    1  ->  scores
+  17:    1  ->  wanted
+  18:    1  ->  we
+  19:    1  ->  will
+  20:    1  ->  work
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

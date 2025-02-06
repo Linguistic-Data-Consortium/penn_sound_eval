@@ -1,0 +1,338 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.3%   ( 215)
+
+Percent Correct           =   82.8%   ( 974)
+
+Percent Substitution      =    6.5%   (  77)
+Percent Deletions         =   10.6%   ( 125)
+Percent Insertions        =    1.1%   (  13)
+Percent Word Accuracy     =   81.7%
+
+
+Ref. words                =           (1176)
+Hyp. words                =           (1064)
+Aligned words             =           (1189)
+
+CONFUSION PAIRS                  Total                 (71)
+                                 With >=  1 occurrences (71)
+
+   1:    2  ->  an ==> and
+   2:    2  ->  gnomic ==> nomic
+   3:    2  ->  i ==> eye
+   4:    2  ->  in ==> and
+   5:    2  ->  know ==> no
+   6:    2  ->  the ==> that
+   7:    1  ->  a ==> annoying
+   8:    1  ->  a ==> is
+   9:    1  ->  a ==> nomics
+  10:    1  ->  a ==> of
+  11:    1  ->  a ==> the
+  12:    1  ->  and ==> in
+  13:    1  ->  and ==> sorry
+  14:    1  ->  at ==> a
+  15:    1  ->  at ==> out
+  16:    1  ->  been ==> would
+  17:    1  ->  belonged ==> belong
+  18:    1  ->  certainty ==> certainly
+  19:    1  ->  does ==> is
+  20:    1  ->  employ ==> employee
+  21:    1  ->  employ ==> ploy
+  22:    1  ->  encircling ==> circling
+  23:    1  ->  eupheries ==> furious
+  24:    1  ->  featured ==> feature
+  25:    1  ->  flinging ==> fleeing
+  26:    1  ->  fo ==> for
+  27:    1  ->  gno ==> are
+  28:    1  ->  gnomic ==> anomic
+  29:    1  ->  gnomic ==> me
+  30:    1  ->  gnomic's ==> not
+  31:    1  ->  had ==> was
+  32:    1  ->  here ==> her
+  33:    1  ->  him ==> them
+  34:    1  ->  i ==> ai
+  35:    1  ->  i ==> authentic
+  36:    1  ->  i ==> employee
+  37:    1  ->  in ==> ramen
+  38:    1  ->  into ==> to
+  39:    1  ->  invade ==> invades
+  40:    1  ->  it ==> running
+  41:    1  ->  it's ==> a
+  42:    1  ->  it's ==> realise
+  43:    1  ->  its ==> it's
+  44:    1  ->  its ==> this
+  45:    1  ->  mark ==> more
+  46:    1  ->  mea ==> mean
+  47:    1  ->  mean ==> then
+  48:    1  ->  metaphoric ==> metaphor
+  49:    1  ->  now ==> and
+  50:    1  ->  or ==> for
+  51:    1  ->  p ==> real
+  52:    1  ->  poem ==> poems
+  53:    1  ->  reali ==> life
+  54:    1  ->  rune ==> room
+  55:    1  ->  rune ==> roon
+  56:    1  ->  sai ==> so
+  57:    1  ->  serpent's ==> 's
+  58:    1  ->  she's ==> experience
+  59:    1  ->  spencer's ==> 's
+  60:    1  ->  terms ==> term
+  61:    1  ->  that ==> what
+  62:    1  ->  that's ==> this
+  63:    1  ->  the ==> get
+  64:    1  ->  then ==> in
+  65:    1  ->  there ==> yeah
+  66:    1  ->  through ==> to
+  67:    1  ->  wanted ==> want
+  68:    1  ->  we ==> me
+  69:    1  ->  what ==> when
+  70:    1  ->  where ==> we
+  71:    1  ->  you ==> being
+     -------
+        77
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    1  ->  as
+   4:    1  ->  in
+   5:    1  ->  it
+   6:    1  ->  no
+   7:    1  ->  north
+   8:    1  ->  said
+   9:    1  ->  serpent
+  10:    1  ->  spencer
+  11:    1  ->  to
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (69)
+                                 With >=  1 occurrences (69)
+
+   1:   11  ->  and
+   2:   10  ->  a
+   3:    8  ->  i
+   4:    6  ->  an
+   5:    6  ->  the
+   6:    4  ->  wh
+   7:    3  ->  but
+   8:    3  ->  in
+   9:    3  ->  that
+  10:    2  ->  %bcack
+  11:    2  ->  are
+  12:    2  ->  classes
+  13:    2  ->  e
+  14:    2  ->  enc
+  15:    2  ->  eni
+  16:    2  ->  it
+  17:    2  ->  no
+  18:    2  ->  to
+  19:    2  ->  w
+  20:    2  ->  we
+  21:    1  ->  also
+  22:    1  ->  around
+  23:    1  ->  book
+  24:    1  ->  canter
+  25:    1  ->  chemistry
+  26:    1  ->  d
+  27:    1  ->  did
+  28:    1  ->  does
+  29:    1  ->  employ
+  30:    1  ->  encount
+  31:    1  ->  experien
+  32:    1  ->  get
+  33:    1  ->  gnawing
+  34:    1  ->  have
+  35:    1  ->  her
+  36:    1  ->  it's
+  37:    1  ->  j
+  38:    1  ->  k.
+  39:    1  ->  kno
+  40:    1  ->  line
+  41:    1  ->  mean
+  42:    1  ->  mmmm
+  43:    1  ->  need
+  44:    1  ->  now
+  45:    1  ->  o.
+  46:    1  ->  of
+  47:    1  ->  on
+  48:    1  ->  or
+  49:    1  ->  re
+  50:    1  ->  realised
+  51:    1  ->  realm
+  52:    1  ->  rhyming
+  53:    1  ->  s
+  54:    1  ->  sea
+  55:    1  ->  she
+  56:    1  ->  so
+  57:    1  ->  sorry
+  58:    1  ->  take
+  59:    1  ->  thi
+  60:    1  ->  though
+  61:    1  ->  unloo
+  62:    1  ->  v
+  63:    1  ->  vis
+  64:    1  ->  was
+  65:    1  ->  well
+  66:    1  ->  where
+  67:    1  ->  will
+  68:    1  ->  yeah
+  69:    1  ->  you
+     -------
+       125
+
+
+
+SUBSTITUTIONS                    Total                 (54)
+                                 With >=  1 occurrences (54)
+
+   1:    5  ->  a
+   2:    5  ->  i
+   3:    4  ->  gnomic
+   4:    3  ->  in
+   5:    3  ->  the
+   6:    2  ->  an
+   7:    2  ->  and
+   8:    2  ->  at
+   9:    2  ->  employ
+  10:    2  ->  it's
+  11:    2  ->  its
+  12:    2  ->  know
+  13:    2  ->  rune
+  14:    1  ->  been
+  15:    1  ->  belonged
+  16:    1  ->  certainty
+  17:    1  ->  does
+  18:    1  ->  encircling
+  19:    1  ->  eupheries
+  20:    1  ->  featured
+  21:    1  ->  flinging
+  22:    1  ->  fo
+  23:    1  ->  gno
+  24:    1  ->  gnomic's
+  25:    1  ->  had
+  26:    1  ->  here
+  27:    1  ->  him
+  28:    1  ->  into
+  29:    1  ->  invade
+  30:    1  ->  it
+  31:    1  ->  mark
+  32:    1  ->  mea
+  33:    1  ->  mean
+  34:    1  ->  metaphoric
+  35:    1  ->  now
+  36:    1  ->  or
+  37:    1  ->  p
+  38:    1  ->  poem
+  39:    1  ->  reali
+  40:    1  ->  sai
+  41:    1  ->  serpent's
+  42:    1  ->  she's
+  43:    1  ->  spencer's
+  44:    1  ->  terms
+  45:    1  ->  that
+  46:    1  ->  that's
+  47:    1  ->  then
+  48:    1  ->  there
+  49:    1  ->  through
+  50:    1  ->  wanted
+  51:    1  ->  we
+  52:    1  ->  what
+  53:    1  ->  where
+  54:    1  ->  you
+     -------
+        77
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    5  ->  and
+   2:    2  ->  's
+   3:    2  ->  a
+   4:    2  ->  employee
+   5:    2  ->  eye
+   6:    2  ->  for
+   7:    2  ->  in
+   8:    2  ->  is
+   9:    2  ->  me
+  10:    2  ->  no
+  11:    2  ->  nomic
+  12:    2  ->  that
+  13:    2  ->  this
+  14:    2  ->  to
+  15:    1  ->  ai
+  16:    1  ->  annoying
+  17:    1  ->  anomic
+  18:    1  ->  are
+  19:    1  ->  authentic
+  20:    1  ->  being
+  21:    1  ->  belong
+  22:    1  ->  certainly
+  23:    1  ->  circling
+  24:    1  ->  experience
+  25:    1  ->  feature
+  26:    1  ->  fleeing
+  27:    1  ->  furious
+  28:    1  ->  get
+  29:    1  ->  her
+  30:    1  ->  invades
+  31:    1  ->  it's
+  32:    1  ->  life
+  33:    1  ->  mean
+  34:    1  ->  metaphor
+  35:    1  ->  more
+  36:    1  ->  nomics
+  37:    1  ->  not
+  38:    1  ->  of
+  39:    1  ->  out
+  40:    1  ->  ploy
+  41:    1  ->  poems
+  42:    1  ->  ramen
+  43:    1  ->  real
+  44:    1  ->  realise
+  45:    1  ->  room
+  46:    1  ->  roon
+  47:    1  ->  running
+  48:    1  ->  so
+  49:    1  ->  sorry
+  50:    1  ->  term
+  51:    1  ->  the
+  52:    1  ->  them
+  53:    1  ->  then
+  54:    1  ->  want
+  55:    1  ->  was
+  56:    1  ->  we
+  57:    1  ->  what
+  58:    1  ->  when
+  59:    1  ->  would
+  60:    1  ->  yeah
+     -------
+        77
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

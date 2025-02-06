@@ -1,0 +1,292 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.4%   (  94)
+
+Percent Correct           =   90.8%   ( 824)
+
+Percent Substitution      =    8.3%   (  75)
+Percent Deletions         =    0.9%   (   8)
+Percent Insertions        =    1.2%   (  11)
+Percent Word Accuracy     =   89.6%
+
+
+Ref. words                =           ( 907)
+Hyp. words                =           ( 910)
+Aligned words             =           ( 918)
+
+CONFUSION PAIRS                  Total                 (70)
+                                 With >=  1 occurrences (70)
+
+   1:    3  ->  in ==> and
+   2:    3  ->  pear ==> pair
+   3:    2  ->  ode ==> old
+   4:    1  ->  an ==> not
+   5:    1  ->  antidote ==> and
+   6:    1  ->  ask ==> asked
+   7:    1  ->  associative ==> associate
+   8:    1  ->  bannister ==> banister
+   9:    1  ->  befall ==> fall
+  10:    1  ->  befallen ==> fallen
+  11:    1  ->  blade ==> displayed
+  12:    1  ->  broods ==> breds
+  13:    1  ->  circlet ==> circuit
+  14:    1  ->  coif ==> choice
+  15:    1  ->  deporting ==> supporting
+  16:    1  ->  ether ==> either
+  17:    1  ->  felt ==> spell
+  18:    1  ->  fire ==> quickfire
+  19:    1  ->  grasp ==> grasped
+  20:    1  ->  handmaiden ==> and
+  21:    1  ->  herring ==> hearing
+  22:    1  ->  hold ==> cold
+  23:    1  ->  hoof ==> huff
+  24:    1  ->  illuminates ==> eliminates
+  25:    1  ->  it ==> none
+  26:    1  ->  lilt ==> melt
+  27:    1  ->  lookingly ==> looking
+  28:    1  ->  maiden ==> him
+  29:    1  ->  meaning ==> meeting
+  30:    1  ->  meek ==> weak
+  31:    1  ->  mind ==> mime
+  32:    1  ->  my ==> maybe
+  33:    1  ->  of ==> a
+  34:    1  ->  other ==> utter
+  35:    1  ->  played ==> plague
+  36:    1  ->  pleads ==> please
+  37:    1  ->  prattle ==> cradle
+  38:    1  ->  pray ==> prayed
+  39:    1  ->  premises ==> scorpion
+  40:    1  ->  purpled ==> purple
+  41:    1  ->  scores ==> squares
+  42:    1  ->  scurried ==> scary
+  43:    1  ->  smother ==> other
+  44:    1  ->  sod ==> sad
+  45:    1  ->  sooth ==> so
+  46:    1  ->  soothsayer ==> super
+  47:    1  ->  spherical ==> spiritual
+  48:    1  ->  stays ==> staves
+  49:    1  ->  tale ==> tail
+  50:    1  ->  the ==> he
+  51:    1  ->  then ==> them
+  52:    1  ->  thoreau ==> for
+  53:    1  ->  thus ==> best
+  54:    1  ->  thus ==> that's
+  55:    1  ->  till ==> hill
+  56:    1  ->  upon ==> on
+  57:    1  ->  vantage ==> advantage
+  58:    1  ->  vowels ==> vows
+  59:    1  ->  wait ==> weight
+  60:    1  ->  watched ==> watch
+  61:    1  ->  windowpane ==> pain
+  62:    1  ->  world ==> word
+  63:    1  ->  writing ==> riding
+  64:    1  ->  x ==> almost
+  65:    1  ->  x ==> artists
+  66:    1  ->  x ==> palaces
+  67:    1  ->  x ==> rest
+  68:    1  ->  x ==> staff
+  69:    1  ->  x ==> tigris
+  70:    1  ->  you ==> doyou
+     -------
+        75
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    3  ->  the
+   2:    1  ->  be
+   3:    1  ->  handmade
+   4:    1  ->  is
+   5:    1  ->  made
+   6:    1  ->  some
+   7:    1  ->  to
+   8:    1  ->  up
+   9:    1  ->  window
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  do
+   3:    1  ->  e
+   4:    1  ->  nat
+   5:    1  ->  of
+   6:    1  ->  quick
+   7:    1  ->  scorpionic
+   8:    1  ->  then
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:    6  ->  x
+   2:    3  ->  in
+   3:    3  ->  pear
+   4:    2  ->  ode
+   5:    2  ->  thus
+   6:    1  ->  an
+   7:    1  ->  antidote
+   8:    1  ->  ask
+   9:    1  ->  associative
+  10:    1  ->  bannister
+  11:    1  ->  befall
+  12:    1  ->  befallen
+  13:    1  ->  blade
+  14:    1  ->  broods
+  15:    1  ->  circlet
+  16:    1  ->  coif
+  17:    1  ->  deporting
+  18:    1  ->  ether
+  19:    1  ->  felt
+  20:    1  ->  fire
+  21:    1  ->  grasp
+  22:    1  ->  handmaiden
+  23:    1  ->  herring
+  24:    1  ->  hold
+  25:    1  ->  hoof
+  26:    1  ->  illuminates
+  27:    1  ->  it
+  28:    1  ->  lilt
+  29:    1  ->  lookingly
+  30:    1  ->  maiden
+  31:    1  ->  meaning
+  32:    1  ->  meek
+  33:    1  ->  mind
+  34:    1  ->  my
+  35:    1  ->  of
+  36:    1  ->  other
+  37:    1  ->  played
+  38:    1  ->  pleads
+  39:    1  ->  prattle
+  40:    1  ->  pray
+  41:    1  ->  premises
+  42:    1  ->  purpled
+  43:    1  ->  scores
+  44:    1  ->  scurried
+  45:    1  ->  smother
+  46:    1  ->  sod
+  47:    1  ->  sooth
+  48:    1  ->  soothsayer
+  49:    1  ->  spherical
+  50:    1  ->  stays
+  51:    1  ->  tale
+  52:    1  ->  the
+  53:    1  ->  then
+  54:    1  ->  thoreau
+  55:    1  ->  till
+  56:    1  ->  upon
+  57:    1  ->  vantage
+  58:    1  ->  vowels
+  59:    1  ->  wait
+  60:    1  ->  watched
+  61:    1  ->  windowpane
+  62:    1  ->  world
+  63:    1  ->  writing
+  64:    1  ->  you
+     -------
+        75
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (68)
+                                 With >=  1 occurrences (68)
+
+   1:    5  ->  and
+   2:    3  ->  pair
+   3:    2  ->  old
+   4:    1  ->  a
+   5:    1  ->  advantage
+   6:    1  ->  almost
+   7:    1  ->  artists
+   8:    1  ->  asked
+   9:    1  ->  associate
+  10:    1  ->  banister
+  11:    1  ->  best
+  12:    1  ->  breds
+  13:    1  ->  choice
+  14:    1  ->  circuit
+  15:    1  ->  cold
+  16:    1  ->  cradle
+  17:    1  ->  displayed
+  18:    1  ->  doyou
+  19:    1  ->  either
+  20:    1  ->  eliminates
+  21:    1  ->  fall
+  22:    1  ->  fallen
+  23:    1  ->  for
+  24:    1  ->  grasped
+  25:    1  ->  he
+  26:    1  ->  hearing
+  27:    1  ->  hill
+  28:    1  ->  him
+  29:    1  ->  huff
+  30:    1  ->  looking
+  31:    1  ->  maybe
+  32:    1  ->  meeting
+  33:    1  ->  melt
+  34:    1  ->  mime
+  35:    1  ->  none
+  36:    1  ->  not
+  37:    1  ->  on
+  38:    1  ->  other
+  39:    1  ->  pain
+  40:    1  ->  palaces
+  41:    1  ->  plague
+  42:    1  ->  please
+  43:    1  ->  prayed
+  44:    1  ->  purple
+  45:    1  ->  quickfire
+  46:    1  ->  rest
+  47:    1  ->  riding
+  48:    1  ->  sad
+  49:    1  ->  scary
+  50:    1  ->  scorpion
+  51:    1  ->  so
+  52:    1  ->  spell
+  53:    1  ->  spiritual
+  54:    1  ->  squares
+  55:    1  ->  staff
+  56:    1  ->  staves
+  57:    1  ->  super
+  58:    1  ->  supporting
+  59:    1  ->  tail
+  60:    1  ->  that's
+  61:    1  ->  them
+  62:    1  ->  tigris
+  63:    1  ->  utter
+  64:    1  ->  vows
+  65:    1  ->  watch
+  66:    1  ->  weak
+  67:    1  ->  weight
+  68:    1  ->  word
+     -------
+        75
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

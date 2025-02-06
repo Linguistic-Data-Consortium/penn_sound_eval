@@ -1,0 +1,476 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.4%   ( 213)
+
+Percent Correct           =   83.0%   ( 960)
+
+Percent Substitution      =   12.1%   ( 140)
+Percent Deletions         =    4.8%   (  56)
+Percent Insertions        =    1.5%   (  17)
+Percent Word Accuracy     =   81.6%
+
+
+Ref. words                =           (1156)
+Hyp. words                =           (1117)
+Aligned words             =           (1173)
+
+CONFUSION PAIRS                  Total                 (127)
+                                 With >=  1 occurrences (127)
+
+   1:    6  ->  a ==> the
+   2:    5  ->  and ==> in
+   3:    3  ->  in ==> and
+   4:    2  ->  saint ==> st
+   5:    2  ->  urbanity ==> beauty
+   6:    1  ->  a ==> i
+   7:    1  ->  accuity ==> acuity
+   8:    1  ->  airs ==> dares
+   9:    1  ->  among ==> along
+  10:    1  ->  an ==> unforeseeable
+  11:    1  ->  and ==> though
+  12:    1  ->  are ==> was
+  13:    1  ->  areas ==> is
+  14:    1  ->  as ==> just
+  15:    1  ->  at ==> the
+  16:    1  ->  average ==> which
+  17:    1  ->  bad ==> bare
+  18:    1  ->  battered ==> battle
+  19:    1  ->  beaut ==> beauty
+  20:    1  ->  beyond ==> young
+  21:    1  ->  but ==> of
+  22:    1  ->  called ==> for
+  23:    1  ->  chance ==> balance
+  24:    1  ->  classicists ==> classis
+  25:    1  ->  crowds ==> crowd
+  26:    1  ->  defying ==> define
+  27:    1  ->  did ==> did"
+  28:    1  ->  disregarded ==> it
+  29:    1  ->  disregarded ==> started
+  30:    1  ->  elated ==> it
+  31:    1  ->  embarkment ==> environment
+  32:    1  ->  envies ==> envy
+  33:    1  ->  familiars ==> familiar
+  34:    1  ->  for ==> from
+  35:    1  ->  for ==> or
+  36:    1  ->  for ==> seen
+  37:    1  ->  for ==> therefore
+  38:    1  ->  four ==> 1864
+  39:    1  ->  gawk ==> god
+  40:    1  ->  had ==> have
+  41:    1  ->  had ==> we
+  42:    1  ->  his ==> nearest
+  43:    1  ->  if ==> and
+  44:    1  ->  illogic ==> logic
+  45:    1  ->  illumines ==> illuminates
+  46:    1  ->  is ==> as
+  47:    1  ->  is ==> of
+  48:    1  ->  islands ==> islands"
+  49:    1  ->  it's ==> this
+  50:    1  ->  jew ==> too
+  51:    1  ->  layer ==> lair
+  52:    1  ->  let ==> hunger
+  53:    1  ->  light ==> lights
+  54:    1  ->  makes ==> make
+  55:    1  ->  mic ==> make
+  56:    1  ->  minute ==> 5minute
+  57:    1  ->  motes ==> moats
+  58:    1  ->  myth ==> mist
+  59:    1  ->  newest ==> only
+  60:    1  ->  nineteenth ==> nine
+  61:    1  ->  no ==> little
+  62:    1  ->  nor ==> the
+  63:    1  ->  not ==> "not
+  64:    1  ->  not ==> review
+  65:    1  ->  notices ==> knows
+  66:    1  ->  of ==> at
+  67:    1  ->  of ==> in
+  68:    1  ->  of ==> neither
+  69:    1  ->  off ==> more
+  70:    1  ->  on ==> and
+  71:    1  ->  on ==> border
+  72:    1  ->  one ==> we
+  73:    1  ->  one ==> when
+  74:    1  ->  or ==> and
+  75:    1  ->  or ==> of
+  76:    1  ->  or ==> so
+  77:    1  ->  ours' ==> ours
+  78:    1  ->  outlive ==> lived
+  79:    1  ->  owed ==> old
+  80:    1  ->  paths ==> pans
+  81:    1  ->  poem's ==> poem
+  82:    1  ->  postponed ==> a
+  83:    1  ->  put ==> all
+  84:    1  ->  right ==> rowing
+  85:    1  ->  rock ==> wide
+  86:    1  ->  round ==> around
+  87:    1  ->  routes ==> roots
+  88:    1  ->  seeing ==> and
+  89:    1  ->  semite ==> samite
+  90:    1  ->  sepulcher ==> cur
+  91:    1  ->  set ==> sunset
+  92:    1  ->  she ==> see
+  93:    1  ->  shown ==> show
+  94:    1  ->  sixty ==> 19th
+  95:    1  ->  smokes ==> moats
+  96:    1  ->  so ==> also
+  97:    1  ->  some ==> 3minute
+  98:    1  ->  spoken ==> wellspoken
+  99:    1  ->  such ==> that
+ 100:    1  ->  swallowed ==> swallow
+ 101:    1  ->  that ==> vie
+ 102:    1  ->  the ==> a
+ 103:    1  ->  the ==> for
+ 104:    1  ->  the ==> la
+ 105:    1  ->  the ==> sacri
+ 106:    1  ->  them ==> you
+ 107:    1  ->  then ==> he
+ 108:    1  ->  these ==> ease
+ 109:    1  ->  they ==> for
+ 110:    1  ->  they ==> may
+ 111:    1  ->  this ==> practice
+ 112:    1  ->  tightening ==> thickening
+ 113:    1  ->  to ==> they
+ 114:    1  ->  triggered ==> it
+ 115:    1  ->  tv ==> petite
+ 116:    1  ->  under ==> and
+ 117:    1  ->  unforseeable ==> that
+ 118:    1  ->  up ==> day
+ 119:    1  ->  was ==> is
+ 120:    1  ->  way ==> island
+ 121:    1  ->  weeping ==> weakened
+ 122:    1  ->  what ==> "what
+ 123:    1  ->  what ==> or
+ 124:    1  ->  wrote ==> row
+ 125:    1  ->  x ==> it
+ 126:    1  ->  x ==> soul
+ 127:    1  ->  you ==> he
+     -------
+       140
+
+
+
+INSERTIONS                       Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  disregard
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  air
+   5:    1  ->  are
+   6:    1  ->  i
+   7:    1  ->  it
+   8:    1  ->  later
+   9:    1  ->  noon
+  10:    1  ->  of
+  11:    1  ->  one
+  12:    1  ->  out
+  13:    1  ->  that
+  14:    1  ->  took
+  15:    1  ->  who
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    3  ->  the
+   2:    2  ->  i
+   3:    2  ->  there
+   4:    1  ->  a
+   5:    1  ->  all
+   6:    1  ->  and
+   7:    1  ->  astrolabes
+   8:    1  ->  at
+   9:    1  ->  board
+  10:    1  ->  bow
+  11:    1  ->  by
+  12:    1  ->  concorde
+  13:    1  ->  cool
+  14:    1  ->  de
+  15:    1  ->  do
+  16:    1  ->  eighteen
+  17:    1  ->  excuse
+  18:    1  ->  eye
+  19:    1  ->  five
+  20:    1  ->  forgot
+  21:    1  ->  great
+  22:    1  ->  had
+  23:    1  ->  henri
+  24:    1  ->  his
+  25:    1  ->  houses
+  26:    1  ->  in
+  27:    1  ->  intermission
+  28:    1  ->  it
+  29:    1  ->  know
+  30:    1  ->  la
+  31:    1  ->  least
+  32:    1  ->  lexicons
+  33:    1  ->  lobstermen
+  34:    1  ->  me
+  35:    1  ->  met
+  36:    1  ->  minute
+  37:    1  ->  name
+  38:    1  ->  near
+  39:    1  ->  need
+  40:    1  ->  nineteenth
+  41:    1  ->  once
+  42:    1  ->  poor
+  43:    1  ->  pun
+  44:    1  ->  reviewer
+  45:    1  ->  sun
+  46:    1  ->  three
+  47:    1  ->  want
+  48:    1  ->  well
+  49:    1  ->  which
+  50:    1  ->  who
+  51:    1  ->  yes
+  52:    1  ->  you
+     -------
+        56
+
+
+
+SUBSTITUTIONS                    Total                 (106)
+                                 With >=  1 occurrences (106)
+
+   1:    7  ->  a
+   2:    6  ->  and
+   3:    4  ->  for
+   4:    4  ->  the
+   5:    3  ->  in
+   6:    3  ->  of
+   7:    3  ->  or
+   8:    2  ->  disregarded
+   9:    2  ->  had
+  10:    2  ->  is
+  11:    2  ->  not
+  12:    2  ->  on
+  13:    2  ->  one
+  14:    2  ->  saint
+  15:    2  ->  they
+  16:    2  ->  urbanity
+  17:    2  ->  what
+  18:    2  ->  x
+  19:    1  ->  accuity
+  20:    1  ->  airs
+  21:    1  ->  among
+  22:    1  ->  an
+  23:    1  ->  are
+  24:    1  ->  areas
+  25:    1  ->  as
+  26:    1  ->  at
+  27:    1  ->  average
+  28:    1  ->  bad
+  29:    1  ->  battered
+  30:    1  ->  beaut
+  31:    1  ->  beyond
+  32:    1  ->  but
+  33:    1  ->  called
+  34:    1  ->  chance
+  35:    1  ->  classicists
+  36:    1  ->  crowds
+  37:    1  ->  defying
+  38:    1  ->  did
+  39:    1  ->  elated
+  40:    1  ->  embarkment
+  41:    1  ->  envies
+  42:    1  ->  familiars
+  43:    1  ->  four
+  44:    1  ->  gawk
+  45:    1  ->  his
+  46:    1  ->  if
+  47:    1  ->  illogic
+  48:    1  ->  illumines
+  49:    1  ->  islands
+  50:    1  ->  it's
+  51:    1  ->  jew
+  52:    1  ->  layer
+  53:    1  ->  let
+  54:    1  ->  light
+  55:    1  ->  makes
+  56:    1  ->  mic
+  57:    1  ->  minute
+  58:    1  ->  motes
+  59:    1  ->  myth
+  60:    1  ->  newest
+  61:    1  ->  nineteenth
+  62:    1  ->  no
+  63:    1  ->  nor
+  64:    1  ->  notices
+  65:    1  ->  off
+  66:    1  ->  ours'
+  67:    1  ->  outlive
+  68:    1  ->  owed
+  69:    1  ->  paths
+  70:    1  ->  poem's
+  71:    1  ->  postponed
+  72:    1  ->  put
+  73:    1  ->  right
+  74:    1  ->  rock
+  75:    1  ->  round
+  76:    1  ->  routes
+  77:    1  ->  seeing
+  78:    1  ->  semite
+  79:    1  ->  sepulcher
+  80:    1  ->  set
+  81:    1  ->  she
+  82:    1  ->  shown
+  83:    1  ->  sixty
+  84:    1  ->  smokes
+  85:    1  ->  so
+  86:    1  ->  some
+  87:    1  ->  spoken
+  88:    1  ->  such
+  89:    1  ->  swallowed
+  90:    1  ->  that
+  91:    1  ->  them
+  92:    1  ->  then
+  93:    1  ->  these
+  94:    1  ->  this
+  95:    1  ->  tightening
+  96:    1  ->  to
+  97:    1  ->  triggered
+  98:    1  ->  tv
+  99:    1  ->  under
+ 100:    1  ->  unforseeable
+ 101:    1  ->  up
+ 102:    1  ->  was
+ 103:    1  ->  way
+ 104:    1  ->  weeping
+ 105:    1  ->  wrote
+ 106:    1  ->  you
+     -------
+       140
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (103)
+                                 With >=  1 occurrences (103)
+
+   1:    8  ->  and
+   2:    8  ->  the
+   3:    6  ->  in
+   4:    4  ->  it
+   5:    3  ->  beauty
+   6:    3  ->  for
+   7:    3  ->  of
+   8:    2  ->  a
+   9:    2  ->  he
+  10:    2  ->  is
+  11:    2  ->  make
+  12:    2  ->  moats
+  13:    2  ->  or
+  14:    2  ->  st
+  15:    2  ->  that
+  16:    2  ->  we
+  17:    1  ->  "not
+  18:    1  ->  "what
+  19:    1  ->  1864
+  20:    1  ->  19th
+  21:    1  ->  3minute
+  22:    1  ->  5minute
+  23:    1  ->  acuity
+  24:    1  ->  all
+  25:    1  ->  along
+  26:    1  ->  also
+  27:    1  ->  around
+  28:    1  ->  as
+  29:    1  ->  at
+  30:    1  ->  balance
+  31:    1  ->  bare
+  32:    1  ->  battle
+  33:    1  ->  border
+  34:    1  ->  classis
+  35:    1  ->  crowd
+  36:    1  ->  cur
+  37:    1  ->  dares
+  38:    1  ->  day
+  39:    1  ->  define
+  40:    1  ->  did"
+  41:    1  ->  ease
+  42:    1  ->  environment
+  43:    1  ->  envy
+  44:    1  ->  familiar
+  45:    1  ->  from
+  46:    1  ->  god
+  47:    1  ->  have
+  48:    1  ->  hunger
+  49:    1  ->  i
+  50:    1  ->  illuminates
+  51:    1  ->  island
+  52:    1  ->  islands"
+  53:    1  ->  just
+  54:    1  ->  knows
+  55:    1  ->  la
+  56:    1  ->  lair
+  57:    1  ->  lights
+  58:    1  ->  little
+  59:    1  ->  lived
+  60:    1  ->  logic
+  61:    1  ->  may
+  62:    1  ->  mist
+  63:    1  ->  more
+  64:    1  ->  nearest
+  65:    1  ->  neither
+  66:    1  ->  nine
+  67:    1  ->  old
+  68:    1  ->  only
+  69:    1  ->  ours
+  70:    1  ->  pans
+  71:    1  ->  petite
+  72:    1  ->  poem
+  73:    1  ->  practice
+  74:    1  ->  review
+  75:    1  ->  roots
+  76:    1  ->  row
+  77:    1  ->  rowing
+  78:    1  ->  sacri
+  79:    1  ->  samite
+  80:    1  ->  see
+  81:    1  ->  seen
+  82:    1  ->  show
+  83:    1  ->  so
+  84:    1  ->  soul
+  85:    1  ->  started
+  86:    1  ->  sunset
+  87:    1  ->  swallow
+  88:    1  ->  therefore
+  89:    1  ->  they
+  90:    1  ->  thickening
+  91:    1  ->  this
+  92:    1  ->  though
+  93:    1  ->  too
+  94:    1  ->  unforeseeable
+  95:    1  ->  vie
+  96:    1  ->  was
+  97:    1  ->  weakened
+  98:    1  ->  wellspoken
+  99:    1  ->  when
+ 100:    1  ->  which
+ 101:    1  ->  wide
+ 102:    1  ->  you
+ 103:    1  ->  young
+     -------
+       140
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

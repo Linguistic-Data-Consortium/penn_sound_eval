@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.5%   (  48)
+
+Percent Correct           =   95.6%   ( 833)
+
+Percent Substitution      =    3.4%   (  30)
+Percent Deletions         =    0.9%   (   8)
+Percent Insertions        =    1.1%   (  10)
+Percent Word Accuracy     =   94.5%
+
+
+Ref. words                =           ( 871)
+Hyp. words                =           ( 873)
+Aligned words             =           ( 881)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  abo ==> about
+   3:    1  ->  alien ==> in
+   4:    1  ->  an ==> and
+   5:    1  ->  and ==> in
+   6:    1  ->  are ==> our
+   7:    1  ->  balled ==> bald
+   8:    1  ->  comments ==> comment
+   9:    1  ->  flower's ==> flowers
+  10:    1  ->  four ==> for
+  11:    1  ->  get ==> getting
+  12:    1  ->  in ==> and
+  13:    1  ->  it's ==> there's
+  14:    1  ->  jane ==> genuine
+  15:    1  ->  listserv ==> listerv
+  16:    1  ->  palsy ==> psy
+  17:    1  ->  self ==> themself
+  18:    1  ->  streetlamp ==> lamp
+  19:    1  ->  that ==> out
+  20:    1  ->  the ==> this
+  21:    1  ->  these ==> knees
+  22:    1  ->  thirty ==> oh
+  23:    1  ->  tomb ==> tune
+  24:    1  ->  twelve ==> two
+  25:    1  ->  twenty ==> two
+  26:    1  ->  wapiti ==> w
+  27:    1  ->  weblog ==> log
+  28:    1  ->  wind ==> winds
+  29:    1  ->  worlds ==> world's
+  30:    1  ->  you ==> u
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  <laugh>
+   2:    1  ->  a
+   3:    1  ->  daily
+   4:    1  ->  i
+   5:    1  ->  one
+   6:    1  ->  sorry
+   7:    1  ->  street
+   8:    1  ->  university
+   9:    1  ->  web
+  10:    1  ->  you
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    3  ->  x
+   2:    1  ->  g
+   3:    1  ->  in
+   4:    1  ->  l
+   5:    1  ->  the
+   6:    1  ->  them
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  a
+   2:    1  ->  abo
+   3:    1  ->  alien
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  are
+   7:    1  ->  balled
+   8:    1  ->  comments
+   9:    1  ->  flower's
+  10:    1  ->  four
+  11:    1  ->  get
+  12:    1  ->  in
+  13:    1  ->  it's
+  14:    1  ->  jane
+  15:    1  ->  listserv
+  16:    1  ->  palsy
+  17:    1  ->  self
+  18:    1  ->  streetlamp
+  19:    1  ->  that
+  20:    1  ->  the
+  21:    1  ->  these
+  22:    1  ->  thirty
+  23:    1  ->  tomb
+  24:    1  ->  twelve
+  25:    1  ->  twenty
+  26:    1  ->  wapiti
+  27:    1  ->  weblog
+  28:    1  ->  wind
+  29:    1  ->  worlds
+  30:    1  ->  you
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  and
+   2:    2  ->  in
+   3:    2  ->  two
+   4:    1  ->  about
+   5:    1  ->  bald
+   6:    1  ->  comment
+   7:    1  ->  flowers
+   8:    1  ->  for
+   9:    1  ->  genuine
+  10:    1  ->  getting
+  11:    1  ->  knees
+  12:    1  ->  lamp
+  13:    1  ->  listerv
+  14:    1  ->  log
+  15:    1  ->  of
+  16:    1  ->  oh
+  17:    1  ->  our
+  18:    1  ->  out
+  19:    1  ->  psy
+  20:    1  ->  themself
+  21:    1  ->  there's
+  22:    1  ->  this
+  23:    1  ->  tune
+  24:    1  ->  u
+  25:    1  ->  w
+  26:    1  ->  winds
+  27:    1  ->  world's
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

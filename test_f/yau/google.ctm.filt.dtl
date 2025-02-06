@@ -1,0 +1,223 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.4%   (  71)
+
+Percent Correct           =   93.8%   ( 902)
+
+Percent Substitution      =    5.5%   (  53)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    1.1%   (  11)
+Percent Word Accuracy     =   92.6%
+
+
+Ref. words                =           ( 962)
+Hyp. words                =           ( 966)
+Aligned words             =           ( 973)
+
+CONFUSION PAIRS                  Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    3  ->  a ==> the
+   2:    2  ->  debuts ==> debuse
+   3:    2  ->  i ==> "i
+   4:    2  ->  in ==> and
+   5:    2  ->  this ==> "this
+   6:    2  ->  twenty ==> two
+   7:    1  ->  above ==> about
+   8:    1  ->  always ==> ours
+   9:    1  ->  and ==> clenching
+  10:    1  ->  and ==> in
+  11:    1  ->  are ==> were
+  12:    1  ->  atrapado ==> atropado
+  13:    1  ->  atrapado ==> portal
+  14:    1  ->  blackened ==> and
+  15:    1  ->  corruptions ==> corruption
+  16:    1  ->  earthen ==> and
+  17:    1  ->  fandangoes ==> fandangos
+  18:    1  ->  gallopers ==> or
+  19:    1  ->  gum ==> come
+  20:    1  ->  has ==> is
+  21:    1  ->  husks ==> tusks
+  22:    1  ->  in ==> paints
+  23:    1  ->  ins ==> driveins
+  24:    1  ->  its ==> it's
+  25:    1  ->  kneecap ==> cap
+  26:    1  ->  kneed ==> knee
+  27:    1  ->  m ==> my
+  28:    1  ->  mainspring ==> spring
+  29:    1  ->  name ==> name"
+  30:    1  ->  nougat ==> nugget
+  31:    1  ->  of ==> with
+  32:    1  ->  paint's ==> black
+  33:    1  ->  poured ==> part
+  34:    1  ->  shoelaces ==> laces"
+  35:    1  ->  sighs ==> size
+  36:    1  ->  slop ==> slob
+  37:    1  ->  straps ==> strap
+  38:    1  ->  sweetened ==> and
+  39:    1  ->  tarred ==> tardy
+  40:    1  ->  to ==> through
+  41:    1  ->  towards ==> toward
+  42:    1  ->  towe ==> towel
+  43:    1  ->  trim ==> trimmed
+  44:    1  ->  when ==> "when
+  45:    1  ->  who ==> that
+  46:    1  ->  you ==> "you
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  and
+   2:    1  ->  at
+   3:    1  ->  earth
+   4:    1  ->  gallop
+   5:    1  ->  knee
+   6:    1  ->  life
+   7:    1  ->  main
+   8:    1  ->  shoe
+   9:    1  ->  sweet
+  10:    1  ->  will
+  11:    1  ->  your
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and
+   2:    1  ->  ch
+   3:    1  ->  clench
+   4:    1  ->  drive
+   5:    1  ->  had
+   6:    1  ->  stee
+   7:    1  ->  with
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    3  ->  a
+   2:    3  ->  in
+   3:    2  ->  and
+   4:    2  ->  atrapado
+   5:    2  ->  debuts
+   6:    2  ->  i
+   7:    2  ->  this
+   8:    2  ->  twenty
+   9:    1  ->  above
+  10:    1  ->  always
+  11:    1  ->  are
+  12:    1  ->  blackened
+  13:    1  ->  corruptions
+  14:    1  ->  earthen
+  15:    1  ->  fandangoes
+  16:    1  ->  gallopers
+  17:    1  ->  gum
+  18:    1  ->  has
+  19:    1  ->  husks
+  20:    1  ->  ins
+  21:    1  ->  its
+  22:    1  ->  kneecap
+  23:    1  ->  kneed
+  24:    1  ->  m
+  25:    1  ->  mainspring
+  26:    1  ->  name
+  27:    1  ->  nougat
+  28:    1  ->  of
+  29:    1  ->  paint's
+  30:    1  ->  poured
+  31:    1  ->  shoelaces
+  32:    1  ->  sighs
+  33:    1  ->  slop
+  34:    1  ->  straps
+  35:    1  ->  sweetened
+  36:    1  ->  tarred
+  37:    1  ->  to
+  38:    1  ->  towards
+  39:    1  ->  towe
+  40:    1  ->  trim
+  41:    1  ->  when
+  42:    1  ->  who
+  43:    1  ->  you
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    5  ->  and
+   2:    3  ->  the
+   3:    2  ->  "i
+   4:    2  ->  "this
+   5:    2  ->  debuse
+   6:    2  ->  two
+   7:    1  ->  "when
+   8:    1  ->  "you
+   9:    1  ->  about
+  10:    1  ->  atropado
+  11:    1  ->  black
+  12:    1  ->  cap
+  13:    1  ->  clenching
+  14:    1  ->  come
+  15:    1  ->  corruption
+  16:    1  ->  driveins
+  17:    1  ->  fandangos
+  18:    1  ->  in
+  19:    1  ->  is
+  20:    1  ->  it's
+  21:    1  ->  knee
+  22:    1  ->  laces"
+  23:    1  ->  my
+  24:    1  ->  name"
+  25:    1  ->  nugget
+  26:    1  ->  or
+  27:    1  ->  ours
+  28:    1  ->  paints
+  29:    1  ->  part
+  30:    1  ->  portal
+  31:    1  ->  size
+  32:    1  ->  slob
+  33:    1  ->  spring
+  34:    1  ->  strap
+  35:    1  ->  tardy
+  36:    1  ->  that
+  37:    1  ->  through
+  38:    1  ->  toward
+  39:    1  ->  towel
+  40:    1  ->  trimmed
+  41:    1  ->  tusks
+  42:    1  ->  were
+  43:    1  ->  with
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

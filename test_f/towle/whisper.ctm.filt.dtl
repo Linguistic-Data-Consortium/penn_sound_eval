@@ -1,0 +1,195 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.3%   (  59)
+
+Percent Correct           =   95.1%   (1067)
+
+Percent Substitution      =    3.8%   (  43)
+Percent Deletions         =    1.1%   (  12)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   94.7%
+
+
+Ref. words                =           (1122)
+Hyp. words                =           (1114)
+Aligned words             =           (1126)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    3  ->  velazquez ==> velasquez
+   2:    2  ->  fourth ==> 24th
+   3:    2  ->  manet ==> monet
+   4:    2  ->  pere ==> père
+   5:    1  ->  allan ==> alan
+   6:    1  ->  and ==> because
+   7:    1  ->  and ==> you
+   8:    1  ->  anne ==> ann
+   9:    1  ->  brainard ==> brainerd
+  10:    1  ->  carpentier ==> charpentier
+  11:    1  ->  ceravolo ==> travalo
+  12:    1  ->  concertina ==> concertino
+  13:    1  ->  do ==> be
+  14:    1  ->  does ==> is
+  15:    1  ->  elmslie ==> elmsley
+  16:    1  ->  enquire ==> inquire
+  17:    1  ->  fagin ==> fagan
+  18:    1  ->  for ==> to
+  19:    1  ->  girono ==> giorno
+  20:    1  ->  hurt ==> heard
+  21:    1  ->  in ==> and
+  22:    1  ->  intoxicant ==> toxicant
+  23:    1  ->  it ==> at
+  24:    1  ->  kenward ==> kenrod
+  25:    1  ->  lewis ==> louis
+  26:    1  ->  oh ==> though
+  27:    1  ->  pacing ==> facing
+  28:    1  ->  parts ==> parks
+  29:    1  ->  poised ==> poise
+  30:    1  ->  results ==> result
+  31:    1  ->  schjeldahl ==> scheldahl
+  32:    1  ->  shelves ==> shells
+  33:    1  ->  sixteen ==> sixty
+  34:    1  ->  sixty ==> 1862
+  35:    1  ->  soul ==> so
+  36:    1  ->  specific ==> pacific
+  37:    1  ->  two ==> well
+  38:    1  ->  velazquez ==> it's
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  thank
+   2:    1  ->  and
+   3:    1  ->  you
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    3  ->  and
+   2:    2  ->  k.
+   3:    2  ->  o.
+   4:    2  ->  twenty
+   5:    1  ->  but
+   6:    1  ->  eighteen
+   7:    1  ->  from
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    4  ->  velazquez
+   2:    2  ->  and
+   3:    2  ->  fourth
+   4:    2  ->  manet
+   5:    2  ->  pere
+   6:    1  ->  allan
+   7:    1  ->  anne
+   8:    1  ->  brainard
+   9:    1  ->  carpentier
+  10:    1  ->  ceravolo
+  11:    1  ->  concertina
+  12:    1  ->  do
+  13:    1  ->  does
+  14:    1  ->  elmslie
+  15:    1  ->  enquire
+  16:    1  ->  fagin
+  17:    1  ->  for
+  18:    1  ->  girono
+  19:    1  ->  hurt
+  20:    1  ->  in
+  21:    1  ->  intoxicant
+  22:    1  ->  it
+  23:    1  ->  kenward
+  24:    1  ->  lewis
+  25:    1  ->  oh
+  26:    1  ->  pacing
+  27:    1  ->  parts
+  28:    1  ->  poised
+  29:    1  ->  results
+  30:    1  ->  schjeldahl
+  31:    1  ->  shelves
+  32:    1  ->  sixteen
+  33:    1  ->  sixty
+  34:    1  ->  soul
+  35:    1  ->  specific
+  36:    1  ->  two
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    3  ->  velasquez
+   2:    2  ->  24th
+   3:    2  ->  monet
+   4:    2  ->  père
+   5:    1  ->  1862
+   6:    1  ->  alan
+   7:    1  ->  and
+   8:    1  ->  ann
+   9:    1  ->  at
+  10:    1  ->  be
+  11:    1  ->  because
+  12:    1  ->  brainerd
+  13:    1  ->  charpentier
+  14:    1  ->  concertino
+  15:    1  ->  elmsley
+  16:    1  ->  facing
+  17:    1  ->  fagan
+  18:    1  ->  giorno
+  19:    1  ->  heard
+  20:    1  ->  inquire
+  21:    1  ->  is
+  22:    1  ->  it's
+  23:    1  ->  kenrod
+  24:    1  ->  louis
+  25:    1  ->  pacific
+  26:    1  ->  parks
+  27:    1  ->  poise
+  28:    1  ->  result
+  29:    1  ->  scheldahl
+  30:    1  ->  shells
+  31:    1  ->  sixty
+  32:    1  ->  so
+  33:    1  ->  though
+  34:    1  ->  to
+  35:    1  ->  toxicant
+  36:    1  ->  travalo
+  37:    1  ->  well
+  38:    1  ->  you
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

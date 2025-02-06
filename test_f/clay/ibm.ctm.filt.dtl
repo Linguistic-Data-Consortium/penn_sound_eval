@@ -1,0 +1,292 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.8%   ( 171)
+
+Percent Correct           =   85.5%   ( 923)
+
+Percent Substitution      =    5.4%   (  58)
+Percent Deletions         =    9.1%   (  98)
+Percent Insertions        =    1.4%   (  15)
+Percent Word Accuracy     =   84.2%
+
+
+Ref. words                =           (1079)
+Hyp. words                =           ( 996)
+Aligned words             =           (1094)
+
+CONFUSION PAIRS                  Total                 (57)
+                                 With >=  1 occurrences (57)
+
+   1:    2  ->  in ==> and
+   2:    1  ->  a ==> the
+   3:    1  ->  about ==> to
+   4:    1  ->  absolutely ==> boy
+   5:    1  ->  and ==> in
+   6:    1  ->  and ==> right
+   7:    1  ->  as ==> artist
+   8:    1  ->  at ==> a
+   9:    1  ->  brakhage ==> backage
+  10:    1  ->  can ==> could
+  11:    1  ->  contemporaries ==> contemporary
+  12:    1  ->  content ==> contract
+  13:    1  ->  could ==> can
+  14:    1  ->  did ==> do
+  15:    1  ->  duncan ==> and
+  16:    1  ->  engraved ==> engrave
+  17:    1  ->  engraving ==> gravy
+  18:    1  ->  exactly ==> or
+  19:    1  ->  have ==> to
+  20:    1  ->  i ==> might
+  21:    1  ->  it ==> xerox
+  22:    1  ->  it's ==> absolutely
+  23:    1  ->  know ==> known
+  24:    1  ->  known ==> know
+  25:    1  ->  letterpress ==> press
+  26:    1  ->  m ==> may
+  27:    1  ->  maybe ==> be
+  28:    1  ->  nonpublisher ==> publisher
+  29:    1  ->  not ==> want
+  30:    1  ->  poetic ==> politic
+  31:    1  ->  published ==> publish
+  32:    1  ->  so ==> that
+  33:    1  ->  socalled ==> called
+  34:    1  ->  st ==> just
+  35:    1  ->  syncretism ==> synchronism
+  36:    1  ->  talk ==> tend
+  37:    1  ->  th ==> that
+  38:    1  ->  th ==> the
+  39:    1  ->  the ==> a
+  40:    1  ->  the ==> he
+  41:    1  ->  the ==> your
+  42:    1  ->  they ==> but
+  43:    1  ->  tuumba ==> tumba
+  44:    1  ->  typed ==> type
+  45:    1  ->  unrewarding ==> rewarding
+  46:    1  ->  were ==> are
+  47:    1  ->  what ==> it
+  48:    1  ->  what ==> when
+  49:    1  ->  while ==> why
+  50:    1  ->  work ==> world
+  51:    1  ->  x ==> go
+  52:    1  ->  x ==> i
+  53:    1  ->  x ==> is
+  54:    1  ->  x ==> maybe
+  55:    1  ->  x ==> roche
+  56:    1  ->  x ==> will
+  57:    1  ->  yeah ==> have
+     -------
+        58
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  it
+   2:    2  ->  of
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  do
+   6:    1  ->  know
+   7:    1  ->  letter
+   8:    1  ->  non
+   9:    1  ->  not
+  10:    1  ->  so
+  11:    1  ->  the
+  12:    1  ->  un
+  13:    1  ->  yeah
+     -------
+        15
+
+
+
+DELETIONS                        Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:   13  ->  yeah
+   2:    9  ->  %bcack
+   3:    7  ->  x
+   4:    4  ->  and
+   5:    4  ->  right
+   6:    3  ->  a
+   7:    3  ->  have
+   8:    3  ->  i
+   9:    3  ->  is
+  10:    3  ->  or
+  11:    2  ->  it
+  12:    2  ->  not
+  13:    2  ->  of
+  14:    2  ->  the
+  15:    2  ->  w
+  16:    2  ->  we
+  17:    1  ->  an
+  18:    1  ->  art
+  19:    1  ->  book
+  20:    1  ->  books
+  21:    1  ->  but
+  22:    1  ->  chapter
+  23:    1  ->  con
+  24:    1  ->  dick
+  25:    1  ->  down
+  26:    1  ->  f
+  27:    1  ->  famously
+  28:    1  ->  fine
+  29:    1  ->  go
+  30:    1  ->  had
+  31:    1  ->  interesting
+  32:    1  ->  it's
+  33:    1  ->  just
+  34:    1  ->  l
+  35:    1  ->  maybe
+  36:    1  ->  mean
+  37:    1  ->  moby
+  38:    1  ->  most
+  39:    1  ->  oh
+  40:    1  ->  on
+  41:    1  ->  one
+  42:    1  ->  placing
+  43:    1  ->  r
+  44:    1  ->  sense
+  45:    1  ->  that
+  46:    1  ->  that's
+  47:    1  ->  them
+  48:    1  ->  well
+  49:    1  ->  would
+  50:    1  ->  xeroxed
+     -------
+        98
+
+
+
+SUBSTITUTIONS                    Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    6  ->  x
+   2:    3  ->  the
+   3:    2  ->  and
+   4:    2  ->  in
+   5:    2  ->  th
+   6:    2  ->  what
+   7:    1  ->  a
+   8:    1  ->  about
+   9:    1  ->  absolutely
+  10:    1  ->  as
+  11:    1  ->  at
+  12:    1  ->  brakhage
+  13:    1  ->  can
+  14:    1  ->  contemporaries
+  15:    1  ->  content
+  16:    1  ->  could
+  17:    1  ->  did
+  18:    1  ->  duncan
+  19:    1  ->  engraved
+  20:    1  ->  engraving
+  21:    1  ->  exactly
+  22:    1  ->  have
+  23:    1  ->  i
+  24:    1  ->  it
+  25:    1  ->  it's
+  26:    1  ->  know
+  27:    1  ->  known
+  28:    1  ->  letterpress
+  29:    1  ->  m
+  30:    1  ->  maybe
+  31:    1  ->  nonpublisher
+  32:    1  ->  not
+  33:    1  ->  poetic
+  34:    1  ->  published
+  35:    1  ->  so
+  36:    1  ->  socalled
+  37:    1  ->  st
+  38:    1  ->  syncretism
+  39:    1  ->  talk
+  40:    1  ->  they
+  41:    1  ->  tuumba
+  42:    1  ->  typed
+  43:    1  ->  unrewarding
+  44:    1  ->  were
+  45:    1  ->  while
+  46:    1  ->  work
+  47:    1  ->  yeah
+     -------
+        58
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    3  ->  and
+   2:    2  ->  a
+   3:    2  ->  that
+   4:    2  ->  the
+   5:    2  ->  to
+   6:    1  ->  absolutely
+   7:    1  ->  are
+   8:    1  ->  artist
+   9:    1  ->  backage
+  10:    1  ->  be
+  11:    1  ->  boy
+  12:    1  ->  but
+  13:    1  ->  called
+  14:    1  ->  can
+  15:    1  ->  contemporary
+  16:    1  ->  contract
+  17:    1  ->  could
+  18:    1  ->  do
+  19:    1  ->  engrave
+  20:    1  ->  go
+  21:    1  ->  gravy
+  22:    1  ->  have
+  23:    1  ->  he
+  24:    1  ->  i
+  25:    1  ->  in
+  26:    1  ->  is
+  27:    1  ->  it
+  28:    1  ->  just
+  29:    1  ->  know
+  30:    1  ->  known
+  31:    1  ->  may
+  32:    1  ->  maybe
+  33:    1  ->  might
+  34:    1  ->  or
+  35:    1  ->  politic
+  36:    1  ->  press
+  37:    1  ->  publish
+  38:    1  ->  publisher
+  39:    1  ->  rewarding
+  40:    1  ->  right
+  41:    1  ->  roche
+  42:    1  ->  synchronism
+  43:    1  ->  tend
+  44:    1  ->  tumba
+  45:    1  ->  type
+  46:    1  ->  want
+  47:    1  ->  when
+  48:    1  ->  why
+  49:    1  ->  will
+  50:    1  ->  world
+  51:    1  ->  xerox
+  52:    1  ->  your
+     -------
+        58
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

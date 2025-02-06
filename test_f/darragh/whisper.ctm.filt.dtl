@@ -1,0 +1,153 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.2%   (  61)
+
+Percent Correct           =   95.4%   ( 932)
+
+Percent Substitution      =    2.7%   (  26)
+Percent Deletions         =    1.9%   (  19)
+Percent Insertions        =    1.6%   (  16)
+Percent Word Accuracy     =   93.8%
+
+
+Ref. words                =           ( 977)
+Hyp. words                =           ( 974)
+Aligned words             =           ( 993)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    4  ->  hon ==> hun
+   2:    2  ->  bayhdole ==> dole
+   3:    2  ->  liberty ==> erte
+   4:    2  ->  x ==> corky
+   5:    2  ->  x ==> levent
+   6:    2  ->  x ==> quixey
+   7:    1  ->  a ==> aha
+   8:    1  ->  am ==> lib
+   9:    1  ->  can ==> could
+  10:    1  ->  her ==> are
+  11:    1  ->  hons ==> huns
+  12:    1  ->  lib ==> lube
+  13:    1  ->  p ==> asap
+  14:    1  ->  singalong ==> along
+  15:    1  ->  six ==> a6
+  16:    1  ->  skin ==> skinned
+  17:    1  ->  the ==> a
+  18:    1  ->  twentieth ==> 20th
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  bay
+   2:    2  ->  gal
+   3:    1  ->  am
+   4:    1  ->  at
+   5:    1  ->  go
+   6:    1  ->  had
+   7:    1  ->  have
+   8:    1  ->  i
+   9:    1  ->  let
+  10:    1  ->  lib
+  11:    1  ->  paper
+  12:    1  ->  see
+  13:    1  ->  sing
+  14:    1  ->  us
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  a
+   2:    2  ->  i
+   3:    2  ->  k.
+   4:    2  ->  o.
+   5:    1  ->  and
+   6:    1  ->  did
+   7:    1  ->  f
+   8:    1  ->  m
+   9:    1  ->  microphone
+  10:    1  ->  oh
+  11:    1  ->  s
+  12:    1  ->  the
+  13:    1  ->  x
+  14:    1  ->  you
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    6  ->  x
+   2:    4  ->  hon
+   3:    2  ->  bayhdole
+   4:    2  ->  liberty
+   5:    1  ->  a
+   6:    1  ->  am
+   7:    1  ->  can
+   8:    1  ->  her
+   9:    1  ->  hons
+  10:    1  ->  lib
+  11:    1  ->  p
+  12:    1  ->  singalong
+  13:    1  ->  six
+  14:    1  ->  skin
+  15:    1  ->  the
+  16:    1  ->  twentieth
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    4  ->  hun
+   2:    2  ->  corky
+   3:    2  ->  dole
+   4:    2  ->  erte
+   5:    2  ->  levent
+   6:    2  ->  quixey
+   7:    1  ->  20th
+   8:    1  ->  a
+   9:    1  ->  a6
+  10:    1  ->  aha
+  11:    1  ->  along
+  12:    1  ->  are
+  13:    1  ->  asap
+  14:    1  ->  could
+  15:    1  ->  huns
+  16:    1  ->  lib
+  17:    1  ->  lube
+  18:    1  ->  skinned
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

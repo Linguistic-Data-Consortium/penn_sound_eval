@@ -1,0 +1,160 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.8%   (  38)
+
+Percent Correct           =   96.2%   ( 760)
+
+Percent Substitution      =    3.3%   (  26)
+Percent Deletions         =    0.5%   (   4)
+Percent Insertions        =    1.0%   (   8)
+Percent Word Accuracy     =   95.2%
+
+
+Ref. words                =           ( 790)
+Hyp. words                =           ( 794)
+Aligned words             =           ( 798)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  about ==> out
+   2:    1  ->  antedate ==> to
+   3:    1  ->  artificers ==> divisors
+   4:    1  ->  as ==> languages
+   5:    1  ->  balloon ==> boom
+   6:    1  ->  balloons ==> blooms
+   7:    1  ->  camera's ==> cameras
+   8:    1  ->  closeup ==> up
+   9:    1  ->  doll ==> dolls
+  10:    1  ->  error ==> era
+  11:    1  ->  eviction ==> fiction
+  12:    1  ->  g ==> jib
+  13:    1  ->  he ==> you
+  14:    1  ->  homebase ==> base
+  15:    1  ->  in ==> and
+  16:    1  ->  in ==> by
+  17:    1  ->  ivan's ==> 's
+  18:    1  ->  kim ==> din
+  19:    1  ->  language ==> date
+  20:    1  ->  napalmed ==> era
+  21:    1  ->  phan ==> can
+  22:    1  ->  rig ==> rake
+  23:    1  ->  starboat ==> boat
+  24:    1  ->  syvash ==> sivash
+  25:    1  ->  thi ==> napalm
+  26:    1  ->  though ==> through
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  close
+   3:    1  ->  fonzie
+   4:    1  ->  home
+   5:    1  ->  if
+   6:    1  ->  ivan
+   7:    1  ->  our
+   8:    1  ->  star
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  sanctus
+   2:    1  ->  as
+   3:    1  ->  spree
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  in
+   2:    1  ->  about
+   3:    1  ->  antedate
+   4:    1  ->  artificers
+   5:    1  ->  as
+   6:    1  ->  balloon
+   7:    1  ->  balloons
+   8:    1  ->  camera's
+   9:    1  ->  closeup
+  10:    1  ->  doll
+  11:    1  ->  error
+  12:    1  ->  eviction
+  13:    1  ->  g
+  14:    1  ->  he
+  15:    1  ->  homebase
+  16:    1  ->  ivan's
+  17:    1  ->  kim
+  18:    1  ->  language
+  19:    1  ->  napalmed
+  20:    1  ->  phan
+  21:    1  ->  rig
+  22:    1  ->  starboat
+  23:    1  ->  syvash
+  24:    1  ->  thi
+  25:    1  ->  though
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  era
+   2:    1  ->  's
+   3:    1  ->  and
+   4:    1  ->  base
+   5:    1  ->  blooms
+   6:    1  ->  boat
+   7:    1  ->  boom
+   8:    1  ->  by
+   9:    1  ->  cameras
+  10:    1  ->  can
+  11:    1  ->  date
+  12:    1  ->  din
+  13:    1  ->  divisors
+  14:    1  ->  dolls
+  15:    1  ->  fiction
+  16:    1  ->  jib
+  17:    1  ->  languages
+  18:    1  ->  napalm
+  19:    1  ->  out
+  20:    1  ->  rake
+  21:    1  ->  sivash
+  22:    1  ->  through
+  23:    1  ->  to
+  24:    1  ->  up
+  25:    1  ->  you
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

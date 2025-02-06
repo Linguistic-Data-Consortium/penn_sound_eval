@@ -1,0 +1,242 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.2%   ( 180)
+
+Percent Correct           =   82.7%   ( 819)
+
+Percent Substitution      =    4.7%   (  47)
+Percent Deletions         =   12.5%   ( 124)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   81.8%
+
+
+Ref. words                =           ( 990)
+Hyp. words                =           ( 875)
+Aligned words             =           ( 999)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  a ==> cornea
+   2:    2  ->  a ==> one
+   3:    2  ->  des ==> day
+   4:    2  ->  du ==> de
+   5:    2  ->  obligitoire ==> obligatoire
+   6:    2  ->  who ==> whom
+   7:    2  ->  x ==> mercure
+   8:    1  ->  and ==> rouvier
+   9:    1  ->  assigned ==> signed
+  10:    1  ->  at ==> and
+  11:    1  ->  contact ==> i
+  12:    1  ->  did ==> kob
+  13:    1  ->  get ==> am
+  14:    1  ->  he ==> d
+  15:    1  ->  how ==> maksha
+  16:    1  ->  it ==> a
+  17:    1  ->  koch ==> coke
+  18:    1  ->  novel ==> novels
+  19:    1  ->  reverdy ==> d
+  20:    1  ->  reverdy ==> revod
+  21:    1  ->  she ==> actually
+  22:    1  ->  them ==> that
+  23:    1  ->  was ==> dietice
+  24:    1  ->  was ==> were
+  25:    1  ->  whose ==> it
+  26:    1  ->  x ==> all
+  27:    1  ->  x ==> contacted
+  28:    1  ->  x ==> did
+  29:    1  ->  x ==> eckhardt
+  30:    1  ->  x ==> gts
+  31:    1  ->  x ==> jamaica
+  32:    1  ->  x ==> karmani
+  33:    1  ->  x ==> montserrand
+  34:    1  ->  x ==> plus
+  35:    1  ->  x ==> sallier
+  36:    1  ->  x ==> was
+  37:    1  ->  yeah ==> revod
+  38:    1  ->  yeah ==> yes
+  39:    1  ->  you ==> he
+  40:    1  ->  you ==> i
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  dietice
+   2:    1  ->  it
+   3:    1  ->  le
+   4:    1  ->  meister
+   5:    1  ->  reverend
+   6:    1  ->  sex
+   7:    1  ->  that
+   8:    1  ->  the
+   9:    1  ->  was
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:   15  ->  i
+   2:   12  ->  x
+   3:    9  ->  and
+   4:    6  ->  it
+   5:    6  ->  yeah
+   6:    4  ->  a
+   7:    4  ->  the
+   8:    3  ->  of
+   9:    3  ->  was
+  10:    2  ->  cornet
+  11:    2  ->  f
+  12:    2  ->  how
+  13:    2  ->  is
+  14:    2  ->  know
+  15:    2  ->  no
+  16:    2  ->  oh
+  17:    2  ->  reverdy
+  18:    2  ->  th
+  19:    2  ->  to
+  20:    2  ->  who
+  21:    2  ->  you
+  22:    1  ->  %bcack
+  23:    1  ->  am
+  24:    1  ->  another
+  25:    1  ->  anyway
+  26:    1  ->  bef
+  27:    1  ->  but
+  28:    1  ->  d
+  29:    1  ->  do
+  30:    1  ->  e
+  31:    1  ->  for
+  32:    1  ->  frank
+  33:    1  ->  friend
+  34:    1  ->  h
+  35:    1  ->  he
+  36:    1  ->  his
+  37:    1  ->  in
+  38:    1  ->  it's
+  39:    1  ->  jacob
+  40:    1  ->  m
+  41:    1  ->  max
+  42:    1  ->  my
+  43:    1  ->  n
+  44:    1  ->  not
+  45:    1  ->  now
+  46:    1  ->  or
+  47:    1  ->  poem
+  48:    1  ->  that
+  49:    1  ->  that's
+  50:    1  ->  them
+  51:    1  ->  then
+  52:    1  ->  v
+  53:    1  ->  w
+  54:    1  ->  wh
+  55:    1  ->  what
+  56:    1  ->  where
+  57:    1  ->  whose
+  58:    1  ->  will
+  59:    1  ->  yep
+     -------
+       124
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   13  ->  x
+   2:    4  ->  a
+   3:    2  ->  des
+   4:    2  ->  du
+   5:    2  ->  obligitoire
+   6:    2  ->  reverdy
+   7:    2  ->  was
+   8:    2  ->  who
+   9:    2  ->  yeah
+  10:    2  ->  you
+  11:    1  ->  and
+  12:    1  ->  assigned
+  13:    1  ->  at
+  14:    1  ->  contact
+  15:    1  ->  did
+  16:    1  ->  get
+  17:    1  ->  he
+  18:    1  ->  how
+  19:    1  ->  it
+  20:    1  ->  koch
+  21:    1  ->  novel
+  22:    1  ->  she
+  23:    1  ->  them
+  24:    1  ->  whose
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  cornea
+   2:    2  ->  d
+   3:    2  ->  day
+   4:    2  ->  de
+   5:    2  ->  i
+   6:    2  ->  mercure
+   7:    2  ->  obligatoire
+   8:    2  ->  one
+   9:    2  ->  revod
+  10:    2  ->  whom
+  11:    1  ->  a
+  12:    1  ->  actually
+  13:    1  ->  all
+  14:    1  ->  am
+  15:    1  ->  and
+  16:    1  ->  coke
+  17:    1  ->  contacted
+  18:    1  ->  did
+  19:    1  ->  dietice
+  20:    1  ->  eckhardt
+  21:    1  ->  gts
+  22:    1  ->  he
+  23:    1  ->  it
+  24:    1  ->  jamaica
+  25:    1  ->  karmani
+  26:    1  ->  kob
+  27:    1  ->  maksha
+  28:    1  ->  montserrand
+  29:    1  ->  novels
+  30:    1  ->  plus
+  31:    1  ->  rouvier
+  32:    1  ->  sallier
+  33:    1  ->  signed
+  34:    1  ->  that
+  35:    1  ->  was
+  36:    1  ->  were
+  37:    1  ->  yes
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

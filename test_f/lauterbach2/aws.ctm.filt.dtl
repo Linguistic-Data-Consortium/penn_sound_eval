@@ -1,0 +1,166 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.7%   (  49)
+
+Percent Correct           =   95.5%   ( 822)
+
+Percent Substitution      =    3.1%   (  27)
+Percent Deletions         =    1.4%   (  12)
+Percent Insertions        =    1.2%   (  10)
+Percent Word Accuracy     =   94.3%
+
+
+Ref. words                =           ( 861)
+Hyp. words                =           ( 859)
+Aligned words             =           ( 871)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  bare ==> bear
+   2:    2  ->  its ==> it's
+   3:    1  ->  abraids ==> braids
+   4:    1  ->  and ==> at
+   5:    1  ->  anoth ==> another
+   6:    1  ->  bet ==> that
+   7:    1  ->  charles' ==> charles's
+   8:    1  ->  effected ==> affected
+   9:    1  ->  his ==> whole
+  10:    1  ->  it's ==> this
+  11:    1  ->  just ==> this
+  12:    1  ->  know ==> do
+  13:    1  ->  na ==> no
+  14:    1  ->  now ==> pro
+  15:    1  ->  pai ==> another
+  16:    1  ->  proce ==> process
+  17:    1  ->  the ==> be
+  18:    1  ->  there's ==> the
+  19:    1  ->  thirty ==> oh
+  20:    1  ->  twenty ==> two
+  21:    1  ->  wealth ==> well
+  22:    1  ->  when ==> who
+  23:    1  ->  words ==> word
+  24:    1  ->  y ==> you
+  25:    1  ->  you ==> not
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    3  ->  i
+   2:    1  ->  a
+   3:    1  ->  am
+   4:    1  ->  and
+   5:    1  ->  just
+   6:    1  ->  to
+   7:    1  ->  we
+   8:    1  ->  what
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  another's
+   3:    1  ->  hole
+   4:    1  ->  it
+   5:    1  ->  na
+   6:    1  ->  of
+   7:    1  ->  pai
+   8:    1  ->  poem
+   9:    1  ->  th
+  10:    1  ->  u
+  11:    1  ->  w
+  12:    1  ->  when
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  bare
+   2:    2  ->  its
+   3:    1  ->  abraids
+   4:    1  ->  and
+   5:    1  ->  anoth
+   6:    1  ->  bet
+   7:    1  ->  charles'
+   8:    1  ->  effected
+   9:    1  ->  his
+  10:    1  ->  it's
+  11:    1  ->  just
+  12:    1  ->  know
+  13:    1  ->  na
+  14:    1  ->  now
+  15:    1  ->  pai
+  16:    1  ->  proce
+  17:    1  ->  the
+  18:    1  ->  there's
+  19:    1  ->  thirty
+  20:    1  ->  twenty
+  21:    1  ->  wealth
+  22:    1  ->  when
+  23:    1  ->  words
+  24:    1  ->  y
+  25:    1  ->  you
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  another
+   2:    2  ->  bear
+   3:    2  ->  it's
+   4:    2  ->  this
+   5:    1  ->  affected
+   6:    1  ->  at
+   7:    1  ->  be
+   8:    1  ->  braids
+   9:    1  ->  charles's
+  10:    1  ->  do
+  11:    1  ->  no
+  12:    1  ->  not
+  13:    1  ->  oh
+  14:    1  ->  pro
+  15:    1  ->  process
+  16:    1  ->  that
+  17:    1  ->  the
+  18:    1  ->  two
+  19:    1  ->  well
+  20:    1  ->  who
+  21:    1  ->  whole
+  22:    1  ->  word
+  23:    1  ->  you
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

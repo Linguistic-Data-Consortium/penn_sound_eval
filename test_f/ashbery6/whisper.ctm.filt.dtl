@@ -1,0 +1,107 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.0%   (  20)
+
+Percent Correct           =   98.7%   ( 975)
+
+Percent Substitution      =    0.8%   (   8)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    0.7%   (   7)
+Percent Word Accuracy     =   98.0%
+
+
+Ref. words                =           ( 988)
+Hyp. words                =           ( 990)
+Aligned words             =           ( 995)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  car ==> boxcar
+   3:    1  ->  falbalas ==> ballads
+   4:    1  ->  in ==> foul
+   5:    1  ->  others ==> others'
+   6:    1  ->  raban ==> rabban
+   7:    1  ->  stares ==> stairs
+   8:    1  ->  the ==> a
+     -------
+         8
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  and
+   2:    2  ->  i
+   3:    1  ->  knew
+   4:    1  ->  of
+   5:    1  ->  will
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  box
+   3:    1  ->  is
+   4:    1  ->  mid
+   5:    1  ->  the
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  car
+   3:    1  ->  falbalas
+   4:    1  ->  in
+   5:    1  ->  others
+   6:    1  ->  raban
+   7:    1  ->  stares
+   8:    1  ->  the
+     -------
+         8
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  ballads
+   3:    1  ->  boxcar
+   4:    1  ->  foul
+   5:    1  ->  of
+   6:    1  ->  others'
+   7:    1  ->  rabban
+   8:    1  ->  stairs
+     -------
+         8
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

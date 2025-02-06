@@ -1,0 +1,249 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.0%   (  82)
+
+Percent Correct           =   90.4%   ( 740)
+
+Percent Substitution      =    7.2%   (  59)
+Percent Deletions         =    2.4%   (  20)
+Percent Insertions        =    0.4%   (   3)
+Percent Word Accuracy     =   90.0%
+
+
+Ref. words                =           ( 819)
+Hyp. words                =           ( 802)
+Aligned words             =           ( 822)
+
+CONFUSION PAIRS                  Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    3  ->  forrest ==> forest
+   2:    2  ->  and ==> in
+   3:    2  ->  doc ==> dock
+   4:    2  ->  drafts ==> draft
+   5:    2  ->  rah ==> raw
+   6:    2  ->  tinsel ==> tensile
+   7:    1  ->  a ==> an
+   8:    1  ->  all ==> will
+   9:    1  ->  and ==> margarine
+  10:    1  ->  appellate ==> applet
+  11:    1  ->  bleacher ==> bleachers
+  12:    1  ->  concordance ==> concorde's
+  13:    1  ->  dao ==> dow
+  14:    1  ->  ekphrastic ==> plastic
+  15:    1  ->  emendation ==> emanation
+  16:    1  ->  emmylou ==> lou
+  17:    1  ->  enunciations ==> enunciation
+  18:    1  ->  evident ==> evidence
+  19:    1  ->  fabulist ==> fabulous
+  20:    1  ->  facts ==> arafat
+  21:    1  ->  fist ==> fisk
+  22:    1  ->  get ==> got
+  23:    1  ->  glassed ==> glass
+  24:    1  ->  hymns ==> hems
+  25:    1  ->  impostor ==> impasto
+  26:    1  ->  insignias ==> insignia
+  27:    1  ->  it ==> method
+  28:    1  ->  juvenalia ==> juvenile
+  29:    1  ->  lilies ==> lillies
+  30:    1  ->  lust ==> lost
+  31:    1  ->  mayakovsky ==> makowski
+  32:    1  ->  memoir's ==> memoirs
+  33:    1  ->  non ==> hon
+  34:    1  ->  our ==> are
+  35:    1  ->  palpability ==> culpability
+  36:    1  ->  park's ==> park
+  37:    1  ->  pathos ==> pass
+  38:    1  ->  poetry ==> portray
+  39:    1  ->  sidled ==> titled
+  40:    1  ->  skies ==> sky
+  41:    1  ->  slovenly ==> lovely
+  42:    1  ->  sun ==> on
+  43:    1  ->  the ==> this
+  44:    1  ->  theatre ==> theater
+  45:    1  ->  trickily ==> trickle
+  46:    1  ->  trot ==> taught
+  47:    1  ->  trot ==> to
+  48:    1  ->  upbraid ==> upgrade
+  49:    1  ->  war ==> wore
+  50:    1  ->  welish ==> welsh
+  51:    1  ->  wind ==> wing
+  52:    1  ->  with ==> of
+     -------
+        59
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  emmy
+   3:    1  ->  really
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  oh
+   2:    1  ->  a
+   3:    1  ->  cu
+   4:    1  ->  d
+   5:    1  ->  flag
+   6:    1  ->  got
+   7:    1  ->  it's
+   8:    1  ->  ke
+   9:    1  ->  l
+  10:    1  ->  like
+  11:    1  ->  m
+  12:    1  ->  marjorie
+  13:    1  ->  mere
+  14:    1  ->  month
+  15:    1  ->  of
+  16:    1  ->  really
+  17:    1  ->  the
+  18:    1  ->  wr
+  19:    1  ->  yeah
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    3  ->  and
+   2:    3  ->  forrest
+   3:    2  ->  doc
+   4:    2  ->  drafts
+   5:    2  ->  rah
+   6:    2  ->  tinsel
+   7:    2  ->  trot
+   8:    1  ->  a
+   9:    1  ->  all
+  10:    1  ->  appellate
+  11:    1  ->  bleacher
+  12:    1  ->  concordance
+  13:    1  ->  dao
+  14:    1  ->  ekphrastic
+  15:    1  ->  emendation
+  16:    1  ->  emmylou
+  17:    1  ->  enunciations
+  18:    1  ->  evident
+  19:    1  ->  fabulist
+  20:    1  ->  facts
+  21:    1  ->  fist
+  22:    1  ->  get
+  23:    1  ->  glassed
+  24:    1  ->  hymns
+  25:    1  ->  impostor
+  26:    1  ->  insignias
+  27:    1  ->  it
+  28:    1  ->  juvenalia
+  29:    1  ->  lilies
+  30:    1  ->  lust
+  31:    1  ->  mayakovsky
+  32:    1  ->  memoir's
+  33:    1  ->  non
+  34:    1  ->  our
+  35:    1  ->  palpability
+  36:    1  ->  park's
+  37:    1  ->  pathos
+  38:    1  ->  poetry
+  39:    1  ->  sidled
+  40:    1  ->  skies
+  41:    1  ->  slovenly
+  42:    1  ->  sun
+  43:    1  ->  the
+  44:    1  ->  theatre
+  45:    1  ->  trickily
+  46:    1  ->  upbraid
+  47:    1  ->  war
+  48:    1  ->  welish
+  49:    1  ->  wind
+  50:    1  ->  with
+     -------
+        59
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    3  ->  forest
+   2:    2  ->  dock
+   3:    2  ->  draft
+   4:    2  ->  in
+   5:    2  ->  raw
+   6:    2  ->  tensile
+   7:    1  ->  an
+   8:    1  ->  applet
+   9:    1  ->  arafat
+  10:    1  ->  are
+  11:    1  ->  bleachers
+  12:    1  ->  concorde's
+  13:    1  ->  culpability
+  14:    1  ->  dow
+  15:    1  ->  emanation
+  16:    1  ->  enunciation
+  17:    1  ->  evidence
+  18:    1  ->  fabulous
+  19:    1  ->  fisk
+  20:    1  ->  glass
+  21:    1  ->  got
+  22:    1  ->  hems
+  23:    1  ->  hon
+  24:    1  ->  impasto
+  25:    1  ->  insignia
+  26:    1  ->  juvenile
+  27:    1  ->  lillies
+  28:    1  ->  lost
+  29:    1  ->  lou
+  30:    1  ->  lovely
+  31:    1  ->  makowski
+  32:    1  ->  margarine
+  33:    1  ->  memoirs
+  34:    1  ->  method
+  35:    1  ->  of
+  36:    1  ->  on
+  37:    1  ->  park
+  38:    1  ->  pass
+  39:    1  ->  plastic
+  40:    1  ->  portray
+  41:    1  ->  sky
+  42:    1  ->  taught
+  43:    1  ->  theater
+  44:    1  ->  this
+  45:    1  ->  titled
+  46:    1  ->  to
+  47:    1  ->  trickle
+  48:    1  ->  upgrade
+  49:    1  ->  welsh
+  50:    1  ->  will
+  51:    1  ->  wing
+  52:    1  ->  wore
+     -------
+        59
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

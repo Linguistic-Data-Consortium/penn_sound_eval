@@ -1,0 +1,200 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.7%   (  63)
+
+Percent Correct           =   95.0%   (1059)
+
+Percent Substitution      =    3.6%   (  40)
+Percent Deletions         =    1.4%   (  16)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   94.3%
+
+
+Ref. words                =           (1115)
+Hyp. words                =           (1106)
+Aligned words             =           (1122)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  a ==> the
+   2:    2  ->  anew ==> new
+   3:    1  ->  a ==> and
+   4:    1  ->  a ==> it
+   5:    1  ->  again ==> and
+   6:    1  ->  along ==> on
+   7:    1  ->  ar ==> art
+   8:    1  ->  artists ==> art
+   9:    1  ->  bit ==> it
+  10:    1  ->  culls ==> calls
+  11:    1  ->  culmney ==> right
+  12:    1  ->  during ==> and
+  13:    1  ->  fil ==> film
+  14:    1  ->  flash ==> flesh
+  15:    1  ->  god ==> could
+  16:    1  ->  hearst ==> hurst
+  17:    1  ->  i ==> you
+  18:    1  ->  installati ==> installation
+  19:    1  ->  into ==> in
+  20:    1  ->  it ==> maize
+  21:    1  ->  mak ==> making
+  22:    1  ->  mark ==> market
+  23:    1  ->  mean ==> and
+  24:    1  ->  murra ==> murakami
+  25:    1  ->  or ==> of
+  26:    1  ->  out ==> her
+  27:    1  ->  person's ==> persons
+  28:    1  ->  prized ==> priced
+  29:    1  ->  said ==> says
+  30:    1  ->  smiths ==> smith
+  31:    1  ->  smiths' ==> smith
+  32:    1  ->  somaticize ==> so
+  33:    1  ->  someone ==> how
+  34:    1  ->  tell ==> tells
+  35:    1  ->  though ==> thought
+  36:    1  ->  to ==> he
+  37:    1  ->  who's ==> as
+  38:    1  ->  x ==> know
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  an
+   2:    1  ->  and
+   3:    1  ->  at
+   4:    1  ->  if
+   5:    1  ->  some
+   6:    1  ->  you
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  it
+   2:    1  ->  and
+   3:    1  ->  b
+   4:    1  ->  bo
+   5:    1  ->  ex
+   6:    1  ->  high
+   7:    1  ->  how
+   8:    1  ->  i
+   9:    1  ->  is
+  10:    1  ->  it's
+  11:    1  ->  not
+  12:    1  ->  o
+  13:    1  ->  of
+  14:    1  ->  or
+  15:    1  ->  the
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    4  ->  a
+   2:    2  ->  anew
+   3:    1  ->  again
+   4:    1  ->  along
+   5:    1  ->  ar
+   6:    1  ->  artists
+   7:    1  ->  bit
+   8:    1  ->  culls
+   9:    1  ->  culmney
+  10:    1  ->  during
+  11:    1  ->  fil
+  12:    1  ->  flash
+  13:    1  ->  god
+  14:    1  ->  hearst
+  15:    1  ->  i
+  16:    1  ->  installati
+  17:    1  ->  into
+  18:    1  ->  it
+  19:    1  ->  mak
+  20:    1  ->  mark
+  21:    1  ->  mean
+  22:    1  ->  murra
+  23:    1  ->  or
+  24:    1  ->  out
+  25:    1  ->  person's
+  26:    1  ->  prized
+  27:    1  ->  said
+  28:    1  ->  smiths
+  29:    1  ->  smiths'
+  30:    1  ->  somaticize
+  31:    1  ->  someone
+  32:    1  ->  tell
+  33:    1  ->  though
+  34:    1  ->  to
+  35:    1  ->  who's
+  36:    1  ->  x
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    4  ->  and
+   2:    2  ->  art
+   3:    2  ->  it
+   4:    2  ->  new
+   5:    2  ->  smith
+   6:    2  ->  the
+   7:    1  ->  as
+   8:    1  ->  calls
+   9:    1  ->  could
+  10:    1  ->  film
+  11:    1  ->  flesh
+  12:    1  ->  he
+  13:    1  ->  her
+  14:    1  ->  how
+  15:    1  ->  hurst
+  16:    1  ->  in
+  17:    1  ->  installation
+  18:    1  ->  know
+  19:    1  ->  maize
+  20:    1  ->  making
+  21:    1  ->  market
+  22:    1  ->  murakami
+  23:    1  ->  of
+  24:    1  ->  on
+  25:    1  ->  persons
+  26:    1  ->  priced
+  27:    1  ->  right
+  28:    1  ->  says
+  29:    1  ->  so
+  30:    1  ->  tells
+  31:    1  ->  thought
+  32:    1  ->  you
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

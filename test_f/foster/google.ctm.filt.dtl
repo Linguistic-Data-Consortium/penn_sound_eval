@@ -1,0 +1,207 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.2%   (  70)
+
+Percent Correct           =   91.6%   ( 699)
+
+Percent Substitution      =    5.8%   (  44)
+Percent Deletions         =    2.6%   (  20)
+Percent Insertions        =    0.8%   (   6)
+Percent Word Accuracy     =   90.8%
+
+
+Ref. words                =           ( 763)
+Hyp. words                =           ( 749)
+Aligned words             =           ( 769)
+
+CONFUSION PAIRS                  Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    5  ->  b ==> be
+   2:    2  ->  auntie ==> aunty
+   3:    2  ->  eating ==> eaten
+   4:    2  ->  wrote ==> rode
+   5:    1  ->  already ==> ready
+   6:    1  ->  as ==> of
+   7:    1  ->  bare ==> bearing
+   8:    1  ->  ben ==> been
+   9:    1  ->  bodegas ==> bodega
+  10:    1  ->  butterflied ==> butterfly
+  11:    1  ->  climates ==> climes
+  12:    1  ->  colorblind ==> blind
+  13:    1  ->  coming ==> become
+  14:    1  ->  coulades ==> culottes
+  15:    1  ->  face ==> faces
+  16:    1  ->  filled ==> airfilled
+  17:    1  ->  fist ==> fists
+  18:    1  ->  had ==> have
+  19:    1  ->  incognizant ==> cognizant
+  20:    1  ->  is ==> was
+  21:    1  ->  laughs ==> laughed
+  22:    1  ->  m ==> handkerchiefheaded
+  23:    1  ->  mix ==> pancakemix
+  24:    1  ->  momma ==> mama
+  25:    1  ->  old ==> 12yearold
+  26:    1  ->  planting ==> planning
+  27:    1  ->  reenie ==> rennie
+  28:    1  ->  shoe ==> shoes
+  29:    1  ->  somniloquies ==> niloquis
+  30:    1  ->  sue ==> sioux
+  31:    1  ->  the ==> a
+  32:    1  ->  time ==> months
+  33:    1  ->  to ==> into
+  34:    1  ->  unheeded ==> unheated
+  35:    1  ->  which ==> with
+  36:    1  ->  writing ==> riding
+  37:    1  ->  yore ==> your
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  all
+   2:    1  ->  color
+   3:    1  ->  in
+   4:    1  ->  not
+   5:    1  ->  small
+   6:    1  ->  some
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    4  ->  had
+   2:    1  ->  air
+   3:    1  ->  be
+   4:    1  ->  handkerchief
+   5:    1  ->  headed
+   6:    1  ->  is
+   7:    1  ->  laughs
+   8:    1  ->  months'
+   9:    1  ->  mourning
+  10:    1  ->  pancake
+  11:    1  ->  post
+  12:    1  ->  tem
+  13:    1  ->  that
+  14:    1  ->  the
+  15:    1  ->  troubles
+  16:    1  ->  twelve
+  17:    1  ->  year
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    5  ->  b
+   2:    2  ->  auntie
+   3:    2  ->  eating
+   4:    2  ->  wrote
+   5:    1  ->  already
+   6:    1  ->  as
+   7:    1  ->  bare
+   8:    1  ->  ben
+   9:    1  ->  bodegas
+  10:    1  ->  butterflied
+  11:    1  ->  climates
+  12:    1  ->  colorblind
+  13:    1  ->  coming
+  14:    1  ->  coulades
+  15:    1  ->  face
+  16:    1  ->  filled
+  17:    1  ->  fist
+  18:    1  ->  had
+  19:    1  ->  incognizant
+  20:    1  ->  is
+  21:    1  ->  laughs
+  22:    1  ->  m
+  23:    1  ->  mix
+  24:    1  ->  momma
+  25:    1  ->  old
+  26:    1  ->  planting
+  27:    1  ->  reenie
+  28:    1  ->  shoe
+  29:    1  ->  somniloquies
+  30:    1  ->  sue
+  31:    1  ->  the
+  32:    1  ->  time
+  33:    1  ->  to
+  34:    1  ->  unheeded
+  35:    1  ->  which
+  36:    1  ->  writing
+  37:    1  ->  yore
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    5  ->  be
+   2:    2  ->  aunty
+   3:    2  ->  eaten
+   4:    2  ->  rode
+   5:    1  ->  12yearold
+   6:    1  ->  a
+   7:    1  ->  airfilled
+   8:    1  ->  bearing
+   9:    1  ->  become
+  10:    1  ->  been
+  11:    1  ->  blind
+  12:    1  ->  bodega
+  13:    1  ->  butterfly
+  14:    1  ->  climes
+  15:    1  ->  cognizant
+  16:    1  ->  culottes
+  17:    1  ->  faces
+  18:    1  ->  fists
+  19:    1  ->  handkerchiefheaded
+  20:    1  ->  have
+  21:    1  ->  into
+  22:    1  ->  laughed
+  23:    1  ->  mama
+  24:    1  ->  months
+  25:    1  ->  niloquis
+  26:    1  ->  of
+  27:    1  ->  pancakemix
+  28:    1  ->  planning
+  29:    1  ->  ready
+  30:    1  ->  rennie
+  31:    1  ->  riding
+  32:    1  ->  shoes
+  33:    1  ->  sioux
+  34:    1  ->  unheated
+  35:    1  ->  was
+  36:    1  ->  with
+  37:    1  ->  your
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

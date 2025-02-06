@@ -1,0 +1,220 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.4%   (  69)
+
+Percent Correct           =   93.7%   ( 877)
+
+Percent Substitution      =    5.1%   (  48)
+Percent Deletions         =    1.2%   (  11)
+Percent Insertions        =    1.1%   (  10)
+Percent Word Accuracy     =   92.6%
+
+
+Ref. words                =           ( 936)
+Hyp. words                =           ( 935)
+Aligned words             =           ( 946)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    2  ->  and ==> in
+   2:    2  ->  in ==> and
+   3:    2  ->  ninety ==> nine
+   4:    2  ->  saint ==> st
+   5:    1  ->  am ==> "i'm
+   6:    1  ->  am ==> in
+   7:    1  ->  arcane ==> arcade
+   8:    1  ->  bound ==> timebound
+   9:    1  ->  declined ==> clyde
+  10:    1  ->  fall ==> freefall
+  11:    1  ->  florencia ==> florence
+  12:    1  ->  four ==> 2004
+  13:    1  ->  freckled ==> freckle
+  14:    1  ->  her ==> our
+  15:    1  ->  herself ==> self
+  16:    1  ->  i ==> a
+  17:    1  ->  i ==> said
+  18:    1  ->  in ==> pussing
+  19:    1  ->  inadequately ==> adequately
+  20:    1  ->  invokes ==> invoked
+  21:    1  ->  it ==> market
+  22:    1  ->  jenn ==> jen
+  23:    1  ->  lease ==> paralyses
+  24:    1  ->  loves ==> love's
+  25:    1  ->  melding ==> melting
+  26:    1  ->  oaxaca ==> mohaka
+  27:    1  ->  oft ==> often
+  28:    1  ->  radiates ==> radiate
+  29:    1  ->  remains ==> to
+  30:    1  ->  seeing ==> scene
+  31:    1  ->  shelled ==> remain
+  32:    1  ->  shoulder ==> childer
+  33:    1  ->  simplistic ==> simplistic"
+  34:    1  ->  tensegrity ==> segreti
+  35:    1  ->  then ==> the
+  36:    1  ->  twenty ==> two
+  37:    1  ->  unaware ==> where
+  38:    1  ->  walfisch ==> walfish
+  39:    1  ->  want ==> wants
+  40:    1  ->  way ==> waste
+  41:    1  ->  what ==> when
+  42:    1  ->  yours' ==> yours
+  43:    1  ->  zizek ==> gjac
+  44:    1  ->  zizek ==> jacques
+     -------
+        48
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  of
+   2:    1  ->  g
+   3:    1  ->  has
+   4:    1  ->  her
+   5:    1  ->  in
+   6:    1  ->  out
+   7:    1  ->  shells
+   8:    1  ->  ten
+   9:    1  ->  with
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  and
+   2:    1  ->  free
+   3:    1  ->  in
+   4:    1  ->  mark
+   5:    1  ->  para
+   6:    1  ->  puss
+   7:    1  ->  soil
+   8:    1  ->  thousand
+   9:    1  ->  time
+  10:    1  ->  two
+  11:    1  ->  were
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  in
+   2:    2  ->  am
+   3:    2  ->  and
+   4:    2  ->  i
+   5:    2  ->  ninety
+   6:    2  ->  saint
+   7:    2  ->  zizek
+   8:    1  ->  arcane
+   9:    1  ->  bound
+  10:    1  ->  declined
+  11:    1  ->  fall
+  12:    1  ->  florencia
+  13:    1  ->  four
+  14:    1  ->  freckled
+  15:    1  ->  her
+  16:    1  ->  herself
+  17:    1  ->  inadequately
+  18:    1  ->  invokes
+  19:    1  ->  it
+  20:    1  ->  jenn
+  21:    1  ->  lease
+  22:    1  ->  loves
+  23:    1  ->  melding
+  24:    1  ->  oaxaca
+  25:    1  ->  oft
+  26:    1  ->  radiates
+  27:    1  ->  remains
+  28:    1  ->  seeing
+  29:    1  ->  shelled
+  30:    1  ->  shoulder
+  31:    1  ->  simplistic
+  32:    1  ->  tensegrity
+  33:    1  ->  then
+  34:    1  ->  twenty
+  35:    1  ->  unaware
+  36:    1  ->  walfisch
+  37:    1  ->  want
+  38:    1  ->  way
+  39:    1  ->  what
+  40:    1  ->  yours'
+     -------
+        48
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    3  ->  in
+   2:    2  ->  and
+   3:    2  ->  nine
+   4:    2  ->  st
+   5:    1  ->  "i'm
+   6:    1  ->  2004
+   7:    1  ->  a
+   8:    1  ->  adequately
+   9:    1  ->  arcade
+  10:    1  ->  childer
+  11:    1  ->  clyde
+  12:    1  ->  florence
+  13:    1  ->  freckle
+  14:    1  ->  freefall
+  15:    1  ->  gjac
+  16:    1  ->  invoked
+  17:    1  ->  jacques
+  18:    1  ->  jen
+  19:    1  ->  love's
+  20:    1  ->  market
+  21:    1  ->  melting
+  22:    1  ->  mohaka
+  23:    1  ->  often
+  24:    1  ->  our
+  25:    1  ->  paralyses
+  26:    1  ->  pussing
+  27:    1  ->  radiate
+  28:    1  ->  remain
+  29:    1  ->  said
+  30:    1  ->  scene
+  31:    1  ->  segreti
+  32:    1  ->  self
+  33:    1  ->  simplistic"
+  34:    1  ->  the
+  35:    1  ->  timebound
+  36:    1  ->  to
+  37:    1  ->  two
+  38:    1  ->  walfish
+  39:    1  ->  wants
+  40:    1  ->  waste
+  41:    1  ->  when
+  42:    1  ->  where
+  43:    1  ->  yours
+     -------
+        48
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

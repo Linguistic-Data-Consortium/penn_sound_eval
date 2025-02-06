@@ -1,0 +1,228 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.6%   (  68)
+
+Percent Correct           =   94.2%   ( 977)
+
+Percent Substitution      =    4.9%   (  51)
+Percent Deletions         =    0.9%   (   9)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   93.4%
+
+
+Ref. words                =           (1037)
+Hyp. words                =           (1036)
+Aligned words             =           (1045)
+
+CONFUSION PAIRS                  Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    2  ->  finnish ==> finish
+   2:    2  ->  poem ==> palm
+   3:    1  ->  a ==> the
+   4:    1  ->  and ==> in
+   5:    1  ->  and ==> it
+   6:    1  ->  apartment ==> apartments
+   7:    1  ->  at ==> an
+   8:    1  ->  bee ==> b
+   9:    1  ->  brat ==> breath
+  10:    1  ->  brentano's ==> brendan's
+  11:    1  ->  bulgarian ==> bulgaria
+  12:    1  ->  bumpkin ==> and
+  13:    1  ->  choirs ==> inquires
+  14:    1  ->  darken ==> in
+  15:    1  ->  dunne ==> dunn
+  16:    1  ->  gould ==> gold
+  17:    1  ->  hag ==> see
+  18:    1  ->  has ==> as
+  19:    1  ->  hear ==> are
+  20:    1  ->  joan ==> john
+  21:    1  ->  looming ==> gloomy
+  22:    1  ->  mistress ==> mystery
+  23:    1  ->  morton ==> martin
+  24:    1  ->  of ==> freezer
+  25:    1  ->  of ==> in
+  26:    1  ->  pea ==> sweep
+  27:    1  ->  piled ==> pile
+  28:    1  ->  placed ==> place
+  29:    1  ->  poem ==> home
+  30:    1  ->  poem ==> one
+  31:    1  ->  poem ==> pam
+  32:    1  ->  poem ==> phone
+  33:    1  ->  poems ==> palms
+  34:    1  ->  pohjola ==> paula
+  35:    1  ->  ruder ==> router
+  36:    1  ->  scapegrace ==> grace
+  37:    1  ->  some ==> sum
+  38:    1  ->  son ==> sun
+  39:    1  ->  succumbed ==> succumb
+  40:    1  ->  sun ==> son
+  41:    1  ->  tania ==> tanya
+  42:    1  ->  the ==> to
+  43:    1  ->  thought ==> though
+  44:    1  ->  to ==> of
+  45:    1  ->  torrents ==> torrence
+  46:    1  ->  veil ==> vail
+  47:    1  ->  wha ==> what
+  48:    1  ->  yet ==> if
+  49:    1  ->  you ==> we
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bump
+   2:    1  ->  dark
+   3:    1  ->  escape
+   4:    1  ->  i
+   5:    1  ->  is
+   6:    1  ->  the
+   7:    1  ->  them
+   8:    1  ->  was
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  a
+   2:    1  ->  b
+   3:    1  ->  frieze
+   4:    1  ->  just
+   5:    1  ->  s
+   6:    1  ->  sea
+   7:    1  ->  sweet
+   8:    1  ->  then
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    6  ->  poem
+   2:    2  ->  and
+   3:    2  ->  finnish
+   4:    2  ->  of
+   5:    1  ->  a
+   6:    1  ->  apartment
+   7:    1  ->  at
+   8:    1  ->  bee
+   9:    1  ->  brat
+  10:    1  ->  brentano's
+  11:    1  ->  bulgarian
+  12:    1  ->  bumpkin
+  13:    1  ->  choirs
+  14:    1  ->  darken
+  15:    1  ->  dunne
+  16:    1  ->  gould
+  17:    1  ->  hag
+  18:    1  ->  has
+  19:    1  ->  hear
+  20:    1  ->  joan
+  21:    1  ->  looming
+  22:    1  ->  mistress
+  23:    1  ->  morton
+  24:    1  ->  pea
+  25:    1  ->  piled
+  26:    1  ->  placed
+  27:    1  ->  poems
+  28:    1  ->  pohjola
+  29:    1  ->  ruder
+  30:    1  ->  scapegrace
+  31:    1  ->  some
+  32:    1  ->  son
+  33:    1  ->  succumbed
+  34:    1  ->  sun
+  35:    1  ->  tania
+  36:    1  ->  the
+  37:    1  ->  thought
+  38:    1  ->  to
+  39:    1  ->  torrents
+  40:    1  ->  veil
+  41:    1  ->  wha
+  42:    1  ->  yet
+  43:    1  ->  you
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    3  ->  in
+   2:    2  ->  finish
+   3:    2  ->  palm
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  apartments
+   7:    1  ->  are
+   8:    1  ->  as
+   9:    1  ->  b
+  10:    1  ->  breath
+  11:    1  ->  brendan's
+  12:    1  ->  bulgaria
+  13:    1  ->  dunn
+  14:    1  ->  freezer
+  15:    1  ->  gloomy
+  16:    1  ->  gold
+  17:    1  ->  grace
+  18:    1  ->  home
+  19:    1  ->  if
+  20:    1  ->  inquires
+  21:    1  ->  it
+  22:    1  ->  john
+  23:    1  ->  martin
+  24:    1  ->  mystery
+  25:    1  ->  of
+  26:    1  ->  one
+  27:    1  ->  palms
+  28:    1  ->  pam
+  29:    1  ->  paula
+  30:    1  ->  phone
+  31:    1  ->  pile
+  32:    1  ->  place
+  33:    1  ->  router
+  34:    1  ->  see
+  35:    1  ->  son
+  36:    1  ->  succumb
+  37:    1  ->  sum
+  38:    1  ->  sun
+  39:    1  ->  sweep
+  40:    1  ->  tanya
+  41:    1  ->  the
+  42:    1  ->  though
+  43:    1  ->  to
+  44:    1  ->  torrence
+  45:    1  ->  vail
+  46:    1  ->  we
+  47:    1  ->  what
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

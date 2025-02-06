@@ -1,0 +1,194 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.8%   (  53)
+
+Percent Correct           =   95.6%   (1051)
+
+Percent Substitution      =    3.9%   (  43)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   95.2%
+
+
+Ref. words                =           (1099)
+Hyp. words                =           (1099)
+Aligned words             =           (1104)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  is ==> as
+   2:    2  ->  reader's ==> readers
+   3:    2  ->  servant's ==> servants
+   4:    2  ->  the ==> a
+   5:    1  ->  a ==> the
+   6:    1  ->  along ==> the
+   7:    1  ->  and ==> in
+   8:    1  ->  are ==> were
+   9:    1  ->  bade ==> bad
+  10:    1  ->  cohen's ==> cohens
+  11:    1  ->  flabby ==> frabby
+  12:    1  ->  girlfriend's ==> girlfriends
+  13:    1  ->  grey ==> gray
+  14:    1  ->  handled ==> handle
+  15:    1  ->  hid ==> hidden
+  16:    1  ->  in ==> an
+  17:    1  ->  in ==> and
+  18:    1  ->  is ==> marvelous
+  19:    1  ->  is ==> was
+  20:    1  ->  jests ==> jest
+  21:    1  ->  let ==> while
+  22:    1  ->  library's ==> 's
+  23:    1  ->  man ==> men
+  24:    1  ->  over ==> hungover
+  25:    1  ->  pack ==> packed
+  26:    1  ->  patterned ==> pattern
+  27:    1  ->  peace ==> piece
+  28:    1  ->  poem ==> one
+  29:    1  ->  quelled ==> quilled
+  30:    1  ->  sepulcher ==> sepulchre
+  31:    1  ->  thyme ==> time
+  32:    1  ->  to ==> from
+  33:    1  ->  treetop's ==> treetops
+  34:    1  ->  tunes ==> tombs
+  35:    1  ->  us ==> nearly
+  36:    1  ->  wan ==> one
+  37:    1  ->  where ==> wear
+  38:    1  ->  x ==> with
+  39:    1  ->  your ==> you
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  and
+   2:    1  ->  among
+   3:    1  ->  library
+   4:    1  ->  to
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  hung
+   3:    1  ->  marvel
+   4:    1  ->  near
+   5:    1  ->  to
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    4  ->  is
+   2:    2  ->  in
+   3:    2  ->  reader's
+   4:    2  ->  servant's
+   5:    2  ->  the
+   6:    1  ->  a
+   7:    1  ->  along
+   8:    1  ->  and
+   9:    1  ->  are
+  10:    1  ->  bade
+  11:    1  ->  cohen's
+  12:    1  ->  flabby
+  13:    1  ->  girlfriend's
+  14:    1  ->  grey
+  15:    1  ->  handled
+  16:    1  ->  hid
+  17:    1  ->  jests
+  18:    1  ->  let
+  19:    1  ->  library's
+  20:    1  ->  man
+  21:    1  ->  over
+  22:    1  ->  pack
+  23:    1  ->  patterned
+  24:    1  ->  peace
+  25:    1  ->  poem
+  26:    1  ->  quelled
+  27:    1  ->  sepulcher
+  28:    1  ->  thyme
+  29:    1  ->  to
+  30:    1  ->  treetop's
+  31:    1  ->  tunes
+  32:    1  ->  us
+  33:    1  ->  wan
+  34:    1  ->  where
+  35:    1  ->  x
+  36:    1  ->  your
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  a
+   2:    2  ->  as
+   3:    2  ->  one
+   4:    2  ->  readers
+   5:    2  ->  servants
+   6:    2  ->  the
+   7:    1  ->  's
+   8:    1  ->  an
+   9:    1  ->  and
+  10:    1  ->  bad
+  11:    1  ->  cohens
+  12:    1  ->  frabby
+  13:    1  ->  from
+  14:    1  ->  girlfriends
+  15:    1  ->  gray
+  16:    1  ->  handle
+  17:    1  ->  hidden
+  18:    1  ->  hungover
+  19:    1  ->  in
+  20:    1  ->  jest
+  21:    1  ->  marvelous
+  22:    1  ->  men
+  23:    1  ->  nearly
+  24:    1  ->  packed
+  25:    1  ->  pattern
+  26:    1  ->  piece
+  27:    1  ->  quilled
+  28:    1  ->  sepulchre
+  29:    1  ->  time
+  30:    1  ->  tombs
+  31:    1  ->  treetops
+  32:    1  ->  was
+  33:    1  ->  wear
+  34:    1  ->  were
+  35:    1  ->  while
+  36:    1  ->  with
+  37:    1  ->  you
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

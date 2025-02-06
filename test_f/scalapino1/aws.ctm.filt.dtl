@@ -1,0 +1,159 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.4%   (  49)
+
+Percent Correct           =   96.4%   (1065)
+
+Percent Substitution      =    2.9%   (  32)
+Percent Deletions         =    0.7%   (   8)
+Percent Insertions        =    0.8%   (   9)
+Percent Word Accuracy     =   95.6%
+
+
+Ref. words                =           (1105)
+Hyp. words                =           (1106)
+Aligned words             =           (1114)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    6  ->  hennaed ==> heed
+   2:    3  ->  or ==> are
+   3:    2  ->  ribcage ==> cage
+   4:    1  ->  a ==> the
+   5:    1  ->  amid ==> in
+   6:    1  ->  blow ==> blowing
+   7:    1  ->  boy's ==> boys
+   8:    1  ->  cocooned ==> coon
+   9:    1  ->  completely ==> complete
+  10:    1  ->  deserts ==> desert
+  11:    1  ->  eyeholes ==> holes
+  12:    1  ->  flippering ==> flickering
+  13:    1  ->  from ==> that's
+  14:    1  ->  happened ==> happen
+  15:    1  ->  head ==> ahead
+  16:    1  ->  hennaed ==> headed
+  17:    1  ->  in ==> and
+  18:    1  ->  inside ==> side
+  19:    1  ->  jeering ==> cheering
+  20:    1  ->  plain ==> plane
+  21:    1  ->  sheath ==> sheaf
+  22:    1  ->  side ==> outside
+  23:    1  ->  were ==> are
+  24:    1  ->  with ==> which
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  rib
+   2:    1  ->  and
+   3:    1  ->  are
+   4:    1  ->  eye
+   5:    1  ->  have
+   6:    1  ->  in
+   7:    1  ->  or
+   8:    1  ->  the
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  ahead
+   2:    1  ->  her
+   3:    1  ->  in
+   4:    1  ->  is
+   5:    1  ->  out
+   6:    1  ->  to
+   7:    1  ->  w
+   8:    1  ->  who
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    7  ->  hennaed
+   2:    3  ->  or
+   3:    2  ->  ribcage
+   4:    1  ->  a
+   5:    1  ->  amid
+   6:    1  ->  blow
+   7:    1  ->  boy's
+   8:    1  ->  cocooned
+   9:    1  ->  completely
+  10:    1  ->  deserts
+  11:    1  ->  eyeholes
+  12:    1  ->  flippering
+  13:    1  ->  from
+  14:    1  ->  happened
+  15:    1  ->  head
+  16:    1  ->  in
+  17:    1  ->  inside
+  18:    1  ->  jeering
+  19:    1  ->  plain
+  20:    1  ->  sheath
+  21:    1  ->  side
+  22:    1  ->  were
+  23:    1  ->  with
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    6  ->  heed
+   2:    4  ->  are
+   3:    2  ->  cage
+   4:    1  ->  ahead
+   5:    1  ->  and
+   6:    1  ->  blowing
+   7:    1  ->  boys
+   8:    1  ->  cheering
+   9:    1  ->  complete
+  10:    1  ->  coon
+  11:    1  ->  desert
+  12:    1  ->  flickering
+  13:    1  ->  happen
+  14:    1  ->  headed
+  15:    1  ->  holes
+  16:    1  ->  in
+  17:    1  ->  outside
+  18:    1  ->  plane
+  19:    1  ->  sheaf
+  20:    1  ->  side
+  21:    1  ->  that's
+  22:    1  ->  the
+  23:    1  ->  which
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

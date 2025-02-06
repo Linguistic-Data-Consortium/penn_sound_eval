@@ -1,0 +1,180 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.2%   (  57)
+
+Percent Correct           =   95.6%   (1051)
+
+Percent Substitution      =    3.2%   (  35)
+Percent Deletions         =    1.2%   (  13)
+Percent Insertions        =    0.8%   (   9)
+Percent Word Accuracy     =   94.8%
+
+
+Ref. words                =           (1099)
+Hyp. words                =           (1095)
+Aligned words             =           (1108)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  the ==> a
+   2:    2  ->  and ==> in
+   3:    2  ->  servant's ==> servants
+   4:    1  ->  a ==> an
+   5:    1  ->  a ==> the
+   6:    1  ->  along ==> the
+   7:    1  ->  eighteen ==> eight
+   8:    1  ->  flabby ==> frabby
+   9:    1  ->  grey ==> gray
+  10:    1  ->  in ==> an
+  11:    1  ->  in ==> and
+  12:    1  ->  invisible ==> visible
+  13:    1  ->  is ==> as
+  14:    1  ->  jests ==> jest
+  15:    1  ->  line ==> wine
+  16:    1  ->  musing ==> using
+  17:    1  ->  patterned ==> pattern
+  18:    1  ->  pent ==> pant
+  19:    1  ->  privet ==> it
+  20:    1  ->  quelled ==> quell
+  21:    1  ->  sized ==> chairsized
+  22:    1  ->  sized ==> normalsized
+  23:    1  ->  store ==> drugstore
+  24:    1  ->  that ==> had
+  25:    1  ->  thyme ==> time
+  26:    1  ->  to ==> from
+  27:    1  ->  to ==> who
+  28:    1  ->  treetop's ==> tops
+  29:    1  ->  twenty ==> two
+  30:    1  ->  wan ==> one
+  31:    1  ->  x ==> with
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  among
+   4:    1  ->  one
+   5:    1  ->  priving
+   6:    1  ->  that
+   7:    1  ->  to
+   8:    1  ->  tree
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  you
+   2:    1  ->  are
+   3:    1  ->  beetles
+   4:    1  ->  birds
+   5:    1  ->  chair
+   6:    1  ->  drug
+   7:    1  ->  have
+   8:    1  ->  laughing
+   9:    1  ->  normal
+  10:    1  ->  now
+  11:    1  ->  spools
+  12:    1  ->  to
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  the
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  in
+   5:    2  ->  servant's
+   6:    2  ->  sized
+   7:    2  ->  to
+   8:    1  ->  along
+   9:    1  ->  eighteen
+  10:    1  ->  flabby
+  11:    1  ->  grey
+  12:    1  ->  invisible
+  13:    1  ->  is
+  14:    1  ->  jests
+  15:    1  ->  line
+  16:    1  ->  musing
+  17:    1  ->  patterned
+  18:    1  ->  pent
+  19:    1  ->  privet
+  20:    1  ->  quelled
+  21:    1  ->  store
+  22:    1  ->  that
+  23:    1  ->  thyme
+  24:    1  ->  treetop's
+  25:    1  ->  twenty
+  26:    1  ->  wan
+  27:    1  ->  x
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  a
+   2:    2  ->  an
+   3:    2  ->  in
+   4:    2  ->  servants
+   5:    2  ->  the
+   6:    1  ->  and
+   7:    1  ->  as
+   8:    1  ->  chairsized
+   9:    1  ->  drugstore
+  10:    1  ->  eight
+  11:    1  ->  frabby
+  12:    1  ->  from
+  13:    1  ->  gray
+  14:    1  ->  had
+  15:    1  ->  it
+  16:    1  ->  jest
+  17:    1  ->  normalsized
+  18:    1  ->  one
+  19:    1  ->  pant
+  20:    1  ->  pattern
+  21:    1  ->  quell
+  22:    1  ->  time
+  23:    1  ->  tops
+  24:    1  ->  two
+  25:    1  ->  using
+  26:    1  ->  visible
+  27:    1  ->  who
+  28:    1  ->  wine
+  29:    1  ->  with
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

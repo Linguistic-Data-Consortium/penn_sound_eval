@@ -1,0 +1,102 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    1.6%   (  14)
+
+Percent Correct           =   98.6%   ( 843)
+
+Percent Substitution      =    1.1%   (   9)
+Percent Deletions         =    0.4%   (   3)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   98.4%
+
+
+Ref. words                =           ( 855)
+Hyp. words                =           ( 854)
+Aligned words             =           ( 857)
+
+CONFUSION PAIRS                  Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  stair ==> stare
+   2:    1  ->  bits ==> alphabets
+   3:    1  ->  bloodied ==> bloody
+   4:    1  ->  cosy ==> cozy
+   5:    1  ->  laid ==> lay
+   6:    1  ->  l’ingresso ==> l'ingresso
+   7:    1  ->  vow ==> avow
+   8:    1  ->  watch ==> watched
+     -------
+         9
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  for
+   2:    1  ->  i
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  alpha
+   3:    1  ->  and
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  stair
+   2:    1  ->  bits
+   3:    1  ->  bloodied
+   4:    1  ->  cosy
+   5:    1  ->  laid
+   6:    1  ->  l’ingresso
+   7:    1  ->  vow
+   8:    1  ->  watch
+     -------
+         9
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  stare
+   2:    1  ->  alphabets
+   3:    1  ->  avow
+   4:    1  ->  bloody
+   5:    1  ->  cozy
+   6:    1  ->  l'ingresso
+   7:    1  ->  lay
+   8:    1  ->  watched
+     -------
+         9
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

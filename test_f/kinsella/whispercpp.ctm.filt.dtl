@@ -1,0 +1,327 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.9%   ( 115)
+
+Percent Correct           =   89.5%   ( 865)
+
+Percent Substitution      =    8.0%   (  77)
+Percent Deletions         =    2.6%   (  25)
+Percent Insertions        =    1.3%   (  13)
+Percent Word Accuracy     =   88.1%
+
+
+Ref. words                =           ( 967)
+Hyp. words                =           ( 955)
+Aligned words             =           ( 980)
+
+CONFUSION PAIRS                  Total                 (74)
+                                 With >=  1 occurrences (74)
+
+   1:    3  ->  a ==> the
+   2:    2  ->  the ==> a
+   3:    1  ->  an ==> a
+   4:    1  ->  and ==> in
+   5:    1  ->  axminster ==> xminster
+   6:    1  ->  azurine ==> ezurine
+   7:    1  ->  backs ==> halfbacks
+   8:    1  ->  bas ==> bass
+   9:    1  ->  budding ==> damagebutting
+  10:    1  ->  camouflaged ==> camouflage
+  11:    1  ->  chair ==> treacher
+  12:    1  ->  choric ==> coric
+  13:    1  ->  cracking ==> tracking
+  14:    1  ->  cutter’s ==> cutters
+  15:    1  ->  doorpost ==> doorposts
+  16:    1  ->  dowsed ==> doused
+  17:    1  ->  entire ==> tyre
+  18:    1  ->  ericsson ==> aerosol
+  19:    1  ->  excelling ==> ceiling
+  20:    1  ->  eyed ==> feebleeyed
+  21:    1  ->  faustus ==> fourth
+  22:    1  ->  felled ==> stormfelled
+  23:    1  ->  fencewire ==> wire
+  24:    1  ->  first ==> those
+  25:    1  ->  for ==> with
+  26:    1  ->  from ==> high
+  27:    1  ->  glamor ==> disclaimer
+  28:    1  ->  glistening ==> blistening
+  29:    1  ->  grated ==> graded
+  30:    1  ->  gritted ==> gridded
+  31:    1  ->  half ==> goodsides
+  32:    1  ->  headlights ==> headlight
+  33:    1  ->  highlife ==> life
+  34:    1  ->  hole ==> hull
+  35:    1  ->  homonculus ==> homunculus
+  36:    1  ->  humidicribs ==> cribs
+  37:    1  ->  humitrophic ==> humotrophic
+  38:    1  ->  i ==> eye
+  39:    1  ->  incarnations ==> incarnators
+  40:    1  ->  is ==> as
+  41:    1  ->  it ==> churnate
+  42:    1  ->  light ==> lightetched
+  43:    1  ->  light ==> like
+  44:    1  ->  like ==> ducklike
+  45:    1  ->  like ==> light
+  46:    1  ->  like ==> porcupinelike
+  47:    1  ->  litters ==> lisses
+  48:    1  ->  looting ==> loosing
+  49:    1  ->  lugging ==> lagging
+  50:    1  ->  mallee ==> melly
+  51:    1  ->  miasma ==> asthma
+  52:    1  ->  moving ==> slowmoving
+  53:    1  ->  mudbrick ==> brick
+  54:    1  ->  needles ==> needle
+  55:    1  ->  on ==> or
+  56:    1  ->  pellegra ==> pellagra
+  57:    1  ->  pinheaded ==> is
+  58:    1  ->  raddled ==> rattled
+  59:    1  ->  reflex ==> reflects
+  60:    1  ->  regarding ==> selfregarding
+  61:    1  ->  rhomboidal ==> rhombardal
+  62:    1  ->  shade ==> shader
+  63:    1  ->  souls ==> selves
+  64:    1  ->  spent ==> spence
+  65:    1  ->  spot ==> but
+  66:    1  ->  squirrel ==> swirl
+  67:    1  ->  striping ==> stripping
+  68:    1  ->  sursurrous ==> serious
+  69:    1  ->  swarming ==> warming
+  70:    1  ->  tan ==> tend
+  71:    1  ->  tree ==> jamtree
+  72:    1  ->  trifolate ==> load
+  73:    1  ->  wandoo ==> bondu
+  74:    1  ->  year ==> goodyear
+     -------
+        77
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  cry
+   3:    1  ->  fence
+   4:    1  ->  for
+   5:    1  ->  humidity
+   6:    1  ->  in
+   7:    1  ->  is
+   8:    1  ->  mud
+   9:    1  ->  my
+  10:    1  ->  pinhead
+  11:    1  ->  the
+  12:    1  ->  very
+  13:    1  ->  when
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  good
+   2:    2  ->  it's
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  churn
+   6:    1  ->  cross
+   7:    1  ->  damage
+   8:    1  ->  duck
+   9:    1  ->  feeble
+  10:    1  ->  foo
+  11:    1  ->  from
+  12:    1  ->  grow
+  13:    1  ->  jam
+  14:    1  ->  now
+  15:    1  ->  porcupine
+  16:    1  ->  self
+  17:    1  ->  sides
+  18:    1  ->  slow
+  19:    1  ->  storm
+  20:    1  ->  the
+  21:    1  ->  tree
+  22:    1  ->  very
+  23:    1  ->  with
+     -------
+        25
+
+
+
+SUBSTITUTIONS                    Total                 (71)
+                                 With >=  1 occurrences (71)
+
+   1:    3  ->  a
+   2:    3  ->  like
+   3:    2  ->  light
+   4:    2  ->  the
+   5:    1  ->  an
+   6:    1  ->  and
+   7:    1  ->  axminster
+   8:    1  ->  azurine
+   9:    1  ->  backs
+  10:    1  ->  bas
+  11:    1  ->  budding
+  12:    1  ->  camouflaged
+  13:    1  ->  chair
+  14:    1  ->  choric
+  15:    1  ->  cracking
+  16:    1  ->  cutter’s
+  17:    1  ->  doorpost
+  18:    1  ->  dowsed
+  19:    1  ->  entire
+  20:    1  ->  ericsson
+  21:    1  ->  excelling
+  22:    1  ->  eyed
+  23:    1  ->  faustus
+  24:    1  ->  felled
+  25:    1  ->  fencewire
+  26:    1  ->  first
+  27:    1  ->  for
+  28:    1  ->  from
+  29:    1  ->  glamor
+  30:    1  ->  glistening
+  31:    1  ->  grated
+  32:    1  ->  gritted
+  33:    1  ->  half
+  34:    1  ->  headlights
+  35:    1  ->  highlife
+  36:    1  ->  hole
+  37:    1  ->  homonculus
+  38:    1  ->  humidicribs
+  39:    1  ->  humitrophic
+  40:    1  ->  i
+  41:    1  ->  incarnations
+  42:    1  ->  is
+  43:    1  ->  it
+  44:    1  ->  litters
+  45:    1  ->  looting
+  46:    1  ->  lugging
+  47:    1  ->  mallee
+  48:    1  ->  miasma
+  49:    1  ->  moving
+  50:    1  ->  mudbrick
+  51:    1  ->  needles
+  52:    1  ->  on
+  53:    1  ->  pellegra
+  54:    1  ->  pinheaded
+  55:    1  ->  raddled
+  56:    1  ->  reflex
+  57:    1  ->  regarding
+  58:    1  ->  rhomboidal
+  59:    1  ->  shade
+  60:    1  ->  souls
+  61:    1  ->  spent
+  62:    1  ->  spot
+  63:    1  ->  squirrel
+  64:    1  ->  striping
+  65:    1  ->  sursurrous
+  66:    1  ->  swarming
+  67:    1  ->  tan
+  68:    1  ->  tree
+  69:    1  ->  trifolate
+  70:    1  ->  wandoo
+  71:    1  ->  year
+     -------
+        77
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (73)
+                                 With >=  1 occurrences (73)
+
+   1:    3  ->  a
+   2:    3  ->  the
+   3:    1  ->  aerosol
+   4:    1  ->  as
+   5:    1  ->  asthma
+   6:    1  ->  bass
+   7:    1  ->  blistening
+   8:    1  ->  bondu
+   9:    1  ->  brick
+  10:    1  ->  but
+  11:    1  ->  camouflage
+  12:    1  ->  ceiling
+  13:    1  ->  churnate
+  14:    1  ->  coric
+  15:    1  ->  cribs
+  16:    1  ->  cutters
+  17:    1  ->  damagebutting
+  18:    1  ->  disclaimer
+  19:    1  ->  doorposts
+  20:    1  ->  doused
+  21:    1  ->  ducklike
+  22:    1  ->  eye
+  23:    1  ->  ezurine
+  24:    1  ->  feebleeyed
+  25:    1  ->  fourth
+  26:    1  ->  goodsides
+  27:    1  ->  goodyear
+  28:    1  ->  graded
+  29:    1  ->  gridded
+  30:    1  ->  halfbacks
+  31:    1  ->  headlight
+  32:    1  ->  high
+  33:    1  ->  homunculus
+  34:    1  ->  hull
+  35:    1  ->  humotrophic
+  36:    1  ->  in
+  37:    1  ->  incarnators
+  38:    1  ->  is
+  39:    1  ->  jamtree
+  40:    1  ->  lagging
+  41:    1  ->  life
+  42:    1  ->  light
+  43:    1  ->  lightetched
+  44:    1  ->  like
+  45:    1  ->  lisses
+  46:    1  ->  load
+  47:    1  ->  loosing
+  48:    1  ->  melly
+  49:    1  ->  needle
+  50:    1  ->  or
+  51:    1  ->  pellagra
+  52:    1  ->  porcupinelike
+  53:    1  ->  rattled
+  54:    1  ->  reflects
+  55:    1  ->  rhombardal
+  56:    1  ->  selfregarding
+  57:    1  ->  selves
+  58:    1  ->  serious
+  59:    1  ->  shader
+  60:    1  ->  slowmoving
+  61:    1  ->  spence
+  62:    1  ->  stormfelled
+  63:    1  ->  stripping
+  64:    1  ->  swirl
+  65:    1  ->  tend
+  66:    1  ->  those
+  67:    1  ->  tracking
+  68:    1  ->  treacher
+  69:    1  ->  tyre
+  70:    1  ->  warming
+  71:    1  ->  wire
+  72:    1  ->  with
+  73:    1  ->  xminster
+     -------
+        77
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

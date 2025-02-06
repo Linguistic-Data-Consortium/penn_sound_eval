@@ -1,0 +1,174 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.2%   (  44)
+
+Percent Correct           =   96.6%   (1002)
+
+Percent Substitution      =    2.8%   (  29)
+Percent Deletions         =    0.6%   (   6)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   95.8%
+
+
+Ref. words                =           (1037)
+Hyp. words                =           (1040)
+Aligned words             =           (1046)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  apartment ==> apartments
+   3:    1  ->  as ==> with
+   4:    1  ->  brentano's ==> anos
+   5:    1  ->  bumpkin ==> can
+   6:    1  ->  darken ==> in
+   7:    1  ->  do ==> too
+   8:    1  ->  down ==> on
+   9:    1  ->  dug ==> doug
+  10:    1  ->  dunne ==> dunn
+  11:    1  ->  epithet ==> epithetic
+  12:    1  ->  finnish ==> finn
+  13:    1  ->  frieze ==> threes
+  14:    1  ->  kalevala ==> kavalla
+  15:    1  ->  leon ==> leone
+  16:    1  ->  looming ==> gloomy
+  17:    1  ->  of ==> in
+  18:    1  ->  pensively ==> ply
+  19:    1  ->  placed ==> place
+  20:    1  ->  poem ==> one
+  21:    1  ->  pohjola ==> poa
+  22:    1  ->  repast ==> repas
+  23:    1  ->  scapegrace ==> grace
+  24:    1  ->  succumbed ==> succumb
+  25:    1  ->  sun ==> son
+  26:    1  ->  tania ==> tanya
+  27:    1  ->  thought ==> though
+  28:    1  ->  torrents ==> torrance
+  29:    1  ->  wha ==> what
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  bump
+   3:    1  ->  dark
+   4:    1  ->  i
+   5:    1  ->  is
+   6:    1  ->  scape
+   7:    1  ->  shot
+   8:    1  ->  them
+   9:    1  ->  was
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  b
+   3:    1  ->  how
+   4:    1  ->  just
+   5:    1  ->  s
+   6:    1  ->  then
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  a
+   2:    1  ->  apartment
+   3:    1  ->  as
+   4:    1  ->  brentano's
+   5:    1  ->  bumpkin
+   6:    1  ->  darken
+   7:    1  ->  do
+   8:    1  ->  down
+   9:    1  ->  dug
+  10:    1  ->  dunne
+  11:    1  ->  epithet
+  12:    1  ->  finnish
+  13:    1  ->  frieze
+  14:    1  ->  kalevala
+  15:    1  ->  leon
+  16:    1  ->  looming
+  17:    1  ->  of
+  18:    1  ->  pensively
+  19:    1  ->  placed
+  20:    1  ->  poem
+  21:    1  ->  pohjola
+  22:    1  ->  repast
+  23:    1  ->  scapegrace
+  24:    1  ->  succumbed
+  25:    1  ->  sun
+  26:    1  ->  tania
+  27:    1  ->  thought
+  28:    1  ->  torrents
+  29:    1  ->  wha
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  in
+   2:    1  ->  anos
+   3:    1  ->  apartments
+   4:    1  ->  can
+   5:    1  ->  doug
+   6:    1  ->  dunn
+   7:    1  ->  epithetic
+   8:    1  ->  finn
+   9:    1  ->  gloomy
+  10:    1  ->  grace
+  11:    1  ->  kavalla
+  12:    1  ->  leone
+  13:    1  ->  on
+  14:    1  ->  one
+  15:    1  ->  place
+  16:    1  ->  ply
+  17:    1  ->  poa
+  18:    1  ->  repas
+  19:    1  ->  son
+  20:    1  ->  succumb
+  21:    1  ->  tanya
+  22:    1  ->  the
+  23:    1  ->  though
+  24:    1  ->  threes
+  25:    1  ->  too
+  26:    1  ->  torrance
+  27:    1  ->  what
+  28:    1  ->  with
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,268 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.6%   ( 154)
+
+Percent Correct           =   87.5%   ( 866)
+
+Percent Substitution      =    6.2%   (  61)
+Percent Deletions         =    6.4%   (  63)
+Percent Insertions        =    3.0%   (  30)
+Percent Word Accuracy     =   84.4%
+
+
+Ref. words                =           ( 990)
+Hyp. words                =           ( 957)
+Aligned words             =           (1020)
+
+CONFUSION PAIRS                  Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    2  ->  a ==> cornea
+   2:    2  ->  des ==> day
+   3:    2  ->  du ==> de
+   4:    2  ->  f ==> have
+   5:    2  ->  was ==> is
+   6:    2  ->  x ==> a
+   7:    2  ->  x ==> mercure
+   8:    2  ->  x ==> t
+   9:    1  ->  a ==> and
+  10:    1  ->  a ==> the
+  11:    1  ->  am ==> montseron
+  12:    1  ->  at ==> and
+  13:    1  ->  dollars ==> 150
+  14:    1  ->  frank ==> franco
+  15:    1  ->  frederic ==> d
+  16:    1  ->  him ==> them
+  17:    1  ->  i ==> all
+  18:    1  ->  i ==> geneviève
+  19:    1  ->  interested ==> in
+  20:    1  ->  it ==> a
+  21:    1  ->  it's ==> that's
+  22:    1  ->  koch ==> coke
+  23:    1  ->  montmartre ==> march
+  24:    1  ->  my ==> might
+  25:    1  ->  o'hara ==> herrera
+  26:    1  ->  obligitoire ==> obligatoire
+  27:    1  ->  offered ==> with
+  28:    1  ->  poem ==> form
+  29:    1  ->  reason ==> somebody
+  30:    1  ->  reverdy ==> revod
+  31:    1  ->  she ==> actually
+  32:    1  ->  sorbonne ==> sobon
+  33:    1  ->  them ==> than
+  34:    1  ->  to ==> 150
+  35:    1  ->  was ==> were
+  36:    1  ->  wh ==> what
+  37:    1  ->  who ==> it
+  38:    1  ->  whose ==> was
+  39:    1  ->  whose ==> who
+  40:    1  ->  would ==> should
+  41:    1  ->  x ==> all
+  42:    1  ->  x ==> but
+  43:    1  ->  x ==> carmani
+  44:    1  ->  x ==> for
+  45:    1  ->  x ==> gt
+  46:    1  ->  x ==> i
+  47:    1  ->  x ==> plus
+  48:    1  ->  x ==> verse
+  49:    1  ->  x ==> was
+  50:    1  ->  yeah ==> do
+  51:    1  ->  yeah ==> rvd
+  52:    1  ->  yep ==> oh
+  53:    1  ->  you ==> can
+     -------
+        61
+
+
+
+INSERTIONS                       Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    3  ->  i
+   2:    3  ->  that
+   3:    2  ->  in
+   4:    2  ->  it
+   5:    2  ->  the
+   6:    1  ->  d
+   7:    1  ->  eckhart
+   8:    1  ->  for
+   9:    1  ->  frederick
+  10:    1  ->  from
+  11:    1  ->  interesting
+  12:    1  ->  jacob
+  13:    1  ->  le
+  14:    1  ->  meister
+  15:    1  ->  more
+  16:    1  ->  nine
+  17:    1  ->  no
+  18:    1  ->  not
+  19:    1  ->  off
+  20:    1  ->  on
+  21:    1  ->  one
+  22:    1  ->  sex
+  23:    1  ->  with
+     -------
+        30
+
+
+
+DELETIONS                        Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    9  ->  x
+   2:    4  ->  a
+   3:    4  ->  i
+   4:    3  ->  and
+   5:    3  ->  reverdy
+   6:    3  ->  yeah
+   7:    2  ->  cornet
+   8:    2  ->  fifty
+   9:    2  ->  hundred
+  10:    2  ->  it
+  11:    2  ->  no
+  12:    2  ->  oh
+  13:    2  ->  th
+  14:    2  ->  them
+  15:    1  ->  %bcack
+  16:    1  ->  am
+  17:    1  ->  bef
+  18:    1  ->  d
+  19:    1  ->  dollars
+  20:    1  ->  for
+  21:    1  ->  genevieve
+  22:    1  ->  h
+  23:    1  ->  had
+  24:    1  ->  is
+  25:    1  ->  m
+  26:    1  ->  obligitoire
+  27:    1  ->  of
+  28:    1  ->  poets
+  29:    1  ->  sixty
+  30:    1  ->  some
+  31:    1  ->  to
+  32:    1  ->  w
+  33:    1  ->  was
+  34:    1  ->  where
+  35:    1  ->  who
+     -------
+        63
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:   15  ->  x
+   2:    4  ->  a
+   3:    3  ->  was
+   4:    2  ->  des
+   5:    2  ->  du
+   6:    2  ->  f
+   7:    2  ->  i
+   8:    2  ->  whose
+   9:    2  ->  yeah
+  10:    1  ->  am
+  11:    1  ->  at
+  12:    1  ->  dollars
+  13:    1  ->  frank
+  14:    1  ->  frederic
+  15:    1  ->  him
+  16:    1  ->  interested
+  17:    1  ->  it
+  18:    1  ->  it's
+  19:    1  ->  koch
+  20:    1  ->  montmartre
+  21:    1  ->  my
+  22:    1  ->  o'hara
+  23:    1  ->  obligitoire
+  24:    1  ->  offered
+  25:    1  ->  poem
+  26:    1  ->  reason
+  27:    1  ->  reverdy
+  28:    1  ->  she
+  29:    1  ->  sorbonne
+  30:    1  ->  them
+  31:    1  ->  to
+  32:    1  ->  wh
+  33:    1  ->  who
+  34:    1  ->  would
+  35:    1  ->  yep
+  36:    1  ->  you
+     -------
+        61
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    3  ->  a
+   2:    2  ->  150
+   3:    2  ->  all
+   4:    2  ->  and
+   5:    2  ->  cornea
+   6:    2  ->  day
+   7:    2  ->  de
+   8:    2  ->  have
+   9:    2  ->  is
+  10:    2  ->  mercure
+  11:    2  ->  t
+  12:    2  ->  was
+  13:    1  ->  actually
+  14:    1  ->  but
+  15:    1  ->  can
+  16:    1  ->  carmani
+  17:    1  ->  coke
+  18:    1  ->  d
+  19:    1  ->  do
+  20:    1  ->  for
+  21:    1  ->  form
+  22:    1  ->  franco
+  23:    1  ->  geneviève
+  24:    1  ->  gt
+  25:    1  ->  herrera
+  26:    1  ->  i
+  27:    1  ->  in
+  28:    1  ->  it
+  29:    1  ->  march
+  30:    1  ->  might
+  31:    1  ->  montseron
+  32:    1  ->  obligatoire
+  33:    1  ->  oh
+  34:    1  ->  plus
+  35:    1  ->  revod
+  36:    1  ->  rvd
+  37:    1  ->  should
+  38:    1  ->  sobon
+  39:    1  ->  somebody
+  40:    1  ->  than
+  41:    1  ->  that's
+  42:    1  ->  the
+  43:    1  ->  them
+  44:    1  ->  verse
+  45:    1  ->  were
+  46:    1  ->  what
+  47:    1  ->  who
+  48:    1  ->  with
+     -------
+        61
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

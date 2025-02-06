@@ -1,0 +1,187 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.4%   (  61)
+
+Percent Correct           =   93.2%   ( 763)
+
+Percent Substitution      =    3.5%   (  29)
+Percent Deletions         =    3.3%   (  27)
+Percent Insertions        =    0.6%   (   5)
+Percent Word Accuracy     =   92.6%
+
+
+Ref. words                =           ( 819)
+Hyp. words                =           ( 797)
+Aligned words             =           ( 824)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  and ==> in
+   2:    1  ->  bailiwick ==> ballywick
+   3:    1  ->  bleacher ==> bleachers
+   4:    1  ->  dao ==> tao
+   5:    1  ->  deep ==> kneedeep
+   6:    1  ->  draft ==> nondraft
+   7:    1  ->  edition ==> addition
+   8:    1  ->  emmylou ==> lou
+   9:    1  ->  enunciations ==> annunciations
+  10:    1  ->  eyed ==> smalleyed
+  11:    1  ->  fist ==> fists
+  12:    1  ->  girl ==> boygirl
+  13:    1  ->  hymns ==> hems
+  14:    1  ->  impostor ==> impasto
+  15:    1  ->  in ==> glassedin
+  16:    1  ->  juvenalia ==> juvenilia
+  17:    1  ->  knee ==> fabulous
+  18:    1  ->  memoir's ==> memoirs
+  19:    1  ->  mirror ==> mere
+  20:    1  ->  non ==> the
+  21:    1  ->  park's ==> park
+  22:    1  ->  skies ==> sky
+  23:    1  ->  theatre ==> theater
+  24:    1  ->  trickily ==> trickly
+  25:    1  ->  way ==> oneway
+  26:    1  ->  welish ==> wellish
+  27:    1  ->  wind ==> wing
+  28:    1  ->  with ==> of
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  really
+   2:    1  ->  emmie
+   3:    1  ->  sad
+   4:    1  ->  so
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  am
+   4:    1  ->  boy
+   5:    1  ->  cu
+   6:    1  ->  d
+   7:    1  ->  fabulist
+   8:    1  ->  flag
+   9:    1  ->  get
+  10:    1  ->  glassed
+  11:    1  ->  got
+  12:    1  ->  i
+  13:    1  ->  it's
+  14:    1  ->  ke
+  15:    1  ->  know
+  16:    1  ->  l
+  17:    1  ->  like
+  18:    1  ->  m
+  19:    1  ->  of
+  20:    1  ->  oh
+  21:    1  ->  one
+  22:    1  ->  really
+  23:    1  ->  small
+  24:    1  ->  wr
+  25:    1  ->  yeah
+  26:    1  ->  you
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  and
+   2:    1  ->  bailiwick
+   3:    1  ->  bleacher
+   4:    1  ->  dao
+   5:    1  ->  deep
+   6:    1  ->  draft
+   7:    1  ->  edition
+   8:    1  ->  emmylou
+   9:    1  ->  enunciations
+  10:    1  ->  eyed
+  11:    1  ->  fist
+  12:    1  ->  girl
+  13:    1  ->  hymns
+  14:    1  ->  impostor
+  15:    1  ->  in
+  16:    1  ->  juvenalia
+  17:    1  ->  knee
+  18:    1  ->  memoir's
+  19:    1  ->  mirror
+  20:    1  ->  non
+  21:    1  ->  park's
+  22:    1  ->  skies
+  23:    1  ->  theatre
+  24:    1  ->  trickily
+  25:    1  ->  way
+  26:    1  ->  welish
+  27:    1  ->  wind
+  28:    1  ->  with
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  in
+   2:    1  ->  addition
+   3:    1  ->  annunciations
+   4:    1  ->  ballywick
+   5:    1  ->  bleachers
+   6:    1  ->  boygirl
+   7:    1  ->  fabulous
+   8:    1  ->  fists
+   9:    1  ->  glassedin
+  10:    1  ->  hems
+  11:    1  ->  impasto
+  12:    1  ->  juvenilia
+  13:    1  ->  kneedeep
+  14:    1  ->  lou
+  15:    1  ->  memoirs
+  16:    1  ->  mere
+  17:    1  ->  nondraft
+  18:    1  ->  of
+  19:    1  ->  oneway
+  20:    1  ->  park
+  21:    1  ->  sky
+  22:    1  ->  smalleyed
+  23:    1  ->  tao
+  24:    1  ->  the
+  25:    1  ->  theater
+  26:    1  ->  trickly
+  27:    1  ->  wellish
+  28:    1  ->  wing
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

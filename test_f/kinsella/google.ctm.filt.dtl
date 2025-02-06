@@ -1,0 +1,425 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.9%   ( 154)
+
+Percent Correct           =   86.7%   ( 838)
+
+Percent Substitution      =   11.7%   ( 113)
+Percent Deletions         =    1.7%   (  16)
+Percent Insertions        =    2.6%   (  25)
+Percent Word Accuracy     =   84.1%
+
+
+Ref. words                =           ( 967)
+Hyp. words                =           ( 976)
+Aligned words             =           ( 992)
+
+CONFUSION PAIRS                  Total                 (109)
+                                 With >=  1 occurrences (109)
+
+   1:    2  ->  a ==> the
+   2:    2  ->  an ==> a
+   3:    2  ->  it ==> that
+   4:    2  ->  its ==> it's
+   5:    1  ->  adjuncting ==> juncting
+   6:    1  ->  adjuncting ==> junking
+   7:    1  ->  air ==> error
+   8:    1  ->  an ==> the
+   9:    1  ->  and ==> fence
+  10:    1  ->  and ==> in
+  11:    1  ->  as ==> has
+  12:    1  ->  azurine ==> in
+  13:    1  ->  backs ==> halfbacks
+  14:    1  ->  bas ==> fast
+  15:    1  ->  bootlegging ==> looking
+  16:    1  ->  budding ==> bleeding
+  17:    1  ->  camouflaged ==> camouflage
+  18:    1  ->  chair ==> tricha
+  19:    1  ->  choric ==> correct
+  20:    1  ->  clods ==> clothes
+  21:    1  ->  cracking ==> and
+  22:    1  ->  cross ==> across
+  23:    1  ->  curled ==> called
+  24:    1  ->  cutter’s ==> cutters
+  25:    1  ->  doorpost ==> post
+  26:    1  ->  dowsed ==> dust
+  27:    1  ->  drabness ==> graveness
+  28:    1  ->  echidna ==> kidna
+  29:    1  ->  echidna ==> kidner
+  30:    1  ->  echidna ==> the
+  31:    1  ->  ericsson ==> erosion
+  32:    1  ->  excelling ==> ceiling
+  33:    1  ->  eyed ==> feebleeyed
+  34:    1  ->  faustus ==> false
+  35:    1  ->  felled ==> stormfilled
+  36:    1  ->  fencewire ==> wire
+  37:    1  ->  first ==> those
+  38:    1  ->  folds ==> falls
+  39:    1  ->  for ==> with
+  40:    1  ->  from ==> high
+  41:    1  ->  glamor ==> disclaimer
+  42:    1  ->  grated ==> graded
+  43:    1  ->  gritted ==> gridded
+  44:    1  ->  grow ==> dry
+  45:    1  ->  halt ==> hold
+  46:    1  ->  halts ==> holds
+  47:    1  ->  headlights ==> headlight
+  48:    1  ->  heady ==> hefty
+  49:    1  ->  highlife ==> life
+  50:    1  ->  hole ==> hull
+  51:    1  ->  homonculus ==> harmonious
+  52:    1  ->  hubcaps ==> caps
+  53:    1  ->  humidicribs ==> cribs
+  54:    1  ->  humitrophic ==> humotropic
+  55:    1  ->  i ==> eye
+  56:    1  ->  is ==> as
+  57:    1  ->  light ==> lights
+  58:    1  ->  light ==> like
+  59:    1  ->  like ==> light
+  60:    1  ->  litters ==> lists
+  61:    1  ->  looting ==> losing
+  62:    1  ->  lugging ==> lagging
+  63:    1  ->  meanderings ==> meanders
+  64:    1  ->  mescal ==> gal
+  65:    1  ->  miasma ==> asthma
+  66:    1  ->  mimes ==> mime
+  67:    1  ->  movies ==> moving
+  68:    1  ->  moving ==> slowmoving
+  69:    1  ->  muscled ==> muscle
+  70:    1  ->  needed ==> to
+  71:    1  ->  needles ==> needle
+  72:    1  ->  ooh ==> oh
+  73:    1  ->  overload ==> load
+  74:    1  ->  palpitating ==> populating
+  75:    1  ->  pellegra ==> agra
+  76:    1  ->  pinheaded ==> head
+  77:    1  ->  poise ==> boys
+  78:    1  ->  predella ==> a
+  79:    1  ->  prizing ==> pricing
+  80:    1  ->  prosody ==> procedure
+  81:    1  ->  racketing ==> rocking
+  82:    1  ->  raddled ==> rattle
+  83:    1  ->  regarding ==> selfregarding
+  84:    1  ->  remainders ==> remainder
+  85:    1  ->  rhomboidal ==> rombodel
+  86:    1  ->  riddled ==> riddle
+  87:    1  ->  rocketing ==> rocking
+  88:    1  ->  saws ==> saw
+  89:    1  ->  scarifying ==> scary
+  90:    1  ->  shade ==> shader
+  91:    1  ->  sibilance ==> sibilants
+  92:    1  ->  squirrel ==> swirl
+  93:    1  ->  stills ==> still
+  94:    1  ->  striping ==> stripping
+  95:    1  ->  substratas ==> substrates
+  96:    1  ->  suckles ==> because
+  97:    1  ->  sundial ==> dial
+  98:    1  ->  sursurrous ==> serious
+  99:    1  ->  swarming ==> warming
+ 100:    1  ->  syzygy ==> sisygy
+ 101:    1  ->  tales ==> tails
+ 102:    1  ->  the ==> a
+ 103:    1  ->  the ==> to
+ 104:    1  ->  tinfoiling ==> filing
+ 105:    1  ->  tired ==> tide
+ 106:    1  ->  to ==> a
+ 107:    1  ->  trifolate ==> trifoliate
+ 108:    1  ->  undertow ==> underto
+ 109:    1  ->  warholing ==> warholed
+     -------
+       113
+
+
+
+INSERTIONS                       Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  azure
+   5:    1  ->  bridella
+   6:    1  ->  door
+   7:    1  ->  edge
+   8:    1  ->  hub
+   9:    1  ->  in
+  10:    1  ->  kidna
+  11:    1  ->  mess
+  12:    1  ->  my
+  13:    1  ->  need
+  14:    1  ->  of
+  15:    1  ->  our
+  16:    1  ->  over
+  17:    1  ->  pin
+  18:    1  ->  so
+  19:    1  ->  suck
+  20:    1  ->  sun
+  21:    1  ->  there
+  22:    1  ->  tin
+  23:    1  ->  tracking
+  24:    1  ->  very
+     -------
+        25
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  axminster
+   2:    1  ->  carpet
+   3:    1  ->  contention
+   4:    1  ->  feeble
+   5:    1  ->  foo
+   6:    1  ->  half
+   7:    1  ->  loamy
+   8:    1  ->  mudbrick
+   9:    1  ->  now
+  10:    1  ->  self
+  11:    1  ->  slow
+  12:    1  ->  spreadsheets
+  13:    1  ->  storm
+  14:    1  ->  the
+  15:    1  ->  tree
+  16:    1  ->  very
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (102)
+                                 With >=  1 occurrences (102)
+
+   1:    3  ->  an
+   2:    3  ->  echidna
+   3:    2  ->  a
+   4:    2  ->  adjuncting
+   5:    2  ->  and
+   6:    2  ->  it
+   7:    2  ->  its
+   8:    2  ->  light
+   9:    2  ->  the
+  10:    1  ->  air
+  11:    1  ->  as
+  12:    1  ->  azurine
+  13:    1  ->  backs
+  14:    1  ->  bas
+  15:    1  ->  bootlegging
+  16:    1  ->  budding
+  17:    1  ->  camouflaged
+  18:    1  ->  chair
+  19:    1  ->  choric
+  20:    1  ->  clods
+  21:    1  ->  cracking
+  22:    1  ->  cross
+  23:    1  ->  curled
+  24:    1  ->  cutter’s
+  25:    1  ->  doorpost
+  26:    1  ->  dowsed
+  27:    1  ->  drabness
+  28:    1  ->  ericsson
+  29:    1  ->  excelling
+  30:    1  ->  eyed
+  31:    1  ->  faustus
+  32:    1  ->  felled
+  33:    1  ->  fencewire
+  34:    1  ->  first
+  35:    1  ->  folds
+  36:    1  ->  for
+  37:    1  ->  from
+  38:    1  ->  glamor
+  39:    1  ->  grated
+  40:    1  ->  gritted
+  41:    1  ->  grow
+  42:    1  ->  halt
+  43:    1  ->  halts
+  44:    1  ->  headlights
+  45:    1  ->  heady
+  46:    1  ->  highlife
+  47:    1  ->  hole
+  48:    1  ->  homonculus
+  49:    1  ->  hubcaps
+  50:    1  ->  humidicribs
+  51:    1  ->  humitrophic
+  52:    1  ->  i
+  53:    1  ->  is
+  54:    1  ->  like
+  55:    1  ->  litters
+  56:    1  ->  looting
+  57:    1  ->  lugging
+  58:    1  ->  meanderings
+  59:    1  ->  mescal
+  60:    1  ->  miasma
+  61:    1  ->  mimes
+  62:    1  ->  movies
+  63:    1  ->  moving
+  64:    1  ->  muscled
+  65:    1  ->  needed
+  66:    1  ->  needles
+  67:    1  ->  ooh
+  68:    1  ->  overload
+  69:    1  ->  palpitating
+  70:    1  ->  pellegra
+  71:    1  ->  pinheaded
+  72:    1  ->  poise
+  73:    1  ->  predella
+  74:    1  ->  prizing
+  75:    1  ->  prosody
+  76:    1  ->  racketing
+  77:    1  ->  raddled
+  78:    1  ->  regarding
+  79:    1  ->  remainders
+  80:    1  ->  rhomboidal
+  81:    1  ->  riddled
+  82:    1  ->  rocketing
+  83:    1  ->  saws
+  84:    1  ->  scarifying
+  85:    1  ->  shade
+  86:    1  ->  sibilance
+  87:    1  ->  squirrel
+  88:    1  ->  stills
+  89:    1  ->  striping
+  90:    1  ->  substratas
+  91:    1  ->  suckles
+  92:    1  ->  sundial
+  93:    1  ->  sursurrous
+  94:    1  ->  swarming
+  95:    1  ->  syzygy
+  96:    1  ->  tales
+  97:    1  ->  tinfoiling
+  98:    1  ->  tired
+  99:    1  ->  to
+ 100:    1  ->  trifolate
+ 101:    1  ->  undertow
+ 102:    1  ->  warholing
+     -------
+       113
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (101)
+                                 With >=  1 occurrences (101)
+
+   1:    5  ->  a
+   2:    4  ->  the
+   3:    2  ->  in
+   4:    2  ->  it's
+   5:    2  ->  rocking
+   6:    2  ->  that
+   7:    2  ->  to
+   8:    1  ->  across
+   9:    1  ->  agra
+  10:    1  ->  and
+  11:    1  ->  as
+  12:    1  ->  asthma
+  13:    1  ->  because
+  14:    1  ->  bleeding
+  15:    1  ->  boys
+  16:    1  ->  called
+  17:    1  ->  camouflage
+  18:    1  ->  caps
+  19:    1  ->  ceiling
+  20:    1  ->  clothes
+  21:    1  ->  correct
+  22:    1  ->  cribs
+  23:    1  ->  cutters
+  24:    1  ->  dial
+  25:    1  ->  disclaimer
+  26:    1  ->  dry
+  27:    1  ->  dust
+  28:    1  ->  erosion
+  29:    1  ->  error
+  30:    1  ->  eye
+  31:    1  ->  falls
+  32:    1  ->  false
+  33:    1  ->  fast
+  34:    1  ->  feebleeyed
+  35:    1  ->  fence
+  36:    1  ->  filing
+  37:    1  ->  gal
+  38:    1  ->  graded
+  39:    1  ->  graveness
+  40:    1  ->  gridded
+  41:    1  ->  halfbacks
+  42:    1  ->  harmonious
+  43:    1  ->  has
+  44:    1  ->  head
+  45:    1  ->  headlight
+  46:    1  ->  hefty
+  47:    1  ->  high
+  48:    1  ->  hold
+  49:    1  ->  holds
+  50:    1  ->  hull
+  51:    1  ->  humotropic
+  52:    1  ->  juncting
+  53:    1  ->  junking
+  54:    1  ->  kidna
+  55:    1  ->  kidner
+  56:    1  ->  lagging
+  57:    1  ->  life
+  58:    1  ->  light
+  59:    1  ->  lights
+  60:    1  ->  like
+  61:    1  ->  lists
+  62:    1  ->  load
+  63:    1  ->  looking
+  64:    1  ->  losing
+  65:    1  ->  meanders
+  66:    1  ->  mime
+  67:    1  ->  moving
+  68:    1  ->  muscle
+  69:    1  ->  needle
+  70:    1  ->  oh
+  71:    1  ->  populating
+  72:    1  ->  post
+  73:    1  ->  pricing
+  74:    1  ->  procedure
+  75:    1  ->  rattle
+  76:    1  ->  remainder
+  77:    1  ->  riddle
+  78:    1  ->  rombodel
+  79:    1  ->  saw
+  80:    1  ->  scary
+  81:    1  ->  selfregarding
+  82:    1  ->  serious
+  83:    1  ->  shader
+  84:    1  ->  sibilants
+  85:    1  ->  sisygy
+  86:    1  ->  slowmoving
+  87:    1  ->  still
+  88:    1  ->  stormfilled
+  89:    1  ->  stripping
+  90:    1  ->  substrates
+  91:    1  ->  swirl
+  92:    1  ->  tails
+  93:    1  ->  those
+  94:    1  ->  tide
+  95:    1  ->  tricha
+  96:    1  ->  trifoliate
+  97:    1  ->  underto
+  98:    1  ->  warholed
+  99:    1  ->  warming
+ 100:    1  ->  wire
+ 101:    1  ->  with
+     -------
+       113
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

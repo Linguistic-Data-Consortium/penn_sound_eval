@@ -1,0 +1,318 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.5%   ( 120)
+
+Percent Correct           =   89.2%   ( 931)
+
+Percent Substitution      =    7.8%   (  81)
+Percent Deletions         =    3.1%   (  32)
+Percent Insertions        =    0.7%   (   7)
+Percent Word Accuracy     =   88.5%
+
+
+Ref. words                =           (1044)
+Hyp. words                =           (1019)
+Aligned words             =           (1051)
+
+CONFUSION PAIRS                  Total                 (77)
+                                 With >=  1 occurrences (77)
+
+   1:    2  ->  car ==> cost
+   2:    2  ->  his ==> was
+   3:    2  ->  of ==> it
+   4:    2  ->  the ==> a
+   5:    1  ->  a ==> jaw
+   6:    1  ->  a ==> may
+   7:    1  ->  about ==> fan
+   8:    1  ->  about ==> i
+   9:    1  ->  adds ==> heads
+  10:    1  ->  and ==> to
+  11:    1  ->  are ==> by
+  12:    1  ->  are ==> of
+  13:    1  ->  as ==> if
+  14:    1  ->  bite ==> bike
+  15:    1  ->  bow ==> bowl
+  16:    1  ->  bows ==> borrows
+  17:    1  ->  brakes ==> breaks
+  18:    1  ->  but ==> am
+  19:    1  ->  chow ==> child
+  20:    1  ->  continuing ==> coming
+  21:    1  ->  dirty ==> diggy
+  22:    1  ->  disgust ==> a
+  23:    1  ->  dock ==> doc
+  24:    1  ->  dock ==> duck
+  25:    1  ->  dog ==> door
+  26:    1  ->  dope ==> not
+  27:    1  ->  doughnut ==> dono
+  28:    1  ->  from ==> doctor
+  29:    1  ->  gained ==> came
+  30:    1  ->  hands ==> and
+  31:    1  ->  he ==> about
+  32:    1  ->  him ==> sand
+  33:    1  ->  hurried ==> hurry
+  34:    1  ->  icebox ==> box
+  35:    1  ->  in ==> an
+  36:    1  ->  in ==> discuss
+  37:    1  ->  in ==> of
+  38:    1  ->  instead ==> state
+  39:    1  ->  is ==> for
+  40:    1  ->  it ==> pills
+  41:    1  ->  keel ==> kill
+  42:    1  ->  late ==> agree
+  43:    1  ->  law ==> miliary
+  44:    1  ->  leaped ==> leaked
+  45:    1  ->  looks ==> look
+  46:    1  ->  mar ==> mark
+  47:    1  ->  minute ==> i
+  48:    1  ->  motorcars ==> cars
+  49:    1  ->  move ==> come
+  50:    1  ->  of ==> from
+  51:    1  ->  oh ==> o.
+  52:    1  ->  one ==> when
+  53:    1  ->  paws ==> pause
+  54:    1  ->  reports ==> parts
+  55:    1  ->  rolled ==> role
+  56:    1  ->  saw ==> sold
+  57:    1  ->  screeched ==> reached
+  58:    1  ->  sea ==> see
+  59:    1  ->  sing ==> saying
+  60:    1  ->  sing ==> thing
+  61:    1  ->  sprawling ==> crawling
+  62:    1  ->  staccato ==> takato
+  63:    1  ->  the ==> but
+  64:    1  ->  the ==> that
+  65:    1  ->  third ==> affair
+  66:    1  ->  this ==> rides
+  67:    1  ->  this ==> wait
+  68:    1  ->  through ==> threw
+  69:    1  ->  thumping ==> bumping
+  70:    1  ->  to ==> doctor
+  71:    1  ->  to ==> the
+  72:    1  ->  two ==> who
+  73:    1  ->  used ==> use
+  74:    1  ->  wait ==> weight
+  75:    1  ->  went ==> when
+  76:    1  ->  while ==> wild
+  77:    1  ->  will ==> a
+     -------
+        81
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  and
+   2:    2  ->  the
+   3:    1  ->  do
+   4:    1  ->  ice
+   5:    1  ->  motor
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  he
+   2:    2  ->  i
+   3:    2  ->  in
+   4:    2  ->  or
+   5:    2  ->  the
+   6:    1  ->  a
+   7:    1  ->  bow
+   8:    1  ->  deck
+   9:    1  ->  do
+  10:    1  ->  dock
+  11:    1  ->  excuse
+  12:    1  ->  has
+  13:    1  ->  hills
+  14:    1  ->  jaws
+  15:    1  ->  know
+  16:    1  ->  me
+  17:    1  ->  not
+  18:    1  ->  sand
+  19:    1  ->  sent
+  20:    1  ->  that
+  21:    1  ->  that's
+  22:    1  ->  this
+  23:    1  ->  to
+  24:    1  ->  who
+  25:    1  ->  will
+  26:    1  ->  with
+  27:    1  ->  x
+     -------
+        32
+
+
+
+SUBSTITUTIONS                    Total                 (65)
+                                 With >=  1 occurrences (65)
+
+   1:    4  ->  the
+   2:    3  ->  in
+   3:    3  ->  of
+   4:    2  ->  a
+   5:    2  ->  about
+   6:    2  ->  are
+   7:    2  ->  car
+   8:    2  ->  dock
+   9:    2  ->  his
+  10:    2  ->  sing
+  11:    2  ->  this
+  12:    2  ->  to
+  13:    1  ->  adds
+  14:    1  ->  and
+  15:    1  ->  as
+  16:    1  ->  bite
+  17:    1  ->  bow
+  18:    1  ->  bows
+  19:    1  ->  brakes
+  20:    1  ->  but
+  21:    1  ->  chow
+  22:    1  ->  continuing
+  23:    1  ->  dirty
+  24:    1  ->  disgust
+  25:    1  ->  dog
+  26:    1  ->  dope
+  27:    1  ->  doughnut
+  28:    1  ->  from
+  29:    1  ->  gained
+  30:    1  ->  hands
+  31:    1  ->  he
+  32:    1  ->  him
+  33:    1  ->  hurried
+  34:    1  ->  icebox
+  35:    1  ->  instead
+  36:    1  ->  is
+  37:    1  ->  it
+  38:    1  ->  keel
+  39:    1  ->  late
+  40:    1  ->  law
+  41:    1  ->  leaped
+  42:    1  ->  looks
+  43:    1  ->  mar
+  44:    1  ->  minute
+  45:    1  ->  motorcars
+  46:    1  ->  move
+  47:    1  ->  oh
+  48:    1  ->  one
+  49:    1  ->  paws
+  50:    1  ->  reports
+  51:    1  ->  rolled
+  52:    1  ->  saw
+  53:    1  ->  screeched
+  54:    1  ->  sea
+  55:    1  ->  sprawling
+  56:    1  ->  staccato
+  57:    1  ->  third
+  58:    1  ->  through
+  59:    1  ->  thumping
+  60:    1  ->  two
+  61:    1  ->  used
+  62:    1  ->  wait
+  63:    1  ->  went
+  64:    1  ->  while
+  65:    1  ->  will
+     -------
+        81
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (71)
+                                 With >=  1 occurrences (71)
+
+   1:    4  ->  a
+   2:    2  ->  cost
+   3:    2  ->  doctor
+   4:    2  ->  i
+   5:    2  ->  it
+   6:    2  ->  of
+   7:    2  ->  was
+   8:    2  ->  when
+   9:    1  ->  about
+  10:    1  ->  affair
+  11:    1  ->  agree
+  12:    1  ->  am
+  13:    1  ->  an
+  14:    1  ->  and
+  15:    1  ->  bike
+  16:    1  ->  borrows
+  17:    1  ->  bowl
+  18:    1  ->  box
+  19:    1  ->  breaks
+  20:    1  ->  bumping
+  21:    1  ->  but
+  22:    1  ->  by
+  23:    1  ->  came
+  24:    1  ->  cars
+  25:    1  ->  child
+  26:    1  ->  come
+  27:    1  ->  coming
+  28:    1  ->  crawling
+  29:    1  ->  diggy
+  30:    1  ->  discuss
+  31:    1  ->  doc
+  32:    1  ->  dono
+  33:    1  ->  door
+  34:    1  ->  duck
+  35:    1  ->  fan
+  36:    1  ->  for
+  37:    1  ->  from
+  38:    1  ->  heads
+  39:    1  ->  hurry
+  40:    1  ->  if
+  41:    1  ->  jaw
+  42:    1  ->  kill
+  43:    1  ->  leaked
+  44:    1  ->  look
+  45:    1  ->  mark
+  46:    1  ->  may
+  47:    1  ->  miliary
+  48:    1  ->  not
+  49:    1  ->  o.
+  50:    1  ->  parts
+  51:    1  ->  pause
+  52:    1  ->  pills
+  53:    1  ->  reached
+  54:    1  ->  rides
+  55:    1  ->  role
+  56:    1  ->  sand
+  57:    1  ->  saying
+  58:    1  ->  see
+  59:    1  ->  sold
+  60:    1  ->  state
+  61:    1  ->  takato
+  62:    1  ->  that
+  63:    1  ->  the
+  64:    1  ->  thing
+  65:    1  ->  threw
+  66:    1  ->  to
+  67:    1  ->  use
+  68:    1  ->  wait
+  69:    1  ->  weight
+  70:    1  ->  who
+  71:    1  ->  wild
+     -------
+        81
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,198 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.4%   ( 180)
+
+Percent Correct           =   85.2%   ( 996)
+
+Percent Substitution      =    1.5%   (  17)
+Percent Deletions         =   13.3%   ( 156)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   84.6%
+
+
+Ref. words                =           (1169)
+Hyp. words                =           (1020)
+Aligned words             =           (1176)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  a ==> the
+   2:    1  ->  absence ==> absent
+   3:    1  ->  answer ==> k.
+   4:    1  ->  contest ==> test
+   5:    1  ->  could ==> can
+   6:    1  ->  is ==> as
+   7:    1  ->  its ==> that's
+   8:    1  ->  mackey's ==> mackie's
+   9:    1  ->  n ==> a
+  10:    1  ->  the ==> and
+  11:    1  ->  the ==> was
+  12:    1  ->  there ==> it
+  13:    1  ->  to ==> this
+  14:    1  ->  well ==> and
+  15:    1  ->  what ==> things
+  16:    1  ->  yeah ==> it
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and
+   2:    1  ->  control
+   3:    1  ->  o.
+   4:    1  ->  of
+   5:    1  ->  oh
+   6:    1  ->  voice
+   7:    1  ->  you
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (73)
+                                 With >=  1 occurrences (73)
+
+   1:   11  ->  a
+   2:    8  ->  that
+   3:    8  ->  the
+   4:    7  ->  i
+   5:    6  ->  is
+   6:    6  ->  it
+   7:    5  ->  in
+   8:    5  ->  not
+   9:    5  ->  w
+  10:    4  ->  and
+  11:    4  ->  know
+  12:    4  ->  of
+  13:    4  ->  so
+  14:    4  ->  yeah
+  15:    4  ->  you
+  16:    3  ->  that's
+  17:    3  ->  to
+  18:    3  ->  what
+  19:    2  ->  do
+  20:    2  ->  k.
+  21:    2  ->  o.
+  22:    2  ->  they
+  23:    2  ->  u
+  24:    2  ->  were
+  25:    2  ->  y
+  26:    1  ->  all
+  27:    1  ->  an
+  28:    1  ->  anth
+  29:    1  ->  at
+  30:    1  ->  before
+  31:    1  ->  c
+  32:    1  ->  colle
+  33:    1  ->  colonial
+  34:    1  ->  find
+  35:    1  ->  g
+  36:    1  ->  growing
+  37:    1  ->  have
+  38:    1  ->  her
+  39:    1  ->  it's
+  40:    1  ->  itself
+  41:    1  ->  just
+  42:    1  ->  liturgy
+  43:    1  ->  m
+  44:    1  ->  mean
+  45:    1  ->  means
+  46:    1  ->  midra
+  47:    1  ->  name
+  48:    1  ->  oh
+  49:    1  ->  or
+  50:    1  ->  p
+  51:    1  ->  people
+  52:    1  ->  qu
+  53:    1  ->  quote
+  54:    1  ->  r
+  55:    1  ->  rather
+  56:    1  ->  really
+  57:    1  ->  round
+  58:    1  ->  s
+  59:    1  ->  saf
+  60:    1  ->  scream
+  61:    1  ->  see
+  62:    1  ->  there
+  63:    1  ->  through
+  64:    1  ->  too
+  65:    1  ->  unquote
+  66:    1  ->  up
+  67:    1  ->  v
+  68:    1  ->  was
+  69:    1  ->  wh
+  70:    1  ->  work
+  71:    1  ->  would
+  72:    1  ->  wq
+  73:    1  ->  wr
+     -------
+       156
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  a
+   2:    2  ->  the
+   3:    1  ->  absence
+   4:    1  ->  answer
+   5:    1  ->  contest
+   6:    1  ->  could
+   7:    1  ->  is
+   8:    1  ->  its
+   9:    1  ->  mackey's
+  10:    1  ->  n
+  11:    1  ->  there
+  12:    1  ->  to
+  13:    1  ->  well
+  14:    1  ->  what
+  15:    1  ->  yeah
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  and
+   2:    2  ->  it
+   3:    2  ->  the
+   4:    1  ->  a
+   5:    1  ->  absent
+   6:    1  ->  as
+   7:    1  ->  can
+   8:    1  ->  k.
+   9:    1  ->  mackie's
+  10:    1  ->  test
+  11:    1  ->  that's
+  12:    1  ->  things
+  13:    1  ->  this
+  14:    1  ->  was
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,218 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.9%   (  84)
+
+Percent Correct           =   92.8%   ( 986)
+
+Percent Substitution      =    3.9%   (  41)
+Percent Deletions         =    3.3%   (  35)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   92.1%
+
+
+Ref. words                =           (1062)
+Hyp. words                =           (1035)
+Aligned words             =           (1070)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  bodies ==> somebody's
+   2:    2  ->  in ==> and
+   3:    2  ->  leaf ==> belief
+   4:    1  ->  a ==> the
+   5:    1  ->  and ==> his
+   6:    1  ->  at ==> of
+   7:    1  ->  calls ==> call
+   8:    1  ->  downward ==> downwards
+   9:    1  ->  eleven ==> one
+  10:    1  ->  end ==> in
+  11:    1  ->  etiolated ==> intelated
+  12:    1  ->  face ==> base
+  13:    1  ->  face ==> space
+  14:    1  ->  filled ==> film
+  15:    1  ->  future ==> picture
+  16:    1  ->  gentler ==> arc
+  17:    1  ->  he's ==> these
+  18:    1  ->  hop ==> how
+  19:    1  ->  illustrated ==> illustrative
+  20:    1  ->  its ==> it's
+  21:    1  ->  journal ==> livejournal
+  22:    1  ->  leaves ==> assemblies
+  23:    1  ->  malick ==> malek
+  24:    1  ->  maw ==> mob
+  25:    1  ->  mclaughlan ==> mclaughlin
+  26:    1  ->  mouth ==> mow
+  27:    1  ->  not ==> knot
+  28:    1  ->  opened ==> open
+  29:    1  ->  ploat ==> float
+  30:    1  ->  squealed ==> appeals
+  31:    1  ->  stat ==> stacked
+  32:    1  ->  sun ==> neuronal
+  33:    1  ->  tax ==> text
+  34:    1  ->  terrence ==> terence
+  35:    1  ->  the ==> arc
+  36:    1  ->  the ==> this
+  37:    1  ->  toms ==> tongs
+  38:    1  ->  twelve ==> two
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  one
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  gentle
+   5:    1  ->  hundred
+   6:    1  ->  in
+   7:    1  ->  the
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    4  ->  the
+   2:    3  ->  he
+   3:    2  ->  a
+   4:    2  ->  of
+   5:    2  ->  some
+   6:    1  ->  and
+   7:    1  ->  another
+   8:    1  ->  are
+   9:    1  ->  australia
+  10:    1  ->  by
+  11:    1  ->  choses
+  12:    1  ->  credits
+  13:    1  ->  deep
+  14:    1  ->  her
+  15:    1  ->  in
+  16:    1  ->  live
+  17:    1  ->  looking
+  18:    1  ->  name
+  19:    1  ->  poems
+  20:    1  ->  ronnel
+  21:    1  ->  siege
+  22:    1  ->  slash
+  23:    1  ->  start
+  24:    1  ->  to
+  25:    1  ->  tries
+  26:    1  ->  under
+  27:    1  ->  you
+     -------
+        35
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  bodies
+   2:    2  ->  face
+   3:    2  ->  in
+   4:    2  ->  leaf
+   5:    2  ->  the
+   6:    1  ->  a
+   7:    1  ->  and
+   8:    1  ->  at
+   9:    1  ->  calls
+  10:    1  ->  downward
+  11:    1  ->  eleven
+  12:    1  ->  end
+  13:    1  ->  etiolated
+  14:    1  ->  filled
+  15:    1  ->  future
+  16:    1  ->  gentler
+  17:    1  ->  he's
+  18:    1  ->  hop
+  19:    1  ->  illustrated
+  20:    1  ->  its
+  21:    1  ->  journal
+  22:    1  ->  leaves
+  23:    1  ->  malick
+  24:    1  ->  maw
+  25:    1  ->  mclaughlan
+  26:    1  ->  mouth
+  27:    1  ->  not
+  28:    1  ->  opened
+  29:    1  ->  ploat
+  30:    1  ->  squealed
+  31:    1  ->  stat
+  32:    1  ->  sun
+  33:    1  ->  tax
+  34:    1  ->  terrence
+  35:    1  ->  toms
+  36:    1  ->  twelve
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  and
+   2:    2  ->  arc
+   3:    2  ->  belief
+   4:    2  ->  somebody's
+   5:    1  ->  appeals
+   6:    1  ->  assemblies
+   7:    1  ->  base
+   8:    1  ->  call
+   9:    1  ->  downwards
+  10:    1  ->  film
+  11:    1  ->  float
+  12:    1  ->  his
+  13:    1  ->  how
+  14:    1  ->  illustrative
+  15:    1  ->  in
+  16:    1  ->  intelated
+  17:    1  ->  it's
+  18:    1  ->  knot
+  19:    1  ->  livejournal
+  20:    1  ->  malek
+  21:    1  ->  mclaughlin
+  22:    1  ->  mob
+  23:    1  ->  mow
+  24:    1  ->  neuronal
+  25:    1  ->  of
+  26:    1  ->  one
+  27:    1  ->  open
+  28:    1  ->  picture
+  29:    1  ->  space
+  30:    1  ->  stacked
+  31:    1  ->  terence
+  32:    1  ->  text
+  33:    1  ->  the
+  34:    1  ->  these
+  35:    1  ->  this
+  36:    1  ->  tongs
+  37:    1  ->  two
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

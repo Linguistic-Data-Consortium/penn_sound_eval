@@ -1,0 +1,338 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.9%   ( 125)
+
+Percent Correct           =   89.4%   ( 802)
+
+Percent Substitution      =    9.3%   (  83)
+Percent Deletions         =    1.3%   (  12)
+Percent Insertions        =    3.3%   (  30)
+Percent Word Accuracy     =   86.1%
+
+
+Ref. words                =           ( 897)
+Hyp. words                =           ( 915)
+Aligned words             =           ( 927)
+
+CONFUSION PAIRS                  Total                 (83)
+                                 With >=  1 occurrences (83)
+
+   1:    1  ->  analyst's ==> analyst
+   2:    1  ->  analyze ==> analyse
+   3:    1  ->  baldfaced ==> face
+   4:    1  ->  barber's ==> barbers
+   5:    1  ->  batter ==> butter
+   6:    1  ->  came ==> tame
+   7:    1  ->  cocks ==> cops
+   8:    1  ->  color ==> colour
+   9:    1  ->  crowd ==> proud
+  10:    1  ->  crowdsourced ==> sourced
+  11:    1  ->  eight ==> h
+  12:    1  ->  enshrouded ==> shrouded
+  13:    1  ->  erikson ==> ericsson
+  14:    1  ->  farmhands ==> hands
+  15:    1  ->  float ==> the
+  16:    1  ->  gal ==> spygal
+  17:    1  ->  gaming ==> me
+  18:    1  ->  grandmother's ==> grandmothers
+  19:    1  ->  heyerdahl ==> will
+  20:    1  ->  horn ==> tinhorn
+  21:    1  ->  impale ==> impel
+  22:    1  ->  in ==> and
+  23:    1  ->  irony ==> over
+  24:    1  ->  is ==> imperatives
+  25:    1  ->  it ==> therein
+  26:    1  ->  line ==> him
+  27:    1  ->  memo ==> mo
+  28:    1  ->  memories ==> memory
+  29:    1  ->  numerals ==> rules
+  30:    1  ->  of ==> adam
+  31:    1  ->  of ==> and
+  32:    1  ->  of ==> for
+  33:    1  ->  over ==> open
+  34:    1  ->  overdubbed ==> dubbed
+  35:    1  ->  parrot ==> wild
+  36:    1  ->  past ==> passed
+  37:    1  ->  play ==> claim
+  38:    1  ->  poems ==> poem
+  39:    1  ->  road ==> offroad
+  40:    1  ->  scam ==> scan
+  41:    1  ->  service ==> it's
+  42:    1  ->  set ==> sets
+  43:    1  ->  sights ==> sight
+  44:    1  ->  simonize ==> simonizes
+  45:    1  ->  skill ==> stampskill
+  46:    1  ->  solved ==> solve
+  47:    1  ->  speed ==> lightspeed
+  48:    1  ->  spine ==> spy
+  49:    1  ->  stamped ==> mars
+  50:    1  ->  teacakes ==> cakes
+  51:    1  ->  thor ==> i
+  52:    1  ->  thought ==> not
+  53:    1  ->  thus ==> fast
+  54:    1  ->  usual ==> interval
+  55:    1  ->  wait ==> wake
+  56:    1  ->  well ==> fittest
+  57:    1  ->  were ==> where
+  58:    1  ->  wholesaled ==> out
+  59:    1  ->  wig ==> wing
+  60:    1  ->  word ==> words
+  61:    1  ->  x ==> already
+  62:    1  ->  x ==> bald
+  63:    1  ->  x ==> cagey
+  64:    1  ->  x ==> cinderton
+  65:    1  ->  x ==> cocktails
+  66:    1  ->  x ==> contiki
+  67:    1  ->  x ==> ever
+  68:    1  ->  x ==> frowser
+  69:    1  ->  x ==> groundless
+  70:    1  ->  x ==> huntly
+  71:    1  ->  x ==> in
+  72:    1  ->  x ==> key
+  73:    1  ->  x ==> like
+  74:    1  ->  x ==> limo
+  75:    1  ->  x ==> loss
+  76:    1  ->  x ==> modify
+  77:    1  ->  x ==> nylon
+  78:    1  ->  x ==> of
+  79:    1  ->  x ==> polisi
+  80:    1  ->  x ==> tints
+  81:    1  ->  x ==> woo
+  82:    1  ->  you ==> g
+  83:    1  ->  your ==> are
+     -------
+        83
+
+
+
+INSERTIONS                       Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  and
+   2:    2  ->  i
+   3:    1  ->  air
+   4:    1  ->  circle
+   5:    1  ->  crowd
+   6:    1  ->  farm
+   7:    1  ->  gave
+   8:    1  ->  had
+   9:    1  ->  hoax
+  10:    1  ->  hoof
+  11:    1  ->  hoover
+  12:    1  ->  hume
+  13:    1  ->  igloo
+  14:    1  ->  in
+  15:    1  ->  it
+  16:    1  ->  lion
+  17:    1  ->  note
+  18:    1  ->  on
+  19:    1  ->  own
+  20:    1  ->  shank
+  21:    1  ->  succeeded
+  22:    1  ->  tea
+  23:    1  ->  that
+  24:    1  ->  thought
+  25:    1  ->  trolling
+  26:    1  ->  will
+  27:    1  ->  you
+  28:    1  ->  youth
+     -------
+        30
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  x
+   2:    1  ->  last
+   3:    1  ->  light
+   4:    1  ->  moss
+   5:    1  ->  off
+   6:    1  ->  out
+   7:    1  ->  spy
+   8:    1  ->  the
+   9:    1  ->  there
+  10:    1  ->  tin
+  11:    1  ->  while
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:   21  ->  x
+   2:    3  ->  of
+   3:    1  ->  analyst's
+   4:    1  ->  analyze
+   5:    1  ->  baldfaced
+   6:    1  ->  barber's
+   7:    1  ->  batter
+   8:    1  ->  came
+   9:    1  ->  cocks
+  10:    1  ->  color
+  11:    1  ->  crowd
+  12:    1  ->  crowdsourced
+  13:    1  ->  eight
+  14:    1  ->  enshrouded
+  15:    1  ->  erikson
+  16:    1  ->  farmhands
+  17:    1  ->  float
+  18:    1  ->  gal
+  19:    1  ->  gaming
+  20:    1  ->  grandmother's
+  21:    1  ->  heyerdahl
+  22:    1  ->  horn
+  23:    1  ->  impale
+  24:    1  ->  in
+  25:    1  ->  irony
+  26:    1  ->  is
+  27:    1  ->  it
+  28:    1  ->  line
+  29:    1  ->  memo
+  30:    1  ->  memories
+  31:    1  ->  numerals
+  32:    1  ->  over
+  33:    1  ->  overdubbed
+  34:    1  ->  parrot
+  35:    1  ->  past
+  36:    1  ->  play
+  37:    1  ->  poems
+  38:    1  ->  road
+  39:    1  ->  scam
+  40:    1  ->  service
+  41:    1  ->  set
+  42:    1  ->  sights
+  43:    1  ->  simonize
+  44:    1  ->  skill
+  45:    1  ->  solved
+  46:    1  ->  speed
+  47:    1  ->  spine
+  48:    1  ->  stamped
+  49:    1  ->  teacakes
+  50:    1  ->  thor
+  51:    1  ->  thought
+  52:    1  ->  thus
+  53:    1  ->  usual
+  54:    1  ->  wait
+  55:    1  ->  well
+  56:    1  ->  were
+  57:    1  ->  wholesaled
+  58:    1  ->  wig
+  59:    1  ->  word
+  60:    1  ->  you
+  61:    1  ->  your
+     -------
+        83
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (82)
+                                 With >=  1 occurrences (82)
+
+   1:    2  ->  and
+   2:    1  ->  adam
+   3:    1  ->  already
+   4:    1  ->  analyse
+   5:    1  ->  analyst
+   6:    1  ->  are
+   7:    1  ->  bald
+   8:    1  ->  barbers
+   9:    1  ->  butter
+  10:    1  ->  cagey
+  11:    1  ->  cakes
+  12:    1  ->  cinderton
+  13:    1  ->  claim
+  14:    1  ->  cocktails
+  15:    1  ->  colour
+  16:    1  ->  contiki
+  17:    1  ->  cops
+  18:    1  ->  dubbed
+  19:    1  ->  ericsson
+  20:    1  ->  ever
+  21:    1  ->  face
+  22:    1  ->  fast
+  23:    1  ->  fittest
+  24:    1  ->  for
+  25:    1  ->  frowser
+  26:    1  ->  g
+  27:    1  ->  grandmothers
+  28:    1  ->  groundless
+  29:    1  ->  h
+  30:    1  ->  hands
+  31:    1  ->  him
+  32:    1  ->  huntly
+  33:    1  ->  i
+  34:    1  ->  impel
+  35:    1  ->  imperatives
+  36:    1  ->  in
+  37:    1  ->  interval
+  38:    1  ->  it's
+  39:    1  ->  key
+  40:    1  ->  lightspeed
+  41:    1  ->  like
+  42:    1  ->  limo
+  43:    1  ->  loss
+  44:    1  ->  mars
+  45:    1  ->  me
+  46:    1  ->  memory
+  47:    1  ->  mo
+  48:    1  ->  modify
+  49:    1  ->  not
+  50:    1  ->  nylon
+  51:    1  ->  of
+  52:    1  ->  offroad
+  53:    1  ->  open
+  54:    1  ->  out
+  55:    1  ->  over
+  56:    1  ->  passed
+  57:    1  ->  poem
+  58:    1  ->  polisi
+  59:    1  ->  proud
+  60:    1  ->  rules
+  61:    1  ->  scan
+  62:    1  ->  sets
+  63:    1  ->  shrouded
+  64:    1  ->  sight
+  65:    1  ->  simonizes
+  66:    1  ->  solve
+  67:    1  ->  sourced
+  68:    1  ->  spy
+  69:    1  ->  spygal
+  70:    1  ->  stampskill
+  71:    1  ->  tame
+  72:    1  ->  the
+  73:    1  ->  therein
+  74:    1  ->  tinhorn
+  75:    1  ->  tints
+  76:    1  ->  wake
+  77:    1  ->  where
+  78:    1  ->  wild
+  79:    1  ->  will
+  80:    1  ->  wing
+  81:    1  ->  woo
+  82:    1  ->  words
+     -------
+        83
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

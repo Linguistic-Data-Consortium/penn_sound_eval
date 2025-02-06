@@ -1,0 +1,201 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.2%   (  61)
+
+Percent Correct           =   94.6%   ( 925)
+
+Percent Substitution      =    3.7%   (  36)
+Percent Deletions         =    1.7%   (  17)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   93.8%
+
+
+Ref. words                =           ( 978)
+Hyp. words                =           ( 969)
+Aligned words             =           ( 986)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  doctors ==> this
+   2:    1  ->  a ==> the
+   3:    1  ->  banton ==> bontan
+   4:    1  ->  bellay ==> belay
+   5:    1  ->  boll ==> bull
+   6:    1  ->  buju ==> boujou
+   7:    1  ->  coltraine ==> coltrane
+   8:    1  ->  cribs ==> scribs
+   9:    1  ->  du ==> due
+  10:    1  ->  eye ==> i
+  11:    1  ->  gamma ==> gambo
+  12:    1  ->  grandmama's ==> grandmamma's
+  13:    1  ->  handedness ==> secondhandedness
+  14:    1  ->  high ==> aye
+  15:    1  ->  in ==> and
+  16:    1  ->  instinctual ==> insistent
+  17:    1  ->  laundromat ==> mat
+  18:    1  ->  martyr ==> martyrs
+  19:    1  ->  minks ==> minx
+  20:    1  ->  montigo ==> montego
+  21:    1  ->  people's ==> or
+  22:    1  ->  prez ==> prayers
+  23:    1  ->  raps ==> rats
+  24:    1  ->  shearling ==> shirling
+  25:    1  ->  slims ==> slim
+  26:    1  ->  steal ==> peep
+  27:    1  ->  threatened ==> threaten
+  28:    1  ->  to ==> hella
+  29:    1  ->  turncoats ==> coach
+  30:    1  ->  virginia ==> virginia's
+  31:    1  ->  washboards ==> boards
+  32:    1  ->  weevil ==> weevil's
+  33:    1  ->  windowsill ==> sill
+  34:    1  ->  wiz ==> whiz
+  35:    1  ->  yvonda's ==> yavanda's
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  doc
+   2:    1  ->  laundry
+   3:    1  ->  still
+   4:    1  ->  this
+   5:    1  ->  turn
+   6:    1  ->  wash
+   7:    1  ->  window
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  the
+   2:    1  ->  and
+   3:    1  ->  at
+   4:    1  ->  bring
+   5:    1  ->  epa
+   6:    1  ->  grandmama's
+   7:    1  ->  have
+   8:    1  ->  hell
+   9:    1  ->  house
+  10:    1  ->  i
+  11:    1  ->  is
+  12:    1  ->  lullaby
+  13:    1  ->  months
+  14:    1  ->  my
+  15:    1  ->  second
+  16:    1  ->  seven
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  doctors
+   2:    1  ->  a
+   3:    1  ->  banton
+   4:    1  ->  bellay
+   5:    1  ->  boll
+   6:    1  ->  buju
+   7:    1  ->  coltraine
+   8:    1  ->  cribs
+   9:    1  ->  du
+  10:    1  ->  eye
+  11:    1  ->  gamma
+  12:    1  ->  grandmama's
+  13:    1  ->  handedness
+  14:    1  ->  high
+  15:    1  ->  in
+  16:    1  ->  instinctual
+  17:    1  ->  laundromat
+  18:    1  ->  martyr
+  19:    1  ->  minks
+  20:    1  ->  montigo
+  21:    1  ->  people's
+  22:    1  ->  prez
+  23:    1  ->  raps
+  24:    1  ->  shearling
+  25:    1  ->  slims
+  26:    1  ->  steal
+  27:    1  ->  threatened
+  28:    1  ->  to
+  29:    1  ->  turncoats
+  30:    1  ->  virginia
+  31:    1  ->  washboards
+  32:    1  ->  weevil
+  33:    1  ->  windowsill
+  34:    1  ->  wiz
+  35:    1  ->  yvonda's
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  this
+   2:    1  ->  and
+   3:    1  ->  aye
+   4:    1  ->  belay
+   5:    1  ->  boards
+   6:    1  ->  bontan
+   7:    1  ->  boujou
+   8:    1  ->  bull
+   9:    1  ->  coach
+  10:    1  ->  coltrane
+  11:    1  ->  due
+  12:    1  ->  gambo
+  13:    1  ->  grandmamma's
+  14:    1  ->  hella
+  15:    1  ->  i
+  16:    1  ->  insistent
+  17:    1  ->  martyrs
+  18:    1  ->  mat
+  19:    1  ->  minx
+  20:    1  ->  montego
+  21:    1  ->  or
+  22:    1  ->  peep
+  23:    1  ->  prayers
+  24:    1  ->  rats
+  25:    1  ->  scribs
+  26:    1  ->  secondhandedness
+  27:    1  ->  shirling
+  28:    1  ->  sill
+  29:    1  ->  slim
+  30:    1  ->  the
+  31:    1  ->  threaten
+  32:    1  ->  virginia's
+  33:    1  ->  weevil's
+  34:    1  ->  whiz
+  35:    1  ->  yavanda's
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

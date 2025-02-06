@@ -1,0 +1,192 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.9%   (  81)
+
+Percent Correct           =   92.5%   ( 846)
+
+Percent Substitution      =    3.9%   (  36)
+Percent Deletions         =    3.6%   (  33)
+Percent Insertions        =    1.3%   (  12)
+Percent Word Accuracy     =   91.1%
+
+
+Ref. words                =           ( 915)
+Hyp. words                =           ( 894)
+Aligned words             =           ( 927)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    8  ->  saint ==> st
+   2:    1  ->  %bcack ==> delarosa
+   3:    1  ->  a ==> in
+   4:    1  ->  and ==> in
+   5:    1  ->  bluhm ==> bloom
+   6:    1  ->  claven's ==> clavin
+   7:    1  ->  concrete ==> ret
+   8:    1  ->  davide ==> ded
+   9:    1  ->  diaghilev ==> dia
+  10:    1  ->  dolorosa ==> mate
+  11:    1  ->  fagin ==> fagan
+  12:    1  ->  glennan's ==> glennon's
+  13:    1  ->  in ==> an
+  14:    1  ->  it ==> paget
+  15:    1  ->  k. ==> be
+  16:    1  ->  mcgillivray's ==> mcgill's
+  17:    1  ->  mcgivern's ==> mcgovern's
+  18:    1  ->  mitchell's ==> mitchells
+  19:    1  ->  musique ==> music
+  20:    1  ->  nine ==> 1939
+  21:    1  ->  pitcher ==> picture
+  22:    1  ->  plat ==> <inaudible>
+  23:    1  ->  roundness ==> groundness
+  24:    1  ->  sapeep ==> caip
+  25:    1  ->  the ==> a
+  26:    1  ->  thirty ==> 30th
+  27:    1  ->  too ==> two
+  28:    1  ->  williams' ==> williams
+  29:    1  ->  with ==> of
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:   11  ->  <laugh>
+   2:    1  ->  or
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  take
+   2:    2  ->  that
+   3:    1  ->  actually
+   4:    1  ->  casay
+   5:    1  ->  come
+   6:    1  ->  dum
+   7:    1  ->  had
+   8:    1  ->  halfway
+   9:    1  ->  if
+  10:    1  ->  is
+  11:    1  ->  le
+  12:    1  ->  let
+  13:    1  ->  mater
+  14:    1  ->  me
+  15:    1  ->  meet
+  16:    1  ->  nineteen
+  17:    1  ->  o.
+  18:    1  ->  oeufs
+  19:    1  ->  padgett
+  20:    1  ->  so
+  21:    1  ->  stage
+  22:    1  ->  sur
+  23:    1  ->  the
+  24:    1  ->  thirtieth
+  25:    1  ->  time
+  26:    1  ->  up
+  27:    1  ->  water
+  28:    1  ->  we
+  29:    1  ->  x
+  30:    1  ->  you
+  31:    1  ->  your
+     -------
+        33
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    8  ->  saint
+   2:    1  ->  %bcack
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  bluhm
+   6:    1  ->  claven's
+   7:    1  ->  concrete
+   8:    1  ->  davide
+   9:    1  ->  diaghilev
+  10:    1  ->  dolorosa
+  11:    1  ->  fagin
+  12:    1  ->  glennan's
+  13:    1  ->  in
+  14:    1  ->  it
+  15:    1  ->  k.
+  16:    1  ->  mcgillivray's
+  17:    1  ->  mcgivern's
+  18:    1  ->  mitchell's
+  19:    1  ->  musique
+  20:    1  ->  nine
+  21:    1  ->  pitcher
+  22:    1  ->  plat
+  23:    1  ->  roundness
+  24:    1  ->  sapeep
+  25:    1  ->  the
+  26:    1  ->  thirty
+  27:    1  ->  too
+  28:    1  ->  williams'
+  29:    1  ->  with
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    8  ->  st
+   2:    2  ->  in
+   3:    1  ->  1939
+   4:    1  ->  30th
+   5:    1  ->  <inaudible>
+   6:    1  ->  a
+   7:    1  ->  an
+   8:    1  ->  be
+   9:    1  ->  bloom
+  10:    1  ->  caip
+  11:    1  ->  clavin
+  12:    1  ->  ded
+  13:    1  ->  delarosa
+  14:    1  ->  dia
+  15:    1  ->  fagan
+  16:    1  ->  glennon's
+  17:    1  ->  groundness
+  18:    1  ->  mate
+  19:    1  ->  mcgill's
+  20:    1  ->  mcgovern's
+  21:    1  ->  mitchells
+  22:    1  ->  music
+  23:    1  ->  of
+  24:    1  ->  paget
+  25:    1  ->  picture
+  26:    1  ->  ret
+  27:    1  ->  two
+  28:    1  ->  williams
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

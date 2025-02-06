@@ -1,0 +1,179 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.8%   (  56)
+
+Percent Correct           =   95.3%   ( 923)
+
+Percent Substitution      =    3.8%   (  37)
+Percent Deletions         =    0.9%   (   9)
+Percent Insertions        =    1.0%   (  10)
+Percent Word Accuracy     =   94.2%
+
+
+Ref. words                =           ( 969)
+Hyp. words                =           ( 970)
+Aligned words             =           ( 979)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    5  ->  shirley ==> surely
+   2:    2  ->  elka ==> alka
+   3:    1  ->  and ==> jamison
+   4:    1  ->  and ==> jenison
+   5:    1  ->  catchphrase ==> phrase
+   6:    1  ->  chenille ==> chanelle
+   7:    1  ->  crazed ==> craze
+   8:    1  ->  deckered ==> decker
+   9:    1  ->  eek ==> kekeke
+  10:    1  ->  elka ==> elca
+  11:    1  ->  elka's ==> is
+  12:    1  ->  from ==> for
+  13:    1  ->  gnawed ==> not
+  14:    1  ->  got ==> scott
+  15:    1  ->  hothead ==> head
+  16:    1  ->  janice ==> jenis
+  17:    1  ->  joint ==> join
+  18:    1  ->  jutting ==> jetting
+  19:    1  ->  loudmouth ==> mouth
+  20:    1  ->  pitched ==> pitch
+  21:    1  ->  rode ==> wrote
+  22:    1  ->  shit ==> ***
+  23:    1  ->  snot ==> not
+  24:    1  ->  spittle ==> spittal
+  25:    1  ->  stay ==> say
+  26:    1  ->  stoned ==> stone
+  27:    1  ->  teeny ==> tiny
+  28:    1  ->  the ==> a
+  29:    1  ->  the ==> it's
+  30:    1  ->  tripped ==> trips
+  31:    1  ->  unwedged ==> unhedged
+  32:    1  ->  yeah ==> mouth
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  ashika
+   2:    1  ->  azusa
+   3:    1  ->  casazza
+   4:    1  ->  cash
+   5:    1  ->  catch
+   6:    1  ->  dash
+   7:    1  ->  dashi
+   8:    1  ->  elk
+   9:    1  ->  hot
+  10:    1  ->  loud
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    3  ->  had
+   2:    2  ->  eek
+   3:    2  ->  janice
+   4:    1  ->  j
+   5:    1  ->  mouths
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    5  ->  shirley
+   2:    3  ->  elka
+   3:    2  ->  and
+   4:    2  ->  the
+   5:    1  ->  catchphrase
+   6:    1  ->  chenille
+   7:    1  ->  crazed
+   8:    1  ->  deckered
+   9:    1  ->  eek
+  10:    1  ->  elka's
+  11:    1  ->  from
+  12:    1  ->  gnawed
+  13:    1  ->  got
+  14:    1  ->  hothead
+  15:    1  ->  janice
+  16:    1  ->  joint
+  17:    1  ->  jutting
+  18:    1  ->  loudmouth
+  19:    1  ->  pitched
+  20:    1  ->  rode
+  21:    1  ->  shit
+  22:    1  ->  snot
+  23:    1  ->  spittle
+  24:    1  ->  stay
+  25:    1  ->  stoned
+  26:    1  ->  teeny
+  27:    1  ->  tripped
+  28:    1  ->  unwedged
+  29:    1  ->  yeah
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    5  ->  surely
+   2:    2  ->  alka
+   3:    2  ->  mouth
+   4:    2  ->  not
+   5:    1  ->  ***
+   6:    1  ->  a
+   7:    1  ->  chanelle
+   8:    1  ->  craze
+   9:    1  ->  decker
+  10:    1  ->  elca
+  11:    1  ->  for
+  12:    1  ->  head
+  13:    1  ->  is
+  14:    1  ->  it's
+  15:    1  ->  jamison
+  16:    1  ->  jenis
+  17:    1  ->  jenison
+  18:    1  ->  jetting
+  19:    1  ->  join
+  20:    1  ->  kekeke
+  21:    1  ->  phrase
+  22:    1  ->  pitch
+  23:    1  ->  say
+  24:    1  ->  scott
+  25:    1  ->  spittal
+  26:    1  ->  stone
+  27:    1  ->  tiny
+  28:    1  ->  trips
+  29:    1  ->  unhedged
+  30:    1  ->  wrote
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.3%   (  71)
+
+Percent Correct           =   93.0%   ( 709)
+
+Percent Substitution      =    3.9%   (  30)
+Percent Deletions         =    3.0%   (  23)
+Percent Insertions        =    2.4%   (  18)
+Percent Word Accuracy     =   90.7%
+
+
+Ref. words                =           ( 762)
+Hyp. words                =           ( 757)
+Aligned words             =           ( 780)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    7  ->  b ==> be
+   2:    2  ->  eating ==> eaten
+   3:    1  ->  am ==> m
+   4:    1  ->  and ==> in
+   5:    1  ->  as ==> of
+   6:    1  ->  ben ==> been
+   7:    1  ->  coulades ==> culottes
+   8:    1  ->  face ==> faces
+   9:    1  ->  fist ==> fists
+  10:    1  ->  had ==> have
+  11:    1  ->  is ==> was
+  12:    1  ->  knit ==> knits
+  13:    1  ->  momma ==> mama
+  14:    1  ->  months' ==> months
+  15:    1  ->  mourning ==> morning
+  16:    1  ->  reenie ==> rene
+  17:    1  ->  shutters ==> shudders
+  18:    1  ->  somniloquies ==> niloquies
+  19:    1  ->  twelve ==> two
+  20:    1  ->  unheeded ==> unheated
+  21:    1  ->  where ==> wear
+  22:    1  ->  which ==> what
+  23:    1  ->  yore ==> your
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  a
+   2:    1  ->  become
+   3:    1  ->  dark
+   4:    1  ->  had
+   5:    1  ->  handkerchief
+   6:    1  ->  how
+   7:    1  ->  husk
+   8:    1  ->  jemima
+   9:    1  ->  job's
+  10:    1  ->  not
+  11:    1  ->  one
+  12:    1  ->  post
+  13:    1  ->  red
+  14:    1  ->  some
+  15:    1  ->  the
+  16:    1  ->  then
+  17:    1  ->  troubles
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  about
+   2:    2  ->  had
+   3:    2  ->  know
+   4:    2  ->  she
+   5:    2  ->  the
+   6:    2  ->  what
+   7:    1  ->  how
+   8:    1  ->  in
+   9:    1  ->  it
+  10:    1  ->  like
+  11:    1  ->  m
+  12:    1  ->  settles
+  13:    1  ->  silence
+  14:    1  ->  swallow
+  15:    1  ->  tem
+  16:    1  ->  that
+  17:    1  ->  throat
+     -------
+        23
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    7  ->  b
+   2:    2  ->  eating
+   3:    1  ->  am
+   4:    1  ->  and
+   5:    1  ->  as
+   6:    1  ->  ben
+   7:    1  ->  coulades
+   8:    1  ->  face
+   9:    1  ->  fist
+  10:    1  ->  had
+  11:    1  ->  is
+  12:    1  ->  knit
+  13:    1  ->  momma
+  14:    1  ->  months'
+  15:    1  ->  mourning
+  16:    1  ->  reenie
+  17:    1  ->  shutters
+  18:    1  ->  somniloquies
+  19:    1  ->  twelve
+  20:    1  ->  unheeded
+  21:    1  ->  where
+  22:    1  ->  which
+  23:    1  ->  yore
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    7  ->  be
+   2:    2  ->  eaten
+   3:    1  ->  been
+   4:    1  ->  culottes
+   5:    1  ->  faces
+   6:    1  ->  fists
+   7:    1  ->  have
+   8:    1  ->  in
+   9:    1  ->  knits
+  10:    1  ->  m
+  11:    1  ->  mama
+  12:    1  ->  months
+  13:    1  ->  morning
+  14:    1  ->  niloquies
+  15:    1  ->  of
+  16:    1  ->  rene
+  17:    1  ->  shudders
+  18:    1  ->  two
+  19:    1  ->  unheated
+  20:    1  ->  was
+  21:    1  ->  wear
+  22:    1  ->  what
+  23:    1  ->  your
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

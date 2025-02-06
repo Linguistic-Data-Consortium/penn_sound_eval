@@ -1,0 +1,156 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.5%   (  50)
+
+Percent Correct           =   96.2%   (1063)
+
+Percent Substitution      =    2.9%   (  32)
+Percent Deletions         =    0.9%   (  10)
+Percent Insertions        =    0.7%   (   8)
+Percent Word Accuracy     =   95.5%
+
+
+Ref. words                =           (1105)
+Hyp. words                =           (1103)
+Aligned words             =           (1113)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    5  ->  hennaed ==> henned
+   2:    3  ->  or ==> are
+   3:    2  ->  hennaed ==> headed
+   4:    2  ->  serving ==> selfserving
+   5:    2  ->  starving ==> stickstarving
+   6:    1  ->  amid ==> in
+   7:    1  ->  blow ==> blowing
+   8:    1  ->  boy's ==> voice
+   9:    1  ->  cocooned ==> cocoon
+  10:    1  ->  deserts ==> desert
+  11:    1  ->  eyeholes ==> holes
+  12:    1  ->  flippering ==> flickering
+  13:    1  ->  from ==> that's
+  14:    1  ->  halves ==> haves
+  15:    1  ->  happened ==> happen
+  16:    1  ->  head ==> ahead
+  17:    1  ->  its ==> it
+  18:    1  ->  jeering ==> cheering
+  19:    1  ->  loving ==> manloving
+  20:    1  ->  sheath ==> sheaf
+  21:    1  ->  side ==> outside
+  22:    1  ->  were ==> are
+  23:    1  ->  with ==> which
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  ago
+   2:    1  ->  and
+   3:    1  ->  are
+   4:    1  ->  eye
+   5:    1  ->  have
+   6:    1  ->  he
+   7:    1  ->  it
+   8:    1  ->  once
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  self
+   2:    2  ->  stick
+   3:    1  ->  in
+   4:    1  ->  man
+   5:    1  ->  out
+   6:    1  ->  to
+   7:    1  ->  w
+   8:    1  ->  who
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    7  ->  hennaed
+   2:    3  ->  or
+   3:    2  ->  serving
+   4:    2  ->  starving
+   5:    1  ->  amid
+   6:    1  ->  blow
+   7:    1  ->  boy's
+   8:    1  ->  cocooned
+   9:    1  ->  deserts
+  10:    1  ->  eyeholes
+  11:    1  ->  flippering
+  12:    1  ->  from
+  13:    1  ->  halves
+  14:    1  ->  happened
+  15:    1  ->  head
+  16:    1  ->  its
+  17:    1  ->  jeering
+  18:    1  ->  loving
+  19:    1  ->  sheath
+  20:    1  ->  side
+  21:    1  ->  were
+  22:    1  ->  with
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    5  ->  henned
+   2:    4  ->  are
+   3:    2  ->  headed
+   4:    2  ->  selfserving
+   5:    2  ->  stickstarving
+   6:    1  ->  ahead
+   7:    1  ->  blowing
+   8:    1  ->  cheering
+   9:    1  ->  cocoon
+  10:    1  ->  desert
+  11:    1  ->  flickering
+  12:    1  ->  happen
+  13:    1  ->  haves
+  14:    1  ->  holes
+  15:    1  ->  in
+  16:    1  ->  it
+  17:    1  ->  manloving
+  18:    1  ->  outside
+  19:    1  ->  sheaf
+  20:    1  ->  that's
+  21:    1  ->  voice
+  22:    1  ->  which
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

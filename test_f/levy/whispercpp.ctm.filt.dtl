@@ -1,0 +1,264 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   12.9%   ( 126)
+
+Percent Correct           =   94.0%   ( 917)
+
+Percent Substitution      =    4.7%   (  46)
+Percent Deletions         =    1.3%   (  13)
+Percent Insertions        =    6.9%   (  67)
+Percent Word Accuracy     =   87.1%
+
+
+Ref. words                =           ( 976)
+Hyp. words                =           (1030)
+Aligned words             =           (1043)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    2  ->  fashioned ==> oldfashioned
+   2:    2  ->  the ==> this
+   3:    1  ->  a ==> the
+   4:    1  ->  abandon ==> abandoned
+   5:    1  ->  ability ==> incommensurability
+   6:    1  ->  antimony ==> antinomy
+   7:    1  ->  apathetic ==> apophatic
+   8:    1  ->  armpit's ==> armpits
+   9:    1  ->  borne ==> born
+  10:    1  ->  cart ==> car
+  11:    1  ->  cedar ==> satyr
+  12:    1  ->  charmed ==> charm
+  13:    1  ->  colored ==> applecolored
+  14:    1  ->  dew ==> do
+  15:    1  ->  dot ==> adopt
+  16:    1  ->  eared ==> goldeneared
+  17:    1  ->  failing ==> unfailing
+  18:    1  ->  forbes' ==> forbes
+  19:    1  ->  giving ==> getting
+  20:    1  ->  in ==> and
+  21:    1  ->  is ==> was
+  22:    1  ->  lives ==> lies
+  23:    1  ->  man ==> and
+  24:    1  ->  modernism ==> postmodernism
+  25:    1  ->  name ==> names
+  26:    1  ->  now ==> how
+  27:    1  ->  phones ==> foams
+  28:    1  ->  prophesize ==> prophesies
+  29:    1  ->  rider ==> writer
+  30:    1  ->  scalp ==> gap
+  31:    1  ->  seacoast ==> coast
+  32:    1  ->  see ==> sea
+  33:    1  ->  senses ==> sentences
+  34:    1  ->  slow ==> low
+  35:    1  ->  so ==> some
+  36:    1  ->  soo ==> sisu
+  37:    1  ->  that ==> it
+  38:    1  ->  the ==> a
+  39:    1  ->  through ==> to
+  40:    1  ->  time ==> tongue
+  41:    1  ->  tinder ==> tender
+  42:    1  ->  weiner ==> wiener
+  43:    1  ->  who ==> woman
+  44:    1  ->  why ==> what
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    6  ->  the
+   2:    5  ->  of
+   3:    3  ->  strong
+   4:    3  ->  was
+   5:    2  ->  in
+   6:    2  ->  is
+   7:    2  ->  not
+   8:    2  ->  out
+   9:    2  ->  woman
+  10:    1  ->  a
+  11:    1  ->  about
+  12:    1  ->  aesthetic
+  13:    1  ->  agencies
+  14:    1  ->  an
+  15:    1  ->  bending
+  16:    1  ->  beneath
+  17:    1  ->  bodies
+  18:    1  ->  capitalism
+  19:    1  ->  color
+  20:    1  ->  filled
+  21:    1  ->  find
+  22:    1  ->  formalism
+  23:    1  ->  income
+  24:    1  ->  inheritance
+  25:    1  ->  lemon
+  26:    1  ->  life
+  27:    1  ->  light
+  28:    1  ->  line
+  29:    1  ->  logic
+  30:    1  ->  make
+  31:    1  ->  mistakes
+  32:    1  ->  much
+  33:    1  ->  night
+  34:    1  ->  or
+  35:    1  ->  pink
+  36:    1  ->  postmodernism
+  37:    1  ->  problematic
+  38:    1  ->  purple
+  39:    1  ->  rampant
+  40:    1  ->  sea
+  41:    1  ->  self
+  42:    1  ->  shadow
+  43:    1  ->  speech
+  44:    1  ->  this
+  45:    1  ->  too
+  46:    1  ->  versus
+  47:    1  ->  with
+  48:    1  ->  world
+  49:    1  ->  you
+     -------
+        67
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  old
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  apple
+   5:    1  ->  delaney
+   6:    1  ->  golden
+   7:    1  ->  her
+   8:    1  ->  increments
+   9:    1  ->  it's
+  10:    1  ->  post
+  11:    1  ->  s
+  12:    1  ->  see
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    3  ->  the
+   2:    2  ->  fashioned
+   3:    1  ->  a
+   4:    1  ->  abandon
+   5:    1  ->  ability
+   6:    1  ->  antimony
+   7:    1  ->  apathetic
+   8:    1  ->  armpit's
+   9:    1  ->  borne
+  10:    1  ->  cart
+  11:    1  ->  cedar
+  12:    1  ->  charmed
+  13:    1  ->  colored
+  14:    1  ->  dew
+  15:    1  ->  dot
+  16:    1  ->  eared
+  17:    1  ->  failing
+  18:    1  ->  forbes'
+  19:    1  ->  giving
+  20:    1  ->  in
+  21:    1  ->  is
+  22:    1  ->  lives
+  23:    1  ->  man
+  24:    1  ->  modernism
+  25:    1  ->  name
+  26:    1  ->  now
+  27:    1  ->  phones
+  28:    1  ->  prophesize
+  29:    1  ->  rider
+  30:    1  ->  scalp
+  31:    1  ->  seacoast
+  32:    1  ->  see
+  33:    1  ->  senses
+  34:    1  ->  slow
+  35:    1  ->  so
+  36:    1  ->  soo
+  37:    1  ->  that
+  38:    1  ->  through
+  39:    1  ->  time
+  40:    1  ->  tinder
+  41:    1  ->  weiner
+  42:    1  ->  who
+  43:    1  ->  why
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  and
+   2:    2  ->  oldfashioned
+   3:    2  ->  this
+   4:    1  ->  a
+   5:    1  ->  abandoned
+   6:    1  ->  adopt
+   7:    1  ->  antinomy
+   8:    1  ->  apophatic
+   9:    1  ->  applecolored
+  10:    1  ->  armpits
+  11:    1  ->  born
+  12:    1  ->  car
+  13:    1  ->  charm
+  14:    1  ->  coast
+  15:    1  ->  do
+  16:    1  ->  foams
+  17:    1  ->  forbes
+  18:    1  ->  gap
+  19:    1  ->  getting
+  20:    1  ->  goldeneared
+  21:    1  ->  how
+  22:    1  ->  incommensurability
+  23:    1  ->  it
+  24:    1  ->  lies
+  25:    1  ->  low
+  26:    1  ->  names
+  27:    1  ->  postmodernism
+  28:    1  ->  prophesies
+  29:    1  ->  satyr
+  30:    1  ->  sea
+  31:    1  ->  sentences
+  32:    1  ->  sisu
+  33:    1  ->  some
+  34:    1  ->  tender
+  35:    1  ->  the
+  36:    1  ->  to
+  37:    1  ->  tongue
+  38:    1  ->  unfailing
+  39:    1  ->  was
+  40:    1  ->  what
+  41:    1  ->  wiener
+  42:    1  ->  woman
+  43:    1  ->  writer
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

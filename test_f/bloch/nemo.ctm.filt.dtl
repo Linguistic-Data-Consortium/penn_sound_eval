@@ -1,0 +1,157 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.5%   (  59)
+
+Percent Correct           =   95.1%   (1024)
+
+Percent Substitution      =    2.0%   (  22)
+Percent Deletions         =    2.9%   (  31)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   94.5%
+
+
+Ref. words                =           (1077)
+Hyp. words                =           (1052)
+Aligned words             =           (1083)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  a ==> la
+   2:    1  ->  bayshore ==> shore
+   3:    1  ->  into ==> to
+   4:    1  ->  mouth ==> math
+   5:    1  ->  myles ==> miles
+   6:    1  ->  oh ==> hundred
+   7:    1  ->  sacroiliac ==> iliac
+   8:    1  ->  schuylkill ==> schoolkill
+   9:    1  ->  should ==> can
+  10:    1  ->  t ==> pst
+  11:    1  ->  this ==> the
+  12:    1  ->  to ==> two
+  13:    1  ->  tshirt ==> shirt
+  14:    1  ->  tshirt ==> teeth
+  15:    1  ->  x ==> is
+  16:    1  ->  x ==> leyeux
+  17:    1  ->  x ==> proman
+  18:    1  ->  x ==> xxxx
+  19:    1  ->  you ==> i
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  bay
+   3:    1  ->  hundred
+   4:    1  ->  sacro
+   5:    1  ->  t
+   6:    1  ->  then
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    4  ->  l
+   2:    2  ->  but
+   3:    2  ->  of
+   4:    2  ->  s
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  as
+   8:    1  ->  devo
+   9:    1  ->  etiological
+  10:    1  ->  hill
+  11:    1  ->  i
+  12:    1  ->  like
+  13:    1  ->  p
+  14:    1  ->  public
+  15:    1  ->  sh
+  16:    1  ->  show
+  17:    1  ->  so
+  18:    1  ->  son
+  19:    1  ->  sorry
+  20:    1  ->  standard
+  21:    1  ->  th
+  22:    1  ->  the
+  23:    1  ->  view
+  24:    1  ->  x
+  25:    1  ->  you
+     -------
+        31
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    4  ->  a
+   2:    4  ->  x
+   3:    2  ->  tshirt
+   4:    1  ->  bayshore
+   5:    1  ->  into
+   6:    1  ->  mouth
+   7:    1  ->  myles
+   8:    1  ->  oh
+   9:    1  ->  sacroiliac
+  10:    1  ->  schuylkill
+  11:    1  ->  should
+  12:    1  ->  t
+  13:    1  ->  this
+  14:    1  ->  to
+  15:    1  ->  you
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  la
+   2:    1  ->  can
+   3:    1  ->  hundred
+   4:    1  ->  i
+   5:    1  ->  iliac
+   6:    1  ->  is
+   7:    1  ->  leyeux
+   8:    1  ->  math
+   9:    1  ->  miles
+  10:    1  ->  proman
+  11:    1  ->  pst
+  12:    1  ->  schoolkill
+  13:    1  ->  shirt
+  14:    1  ->  shore
+  15:    1  ->  teeth
+  16:    1  ->  the
+  17:    1  ->  to
+  18:    1  ->  two
+  19:    1  ->  xxxx
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

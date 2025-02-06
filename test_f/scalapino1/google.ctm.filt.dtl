@@ -1,0 +1,155 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.8%   (  42)
+
+Percent Correct           =   96.7%   (1070)
+
+Percent Substitution      =    2.7%   (  30)
+Percent Deletions         =    0.5%   (   6)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   96.2%
+
+
+Ref. words                =           (1106)
+Hyp. words                =           (1106)
+Aligned words             =           (1112)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  hennaed ==> henred
+   2:    2  ->  hennaed ==> henheaded
+   3:    2  ->  or ==> are
+   4:    2  ->  serving ==> selfserving
+   5:    1  ->  amid ==> in
+   6:    1  ->  are ==> were
+   7:    1  ->  blow ==> blowing
+   8:    1  ->  cocooned ==> cocoon
+   9:    1  ->  deserts ==> desert
+  10:    1  ->  eyeholes ==> holes
+  11:    1  ->  flippering ==> flickering
+  12:    1  ->  from ==> that's
+  13:    1  ->  happened ==> happen
+  14:    1  ->  head ==> ahead
+  15:    1  ->  hennaed ==> hennapped
+  16:    1  ->  hennaed ==> hennet
+  17:    1  ->  hooping ==> whooping
+  18:    1  ->  in ==> and
+  19:    1  ->  its ==> it
+  20:    1  ->  jeering ==> cheering
+  21:    1  ->  sheath ==> sheaf
+  22:    1  ->  side ==> outside
+  23:    1  ->  were ==> are
+  24:    1  ->  who's ==> whose
+  25:    1  ->  with ==> which
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  are
+   4:    1  ->  eye
+   5:    1  ->  have
+   6:    1  ->  still
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  self
+   2:    1  ->  out
+   3:    1  ->  to
+   4:    1  ->  w
+   5:    1  ->  who
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    7  ->  hennaed
+   2:    2  ->  or
+   3:    2  ->  serving
+   4:    1  ->  amid
+   5:    1  ->  are
+   6:    1  ->  blow
+   7:    1  ->  cocooned
+   8:    1  ->  deserts
+   9:    1  ->  eyeholes
+  10:    1  ->  flippering
+  11:    1  ->  from
+  12:    1  ->  happened
+  13:    1  ->  head
+  14:    1  ->  hooping
+  15:    1  ->  in
+  16:    1  ->  its
+  17:    1  ->  jeering
+  18:    1  ->  sheath
+  19:    1  ->  side
+  20:    1  ->  were
+  21:    1  ->  who's
+  22:    1  ->  with
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    3  ->  are
+   2:    3  ->  henred
+   3:    2  ->  henheaded
+   4:    2  ->  selfserving
+   5:    1  ->  ahead
+   6:    1  ->  and
+   7:    1  ->  blowing
+   8:    1  ->  cheering
+   9:    1  ->  cocoon
+  10:    1  ->  desert
+  11:    1  ->  flickering
+  12:    1  ->  happen
+  13:    1  ->  hennapped
+  14:    1  ->  hennet
+  15:    1  ->  holes
+  16:    1  ->  in
+  17:    1  ->  it
+  18:    1  ->  outside
+  19:    1  ->  sheaf
+  20:    1  ->  that's
+  21:    1  ->  were
+  22:    1  ->  which
+  23:    1  ->  whooping
+  24:    1  ->  whose
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

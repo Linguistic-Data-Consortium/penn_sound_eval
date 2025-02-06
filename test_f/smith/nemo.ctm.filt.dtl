@@ -1,0 +1,178 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.6%   (  72)
+
+Percent Correct           =   92.6%   ( 776)
+
+Percent Substitution      =    2.6%   (  22)
+Percent Deletions         =    4.8%   (  40)
+Percent Insertions        =    1.2%   (  10)
+Percent Word Accuracy     =   91.4%
+
+
+Ref. words                =           ( 838)
+Hyp. words                =           ( 808)
+Aligned words             =           ( 848)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  an ==> and
+   2:    1  ->  backcountry ==> country
+   3:    1  ->  for ==> or
+   4:    1  ->  keeping ==> keepie
+   5:    1  ->  latticework ==> work
+   6:    1  ->  laze ==> lays
+   7:    1  ->  leftover ==> over
+   8:    1  ->  lo ==> low
+   9:    1  ->  m ==> am
+  10:    1  ->  oaf ==> oath
+  11:    1  ->  paddle ==> prattle
+  12:    1  ->  rabbits ==> we
+  13:    1  ->  seen ==> scene
+  14:    1  ->  thing ==> sing
+  15:    1  ->  total ==> toad'll
+  16:    1  ->  toward ==> toured
+  17:    1  ->  x ==> and
+  18:    1  ->  x ==> graffitoed
+  19:    1  ->  x ==> keepie
+  20:    1  ->  x ==> klucknuck's
+  21:    1  ->  x ==> laura
+  22:    1  ->  x ==> lawoma
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  an
+   2:    1  ->  back
+   3:    1  ->  diluted
+   4:    1  ->  it
+   5:    1  ->  keepie
+   6:    1  ->  lattice
+   7:    1  ->  left
+   8:    1  ->  nah
+   9:    1  ->  over
+  10:    1  ->  what
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  as
+   2:    2  ->  is
+   3:    2  ->  it
+   4:    2  ->  the
+   5:    1  ->  a
+   6:    1  ->  al
+   7:    1  ->  and
+   8:    1  ->  be
+   9:    1  ->  boober
+  10:    1  ->  c
+  11:    1  ->  can
+  12:    1  ->  cause
+  13:    1  ->  chaos
+  14:    1  ->  control
+  15:    1  ->  disheartening
+  16:    1  ->  identity
+  17:    1  ->  like
+  18:    1  ->  lives
+  19:    1  ->  o
+  20:    1  ->  of
+  21:    1  ->  partici
+  22:    1  ->  plac
+  23:    1  ->  so
+  24:    1  ->  their
+  25:    1  ->  there's
+  26:    1  ->  this
+  27:    1  ->  those
+  28:    1  ->  time
+  29:    1  ->  to
+  30:    1  ->  twi
+  31:    1  ->  warts
+  32:    1  ->  weapon
+  33:    1  ->  what
+  34:    1  ->  who
+  35:    1  ->  why
+  36:    1  ->  would
+     -------
+        40
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    6  ->  x
+   2:    1  ->  an
+   3:    1  ->  backcountry
+   4:    1  ->  for
+   5:    1  ->  keeping
+   6:    1  ->  latticework
+   7:    1  ->  laze
+   8:    1  ->  leftover
+   9:    1  ->  lo
+  10:    1  ->  m
+  11:    1  ->  oaf
+  12:    1  ->  paddle
+  13:    1  ->  rabbits
+  14:    1  ->  seen
+  15:    1  ->  thing
+  16:    1  ->  total
+  17:    1  ->  toward
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  and
+   2:    2  ->  keepie
+   3:    1  ->  am
+   4:    1  ->  country
+   5:    1  ->  graffitoed
+   6:    1  ->  klucknuck's
+   7:    1  ->  laura
+   8:    1  ->  lawoma
+   9:    1  ->  lays
+  10:    1  ->  low
+  11:    1  ->  oath
+  12:    1  ->  or
+  13:    1  ->  over
+  14:    1  ->  prattle
+  15:    1  ->  scene
+  16:    1  ->  sing
+  17:    1  ->  toad'll
+  18:    1  ->  toured
+  19:    1  ->  we
+  20:    1  ->  work
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

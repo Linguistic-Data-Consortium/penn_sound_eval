@@ -1,0 +1,171 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.5%   (  67)
+
+Percent Correct           =   93.9%   ( 973)
+
+Percent Substitution      =    2.2%   (  23)
+Percent Deletions         =    3.9%   (  40)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   93.5%
+
+
+Ref. words                =           (1036)
+Hyp. words                =           (1000)
+Aligned words             =           (1040)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  theresienstadt ==> therenstadt
+   2:    1  ->  a ==> not
+   3:    1  ->  dressed ==> welldressed
+   4:    1  ->  eighty ==> eight
+   5:    1  ->  f ==> have
+   6:    1  ->  happen ==> happened
+   7:    1  ->  i ==> let
+   8:    1  ->  it ==> there
+   9:    1  ->  s ==> one
+  10:    1  ->  say ==> see
+  11:    1  ->  shod ==> wellshod
+  12:    1  ->  sixteen ==> six
+  13:    1  ->  surmisal ==> surmisel
+  14:    1  ->  ten ==> 2010
+  15:    1  ->  ten ==> oh
+  16:    1  ->  tha ==> the
+  17:    1  ->  that's ==> it's
+  18:    1  ->  twenty ==> oh
+  19:    1  ->  twenty ==> two
+  20:    1  ->  two ==> ii
+  21:    1  ->  well ==> what
+  22:    1  ->  will ==> us
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  it
+   2:    1  ->  may
+   3:    1  ->  the
+   4:    1  ->  yeah
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    6  ->  a
+   2:    2  ->  it's
+   3:    2  ->  to
+   4:    2  ->  w
+   5:    2  ->  well
+   6:    1  ->  and
+   7:    1  ->  any
+   8:    1  ->  are
+   9:    1  ->  f
+  10:    1  ->  four
+  11:    1  ->  from
+  12:    1  ->  harvard
+  13:    1  ->  i
+  14:    1  ->  in
+  15:    1  ->  it
+  16:    1  ->  n
+  17:    1  ->  no
+  18:    1  ->  o
+  19:    1  ->  p
+  20:    1  ->  s
+  21:    1  ->  sc
+  22:    1  ->  so
+  23:    1  ->  they
+  24:    1  ->  thousand
+  25:    1  ->  twenty
+  26:    1  ->  two
+  27:    1  ->  u
+  28:    1  ->  ver
+  29:    1  ->  we
+  30:    1  ->  years
+  31:    1  ->  you
+     -------
+        40
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  ten
+   2:    2  ->  theresienstadt
+   3:    2  ->  twenty
+   4:    1  ->  a
+   5:    1  ->  dressed
+   6:    1  ->  eighty
+   7:    1  ->  f
+   8:    1  ->  happen
+   9:    1  ->  i
+  10:    1  ->  it
+  11:    1  ->  s
+  12:    1  ->  say
+  13:    1  ->  shod
+  14:    1  ->  sixteen
+  15:    1  ->  surmisal
+  16:    1  ->  tha
+  17:    1  ->  that's
+  18:    1  ->  two
+  19:    1  ->  well
+  20:    1  ->  will
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  oh
+   2:    2  ->  therenstadt
+   3:    1  ->  2010
+   4:    1  ->  eight
+   5:    1  ->  happened
+   6:    1  ->  have
+   7:    1  ->  ii
+   8:    1  ->  it's
+   9:    1  ->  let
+  10:    1  ->  not
+  11:    1  ->  one
+  12:    1  ->  see
+  13:    1  ->  six
+  14:    1  ->  surmisel
+  15:    1  ->  the
+  16:    1  ->  there
+  17:    1  ->  two
+  18:    1  ->  us
+  19:    1  ->  welldressed
+  20:    1  ->  wellshod
+  21:    1  ->  what
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

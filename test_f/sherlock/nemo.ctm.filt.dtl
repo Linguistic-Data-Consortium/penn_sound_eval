@@ -1,0 +1,187 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.5%   (  59)
+
+Percent Correct           =   94.5%   ( 857)
+
+Percent Substitution      =    3.1%   (  28)
+Percent Deletions         =    2.4%   (  22)
+Percent Insertions        =    1.0%   (   9)
+Percent Word Accuracy     =   93.5%
+
+
+Ref. words                =           ( 907)
+Hyp. words                =           ( 894)
+Aligned words             =           ( 916)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  a ==> one
+   2:    1  ->  agreement ==> it
+   3:    1  ->  americans ==> bill
+   4:    1  ->  and ==> tenton
+   5:    1  ->  ba ==> bao
+   6:    1  ->  coffey ==> coffee
+   7:    1  ->  conto ==> canto
+   8:    1  ->  depazzi ==> pazzi
+   9:    1  ->  fabula ==> fabiola
+  10:    1  ->  have ==> mcintyre
+  11:    1  ->  istfan ==> isfahan
+  12:    1  ->  italianamerican ==> american
+  13:    1  ->  korkemaz ==> korkamas
+  14:    1  ->  maron's ==> marin's
+  15:    1  ->  midseventeenth ==> seventeenth
+  16:    1  ->  molise ==> malise
+  17:    1  ->  mummers ==> mummer's
+  18:    1  ->  passyunk ==> pasiank
+  19:    1  ->  puebla ==> pueblo
+  20:    1  ->  screenings ==> screening
+  21:    1  ->  snockey's ==> snocky's
+  22:    1  ->  states ==> states'
+  23:    1  ->  the ==> a
+  24:    1  ->  traces ==> this
+  25:    1  ->  version ==> virgin
+  26:    1  ->  whenever ==> ever
+  27:    1  ->  why ==> so
+  28:    1  ->  x ==> festa
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  and
+   2:    1  ->  de
+   3:    1  ->  italian
+   4:    1  ->  mid
+   5:    1  ->  oysters
+   6:    1  ->  shh
+   7:    1  ->  six
+   8:    1  ->  the
+   9:    1  ->  what
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  african
+   4:    1  ->  and
+   5:    1  ->  bangladesh
+   6:    1  ->  being
+   7:    1  ->  century
+   8:    1  ->  eighteen
+   9:    1  ->  i
+  10:    1  ->  is
+  11:    1  ->  joe
+  12:    1  ->  mar
+  13:    1  ->  new
+  14:    1  ->  parade
+  15:    1  ->  r
+  16:    1  ->  s
+  17:    1  ->  tayoun's
+  18:    1  ->  tenth
+  19:    1  ->  that's
+  20:    1  ->  this
+  21:    1  ->  world
+     -------
+        22
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  a
+   2:    1  ->  agreement
+   3:    1  ->  americans
+   4:    1  ->  and
+   5:    1  ->  ba
+   6:    1  ->  coffey
+   7:    1  ->  conto
+   8:    1  ->  depazzi
+   9:    1  ->  fabula
+  10:    1  ->  have
+  11:    1  ->  istfan
+  12:    1  ->  italianamerican
+  13:    1  ->  korkemaz
+  14:    1  ->  maron's
+  15:    1  ->  midseventeenth
+  16:    1  ->  molise
+  17:    1  ->  mummers
+  18:    1  ->  passyunk
+  19:    1  ->  puebla
+  20:    1  ->  screenings
+  21:    1  ->  snockey's
+  22:    1  ->  states
+  23:    1  ->  the
+  24:    1  ->  traces
+  25:    1  ->  version
+  26:    1  ->  whenever
+  27:    1  ->  why
+  28:    1  ->  x
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    1  ->  a
+   2:    1  ->  american
+   3:    1  ->  bao
+   4:    1  ->  bill
+   5:    1  ->  canto
+   6:    1  ->  coffee
+   7:    1  ->  ever
+   8:    1  ->  fabiola
+   9:    1  ->  festa
+  10:    1  ->  isfahan
+  11:    1  ->  it
+  12:    1  ->  korkamas
+  13:    1  ->  malise
+  14:    1  ->  marin's
+  15:    1  ->  mcintyre
+  16:    1  ->  mummer's
+  17:    1  ->  one
+  18:    1  ->  pasiank
+  19:    1  ->  pazzi
+  20:    1  ->  pueblo
+  21:    1  ->  screening
+  22:    1  ->  seventeenth
+  23:    1  ->  snocky's
+  24:    1  ->  so
+  25:    1  ->  states'
+  26:    1  ->  tenton
+  27:    1  ->  this
+  28:    1  ->  virgin
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

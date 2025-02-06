@@ -1,0 +1,177 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.9%   (  47)
+
+Percent Correct           =   95.3%   ( 918)
+
+Percent Substitution      =    3.5%   (  34)
+Percent Deletions         =    1.1%   (  11)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   95.1%
+
+
+Ref. words                =           ( 963)
+Hyp. words                =           ( 954)
+Aligned words             =           ( 965)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  in ==> and
+   2:    2  ->  twenty ==> two
+   3:    1  ->  a ==> the
+   4:    1  ->  above ==> about
+   5:    1  ->  always ==> ours
+   6:    1  ->  and ==> in
+   7:    1  ->  atrapado ==> atropano
+   8:    1  ->  atrapado ==> atropato
+   9:    1  ->  autograph ==> autographed
+  10:    1  ->  coy ==> koi
+  11:    1  ->  daylight ==> light
+  12:    1  ->  eye ==> owleye
+  13:    1  ->  fandangoes ==> fandangos
+  14:    1  ->  gallopers ==> gallop
+  15:    1  ->  has ==> is
+  16:    1  ->  ins ==> driveins
+  17:    1  ->  it ==> this
+  18:    1  ->  m ==> my
+  19:    1  ->  parish ==> parrish
+  20:    1  ->  phonograph ==> this
+  21:    1  ->  planes ==> plains
+  22:    1  ->  purdahs ==> curdoze
+  23:    1  ->  scuffed ==> kneescuffed
+  24:    1  ->  sighs ==> size
+  25:    1  ->  slop ==> slot
+  26:    1  ->  squeeze ==> squeezed
+  27:    1  ->  strapped ==> were
+  28:    1  ->  to ==> through
+  29:    1  ->  towards ==> toward
+  30:    1  ->  trim ==> trimmed
+  31:    1  ->  who ==> that
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  that
+   2:    1  ->  the
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  and
+   2:    1  ->  ch
+   3:    1  ->  debuts
+   4:    1  ->  drive
+   5:    1  ->  had
+   6:    1  ->  in
+   7:    1  ->  kneed
+   8:    1  ->  owl
+   9:    1  ->  stee
+  10:    1  ->  that
+  11:    1  ->  towe
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  in
+   2:    2  ->  atrapado
+   3:    2  ->  twenty
+   4:    1  ->  a
+   5:    1  ->  above
+   6:    1  ->  always
+   7:    1  ->  and
+   8:    1  ->  autograph
+   9:    1  ->  coy
+  10:    1  ->  daylight
+  11:    1  ->  eye
+  12:    1  ->  fandangoes
+  13:    1  ->  gallopers
+  14:    1  ->  has
+  15:    1  ->  ins
+  16:    1  ->  it
+  17:    1  ->  m
+  18:    1  ->  parish
+  19:    1  ->  phonograph
+  20:    1  ->  planes
+  21:    1  ->  purdahs
+  22:    1  ->  scuffed
+  23:    1  ->  sighs
+  24:    1  ->  slop
+  25:    1  ->  squeeze
+  26:    1  ->  strapped
+  27:    1  ->  to
+  28:    1  ->  towards
+  29:    1  ->  trim
+  30:    1  ->  who
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  and
+   2:    2  ->  this
+   3:    2  ->  two
+   4:    1  ->  about
+   5:    1  ->  atropano
+   6:    1  ->  atropato
+   7:    1  ->  autographed
+   8:    1  ->  curdoze
+   9:    1  ->  driveins
+  10:    1  ->  fandangos
+  11:    1  ->  gallop
+  12:    1  ->  in
+  13:    1  ->  is
+  14:    1  ->  kneescuffed
+  15:    1  ->  koi
+  16:    1  ->  light
+  17:    1  ->  my
+  18:    1  ->  ours
+  19:    1  ->  owleye
+  20:    1  ->  parrish
+  21:    1  ->  plains
+  22:    1  ->  size
+  23:    1  ->  slot
+  24:    1  ->  squeezed
+  25:    1  ->  that
+  26:    1  ->  the
+  27:    1  ->  through
+  28:    1  ->  toward
+  29:    1  ->  trimmed
+  30:    1  ->  were
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

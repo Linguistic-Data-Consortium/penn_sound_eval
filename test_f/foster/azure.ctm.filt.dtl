@@ -1,0 +1,181 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.6%   (  58)
+
+Percent Correct           =   93.2%   ( 713)
+
+Percent Substitution      =    6.3%   (  48)
+Percent Deletions         =    0.5%   (   4)
+Percent Insertions        =    0.8%   (   6)
+Percent Word Accuracy     =   92.4%
+
+
+Ref. words                =           ( 765)
+Hyp. words                =           ( 767)
+Aligned words             =           ( 771)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    7  ->  b ==> be
+   2:    2  ->  eating ==> eaten
+   3:    2  ->  had ==> is
+   4:    2  ->  had ==> job
+   5:    2  ->  is ==> 's
+   6:    2  ->  job's ==> 's
+   7:    2  ->  wrote ==> rode
+   8:    2  ->  yarn's ==> yarns
+   9:    1  ->  already ==> ready
+  10:    1  ->  as ==> of
+  11:    1  ->  beneath ==> we
+  12:    1  ->  coming ==> becoming
+  13:    1  ->  coulades ==> culades
+  14:    1  ->  face ==> faces
+  15:    1  ->  fist ==> fists
+  16:    1  ->  green ==> greene
+  17:    1  ->  had ==> have
+  18:    1  ->  is ==> was
+  19:    1  ->  jemima's ==> 's
+  20:    1  ->  job's ==> jobs
+  21:    1  ->  knit ==> knits
+  22:    1  ->  momma ==> mamma
+  23:    1  ->  months' ==> months
+  24:    1  ->  parse ==> pars
+  25:    1  ->  reenie ==> rini
+  26:    1  ->  shutters ==> shudders
+  27:    1  ->  sleep ==> asleep
+  28:    1  ->  somniloquies ==> milliques
+  29:    1  ->  sue ==> sioux
+  30:    1  ->  the ==> a
+  31:    1  ->  tv's ==> 's
+  32:    1  ->  where ==> wear
+  33:    1  ->  which ==> with
+  34:    1  ->  writing ==> riding
+  35:    1  ->  yore ==> your
+     -------
+        48
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  all
+   2:    1  ->  but
+   3:    1  ->  jemima
+   4:    1  ->  not
+   5:    1  ->  some
+   6:    1  ->  tv
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  be
+   3:    1  ->  m
+   4:    1  ->  tem
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    7  ->  b
+   2:    5  ->  had
+   3:    3  ->  is
+   4:    3  ->  job's
+   5:    2  ->  eating
+   6:    2  ->  wrote
+   7:    2  ->  yarn's
+   8:    1  ->  already
+   9:    1  ->  as
+  10:    1  ->  beneath
+  11:    1  ->  coming
+  12:    1  ->  coulades
+  13:    1  ->  face
+  14:    1  ->  fist
+  15:    1  ->  green
+  16:    1  ->  jemima's
+  17:    1  ->  knit
+  18:    1  ->  momma
+  19:    1  ->  months'
+  20:    1  ->  parse
+  21:    1  ->  reenie
+  22:    1  ->  shutters
+  23:    1  ->  sleep
+  24:    1  ->  somniloquies
+  25:    1  ->  sue
+  26:    1  ->  the
+  27:    1  ->  tv's
+  28:    1  ->  where
+  29:    1  ->  which
+  30:    1  ->  writing
+  31:    1  ->  yore
+     -------
+        48
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    7  ->  be
+   2:    6  ->  's
+   3:    2  ->  eaten
+   4:    2  ->  is
+   5:    2  ->  job
+   6:    2  ->  rode
+   7:    2  ->  yarns
+   8:    1  ->  a
+   9:    1  ->  asleep
+  10:    1  ->  becoming
+  11:    1  ->  culades
+  12:    1  ->  faces
+  13:    1  ->  fists
+  14:    1  ->  greene
+  15:    1  ->  have
+  16:    1  ->  jobs
+  17:    1  ->  knits
+  18:    1  ->  mamma
+  19:    1  ->  milliques
+  20:    1  ->  months
+  21:    1  ->  of
+  22:    1  ->  pars
+  23:    1  ->  ready
+  24:    1  ->  riding
+  25:    1  ->  rini
+  26:    1  ->  shudders
+  27:    1  ->  sioux
+  28:    1  ->  was
+  29:    1  ->  we
+  30:    1  ->  wear
+  31:    1  ->  with
+  32:    1  ->  your
+     -------
+        48
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

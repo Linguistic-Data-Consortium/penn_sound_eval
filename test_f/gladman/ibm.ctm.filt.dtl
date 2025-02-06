@@ -1,0 +1,180 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.1%   (  42)
+
+Percent Correct           =   96.1%   ( 993)
+
+Percent Substitution      =    3.6%   (  37)
+Percent Deletions         =    0.3%   (   3)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   95.9%
+
+
+Ref. words                =           (1033)
+Hyp. words                =           (1032)
+Aligned words             =           (1035)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  rid ==> read
+   2:    2  ->  the ==> a
+   3:    1  ->  air ==> error
+   4:    1  ->  being ==> mean
+   5:    1  ->  fahrenheit ==> height
+   6:    1  ->  fallen ==> falling
+   7:    1  ->  feeling's ==> feelings
+   8:    1  ->  for ==> from
+   9:    1  ->  had ==> have
+  10:    1  ->  hands ==> hand
+  11:    1  ->  haunted ==> hunted
+  12:    1  ->  here ==> hear
+  13:    1  ->  in ==> and
+  14:    1  ->  incomparable ==> comparable
+  15:    1  ->  incongruous ==> congress
+  16:    1  ->  it ==> and
+  17:    1  ->  mirrored ==> mirror
+  18:    1  ->  moods ==> moves
+  19:    1  ->  novella ==> naval
+  20:    1  ->  o ==> is
+  21:    1  ->  of ==> up
+  22:    1  ->  over ==> of
+  23:    1  ->  overt ==> over
+  24:    1  ->  place ==> places
+  25:    1  ->  plain ==> plane
+  26:    1  ->  protest ==> protests
+  27:    1  ->  rewritings ==> rewriting
+  28:    1  ->  sank ==> sink
+  29:    1  ->  shelvings ==> shelving
+  30:    1  ->  sign ==> assign
+  31:    1  ->  the ==> to
+  32:    1  ->  this ==> the
+  33:    1  ->  thrown ==> throwing
+  34:    1  ->  whose ==> and
+  35:    1  ->  your ==> you
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  faron
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  as
+   3:    1  ->  ho
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  the
+   2:    2  ->  rid
+   3:    1  ->  air
+   4:    1  ->  being
+   5:    1  ->  fahrenheit
+   6:    1  ->  fallen
+   7:    1  ->  feeling's
+   8:    1  ->  for
+   9:    1  ->  had
+  10:    1  ->  hands
+  11:    1  ->  haunted
+  12:    1  ->  here
+  13:    1  ->  in
+  14:    1  ->  incomparable
+  15:    1  ->  incongruous
+  16:    1  ->  it
+  17:    1  ->  mirrored
+  18:    1  ->  moods
+  19:    1  ->  novella
+  20:    1  ->  o
+  21:    1  ->  of
+  22:    1  ->  over
+  23:    1  ->  overt
+  24:    1  ->  place
+  25:    1  ->  plain
+  26:    1  ->  protest
+  27:    1  ->  rewritings
+  28:    1  ->  sank
+  29:    1  ->  shelvings
+  30:    1  ->  sign
+  31:    1  ->  this
+  32:    1  ->  thrown
+  33:    1  ->  whose
+  34:    1  ->  your
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  and
+   2:    2  ->  a
+   3:    2  ->  read
+   4:    1  ->  assign
+   5:    1  ->  comparable
+   6:    1  ->  congress
+   7:    1  ->  error
+   8:    1  ->  falling
+   9:    1  ->  feelings
+  10:    1  ->  from
+  11:    1  ->  hand
+  12:    1  ->  have
+  13:    1  ->  hear
+  14:    1  ->  height
+  15:    1  ->  hunted
+  16:    1  ->  is
+  17:    1  ->  mean
+  18:    1  ->  mirror
+  19:    1  ->  moves
+  20:    1  ->  naval
+  21:    1  ->  of
+  22:    1  ->  over
+  23:    1  ->  places
+  24:    1  ->  plane
+  25:    1  ->  protests
+  26:    1  ->  rewriting
+  27:    1  ->  shelving
+  28:    1  ->  sink
+  29:    1  ->  the
+  30:    1  ->  throwing
+  31:    1  ->  to
+  32:    1  ->  up
+  33:    1  ->  you
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

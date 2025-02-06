@@ -1,0 +1,200 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.5%   (  67)
+
+Percent Correct           =   94.7%   (1148)
+
+Percent Substitution      =    3.4%   (  41)
+Percent Deletions         =    1.9%   (  23)
+Percent Insertions        =    0.2%   (   3)
+Percent Word Accuracy     =   94.5%
+
+
+Ref. words                =           (1212)
+Hyp. words                =           (1192)
+Aligned words             =           (1215)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  t'aime ==> ju
+   2:    2  ->  t'aime ==> taim
+   3:    2  ->  temps ==> taim
+   4:    1  ->  a ==> the
+   5:    1  ->  a ==> ti
+   6:    1  ->  and ==> an
+   7:    1  ->  and ==> book
+   8:    1  ->  apostrophe ==> tam
+   9:    1  ->  arithmatic ==> arithmetic
+  10:    1  ->  bad ==> that
+  11:    1  ->  beaucoup ==> tem
+  12:    1  ->  behinds ==> behind
+  13:    1  ->  blonde ==> blond
+  14:    1  ->  e ==> ime
+  15:    1  ->  et ==> taim
+  16:    1  ->  finally ==> fondly
+  17:    1  ->  g ==> jg
+  18:    1  ->  i ==> posh
+  19:    1  ->  it's ==> there's
+  20:    1  ->  je ==> come
+  21:    1  ->  je ==> ju
+  22:    1  ->  je ==> tem
+  23:    1  ->  m ==> va
+  24:    1  ->  moved ==> lewd
+  25:    1  ->  peer ==> here
+  26:    1  ->  place ==> places
+  27:    1  ->  pore ==> poor
+  28:    1  ->  pretense ==> pretence
+  29:    1  ->  pronounce ==> pronounced
+  30:    1  ->  quran ==> koran
+  31:    1  ->  sod ==> so
+  32:    1  ->  temps ==> tan
+  33:    1  ->  then ==> the
+  34:    1  ->  titled ==> called
+  35:    1  ->  tout ==> too
+  36:    1  ->  valentines ==> valentine's
+  37:    1  ->  we ==> tepees
+  38:    1  ->  will ==> were
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  it
+   2:    1  ->  me
+   3:    1  ->  this
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    3  ->  i
+   2:    1  ->  c
+   3:    1  ->  can
+   4:    1  ->  comme
+   5:    1  ->  culminated
+   6:    1  ->  end
+   7:    1  ->  form
+   8:    1  ->  how
+   9:    1  ->  in
+  10:    1  ->  j
+  11:    1  ->  or
+  12:    1  ->  people
+  13:    1  ->  quote
+  14:    1  ->  see
+  15:    1  ->  t
+  16:    1  ->  t'aime
+  17:    1  ->  teepees
+  18:    1  ->  temps
+  19:    1  ->  that
+  20:    1  ->  the
+  21:    1  ->  to
+     -------
+        23
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    4  ->  t'aime
+   2:    3  ->  je
+   3:    3  ->  temps
+   4:    2  ->  a
+   5:    2  ->  and
+   6:    1  ->  apostrophe
+   7:    1  ->  arithmatic
+   8:    1  ->  bad
+   9:    1  ->  beaucoup
+  10:    1  ->  behinds
+  11:    1  ->  blonde
+  12:    1  ->  e
+  13:    1  ->  et
+  14:    1  ->  finally
+  15:    1  ->  g
+  16:    1  ->  i
+  17:    1  ->  it's
+  18:    1  ->  m
+  19:    1  ->  moved
+  20:    1  ->  peer
+  21:    1  ->  place
+  22:    1  ->  pore
+  23:    1  ->  pretense
+  24:    1  ->  pronounce
+  25:    1  ->  quran
+  26:    1  ->  sod
+  27:    1  ->  then
+  28:    1  ->  titled
+  29:    1  ->  tout
+  30:    1  ->  valentines
+  31:    1  ->  we
+  32:    1  ->  will
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    5  ->  taim
+   2:    3  ->  ju
+   3:    2  ->  tem
+   4:    2  ->  the
+   5:    1  ->  an
+   6:    1  ->  arithmetic
+   7:    1  ->  behind
+   8:    1  ->  blond
+   9:    1  ->  book
+  10:    1  ->  called
+  11:    1  ->  come
+  12:    1  ->  fondly
+  13:    1  ->  here
+  14:    1  ->  ime
+  15:    1  ->  jg
+  16:    1  ->  koran
+  17:    1  ->  lewd
+  18:    1  ->  places
+  19:    1  ->  poor
+  20:    1  ->  posh
+  21:    1  ->  pretence
+  22:    1  ->  pronounced
+  23:    1  ->  so
+  24:    1  ->  tam
+  25:    1  ->  tan
+  26:    1  ->  tepees
+  27:    1  ->  that
+  28:    1  ->  there's
+  29:    1  ->  ti
+  30:    1  ->  too
+  31:    1  ->  va
+  32:    1  ->  valentine's
+  33:    1  ->  were
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

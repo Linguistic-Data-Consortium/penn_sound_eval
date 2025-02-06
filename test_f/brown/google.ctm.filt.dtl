@@ -1,0 +1,230 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.8%   (  84)
+
+Percent Correct           =   93.5%   (1005)
+
+Percent Substitution      =    4.7%   (  50)
+Percent Deletions         =    1.9%   (  20)
+Percent Insertions        =    1.3%   (  14)
+Percent Word Accuracy     =   92.2%
+
+
+Ref. words                =           (1075)
+Hyp. words                =           (1069)
+Aligned words             =           (1089)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    4  ->  fifteen ==> five
+   2:    2  ->  ten ==> oh
+   3:    2  ->  x ==> sinto
+   4:    1  ->  abandon ==> abandoned
+   5:    1  ->  and ==> so
+   6:    1  ->  are ==> our
+   7:    1  ->  bedside ==> side
+   8:    1  ->  bot ==> boat
+   9:    1  ->  botanica ==> botanique
+  10:    1  ->  definitions ==> definition
+  11:    1  ->  destiny ==> "destiny
+  12:    1  ->  downs ==> down
+  13:    1  ->  eighth ==> 8th
+  14:    1  ->  encyclopedia ==> encyclopédie
+  15:    1  ->  fifteen ==> 3:15
+  16:    1  ->  illumined ==> alumined
+  17:    1  ->  india's ==> indies
+  18:    1  ->  inflorescence ==> inflorescences
+  19:    1  ->  laney ==> lani
+  20:    1  ->  laney's ==> lanies
+  21:    1  ->  laney's ==> lany's
+  22:    1  ->  mayer ==> mayor
+  23:    1  ->  mine ==> mind
+  24:    1  ->  naïve ==> naive
+  25:    1  ->  ninety ==> 11:30
+  26:    1  ->  ninety ==> nine
+  27:    1  ->  o'connor ==> connor
+  28:    1  ->  of ==> a
+  29:    1  ->  or ==> will
+  30:    1  ->  pass ==> passed
+  31:    1  ->  pollinating ==> crosspollinating
+  32:    1  ->  purported ==> reported
+  33:    1  ->  reality ==> reality"
+  34:    1  ->  shaped ==> lshaped
+  35:    1  ->  sinead ==> shenandoah
+  36:    1  ->  sort ==> out
+  37:    1  ->  threads ==> threats
+  38:    1  ->  vibratory ==> vibrational
+  39:    1  ->  want ==> wanted
+  40:    1  ->  wanted ==> to
+  41:    1  ->  works ==> work
+  42:    1  ->  x ==> d
+  43:    1  ->  x ==> estivations
+  44:    1  ->  x ==> this
+  45:    1  ->  you ==> we
+     -------
+        50
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    4  ->  one
+   2:    2  ->  and
+   3:    1  ->  a
+   4:    1  ->  bed
+   5:    1  ->  emily
+   6:    1  ->  i
+   7:    1  ->  it
+   8:    1  ->  want
+   9:    1  ->  we
+  10:    1  ->  your
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  i
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  because
+   5:    1  ->  cross
+   6:    1  ->  dis
+   7:    1  ->  eight
+   8:    1  ->  eleven
+   9:    1  ->  ins
+  10:    1  ->  it
+  11:    1  ->  l
+  12:    1  ->  of
+  13:    1  ->  oh
+  14:    1  ->  purpor
+  15:    1  ->  solitude
+  16:    1  ->  the
+  17:    1  ->  three
+  18:    1  ->  when
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    5  ->  fifteen
+   2:    5  ->  x
+   3:    2  ->  laney's
+   4:    2  ->  ninety
+   5:    2  ->  ten
+   6:    1  ->  abandon
+   7:    1  ->  and
+   8:    1  ->  are
+   9:    1  ->  bedside
+  10:    1  ->  bot
+  11:    1  ->  botanica
+  12:    1  ->  definitions
+  13:    1  ->  destiny
+  14:    1  ->  downs
+  15:    1  ->  eighth
+  16:    1  ->  encyclopedia
+  17:    1  ->  illumined
+  18:    1  ->  india's
+  19:    1  ->  inflorescence
+  20:    1  ->  laney
+  21:    1  ->  mayer
+  22:    1  ->  mine
+  23:    1  ->  naïve
+  24:    1  ->  o'connor
+  25:    1  ->  of
+  26:    1  ->  or
+  27:    1  ->  pass
+  28:    1  ->  pollinating
+  29:    1  ->  purported
+  30:    1  ->  reality
+  31:    1  ->  shaped
+  32:    1  ->  sinead
+  33:    1  ->  sort
+  34:    1  ->  threads
+  35:    1  ->  vibratory
+  36:    1  ->  want
+  37:    1  ->  wanted
+  38:    1  ->  works
+  39:    1  ->  you
+     -------
+        50
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    4  ->  five
+   2:    2  ->  oh
+   3:    2  ->  sinto
+   4:    1  ->  "destiny
+   5:    1  ->  11:30
+   6:    1  ->  3:15
+   7:    1  ->  8th
+   8:    1  ->  a
+   9:    1  ->  abandoned
+  10:    1  ->  alumined
+  11:    1  ->  boat
+  12:    1  ->  botanique
+  13:    1  ->  connor
+  14:    1  ->  crosspollinating
+  15:    1  ->  d
+  16:    1  ->  definition
+  17:    1  ->  down
+  18:    1  ->  encyclopédie
+  19:    1  ->  estivations
+  20:    1  ->  indies
+  21:    1  ->  inflorescences
+  22:    1  ->  lani
+  23:    1  ->  lanies
+  24:    1  ->  lany's
+  25:    1  ->  lshaped
+  26:    1  ->  mayor
+  27:    1  ->  mind
+  28:    1  ->  naive
+  29:    1  ->  nine
+  30:    1  ->  our
+  31:    1  ->  out
+  32:    1  ->  passed
+  33:    1  ->  reality"
+  34:    1  ->  reported
+  35:    1  ->  shenandoah
+  36:    1  ->  side
+  37:    1  ->  so
+  38:    1  ->  this
+  39:    1  ->  threats
+  40:    1  ->  to
+  41:    1  ->  vibrational
+  42:    1  ->  wanted
+  43:    1  ->  we
+  44:    1  ->  will
+  45:    1  ->  work
+     -------
+        50
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

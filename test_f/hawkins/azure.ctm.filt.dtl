@@ -1,0 +1,146 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.0%   (  33)
+
+Percent Correct           =   97.2%   (1052)
+
+Percent Substitution      =    2.4%   (  26)
+Percent Deletions         =    0.4%   (   4)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   97.0%
+
+
+Ref. words                =           (1082)
+Hyp. words                =           (1081)
+Aligned words             =           (1085)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    4  ->  is ==> 's
+   2:    1  ->  a ==> off
+   3:    1  ->  a ==> the
+   4:    1  ->  at ==> that
+   5:    1  ->  bo ==> boy
+   6:    1  ->  conservative's ==> conservatives
+   7:    1  ->  dentist's ==> dentist
+   8:    1  ->  doorjamb ==> jamb
+   9:    1  ->  landladies ==> 's
+  10:    1  ->  may ==> name
+  11:    1  ->  myrtle's ==> myrtles
+  12:    1  ->  penned ==> and
+  13:    1  ->  presents ==> presence
+  14:    1  ->  realise ==> realised
+  15:    1  ->  that ==> it
+  16:    1  ->  that's ==> it's
+  17:    1  ->  the ==> a
+  18:    1  ->  them ==> then
+  19:    1  ->  towards ==> toward
+  20:    1  ->  when ==> and
+  21:    1  ->  while ==> all
+  22:    1  ->  whiz ==> wiz
+  23:    1  ->  women's ==> woman's
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  door
+   2:    1  ->  i
+   3:    1  ->  landlady
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  had
+   3:    1  ->  or
+   4:    1  ->  whether
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    4  ->  is
+   2:    2  ->  a
+   3:    1  ->  at
+   4:    1  ->  bo
+   5:    1  ->  conservative's
+   6:    1  ->  dentist's
+   7:    1  ->  doorjamb
+   8:    1  ->  landladies
+   9:    1  ->  may
+  10:    1  ->  myrtle's
+  11:    1  ->  penned
+  12:    1  ->  presents
+  13:    1  ->  realise
+  14:    1  ->  that
+  15:    1  ->  that's
+  16:    1  ->  the
+  17:    1  ->  them
+  18:    1  ->  towards
+  19:    1  ->  when
+  20:    1  ->  while
+  21:    1  ->  whiz
+  22:    1  ->  women's
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    5  ->  's
+   2:    2  ->  and
+   3:    1  ->  a
+   4:    1  ->  all
+   5:    1  ->  boy
+   6:    1  ->  conservatives
+   7:    1  ->  dentist
+   8:    1  ->  it
+   9:    1  ->  it's
+  10:    1  ->  jamb
+  11:    1  ->  myrtles
+  12:    1  ->  name
+  13:    1  ->  off
+  14:    1  ->  presence
+  15:    1  ->  realised
+  16:    1  ->  that
+  17:    1  ->  the
+  18:    1  ->  then
+  19:    1  ->  toward
+  20:    1  ->  wiz
+  21:    1  ->  woman's
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

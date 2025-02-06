@@ -1,0 +1,225 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.5%   (  77)
+
+Percent Correct           =   94.4%   (1126)
+
+Percent Substitution      =    3.7%   (  44)
+Percent Deletions         =    1.9%   (  23)
+Percent Insertions        =    0.8%   (  10)
+Percent Word Accuracy     =   93.5%
+
+
+Ref. words                =           (1193)
+Hyp. words                =           (1180)
+Aligned words             =           (1203)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  the ==> a
+   2:    2  ->  wh ==> what
+   3:    1  ->  %bcack ==> atic
+   4:    1  ->  at ==> that
+   5:    1  ->  awry ==> arrived
+   6:    1  ->  bee ==> be
+   7:    1  ->  cells ==> selves
+   8:    1  ->  date ==> dates
+   9:    1  ->  even ==> eating
+  10:    1  ->  fascinating ==> yeah
+  11:    1  ->  fires ==> are
+  12:    1  ->  games ==> gains
+  13:    1  ->  gone ==> on
+  14:    1  ->  he ==> e
+  15:    1  ->  hundred ==> zero
+  16:    1  ->  i ==> s
+  17:    1  ->  it ==> at
+  18:    1  ->  it's ==> so
+  19:    1  ->  knocked ==> not
+  20:    1  ->  like ==> around
+  21:    1  ->  line ==> <laugh>
+  22:    1  ->  now ==> there
+  23:    1  ->  over ==> are
+  24:    1  ->  peering ==> hearing
+  25:    1  ->  pinafores ==> force
+  26:    1  ->  sense ==> says
+  27:    1  ->  side ==> beside
+  28:    1  ->  signed ==> sign
+  29:    1  ->  sleeks ==> sleeps
+  30:    1  ->  sore ==> soar
+  31:    1  ->  standing ==> withstanding
+  32:    1  ->  sweet ==> sweep
+  33:    1  ->  taut ==> top
+  34:    1  ->  them ==> from
+  35:    1  ->  tide ==> tied
+  36:    1  ->  tier ==> tear
+  37:    1  ->  weekenders ==> weakers
+  38:    1  ->  wh ==> why
+  39:    1  ->  will ==> all
+  40:    1  ->  words ==> word
+  41:    1  ->  wrought ==> brought
+  42:    1  ->  you ==> i
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  and
+   2:    1  ->  but
+   3:    1  ->  fire
+   4:    1  ->  high
+   5:    1  ->  if
+   6:    1  ->  of
+   7:    1  ->  pin
+   8:    1  ->  think
+   9:    1  ->  yeah
+  10:    1  ->  you
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  that
+   2:    2  ->  i
+   3:    2  ->  s
+   4:    2  ->  yeah
+   5:    1  ->  another
+   6:    1  ->  are
+   7:    1  ->  could
+   8:    1  ->  emphatic
+   9:    1  ->  imply
+  10:    1  ->  love
+  11:    1  ->  poem
+  12:    1  ->  that's
+  13:    1  ->  the
+  14:    1  ->  think
+  15:    1  ->  to
+  16:    1  ->  type
+  17:    1  ->  well
+  18:    1  ->  you
+     -------
+        23
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    3  ->  wh
+   2:    2  ->  the
+   3:    1  ->  %bcack
+   4:    1  ->  at
+   5:    1  ->  awry
+   6:    1  ->  bee
+   7:    1  ->  cells
+   8:    1  ->  date
+   9:    1  ->  even
+  10:    1  ->  fascinating
+  11:    1  ->  fires
+  12:    1  ->  games
+  13:    1  ->  gone
+  14:    1  ->  he
+  15:    1  ->  hundred
+  16:    1  ->  i
+  17:    1  ->  it
+  18:    1  ->  it's
+  19:    1  ->  knocked
+  20:    1  ->  like
+  21:    1  ->  line
+  22:    1  ->  now
+  23:    1  ->  over
+  24:    1  ->  peering
+  25:    1  ->  pinafores
+  26:    1  ->  sense
+  27:    1  ->  side
+  28:    1  ->  signed
+  29:    1  ->  sleeks
+  30:    1  ->  sore
+  31:    1  ->  standing
+  32:    1  ->  sweet
+  33:    1  ->  taut
+  34:    1  ->  them
+  35:    1  ->  tide
+  36:    1  ->  tier
+  37:    1  ->  weekenders
+  38:    1  ->  will
+  39:    1  ->  words
+  40:    1  ->  wrought
+  41:    1  ->  you
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  a
+   2:    2  ->  are
+   3:    2  ->  what
+   4:    1  ->  <laugh>
+   5:    1  ->  all
+   6:    1  ->  around
+   7:    1  ->  arrived
+   8:    1  ->  at
+   9:    1  ->  atic
+  10:    1  ->  be
+  11:    1  ->  beside
+  12:    1  ->  brought
+  13:    1  ->  dates
+  14:    1  ->  e
+  15:    1  ->  eating
+  16:    1  ->  force
+  17:    1  ->  from
+  18:    1  ->  gains
+  19:    1  ->  hearing
+  20:    1  ->  i
+  21:    1  ->  not
+  22:    1  ->  on
+  23:    1  ->  s
+  24:    1  ->  says
+  25:    1  ->  selves
+  26:    1  ->  sign
+  27:    1  ->  sleeps
+  28:    1  ->  so
+  29:    1  ->  soar
+  30:    1  ->  sweep
+  31:    1  ->  tear
+  32:    1  ->  that
+  33:    1  ->  there
+  34:    1  ->  tied
+  35:    1  ->  top
+  36:    1  ->  weakers
+  37:    1  ->  why
+  38:    1  ->  withstanding
+  39:    1  ->  word
+  40:    1  ->  yeah
+  41:    1  ->  zero
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

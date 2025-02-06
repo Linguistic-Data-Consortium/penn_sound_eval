@@ -1,0 +1,386 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   12.6%   ( 120)
+
+Percent Correct           =   88.2%   ( 837)
+
+Percent Substitution      =   11.1%   ( 105)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   87.4%
+
+
+Ref. words                =           ( 949)
+Hyp. words                =           ( 950)
+Aligned words             =           ( 957)
+
+CONFUSION PAIRS                  Total                 (104)
+                                 With >=  1 occurrences (104)
+
+   1:    2  ->  an ==> and
+   2:    1  ->  a ==> it
+   3:    1  ->  a ==> the
+   4:    1  ->  aching ==> achy
+   5:    1  ->  anew ==> new
+   6:    1  ->  arise ==> arrive
+   7:    1  ->  as ==> is
+   8:    1  ->  at ==> is
+   9:    1  ->  at ==> modot
+  10:    1  ->  bag ==> back
+  11:    1  ->  balls ==> ball
+  12:    1  ->  bends ==> benz
+  13:    1  ->  buildings ==> building
+  14:    1  ->  burned ==> burn
+  15:    1  ->  cobwebbed ==> web
+  16:    1  ->  compost ==> composts
+  17:    1  ->  connotations ==> connotation
+  18:    1  ->  corners ==> corner
+  19:    1  ->  cup ==> cut
+  20:    1  ->  cylinder ==> solder
+  21:    1  ->  dawn ==> down
+  22:    1  ->  defies ==> bus
+  23:    1  ->  disembark ==> did
+  24:    1  ->  emerges ==> merges
+  25:    1  ->  feel ==> field
+  26:    1  ->  filmy ==> film
+  27:    1  ->  fogs ==> bogs
+  28:    1  ->  from ==> and
+  29:    1  ->  fuchsias ==> pushes
+  30:    1  ->  googawed ==> guard
+  31:    1  ->  gullywasher ==> washer
+  32:    1  ->  havoc ==> habit
+  33:    1  ->  her ==> through
+  34:    1  ->  hoots ==> hooked
+  35:    1  ->  i ==> tongue
+  36:    1  ->  in ==> and
+  37:    1  ->  in ==> it
+  38:    1  ->  into ==> around
+  39:    1  ->  intricate ==> interpret
+  40:    1  ->  it ==> moved
+  41:    1  ->  just ==> some
+  42:    1  ->  kit ==> kids
+  43:    1  ->  laid ==> late
+  44:    1  ->  larimer ==> learners
+  45:    1  ->  light ==> white
+  46:    1  ->  lightly ==> likely
+  47:    1  ->  lingonberry ==> berry
+  48:    1  ->  lip ==> lift
+  49:    1  ->  lip ==> list
+  50:    1  ->  look ==> looked
+  51:    1  ->  mannequins ==> manikins
+  52:    1  ->  mean ==> be
+  53:    1  ->  memory's ==> memories
+  54:    1  ->  musics ==> music
+  55:    1  ->  notebooks ==> cook
+  56:    1  ->  old ==> all
+  57:    1  ->  one ==> mine
+  58:    1  ->  our ==> her
+  59:    1  ->  pale ==> tail
+  60:    1  ->  penny's ==> pennies
+  61:    1  ->  petals ==> pedals
+  62:    1  ->  pick ==> picked
+  63:    1  ->  plaster ==> plastic
+  64:    1  ->  put ==> with
+  65:    1  ->  quiets ==> quiet
+  66:    1  ->  reader's ==> readers
+  67:    1  ->  reservoir's ==> reservoirs
+  68:    1  ->  return ==> referred
+  69:    1  ->  ring ==> bring
+  70:    1  ->  run ==> just
+  71:    1  ->  seizes ==> ceases
+  72:    1  ->  settle ==> settled
+  73:    1  ->  sore ==> swords
+  74:    1  ->  sound ==> sounds
+  75:    1  ->  spider ==> fire
+  76:    1  ->  stain ==> stained
+  77:    1  ->  stump ==> stuff
+  78:    1  ->  sunflower ==> sunflowers
+  79:    1  ->  ten ==> to
+  80:    1  ->  than ==> the
+  81:    1  ->  thick ==> pick
+  82:    1  ->  throat ==> wrote
+  83:    1  ->  through ==> for
+  84:    1  ->  tiny ==> pine
+  85:    1  ->  to ==> park
+  86:    1  ->  to ==> through
+  87:    1  ->  towns ==> town
+  88:    1  ->  train ==> prime
+  89:    1  ->  travelled ==> travels
+  90:    1  ->  trio ==> tree
+  91:    1  ->  tune ==> to
+  92:    1  ->  twelve ==> false
+  93:    1  ->  until ==> that
+  94:    1  ->  until ==> till
+  95:    1  ->  verb ==> verd
+  96:    1  ->  wake ==> rate
+  97:    1  ->  was ==> we
+  98:    1  ->  we ==> wheat
+  99:    1  ->  wearing ==> were
+ 100:    1  ->  weights ==> lakes
+ 101:    1  ->  when ==> in
+ 102:    1  ->  whistle ==> muscle
+ 103:    1  ->  woolworth ==> woolworths
+ 104:    1  ->  wrought ==> brought
+     -------
+       105
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  a
+   2:    1  ->  and
+   3:    1  ->  cop
+   4:    1  ->  gully
+   5:    1  ->  no
+   6:    1  ->  so
+   7:    1  ->  winging
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  do
+   4:    1  ->  mowed
+   5:    1  ->  the
+   6:    1  ->  tone
+   7:    1  ->  what
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (98)
+                                 With >=  1 occurrences (98)
+
+   1:    2  ->  a
+   2:    2  ->  an
+   3:    2  ->  at
+   4:    2  ->  in
+   5:    2  ->  lip
+   6:    2  ->  to
+   7:    2  ->  until
+   8:    1  ->  aching
+   9:    1  ->  anew
+  10:    1  ->  arise
+  11:    1  ->  as
+  12:    1  ->  bag
+  13:    1  ->  balls
+  14:    1  ->  bends
+  15:    1  ->  buildings
+  16:    1  ->  burned
+  17:    1  ->  cobwebbed
+  18:    1  ->  compost
+  19:    1  ->  connotations
+  20:    1  ->  corners
+  21:    1  ->  cup
+  22:    1  ->  cylinder
+  23:    1  ->  dawn
+  24:    1  ->  defies
+  25:    1  ->  disembark
+  26:    1  ->  emerges
+  27:    1  ->  feel
+  28:    1  ->  filmy
+  29:    1  ->  fogs
+  30:    1  ->  from
+  31:    1  ->  fuchsias
+  32:    1  ->  googawed
+  33:    1  ->  gullywasher
+  34:    1  ->  havoc
+  35:    1  ->  her
+  36:    1  ->  hoots
+  37:    1  ->  i
+  38:    1  ->  into
+  39:    1  ->  intricate
+  40:    1  ->  it
+  41:    1  ->  just
+  42:    1  ->  kit
+  43:    1  ->  laid
+  44:    1  ->  larimer
+  45:    1  ->  light
+  46:    1  ->  lightly
+  47:    1  ->  lingonberry
+  48:    1  ->  look
+  49:    1  ->  mannequins
+  50:    1  ->  mean
+  51:    1  ->  memory's
+  52:    1  ->  musics
+  53:    1  ->  notebooks
+  54:    1  ->  old
+  55:    1  ->  one
+  56:    1  ->  our
+  57:    1  ->  pale
+  58:    1  ->  penny's
+  59:    1  ->  petals
+  60:    1  ->  pick
+  61:    1  ->  plaster
+  62:    1  ->  put
+  63:    1  ->  quiets
+  64:    1  ->  reader's
+  65:    1  ->  reservoir's
+  66:    1  ->  return
+  67:    1  ->  ring
+  68:    1  ->  run
+  69:    1  ->  seizes
+  70:    1  ->  settle
+  71:    1  ->  sore
+  72:    1  ->  sound
+  73:    1  ->  spider
+  74:    1  ->  stain
+  75:    1  ->  stump
+  76:    1  ->  sunflower
+  77:    1  ->  ten
+  78:    1  ->  than
+  79:    1  ->  thick
+  80:    1  ->  throat
+  81:    1  ->  through
+  82:    1  ->  tiny
+  83:    1  ->  towns
+  84:    1  ->  train
+  85:    1  ->  travelled
+  86:    1  ->  trio
+  87:    1  ->  tune
+  88:    1  ->  twelve
+  89:    1  ->  verb
+  90:    1  ->  wake
+  91:    1  ->  was
+  92:    1  ->  we
+  93:    1  ->  wearing
+  94:    1  ->  weights
+  95:    1  ->  when
+  96:    1  ->  whistle
+  97:    1  ->  woolworth
+  98:    1  ->  wrought
+     -------
+       105
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (97)
+                                 With >=  1 occurrences (97)
+
+   1:    4  ->  and
+   2:    2  ->  is
+   3:    2  ->  it
+   4:    2  ->  the
+   5:    2  ->  through
+   6:    2  ->  to
+   7:    1  ->  achy
+   8:    1  ->  all
+   9:    1  ->  around
+  10:    1  ->  arrive
+  11:    1  ->  back
+  12:    1  ->  ball
+  13:    1  ->  be
+  14:    1  ->  benz
+  15:    1  ->  berry
+  16:    1  ->  bogs
+  17:    1  ->  bring
+  18:    1  ->  brought
+  19:    1  ->  building
+  20:    1  ->  burn
+  21:    1  ->  bus
+  22:    1  ->  ceases
+  23:    1  ->  composts
+  24:    1  ->  connotation
+  25:    1  ->  cook
+  26:    1  ->  corner
+  27:    1  ->  cut
+  28:    1  ->  did
+  29:    1  ->  down
+  30:    1  ->  false
+  31:    1  ->  field
+  32:    1  ->  film
+  33:    1  ->  fire
+  34:    1  ->  for
+  35:    1  ->  guard
+  36:    1  ->  habit
+  37:    1  ->  her
+  38:    1  ->  hooked
+  39:    1  ->  in
+  40:    1  ->  interpret
+  41:    1  ->  just
+  42:    1  ->  kids
+  43:    1  ->  lakes
+  44:    1  ->  late
+  45:    1  ->  learners
+  46:    1  ->  lift
+  47:    1  ->  likely
+  48:    1  ->  list
+  49:    1  ->  looked
+  50:    1  ->  manikins
+  51:    1  ->  memories
+  52:    1  ->  merges
+  53:    1  ->  mine
+  54:    1  ->  modot
+  55:    1  ->  moved
+  56:    1  ->  muscle
+  57:    1  ->  music
+  58:    1  ->  new
+  59:    1  ->  park
+  60:    1  ->  pedals
+  61:    1  ->  pennies
+  62:    1  ->  pick
+  63:    1  ->  picked
+  64:    1  ->  pine
+  65:    1  ->  plastic
+  66:    1  ->  prime
+  67:    1  ->  pushes
+  68:    1  ->  quiet
+  69:    1  ->  rate
+  70:    1  ->  readers
+  71:    1  ->  referred
+  72:    1  ->  reservoirs
+  73:    1  ->  settled
+  74:    1  ->  solder
+  75:    1  ->  some
+  76:    1  ->  sounds
+  77:    1  ->  stained
+  78:    1  ->  stuff
+  79:    1  ->  sunflowers
+  80:    1  ->  swords
+  81:    1  ->  tail
+  82:    1  ->  that
+  83:    1  ->  till
+  84:    1  ->  tongue
+  85:    1  ->  town
+  86:    1  ->  travels
+  87:    1  ->  tree
+  88:    1  ->  verd
+  89:    1  ->  washer
+  90:    1  ->  we
+  91:    1  ->  web
+  92:    1  ->  were
+  93:    1  ->  wheat
+  94:    1  ->  white
+  95:    1  ->  with
+  96:    1  ->  woolworths
+  97:    1  ->  wrote
+     -------
+       105
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

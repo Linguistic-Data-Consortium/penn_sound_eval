@@ -1,0 +1,490 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.2%   ( 287)
+
+Percent Correct           =   79.6%   (1079)
+
+Percent Substitution      =    9.7%   ( 132)
+Percent Deletions         =   10.7%   ( 145)
+Percent Insertions        =    0.7%   (  10)
+Percent Word Accuracy     =   78.8%
+
+
+Ref. words                =           (1356)
+Hyp. words                =           (1221)
+Aligned words             =           (1366)
+
+CONFUSION PAIRS                  Total                 (125)
+                                 With >=  1 occurrences (125)
+
+   1:    2  ->  a ==> the
+   2:    2  ->  called ==> call
+   3:    2  ->  fugue ==> few
+   4:    2  ->  had ==> have
+   5:    2  ->  knew ==> now
+   6:    2  ->  texts ==> text
+   7:    2  ->  to ==> and
+   8:    1  ->  a ==> town
+   9:    1  ->  a ==> trying
+  10:    1  ->  about ==> me
+  11:    1  ->  aid ==> ate
+  12:    1  ->  an ==> if
+  13:    1  ->  area ==> here
+  14:    1  ->  art ==> are
+  15:    1  ->  at ==> and
+  16:    1  ->  be ==> in
+  17:    1  ->  because ==> but
+  18:    1  ->  been ==> within
+  19:    1  ->  but ==> living
+  20:    1  ->  chewies ==> material
+  21:    1  ->  chewy ==> to
+  22:    1  ->  closer ==> positive
+  23:    1  ->  complain ==> am
+  24:    1  ->  constructed ==> constructing
+  25:    1  ->  could ==> contribution
+  26:    1  ->  deal ==> do
+  27:    1  ->  distance ==> list
+  28:    1  ->  explosi ==> explosive
+  29:    1  ->  fermenting ==> mending
+  30:    1  ->  flank ==> flag
+  31:    1  ->  for ==> correct
+  32:    1  ->  frisson ==> song
+  33:    1  ->  fugue ==> will
+  34:    1  ->  fugues ==> fuse
+  35:    1  ->  geurrilla ==> guerrilla
+  36:    1  ->  goddamn ==> ***
+  37:    1  ->  good ==> and
+  38:    1  ->  great ==> grade
+  39:    1  ->  has ==> of
+  40:    1  ->  hecht ==> heck
+  41:    1  ->  him ==> women
+  42:    1  ->  hour ==> i
+  43:    1  ->  i ==> afraid
+  44:    1  ->  i ==> all
+  45:    1  ->  in ==> a
+  46:    1  ->  in ==> and
+  47:    1  ->  is ==> evaluates
+  48:    1  ->  is ==> give
+  49:    1  ->  it ==> a
+  50:    1  ->  it ==> and
+  51:    1  ->  it ==> know
+  52:    1  ->  it ==> out
+  53:    1  ->  it ==> so
+  54:    1  ->  it ==> with
+  55:    1  ->  it's ==> aggressive
+  56:    1  ->  it's ==> as
+  57:    1  ->  it's ==> that's
+  58:    1  ->  it's ==> to
+  59:    1  ->  know ==> either
+  60:    1  ->  know ==> going
+  61:    1  ->  like ==> just
+  62:    1  ->  like ==> there's
+  63:    1  ->  like ==> want
+  64:    1  ->  line ==> landline
+  65:    1  ->  look ==> i
+  66:    1  ->  lore ==> law
+  67:    1  ->  loss ==> voice
+  68:    1  ->  mean ==> them
+  69:    1  ->  mind ==> mine
+  70:    1  ->  minimal ==> you
+  71:    1  ->  nearly ==> really
+  72:    1  ->  nice ==> make
+  73:    1  ->  no ==> unload
+  74:    1  ->  not ==> am
+  75:    1  ->  notice ==> noticed
+  76:    1  ->  now ==> know
+  77:    1  ->  o ==> on
+  78:    1  ->  of ==> in
+  79:    1  ->  of ==> just
+  80:    1  ->  off ==> up
+  81:    1  ->  or ==> are
+  82:    1  ->  play ==> supply
+  83:    1  ->  played ==> play
+  84:    1  ->  poems ==> palm
+  85:    1  ->  rather ==> a
+  86:    1  ->  re ==> height
+  87:    1  ->  resume ==> cobra
+  88:    1  ->  saccharine ==> sakara
+  89:    1  ->  shatranj ==> strange
+  90:    1  ->  since ==> which
+  91:    1  ->  so ==> line
+  92:    1  ->  some ==> no
+  93:    1  ->  stretto ==> of
+  94:    1  ->  structu ==> structure
+  95:    1  ->  tails ==> tables
+  96:    1  ->  term ==> you
+  97:    1  ->  thanks ==> because
+  98:    1  ->  that's ==> it's
+  99:    1  ->  the ==> a
+ 100:    1  ->  the ==> and
+ 101:    1  ->  the ==> but
+ 102:    1  ->  the ==> in
+ 103:    1  ->  the ==> return
+ 104:    1  ->  the ==> that
+ 105:    1  ->  them ==> leaving
+ 106:    1  ->  theme ==> team
+ 107:    1  ->  themes ==> names
+ 108:    1  ->  themes ==> things
+ 109:    1  ->  there ==> in
+ 110:    1  ->  thinking ==> figured
+ 111:    1  ->  this ==> that
+ 112:    1  ->  this ==> which
+ 113:    1  ->  through ==> between
+ 114:    1  ->  to ==> through
+ 115:    1  ->  toget ==> get
+ 116:    1  ->  wagging ==> whacking
+ 117:    1  ->  was ==> is
+ 118:    1  ->  weil ==> val
+ 119:    1  ->  whitestone ==> stone
+ 120:    1  ->  would ==> i
+ 121:    1  ->  would ==> there's
+ 122:    1  ->  you ==> am
+ 123:    1  ->  you ==> it
+ 124:    1  ->  you ==> no
+ 125:    1  ->  your ==> you
+     -------
+       132
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  for
+   2:    1  ->  free
+   3:    1  ->  had
+   4:    1  ->  i
+   5:    1  ->  not
+   6:    1  ->  spread
+   7:    1  ->  the
+   8:    1  ->  they
+   9:    1  ->  to
+  10:    1  ->  white
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (88)
+                                 With >=  1 occurrences (88)
+
+   1:   15  ->  i
+   2:    6  ->  it
+   3:    5  ->  in
+   4:    4  ->  break
+   5:    3  ->  a
+   6:    3  ->  coke
+   7:    3  ->  k.
+   8:    3  ->  o.
+   9:    3  ->  s
+  10:    3  ->  the
+  11:    3  ->  we
+  12:    3  ->  will
+  13:    2  ->  back
+  14:    2  ->  go
+  15:    2  ->  have
+  16:    2  ->  it's
+  17:    2  ->  let
+  18:    2  ->  mean
+  19:    2  ->  minutes
+  20:    2  ->  now
+  21:    2  ->  so
+  22:    2  ->  that
+  23:    2  ->  think
+  24:    2  ->  to
+  25:    2  ->  what
+  26:    2  ->  would
+  27:    2  ->  you
+  28:    1  ->  abil
+  29:    1  ->  after
+  30:    1  ->  ahead
+  31:    1  ->  all
+  32:    1  ->  am
+  33:    1  ->  are
+  34:    1  ->  as
+  35:    1  ->  but
+  36:    1  ->  buy
+  37:    1  ->  c
+  38:    1  ->  cannot
+  39:    1  ->  come
+  40:    1  ->  digressive
+  41:    1  ->  disagree
+  42:    1  ->  drink
+  43:    1  ->  everybody
+  44:    1  ->  ex
+  45:    1  ->  f
+  46:    1  ->  fine
+  47:    1  ->  five
+  48:    1  ->  had
+  49:    1  ->  high
+  50:    1  ->  instr
+  51:    1  ->  is
+  52:    1  ->  just
+  53:    1  ->  knew
+  54:    1  ->  leave
+  55:    1  ->  long
+  56:    1  ->  lying
+  57:    1  ->  mater
+  58:    1  ->  micromanage
+  59:    1  ->  mili
+  60:    1  ->  no
+  61:    1  ->  nobody
+  62:    1  ->  not
+  63:    1  ->  o
+  64:    1  ->  of
+  65:    1  ->  phra
+  66:    1  ->  pieces
+  67:    1  ->  quite
+  68:    1  ->  r
+  69:    1  ->  same
+  70:    1  ->  saw
+  71:    1  ->  say
+  72:    1  ->  some
+  73:    1  ->  stop
+  74:    1  ->  story
+  75:    1  ->  t
+  76:    1  ->  ten
+  77:    1  ->  that's
+  78:    1  ->  they
+  79:    1  ->  time
+  80:    1  ->  trying
+  81:    1  ->  two
+  82:    1  ->  type
+  83:    1  ->  us
+  84:    1  ->  value
+  85:    1  ->  was
+  86:    1  ->  well
+  87:    1  ->  wh
+  88:    1  ->  your
+     -------
+       145
+
+
+
+SUBSTITUTIONS                    Total                 (96)
+                                 With >=  1 occurrences (96)
+
+   1:    6  ->  it
+   2:    6  ->  the
+   3:    4  ->  a
+   4:    4  ->  it's
+   5:    3  ->  fugue
+   6:    3  ->  like
+   7:    3  ->  to
+   8:    3  ->  you
+   9:    2  ->  called
+  10:    2  ->  had
+  11:    2  ->  i
+  12:    2  ->  in
+  13:    2  ->  is
+  14:    2  ->  knew
+  15:    2  ->  know
+  16:    2  ->  of
+  17:    2  ->  texts
+  18:    2  ->  themes
+  19:    2  ->  this
+  20:    2  ->  would
+  21:    1  ->  about
+  22:    1  ->  aid
+  23:    1  ->  an
+  24:    1  ->  area
+  25:    1  ->  art
+  26:    1  ->  at
+  27:    1  ->  be
+  28:    1  ->  because
+  29:    1  ->  been
+  30:    1  ->  but
+  31:    1  ->  chewies
+  32:    1  ->  chewy
+  33:    1  ->  closer
+  34:    1  ->  complain
+  35:    1  ->  constructed
+  36:    1  ->  could
+  37:    1  ->  deal
+  38:    1  ->  distance
+  39:    1  ->  explosi
+  40:    1  ->  fermenting
+  41:    1  ->  flank
+  42:    1  ->  for
+  43:    1  ->  frisson
+  44:    1  ->  fugues
+  45:    1  ->  geurrilla
+  46:    1  ->  goddamn
+  47:    1  ->  good
+  48:    1  ->  great
+  49:    1  ->  has
+  50:    1  ->  hecht
+  51:    1  ->  him
+  52:    1  ->  hour
+  53:    1  ->  line
+  54:    1  ->  look
+  55:    1  ->  lore
+  56:    1  ->  loss
+  57:    1  ->  mean
+  58:    1  ->  mind
+  59:    1  ->  minimal
+  60:    1  ->  nearly
+  61:    1  ->  nice
+  62:    1  ->  no
+  63:    1  ->  not
+  64:    1  ->  notice
+  65:    1  ->  now
+  66:    1  ->  o
+  67:    1  ->  off
+  68:    1  ->  or
+  69:    1  ->  play
+  70:    1  ->  played
+  71:    1  ->  poems
+  72:    1  ->  rather
+  73:    1  ->  re
+  74:    1  ->  resume
+  75:    1  ->  saccharine
+  76:    1  ->  shatranj
+  77:    1  ->  since
+  78:    1  ->  so
+  79:    1  ->  some
+  80:    1  ->  stretto
+  81:    1  ->  structu
+  82:    1  ->  tails
+  83:    1  ->  term
+  84:    1  ->  thanks
+  85:    1  ->  that's
+  86:    1  ->  them
+  87:    1  ->  theme
+  88:    1  ->  there
+  89:    1  ->  thinking
+  90:    1  ->  through
+  91:    1  ->  toget
+  92:    1  ->  wagging
+  93:    1  ->  was
+  94:    1  ->  weil
+  95:    1  ->  whitestone
+  96:    1  ->  your
+     -------
+       132
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (98)
+                                 With >=  1 occurrences (98)
+
+   1:    7  ->  and
+   2:    4  ->  a
+   3:    4  ->  in
+   4:    3  ->  am
+   5:    3  ->  i
+   6:    3  ->  you
+   7:    2  ->  are
+   8:    2  ->  but
+   9:    2  ->  call
+  10:    2  ->  few
+  11:    2  ->  have
+  12:    2  ->  just
+  13:    2  ->  know
+  14:    2  ->  no
+  15:    2  ->  now
+  16:    2  ->  of
+  17:    2  ->  text
+  18:    2  ->  that
+  19:    2  ->  the
+  20:    2  ->  there's
+  21:    2  ->  to
+  22:    2  ->  which
+  23:    1  ->  ***
+  24:    1  ->  afraid
+  25:    1  ->  aggressive
+  26:    1  ->  all
+  27:    1  ->  as
+  28:    1  ->  ate
+  29:    1  ->  because
+  30:    1  ->  between
+  31:    1  ->  cobra
+  32:    1  ->  constructing
+  33:    1  ->  contribution
+  34:    1  ->  correct
+  35:    1  ->  do
+  36:    1  ->  either
+  37:    1  ->  evaluates
+  38:    1  ->  explosive
+  39:    1  ->  figured
+  40:    1  ->  flag
+  41:    1  ->  fuse
+  42:    1  ->  get
+  43:    1  ->  give
+  44:    1  ->  going
+  45:    1  ->  grade
+  46:    1  ->  guerrilla
+  47:    1  ->  heck
+  48:    1  ->  height
+  49:    1  ->  here
+  50:    1  ->  if
+  51:    1  ->  is
+  52:    1  ->  it
+  53:    1  ->  it's
+  54:    1  ->  landline
+  55:    1  ->  law
+  56:    1  ->  leaving
+  57:    1  ->  line
+  58:    1  ->  list
+  59:    1  ->  living
+  60:    1  ->  make
+  61:    1  ->  material
+  62:    1  ->  me
+  63:    1  ->  mending
+  64:    1  ->  mine
+  65:    1  ->  names
+  66:    1  ->  noticed
+  67:    1  ->  on
+  68:    1  ->  out
+  69:    1  ->  palm
+  70:    1  ->  play
+  71:    1  ->  positive
+  72:    1  ->  really
+  73:    1  ->  return
+  74:    1  ->  sakara
+  75:    1  ->  so
+  76:    1  ->  song
+  77:    1  ->  stone
+  78:    1  ->  strange
+  79:    1  ->  structure
+  80:    1  ->  supply
+  81:    1  ->  tables
+  82:    1  ->  team
+  83:    1  ->  that's
+  84:    1  ->  them
+  85:    1  ->  things
+  86:    1  ->  through
+  87:    1  ->  town
+  88:    1  ->  trying
+  89:    1  ->  unload
+  90:    1  ->  up
+  91:    1  ->  val
+  92:    1  ->  voice
+  93:    1  ->  want
+  94:    1  ->  whacking
+  95:    1  ->  will
+  96:    1  ->  with
+  97:    1  ->  within
+  98:    1  ->  women
+     -------
+       132
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

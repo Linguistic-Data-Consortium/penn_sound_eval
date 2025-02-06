@@ -1,0 +1,265 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.3%   ( 108)
+
+Percent Correct           =   88.0%   ( 717)
+
+Percent Substitution      =    6.6%   (  54)
+Percent Deletions         =    5.4%   (  44)
+Percent Insertions        =    1.2%   (  10)
+Percent Word Accuracy     =   86.7%
+
+
+Ref. words                =           ( 815)
+Hyp. words                =           ( 781)
+Aligned words             =           ( 825)
+
+CONFUSION PAIRS                  Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    3  ->  elliott ==> elliot
+   2:    2  ->  law ==> cornlaw
+   3:    1  ->  a ==> scribbler
+   4:    1  ->  a ==> whether
+   5:    1  ->  are ==> of
+   6:    1  ->  ashville ==> asherfeld
+   7:    1  ->  bled ==> bed
+   8:    1  ->  brothers ==> brother's
+   9:    1  ->  cnr ==> clr
+  10:    1  ->  corn ==> a
+  11:    1  ->  crawled ==> crowd
+  12:    1  ->  cumberbark ==> coomberbark
+  13:    1  ->  curtainment ==> uncurtainment
+  14:    1  ->  doctor ==> dr
+  15:    1  ->  eighteenth ==> 18th
+  16:    1  ->  elusive ==> delusive
+  17:    1  ->  enfetters ==> fetters
+  18:    1  ->  feeling ==> fleeing
+  19:    1  ->  fifty ==> 150
+  20:    1  ->  harkley ==> heartly
+  21:    1  ->  he ==> who
+  22:    1  ->  his ==> bowles'
+  23:    1  ->  hit ==> hipped
+  24:    1  ->  house ==> pesthouse
+  25:    1  ->  kessick ==> keswick
+  26:    1  ->  laws ==> cornlaws
+  27:    1  ->  mute ==> new
+  28:    1  ->  never ==> ever
+  29:    1  ->  nineteenth ==> 19th
+  30:    1  ->  nobody's ==> days
+  31:    1  ->  nuncinations ==> lancinations
+  32:    1  ->  nunia ==> mamia
+  33:    1  ->  of ==> at
+  34:    1  ->  paul ==> poor
+  35:    1  ->  pest ==> henley
+  36:    1  ->  pisermine ==> pisomine
+  37:    1  ->  poole ==> pool
+  38:    1  ->  pulcherrima ==> pulcherima
+  39:    1  ->  riot ==> write
+  40:    1  ->  salvi ==> salvee
+  41:    1  ->  shawnson ==> shonson
+  42:    1  ->  soul ==> souls
+  43:    1  ->  spiderweb ==> web
+  44:    1  ->  sun ==> son
+  45:    1  ->  that ==> many
+  46:    1  ->  the ==> that
+  47:    1  ->  these ==> his
+  48:    1  ->  these ==> one
+  49:    1  ->  they ==> those
+  50:    1  ->  whirled ==> world
+  51:    1  ->  worm ==> maltworm
+     -------
+        54
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  and
+   2:    1  ->  be
+   3:    1  ->  going
+   4:    1  ->  here's
+   5:    1  ->  is
+   6:    1  ->  sense
+   7:    1  ->  spider
+   8:    1  ->  the
+   9:    1  ->  to
+  10:    1  ->  which
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    7  ->  i
+   2:    4  ->  of
+   3:    3  ->  and
+   4:    2  ->  corn
+   5:    2  ->  you
+   6:    1  ->  a
+   7:    1  ->  as
+   8:    1  ->  be
+   9:    1  ->  bows
+  10:    1  ->  henry
+  11:    1  ->  hundred
+  12:    1  ->  it
+  13:    1  ->  malt
+  14:    1  ->  me
+  15:    1  ->  mean
+  16:    1  ->  meant
+  17:    1  ->  on
+  18:    1  ->  out
+  19:    1  ->  quite
+  20:    1  ->  scribble
+  21:    1  ->  sense
+  22:    1  ->  sort
+  23:    1  ->  that
+  24:    1  ->  the
+  25:    1  ->  there's
+  26:    1  ->  these
+  27:    1  ->  who
+  28:    1  ->  wi
+  29:    1  ->  with
+  30:    1  ->  x
+  31:    1  ->  y
+     -------
+        44
+
+
+
+SUBSTITUTIONS                    Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    3  ->  elliott
+   2:    2  ->  a
+   3:    2  ->  law
+   4:    2  ->  these
+   5:    1  ->  are
+   6:    1  ->  ashville
+   7:    1  ->  bled
+   8:    1  ->  brothers
+   9:    1  ->  cnr
+  10:    1  ->  corn
+  11:    1  ->  crawled
+  12:    1  ->  cumberbark
+  13:    1  ->  curtainment
+  14:    1  ->  doctor
+  15:    1  ->  eighteenth
+  16:    1  ->  elusive
+  17:    1  ->  enfetters
+  18:    1  ->  feeling
+  19:    1  ->  fifty
+  20:    1  ->  harkley
+  21:    1  ->  he
+  22:    1  ->  his
+  23:    1  ->  hit
+  24:    1  ->  house
+  25:    1  ->  kessick
+  26:    1  ->  laws
+  27:    1  ->  mute
+  28:    1  ->  never
+  29:    1  ->  nineteenth
+  30:    1  ->  nobody's
+  31:    1  ->  nuncinations
+  32:    1  ->  nunia
+  33:    1  ->  of
+  34:    1  ->  paul
+  35:    1  ->  pest
+  36:    1  ->  pisermine
+  37:    1  ->  poole
+  38:    1  ->  pulcherrima
+  39:    1  ->  riot
+  40:    1  ->  salvi
+  41:    1  ->  shawnson
+  42:    1  ->  soul
+  43:    1  ->  spiderweb
+  44:    1  ->  sun
+  45:    1  ->  that
+  46:    1  ->  the
+  47:    1  ->  they
+  48:    1  ->  whirled
+  49:    1  ->  worm
+     -------
+        54
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    3  ->  elliot
+   2:    2  ->  cornlaw
+   3:    1  ->  150
+   4:    1  ->  18th
+   5:    1  ->  19th
+   6:    1  ->  a
+   7:    1  ->  asherfeld
+   8:    1  ->  at
+   9:    1  ->  bed
+  10:    1  ->  bowles'
+  11:    1  ->  brother's
+  12:    1  ->  clr
+  13:    1  ->  coomberbark
+  14:    1  ->  cornlaws
+  15:    1  ->  crowd
+  16:    1  ->  days
+  17:    1  ->  delusive
+  18:    1  ->  dr
+  19:    1  ->  ever
+  20:    1  ->  fetters
+  21:    1  ->  fleeing
+  22:    1  ->  heartly
+  23:    1  ->  henley
+  24:    1  ->  hipped
+  25:    1  ->  his
+  26:    1  ->  keswick
+  27:    1  ->  lancinations
+  28:    1  ->  maltworm
+  29:    1  ->  mamia
+  30:    1  ->  many
+  31:    1  ->  new
+  32:    1  ->  of
+  33:    1  ->  one
+  34:    1  ->  pesthouse
+  35:    1  ->  pisomine
+  36:    1  ->  pool
+  37:    1  ->  poor
+  38:    1  ->  pulcherima
+  39:    1  ->  salvee
+  40:    1  ->  scribbler
+  41:    1  ->  shonson
+  42:    1  ->  son
+  43:    1  ->  souls
+  44:    1  ->  that
+  45:    1  ->  those
+  46:    1  ->  uncurtainment
+  47:    1  ->  web
+  48:    1  ->  whether
+  49:    1  ->  who
+  50:    1  ->  world
+  51:    1  ->  write
+     -------
+        54
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

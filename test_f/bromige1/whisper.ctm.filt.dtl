@@ -1,0 +1,264 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.4%   (  86)
+
+Percent Correct           =   93.4%   (1090)
+
+Percent Substitution      =    5.4%   (  63)
+Percent Deletions         =    1.2%   (  14)
+Percent Insertions        =    0.8%   (   9)
+Percent Word Accuracy     =   92.6%
+
+
+Ref. words                =           (1167)
+Hyp. words                =           (1162)
+Aligned words             =           (1176)
+
+CONFUSION PAIRS                  Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    4  ->  that ==> but
+   2:    2  ->  weight ==> wait
+   3:    1  ->  a ==> her
+   4:    1  ->  a ==> of
+   5:    1  ->  address ==> addressed
+   6:    1  ->  and ==> if
+   7:    1  ->  and ==> then
+   8:    1  ->  as ==> of
+   9:    1  ->  cake ==> cage
+  10:    1  ->  climbed ==> climbs
+  11:    1  ->  closed ==> close
+  12:    1  ->  complied ==> complies
+  13:    1  ->  count ==> 47th
+  14:    1  ->  daisy ==> baby
+  15:    1  ->  dalian ==> dalliance
+  16:    1  ->  depth ==> depths
+  17:    1  ->  emotionally ==> motionless
+  18:    1  ->  enchantment ==> enchantments
+  19:    1  ->  ensue ==> ensues
+  20:    1  ->  first ==> just
+  21:    1  ->  go ==> gold
+  22:    1  ->  good ==> masterhood
+  23:    1  ->  have ==> am
+  24:    1  ->  holds ==> holes
+  25:    1  ->  in ==> also
+  26:    1  ->  it ==> its
+  27:    1  ->  it ==> what
+  28:    1  ->  just ==> obscene
+  29:    1  ->  land ==> lamps
+  30:    1  ->  mold ==> mole
+  31:    1  ->  odor ==> odour
+  32:    1  ->  of ==> at
+  33:    1  ->  of ==> canto
+  34:    1  ->  of ==> off
+  35:    1  ->  on ==> in
+  36:    1  ->  path ==> paw
+  37:    1  ->  pithead ==> head
+  38:    1  ->  point ==> ballpoint
+  39:    1  ->  rumors ==> rumours
+  40:    1  ->  scarp ==> scarped
+  41:    1  ->  seen ==> an
+  42:    1  ->  seventh ==> pam's
+  43:    1  ->  shaped ==> shape
+  44:    1  ->  sheet ==> sheets
+  45:    1  ->  shoulder ==> shoulders
+  46:    1  ->  softest ==> softer
+  47:    1  ->  start ==> stars
+  48:    1  ->  the ==> a
+  49:    1  ->  then ==> end
+  50:    1  ->  there ==> here
+  51:    1  ->  to ==> thought
+  52:    1  ->  until ==> till
+  53:    1  ->  was ==> with
+  54:    1  ->  when ==> soccer
+  55:    1  ->  with ==> at
+  56:    1  ->  x ==> first
+  57:    1  ->  x ==> that's
+  58:    1  ->  yards' ==> yards
+  59:    1  ->  your ==> gesture
+     -------
+        63
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  will
+   2:    1  ->  and
+   3:    1  ->  as
+   4:    1  ->  davyland
+   5:    1  ->  have
+   6:    1  ->  is
+   7:    1  ->  pit
+   8:    1  ->  poem
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  and
+   2:    1  ->  ball
+   3:    1  ->  debut
+   4:    1  ->  f
+   5:    1  ->  forty
+   6:    1  ->  had
+   7:    1  ->  have
+   8:    1  ->  it
+   9:    1  ->  master
+  10:    1  ->  of
+  11:    1  ->  saw
+  12:    1  ->  succor
+  13:    1  ->  with
+  14:    1  ->  x
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    4  ->  that
+   2:    3  ->  of
+   3:    2  ->  a
+   4:    2  ->  and
+   5:    2  ->  it
+   6:    2  ->  weight
+   7:    2  ->  x
+   8:    1  ->  address
+   9:    1  ->  as
+  10:    1  ->  cake
+  11:    1  ->  climbed
+  12:    1  ->  closed
+  13:    1  ->  complied
+  14:    1  ->  count
+  15:    1  ->  daisy
+  16:    1  ->  dalian
+  17:    1  ->  depth
+  18:    1  ->  emotionally
+  19:    1  ->  enchantment
+  20:    1  ->  ensue
+  21:    1  ->  first
+  22:    1  ->  go
+  23:    1  ->  good
+  24:    1  ->  have
+  25:    1  ->  holds
+  26:    1  ->  in
+  27:    1  ->  just
+  28:    1  ->  land
+  29:    1  ->  mold
+  30:    1  ->  odor
+  31:    1  ->  on
+  32:    1  ->  path
+  33:    1  ->  pithead
+  34:    1  ->  point
+  35:    1  ->  rumors
+  36:    1  ->  scarp
+  37:    1  ->  seen
+  38:    1  ->  seventh
+  39:    1  ->  shaped
+  40:    1  ->  sheet
+  41:    1  ->  shoulder
+  42:    1  ->  softest
+  43:    1  ->  start
+  44:    1  ->  the
+  45:    1  ->  then
+  46:    1  ->  there
+  47:    1  ->  to
+  48:    1  ->  until
+  49:    1  ->  was
+  50:    1  ->  when
+  51:    1  ->  with
+  52:    1  ->  yards'
+  53:    1  ->  your
+     -------
+        63
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (57)
+                                 With >=  1 occurrences (57)
+
+   1:    4  ->  but
+   2:    2  ->  at
+   3:    2  ->  of
+   4:    2  ->  wait
+   5:    1  ->  47th
+   6:    1  ->  a
+   7:    1  ->  addressed
+   8:    1  ->  also
+   9:    1  ->  am
+  10:    1  ->  an
+  11:    1  ->  baby
+  12:    1  ->  ballpoint
+  13:    1  ->  cage
+  14:    1  ->  canto
+  15:    1  ->  climbs
+  16:    1  ->  close
+  17:    1  ->  complies
+  18:    1  ->  dalliance
+  19:    1  ->  depths
+  20:    1  ->  enchantments
+  21:    1  ->  end
+  22:    1  ->  ensues
+  23:    1  ->  first
+  24:    1  ->  gesture
+  25:    1  ->  gold
+  26:    1  ->  head
+  27:    1  ->  her
+  28:    1  ->  here
+  29:    1  ->  holes
+  30:    1  ->  if
+  31:    1  ->  in
+  32:    1  ->  its
+  33:    1  ->  just
+  34:    1  ->  lamps
+  35:    1  ->  masterhood
+  36:    1  ->  mole
+  37:    1  ->  motionless
+  38:    1  ->  obscene
+  39:    1  ->  odour
+  40:    1  ->  off
+  41:    1  ->  pam's
+  42:    1  ->  paw
+  43:    1  ->  rumours
+  44:    1  ->  scarped
+  45:    1  ->  shape
+  46:    1  ->  sheets
+  47:    1  ->  shoulders
+  48:    1  ->  soccer
+  49:    1  ->  softer
+  50:    1  ->  stars
+  51:    1  ->  that's
+  52:    1  ->  then
+  53:    1  ->  thought
+  54:    1  ->  till
+  55:    1  ->  what
+  56:    1  ->  with
+  57:    1  ->  yards
+     -------
+        63
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

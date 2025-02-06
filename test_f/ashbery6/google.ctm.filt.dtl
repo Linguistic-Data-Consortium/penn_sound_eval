@@ -1,0 +1,145 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.1%   (  41)
+
+Percent Correct           =   96.4%   ( 952)
+
+Percent Substitution      =    1.7%   (  17)
+Percent Deletions         =    1.9%   (  19)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   95.9%
+
+
+Ref. words                =           ( 988)
+Hyp. words                =           ( 974)
+Aligned words             =           ( 993)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  air ==> openair
+   2:    1  ->  always ==> was
+   3:    1  ->  analytical ==> selfanalytical
+   4:    1  ->  as ==> his
+   5:    1  ->  balks ==> bulks
+   6:    1  ->  bolinas ==> bolinus
+   7:    1  ->  dollhouse ==> house
+   8:    1  ->  falbalas ==> ballazes
+   9:    1  ->  gyrating ==> girating
+  10:    1  ->  in ==> foul
+  11:    1  ->  keystone ==> midkeystone
+  12:    1  ->  others ==> others'
+  13:    1  ->  prefaced ==> preface
+  14:    1  ->  raban ==> rabban
+  15:    1  ->  stares ==> stairs
+  16:    1  ->  the ==> a
+  17:    1  ->  too ==> two
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  not
+   2:    1  ->  all
+   3:    1  ->  and
+   4:    1  ->  doll
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    1  ->  at
+   4:    1  ->  autumn
+   5:    1  ->  crocuses
+   6:    1  ->  dry
+   7:    1  ->  fall
+   8:    1  ->  feet
+   9:    1  ->  like
+  10:    1  ->  mid
+  11:    1  ->  open
+  12:    1  ->  our
+  13:    1  ->  pale
+  14:    1  ->  projects
+  15:    1  ->  self
+  16:    1  ->  the
+  17:    1  ->  to
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  air
+   2:    1  ->  always
+   3:    1  ->  analytical
+   4:    1  ->  as
+   5:    1  ->  balks
+   6:    1  ->  bolinas
+   7:    1  ->  dollhouse
+   8:    1  ->  falbalas
+   9:    1  ->  gyrating
+  10:    1  ->  in
+  11:    1  ->  keystone
+  12:    1  ->  others
+  13:    1  ->  prefaced
+  14:    1  ->  raban
+  15:    1  ->  stares
+  16:    1  ->  the
+  17:    1  ->  too
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  a
+   2:    1  ->  ballazes
+   3:    1  ->  bolinus
+   4:    1  ->  bulks
+   5:    1  ->  foul
+   6:    1  ->  girating
+   7:    1  ->  his
+   8:    1  ->  house
+   9:    1  ->  midkeystone
+  10:    1  ->  openair
+  11:    1  ->  others'
+  12:    1  ->  preface
+  13:    1  ->  rabban
+  14:    1  ->  selfanalytical
+  15:    1  ->  stairs
+  16:    1  ->  two
+  17:    1  ->  was
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,112 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    1.9%   (  20)
+
+Percent Correct           =   98.3%   (1015)
+
+Percent Substitution      =    1.0%   (  10)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   98.1%
+
+
+Ref. words                =           (1033)
+Hyp. words                =           (1027)
+Aligned words             =           (1035)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  experience ==> experienced
+   2:    1  ->  feeling's ==> feelings
+   3:    1  ->  for ==> from
+   4:    1  ->  haunted ==> hunted
+   5:    1  ->  it ==> and
+   6:    1  ->  moods ==> moves
+   7:    1  ->  over ==> of
+   8:    1  ->  protest ==> protests
+   9:    1  ->  ten ==> oh
+  10:    1  ->  thirty ==> oh
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  thank
+   2:    1  ->  you
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  as
+   3:    1  ->  deep
+   4:    1  ->  fat
+   5:    1  ->  had
+   6:    1  ->  ho
+   7:    1  ->  o
+   8:    1  ->  rid
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  experience
+   2:    1  ->  feeling's
+   3:    1  ->  for
+   4:    1  ->  haunted
+   5:    1  ->  it
+   6:    1  ->  moods
+   7:    1  ->  over
+   8:    1  ->  protest
+   9:    1  ->  ten
+  10:    1  ->  thirty
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  oh
+   2:    1  ->  and
+   3:    1  ->  experienced
+   4:    1  ->  feelings
+   5:    1  ->  from
+   6:    1  ->  hunted
+   7:    1  ->  moves
+   8:    1  ->  of
+   9:    1  ->  protests
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

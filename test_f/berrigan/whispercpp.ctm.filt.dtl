@@ -1,0 +1,163 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.6%   (  44)
+
+Percent Correct           =   96.8%   ( 935)
+
+Percent Substitution      =    2.6%   (  25)
+Percent Deletions         =    0.6%   (   6)
+Percent Insertions        =    1.3%   (  13)
+Percent Word Accuracy     =   95.4%
+
+
+Ref. words                =           ( 966)
+Hyp. words                =           ( 973)
+Aligned words             =           ( 979)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  and ==> aunt
+   2:    1  ->  audibly ==> inaudibly
+   3:    1  ->  benefits ==> benefit
+   4:    1  ->  blank's ==> blanks
+   5:    1  ->  given ==> its
+   6:    1  ->  in ==> people
+   7:    1  ->  in ==> the
+   8:    1  ->  lightning ==> lightening
+   9:    1  ->  mangoes ==> mangos
+  10:    1  ->  mosquitos ==> mosquitoes
+  11:    1  ->  off ==> jackoff
+  12:    1  ->  out ==> these
+  13:    1  ->  paterson ==> patterson
+  14:    1  ->  pity ==> selfpity
+  15:    1  ->  shaded ==> palmshaded
+  16:    1  ->  stomachaches ==> aches
+  17:    1  ->  suite ==> sweet
+  18:    1  ->  tout ==> too
+  19:    1  ->  very ==> finished
+  20:    1  ->  were ==> give
+  21:    1  ->  what ==> minute
+  22:    1  ->  x ==> a
+  23:    1  ->  x ==> harris
+  24:    1  ->  x ==> move
+  25:    1  ->  x ==> winnie
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  anyway
+   3:    1  ->  death
+   4:    1  ->  just
+   5:    1  ->  laugh
+   6:    1  ->  longawaited
+   7:    1  ->  make
+   8:    1  ->  stomach
+   9:    1  ->  them
+  10:    1  ->  to
+  11:    1  ->  wanted
+  12:    1  ->  what
+  13:    1  ->  will
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  jack
+   2:    1  ->  not
+   3:    1  ->  on
+   4:    1  ->  palm
+   5:    1  ->  self
+   6:    1  ->  x
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    4  ->  x
+   2:    2  ->  in
+   3:    1  ->  and
+   4:    1  ->  audibly
+   5:    1  ->  benefits
+   6:    1  ->  blank's
+   7:    1  ->  given
+   8:    1  ->  lightning
+   9:    1  ->  mangoes
+  10:    1  ->  mosquitos
+  11:    1  ->  off
+  12:    1  ->  out
+  13:    1  ->  paterson
+  14:    1  ->  pity
+  15:    1  ->  shaded
+  16:    1  ->  stomachaches
+  17:    1  ->  suite
+  18:    1  ->  tout
+  19:    1  ->  very
+  20:    1  ->  were
+  21:    1  ->  what
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  a
+   2:    1  ->  aches
+   3:    1  ->  aunt
+   4:    1  ->  benefit
+   5:    1  ->  blanks
+   6:    1  ->  finished
+   7:    1  ->  give
+   8:    1  ->  harris
+   9:    1  ->  inaudibly
+  10:    1  ->  its
+  11:    1  ->  jackoff
+  12:    1  ->  lightening
+  13:    1  ->  mangos
+  14:    1  ->  minute
+  15:    1  ->  mosquitoes
+  16:    1  ->  move
+  17:    1  ->  palmshaded
+  18:    1  ->  patterson
+  19:    1  ->  people
+  20:    1  ->  selfpity
+  21:    1  ->  sweet
+  22:    1  ->  the
+  23:    1  ->  these
+  24:    1  ->  too
+  25:    1  ->  winnie
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

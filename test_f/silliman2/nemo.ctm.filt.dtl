@@ -1,0 +1,207 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.5%   (  62)
+
+Percent Correct           =   94.5%   ( 897)
+
+Percent Substitution      =    3.9%   (  37)
+Percent Deletions         =    1.6%   (  15)
+Percent Insertions        =    1.1%   (  10)
+Percent Word Accuracy     =   93.5%
+
+
+Ref. words                =           ( 949)
+Hyp. words                =           ( 944)
+Aligned words             =           ( 959)
+
+CONFUSION PAIRS                  Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    1  ->  and ==> years
+   2:    1  ->  as ==> is
+   3:    1  ->  burned ==> bird
+   4:    1  ->  corners ==> corner
+   5:    1  ->  defies ==> buys
+   6:    1  ->  dream ==> dreams
+   7:    1  ->  face ==> base
+   8:    1  ->  googawed ==> gawed
+   9:    1  ->  gullywasher ==> washer
+  10:    1  ->  have ==> had
+  11:    1  ->  his ==> this
+  12:    1  ->  in ==> and
+  13:    1  ->  is ==> begins
+  14:    1  ->  it ==> move
+  15:    1  ->  it's ==> the
+  16:    1  ->  kit ==> kitchen
+  17:    1  ->  laid ==> late
+  18:    1  ->  lingonberry ==> berry
+  19:    1  ->  mowed ==> moment
+  20:    1  ->  occurred ==> heard
+  21:    1  ->  one ==> mine
+  22:    1  ->  our ==> her
+  23:    1  ->  penny's ==> pennies
+  24:    1  ->  people ==> peopled
+  25:    1  ->  plaster ==> plastic
+  26:    1  ->  shower ==> showers
+  27:    1  ->  skivvies ==> skibbies
+  28:    1  ->  through ==> for
+  29:    1  ->  travelled ==> travels
+  30:    1  ->  turned ==> turn
+  31:    1  ->  until ==> that
+  32:    1  ->  until ==> till
+  33:    1  ->  wearing ==> a
+  34:    1  ->  weights ==> wakes
+  35:    1  ->  wetlands ==> way
+  36:    1  ->  whistle ==> muscle
+  37:    1  ->  woolworth ==> woolworths
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  and
+   2:    1  ->  fifteen
+   3:    1  ->  goo
+   4:    1  ->  gully
+   5:    1  ->  is
+   6:    1  ->  it
+   7:    1  ->  so
+   8:    1  ->  that
+   9:    1  ->  wear
+  10:    1  ->  william
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  that
+   2:    1  ->  am
+   3:    1  ->  and
+   4:    1  ->  are
+   5:    1  ->  difficult
+   6:    1  ->  do
+   7:    1  ->  fence
+   8:    1  ->  over
+   9:    1  ->  ring
+  10:    1  ->  salt
+  11:    1  ->  the
+  12:    1  ->  themselves
+  13:    1  ->  what
+  14:    1  ->  wire
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  until
+   2:    1  ->  and
+   3:    1  ->  as
+   4:    1  ->  burned
+   5:    1  ->  corners
+   6:    1  ->  defies
+   7:    1  ->  dream
+   8:    1  ->  face
+   9:    1  ->  googawed
+  10:    1  ->  gullywasher
+  11:    1  ->  have
+  12:    1  ->  his
+  13:    1  ->  in
+  14:    1  ->  is
+  15:    1  ->  it
+  16:    1  ->  it's
+  17:    1  ->  kit
+  18:    1  ->  laid
+  19:    1  ->  lingonberry
+  20:    1  ->  mowed
+  21:    1  ->  occurred
+  22:    1  ->  one
+  23:    1  ->  our
+  24:    1  ->  penny's
+  25:    1  ->  people
+  26:    1  ->  plaster
+  27:    1  ->  shower
+  28:    1  ->  skivvies
+  29:    1  ->  through
+  30:    1  ->  travelled
+  31:    1  ->  turned
+  32:    1  ->  wearing
+  33:    1  ->  weights
+  34:    1  ->  wetlands
+  35:    1  ->  whistle
+  36:    1  ->  woolworth
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  base
+   4:    1  ->  begins
+   5:    1  ->  berry
+   6:    1  ->  bird
+   7:    1  ->  buys
+   8:    1  ->  corner
+   9:    1  ->  dreams
+  10:    1  ->  for
+  11:    1  ->  gawed
+  12:    1  ->  had
+  13:    1  ->  heard
+  14:    1  ->  her
+  15:    1  ->  is
+  16:    1  ->  kitchen
+  17:    1  ->  late
+  18:    1  ->  mine
+  19:    1  ->  moment
+  20:    1  ->  move
+  21:    1  ->  muscle
+  22:    1  ->  pennies
+  23:    1  ->  peopled
+  24:    1  ->  plastic
+  25:    1  ->  showers
+  26:    1  ->  skibbies
+  27:    1  ->  that
+  28:    1  ->  the
+  29:    1  ->  this
+  30:    1  ->  till
+  31:    1  ->  travels
+  32:    1  ->  turn
+  33:    1  ->  wakes
+  34:    1  ->  washer
+  35:    1  ->  way
+  36:    1  ->  woolworths
+  37:    1  ->  years
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

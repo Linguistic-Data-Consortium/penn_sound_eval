@@ -1,0 +1,142 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.5%   (  38)
+
+Percent Correct           =   96.9%   (1062)
+
+Percent Substitution      =    1.5%   (  16)
+Percent Deletions         =    1.6%   (  18)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   96.5%
+
+
+Ref. words                =           (1096)
+Hyp. words                =           (1082)
+Aligned words             =           (1100)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  days ==> is
+   2:    1  ->  fall ==> befall
+   3:    1  ->  fours ==> four
+   4:    1  ->  gnossienne ==> gnosien
+   5:    1  ->  immigrated ==> emigrated
+   6:    1  ->  into ==> a
+   7:    1  ->  jicky ==> jiki
+   8:    1  ->  later ==> late
+   9:    1  ->  nineteenth ==> 19th
+  10:    1  ->  read ==> red
+  11:    1  ->  refused ==> refuse
+  12:    1  ->  route ==> root
+  13:    1  ->  seem ==> seemed
+  14:    1  ->  survive ==> survived
+  15:    1  ->  take ==> taken
+  16:    1  ->  ways ==> way
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  day
+   2:    1  ->  in
+   3:    1  ->  the
+   4:    1  ->  was
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  s
+   2:    1  ->  a
+   3:    1  ->  basins
+   4:    1  ->  be
+   5:    1  ->  by
+   6:    1  ->  catch
+   7:    1  ->  collects
+   8:    1  ->  enigma
+   9:    1  ->  in
+  10:    1  ->  reason's
+  11:    1  ->  scheherazade
+  12:    1  ->  squared
+  13:    1  ->  stone
+  14:    1  ->  the
+  15:    1  ->  unsupported
+  16:    1  ->  was
+  17:    1  ->  water
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  days
+   2:    1  ->  fall
+   3:    1  ->  fours
+   4:    1  ->  gnossienne
+   5:    1  ->  immigrated
+   6:    1  ->  into
+   7:    1  ->  jicky
+   8:    1  ->  later
+   9:    1  ->  nineteenth
+  10:    1  ->  read
+  11:    1  ->  refused
+  12:    1  ->  route
+  13:    1  ->  seem
+  14:    1  ->  survive
+  15:    1  ->  take
+  16:    1  ->  ways
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  19th
+   2:    1  ->  a
+   3:    1  ->  befall
+   4:    1  ->  emigrated
+   5:    1  ->  four
+   6:    1  ->  gnosien
+   7:    1  ->  is
+   8:    1  ->  jiki
+   9:    1  ->  late
+  10:    1  ->  red
+  11:    1  ->  refuse
+  12:    1  ->  root
+  13:    1  ->  seemed
+  14:    1  ->  survived
+  15:    1  ->  taken
+  16:    1  ->  way
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,280 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.8%   ( 107)
+
+Percent Correct           =   91.3%   (1107)
+
+Percent Substitution      =    5.9%   (  71)
+Percent Deletions         =    2.8%   (  34)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   91.2%
+
+
+Ref. words                =           (1212)
+Hyp. words                =           (1180)
+Aligned words             =           (1214)
+
+CONFUSION PAIRS                  Total                 (69)
+                                 With >=  1 occurrences (69)
+
+   1:    3  ->  reuben ==> ruben
+   2:    1  ->  abacus ==> advocate
+   3:    1  ->  accomplices ==> accomplishes
+   4:    1  ->  adjectivize ==> objective
+   5:    1  ->  alleys ==> alley
+   6:    1  ->  alone ==> along
+   7:    1  ->  and ==> an
+   8:    1  ->  and ==> temple
+   9:    1  ->  arithmatic ==> arithmetic
+  10:    1  ->  ass ==> ***
+  11:    1  ->  bad ==> that
+  12:    1  ->  beaucoup ==> tam
+  13:    1  ->  beaucoup ==> your
+  14:    1  ->  behinds ==> behind
+  15:    1  ->  creases ==> increases
+  16:    1  ->  douche ==> dish
+  17:    1  ->  e ==> aime
+  18:    1  ->  end ==> and
+  19:    1  ->  et ==> as
+  20:    1  ->  every ==> whenever
+  21:    1  ->  faces ==> face
+  22:    1  ->  him ==> them
+  23:    1  ->  i ==> any
+  24:    1  ->  in ==> an
+  25:    1  ->  in ==> and
+  26:    1  ->  it's ==> there's
+  27:    1  ->  je ==> comes
+  28:    1  ->  je ==> joan
+  29:    1  ->  je ==> tambo
+  30:    1  ->  je ==> you
+  31:    1  ->  je ==> your
+  32:    1  ->  kiss ==> kissed
+  33:    1  ->  long ==> belong
+  34:    1  ->  looks ==> look
+  35:    1  ->  lust ==> last
+  36:    1  ->  moved ==> lead
+  37:    1  ->  myths ==> midst
+  38:    1  ->  null ==> all
+  39:    1  ->  or ==> of
+  40:    1  ->  ounce ==> apps
+  41:    1  ->  ounce ==> as
+  42:    1  ->  pegs ==> pigs
+  43:    1  ->  place ==> places
+  44:    1  ->  poems ==> post
+  45:    1  ->  poignant ==> point
+  46:    1  ->  poorer ==> poor
+  47:    1  ->  queens ==> acquaints
+  48:    1  ->  quran ==> korean
+  49:    1  ->  sod ==> it's
+  50:    1  ->  t ==> tam
+  51:    1  ->  t'aime ==> comes
+  52:    1  ->  t'aime ==> time
+  53:    1  ->  t'aime ==> your
+  54:    1  ->  temps ==> coup
+  55:    1  ->  temps ==> jam
+  56:    1  ->  temps ==> joan
+  57:    1  ->  temps ==> talk
+  58:    1  ->  the ==> this
+  59:    1  ->  then ==> the
+  60:    1  ->  titled ==> called
+  61:    1  ->  to ==> do
+  62:    1  ->  too ==> to
+  63:    1  ->  torah ==> tora
+  64:    1  ->  tout ==> to
+  65:    1  ->  valentines ==> valentine's
+  66:    1  ->  vulva ==> evolve
+  67:    1  ->  we ==> tips
+  68:    1  ->  will ==> were
+  69:    1  ->  with ==> a
+     -------
+        71
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  me
+   2:    1  ->  so
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    4  ->  a
+   2:    3  ->  he
+   3:    3  ->  i
+   4:    3  ->  je
+   5:    2  ->  and
+   6:    2  ->  comme
+   7:    2  ->  sees
+   8:    2  ->  t'aime
+   9:    2  ->  what
+  10:    1  ->  between
+  11:    1  ->  c
+  12:    1  ->  m
+  13:    1  ->  of
+  14:    1  ->  teepees
+  15:    1  ->  that
+  16:    1  ->  the
+  17:    1  ->  thinks
+  18:    1  ->  to
+  19:    1  ->  when
+  20:    1  ->  will
+     -------
+        34
+
+
+
+SUBSTITUTIONS                    Total                 (56)
+                                 With >=  1 occurrences (56)
+
+   1:    5  ->  je
+   2:    4  ->  temps
+   3:    3  ->  reuben
+   4:    3  ->  t'aime
+   5:    2  ->  and
+   6:    2  ->  beaucoup
+   7:    2  ->  in
+   8:    2  ->  ounce
+   9:    1  ->  abacus
+  10:    1  ->  accomplices
+  11:    1  ->  adjectivize
+  12:    1  ->  alleys
+  13:    1  ->  alone
+  14:    1  ->  arithmatic
+  15:    1  ->  ass
+  16:    1  ->  bad
+  17:    1  ->  behinds
+  18:    1  ->  creases
+  19:    1  ->  douche
+  20:    1  ->  e
+  21:    1  ->  end
+  22:    1  ->  et
+  23:    1  ->  every
+  24:    1  ->  faces
+  25:    1  ->  him
+  26:    1  ->  i
+  27:    1  ->  it's
+  28:    1  ->  kiss
+  29:    1  ->  long
+  30:    1  ->  looks
+  31:    1  ->  lust
+  32:    1  ->  moved
+  33:    1  ->  myths
+  34:    1  ->  null
+  35:    1  ->  or
+  36:    1  ->  pegs
+  37:    1  ->  place
+  38:    1  ->  poems
+  39:    1  ->  poignant
+  40:    1  ->  poorer
+  41:    1  ->  queens
+  42:    1  ->  quran
+  43:    1  ->  sod
+  44:    1  ->  t
+  45:    1  ->  the
+  46:    1  ->  then
+  47:    1  ->  titled
+  48:    1  ->  to
+  49:    1  ->  too
+  50:    1  ->  torah
+  51:    1  ->  tout
+  52:    1  ->  valentines
+  53:    1  ->  vulva
+  54:    1  ->  we
+  55:    1  ->  will
+  56:    1  ->  with
+     -------
+        71
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    3  ->  ruben
+   2:    3  ->  your
+   3:    2  ->  an
+   4:    2  ->  and
+   5:    2  ->  as
+   6:    2  ->  comes
+   7:    2  ->  joan
+   8:    2  ->  tam
+   9:    2  ->  to
+  10:    1  ->  ***
+  11:    1  ->  a
+  12:    1  ->  accomplishes
+  13:    1  ->  acquaints
+  14:    1  ->  advocate
+  15:    1  ->  aime
+  16:    1  ->  all
+  17:    1  ->  alley
+  18:    1  ->  along
+  19:    1  ->  any
+  20:    1  ->  apps
+  21:    1  ->  arithmetic
+  22:    1  ->  behind
+  23:    1  ->  belong
+  24:    1  ->  called
+  25:    1  ->  coup
+  26:    1  ->  dish
+  27:    1  ->  do
+  28:    1  ->  evolve
+  29:    1  ->  face
+  30:    1  ->  increases
+  31:    1  ->  it's
+  32:    1  ->  jam
+  33:    1  ->  kissed
+  34:    1  ->  korean
+  35:    1  ->  last
+  36:    1  ->  lead
+  37:    1  ->  look
+  38:    1  ->  midst
+  39:    1  ->  objective
+  40:    1  ->  of
+  41:    1  ->  pigs
+  42:    1  ->  places
+  43:    1  ->  point
+  44:    1  ->  poor
+  45:    1  ->  post
+  46:    1  ->  talk
+  47:    1  ->  tambo
+  48:    1  ->  temple
+  49:    1  ->  that
+  50:    1  ->  the
+  51:    1  ->  them
+  52:    1  ->  there's
+  53:    1  ->  this
+  54:    1  ->  time
+  55:    1  ->  tips
+  56:    1  ->  tora
+  57:    1  ->  valentine's
+  58:    1  ->  were
+  59:    1  ->  whenever
+  60:    1  ->  you
+     -------
+        71
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

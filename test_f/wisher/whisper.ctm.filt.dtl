@@ -1,0 +1,170 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.9%   (  38)
+
+Percent Correct           =   96.5%   ( 944)
+
+Percent Substitution      =    3.3%   (  32)
+Percent Deletions         =    0.2%   (   2)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   96.1%
+
+
+Ref. words                =           ( 978)
+Hyp. words                =           ( 980)
+Aligned words             =           ( 982)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  in ==> and
+   2:    1  ->  ailing ==> in
+   3:    1  ->  all ==> 'all
+   4:    1  ->  banton ==> bantan
+   5:    1  ->  bellay ==> belay
+   6:    1  ->  boll ==> bull
+   7:    1  ->  buju ==> boujou
+   8:    1  ->  coltraine ==> coltrane
+   9:    1  ->  dido ==> dito
+  10:    1  ->  du ==> do
+  11:    1  ->  eye ==> i
+  12:    1  ->  fifth ==> 45th
+  13:    1  ->  fourth ==> 44th
+  14:    1  ->  ghost ==> ghosts
+  15:    1  ->  high ==> i
+  16:    1  ->  martyr ==> martyrs
+  17:    1  ->  montigo ==> montego
+  18:    1  ->  ninety ==> nine
+  19:    1  ->  noel ==> noelle
+  20:    1  ->  plotting ==> plottin'
+  21:    1  ->  prez ==> prayers
+  22:    1  ->  raps ==> rats
+  23:    1  ->  shearling ==> shirling
+  24:    1  ->  sipping ==> sippin'
+  25:    1  ->  slims ==> slim
+  26:    1  ->  threatened ==> threaten
+  27:    1  ->  turncoats ==> turncoach
+  28:    1  ->  virginia ==> virginia's
+  29:    1  ->  wiz ==> whiz
+  30:    1  ->  you ==> y
+  31:    1  ->  yvonda's ==> yvanda's
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  ale
+   2:    1  ->  mmm
+   3:    1  ->  thank
+   4:    1  ->  you
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    2  ->  forty
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  in
+   2:    1  ->  ailing
+   3:    1  ->  all
+   4:    1  ->  banton
+   5:    1  ->  bellay
+   6:    1  ->  boll
+   7:    1  ->  buju
+   8:    1  ->  coltraine
+   9:    1  ->  dido
+  10:    1  ->  du
+  11:    1  ->  eye
+  12:    1  ->  fifth
+  13:    1  ->  fourth
+  14:    1  ->  ghost
+  15:    1  ->  high
+  16:    1  ->  martyr
+  17:    1  ->  montigo
+  18:    1  ->  ninety
+  19:    1  ->  noel
+  20:    1  ->  plotting
+  21:    1  ->  prez
+  22:    1  ->  raps
+  23:    1  ->  shearling
+  24:    1  ->  sipping
+  25:    1  ->  slims
+  26:    1  ->  threatened
+  27:    1  ->  turncoats
+  28:    1  ->  virginia
+  29:    1  ->  wiz
+  30:    1  ->  you
+  31:    1  ->  yvonda's
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  and
+   2:    2  ->  i
+   3:    1  ->  'all
+   4:    1  ->  44th
+   5:    1  ->  45th
+   6:    1  ->  bantan
+   7:    1  ->  belay
+   8:    1  ->  boujou
+   9:    1  ->  bull
+  10:    1  ->  coltrane
+  11:    1  ->  dito
+  12:    1  ->  do
+  13:    1  ->  ghosts
+  14:    1  ->  in
+  15:    1  ->  martyrs
+  16:    1  ->  montego
+  17:    1  ->  nine
+  18:    1  ->  noelle
+  19:    1  ->  plottin'
+  20:    1  ->  prayers
+  21:    1  ->  rats
+  22:    1  ->  shirling
+  23:    1  ->  sippin'
+  24:    1  ->  slim
+  25:    1  ->  threaten
+  26:    1  ->  turncoach
+  27:    1  ->  virginia's
+  28:    1  ->  whiz
+  29:    1  ->  y
+  30:    1  ->  yvanda's
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

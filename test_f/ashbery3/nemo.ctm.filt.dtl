@@ -1,0 +1,129 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.9%   (  46)
+
+Percent Correct           =   95.7%   ( 907)
+
+Percent Substitution      =    1.4%   (  13)
+Percent Deletions         =    3.0%   (  28)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   95.1%
+
+
+Ref. words                =           ( 948)
+Hyp. words                =           ( 925)
+Aligned words             =           ( 953)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  ashbery ==> ashbury
+   2:    2  ->  ashbery's ==> ashbury's
+   3:    1  ->  an ==> and
+   4:    1  ->  and ==> but
+   5:    1  ->  elliott ==> eliot
+   6:    1  ->  its ==> it's
+   7:    1  ->  need ==> needed
+   8:    1  ->  not ==> no
+   9:    1  ->  shown ==> shone
+  10:    1  ->  the ==> a
+  11:    1  ->  would ==> will
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  it
+   3:    1  ->  stronger
+   4:    1  ->  than
+   5:    1  ->  the
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    5  ->  a
+   2:    4  ->  i
+   3:    2  ->  and
+   4:    2  ->  it
+   5:    2  ->  of
+   6:    1  ->  did
+   7:    1  ->  going
+   8:    1  ->  had
+   9:    1  ->  in
+  10:    1  ->  not
+  11:    1  ->  p
+  12:    1  ->  r
+  13:    1  ->  stop
+  14:    1  ->  that
+  15:    1  ->  to
+  16:    1  ->  was
+  17:    1  ->  when
+  18:    1  ->  x
+     -------
+        28
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  ashbery
+   2:    2  ->  ashbery's
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  elliott
+   6:    1  ->  its
+   7:    1  ->  need
+   8:    1  ->  not
+   9:    1  ->  shown
+  10:    1  ->  the
+  11:    1  ->  would
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  ashbury
+   2:    2  ->  ashbury's
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  but
+   6:    1  ->  eliot
+   7:    1  ->  it's
+   8:    1  ->  needed
+   9:    1  ->  no
+  10:    1  ->  shone
+  11:    1  ->  will
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

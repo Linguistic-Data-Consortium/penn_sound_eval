@@ -1,0 +1,218 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.8%   (  88)
+
+Percent Correct           =   90.3%   ( 737)
+
+Percent Substitution      =    4.8%   (  39)
+Percent Deletions         =    4.9%   (  40)
+Percent Insertions        =    1.1%   (   9)
+Percent Word Accuracy     =   89.2%
+
+
+Ref. words                =           ( 816)
+Hyp. words                =           ( 785)
+Aligned words             =           ( 825)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  chez ==> shay
+   2:    2  ->  feet ==> ft
+   3:    2  ->  guerneville ==> grenville
+   4:    2  ->  sempervirens ==> vns
+   5:    1  ->  all ==> i
+   6:    1  ->  audible ==> book
+   7:    1  ->  been ==> nothing
+   8:    1  ->  blacklight ==> light
+   9:    1  ->  br ==> brother
+  10:    1  ->  bromeliads ==> meads
+  11:    1  ->  burl ==> burrow
+  12:    1  ->  cambium ==> cambone
+  13:    1  ->  coffeepot ==> pot
+  14:    1  ->  courvoisier ==> kvas
+  15:    1  ->  forty ==> four
+  16:    1  ->  frances ==> francis
+  17:    1  ->  grew ==> of
+  18:    1  ->  healy ==> healey
+  19:    1  ->  in ==> on
+  20:    1  ->  jeanne ==> gene
+  21:    1  ->  menthe ==> dein
+  22:    1  ->  mike ==> think
+  23:    1  ->  mo ==> moved
+  24:    1  ->  on ==> in
+  25:    1  ->  pelted ==> pelt
+  26:    1  ->  souther ==> southern
+  27:    1  ->  stoles ==> stalls
+  28:    1  ->  stolichnaya ==> stoica
+  29:    1  ->  then ==> and
+  30:    1  ->  thirty ==> three
+  31:    1  ->  thousand ==> 90000
+  32:    1  ->  unflattened ==> flattened
+  33:    1  ->  was ==> it's
+  34:    1  ->  woods ==> redwoods
+  35:    1  ->  y ==> of
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  a
+   2:    2  ->  semper
+   3:    1  ->  black
+   4:    1  ->  coffee
+   5:    1  ->  group
+   6:    1  ->  i
+   7:    1  ->  un
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  i
+   2:    3  ->  it
+   3:    2  ->  it's
+   4:    2  ->  yeah
+   5:    1  ->  a
+   6:    1  ->  am
+   7:    1  ->  been
+   8:    1  ->  br
+   9:    1  ->  course
+  10:    1  ->  de
+  11:    1  ->  f
+  12:    1  ->  have
+  13:    1  ->  here
+  14:    1  ->  in
+  15:    1  ->  is
+  16:    1  ->  items
+  17:    1  ->  k.
+  18:    1  ->  like
+  19:    1  ->  might
+  20:    1  ->  my
+  21:    1  ->  ninety
+  22:    1  ->  no
+  23:    1  ->  not
+  24:    1  ->  o.
+  25:    1  ->  of
+  26:    1  ->  one
+  27:    1  ->  ph
+  28:    1  ->  red
+  29:    1  ->  tha
+  30:    1  ->  the
+  31:    1  ->  there's
+  32:    1  ->  wagon
+  33:    1  ->  was
+  34:    1  ->  welcome
+     -------
+        40
+
+
+
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  chez
+   2:    2  ->  feet
+   3:    2  ->  guerneville
+   4:    2  ->  sempervirens
+   5:    1  ->  all
+   6:    1  ->  audible
+   7:    1  ->  been
+   8:    1  ->  blacklight
+   9:    1  ->  br
+  10:    1  ->  bromeliads
+  11:    1  ->  burl
+  12:    1  ->  cambium
+  13:    1  ->  coffeepot
+  14:    1  ->  courvoisier
+  15:    1  ->  forty
+  16:    1  ->  frances
+  17:    1  ->  grew
+  18:    1  ->  healy
+  19:    1  ->  in
+  20:    1  ->  jeanne
+  21:    1  ->  menthe
+  22:    1  ->  mike
+  23:    1  ->  mo
+  24:    1  ->  on
+  25:    1  ->  pelted
+  26:    1  ->  souther
+  27:    1  ->  stoles
+  28:    1  ->  stolichnaya
+  29:    1  ->  then
+  30:    1  ->  thirty
+  31:    1  ->  thousand
+  32:    1  ->  unflattened
+  33:    1  ->  was
+  34:    1  ->  woods
+  35:    1  ->  y
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  ft
+   2:    2  ->  grenville
+   3:    2  ->  of
+   4:    2  ->  shay
+   5:    2  ->  vns
+   6:    1  ->  90000
+   7:    1  ->  and
+   8:    1  ->  book
+   9:    1  ->  brother
+  10:    1  ->  burrow
+  11:    1  ->  cambone
+  12:    1  ->  dein
+  13:    1  ->  flattened
+  14:    1  ->  four
+  15:    1  ->  francis
+  16:    1  ->  gene
+  17:    1  ->  healey
+  18:    1  ->  i
+  19:    1  ->  in
+  20:    1  ->  it's
+  21:    1  ->  kvas
+  22:    1  ->  light
+  23:    1  ->  meads
+  24:    1  ->  moved
+  25:    1  ->  nothing
+  26:    1  ->  on
+  27:    1  ->  pelt
+  28:    1  ->  pot
+  29:    1  ->  redwoods
+  30:    1  ->  southern
+  31:    1  ->  stalls
+  32:    1  ->  stoica
+  33:    1  ->  think
+  34:    1  ->  three
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

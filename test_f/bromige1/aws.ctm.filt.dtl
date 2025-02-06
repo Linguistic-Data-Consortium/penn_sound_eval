@@ -1,0 +1,207 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.0%   (  58)
+
+Percent Correct           =   95.7%   (1117)
+
+Percent Substitution      =    3.3%   (  39)
+Percent Deletions         =    0.9%   (  11)
+Percent Insertions        =    0.7%   (   8)
+Percent Word Accuracy     =   95.0%
+
+
+Ref. words                =           (1167)
+Hyp. words                =           (1164)
+Aligned words             =           (1175)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  back ==> fact
+   3:    1  ->  blue ==> bloom
+   4:    1  ->  cake ==> c
+   5:    1  ->  conifers ==> con
+   6:    1  ->  dazzled ==> basil
+   7:    1  ->  ease ==> vein
+   8:    1  ->  fate ==> faith
+   9:    1  ->  fierce ==> are
+  10:    1  ->  forty ==> pounds
+  11:    1  ->  gift ==> kids
+  12:    1  ->  group ==> test
+  13:    1  ->  hath ==> had
+  14:    1  ->  hundred ==> zero
+  15:    1  ->  inept ==> it
+  16:    1  ->  is ==> native
+  17:    1  ->  it ==> its
+  18:    1  ->  it ==> what
+  19:    1  ->  laughs ==> laughed
+  20:    1  ->  lift ==> left
+  21:    1  ->  merely ==> milly
+  22:    1  ->  mine ==> smile
+  23:    1  ->  outburst ==> burst
+  24:    1  ->  pen ==> 010
+  25:    1  ->  pickaxe ==> ax
+  26:    1  ->  scree ==> screens
+  27:    1  ->  seamed ==> seam
+  28:    1  ->  seventh ==> 47th
+  29:    1  ->  shaped ==> shape
+  30:    1  ->  should ==> ship
+  31:    1  ->  solved ==> solve
+  32:    1  ->  stepped ==> step
+  33:    1  ->  thought ==> fought
+  34:    1  ->  to ==> so
+  35:    1  ->  unending ==> empty
+  36:    1  ->  wherein ==> in
+  37:    1  ->  womanhood ==> woman
+  38:    1  ->  x ==> sauce
+  39:    1  ->  yards' ==> yards
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  fears
+   2:    1  ->  in
+   3:    1  ->  is
+   4:    1  ->  pick
+   5:    1  ->  pour
+   6:    1  ->  the
+   7:    1  ->  we
+   8:    1  ->  where
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  x
+   2:    1  ->  f
+   3:    1  ->  had
+   4:    1  ->  it
+   5:    1  ->  it's
+   6:    1  ->  night
+   7:    1  ->  point
+   8:    1  ->  saw
+   9:    1  ->  vain
+  10:    1  ->  who
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  it
+   2:    1  ->  a
+   3:    1  ->  back
+   4:    1  ->  blue
+   5:    1  ->  cake
+   6:    1  ->  conifers
+   7:    1  ->  dazzled
+   8:    1  ->  ease
+   9:    1  ->  fate
+  10:    1  ->  fierce
+  11:    1  ->  forty
+  12:    1  ->  gift
+  13:    1  ->  group
+  14:    1  ->  hath
+  15:    1  ->  hundred
+  16:    1  ->  inept
+  17:    1  ->  is
+  18:    1  ->  laughs
+  19:    1  ->  lift
+  20:    1  ->  merely
+  21:    1  ->  mine
+  22:    1  ->  outburst
+  23:    1  ->  pen
+  24:    1  ->  pickaxe
+  25:    1  ->  scree
+  26:    1  ->  seamed
+  27:    1  ->  seventh
+  28:    1  ->  shaped
+  29:    1  ->  should
+  30:    1  ->  solved
+  31:    1  ->  stepped
+  32:    1  ->  thought
+  33:    1  ->  to
+  34:    1  ->  unending
+  35:    1  ->  wherein
+  36:    1  ->  womanhood
+  37:    1  ->  x
+  38:    1  ->  yards'
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  010
+   2:    1  ->  47th
+   3:    1  ->  are
+   4:    1  ->  ax
+   5:    1  ->  basil
+   6:    1  ->  bloom
+   7:    1  ->  burst
+   8:    1  ->  c
+   9:    1  ->  con
+  10:    1  ->  empty
+  11:    1  ->  fact
+  12:    1  ->  faith
+  13:    1  ->  fought
+  14:    1  ->  had
+  15:    1  ->  in
+  16:    1  ->  it
+  17:    1  ->  its
+  18:    1  ->  kids
+  19:    1  ->  laughed
+  20:    1  ->  left
+  21:    1  ->  milly
+  22:    1  ->  native
+  23:    1  ->  pounds
+  24:    1  ->  sauce
+  25:    1  ->  screens
+  26:    1  ->  seam
+  27:    1  ->  shape
+  28:    1  ->  ship
+  29:    1  ->  smile
+  30:    1  ->  so
+  31:    1  ->  solve
+  32:    1  ->  step
+  33:    1  ->  test
+  34:    1  ->  the
+  35:    1  ->  vein
+  36:    1  ->  what
+  37:    1  ->  woman
+  38:    1  ->  yards
+  39:    1  ->  zero
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

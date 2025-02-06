@@ -1,0 +1,133 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.0%   (  47)
+
+Percent Correct           =   97.1%   ( 904)
+
+Percent Substitution      =    1.2%   (  11)
+Percent Deletions         =    1.7%   (  16)
+Percent Insertions        =    2.1%   (  20)
+Percent Word Accuracy     =   95.0%
+
+
+Ref. words                =           ( 931)
+Hyp. words                =           ( 935)
+Aligned words             =           ( 951)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  could ==> can
+   3:    1  ->  eleven ==> and
+   4:    1  ->  equivalence ==> equivalents
+   5:    1  ->  forgo ==> forego
+   6:    1  ->  of ==> a
+   7:    1  ->  ruined ==> weary
+   8:    1  ->  sanjo's ==> is
+   9:    1  ->  to ==> of
+  10:    1  ->  turn ==> turned
+  11:    1  ->  weeping ==> reaping
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    8  ->  hundred
+   2:    2  ->  and
+   3:    1  ->  andrews
+   4:    1  ->  are
+   5:    1  ->  individuals
+   6:    1  ->  of
+   7:    1  ->  one
+   8:    1  ->  these
+   9:    1  ->  thousand
+  10:    1  ->  time
+  11:    1  ->  to
+  12:    1  ->  you
+     -------
+        20
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  asl
+   2:    1  ->  at
+   3:    1  ->  conquistad
+   4:    1  ->  fast
+   5:    1  ->  have
+   6:    1  ->  i
+   7:    1  ->  its
+   8:    1  ->  lived
+   9:    1  ->  neighbour
+  10:    1  ->  quote
+  11:    1  ->  res
+  12:    1  ->  terrai
+  13:    1  ->  that
+  14:    1  ->  time
+  15:    1  ->  two
+  16:    1  ->  with
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  could
+   3:    1  ->  eleven
+   4:    1  ->  equivalence
+   5:    1  ->  forgo
+   6:    1  ->  of
+   7:    1  ->  ruined
+   8:    1  ->  sanjo's
+   9:    1  ->  to
+  10:    1  ->  turn
+  11:    1  ->  weeping
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  can
+   5:    1  ->  equivalents
+   6:    1  ->  forego
+   7:    1  ->  is
+   8:    1  ->  reaping
+   9:    1  ->  turned
+  10:    1  ->  weary
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

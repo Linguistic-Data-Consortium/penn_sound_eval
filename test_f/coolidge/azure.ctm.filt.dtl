@@ -1,0 +1,187 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.4%   (  52)
+
+Percent Correct           =   95.3%   ( 925)
+
+Percent Substitution      =    4.1%   (  40)
+Percent Deletions         =    0.6%   (   6)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   94.6%
+
+
+Ref. words                =           ( 971)
+Hyp. words                =           ( 971)
+Aligned words             =           ( 977)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    3  ->  is ==> 's
+   2:    2  ->  and ==> in
+   3:    2  ->  open ==> opened
+   4:    1  ->  airplanes ==> aeroplanes
+   5:    1  ->  anyone's ==> s
+   6:    1  ->  at ==> that
+   7:    1  ->  dew ==> do
+   8:    1  ->  dons ==> dots
+   9:    1  ->  down ==> known
+  10:    1  ->  en ==> on
+  11:    1  ->  finger's ==> s
+  12:    1  ->  fish ==> goldfish
+  13:    1  ->  flair ==> flare
+  14:    1  ->  hear ==> here
+  15:    1  ->  in ==> an
+  16:    1  ->  in ==> and
+  17:    1  ->  ja ==> ya
+  18:    1  ->  masse ==> moss
+  19:    1  ->  needers ==> kneaders
+  20:    1  ->  obliquer ==> or
+  21:    1  ->  of ==> love
+  22:    1  ->  or ==> so
+  23:    1  ->  our ==> or
+  24:    1  ->  peels ==> peals
+  25:    1  ->  presence ==> presents
+  26:    1  ->  roll ==> enroll
+  27:    1  ->  smiled ==> smile
+  28:    1  ->  steaks ==> stakes
+  29:    1  ->  the ==> that
+  30:    1  ->  to ==> of
+  31:    1  ->  to ==> till
+  32:    1  ->  today ==> day
+  33:    1  ->  tolds ==> tolls
+  34:    1  ->  top ==> tops
+  35:    1  ->  unknown ==> known
+  36:    1  ->  would ==> wood
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  's
+   2:    1  ->  anyone
+   3:    1  ->  finger
+   4:    1  ->  hoof
+   5:    1  ->  oblique
+   6:    1  ->  to
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  goal
+   3:    1  ->  handle
+   4:    1  ->  i
+   5:    1  ->  it
+   6:    1  ->  the
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  is
+   2:    2  ->  and
+   3:    2  ->  in
+   4:    2  ->  open
+   5:    2  ->  to
+   6:    1  ->  airplanes
+   7:    1  ->  anyone's
+   8:    1  ->  at
+   9:    1  ->  dew
+  10:    1  ->  dons
+  11:    1  ->  down
+  12:    1  ->  en
+  13:    1  ->  finger's
+  14:    1  ->  fish
+  15:    1  ->  flair
+  16:    1  ->  hear
+  17:    1  ->  ja
+  18:    1  ->  masse
+  19:    1  ->  needers
+  20:    1  ->  obliquer
+  21:    1  ->  of
+  22:    1  ->  or
+  23:    1  ->  our
+  24:    1  ->  peels
+  25:    1  ->  presence
+  26:    1  ->  roll
+  27:    1  ->  smiled
+  28:    1  ->  steaks
+  29:    1  ->  the
+  30:    1  ->  today
+  31:    1  ->  tolds
+  32:    1  ->  top
+  33:    1  ->  unknown
+  34:    1  ->  would
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    3  ->  's
+   2:    2  ->  in
+   3:    2  ->  known
+   4:    2  ->  opened
+   5:    2  ->  or
+   6:    2  ->  s
+   7:    2  ->  that
+   8:    1  ->  aeroplanes
+   9:    1  ->  an
+  10:    1  ->  and
+  11:    1  ->  day
+  12:    1  ->  do
+  13:    1  ->  dots
+  14:    1  ->  enroll
+  15:    1  ->  flare
+  16:    1  ->  goldfish
+  17:    1  ->  here
+  18:    1  ->  kneaders
+  19:    1  ->  love
+  20:    1  ->  moss
+  21:    1  ->  of
+  22:    1  ->  on
+  23:    1  ->  peals
+  24:    1  ->  presents
+  25:    1  ->  smile
+  26:    1  ->  so
+  27:    1  ->  stakes
+  28:    1  ->  till
+  29:    1  ->  tolls
+  30:    1  ->  tops
+  31:    1  ->  wood
+  32:    1  ->  ya
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,279 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.9%   ( 105)
+
+Percent Correct           =   91.2%   ( 969)
+
+Percent Substitution      =    5.7%   (  61)
+Percent Deletions         =    3.0%   (  32)
+Percent Insertions        =    1.1%   (  12)
+Percent Word Accuracy     =   90.1%
+
+
+Ref. words                =           (1062)
+Hyp. words                =           (1042)
+Aligned words             =           (1074)
+
+CONFUSION PAIRS                  Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    2  ->  face ==> base
+   2:    2  ->  leaf ==> belief
+   3:    1  ->  a ==> about
+   4:    1  ->  and ==> into
+   5:    1  ->  cafes ==> caffes
+   6:    1  ->  calls ==> the
+   7:    1  ->  choses ==> chooses
+   8:    1  ->  christmas' ==> christmas's
+   9:    1  ->  com ==> livejournalcom
+  10:    1  ->  connective ==> connected
+  11:    1  ->  cornucopia ==> softcornucopia
+  12:    1  ->  downward ==> downwards
+  13:    1  ->  eleven ==> 411
+  14:    1  ->  eleven ==> one
+  15:    1  ->  end ==> and
+  16:    1  ->  etiolated ==> etilated
+  17:    1  ->  gentler ==> arc
+  18:    1  ->  he's ==> these
+  19:    1  ->  herbs ==> birds
+  20:    1  ->  hop ==> "hop
+  21:    1  ->  human ==> and
+  22:    1  ->  hundred ==> zero
+  23:    1  ->  illustrated ==> illustrative
+  24:    1  ->  induced ==> humaninduced
+  25:    1  ->  invasion ==> invaders
+  26:    1  ->  its ==> it's
+  27:    1  ->  leaves ==> assemblies
+  28:    1  ->  live ==> life
+  29:    1  ->  malick ==> malik
+  30:    1  ->  maw ==> ma
+  31:    1  ->  mclaughlan ==> mclaughlin
+  32:    1  ->  motion ==> emotion
+  33:    1  ->  mouth ==> mow
+  34:    1  ->  ninety ==> nine
+  35:    1  ->  not ==> naught
+  36:    1  ->  of ==> run
+  37:    1  ->  opened ==> open
+  38:    1  ->  ounces ==> oz
+  39:    1  ->  piqued ==> peaked
+  40:    1  ->  ploat ==> float
+  41:    1  ->  salinity ==> solinity
+  42:    1  ->  seventeen ==> seven
+  43:    1  ->  sigh ==> aside
+  44:    1  ->  sprawls ==> sprawl
+  45:    1  ->  squealed ==> wheels
+  46:    1  ->  stat ==> stacked
+  47:    1  ->  sun ==> all
+  48:    1  ->  tax ==> text
+  49:    1  ->  ten ==> zero
+  50:    1  ->  terrence ==> terence
+  51:    1  ->  the ==> arc
+  52:    1  ->  throve ==> threw
+  53:    1  ->  toms ==> tongs
+  54:    1  ->  try ==> trying
+  55:    1  ->  twelve ==> 412
+  56:    1  ->  twelve ==> two
+  57:    1  ->  two ==> 6'2
+  58:    1  ->  upon ==> upon"
+  59:    1  ->  would ==> was
+     -------
+        61
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    4  ->  one
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  australia
+   5:    1  ->  call
+   6:    1  ->  gentle
+   7:    1  ->  in
+   8:    1  ->  this
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    3  ->  in
+   2:    2  ->  and
+   3:    2  ->  four
+   4:    2  ->  point
+   5:    2  ->  the
+   6:    1  ->  a
+   7:    1  ->  are
+   8:    1  ->  bodies
+   9:    1  ->  choir
+  10:    1  ->  dot
+  11:    1  ->  filled
+  12:    1  ->  foot
+  13:    1  ->  future
+  14:    1  ->  he
+  15:    1  ->  her
+  16:    1  ->  journal
+  17:    1  ->  live
+  18:    1  ->  my
+  19:    1  ->  of
+  20:    1  ->  ronnel
+  21:    1  ->  six
+  22:    1  ->  slash
+  23:    1  ->  soft
+  24:    1  ->  some
+  25:    1  ->  this
+  26:    1  ->  you
+     -------
+        32
+
+
+
+SUBSTITUTIONS                    Total                 (57)
+                                 With >=  1 occurrences (57)
+
+   1:    2  ->  eleven
+   2:    2  ->  face
+   3:    2  ->  leaf
+   4:    2  ->  twelve
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  cafes
+   8:    1  ->  calls
+   9:    1  ->  choses
+  10:    1  ->  christmas'
+  11:    1  ->  com
+  12:    1  ->  connective
+  13:    1  ->  cornucopia
+  14:    1  ->  downward
+  15:    1  ->  end
+  16:    1  ->  etiolated
+  17:    1  ->  gentler
+  18:    1  ->  he's
+  19:    1  ->  herbs
+  20:    1  ->  hop
+  21:    1  ->  human
+  22:    1  ->  hundred
+  23:    1  ->  illustrated
+  24:    1  ->  induced
+  25:    1  ->  invasion
+  26:    1  ->  its
+  27:    1  ->  leaves
+  28:    1  ->  live
+  29:    1  ->  malick
+  30:    1  ->  maw
+  31:    1  ->  mclaughlan
+  32:    1  ->  motion
+  33:    1  ->  mouth
+  34:    1  ->  ninety
+  35:    1  ->  not
+  36:    1  ->  of
+  37:    1  ->  opened
+  38:    1  ->  ounces
+  39:    1  ->  piqued
+  40:    1  ->  ploat
+  41:    1  ->  salinity
+  42:    1  ->  seventeen
+  43:    1  ->  sigh
+  44:    1  ->  sprawls
+  45:    1  ->  squealed
+  46:    1  ->  stat
+  47:    1  ->  sun
+  48:    1  ->  tax
+  49:    1  ->  ten
+  50:    1  ->  terrence
+  51:    1  ->  the
+  52:    1  ->  throve
+  53:    1  ->  toms
+  54:    1  ->  try
+  55:    1  ->  two
+  56:    1  ->  upon
+  57:    1  ->  would
+     -------
+        61
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (56)
+                                 With >=  1 occurrences (56)
+
+   1:    2  ->  and
+   2:    2  ->  arc
+   3:    2  ->  base
+   4:    2  ->  belief
+   5:    2  ->  zero
+   6:    1  ->  "hop
+   7:    1  ->  411
+   8:    1  ->  412
+   9:    1  ->  6'2
+  10:    1  ->  about
+  11:    1  ->  all
+  12:    1  ->  aside
+  13:    1  ->  assemblies
+  14:    1  ->  birds
+  15:    1  ->  caffes
+  16:    1  ->  chooses
+  17:    1  ->  christmas's
+  18:    1  ->  connected
+  19:    1  ->  downwards
+  20:    1  ->  emotion
+  21:    1  ->  etilated
+  22:    1  ->  float
+  23:    1  ->  humaninduced
+  24:    1  ->  illustrative
+  25:    1  ->  into
+  26:    1  ->  invaders
+  27:    1  ->  it's
+  28:    1  ->  life
+  29:    1  ->  livejournalcom
+  30:    1  ->  ma
+  31:    1  ->  malik
+  32:    1  ->  mclaughlin
+  33:    1  ->  mow
+  34:    1  ->  naught
+  35:    1  ->  nine
+  36:    1  ->  one
+  37:    1  ->  open
+  38:    1  ->  oz
+  39:    1  ->  peaked
+  40:    1  ->  run
+  41:    1  ->  seven
+  42:    1  ->  softcornucopia
+  43:    1  ->  solinity
+  44:    1  ->  sprawl
+  45:    1  ->  stacked
+  46:    1  ->  terence
+  47:    1  ->  text
+  48:    1  ->  the
+  49:    1  ->  these
+  50:    1  ->  threw
+  51:    1  ->  tongs
+  52:    1  ->  trying
+  53:    1  ->  two
+  54:    1  ->  upon"
+  55:    1  ->  was
+  56:    1  ->  wheels
+     -------
+        61
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

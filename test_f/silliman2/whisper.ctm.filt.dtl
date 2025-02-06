@@ -1,0 +1,257 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.8%   ( 112)
+
+Percent Correct           =   89.6%   ( 850)
+
+Percent Substitution      =    4.4%   (  42)
+Percent Deletions         =    6.0%   (  57)
+Percent Insertions        =    1.4%   (  13)
+Percent Word Accuracy     =   88.2%
+
+
+Ref. words                =           ( 949)
+Hyp. words                =           ( 905)
+Aligned words             =           ( 962)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  an ==> and
+   2:    1  ->  burned ==> bird
+   3:    1  ->  cobwebbed ==> cobweb
+   4:    1  ->  corners ==> corner
+   5:    1  ->  coworkers ==> workers
+   6:    1  ->  defies ==> buys
+   7:    1  ->  face ==> space
+   8:    1  ->  fifteen ==> five
+   9:    1  ->  fogs ==> bogs
+  10:    1  ->  googawed ==> god
+  11:    1  ->  gullywasher ==> washer
+  12:    1  ->  have ==> had
+  13:    1  ->  his ==> the
+  14:    1  ->  in ==> and
+  15:    1  ->  it ==> move
+  16:    1  ->  it's ==> the
+  17:    1  ->  lingonberry ==> berry
+  18:    1  ->  lip ==> lisp
+  19:    1  ->  mowed ==> moment
+  20:    1  ->  occurred ==> heard
+  21:    1  ->  one ==> mine
+  22:    1  ->  our ==> her
+  23:    1  ->  penny's ==> pennies
+  24:    1  ->  phones ==> bones
+  25:    1  ->  plaster ==> plastic
+  26:    1  ->  ring ==> rings
+  27:    1  ->  seizes ==> ceases
+  28:    1  ->  shower ==> showers
+  29:    1  ->  stain ==> stains
+  30:    1  ->  ten ==> man
+  31:    1  ->  through ==> for
+  32:    1  ->  travelled ==> traveled
+  33:    1  ->  turned ==> turn
+  34:    1  ->  twelve ==> two
+  35:    1  ->  twenty ==> two
+  36:    1  ->  until ==> that
+  37:    1  ->  until ==> till
+  38:    1  ->  upon ==> pond
+  39:    1  ->  was ==> be
+  40:    1  ->  weights ==> wakes
+  41:    1  ->  whistle ==> muscle
+  42:    1  ->  woolworth ==> woolworths
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  a
+   2:    2  ->  one
+   3:    1  ->  and
+   4:    1  ->  co
+   5:    1  ->  goo
+   6:    1  ->  gully
+   7:    1  ->  had
+   8:    1  ->  is
+   9:    1  ->  oh
+  10:    1  ->  so
+  11:    1  ->  wingham
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    3  ->  the
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  in
+   5:    2  ->  three
+   6:    1  ->  along
+   7:    1  ->  bad
+   8:    1  ->  between
+   9:    1  ->  but
+  10:    1  ->  clad
+  11:    1  ->  coming
+  12:    1  ->  contains
+  13:    1  ->  do
+  14:    1  ->  each
+  15:    1  ->  guys
+  16:    1  ->  head
+  17:    1  ->  hurricane
+  18:    1  ->  i
+  19:    1  ->  impulse
+  20:    1  ->  is
+  21:    1  ->  kit
+  22:    1  ->  linkages
+  23:    1  ->  my
+  24:    1  ->  name
+  25:    1  ->  no
+  26:    1  ->  obsessively
+  27:    1  ->  of
+  28:    1  ->  offer
+  29:    1  ->  only
+  30:    1  ->  orbison
+  31:    1  ->  over
+  32:    1  ->  roy
+  33:    1  ->  sensible
+  34:    1  ->  side
+  35:    1  ->  skivvies
+  36:    1  ->  song
+  37:    1  ->  steamer
+  38:    1  ->  suppress
+  39:    1  ->  that
+  40:    1  ->  their
+  41:    1  ->  them
+  42:    1  ->  then
+  43:    1  ->  to
+  44:    1  ->  trunks
+  45:    1  ->  tune
+  46:    1  ->  unconscious
+  47:    1  ->  up
+  48:    1  ->  verb
+  49:    1  ->  wake
+  50:    1  ->  what
+  51:    1  ->  which
+     -------
+        57
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  until
+   2:    1  ->  an
+   3:    1  ->  burned
+   4:    1  ->  cobwebbed
+   5:    1  ->  corners
+   6:    1  ->  coworkers
+   7:    1  ->  defies
+   8:    1  ->  face
+   9:    1  ->  fifteen
+  10:    1  ->  fogs
+  11:    1  ->  googawed
+  12:    1  ->  gullywasher
+  13:    1  ->  have
+  14:    1  ->  his
+  15:    1  ->  in
+  16:    1  ->  it
+  17:    1  ->  it's
+  18:    1  ->  lingonberry
+  19:    1  ->  lip
+  20:    1  ->  mowed
+  21:    1  ->  occurred
+  22:    1  ->  one
+  23:    1  ->  our
+  24:    1  ->  penny's
+  25:    1  ->  phones
+  26:    1  ->  plaster
+  27:    1  ->  ring
+  28:    1  ->  seizes
+  29:    1  ->  shower
+  30:    1  ->  stain
+  31:    1  ->  ten
+  32:    1  ->  through
+  33:    1  ->  travelled
+  34:    1  ->  turned
+  35:    1  ->  twelve
+  36:    1  ->  twenty
+  37:    1  ->  upon
+  38:    1  ->  was
+  39:    1  ->  weights
+  40:    1  ->  whistle
+  41:    1  ->  woolworth
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  and
+   2:    2  ->  the
+   3:    2  ->  two
+   4:    1  ->  be
+   5:    1  ->  berry
+   6:    1  ->  bird
+   7:    1  ->  bogs
+   8:    1  ->  bones
+   9:    1  ->  buys
+  10:    1  ->  ceases
+  11:    1  ->  cobweb
+  12:    1  ->  corner
+  13:    1  ->  five
+  14:    1  ->  for
+  15:    1  ->  god
+  16:    1  ->  had
+  17:    1  ->  heard
+  18:    1  ->  her
+  19:    1  ->  lisp
+  20:    1  ->  man
+  21:    1  ->  mine
+  22:    1  ->  moment
+  23:    1  ->  move
+  24:    1  ->  muscle
+  25:    1  ->  pennies
+  26:    1  ->  plastic
+  27:    1  ->  pond
+  28:    1  ->  rings
+  29:    1  ->  showers
+  30:    1  ->  space
+  31:    1  ->  stains
+  32:    1  ->  that
+  33:    1  ->  till
+  34:    1  ->  traveled
+  35:    1  ->  turn
+  36:    1  ->  wakes
+  37:    1  ->  washer
+  38:    1  ->  woolworths
+  39:    1  ->  workers
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

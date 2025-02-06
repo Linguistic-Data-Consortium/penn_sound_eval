@@ -1,0 +1,187 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.7%   (  58)
+
+Percent Correct           =   95.2%   ( 973)
+
+Percent Substitution      =    3.1%   (  32)
+Percent Deletions         =    1.7%   (  17)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   94.3%
+
+
+Ref. words                =           (1022)
+Hyp. words                =           (1014)
+Aligned words             =           (1031)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  hundred ==> zero
+   2:    1  ->  bluet ==> it
+   3:    1  ->  climactic ==> climatic
+   4:    1  ->  colombia ==> columbia
+   5:    1  ->  duskywing ==> wing
+   6:    1  ->  goshawk ==> hawk
+   7:    1  ->  hood ==> monkshood
+   8:    1  ->  humpback ==> humback
+   9:    1  ->  ironcolor ==> color
+  10:    1  ->  jair ==> jar
+  11:    1  ->  kiribati ==> carabas
+  12:    1  ->  leedy's ==> rose
+  13:    1  ->  like ==> liked
+  14:    1  ->  longear ==> ear
+  15:    1  ->  longtail ==> tail
+  16:    1  ->  many ==> mini
+  17:    1  ->  massasauga ==> masasaga
+  18:    1  ->  mooneye ==> eye
+  19:    1  ->  mossy ==> masi
+  20:    1  ->  mottled ==> dusky
+  21:    1  ->  roseroot ==> room
+  22:    1  ->  tern ==> turn
+  23:    1  ->  thirty ==> oh
+  24:    1  ->  tokelau ==> takalau
+  25:    1  ->  try ==> tried
+  26:    1  ->  twenty ==> two
+  27:    1  ->  valvata ==> valvada
+  28:    1  ->  vatnajokull ==> notchakul
+  29:    1  ->  water ==> groundwater
+  30:    1  ->  water ==> underwater
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  long
+   2:    1  ->  blew
+   3:    1  ->  ghost
+   4:    1  ->  iron
+   5:    1  ->  leady's
+   6:    1  ->  maltled
+   7:    1  ->  moon
+   8:    1  ->  vat
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  as
+   4:    1  ->  ground
+   5:    1  ->  hap
+   6:    1  ->  itself
+   7:    1  ->  monk's
+   8:    1  ->  of
+   9:    1  ->  one
+  10:    1  ->  preferred
+  11:    1  ->  then
+  12:    1  ->  think
+  13:    1  ->  though
+  14:    1  ->  to
+  15:    1  ->  under
+  16:    1  ->  w
+  17:    1  ->  was
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  hundred
+   2:    2  ->  water
+   3:    1  ->  bluet
+   4:    1  ->  climactic
+   5:    1  ->  colombia
+   6:    1  ->  duskywing
+   7:    1  ->  goshawk
+   8:    1  ->  hood
+   9:    1  ->  humpback
+  10:    1  ->  ironcolor
+  11:    1  ->  jair
+  12:    1  ->  kiribati
+  13:    1  ->  leedy's
+  14:    1  ->  like
+  15:    1  ->  longear
+  16:    1  ->  longtail
+  17:    1  ->  many
+  18:    1  ->  massasauga
+  19:    1  ->  mooneye
+  20:    1  ->  mossy
+  21:    1  ->  mottled
+  22:    1  ->  roseroot
+  23:    1  ->  tern
+  24:    1  ->  thirty
+  25:    1  ->  tokelau
+  26:    1  ->  try
+  27:    1  ->  twenty
+  28:    1  ->  valvata
+  29:    1  ->  vatnajokull
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  zero
+   2:    1  ->  carabas
+   3:    1  ->  climatic
+   4:    1  ->  color
+   5:    1  ->  columbia
+   6:    1  ->  dusky
+   7:    1  ->  ear
+   8:    1  ->  eye
+   9:    1  ->  groundwater
+  10:    1  ->  hawk
+  11:    1  ->  humback
+  12:    1  ->  it
+  13:    1  ->  jar
+  14:    1  ->  liked
+  15:    1  ->  masasaga
+  16:    1  ->  masi
+  17:    1  ->  mini
+  18:    1  ->  monkshood
+  19:    1  ->  notchakul
+  20:    1  ->  oh
+  21:    1  ->  room
+  22:    1  ->  rose
+  23:    1  ->  tail
+  24:    1  ->  takalau
+  25:    1  ->  tried
+  26:    1  ->  turn
+  27:    1  ->  two
+  28:    1  ->  underwater
+  29:    1  ->  valvada
+  30:    1  ->  wing
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

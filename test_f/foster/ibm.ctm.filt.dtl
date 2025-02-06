@@ -1,0 +1,231 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.3%   (  71)
+
+Percent Correct           =   91.5%   ( 698)
+
+Percent Substitution      =    6.9%   (  53)
+Percent Deletions         =    1.6%   (  12)
+Percent Insertions        =    0.8%   (   6)
+Percent Word Accuracy     =   90.7%
+
+
+Ref. words                =           ( 763)
+Hyp. words                =           ( 757)
+Aligned words             =           ( 769)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  b ==> be
+   2:    2  ->  eating ==> eaten
+   3:    2  ->  job's ==> jobs
+   4:    1  ->  a ==> to
+   5:    1  ->  ache ==> beach
+   6:    1  ->  are ==> arm
+   7:    1  ->  as ==> a
+   8:    1  ->  auntie ==> aunty
+   9:    1  ->  auntie ==> one
+  10:    1  ->  b ==> bb
+  11:    1  ->  ben ==> then
+  12:    1  ->  boot ==> but
+  13:    1  ->  colorblind ==> blind
+  14:    1  ->  coming ==> becoming
+  15:    1  ->  coulades ==> colors
+  16:    1  ->  deft ==> death
+  17:    1  ->  face ==> faces
+  18:    1  ->  filled ==> field
+  19:    1  ->  filled ==> film
+  20:    1  ->  fist ==> fists
+  21:    1  ->  hive ==> high
+  22:    1  ->  incognizant ==> cognizant
+  23:    1  ->  is ==> was
+  24:    1  ->  jemima ==> jamai
+  25:    1  ->  job's ==> jobe's
+  26:    1  ->  knit ==> knits
+  27:    1  ->  matchstick ==> matic
+  28:    1  ->  momma ==> mama
+  29:    1  ->  months' ==> months
+  30:    1  ->  mourning ==> morning
+  31:    1  ->  perceive ==> perceived
+  32:    1  ->  persephone ==> stephanie
+  33:    1  ->  pimp ==> pump
+  34:    1  ->  redness ==> readiness
+  35:    1  ->  reenie ==> marine
+  36:    1  ->  shoe ==> shoes
+  37:    1  ->  shutters ==> shudders
+  38:    1  ->  skull ==> gold
+  39:    1  ->  somniloquies ==> quiz
+  40:    1  ->  stalks ==> stocks
+  41:    1  ->  tem ==> at
+  42:    1  ->  the ==> a
+  43:    1  ->  then ==> than
+  44:    1  ->  thought ==> fought
+  45:    1  ->  unheeded ==> unheated
+  46:    1  ->  where ==> wear
+  47:    1  ->  which ==> what
+  48:    1  ->  yarn's ==> yard's
+  49:    1  ->  yarn's ==> yarns
+  50:    1  ->  yore ==> your
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  color
+   2:    1  ->  had
+   3:    1  ->  in
+   4:    1  ->  nilla
+   5:    1  ->  per
+   6:    1  ->  some
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    4  ->  had
+   2:    2  ->  b
+   3:    1  ->  as
+   4:    1  ->  be
+   5:    1  ->  is
+   6:    1  ->  itch
+   7:    1  ->  m
+   8:    1  ->  the
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    3  ->  b
+   2:    3  ->  job's
+   3:    2  ->  auntie
+   4:    2  ->  eating
+   5:    2  ->  filled
+   6:    2  ->  yarn's
+   7:    1  ->  a
+   8:    1  ->  ache
+   9:    1  ->  are
+  10:    1  ->  as
+  11:    1  ->  ben
+  12:    1  ->  boot
+  13:    1  ->  colorblind
+  14:    1  ->  coming
+  15:    1  ->  coulades
+  16:    1  ->  deft
+  17:    1  ->  face
+  18:    1  ->  fist
+  19:    1  ->  hive
+  20:    1  ->  incognizant
+  21:    1  ->  is
+  22:    1  ->  jemima
+  23:    1  ->  knit
+  24:    1  ->  matchstick
+  25:    1  ->  momma
+  26:    1  ->  months'
+  27:    1  ->  mourning
+  28:    1  ->  perceive
+  29:    1  ->  persephone
+  30:    1  ->  pimp
+  31:    1  ->  redness
+  32:    1  ->  reenie
+  33:    1  ->  shoe
+  34:    1  ->  shutters
+  35:    1  ->  skull
+  36:    1  ->  somniloquies
+  37:    1  ->  stalks
+  38:    1  ->  tem
+  39:    1  ->  the
+  40:    1  ->  then
+  41:    1  ->  thought
+  42:    1  ->  unheeded
+  43:    1  ->  where
+  44:    1  ->  which
+  45:    1  ->  yore
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    2  ->  a
+   2:    2  ->  be
+   3:    2  ->  eaten
+   4:    2  ->  jobs
+   5:    1  ->  arm
+   6:    1  ->  at
+   7:    1  ->  aunty
+   8:    1  ->  bb
+   9:    1  ->  beach
+  10:    1  ->  becoming
+  11:    1  ->  blind
+  12:    1  ->  but
+  13:    1  ->  cognizant
+  14:    1  ->  colors
+  15:    1  ->  death
+  16:    1  ->  faces
+  17:    1  ->  field
+  18:    1  ->  film
+  19:    1  ->  fists
+  20:    1  ->  fought
+  21:    1  ->  gold
+  22:    1  ->  high
+  23:    1  ->  jamai
+  24:    1  ->  jobe's
+  25:    1  ->  knits
+  26:    1  ->  mama
+  27:    1  ->  marine
+  28:    1  ->  matic
+  29:    1  ->  months
+  30:    1  ->  morning
+  31:    1  ->  one
+  32:    1  ->  perceived
+  33:    1  ->  pump
+  34:    1  ->  quiz
+  35:    1  ->  readiness
+  36:    1  ->  shoes
+  37:    1  ->  shudders
+  38:    1  ->  stephanie
+  39:    1  ->  stocks
+  40:    1  ->  than
+  41:    1  ->  then
+  42:    1  ->  to
+  43:    1  ->  unheated
+  44:    1  ->  was
+  45:    1  ->  wear
+  46:    1  ->  what
+  47:    1  ->  yard's
+  48:    1  ->  yarns
+  49:    1  ->  your
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

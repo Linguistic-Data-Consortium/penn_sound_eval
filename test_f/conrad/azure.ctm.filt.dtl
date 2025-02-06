@@ -1,0 +1,233 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.2%   (  96)
+
+Percent Correct           =   92.5%   ( 961)
+
+Percent Substitution      =    4.9%   (  51)
+Percent Deletions         =    2.6%   (  27)
+Percent Insertions        =    1.7%   (  18)
+Percent Word Accuracy     =   90.8%
+
+
+Ref. words                =           (1039)
+Hyp. words                =           (1030)
+Aligned words             =           (1057)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    3  ->  a ==> the
+   2:    3  ->  in ==> and
+   3:    3  ->  write ==> right
+   4:    2  ->  is ==> 's
+   5:    1  ->  and ==> here
+   6:    1  ->  and ==> instant
+   7:    1  ->  burying ==> varying
+   8:    1  ->  chalk ==> far
+   9:    1  ->  doorframe ==> frame
+  10:    1  ->  ducts ==> ducks
+  11:    1  ->  for ==> from
+  12:    1  ->  forests ==> as
+  13:    1  ->  had ==> kaufman
+  14:    1  ->  has ==> is
+  15:    1  ->  he ==> you
+  16:    1  ->  hear ==> here
+  17:    1  ->  hyperapathy ==> hyperampathy
+  18:    1  ->  i ==> that
+  19:    1  ->  is ==> his
+  20:    1  ->  it ==> estimated
+  21:    1  ->  my ==> a
+  22:    1  ->  ooh ==> oh
+  23:    1  ->  other ==> another
+  24:    1  ->  pierced ==> pierce
+  25:    1  ->  pulling ==> plying
+  26:    1  ->  quaker's ==> 's
+  27:    1  ->  queen's ==> 's
+  28:    1  ->  scent ==> descent
+  29:    1  ->  slick ==> mudslook
+  30:    1  ->  streets ==> street
+  31:    1  ->  temouzi ==> tamuzi
+  32:    1  ->  that ==> nice
+  33:    1  ->  that ==> there
+  34:    1  ->  the ==> quaker
+  35:    1  ->  the ==> that
+  36:    1  ->  the ==> this
+  37:    1  ->  them ==> him
+  38:    1  ->  too ==> gratitude
+  39:    1  ->  tune ==> tomb
+  40:    1  ->  under ==> enter
+  41:    1  ->  view ==> you
+  42:    1  ->  we ==> to
+  43:    1  ->  while ==> will
+  44:    1  ->  wo ==> world
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  of
+   2:    1  ->  american
+   3:    1  ->  are
+   4:    1  ->  back
+   5:    1  ->  come
+   6:    1  ->  door
+   7:    1  ->  gis
+   8:    1  ->  hundreds
+   9:    1  ->  iraq
+  10:    1  ->  only
+  11:    1  ->  queen
+  12:    1  ->  shock
+  13:    1  ->  there
+  14:    1  ->  veterans
+  15:    1  ->  war
+  16:    1  ->  who
+  17:    1  ->  your
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    3  ->  had
+   2:    2  ->  k.
+   3:    2  ->  not
+   4:    2  ->  o.
+   5:    2  ->  we
+   6:    1  ->  and
+   7:    1  ->  are
+   8:    1  ->  at
+   9:    1  ->  breath
+  10:    1  ->  do
+  11:    1  ->  estimate
+  12:    1  ->  front
+  13:    1  ->  he
+  14:    1  ->  i
+  15:    1  ->  inst
+  16:    1  ->  kauffman
+  17:    1  ->  mud
+  18:    1  ->  of
+  19:    1  ->  only
+  20:    1  ->  the
+  21:    1  ->  thinking
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  a
+   2:    3  ->  in
+   3:    3  ->  is
+   4:    3  ->  the
+   5:    3  ->  write
+   6:    2  ->  and
+   7:    2  ->  that
+   8:    1  ->  burying
+   9:    1  ->  chalk
+  10:    1  ->  doorframe
+  11:    1  ->  ducts
+  12:    1  ->  for
+  13:    1  ->  forests
+  14:    1  ->  had
+  15:    1  ->  has
+  16:    1  ->  he
+  17:    1  ->  hear
+  18:    1  ->  hyperapathy
+  19:    1  ->  i
+  20:    1  ->  it
+  21:    1  ->  my
+  22:    1  ->  ooh
+  23:    1  ->  other
+  24:    1  ->  pierced
+  25:    1  ->  pulling
+  26:    1  ->  quaker's
+  27:    1  ->  queen's
+  28:    1  ->  scent
+  29:    1  ->  slick
+  30:    1  ->  streets
+  31:    1  ->  temouzi
+  32:    1  ->  them
+  33:    1  ->  too
+  34:    1  ->  tune
+  35:    1  ->  under
+  36:    1  ->  view
+  37:    1  ->  we
+  38:    1  ->  while
+  39:    1  ->  wo
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    4  ->  's
+   2:    3  ->  and
+   3:    3  ->  right
+   4:    3  ->  the
+   5:    2  ->  here
+   6:    2  ->  that
+   7:    2  ->  you
+   8:    1  ->  a
+   9:    1  ->  another
+  10:    1  ->  as
+  11:    1  ->  descent
+  12:    1  ->  ducks
+  13:    1  ->  enter
+  14:    1  ->  estimated
+  15:    1  ->  far
+  16:    1  ->  frame
+  17:    1  ->  from
+  18:    1  ->  gratitude
+  19:    1  ->  him
+  20:    1  ->  his
+  21:    1  ->  hyperampathy
+  22:    1  ->  instant
+  23:    1  ->  is
+  24:    1  ->  kaufman
+  25:    1  ->  mudslook
+  26:    1  ->  nice
+  27:    1  ->  oh
+  28:    1  ->  pierce
+  29:    1  ->  plying
+  30:    1  ->  quaker
+  31:    1  ->  street
+  32:    1  ->  tamuzi
+  33:    1  ->  there
+  34:    1  ->  this
+  35:    1  ->  to
+  36:    1  ->  tomb
+  37:    1  ->  varying
+  38:    1  ->  will
+  39:    1  ->  world
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

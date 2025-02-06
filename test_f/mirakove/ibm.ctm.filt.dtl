@@ -1,0 +1,236 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.6%   (  71)
+
+Percent Correct           =   93.1%   ( 871)
+
+Percent Substitution      =    5.7%   (  53)
+Percent Deletions         =    1.3%   (  12)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   92.4%
+
+
+Ref. words                =           ( 936)
+Hyp. words                =           ( 930)
+Aligned words             =           ( 942)
+
+CONFUSION PAIRS                  Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  and ==> in
+   2:    2  ->  in ==> and
+   3:    2  ->  root ==> route
+   4:    1  ->  a ==> and
+   5:    1  ->  am ==> and
+   6:    1  ->  anterior ==> interior
+   7:    1  ->  arcane ==> arcade
+   8:    1  ->  brute ==> brut
+   9:    1  ->  dawn ==> don
+  10:    1  ->  declined ==> clive
+  11:    1  ->  fall ==> freefall
+  12:    1  ->  falling ==> following
+  13:    1  ->  humble ==> humbled
+  14:    1  ->  in ==> putting
+  15:    1  ->  influenced ==> influence
+  16:    1  ->  invents ==> invent
+  17:    1  ->  invokes ==> invoked
+  18:    1  ->  is ==> has
+  19:    1  ->  it ==> market
+  20:    1  ->  jenn ==> then
+  21:    1  ->  kill ==> killed
+  22:    1  ->  lease ==> parallels
+  23:    1  ->  melding ==> melting
+  24:    1  ->  mezcal ==> mescal
+  25:    1  ->  nests ==> ness
+  26:    1  ->  newborn ==> more
+  27:    1  ->  oaxaca ==> mohawk
+  28:    1  ->  oft ==> off
+  29:    1  ->  red ==> read
+  30:    1  ->  remains ==> to
+  31:    1  ->  seeing ==> seen
+  32:    1  ->  shadow ==> overshadow
+  33:    1  ->  shelled ==> remain
+  34:    1  ->  sin ==> in
+  35:    1  ->  soot ==> sit
+  36:    1  ->  sorry ==> i
+  37:    1  ->  tensegrity ==> secrets
+  38:    1  ->  tent ==> content
+  39:    1  ->  the ==> a
+  40:    1  ->  then ==> the
+  41:    1  ->  unaware ==> where
+  42:    1  ->  vines ==> lines
+  43:    1  ->  walfisch ==> wolfish
+  44:    1  ->  want ==> wants
+  45:    1  ->  wealth ==> walls
+  46:    1  ->  were ==> are
+  47:    1  ->  what ==> when
+  48:    1  ->  yours' ==> yours
+  49:    1  ->  zizek ==> hijack
+  50:    1  ->  zizek ==> jack
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  new
+   3:    1  ->  of
+   4:    1  ->  out
+   5:    1  ->  shells
+   6:    1  ->  ten
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  and
+   2:    1  ->  can
+   3:    1  ->  free
+   4:    1  ->  in
+   5:    1  ->  is
+   6:    1  ->  mark
+   7:    1  ->  oh
+   8:    1  ->  or
+   9:    1  ->  over
+  10:    1  ->  para
+  11:    1  ->  puss
+  12:    1  ->  soil
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    3  ->  in
+   2:    2  ->  and
+   3:    2  ->  root
+   4:    2  ->  zizek
+   5:    1  ->  a
+   6:    1  ->  am
+   7:    1  ->  anterior
+   8:    1  ->  arcane
+   9:    1  ->  brute
+  10:    1  ->  dawn
+  11:    1  ->  declined
+  12:    1  ->  fall
+  13:    1  ->  falling
+  14:    1  ->  humble
+  15:    1  ->  influenced
+  16:    1  ->  invents
+  17:    1  ->  invokes
+  18:    1  ->  is
+  19:    1  ->  it
+  20:    1  ->  jenn
+  21:    1  ->  kill
+  22:    1  ->  lease
+  23:    1  ->  melding
+  24:    1  ->  mezcal
+  25:    1  ->  nests
+  26:    1  ->  newborn
+  27:    1  ->  oaxaca
+  28:    1  ->  oft
+  29:    1  ->  red
+  30:    1  ->  remains
+  31:    1  ->  seeing
+  32:    1  ->  shadow
+  33:    1  ->  shelled
+  34:    1  ->  sin
+  35:    1  ->  soot
+  36:    1  ->  sorry
+  37:    1  ->  tensegrity
+  38:    1  ->  tent
+  39:    1  ->  the
+  40:    1  ->  then
+  41:    1  ->  unaware
+  42:    1  ->  vines
+  43:    1  ->  walfisch
+  44:    1  ->  want
+  45:    1  ->  wealth
+  46:    1  ->  were
+  47:    1  ->  what
+  48:    1  ->  yours'
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    4  ->  and
+   2:    3  ->  in
+   3:    2  ->  route
+   4:    1  ->  a
+   5:    1  ->  arcade
+   6:    1  ->  are
+   7:    1  ->  brut
+   8:    1  ->  clive
+   9:    1  ->  content
+  10:    1  ->  don
+  11:    1  ->  following
+  12:    1  ->  freefall
+  13:    1  ->  has
+  14:    1  ->  hijack
+  15:    1  ->  humbled
+  16:    1  ->  i
+  17:    1  ->  influence
+  18:    1  ->  interior
+  19:    1  ->  invent
+  20:    1  ->  invoked
+  21:    1  ->  jack
+  22:    1  ->  killed
+  23:    1  ->  lines
+  24:    1  ->  market
+  25:    1  ->  melting
+  26:    1  ->  mescal
+  27:    1  ->  mohawk
+  28:    1  ->  more
+  29:    1  ->  ness
+  30:    1  ->  off
+  31:    1  ->  overshadow
+  32:    1  ->  parallels
+  33:    1  ->  putting
+  34:    1  ->  read
+  35:    1  ->  remain
+  36:    1  ->  secrets
+  37:    1  ->  seen
+  38:    1  ->  sit
+  39:    1  ->  the
+  40:    1  ->  then
+  41:    1  ->  to
+  42:    1  ->  walls
+  43:    1  ->  wants
+  44:    1  ->  when
+  45:    1  ->  where
+  46:    1  ->  wolfish
+  47:    1  ->  yours
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

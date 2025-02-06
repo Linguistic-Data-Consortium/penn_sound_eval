@@ -1,0 +1,201 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.3%   (  88)
+
+Percent Correct           =   93.1%   ( 991)
+
+Percent Substitution      =    6.0%   (  64)
+Percent Deletions         =    0.8%   (   9)
+Percent Insertions        =    1.4%   (  15)
+Percent Word Accuracy     =   91.7%
+
+
+Ref. words                =           (1064)
+Hyp. words                =           (1070)
+Aligned words             =           (1079)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:   21  ->  ten ==> oh
+   2:    2  ->  in ==> and
+   3:    2  ->  seven ==> 7
+   4:    2  ->  takka ==> taaka
+   5:    1  ->  am ==> and
+   6:    1  ->  and ==> if
+   7:    1  ->  conspicuously ==> inconspicuously
+   8:    1  ->  eighty ==> oh
+   9:    1  ->  eleven ==> one
+  10:    1  ->  fifteen ==> five
+  11:    1  ->  five ==> 5
+  12:    1  ->  four ==> 4
+  13:    1  ->  hundred ==> zero
+  14:    1  ->  kane ==> cain
+  15:    1  ->  mig's ==> migs
+  16:    1  ->  neckties ==> ties
+  17:    1  ->  nineteen ==> nine
+  18:    1  ->  none ==> nine
+  19:    1  ->  pai ==> pa
+  20:    1  ->  reinhold ==> reinholdt
+  21:    1  ->  reticently ==> reticent
+  22:    1  ->  return ==> returned
+  23:    1  ->  ruff ==> herf
+  24:    1  ->  six ==> 36
+  25:    1  ->  sixteen ==> six
+  26:    1  ->  sixties ==> sixtys
+  27:    1  ->  sixty ==> six
+  28:    1  ->  ten ==> one
+  29:    1  ->  tex ==> tax
+  30:    1  ->  thing ==> things
+  31:    1  ->  tho ==> com
+  32:    1  ->  thr ==> three
+  33:    1  ->  thung ==> th
+  34:    1  ->  twelve ==> two
+  35:    1  ->  twenty ==> oh
+  36:    1  ->  twenty ==> two
+  37:    1  ->  vip ==> two
+  38:    1  ->  wealth ==> well
+  39:    1  ->  why ==> boy
+  40:    1  ->  why ==> my
+  41:    1  ->  wingding ==> winding
+     -------
+        64
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    5  ->  <laugh>
+   2:    4  ->  one
+   3:    2  ->  i
+   4:    1  ->  a
+   5:    1  ->  neck
+   6:    1  ->  oh
+   7:    1  ->  will
+     -------
+        15
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  bratatat
+   2:    1  ->  brattata
+   3:    1  ->  c
+   4:    1  ->  co
+   5:    1  ->  of
+   6:    1  ->  ring
+   7:    1  ->  s
+   8:    1  ->  thirty
+   9:    1  ->  toot
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:   22  ->  ten
+   2:    2  ->  in
+   3:    2  ->  seven
+   4:    2  ->  takka
+   5:    2  ->  twenty
+   6:    2  ->  why
+   7:    1  ->  am
+   8:    1  ->  and
+   9:    1  ->  conspicuously
+  10:    1  ->  eighty
+  11:    1  ->  eleven
+  12:    1  ->  fifteen
+  13:    1  ->  five
+  14:    1  ->  four
+  15:    1  ->  hundred
+  16:    1  ->  kane
+  17:    1  ->  mig's
+  18:    1  ->  neckties
+  19:    1  ->  nineteen
+  20:    1  ->  none
+  21:    1  ->  pai
+  22:    1  ->  reinhold
+  23:    1  ->  reticently
+  24:    1  ->  return
+  25:    1  ->  ruff
+  26:    1  ->  six
+  27:    1  ->  sixteen
+  28:    1  ->  sixties
+  29:    1  ->  sixty
+  30:    1  ->  tex
+  31:    1  ->  thing
+  32:    1  ->  tho
+  33:    1  ->  thr
+  34:    1  ->  thung
+  35:    1  ->  twelve
+  36:    1  ->  vip
+  37:    1  ->  wealth
+  38:    1  ->  wingding
+     -------
+        64
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:   23  ->  oh
+   2:    3  ->  and
+   3:    3  ->  two
+   4:    2  ->  7
+   5:    2  ->  nine
+   6:    2  ->  one
+   7:    2  ->  six
+   8:    2  ->  taaka
+   9:    1  ->  36
+  10:    1  ->  4
+  11:    1  ->  5
+  12:    1  ->  boy
+  13:    1  ->  cain
+  14:    1  ->  com
+  15:    1  ->  five
+  16:    1  ->  herf
+  17:    1  ->  if
+  18:    1  ->  inconspicuously
+  19:    1  ->  migs
+  20:    1  ->  my
+  21:    1  ->  pa
+  22:    1  ->  reinholdt
+  23:    1  ->  reticent
+  24:    1  ->  returned
+  25:    1  ->  sixtys
+  26:    1  ->  tax
+  27:    1  ->  th
+  28:    1  ->  things
+  29:    1  ->  three
+  30:    1  ->  ties
+  31:    1  ->  well
+  32:    1  ->  winding
+  33:    1  ->  zero
+     -------
+        64
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

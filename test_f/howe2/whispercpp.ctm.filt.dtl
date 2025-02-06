@@ -1,0 +1,160 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.8%   (  33)
+
+Percent Correct           =   94.4%   ( 536)
+
+Percent Substitution      =    4.8%   (  27)
+Percent Deletions         =    0.9%   (   5)
+Percent Insertions        =    0.2%   (   1)
+Percent Word Accuracy     =   94.2%
+
+
+Ref. words                =           ( 568)
+Hyp. words                =           ( 564)
+Aligned words             =           ( 569)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  abasol ==> abyssal
+   3:    1  ->  colon ==> on
+   4:    1  ->  emancipation ==> emancipator
+   5:    1  ->  empirion ==> empyrean
+   6:    1  ->  enzyme ==> ensign
+   7:    1  ->  eyed ==> pineyed
+   8:    1  ->  garden ==> guerdon
+   9:    1  ->  had ==> hood
+  10:    1  ->  here ==> hairs
+  11:    1  ->  is ==> call
+  12:    1  ->  kinsmen ==> kinsman
+  13:    1  ->  lost ==> lossed
+  14:    1  ->  muffle ==> muffled
+  15:    1  ->  or ==> were
+  16:    1  ->  point ==> standpoint
+  17:    1  ->  reevaluation ==> revaluation
+  18:    1  ->  rhyme ==> time
+  19:    1  ->  ruin ==> ruined
+  20:    1  ->  screaming ==> streaming
+  21:    1  ->  sentries ==> centuries
+  22:    1  ->  shear ==> sheer
+  23:    1  ->  snare ==> ensnare
+  24:    1  ->  spoken ==> underspoken
+  25:    1  ->  stamp ==> stamped
+  26:    1  ->  steeps ==> deeps
+  27:    1  ->  voracity ==> veracity
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  pin
+   3:    1  ->  stand
+   4:    1  ->  under
+   5:    1  ->  who
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  a
+   2:    1  ->  abasol
+   3:    1  ->  colon
+   4:    1  ->  emancipation
+   5:    1  ->  empirion
+   6:    1  ->  enzyme
+   7:    1  ->  eyed
+   8:    1  ->  garden
+   9:    1  ->  had
+  10:    1  ->  here
+  11:    1  ->  is
+  12:    1  ->  kinsmen
+  13:    1  ->  lost
+  14:    1  ->  muffle
+  15:    1  ->  or
+  16:    1  ->  point
+  17:    1  ->  reevaluation
+  18:    1  ->  rhyme
+  19:    1  ->  ruin
+  20:    1  ->  screaming
+  21:    1  ->  sentries
+  22:    1  ->  shear
+  23:    1  ->  snare
+  24:    1  ->  spoken
+  25:    1  ->  stamp
+  26:    1  ->  steeps
+  27:    1  ->  voracity
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  abyssal
+   2:    1  ->  call
+   3:    1  ->  centuries
+   4:    1  ->  deeps
+   5:    1  ->  emancipator
+   6:    1  ->  empyrean
+   7:    1  ->  ensign
+   8:    1  ->  ensnare
+   9:    1  ->  guerdon
+  10:    1  ->  hairs
+  11:    1  ->  hood
+  12:    1  ->  kinsman
+  13:    1  ->  lossed
+  14:    1  ->  muffled
+  15:    1  ->  of
+  16:    1  ->  on
+  17:    1  ->  pineyed
+  18:    1  ->  revaluation
+  19:    1  ->  ruined
+  20:    1  ->  sheer
+  21:    1  ->  stamped
+  22:    1  ->  standpoint
+  23:    1  ->  streaming
+  24:    1  ->  time
+  25:    1  ->  underspoken
+  26:    1  ->  veracity
+  27:    1  ->  were
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

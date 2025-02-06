@@ -1,0 +1,133 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.0%   (  52)
+
+Percent Correct           =   95.8%   ( 992)
+
+Percent Substitution      =    1.0%   (  10)
+Percent Deletions         =    3.3%   (  34)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   95.0%
+
+
+Ref. words                =           (1036)
+Hyp. words                =           (1010)
+Aligned words             =           (1044)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a ==> an
+   2:    1  ->  antimemoir ==> memoir
+   3:    1  ->  are ==> our
+   4:    1  ->  cane ==> cain
+   5:    1  ->  cumulus ==> cumulous
+   6:    1  ->  in ==> and
+   7:    1  ->  jena ==> gina
+   8:    1  ->  onto ==> to
+   9:    1  ->  reese's ==> reece's
+  10:    1  ->  th ==> sparr
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    3  ->  the
+   2:    1  ->  anti
+   3:    1  ->  have
+   4:    1  ->  it
+   5:    1  ->  on
+   6:    1  ->  varied
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    5  ->  it's
+   2:    3  ->  a
+   3:    2  ->  m
+   4:    2  ->  of
+   5:    2  ->  the
+   6:    2  ->  x
+   7:    1  ->  an
+   8:    1  ->  and
+   9:    1  ->  auto
+  10:    1  ->  has
+  11:    1  ->  i
+  12:    1  ->  is
+  13:    1  ->  it
+  14:    1  ->  just
+  15:    1  ->  know
+  16:    1  ->  most
+  17:    1  ->  one
+  18:    1  ->  philosophical
+  19:    1  ->  spahr
+  20:    1  ->  th
+  21:    1  ->  this
+  22:    1  ->  w
+  23:    1  ->  wh
+  24:    1  ->  you
+     -------
+        34
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  antimemoir
+   3:    1  ->  are
+   4:    1  ->  cane
+   5:    1  ->  cumulus
+   6:    1  ->  in
+   7:    1  ->  jena
+   8:    1  ->  onto
+   9:    1  ->  reese's
+  10:    1  ->  th
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  an
+   2:    1  ->  and
+   3:    1  ->  cain
+   4:    1  ->  cumulous
+   5:    1  ->  gina
+   6:    1  ->  memoir
+   7:    1  ->  our
+   8:    1  ->  reece's
+   9:    1  ->  sparr
+  10:    1  ->  to
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

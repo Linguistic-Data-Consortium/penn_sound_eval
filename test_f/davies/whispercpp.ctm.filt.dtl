@@ -1,0 +1,203 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.7%   ( 106)
+
+Percent Correct           =   91.6%   (1111)
+
+Percent Substitution      =    2.3%   (  28)
+Percent Deletions         =    6.1%   (  74)
+Percent Insertions        =    0.3%   (   4)
+Percent Word Accuracy     =   91.3%
+
+
+Ref. words                =           (1213)
+Hyp. words                =           (1143)
+Aligned words             =           (1217)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    3  ->  reuben ==> ruben
+   2:    1  ->  and ==> an
+   3:    1  ->  arithmatic ==> arithmetic
+   4:    1  ->  at ==> it
+   5:    1  ->  bad ==> that
+   6:    1  ->  behinds ==> behind
+   7:    1  ->  finally ==> fondly
+   8:    1  ->  g ==> jg
+   9:    1  ->  it's ==> there's
+  10:    1  ->  lustrous ==> blusterous
+  11:    1  ->  moved ==> lewd
+  12:    1  ->  onto ==> to
+  13:    1  ->  peer ==> here
+  14:    1  ->  place ==> places
+  15:    1  ->  pore ==> poor
+  16:    1  ->  prehistoric ==> postprehistoric
+  17:    1  ->  quran ==> koran
+  18:    1  ->  saint ==> st
+  19:    1  ->  sod ==> so
+  20:    1  ->  temps ==> jeton
+  21:    1  ->  the ==> this
+  22:    1  ->  then ==> the
+  23:    1  ->  titled ==> called
+  24:    1  ->  valentines ==> valentine's
+  25:    1  ->  we ==> tepees
+  26:    1  ->  will ==> were
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  a
+   2:    1  ->  me
+   3:    1  ->  on
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    8  ->  je
+   2:    5  ->  i
+   3:    5  ->  t'aime
+   4:    3  ->  a
+   5:    3  ->  temps
+   6:    2  ->  beaucoup
+   7:    2  ->  comme
+   8:    2  ->  how
+   9:    2  ->  one
+  10:    2  ->  the
+  11:    2  ->  title
+  12:    1  ->  alone
+  13:    1  ->  and
+  14:    1  ->  apostrophe
+  15:    1  ->  at
+  16:    1  ->  between
+  17:    1  ->  c
+  18:    1  ->  comes
+  19:    1  ->  e
+  20:    1  ->  et
+  21:    1  ->  has
+  22:    1  ->  house
+  23:    1  ->  idea
+  24:    1  ->  is
+  25:    1  ->  j
+  26:    1  ->  key
+  27:    1  ->  lizard
+  28:    1  ->  love
+  29:    1  ->  m
+  30:    1  ->  much
+  31:    1  ->  my
+  32:    1  ->  newer
+  33:    1  ->  no
+  34:    1  ->  now
+  35:    1  ->  of
+  36:    1  ->  or
+  37:    1  ->  order
+  38:    1  ->  poems
+  39:    1  ->  post
+  40:    1  ->  read
+  41:    1  ->  some
+  42:    1  ->  t
+  43:    1  ->  teepees
+  44:    1  ->  that
+  45:    1  ->  this
+  46:    1  ->  to
+  47:    1  ->  tout
+  48:    1  ->  will
+  49:    1  ->  you
+     -------
+        74
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    3  ->  reuben
+   2:    1  ->  and
+   3:    1  ->  arithmatic
+   4:    1  ->  at
+   5:    1  ->  bad
+   6:    1  ->  behinds
+   7:    1  ->  finally
+   8:    1  ->  g
+   9:    1  ->  it's
+  10:    1  ->  lustrous
+  11:    1  ->  moved
+  12:    1  ->  onto
+  13:    1  ->  peer
+  14:    1  ->  place
+  15:    1  ->  pore
+  16:    1  ->  prehistoric
+  17:    1  ->  quran
+  18:    1  ->  saint
+  19:    1  ->  sod
+  20:    1  ->  temps
+  21:    1  ->  the
+  22:    1  ->  then
+  23:    1  ->  titled
+  24:    1  ->  valentines
+  25:    1  ->  we
+  26:    1  ->  will
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    3  ->  ruben
+   2:    1  ->  an
+   3:    1  ->  arithmetic
+   4:    1  ->  behind
+   5:    1  ->  blusterous
+   6:    1  ->  called
+   7:    1  ->  fondly
+   8:    1  ->  here
+   9:    1  ->  it
+  10:    1  ->  jeton
+  11:    1  ->  jg
+  12:    1  ->  koran
+  13:    1  ->  lewd
+  14:    1  ->  places
+  15:    1  ->  poor
+  16:    1  ->  postprehistoric
+  17:    1  ->  so
+  18:    1  ->  st
+  19:    1  ->  tepees
+  20:    1  ->  that
+  21:    1  ->  the
+  22:    1  ->  there's
+  23:    1  ->  this
+  24:    1  ->  to
+  25:    1  ->  valentine's
+  26:    1  ->  were
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

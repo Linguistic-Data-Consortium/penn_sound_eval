@@ -1,0 +1,143 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.0%   (  48)
+
+Percent Correct           =   95.3%   ( 923)
+
+Percent Substitution      =    1.3%   (  13)
+Percent Deletions         =    3.4%   (  33)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   95.0%
+
+
+Ref. words                =           ( 969)
+Hyp. words                =           ( 938)
+Aligned words             =           ( 971)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  eighty ==> oh
+   2:    1  ->  first ==> 21st
+   3:    1  ->  forty ==> oh
+   4:    1  ->  from ==> for
+   5:    1  ->  gnawed ==> nod
+   6:    1  ->  long ==> longed
+   7:    1  ->  men ==> deliverymen
+   8:    1  ->  nine ==> 2009
+   9:    1  ->  nineteen ==> nine
+  10:    1  ->  one ==> 1981
+  11:    1  ->  our ==> her
+  12:    1  ->  the ==> a
+  13:    1  ->  turn ==> turned
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  had
+   2:    1  ->  one
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  had
+   2:    2  ->  was
+   3:    1  ->  ahead
+   4:    1  ->  and
+   5:    1  ->  are
+   6:    1  ->  catchphrase
+   7:    1  ->  clint
+   8:    1  ->  day
+   9:    1  ->  delivery
+  10:    1  ->  eastwood
+  11:    1  ->  eighty
+  12:    1  ->  for
+  13:    1  ->  go
+  14:    1  ->  her
+  15:    1  ->  icy
+  16:    1  ->  it
+  17:    1  ->  j
+  18:    1  ->  janice
+  19:    1  ->  like
+  20:    1  ->  make
+  21:    1  ->  my
+  22:    1  ->  nineteen
+  23:    1  ->  she
+  24:    1  ->  shout
+  25:    1  ->  streets
+  26:    1  ->  the
+  27:    1  ->  thousand
+  28:    1  ->  twenty
+  29:    1  ->  two
+  30:    1  ->  yeah
+     -------
+        33
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  eighty
+   2:    1  ->  first
+   3:    1  ->  forty
+   4:    1  ->  from
+   5:    1  ->  gnawed
+   6:    1  ->  long
+   7:    1  ->  men
+   8:    1  ->  nine
+   9:    1  ->  nineteen
+  10:    1  ->  one
+  11:    1  ->  our
+  12:    1  ->  the
+  13:    1  ->  turn
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  oh
+   2:    1  ->  1981
+   3:    1  ->  2009
+   4:    1  ->  21st
+   5:    1  ->  a
+   6:    1  ->  deliverymen
+   7:    1  ->  for
+   8:    1  ->  her
+   9:    1  ->  longed
+  10:    1  ->  nine
+  11:    1  ->  nod
+  12:    1  ->  turned
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

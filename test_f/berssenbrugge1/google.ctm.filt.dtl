@@ -1,0 +1,137 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.7%   (  32)
+
+Percent Correct           =   97.0%   ( 837)
+
+Percent Substitution      =    1.9%   (  16)
+Percent Deletions         =    1.2%   (  10)
+Percent Insertions        =    0.7%   (   6)
+Percent Word Accuracy     =   96.3%
+
+
+Ref. words                =           ( 863)
+Hyp. words                =           ( 859)
+Aligned words             =           ( 869)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  an ==> and
+   2:    1  ->  comprehension ==> noncomprehension
+   3:    1  ->  disjunct ==> disjunk
+   4:    1  ->  eleven ==> one
+   5:    1  ->  feel ==> field
+   6:    1  ->  filling ==> feeling
+   7:    1  ->  implicated ==> imbricated
+   8:    1  ->  inasmuch ==> much
+   9:    1  ->  metonymy ==> autonomy
+  10:    1  ->  photograph ==> photographable
+  11:    1  ->  representable ==> representative
+  12:    1  ->  role ==> room
+  13:    1  ->  to ==> the
+  14:    1  ->  transference ==> transparency
+  15:    1  ->  x ==> plasticity
+  16:    1  ->  zones ==> open
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  as
+   2:    1  ->  demonstrative
+   3:    1  ->  for
+   4:    1  ->  in
+   5:    1  ->  one
+   6:    1  ->  quanyin
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  decorating
+   3:    1  ->  hatched
+   4:    1  ->  like
+   5:    1  ->  mother
+   6:    1  ->  my
+   7:    1  ->  non
+   8:    1  ->  opaque
+   9:    1  ->  tongues
+  10:    1  ->  you
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  an
+   2:    1  ->  comprehension
+   3:    1  ->  disjunct
+   4:    1  ->  eleven
+   5:    1  ->  feel
+   6:    1  ->  filling
+   7:    1  ->  implicated
+   8:    1  ->  inasmuch
+   9:    1  ->  metonymy
+  10:    1  ->  photograph
+  11:    1  ->  representable
+  12:    1  ->  role
+  13:    1  ->  to
+  14:    1  ->  transference
+  15:    1  ->  x
+  16:    1  ->  zones
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  and
+   2:    1  ->  autonomy
+   3:    1  ->  disjunk
+   4:    1  ->  feeling
+   5:    1  ->  field
+   6:    1  ->  imbricated
+   7:    1  ->  much
+   8:    1  ->  noncomprehension
+   9:    1  ->  one
+  10:    1  ->  open
+  11:    1  ->  photographable
+  12:    1  ->  plasticity
+  13:    1  ->  representative
+  14:    1  ->  room
+  15:    1  ->  the
+  16:    1  ->  transparency
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

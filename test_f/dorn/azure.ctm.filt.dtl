@@ -1,0 +1,141 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.0%   (  33)
+
+Percent Correct           =   96.1%   ( 798)
+
+Percent Substitution      =    3.4%   (  28)
+Percent Deletions         =    0.5%   (   4)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   96.0%
+
+
+Ref. words                =           ( 830)
+Hyp. words                =           ( 827)
+Aligned words             =           ( 831)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  aklavik ==> aclovic
+   2:    3  ->  oh ==> o
+   3:    2  ->  aklavik ==> aqlavik
+   4:    2  ->  sun ==> son
+   5:    1  ->  aklavik ==> aclovich
+   6:    1  ->  aklavik ==> inuyaklavik
+   7:    1  ->  aye ==> i
+   8:    1  ->  bay ==> bathe
+   9:    1  ->  cold ==> cole
+  10:    1  ->  croyden ==> croydon
+  11:    1  ->  economic ==> geoeconomic
+  12:    1  ->  enlightened ==> enlighten
+  13:    1  ->  herriman ==> harriman
+  14:    1  ->  ishamelite ==> ishmaelite
+  15:    1  ->  katmandu ==> kathmandu
+  16:    1  ->  light ==> life
+  17:    1  ->  nation ==> nations
+  18:    1  ->  regents ==> regent
+  19:    1  ->  shutter ==> shudder
+  20:    1  ->  the ==> that
+  21:    1  ->  to ==> into
+  22:    1  ->  when ==> went
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  the
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  and
+   2:    1  ->  geo
+   3:    1  ->  in
+   4:    1  ->  you
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    7  ->  aklavik
+   2:    3  ->  oh
+   3:    2  ->  sun
+   4:    1  ->  aye
+   5:    1  ->  bay
+   6:    1  ->  cold
+   7:    1  ->  croyden
+   8:    1  ->  economic
+   9:    1  ->  enlightened
+  10:    1  ->  herriman
+  11:    1  ->  ishamelite
+  12:    1  ->  katmandu
+  13:    1  ->  light
+  14:    1  ->  nation
+  15:    1  ->  regents
+  16:    1  ->  shutter
+  17:    1  ->  the
+  18:    1  ->  to
+  19:    1  ->  when
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  aclovic
+   2:    3  ->  o
+   3:    2  ->  aqlavik
+   4:    2  ->  son
+   5:    1  ->  aclovich
+   6:    1  ->  bathe
+   7:    1  ->  cole
+   8:    1  ->  croydon
+   9:    1  ->  enlighten
+  10:    1  ->  geoeconomic
+  11:    1  ->  harriman
+  12:    1  ->  i
+  13:    1  ->  into
+  14:    1  ->  inuyaklavik
+  15:    1  ->  ishmaelite
+  16:    1  ->  kathmandu
+  17:    1  ->  life
+  18:    1  ->  nations
+  19:    1  ->  regent
+  20:    1  ->  shudder
+  21:    1  ->  that
+  22:    1  ->  went
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

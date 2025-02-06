@@ -1,0 +1,191 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.3%   (  59)
+
+Percent Correct           =   94.6%   ( 885)
+
+Percent Substitution      =    3.4%   (  32)
+Percent Deletions         =    2.0%   (  19)
+Percent Insertions        =    0.9%   (   8)
+Percent Word Accuracy     =   93.7%
+
+
+Ref. words                =           ( 936)
+Hyp. words                =           ( 925)
+Aligned words             =           ( 944)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    1  ->  am ==> in
+   2:    1  ->  and ==> in
+   3:    1  ->  arcane ==> arcade
+   4:    1  ->  craft ==> cropped
+   5:    1  ->  declined ==> clide
+   6:    1  ->  fall ==> freefall
+   7:    1  ->  florencia ==> florencea
+   8:    1  ->  i ==> a
+   9:    1  ->  in ==> and
+  10:    1  ->  in ==> pussin
+  11:    1  ->  invokes ==> invoked
+  12:    1  ->  it ==> market
+  13:    1  ->  jenn ==> jen
+  14:    1  ->  oft ==> of
+  15:    1  ->  pirates ==> pirate's
+  16:    1  ->  remains ==> to
+  17:    1  ->  seeing ==> scene
+  18:    1  ->  shelled ==> german
+  19:    1  ->  shoulder ==> childer
+  20:    1  ->  still ==> astill
+  21:    1  ->  tensegrity ==> tansegrity
+  22:    1  ->  tent ==> tend
+  23:    1  ->  the ==> this
+  24:    1  ->  then ==> the
+  25:    1  ->  unaware ==> where
+  26:    1  ->  vines ==> lines
+  27:    1  ->  walfisch ==> wallfish
+  28:    1  ->  want ==> wants
+  29:    1  ->  what ==> when
+  30:    1  ->  yours' ==> yours
+  31:    1  ->  zizek ==> jack
+  32:    1  ->  zizek ==> jijak
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  '
+   2:    1  ->  g
+   3:    1  ->  of
+   4:    1  ->  out
+   5:    1  ->  shells
+   6:    1  ->  silence
+   7:    1  ->  so
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  in
+   2:    1  ->  free
+   3:    1  ->  is
+   4:    1  ->  it
+   5:    1  ->  kill
+   6:    1  ->  lease
+   7:    1  ->  living
+   8:    1  ->  loves
+   9:    1  ->  mark
+  10:    1  ->  para
+  11:    1  ->  puss
+  12:    1  ->  says
+  13:    1  ->  she
+  14:    1  ->  soil
+  15:    1  ->  sorry
+  16:    1  ->  spectral
+  17:    1  ->  that
+  18:    1  ->  where
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  in
+   2:    2  ->  zizek
+   3:    1  ->  am
+   4:    1  ->  and
+   5:    1  ->  arcane
+   6:    1  ->  craft
+   7:    1  ->  declined
+   8:    1  ->  fall
+   9:    1  ->  florencia
+  10:    1  ->  i
+  11:    1  ->  invokes
+  12:    1  ->  it
+  13:    1  ->  jenn
+  14:    1  ->  oft
+  15:    1  ->  pirates
+  16:    1  ->  remains
+  17:    1  ->  seeing
+  18:    1  ->  shelled
+  19:    1  ->  shoulder
+  20:    1  ->  still
+  21:    1  ->  tensegrity
+  22:    1  ->  tent
+  23:    1  ->  the
+  24:    1  ->  then
+  25:    1  ->  unaware
+  26:    1  ->  vines
+  27:    1  ->  walfisch
+  28:    1  ->  want
+  29:    1  ->  what
+  30:    1  ->  yours'
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  in
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  arcade
+   5:    1  ->  astill
+   6:    1  ->  childer
+   7:    1  ->  clide
+   8:    1  ->  cropped
+   9:    1  ->  florencea
+  10:    1  ->  freefall
+  11:    1  ->  german
+  12:    1  ->  invoked
+  13:    1  ->  jack
+  14:    1  ->  jen
+  15:    1  ->  jijak
+  16:    1  ->  lines
+  17:    1  ->  market
+  18:    1  ->  of
+  19:    1  ->  pirate's
+  20:    1  ->  pussin
+  21:    1  ->  scene
+  22:    1  ->  tansegrity
+  23:    1  ->  tend
+  24:    1  ->  the
+  25:    1  ->  this
+  26:    1  ->  to
+  27:    1  ->  wallfish
+  28:    1  ->  wants
+  29:    1  ->  when
+  30:    1  ->  where
+  31:    1  ->  yours
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

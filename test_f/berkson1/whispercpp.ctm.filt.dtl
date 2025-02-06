@@ -1,0 +1,201 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.0%   (  82)
+
+Percent Correct           =   92.5%   ( 845)
+
+Percent Substitution      =    4.2%   (  38)
+Percent Deletions         =    3.4%   (  31)
+Percent Insertions        =    1.4%   (  13)
+Percent Word Accuracy     =   91.0%
+
+
+Ref. words                =           ( 914)
+Hyp. words                =           ( 896)
+Aligned words             =           ( 927)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    9  ->  saint ==> st
+   2:    1  ->  bluhm ==> bloom
+   3:    1  ->  but ==> well
+   4:    1  ->  casay ==> sa
+   5:    1  ->  claven's ==> clavin's
+   6:    1  ->  cold ==> breakfast
+   7:    1  ->  concrete ==> concrète
+   8:    1  ->  davide ==> david
+   9:    1  ->  delicious ==> in
+  10:    1  ->  distant ==> nottoodistant
+  11:    1  ->  dum ==> dumb
+  12:    1  ->  fagin ==> fagan
+  13:    1  ->  forgive ==> the
+  14:    1  ->  glennan's ==> glennon's
+  15:    1  ->  had ==> well
+  16:    1  ->  me ==> plums
+  17:    1  ->  mitchell's ==> mitchells
+  18:    1  ->  nine ==> 1939
+  19:    1  ->  oeufs ==> oeuf
+  20:    1  ->  padgett ==> paget
+  21:    1  ->  sapeep ==> peep
+  22:    1  ->  so ==> had
+  23:    1  ->  so ==> the
+  24:    1  ->  sweet ==> icebox
+  25:    1  ->  the ==> a
+  26:    1  ->  they ==> that
+  27:    1  ->  thirty ==> oh
+  28:    1  ->  were ==> you
+  29:    1  ->  williams' ==> williams
+  30:    1  ->  with ==> of
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  i
+   2:    1  ->  am
+   3:    1  ->  ate
+   4:    1  ->  casser
+   5:    1  ->  for
+   6:    1  ->  had
+   7:    1  ->  intended
+   8:    1  ->  or
+   9:    1  ->  sorry
+  10:    1  ->  three
+  11:    1  ->  which
+  12:    1  ->  you
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  take
+   2:    2  ->  that
+   3:    1  ->  %bcack
+   4:    1  ->  a
+   5:    1  ->  actually
+   6:    1  ->  come
+   7:    1  ->  halfway
+   8:    1  ->  if
+   9:    1  ->  in
+  10:    1  ->  is
+  11:    1  ->  k.
+  12:    1  ->  let
+  13:    1  ->  me
+  14:    1  ->  nineteen
+  15:    1  ->  not
+  16:    1  ->  o.
+  17:    1  ->  so
+  18:    1  ->  stage
+  19:    1  ->  the
+  20:    1  ->  thirtieth
+  21:    1  ->  time
+  22:    1  ->  to
+  23:    1  ->  too
+  24:    1  ->  up
+  25:    1  ->  water
+  26:    1  ->  we
+  27:    1  ->  x
+  28:    1  ->  you
+  29:    1  ->  your
+     -------
+        31
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    9  ->  saint
+   2:    2  ->  so
+   3:    1  ->  bluhm
+   4:    1  ->  but
+   5:    1  ->  casay
+   6:    1  ->  claven's
+   7:    1  ->  cold
+   8:    1  ->  concrete
+   9:    1  ->  davide
+  10:    1  ->  delicious
+  11:    1  ->  distant
+  12:    1  ->  dum
+  13:    1  ->  fagin
+  14:    1  ->  forgive
+  15:    1  ->  glennan's
+  16:    1  ->  had
+  17:    1  ->  me
+  18:    1  ->  mitchell's
+  19:    1  ->  nine
+  20:    1  ->  oeufs
+  21:    1  ->  padgett
+  22:    1  ->  sapeep
+  23:    1  ->  sweet
+  24:    1  ->  the
+  25:    1  ->  they
+  26:    1  ->  thirty
+  27:    1  ->  were
+  28:    1  ->  williams'
+  29:    1  ->  with
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    9  ->  st
+   2:    2  ->  the
+   3:    2  ->  well
+   4:    1  ->  1939
+   5:    1  ->  a
+   6:    1  ->  bloom
+   7:    1  ->  breakfast
+   8:    1  ->  clavin's
+   9:    1  ->  concrète
+  10:    1  ->  david
+  11:    1  ->  dumb
+  12:    1  ->  fagan
+  13:    1  ->  glennon's
+  14:    1  ->  had
+  15:    1  ->  icebox
+  16:    1  ->  in
+  17:    1  ->  mitchells
+  18:    1  ->  nottoodistant
+  19:    1  ->  oeuf
+  20:    1  ->  of
+  21:    1  ->  oh
+  22:    1  ->  paget
+  23:    1  ->  peep
+  24:    1  ->  plums
+  25:    1  ->  sa
+  26:    1  ->  that
+  27:    1  ->  williams
+  28:    1  ->  you
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

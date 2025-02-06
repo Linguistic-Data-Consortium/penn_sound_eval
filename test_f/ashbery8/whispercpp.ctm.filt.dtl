@@ -1,0 +1,190 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.8%   (  66)
+
+Percent Correct           =   95.0%   (1081)
+
+Percent Substitution      =    2.4%   (  27)
+Percent Deletions         =    2.6%   (  30)
+Percent Insertions        =    0.8%   (   9)
+Percent Word Accuracy     =   94.2%
+
+
+Ref. words                =           (1138)
+Hyp. words                =           (1117)
+Aligned words             =           (1147)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  days ==> is
+   3:    1  ->  fours ==> four
+   4:    1  ->  francks' ==> franck's
+   5:    1  ->  gnossienne ==> gnossien
+   6:    1  ->  hoople ==> hoopel
+   7:    1  ->  i'v ==> have
+   8:    1  ->  indifference ==> difference
+   9:    1  ->  it's ==> its
+  10:    1  ->  jicky ==> jickey
+  11:    1  ->  muddled ==> muddle
+  12:    1  ->  nineteenth ==> 19th
+  13:    1  ->  occurence ==> occurrence
+  14:    1  ->  pachelbel ==> bell
+  15:    1  ->  passed ==> past
+  16:    1  ->  plain ==> plane
+  17:    1  ->  plus ==> place
+  18:    1  ->  refused ==> refuse
+  19:    1  ->  route ==> root
+  20:    1  ->  same ==> sane
+  21:    1  ->  soir ==> soire
+  22:    1  ->  story ==> stories
+  23:    1  ->  survive ==> survived
+  24:    1  ->  ways ==> way
+  25:    1  ->  white ==> light
+  26:    1  ->  with ==> was
+  27:    1  ->  x ==> pereire
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  any
+   2:    1  ->  day
+   3:    1  ->  i
+   4:    1  ->  in
+   5:    1  ->  paco
+   6:    1  ->  so
+   7:    1  ->  some
+   8:    1  ->  way
+   9:    1  ->  what
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  the
+   2:    2  ->  of
+   3:    1  ->  a
+   4:    1  ->  all
+   5:    1  ->  and
+   6:    1  ->  apart
+   7:    1  ->  but
+   8:    1  ->  category
+   9:    1  ->  class
+  10:    1  ->  distinct
+  11:    1  ->  each
+  12:    1  ->  from
+  13:    1  ->  into
+  14:    1  ->  its
+  15:    1  ->  loved
+  16:    1  ->  most
+  17:    1  ->  objects
+  18:    1  ->  ones
+  19:    1  ->  own
+  20:    1  ->  particles
+  21:    1  ->  particular
+  22:    1  ->  s
+  23:    1  ->  same
+  24:    1  ->  she
+  25:    1  ->  that
+  26:    1  ->  transformed
+  27:    1  ->  within
+     -------
+        30
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  a
+   2:    1  ->  days
+   3:    1  ->  fours
+   4:    1  ->  francks'
+   5:    1  ->  gnossienne
+   6:    1  ->  hoople
+   7:    1  ->  i'v
+   8:    1  ->  indifference
+   9:    1  ->  it's
+  10:    1  ->  jicky
+  11:    1  ->  muddled
+  12:    1  ->  nineteenth
+  13:    1  ->  occurence
+  14:    1  ->  pachelbel
+  15:    1  ->  passed
+  16:    1  ->  plain
+  17:    1  ->  plus
+  18:    1  ->  refused
+  19:    1  ->  route
+  20:    1  ->  same
+  21:    1  ->  soir
+  22:    1  ->  story
+  23:    1  ->  survive
+  24:    1  ->  ways
+  25:    1  ->  white
+  26:    1  ->  with
+  27:    1  ->  x
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  19th
+   2:    1  ->  bell
+   3:    1  ->  difference
+   4:    1  ->  four
+   5:    1  ->  franck's
+   6:    1  ->  gnossien
+   7:    1  ->  have
+   8:    1  ->  hoopel
+   9:    1  ->  is
+  10:    1  ->  its
+  11:    1  ->  jickey
+  12:    1  ->  light
+  13:    1  ->  muddle
+  14:    1  ->  occurrence
+  15:    1  ->  past
+  16:    1  ->  pereire
+  17:    1  ->  place
+  18:    1  ->  plane
+  19:    1  ->  refuse
+  20:    1  ->  root
+  21:    1  ->  sane
+  22:    1  ->  soire
+  23:    1  ->  stories
+  24:    1  ->  survived
+  25:    1  ->  the
+  26:    1  ->  was
+  27:    1  ->  way
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

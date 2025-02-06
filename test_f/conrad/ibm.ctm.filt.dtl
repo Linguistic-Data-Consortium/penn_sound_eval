@@ -1,0 +1,318 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.2%   ( 137)
+
+Percent Correct           =   88.9%   ( 922)
+
+Percent Substitution      =    7.8%   (  81)
+Percent Deletions         =    3.3%   (  34)
+Percent Insertions        =    2.1%   (  22)
+Percent Word Accuracy     =   86.8%
+
+
+Ref. words                =           (1037)
+Hyp. words                =           (1025)
+Aligned words             =           (1059)
+
+CONFUSION PAIRS                  Total                 (70)
+                                 With >=  1 occurrences (70)
+
+   1:    4  ->  a ==> the
+   2:    4  ->  fuck ==> ***
+   3:    3  ->  in ==> and
+   4:    3  ->  write ==> right
+   5:    2  ->  fucking ==> ***
+   6:    1  ->  a ==> q&a
+   7:    1  ->  and ==> ***
+   8:    1  ->  and ==> in
+   9:    1  ->  arrows ==> arrow
+  10:    1  ->  art ==> it
+  11:    1  ->  at ==> of
+  12:    1  ->  awol ==> wall
+  13:    1  ->  chalk ==> shock
+  14:    1  ->  count ==> counts
+  15:    1  ->  dead ==> day
+  16:    1  ->  deaths ==> dents
+  17:    1  ->  deaths ==> jets
+  18:    1  ->  deer ==> dear
+  19:    1  ->  doorframe ==> frame
+  20:    1  ->  ducts ==> ducks
+  21:    1  ->  expatriates ==> patriots
+  22:    1  ->  for ==> from
+  23:    1  ->  forests ==> fares
+  24:    1  ->  has ==> is
+  25:    1  ->  have ==> on
+  26:    1  ->  he ==> you
+  27:    1  ->  her ==> called
+  28:    1  ->  highballs ==> balls
+  29:    1  ->  hyperapathy ==> apathy
+  30:    1  ->  i ==> they
+  31:    1  ->  is ==> his
+  32:    1  ->  is ==> languages
+  33:    1  ->  it ==> estimated
+  34:    1  ->  its ==> it's
+  35:    1  ->  kauffman ==> coffin
+  36:    1  ->  levitation ==> limitation
+  37:    1  ->  my ==> a
+  38:    1  ->  not ==> am
+  39:    1  ->  open ==> in
+  40:    1  ->  other ==> another
+  41:    1  ->  paced ==> passed
+  42:    1  ->  phone ==> payphone
+  43:    1  ->  pierced ==> pierce
+  44:    1  ->  poem ==> home
+  45:    1  ->  poles ==> polls
+  46:    1  ->  precedes ==> preceeds
+  47:    1  ->  pulling ==> paying
+  48:    1  ->  pussy ==> ***
+  49:    1  ->  quaker's ==> quaker
+  50:    1  ->  root ==> route
+  51:    1  ->  scent ==> descent
+  52:    1  ->  screaming ==> screening
+  53:    1  ->  sends ==> watterson's
+  54:    1  ->  streets ==> street
+  55:    1  ->  temouzi ==> tammuz
+  56:    1  ->  that ==> there
+  57:    1  ->  the ==> this
+  58:    1  ->  their ==> the
+  59:    1  ->  them ==> him
+  60:    1  ->  then ==> i
+  61:    1  ->  to ==> a
+  62:    1  ->  too ==> to
+  63:    1  ->  tune ==> sum
+  64:    1  ->  view ==> you
+  65:    1  ->  wants ==> once
+  66:    1  ->  waterlogged ==> waterlog
+  67:    1  ->  we ==> may
+  68:    1  ->  we ==> that
+  69:    1  ->  we ==> to
+  70:    1  ->  you ==> ***
+     -------
+        81
+
+
+
+INSERTIONS                       Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  a
+   2:    1  ->  american
+   3:    1  ->  are
+   4:    1  ->  back
+   5:    1  ->  come
+   6:    1  ->  door
+   7:    1  ->  ex
+   8:    1  ->  gi's
+   9:    1  ->  here
+  10:    1  ->  high
+  11:    1  ->  hundreds
+  12:    1  ->  iraq
+  13:    1  ->  of
+  14:    1  ->  only
+  15:    1  ->  or
+  16:    1  ->  piper
+  17:    1  ->  there
+  18:    1  ->  up
+  19:    1  ->  veterans
+  20:    1  ->  war
+  21:    1  ->  who
+  22:    1  ->  your
+     -------
+        22
+
+
+
+DELETIONS                        Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    4  ->  had
+   2:    2  ->  and
+   3:    2  ->  fuck
+   4:    2  ->  we
+   5:    1  ->  are
+   6:    1  ->  call
+   7:    1  ->  do
+   8:    1  ->  estimate
+   9:    1  ->  he
+  10:    1  ->  i
+  11:    1  ->  inst
+  12:    1  ->  k.
+  13:    1  ->  language
+  14:    1  ->  not
+  15:    1  ->  o.
+  16:    1  ->  of
+  17:    1  ->  oh
+  18:    1  ->  only
+  19:    1  ->  ooh
+  20:    1  ->  pay
+  21:    1  ->  q
+  22:    1  ->  that
+  23:    1  ->  that's
+  24:    1  ->  the
+  25:    1  ->  thinking
+  26:    1  ->  was
+  27:    1  ->  water
+  28:    1  ->  wo
+     -------
+        34
+
+
+
+SUBSTITUTIONS                    Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:    5  ->  a
+   2:    4  ->  fuck
+   3:    3  ->  in
+   4:    3  ->  we
+   5:    3  ->  write
+   6:    2  ->  and
+   7:    2  ->  deaths
+   8:    2  ->  fucking
+   9:    2  ->  is
+  10:    1  ->  arrows
+  11:    1  ->  art
+  12:    1  ->  at
+  13:    1  ->  awol
+  14:    1  ->  chalk
+  15:    1  ->  count
+  16:    1  ->  dead
+  17:    1  ->  deer
+  18:    1  ->  doorframe
+  19:    1  ->  ducts
+  20:    1  ->  expatriates
+  21:    1  ->  for
+  22:    1  ->  forests
+  23:    1  ->  has
+  24:    1  ->  have
+  25:    1  ->  he
+  26:    1  ->  her
+  27:    1  ->  highballs
+  28:    1  ->  hyperapathy
+  29:    1  ->  i
+  30:    1  ->  it
+  31:    1  ->  its
+  32:    1  ->  kauffman
+  33:    1  ->  levitation
+  34:    1  ->  my
+  35:    1  ->  not
+  36:    1  ->  open
+  37:    1  ->  other
+  38:    1  ->  paced
+  39:    1  ->  phone
+  40:    1  ->  pierced
+  41:    1  ->  poem
+  42:    1  ->  poles
+  43:    1  ->  precedes
+  44:    1  ->  pulling
+  45:    1  ->  pussy
+  46:    1  ->  quaker's
+  47:    1  ->  root
+  48:    1  ->  scent
+  49:    1  ->  screaming
+  50:    1  ->  sends
+  51:    1  ->  streets
+  52:    1  ->  temouzi
+  53:    1  ->  that
+  54:    1  ->  the
+  55:    1  ->  their
+  56:    1  ->  them
+  57:    1  ->  then
+  58:    1  ->  to
+  59:    1  ->  too
+  60:    1  ->  tune
+  61:    1  ->  view
+  62:    1  ->  wants
+  63:    1  ->  waterlogged
+  64:    1  ->  you
+     -------
+        81
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:    9  ->  ***
+   2:    5  ->  the
+   3:    3  ->  and
+   4:    3  ->  right
+   5:    2  ->  a
+   6:    2  ->  in
+   7:    2  ->  to
+   8:    2  ->  you
+   9:    1  ->  am
+  10:    1  ->  another
+  11:    1  ->  apathy
+  12:    1  ->  arrow
+  13:    1  ->  balls
+  14:    1  ->  called
+  15:    1  ->  coffin
+  16:    1  ->  counts
+  17:    1  ->  day
+  18:    1  ->  dear
+  19:    1  ->  dents
+  20:    1  ->  descent
+  21:    1  ->  ducks
+  22:    1  ->  estimated
+  23:    1  ->  fares
+  24:    1  ->  frame
+  25:    1  ->  from
+  26:    1  ->  him
+  27:    1  ->  his
+  28:    1  ->  home
+  29:    1  ->  i
+  30:    1  ->  is
+  31:    1  ->  it
+  32:    1  ->  it's
+  33:    1  ->  jets
+  34:    1  ->  languages
+  35:    1  ->  limitation
+  36:    1  ->  may
+  37:    1  ->  of
+  38:    1  ->  on
+  39:    1  ->  once
+  40:    1  ->  passed
+  41:    1  ->  patriots
+  42:    1  ->  paying
+  43:    1  ->  payphone
+  44:    1  ->  pierce
+  45:    1  ->  polls
+  46:    1  ->  preceeds
+  47:    1  ->  q&a
+  48:    1  ->  quaker
+  49:    1  ->  route
+  50:    1  ->  screening
+  51:    1  ->  shock
+  52:    1  ->  street
+  53:    1  ->  sum
+  54:    1  ->  tammuz
+  55:    1  ->  that
+  56:    1  ->  there
+  57:    1  ->  they
+  58:    1  ->  this
+  59:    1  ->  wall
+  60:    1  ->  waterlog
+  61:    1  ->  watterson's
+     -------
+        81
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

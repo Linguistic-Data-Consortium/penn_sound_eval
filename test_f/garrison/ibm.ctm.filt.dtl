@@ -1,0 +1,283 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.9%   (  95)
+
+Percent Correct           =   92.5%   (1119)
+
+Percent Substitution      =    6.0%   (  72)
+Percent Deletions         =    1.6%   (  19)
+Percent Insertions        =    0.3%   (   4)
+Percent Word Accuracy     =   92.1%
+
+
+Ref. words                =           (1210)
+Hyp. words                =           (1195)
+Aligned words             =           (1214)
+
+CONFUSION PAIRS                  Total                 (67)
+                                 With >=  1 occurrences (67)
+
+   1:    3  ->  and ==> in
+   2:    2  ->  idle ==> idol
+   3:    2  ->  poem ==> palm
+   4:    2  ->  poem ==> pom
+   5:    1  ->  a ==> the
+   6:    1  ->  about ==> pole
+   7:    1  ->  ate ==> eight
+   8:    1  ->  brushing ==> rushing
+   9:    1  ->  bubbles ==> bubble
+  10:    1  ->  carpentered ==> it
+  11:    1  ->  crooked ==> cricket
+  12:    1  ->  deck ==> duck
+  13:    1  ->  dos ==> does
+  14:    1  ->  entitled ==> title
+  15:    1  ->  glides ==> glance
+  16:    1  ->  gods ==> goods
+  17:    1  ->  gone ==> going
+  18:    1  ->  grease ==> greece
+  19:    1  ->  guessing ==> guessed
+  20:    1  ->  handsaw ==> of
+  21:    1  ->  have ==> are
+  22:    1  ->  her ==> hurt
+  23:    1  ->  hole ==> hold
+  24:    1  ->  in ==> and
+  25:    1  ->  in ==> on
+  26:    1  ->  is ==> tastes
+  27:    1  ->  is ==> was
+  28:    1  ->  it's ==> announced
+  29:    1  ->  leathered ==> loved
+  30:    1  ->  many ==> the
+  31:    1  ->  nailed ==> need
+  32:    1  ->  of ==> the
+  33:    1  ->  old ==> lego
+  34:    1  ->  old ==> vessel
+  35:    1  ->  one ==> when
+  36:    1  ->  others ==> other's
+  37:    1  ->  owned ==> own
+  38:    1  ->  phi ==> five
+  39:    1  ->  planed ==> plain
+  40:    1  ->  poem ==> disappointment
+  41:    1  ->  poem ==> home
+  42:    1  ->  prompted ==> pumped
+  43:    1  ->  raise ==> raised
+  44:    1  ->  realise ==> realised
+  45:    1  ->  salt ==> thought
+  46:    1  ->  sawed ==> sold
+  47:    1  ->  schoolgirl ==> girl
+  48:    1  ->  seal ==> sill
+  49:    1  ->  seductresses ==> seductress
+  50:    1  ->  shatter ==> shattered
+  51:    1  ->  side ==> inside
+  52:    1  ->  so ==> of
+  53:    1  ->  straight ==> strike
+  54:    1  ->  the ==> a
+  55:    1  ->  the ==> number
+  56:    1  ->  the ==> with
+  57:    1  ->  through ==> to
+  58:    1  ->  til ==> till
+  59:    1  ->  tinny ==> tiny
+  60:    1  ->  to ==> do
+  61:    1  ->  waist ==> waste
+  62:    1  ->  walk ==> walked
+  63:    1  ->  what ==> but
+  64:    1  ->  with ==> there's
+  65:    1  ->  working ==> work
+  66:    1  ->  works ==> worked
+  67:    1  ->  yours ==> viewers
+     -------
+        72
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  cottoned
+   2:    1  ->  hands
+   3:    1  ->  school
+   4:    1  ->  some
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  i
+   2:    2  ->  and
+   3:    1  ->  a
+   4:    1  ->  am
+   5:    1  ->  as
+   6:    1  ->  at
+   7:    1  ->  had
+   8:    1  ->  in
+   9:    1  ->  is
+  10:    1  ->  like
+  11:    1  ->  now
+  12:    1  ->  on
+  13:    1  ->  poem
+  14:    1  ->  taste
+  15:    1  ->  this
+  16:    1  ->  with
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    6  ->  poem
+   2:    3  ->  and
+   3:    3  ->  the
+   4:    2  ->  idle
+   5:    2  ->  in
+   6:    2  ->  is
+   7:    2  ->  old
+   8:    1  ->  a
+   9:    1  ->  about
+  10:    1  ->  ate
+  11:    1  ->  brushing
+  12:    1  ->  bubbles
+  13:    1  ->  carpentered
+  14:    1  ->  crooked
+  15:    1  ->  deck
+  16:    1  ->  dos
+  17:    1  ->  entitled
+  18:    1  ->  glides
+  19:    1  ->  gods
+  20:    1  ->  gone
+  21:    1  ->  grease
+  22:    1  ->  guessing
+  23:    1  ->  handsaw
+  24:    1  ->  have
+  25:    1  ->  her
+  26:    1  ->  hole
+  27:    1  ->  it's
+  28:    1  ->  leathered
+  29:    1  ->  many
+  30:    1  ->  nailed
+  31:    1  ->  of
+  32:    1  ->  one
+  33:    1  ->  others
+  34:    1  ->  owned
+  35:    1  ->  phi
+  36:    1  ->  planed
+  37:    1  ->  prompted
+  38:    1  ->  raise
+  39:    1  ->  realise
+  40:    1  ->  salt
+  41:    1  ->  sawed
+  42:    1  ->  schoolgirl
+  43:    1  ->  seal
+  44:    1  ->  seductresses
+  45:    1  ->  shatter
+  46:    1  ->  side
+  47:    1  ->  so
+  48:    1  ->  straight
+  49:    1  ->  through
+  50:    1  ->  til
+  51:    1  ->  tinny
+  52:    1  ->  to
+  53:    1  ->  waist
+  54:    1  ->  walk
+  55:    1  ->  what
+  56:    1  ->  with
+  57:    1  ->  working
+  58:    1  ->  works
+  59:    1  ->  yours
+     -------
+        72
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:    3  ->  in
+   2:    3  ->  the
+   3:    2  ->  idol
+   4:    2  ->  of
+   5:    2  ->  palm
+   6:    2  ->  pom
+   7:    1  ->  a
+   8:    1  ->  and
+   9:    1  ->  announced
+  10:    1  ->  are
+  11:    1  ->  bubble
+  12:    1  ->  but
+  13:    1  ->  cricket
+  14:    1  ->  disappointment
+  15:    1  ->  do
+  16:    1  ->  does
+  17:    1  ->  duck
+  18:    1  ->  eight
+  19:    1  ->  five
+  20:    1  ->  girl
+  21:    1  ->  glance
+  22:    1  ->  going
+  23:    1  ->  goods
+  24:    1  ->  greece
+  25:    1  ->  guessed
+  26:    1  ->  hold
+  27:    1  ->  home
+  28:    1  ->  hurt
+  29:    1  ->  inside
+  30:    1  ->  it
+  31:    1  ->  lego
+  32:    1  ->  loved
+  33:    1  ->  need
+  34:    1  ->  number
+  35:    1  ->  on
+  36:    1  ->  other's
+  37:    1  ->  own
+  38:    1  ->  plain
+  39:    1  ->  pole
+  40:    1  ->  pumped
+  41:    1  ->  raised
+  42:    1  ->  realised
+  43:    1  ->  rushing
+  44:    1  ->  seductress
+  45:    1  ->  shattered
+  46:    1  ->  sill
+  47:    1  ->  sold
+  48:    1  ->  strike
+  49:    1  ->  tastes
+  50:    1  ->  there's
+  51:    1  ->  thought
+  52:    1  ->  till
+  53:    1  ->  tiny
+  54:    1  ->  title
+  55:    1  ->  to
+  56:    1  ->  vessel
+  57:    1  ->  viewers
+  58:    1  ->  walked
+  59:    1  ->  was
+  60:    1  ->  waste
+  61:    1  ->  when
+  62:    1  ->  with
+  63:    1  ->  work
+  64:    1  ->  worked
+     -------
+        72
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

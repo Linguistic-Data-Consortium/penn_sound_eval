@@ -1,0 +1,127 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.1%   (  23)
+
+Percent Correct           =   97.5%   ( 732)
+
+Percent Substitution      =    2.4%   (  18)
+Percent Deletions         =    0.1%   (   1)
+Percent Insertions        =    0.5%   (   4)
+Percent Word Accuracy     =   96.9%
+
+
+Ref. words                =           ( 751)
+Hyp. words                =           ( 754)
+Aligned words             =           ( 755)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  th ==> the
+   2:    1  ->  an ==> and
+   3:    1  ->  apt ==> app
+   4:    1  ->  cot ==> caught
+   5:    1  ->  eruptions ==> eruption
+   6:    1  ->  kyger ==> kiger
+   7:    1  ->  lost ==> lars
+   8:    1  ->  lost ==> lath
+   9:    1  ->  miniscule ==> minuscule
+  10:    1  ->  minuet ==> minette
+  11:    1  ->  parkour ==> parker
+  12:    1  ->  rebbe ==> rebi
+  13:    1  ->  taut ==> tt
+  14:    1  ->  uninscribed ==> inscribed
+  15:    1  ->  x ==> hangers
+  16:    1  ->  x ==> you
+  17:    1  ->  your ==> are
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  comfort
+   4:    1  ->  un
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  ps
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  lost
+   2:    2  ->  th
+   3:    2  ->  x
+   4:    1  ->  an
+   5:    1  ->  apt
+   6:    1  ->  cot
+   7:    1  ->  eruptions
+   8:    1  ->  kyger
+   9:    1  ->  miniscule
+  10:    1  ->  minuet
+  11:    1  ->  parkour
+  12:    1  ->  rebbe
+  13:    1  ->  taut
+  14:    1  ->  uninscribed
+  15:    1  ->  your
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  the
+   2:    1  ->  and
+   3:    1  ->  app
+   4:    1  ->  are
+   5:    1  ->  caught
+   6:    1  ->  eruption
+   7:    1  ->  hangers
+   8:    1  ->  inscribed
+   9:    1  ->  kiger
+  10:    1  ->  lars
+  11:    1  ->  lath
+  12:    1  ->  minette
+  13:    1  ->  minuscule
+  14:    1  ->  parker
+  15:    1  ->  rebi
+  16:    1  ->  tt
+  17:    1  ->  you
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

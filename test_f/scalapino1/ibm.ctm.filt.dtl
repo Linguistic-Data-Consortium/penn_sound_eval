@@ -1,0 +1,275 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.6%   (  95)
+
+Percent Correct           =   92.3%   (1019)
+
+Percent Substitution      =    6.7%   (  74)
+Percent Deletions         =    1.0%   (  11)
+Percent Insertions        =    0.9%   (  10)
+Percent Word Accuracy     =   91.4%
+
+
+Ref. words                =           (1104)
+Hyp. words                =           (1103)
+Aligned words             =           (1114)
+
+CONFUSION PAIRS                  Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:    3  ->  hennaed ==> handed
+   2:    3  ->  or ==> are
+   3:    2  ->  hennaed ==> hundred
+   4:    2  ->  hymn ==> him
+   5:    2  ->  in ==> and
+   6:    2  ->  is ==> as
+   7:    2  ->  poles ==> polls
+   8:    2  ->  ribcage ==> cage
+   9:    1  ->  a ==> it's
+  10:    1  ->  amid ==> in
+  11:    1  ->  and ==> of
+  12:    1  ->  blow ==> blowing
+  13:    1  ->  boy's ==> boys
+  14:    1  ->  bright ==> right
+  15:    1  ->  catching ==> couching
+  16:    1  ->  cocoon ==> cacoon
+  17:    1  ->  cocooned ==> ***
+  18:    1  ->  cracked ==> craft
+  19:    1  ->  crisscrossed ==> crossed
+  20:    1  ->  dead ==> debt
+  21:    1  ->  defences ==> defence
+  22:    1  ->  deserts ==> desert
+  23:    1  ->  eyeholes ==> holes
+  24:    1  ->  flippering ==> flickering
+  25:    1  ->  friends ==> friend
+  26:    1  ->  friends ==> funds
+  27:    1  ->  from ==> that's
+  28:    1  ->  grasshopper ==> hopper
+  29:    1  ->  halves ==> haves
+  30:    1  ->  happened ==> happen
+  31:    1  ->  head ==> ahead
+  32:    1  ->  head ==> sat
+  33:    1  ->  heart ==> hard
+  34:    1  ->  hennaed ==> hand
+  35:    1  ->  hennaed ==> headed
+  36:    1  ->  her ==> for
+  37:    1  ->  honking ==> hacking
+  38:    1  ->  hymns ==> him
+  39:    1  ->  is ==> brushes
+  40:    1  ->  is ==> pneumonia
+  41:    1  ->  it ==> honest
+  42:    1  ->  its ==> it
+  43:    1  ->  jeering ==> entering
+  44:    1  ->  limpid ==> limpit
+  45:    1  ->  mat ==> match
+  46:    1  ->  member ==> number
+  47:    1  ->  nomads ==> mad
+  48:    1  ->  orb ==> or
+  49:    1  ->  plain ==> plane
+  50:    1  ->  put ==> foot
+  51:    1  ->  rode ==> road
+  52:    1  ->  seeing ==> sitting
+  53:    1  ->  sheath ==> chief
+  54:    1  ->  side ==> outside
+  55:    1  ->  swathed ==> saved
+  56:    1  ->  swaying ==> swing
+  57:    1  ->  the ==> he
+  58:    1  ->  their ==> are
+  59:    1  ->  them ==> then
+  60:    1  ->  they ==> dave
+  61:    1  ->  toward ==> towards
+  62:    1  ->  were ==> no
+  63:    1  ->  whose ==> who
+  64:    1  ->  with ==> which
+     -------
+        74
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  are
+   2:    2  ->  rib
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  criss
+   6:    1  ->  eye
+   7:    1  ->  grass
+   8:    1  ->  they
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  am
+   3:    1  ->  brush
+   4:    1  ->  moon
+   5:    1  ->  not
+   6:    1  ->  on
+   7:    1  ->  out
+   8:    1  ->  them
+   9:    1  ->  to
+  10:    1  ->  w
+  11:    1  ->  who
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (57)
+                                 With >=  1 occurrences (57)
+
+   1:    7  ->  hennaed
+   2:    4  ->  is
+   3:    3  ->  or
+   4:    2  ->  friends
+   5:    2  ->  head
+   6:    2  ->  hymn
+   7:    2  ->  in
+   8:    2  ->  poles
+   9:    2  ->  ribcage
+  10:    1  ->  a
+  11:    1  ->  amid
+  12:    1  ->  and
+  13:    1  ->  blow
+  14:    1  ->  boy's
+  15:    1  ->  bright
+  16:    1  ->  catching
+  17:    1  ->  cocoon
+  18:    1  ->  cocooned
+  19:    1  ->  cracked
+  20:    1  ->  crisscrossed
+  21:    1  ->  dead
+  22:    1  ->  defences
+  23:    1  ->  deserts
+  24:    1  ->  eyeholes
+  25:    1  ->  flippering
+  26:    1  ->  from
+  27:    1  ->  grasshopper
+  28:    1  ->  halves
+  29:    1  ->  happened
+  30:    1  ->  heart
+  31:    1  ->  her
+  32:    1  ->  honking
+  33:    1  ->  hymns
+  34:    1  ->  it
+  35:    1  ->  its
+  36:    1  ->  jeering
+  37:    1  ->  limpid
+  38:    1  ->  mat
+  39:    1  ->  member
+  40:    1  ->  nomads
+  41:    1  ->  orb
+  42:    1  ->  plain
+  43:    1  ->  put
+  44:    1  ->  rode
+  45:    1  ->  seeing
+  46:    1  ->  sheath
+  47:    1  ->  side
+  48:    1  ->  swathed
+  49:    1  ->  swaying
+  50:    1  ->  the
+  51:    1  ->  their
+  52:    1  ->  them
+  53:    1  ->  they
+  54:    1  ->  toward
+  55:    1  ->  were
+  56:    1  ->  whose
+  57:    1  ->  with
+     -------
+        74
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (62)
+                                 With >=  1 occurrences (62)
+
+   1:    4  ->  are
+   2:    3  ->  handed
+   3:    3  ->  him
+   4:    2  ->  and
+   5:    2  ->  as
+   6:    2  ->  cage
+   7:    2  ->  hundred
+   8:    2  ->  polls
+   9:    1  ->  ***
+  10:    1  ->  ahead
+  11:    1  ->  blowing
+  12:    1  ->  boys
+  13:    1  ->  brushes
+  14:    1  ->  cacoon
+  15:    1  ->  chief
+  16:    1  ->  couching
+  17:    1  ->  craft
+  18:    1  ->  crossed
+  19:    1  ->  dave
+  20:    1  ->  debt
+  21:    1  ->  defence
+  22:    1  ->  desert
+  23:    1  ->  entering
+  24:    1  ->  flickering
+  25:    1  ->  foot
+  26:    1  ->  for
+  27:    1  ->  friend
+  28:    1  ->  funds
+  29:    1  ->  hacking
+  30:    1  ->  hand
+  31:    1  ->  happen
+  32:    1  ->  hard
+  33:    1  ->  haves
+  34:    1  ->  he
+  35:    1  ->  headed
+  36:    1  ->  holes
+  37:    1  ->  honest
+  38:    1  ->  hopper
+  39:    1  ->  in
+  40:    1  ->  it
+  41:    1  ->  it's
+  42:    1  ->  limpit
+  43:    1  ->  mad
+  44:    1  ->  match
+  45:    1  ->  no
+  46:    1  ->  number
+  47:    1  ->  of
+  48:    1  ->  or
+  49:    1  ->  outside
+  50:    1  ->  plane
+  51:    1  ->  pneumonia
+  52:    1  ->  right
+  53:    1  ->  road
+  54:    1  ->  sat
+  55:    1  ->  saved
+  56:    1  ->  sitting
+  57:    1  ->  swing
+  58:    1  ->  that's
+  59:    1  ->  then
+  60:    1  ->  towards
+  61:    1  ->  which
+  62:    1  ->  who
+     -------
+        74
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,196 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.6%   (  49)
+
+Percent Correct           =   92.6%   ( 526)
+
+Percent Substitution      =    6.7%   (  38)
+Percent Deletions         =    0.7%   (   4)
+Percent Insertions        =    1.2%   (   7)
+Percent Word Accuracy     =   91.4%
+
+
+Ref. words                =           ( 568)
+Hyp. words                =           ( 571)
+Aligned words             =           ( 575)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  abasol ==> abyss
+   3:    1  ->  ascetic ==> acetic
+   4:    1  ->  cairn ==> ken
+   5:    1  ->  colon ==> on
+   6:    1  ->  cult ==> colt
+   7:    1  ->  emancipation ==> emancipator
+   8:    1  ->  empirion ==> imperial
+   9:    1  ->  enzyme ==> ensign
+  10:    1  ->  garden ==> burden
+  11:    1  ->  girl ==> girls
+  12:    1  ->  had ==> hood
+  13:    1  ->  hell ==> hall
+  14:    1  ->  here ==> hairs
+  15:    1  ->  hero ==> he
+  16:    1  ->  hideout ==> out
+  17:    1  ->  icarian ==> in
+  18:    1  ->  is ==> call
+  19:    1  ->  kinsmen ==> kinsman
+  20:    1  ->  meteor ==> your
+  21:    1  ->  muffle ==> muffled
+  22:    1  ->  or ==> were
+  23:    1  ->  pin ==> pen
+  24:    1  ->  point ==> standpoint
+  25:    1  ->  reevaluation ==> revaluation
+  26:    1  ->  screaming ==> streaming
+  27:    1  ->  sentries ==> centuries
+  28:    1  ->  sentries ==> sent
+  29:    1  ->  shear ==> cheer
+  30:    1  ->  shoal ==> shal
+  31:    1  ->  shoal ==> show
+  32:    1  ->  sight ==> site
+  33:    1  ->  spoken ==> unspoken
+  34:    1  ->  stamp ==> stamped
+  35:    1  ->  thresh ==> thrash
+  36:    1  ->  voracity ==> veracity
+  37:    1  ->  wanton ==> meet
+  38:    1  ->  woes ==> ws
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  carry
+   4:    1  ->  hide
+   5:    1  ->  k.
+   6:    1  ->  o.
+   7:    1  ->  want
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  stand
+   2:    1  ->  under
+   3:    1  ->  who
+   4:    1  ->  woe
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  sentries
+   2:    2  ->  shoal
+   3:    1  ->  a
+   4:    1  ->  abasol
+   5:    1  ->  ascetic
+   6:    1  ->  cairn
+   7:    1  ->  colon
+   8:    1  ->  cult
+   9:    1  ->  emancipation
+  10:    1  ->  empirion
+  11:    1  ->  enzyme
+  12:    1  ->  garden
+  13:    1  ->  girl
+  14:    1  ->  had
+  15:    1  ->  hell
+  16:    1  ->  here
+  17:    1  ->  hero
+  18:    1  ->  hideout
+  19:    1  ->  icarian
+  20:    1  ->  is
+  21:    1  ->  kinsmen
+  22:    1  ->  meteor
+  23:    1  ->  muffle
+  24:    1  ->  or
+  25:    1  ->  pin
+  26:    1  ->  point
+  27:    1  ->  reevaluation
+  28:    1  ->  screaming
+  29:    1  ->  shear
+  30:    1  ->  sight
+  31:    1  ->  spoken
+  32:    1  ->  stamp
+  33:    1  ->  thresh
+  34:    1  ->  voracity
+  35:    1  ->  wanton
+  36:    1  ->  woes
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    1  ->  abyss
+   2:    1  ->  acetic
+   3:    1  ->  burden
+   4:    1  ->  call
+   5:    1  ->  centuries
+   6:    1  ->  cheer
+   7:    1  ->  colt
+   8:    1  ->  emancipator
+   9:    1  ->  ensign
+  10:    1  ->  girls
+  11:    1  ->  hairs
+  12:    1  ->  hall
+  13:    1  ->  he
+  14:    1  ->  hood
+  15:    1  ->  imperial
+  16:    1  ->  in
+  17:    1  ->  ken
+  18:    1  ->  kinsman
+  19:    1  ->  meet
+  20:    1  ->  muffled
+  21:    1  ->  of
+  22:    1  ->  on
+  23:    1  ->  out
+  24:    1  ->  pen
+  25:    1  ->  revaluation
+  26:    1  ->  sent
+  27:    1  ->  shal
+  28:    1  ->  show
+  29:    1  ->  site
+  30:    1  ->  stamped
+  31:    1  ->  standpoint
+  32:    1  ->  streaming
+  33:    1  ->  thrash
+  34:    1  ->  unspoken
+  35:    1  ->  veracity
+  36:    1  ->  were
+  37:    1  ->  ws
+  38:    1  ->  your
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

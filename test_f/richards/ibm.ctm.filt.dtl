@@ -1,0 +1,214 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.2%   (  53)
+
+Percent Correct           =   92.3%   ( 597)
+
+Percent Substitution      =    7.4%   (  48)
+Percent Deletions         =    0.3%   (   2)
+Percent Insertions        =    0.5%   (   3)
+Percent Word Accuracy     =   91.8%
+
+
+Ref. words                =           ( 647)
+Hyp. words                =           ( 648)
+Aligned words             =           ( 650)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    2  ->  sand ==> sound
+   2:    1  ->  a ==> of
+   3:    1  ->  an ==> and
+   4:    1  ->  breast ==> breath
+   5:    1  ->  buoyant ==> and
+   6:    1  ->  called ==> cold
+   7:    1  ->  cock's ==> ***
+   8:    1  ->  comb ==> com
+   9:    1  ->  combing ==> coming
+  10:    1  ->  dawn's ==> downs
+  11:    1  ->  groan ==> grown
+  12:    1  ->  help ==> helped
+  13:    1  ->  hen's ==> hens
+  14:    1  ->  here's ==> there's
+  15:    1  ->  hide ==> height
+  16:    1  ->  in ==> and
+  17:    1  ->  it ==> a
+  18:    1  ->  its ==> it's
+  19:    1  ->  jasper ==> jesper
+  20:    1  ->  mountain's ==> mountains
+  21:    1  ->  necks ==> neck
+  22:    1  ->  necks ==> next
+  23:    1  ->  nightgown ==> down
+  24:    1  ->  nor ==> not
+  25:    1  ->  now ==> no
+  26:    1  ->  of ==> at
+  27:    1  ->  oh ==> of
+  28:    1  ->  pallor ==> power
+  29:    1  ->  pelican's ==> pelicans
+  30:    1  ->  poem ==> home
+  31:    1  ->  poem ==> problem
+  32:    1  ->  pouchy ==> pouch
+  33:    1  ->  prayer ==> printer
+  34:    1  ->  rake ==> race
+  35:    1  ->  roar ==> role
+  36:    1  ->  slake ==> sleek
+  37:    1  ->  somewhere ==> how
+  38:    1  ->  stroked ==> stopped
+  39:    1  ->  sun ==> some
+  40:    1  ->  teats ==> teas
+  41:    1  ->  the ==> good
+  42:    1  ->  thirst ==> list
+  43:    1  ->  tines ==> times
+  44:    1  ->  too ==> to
+  45:    1  ->  towards ==> toward
+  46:    1  ->  unwasted ==> unwanted
+  47:    1  ->  yolk ==> yoke
+     -------
+        48
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  boy
+   2:    1  ->  night
+   3:    1  ->  some
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  not
+   2:    1  ->  t
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    2  ->  necks
+   2:    2  ->  poem
+   3:    2  ->  sand
+   4:    1  ->  a
+   5:    1  ->  an
+   6:    1  ->  breast
+   7:    1  ->  buoyant
+   8:    1  ->  called
+   9:    1  ->  cock's
+  10:    1  ->  comb
+  11:    1  ->  combing
+  12:    1  ->  dawn's
+  13:    1  ->  groan
+  14:    1  ->  help
+  15:    1  ->  hen's
+  16:    1  ->  here's
+  17:    1  ->  hide
+  18:    1  ->  in
+  19:    1  ->  it
+  20:    1  ->  its
+  21:    1  ->  jasper
+  22:    1  ->  mountain's
+  23:    1  ->  nightgown
+  24:    1  ->  nor
+  25:    1  ->  now
+  26:    1  ->  of
+  27:    1  ->  oh
+  28:    1  ->  pallor
+  29:    1  ->  pelican's
+  30:    1  ->  pouchy
+  31:    1  ->  prayer
+  32:    1  ->  rake
+  33:    1  ->  roar
+  34:    1  ->  slake
+  35:    1  ->  somewhere
+  36:    1  ->  stroked
+  37:    1  ->  sun
+  38:    1  ->  teats
+  39:    1  ->  the
+  40:    1  ->  thirst
+  41:    1  ->  tines
+  42:    1  ->  too
+  43:    1  ->  towards
+  44:    1  ->  unwasted
+  45:    1  ->  yolk
+     -------
+        48
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    3  ->  and
+   2:    2  ->  of
+   3:    2  ->  sound
+   4:    1  ->  ***
+   5:    1  ->  a
+   6:    1  ->  at
+   7:    1  ->  breath
+   8:    1  ->  cold
+   9:    1  ->  com
+  10:    1  ->  coming
+  11:    1  ->  down
+  12:    1  ->  downs
+  13:    1  ->  good
+  14:    1  ->  grown
+  15:    1  ->  height
+  16:    1  ->  helped
+  17:    1  ->  hens
+  18:    1  ->  home
+  19:    1  ->  how
+  20:    1  ->  it's
+  21:    1  ->  jesper
+  22:    1  ->  list
+  23:    1  ->  mountains
+  24:    1  ->  neck
+  25:    1  ->  next
+  26:    1  ->  no
+  27:    1  ->  not
+  28:    1  ->  pelicans
+  29:    1  ->  pouch
+  30:    1  ->  power
+  31:    1  ->  printer
+  32:    1  ->  problem
+  33:    1  ->  race
+  34:    1  ->  role
+  35:    1  ->  sleek
+  36:    1  ->  some
+  37:    1  ->  stopped
+  38:    1  ->  teas
+  39:    1  ->  there's
+  40:    1  ->  times
+  41:    1  ->  to
+  42:    1  ->  toward
+  43:    1  ->  unwanted
+  44:    1  ->  yoke
+     -------
+        48
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

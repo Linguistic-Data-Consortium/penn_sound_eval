@@ -1,0 +1,185 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.8%   (  73)
+
+Percent Correct           =   94.2%   ( 879)
+
+Percent Substitution      =    3.8%   (  35)
+Percent Deletions         =    2.0%   (  19)
+Percent Insertions        =    2.0%   (  19)
+Percent Word Accuracy     =   92.2%
+
+
+Ref. words                =           ( 933)
+Hyp. words                =           ( 933)
+Aligned words             =           ( 952)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  hobson's ==> 's
+   2:    2  ->  is ==> 's
+   3:    2  ->  noun ==> now
+   4:    1  ->  a ==> waste
+   5:    1  ->  account ==> count
+   6:    1  ->  artell ==> tell
+   7:    1  ->  cetera ==> etc
+   8:    1  ->  definiteness ==> deafness
+   9:    1  ->  et ==> right
+  10:    1  ->  expositor ==> door
+  11:    1  ->  future ==> feature
+  12:    1  ->  in ==> and
+  13:    1  ->  in ==> treading
+  14:    1  ->  it's ==> this
+  15:    1  ->  manner ==> matter
+  16:    1  ->  noun ==> and
+  17:    1  ->  oh ==> and
+  18:    1  ->  oh ==> hundred
+  19:    1  ->  oh ==> so
+  20:    1  ->  one's ==> ones
+  21:    1  ->  or ==> of
+  22:    1  ->  perseverace ==> perseverance
+  23:    1  ->  pertinaciousness ==> tenaciousness
+  24:    1  ->  pertinacity ==> per
+  25:    1  ->  plain ==> planning
+  26:    1  ->  principal ==> principle
+  27:    1  ->  right ==> write
+  28:    1  ->  role ==> rule
+  29:    1  ->  seek ==> sake
+  30:    1  ->  stars' ==> stars
+  31:    1  ->  two ==> too
+  32:    1  ->  with ==> of
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    7  ->  hundred
+   2:    5  ->  and
+   3:    2  ->  hobson
+   4:    1  ->  art
+   5:    1  ->  exposed
+   6:    1  ->  now
+   7:    1  ->  per
+   8:    1  ->  tenacity
+     -------
+        19
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    4  ->  a
+   2:    1  ->  an
+   3:    1  ->  for
+   4:    1  ->  in
+   5:    1  ->  into
+   6:    1  ->  it
+   7:    1  ->  on
+   8:    1  ->  oral
+   9:    1  ->  poo
+  10:    1  ->  roget's
+  11:    1  ->  six
+  12:    1  ->  stern
+  13:    1  ->  to
+  14:    1  ->  tread
+  15:    1  ->  way
+  16:    1  ->  writing
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  noun
+   2:    3  ->  oh
+   3:    2  ->  hobson's
+   4:    2  ->  in
+   5:    2  ->  is
+   6:    1  ->  a
+   7:    1  ->  account
+   8:    1  ->  artell
+   9:    1  ->  cetera
+  10:    1  ->  definiteness
+  11:    1  ->  et
+  12:    1  ->  expositor
+  13:    1  ->  future
+  14:    1  ->  it's
+  15:    1  ->  manner
+  16:    1  ->  one's
+  17:    1  ->  or
+  18:    1  ->  perseverace
+  19:    1  ->  pertinaciousness
+  20:    1  ->  pertinacity
+  21:    1  ->  plain
+  22:    1  ->  principal
+  23:    1  ->  right
+  24:    1  ->  role
+  25:    1  ->  seek
+  26:    1  ->  stars'
+  27:    1  ->  two
+  28:    1  ->  with
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    4  ->  's
+   2:    3  ->  and
+   3:    2  ->  now
+   4:    2  ->  of
+   5:    1  ->  count
+   6:    1  ->  deafness
+   7:    1  ->  door
+   8:    1  ->  etc
+   9:    1  ->  feature
+  10:    1  ->  hundred
+  11:    1  ->  matter
+  12:    1  ->  ones
+  13:    1  ->  per
+  14:    1  ->  perseverance
+  15:    1  ->  planning
+  16:    1  ->  principle
+  17:    1  ->  right
+  18:    1  ->  rule
+  19:    1  ->  sake
+  20:    1  ->  so
+  21:    1  ->  stars
+  22:    1  ->  tell
+  23:    1  ->  tenaciousness
+  24:    1  ->  this
+  25:    1  ->  too
+  26:    1  ->  treading
+  27:    1  ->  waste
+  28:    1  ->  write
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

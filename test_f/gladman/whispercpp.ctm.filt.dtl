@@ -1,0 +1,143 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.9%   ( 113)
+
+Percent Correct           =   98.0%   (1012)
+
+Percent Substitution      =    1.1%   (  11)
+Percent Deletions         =    1.0%   (  10)
+Percent Insertions        =    8.9%   (  92)
+Percent Word Accuracy     =   89.1%
+
+
+Ref. words                =           (1033)
+Hyp. words                =           (1115)
+Aligned words             =           (1125)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  experience ==> experienced
+   2:    1  ->  fat ==> twobedroom
+   3:    1  ->  feeling's ==> feelings
+   4:    1  ->  for ==> from
+   5:    1  ->  haunted ==> hunted
+   6:    1  ->  it ==> and
+   7:    1  ->  lived ==> shortlived
+   8:    1  ->  moods ==> moves
+   9:    1  ->  over ==> of
+  10:    1  ->  ten ==> oh
+  11:    1  ->  thirty ==> oh
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    9  ->  the
+   2:    7  ->  of
+   3:    6  ->  i
+   4:    5  ->  have
+   5:    5  ->  sadness
+   6:    5  ->  that
+   7:    4  ->  am
+   8:    4  ->  an
+   9:    4  ->  in
+  10:    4  ->  midst
+  11:    4  ->  overwhelming
+  12:    3  ->  identity
+  13:    3  ->  is
+  14:    3  ->  moves
+  15:    3  ->  no
+  16:    3  ->  those
+  17:    2  ->  always
+  18:    2  ->  fear
+  19:    2  ->  for
+  20:    2  ->  reason
+  21:    2  ->  similarly
+  22:    2  ->  smile
+  23:    2  ->  thought
+  24:    2  ->  when
+  25:    1  ->  a
+  26:    1  ->  confusion
+  27:    1  ->  gift
+  28:    1  ->  relief
+     -------
+        92
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  and
+   2:    1  ->  as
+   3:    1  ->  bedroom
+   4:    1  ->  deep
+   5:    1  ->  had
+   6:    1  ->  ho
+   7:    1  ->  o
+   8:    1  ->  rid
+   9:    1  ->  short
+  10:    1  ->  two
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  experience
+   2:    1  ->  fat
+   3:    1  ->  feeling's
+   4:    1  ->  for
+   5:    1  ->  haunted
+   6:    1  ->  it
+   7:    1  ->  lived
+   8:    1  ->  moods
+   9:    1  ->  over
+  10:    1  ->  ten
+  11:    1  ->  thirty
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  oh
+   2:    1  ->  and
+   3:    1  ->  experienced
+   4:    1  ->  feelings
+   5:    1  ->  from
+   6:    1  ->  hunted
+   7:    1  ->  moves
+   8:    1  ->  of
+   9:    1  ->  shortlived
+  10:    1  ->  twobedroom
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

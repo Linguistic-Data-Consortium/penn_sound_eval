@@ -1,0 +1,155 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.6%   (  52)
+
+Percent Correct           =   95.0%   ( 753)
+
+Percent Substitution      =    3.5%   (  28)
+Percent Deletions         =    1.5%   (  12)
+Percent Insertions        =    1.5%   (  12)
+Percent Word Accuracy     =   93.4%
+
+
+Ref. words                =           ( 793)
+Hyp. words                =           ( 793)
+Aligned words             =           ( 805)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    7  ->  onto ==> to
+   2:    1  ->  a ==> the
+   3:    1  ->  blocked ==> block
+   4:    1  ->  brushed ==> brush
+   5:    1  ->  but ==> about
+   6:    1  ->  casa ==> the
+   7:    1  ->  cheesemaking ==> making
+   8:    1  ->  do ==> will
+   9:    1  ->  farmworker's ==> worker's
+  10:    1  ->  ficcio ==> casseficio
+  11:    1  ->  ghostlike ==> like
+  12:    1  ->  growth ==> grove
+  13:    1  ->  hello ==> thank
+  14:    1  ->  in ==> and
+  15:    1  ->  laughingstock ==> stock
+  16:    1  ->  louie ==> louis
+  17:    1  ->  sue ==> soothe
+  18:    1  ->  talking ==> talked
+  19:    1  ->  that ==> you
+  20:    1  ->  toxin ==> intoxin
+  21:    1  ->  was ==> hello
+  22:    1  ->  xs ==> x's
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    7  ->  on
+   2:    1  ->  cheese
+   3:    1  ->  farm
+   4:    1  ->  ghost
+   5:    1  ->  i
+   6:    1  ->  laughing
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  in
+   2:    1  ->  a
+   3:    1  ->  am
+   4:    1  ->  and
+   5:    1  ->  fabric
+   6:    1  ->  furniture
+   7:    1  ->  going
+   8:    1  ->  then
+   9:    1  ->  to
+  10:    1  ->  were
+  11:    1  ->  x
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    7  ->  onto
+   2:    1  ->  a
+   3:    1  ->  blocked
+   4:    1  ->  brushed
+   5:    1  ->  but
+   6:    1  ->  casa
+   7:    1  ->  cheesemaking
+   8:    1  ->  do
+   9:    1  ->  farmworker's
+  10:    1  ->  ficcio
+  11:    1  ->  ghostlike
+  12:    1  ->  growth
+  13:    1  ->  hello
+  14:    1  ->  in
+  15:    1  ->  laughingstock
+  16:    1  ->  louie
+  17:    1  ->  sue
+  18:    1  ->  talking
+  19:    1  ->  that
+  20:    1  ->  toxin
+  21:    1  ->  was
+  22:    1  ->  xs
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    7  ->  to
+   2:    2  ->  the
+   3:    1  ->  about
+   4:    1  ->  and
+   5:    1  ->  block
+   6:    1  ->  brush
+   7:    1  ->  casseficio
+   8:    1  ->  grove
+   9:    1  ->  hello
+  10:    1  ->  intoxin
+  11:    1  ->  like
+  12:    1  ->  louis
+  13:    1  ->  making
+  14:    1  ->  soothe
+  15:    1  ->  stock
+  16:    1  ->  talked
+  17:    1  ->  thank
+  18:    1  ->  will
+  19:    1  ->  worker's
+  20:    1  ->  x's
+  21:    1  ->  you
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

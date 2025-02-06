@@ -1,0 +1,203 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.7%   (  61)
+
+Percent Correct           =   93.6%   ( 850)
+
+Percent Substitution      =    4.6%   (  42)
+Percent Deletions         =    1.8%   (  16)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   93.3%
+
+
+Ref. words                =           ( 908)
+Hyp. words                =           ( 895)
+Aligned words             =           ( 911)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  american ==> africanamerican
+   2:    2  ->  one ==> 1901
+   3:    2  ->  twentieth ==> 20th
+   4:    1  ->  african ==> and
+   5:    1  ->  americans ==> africanamericans
+   6:    1  ->  conto ==> canto
+   7:    1  ->  depazzi ==> pace
+   8:    1  ->  dorothy ==> darthy
+   9:    1  ->  eighties ==> 1880s
+  10:    1  ->  eleventh ==> 11th
+  11:    1  ->  fabula ==> fabiola
+  12:    1  ->  friendly ==> userfriendly
+  13:    1  ->  has ==> was
+  14:    1  ->  isoleri ==> iserri
+  15:    1  ->  isoleri ==> isolari
+  16:    1  ->  istfan ==> isvan
+  17:    1  ->  korkemaz ==> corcamans
+  18:    1  ->  mar ==> st
+  19:    1  ->  midseventeenth ==> mid17th
+  20:    1  ->  molise ==> melisse
+  21:    1  ->  montrose ==> monroe
+  22:    1  ->  nineteen ==> nine
+  23:    1  ->  ninth ==> 9th
+  24:    1  ->  paintings ==> paying
+  25:    1  ->  passyunk ==> pascack
+  26:    1  ->  pastor ==> past
+  27:    1  ->  pier ==> peer
+  28:    1  ->  saint ==> st
+  29:    1  ->  seven ==> 1887
+  30:    1  ->  seventy ==> seven
+  31:    1  ->  snockey's ==> snocky's
+  32:    1  ->  states ==> states'
+  33:    1  ->  tayoun's ==> taiyuen's
+  34:    1  ->  tenth ==> 10th
+  35:    1  ->  the ==> a
+  36:    1  ->  twelfth ==> 12th
+  37:    1  ->  version ==> virgin
+  38:    1  ->  win ==> wen
+  39:    1  ->  x ==> festa
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  de
+   2:    1  ->  one
+   3:    1  ->  the
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  african
+   2:    2  ->  eighteen
+   3:    2  ->  nineteen
+   4:    2  ->  oh
+   5:    1  ->  and
+   6:    1  ->  eighty
+   7:    1  ->  i
+   8:    1  ->  r
+   9:    1  ->  s
+  10:    1  ->  saint
+  11:    1  ->  slash
+  12:    1  ->  user
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  american
+   2:    2  ->  isoleri
+   3:    2  ->  one
+   4:    2  ->  twentieth
+   5:    1  ->  african
+   6:    1  ->  americans
+   7:    1  ->  conto
+   8:    1  ->  depazzi
+   9:    1  ->  dorothy
+  10:    1  ->  eighties
+  11:    1  ->  eleventh
+  12:    1  ->  fabula
+  13:    1  ->  friendly
+  14:    1  ->  has
+  15:    1  ->  istfan
+  16:    1  ->  korkemaz
+  17:    1  ->  mar
+  18:    1  ->  midseventeenth
+  19:    1  ->  molise
+  20:    1  ->  montrose
+  21:    1  ->  nineteen
+  22:    1  ->  ninth
+  23:    1  ->  paintings
+  24:    1  ->  passyunk
+  25:    1  ->  pastor
+  26:    1  ->  pier
+  27:    1  ->  saint
+  28:    1  ->  seven
+  29:    1  ->  seventy
+  30:    1  ->  snockey's
+  31:    1  ->  states
+  32:    1  ->  tayoun's
+  33:    1  ->  tenth
+  34:    1  ->  the
+  35:    1  ->  twelfth
+  36:    1  ->  version
+  37:    1  ->  win
+  38:    1  ->  x
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  1901
+   2:    2  ->  20th
+   3:    2  ->  africanamerican
+   4:    2  ->  st
+   5:    1  ->  10th
+   6:    1  ->  11th
+   7:    1  ->  12th
+   8:    1  ->  1880s
+   9:    1  ->  1887
+  10:    1  ->  9th
+  11:    1  ->  a
+  12:    1  ->  africanamericans
+  13:    1  ->  and
+  14:    1  ->  canto
+  15:    1  ->  corcamans
+  16:    1  ->  darthy
+  17:    1  ->  fabiola
+  18:    1  ->  festa
+  19:    1  ->  iserri
+  20:    1  ->  isolari
+  21:    1  ->  isvan
+  22:    1  ->  melisse
+  23:    1  ->  mid17th
+  24:    1  ->  monroe
+  25:    1  ->  nine
+  26:    1  ->  pace
+  27:    1  ->  pascack
+  28:    1  ->  past
+  29:    1  ->  paying
+  30:    1  ->  peer
+  31:    1  ->  seven
+  32:    1  ->  snocky's
+  33:    1  ->  states'
+  34:    1  ->  taiyuen's
+  35:    1  ->  userfriendly
+  36:    1  ->  virgin
+  37:    1  ->  was
+  38:    1  ->  wen
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

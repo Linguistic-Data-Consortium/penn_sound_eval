@@ -1,0 +1,150 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.5%   (  39)
+
+Percent Correct           =   95.2%   ( 677)
+
+Percent Substitution      =    2.7%   (  19)
+Percent Deletions         =    2.1%   (  15)
+Percent Insertions        =    0.7%   (   5)
+Percent Word Accuracy     =   94.5%
+
+
+Ref. words                =           ( 711)
+Hyp. words                =           ( 701)
+Aligned words             =           ( 716)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  anteaters ==> eaters
+   2:    1  ->  cast ==> casts
+   3:    1  ->  combust ==> combusts
+   4:    1  ->  epiphanies ==> epiphanes
+   5:    1  ->  forsythia ==> scythia
+   6:    1  ->  fresh ==> rushed
+   7:    1  ->  lay ==> chinokele
+   8:    1  ->  on ==> whitecaps
+   9:    1  ->  place ==> placed
+  10:    1  ->  plaque ==> plaques
+  11:    1  ->  scumsucker ==> scumsuckers
+  12:    1  ->  shards ==> urnchards
+  13:    1  ->  spring ==> wall
+  14:    1  ->  teal ==> untiel
+  15:    1  ->  the ==> a
+  16:    1  ->  today ==> day
+  17:    1  ->  wet ==> whet
+  18:    1  ->  when ==> one
+  19:    1  ->  winstead ==> at
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  ant
+   2:    1  ->  for
+   3:    1  ->  his
+   4:    1  ->  shoes
+   5:    1  ->  winced
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a
+   2:    1  ->  bass
+   3:    1  ->  but
+   4:    1  ->  caps
+   5:    1  ->  chenaga
+   6:    1  ->  double
+   7:    1  ->  floor
+   8:    1  ->  forest
+   9:    1  ->  on
+  10:    1  ->  strin
+  11:    1  ->  thank
+  12:    1  ->  the
+  13:    1  ->  urn
+  14:    1  ->  what
+  15:    1  ->  you
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  anteaters
+   2:    1  ->  cast
+   3:    1  ->  combust
+   4:    1  ->  epiphanies
+   5:    1  ->  forsythia
+   6:    1  ->  fresh
+   7:    1  ->  lay
+   8:    1  ->  on
+   9:    1  ->  place
+  10:    1  ->  plaque
+  11:    1  ->  scumsucker
+  12:    1  ->  shards
+  13:    1  ->  spring
+  14:    1  ->  teal
+  15:    1  ->  the
+  16:    1  ->  today
+  17:    1  ->  wet
+  18:    1  ->  when
+  19:    1  ->  winstead
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  a
+   2:    1  ->  at
+   3:    1  ->  casts
+   4:    1  ->  chinokele
+   5:    1  ->  combusts
+   6:    1  ->  day
+   7:    1  ->  eaters
+   8:    1  ->  epiphanes
+   9:    1  ->  one
+  10:    1  ->  placed
+  11:    1  ->  plaques
+  12:    1  ->  rushed
+  13:    1  ->  scumsuckers
+  14:    1  ->  scythia
+  15:    1  ->  untiel
+  16:    1  ->  urnchards
+  17:    1  ->  wall
+  18:    1  ->  whet
+  19:    1  ->  whitecaps
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

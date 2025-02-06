@@ -1,0 +1,142 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.6%   (  31)
+
+Percent Correct           =   96.8%   ( 828)
+
+Percent Substitution      =    2.6%   (  22)
+Percent Deletions         =    0.6%   (   5)
+Percent Insertions        =    0.5%   (   4)
+Percent Word Accuracy     =   96.4%
+
+
+Ref. words                =           ( 855)
+Hyp. words                =           ( 854)
+Aligned words             =           ( 859)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  hole ==> whole
+   2:    2  ->  stair ==> stare
+   3:    1  ->  at ==> it
+   4:    1  ->  barrettes ==> berets
+   5:    1  ->  behindhand ==> hand
+   6:    1  ->  bits ==> alphabets
+   7:    1  ->  bloodied ==> bloody
+   8:    1  ->  child ==> girlchild
+   9:    1  ->  cosy ==> cozy
+  10:    1  ->  in ==> and
+  11:    1  ->  insight ==> inside
+  12:    1  ->  laid ==> lay
+  13:    1  ->  l’ingresso ==> l'ingresso
+  14:    1  ->  scrunchie ==> scrunchy
+  15:    1  ->  seemed ==> see
+  16:    1  ->  to ==> the
+  17:    1  ->  unmade ==> made
+  18:    1  ->  vietato ==> tato
+  19:    1  ->  vow ==> avow
+  20:    1  ->  watch ==> watched
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  behind
+   2:    1  ->  may
+   3:    1  ->  those
+   4:    1  ->  via
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  alpha
+   3:    1  ->  girl
+   4:    1  ->  it
+   5:    1  ->  remains
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  hole
+   2:    2  ->  stair
+   3:    1  ->  at
+   4:    1  ->  barrettes
+   5:    1  ->  behindhand
+   6:    1  ->  bits
+   7:    1  ->  bloodied
+   8:    1  ->  child
+   9:    1  ->  cosy
+  10:    1  ->  in
+  11:    1  ->  insight
+  12:    1  ->  laid
+  13:    1  ->  l’ingresso
+  14:    1  ->  scrunchie
+  15:    1  ->  seemed
+  16:    1  ->  to
+  17:    1  ->  unmade
+  18:    1  ->  vietato
+  19:    1  ->  vow
+  20:    1  ->  watch
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  stare
+   2:    2  ->  whole
+   3:    1  ->  alphabets
+   4:    1  ->  and
+   5:    1  ->  avow
+   6:    1  ->  berets
+   7:    1  ->  bloody
+   8:    1  ->  cozy
+   9:    1  ->  girlchild
+  10:    1  ->  hand
+  11:    1  ->  inside
+  12:    1  ->  it
+  13:    1  ->  l'ingresso
+  14:    1  ->  lay
+  15:    1  ->  made
+  16:    1  ->  scrunchy
+  17:    1  ->  see
+  18:    1  ->  tato
+  19:    1  ->  the
+  20:    1  ->  watched
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

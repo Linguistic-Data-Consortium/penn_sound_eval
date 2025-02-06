@@ -1,0 +1,155 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.6%   (  50)
+
+Percent Correct           =   96.1%   (1035)
+
+Percent Substitution      =    2.2%   (  24)
+Percent Deletions         =    1.7%   (  18)
+Percent Insertions        =    0.7%   (   8)
+Percent Word Accuracy     =   95.4%
+
+
+Ref. words                =           (1077)
+Hyp. words                =           (1067)
+Aligned words             =           (1085)
+
+CONFUSION PAIRS                  Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    4  ->  a ==> la
+   2:    1  ->  bayshore ==> shore
+   3:    1  ->  century ==> very
+   4:    1  ->  etiological ==> ideological
+   5:    1  ->  grey ==> gray
+   6:    1  ->  into ==> to
+   7:    1  ->  it ==> musket
+   8:    1  ->  myles ==> miles
+   9:    1  ->  next ==> next"
+  10:    1  ->  one ==> when
+  11:    1  ->  pass ==> past
+  12:    1  ->  schuylkill ==> kill
+  13:    1  ->  son ==> sonnet
+  14:    1  ->  t ==> pst
+  15:    1  ->  thirty ==> three
+  16:    1  ->  to ==> two
+  17:    1  ->  twenty ==> zero
+  18:    1  ->  x ==> is
+  19:    1  ->  x ==> prohman
+  20:    1  ->  x ==> xxx
+  21:    1  ->  x ==> yeux
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  "oh
+   2:    1  ->  bay
+   3:    1  ->  le
+   4:    1  ->  or
+   5:    1  ->  school
+   6:    1  ->  then
+   7:    1  ->  two
+   8:    1  ->  view
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    4  ->  l
+   2:    2  ->  s
+   3:    1  ->  as
+   4:    1  ->  can
+   5:    1  ->  dear
+   6:    1  ->  devo
+   7:    1  ->  kelly
+   8:    1  ->  mask
+   9:    1  ->  one
+  10:    1  ->  p
+  11:    1  ->  sh
+  12:    1  ->  th
+  13:    1  ->  various
+  14:    1  ->  x
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    4  ->  a
+   2:    4  ->  x
+   3:    1  ->  bayshore
+   4:    1  ->  century
+   5:    1  ->  etiological
+   6:    1  ->  grey
+   7:    1  ->  into
+   8:    1  ->  it
+   9:    1  ->  myles
+  10:    1  ->  next
+  11:    1  ->  one
+  12:    1  ->  pass
+  13:    1  ->  schuylkill
+  14:    1  ->  son
+  15:    1  ->  t
+  16:    1  ->  thirty
+  17:    1  ->  to
+  18:    1  ->  twenty
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    4  ->  la
+   2:    1  ->  gray
+   3:    1  ->  ideological
+   4:    1  ->  is
+   5:    1  ->  kill
+   6:    1  ->  miles
+   7:    1  ->  musket
+   8:    1  ->  next"
+   9:    1  ->  past
+  10:    1  ->  prohman
+  11:    1  ->  pst
+  12:    1  ->  shore
+  13:    1  ->  sonnet
+  14:    1  ->  three
+  15:    1  ->  to
+  16:    1  ->  two
+  17:    1  ->  very
+  18:    1  ->  when
+  19:    1  ->  xxx
+  20:    1  ->  yeux
+  21:    1  ->  zero
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

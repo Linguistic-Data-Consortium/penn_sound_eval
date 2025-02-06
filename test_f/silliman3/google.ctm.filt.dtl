@@ -1,0 +1,238 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.0%   (  79)
+
+Percent Correct           =   92.5%   ( 918)
+
+Percent Substitution      =    5.7%   (  57)
+Percent Deletions         =    1.7%   (  17)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   92.0%
+
+
+Ref. words                =           ( 992)
+Hyp. words                =           ( 980)
+Aligned words             =           ( 997)
+
+CONFUSION PAIRS                  Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    4  ->  a ==> the
+   2:    2  ->  sentence ==> sense
+   3:    2  ->  that ==> the
+   4:    1  ->  addressee ==> e
+   5:    1  ->  addressee's ==> e's
+   6:    1  ->  analogues ==> analogs
+   7:    1  ->  and ==> in
+   8:    1  ->  as ==> is
+   9:    1  ->  bones ==> poems
+  10:    1  ->  bronwich's ==> bromige's
+  11:    1  ->  claw ==> cloth
+  12:    1  ->  eightieth ==> eddie
+  13:    1  ->  elliptical ==> nonelliptical
+  14:    1  ->  has ==> as
+  15:    1  ->  in ==> and
+  16:    1  ->  is ==> of
+  17:    1  ->  its ==> the
+  18:    1  ->  landi ==> landry
+  19:    1  ->  landi ==> landy
+  20:    1  ->  mottoes ==> motto
+  21:    1  ->  n ==> and
+  22:    1  ->  needless ==> us
+  23:    1  ->  non ==> then
+  24:    1  ->  one ==> 51
+  25:    1  ->  oppression ==> suppression
+  26:    1  ->  others' ==> others
+  27:    1  ->  plane ==> clean
+  28:    1  ->  positing ==> posing
+  29:    1  ->  premised ==> premise
+  30:    1  ->  question's ==> is
+  31:    1  ->  referent ==> reference
+  32:    1  ->  rig ==> great
+  33:    1  ->  seem ==> seems
+  34:    1  ->  sen ==> sense
+  35:    1  ->  sofala ==> safala
+  36:    1  ->  strophic ==> strophe
+  37:    1  ->  th ==> paragraph
+  38:    1  ->  the ==> a
+  39:    1  ->  the ==> that
+  40:    1  ->  thirteen ==> three
+  41:    1  ->  three ==> 53
+  42:    1  ->  tight ==> type
+  43:    1  ->  together ==> altogether
+  44:    1  ->  twentieth ==> 20th
+  45:    1  ->  two ==> too
+  46:    1  ->  voloshinov ==> valachinov
+  47:    1  ->  voloshinov's ==> evoluchinow's
+  48:    1  ->  watton ==> watson
+  49:    1  ->  well ==> although
+  50:    1  ->  wellek ==> willock
+  51:    1  ->  what ==> when
+  52:    1  ->  x ==> the
+     -------
+        57
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  address
+   2:    1  ->  a
+   3:    1  ->  one
+   4:    1  ->  question
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  and
+   2:    2  ->  five
+   3:    2  ->  of
+   4:    2  ->  point
+   5:    1  ->  all
+   6:    1  ->  in
+   7:    1  ->  intere
+   8:    1  ->  it
+   9:    1  ->  now
+  10:    1  ->  paragra
+  11:    1  ->  peers
+  12:    1  ->  s
+  13:    1  ->  t
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    4  ->  a
+   2:    2  ->  landi
+   3:    2  ->  sentence
+   4:    2  ->  that
+   5:    2  ->  the
+   6:    1  ->  addressee
+   7:    1  ->  addressee's
+   8:    1  ->  analogues
+   9:    1  ->  and
+  10:    1  ->  as
+  11:    1  ->  bones
+  12:    1  ->  bronwich's
+  13:    1  ->  claw
+  14:    1  ->  eightieth
+  15:    1  ->  elliptical
+  16:    1  ->  has
+  17:    1  ->  in
+  18:    1  ->  is
+  19:    1  ->  its
+  20:    1  ->  mottoes
+  21:    1  ->  n
+  22:    1  ->  needless
+  23:    1  ->  non
+  24:    1  ->  one
+  25:    1  ->  oppression
+  26:    1  ->  others'
+  27:    1  ->  plane
+  28:    1  ->  positing
+  29:    1  ->  premised
+  30:    1  ->  question's
+  31:    1  ->  referent
+  32:    1  ->  rig
+  33:    1  ->  seem
+  34:    1  ->  sen
+  35:    1  ->  sofala
+  36:    1  ->  strophic
+  37:    1  ->  th
+  38:    1  ->  thirteen
+  39:    1  ->  three
+  40:    1  ->  tight
+  41:    1  ->  together
+  42:    1  ->  twentieth
+  43:    1  ->  two
+  44:    1  ->  voloshinov
+  45:    1  ->  voloshinov's
+  46:    1  ->  watton
+  47:    1  ->  well
+  48:    1  ->  wellek
+  49:    1  ->  what
+  50:    1  ->  x
+     -------
+        57
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    8  ->  the
+   2:    3  ->  sense
+   3:    2  ->  and
+   4:    2  ->  is
+   5:    1  ->  20th
+   6:    1  ->  51
+   7:    1  ->  53
+   8:    1  ->  a
+   9:    1  ->  although
+  10:    1  ->  altogether
+  11:    1  ->  analogs
+  12:    1  ->  as
+  13:    1  ->  bromige's
+  14:    1  ->  clean
+  15:    1  ->  cloth
+  16:    1  ->  e
+  17:    1  ->  e's
+  18:    1  ->  eddie
+  19:    1  ->  evoluchinow's
+  20:    1  ->  great
+  21:    1  ->  in
+  22:    1  ->  landry
+  23:    1  ->  landy
+  24:    1  ->  motto
+  25:    1  ->  nonelliptical
+  26:    1  ->  of
+  27:    1  ->  others
+  28:    1  ->  paragraph
+  29:    1  ->  poems
+  30:    1  ->  posing
+  31:    1  ->  premise
+  32:    1  ->  reference
+  33:    1  ->  safala
+  34:    1  ->  seems
+  35:    1  ->  strophe
+  36:    1  ->  suppression
+  37:    1  ->  that
+  38:    1  ->  then
+  39:    1  ->  three
+  40:    1  ->  too
+  41:    1  ->  type
+  42:    1  ->  us
+  43:    1  ->  valachinov
+  44:    1  ->  watson
+  45:    1  ->  when
+  46:    1  ->  willock
+     -------
+        57
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

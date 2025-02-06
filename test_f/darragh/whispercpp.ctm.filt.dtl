@@ -1,0 +1,178 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.3%   (  71)
+
+Percent Correct           =   93.8%   ( 916)
+
+Percent Substitution      =    3.3%   (  32)
+Percent Deletions         =    3.0%   (  29)
+Percent Insertions        =    1.0%   (  10)
+Percent Word Accuracy     =   92.7%
+
+
+Ref. words                =           ( 977)
+Hyp. words                =           ( 958)
+Aligned words             =           ( 987)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  hon ==> hun
+   2:    2  ->  bayhdole ==> baydole
+   3:    2  ->  liberty ==> erte
+   4:    2  ->  x ==> corky
+   5:    2  ->  x ==> levent
+   6:    2  ->  x ==> quixey
+   7:    1  ->  a ==> aha
+   8:    1  ->  am ==> lib
+   9:    1  ->  can ==> could
+  10:    1  ->  class ==> workingclass
+  11:    1  ->  fashioned ==> oldfashioned
+  12:    1  ->  funded ==> taxpayerfunded
+  13:    1  ->  her ==> are
+  14:    1  ->  hon ==> and
+  15:    1  ->  in ==> marchin
+  16:    1  ->  known ==> littleknown
+  17:    1  ->  lib ==> lube
+  18:    1  ->  our ==> genar
+  19:    1  ->  p ==> asap
+  20:    1  ->  s ==> us
+  21:    1  ->  six ==> a6
+  22:    1  ->  skin ==> leopardskinned
+  23:    1  ->  the ==> a
+  24:    1  ->  twentieth ==> 20th
+  25:    1  ->  working ==> huns
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  gal
+   2:    1  ->  am
+   3:    1  ->  at
+   4:    1  ->  had
+   5:    1  ->  have
+   6:    1  ->  hun
+   7:    1  ->  i
+   8:    1  ->  lib
+   9:    1  ->  paper
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    3  ->  a
+   2:    2  ->  i
+   3:    2  ->  k.
+   4:    2  ->  o.
+   5:    1  ->  and
+   6:    1  ->  did
+   7:    1  ->  f
+   8:    1  ->  gene
+   9:    1  ->  hons
+  10:    1  ->  it
+  11:    1  ->  leopard
+  12:    1  ->  little
+  13:    1  ->  m
+  14:    1  ->  march
+  15:    1  ->  microphone
+  16:    1  ->  oh
+  17:    1  ->  old
+  18:    1  ->  payer
+  19:    1  ->  s
+  20:    1  ->  tax
+  21:    1  ->  the
+  22:    1  ->  u
+  23:    1  ->  x
+  24:    1  ->  you
+     -------
+        29
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    6  ->  x
+   2:    4  ->  hon
+   3:    2  ->  bayhdole
+   4:    2  ->  liberty
+   5:    1  ->  a
+   6:    1  ->  am
+   7:    1  ->  can
+   8:    1  ->  class
+   9:    1  ->  fashioned
+  10:    1  ->  funded
+  11:    1  ->  her
+  12:    1  ->  in
+  13:    1  ->  known
+  14:    1  ->  lib
+  15:    1  ->  our
+  16:    1  ->  p
+  17:    1  ->  s
+  18:    1  ->  six
+  19:    1  ->  skin
+  20:    1  ->  the
+  21:    1  ->  twentieth
+  22:    1  ->  working
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  hun
+   2:    2  ->  baydole
+   3:    2  ->  corky
+   4:    2  ->  erte
+   5:    2  ->  levent
+   6:    2  ->  quixey
+   7:    1  ->  20th
+   8:    1  ->  a
+   9:    1  ->  a6
+  10:    1  ->  aha
+  11:    1  ->  and
+  12:    1  ->  are
+  13:    1  ->  asap
+  14:    1  ->  could
+  15:    1  ->  genar
+  16:    1  ->  huns
+  17:    1  ->  leopardskinned
+  18:    1  ->  lib
+  19:    1  ->  littleknown
+  20:    1  ->  lube
+  21:    1  ->  marchin
+  22:    1  ->  oldfashioned
+  23:    1  ->  taxpayerfunded
+  24:    1  ->  us
+  25:    1  ->  workingclass
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

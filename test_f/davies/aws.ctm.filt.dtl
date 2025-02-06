@@ -1,0 +1,202 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.6%   (  68)
+
+Percent Correct           =   94.9%   (1151)
+
+Percent Substitution      =    3.3%   (  40)
+Percent Deletions         =    1.8%   (  22)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   94.4%
+
+
+Ref. words                =           (1213)
+Hyp. words                =           (1197)
+Aligned words             =           (1219)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  reuben ==> ruben
+   2:    1  ->  adjectivize ==> adjective
+   3:    1  ->  alone ==> along
+   4:    1  ->  and ==> an
+   5:    1  ->  and ==> jembo
+   6:    1  ->  arithmatic ==> arithmetic
+   7:    1  ->  at ==> it
+   8:    1  ->  bad ==> that
+   9:    1  ->  beaucoup ==> tame
+  10:    1  ->  behinds ==> behind
+  11:    1  ->  cockhead ==> head
+  12:    1  ->  e ==> ime
+  13:    1  ->  et ==> be
+  14:    1  ->  g ==> jg
+  15:    1  ->  hundred ==> oh
+  16:    1  ->  in ==> and
+  17:    1  ->  it's ==> there's
+  18:    1  ->  je ==> come
+  19:    1  ->  je ==> coup
+  20:    1  ->  moved ==> lewd
+  21:    1  ->  near ==> new
+  22:    1  ->  onto ==> to
+  23:    1  ->  peer ==> here
+  24:    1  ->  pore ==> poor
+  25:    1  ->  quran ==> koran
+  26:    1  ->  sod ==> so
+  27:    1  ->  t'aime ==> cone
+  28:    1  ->  t'aime ==> tam
+  29:    1  ->  temps ==> gin
+  30:    1  ->  temps ==> jin
+  31:    1  ->  temps ==> jj
+  32:    1  ->  that ==> the
+  33:    1  ->  the ==> this
+  34:    1  ->  then ==> the
+  35:    1  ->  titled ==> called
+  36:    1  ->  tout ==> too
+  37:    1  ->  valentines ==> valentine's
+  38:    1  ->  vulva ==> volva
+  39:    1  ->  will ==> were
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  b
+   2:    1  ->  cock
+   3:    1  ->  k.
+   4:    1  ->  me
+   5:    1  ->  o.
+   6:    1  ->  on
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    6  ->  je
+   2:    3  ->  t'aime
+   3:    2  ->  a
+   4:    2  ->  comme
+   5:    2  ->  i
+   6:    1  ->  beaucoup
+   7:    1  ->  c
+   8:    1  ->  j
+   9:    1  ->  m
+  10:    1  ->  other
+  11:    1  ->  temps
+  12:    1  ->  we
+     -------
+        22
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  temps
+   2:    2  ->  and
+   3:    2  ->  je
+   4:    2  ->  reuben
+   5:    2  ->  t'aime
+   6:    1  ->  adjectivize
+   7:    1  ->  alone
+   8:    1  ->  arithmatic
+   9:    1  ->  at
+  10:    1  ->  bad
+  11:    1  ->  beaucoup
+  12:    1  ->  behinds
+  13:    1  ->  cockhead
+  14:    1  ->  e
+  15:    1  ->  et
+  16:    1  ->  g
+  17:    1  ->  hundred
+  18:    1  ->  in
+  19:    1  ->  it's
+  20:    1  ->  moved
+  21:    1  ->  near
+  22:    1  ->  onto
+  23:    1  ->  peer
+  24:    1  ->  pore
+  25:    1  ->  quran
+  26:    1  ->  sod
+  27:    1  ->  that
+  28:    1  ->  the
+  29:    1  ->  then
+  30:    1  ->  titled
+  31:    1  ->  tout
+  32:    1  ->  valentines
+  33:    1  ->  vulva
+  34:    1  ->  will
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  ruben
+   2:    2  ->  the
+   3:    1  ->  adjective
+   4:    1  ->  along
+   5:    1  ->  an
+   6:    1  ->  and
+   7:    1  ->  arithmetic
+   8:    1  ->  be
+   9:    1  ->  behind
+  10:    1  ->  called
+  11:    1  ->  come
+  12:    1  ->  cone
+  13:    1  ->  coup
+  14:    1  ->  gin
+  15:    1  ->  head
+  16:    1  ->  here
+  17:    1  ->  ime
+  18:    1  ->  it
+  19:    1  ->  jembo
+  20:    1  ->  jg
+  21:    1  ->  jin
+  22:    1  ->  jj
+  23:    1  ->  koran
+  24:    1  ->  lewd
+  25:    1  ->  new
+  26:    1  ->  oh
+  27:    1  ->  poor
+  28:    1  ->  so
+  29:    1  ->  tam
+  30:    1  ->  tame
+  31:    1  ->  that
+  32:    1  ->  there's
+  33:    1  ->  this
+  34:    1  ->  to
+  35:    1  ->  too
+  36:    1  ->  valentine's
+  37:    1  ->  volva
+  38:    1  ->  were
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

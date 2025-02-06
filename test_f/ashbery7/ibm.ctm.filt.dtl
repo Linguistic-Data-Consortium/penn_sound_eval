@@ -1,0 +1,363 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.4%   ( 125)
+
+Percent Correct           =   89.5%   ( 984)
+
+Percent Substitution      =    9.4%   ( 103)
+Percent Deletions         =    1.1%   (  12)
+Percent Insertions        =    0.9%   (  10)
+Percent Word Accuracy     =   88.6%
+
+
+Ref. words                =           (1099)
+Hyp. words                =           (1097)
+Aligned words             =           (1109)
+
+CONFUSION PAIRS                  Total                 (99)
+                                 With >=  1 occurrences (99)
+
+   1:    2  ->  and ==> in
+   2:    2  ->  light ==> white
+   3:    2  ->  servant's ==> servants
+   4:    2  ->  the ==> a
+   5:    1  ->  a ==> an
+   6:    1  ->  a ==> the
+   7:    1  ->  along ==> long
+   8:    1  ->  and ==> then
+   9:    1  ->  and ==> with
+  10:    1  ->  are ==> were
+  11:    1  ->  as ==> is
+  12:    1  ->  awaits ==> weights
+  13:    1  ->  bade ==> bad
+  14:    1  ->  bee ==> b
+  15:    1  ->  beetles ==> beatles
+  16:    1  ->  bird ==> burned
+  17:    1  ->  bottomward ==> bottom
+  18:    1  ->  but ==> the
+  19:    1  ->  collapse ==> collapsed
+  20:    1  ->  deaf ==> diff
+  21:    1  ->  do ==> to
+  22:    1  ->  drink ==> link
+  23:    1  ->  dwarf ==> wharf
+  24:    1  ->  exchangeable ==> exchange
+  25:    1  ->  find ==> define
+  26:    1  ->  flushed ==> flush
+  27:    1  ->  genitals ==> generals
+  28:    1  ->  grey ==> gray
+  29:    1  ->  had ==> and
+  30:    1  ->  have ==> who
+  31:    1  ->  he ==> head
+  32:    1  ->  he ==> him
+  33:    1  ->  he ==> you
+  34:    1  ->  hell ==> hall
+  35:    1  ->  hid ==> hidden
+  36:    1  ->  hiss ==> his
+  37:    1  ->  impressions ==> impression
+  38:    1  ->  in ==> an
+  39:    1  ->  in ==> and
+  40:    1  ->  is ==> marvelous
+  41:    1  ->  is ==> was
+  42:    1  ->  it ==> a
+  43:    1  ->  its ==> a
+  44:    1  ->  its ==> it's
+  45:    1  ->  ivy ==> vality
+  46:    1  ->  jests ==> just
+  47:    1  ->  know ==> now
+  48:    1  ->  leaves ==> relieves
+  49:    1  ->  led ==> lead
+  50:    1  ->  let ==> you
+  51:    1  ->  light ==> right
+  52:    1  ->  line ==> wine
+  53:    1  ->  lonesomeness ==> handsomeness
+  54:    1  ->  map ==> math
+  55:    1  ->  melodious ==> radius
+  56:    1  ->  now ==> know
+  57:    1  ->  of ==> curve
+  58:    1  ->  ours ==> sears
+  59:    1  ->  papery ==> paper
+  60:    1  ->  patience ==> patients
+  61:    1  ->  patterned ==> pattern
+  62:    1  ->  peace ==> piece
+  63:    1  ->  pictured ==> and
+  64:    1  ->  plant ==> plan
+  65:    1  ->  poem ==> one
+  66:    1  ->  poem ==> pole
+  67:    1  ->  privet ==> private
+  68:    1  ->  reader ==> leader
+  69:    1  ->  scented ==> in
+  70:    1  ->  sea ==> s
+  71:    1  ->  sepulcher ==> curb
+  72:    1  ->  sepulcher ==> simple
+  73:    1  ->  sepulcher ==> supple
+  74:    1  ->  sifts ==> shift
+  75:    1  ->  smarting ==> smiling
+  76:    1  ->  sonnet ==> senate
+  77:    1  ->  sperm ==> spurn
+  78:    1  ->  taken ==> taking
+  79:    1  ->  tear ==> terror
+  80:    1  ->  that ==> it
+  81:    1  ->  the ==> nearly
+  82:    1  ->  thyme ==> time
+  83:    1  ->  to ==> from
+  84:    1  ->  to ==> word
+  85:    1  ->  treetop's ==> treetops
+  86:    1  ->  turned ==> turn
+  87:    1  ->  unassassinated ==> assassinated
+  88:    1  ->  us ==> nearest
+  89:    1  ->  wall ==> world
+  90:    1  ->  wan ==> one
+  91:    1  ->  we ==> you
+  92:    1  ->  what ==> went
+  93:    1  ->  where ==> are
+  94:    1  ->  will ==> would
+  95:    1  ->  with ==> we
+  96:    1  ->  writing ==> riding
+  97:    1  ->  you ==> him
+  98:    1  ->  you ==> me
+  99:    1  ->  your ==> are
+     -------
+       103
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  and
+   2:    1  ->  are
+   3:    1  ->  cycle
+   4:    1  ->  in
+   5:    1  ->  picture
+   6:    1  ->  sent
+   7:    1  ->  to
+   8:    1  ->  un
+   9:    1  ->  we
+  10:    1  ->  while
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  near
+   2:    2  ->  to
+   3:    1  ->  a
+   4:    1  ->  at
+   5:    1  ->  had
+   6:    1  ->  marvel
+   7:    1  ->  or
+   8:    1  ->  seem
+   9:    1  ->  the
+  10:    1  ->  x
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (84)
+                                 With >=  1 occurrences (84)
+
+   1:    4  ->  and
+   2:    3  ->  he
+   3:    3  ->  light
+   4:    3  ->  sepulcher
+   5:    3  ->  the
+   6:    2  ->  a
+   7:    2  ->  in
+   8:    2  ->  is
+   9:    2  ->  its
+  10:    2  ->  poem
+  11:    2  ->  servant's
+  12:    2  ->  to
+  13:    2  ->  you
+  14:    1  ->  along
+  15:    1  ->  are
+  16:    1  ->  as
+  17:    1  ->  awaits
+  18:    1  ->  bade
+  19:    1  ->  bee
+  20:    1  ->  beetles
+  21:    1  ->  bird
+  22:    1  ->  bottomward
+  23:    1  ->  but
+  24:    1  ->  collapse
+  25:    1  ->  deaf
+  26:    1  ->  do
+  27:    1  ->  drink
+  28:    1  ->  dwarf
+  29:    1  ->  exchangeable
+  30:    1  ->  find
+  31:    1  ->  flushed
+  32:    1  ->  genitals
+  33:    1  ->  grey
+  34:    1  ->  had
+  35:    1  ->  have
+  36:    1  ->  hell
+  37:    1  ->  hid
+  38:    1  ->  hiss
+  39:    1  ->  impressions
+  40:    1  ->  it
+  41:    1  ->  ivy
+  42:    1  ->  jests
+  43:    1  ->  know
+  44:    1  ->  leaves
+  45:    1  ->  led
+  46:    1  ->  let
+  47:    1  ->  line
+  48:    1  ->  lonesomeness
+  49:    1  ->  map
+  50:    1  ->  melodious
+  51:    1  ->  now
+  52:    1  ->  of
+  53:    1  ->  ours
+  54:    1  ->  papery
+  55:    1  ->  patience
+  56:    1  ->  patterned
+  57:    1  ->  peace
+  58:    1  ->  pictured
+  59:    1  ->  plant
+  60:    1  ->  privet
+  61:    1  ->  reader
+  62:    1  ->  scented
+  63:    1  ->  sea
+  64:    1  ->  sifts
+  65:    1  ->  smarting
+  66:    1  ->  sonnet
+  67:    1  ->  sperm
+  68:    1  ->  taken
+  69:    1  ->  tear
+  70:    1  ->  that
+  71:    1  ->  thyme
+  72:    1  ->  treetop's
+  73:    1  ->  turned
+  74:    1  ->  unassassinated
+  75:    1  ->  us
+  76:    1  ->  wall
+  77:    1  ->  wan
+  78:    1  ->  we
+  79:    1  ->  what
+  80:    1  ->  where
+  81:    1  ->  will
+  82:    1  ->  with
+  83:    1  ->  writing
+  84:    1  ->  your
+     -------
+       103
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (87)
+                                 With >=  1 occurrences (87)
+
+   1:    4  ->  a
+   2:    3  ->  and
+   3:    3  ->  in
+   4:    3  ->  you
+   5:    2  ->  an
+   6:    2  ->  are
+   7:    2  ->  him
+   8:    2  ->  one
+   9:    2  ->  servants
+  10:    2  ->  the
+  11:    2  ->  white
+  12:    1  ->  assassinated
+  13:    1  ->  b
+  14:    1  ->  bad
+  15:    1  ->  beatles
+  16:    1  ->  bottom
+  17:    1  ->  burned
+  18:    1  ->  collapsed
+  19:    1  ->  curb
+  20:    1  ->  curve
+  21:    1  ->  define
+  22:    1  ->  diff
+  23:    1  ->  exchange
+  24:    1  ->  flush
+  25:    1  ->  from
+  26:    1  ->  generals
+  27:    1  ->  gray
+  28:    1  ->  hall
+  29:    1  ->  handsomeness
+  30:    1  ->  head
+  31:    1  ->  hidden
+  32:    1  ->  his
+  33:    1  ->  impression
+  34:    1  ->  is
+  35:    1  ->  it
+  36:    1  ->  it's
+  37:    1  ->  just
+  38:    1  ->  know
+  39:    1  ->  lead
+  40:    1  ->  leader
+  41:    1  ->  link
+  42:    1  ->  long
+  43:    1  ->  marvelous
+  44:    1  ->  math
+  45:    1  ->  me
+  46:    1  ->  nearest
+  47:    1  ->  nearly
+  48:    1  ->  now
+  49:    1  ->  paper
+  50:    1  ->  patients
+  51:    1  ->  pattern
+  52:    1  ->  piece
+  53:    1  ->  plan
+  54:    1  ->  pole
+  55:    1  ->  private
+  56:    1  ->  radius
+  57:    1  ->  relieves
+  58:    1  ->  riding
+  59:    1  ->  right
+  60:    1  ->  s
+  61:    1  ->  sears
+  62:    1  ->  senate
+  63:    1  ->  shift
+  64:    1  ->  simple
+  65:    1  ->  smiling
+  66:    1  ->  spurn
+  67:    1  ->  supple
+  68:    1  ->  taking
+  69:    1  ->  terror
+  70:    1  ->  then
+  71:    1  ->  time
+  72:    1  ->  to
+  73:    1  ->  treetops
+  74:    1  ->  turn
+  75:    1  ->  vality
+  76:    1  ->  was
+  77:    1  ->  we
+  78:    1  ->  weights
+  79:    1  ->  went
+  80:    1  ->  were
+  81:    1  ->  wharf
+  82:    1  ->  who
+  83:    1  ->  wine
+  84:    1  ->  with
+  85:    1  ->  word
+  86:    1  ->  world
+  87:    1  ->  would
+     -------
+       103
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

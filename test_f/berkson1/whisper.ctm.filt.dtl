@@ -1,0 +1,175 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.8%   (  62)
+
+Percent Correct           =   93.7%   ( 856)
+
+Percent Substitution      =    3.9%   (  36)
+Percent Deletions         =    2.4%   (  22)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   93.2%
+
+
+Ref. words                =           ( 914)
+Hyp. words                =           ( 896)
+Aligned words             =           ( 918)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    9  ->  saint ==> st
+   2:    2  ->  md ==> d
+   3:    1  ->  bluhm ==> bloom
+   4:    1  ->  but ==> well
+   5:    1  ->  casay ==> sa
+   6:    1  ->  claven's ==> clavin's
+   7:    1  ->  come ==> work
+   8:    1  ->  concrete ==> concrète
+   9:    1  ->  davide ==> david
+  10:    1  ->  dum ==> doom
+  11:    1  ->  fagin ==> fagan
+  12:    1  ->  glennan's ==> glennon's
+  13:    1  ->  had ==> mistake
+  14:    1  ->  is ==> does
+  15:    1  ->  mitchell's ==> mitchells
+  16:    1  ->  nine ==> 1939
+  17:    1  ->  oeufs ==> oeuf
+  18:    1  ->  sapeep ==> peep
+  19:    1  ->  stage ==> it
+  20:    1  ->  the ==> a
+  21:    1  ->  the ==> call
+  22:    1  ->  thirty ==> oh
+  23:    1  ->  to ==> will
+  24:    1  ->  up ==> i
+  25:    1  ->  we ==> a
+  26:    1  ->  williams' ==> williams
+  27:    1  ->  with ==> of
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  m
+   2:    1  ->  cassé
+   3:    1  ->  or
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  so
+   2:    2  ->  take
+   3:    1  ->  %bcack
+   4:    1  ->  a
+   5:    1  ->  actually
+   6:    1  ->  halfway
+   7:    1  ->  if
+   8:    1  ->  in
+   9:    1  ->  k.
+  10:    1  ->  let
+  11:    1  ->  me
+  12:    1  ->  nineteen
+  13:    1  ->  o.
+  14:    1  ->  that
+  15:    1  ->  thirtieth
+  16:    1  ->  time
+  17:    1  ->  water
+  18:    1  ->  x
+  19:    1  ->  you
+  20:    1  ->  your
+     -------
+        22
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    9  ->  saint
+   2:    2  ->  md
+   3:    2  ->  the
+   4:    1  ->  bluhm
+   5:    1  ->  but
+   6:    1  ->  casay
+   7:    1  ->  claven's
+   8:    1  ->  come
+   9:    1  ->  concrete
+  10:    1  ->  davide
+  11:    1  ->  dum
+  12:    1  ->  fagin
+  13:    1  ->  glennan's
+  14:    1  ->  had
+  15:    1  ->  is
+  16:    1  ->  mitchell's
+  17:    1  ->  nine
+  18:    1  ->  oeufs
+  19:    1  ->  sapeep
+  20:    1  ->  stage
+  21:    1  ->  thirty
+  22:    1  ->  to
+  23:    1  ->  up
+  24:    1  ->  we
+  25:    1  ->  williams'
+  26:    1  ->  with
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    9  ->  st
+   2:    2  ->  a
+   3:    2  ->  d
+   4:    1  ->  1939
+   5:    1  ->  bloom
+   6:    1  ->  call
+   7:    1  ->  clavin's
+   8:    1  ->  concrète
+   9:    1  ->  david
+  10:    1  ->  does
+  11:    1  ->  doom
+  12:    1  ->  fagan
+  13:    1  ->  glennon's
+  14:    1  ->  i
+  15:    1  ->  it
+  16:    1  ->  mistake
+  17:    1  ->  mitchells
+  18:    1  ->  oeuf
+  19:    1  ->  of
+  20:    1  ->  oh
+  21:    1  ->  peep
+  22:    1  ->  sa
+  23:    1  ->  well
+  24:    1  ->  will
+  25:    1  ->  williams
+  26:    1  ->  work
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

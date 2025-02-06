@@ -1,0 +1,461 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.2%   ( 231)
+
+Percent Correct           =   79.7%   ( 870)
+
+Percent Substitution      =   11.3%   ( 123)
+Percent Deletions         =    9.1%   (  99)
+Percent Insertions        =    0.8%   (   9)
+Percent Word Accuracy     =   78.8%
+
+
+Ref. words                =           (1092)
+Hyp. words                =           (1002)
+Aligned words             =           (1101)
+
+CONFUSION PAIRS                  Total                 (117)
+                                 With >=  1 occurrences (117)
+
+   1:    3  ->  in ==> and
+   2:    2  ->  end ==> and
+   3:    2  ->  is ==> as
+   4:    2  ->  kicker ==> kaka
+   5:    2  ->  x ==> i
+   6:    1  ->  a ==> and
+   7:    1  ->  an ==> and
+   8:    1  ->  and ==> drop
+   9:    1  ->  and ==> in
+  10:    1  ->  and ==> on
+  11:    1  ->  are ==> all
+  12:    1  ->  are ==> street
+  13:    1  ->  at ==> a
+  14:    1  ->  axe ==> x
+  15:    1  ->  b ==> brook
+  16:    1  ->  be ==> your
+  17:    1  ->  beam ==> beat
+  18:    1  ->  bedroom's ==> bedrooms
+  19:    1  ->  blown ==> blow
+  20:    1  ->  brain ==> rain
+  21:    1  ->  but ==> be
+  22:    1  ->  but ==> the
+  23:    1  ->  call ==> coca
+  24:    1  ->  car ==> me
+  25:    1  ->  cluster ==> buster
+  26:    1  ->  constructions ==> construction
+  27:    1  ->  destroy ==> destroyed
+  28:    1  ->  devise ==> divide
+  29:    1  ->  dialogue ==> dialog
+  30:    1  ->  dialogue ==> the
+  31:    1  ->  divine ==> design
+  32:    1  ->  doing's ==> doings
+  33:    1  ->  elated ==> immolated
+  34:    1  ->  ever ==> visit
+  35:    1  ->  far ==> for
+  36:    1  ->  feigns ==> fans
+  37:    1  ->  giddy ==> guide
+  38:    1  ->  glenn ==> and
+  39:    1  ->  having ==> to
+  40:    1  ->  head ==> heads
+  41:    1  ->  her ==> car
+  42:    1  ->  hides ==> had
+  43:    1  ->  holy ==> holly
+  44:    1  ->  house ==> roadhouse
+  45:    1  ->  ids ==> id's
+  46:    1  ->  is ==> o.
+  47:    1  ->  is ==> was
+  48:    1  ->  it ==> at
+  49:    1  ->  it ==> better
+  50:    1  ->  it ==> cola
+  51:    1  ->  it ==> k.
+  52:    1  ->  it ==> not
+  53:    1  ->  it ==> they
+  54:    1  ->  known ==> conduct
+  55:    1  ->  lapped ==> left
+  56:    1  ->  lev ==> love
+  57:    1  ->  look ==> book
+  58:    1  ->  looker ==> liquor
+  59:    1  ->  man ==> stickman
+  60:    1  ->  not ==> out
+  61:    1  ->  obtain ==> in
+  62:    1  ->  of ==> applied
+  63:    1  ->  oh ==> or
+  64:    1  ->  others ==> align
+  65:    1  ->  out ==> it
+  66:    1  ->  out ==> to
+  67:    1  ->  praising ==> raising
+  68:    1  ->  refugees ==> refugee
+  69:    1  ->  road ==> lips
+  70:    1  ->  runnerup ==> up
+  71:    1  ->  say ==> save
+  72:    1  ->  scene ==> scheme
+  73:    1  ->  she ==> he
+  74:    1  ->  shells ==> shell
+  75:    1  ->  sparks ==> spots
+  76:    1  ->  stained ==> staying
+  77:    1  ->  stink ==> instinct
+  78:    1  ->  straw ==> strong
+  79:    1  ->  talk ==> top
+  80:    1  ->  tameless ==> timeless
+  81:    1  ->  the ==> is
+  82:    1  ->  this ==> the
+  83:    1  ->  this ==> us
+  84:    1  ->  thrall ==> thrill
+  85:    1  ->  til ==> till
+  86:    1  ->  time ==> clock
+  87:    1  ->  to ==> day
+  88:    1  ->  tooth ==> to
+  89:    1  ->  trusted ==> mistrusted
+  90:    1  ->  turns ==> terms
+  91:    1  ->  unpromised ==> promised
+  92:    1  ->  up ==> out
+  93:    1  ->  us ==> kaka
+  94:    1  ->  used ==> spoke
+  95:    1  ->  utilities ==> utility
+  96:    1  ->  victims ==> name
+  97:    1  ->  viv ==> have
+  98:    1  ->  was ==> sections
+  99:    1  ->  what ==> o.
+ 100:    1  ->  what ==> ten
+ 101:    1  ->  what's ==> that's
+ 102:    1  ->  width ==> totaling
+ 103:    1  ->  with ==> permission
+ 104:    1  ->  wither ==> with
+ 105:    1  ->  word's ==> words
+ 106:    1  ->  wraith ==> race
+ 107:    1  ->  x ==> dialog
+ 108:    1  ->  x ==> drinks
+ 109:    1  ->  x ==> going
+ 110:    1  ->  x ==> indonesia
+ 111:    1  ->  x ==> lead
+ 112:    1  ->  x ==> like
+ 113:    1  ->  x ==> none
+ 114:    1  ->  x ==> off
+ 115:    1  ->  x ==> psychologist
+ 116:    1  ->  x ==> same
+ 117:    1  ->  x ==> up
+     -------
+       123
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  from
+   2:    1  ->  it's
+   3:    1  ->  may
+   4:    1  ->  runner
+   5:    1  ->  tie
+   6:    1  ->  time
+   7:    1  ->  un
+   8:    1  ->  what
+   9:    1  ->  you
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (68)
+                                 With >=  1 occurrences (68)
+
+   1:   10  ->  x
+   2:    8  ->  of
+   3:    3  ->  the
+   4:    3  ->  this
+   5:    3  ->  to
+   6:    2  ->  a
+   7:    2  ->  and
+   8:    2  ->  first
+   9:    2  ->  i
+  10:    2  ->  in
+  11:    2  ->  it
+  12:    2  ->  just
+  13:    2  ->  shy
+  14:    2  ->  streets
+  15:    1  ->  absentia
+  16:    1  ->  alleged
+  17:    1  ->  am
+  18:    1  ->  are
+  19:    1  ->  at
+  20:    1  ->  back
+  21:    1  ->  beer
+  22:    1  ->  blatant
+  23:    1  ->  corpus
+  24:    1  ->  deci
+  25:    1  ->  denied
+  26:    1  ->  dies
+  27:    1  ->  drinking
+  28:    1  ->  dropped
+  29:    1  ->  expression
+  30:    1  ->  from
+  31:    1  ->  get
+  32:    1  ->  habeas
+  33:    1  ->  how
+  34:    1  ->  if
+  35:    1  ->  is
+  36:    1  ->  kick
+  37:    1  ->  long
+  38:    1  ->  love
+  39:    1  ->  make
+  40:    1  ->  matter
+  41:    1  ->  me
+  42:    1  ->  mean
+  43:    1  ->  misconduct
+  44:    1  ->  much
+  45:    1  ->  names
+  46:    1  ->  no
+  47:    1  ->  one
+  48:    1  ->  opportunistic
+  49:    1  ->  out
+  50:    1  ->  permission
+  51:    1  ->  pillows
+  52:    1  ->  presence
+  53:    1  ->  replied
+  54:    1  ->  saw
+  55:    1  ->  section
+  56:    1  ->  sentences
+  57:    1  ->  so
+  58:    1  ->  stick
+  59:    1  ->  their
+  60:    1  ->  total
+  61:    1  ->  up
+  62:    1  ->  visit
+  63:    1  ->  what
+  64:    1  ->  where
+  65:    1  ->  women
+  66:    1  ->  wooing
+  67:    1  ->  yeah
+  68:    1  ->  you
+     -------
+        99
+
+
+
+SUBSTITUTIONS                    Total                 (91)
+                                 With >=  1 occurrences (91)
+
+   1:   13  ->  x
+   2:    6  ->  it
+   3:    4  ->  is
+   4:    3  ->  and
+   5:    3  ->  in
+   6:    2  ->  are
+   7:    2  ->  but
+   8:    2  ->  dialogue
+   9:    2  ->  end
+  10:    2  ->  kicker
+  11:    2  ->  out
+  12:    2  ->  this
+  13:    2  ->  what
+  14:    1  ->  a
+  15:    1  ->  an
+  16:    1  ->  at
+  17:    1  ->  axe
+  18:    1  ->  b
+  19:    1  ->  be
+  20:    1  ->  beam
+  21:    1  ->  bedroom's
+  22:    1  ->  blown
+  23:    1  ->  brain
+  24:    1  ->  call
+  25:    1  ->  car
+  26:    1  ->  cluster
+  27:    1  ->  constructions
+  28:    1  ->  destroy
+  29:    1  ->  devise
+  30:    1  ->  divine
+  31:    1  ->  doing's
+  32:    1  ->  elated
+  33:    1  ->  ever
+  34:    1  ->  far
+  35:    1  ->  feigns
+  36:    1  ->  giddy
+  37:    1  ->  glenn
+  38:    1  ->  having
+  39:    1  ->  head
+  40:    1  ->  her
+  41:    1  ->  hides
+  42:    1  ->  holy
+  43:    1  ->  house
+  44:    1  ->  ids
+  45:    1  ->  known
+  46:    1  ->  lapped
+  47:    1  ->  lev
+  48:    1  ->  look
+  49:    1  ->  looker
+  50:    1  ->  man
+  51:    1  ->  not
+  52:    1  ->  obtain
+  53:    1  ->  of
+  54:    1  ->  oh
+  55:    1  ->  others
+  56:    1  ->  praising
+  57:    1  ->  refugees
+  58:    1  ->  road
+  59:    1  ->  runnerup
+  60:    1  ->  say
+  61:    1  ->  scene
+  62:    1  ->  she
+  63:    1  ->  shells
+  64:    1  ->  sparks
+  65:    1  ->  stained
+  66:    1  ->  stink
+  67:    1  ->  straw
+  68:    1  ->  talk
+  69:    1  ->  tameless
+  70:    1  ->  the
+  71:    1  ->  thrall
+  72:    1  ->  til
+  73:    1  ->  time
+  74:    1  ->  to
+  75:    1  ->  tooth
+  76:    1  ->  trusted
+  77:    1  ->  turns
+  78:    1  ->  unpromised
+  79:    1  ->  up
+  80:    1  ->  us
+  81:    1  ->  used
+  82:    1  ->  utilities
+  83:    1  ->  victims
+  84:    1  ->  viv
+  85:    1  ->  was
+  86:    1  ->  what's
+  87:    1  ->  width
+  88:    1  ->  with
+  89:    1  ->  wither
+  90:    1  ->  word's
+  91:    1  ->  wraith
+     -------
+       123
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (103)
+                                 With >=  1 occurrences (103)
+
+   1:    8  ->  and
+   2:    3  ->  kaka
+   3:    3  ->  the
+   4:    3  ->  to
+   5:    2  ->  as
+   6:    2  ->  dialog
+   7:    2  ->  i
+   8:    2  ->  in
+   9:    2  ->  o.
+  10:    2  ->  out
+  11:    2  ->  up
+  12:    1  ->  a
+  13:    1  ->  align
+  14:    1  ->  all
+  15:    1  ->  applied
+  16:    1  ->  at
+  17:    1  ->  be
+  18:    1  ->  beat
+  19:    1  ->  bedrooms
+  20:    1  ->  better
+  21:    1  ->  blow
+  22:    1  ->  book
+  23:    1  ->  brook
+  24:    1  ->  buster
+  25:    1  ->  car
+  26:    1  ->  clock
+  27:    1  ->  coca
+  28:    1  ->  cola
+  29:    1  ->  conduct
+  30:    1  ->  construction
+  31:    1  ->  day
+  32:    1  ->  design
+  33:    1  ->  destroyed
+  34:    1  ->  divide
+  35:    1  ->  doings
+  36:    1  ->  drinks
+  37:    1  ->  drop
+  38:    1  ->  fans
+  39:    1  ->  for
+  40:    1  ->  going
+  41:    1  ->  guide
+  42:    1  ->  had
+  43:    1  ->  have
+  44:    1  ->  he
+  45:    1  ->  heads
+  46:    1  ->  holly
+  47:    1  ->  id's
+  48:    1  ->  immolated
+  49:    1  ->  indonesia
+  50:    1  ->  instinct
+  51:    1  ->  is
+  52:    1  ->  it
+  53:    1  ->  k.
+  54:    1  ->  lead
+  55:    1  ->  left
+  56:    1  ->  like
+  57:    1  ->  lips
+  58:    1  ->  liquor
+  59:    1  ->  love
+  60:    1  ->  me
+  61:    1  ->  mistrusted
+  62:    1  ->  name
+  63:    1  ->  none
+  64:    1  ->  not
+  65:    1  ->  off
+  66:    1  ->  on
+  67:    1  ->  or
+  68:    1  ->  permission
+  69:    1  ->  promised
+  70:    1  ->  psychologist
+  71:    1  ->  race
+  72:    1  ->  rain
+  73:    1  ->  raising
+  74:    1  ->  refugee
+  75:    1  ->  roadhouse
+  76:    1  ->  same
+  77:    1  ->  save
+  78:    1  ->  scheme
+  79:    1  ->  sections
+  80:    1  ->  shell
+  81:    1  ->  spoke
+  82:    1  ->  spots
+  83:    1  ->  staying
+  84:    1  ->  stickman
+  85:    1  ->  street
+  86:    1  ->  strong
+  87:    1  ->  ten
+  88:    1  ->  terms
+  89:    1  ->  that's
+  90:    1  ->  they
+  91:    1  ->  thrill
+  92:    1  ->  till
+  93:    1  ->  timeless
+  94:    1  ->  top
+  95:    1  ->  totaling
+  96:    1  ->  us
+  97:    1  ->  utility
+  98:    1  ->  visit
+  99:    1  ->  was
+ 100:    1  ->  with
+ 101:    1  ->  words
+ 102:    1  ->  x
+ 103:    1  ->  your
+     -------
+       123
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

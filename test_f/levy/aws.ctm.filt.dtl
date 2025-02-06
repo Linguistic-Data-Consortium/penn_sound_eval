@@ -1,0 +1,220 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.3%   (  61)
+
+Percent Correct           =   94.6%   ( 923)
+
+Percent Substitution      =    4.7%   (  46)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   93.8%
+
+
+Ref. words                =           ( 976)
+Hyp. words                =           ( 977)
+Aligned words             =           ( 984)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    2  ->  a ==> the
+   2:    1  ->  ability ==> incommensurability
+   3:    1  ->  antimony ==> antinomy
+   4:    1  ->  anyone ==> one
+   5:    1  ->  apathetic ==> epiphytic
+   6:    1  ->  armpit's ==> armpits
+   7:    1  ->  borne ==> born
+   8:    1  ->  cart ==> car
+   9:    1  ->  cedar ==> seder
+  10:    1  ->  charmed ==> charm
+  11:    1  ->  dew ==> too
+  12:    1  ->  dot ==> adopt
+  13:    1  ->  forbes' ==> forbes
+  14:    1  ->  head ==> had
+  15:    1  ->  in ==> and
+  16:    1  ->  interest ==> interests
+  17:    1  ->  is ==> as
+  18:    1  ->  is ==> with
+  19:    1  ->  it ==> i
+  20:    1  ->  laid ==> light
+  21:    1  ->  man ==> and
+  22:    1  ->  modernism ==> postmodernism
+  23:    1  ->  name ==> names
+  24:    1  ->  now ==> how
+  25:    1  ->  phones ==> foams
+  26:    1  ->  prophesize ==> prophesized
+  27:    1  ->  purpled ==> purported
+  28:    1  ->  rider ==> writer
+  29:    1  ->  said ==> says
+  30:    1  ->  scalp ==> gap
+  31:    1  ->  seacoast ==> coast
+  32:    1  ->  see ==> c
+  33:    1  ->  segue ==> segway
+  34:    1  ->  so ==> some
+  35:    1  ->  soo ==> so
+  36:    1  ->  strong ==> sperm
+  37:    1  ->  tax ==> text
+  38:    1  ->  that ==> it
+  39:    1  ->  the ==> a
+  40:    1  ->  the ==> this
+  41:    1  ->  through ==> to
+  42:    1  ->  time ==> tongue
+  43:    1  ->  trustville ==> trust
+  44:    1  ->  were ==> are
+  45:    1  ->  why ==> what
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  any
+   4:    1  ->  k.
+   5:    1  ->  o.
+   6:    1  ->  of
+   7:    1  ->  or
+   8:    1  ->  sea
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  her
+   3:    1  ->  him
+   4:    1  ->  increments
+   5:    1  ->  post
+   6:    1  ->  s
+   7:    1  ->  who
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  a
+   2:    2  ->  is
+   3:    2  ->  the
+   4:    1  ->  ability
+   5:    1  ->  antimony
+   6:    1  ->  anyone
+   7:    1  ->  apathetic
+   8:    1  ->  armpit's
+   9:    1  ->  borne
+  10:    1  ->  cart
+  11:    1  ->  cedar
+  12:    1  ->  charmed
+  13:    1  ->  dew
+  14:    1  ->  dot
+  15:    1  ->  forbes'
+  16:    1  ->  head
+  17:    1  ->  in
+  18:    1  ->  interest
+  19:    1  ->  it
+  20:    1  ->  laid
+  21:    1  ->  man
+  22:    1  ->  modernism
+  23:    1  ->  name
+  24:    1  ->  now
+  25:    1  ->  phones
+  26:    1  ->  prophesize
+  27:    1  ->  purpled
+  28:    1  ->  rider
+  29:    1  ->  said
+  30:    1  ->  scalp
+  31:    1  ->  seacoast
+  32:    1  ->  see
+  33:    1  ->  segue
+  34:    1  ->  so
+  35:    1  ->  soo
+  36:    1  ->  strong
+  37:    1  ->  tax
+  38:    1  ->  that
+  39:    1  ->  through
+  40:    1  ->  time
+  41:    1  ->  trustville
+  42:    1  ->  were
+  43:    1  ->  why
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    2  ->  and
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  adopt
+   5:    1  ->  antinomy
+   6:    1  ->  are
+   7:    1  ->  armpits
+   8:    1  ->  as
+   9:    1  ->  born
+  10:    1  ->  c
+  11:    1  ->  car
+  12:    1  ->  charm
+  13:    1  ->  coast
+  14:    1  ->  epiphytic
+  15:    1  ->  foams
+  16:    1  ->  forbes
+  17:    1  ->  gap
+  18:    1  ->  had
+  19:    1  ->  how
+  20:    1  ->  i
+  21:    1  ->  incommensurability
+  22:    1  ->  interests
+  23:    1  ->  it
+  24:    1  ->  light
+  25:    1  ->  names
+  26:    1  ->  one
+  27:    1  ->  postmodernism
+  28:    1  ->  prophesized
+  29:    1  ->  purported
+  30:    1  ->  says
+  31:    1  ->  seder
+  32:    1  ->  segway
+  33:    1  ->  so
+  34:    1  ->  some
+  35:    1  ->  sperm
+  36:    1  ->  text
+  37:    1  ->  this
+  38:    1  ->  to
+  39:    1  ->  tongue
+  40:    1  ->  too
+  41:    1  ->  trust
+  42:    1  ->  what
+  43:    1  ->  with
+  44:    1  ->  writer
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

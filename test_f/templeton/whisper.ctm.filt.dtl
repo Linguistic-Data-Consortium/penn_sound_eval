@@ -1,0 +1,495 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   41.5%   ( 453)
+
+Percent Correct           =   61.8%   ( 674)
+
+Percent Substitution      =    6.0%   (  65)
+Percent Deletions         =   32.3%   ( 352)
+Percent Insertions        =    3.3%   (  36)
+Percent Word Accuracy     =   58.5%
+
+
+Ref. words                =           (1091)
+Hyp. words                =           ( 775)
+Aligned words             =           (1127)
+
+CONFUSION PAIRS                  Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:    2  ->  x ==> and
+   2:    1  ->  a ==> the
+   3:    1  ->  absence ==> you
+   4:    1  ->  an ==> and
+   5:    1  ->  and ==> in
+   6:    1  ->  and ==> on
+   7:    1  ->  and ==> us
+   8:    1  ->  are ==> whole
+   9:    1  ->  beam ==> beast
+  10:    1  ->  because ==> shy
+  11:    1  ->  bedroom's ==> bedrooms
+  12:    1  ->  by ==> you
+  13:    1  ->  cluster ==> just
+  14:    1  ->  commotion ==> thank
+  15:    1  ->  consoled ==> you
+  16:    1  ->  constructions ==> construction
+  17:    1  ->  destroy ==> destroyed
+  18:    1  ->  economist ==> thank
+  19:    1  ->  economists ==> you
+  20:    1  ->  face ==> kiss
+  21:    1  ->  head ==> heads
+  22:    1  ->  insists ==> insist
+  23:    1  ->  is ==> thank
+  24:    1  ->  it ==> thank
+  25:    1  ->  kiss ==> out
+  26:    1  ->  la ==> allay
+  27:    1  ->  minder ==> earth
+  28:    1  ->  obtain ==> obtained
+  29:    1  ->  of ==> thank
+  30:    1  ->  only ==> thank
+  31:    1  ->  other ==> you
+  32:    1  ->  others ==> line
+  33:    1  ->  papercut ==> cut
+  34:    1  ->  professional ==> thank
+  35:    1  ->  rumor ==> rumors
+  36:    1  ->  she ==> he
+  37:    1  ->  so ==> until
+  38:    1  ->  sounds ==> hounds
+  39:    1  ->  stained ==> staying
+  40:    1  ->  status ==> face
+  41:    1  ->  straw ==> strong
+  42:    1  ->  the ==> a
+  43:    1  ->  the ==> thank
+  44:    1  ->  their ==> the
+  45:    1  ->  tortured ==> for
+  46:    1  ->  turns ==> terms
+  47:    1  ->  us ==> kicker
+  48:    1  ->  was ==> is
+  49:    1  ->  who ==> you
+  50:    1  ->  width ==> lips
+  51:    1  ->  with ==> thank
+  52:    1  ->  wooing ==> doing
+  53:    1  ->  x ==> at
+  54:    1  ->  x ==> blood
+  55:    1  ->  x ==> boat
+  56:    1  ->  x ==> conscientious
+  57:    1  ->  x ==> drinks
+  58:    1  ->  x ==> of
+  59:    1  ->  x ==> psychopolis
+  60:    1  ->  x ==> to
+  61:    1  ->  x ==> up
+  62:    1  ->  x ==> venizio
+  63:    1  ->  x ==> you
+  64:    1  ->  x ==> your
+     -------
+        65
+
+
+
+INSERTIONS                       Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  of
+   2:    1  ->  absentia
+   3:    1  ->  aimed
+   4:    1  ->  back
+   5:    1  ->  because
+   6:    1  ->  bunch
+   7:    1  ->  calculus
+   8:    1  ->  cluster
+   9:    1  ->  convention
+  10:    1  ->  corpus
+  11:    1  ->  falling
+  12:    1  ->  habeas
+  13:    1  ->  in
+  14:    1  ->  infection
+  15:    1  ->  just
+  16:    1  ->  latent
+  17:    1  ->  made
+  18:    1  ->  me
+  19:    1  ->  mind
+  20:    1  ->  misconduct
+  21:    1  ->  on
+  22:    1  ->  paper
+  23:    1  ->  refugees
+  24:    1  ->  sentences
+  25:    1  ->  shy
+  26:    1  ->  spoke
+  27:    1  ->  status
+  28:    1  ->  the
+  29:    1  ->  their
+  30:    1  ->  to
+  31:    1  ->  up
+  32:    1  ->  utilities
+  33:    1  ->  was
+  34:    1  ->  why
+     -------
+        36
+
+
+
+DELETIONS                        Total                 (227)
+                                 With >=  1 occurrences (227)
+
+   1:   21  ->  the
+   2:   17  ->  and
+   3:   12  ->  of
+   4:    9  ->  x
+   5:    6  ->  i
+   6:    5  ->  a
+   7:    5  ->  be
+   8:    5  ->  in
+   9:    5  ->  to
+  10:    4  ->  are
+  11:    4  ->  he
+  12:    4  ->  we
+  13:    3  ->  is
+  14:    3  ->  me
+  15:    3  ->  not
+  16:    3  ->  on
+  17:    3  ->  that
+  18:    3  ->  this
+  19:    3  ->  will
+  20:    2  ->  all
+  21:    2  ->  also
+  22:    2  ->  back
+  23:    2  ->  could
+  24:    2  ->  from
+  25:    2  ->  his
+  26:    2  ->  it
+  27:    2  ->  just
+  28:    2  ->  mean
+  29:    2  ->  my
+  30:    2  ->  one
+  31:    2  ->  other
+  32:    2  ->  out
+  33:    2  ->  sea
+  34:    2  ->  shy
+  35:    2  ->  small
+  36:    2  ->  song
+  37:    2  ->  sparks
+  38:    2  ->  state
+  39:    2  ->  stroke
+  40:    2  ->  there
+  41:    2  ->  time
+  42:    2  ->  up
+  43:    2  ->  way
+  44:    2  ->  what
+  45:    2  ->  with
+  46:    1  ->  about
+  47:    1  ->  absentia
+  48:    1  ->  accumulative
+  49:    1  ->  across
+  50:    1  ->  actually
+  51:    1  ->  again
+  52:    1  ->  ahead
+  53:    1  ->  am
+  54:    1  ->  an
+  55:    1  ->  angeles
+  56:    1  ->  anything
+  57:    1  ->  apparently
+  58:    1  ->  around
+  59:    1  ->  ashes
+  60:    1  ->  assets
+  61:    1  ->  at
+  62:    1  ->  b
+  63:    1  ->  because
+  64:    1  ->  black
+  65:    1  ->  blatant
+  66:    1  ->  body
+  67:    1  ->  brain
+  68:    1  ->  bread
+  69:    1  ->  breakout
+  70:    1  ->  brooklyn
+  71:    1  ->  by
+  72:    1  ->  can
+  73:    1  ->  careless
+  74:    1  ->  complicated
+  75:    1  ->  conches
+  76:    1  ->  conscientious
+  77:    1  ->  contest
+  78:    1  ->  convention
+  79:    1  ->  corpus
+  80:    1  ->  cough
+  81:    1  ->  crackle
+  82:    1  ->  crazily
+  83:    1  ->  death
+  84:    1  ->  deci
+  85:    1  ->  delivering
+  86:    1  ->  desire
+  87:    1  ->  did
+  88:    1  ->  division
+  89:    1  ->  do
+  90:    1  ->  does
+  91:    1  ->  dog
+  92:    1  ->  doing's
+  93:    1  ->  doves
+  94:    1  ->  dull
+  95:    1  ->  dying
+  96:    1  ->  each
+  97:    1  ->  elated
+  98:    1  ->  electronically
+  99:    1  ->  evening
+ 100:    1  ->  excused
+ 101:    1  ->  existent
+ 102:    1  ->  exploit
+ 103:    1  ->  face
+ 104:    1  ->  far
+ 105:    1  ->  feigns
+ 106:    1  ->  find
+ 107:    1  ->  fine
+ 108:    1  ->  flapping
+ 109:    1  ->  flight
+ 110:    1  ->  forgotten
+ 111:    1  ->  games
+ 112:    1  ->  giddy
+ 113:    1  ->  go
+ 114:    1  ->  gods
+ 115:    1  ->  grasps
+ 116:    1  ->  great
+ 117:    1  ->  grieving
+ 118:    1  ->  guard
+ 119:    1  ->  habeas
+ 120:    1  ->  hands
+ 121:    1  ->  her
+ 122:    1  ->  high
+ 123:    1  ->  higher
+ 124:    1  ->  him
+ 125:    1  ->  himself
+ 126:    1  ->  house
+ 127:    1  ->  how
+ 128:    1  ->  how's
+ 129:    1  ->  if
+ 130:    1  ->  innocence
+ 131:    1  ->  intend
+ 132:    1  ->  issue
+ 133:    1  ->  kick
+ 134:    1  ->  kissers
+ 135:    1  ->  knives
+ 136:    1  ->  know
+ 137:    1  ->  kremlin's
+ 138:    1  ->  lack
+ 139:    1  ->  lev
+ 140:    1  ->  lies
+ 141:    1  ->  life
+ 142:    1  ->  like
+ 143:    1  ->  living
+ 144:    1  ->  long
+ 145:    1  ->  los
+ 146:    1  ->  loud
+ 147:    1  ->  loveliness
+ 148:    1  ->  madness
+ 149:    1  ->  message
+ 150:    1  ->  misconduct
+ 151:    1  ->  moan
+ 152:    1  ->  more
+ 153:    1  ->  much
+ 154:    1  ->  must
+ 155:    1  ->  mutual
+ 156:    1  ->  name
+ 157:    1  ->  no
+ 158:    1  ->  non
+ 159:    1  ->  novice
+ 160:    1  ->  only
+ 161:    1  ->  overgrown
+ 162:    1  ->  passes
+ 163:    1  ->  passionate
+ 164:    1  ->  permission
+ 165:    1  ->  pillows
+ 166:    1  ->  pink
+ 167:    1  ->  prizes
+ 168:    1  ->  professional
+ 169:    1  ->  profile
+ 170:    1  ->  prone
+ 171:    1  ->  pure
+ 172:    1  ->  queen
+ 173:    1  ->  question
+ 174:    1  ->  rare
+ 175:    1  ->  read
+ 176:    1  ->  refugees
+ 177:    1  ->  regularly
+ 178:    1  ->  remain
+ 179:    1  ->  rest
+ 180:    1  ->  rudder
+ 181:    1  ->  rules
+ 182:    1  ->  runnerup
+ 183:    1  ->  running
+ 184:    1  ->  said
+ 185:    1  ->  sainted
+ 186:    1  ->  save
+ 187:    1  ->  saw
+ 188:    1  ->  say
+ 189:    1  ->  scattered
+ 190:    1  ->  sentences
+ 191:    1  ->  sign
+ 192:    1  ->  sing
+ 193:    1  ->  singing
+ 194:    1  ->  slovenly
+ 195:    1  ->  some
+ 196:    1  ->  someone's
+ 197:    1  ->  something
+ 198:    1  ->  sorry
+ 199:    1  ->  stained
+ 200:    1  ->  still
+ 201:    1  ->  streets
+ 202:    1  ->  sue
+ 203:    1  ->  tameless
+ 204:    1  ->  tell
+ 205:    1  ->  textures
+ 206:    1  ->  their
+ 207:    1  ->  there's
+ 208:    1  ->  those
+ 209:    1  ->  thrall
+ 210:    1  ->  til
+ 211:    1  ->  today
+ 212:    1  ->  too
+ 213:    1  ->  total
+ 214:    1  ->  utilities
+ 215:    1  ->  victim
+ 216:    1  ->  visit
+ 217:    1  ->  viv
+ 218:    1  ->  volume
+ 219:    1  ->  what's
+ 220:    1  ->  who
+ 221:    1  ->  wild
+ 222:    1  ->  wind
+ 223:    1  ->  woman
+ 224:    1  ->  women
+ 225:    1  ->  yeah
+ 226:    1  ->  yield
+ 227:    1  ->  your
+     -------
+       352
+
+
+
+SUBSTITUTIONS                    Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:   14  ->  x
+   2:    3  ->  and
+   3:    2  ->  the
+   4:    1  ->  a
+   5:    1  ->  absence
+   6:    1  ->  an
+   7:    1  ->  are
+   8:    1  ->  beam
+   9:    1  ->  because
+  10:    1  ->  bedroom's
+  11:    1  ->  by
+  12:    1  ->  cluster
+  13:    1  ->  commotion
+  14:    1  ->  consoled
+  15:    1  ->  constructions
+  16:    1  ->  destroy
+  17:    1  ->  economist
+  18:    1  ->  economists
+  19:    1  ->  face
+  20:    1  ->  head
+  21:    1  ->  insists
+  22:    1  ->  is
+  23:    1  ->  it
+  24:    1  ->  kiss
+  25:    1  ->  la
+  26:    1  ->  minder
+  27:    1  ->  obtain
+  28:    1  ->  of
+  29:    1  ->  only
+  30:    1  ->  other
+  31:    1  ->  others
+  32:    1  ->  papercut
+  33:    1  ->  professional
+  34:    1  ->  rumor
+  35:    1  ->  she
+  36:    1  ->  so
+  37:    1  ->  sounds
+  38:    1  ->  stained
+  39:    1  ->  status
+  40:    1  ->  straw
+  41:    1  ->  their
+  42:    1  ->  tortured
+  43:    1  ->  turns
+  44:    1  ->  us
+  45:    1  ->  was
+  46:    1  ->  who
+  47:    1  ->  width
+  48:    1  ->  with
+  49:    1  ->  wooing
+     -------
+        65
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (48)
+                                 With >=  1 occurrences (48)
+
+   1:    9  ->  thank
+   2:    7  ->  you
+   3:    3  ->  and
+   4:    2  ->  the
+   5:    1  ->  a
+   6:    1  ->  allay
+   7:    1  ->  at
+   8:    1  ->  beast
+   9:    1  ->  bedrooms
+  10:    1  ->  blood
+  11:    1  ->  boat
+  12:    1  ->  conscientious
+  13:    1  ->  construction
+  14:    1  ->  cut
+  15:    1  ->  destroyed
+  16:    1  ->  doing
+  17:    1  ->  drinks
+  18:    1  ->  earth
+  19:    1  ->  face
+  20:    1  ->  for
+  21:    1  ->  he
+  22:    1  ->  heads
+  23:    1  ->  hounds
+  24:    1  ->  in
+  25:    1  ->  insist
+  26:    1  ->  is
+  27:    1  ->  just
+  28:    1  ->  kicker
+  29:    1  ->  kiss
+  30:    1  ->  line
+  31:    1  ->  lips
+  32:    1  ->  obtained
+  33:    1  ->  of
+  34:    1  ->  on
+  35:    1  ->  out
+  36:    1  ->  psychopolis
+  37:    1  ->  rumors
+  38:    1  ->  shy
+  39:    1  ->  staying
+  40:    1  ->  strong
+  41:    1  ->  terms
+  42:    1  ->  to
+  43:    1  ->  until
+  44:    1  ->  up
+  45:    1  ->  us
+  46:    1  ->  venizio
+  47:    1  ->  whole
+  48:    1  ->  your
+     -------
+        65
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,144 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.8%   (  46)
+
+Percent Correct           =   95.4%   ( 905)
+
+Percent Substitution      =    2.0%   (  19)
+Percent Deletions         =    2.6%   (  25)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   95.2%
+
+
+Ref. words                =           ( 949)
+Hyp. words                =           ( 926)
+Aligned words             =           ( 951)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  ashbery's ==> 's
+   2:    1  ->  an ==> and
+   3:    1  ->  and ==> at
+   4:    1  ->  as ==> is
+   5:    1  ->  ashbery ==> ashbury
+   6:    1  ->  bore ==> borat
+   7:    1  ->  discreet ==> discrete
+   8:    1  ->  imagined ==> imagine
+   9:    1  ->  is ==> 's
+  10:    1  ->  its ==> 's
+  11:    1  ->  not ==> no
+  12:    1  ->  other ==> others
+  13:    1  ->  prosiness ==> proziness
+  14:    1  ->  shall ==> should
+  15:    1  ->  that ==> it
+  16:    1  ->  the ==> a
+  17:    1  ->  the ==> in
+  18:    1  ->  would ==> will
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  ashbery
+   2:    1  ->  ashbury
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    5  ->  a
+   2:    3  ->  i
+   3:    2  ->  and
+   4:    1  ->  could
+   5:    1  ->  did
+   6:    1  ->  going
+   7:    1  ->  had
+   8:    1  ->  in
+   9:    1  ->  it
+  10:    1  ->  not
+  11:    1  ->  p
+  12:    1  ->  r
+  13:    1  ->  so
+  14:    1  ->  stop
+  15:    1  ->  that
+  16:    1  ->  to
+  17:    1  ->  want
+  18:    1  ->  x
+     -------
+        25
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  ashbery's
+   2:    2  ->  the
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  as
+   6:    1  ->  ashbery
+   7:    1  ->  bore
+   8:    1  ->  discreet
+   9:    1  ->  imagined
+  10:    1  ->  is
+  11:    1  ->  its
+  12:    1  ->  not
+  13:    1  ->  other
+  14:    1  ->  prosiness
+  15:    1  ->  shall
+  16:    1  ->  that
+  17:    1  ->  would
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    4  ->  's
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  ashbury
+   5:    1  ->  at
+   6:    1  ->  borat
+   7:    1  ->  discrete
+   8:    1  ->  imagine
+   9:    1  ->  in
+  10:    1  ->  is
+  11:    1  ->  it
+  12:    1  ->  no
+  13:    1  ->  others
+  14:    1  ->  proziness
+  15:    1  ->  should
+  16:    1  ->  will
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,181 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.1%   (  45)
+
+Percent Correct           =   96.4%   (1057)
+
+Percent Substitution      =    3.1%   (  34)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   95.9%
+
+
+Ref. words                =           (1096)
+Hyp. words                =           (1097)
+Aligned words             =           (1102)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  into ==> a
+   2:    1  ->  a ==> ec
+   3:    1  ->  alighting ==> lighting
+   4:    1  ->  and ==> in
+   5:    1  ->  as ==> his
+   6:    1  ->  days ==> is
+   7:    1  ->  fall ==> befall
+   8:    1  ->  fours ==> four
+   9:    1  ->  gnossienne ==> ian
+  10:    1  ->  in ==> and
+  11:    1  ->  its ==> it's
+  12:    1  ->  jicky ==> jy
+  13:    1  ->  later ==> late
+  14:    1  ->  motionless ==> emotionless
+  15:    1  ->  nineteenth ==> 19th
+  16:    1  ->  past ==> passed
+  17:    1  ->  pereire ==> pere
+  18:    1  ->  place ==> plus
+  19:    1  ->  plain ==> plane
+  20:    1  ->  reason's ==> reasons
+  21:    1  ->  refused ==> refuse
+  22:    1  ->  route ==> root
+  23:    1  ->  said ==> set
+  24:    1  ->  scheherazade ==> shaharazad
+  25:    1  ->  seem ==> seemed
+  26:    1  ->  soir ==> sua
+  27:    1  ->  spake ==> spand
+  28:    1  ->  survive ==> survived
+  29:    1  ->  take ==> taken
+  30:    1  ->  that ==> the
+  31:    1  ->  wariness ==> weariness
+  32:    1  ->  ways ==> way
+  33:    1  ->  wriggle ==> riggle
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  in
+   2:    1  ->  are
+   3:    1  ->  day
+   4:    1  ->  the
+   5:    1  ->  was
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  s
+   2:    1  ->  be
+   3:    1  ->  the
+   4:    1  ->  was
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  into
+   2:    1  ->  a
+   3:    1  ->  alighting
+   4:    1  ->  and
+   5:    1  ->  as
+   6:    1  ->  days
+   7:    1  ->  fall
+   8:    1  ->  fours
+   9:    1  ->  gnossienne
+  10:    1  ->  in
+  11:    1  ->  its
+  12:    1  ->  jicky
+  13:    1  ->  later
+  14:    1  ->  motionless
+  15:    1  ->  nineteenth
+  16:    1  ->  past
+  17:    1  ->  pereire
+  18:    1  ->  place
+  19:    1  ->  plain
+  20:    1  ->  reason's
+  21:    1  ->  refused
+  22:    1  ->  route
+  23:    1  ->  said
+  24:    1  ->  scheherazade
+  25:    1  ->  seem
+  26:    1  ->  soir
+  27:    1  ->  spake
+  28:    1  ->  survive
+  29:    1  ->  take
+  30:    1  ->  that
+  31:    1  ->  wariness
+  32:    1  ->  ways
+  33:    1  ->  wriggle
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  a
+   2:    1  ->  19th
+   3:    1  ->  and
+   4:    1  ->  befall
+   5:    1  ->  ec
+   6:    1  ->  emotionless
+   7:    1  ->  four
+   8:    1  ->  his
+   9:    1  ->  ian
+  10:    1  ->  in
+  11:    1  ->  is
+  12:    1  ->  it's
+  13:    1  ->  jy
+  14:    1  ->  late
+  15:    1  ->  lighting
+  16:    1  ->  passed
+  17:    1  ->  pere
+  18:    1  ->  plane
+  19:    1  ->  plus
+  20:    1  ->  reasons
+  21:    1  ->  refuse
+  22:    1  ->  riggle
+  23:    1  ->  root
+  24:    1  ->  seemed
+  25:    1  ->  set
+  26:    1  ->  shaharazad
+  27:    1  ->  spand
+  28:    1  ->  sua
+  29:    1  ->  survived
+  30:    1  ->  taken
+  31:    1  ->  the
+  32:    1  ->  way
+  33:    1  ->  weariness
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

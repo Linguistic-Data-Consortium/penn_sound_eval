@@ -1,0 +1,401 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.4%   ( 149)
+
+Percent Correct           =   86.8%   ( 840)
+
+Percent Substitution      =   10.5%   ( 102)
+Percent Deletions         =    2.7%   (  26)
+Percent Insertions        =    2.2%   (  21)
+Percent Word Accuracy     =   84.6%
+
+
+Ref. words                =           ( 968)
+Hyp. words                =           ( 963)
+Aligned words             =           ( 989)
+
+CONFUSION PAIRS                  Total                 (99)
+                                 With >=  1 occurrences (99)
+
+   1:    3  ->  a ==> the
+   2:    2  ->  its ==> it's
+   3:    1  ->  a ==> eleven
+   4:    1  ->  a ==> sweater
+   5:    1  ->  adjuncting ==> in
+   6:    1  ->  all ==> oh
+   7:    1  ->  an ==> a
+   8:    1  ->  an ==> and
+   9:    1  ->  and ==> in
+  10:    1  ->  axminster ==> minster
+  11:    1  ->  azurine ==> asuine
+  12:    1  ->  backs ==> halfbacks
+  13:    1  ->  bas ==> bass
+  14:    1  ->  being ==> been
+  15:    1  ->  burrowing ==> borrowing
+  16:    1  ->  butcher's ==> 's
+  17:    1  ->  camouflaged ==> camouflage
+  18:    1  ->  cane ==> cut
+  19:    1  ->  chair ==> tricha
+  20:    1  ->  clods ==> clubs
+  21:    1  ->  cracking ==> tracking
+  22:    1  ->  cutter’s ==> this
+  23:    1  ->  dowsed ==> doused
+  24:    1  ->  drabness ==> this
+  25:    1  ->  dust ==> thus
+  26:    1  ->  ericsson ==> erasong
+  27:    1  ->  excelling ==> ceiling
+  28:    1  ->  executors ==> executives
+  29:    1  ->  faustus ==> fourth
+  30:    1  ->  felled ==> fell
+  31:    1  ->  fencewire ==> wire
+  32:    1  ->  first ==> those
+  33:    1  ->  folds ==> poles
+  34:    1  ->  for ==> with
+  35:    1  ->  forest ==> first
+  36:    1  ->  from ==> high
+  37:    1  ->  frost ==> frosts
+  38:    1  ->  glamor ==> disclaimer
+  39:    1  ->  glistening ==> blistening
+  40:    1  ->  good ==> poled
+  41:    1  ->  grated ==> graded
+  42:    1  ->  gritted ==> gridded
+  43:    1  ->  headlights ==> headlight
+  44:    1  ->  highlife ==> life
+  45:    1  ->  hole ==> hull
+  46:    1  ->  homonculus ==> homunculus
+  47:    1  ->  humidicribs ==> cribs
+  48:    1  ->  humitrophic ==> trophic
+  49:    1  ->  i ==> contentional
+  50:    1  ->  in ==> stretching
+  51:    1  ->  inheritors ==> 's
+  52:    1  ->  is ==> 's
+  53:    1  ->  is ==> as
+  54:    1  ->  it ==> that
+  55:    1  ->  it's ==> just
+  56:    1  ->  it's ==> knows
+  57:    1  ->  la ==> allah
+  58:    1  ->  la ==> so
+  59:    1  ->  lavender ==> the
+  60:    1  ->  lax ==> legs
+  61:    1  ->  light ==> lights
+  62:    1  ->  light ==> like
+  63:    1  ->  litters ==> laces
+  64:    1  ->  loamy ==> lonely
+  65:    1  ->  looting ==> losing
+  66:    1  ->  machinery ==> her
+  67:    1  ->  mallee ==> mele
+  68:    1  ->  marsh ==> a
+  69:    1  ->  mescal ==> mascarl
+  70:    1  ->  miasma ==> asthma
+  71:    1  ->  mudbrick ==> brick
+  72:    1  ->  needles ==> needle
+  73:    1  ->  of ==> marshall
+  74:    1  ->  on ==> or
+  75:    1  ->  pellegra ==> pelegra
+  76:    1  ->  pinheaded ==> headers
+  77:    1  ->  poem ==> palm
+  78:    1  ->  poem's ==> poems
+  79:    1  ->  predella ==> adjunct
+  80:    1  ->  prizing ==> pricing
+  81:    1  ->  raddled ==> rattle
+  82:    1  ->  remember ==> member
+  83:    1  ->  rhomboidal ==> rhombordel
+  84:    1  ->  shade ==> shadow
+  85:    1  ->  spot ==> but
+  86:    1  ->  squirrel ==> swirl
+  87:    1  ->  streams ==> screams
+  88:    1  ->  striping ==> stripping
+  89:    1  ->  sursurrous ==> serious
+  90:    1  ->  the ==> to
+  91:    1  ->  tinfoiling ==> foiling
+  92:    1  ->  tired ==> tide
+  93:    1  ->  tractor ==> attracted
+  94:    1  ->  tree ==> jamtree
+  95:    1  ->  trifolate ==> tripoli
+  96:    1  ->  wandoo ==> wandu
+  97:    1  ->  warholing ==> holing
+  98:    1  ->  where ==> with
+  99:    1  ->  year ==> goodyear
+     -------
+       102
+
+
+
+INSERTIONS                       Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    1  ->  a
+   2:    1  ->  axe
+   3:    1  ->  between
+   4:    1  ->  bridella
+   5:    1  ->  butcher
+   6:    1  ->  can
+   7:    1  ->  etched
+   8:    1  ->  fence
+   9:    1  ->  grabbing
+  10:    1  ->  harris
+  11:    1  ->  human
+  12:    1  ->  humidi
+  13:    1  ->  in
+  14:    1  ->  mud
+  15:    1  ->  my
+  16:    1  ->  pin
+  17:    1  ->  the
+  18:    1  ->  tin
+  19:    1  ->  very
+  20:    1  ->  war
+  21:    1  ->  when
+     -------
+        21
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    3  ->  the
+   2:    1  ->  at
+   3:    1  ->  called
+   4:    1  ->  churn
+   5:    1  ->  contention
+   6:    1  ->  foo
+   7:    1  ->  grow
+   8:    1  ->  half
+   9:    1  ->  halt
+  10:    1  ->  it
+  11:    1  ->  jam
+  12:    1  ->  life
+  13:    1  ->  muscled
+  14:    1  ->  nose
+  15:    1  ->  now
+  16:    1  ->  ooh
+  17:    1  ->  psyche
+  18:    1  ->  read
+  19:    1  ->  stretch
+  20:    1  ->  sweat
+  21:    1  ->  syzygy
+  22:    1  ->  this
+  23:    1  ->  tree
+  24:    1  ->  very
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (92)
+                                 With >=  1 occurrences (92)
+
+   1:    5  ->  a
+   2:    2  ->  an
+   3:    2  ->  is
+   4:    2  ->  it's
+   5:    2  ->  its
+   6:    2  ->  la
+   7:    2  ->  light
+   8:    1  ->  adjuncting
+   9:    1  ->  all
+  10:    1  ->  and
+  11:    1  ->  axminster
+  12:    1  ->  azurine
+  13:    1  ->  backs
+  14:    1  ->  bas
+  15:    1  ->  being
+  16:    1  ->  burrowing
+  17:    1  ->  butcher's
+  18:    1  ->  camouflaged
+  19:    1  ->  cane
+  20:    1  ->  chair
+  21:    1  ->  clods
+  22:    1  ->  cracking
+  23:    1  ->  cutter’s
+  24:    1  ->  dowsed
+  25:    1  ->  drabness
+  26:    1  ->  dust
+  27:    1  ->  ericsson
+  28:    1  ->  excelling
+  29:    1  ->  executors
+  30:    1  ->  faustus
+  31:    1  ->  felled
+  32:    1  ->  fencewire
+  33:    1  ->  first
+  34:    1  ->  folds
+  35:    1  ->  for
+  36:    1  ->  forest
+  37:    1  ->  from
+  38:    1  ->  frost
+  39:    1  ->  glamor
+  40:    1  ->  glistening
+  41:    1  ->  good
+  42:    1  ->  grated
+  43:    1  ->  gritted
+  44:    1  ->  headlights
+  45:    1  ->  highlife
+  46:    1  ->  hole
+  47:    1  ->  homonculus
+  48:    1  ->  humidicribs
+  49:    1  ->  humitrophic
+  50:    1  ->  i
+  51:    1  ->  in
+  52:    1  ->  inheritors
+  53:    1  ->  it
+  54:    1  ->  lavender
+  55:    1  ->  lax
+  56:    1  ->  litters
+  57:    1  ->  loamy
+  58:    1  ->  looting
+  59:    1  ->  machinery
+  60:    1  ->  mallee
+  61:    1  ->  marsh
+  62:    1  ->  mescal
+  63:    1  ->  miasma
+  64:    1  ->  mudbrick
+  65:    1  ->  needles
+  66:    1  ->  of
+  67:    1  ->  on
+  68:    1  ->  pellegra
+  69:    1  ->  pinheaded
+  70:    1  ->  poem
+  71:    1  ->  poem's
+  72:    1  ->  predella
+  73:    1  ->  prizing
+  74:    1  ->  raddled
+  75:    1  ->  remember
+  76:    1  ->  rhomboidal
+  77:    1  ->  shade
+  78:    1  ->  spot
+  79:    1  ->  squirrel
+  80:    1  ->  streams
+  81:    1  ->  striping
+  82:    1  ->  sursurrous
+  83:    1  ->  the
+  84:    1  ->  tinfoiling
+  85:    1  ->  tired
+  86:    1  ->  tractor
+  87:    1  ->  tree
+  88:    1  ->  trifolate
+  89:    1  ->  wandoo
+  90:    1  ->  warholing
+  91:    1  ->  where
+  92:    1  ->  year
+     -------
+       102
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (92)
+                                 With >=  1 occurrences (92)
+
+   1:    4  ->  the
+   2:    3  ->  's
+   3:    2  ->  a
+   4:    2  ->  in
+   5:    2  ->  it's
+   6:    2  ->  this
+   7:    2  ->  with
+   8:    1  ->  adjunct
+   9:    1  ->  allah
+  10:    1  ->  and
+  11:    1  ->  as
+  12:    1  ->  asthma
+  13:    1  ->  asuine
+  14:    1  ->  attracted
+  15:    1  ->  bass
+  16:    1  ->  been
+  17:    1  ->  blistening
+  18:    1  ->  borrowing
+  19:    1  ->  brick
+  20:    1  ->  but
+  21:    1  ->  camouflage
+  22:    1  ->  ceiling
+  23:    1  ->  clubs
+  24:    1  ->  contentional
+  25:    1  ->  cribs
+  26:    1  ->  cut
+  27:    1  ->  disclaimer
+  28:    1  ->  doused
+  29:    1  ->  eleven
+  30:    1  ->  erasong
+  31:    1  ->  executives
+  32:    1  ->  fell
+  33:    1  ->  first
+  34:    1  ->  foiling
+  35:    1  ->  fourth
+  36:    1  ->  frosts
+  37:    1  ->  goodyear
+  38:    1  ->  graded
+  39:    1  ->  gridded
+  40:    1  ->  halfbacks
+  41:    1  ->  headers
+  42:    1  ->  headlight
+  43:    1  ->  her
+  44:    1  ->  high
+  45:    1  ->  holing
+  46:    1  ->  homunculus
+  47:    1  ->  hull
+  48:    1  ->  jamtree
+  49:    1  ->  just
+  50:    1  ->  knows
+  51:    1  ->  laces
+  52:    1  ->  legs
+  53:    1  ->  life
+  54:    1  ->  lights
+  55:    1  ->  like
+  56:    1  ->  lonely
+  57:    1  ->  losing
+  58:    1  ->  marshall
+  59:    1  ->  mascarl
+  60:    1  ->  mele
+  61:    1  ->  member
+  62:    1  ->  minster
+  63:    1  ->  needle
+  64:    1  ->  oh
+  65:    1  ->  or
+  66:    1  ->  palm
+  67:    1  ->  pelegra
+  68:    1  ->  poems
+  69:    1  ->  poled
+  70:    1  ->  poles
+  71:    1  ->  pricing
+  72:    1  ->  rattle
+  73:    1  ->  rhombordel
+  74:    1  ->  screams
+  75:    1  ->  serious
+  76:    1  ->  shadow
+  77:    1  ->  so
+  78:    1  ->  stretching
+  79:    1  ->  stripping
+  80:    1  ->  sweater
+  81:    1  ->  swirl
+  82:    1  ->  that
+  83:    1  ->  those
+  84:    1  ->  thus
+  85:    1  ->  tide
+  86:    1  ->  to
+  87:    1  ->  tracking
+  88:    1  ->  tricha
+  89:    1  ->  tripoli
+  90:    1  ->  trophic
+  91:    1  ->  wandu
+  92:    1  ->  wire
+     -------
+       102
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

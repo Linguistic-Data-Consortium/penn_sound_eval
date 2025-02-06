@@ -1,0 +1,128 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.9%   (  21)
+
+Percent Correct           =   97.1%   ( 705)
+
+Percent Substitution      =    2.8%   (  20)
+Percent Deletions         =    0.1%   (   1)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   97.1%
+
+
+Ref. words                =           ( 726)
+Hyp. words                =           ( 725)
+Aligned words             =           ( 726)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  is ==> 's
+   2:    1  ->  at ==> of
+   3:    1  ->  awls ==> alls
+   4:    1  ->  better ==> bitter
+   5:    1  ->  chiaro ==> quiero
+   6:    1  ->  combustable ==> combustible
+   7:    1  ->  etches ==> itches
+   8:    1  ->  gulley ==> gully
+   9:    1  ->  incipits ==> incubates
+  10:    1  ->  lehman ==> layman
+  11:    1  ->  managed ==> mannered
+  12:    1  ->  ogham ==> agum
+  13:    1  ->  photoshop ==> hotosho
+  14:    1  ->  pouring ==> poring
+  15:    1  ->  scuro ==> skordo
+  16:    1  ->  slice ==> notch
+  17:    1  ->  stanley ==> tanley
+  18:    1  ->  then ==> than
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  s
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  is
+   2:    1  ->  at
+   3:    1  ->  awls
+   4:    1  ->  better
+   5:    1  ->  chiaro
+   6:    1  ->  combustable
+   7:    1  ->  etches
+   8:    1  ->  gulley
+   9:    1  ->  incipits
+  10:    1  ->  lehman
+  11:    1  ->  managed
+  12:    1  ->  ogham
+  13:    1  ->  photoshop
+  14:    1  ->  pouring
+  15:    1  ->  scuro
+  16:    1  ->  slice
+  17:    1  ->  stanley
+  18:    1  ->  then
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  's
+   2:    1  ->  agum
+   3:    1  ->  alls
+   4:    1  ->  bitter
+   5:    1  ->  combustible
+   6:    1  ->  gully
+   7:    1  ->  hotosho
+   8:    1  ->  incubates
+   9:    1  ->  itches
+  10:    1  ->  layman
+  11:    1  ->  mannered
+  12:    1  ->  notch
+  13:    1  ->  of
+  14:    1  ->  poring
+  15:    1  ->  quiero
+  16:    1  ->  skordo
+  17:    1  ->  tanley
+  18:    1  ->  than
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

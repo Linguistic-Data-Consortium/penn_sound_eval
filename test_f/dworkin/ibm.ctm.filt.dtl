@@ -1,0 +1,224 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.3%   (  87)
+
+Percent Correct           =   92.2%   ( 858)
+
+Percent Substitution      =    6.3%   (  59)
+Percent Deletions         =    1.5%   (  14)
+Percent Insertions        =    1.5%   (  14)
+Percent Word Accuracy     =   90.7%
+
+
+Ref. words                =           ( 931)
+Hyp. words                =           ( 931)
+Aligned words             =           ( 945)
+
+CONFUSION PAIRS                  Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:   10  ->  noun ==> now
+   2:    3  ->  noun ==> down
+   3:    2  ->  permanence ==> permanent
+   4:    2  ->  resolve ==> resolved
+   5:    1  ->  a ==> feature
+   6:    1  ->  alchemy ==> alco
+   7:    1  ->  apt ==> act
+   8:    1  ->  as ==> has
+   9:    1  ->  change ==> changed
+  10:    1  ->  choicelessness ==> ess
+  11:    1  ->  expositor ==> door
+  12:    1  ->  expounder ==> expander
+  13:    1  ->  formed ==> foreign
+  14:    1  ->  god ==> gone
+  15:    1  ->  impairs ==> peers
+  16:    1  ->  impurity ==> purity
+  17:    1  ->  in ==> an
+  18:    1  ->  invariability ==> un
+  19:    1  ->  it's ==> this
+  20:    1  ->  manner ==> matter
+  21:    1  ->  noun ==> and
+  22:    1  ->  noun ==> known
+  23:    1  ->  noun ==> no
+  24:    1  ->  noun ==> on
+  25:    1  ->  of ==> formative
+  26:    1  ->  of ==> have
+  27:    1  ->  or ==> of
+  28:    1  ->  perseverace ==> perserverance
+  29:    1  ->  pertinaciousness ==> perniciousness
+  30:    1  ->  pertinacity ==> personality
+  31:    1  ->  plain ==> implant
+  32:    1  ->  pointing ==> pointed
+  33:    1  ->  poo ==> attract
+  34:    1  ->  predetermination ==> determination
+  35:    1  ->  principal ==> principle
+  36:    1  ->  roget's ==> rojas
+  37:    1  ->  role ==> rule
+  38:    1  ->  sane ==> san
+  39:    1  ->  seek ==> sake
+  40:    1  ->  sentence ==> sense
+  41:    1  ->  stars' ==> stars
+  42:    1  ->  strengths ==> strength
+  43:    1  ->  to ==> too
+  44:    1  ->  unchangeability ==> changeability
+  45:    1  ->  writing ==> ready
+  46:    1  ->  writing ==> right
+     -------
+        59
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    4  ->  a
+   2:    2  ->  in
+   3:    1  ->  and
+   4:    1  ->  choice
+   5:    1  ->  expose
+   6:    1  ->  less
+   7:    1  ->  now
+   8:    1  ->  of
+   9:    1  ->  pre
+  10:    1  ->  variability
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    5  ->  a
+   2:    1  ->  an
+   3:    1  ->  for
+   4:    1  ->  forming
+   5:    1  ->  future
+   6:    1  ->  in
+   7:    1  ->  it
+   8:    1  ->  to
+   9:    1  ->  track
+  10:    1  ->  with
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:   17  ->  noun
+   2:    2  ->  of
+   3:    2  ->  permanence
+   4:    2  ->  resolve
+   5:    2  ->  writing
+   6:    1  ->  a
+   7:    1  ->  alchemy
+   8:    1  ->  apt
+   9:    1  ->  as
+  10:    1  ->  change
+  11:    1  ->  choicelessness
+  12:    1  ->  expositor
+  13:    1  ->  expounder
+  14:    1  ->  formed
+  15:    1  ->  god
+  16:    1  ->  impairs
+  17:    1  ->  impurity
+  18:    1  ->  in
+  19:    1  ->  invariability
+  20:    1  ->  it's
+  21:    1  ->  manner
+  22:    1  ->  or
+  23:    1  ->  perseverace
+  24:    1  ->  pertinaciousness
+  25:    1  ->  pertinacity
+  26:    1  ->  plain
+  27:    1  ->  pointing
+  28:    1  ->  poo
+  29:    1  ->  predetermination
+  30:    1  ->  principal
+  31:    1  ->  roget's
+  32:    1  ->  role
+  33:    1  ->  sane
+  34:    1  ->  seek
+  35:    1  ->  sentence
+  36:    1  ->  stars'
+  37:    1  ->  strengths
+  38:    1  ->  to
+  39:    1  ->  unchangeability
+     -------
+        59
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:   10  ->  now
+   2:    3  ->  down
+   3:    2  ->  permanent
+   4:    2  ->  resolved
+   5:    1  ->  act
+   6:    1  ->  alco
+   7:    1  ->  an
+   8:    1  ->  and
+   9:    1  ->  attract
+  10:    1  ->  changeability
+  11:    1  ->  changed
+  12:    1  ->  determination
+  13:    1  ->  door
+  14:    1  ->  ess
+  15:    1  ->  expander
+  16:    1  ->  feature
+  17:    1  ->  foreign
+  18:    1  ->  formative
+  19:    1  ->  gone
+  20:    1  ->  has
+  21:    1  ->  have
+  22:    1  ->  implant
+  23:    1  ->  known
+  24:    1  ->  matter
+  25:    1  ->  no
+  26:    1  ->  of
+  27:    1  ->  on
+  28:    1  ->  peers
+  29:    1  ->  perniciousness
+  30:    1  ->  perserverance
+  31:    1  ->  personality
+  32:    1  ->  pointed
+  33:    1  ->  principle
+  34:    1  ->  purity
+  35:    1  ->  ready
+  36:    1  ->  right
+  37:    1  ->  rojas
+  38:    1  ->  rule
+  39:    1  ->  sake
+  40:    1  ->  san
+  41:    1  ->  sense
+  42:    1  ->  stars
+  43:    1  ->  strength
+  44:    1  ->  this
+  45:    1  ->  too
+  46:    1  ->  un
+     -------
+        59
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

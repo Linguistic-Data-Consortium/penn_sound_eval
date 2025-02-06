@@ -1,0 +1,189 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.9%   (  71)
+
+Percent Correct           =   93.8%   ( 959)
+
+Percent Substitution      =    2.6%   (  27)
+Percent Deletions         =    3.5%   (  36)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   93.1%
+
+
+Ref. words                =           (1022)
+Hyp. words                =           ( 994)
+Aligned words             =           (1030)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  bluet ==> bluett
+   2:    1  ->  climactic ==> climatic
+   3:    1  ->  colombia ==> columbia
+   4:    1  ->  goshawk ==> hawk
+   5:    1  ->  hood ==> monkshood
+   6:    1  ->  humpback ==> humback
+   7:    1  ->  in ==> and
+   8:    1  ->  ironcolor ==> color
+   9:    1  ->  jair ==> jara
+  10:    1  ->  karner ==> carner
+  11:    1  ->  kiribati ==> kerabass
+  12:    1  ->  kiribati ==> kiribas
+  13:    1  ->  leedy's ==> rose
+  14:    1  ->  longear ==> eared
+  15:    1  ->  longtail ==> tailed
+  16:    1  ->  massasauga ==> masasaga
+  17:    1  ->  mooneye ==> eye
+  18:    1  ->  mossy ==> masi
+  19:    1  ->  roseroot ==> root
+  20:    1  ->  tern ==> turn
+  21:    1  ->  this ==> the
+  22:    1  ->  tokelau ==> tokalau
+  23:    1  ->  tokelau ==> tokolau
+  24:    1  ->  try ==> tried
+  25:    1  ->  vatnajokull ==> nachukul
+  26:    1  ->  water ==> groundwater
+  27:    1  ->  water ==> underwater
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  long
+   2:    1  ->  ghost
+   3:    1  ->  iron
+   4:    1  ->  leady's
+   5:    1  ->  moon
+   6:    1  ->  that
+   7:    1  ->  vat
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  and
+   2:    3  ->  they
+   3:    2  ->  of
+   4:    1  ->  a
+   5:    1  ->  as
+   6:    1  ->  but
+   7:    1  ->  chubsucker
+   8:    1  ->  even
+   9:    1  ->  ground
+  10:    1  ->  hap
+  11:    1  ->  if
+  12:    1  ->  itself
+  13:    1  ->  lake
+  14:    1  ->  leatherback
+  15:    1  ->  marbled
+  16:    1  ->  monk's
+  17:    1  ->  one
+  18:    1  ->  preferred
+  19:    1  ->  salamander
+  20:    1  ->  scientists
+  21:    1  ->  sea
+  22:    1  ->  then
+  23:    1  ->  think
+  24:    1  ->  though
+  25:    1  ->  thought
+  26:    1  ->  to
+  27:    1  ->  turtle
+  28:    1  ->  under
+  29:    1  ->  w
+  30:    1  ->  was
+  31:    1  ->  were
+     -------
+        36
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  kiribati
+   2:    2  ->  tokelau
+   3:    2  ->  water
+   4:    1  ->  bluet
+   5:    1  ->  climactic
+   6:    1  ->  colombia
+   7:    1  ->  goshawk
+   8:    1  ->  hood
+   9:    1  ->  humpback
+  10:    1  ->  in
+  11:    1  ->  ironcolor
+  12:    1  ->  jair
+  13:    1  ->  karner
+  14:    1  ->  leedy's
+  15:    1  ->  longear
+  16:    1  ->  longtail
+  17:    1  ->  massasauga
+  18:    1  ->  mooneye
+  19:    1  ->  mossy
+  20:    1  ->  roseroot
+  21:    1  ->  tern
+  22:    1  ->  this
+  23:    1  ->  try
+  24:    1  ->  vatnajokull
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    1  ->  and
+   2:    1  ->  bluett
+   3:    1  ->  carner
+   4:    1  ->  climatic
+   5:    1  ->  color
+   6:    1  ->  columbia
+   7:    1  ->  eared
+   8:    1  ->  eye
+   9:    1  ->  groundwater
+  10:    1  ->  hawk
+  11:    1  ->  humback
+  12:    1  ->  jara
+  13:    1  ->  kerabass
+  14:    1  ->  kiribas
+  15:    1  ->  masasaga
+  16:    1  ->  masi
+  17:    1  ->  monkshood
+  18:    1  ->  nachukul
+  19:    1  ->  root
+  20:    1  ->  rose
+  21:    1  ->  tailed
+  22:    1  ->  the
+  23:    1  ->  tokalau
+  24:    1  ->  tokolau
+  25:    1  ->  tried
+  26:    1  ->  turn
+  27:    1  ->  underwater
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

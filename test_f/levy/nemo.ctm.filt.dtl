@@ -1,0 +1,222 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.1%   (  69)
+
+Percent Correct           =   93.4%   ( 912)
+
+Percent Substitution      =    4.5%   (  44)
+Percent Deletions         =    2.0%   (  20)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   92.9%
+
+
+Ref. words                =           ( 976)
+Hyp. words                =           ( 961)
+Aligned words             =           ( 981)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  in ==> and
+   2:    1  ->  a ==> the
+   3:    1  ->  ability ==> incommensurability
+   4:    1  ->  agencies ==> agency
+   5:    1  ->  antimony ==> antinomy
+   6:    1  ->  apathetic ==> epiphetic
+   7:    1  ->  armpit's ==> armpits
+   8:    1  ->  borne ==> born
+   9:    1  ->  cart ==> car
+  10:    1  ->  cedar ==> seder
+  11:    1  ->  delaney ==> laney
+  12:    1  ->  dew ==> do
+  13:    1  ->  dot ==> adopt
+  14:    1  ->  end ==> tailing
+  15:    1  ->  failing ==> unfailing
+  16:    1  ->  forbes' ==> forbes
+  17:    1  ->  i ==> and
+  18:    1  ->  impatiently ==> patiently
+  19:    1  ->  interest ==> interests
+  20:    1  ->  is ==> with
+  21:    1  ->  man ==> and
+  22:    1  ->  modernism ==> postmodernism
+  23:    1  ->  name ==> names
+  24:    1  ->  now ==> how
+  25:    1  ->  of ==> are
+  26:    1  ->  our ==> or
+  27:    1  ->  phones ==> foams
+  28:    1  ->  prophesize ==> prophesies
+  29:    1  ->  rider ==> writer
+  30:    1  ->  scalp ==> gap
+  31:    1  ->  so ==> some
+  32:    1  ->  soo ==> sisoo
+  33:    1  ->  strong ==> stern
+  34:    1  ->  that ==> it
+  35:    1  ->  the ==> a
+  36:    1  ->  the ==> this
+  37:    1  ->  this ==> his
+  38:    1  ->  time ==> tongue
+  39:    1  ->  tinder ==> tender
+  40:    1  ->  weiner ==> wiener
+  41:    1  ->  were ==> are
+  42:    1  ->  why ==> what
+  43:    1  ->  wind ==> wend
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  of
+   4:    1  ->  or
+   5:    1  ->  to
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  a
+   2:    1  ->  and
+   3:    1  ->  be
+   4:    1  ->  country
+   5:    1  ->  foreign
+   6:    1  ->  her
+   7:    1  ->  increments
+   8:    1  ->  is
+   9:    1  ->  it
+  10:    1  ->  may
+  11:    1  ->  or
+  12:    1  ->  post
+  13:    1  ->  s
+  14:    1  ->  see
+  15:    1  ->  tail
+  16:    1  ->  there
+  17:    1  ->  this
+  18:    1  ->  who
+  19:    1  ->  why
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  in
+   2:    2  ->  the
+   3:    1  ->  a
+   4:    1  ->  ability
+   5:    1  ->  agencies
+   6:    1  ->  antimony
+   7:    1  ->  apathetic
+   8:    1  ->  armpit's
+   9:    1  ->  borne
+  10:    1  ->  cart
+  11:    1  ->  cedar
+  12:    1  ->  delaney
+  13:    1  ->  dew
+  14:    1  ->  dot
+  15:    1  ->  end
+  16:    1  ->  failing
+  17:    1  ->  forbes'
+  18:    1  ->  i
+  19:    1  ->  impatiently
+  20:    1  ->  interest
+  21:    1  ->  is
+  22:    1  ->  man
+  23:    1  ->  modernism
+  24:    1  ->  name
+  25:    1  ->  now
+  26:    1  ->  of
+  27:    1  ->  our
+  28:    1  ->  phones
+  29:    1  ->  prophesize
+  30:    1  ->  rider
+  31:    1  ->  scalp
+  32:    1  ->  so
+  33:    1  ->  soo
+  34:    1  ->  strong
+  35:    1  ->  that
+  36:    1  ->  this
+  37:    1  ->  time
+  38:    1  ->  tinder
+  39:    1  ->  weiner
+  40:    1  ->  were
+  41:    1  ->  why
+  42:    1  ->  wind
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    4  ->  and
+   2:    2  ->  are
+   3:    1  ->  a
+   4:    1  ->  adopt
+   5:    1  ->  agency
+   6:    1  ->  antinomy
+   7:    1  ->  armpits
+   8:    1  ->  born
+   9:    1  ->  car
+  10:    1  ->  do
+  11:    1  ->  epiphetic
+  12:    1  ->  foams
+  13:    1  ->  forbes
+  14:    1  ->  gap
+  15:    1  ->  his
+  16:    1  ->  how
+  17:    1  ->  incommensurability
+  18:    1  ->  interests
+  19:    1  ->  it
+  20:    1  ->  laney
+  21:    1  ->  names
+  22:    1  ->  or
+  23:    1  ->  patiently
+  24:    1  ->  postmodernism
+  25:    1  ->  prophesies
+  26:    1  ->  seder
+  27:    1  ->  sisoo
+  28:    1  ->  some
+  29:    1  ->  stern
+  30:    1  ->  tailing
+  31:    1  ->  tender
+  32:    1  ->  the
+  33:    1  ->  this
+  34:    1  ->  tongue
+  35:    1  ->  unfailing
+  36:    1  ->  wend
+  37:    1  ->  what
+  38:    1  ->  wiener
+  39:    1  ->  with
+  40:    1  ->  writer
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

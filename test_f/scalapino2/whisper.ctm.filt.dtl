@@ -1,0 +1,341 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.4%   ( 214)
+
+Percent Correct           =   86.4%   (1201)
+
+Percent Substitution      =    5.3%   (  74)
+Percent Deletions         =    8.3%   ( 115)
+Percent Insertions        =    1.8%   (  25)
+Percent Word Accuracy     =   84.6%
+
+
+Ref. words                =           (1390)
+Hyp. words                =           (1300)
+Aligned words             =           (1415)
+
+CONFUSION PAIRS                  Total                 (70)
+                                 With >=  1 occurrences (70)
+
+   1:    3  ->  o'hara ==> 'hara
+   2:    2  ->  are ==> there's
+   3:    2  ->  self ==> oneself
+   4:    1  ->  a ==> just
+   5:    1  ->  a ==> the
+   6:    1  ->  an ==> a
+   7:    1  ->  anything ==> like
+   8:    1  ->  as ==> whereas
+   9:    1  ->  be ==> am
+  10:    1  ->  be ==> were
+  11:    1  ->  be ==> will
+  12:    1  ->  being ==> them
+  13:    1  ->  big ==> be
+  14:    1  ->  bit ==> good
+  15:    1  ->  but ==> that
+  16:    1  ->  crossed ==> cross
+  17:    1  ->  damned ==> gay
+  18:    1  ->  dun ==> duncan
+  19:    1  ->  enemies ==> identities
+  20:    1  ->  fair ==> afraid
+  21:    1  ->  fantasy ==> that
+  22:    1  ->  has ==> is
+  23:    1  ->  here ==> 'hara
+  24:    1  ->  i ==> as
+  25:    1  ->  i ==> it
+  26:    1  ->  i ==> sort
+  27:    1  ->  impossible ==> possible
+  28:    1  ->  in ==> and
+  29:    1  ->  in ==> wherein
+  30:    1  ->  is ==> just
+  31:    1  ->  junk ==> duncan
+  32:    1  ->  know ==> o
+  33:    1  ->  miss ==> missing
+  34:    1  ->  more ==> one
+  35:    1  ->  much ==> what
+  36:    1  ->  no ==> i
+  37:    1  ->  o ==> of
+  38:    1  ->  o'hara ==> that
+  39:    1  ->  o'hara's ==> 'hara's
+  40:    1  ->  of ==> or
+  41:    1  ->  oh ==> of
+  42:    1  ->  passed ==> past
+  43:    1  ->  point ==> ploy
+  44:    1  ->  procession ==> perception
+  45:    1  ->  rotten ==> and
+  46:    1  ->  s ==> of
+  47:    1  ->  s ==> this
+  48:    1  ->  say ==> understand
+  49:    1  ->  sense ==> it's
+  50:    1  ->  speaking ==> reaching
+  51:    1  ->  th ==> of
+  52:    1  ->  than ==> of
+  53:    1  ->  that ==> the
+  54:    1  ->  the ==> not
+  55:    1  ->  the ==> transcendent
+  56:    1  ->  this ==> that
+  57:    1  ->  u ==> right
+  58:    1  ->  unifying ==> unified
+  59:    1  ->  use ==> used
+  60:    1  ->  vague ==> big
+  61:    1  ->  w ==> of
+  62:    1  ->  was ==> as
+  63:    1  ->  was ==> have
+  64:    1  ->  was ==> of
+  65:    1  ->  we ==> you
+  66:    1  ->  world ==> work
+  67:    1  ->  would ==> you
+  68:    1  ->  writhe ==> by
+  69:    1  ->  you ==> in
+  70:    1  ->  your ==> here
+     -------
+        74
+
+
+
+INSERTIONS                       Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    5  ->  o
+   2:    2  ->  a
+   3:    2  ->  am
+   4:    2  ->  i
+   5:    1  ->  'hara
+   6:    1  ->  always
+   7:    1  ->  did
+   8:    1  ->  in
+   9:    1  ->  is
+  10:    1  ->  like
+  11:    1  ->  of
+  12:    1  ->  some
+  13:    1  ->  that
+  14:    1  ->  that's
+  15:    1  ->  the
+  16:    1  ->  thinking
+  17:    1  ->  what
+  18:    1  ->  wrought
+     -------
+        25
+
+
+
+DELETIONS                        Total                 (67)
+                                 With >=  1 occurrences (67)
+
+   1:    7  ->  it
+   2:    6  ->  the
+   3:    5  ->  that
+   4:    4  ->  if
+   5:    4  ->  you
+   6:    3  ->  a
+   7:    3  ->  are
+   8:    3  ->  i
+   9:    3  ->  in
+  10:    3  ->  oh
+  11:    3  ->  to
+  12:    3  ->  u
+  13:    3  ->  w
+  14:    2  ->  be
+  15:    2  ->  c
+  16:    2  ->  have
+  17:    2  ->  is
+  18:    2  ->  just
+  19:    2  ->  not
+  20:    2  ->  so
+  21:    2  ->  they
+  22:    2  ->  we
+  23:    2  ->  what
+  24:    2  ->  yeah
+  25:    1  ->  %bcack
+  26:    1  ->  and
+  27:    1  ->  been
+  28:    1  ->  boy
+  29:    1  ->  but
+  30:    1  ->  ex
+  31:    1  ->  h
+  32:    1  ->  had
+  33:    1  ->  has
+  34:    1  ->  it's
+  35:    1  ->  k.
+  36:    1  ->  let
+  37:    1  ->  like
+  38:    1  ->  little
+  39:    1  ->  long
+  40:    1  ->  me
+  41:    1  ->  o
+  42:    1  ->  o.
+  43:    1  ->  of
+  44:    1  ->  one
+  45:    1  ->  one's
+  46:    1  ->  or
+  47:    1  ->  part
+  48:    1  ->  reading
+  49:    1  ->  s
+  50:    1  ->  said
+  51:    1  ->  see
+  52:    1  ->  simp
+  53:    1  ->  some
+  54:    1  ->  soul
+  55:    1  ->  talking
+  56:    1  ->  thing
+  57:    1  ->  through
+  58:    1  ->  time
+  59:    1  ->  times
+  60:    1  ->  understanding
+  61:    1  ->  would
+  62:    1  ->  wow
+  63:    1  ->  wr
+  64:    1  ->  x
+  65:    1  ->  y
+  66:    1  ->  yes
+  67:    1  ->  your
+     -------
+       115
+
+
+
+SUBSTITUTIONS                    Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    4  ->  o'hara
+   2:    3  ->  be
+   3:    3  ->  i
+   4:    3  ->  was
+   5:    2  ->  a
+   6:    2  ->  are
+   7:    2  ->  in
+   8:    2  ->  s
+   9:    2  ->  self
+  10:    2  ->  the
+  11:    1  ->  an
+  12:    1  ->  anything
+  13:    1  ->  as
+  14:    1  ->  being
+  15:    1  ->  big
+  16:    1  ->  bit
+  17:    1  ->  but
+  18:    1  ->  crossed
+  19:    1  ->  damned
+  20:    1  ->  dun
+  21:    1  ->  enemies
+  22:    1  ->  fair
+  23:    1  ->  fantasy
+  24:    1  ->  has
+  25:    1  ->  here
+  26:    1  ->  impossible
+  27:    1  ->  is
+  28:    1  ->  junk
+  29:    1  ->  know
+  30:    1  ->  miss
+  31:    1  ->  more
+  32:    1  ->  much
+  33:    1  ->  no
+  34:    1  ->  o
+  35:    1  ->  o'hara's
+  36:    1  ->  of
+  37:    1  ->  oh
+  38:    1  ->  passed
+  39:    1  ->  point
+  40:    1  ->  procession
+  41:    1  ->  rotten
+  42:    1  ->  say
+  43:    1  ->  sense
+  44:    1  ->  speaking
+  45:    1  ->  th
+  46:    1  ->  than
+  47:    1  ->  that
+  48:    1  ->  this
+  49:    1  ->  u
+  50:    1  ->  unifying
+  51:    1  ->  use
+  52:    1  ->  vague
+  53:    1  ->  w
+  54:    1  ->  we
+  55:    1  ->  world
+  56:    1  ->  would
+  57:    1  ->  writhe
+  58:    1  ->  you
+  59:    1  ->  your
+     -------
+        74
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (54)
+                                 With >=  1 occurrences (54)
+
+   1:    7  ->  of
+   2:    4  ->  'hara
+   3:    4  ->  that
+   4:    2  ->  and
+   5:    2  ->  as
+   6:    2  ->  duncan
+   7:    2  ->  just
+   8:    2  ->  oneself
+   9:    2  ->  the
+  10:    2  ->  there's
+  11:    2  ->  you
+  12:    1  ->  'hara's
+  13:    1  ->  a
+  14:    1  ->  afraid
+  15:    1  ->  am
+  16:    1  ->  be
+  17:    1  ->  big
+  18:    1  ->  by
+  19:    1  ->  cross
+  20:    1  ->  gay
+  21:    1  ->  good
+  22:    1  ->  have
+  23:    1  ->  here
+  24:    1  ->  i
+  25:    1  ->  identities
+  26:    1  ->  in
+  27:    1  ->  is
+  28:    1  ->  it
+  29:    1  ->  it's
+  30:    1  ->  like
+  31:    1  ->  missing
+  32:    1  ->  not
+  33:    1  ->  o
+  34:    1  ->  one
+  35:    1  ->  or
+  36:    1  ->  past
+  37:    1  ->  perception
+  38:    1  ->  ploy
+  39:    1  ->  possible
+  40:    1  ->  reaching
+  41:    1  ->  right
+  42:    1  ->  sort
+  43:    1  ->  them
+  44:    1  ->  this
+  45:    1  ->  transcendent
+  46:    1  ->  understand
+  47:    1  ->  unified
+  48:    1  ->  used
+  49:    1  ->  were
+  50:    1  ->  what
+  51:    1  ->  whereas
+  52:    1  ->  wherein
+  53:    1  ->  will
+  54:    1  ->  work
+     -------
+        74
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

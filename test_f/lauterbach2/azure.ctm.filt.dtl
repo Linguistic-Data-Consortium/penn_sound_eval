@@ -1,0 +1,164 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.7%   (  58)
+
+Percent Correct           =   94.6%   ( 816)
+
+Percent Substitution      =    3.4%   (  29)
+Percent Deletions         =    2.1%   (  18)
+Percent Insertions        =    1.3%   (  11)
+Percent Word Accuracy     =   93.3%
+
+
+Ref. words                =           ( 863)
+Hyp. words                =           ( 856)
+Aligned words             =           ( 874)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  is ==> 's
+   2:    2  ->  its ==> it's
+   3:    2  ->  na ==> nah
+   4:    2  ->  pai ==> pair
+   5:    1  ->  air ==> heir
+   6:    1  ->  and ==> ad
+   7:    1  ->  and ==> umm
+   8:    1  ->  and ==> word
+   9:    1  ->  anoth ==> another
+  10:    1  ->  another's ==> another
+  11:    1  ->  bare ==> bear
+  12:    1  ->  bet ==> that
+  13:    1  ->  cause ==> because
+  14:    1  ->  charles' ==> 's
+  15:    1  ->  effected ==> affected
+  16:    1  ->  flourishing ==> being
+  17:    1  ->  hole ==> whole
+  18:    1  ->  in ==> charles
+  19:    1  ->  is ==> his
+  20:    1  ->  one's ==> 's
+  21:    1  ->  parody ==> parity
+  22:    1  ->  philosopher's ==> 's
+  23:    1  ->  proce ==> process
+  24:    1  ->  w ==> umm
+  25:    1  ->  wealth ==> well
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  i
+   2:    1  ->  am
+   3:    1  ->  and
+   4:    1  ->  just
+   5:    1  ->  one
+   6:    1  ->  philosopher
+   7:    1  ->  this
+   8:    1  ->  umm
+   9:    1  ->  we
+  10:    1  ->  what
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  the
+   2:    2  ->  know
+   3:    2  ->  you
+   4:    1  ->  a
+   5:    1  ->  i
+   6:    1  ->  it
+   7:    1  ->  it's
+   8:    1  ->  now
+   9:    1  ->  th
+  10:    1  ->  there's
+  11:    1  ->  u
+  12:    1  ->  when
+  13:    1  ->  words
+  14:    1  ->  y
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  and
+   2:    3  ->  is
+   3:    2  ->  its
+   4:    2  ->  na
+   5:    2  ->  pai
+   6:    1  ->  air
+   7:    1  ->  anoth
+   8:    1  ->  another's
+   9:    1  ->  bare
+  10:    1  ->  bet
+  11:    1  ->  cause
+  12:    1  ->  charles'
+  13:    1  ->  effected
+  14:    1  ->  flourishing
+  15:    1  ->  hole
+  16:    1  ->  in
+  17:    1  ->  one's
+  18:    1  ->  parody
+  19:    1  ->  philosopher's
+  20:    1  ->  proce
+  21:    1  ->  w
+  22:    1  ->  wealth
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    5  ->  's
+   2:    2  ->  another
+   3:    2  ->  it's
+   4:    2  ->  nah
+   5:    2  ->  pair
+   6:    2  ->  umm
+   7:    1  ->  ad
+   8:    1  ->  affected
+   9:    1  ->  bear
+  10:    1  ->  because
+  11:    1  ->  being
+  12:    1  ->  charles
+  13:    1  ->  heir
+  14:    1  ->  his
+  15:    1  ->  parity
+  16:    1  ->  process
+  17:    1  ->  that
+  18:    1  ->  well
+  19:    1  ->  whole
+  20:    1  ->  word
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

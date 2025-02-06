@@ -1,0 +1,281 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.0%   ( 101)
+
+Percent Correct           =   91.4%   (1026)
+
+Percent Substitution      =    6.7%   (  75)
+Percent Deletions         =    1.9%   (  21)
+Percent Insertions        =    0.4%   (   5)
+Percent Word Accuracy     =   91.0%
+
+
+Ref. words                =           (1122)
+Hyp. words                =           (1106)
+Aligned words             =           (1127)
+
+CONFUSION PAIRS                  Total                 (66)
+                                 With >=  1 occurrences (66)
+
+   1:    3  ->  in ==> and
+   2:    3  ->  velazquez ==> velasquez
+   3:    2  ->  charpentier ==> pontier
+   4:    2  ->  fourth ==> 24th
+   5:    2  ->  manet ==> monet
+   6:    2  ->  porcini ==> portini
+   7:    2  ->  tchaikovsky ==> shikowsky
+   8:    1  ->  a ==> the
+   9:    1  ->  absorption ==> selfabsorption
+  10:    1  ->  airily ==> airly
+  11:    1  ->  allan ==> alan
+  12:    1  ->  and ==> well
+  13:    1  ->  anne ==> and
+  14:    1  ->  antoine ==> mark
+  15:    1  ->  are ==> sleeter
+  16:    1  ->  as ==> is
+  17:    1  ->  ashbery ==> ashberry
+  18:    1  ->  ask ==> asked
+  19:    1  ->  atop ==> top
+  20:    1  ->  berkson ==> and
+  21:    1  ->  berrigan ==> rigan
+  22:    1  ->  by ==> while
+  23:    1  ->  carpentier ==> pontier
+  24:    1  ->  ceravolo ==> valone
+  25:    1  ->  concertina ==> tino
+  26:    1  ->  concertino ==> concertina
+  27:    1  ->  concertino ==> tino
+  28:    1  ->  croissant ==> choal
+  29:    1  ->  elmslie ==> elmley
+  30:    1  ->  enquire ==> inquire
+  31:    1  ->  fagin ==> fagan
+  32:    1  ->  floors ==> florist
+  33:    1  ->  girono ==> johnno
+  34:    1  ->  hart ==> hard
+  35:    1  ->  hart ==> heart
+  36:    1  ->  hurt ==> heard
+  37:    1  ->  ilyich ==> i
+  38:    1  ->  indecisively ==> indecisive
+  39:    1  ->  intoxicant ==> toxicant
+  40:    1  ->  it ==> at
+  41:    1  ->  john ==> brainer
+  42:    1  ->  k. ==> <laugh>
+  43:    1  ->  kenward ==> ken
+  44:    1  ->  lachaise ==> para
+  45:    1  ->  lachaise ==> peres
+  46:    1  ->  me ==> i
+  47:    1  ->  oh ==> while
+  48:    1  ->  old ==> 6yearold
+  49:    1  ->  pacing ==> facing
+  50:    1  ->  padgett ==> paget
+  51:    1  ->  parts ==> parks
+  52:    1  ->  peopling ==> in
+  53:    1  ->  poised ==> poise
+  54:    1  ->  poor ==> p
+  55:    1  ->  results ==> result
+  56:    1  ->  rubens ==> reuben
+  57:    1  ->  schjeldahl ==> shelda
+  58:    1  ->  schuyler ==> skyler
+  59:    1  ->  selves ==> cells
+  60:    1  ->  shelves ==> shells
+  61:    1  ->  sixteen ==> sixty
+  62:    1  ->  soul ==> so
+  63:    1  ->  tchaikovsky ==> sikowski
+  64:    1  ->  travel ==> traveled
+  65:    1  ->  two ==> ruben's
+  66:    1  ->  velazquez ==> 1862
+     -------
+        75
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  berks
+   3:    1  ->  in
+   4:    1  ->  people
+   5:    1  ->  the
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  and
+   2:    2  ->  o.
+   3:    2  ->  pere
+   4:    2  ->  twenty
+   5:    1  ->  brainard
+   6:    1  ->  eighteen
+   7:    1  ->  k.
+   8:    1  ->  let
+   9:    1  ->  marc
+  10:    1  ->  rubens
+  11:    1  ->  self
+  12:    1  ->  six
+  13:    1  ->  sixty
+  14:    1  ->  sleet
+  15:    1  ->  time
+  16:    1  ->  year
+     -------
+        21
+
+
+
+SUBSTITUTIONS                    Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:    4  ->  velazquez
+   2:    3  ->  in
+   3:    3  ->  tchaikovsky
+   4:    2  ->  charpentier
+   5:    2  ->  concertino
+   6:    2  ->  fourth
+   7:    2  ->  hart
+   8:    2  ->  lachaise
+   9:    2  ->  manet
+  10:    2  ->  porcini
+  11:    1  ->  a
+  12:    1  ->  absorption
+  13:    1  ->  airily
+  14:    1  ->  allan
+  15:    1  ->  and
+  16:    1  ->  anne
+  17:    1  ->  antoine
+  18:    1  ->  are
+  19:    1  ->  as
+  20:    1  ->  ashbery
+  21:    1  ->  ask
+  22:    1  ->  atop
+  23:    1  ->  berkson
+  24:    1  ->  berrigan
+  25:    1  ->  by
+  26:    1  ->  carpentier
+  27:    1  ->  ceravolo
+  28:    1  ->  concertina
+  29:    1  ->  croissant
+  30:    1  ->  elmslie
+  31:    1  ->  enquire
+  32:    1  ->  fagin
+  33:    1  ->  floors
+  34:    1  ->  girono
+  35:    1  ->  hurt
+  36:    1  ->  ilyich
+  37:    1  ->  indecisively
+  38:    1  ->  intoxicant
+  39:    1  ->  it
+  40:    1  ->  john
+  41:    1  ->  k.
+  42:    1  ->  kenward
+  43:    1  ->  me
+  44:    1  ->  oh
+  45:    1  ->  old
+  46:    1  ->  pacing
+  47:    1  ->  padgett
+  48:    1  ->  parts
+  49:    1  ->  peopling
+  50:    1  ->  poised
+  51:    1  ->  poor
+  52:    1  ->  results
+  53:    1  ->  rubens
+  54:    1  ->  schjeldahl
+  55:    1  ->  schuyler
+  56:    1  ->  selves
+  57:    1  ->  shelves
+  58:    1  ->  sixteen
+  59:    1  ->  soul
+  60:    1  ->  travel
+  61:    1  ->  two
+     -------
+        75
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    5  ->  and
+   2:    3  ->  pontier
+   3:    3  ->  velasquez
+   4:    2  ->  24th
+   5:    2  ->  i
+   6:    2  ->  monet
+   7:    2  ->  portini
+   8:    2  ->  shikowsky
+   9:    2  ->  tino
+  10:    2  ->  while
+  11:    1  ->  1862
+  12:    1  ->  6yearold
+  13:    1  ->  <laugh>
+  14:    1  ->  airly
+  15:    1  ->  alan
+  16:    1  ->  ashberry
+  17:    1  ->  asked
+  18:    1  ->  at
+  19:    1  ->  brainer
+  20:    1  ->  cells
+  21:    1  ->  choal
+  22:    1  ->  concertina
+  23:    1  ->  elmley
+  24:    1  ->  facing
+  25:    1  ->  fagan
+  26:    1  ->  florist
+  27:    1  ->  hard
+  28:    1  ->  heard
+  29:    1  ->  heart
+  30:    1  ->  in
+  31:    1  ->  indecisive
+  32:    1  ->  inquire
+  33:    1  ->  is
+  34:    1  ->  johnno
+  35:    1  ->  ken
+  36:    1  ->  mark
+  37:    1  ->  p
+  38:    1  ->  paget
+  39:    1  ->  para
+  40:    1  ->  parks
+  41:    1  ->  peres
+  42:    1  ->  poise
+  43:    1  ->  result
+  44:    1  ->  reuben
+  45:    1  ->  rigan
+  46:    1  ->  ruben's
+  47:    1  ->  selfabsorption
+  48:    1  ->  shelda
+  49:    1  ->  shells
+  50:    1  ->  sikowski
+  51:    1  ->  sixty
+  52:    1  ->  skyler
+  53:    1  ->  sleeter
+  54:    1  ->  so
+  55:    1  ->  the
+  56:    1  ->  top
+  57:    1  ->  toxicant
+  58:    1  ->  traveled
+  59:    1  ->  valone
+  60:    1  ->  well
+     -------
+        75
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

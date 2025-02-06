@@ -1,0 +1,184 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.2%   (  48)
+
+Percent Correct           =   96.3%   (1095)
+
+Percent Substitution      =    3.0%   (  34)
+Percent Deletions         =    0.7%   (   8)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   95.8%
+
+
+Ref. words                =           (1137)
+Hyp. words                =           (1135)
+Aligned words             =           (1143)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  acquired ==> required
+   2:    1  ->  arc ==> ac
+   3:    1  ->  arc ==> arch
+   4:    1  ->  as ==> is
+   5:    1  ->  bent ==> spent
+   6:    1  ->  bony ==> bone
+   7:    1  ->  cousin's ==> cousins
+   8:    1  ->  cutoff ==> off
+   9:    1  ->  deserved ==> deserves
+  10:    1  ->  elbows ==> elbow
+  11:    1  ->  for ==> so
+  12:    1  ->  forefoot ==> foot
+  13:    1  ->  friend ==> friends
+  14:    1  ->  hilda ==> hello
+  15:    1  ->  hilda ==> hilder
+  16:    1  ->  hilda ==> we
+  17:    1  ->  is ==> highways
+  18:    1  ->  its ==> his
+  19:    1  ->  k. ==> i
+  20:    1  ->  knocker ==> knock
+  21:    1  ->  now ==> al
+  22:    1  ->  resolve ==> resolved
+  23:    1  ->  sallow ==> allow
+  24:    1  ->  sat ==> set
+  25:    1  ->  scorned ==> going
+  26:    1  ->  selects ==> select
+  27:    1  ->  squat ==> squad
+  28:    1  ->  stalks ==> stacks
+  29:    1  ->  sufficed ==> suffice
+  30:    1  ->  the ==> for
+  31:    1  ->  thus ==> unless
+  32:    1  ->  unslings ==> swings
+  33:    1  ->  until ==> till
+  34:    1  ->  were ==> when
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  cut
+   2:    1  ->  four
+   3:    1  ->  hilly
+   4:    1  ->  is
+   5:    1  ->  it
+   6:    1  ->  on
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    3  ->  is
+   2:    1  ->  and
+   3:    1  ->  eye
+   4:    1  ->  highway
+   5:    1  ->  o.
+   6:    1  ->  th
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  hilda
+   2:    2  ->  arc
+   3:    1  ->  acquired
+   4:    1  ->  as
+   5:    1  ->  bent
+   6:    1  ->  bony
+   7:    1  ->  cousin's
+   8:    1  ->  cutoff
+   9:    1  ->  deserved
+  10:    1  ->  elbows
+  11:    1  ->  for
+  12:    1  ->  forefoot
+  13:    1  ->  friend
+  14:    1  ->  is
+  15:    1  ->  its
+  16:    1  ->  k.
+  17:    1  ->  knocker
+  18:    1  ->  now
+  19:    1  ->  resolve
+  20:    1  ->  sallow
+  21:    1  ->  sat
+  22:    1  ->  scorned
+  23:    1  ->  selects
+  24:    1  ->  squat
+  25:    1  ->  stalks
+  26:    1  ->  sufficed
+  27:    1  ->  the
+  28:    1  ->  thus
+  29:    1  ->  unslings
+  30:    1  ->  until
+  31:    1  ->  were
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    1  ->  ac
+   2:    1  ->  al
+   3:    1  ->  allow
+   4:    1  ->  arch
+   5:    1  ->  bone
+   6:    1  ->  cousins
+   7:    1  ->  deserves
+   8:    1  ->  elbow
+   9:    1  ->  foot
+  10:    1  ->  for
+  11:    1  ->  friends
+  12:    1  ->  going
+  13:    1  ->  hello
+  14:    1  ->  highways
+  15:    1  ->  hilder
+  16:    1  ->  his
+  17:    1  ->  i
+  18:    1  ->  is
+  19:    1  ->  knock
+  20:    1  ->  off
+  21:    1  ->  required
+  22:    1  ->  resolved
+  23:    1  ->  select
+  24:    1  ->  set
+  25:    1  ->  so
+  26:    1  ->  spent
+  27:    1  ->  squad
+  28:    1  ->  stacks
+  29:    1  ->  suffice
+  30:    1  ->  swings
+  31:    1  ->  till
+  32:    1  ->  unless
+  33:    1  ->  we
+  34:    1  ->  when
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,182 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.6%   (  48)
+
+Percent Correct           =   96.2%   ( 998)
+
+Percent Substitution      =    3.0%   (  31)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   95.4%
+
+
+Ref. words                =           (1037)
+Hyp. words                =           (1038)
+Aligned words             =           (1046)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  apartment ==> apartments
+   3:    1  ->  as ==> with
+   4:    1  ->  brentano's ==> 's
+   5:    1  ->  bulgarian ==> bulgaria
+   6:    1  ->  bumpkin ==> can
+   7:    1  ->  choirs ==> inquires
+   8:    1  ->  do ==> too
+   9:    1  ->  down ==> on
+  10:    1  ->  dunne ==> dunn
+  11:    1  ->  finnish ==> finish
+  12:    1  ->  frieze ==> threes
+  13:    1  ->  hag ==> seahag
+  14:    1  ->  he ==> ye
+  15:    1  ->  is ==> as
+  16:    1  ->  kalevala ==> kalavala
+  17:    1  ->  leon ==> leone
+  18:    1  ->  looming ==> gloomy
+  19:    1  ->  of ==> in
+  20:    1  ->  of ==> over
+  21:    1  ->  overheard ==> her
+  22:    1  ->  placed ==> place
+  23:    1  ->  poem ==> one
+  24:    1  ->  pohjola ==> pojola
+  25:    1  ->  scapegrace ==> grace
+  26:    1  ->  succumbed ==> succumb
+  27:    1  ->  sun ==> son
+  28:    1  ->  tania ==> tanya
+  29:    1  ->  the ==> to
+  30:    1  ->  thought ==> though
+  31:    1  ->  wha ==> what
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  brentano
+   3:    1  ->  bump
+   4:    1  ->  escaped
+   5:    1  ->  i
+   6:    1  ->  is
+   7:    1  ->  over
+   8:    1  ->  them
+   9:    1  ->  was
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  b
+   4:    1  ->  just
+   5:    1  ->  s
+   6:    1  ->  sea
+   7:    1  ->  shut
+   8:    1  ->  then
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  of
+   2:    1  ->  a
+   3:    1  ->  apartment
+   4:    1  ->  as
+   5:    1  ->  brentano's
+   6:    1  ->  bulgarian
+   7:    1  ->  bumpkin
+   8:    1  ->  choirs
+   9:    1  ->  do
+  10:    1  ->  down
+  11:    1  ->  dunne
+  12:    1  ->  finnish
+  13:    1  ->  frieze
+  14:    1  ->  hag
+  15:    1  ->  he
+  16:    1  ->  is
+  17:    1  ->  kalevala
+  18:    1  ->  leon
+  19:    1  ->  looming
+  20:    1  ->  overheard
+  21:    1  ->  placed
+  22:    1  ->  poem
+  23:    1  ->  pohjola
+  24:    1  ->  scapegrace
+  25:    1  ->  succumbed
+  26:    1  ->  sun
+  27:    1  ->  tania
+  28:    1  ->  the
+  29:    1  ->  thought
+  30:    1  ->  wha
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    1  ->  's
+   2:    1  ->  apartments
+   3:    1  ->  as
+   4:    1  ->  bulgaria
+   5:    1  ->  can
+   6:    1  ->  dunn
+   7:    1  ->  finish
+   8:    1  ->  gloomy
+   9:    1  ->  grace
+  10:    1  ->  her
+  11:    1  ->  in
+  12:    1  ->  inquires
+  13:    1  ->  kalavala
+  14:    1  ->  leone
+  15:    1  ->  on
+  16:    1  ->  one
+  17:    1  ->  over
+  18:    1  ->  place
+  19:    1  ->  pojola
+  20:    1  ->  seahag
+  21:    1  ->  son
+  22:    1  ->  succumb
+  23:    1  ->  tanya
+  24:    1  ->  the
+  25:    1  ->  though
+  26:    1  ->  threes
+  27:    1  ->  to
+  28:    1  ->  too
+  29:    1  ->  what
+  30:    1  ->  with
+  31:    1  ->  ye
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

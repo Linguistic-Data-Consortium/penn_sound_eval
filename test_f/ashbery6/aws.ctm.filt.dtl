@@ -1,0 +1,119 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.0%   (  20)
+
+Percent Correct           =   98.7%   ( 975)
+
+Percent Substitution      =    1.3%   (  13)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.7%   (   7)
+Percent Word Accuracy     =   98.0%
+
+
+Ref. words                =           ( 988)
+Hyp. words                =           ( 995)
+Aligned words             =           ( 995)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  alternately ==> ultimately
+   2:    1  ->  and ==> in
+   3:    1  ->  as ==> his
+   4:    1  ->  enfolding ==> unfolding
+   5:    1  ->  falbalas ==> balas
+   6:    1  ->  in ==> foul
+   7:    1  ->  prefaced ==> breakfast
+   8:    1  ->  pyrography ==> gray
+   9:    1  ->  seem ==> seemed
+  10:    1  ->  the ==> a
+  11:    1  ->  too ==> two
+  12:    1  ->  trifoliate ==> foliate
+  13:    1  ->  wadded ==> waded
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and
+   2:    1  ->  i
+   3:    1  ->  is
+   4:    1  ->  pir
+   5:    1  ->  so
+   6:    1  ->  that
+   7:    1  ->  tri
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  alternately
+   2:    1  ->  and
+   3:    1  ->  as
+   4:    1  ->  enfolding
+   5:    1  ->  falbalas
+   6:    1  ->  in
+   7:    1  ->  prefaced
+   8:    1  ->  pyrography
+   9:    1  ->  seem
+  10:    1  ->  the
+  11:    1  ->  too
+  12:    1  ->  trifoliate
+  13:    1  ->  wadded
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  balas
+   3:    1  ->  breakfast
+   4:    1  ->  foliate
+   5:    1  ->  foul
+   6:    1  ->  gray
+   7:    1  ->  his
+   8:    1  ->  in
+   9:    1  ->  seemed
+  10:    1  ->  two
+  11:    1  ->  ultimately
+  12:    1  ->  unfolding
+  13:    1  ->  waded
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

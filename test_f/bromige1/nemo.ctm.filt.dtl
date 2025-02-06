@@ -1,0 +1,297 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.7%   ( 101)
+
+Percent Correct           =   91.9%   (1072)
+
+Percent Substitution      =    6.1%   (  71)
+Percent Deletions         =    2.1%   (  24)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   91.3%
+
+
+Ref. words                =           (1167)
+Hyp. words                =           (1149)
+Aligned words             =           (1173)
+
+CONFUSION PAIRS                  Total                 (69)
+                                 With >=  1 occurrences (69)
+
+   1:    3  ->  that ==> but
+   2:    1  ->  a ==> her
+   3:    1  ->  a ==> your
+   4:    1  ->  address ==> addressed
+   5:    1  ->  and ==> if
+   6:    1  ->  and ==> in
+   7:    1  ->  and ==> then
+   8:    1  ->  as ==> of
+   9:    1  ->  at ==> lamp
+  10:    1  ->  bird ==> but
+  11:    1  ->  cake ==> cage
+  12:    1  ->  climbed ==> climbs
+  13:    1  ->  closed ==> close
+  14:    1  ->  complied ==> complies
+  15:    1  ->  continents ==> countenance
+  16:    1  ->  daisy ==> baby
+  17:    1  ->  dalian ==> dallien
+  18:    1  ->  debut ==> davy
+  19:    1  ->  emotionally ==> motionless
+  20:    1  ->  enchantment ==> enchantments
+  21:    1  ->  go ==> gold
+  22:    1  ->  good ==> masterhood
+  23:    1  ->  hath ==> had
+  24:    1  ->  have ==> am
+  25:    1  ->  heart ==> an
+  26:    1  ->  hips ==> broadheaded
+  27:    1  ->  holds ==> holes
+  28:    1  ->  i ==> eyes
+  29:    1  ->  in ==> that's
+  30:    1  ->  is ==> was
+  31:    1  ->  it ==> its
+  32:    1  ->  it ==> thought
+  33:    1  ->  just ==> obscene
+  34:    1  ->  land ==> lamps
+  35:    1  ->  less ==> west
+  36:    1  ->  mold ==> maul
+  37:    1  ->  odor ==> odour
+  38:    1  ->  of ==> a
+  39:    1  ->  of ==> off
+  40:    1  ->  on ==> in
+  41:    1  ->  pen ==> ten
+  42:    1  ->  pithead ==> head
+  43:    1  ->  point ==> ballpoint
+  44:    1  ->  rumors ==> rumours
+  45:    1  ->  seen ==> an
+  46:    1  ->  shaped ==> shape
+  47:    1  ->  sheet ==> sheets
+  48:    1  ->  should ==> ship
+  49:    1  ->  softest ==> softer
+  50:    1  ->  song ==> sung
+  51:    1  ->  start ==> stars
+  52:    1  ->  succor ==> succour
+  53:    1  ->  than ==> in
+  54:    1  ->  the ==> a
+  55:    1  ->  then ==> end
+  56:    1  ->  there ==> also
+  57:    1  ->  tsunami ==> army
+  58:    1  ->  tunnel ==> tamil
+  59:    1  ->  under ==> onto
+  60:    1  ->  until ==> till
+  61:    1  ->  was ==> with
+  62:    1  ->  weight ==> wait
+  63:    1  ->  weight ==> waite
+  64:    1  ->  who ==> what
+  65:    1  ->  x ==> first
+  66:    1  ->  x ==> form
+  67:    1  ->  x ==> pam's
+  68:    1  ->  yards' ==> yards
+  69:    1  ->  your ==> gesture
+     -------
+        71
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  as
+   2:    1  ->  care
+   3:    1  ->  have
+   4:    1  ->  heart's
+   5:    1  ->  pit
+   6:    1  ->  will
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    1  ->  and
+   2:    1  ->  another
+   3:    1  ->  ball
+   4:    1  ->  broad
+   5:    1  ->  down
+   6:    1  ->  f
+   7:    1  ->  far
+   8:    1  ->  had
+   9:    1  ->  have
+  10:    1  ->  it
+  11:    1  ->  kind
+  12:    1  ->  master
+  13:    1  ->  of
+  14:    1  ->  pickaxe
+  15:    1  ->  saw
+  16:    1  ->  that
+  17:    1  ->  the
+  18:    1  ->  this
+  19:    1  ->  to
+  20:    1  ->  use
+  21:    1  ->  we
+  22:    1  ->  who
+  23:    1  ->  with
+  24:    1  ->  you
+     -------
+        24
+
+
+
+SUBSTITUTIONS                    Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:    3  ->  and
+   2:    3  ->  that
+   3:    3  ->  x
+   4:    2  ->  a
+   5:    2  ->  it
+   6:    2  ->  of
+   7:    2  ->  weight
+   8:    1  ->  address
+   9:    1  ->  as
+  10:    1  ->  at
+  11:    1  ->  bird
+  12:    1  ->  cake
+  13:    1  ->  climbed
+  14:    1  ->  closed
+  15:    1  ->  complied
+  16:    1  ->  continents
+  17:    1  ->  daisy
+  18:    1  ->  dalian
+  19:    1  ->  debut
+  20:    1  ->  emotionally
+  21:    1  ->  enchantment
+  22:    1  ->  go
+  23:    1  ->  good
+  24:    1  ->  hath
+  25:    1  ->  have
+  26:    1  ->  heart
+  27:    1  ->  hips
+  28:    1  ->  holds
+  29:    1  ->  i
+  30:    1  ->  in
+  31:    1  ->  is
+  32:    1  ->  just
+  33:    1  ->  land
+  34:    1  ->  less
+  35:    1  ->  mold
+  36:    1  ->  odor
+  37:    1  ->  on
+  38:    1  ->  pen
+  39:    1  ->  pithead
+  40:    1  ->  point
+  41:    1  ->  rumors
+  42:    1  ->  seen
+  43:    1  ->  shaped
+  44:    1  ->  sheet
+  45:    1  ->  should
+  46:    1  ->  softest
+  47:    1  ->  song
+  48:    1  ->  start
+  49:    1  ->  succor
+  50:    1  ->  than
+  51:    1  ->  the
+  52:    1  ->  then
+  53:    1  ->  there
+  54:    1  ->  tsunami
+  55:    1  ->  tunnel
+  56:    1  ->  under
+  57:    1  ->  until
+  58:    1  ->  was
+  59:    1  ->  who
+  60:    1  ->  yards'
+  61:    1  ->  your
+     -------
+        71
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (64)
+                                 With >=  1 occurrences (64)
+
+   1:    4  ->  but
+   2:    3  ->  in
+   3:    2  ->  a
+   4:    2  ->  an
+   5:    1  ->  addressed
+   6:    1  ->  also
+   7:    1  ->  am
+   8:    1  ->  army
+   9:    1  ->  baby
+  10:    1  ->  ballpoint
+  11:    1  ->  broadheaded
+  12:    1  ->  cage
+  13:    1  ->  climbs
+  14:    1  ->  close
+  15:    1  ->  complies
+  16:    1  ->  countenance
+  17:    1  ->  dallien
+  18:    1  ->  davy
+  19:    1  ->  enchantments
+  20:    1  ->  end
+  21:    1  ->  eyes
+  22:    1  ->  first
+  23:    1  ->  form
+  24:    1  ->  gesture
+  25:    1  ->  gold
+  26:    1  ->  had
+  27:    1  ->  head
+  28:    1  ->  her
+  29:    1  ->  holes
+  30:    1  ->  if
+  31:    1  ->  its
+  32:    1  ->  lamp
+  33:    1  ->  lamps
+  34:    1  ->  masterhood
+  35:    1  ->  maul
+  36:    1  ->  motionless
+  37:    1  ->  obscene
+  38:    1  ->  odour
+  39:    1  ->  of
+  40:    1  ->  off
+  41:    1  ->  onto
+  42:    1  ->  pam's
+  43:    1  ->  rumours
+  44:    1  ->  shape
+  45:    1  ->  sheets
+  46:    1  ->  ship
+  47:    1  ->  softer
+  48:    1  ->  stars
+  49:    1  ->  succour
+  50:    1  ->  sung
+  51:    1  ->  tamil
+  52:    1  ->  ten
+  53:    1  ->  that's
+  54:    1  ->  then
+  55:    1  ->  thought
+  56:    1  ->  till
+  57:    1  ->  wait
+  58:    1  ->  waite
+  59:    1  ->  was
+  60:    1  ->  west
+  61:    1  ->  what
+  62:    1  ->  with
+  63:    1  ->  yards
+  64:    1  ->  your
+     -------
+        71
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

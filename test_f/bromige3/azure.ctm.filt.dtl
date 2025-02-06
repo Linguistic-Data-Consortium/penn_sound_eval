@@ -1,0 +1,295 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.3%   (  91)
+
+Percent Correct           =   92.0%   ( 903)
+
+Percent Substitution      =    7.4%   (  73)
+Percent Deletions         =    0.6%   (   6)
+Percent Insertions        =    1.2%   (  12)
+Percent Word Accuracy     =   90.7%
+
+
+Ref. words                =           ( 982)
+Hyp. words                =           ( 988)
+Aligned words             =           ( 994)
+
+CONFUSION PAIRS                  Total                 (71)
+                                 With >=  1 occurrences (71)
+
+   1:    2  ->  cutthroat ==> throat
+   2:    2  ->  dark ==> dock
+   3:    1  ->  a ==> aton
+   4:    1  ->  a ==> of
+   5:    1  ->  a ==> the
+   6:    1  ->  alone ==> along
+   7:    1  ->  at ==> that
+   8:    1  ->  begun ==> began
+   9:    1  ->  birch ==> butch
+  10:    1  ->  blanket ==> blankets
+  11:    1  ->  blood ==> blunt
+  12:    1  ->  body ==> blood
+  13:    1  ->  but ==> and
+  14:    1  ->  butcher's ==> butchers
+  15:    1  ->  called ==> cold
+  16:    1  ->  calls ==> falls
+  17:    1  ->  chevy's ==> sheviz
+  18:    1  ->  chiaroscuro ==> skewer
+  19:    1  ->  complacencies ==> suits
+  20:    1  ->  crater's ==> 's
+  21:    1  ->  crosspiece ==> piece
+  22:    1  ->  eddies ==> is
+  23:    1  ->  enormity ==> anonymity
+  24:    1  ->  faded ==> it
+  25:    1  ->  falls ==> false
+  26:    1  ->  fragilely ==> fragile
+  27:    1  ->  gorse ==> course
+  28:    1  ->  governments ==> 's
+  29:    1  ->  hatrack ==> rack
+  30:    1  ->  heath ==> heat
+  31:    1  ->  hold ==> old
+  32:    1  ->  i ==> eye
+  33:    1  ->  in ==> sign
+  34:    1  ->  in ==> striking
+  35:    1  ->  is ==> cylinders
+  36:    1  ->  it ==> bridget
+  37:    1  ->  knock ==> fade
+  38:    1  ->  lake ==> leak
+  39:    1  ->  laughing ==> blasting
+  40:    1  ->  leader ==> it
+  41:    1  ->  light ==> life
+  42:    1  ->  look ==> looks
+  43:    1  ->  lugged ==> legged
+  44:    1  ->  metals ==> medals
+  45:    1  ->  night ==> might
+  46:    1  ->  night ==> mites
+  47:    1  ->  night ==> nights
+  48:    1  ->  of ==> on
+  49:    1  ->  passed ==> past
+  50:    1  ->  poem's ==> 's
+  51:    1  ->  poems ==> from
+  52:    1  ->  pool ==> fool
+  53:    1  ->  saw ==> had
+  54:    1  ->  seen ==> scene
+  55:    1  ->  skid ==> skin
+  56:    1  ->  slide ==> side
+  57:    1  ->  slung ==> slang
+  58:    1  ->  sparrow ==> spur
+  59:    1  ->  sparse ==> spas
+  60:    1  ->  sun ==> some
+  61:    1  ->  that's ==> it's
+  62:    1  ->  the ==> believe
+  63:    1  ->  the ==> was
+  64:    1  ->  thighs ==> size
+  65:    1  ->  this ==> who's
+  66:    1  ->  tommy's ==> his
+  67:    1  ->  tomorrow ==> tamara
+  68:    1  ->  wed ==> newlywed
+  69:    1  ->  white ==> light
+  70:    1  ->  with ==> him
+  71:    1  ->  your ==> you
+     -------
+        73
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  crater
+   2:    1  ->  cross
+   3:    1  ->  cuff
+   4:    1  ->  cut
+   5:    1  ->  government
+   6:    1  ->  hat
+   7:    1  ->  if
+   8:    1  ->  it
+   9:    1  ->  kiera
+  10:    1  ->  not
+  11:    1  ->  poem
+  12:    1  ->  replacement
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  book
+   3:    1  ->  bridge
+   4:    1  ->  newly
+   5:    1  ->  poem
+   6:    1  ->  strike
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (65)
+                                 With >=  1 occurrences (65)
+
+   1:    3  ->  a
+   2:    3  ->  night
+   3:    2  ->  cutthroat
+   4:    2  ->  dark
+   5:    2  ->  in
+   6:    2  ->  the
+   7:    1  ->  alone
+   8:    1  ->  at
+   9:    1  ->  begun
+  10:    1  ->  birch
+  11:    1  ->  blanket
+  12:    1  ->  blood
+  13:    1  ->  body
+  14:    1  ->  but
+  15:    1  ->  butcher's
+  16:    1  ->  called
+  17:    1  ->  calls
+  18:    1  ->  chevy's
+  19:    1  ->  chiaroscuro
+  20:    1  ->  complacencies
+  21:    1  ->  crater's
+  22:    1  ->  crosspiece
+  23:    1  ->  eddies
+  24:    1  ->  enormity
+  25:    1  ->  faded
+  26:    1  ->  falls
+  27:    1  ->  fragilely
+  28:    1  ->  gorse
+  29:    1  ->  governments
+  30:    1  ->  hatrack
+  31:    1  ->  heath
+  32:    1  ->  hold
+  33:    1  ->  i
+  34:    1  ->  is
+  35:    1  ->  it
+  36:    1  ->  knock
+  37:    1  ->  lake
+  38:    1  ->  laughing
+  39:    1  ->  leader
+  40:    1  ->  light
+  41:    1  ->  look
+  42:    1  ->  lugged
+  43:    1  ->  metals
+  44:    1  ->  of
+  45:    1  ->  passed
+  46:    1  ->  poem's
+  47:    1  ->  poems
+  48:    1  ->  pool
+  49:    1  ->  saw
+  50:    1  ->  seen
+  51:    1  ->  skid
+  52:    1  ->  slide
+  53:    1  ->  slung
+  54:    1  ->  sparrow
+  55:    1  ->  sparse
+  56:    1  ->  sun
+  57:    1  ->  that's
+  58:    1  ->  thighs
+  59:    1  ->  this
+  60:    1  ->  tommy's
+  61:    1  ->  tomorrow
+  62:    1  ->  wed
+  63:    1  ->  white
+  64:    1  ->  with
+  65:    1  ->  your
+     -------
+        73
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (68)
+                                 With >=  1 occurrences (68)
+
+   1:    3  ->  's
+   2:    2  ->  dock
+   3:    2  ->  it
+   4:    2  ->  throat
+   5:    1  ->  along
+   6:    1  ->  and
+   7:    1  ->  anonymity
+   8:    1  ->  aton
+   9:    1  ->  began
+  10:    1  ->  believe
+  11:    1  ->  blankets
+  12:    1  ->  blasting
+  13:    1  ->  blood
+  14:    1  ->  blunt
+  15:    1  ->  bridget
+  16:    1  ->  butch
+  17:    1  ->  butchers
+  18:    1  ->  cold
+  19:    1  ->  course
+  20:    1  ->  cylinders
+  21:    1  ->  eye
+  22:    1  ->  fade
+  23:    1  ->  falls
+  24:    1  ->  false
+  25:    1  ->  fool
+  26:    1  ->  fragile
+  27:    1  ->  from
+  28:    1  ->  had
+  29:    1  ->  heat
+  30:    1  ->  him
+  31:    1  ->  his
+  32:    1  ->  is
+  33:    1  ->  it's
+  34:    1  ->  leak
+  35:    1  ->  legged
+  36:    1  ->  life
+  37:    1  ->  light
+  38:    1  ->  looks
+  39:    1  ->  medals
+  40:    1  ->  might
+  41:    1  ->  mites
+  42:    1  ->  newlywed
+  43:    1  ->  nights
+  44:    1  ->  of
+  45:    1  ->  old
+  46:    1  ->  on
+  47:    1  ->  past
+  48:    1  ->  piece
+  49:    1  ->  rack
+  50:    1  ->  scene
+  51:    1  ->  sheviz
+  52:    1  ->  side
+  53:    1  ->  sign
+  54:    1  ->  size
+  55:    1  ->  skewer
+  56:    1  ->  skin
+  57:    1  ->  slang
+  58:    1  ->  some
+  59:    1  ->  spas
+  60:    1  ->  spur
+  61:    1  ->  striking
+  62:    1  ->  suits
+  63:    1  ->  tamara
+  64:    1  ->  that
+  65:    1  ->  the
+  66:    1  ->  was
+  67:    1  ->  who's
+  68:    1  ->  you
+     -------
+        73
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

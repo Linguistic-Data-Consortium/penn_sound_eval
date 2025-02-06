@@ -1,0 +1,131 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.2%   (  23)
+
+Percent Correct           =   97.9%   (1011)
+
+Percent Substitution      =    1.9%   (  20)
+Percent Deletions         =    0.2%   (   2)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   97.8%
+
+
+Ref. words                =           (1033)
+Hyp. words                =           (1032)
+Aligned words             =           (1034)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  air ==> error
+   2:    1  ->  a ==> the
+   3:    1  ->  begin ==> began
+   4:    1  ->  entrails ==> trails
+   5:    1  ->  experience ==> experienced
+   6:    1  ->  hands ==> hand
+   7:    1  ->  haunted ==> hunted
+   8:    1  ->  ho ==> how
+   9:    1  ->  in ==> and
+  10:    1  ->  it ==> and
+  11:    1  ->  lived ==> lifed
+  12:    1  ->  moods ==> moves
+  13:    1  ->  of ==> off
+  14:    1  ->  over ==> of
+  15:    1  ->  protest ==> protests
+  16:    1  ->  rid ==> ridden
+  17:    1  ->  ten ==> oh
+  18:    1  ->  text ==> texts
+  19:    1  ->  thirty ==> oh
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  in
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  o
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  air
+   2:    1  ->  a
+   3:    1  ->  begin
+   4:    1  ->  entrails
+   5:    1  ->  experience
+   6:    1  ->  hands
+   7:    1  ->  haunted
+   8:    1  ->  ho
+   9:    1  ->  in
+  10:    1  ->  it
+  11:    1  ->  lived
+  12:    1  ->  moods
+  13:    1  ->  of
+  14:    1  ->  over
+  15:    1  ->  protest
+  16:    1  ->  rid
+  17:    1  ->  ten
+  18:    1  ->  text
+  19:    1  ->  thirty
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  and
+   2:    2  ->  error
+   3:    2  ->  oh
+   4:    1  ->  began
+   5:    1  ->  experienced
+   6:    1  ->  hand
+   7:    1  ->  how
+   8:    1  ->  hunted
+   9:    1  ->  lifed
+  10:    1  ->  moves
+  11:    1  ->  of
+  12:    1  ->  off
+  13:    1  ->  protests
+  14:    1  ->  ridden
+  15:    1  ->  texts
+  16:    1  ->  the
+  17:    1  ->  trails
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

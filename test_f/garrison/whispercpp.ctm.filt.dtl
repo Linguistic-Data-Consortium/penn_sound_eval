@@ -1,0 +1,214 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.9%   (  71)
+
+Percent Correct           =   94.5%   (1144)
+
+Percent Substitution      =    3.6%   (  43)
+Percent Deletions         =    1.9%   (  23)
+Percent Insertions        =    0.4%   (   5)
+Percent Word Accuracy     =   94.1%
+
+
+Ref. words                =           (1210)
+Hyp. words                =           (1192)
+Aligned words             =           (1215)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  fourteen ==> four
+   2:    2  ->  the ==> a
+   3:    2  ->  twenty ==> two
+   4:    1  ->  amis ==> amos
+   5:    1  ->  broker ==> powerbroker
+   6:    1  ->  by ==> saw
+   7:    1  ->  dos ==> candos
+   8:    1  ->  footed ==> wrongfooted
+   9:    1  ->  four ==> twobyfour
+  10:    1  ->  gone ==> going
+  11:    1  ->  handsaw ==> all
+  12:    1  ->  have ==> are
+  13:    1  ->  have ==> had
+  14:    1  ->  hole ==> hold
+  15:    1  ->  is ==> tastes
+  16:    1  ->  it's ==> am
+  17:    1  ->  leathered ==> levered
+  18:    1  ->  nine ==> twentynine
+  19:    1  ->  now ==> i
+  20:    1  ->  on ==> now
+  21:    1  ->  one ==> when
+  22:    1  ->  others ==> other's
+  23:    1  ->  owned ==> own
+  24:    1  ->  planed ==> plain
+  25:    1  ->  realise ==> realised
+  26:    1  ->  salt ==> thought
+  27:    1  ->  schoolgirl ==> girl
+  28:    1  ->  seal ==> sealed
+  29:    1  ->  sixes ==> twobysixes
+  30:    1  ->  squared ==> and
+  31:    1  ->  t ==> tsquared
+  32:    1  ->  the ==> this
+  33:    1  ->  the ==> with
+  34:    1  ->  through ==> to
+  35:    1  ->  til ==> till
+  36:    1  ->  toenail ==> toenails
+  37:    1  ->  waist ==> waste
+  38:    1  ->  who ==> whom
+  39:    1  ->  window ==> winder
+  40:    1  ->  works ==> worked
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  one
+   2:    1  ->  and
+   3:    1  ->  hands
+   4:    1  ->  school
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  i
+   2:    2  ->  two
+   3:    1  ->  about
+   4:    1  ->  am
+   5:    1  ->  and
+   6:    1  ->  as
+   7:    1  ->  by
+   8:    1  ->  can
+   9:    1  ->  her
+  10:    1  ->  in
+  11:    1  ->  is
+  12:    1  ->  it
+  13:    1  ->  it's
+  14:    1  ->  power
+  15:    1  ->  sawed
+  16:    1  ->  taste
+  17:    1  ->  there's
+  18:    1  ->  this
+  19:    1  ->  twenty
+  20:    1  ->  wrong
+     -------
+        23
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    4  ->  the
+   2:    2  ->  fourteen
+   3:    2  ->  have
+   4:    2  ->  twenty
+   5:    1  ->  amis
+   6:    1  ->  broker
+   7:    1  ->  by
+   8:    1  ->  dos
+   9:    1  ->  footed
+  10:    1  ->  four
+  11:    1  ->  gone
+  12:    1  ->  handsaw
+  13:    1  ->  hole
+  14:    1  ->  is
+  15:    1  ->  it's
+  16:    1  ->  leathered
+  17:    1  ->  nine
+  18:    1  ->  now
+  19:    1  ->  on
+  20:    1  ->  one
+  21:    1  ->  others
+  22:    1  ->  owned
+  23:    1  ->  planed
+  24:    1  ->  realise
+  25:    1  ->  salt
+  26:    1  ->  schoolgirl
+  27:    1  ->  seal
+  28:    1  ->  sixes
+  29:    1  ->  squared
+  30:    1  ->  t
+  31:    1  ->  through
+  32:    1  ->  til
+  33:    1  ->  toenail
+  34:    1  ->  waist
+  35:    1  ->  who
+  36:    1  ->  window
+  37:    1  ->  works
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  a
+   2:    2  ->  four
+   3:    2  ->  two
+   4:    1  ->  all
+   5:    1  ->  am
+   6:    1  ->  amos
+   7:    1  ->  and
+   8:    1  ->  are
+   9:    1  ->  candos
+  10:    1  ->  girl
+  11:    1  ->  going
+  12:    1  ->  had
+  13:    1  ->  hold
+  14:    1  ->  i
+  15:    1  ->  levered
+  16:    1  ->  now
+  17:    1  ->  other's
+  18:    1  ->  own
+  19:    1  ->  plain
+  20:    1  ->  powerbroker
+  21:    1  ->  realised
+  22:    1  ->  saw
+  23:    1  ->  sealed
+  24:    1  ->  tastes
+  25:    1  ->  this
+  26:    1  ->  thought
+  27:    1  ->  till
+  28:    1  ->  to
+  29:    1  ->  toenails
+  30:    1  ->  tsquared
+  31:    1  ->  twentynine
+  32:    1  ->  twobyfour
+  33:    1  ->  twobysixes
+  34:    1  ->  waste
+  35:    1  ->  when
+  36:    1  ->  whom
+  37:    1  ->  winder
+  38:    1  ->  with
+  39:    1  ->  worked
+  40:    1  ->  wrongfooted
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

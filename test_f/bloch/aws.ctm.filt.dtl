@@ -1,0 +1,157 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.9%   (  42)
+
+Percent Correct           =   96.8%   (1043)
+
+Percent Substitution      =    2.5%   (  27)
+Percent Deletions         =    0.6%   (   7)
+Percent Insertions        =    0.7%   (   8)
+Percent Word Accuracy     =   96.1%
+
+
+Ref. words                =           (1077)
+Hyp. words                =           (1078)
+Aligned words             =           (1085)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  allison ==> alison
+   2:    1  ->  bayshore ==> shore
+   3:    1  ->  devo ==> de
+   4:    1  ->  etiological ==> ideological
+   5:    1  ->  grey ==> gray
+   6:    1  ->  into ==> to
+   7:    1  ->  l ==> ll
+   8:    1  ->  one ==> at
+   9:    1  ->  one ==> when
+  10:    1  ->  pass ==> past
+  11:    1  ->  sacroiliac ==> iliac
+  12:    1  ->  schuylkill ==> kill
+  13:    1  ->  should ==> can
+  14:    1  ->  sonnet ==> son
+  15:    1  ->  t ==> pst
+  16:    1  ->  th ==> the
+  17:    1  ->  there ==> sacro
+  18:    1  ->  there ==> their
+  19:    1  ->  thirty ==> three
+  20:    1  ->  to ==> two
+  21:    1  ->  tshirt ==> shirt
+  22:    1  ->  twenty ==> oh
+  23:    1  ->  x ==> lee
+  24:    1  ->  x ==> roman
+  25:    1  ->  x ==> xxx
+     -------
+        27
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  bay
+   2:    1  ->  in
+   3:    1  ->  oh
+   4:    1  ->  or
+   5:    1  ->  skull
+   6:    1  ->  t
+   7:    1  ->  their
+   8:    1  ->  then
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  s
+   2:    2  ->  x
+   3:    1  ->  one
+   4:    1  ->  p
+   5:    1  ->  sh
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    3  ->  allison
+   2:    3  ->  x
+   3:    2  ->  one
+   4:    2  ->  there
+   5:    1  ->  bayshore
+   6:    1  ->  devo
+   7:    1  ->  etiological
+   8:    1  ->  grey
+   9:    1  ->  into
+  10:    1  ->  l
+  11:    1  ->  pass
+  12:    1  ->  sacroiliac
+  13:    1  ->  schuylkill
+  14:    1  ->  should
+  15:    1  ->  sonnet
+  16:    1  ->  t
+  17:    1  ->  th
+  18:    1  ->  thirty
+  19:    1  ->  to
+  20:    1  ->  tshirt
+  21:    1  ->  twenty
+     -------
+        27
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  alison
+   2:    1  ->  at
+   3:    1  ->  can
+   4:    1  ->  de
+   5:    1  ->  gray
+   6:    1  ->  ideological
+   7:    1  ->  iliac
+   8:    1  ->  kill
+   9:    1  ->  lee
+  10:    1  ->  ll
+  11:    1  ->  oh
+  12:    1  ->  past
+  13:    1  ->  pst
+  14:    1  ->  roman
+  15:    1  ->  sacro
+  16:    1  ->  shirt
+  17:    1  ->  shore
+  18:    1  ->  son
+  19:    1  ->  the
+  20:    1  ->  their
+  21:    1  ->  three
+  22:    1  ->  to
+  23:    1  ->  two
+  24:    1  ->  when
+  25:    1  ->  xxx
+     -------
+        27
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,230 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.4%   (  80)
+
+Percent Correct           =   91.8%   ( 872)
+
+Percent Substitution      =    4.4%   (  42)
+Percent Deletions         =    3.8%   (  36)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   91.6%
+
+
+Ref. words                =           ( 950)
+Hyp. words                =           ( 916)
+Aligned words             =           ( 952)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  and ==> in
+   2:    1  ->  a ==> tna
+   3:    1  ->  ansem ==> anselm
+   4:    1  ->  ansem's ==> anselm's
+   5:    1  ->  asked ==> asks
+   6:    1  ->  bandanna ==> bandana
+   7:    1  ->  broken ==> heartbroken
+   8:    1  ->  charles's ==> charles'
+   9:    1  ->  crushed ==> crush
+  10:    1  ->  duct ==> duck
+  11:    1  ->  families' ==> family's
+  12:    1  ->  hamburger ==> hamburgers
+  13:    1  ->  in ==> filling
+  14:    1  ->  kids' ==> kid's
+  15:    1  ->  lee ==> look
+  16:    1  ->  lookalike ==> alike
+  17:    1  ->  meika ==> micah
+  18:    1  ->  mind ==> mine
+  19:    1  ->  mommas ==> mamas
+  20:    1  ->  motion ==> emotion
+  21:    1  ->  nights ==> night's
+  22:    1  ->  phat ==> fat
+  23:    1  ->  prince ==> prints
+  24:    1  ->  prowl ==> prow
+  25:    1  ->  que ==> k
+  26:    1  ->  saks ==> sachs
+  27:    1  ->  say ==> bootsay
+  28:    1  ->  scheme ==> skein
+  29:    1  ->  schemerhorn ==> shimmerhorn
+  30:    1  ->  sleep ==> vecklessly
+  31:    1  ->  snakeskin ==> skin
+  32:    1  ->  spike ==> spikely
+  33:    1  ->  spy ==> worldspy
+  34:    1  ->  thing ==> something
+  35:    1  ->  totally ==> tolly
+  36:    1  ->  twins' ==> twins
+  37:    1  ->  wack ==> whack
+  38:    1  ->  walkman ==> walk
+  39:    1  ->  weekenders ==> they
+  40:    1  ->  weston's ==> westin's
+  41:    1  ->  yo ==> yoyo
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  not
+   2:    1  ->  snake
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    4  ->  the
+   2:    2  ->  and
+   3:    1  ->  a
+   4:    1  ->  across
+   5:    1  ->  always
+   6:    1  ->  baggage
+   7:    1  ->  between
+   8:    1  ->  boots
+   9:    1  ->  cle
+  10:    1  ->  feckless
+  11:    1  ->  fill
+  12:    1  ->  from
+  13:    1  ->  futility
+  14:    1  ->  have
+  15:    1  ->  heart
+  16:    1  ->  in
+  17:    1  ->  is
+  18:    1  ->  line
+  19:    1  ->  of
+  20:    1  ->  on
+  21:    1  ->  our
+  22:    1  ->  own
+  23:    1  ->  pushe
+  24:    1  ->  some
+  25:    1  ->  split
+  26:    1  ->  stand
+  27:    1  ->  t
+  28:    1  ->  twins'
+  29:    1  ->  who
+  30:    1  ->  work
+  31:    1  ->  world
+  32:    1  ->  yo
+     -------
+        36
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  ansem
+   4:    1  ->  ansem's
+   5:    1  ->  asked
+   6:    1  ->  bandanna
+   7:    1  ->  broken
+   8:    1  ->  charles's
+   9:    1  ->  crushed
+  10:    1  ->  duct
+  11:    1  ->  families'
+  12:    1  ->  hamburger
+  13:    1  ->  in
+  14:    1  ->  kids'
+  15:    1  ->  lee
+  16:    1  ->  lookalike
+  17:    1  ->  meika
+  18:    1  ->  mind
+  19:    1  ->  mommas
+  20:    1  ->  motion
+  21:    1  ->  nights
+  22:    1  ->  phat
+  23:    1  ->  prince
+  24:    1  ->  prowl
+  25:    1  ->  que
+  26:    1  ->  saks
+  27:    1  ->  say
+  28:    1  ->  scheme
+  29:    1  ->  schemerhorn
+  30:    1  ->  sleep
+  31:    1  ->  snakeskin
+  32:    1  ->  spike
+  33:    1  ->  spy
+  34:    1  ->  thing
+  35:    1  ->  totally
+  36:    1  ->  twins'
+  37:    1  ->  wack
+  38:    1  ->  walkman
+  39:    1  ->  weekenders
+  40:    1  ->  weston's
+  41:    1  ->  yo
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  in
+   2:    1  ->  alike
+   3:    1  ->  anselm
+   4:    1  ->  anselm's
+   5:    1  ->  asks
+   6:    1  ->  bandana
+   7:    1  ->  bootsay
+   8:    1  ->  charles'
+   9:    1  ->  crush
+  10:    1  ->  duck
+  11:    1  ->  emotion
+  12:    1  ->  family's
+  13:    1  ->  fat
+  14:    1  ->  filling
+  15:    1  ->  hamburgers
+  16:    1  ->  heartbroken
+  17:    1  ->  k
+  18:    1  ->  kid's
+  19:    1  ->  look
+  20:    1  ->  mamas
+  21:    1  ->  micah
+  22:    1  ->  mine
+  23:    1  ->  night's
+  24:    1  ->  prints
+  25:    1  ->  prow
+  26:    1  ->  sachs
+  27:    1  ->  shimmerhorn
+  28:    1  ->  skein
+  29:    1  ->  skin
+  30:    1  ->  something
+  31:    1  ->  spikely
+  32:    1  ->  they
+  33:    1  ->  tna
+  34:    1  ->  tolly
+  35:    1  ->  twins
+  36:    1  ->  vecklessly
+  37:    1  ->  walk
+  38:    1  ->  westin's
+  39:    1  ->  whack
+  40:    1  ->  worldspy
+  41:    1  ->  yoyo
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

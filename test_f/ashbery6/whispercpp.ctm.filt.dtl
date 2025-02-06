@@ -1,0 +1,155 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.4%   (  63)
+
+Percent Correct           =   93.9%   ( 928)
+
+Percent Substitution      =    1.3%   (  13)
+Percent Deletions         =    4.8%   (  47)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   93.6%
+
+
+Ref. words                =           ( 988)
+Hyp. words                =           ( 944)
+Aligned words             =           ( 991)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  air ==> openair
+   3:    1  ->  analytical ==> selfanalytical
+   4:    1  ->  burning ==> woodburning
+   5:    1  ->  car ==> boxcar
+   6:    1  ->  falbalas ==> ballads
+   7:    1  ->  in ==> foul
+   8:    1  ->  keystone ==> midkeystone
+   9:    1  ->  others ==> others'
+  10:    1  ->  raban ==> rabban
+  11:    1  ->  stares ==> stairs
+  12:    1  ->  the ==> a
+  13:    1  ->  wedding ==> wetting
+     -------
+        13
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  and
+   2:    1  ->  i
+   3:    1  ->  will
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    4  ->  to
+   2:    3  ->  the
+   3:    2  ->  is
+   4:    2  ->  mid
+   5:    1  ->  a
+   6:    1  ->  anybody
+   7:    1  ->  as
+   8:    1  ->  box
+   9:    1  ->  but
+  10:    1  ->  combine
+  11:    1  ->  dandelions
+  12:    1  ->  foliage
+  13:    1  ->  hard
+  14:    1  ->  have
+  15:    1  ->  ingredients
+  16:    1  ->  it
+  17:    1  ->  know
+  18:    1  ->  make
+  19:    1  ->  many
+  20:    1  ->  milk
+  21:    1  ->  not
+  22:    1  ->  of
+  23:    1  ->  old
+  24:    1  ->  on
+  25:    1  ->  open
+  26:    1  ->  park
+  27:    1  ->  quotients
+  28:    1  ->  same
+  29:    1  ->  self
+  30:    1  ->  sense
+  31:    1  ->  straggle
+  32:    1  ->  tattered
+  33:    1  ->  tears
+  34:    1  ->  too
+  35:    1  ->  try
+  36:    1  ->  we
+  37:    1  ->  why
+  38:    1  ->  will
+  39:    1  ->  wise
+  40:    1  ->  wood
+     -------
+        47
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  air
+   3:    1  ->  analytical
+   4:    1  ->  burning
+   5:    1  ->  car
+   6:    1  ->  falbalas
+   7:    1  ->  in
+   8:    1  ->  keystone
+   9:    1  ->  others
+  10:    1  ->  raban
+  11:    1  ->  stares
+  12:    1  ->  the
+  13:    1  ->  wedding
+     -------
+        13
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  ballads
+   3:    1  ->  boxcar
+   4:    1  ->  foul
+   5:    1  ->  midkeystone
+   6:    1  ->  of
+   7:    1  ->  openair
+   8:    1  ->  others'
+   9:    1  ->  rabban
+  10:    1  ->  selfanalytical
+  11:    1  ->  stairs
+  12:    1  ->  wetting
+  13:    1  ->  woodburning
+     -------
+        13
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

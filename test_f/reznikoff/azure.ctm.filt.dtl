@@ -1,0 +1,197 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.3%   (  66)
+
+Percent Correct           =   94.3%   ( 984)
+
+Percent Substitution      =    3.4%   (  35)
+Percent Deletions         =    2.4%   (  25)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   93.7%
+
+
+Ref. words                =           (1044)
+Hyp. words                =           (1025)
+Aligned words             =           (1050)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  dog ==> door
+   2:    2  ->  the ==> a
+   3:    1  ->  a ==> our
+   4:    1  ->  a ==> year
+   5:    1  ->  about ==> new
+   6:    1  ->  are ==> by
+   7:    1  ->  but ==> name
+   8:    1  ->  chow ==> child
+   9:    1  ->  deck ==> dock
+  10:    1  ->  doughnut ==> doughnuts
+  11:    1  ->  gained ==> came
+  12:    1  ->  he ==> about
+  13:    1  ->  him ==> them
+  14:    1  ->  his ==> a
+  15:    1  ->  hose ==> holes
+  16:    1  ->  icebox ==> box
+  17:    1  ->  leaped ==> leaked
+  18:    1  ->  mar ==> marsh
+  19:    1  ->  me ==> tipped
+  20:    1  ->  minute ==> by
+  21:    1  ->  motorcars ==> cars
+  22:    1  ->  of ==> was
+  23:    1  ->  oh ==> o.
+  24:    1  ->  over ==> crossover
+  25:    1  ->  reports ==> report
+  26:    1  ->  stock ==> stuck
+  27:    1  ->  the ==> agree
+  28:    1  ->  thumping ==> bumping
+  29:    1  ->  to ==> the
+  30:    1  ->  wait ==> weight
+  31:    1  ->  while ==> wild
+  32:    1  ->  will ==> a
+  33:    1  ->  x ==> hello
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  he
+   3:    1  ->  ice
+   4:    1  ->  it
+   5:    1  ->  motor
+   6:    1  ->  the
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  i
+   2:    1  ->  a
+   3:    1  ->  about
+   4:    1  ->  and
+   5:    1  ->  bow
+   6:    1  ->  cross
+   7:    1  ->  do
+   8:    1  ->  excuse
+   9:    1  ->  has
+  10:    1  ->  he
+  11:    1  ->  here
+  12:    1  ->  it
+  13:    1  ->  kept
+  14:    1  ->  know
+  15:    1  ->  late
+  16:    1  ->  move
+  17:    1  ->  not
+  18:    1  ->  on
+  19:    1  ->  stood
+  20:    1  ->  that
+  21:    1  ->  that's
+  22:    1  ->  the
+  23:    1  ->  went
+  24:    1  ->  who
+     -------
+        25
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  the
+   2:    2  ->  a
+   3:    2  ->  dog
+   4:    1  ->  about
+   5:    1  ->  are
+   6:    1  ->  but
+   7:    1  ->  chow
+   8:    1  ->  deck
+   9:    1  ->  doughnut
+  10:    1  ->  gained
+  11:    1  ->  he
+  12:    1  ->  him
+  13:    1  ->  his
+  14:    1  ->  hose
+  15:    1  ->  icebox
+  16:    1  ->  leaped
+  17:    1  ->  mar
+  18:    1  ->  me
+  19:    1  ->  minute
+  20:    1  ->  motorcars
+  21:    1  ->  of
+  22:    1  ->  oh
+  23:    1  ->  over
+  24:    1  ->  reports
+  25:    1  ->  stock
+  26:    1  ->  thumping
+  27:    1  ->  to
+  28:    1  ->  wait
+  29:    1  ->  while
+  30:    1  ->  will
+  31:    1  ->  x
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    4  ->  a
+   2:    2  ->  by
+   3:    2  ->  door
+   4:    1  ->  about
+   5:    1  ->  agree
+   6:    1  ->  box
+   7:    1  ->  bumping
+   8:    1  ->  came
+   9:    1  ->  cars
+  10:    1  ->  child
+  11:    1  ->  crossover
+  12:    1  ->  dock
+  13:    1  ->  doughnuts
+  14:    1  ->  hello
+  15:    1  ->  holes
+  16:    1  ->  leaked
+  17:    1  ->  marsh
+  18:    1  ->  name
+  19:    1  ->  new
+  20:    1  ->  o.
+  21:    1  ->  our
+  22:    1  ->  report
+  23:    1  ->  stuck
+  24:    1  ->  the
+  25:    1  ->  them
+  26:    1  ->  tipped
+  27:    1  ->  was
+  28:    1  ->  weight
+  29:    1  ->  wild
+  30:    1  ->  year
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

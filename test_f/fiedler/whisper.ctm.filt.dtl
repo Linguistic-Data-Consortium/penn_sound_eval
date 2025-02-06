@@ -1,0 +1,130 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.4%   (  39)
+
+Percent Correct           =   97.2%   (1112)
+
+Percent Substitution      =    1.6%   (  18)
+Percent Deletions         =    1.2%   (  14)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   96.6%
+
+
+Ref. words                =           (1144)
+Hyp. words                =           (1137)
+Aligned words             =           (1151)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  antiheroic ==> heroic
+   2:    2  ->  dango ==> kibidango
+   3:    2  ->  doggerel ==> rule
+   4:    2  ->  donburi ==> domburi
+   5:    1  ->  and ==> in
+   6:    1  ->  borne ==> born
+   7:    1  ->  boy ==> tree
+   8:    1  ->  could ==> can
+   9:    1  ->  had ==> have
+  10:    1  ->  is ==> has
+  11:    1  ->  peach ==> beach
+  12:    1  ->  stopped ==> stop
+  13:    1  ->  until ==> till
+  14:    1  ->  was ==> is
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  anti
+   2:    2  ->  dog
+   3:    1  ->  and
+   4:    1  ->  tale
+   5:    1  ->  yes
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    3  ->  a
+   2:    2  ->  it's
+   3:    2  ->  kibi
+   4:    1  ->  b
+   5:    1  ->  in
+   6:    1  ->  it
+   7:    1  ->  sic
+   8:    1  ->  t
+   9:    1  ->  tried
+  10:    1  ->  under
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  antiheroic
+   2:    2  ->  dango
+   3:    2  ->  doggerel
+   4:    2  ->  donburi
+   5:    1  ->  and
+   6:    1  ->  borne
+   7:    1  ->  boy
+   8:    1  ->  could
+   9:    1  ->  had
+  10:    1  ->  is
+  11:    1  ->  peach
+  12:    1  ->  stopped
+  13:    1  ->  until
+  14:    1  ->  was
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  domburi
+   2:    2  ->  heroic
+   3:    2  ->  kibidango
+   4:    2  ->  rule
+   5:    1  ->  beach
+   6:    1  ->  born
+   7:    1  ->  can
+   8:    1  ->  has
+   9:    1  ->  have
+  10:    1  ->  in
+  11:    1  ->  is
+  12:    1  ->  stop
+  13:    1  ->  till
+  14:    1  ->  tree
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

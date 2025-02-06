@@ -1,0 +1,371 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.5%   ( 134)
+
+Percent Correct           =   89.5%   (1044)
+
+Percent Substitution      =    7.6%   (  89)
+Percent Deletions         =    2.9%   (  34)
+Percent Insertions        =    0.9%   (  11)
+Percent Word Accuracy     =   88.5%
+
+
+Ref. words                =           (1167)
+Hyp. words                =           (1144)
+Aligned words             =           (1178)
+
+CONFUSION PAIRS                  Total                 (89)
+                                 With >=  1 occurrences (89)
+
+   1:    1  ->  a ==> that's
+   2:    1  ->  absconded ==> obscured
+   3:    1  ->  address ==> addressed
+   4:    1  ->  all ==> all"
+   5:    1  ->  am ==> "i'm
+   6:    1  ->  and ==> if
+   7:    1  ->  as ==> of
+   8:    1  ->  at ==> lamp
+   9:    1  ->  be ==> "be
+  10:    1  ->  blonde ==> blond
+  11:    1  ->  bluebird ==> bird
+  12:    1  ->  cake ==> cage
+  13:    1  ->  clasps ==> clasp's
+  14:    1  ->  climbed ==> climbs
+  15:    1  ->  coal ==> cold
+  16:    1  ->  complied ==> complies
+  17:    1  ->  count ==> 47th
+  18:    1  ->  daisy ==> david
+  19:    1  ->  dazzled ==> dazed
+  20:    1  ->  dead ==> dare
+  21:    1  ->  debut ==> davy
+  22:    1  ->  emotionally ==> motionless
+  23:    1  ->  enchantment ==> enchantments
+  24:    1  ->  far ==> fire
+  25:    1  ->  fierce ==> have
+  26:    1  ->  flesh ==> flash
+  27:    1  ->  forefinger ==> finger
+  28:    1  ->  go ==> gold
+  29:    1  ->  good ==> masterhood
+  30:    1  ->  hath ==> half
+  31:    1  ->  have ==> am
+  32:    1  ->  heart ==> art
+  33:    1  ->  hips ==> broadhipped
+  34:    1  ->  holds ==> holes
+  35:    1  ->  hundred ==> zero
+  36:    1  ->  in ==> and
+  37:    1  ->  inept ==> apt
+  38:    1  ->  is ==> his
+  39:    1  ->  is ==> was
+  40:    1  ->  it ==> its
+  41:    1  ->  it ==> when
+  42:    1  ->  just ==> obscene
+  43:    1  ->  land ==> lamps
+  44:    1  ->  late ==> lead
+  45:    1  ->  less ==> weightless
+  46:    1  ->  mine ==> mind
+  47:    1  ->  mission ==> do"
+  48:    1  ->  mold ==> mole
+  49:    1  ->  of ==> a
+  50:    1  ->  of ==> at
+  51:    1  ->  of ==> candle
+  52:    1  ->  on ==> in
+  53:    1  ->  outburst ==> burst
+  54:    1  ->  path ==> paw
+  55:    1  ->  pithead ==> head
+  56:    1  ->  point ==> ballpoint
+  57:    1  ->  rooted ==> deeprooted
+  58:    1  ->  scarp ==> scar
+  59:    1  ->  scree ==> screen
+  60:    1  ->  seamed ==> seemed
+  61:    1  ->  seams ==> scenes
+  62:    1  ->  seen ==> an
+  63:    1  ->  seventh ==> ham's
+  64:    1  ->  shaped ==> shape
+  65:    1  ->  sheet ==> sheets
+  66:    1  ->  shrills ==> shrieks
+  67:    1  ->  shrug ==> hug
+  68:    1  ->  song ==> sung
+  69:    1  ->  start ==> stars
+  70:    1  ->  succor ==> sucker
+  71:    1  ->  swims ==> swins
+  72:    1  ->  than ==> in
+  73:    1  ->  that ==> at
+  74:    1  ->  that ==> but
+  75:    1  ->  that ==> with
+  76:    1  ->  then ==> end
+  77:    1  ->  to ==> thought
+  78:    1  ->  tsunami ==> army
+  79:    1  ->  unending ==> endless
+  80:    1  ->  until ==> till
+  81:    1  ->  was ==> with
+  82:    1  ->  waver ==> wait
+  83:    1  ->  weight ==> wait
+  84:    1  ->  with ==> at
+  85:    1  ->  x ==> also
+  86:    1  ->  x ==> first
+  87:    1  ->  yards' ==> yards
+  88:    1  ->  yet ==> get
+  89:    1  ->  your ==> gesture
+     -------
+        89
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  an
+   2:    1  ->  and
+   3:    1  ->  as
+   4:    1  ->  blue
+   5:    1  ->  fears
+   6:    1  ->  four
+   7:    1  ->  in
+   8:    1  ->  is
+   9:    1  ->  pit
+  10:    1  ->  poem
+  11:    1  ->  the
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  had
+   2:    2  ->  i
+   3:    1  ->  a
+   4:    1  ->  adventures
+   5:    1  ->  and
+   6:    1  ->  ball
+   7:    1  ->  broad
+   8:    1  ->  deep
+   9:    1  ->  do
+  10:    1  ->  f
+  11:    1  ->  final
+  12:    1  ->  forty
+  13:    1  ->  hard
+  14:    1  ->  have
+  15:    1  ->  it
+  16:    1  ->  master
+  17:    1  ->  mattress
+  18:    1  ->  out
+  19:    1  ->  perilous
+  20:    1  ->  read
+  21:    1  ->  saw
+  22:    1  ->  soul's
+  23:    1  ->  suddenly
+  24:    1  ->  the
+  25:    1  ->  them
+  26:    1  ->  there
+  27:    1  ->  to
+  28:    1  ->  turned
+  29:    1  ->  weight
+  30:    1  ->  with
+  31:    1  ->  x
+  32:    1  ->  you
+     -------
+        34
+
+
+
+SUBSTITUTIONS                    Total                 (82)
+                                 With >=  1 occurrences (82)
+
+   1:    3  ->  of
+   2:    3  ->  that
+   3:    2  ->  is
+   4:    2  ->  it
+   5:    2  ->  x
+   6:    1  ->  a
+   7:    1  ->  absconded
+   8:    1  ->  address
+   9:    1  ->  all
+  10:    1  ->  am
+  11:    1  ->  and
+  12:    1  ->  as
+  13:    1  ->  at
+  14:    1  ->  be
+  15:    1  ->  blonde
+  16:    1  ->  bluebird
+  17:    1  ->  cake
+  18:    1  ->  clasps
+  19:    1  ->  climbed
+  20:    1  ->  coal
+  21:    1  ->  complied
+  22:    1  ->  count
+  23:    1  ->  daisy
+  24:    1  ->  dazzled
+  25:    1  ->  dead
+  26:    1  ->  debut
+  27:    1  ->  emotionally
+  28:    1  ->  enchantment
+  29:    1  ->  far
+  30:    1  ->  fierce
+  31:    1  ->  flesh
+  32:    1  ->  forefinger
+  33:    1  ->  go
+  34:    1  ->  good
+  35:    1  ->  hath
+  36:    1  ->  have
+  37:    1  ->  heart
+  38:    1  ->  hips
+  39:    1  ->  holds
+  40:    1  ->  hundred
+  41:    1  ->  in
+  42:    1  ->  inept
+  43:    1  ->  just
+  44:    1  ->  land
+  45:    1  ->  late
+  46:    1  ->  less
+  47:    1  ->  mine
+  48:    1  ->  mission
+  49:    1  ->  mold
+  50:    1  ->  on
+  51:    1  ->  outburst
+  52:    1  ->  path
+  53:    1  ->  pithead
+  54:    1  ->  point
+  55:    1  ->  rooted
+  56:    1  ->  scarp
+  57:    1  ->  scree
+  58:    1  ->  seamed
+  59:    1  ->  seams
+  60:    1  ->  seen
+  61:    1  ->  seventh
+  62:    1  ->  shaped
+  63:    1  ->  sheet
+  64:    1  ->  shrills
+  65:    1  ->  shrug
+  66:    1  ->  song
+  67:    1  ->  start
+  68:    1  ->  succor
+  69:    1  ->  swims
+  70:    1  ->  than
+  71:    1  ->  then
+  72:    1  ->  to
+  73:    1  ->  tsunami
+  74:    1  ->  unending
+  75:    1  ->  until
+  76:    1  ->  was
+  77:    1  ->  waver
+  78:    1  ->  weight
+  79:    1  ->  with
+  80:    1  ->  yards'
+  81:    1  ->  yet
+  82:    1  ->  your
+     -------
+        89
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (84)
+                                 With >=  1 occurrences (84)
+
+   1:    3  ->  at
+   2:    2  ->  in
+   3:    2  ->  wait
+   4:    2  ->  with
+   5:    1  ->  "be
+   6:    1  ->  "i'm
+   7:    1  ->  47th
+   8:    1  ->  a
+   9:    1  ->  addressed
+  10:    1  ->  all"
+  11:    1  ->  also
+  12:    1  ->  am
+  13:    1  ->  an
+  14:    1  ->  and
+  15:    1  ->  apt
+  16:    1  ->  army
+  17:    1  ->  art
+  18:    1  ->  ballpoint
+  19:    1  ->  bird
+  20:    1  ->  blond
+  21:    1  ->  broadhipped
+  22:    1  ->  burst
+  23:    1  ->  but
+  24:    1  ->  cage
+  25:    1  ->  candle
+  26:    1  ->  clasp's
+  27:    1  ->  climbs
+  28:    1  ->  cold
+  29:    1  ->  complies
+  30:    1  ->  dare
+  31:    1  ->  david
+  32:    1  ->  davy
+  33:    1  ->  dazed
+  34:    1  ->  deeprooted
+  35:    1  ->  do"
+  36:    1  ->  enchantments
+  37:    1  ->  end
+  38:    1  ->  endless
+  39:    1  ->  finger
+  40:    1  ->  fire
+  41:    1  ->  first
+  42:    1  ->  flash
+  43:    1  ->  gesture
+  44:    1  ->  get
+  45:    1  ->  gold
+  46:    1  ->  half
+  47:    1  ->  ham's
+  48:    1  ->  have
+  49:    1  ->  head
+  50:    1  ->  his
+  51:    1  ->  holes
+  52:    1  ->  hug
+  53:    1  ->  if
+  54:    1  ->  its
+  55:    1  ->  lamp
+  56:    1  ->  lamps
+  57:    1  ->  lead
+  58:    1  ->  masterhood
+  59:    1  ->  mind
+  60:    1  ->  mole
+  61:    1  ->  motionless
+  62:    1  ->  obscene
+  63:    1  ->  obscured
+  64:    1  ->  of
+  65:    1  ->  paw
+  66:    1  ->  scar
+  67:    1  ->  scenes
+  68:    1  ->  screen
+  69:    1  ->  seemed
+  70:    1  ->  shape
+  71:    1  ->  sheets
+  72:    1  ->  shrieks
+  73:    1  ->  stars
+  74:    1  ->  sucker
+  75:    1  ->  sung
+  76:    1  ->  swins
+  77:    1  ->  that's
+  78:    1  ->  thought
+  79:    1  ->  till
+  80:    1  ->  was
+  81:    1  ->  weightless
+  82:    1  ->  when
+  83:    1  ->  yards
+  84:    1  ->  zero
+     -------
+        89
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

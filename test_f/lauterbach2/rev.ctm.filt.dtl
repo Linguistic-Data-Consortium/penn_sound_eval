@@ -1,0 +1,184 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.1%   (  61)
+
+Percent Correct           =   94.5%   ( 814)
+
+Percent Substitution      =    4.6%   (  40)
+Percent Deletions         =    0.8%   (   7)
+Percent Insertions        =    1.6%   (  14)
+Percent Word Accuracy     =   92.9%
+
+
+Ref. words                =           ( 861)
+Hyp. words                =           ( 868)
+Aligned words             =           ( 875)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  its ==> it's
+   2:    2  ->  and ==> adhere
+   3:    2  ->  bare ==> bear
+   4:    2  ->  hitherto ==> to
+   5:    2  ->  na ==> nah
+   6:    2  ->  pai ==> pair
+   7:    1  ->  abraids ==> abras
+   8:    1  ->  air ==> heir
+   9:    1  ->  anoth ==> another
+  10:    1  ->  another's ==> another
+  11:    1  ->  are ==> or
+  12:    1  ->  bet ==> that
+  13:    1  ->  charles' ==> charles's
+  14:    1  ->  effected ==> affected
+  15:    1  ->  flatters ==> is
+  16:    1  ->  foxglove ==> fox
+  17:    1  ->  foxglove ==> glove
+  18:    1  ->  frayed ==> freight
+  19:    1  ->  hitherto ==> two
+  20:    1  ->  hole ==> whole
+  21:    1  ->  it's ==> just
+  22:    1  ->  know ==> do
+  23:    1  ->  now ==> out
+  24:    1  ->  of ==> a
+  25:    1  ->  proce ==> process
+  26:    1  ->  the ==> be
+  27:    1  ->  there's ==> the
+  28:    1  ->  thirty ==> oh
+  29:    1  ->  twenty ==> two
+  30:    1  ->  wealth ==> well
+  31:    1  ->  words ==> word
+  32:    1  ->  y ==> you
+  33:    1  ->  you ==> not
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    3  ->  <laugh>
+   2:    3  ->  i
+   3:    1  ->  and
+   4:    1  ->  flatter
+   5:    1  ->  fox
+   6:    1  ->  glove
+   7:    1  ->  hi
+   8:    1  ->  just
+   9:    1  ->  this
+  10:    1  ->  what
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  when
+   2:    1  ->  a
+   3:    1  ->  it
+   4:    1  ->  th
+   5:    1  ->  u
+   6:    1  ->  w
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  hitherto
+   2:    3  ->  its
+   3:    2  ->  and
+   4:    2  ->  bare
+   5:    2  ->  foxglove
+   6:    2  ->  na
+   7:    2  ->  pai
+   8:    1  ->  abraids
+   9:    1  ->  air
+  10:    1  ->  anoth
+  11:    1  ->  another's
+  12:    1  ->  are
+  13:    1  ->  bet
+  14:    1  ->  charles'
+  15:    1  ->  effected
+  16:    1  ->  flatters
+  17:    1  ->  frayed
+  18:    1  ->  hole
+  19:    1  ->  it's
+  20:    1  ->  know
+  21:    1  ->  now
+  22:    1  ->  of
+  23:    1  ->  proce
+  24:    1  ->  the
+  25:    1  ->  there's
+  26:    1  ->  thirty
+  27:    1  ->  twenty
+  28:    1  ->  wealth
+  29:    1  ->  words
+  30:    1  ->  y
+  31:    1  ->  you
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  it's
+   2:    2  ->  adhere
+   3:    2  ->  another
+   4:    2  ->  bear
+   5:    2  ->  nah
+   6:    2  ->  pair
+   7:    2  ->  to
+   8:    2  ->  two
+   9:    1  ->  a
+  10:    1  ->  abras
+  11:    1  ->  affected
+  12:    1  ->  be
+  13:    1  ->  charles's
+  14:    1  ->  do
+  15:    1  ->  fox
+  16:    1  ->  freight
+  17:    1  ->  glove
+  18:    1  ->  heir
+  19:    1  ->  is
+  20:    1  ->  just
+  21:    1  ->  not
+  22:    1  ->  oh
+  23:    1  ->  or
+  24:    1  ->  out
+  25:    1  ->  process
+  26:    1  ->  that
+  27:    1  ->  the
+  28:    1  ->  well
+  29:    1  ->  whole
+  30:    1  ->  word
+  31:    1  ->  you
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

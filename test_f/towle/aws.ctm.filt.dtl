@@ -1,0 +1,243 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.9%   (  77)
+
+Percent Correct           =   93.8%   (1052)
+
+Percent Substitution      =    5.2%   (  58)
+Percent Deletions         =    1.1%   (  12)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   93.1%
+
+
+Ref. words                =           (1122)
+Hyp. words                =           (1117)
+Aligned words             =           (1129)
+
+CONFUSION PAIRS                  Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    3  ->  velazquez ==> velasquez
+   2:    2  ->  fourth ==> 24th
+   3:    2  ->  lachaise ==> chaise
+   4:    2  ->  manet ==> monet
+   5:    1  ->  a ==> the
+   6:    1  ->  allan ==> alan
+   7:    1  ->  and ==> %bcack
+   8:    1  ->  and ==> because
+   9:    1  ->  anne ==> and
+  10:    1  ->  ashbery ==> ashbury
+  11:    1  ->  ask ==> asked
+  12:    1  ->  atop ==> top
+  13:    1  ->  baroque ==> broke
+  14:    1  ->  berkson ==> and
+  15:    1  ->  brainard ==> brainer
+  16:    1  ->  carpentier ==> charpentier
+  17:    1  ->  ceravolo ==> tra
+  18:    1  ->  concertina ==> concertino
+  19:    1  ->  do ==> be
+  20:    1  ->  does ==> was
+  21:    1  ->  enquire ==> inquire
+  22:    1  ->  fagin ==> fagan
+  23:    1  ->  gallup ==> gallop
+  24:    1  ->  girono ==> jor
+  25:    1  ->  hart ==> hard
+  26:    1  ->  hurt ==> heard
+  27:    1  ->  ilyich ==> ilit
+  28:    1  ->  in ==> and
+  29:    1  ->  intoxicant ==> toxicant
+  30:    1  ->  it ==> at
+  31:    1  ->  k. ==> one
+  32:    1  ->  kenward ==> kenard
+  33:    1  ->  lewis ==> louis
+  34:    1  ->  not ==> of
+  35:    1  ->  oh ==> with
+  36:    1  ->  pacing ==> facing
+  37:    1  ->  padgett ==> paget
+  38:    1  ->  parts ==> parks
+  39:    1  ->  peopling ==> in
+  40:    1  ->  pere ==> la
+  41:    1  ->  poised ==> poise
+  42:    1  ->  rocked ==> rock
+  43:    1  ->  schjeldahl ==> shellow
+  44:    1  ->  schuyler ==> skyler
+  45:    1  ->  shelves ==> shells
+  46:    1  ->  sixteen ==> sixty
+  47:    1  ->  sly ==> slow
+  48:    1  ->  soul ==> so
+  49:    1  ->  two ==> 1862
+  50:    1  ->  velazquez ==> well
+  51:    1  ->  warsh ==> wsh
+  52:    1  ->  when ==> and
+  53:    1  ->  whose ==> who's
+     -------
+        58
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  and
+   2:    1  ->  at
+   3:    1  ->  berks
+   4:    1  ->  la
+   5:    1  ->  oh
+   6:    1  ->  people
+   7:    1  ->  per
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  and
+   2:    2  ->  o.
+   3:    2  ->  twenty
+   4:    1  ->  but
+   5:    1  ->  eighteen
+   6:    1  ->  k.
+   7:    1  ->  poet
+   8:    1  ->  sixty
+   9:    1  ->  time
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    4  ->  velazquez
+   2:    2  ->  and
+   3:    2  ->  fourth
+   4:    2  ->  lachaise
+   5:    2  ->  manet
+   6:    1  ->  a
+   7:    1  ->  allan
+   8:    1  ->  anne
+   9:    1  ->  ashbery
+  10:    1  ->  ask
+  11:    1  ->  atop
+  12:    1  ->  baroque
+  13:    1  ->  berkson
+  14:    1  ->  brainard
+  15:    1  ->  carpentier
+  16:    1  ->  ceravolo
+  17:    1  ->  concertina
+  18:    1  ->  do
+  19:    1  ->  does
+  20:    1  ->  enquire
+  21:    1  ->  fagin
+  22:    1  ->  gallup
+  23:    1  ->  girono
+  24:    1  ->  hart
+  25:    1  ->  hurt
+  26:    1  ->  ilyich
+  27:    1  ->  in
+  28:    1  ->  intoxicant
+  29:    1  ->  it
+  30:    1  ->  k.
+  31:    1  ->  kenward
+  32:    1  ->  lewis
+  33:    1  ->  not
+  34:    1  ->  oh
+  35:    1  ->  pacing
+  36:    1  ->  padgett
+  37:    1  ->  parts
+  38:    1  ->  peopling
+  39:    1  ->  pere
+  40:    1  ->  poised
+  41:    1  ->  rocked
+  42:    1  ->  schjeldahl
+  43:    1  ->  schuyler
+  44:    1  ->  shelves
+  45:    1  ->  sixteen
+  46:    1  ->  sly
+  47:    1  ->  soul
+  48:    1  ->  two
+  49:    1  ->  warsh
+  50:    1  ->  when
+  51:    1  ->  whose
+     -------
+        58
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    4  ->  and
+   2:    3  ->  velasquez
+   3:    2  ->  24th
+   4:    2  ->  chaise
+   5:    2  ->  monet
+   6:    1  ->  %bcack
+   7:    1  ->  1862
+   8:    1  ->  alan
+   9:    1  ->  ashbury
+  10:    1  ->  asked
+  11:    1  ->  at
+  12:    1  ->  be
+  13:    1  ->  because
+  14:    1  ->  brainer
+  15:    1  ->  broke
+  16:    1  ->  charpentier
+  17:    1  ->  concertino
+  18:    1  ->  facing
+  19:    1  ->  fagan
+  20:    1  ->  gallop
+  21:    1  ->  hard
+  22:    1  ->  heard
+  23:    1  ->  ilit
+  24:    1  ->  in
+  25:    1  ->  inquire
+  26:    1  ->  jor
+  27:    1  ->  kenard
+  28:    1  ->  la
+  29:    1  ->  louis
+  30:    1  ->  of
+  31:    1  ->  one
+  32:    1  ->  paget
+  33:    1  ->  parks
+  34:    1  ->  poise
+  35:    1  ->  rock
+  36:    1  ->  shellow
+  37:    1  ->  shells
+  38:    1  ->  sixty
+  39:    1  ->  skyler
+  40:    1  ->  slow
+  41:    1  ->  so
+  42:    1  ->  the
+  43:    1  ->  top
+  44:    1  ->  toxicant
+  45:    1  ->  tra
+  46:    1  ->  was
+  47:    1  ->  well
+  48:    1  ->  who's
+  49:    1  ->  with
+  50:    1  ->  wsh
+     -------
+        58
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

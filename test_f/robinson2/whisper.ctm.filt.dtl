@@ -1,0 +1,131 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.5%   (  36)
+
+Percent Correct           =   97.1%   (1006)
+
+Percent Substitution      =    1.6%   (  17)
+Percent Deletions         =    1.3%   (  13)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   96.5%
+
+
+Ref. words                =           (1036)
+Hyp. words                =           (1029)
+Aligned words             =           (1042)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  in ==> and
+   2:    2  ->  ten ==> oh
+   3:    1  ->  a ==> the
+   4:    1  ->  antimemoir ==> memoir
+   5:    1  ->  cane ==> king
+   6:    1  ->  jena ==> gina
+   7:    1  ->  just ==> is
+   8:    1  ->  onto ==> to
+   9:    1  ->  redman ==> redmond
+  10:    1  ->  seventies ==> 70s
+  11:    1  ->  seventy ==> seven
+  12:    1  ->  th ==> spar
+  13:    1  ->  th ==> that
+  14:    1  ->  wee ==> peewee
+  15:    1  ->  x ==> and
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    3  ->  the
+   2:    1  ->  anti
+   3:    1  ->  it
+   4:    1  ->  on
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  a
+   2:    2  ->  m
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  auto
+   6:    1  ->  it
+   7:    1  ->  pee
+   8:    1  ->  spahr
+   9:    1  ->  w
+  10:    1  ->  wh
+  11:    1  ->  x
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  in
+   2:    2  ->  ten
+   3:    2  ->  th
+   4:    1  ->  a
+   5:    1  ->  antimemoir
+   6:    1  ->  cane
+   7:    1  ->  jena
+   8:    1  ->  just
+   9:    1  ->  onto
+  10:    1  ->  redman
+  11:    1  ->  seventies
+  12:    1  ->  seventy
+  13:    1  ->  wee
+  14:    1  ->  x
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  and
+   2:    2  ->  oh
+   3:    1  ->  70s
+   4:    1  ->  gina
+   5:    1  ->  is
+   6:    1  ->  king
+   7:    1  ->  memoir
+   8:    1  ->  peewee
+   9:    1  ->  redmond
+  10:    1  ->  seven
+  11:    1  ->  spar
+  12:    1  ->  that
+  13:    1  ->  the
+  14:    1  ->  to
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

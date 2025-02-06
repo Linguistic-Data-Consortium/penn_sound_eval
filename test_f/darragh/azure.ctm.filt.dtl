@@ -1,0 +1,180 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.1%   (  69)
+
+Percent Correct           =   94.6%   ( 924)
+
+Percent Substitution      =    3.4%   (  33)
+Percent Deletions         =    2.0%   (  20)
+Percent Insertions        =    1.6%   (  16)
+Percent Word Accuracy     =   92.9%
+
+
+Ref. words                =           ( 977)
+Hyp. words                =           ( 973)
+Aligned words             =           ( 993)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  hon ==> hun
+   2:    2  ->  bayhdole ==> dole
+   3:    2  ->  burqa ==> burka
+   4:    2  ->  x ==> levent
+   5:    1  ->  a ==> aha
+   6:    1  ->  a ==> the
+   7:    1  ->  and ==> of
+   8:    1  ->  burqa ==> cor
+   9:    1  ->  can ==> could
+  10:    1  ->  festival's ==> festivals
+  11:    1  ->  gene ==> jean
+  12:    1  ->  her ==> are
+  13:    1  ->  hon ==> hung
+  14:    1  ->  hons ==> huns
+  15:    1  ->  in ==> marching
+  16:    1  ->  lib ==> lube
+  17:    1  ->  liberty ==> erti
+  18:    1  ->  liberty ==> urti
+  19:    1  ->  p ==> asap
+  20:    1  ->  s ==> us
+  21:    1  ->  singalong ==> along
+  22:    1  ->  thinks ==> things
+  23:    1  ->  what's ==> us
+  24:    1  ->  would ==> will
+  25:    1  ->  x ==> corky
+  26:    1  ->  x ==> quixie
+  27:    1  ->  x ==> see
+  28:    1  ->  your ==> gal
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  lib
+   2:    1  ->  'd
+   3:    1  ->  a
+   4:    1  ->  am
+   5:    1  ->  at
+   6:    1  ->  bad
+   7:    1  ->  by
+   8:    1  ->  gal
+   9:    1  ->  have
+  10:    1  ->  i
+  11:    1  ->  let
+  12:    1  ->  paper
+  13:    1  ->  quick
+  14:    1  ->  sing
+  15:    1  ->  there's
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  a
+   2:    2  ->  i
+   3:    2  ->  ipod
+   4:    2  ->  x
+   5:    1  ->  are
+   6:    1  ->  f
+   7:    1  ->  for
+   8:    1  ->  here
+   9:    1  ->  m
+  10:    1  ->  march
+  11:    1  ->  microphone
+  12:    1  ->  oh
+  13:    1  ->  s
+  14:    1  ->  then
+  15:    1  ->  u
+  16:    1  ->  you
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    5  ->  x
+   2:    4  ->  hon
+   3:    3  ->  burqa
+   4:    2  ->  a
+   5:    2  ->  bayhdole
+   6:    2  ->  liberty
+   7:    1  ->  and
+   8:    1  ->  can
+   9:    1  ->  festival's
+  10:    1  ->  gene
+  11:    1  ->  her
+  12:    1  ->  hons
+  13:    1  ->  in
+  14:    1  ->  lib
+  15:    1  ->  p
+  16:    1  ->  s
+  17:    1  ->  singalong
+  18:    1  ->  thinks
+  19:    1  ->  what's
+  20:    1  ->  would
+  21:    1  ->  your
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  hun
+   2:    2  ->  burka
+   3:    2  ->  dole
+   4:    2  ->  levent
+   5:    2  ->  us
+   6:    1  ->  aha
+   7:    1  ->  along
+   8:    1  ->  are
+   9:    1  ->  asap
+  10:    1  ->  cor
+  11:    1  ->  corky
+  12:    1  ->  could
+  13:    1  ->  erti
+  14:    1  ->  festivals
+  15:    1  ->  gal
+  16:    1  ->  hung
+  17:    1  ->  huns
+  18:    1  ->  jean
+  19:    1  ->  lube
+  20:    1  ->  marching
+  21:    1  ->  of
+  22:    1  ->  quixie
+  23:    1  ->  see
+  24:    1  ->  the
+  25:    1  ->  things
+  26:    1  ->  urti
+  27:    1  ->  will
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

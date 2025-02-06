@@ -1,0 +1,171 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.2%   (  59)
+
+Percent Correct           =   93.8%   ( 889)
+
+Percent Substitution      =    3.9%   (  37)
+Percent Deletions         =    2.3%   (  22)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   93.8%
+
+
+Ref. words                =           ( 948)
+Hyp. words                =           ( 926)
+Aligned words             =           ( 948)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  and ==> in
+   2:    2  ->  ashbery ==> ashbury
+   3:    2  ->  ashbery's ==> ashbury's
+   4:    2  ->  bass ==> base
+   5:    2  ->  poems ==> palms
+   6:    2  ->  prose ==> pros
+   7:    2  ->  the ==> a
+   8:    1  ->  an ==> and
+   9:    1  ->  and ==> at
+  10:    1  ->  as ==> is
+  11:    1  ->  eurydice ==> courtesy
+  12:    1  ->  imagined ==> imagine
+  13:    1  ->  its ==> board
+  14:    1  ->  not ==> no
+  15:    1  ->  oblong ==> bloom
+  16:    1  ->  of ==> had
+  17:    1  ->  poem ==> bomb
+  18:    1  ->  poem ==> palm
+  19:    1  ->  poem ==> pam
+  20:    1  ->  poems ==> homes
+  21:    1  ->  poems ==> pounds
+  22:    1  ->  prosiness ==> prosess
+  23:    1  ->  shall ==> should
+  24:    1  ->  singer ==> son
+  25:    1  ->  syringa ==> serena
+  26:    1  ->  tale ==> tail
+  27:    1  ->  the ==> in
+  28:    1  ->  titled ==> title
+  29:    1  ->  would ==> will
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    5  ->  a
+   2:    1  ->  and
+   3:    1  ->  bore
+   4:    1  ->  did
+   5:    1  ->  going
+   6:    1  ->  had
+   7:    1  ->  i
+   8:    1  ->  in
+   9:    1  ->  it
+  10:    1  ->  kind
+  11:    1  ->  not
+  12:    1  ->  p
+  13:    1  ->  r
+  14:    1  ->  so
+  15:    1  ->  stop
+  16:    1  ->  that
+  17:    1  ->  to
+  18:    1  ->  x
+     -------
+        22
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    4  ->  and
+   2:    4  ->  poems
+   3:    3  ->  poem
+   4:    3  ->  the
+   5:    2  ->  ashbery
+   6:    2  ->  ashbery's
+   7:    2  ->  bass
+   8:    2  ->  prose
+   9:    1  ->  an
+  10:    1  ->  as
+  11:    1  ->  eurydice
+  12:    1  ->  imagined
+  13:    1  ->  its
+  14:    1  ->  not
+  15:    1  ->  oblong
+  16:    1  ->  of
+  17:    1  ->  prosiness
+  18:    1  ->  shall
+  19:    1  ->  singer
+  20:    1  ->  syringa
+  21:    1  ->  tale
+  22:    1  ->  titled
+  23:    1  ->  would
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    4  ->  in
+   2:    2  ->  a
+   3:    2  ->  ashbury
+   4:    2  ->  ashbury's
+   5:    2  ->  base
+   6:    2  ->  palms
+   7:    2  ->  pros
+   8:    1  ->  and
+   9:    1  ->  at
+  10:    1  ->  bloom
+  11:    1  ->  board
+  12:    1  ->  bomb
+  13:    1  ->  courtesy
+  14:    1  ->  had
+  15:    1  ->  homes
+  16:    1  ->  imagine
+  17:    1  ->  is
+  18:    1  ->  no
+  19:    1  ->  palm
+  20:    1  ->  pam
+  21:    1  ->  pounds
+  22:    1  ->  prosess
+  23:    1  ->  serena
+  24:    1  ->  should
+  25:    1  ->  son
+  26:    1  ->  tail
+  27:    1  ->  title
+  28:    1  ->  will
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

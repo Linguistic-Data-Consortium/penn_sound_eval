@@ -1,0 +1,169 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.8%   (  43)
+
+Percent Correct           =   96.0%   ( 858)
+
+Percent Substitution      =    3.5%   (  31)
+Percent Deletions         =    0.6%   (   5)
+Percent Insertions        =    0.8%   (   7)
+Percent Word Accuracy     =   95.2%
+
+
+Ref. words                =           ( 894)
+Hyp. words                =           ( 896)
+Aligned words             =           ( 901)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  onto ==> to
+   2:    1  ->  agreed ==> agree
+   3:    1  ->  and ==> in
+   4:    1  ->  ashbery ==> ashbury
+   5:    1  ->  asides ==> sides
+   6:    1  ->  bills ==> bill
+   7:    1  ->  days' ==> days
+   8:    1  ->  flung ==> long
+   9:    1  ->  fulsome ==> false
+  10:    1  ->  in ==> and
+  11:    1  ->  its ==> it's
+  12:    1  ->  lithography ==> photography
+  13:    1  ->  lived ==> lift
+  14:    1  ->  mazes ==> as
+  15:    1  ->  near ==> and
+  16:    1  ->  of ==> a
+  17:    1  ->  of ==> or
+  18:    1  ->  others' ==> others
+  19:    1  ->  riverbanks ==> banks
+  20:    1  ->  sensual ==> central
+  21:    1  ->  silently ==> will
+  22:    1  ->  some ==> it's
+  23:    1  ->  sparks ==> spark
+  24:    1  ->  the ==> a
+  25:    1  ->  the ==> that
+  26:    1  ->  to ==> two
+  27:    1  ->  towards ==> toward
+  28:    1  ->  warm ==> worn
+  29:    1  ->  we ==> he
+  30:    1  ->  were ==> are
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  on
+   2:    1  ->  an
+   3:    1  ->  i
+   4:    1  ->  maze
+   5:    1  ->  river
+   6:    1  ->  well
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  at
+   2:    1  ->  each
+   3:    1  ->  its
+   4:    1  ->  rec
+   5:    1  ->  sha
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  of
+   2:    2  ->  onto
+   3:    2  ->  the
+   4:    1  ->  agreed
+   5:    1  ->  and
+   6:    1  ->  ashbery
+   7:    1  ->  asides
+   8:    1  ->  bills
+   9:    1  ->  days'
+  10:    1  ->  flung
+  11:    1  ->  fulsome
+  12:    1  ->  in
+  13:    1  ->  its
+  14:    1  ->  lithography
+  15:    1  ->  lived
+  16:    1  ->  mazes
+  17:    1  ->  near
+  18:    1  ->  others'
+  19:    1  ->  riverbanks
+  20:    1  ->  sensual
+  21:    1  ->  silently
+  22:    1  ->  some
+  23:    1  ->  sparks
+  24:    1  ->  to
+  25:    1  ->  towards
+  26:    1  ->  warm
+  27:    1  ->  we
+  28:    1  ->  were
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    2  ->  it's
+   4:    2  ->  to
+   5:    1  ->  agree
+   6:    1  ->  are
+   7:    1  ->  as
+   8:    1  ->  ashbury
+   9:    1  ->  banks
+  10:    1  ->  bill
+  11:    1  ->  central
+  12:    1  ->  days
+  13:    1  ->  false
+  14:    1  ->  he
+  15:    1  ->  in
+  16:    1  ->  lift
+  17:    1  ->  long
+  18:    1  ->  or
+  19:    1  ->  others
+  20:    1  ->  photography
+  21:    1  ->  sides
+  22:    1  ->  spark
+  23:    1  ->  that
+  24:    1  ->  toward
+  25:    1  ->  two
+  26:    1  ->  will
+  27:    1  ->  worn
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

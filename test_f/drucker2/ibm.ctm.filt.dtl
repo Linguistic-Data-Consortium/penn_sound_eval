@@ -1,0 +1,237 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.0%   (  66)
+
+Percent Correct           =   93.4%   ( 876)
+
+Percent Substitution      =    6.1%   (  57)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   93.0%
+
+
+Ref. words                =           ( 938)
+Hyp. words                =           ( 937)
+Aligned words             =           ( 942)
+
+CONFUSION PAIRS                  Total                 (55)
+                                 With >=  1 occurrences (55)
+
+   1:    2  ->  as ==> is
+   2:    2  ->  petal ==> pedal
+   3:    1  ->  a ==> the
+   4:    1  ->  act ==> is
+   5:    1  ->  an ==> and
+   6:    1  ->  and ==> in
+   7:    1  ->  and ==> on
+   8:    1  ->  as ==> thickest
+   9:    1  ->  bering ==> bearing
+  10:    1  ->  blonde ==> blood
+  11:    1  ->  branded ==> spreaded
+  12:    1  ->  brushed ==> rushed
+  13:    1  ->  chains ==> chain
+  14:    1  ->  changed ==> change
+  15:    1  ->  courageous ==> courage
+  16:    1  ->  cuttings ==> cutting
+  17:    1  ->  emergent ==> form
+  18:    1  ->  emulsions ==> emotions
+  19:    1  ->  extopian ==> extortion
+  20:    1  ->  fetishizes ==> fetishize
+  21:    1  ->  film ==> films
+  22:    1  ->  flesh ==> flash
+  23:    1  ->  forms ==> to
+  24:    1  ->  from ==> for
+  25:    1  ->  fucking ==> ***
+  26:    1  ->  haranguing ==> arranging
+  27:    1  ->  her ==> for
+  28:    1  ->  histrionically ==> historically
+  29:    1  ->  in ==> and
+  30:    1  ->  it ==> at
+  31:    1  ->  kneed ==> nade
+  32:    1  ->  leaving ==> leading
+  33:    1  ->  line ==> in
+  34:    1  ->  me ==> may
+  35:    1  ->  mien ==> mean
+  36:    1  ->  mottled ==> modeled
+  37:    1  ->  mouths ==> mouth
+  38:    1  ->  nell ==> now
+  39:    1  ->  of ==> after
+  40:    1  ->  of ==> on
+  41:    1  ->  on ==> i
+  42:    1  ->  our ==> are
+  43:    1  ->  pearls ==> pearl's
+  44:    1  ->  remoter ==> remote
+  45:    1  ->  rouen ==> ruin
+  46:    1  ->  seams ==> seems
+  47:    1  ->  short ==> chart
+  48:    1  ->  shoulders ==> shoulder
+  49:    1  ->  son ==> sun
+  50:    1  ->  swollen ==> swilling
+  51:    1  ->  tale ==> tail
+  52:    1  ->  tells ==> tell
+  53:    1  ->  thin ==> sang
+  54:    1  ->  tiny ==> timing
+  55:    1  ->  weeks ==> week
+     -------
+        57
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  a
+   2:    1  ->  lie
+   3:    1  ->  merchant
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  s
+   2:    1  ->  a
+   3:    1  ->  kisch
+   4:    1  ->  thick
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    3  ->  as
+   2:    2  ->  and
+   3:    2  ->  of
+   4:    2  ->  petal
+   5:    1  ->  a
+   6:    1  ->  act
+   7:    1  ->  an
+   8:    1  ->  bering
+   9:    1  ->  blonde
+  10:    1  ->  branded
+  11:    1  ->  brushed
+  12:    1  ->  chains
+  13:    1  ->  changed
+  14:    1  ->  courageous
+  15:    1  ->  cuttings
+  16:    1  ->  emergent
+  17:    1  ->  emulsions
+  18:    1  ->  extopian
+  19:    1  ->  fetishizes
+  20:    1  ->  film
+  21:    1  ->  flesh
+  22:    1  ->  forms
+  23:    1  ->  from
+  24:    1  ->  fucking
+  25:    1  ->  haranguing
+  26:    1  ->  her
+  27:    1  ->  histrionically
+  28:    1  ->  in
+  29:    1  ->  it
+  30:    1  ->  kneed
+  31:    1  ->  leaving
+  32:    1  ->  line
+  33:    1  ->  me
+  34:    1  ->  mien
+  35:    1  ->  mottled
+  36:    1  ->  mouths
+  37:    1  ->  nell
+  38:    1  ->  on
+  39:    1  ->  our
+  40:    1  ->  pearls
+  41:    1  ->  remoter
+  42:    1  ->  rouen
+  43:    1  ->  seams
+  44:    1  ->  short
+  45:    1  ->  shoulders
+  46:    1  ->  son
+  47:    1  ->  swollen
+  48:    1  ->  tale
+  49:    1  ->  tells
+  50:    1  ->  thin
+  51:    1  ->  tiny
+  52:    1  ->  weeks
+     -------
+        57
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    3  ->  is
+   2:    2  ->  and
+   3:    2  ->  for
+   4:    2  ->  in
+   5:    2  ->  on
+   6:    2  ->  pedal
+   7:    1  ->  ***
+   8:    1  ->  after
+   9:    1  ->  are
+  10:    1  ->  arranging
+  11:    1  ->  at
+  12:    1  ->  bearing
+  13:    1  ->  blood
+  14:    1  ->  chain
+  15:    1  ->  change
+  16:    1  ->  chart
+  17:    1  ->  courage
+  18:    1  ->  cutting
+  19:    1  ->  emotions
+  20:    1  ->  extortion
+  21:    1  ->  fetishize
+  22:    1  ->  films
+  23:    1  ->  flash
+  24:    1  ->  form
+  25:    1  ->  historically
+  26:    1  ->  i
+  27:    1  ->  leading
+  28:    1  ->  may
+  29:    1  ->  mean
+  30:    1  ->  modeled
+  31:    1  ->  mouth
+  32:    1  ->  nade
+  33:    1  ->  now
+  34:    1  ->  pearl's
+  35:    1  ->  remote
+  36:    1  ->  ruin
+  37:    1  ->  rushed
+  38:    1  ->  sang
+  39:    1  ->  seems
+  40:    1  ->  shoulder
+  41:    1  ->  spreaded
+  42:    1  ->  sun
+  43:    1  ->  swilling
+  44:    1  ->  tail
+  45:    1  ->  tell
+  46:    1  ->  the
+  47:    1  ->  thickest
+  48:    1  ->  timing
+  49:    1  ->  to
+  50:    1  ->  week
+     -------
+        57
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,441 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   21.2%   ( 249)
+
+Percent Correct           =   79.4%   ( 934)
+
+Percent Substitution      =   11.1%   ( 131)
+Percent Deletions         =    9.4%   ( 111)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   78.8%
+
+
+Ref. words                =           (1176)
+Hyp. words                =           (1072)
+Aligned words             =           (1183)
+
+CONFUSION PAIRS                  Total                 (115)
+                                 With >=  1 occurrences (115)
+
+   1:    4  ->  an ==> and
+   2:    4  ->  rune ==> run
+   3:    3  ->  i ==> eye
+   4:    2  ->  a ==> knowing
+   5:    2  ->  employ ==> employee
+   6:    2  ->  gnomic ==> no
+   7:    2  ->  gnomic ==> nomic
+   8:    2  ->  in ==> and
+   9:    2  ->  know ==> no
+  10:    2  ->  poem ==> palm
+  11:    2  ->  the ==> that
+  12:    1  ->  %bcack ==> gates
+  13:    1  ->  a ==> and
+  14:    1  ->  a ==> his
+  15:    1  ->  a ==> is
+  16:    1  ->  a ==> nomics
+  17:    1  ->  a ==> of
+  18:    1  ->  a ==> the
+  19:    1  ->  a ==> to
+  20:    1  ->  an ==> out
+  21:    1  ->  and ==> making
+  22:    1  ->  and ==> run
+  23:    1  ->  as ==> with
+  24:    1  ->  at ==> a
+  25:    1  ->  at ==> pat
+  26:    1  ->  belonged ==> belong
+  27:    1  ->  but ==> it
+  28:    1  ->  certainty ==> certainly
+  29:    1  ->  designedly ==> resignedly
+  30:    1  ->  do ==> nine
+  31:    1  ->  employ ==> employed
+  32:    1  ->  encircling ==> and
+  33:    1  ->  encircling ==> circling
+  34:    1  ->  encount ==> e
+  35:    1  ->  encountered ==> encounter
+  36:    1  ->  enigma ==> anima
+  37:    1  ->  eupheries ==> furious
+  38:    1  ->  featured ==> feature
+  39:    1  ->  feet ==> feat
+  40:    1  ->  figure ==> figured
+  41:    1  ->  flinging ==> cleaning
+  42:    1  ->  fo ==> for
+  43:    1  ->  for ==> vers
+  44:    1  ->  glid ==> lid
+  45:    1  ->  gno ==> were
+  46:    1  ->  gnomic ==> name
+  47:    1  ->  gnomic's ==> were
+  48:    1  ->  got ==> god
+  49:    1  ->  had ==> was
+  50:    1  ->  have ==> for
+  51:    1  ->  her ==> over
+  52:    1  ->  here ==> her
+  53:    1  ->  him ==> them
+  54:    1  ->  i ==> anima
+  55:    1  ->  i ==> in
+  56:    1  ->  i ==> might
+  57:    1  ->  in ==> man
+  58:    1  ->  in ==> roman
+  59:    1  ->  into ==> the
+  60:    1  ->  invade ==> invades
+  61:    1  ->  it ==> running
+  62:    1  ->  it's ==> whereas
+  63:    1  ->  it's ==> you
+  64:    1  ->  its ==> it's
+  65:    1  ->  its ==> justice
+  66:    1  ->  kno ==> know
+  67:    1  ->  life ==> light
+  68:    1  ->  little ==> mardi
+  69:    1  ->  mark ==> more
+  70:    1  ->  mea ==> mean
+  71:    1  ->  metaphoric ==> metaphor
+  72:    1  ->  no ==> now
+  73:    1  ->  nor ==> or
+  74:    1  ->  now ==> and
+  75:    1  ->  oh ==> or
+  76:    1  ->  openly ==> opening
+  77:    1  ->  or ==> for
+  78:    1  ->  poems ==> palms
+  79:    1  ->  reali ==> realise
+  80:    1  ->  realised ==> realise
+  81:    1  ->  realm ==> on
+  82:    1  ->  rearrive ==> arrive
+  83:    1  ->  recognised ==> recognise
+  84:    1  ->  references ==> at
+  85:    1  ->  rhyme ==> him
+  86:    1  ->  rune ==> room
+  87:    1  ->  rune ==> ruined
+  88:    1  ->  sai ==> so
+  89:    1  ->  sea ==> circling
+  90:    1  ->  she ==> you
+  91:    1  ->  she's ==> experience
+  92:    1  ->  spencer's ==> spencers
+  93:    1  ->  stealthily ==> dauntingly
+  94:    1  ->  take ==> cannot
+  95:    1  ->  terms ==> term
+  96:    1  ->  that's ==> this
+  97:    1  ->  the ==> a
+  98:    1  ->  the ==> get
+  99:    1  ->  the ==> there
+ 100:    1  ->  then ==> in
+ 101:    1  ->  there ==> their
+ 102:    1  ->  there ==> yep
+ 103:    1  ->  thi ==> then
+ 104:    1  ->  through ==> to
+ 105:    1  ->  tomb ==> tom
+ 106:    1  ->  twerp ==> torp
+ 107:    1  ->  unloo ==> then
+ 108:    1  ->  w ==> would
+ 109:    1  ->  wanted ==> want
+ 110:    1  ->  was ==> what
+ 111:    1  ->  we ==> me
+ 112:    1  ->  with ==> a
+ 113:    1  ->  yeah ==> subjective
+ 114:    1  ->  you ==> being
+ 115:    1  ->  you ==> oh
+     -------
+       131
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  a
+   2:    1  ->  re
+   3:    1  ->  reference
+   4:    1  ->  said
+   5:    1  ->  the
+   6:    1  ->  to
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (65)
+                                 With >=  1 occurrences (65)
+
+   1:    9  ->  the
+   2:    8  ->  i
+   3:    7  ->  and
+   4:    6  ->  a
+   5:    4  ->  that
+   6:    4  ->  wh
+   7:    3  ->  an
+   8:    2  ->  but
+   9:    2  ->  classes
+  10:    2  ->  e
+  11:    2  ->  enc
+  12:    2  ->  eni
+  13:    2  ->  have
+  14:    2  ->  it
+  15:    2  ->  now
+  16:    2  ->  or
+  17:    2  ->  to
+  18:    2  ->  well
+  19:    2  ->  where
+  20:    1  ->  %bcack
+  21:    1  ->  also
+  22:    1  ->  annoying
+  23:    1  ->  around
+  24:    1  ->  at
+  25:    1  ->  been
+  26:    1  ->  canter
+  27:    1  ->  chemistry
+  28:    1  ->  d
+  29:    1  ->  did
+  30:    1  ->  does
+  31:    1  ->  enigma
+  32:    1  ->  experien
+  33:    1  ->  get
+  34:    1  ->  gnawing
+  35:    1  ->  her
+  36:    1  ->  it's
+  37:    1  ->  j
+  38:    1  ->  just
+  39:    1  ->  k.
+  40:    1  ->  know
+  41:    1  ->  line
+  42:    1  ->  mean
+  43:    1  ->  mmmm
+  44:    1  ->  more
+  45:    1  ->  need
+  46:    1  ->  no
+  47:    1  ->  o.
+  48:    1  ->  of
+  49:    1  ->  on
+  50:    1  ->  p
+  51:    1  ->  re
+  52:    1  ->  rhyming
+  53:    1  ->  rune
+  54:    1  ->  s
+  55:    1  ->  sorry
+  56:    1  ->  subjunctive
+  57:    1  ->  than
+  58:    1  ->  this
+  59:    1  ->  v
+  60:    1  ->  vis
+  61:    1  ->  w
+  62:    1  ->  was
+  63:    1  ->  we
+  64:    1  ->  will
+  65:    1  ->  you
+     -------
+       111
+
+
+
+SUBSTITUTIONS                    Total                 (87)
+                                 With >=  1 occurrences (87)
+
+   1:    9  ->  a
+   2:    6  ->  i
+   3:    6  ->  rune
+   4:    5  ->  an
+   5:    5  ->  gnomic
+   6:    5  ->  the
+   7:    4  ->  in
+   8:    3  ->  employ
+   9:    2  ->  and
+  10:    2  ->  at
+  11:    2  ->  encircling
+  12:    2  ->  it's
+  13:    2  ->  its
+  14:    2  ->  know
+  15:    2  ->  poem
+  16:    2  ->  there
+  17:    2  ->  you
+  18:    1  ->  %bcack
+  19:    1  ->  as
+  20:    1  ->  belonged
+  21:    1  ->  but
+  22:    1  ->  certainty
+  23:    1  ->  designedly
+  24:    1  ->  do
+  25:    1  ->  encount
+  26:    1  ->  encountered
+  27:    1  ->  enigma
+  28:    1  ->  eupheries
+  29:    1  ->  featured
+  30:    1  ->  feet
+  31:    1  ->  figure
+  32:    1  ->  flinging
+  33:    1  ->  fo
+  34:    1  ->  for
+  35:    1  ->  glid
+  36:    1  ->  gno
+  37:    1  ->  gnomic's
+  38:    1  ->  got
+  39:    1  ->  had
+  40:    1  ->  have
+  41:    1  ->  her
+  42:    1  ->  here
+  43:    1  ->  him
+  44:    1  ->  into
+  45:    1  ->  invade
+  46:    1  ->  it
+  47:    1  ->  kno
+  48:    1  ->  life
+  49:    1  ->  little
+  50:    1  ->  mark
+  51:    1  ->  mea
+  52:    1  ->  metaphoric
+  53:    1  ->  no
+  54:    1  ->  nor
+  55:    1  ->  now
+  56:    1  ->  oh
+  57:    1  ->  openly
+  58:    1  ->  or
+  59:    1  ->  poems
+  60:    1  ->  reali
+  61:    1  ->  realised
+  62:    1  ->  realm
+  63:    1  ->  rearrive
+  64:    1  ->  recognised
+  65:    1  ->  references
+  66:    1  ->  rhyme
+  67:    1  ->  sai
+  68:    1  ->  sea
+  69:    1  ->  she
+  70:    1  ->  she's
+  71:    1  ->  spencer's
+  72:    1  ->  stealthily
+  73:    1  ->  take
+  74:    1  ->  terms
+  75:    1  ->  that's
+  76:    1  ->  then
+  77:    1  ->  thi
+  78:    1  ->  through
+  79:    1  ->  tomb
+  80:    1  ->  twerp
+  81:    1  ->  unloo
+  82:    1  ->  w
+  83:    1  ->  wanted
+  84:    1  ->  was
+  85:    1  ->  we
+  86:    1  ->  with
+  87:    1  ->  yeah
+     -------
+       131
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (95)
+                                 With >=  1 occurrences (95)
+
+   1:    9  ->  and
+   2:    5  ->  run
+   3:    4  ->  no
+   4:    3  ->  a
+   5:    3  ->  eye
+   6:    3  ->  for
+   7:    2  ->  anima
+   8:    2  ->  circling
+   9:    2  ->  employee
+  10:    2  ->  in
+  11:    2  ->  knowing
+  12:    2  ->  nomic
+  13:    2  ->  or
+  14:    2  ->  palm
+  15:    2  ->  realise
+  16:    2  ->  that
+  17:    2  ->  the
+  18:    2  ->  then
+  19:    2  ->  to
+  20:    2  ->  were
+  21:    2  ->  you
+  22:    1  ->  arrive
+  23:    1  ->  at
+  24:    1  ->  being
+  25:    1  ->  belong
+  26:    1  ->  cannot
+  27:    1  ->  certainly
+  28:    1  ->  cleaning
+  29:    1  ->  dauntingly
+  30:    1  ->  e
+  31:    1  ->  employed
+  32:    1  ->  encounter
+  33:    1  ->  experience
+  34:    1  ->  feat
+  35:    1  ->  feature
+  36:    1  ->  figured
+  37:    1  ->  furious
+  38:    1  ->  gates
+  39:    1  ->  get
+  40:    1  ->  god
+  41:    1  ->  her
+  42:    1  ->  him
+  43:    1  ->  his
+  44:    1  ->  invades
+  45:    1  ->  is
+  46:    1  ->  it
+  47:    1  ->  it's
+  48:    1  ->  justice
+  49:    1  ->  know
+  50:    1  ->  lid
+  51:    1  ->  light
+  52:    1  ->  making
+  53:    1  ->  man
+  54:    1  ->  mardi
+  55:    1  ->  me
+  56:    1  ->  mean
+  57:    1  ->  metaphor
+  58:    1  ->  might
+  59:    1  ->  more
+  60:    1  ->  name
+  61:    1  ->  nine
+  62:    1  ->  nomics
+  63:    1  ->  now
+  64:    1  ->  of
+  65:    1  ->  oh
+  66:    1  ->  on
+  67:    1  ->  opening
+  68:    1  ->  out
+  69:    1  ->  over
+  70:    1  ->  palms
+  71:    1  ->  pat
+  72:    1  ->  recognise
+  73:    1  ->  resignedly
+  74:    1  ->  roman
+  75:    1  ->  room
+  76:    1  ->  ruined
+  77:    1  ->  running
+  78:    1  ->  so
+  79:    1  ->  spencers
+  80:    1  ->  subjective
+  81:    1  ->  term
+  82:    1  ->  their
+  83:    1  ->  them
+  84:    1  ->  there
+  85:    1  ->  this
+  86:    1  ->  tom
+  87:    1  ->  torp
+  88:    1  ->  vers
+  89:    1  ->  want
+  90:    1  ->  was
+  91:    1  ->  what
+  92:    1  ->  whereas
+  93:    1  ->  with
+  94:    1  ->  would
+  95:    1  ->  yep
+     -------
+       131
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

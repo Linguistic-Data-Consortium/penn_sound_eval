@@ -1,0 +1,134 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.4%   (  28)
+
+Percent Correct           =   97.0%   ( 805)
+
+Percent Substitution      =    2.9%   (  24)
+Percent Deletions         =    0.1%   (   1)
+Percent Insertions        =    0.4%   (   3)
+Percent Word Accuracy     =   96.6%
+
+
+Ref. words                =           ( 830)
+Hyp. words                =           ( 832)
+Aligned words             =           ( 833)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  oh ==> o
+   2:    3  ->  aklavik ==> akhlovik
+   3:    1  ->  ask ==> asked
+   4:    1  ->  bay ==> bathe
+   5:    1  ->  bolivar ==> boulevard
+   6:    1  ->  croyden ==> croydon
+   7:    1  ->  cunts ==> kunts
+   8:    1  ->  economic ==> geoeconomic
+   9:    1  ->  herriman ==> harriman
+  10:    1  ->  ishamelite ==> ishmaelite
+  11:    1  ->  jailbird ==> bird
+  12:    1  ->  katmandu ==> catnandoo
+  13:    1  ->  nation ==> nations
+  14:    1  ->  north ==> known
+  15:    1  ->  one ==> i
+  16:    1  ->  productions ==> production
+  17:    1  ->  regents ==> regent
+  18:    1  ->  shutter ==> shudder
+  19:    1  ->  uranium ==> urania
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  jail
+   2:    1  ->  situation
+   3:    1  ->  the
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  geo
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  oh
+   2:    3  ->  aklavik
+   3:    1  ->  ask
+   4:    1  ->  bay
+   5:    1  ->  bolivar
+   6:    1  ->  croyden
+   7:    1  ->  cunts
+   8:    1  ->  economic
+   9:    1  ->  herriman
+  10:    1  ->  ishamelite
+  11:    1  ->  jailbird
+  12:    1  ->  katmandu
+  13:    1  ->  nation
+  14:    1  ->  north
+  15:    1  ->  one
+  16:    1  ->  productions
+  17:    1  ->  regents
+  18:    1  ->  shutter
+  19:    1  ->  uranium
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  o
+   2:    3  ->  akhlovik
+   3:    1  ->  asked
+   4:    1  ->  bathe
+   5:    1  ->  bird
+   6:    1  ->  boulevard
+   7:    1  ->  catnandoo
+   8:    1  ->  croydon
+   9:    1  ->  geoeconomic
+  10:    1  ->  harriman
+  11:    1  ->  i
+  12:    1  ->  ishmaelite
+  13:    1  ->  known
+  14:    1  ->  kunts
+  15:    1  ->  nations
+  16:    1  ->  production
+  17:    1  ->  regent
+  18:    1  ->  shudder
+  19:    1  ->  urania
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,214 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.8%   (  57)
+
+Percent Correct           =   94.7%   ( 924)
+
+Percent Substitution      =    4.6%   (  45)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   94.2%
+
+
+Ref. words                =           ( 976)
+Hyp. words                =           ( 974)
+Aligned words             =           ( 981)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  abandon ==> abandoned
+   3:    1  ->  ability ==> commensurability
+   4:    1  ->  an ==> in
+   5:    1  ->  antimony ==> in
+   6:    1  ->  apathetic ==> epithetic
+   7:    1  ->  armpit's ==> armpits
+   8:    1  ->  borne ==> born
+   9:    1  ->  cart ==> car
+  10:    1  ->  cedar ==> seder
+  11:    1  ->  charmed ==> charm
+  12:    1  ->  close ==> closed
+  13:    1  ->  dew ==> do
+  14:    1  ->  dot ==> adopt
+  15:    1  ->  failing ==> unfailing
+  16:    1  ->  forbes' ==> forbes
+  17:    1  ->  her ==> in
+  18:    1  ->  i ==> and
+  19:    1  ->  in ==> and
+  20:    1  ->  is ==> with
+  21:    1  ->  man ==> and
+  22:    1  ->  modernism ==> postmodernism
+  23:    1  ->  name ==> names
+  24:    1  ->  now ==> how
+  25:    1  ->  our ==> or
+  26:    1  ->  phones ==> foams
+  27:    1  ->  prophesize ==> prophesized
+  28:    1  ->  purpled ==> purple
+  29:    1  ->  rider ==> writer
+  30:    1  ->  said ==> says
+  31:    1  ->  scalp ==> gap
+  32:    1  ->  senses ==> sentences
+  33:    1  ->  slashed ==> slash
+  34:    1  ->  so ==> some
+  35:    1  ->  soo ==> sisu
+  36:    1  ->  strong ==> sperm
+  37:    1  ->  that ==> it
+  38:    1  ->  the ==> a
+  39:    1  ->  the ==> this
+  40:    1  ->  through ==> to
+  41:    1  ->  time ==> tongue
+  42:    1  ->  trustville ==> trustful
+  43:    1  ->  weiner ==> wiener
+  44:    1  ->  why ==> what
+  45:    1  ->  wind ==> when
+     -------
+        45
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  <laugh>
+   2:    1  ->  a
+   3:    1  ->  of
+   4:    1  ->  or
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  increments
+   4:    1  ->  post
+   5:    1  ->  s
+   6:    1  ->  see
+   7:    1  ->  who
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  abandon
+   4:    1  ->  ability
+   5:    1  ->  an
+   6:    1  ->  antimony
+   7:    1  ->  apathetic
+   8:    1  ->  armpit's
+   9:    1  ->  borne
+  10:    1  ->  cart
+  11:    1  ->  cedar
+  12:    1  ->  charmed
+  13:    1  ->  close
+  14:    1  ->  dew
+  15:    1  ->  dot
+  16:    1  ->  failing
+  17:    1  ->  forbes'
+  18:    1  ->  her
+  19:    1  ->  i
+  20:    1  ->  in
+  21:    1  ->  is
+  22:    1  ->  man
+  23:    1  ->  modernism
+  24:    1  ->  name
+  25:    1  ->  now
+  26:    1  ->  our
+  27:    1  ->  phones
+  28:    1  ->  prophesize
+  29:    1  ->  purpled
+  30:    1  ->  rider
+  31:    1  ->  said
+  32:    1  ->  scalp
+  33:    1  ->  senses
+  34:    1  ->  slashed
+  35:    1  ->  so
+  36:    1  ->  soo
+  37:    1  ->  strong
+  38:    1  ->  that
+  39:    1  ->  through
+  40:    1  ->  time
+  41:    1  ->  trustville
+  42:    1  ->  weiner
+  43:    1  ->  why
+  44:    1  ->  wind
+     -------
+        45
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    3  ->  and
+   2:    3  ->  in
+   3:    1  ->  a
+   4:    1  ->  abandoned
+   5:    1  ->  adopt
+   6:    1  ->  armpits
+   7:    1  ->  born
+   8:    1  ->  car
+   9:    1  ->  charm
+  10:    1  ->  closed
+  11:    1  ->  commensurability
+  12:    1  ->  do
+  13:    1  ->  epithetic
+  14:    1  ->  foams
+  15:    1  ->  forbes
+  16:    1  ->  gap
+  17:    1  ->  how
+  18:    1  ->  it
+  19:    1  ->  names
+  20:    1  ->  or
+  21:    1  ->  postmodernism
+  22:    1  ->  prophesized
+  23:    1  ->  purple
+  24:    1  ->  says
+  25:    1  ->  seder
+  26:    1  ->  sentences
+  27:    1  ->  sisu
+  28:    1  ->  slash
+  29:    1  ->  some
+  30:    1  ->  sperm
+  31:    1  ->  the
+  32:    1  ->  this
+  33:    1  ->  to
+  34:    1  ->  tongue
+  35:    1  ->  trustful
+  36:    1  ->  unfailing
+  37:    1  ->  what
+  38:    1  ->  when
+  39:    1  ->  wiener
+  40:    1  ->  with
+  41:    1  ->  writer
+     -------
+        45
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

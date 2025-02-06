@@ -1,0 +1,183 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.6%   (  47)
+
+Percent Correct           =   94.4%   ( 672)
+
+Percent Substitution      =    5.2%   (  37)
+Percent Deletions         =    0.4%   (   3)
+Percent Insertions        =    1.0%   (   7)
+Percent Word Accuracy     =   93.4%
+
+
+Ref. words                =           ( 712)
+Hyp. words                =           ( 716)
+Aligned words             =           ( 719)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  in ==> and
+   2:    2  ->  remain ==> remained
+   3:    2  ->  there ==> their
+   4:    1  ->  an ==> in
+   5:    1  ->  as ==> is
+   6:    1  ->  cock ==> ***
+   7:    1  ->  conciliation ==> reconciliation
+   8:    1  ->  dejecta ==> ejector
+   9:    1  ->  dildo ==> ***
+  10:    1  ->  duress ==> dress
+  11:    1  ->  election's ==> elections
+  12:    1  ->  faux ==> po
+  13:    1  ->  fluted ==> flute
+  14:    1  ->  for ==> where
+  15:    1  ->  fuck ==> ***
+  16:    1  ->  girder ==> garter
+  17:    1  ->  grips ==> gives
+  18:    1  ->  incoherent ==> coherence
+  19:    1  ->  insert ==> sir
+  20:    1  ->  of ==> furtive
+  21:    1  ->  oh ==> of
+  22:    1  ->  organ ==> oregon
+  23:    1  ->  ours ==> hours
+  24:    1  ->  particle ==> article
+  25:    1  ->  peel ==> peeled
+  26:    1  ->  phonation ==> donation
+  27:    1  ->  rumored ==> rumoured
+  28:    1  ->  stalks ==> stocks
+  29:    1  ->  stills ==> instills
+  30:    1  ->  tailbones ==> bones
+  31:    1  ->  the ==> them
+  32:    1  ->  vowels ==> vows
+  33:    1  ->  whose ==> who's
+  34:    1  ->  worm ==> warm
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  am
+   2:    1  ->  and
+   3:    1  ->  good
+   4:    1  ->  i
+   5:    1  ->  in
+   6:    1  ->  tail
+   7:    1  ->  will
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  fjord
+   2:    1  ->  in
+   3:    1  ->  our
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  in
+   2:    2  ->  remain
+   3:    2  ->  there
+   4:    1  ->  an
+   5:    1  ->  as
+   6:    1  ->  cock
+   7:    1  ->  conciliation
+   8:    1  ->  dejecta
+   9:    1  ->  dildo
+  10:    1  ->  duress
+  11:    1  ->  election's
+  12:    1  ->  faux
+  13:    1  ->  fluted
+  14:    1  ->  for
+  15:    1  ->  fuck
+  16:    1  ->  girder
+  17:    1  ->  grips
+  18:    1  ->  incoherent
+  19:    1  ->  insert
+  20:    1  ->  of
+  21:    1  ->  oh
+  22:    1  ->  organ
+  23:    1  ->  ours
+  24:    1  ->  particle
+  25:    1  ->  peel
+  26:    1  ->  phonation
+  27:    1  ->  rumored
+  28:    1  ->  stalks
+  29:    1  ->  stills
+  30:    1  ->  tailbones
+  31:    1  ->  the
+  32:    1  ->  vowels
+  33:    1  ->  whose
+  34:    1  ->  worm
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    3  ->  ***
+   2:    2  ->  and
+   3:    2  ->  remained
+   4:    2  ->  their
+   5:    1  ->  article
+   6:    1  ->  bones
+   7:    1  ->  coherence
+   8:    1  ->  donation
+   9:    1  ->  dress
+  10:    1  ->  ejector
+  11:    1  ->  elections
+  12:    1  ->  flute
+  13:    1  ->  furtive
+  14:    1  ->  garter
+  15:    1  ->  gives
+  16:    1  ->  hours
+  17:    1  ->  in
+  18:    1  ->  instills
+  19:    1  ->  is
+  20:    1  ->  of
+  21:    1  ->  oregon
+  22:    1  ->  peeled
+  23:    1  ->  po
+  24:    1  ->  reconciliation
+  25:    1  ->  rumoured
+  26:    1  ->  sir
+  27:    1  ->  stocks
+  28:    1  ->  them
+  29:    1  ->  vows
+  30:    1  ->  warm
+  31:    1  ->  where
+  32:    1  ->  who's
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,211 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.0%   (  59)
+
+Percent Correct           =   94.9%   ( 931)
+
+Percent Substitution      =    4.4%   (  43)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   94.0%
+
+
+Ref. words                =           ( 981)
+Hyp. words                =           ( 983)
+Aligned words             =           ( 990)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  night ==> nights
+   2:    1  ->  a ==> of
+   3:    1  ->  alone ==> along
+   4:    1  ->  blanket ==> blankets
+   5:    1  ->  chevy's ==> chevis
+   6:    1  ->  chiaroscuro ==> skewer
+   7:    1  ->  complacencies ==> complacency
+   8:    1  ->  crosspiece ==> piece
+   9:    1  ->  cutthroat ==> cutthroats
+  10:    1  ->  drove ==> threw
+  11:    1  ->  eddies ==> is
+  12:    1  ->  governments ==> government's
+  13:    1  ->  hands ==> hand
+  14:    1  ->  hatrack ==> rack
+  15:    1  ->  hold ==> old
+  16:    1  ->  in ==> into
+  17:    1  ->  in ==> striking
+  18:    1  ->  is ==> was
+  19:    1  ->  knock ==> dark
+  20:    1  ->  lamps ==> roseland
+  21:    1  ->  lit ==> slid
+  22:    1  ->  look ==> looks
+  23:    1  ->  lugged ==> locked
+  24:    1  ->  night ==> might
+  25:    1  ->  of ==> on
+  26:    1  ->  past ==> pass
+  27:    1  ->  pleasure ==> pause
+  28:    1  ->  poems ==> from
+  29:    1  ->  posit ==> it
+  30:    1  ->  save ==> saved
+  31:    1  ->  slide ==> side
+  32:    1  ->  sparrow ==> blacksborough
+  33:    1  ->  take ==> tape
+  34:    1  ->  the ==> a
+  35:    1  ->  the ==> of
+  36:    1  ->  tires ==> ties
+  37:    1  ->  turn ==> turned
+  38:    1  ->  want ==> going
+  39:    1  ->  wed ==> newlywed
+  40:    1  ->  window ==> windows
+  41:    1  ->  you ==> he
+  42:    1  ->  your ==> you
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  a
+   2:    1  ->  am
+   3:    1  ->  cross
+   4:    1  ->  hat
+   5:    1  ->  it
+   6:    1  ->  me
+   7:    1  ->  of
+   8:    1  ->  poem
+   9:    1  ->  skewer
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  black
+   2:    1  ->  heath
+   3:    1  ->  newly
+   4:    1  ->  of
+   5:    1  ->  rose
+   6:    1  ->  strike
+   7:    1  ->  the
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  night
+   2:    2  ->  in
+   3:    2  ->  the
+   4:    1  ->  a
+   5:    1  ->  alone
+   6:    1  ->  blanket
+   7:    1  ->  chevy's
+   8:    1  ->  chiaroscuro
+   9:    1  ->  complacencies
+  10:    1  ->  crosspiece
+  11:    1  ->  cutthroat
+  12:    1  ->  drove
+  13:    1  ->  eddies
+  14:    1  ->  governments
+  15:    1  ->  hands
+  16:    1  ->  hatrack
+  17:    1  ->  hold
+  18:    1  ->  is
+  19:    1  ->  knock
+  20:    1  ->  lamps
+  21:    1  ->  lit
+  22:    1  ->  look
+  23:    1  ->  lugged
+  24:    1  ->  of
+  25:    1  ->  past
+  26:    1  ->  pleasure
+  27:    1  ->  poems
+  28:    1  ->  posit
+  29:    1  ->  save
+  30:    1  ->  slide
+  31:    1  ->  sparrow
+  32:    1  ->  take
+  33:    1  ->  tires
+  34:    1  ->  turn
+  35:    1  ->  want
+  36:    1  ->  wed
+  37:    1  ->  window
+  38:    1  ->  you
+  39:    1  ->  your
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  nights
+   2:    2  ->  of
+   3:    1  ->  a
+   4:    1  ->  along
+   5:    1  ->  blacksborough
+   6:    1  ->  blankets
+   7:    1  ->  chevis
+   8:    1  ->  complacency
+   9:    1  ->  cutthroats
+  10:    1  ->  dark
+  11:    1  ->  from
+  12:    1  ->  going
+  13:    1  ->  government's
+  14:    1  ->  hand
+  15:    1  ->  he
+  16:    1  ->  into
+  17:    1  ->  is
+  18:    1  ->  it
+  19:    1  ->  locked
+  20:    1  ->  looks
+  21:    1  ->  might
+  22:    1  ->  newlywed
+  23:    1  ->  old
+  24:    1  ->  on
+  25:    1  ->  pass
+  26:    1  ->  pause
+  27:    1  ->  piece
+  28:    1  ->  rack
+  29:    1  ->  roseland
+  30:    1  ->  saved
+  31:    1  ->  side
+  32:    1  ->  skewer
+  33:    1  ->  slid
+  34:    1  ->  striking
+  35:    1  ->  tape
+  36:    1  ->  threw
+  37:    1  ->  ties
+  38:    1  ->  turned
+  39:    1  ->  was
+  40:    1  ->  windows
+  41:    1  ->  you
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

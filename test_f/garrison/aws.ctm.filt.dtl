@@ -1,0 +1,224 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.0%   (  73)
+
+Percent Correct           =   94.9%   (1148)
+
+Percent Substitution      =    4.3%   (  52)
+Percent Deletions         =    0.8%   (  10)
+Percent Insertions        =    0.9%   (  11)
+Percent Word Accuracy     =   94.0%
+
+
+Ref. words                =           (1210)
+Hyp. words                =           (1211)
+Aligned words             =           (1221)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    3  ->  the ==> a
+   2:    3  ->  twenty ==> two
+   3:    2  ->  fourteen ==> four
+   4:    1  ->  am ==> em
+   5:    1  ->  amis ==> amos
+   6:    1  ->  anyone ==> one
+   7:    1  ->  carpentered ==> it
+   8:    1  ->  crystal ==> cristel
+   9:    1  ->  footed ==> to
+  10:    1  ->  forty ==> oh
+  11:    1  ->  glides ==> glide
+  12:    1  ->  gone ==> going
+  13:    1  ->  halter ==> her
+  14:    1  ->  handsaw ==> are
+  15:    1  ->  have ==> are
+  16:    1  ->  hourglass ==> glass
+  17:    1  ->  in ==> and
+  18:    1  ->  in ==> halt
+  19:    1  ->  is ==> tastes
+  20:    1  ->  is ==> was
+  21:    1  ->  it's ==> am
+  22:    1  ->  leathered ==> leveled
+  23:    1  ->  many ==> the
+  24:    1  ->  now ==> i
+  25:    1  ->  one ==> when
+  26:    1  ->  others ==> other's
+  27:    1  ->  owned ==> own
+  28:    1  ->  planed ==> plain
+  29:    1  ->  plumbed ==> plumb
+  30:    1  ->  prompted ==> prompt
+  31:    1  ->  realise ==> realised
+  32:    1  ->  salt ==> thought
+  33:    1  ->  sawed ==> saw
+  34:    1  ->  so ==> of
+  35:    1  ->  ten ==> oh
+  36:    1  ->  through ==> to
+  37:    1  ->  til ==> till
+  38:    1  ->  to ==> do
+  39:    1  ->  to ==> two
+  40:    1  ->  toenail ==> toenails
+  41:    1  ->  tonight ==> night
+  42:    1  ->  using ==> us
+  43:    1  ->  waist ==> waste
+  44:    1  ->  walk ==> walked
+  45:    1  ->  window ==> winder
+  46:    1  ->  with ==> there's
+  47:    1  ->  works ==> worked
+     -------
+        52
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  and
+   2:    2  ->  one
+   3:    1  ->  any
+   4:    1  ->  copped
+   5:    1  ->  for
+   6:    1  ->  hands
+   7:    1  ->  hour
+   8:    1  ->  some
+   9:    1  ->  to
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    3  ->  i
+   2:    1  ->  about
+   3:    1  ->  am
+   4:    1  ->  as
+   5:    1  ->  had
+   6:    1  ->  taste
+   7:    1  ->  thirty
+   8:    1  ->  with
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    3  ->  the
+   2:    3  ->  twenty
+   3:    2  ->  fourteen
+   4:    2  ->  in
+   5:    2  ->  is
+   6:    2  ->  to
+   7:    1  ->  am
+   8:    1  ->  amis
+   9:    1  ->  anyone
+  10:    1  ->  carpentered
+  11:    1  ->  crystal
+  12:    1  ->  footed
+  13:    1  ->  forty
+  14:    1  ->  glides
+  15:    1  ->  gone
+  16:    1  ->  halter
+  17:    1  ->  handsaw
+  18:    1  ->  have
+  19:    1  ->  hourglass
+  20:    1  ->  it's
+  21:    1  ->  leathered
+  22:    1  ->  many
+  23:    1  ->  now
+  24:    1  ->  one
+  25:    1  ->  others
+  26:    1  ->  owned
+  27:    1  ->  planed
+  28:    1  ->  plumbed
+  29:    1  ->  prompted
+  30:    1  ->  realise
+  31:    1  ->  salt
+  32:    1  ->  sawed
+  33:    1  ->  so
+  34:    1  ->  ten
+  35:    1  ->  through
+  36:    1  ->  til
+  37:    1  ->  toenail
+  38:    1  ->  tonight
+  39:    1  ->  using
+  40:    1  ->  waist
+  41:    1  ->  walk
+  42:    1  ->  window
+  43:    1  ->  with
+  44:    1  ->  works
+     -------
+        52
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    4  ->  two
+   2:    3  ->  a
+   3:    2  ->  are
+   4:    2  ->  four
+   5:    2  ->  oh
+   6:    2  ->  to
+   7:    1  ->  am
+   8:    1  ->  amos
+   9:    1  ->  and
+  10:    1  ->  cristel
+  11:    1  ->  do
+  12:    1  ->  em
+  13:    1  ->  glass
+  14:    1  ->  glide
+  15:    1  ->  going
+  16:    1  ->  halt
+  17:    1  ->  her
+  18:    1  ->  i
+  19:    1  ->  it
+  20:    1  ->  leveled
+  21:    1  ->  night
+  22:    1  ->  of
+  23:    1  ->  one
+  24:    1  ->  other's
+  25:    1  ->  own
+  26:    1  ->  plain
+  27:    1  ->  plumb
+  28:    1  ->  prompt
+  29:    1  ->  realised
+  30:    1  ->  saw
+  31:    1  ->  tastes
+  32:    1  ->  the
+  33:    1  ->  there's
+  34:    1  ->  thought
+  35:    1  ->  till
+  36:    1  ->  toenails
+  37:    1  ->  us
+  38:    1  ->  walked
+  39:    1  ->  was
+  40:    1  ->  waste
+  41:    1  ->  when
+  42:    1  ->  winder
+  43:    1  ->  worked
+     -------
+        52
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

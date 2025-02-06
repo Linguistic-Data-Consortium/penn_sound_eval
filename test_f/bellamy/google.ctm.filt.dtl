@@ -1,0 +1,230 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.6%   (  83)
+
+Percent Correct           =   92.8%   ( 899)
+
+Percent Substitution      =    4.4%   (  43)
+Percent Deletions         =    2.8%   (  27)
+Percent Insertions        =    1.3%   (  13)
+Percent Word Accuracy     =   91.4%
+
+
+Ref. words                =           ( 969)
+Hyp. words                =           ( 955)
+Aligned words             =           ( 982)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    1  ->  am ==> "i'm
+   2:    1  ->  balding ==> bald
+   3:    1  ->  bathrobe ==> robe
+   4:    1  ->  bellied ==> potbellied
+   5:    1  ->  catchphrase ==> phrase
+   6:    1  ->  chenille ==> chanel
+   7:    1  ->  day ==> day"
+   8:    1  ->  deckered ==> decorated
+   9:    1  ->  down ==> on
+  10:    1  ->  eighty ==> oh
+  11:    1  ->  elka ==> elk
+  12:    1  ->  elka's ==> is
+  13:    1  ->  first ==> 21st
+  14:    1  ->  forty ==> oh
+  15:    1  ->  from ==> for
+  16:    1  ->  froze ==> snoozed
+  17:    1  ->  gnawed ==> nod
+  18:    1  ->  go ==> "go
+  19:    1  ->  his ==> a
+  20:    1  ->  hothead ==> head
+  21:    1  ->  i ==> "i
+  22:    1  ->  in ==> on
+  23:    1  ->  inch ==> 4in
+  24:    1  ->  inch ==> halfinch
+  25:    1  ->  is ==> as
+  26:    1  ->  loudmouth ==> mouth
+  27:    1  ->  nine ==> 2009
+  28:    1  ->  nose ==> it
+  29:    1  ->  old ==> 19yearold
+  30:    1  ->  old ==> 9yearsold
+  31:    1  ->  one ==> 1981
+  32:    1  ->  our ==> her
+  33:    1  ->  painted ==> spraypainted
+  34:    1  ->  pitched ==> highpitched
+  35:    1  ->  shake ==> take
+  36:    1  ->  slower ==> "slower
+  37:    1  ->  slower ==> slower"
+  38:    1  ->  spittle ==> a
+  39:    1  ->  standing ==> spinning
+  40:    1  ->  stoned ==> stone
+  41:    1  ->  teeny ==> tiny
+  42:    1  ->  the ==> a
+  43:    1  ->  your ==> that
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  "das
+   2:    1  ->  catch
+   3:    1  ->  dashikasuzuza
+   4:    1  ->  elk
+   5:    1  ->  hot
+   6:    1  ->  it's
+   7:    1  ->  loud
+   8:    1  ->  shikash"
+   9:    1  ->  shikasuzuza"
+  10:    1  ->  spit
+  11:    1  ->  stand
+  12:    1  ->  went
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    4  ->  had
+   2:    2  ->  nineteen
+   3:    1  ->  and
+   4:    1  ->  door
+   5:    1  ->  eighty
+   6:    1  ->  four
+   7:    1  ->  half
+   8:    1  ->  high
+   9:    1  ->  i
+  10:    1  ->  in
+  11:    1  ->  j
+  12:    1  ->  janice
+  13:    1  ->  nine
+  14:    1  ->  pot
+  15:    1  ->  snot
+  16:    1  ->  spray
+  17:    1  ->  the
+  18:    1  ->  thousand
+  19:    1  ->  twenty
+  20:    1  ->  two
+  21:    1  ->  yeah
+  22:    1  ->  year
+  23:    1  ->  years
+     -------
+        27
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  inch
+   2:    2  ->  old
+   3:    2  ->  slower
+   4:    1  ->  am
+   5:    1  ->  balding
+   6:    1  ->  bathrobe
+   7:    1  ->  bellied
+   8:    1  ->  catchphrase
+   9:    1  ->  chenille
+  10:    1  ->  day
+  11:    1  ->  deckered
+  12:    1  ->  down
+  13:    1  ->  eighty
+  14:    1  ->  elka
+  15:    1  ->  elka's
+  16:    1  ->  first
+  17:    1  ->  forty
+  18:    1  ->  from
+  19:    1  ->  froze
+  20:    1  ->  gnawed
+  21:    1  ->  go
+  22:    1  ->  his
+  23:    1  ->  hothead
+  24:    1  ->  i
+  25:    1  ->  in
+  26:    1  ->  is
+  27:    1  ->  loudmouth
+  28:    1  ->  nine
+  29:    1  ->  nose
+  30:    1  ->  one
+  31:    1  ->  our
+  32:    1  ->  painted
+  33:    1  ->  pitched
+  34:    1  ->  shake
+  35:    1  ->  spittle
+  36:    1  ->  standing
+  37:    1  ->  stoned
+  38:    1  ->  teeny
+  39:    1  ->  the
+  40:    1  ->  your
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  a
+   2:    2  ->  oh
+   3:    2  ->  on
+   4:    1  ->  "go
+   5:    1  ->  "i
+   6:    1  ->  "i'm
+   7:    1  ->  "slower
+   8:    1  ->  1981
+   9:    1  ->  19yearold
+  10:    1  ->  2009
+  11:    1  ->  21st
+  12:    1  ->  4in
+  13:    1  ->  9yearsold
+  14:    1  ->  as
+  15:    1  ->  bald
+  16:    1  ->  chanel
+  17:    1  ->  day"
+  18:    1  ->  decorated
+  19:    1  ->  elk
+  20:    1  ->  for
+  21:    1  ->  halfinch
+  22:    1  ->  head
+  23:    1  ->  her
+  24:    1  ->  highpitched
+  25:    1  ->  is
+  26:    1  ->  it
+  27:    1  ->  mouth
+  28:    1  ->  nod
+  29:    1  ->  phrase
+  30:    1  ->  potbellied
+  31:    1  ->  robe
+  32:    1  ->  slower"
+  33:    1  ->  snoozed
+  34:    1  ->  spinning
+  35:    1  ->  spraypainted
+  36:    1  ->  stone
+  37:    1  ->  take
+  38:    1  ->  that
+  39:    1  ->  tiny
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

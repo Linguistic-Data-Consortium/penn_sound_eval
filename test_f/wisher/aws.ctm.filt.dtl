@@ -1,0 +1,177 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.7%   (  46)
+
+Percent Correct           =   95.9%   ( 939)
+
+Percent Substitution      =    3.8%   (  37)
+Percent Deletions         =    0.3%   (   3)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   95.3%
+
+
+Ref. words                =           ( 979)
+Hyp. words                =           ( 982)
+Aligned words             =           ( 985)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    5  ->  forty ==> oh
+   2:    2  ->  in ==> and
+   3:    1  ->  a ==> the
+   4:    1  ->  ailing ==> in
+   5:    1  ->  banton ==> bontan
+   6:    1  ->  bellay ==> be
+   7:    1  ->  bewitched ==> with
+   8:    1  ->  boll ==> bull
+   9:    1  ->  buju ==> bojo
+  10:    1  ->  coltraine ==> coltrane
+  11:    1  ->  cribs ==> scribs
+  12:    1  ->  dido ==> dito
+  13:    1  ->  fifth ==> 45th
+  14:    1  ->  fourth ==> 44th
+  15:    1  ->  grandmama's ==> mama's
+  16:    1  ->  high ==> i
+  17:    1  ->  mandingo ==> mano
+  18:    1  ->  martyr ==> marty
+  19:    1  ->  montigo ==> montego
+  20:    1  ->  ninety ==> nine
+  21:    1  ->  prez ==> prayers
+  22:    1  ->  raps ==> rats
+  23:    1  ->  reinvent ==> invent
+  24:    1  ->  shearling ==> shirley
+  25:    1  ->  slims ==> slim
+  26:    1  ->  steal ==> still
+  27:    1  ->  threatened ==> threaten
+  28:    1  ->  turncoats ==> coach
+  29:    1  ->  vines ==> bonds
+  30:    1  ->  windowsill ==> sill
+  31:    1  ->  wiz ==> whiz
+  32:    1  ->  yvonda's ==> yanda's
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  ail
+   2:    1  ->  be
+   3:    1  ->  grand
+   4:    1  ->  re
+   5:    1  ->  turn
+   6:    1  ->  window
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  forty
+   2:    1  ->  is
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    5  ->  forty
+   2:    2  ->  in
+   3:    1  ->  a
+   4:    1  ->  ailing
+   5:    1  ->  banton
+   6:    1  ->  bellay
+   7:    1  ->  bewitched
+   8:    1  ->  boll
+   9:    1  ->  buju
+  10:    1  ->  coltraine
+  11:    1  ->  cribs
+  12:    1  ->  dido
+  13:    1  ->  fifth
+  14:    1  ->  fourth
+  15:    1  ->  grandmama's
+  16:    1  ->  high
+  17:    1  ->  mandingo
+  18:    1  ->  martyr
+  19:    1  ->  montigo
+  20:    1  ->  ninety
+  21:    1  ->  prez
+  22:    1  ->  raps
+  23:    1  ->  reinvent
+  24:    1  ->  shearling
+  25:    1  ->  slims
+  26:    1  ->  steal
+  27:    1  ->  threatened
+  28:    1  ->  turncoats
+  29:    1  ->  vines
+  30:    1  ->  windowsill
+  31:    1  ->  wiz
+  32:    1  ->  yvonda's
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    5  ->  oh
+   2:    2  ->  and
+   3:    1  ->  44th
+   4:    1  ->  45th
+   5:    1  ->  be
+   6:    1  ->  bojo
+   7:    1  ->  bonds
+   8:    1  ->  bontan
+   9:    1  ->  bull
+  10:    1  ->  coach
+  11:    1  ->  coltrane
+  12:    1  ->  dito
+  13:    1  ->  i
+  14:    1  ->  in
+  15:    1  ->  invent
+  16:    1  ->  mama's
+  17:    1  ->  mano
+  18:    1  ->  marty
+  19:    1  ->  montego
+  20:    1  ->  nine
+  21:    1  ->  prayers
+  22:    1  ->  rats
+  23:    1  ->  scribs
+  24:    1  ->  shirley
+  25:    1  ->  sill
+  26:    1  ->  slim
+  27:    1  ->  still
+  28:    1  ->  the
+  29:    1  ->  threaten
+  30:    1  ->  whiz
+  31:    1  ->  with
+  32:    1  ->  yanda's
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

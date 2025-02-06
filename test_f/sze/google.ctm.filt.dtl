@@ -1,0 +1,179 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.8%   (  48)
+
+Percent Correct           =   94.2%   ( 670)
+
+Percent Substitution      =    4.1%   (  29)
+Percent Deletions         =    1.7%   (  12)
+Percent Insertions        =    1.0%   (   7)
+Percent Word Accuracy     =   93.2%
+
+
+Ref. words                =           ( 711)
+Hyp. words                =           ( 706)
+Aligned words             =           ( 718)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  anteaters ==> eaters
+   3:    1  ->  are ==> were
+   4:    1  ->  at ==> quenched
+   5:    1  ->  bass ==> base
+   6:    1  ->  darted ==> started
+   7:    1  ->  epiphanies ==> epiphany
+   8:    1  ->  foot ==> 65foot
+   9:    1  ->  forsythia ==> scythia
+  10:    1  ->  fresh ==> rush
+  11:    1  ->  griffins ==> griffin
+  12:    1  ->  hummingbird ==> bird
+  13:    1  ->  hundred ==> eighteen
+  14:    1  ->  i ==> "i
+  15:    1  ->  lamb ==> lamb's
+  16:    1  ->  lay ==> chinakalee
+  17:    1  ->  one ==> when
+  18:    1  ->  palmettes ==> palmets
+  19:    1  ->  paper ==> paper"
+  20:    1  ->  petunias ==> bettunyas
+  21:    1  ->  place ==> placed
+  22:    1  ->  pulverized ==> pull
+  23:    1  ->  scumsucker ==> sucker
+  24:    1  ->  teal ==> until
+  25:    1  ->  the ==> a
+  26:    1  ->  urn ==> earn
+  27:    1  ->  what ==> white
+  28:    1  ->  when ==> one
+  29:    1  ->  winstead ==> at
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  ant
+   2:    1  ->  for
+   3:    1  ->  humming
+   4:    1  ->  is
+   5:    1  ->  it
+   6:    1  ->  scum
+   7:    1  ->  winced
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  chenaga
+   2:    1  ->  eight
+   3:    1  ->  five
+   4:    1  ->  lyres
+   5:    1  ->  on
+   6:    1  ->  one
+   7:    1  ->  sixty
+   8:    1  ->  strin
+   9:    1  ->  thank
+  10:    1  ->  thousand
+  11:    1  ->  wet
+  12:    1  ->  you
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  a
+   2:    1  ->  anteaters
+   3:    1  ->  are
+   4:    1  ->  at
+   5:    1  ->  bass
+   6:    1  ->  darted
+   7:    1  ->  epiphanies
+   8:    1  ->  foot
+   9:    1  ->  forsythia
+  10:    1  ->  fresh
+  11:    1  ->  griffins
+  12:    1  ->  hummingbird
+  13:    1  ->  hundred
+  14:    1  ->  i
+  15:    1  ->  lamb
+  16:    1  ->  lay
+  17:    1  ->  one
+  18:    1  ->  palmettes
+  19:    1  ->  paper
+  20:    1  ->  petunias
+  21:    1  ->  place
+  22:    1  ->  pulverized
+  23:    1  ->  scumsucker
+  24:    1  ->  teal
+  25:    1  ->  the
+  26:    1  ->  urn
+  27:    1  ->  what
+  28:    1  ->  when
+  29:    1  ->  winstead
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  "i
+   2:    1  ->  65foot
+   3:    1  ->  a
+   4:    1  ->  at
+   5:    1  ->  base
+   6:    1  ->  bettunyas
+   7:    1  ->  bird
+   8:    1  ->  chinakalee
+   9:    1  ->  earn
+  10:    1  ->  eaters
+  11:    1  ->  eighteen
+  12:    1  ->  epiphany
+  13:    1  ->  griffin
+  14:    1  ->  lamb's
+  15:    1  ->  one
+  16:    1  ->  palmets
+  17:    1  ->  paper"
+  18:    1  ->  placed
+  19:    1  ->  pull
+  20:    1  ->  quenched
+  21:    1  ->  rush
+  22:    1  ->  scythia
+  23:    1  ->  started
+  24:    1  ->  sucker
+  25:    1  ->  the
+  26:    1  ->  until
+  27:    1  ->  were
+  28:    1  ->  when
+  29:    1  ->  white
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

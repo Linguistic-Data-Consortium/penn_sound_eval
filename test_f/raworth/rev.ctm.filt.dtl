@@ -1,0 +1,370 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.8%   ( 142)
+
+Percent Correct           =   88.0%   ( 789)
+
+Percent Substitution      =   11.0%   (  99)
+Percent Deletions         =    1.0%   (   9)
+Percent Insertions        =    3.8%   (  34)
+Percent Word Accuracy     =   84.2%
+
+
+Ref. words                =           ( 897)
+Hyp. words                =           ( 922)
+Aligned words             =           ( 931)
+
+CONFUSION PAIRS                  Total                 (97)
+                                 With >=  1 occurrences (97)
+
+   1:    2  ->  i ==> eye
+   2:    2  ->  x ==> in
+   3:    1  ->  a ==> arouse
+   4:    1  ->  a ==> ever
+   5:    1  ->  a ==> the
+   6:    1  ->  alight ==> satellite
+   7:    1  ->  an ==> the
+   8:    1  ->  anagram ==> nanogram
+   9:    1  ->  analyst's ==> analyst
+  10:    1  ->  baldfaced ==> face
+  11:    1  ->  batter ==> butter
+  12:    1  ->  cocks ==> comps
+  13:    1  ->  coda ==> coder
+  14:    1  ->  commie ==> comey
+  15:    1  ->  crowdsourced ==> crowdsource
+  16:    1  ->  deadpanned ==> pan
+  17:    1  ->  eight ==> h
+  18:    1  ->  enshrouded ==> shrouded
+  19:    1  ->  erikson ==> erickson
+  20:    1  ->  farmhands ==> hands
+  21:    1  ->  float ==> the
+  22:    1  ->  found ==> fo
+  23:    1  ->  gaily ==> <laugh>
+  24:    1  ->  gaming ==> game
+  25:    1  ->  head ==> ahead
+  26:    1  ->  heyerdahl ==> heyo
+  27:    1  ->  honkers ==> honks
+  28:    1  ->  impale ==> pale
+  29:    1  ->  in ==> and
+  30:    1  ->  irony ==> iy
+  31:    1  ->  is ==> as
+  32:    1  ->  is ==> imperatives
+  33:    1  ->  it ==> therein
+  34:    1  ->  joined ==> joins
+  35:    1  ->  leif ==> leaf
+  36:    1  ->  memo ==> mo
+  37:    1  ->  memories ==> memory
+  38:    1  ->  mirthless ==> murr
+  39:    1  ->  mole ==> mo
+  40:    1  ->  mopey ==> moping
+  41:    1  ->  moss ==> mars
+  42:    1  ->  numerals ==> rules
+  43:    1  ->  of ==> and
+  44:    1  ->  of ==> for
+  45:    1  ->  over ==> ogle
+  46:    1  ->  parrot ==> wild
+  47:    1  ->  play ==> claim
+  48:    1  ->  poems ==> poem
+  49:    1  ->  prisons ==> imprisons
+  50:    1  ->  put ==> but
+  51:    1  ->  received ==> receive
+  52:    1  ->  researchers ==> research
+  53:    1  ->  retina ==> or
+  54:    1  ->  scampi ==> scampy
+  55:    1  ->  service ==> it's
+  56:    1  ->  set ==> sets
+  57:    1  ->  sights ==> truesight
+  58:    1  ->  simonize ==> eyes
+  59:    1  ->  skill ==> skilled
+  60:    1  ->  spine ==> spy
+  61:    1  ->  stoat ==> stough
+  62:    1  ->  tales ==> tails
+  63:    1  ->  teacakes ==> cakes
+  64:    1  ->  thirty ==> 4
+  65:    1  ->  thought ==> not
+  66:    1  ->  three ==> 33
+  67:    1  ->  true ==> <laugh>
+  68:    1  ->  uninteresting ==> interesting
+  69:    1  ->  usual ==> interval
+  70:    1  ->  wait ==> wake
+  71:    1  ->  want ==> wants
+  72:    1  ->  well ==> physicists
+  73:    1  ->  were ==> where
+  74:    1  ->  whole ==> reckon
+  75:    1  ->  wig ==> wing
+  76:    1  ->  within ==> with
+  77:    1  ->  x ==> and
+  78:    1  ->  x ==> bald
+  79:    1  ->  x ==> cage
+  80:    1  ->  x ==> contiki
+  81:    1  ->  x ==> ever
+  82:    1  ->  x ==> groundless
+  83:    1  ->  x ==> huling
+  84:    1  ->  x ==> i
+  85:    1  ->  x ==> igloo
+  86:    1  ->  x ==> jyp
+  87:    1  ->  x ==> key
+  88:    1  ->  x ==> like
+  89:    1  ->  x ==> limo
+  90:    1  ->  x ==> loss
+  91:    1  ->  x ==> nylon
+  92:    1  ->  x ==> of
+  93:    1  ->  x ==> simon
+  94:    1  ->  x ==> sinton
+  95:    1  ->  x ==> tints
+  96:    1  ->  x ==> woo
+  97:    1  ->  x ==> your
+     -------
+        99
+
+
+
+INSERTIONS                       Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    5  ->  <laugh>
+   2:    2  ->  on
+   3:    1  ->  air
+   4:    1  ->  and
+   5:    1  ->  circle
+   6:    1  ->  cop
+   7:    1  ->  dead
+   8:    1  ->  ens
+   9:    1  ->  farm
+  10:    1  ->  galy
+  11:    1  ->  gyms
+  12:    1  ->  he
+  13:    1  ->  hoe
+  14:    1  ->  hoofs
+  15:    1  ->  hooter
+  16:    1  ->  hymn
+  17:    1  ->  if
+  18:    1  ->  mar
+  19:    1  ->  note
+  20:    1  ->  num
+  21:    1  ->  s
+  22:    1  ->  shak
+  23:    1  ->  sheen
+  24:    1  ->  so
+  25:    1  ->  succeeded
+  26:    1  ->  tea
+  27:    1  ->  trolling
+  28:    1  ->  will
+  29:    1  ->  youth
+     -------
+        34
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  air
+   2:    1  ->  comma
+   3:    1  ->  four
+   4:    1  ->  last
+   5:    1  ->  over
+   6:    1  ->  set
+   7:    1  ->  the
+   8:    1  ->  there
+   9:    1  ->  while
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (72)
+                                 With >=  1 occurrences (72)
+
+   1:   23  ->  x
+   2:    3  ->  a
+   3:    2  ->  i
+   4:    2  ->  is
+   5:    2  ->  of
+   6:    1  ->  alight
+   7:    1  ->  an
+   8:    1  ->  anagram
+   9:    1  ->  analyst's
+  10:    1  ->  baldfaced
+  11:    1  ->  batter
+  12:    1  ->  cocks
+  13:    1  ->  coda
+  14:    1  ->  commie
+  15:    1  ->  crowdsourced
+  16:    1  ->  deadpanned
+  17:    1  ->  eight
+  18:    1  ->  enshrouded
+  19:    1  ->  erikson
+  20:    1  ->  farmhands
+  21:    1  ->  float
+  22:    1  ->  found
+  23:    1  ->  gaily
+  24:    1  ->  gaming
+  25:    1  ->  head
+  26:    1  ->  heyerdahl
+  27:    1  ->  honkers
+  28:    1  ->  impale
+  29:    1  ->  in
+  30:    1  ->  irony
+  31:    1  ->  it
+  32:    1  ->  joined
+  33:    1  ->  leif
+  34:    1  ->  memo
+  35:    1  ->  memories
+  36:    1  ->  mirthless
+  37:    1  ->  mole
+  38:    1  ->  mopey
+  39:    1  ->  moss
+  40:    1  ->  numerals
+  41:    1  ->  over
+  42:    1  ->  parrot
+  43:    1  ->  play
+  44:    1  ->  poems
+  45:    1  ->  prisons
+  46:    1  ->  put
+  47:    1  ->  received
+  48:    1  ->  researchers
+  49:    1  ->  retina
+  50:    1  ->  scampi
+  51:    1  ->  service
+  52:    1  ->  set
+  53:    1  ->  sights
+  54:    1  ->  simonize
+  55:    1  ->  skill
+  56:    1  ->  spine
+  57:    1  ->  stoat
+  58:    1  ->  tales
+  59:    1  ->  teacakes
+  60:    1  ->  thirty
+  61:    1  ->  thought
+  62:    1  ->  three
+  63:    1  ->  true
+  64:    1  ->  uninteresting
+  65:    1  ->  usual
+  66:    1  ->  wait
+  67:    1  ->  want
+  68:    1  ->  well
+  69:    1  ->  were
+  70:    1  ->  whole
+  71:    1  ->  wig
+  72:    1  ->  within
+     -------
+        99
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (90)
+                                 With >=  1 occurrences (90)
+
+   1:    3  ->  and
+   2:    3  ->  the
+   3:    2  ->  <laugh>
+   4:    2  ->  ever
+   5:    2  ->  eye
+   6:    2  ->  in
+   7:    2  ->  mo
+   8:    1  ->  33
+   9:    1  ->  4
+  10:    1  ->  ahead
+  11:    1  ->  analyst
+  12:    1  ->  arouse
+  13:    1  ->  as
+  14:    1  ->  bald
+  15:    1  ->  but
+  16:    1  ->  butter
+  17:    1  ->  cage
+  18:    1  ->  cakes
+  19:    1  ->  claim
+  20:    1  ->  coder
+  21:    1  ->  comey
+  22:    1  ->  comps
+  23:    1  ->  contiki
+  24:    1  ->  crowdsource
+  25:    1  ->  erickson
+  26:    1  ->  eyes
+  27:    1  ->  face
+  28:    1  ->  fo
+  29:    1  ->  for
+  30:    1  ->  game
+  31:    1  ->  groundless
+  32:    1  ->  h
+  33:    1  ->  hands
+  34:    1  ->  heyo
+  35:    1  ->  honks
+  36:    1  ->  huling
+  37:    1  ->  i
+  38:    1  ->  igloo
+  39:    1  ->  imperatives
+  40:    1  ->  imprisons
+  41:    1  ->  interesting
+  42:    1  ->  interval
+  43:    1  ->  it's
+  44:    1  ->  iy
+  45:    1  ->  joins
+  46:    1  ->  jyp
+  47:    1  ->  key
+  48:    1  ->  leaf
+  49:    1  ->  like
+  50:    1  ->  limo
+  51:    1  ->  loss
+  52:    1  ->  mars
+  53:    1  ->  memory
+  54:    1  ->  moping
+  55:    1  ->  murr
+  56:    1  ->  nanogram
+  57:    1  ->  not
+  58:    1  ->  nylon
+  59:    1  ->  of
+  60:    1  ->  ogle
+  61:    1  ->  or
+  62:    1  ->  pale
+  63:    1  ->  pan
+  64:    1  ->  physicists
+  65:    1  ->  poem
+  66:    1  ->  receive
+  67:    1  ->  reckon
+  68:    1  ->  research
+  69:    1  ->  rules
+  70:    1  ->  satellite
+  71:    1  ->  scampy
+  72:    1  ->  sets
+  73:    1  ->  shrouded
+  74:    1  ->  simon
+  75:    1  ->  sinton
+  76:    1  ->  skilled
+  77:    1  ->  spy
+  78:    1  ->  stough
+  79:    1  ->  tails
+  80:    1  ->  therein
+  81:    1  ->  tints
+  82:    1  ->  truesight
+  83:    1  ->  wake
+  84:    1  ->  wants
+  85:    1  ->  where
+  86:    1  ->  wild
+  87:    1  ->  wing
+  88:    1  ->  with
+  89:    1  ->  woo
+  90:    1  ->  your
+     -------
+        99
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

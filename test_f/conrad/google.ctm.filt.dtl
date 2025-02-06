@@ -1,0 +1,243 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.3%   ( 107)
+
+Percent Correct           =   91.6%   ( 950)
+
+Percent Substitution      =    4.9%   (  51)
+Percent Deletions         =    3.5%   (  36)
+Percent Insertions        =    1.9%   (  20)
+Percent Word Accuracy     =   89.7%
+
+
+Ref. words                =           (1037)
+Hyp. words                =           (1021)
+Aligned words             =           (1057)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    4  ->  a ==> the
+   2:    3  ->  cent ==> oh
+   3:    3  ->  write ==> right
+   4:    2  ->  and ==> in
+   5:    1  ->  a ==> q&a
+   6:    1  ->  and ==> here
+   7:    1  ->  arrows ==> arrow
+   8:    1  ->  burying ==> burning
+   9:    1  ->  cent ==> 75
+  10:    1  ->  doorframe ==> frame
+  11:    1  ->  ducts ==> ducks
+  12:    1  ->  for ==> from
+  13:    1  ->  forests ==> forest
+  14:    1  ->  front ==> friend
+  15:    1  ->  highballs ==> balls
+  16:    1  ->  hyperapathy ==> apathy
+  17:    1  ->  i ==> that
+  18:    1  ->  i ==> they
+  19:    1  ->  it ==> estimated
+  20:    1  ->  kauffman ==> kaufman
+  21:    1  ->  my ==> a
+  22:    1  ->  one ==> i
+  23:    1  ->  philadelphia ==> philippines
+  24:    1  ->  phone ==> payphone
+  25:    1  ->  pierced ==> raypierced
+  26:    1  ->  plummet ==> it
+  27:    1  ->  pulling ==> plying
+  28:    1  ->  quaker's ==> quakers
+  29:    1  ->  scent ==> descent
+  30:    1  ->  sound ==> sent
+  31:    1  ->  streets ==> street
+  32:    1  ->  temouzi ==> tamuzi
+  33:    1  ->  that ==> nice
+  34:    1  ->  the ==> these
+  35:    1  ->  the ==> this
+  36:    1  ->  them ==> him
+  37:    1  ->  tune ==> tomb
+  38:    1  ->  two ==> ii
+  39:    1  ->  view ==> you
+  40:    1  ->  we ==> to
+  41:    1  ->  webs ==> web's
+  42:    1  ->  winners ==> winters
+  43:    1  ->  wo ==> world
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  american
+   2:    1  ->  are
+   3:    1  ->  back
+   4:    1  ->  come
+   5:    1  ->  door
+   6:    1  ->  gis
+   7:    1  ->  high
+   8:    1  ->  hundreds
+   9:    1  ->  iraq
+  10:    1  ->  of
+  11:    1  ->  oh
+  12:    1  ->  only
+  13:    1  ->  piper
+  14:    1  ->  plume
+  15:    1  ->  post
+  16:    1  ->  there
+  17:    1  ->  veterans
+  18:    1  ->  war
+  19:    1  ->  who
+  20:    1  ->  your
+     -------
+        20
+
+
+
+DELETIONS                        Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    4  ->  had
+   2:    4  ->  per
+   3:    3  ->  we
+   4:    2  ->  and
+   5:    2  ->  is
+   6:    1  ->  are
+   7:    1  ->  estimate
+   8:    1  ->  fifty
+   9:    1  ->  five
+  10:    1  ->  inst
+  11:    1  ->  k.
+  12:    1  ->  language
+  13:    1  ->  ninety
+  14:    1  ->  not
+  15:    1  ->  o.
+  16:    1  ->  of
+  17:    1  ->  only
+  18:    1  ->  pay
+  19:    1  ->  q
+  20:    1  ->  ray
+  21:    1  ->  seventy
+  22:    1  ->  ten
+  23:    1  ->  that
+  24:    1  ->  the
+  25:    1  ->  thinking
+  26:    1  ->  transportation
+     -------
+        36
+
+
+
+SUBSTITUTIONS                    Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    5  ->  a
+   2:    4  ->  cent
+   3:    3  ->  and
+   4:    3  ->  write
+   5:    2  ->  i
+   6:    2  ->  the
+   7:    1  ->  arrows
+   8:    1  ->  burying
+   9:    1  ->  doorframe
+  10:    1  ->  ducts
+  11:    1  ->  for
+  12:    1  ->  forests
+  13:    1  ->  front
+  14:    1  ->  highballs
+  15:    1  ->  hyperapathy
+  16:    1  ->  it
+  17:    1  ->  kauffman
+  18:    1  ->  my
+  19:    1  ->  one
+  20:    1  ->  philadelphia
+  21:    1  ->  phone
+  22:    1  ->  pierced
+  23:    1  ->  plummet
+  24:    1  ->  pulling
+  25:    1  ->  quaker's
+  26:    1  ->  scent
+  27:    1  ->  sound
+  28:    1  ->  streets
+  29:    1  ->  temouzi
+  30:    1  ->  that
+  31:    1  ->  them
+  32:    1  ->  tune
+  33:    1  ->  two
+  34:    1  ->  view
+  35:    1  ->  we
+  36:    1  ->  webs
+  37:    1  ->  winners
+  38:    1  ->  wo
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    4  ->  the
+   2:    3  ->  oh
+   3:    3  ->  right
+   4:    2  ->  in
+   5:    1  ->  75
+   6:    1  ->  a
+   7:    1  ->  apathy
+   8:    1  ->  arrow
+   9:    1  ->  balls
+  10:    1  ->  burning
+  11:    1  ->  descent
+  12:    1  ->  ducks
+  13:    1  ->  estimated
+  14:    1  ->  forest
+  15:    1  ->  frame
+  16:    1  ->  friend
+  17:    1  ->  from
+  18:    1  ->  here
+  19:    1  ->  him
+  20:    1  ->  i
+  21:    1  ->  ii
+  22:    1  ->  it
+  23:    1  ->  kaufman
+  24:    1  ->  nice
+  25:    1  ->  payphone
+  26:    1  ->  philippines
+  27:    1  ->  plying
+  28:    1  ->  q&a
+  29:    1  ->  quakers
+  30:    1  ->  raypierced
+  31:    1  ->  sent
+  32:    1  ->  street
+  33:    1  ->  tamuzi
+  34:    1  ->  that
+  35:    1  ->  these
+  36:    1  ->  they
+  37:    1  ->  this
+  38:    1  ->  to
+  39:    1  ->  tomb
+  40:    1  ->  web's
+  41:    1  ->  winters
+  42:    1  ->  world
+  43:    1  ->  you
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

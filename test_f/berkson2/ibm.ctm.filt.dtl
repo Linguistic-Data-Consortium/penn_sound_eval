@@ -1,0 +1,196 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.8%   (  55)
+
+Percent Correct           =   93.8%   ( 760)
+
+Percent Substitution      =    5.2%   (  42)
+Percent Deletions         =    1.0%   (   8)
+Percent Insertions        =    0.6%   (   5)
+Percent Word Accuracy     =   93.2%
+
+
+Ref. words                =           ( 810)
+Hyp. words                =           ( 807)
+Aligned words             =           ( 815)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    3  ->  in ==> and
+   2:    2  ->  elegy ==> allergy
+   3:    2  ->  gianlorenzo ==> lorenzo
+   4:    1  ->  a ==> an
+   5:    1  ->  aire ==> air
+   6:    1  ->  at ==> it
+   7:    1  ->  bare ==> bear
+   8:    1  ->  bauble ==> bubble
+   9:    1  ->  braid ==> brad
+  10:    1  ->  chemise ==> shame
+  11:    1  ->  clothed ==> closed
+  12:    1  ->  constanza ==> costanza
+  13:    1  ->  costanza's ==> costanza
+  14:    1  ->  czar ==> zar
+  15:    1  ->  distant ==> instant
+  16:    1  ->  embolden ==> bolden
+  17:    1  ->  exogeny ==> exogen
+  18:    1  ->  gtmo ==> gitmo
+  19:    1  ->  guessed ==> guess
+  20:    1  ->  it ==> mom
+  21:    1  ->  lucca ==> luca
+  22:    1  ->  mathilda's ==> matilda's
+  23:    1  ->  matteo ==> mateo
+  24:    1  ->  or ==> were
+  25:    1  ->  poem ==> form
+  26:    1  ->  poem ==> phone
+  27:    1  ->  poem ==> problem
+  28:    1  ->  rothko ==> go
+  29:    1  ->  s ==> a
+  30:    1  ->  sarah ==> serah
+  31:    1  ->  schneeman ==> scheman
+  32:    1  ->  the ==> a
+  33:    1  ->  then ==> zen
+  34:    1  ->  un ==> in
+  35:    1  ->  voila ==> avala
+  36:    1  ->  was ==> is
+  37:    1  ->  wittkower’s ==> cowers
+  38:    1  ->  zookeepers' ==> zookeepers
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  jean
+   3:    1  ->  john
+   4:    1  ->  roth
+   5:    1  ->  vit
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  et
+   2:    1  ->  is
+   3:    1  ->  moma
+   4:    1  ->  oh
+   5:    1  ->  p
+   6:    1  ->  rea
+   7:    1  ->  t
+   8:    1  ->  u
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    3  ->  in
+   2:    3  ->  poem
+   3:    2  ->  elegy
+   4:    2  ->  gianlorenzo
+   5:    1  ->  a
+   6:    1  ->  aire
+   7:    1  ->  at
+   8:    1  ->  bare
+   9:    1  ->  bauble
+  10:    1  ->  braid
+  11:    1  ->  chemise
+  12:    1  ->  clothed
+  13:    1  ->  constanza
+  14:    1  ->  costanza's
+  15:    1  ->  czar
+  16:    1  ->  distant
+  17:    1  ->  embolden
+  18:    1  ->  exogeny
+  19:    1  ->  gtmo
+  20:    1  ->  guessed
+  21:    1  ->  it
+  22:    1  ->  lucca
+  23:    1  ->  mathilda's
+  24:    1  ->  matteo
+  25:    1  ->  or
+  26:    1  ->  rothko
+  27:    1  ->  s
+  28:    1  ->  sarah
+  29:    1  ->  schneeman
+  30:    1  ->  the
+  31:    1  ->  then
+  32:    1  ->  un
+  33:    1  ->  voila
+  34:    1  ->  was
+  35:    1  ->  wittkower’s
+  36:    1  ->  zookeepers'
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    3  ->  and
+   2:    2  ->  a
+   3:    2  ->  allergy
+   4:    2  ->  costanza
+   5:    2  ->  lorenzo
+   6:    1  ->  air
+   7:    1  ->  an
+   8:    1  ->  avala
+   9:    1  ->  bear
+  10:    1  ->  bolden
+  11:    1  ->  brad
+  12:    1  ->  bubble
+  13:    1  ->  closed
+  14:    1  ->  cowers
+  15:    1  ->  exogen
+  16:    1  ->  form
+  17:    1  ->  gitmo
+  18:    1  ->  go
+  19:    1  ->  guess
+  20:    1  ->  in
+  21:    1  ->  instant
+  22:    1  ->  is
+  23:    1  ->  it
+  24:    1  ->  luca
+  25:    1  ->  mateo
+  26:    1  ->  matilda's
+  27:    1  ->  mom
+  28:    1  ->  phone
+  29:    1  ->  problem
+  30:    1  ->  scheman
+  31:    1  ->  serah
+  32:    1  ->  shame
+  33:    1  ->  were
+  34:    1  ->  zar
+  35:    1  ->  zen
+  36:    1  ->  zookeepers
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

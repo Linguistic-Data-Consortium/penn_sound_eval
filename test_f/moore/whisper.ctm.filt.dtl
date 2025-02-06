@@ -1,0 +1,131 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                         0.0%   (   0)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.8%   (  22)
+
+Percent Correct           =   97.4%   ( 764)
+
+Percent Substitution      =    2.6%   (  20)
+Percent Deletions         =    0.0%   (   0)
+Percent Insertions        =    0.3%   (   2)
+Percent Word Accuracy     =   97.2%
+
+
+Ref. words                =           ( 784)
+Hyp. words                =           ( 786)
+Aligned words             =           ( 786)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  rightness ==> ripeness
+   2:    1  ->  abandoned ==> abandon
+   3:    1  ->  an ==> and
+   4:    1  ->  and ==> an
+   5:    1  ->  caught ==> cot
+   6:    1  ->  caw ==> call
+   7:    1  ->  fenceposts ==> post
+   8:    1  ->  molding ==> moulding
+   9:    1  ->  out ==> of
+  10:    1  ->  relief ==> release
+  11:    1  ->  rioting ==> riding
+  12:    1  ->  rocked ==> rot
+  13:    1  ->  saying ==> same
+  14:    1  ->  seperation ==> separation
+  15:    1  ->  spittle ==> spittal
+  16:    1  ->  spittle ==> spittled
+  17:    1  ->  that ==> but
+  18:    1  ->  whit ==> wit
+  19:    1  ->  wrath ==> rap
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  fence
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  rightness
+   2:    2  ->  spittle
+   3:    1  ->  abandoned
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  caught
+   7:    1  ->  caw
+   8:    1  ->  fenceposts
+   9:    1  ->  molding
+  10:    1  ->  out
+  11:    1  ->  relief
+  12:    1  ->  rioting
+  13:    1  ->  rocked
+  14:    1  ->  saying
+  15:    1  ->  seperation
+  16:    1  ->  that
+  17:    1  ->  whit
+  18:    1  ->  wrath
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  ripeness
+   2:    1  ->  abandon
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  but
+   6:    1  ->  call
+   7:    1  ->  cot
+   8:    1  ->  moulding
+   9:    1  ->  of
+  10:    1  ->  post
+  11:    1  ->  rap
+  12:    1  ->  release
+  13:    1  ->  riding
+  14:    1  ->  rot
+  15:    1  ->  same
+  16:    1  ->  separation
+  17:    1  ->  spittal
+  18:    1  ->  spittled
+  19:    1  ->  wit
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

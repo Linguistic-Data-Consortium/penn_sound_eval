@@ -1,0 +1,266 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.7%   ( 172)
+
+Percent Correct           =   85.9%   (1009)
+
+Percent Substitution      =    4.6%   (  54)
+Percent Deletions         =    9.5%   ( 111)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   85.3%
+
+
+Ref. words                =           (1174)
+Hyp. words                =           (1070)
+Aligned words             =           (1181)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    3  ->  ten ==> oh
+   2:    3  ->  this ==> the
+   3:    2  ->  had ==> are
+   4:    2  ->  its ==> it's
+   5:    2  ->  twenty ==> oh
+   6:    1  ->  als ==> also
+   7:    1  ->  an ==> a
+   8:    1  ->  and ==> cemeteries
+   9:    1  ->  as ==> is
+  10:    1  ->  ass ==> mean
+  11:    1  ->  asymmetry ==> i
+  12:    1  ->  asymmetry ==> symmetry
+  13:    1  ->  attached ==> attach
+  14:    1  ->  be ==> going
+  15:    1  ->  bec ==> be
+  16:    1  ->  changed ==> change
+  17:    1  ->  combinatory ==> combinatorial
+  18:    1  ->  explanatory ==> antiexplanatory
+  19:    1  ->  find ==> be
+  20:    1  ->  i ==> might
+  21:    1  ->  if ==> yeah
+  22:    1  ->  in ==> at
+  23:    1  ->  inequity ==> inequality
+  24:    1  ->  lenin ==> limp
+  25:    1  ->  limp ==> in
+  26:    1  ->  many ==> informative
+  27:    1  ->  merit ==> marriage
+  28:    1  ->  notes ==> this
+  29:    1  ->  one ==> anyone
+  30:    1  ->  other's ==> others
+  31:    1  ->  paragraph ==> good
+  32:    1  ->  poems ==> cones
+  33:    1  ->  points ==> like
+  34:    1  ->  puns ==> funds
+  35:    1  ->  quivery ==> quivorous
+  36:    1  ->  so ==> and
+  37:    1  ->  so ==> gorge
+  38:    1  ->  some ==> sort
+  39:    1  ->  stasis ==> antistasis
+  40:    1  ->  symmetricality ==> symmetry
+  41:    1  ->  tha ==> that
+  42:    1  ->  that ==> oh
+  43:    1  ->  then ==> and
+  44:    1  ->  though ==> through
+  45:    1  ->  to ==> you
+  46:    1  ->  we ==> way
+  47:    1  ->  whereas ==> so
+     -------
+        54
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  i
+   2:    1  ->  about
+   3:    1  ->  david
+   4:    1  ->  it
+   5:    1  ->  that
+   6:    1  ->  with
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    9  ->  %bcack
+   2:    8  ->  you
+   3:    7  ->  i
+   4:    5  ->  in
+   5:    5  ->  no
+   6:    4  ->  and
+   7:    4  ->  know
+   8:    4  ->  they
+   9:    4  ->  yeah
+  10:    3  ->  a
+  11:    3  ->  are
+  12:    3  ->  he
+  13:    3  ->  that
+  14:    2  ->  an
+  15:    2  ->  anti
+  16:    2  ->  but
+  17:    2  ->  it
+  18:    2  ->  it's
+  19:    2  ->  sort
+  20:    2  ->  the
+  21:    2  ->  to
+  22:    2  ->  x
+  23:    1  ->  any
+  24:    1  ->  as
+  25:    1  ->  ending
+  26:    1  ->  engorged
+  27:    1  ->  ess
+  28:    1  ->  go
+  29:    1  ->  just
+  30:    1  ->  like
+  31:    1  ->  lots
+  32:    1  ->  make
+  33:    1  ->  n
+  34:    1  ->  not
+  35:    1  ->  now
+  36:    1  ->  of
+  37:    1  ->  oh
+  38:    1  ->  on
+  39:    1  ->  right
+  40:    1  ->  see
+  41:    1  ->  should
+  42:    1  ->  symmetries
+  43:    1  ->  symmetry
+  44:    1  ->  there
+  45:    1  ->  up
+  46:    1  ->  various
+  47:    1  ->  w
+  48:    1  ->  were
+  49:    1  ->  will
+  50:    1  ->  wit
+  51:    1  ->  within
+  52:    1  ->  ye
+  53:    1  ->  yo
+     -------
+       111
+
+
+
+SUBSTITUTIONS                    Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    3  ->  ten
+   2:    3  ->  this
+   3:    2  ->  asymmetry
+   4:    2  ->  had
+   5:    2  ->  its
+   6:    2  ->  so
+   7:    2  ->  twenty
+   8:    1  ->  als
+   9:    1  ->  an
+  10:    1  ->  and
+  11:    1  ->  as
+  12:    1  ->  ass
+  13:    1  ->  attached
+  14:    1  ->  be
+  15:    1  ->  bec
+  16:    1  ->  changed
+  17:    1  ->  combinatory
+  18:    1  ->  explanatory
+  19:    1  ->  find
+  20:    1  ->  i
+  21:    1  ->  if
+  22:    1  ->  in
+  23:    1  ->  inequity
+  24:    1  ->  lenin
+  25:    1  ->  limp
+  26:    1  ->  many
+  27:    1  ->  merit
+  28:    1  ->  notes
+  29:    1  ->  one
+  30:    1  ->  other's
+  31:    1  ->  paragraph
+  32:    1  ->  poems
+  33:    1  ->  points
+  34:    1  ->  puns
+  35:    1  ->  quivery
+  36:    1  ->  some
+  37:    1  ->  stasis
+  38:    1  ->  symmetricality
+  39:    1  ->  tha
+  40:    1  ->  that
+  41:    1  ->  then
+  42:    1  ->  though
+  43:    1  ->  to
+  44:    1  ->  we
+  45:    1  ->  whereas
+     -------
+        54
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    6  ->  oh
+   2:    3  ->  the
+   3:    2  ->  and
+   4:    2  ->  are
+   5:    2  ->  be
+   6:    2  ->  it's
+   7:    2  ->  symmetry
+   8:    1  ->  a
+   9:    1  ->  also
+  10:    1  ->  antiexplanatory
+  11:    1  ->  antistasis
+  12:    1  ->  anyone
+  13:    1  ->  at
+  14:    1  ->  attach
+  15:    1  ->  cemeteries
+  16:    1  ->  change
+  17:    1  ->  combinatorial
+  18:    1  ->  cones
+  19:    1  ->  funds
+  20:    1  ->  going
+  21:    1  ->  good
+  22:    1  ->  gorge
+  23:    1  ->  i
+  24:    1  ->  in
+  25:    1  ->  inequality
+  26:    1  ->  informative
+  27:    1  ->  is
+  28:    1  ->  like
+  29:    1  ->  limp
+  30:    1  ->  marriage
+  31:    1  ->  mean
+  32:    1  ->  might
+  33:    1  ->  others
+  34:    1  ->  quivorous
+  35:    1  ->  so
+  36:    1  ->  sort
+  37:    1  ->  that
+  38:    1  ->  this
+  39:    1  ->  through
+  40:    1  ->  way
+  41:    1  ->  yeah
+  42:    1  ->  you
+     -------
+        54
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

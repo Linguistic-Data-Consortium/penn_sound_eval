@@ -1,0 +1,234 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.2%   (  80)
+
+Percent Correct           =   93.4%   (1041)
+
+Percent Substitution      =    4.2%   (  47)
+Percent Deletions         =    2.3%   (  26)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   92.8%
+
+
+Ref. words                =           (1114)
+Hyp. words                =           (1095)
+Aligned words             =           (1121)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    3  ->  garnett ==> garnet
+   2:    1  ->  again ==> and
+   3:    1  ->  along ==> on
+   4:    1  ->  and ==> but
+   5:    1  ->  anew ==> new
+   6:    1  ->  ar ==> art
+   7:    1  ->  artists ==> is
+   8:    1  ->  bit ==> it
+   9:    1  ->  conscious ==> selfconscious
+  10:    1  ->  culls ==> calls
+  11:    1  ->  culmney ==> macroeconomics
+  12:    1  ->  damien ==> damian
+  13:    1  ->  during ==> and
+  14:    1  ->  flash ==> flesh
+  15:    1  ->  garnett ==> garnette
+  16:    1  ->  god ==> could
+  17:    1  ->  hard ==> hard"
+  18:    1  ->  hearst ==> hirst
+  19:    1  ->  i ==> you
+  20:    1  ->  intellectual ==> intellectuals
+  21:    1  ->  into ==> in
+  22:    1  ->  it ==> somatize
+  23:    1  ->  it's ==> installation
+  24:    1  ->  kitsch ==> kitch
+  25:    1  ->  mak ==> making
+  26:    1  ->  mark ==> market
+  27:    1  ->  obser ==> persons
+  28:    1  ->  or ==> of
+  29:    1  ->  person's ==> and
+  30:    1  ->  resistance ==> "resistance
+  31:    1  ->  said ==> says
+  32:    1  ->  seductive ==> productive
+  33:    1  ->  side ==> sidebyside
+  34:    1  ->  smiths ==> smith
+  35:    1  ->  smiths' ==> smith's
+  36:    1  ->  someone ==> how
+  37:    1  ->  stock ==> stock"
+  38:    1  ->  tell ==> tells
+  39:    1  ->  that ==> something
+  40:    1  ->  though ==> thought
+  41:    1  ->  to ==> he
+  42:    1  ->  vulgar ==> volder
+  43:    1  ->  who's ==> as
+  44:    1  ->  x ==> no
+  45:    1  ->  yes ==> "yes
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  art
+   3:    1  ->  her
+   4:    1  ->  not
+   5:    1  ->  of
+   6:    1  ->  some
+   7:    1  ->  that's
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  a
+   2:    2  ->  it
+   3:    2  ->  not
+   4:    2  ->  the
+   5:    1  ->  and
+   6:    1  ->  b
+   7:    1  ->  bo
+   8:    1  ->  by
+   9:    1  ->  ex
+  10:    1  ->  fil
+  11:    1  ->  how
+  12:    1  ->  installati
+  13:    1  ->  it's
+  14:    1  ->  murra
+  15:    1  ->  o
+  16:    1  ->  of
+  17:    1  ->  self
+  18:    1  ->  side
+  19:    1  ->  somaticize
+  20:    1  ->  that
+  21:    1  ->  they
+  22:    1  ->  we
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    4  ->  garnett
+   2:    1  ->  again
+   3:    1  ->  along
+   4:    1  ->  and
+   5:    1  ->  anew
+   6:    1  ->  ar
+   7:    1  ->  artists
+   8:    1  ->  bit
+   9:    1  ->  conscious
+  10:    1  ->  culls
+  11:    1  ->  culmney
+  12:    1  ->  damien
+  13:    1  ->  during
+  14:    1  ->  flash
+  15:    1  ->  god
+  16:    1  ->  hard
+  17:    1  ->  hearst
+  18:    1  ->  i
+  19:    1  ->  intellectual
+  20:    1  ->  into
+  21:    1  ->  it
+  22:    1  ->  it's
+  23:    1  ->  kitsch
+  24:    1  ->  mak
+  25:    1  ->  mark
+  26:    1  ->  obser
+  27:    1  ->  or
+  28:    1  ->  person's
+  29:    1  ->  resistance
+  30:    1  ->  said
+  31:    1  ->  seductive
+  32:    1  ->  side
+  33:    1  ->  smiths
+  34:    1  ->  smiths'
+  35:    1  ->  someone
+  36:    1  ->  stock
+  37:    1  ->  tell
+  38:    1  ->  that
+  39:    1  ->  though
+  40:    1  ->  to
+  41:    1  ->  vulgar
+  42:    1  ->  who's
+  43:    1  ->  x
+  44:    1  ->  yes
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    3  ->  and
+   2:    3  ->  garnet
+   3:    1  ->  "resistance
+   4:    1  ->  "yes
+   5:    1  ->  art
+   6:    1  ->  as
+   7:    1  ->  but
+   8:    1  ->  calls
+   9:    1  ->  could
+  10:    1  ->  damian
+  11:    1  ->  flesh
+  12:    1  ->  garnette
+  13:    1  ->  hard"
+  14:    1  ->  he
+  15:    1  ->  hirst
+  16:    1  ->  how
+  17:    1  ->  in
+  18:    1  ->  installation
+  19:    1  ->  intellectuals
+  20:    1  ->  is
+  21:    1  ->  it
+  22:    1  ->  kitch
+  23:    1  ->  macroeconomics
+  24:    1  ->  making
+  25:    1  ->  market
+  26:    1  ->  new
+  27:    1  ->  no
+  28:    1  ->  of
+  29:    1  ->  on
+  30:    1  ->  persons
+  31:    1  ->  productive
+  32:    1  ->  says
+  33:    1  ->  selfconscious
+  34:    1  ->  sidebyside
+  35:    1  ->  smith
+  36:    1  ->  smith's
+  37:    1  ->  somatize
+  38:    1  ->  something
+  39:    1  ->  stock"
+  40:    1  ->  tells
+  41:    1  ->  thought
+  42:    1  ->  volder
+  43:    1  ->  you
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

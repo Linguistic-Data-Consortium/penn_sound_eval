@@ -1,0 +1,134 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.3%   (  50)
+
+Percent Correct           =   94.8%   ( 899)
+
+Percent Substitution      =    1.6%   (  15)
+Percent Deletions         =    3.6%   (  34)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   94.7%
+
+
+Ref. words                =           ( 948)
+Hyp. words                =           ( 915)
+Aligned words             =           ( 949)
+
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  soprano ==> mezzosoprano
+   2:    2  ->  syringa ==> seringa
+   3:    1  ->  an ==> and
+   4:    1  ->  and ==> but
+   5:    1  ->  elliott ==> elliot
+   6:    1  ->  not ==> no
+   7:    1  ->  rounded ==> wellrounded
+   8:    1  ->  shall ==> should
+   9:    1  ->  shown ==> shone
+  10:    1  ->  sounding ==> poeticsounding
+  11:    1  ->  syringa ==> the
+  12:    1  ->  the ==> a
+  13:    1  ->  would ==> will
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  seringa
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    5  ->  a
+   2:    4  ->  i
+   3:    3  ->  and
+   4:    2  ->  it
+   5:    2  ->  mezzo
+   6:    2  ->  of
+   7:    1  ->  did
+   8:    1  ->  going
+   9:    1  ->  had
+  10:    1  ->  in
+  11:    1  ->  not
+  12:    1  ->  p
+  13:    1  ->  poetic
+  14:    1  ->  r
+  15:    1  ->  seems
+  16:    1  ->  so
+  17:    1  ->  stop
+  18:    1  ->  that
+  19:    1  ->  to
+  20:    1  ->  well
+  21:    1  ->  when
+  22:    1  ->  x
+     -------
+        34
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  syringa
+   2:    2  ->  soprano
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  elliott
+   6:    1  ->  not
+   7:    1  ->  rounded
+   8:    1  ->  shall
+   9:    1  ->  shown
+  10:    1  ->  sounding
+  11:    1  ->  the
+  12:    1  ->  would
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  mezzosoprano
+   2:    2  ->  seringa
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  but
+   6:    1  ->  elliot
+   7:    1  ->  no
+   8:    1  ->  poeticsounding
+   9:    1  ->  shone
+  10:    1  ->  should
+  11:    1  ->  the
+  12:    1  ->  wellrounded
+  13:    1  ->  will
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

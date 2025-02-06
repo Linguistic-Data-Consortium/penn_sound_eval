@@ -1,0 +1,135 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.4%   (  27)
+
+Percent Correct           =   98.1%   (1113)
+
+Percent Substitution      =    1.7%   (  19)
+Percent Deletions         =    0.3%   (   3)
+Percent Insertions        =    0.4%   (   5)
+Percent Word Accuracy     =   97.6%
+
+
+Ref. words                =           (1135)
+Hyp. words                =           (1137)
+Aligned words             =           (1140)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  arc ==> ark
+   2:    1  ->  acquired ==> required
+   3:    1  ->  bent ==> spent
+   4:    1  ->  cutoff ==> off
+   5:    1  ->  elbows ==> elbow
+   6:    1  ->  feet ==> ft
+   7:    1  ->  from ==> in
+   8:    1  ->  inset ==> inside
+   9:    1  ->  ladder ==> latter
+  10:    1  ->  motorbike ==> bike
+  11:    1  ->  resolve ==> resolved
+  12:    1  ->  say ==> see
+  13:    1  ->  self ==> oneself
+  14:    1  ->  ten ==> oh
+  15:    1  ->  the ==> for
+  16:    1  ->  twenty ==> two
+  17:    1  ->  unslings ==> slings
+  18:    1  ->  until ==> till
+     -------
+        19
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  cut
+   2:    1  ->  k.
+   3:    1  ->  motor
+   4:    1  ->  o.
+   5:    1  ->  un
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  as
+   2:    1  ->  one's
+   3:    1  ->  th
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  arc
+   2:    1  ->  acquired
+   3:    1  ->  bent
+   4:    1  ->  cutoff
+   5:    1  ->  elbows
+   6:    1  ->  feet
+   7:    1  ->  from
+   8:    1  ->  inset
+   9:    1  ->  ladder
+  10:    1  ->  motorbike
+  11:    1  ->  resolve
+  12:    1  ->  say
+  13:    1  ->  self
+  14:    1  ->  ten
+  15:    1  ->  the
+  16:    1  ->  twenty
+  17:    1  ->  unslings
+  18:    1  ->  until
+     -------
+        19
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  ark
+   2:    1  ->  bike
+   3:    1  ->  elbow
+   4:    1  ->  for
+   5:    1  ->  ft
+   6:    1  ->  in
+   7:    1  ->  inside
+   8:    1  ->  latter
+   9:    1  ->  off
+  10:    1  ->  oh
+  11:    1  ->  oneself
+  12:    1  ->  required
+  13:    1  ->  resolved
+  14:    1  ->  see
+  15:    1  ->  slings
+  16:    1  ->  spent
+  17:    1  ->  till
+  18:    1  ->  two
+     -------
+        19
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

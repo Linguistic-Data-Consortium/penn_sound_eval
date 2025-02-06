@@ -1,0 +1,241 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.3%   (  78)
+
+Percent Correct           =   93.8%   ( 996)
+
+Percent Substitution      =    5.3%   (  56)
+Percent Deletions         =    0.9%   (  10)
+Percent Insertions        =    1.1%   (  12)
+Percent Word Accuracy     =   92.7%
+
+
+Ref. words                =           (1062)
+Hyp. words                =           (1064)
+Aligned words             =           (1074)
+
+CONFUSION PAIRS                  Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    2  ->  eleven ==> one
+   2:    2  ->  in ==> and
+   3:    2  ->  leaf ==> belief
+   4:    2  ->  twelve ==> two
+   5:    1  ->  a ==> the
+   6:    1  ->  aloft ==> loft
+   7:    1  ->  and ==> his
+   8:    1  ->  australias ==> australia's
+   9:    1  ->  call ==> called
+  10:    1  ->  calls ==> the
+  11:    1  ->  choses ==> chooses
+  12:    1  ->  clenches ==> clinches
+  13:    1  ->  coactivations ==> activations
+  14:    1  ->  com ==> journalcom
+  15:    1  ->  die ==> died
+  16:    1  ->  downward ==> downwards
+  17:    1  ->  end ==> and
+  18:    1  ->  etiolated ==> ated
+  19:    1  ->  face ==> base
+  20:    1  ->  face ==> space
+  21:    1  ->  feral ==> fu
+  22:    1  ->  filled ==> film
+  23:    1  ->  gentler ==> arc
+  24:    1  ->  he's ==> these
+  25:    1  ->  herbs ==> birds
+  26:    1  ->  hundred ==> zero
+  27:    1  ->  illustrated ==> illustrative
+  28:    1  ->  its ==> it's
+  29:    1  ->  leaves ==> assemblies
+  30:    1  ->  malick ==> malik
+  31:    1  ->  martial ==> al
+  32:    1  ->  matte ==> map
+  33:    1  ->  mauled ==> mulled
+  34:    1  ->  maw ==> ma
+  35:    1  ->  mclaughlan ==> mclaughlin
+  36:    1  ->  ninety ==> nine
+  37:    1  ->  not ==> knot
+  38:    1  ->  opened ==> open
+  39:    1  ->  pall ==> paul
+  40:    1  ->  piqued ==> peaked
+  41:    1  ->  ploat ==> float
+  42:    1  ->  seventeen ==> seven
+  43:    1  ->  sprig ==> spring
+  44:    1  ->  squealed ==> wheels
+  45:    1  ->  stat ==> stacked
+  46:    1  ->  sun ==> ronald
+  47:    1  ->  tax ==> text
+  48:    1  ->  ten ==> oh
+  49:    1  ->  terrence ==> terrance
+  50:    1  ->  the ==> arc
+  51:    1  ->  the ==> this
+  52:    1  ->  throve ==> throw
+     -------
+        56
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    5  ->  one
+   2:    1  ->  a
+   3:    1  ->  called
+   4:    1  ->  co
+   5:    1  ->  gentle
+   6:    1  ->  in
+   7:    1  ->  the
+   8:    1  ->  woo
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  of
+   2:    1  ->  and
+   3:    1  ->  dot
+   4:    1  ->  he
+   5:    1  ->  her
+   6:    1  ->  hop
+   7:    1  ->  journal
+   8:    1  ->  ronnel
+   9:    1  ->  the
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (50)
+                                 With >=  1 occurrences (50)
+
+   1:    2  ->  eleven
+   2:    2  ->  face
+   3:    2  ->  in
+   4:    2  ->  leaf
+   5:    2  ->  the
+   6:    2  ->  twelve
+   7:    1  ->  a
+   8:    1  ->  aloft
+   9:    1  ->  and
+  10:    1  ->  australias
+  11:    1  ->  call
+  12:    1  ->  calls
+  13:    1  ->  choses
+  14:    1  ->  clenches
+  15:    1  ->  coactivations
+  16:    1  ->  com
+  17:    1  ->  die
+  18:    1  ->  downward
+  19:    1  ->  end
+  20:    1  ->  etiolated
+  21:    1  ->  feral
+  22:    1  ->  filled
+  23:    1  ->  gentler
+  24:    1  ->  he's
+  25:    1  ->  herbs
+  26:    1  ->  hundred
+  27:    1  ->  illustrated
+  28:    1  ->  its
+  29:    1  ->  leaves
+  30:    1  ->  malick
+  31:    1  ->  martial
+  32:    1  ->  matte
+  33:    1  ->  mauled
+  34:    1  ->  maw
+  35:    1  ->  mclaughlan
+  36:    1  ->  ninety
+  37:    1  ->  not
+  38:    1  ->  opened
+  39:    1  ->  pall
+  40:    1  ->  piqued
+  41:    1  ->  ploat
+  42:    1  ->  seventeen
+  43:    1  ->  sprig
+  44:    1  ->  squealed
+  45:    1  ->  stat
+  46:    1  ->  sun
+  47:    1  ->  tax
+  48:    1  ->  ten
+  49:    1  ->  terrence
+  50:    1  ->  throve
+     -------
+        56
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    3  ->  and
+   2:    2  ->  arc
+   3:    2  ->  belief
+   4:    2  ->  one
+   5:    2  ->  the
+   6:    2  ->  two
+   7:    1  ->  activations
+   8:    1  ->  al
+   9:    1  ->  assemblies
+  10:    1  ->  ated
+  11:    1  ->  australia's
+  12:    1  ->  base
+  13:    1  ->  birds
+  14:    1  ->  called
+  15:    1  ->  chooses
+  16:    1  ->  clinches
+  17:    1  ->  died
+  18:    1  ->  downwards
+  19:    1  ->  film
+  20:    1  ->  float
+  21:    1  ->  fu
+  22:    1  ->  his
+  23:    1  ->  illustrative
+  24:    1  ->  it's
+  25:    1  ->  journalcom
+  26:    1  ->  knot
+  27:    1  ->  loft
+  28:    1  ->  ma
+  29:    1  ->  malik
+  30:    1  ->  map
+  31:    1  ->  mclaughlin
+  32:    1  ->  mulled
+  33:    1  ->  nine
+  34:    1  ->  oh
+  35:    1  ->  open
+  36:    1  ->  paul
+  37:    1  ->  peaked
+  38:    1  ->  ronald
+  39:    1  ->  seven
+  40:    1  ->  space
+  41:    1  ->  spring
+  42:    1  ->  stacked
+  43:    1  ->  terrance
+  44:    1  ->  text
+  45:    1  ->  these
+  46:    1  ->  this
+  47:    1  ->  throw
+  48:    1  ->  wheels
+  49:    1  ->  zero
+     -------
+        56
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

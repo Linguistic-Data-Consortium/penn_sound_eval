@@ -1,0 +1,156 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.3%   (  40)
+
+Percent Correct           =   96.3%   ( 897)
+
+Percent Substitution      =    3.3%   (  31)
+Percent Deletions         =    0.3%   (   3)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   95.7%
+
+
+Ref. words                =           ( 931)
+Hyp. words                =           ( 934)
+Aligned words             =           ( 937)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  seven ==> 7
+   2:    2  ->  twenty ==> two
+   3:    1  ->  a ==> of
+   4:    1  ->  asl ==> als
+   5:    1  ->  betray ==> betrayed
+   6:    1  ->  cerebration ==> celebration
+   7:    1  ->  conquistad ==> conor
+   8:    1  ->  could ==> can
+   9:    1  ->  eight ==> 28
+  10:    1  ->  eight ==> 88
+  11:    1  ->  eighteen ==> eight
+  12:    1  ->  eighty ==> one
+  13:    1  ->  eleven ==> one
+  14:    1  ->  forgo ==> forego
+  15:    1  ->  fourteen ==> four
+  16:    1  ->  grave ==> engraved
+  17:    1  ->  in ==> an
+  18:    1  ->  in ==> and
+  19:    1  ->  of ==> a
+  20:    1  ->  ruined ==> really
+  21:    1  ->  sanjo's ==> andrews'
+  22:    1  ->  seventeen ==> seven
+  23:    1  ->  terrai ==> terrain
+  24:    1  ->  that ==> of
+  25:    1  ->  thirteen ==> three
+  26:    1  ->  to ==> of
+  27:    1  ->  twenty ==> 7
+  28:    1  ->  weeping ==> reaping
+     -------
+        31
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    4  ->  one
+   2:    1  ->  of
+   3:    1  ->  these
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  in
+   2:    1  ->  res
+   3:    1  ->  seven
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  seven
+   2:    3  ->  twenty
+   3:    2  ->  eight
+   4:    2  ->  in
+   5:    1  ->  a
+   6:    1  ->  asl
+   7:    1  ->  betray
+   8:    1  ->  cerebration
+   9:    1  ->  conquistad
+  10:    1  ->  could
+  11:    1  ->  eighteen
+  12:    1  ->  eighty
+  13:    1  ->  eleven
+  14:    1  ->  forgo
+  15:    1  ->  fourteen
+  16:    1  ->  grave
+  17:    1  ->  of
+  18:    1  ->  ruined
+  19:    1  ->  sanjo's
+  20:    1  ->  seventeen
+  21:    1  ->  terrai
+  22:    1  ->  that
+  23:    1  ->  thirteen
+  24:    1  ->  to
+  25:    1  ->  weeping
+     -------
+        31
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    4  ->  7
+   2:    3  ->  of
+   3:    2  ->  one
+   4:    2  ->  two
+   5:    1  ->  28
+   6:    1  ->  88
+   7:    1  ->  a
+   8:    1  ->  als
+   9:    1  ->  an
+  10:    1  ->  and
+  11:    1  ->  andrews'
+  12:    1  ->  betrayed
+  13:    1  ->  can
+  14:    1  ->  celebration
+  15:    1  ->  conor
+  16:    1  ->  eight
+  17:    1  ->  engraved
+  18:    1  ->  forego
+  19:    1  ->  four
+  20:    1  ->  really
+  21:    1  ->  reaping
+  22:    1  ->  seven
+  23:    1  ->  terrain
+  24:    1  ->  three
+     -------
+        31
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

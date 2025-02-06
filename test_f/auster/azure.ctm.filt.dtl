@@ -1,0 +1,134 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.5%   (  27)
+
+Percent Correct           =   97.7%   (1043)
+
+Percent Substitution      =    1.9%   (  20)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   97.5%
+
+
+Ref. words                =           (1068)
+Hyp. words                =           (1065)
+Aligned words             =           (1070)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  is ==> 's
+   2:    1  ->  a ==> the
+   3:    1  ->  address ==> dress
+   4:    1  ->  alecks ==> alex
+   5:    1  ->  astounding ==> astounded
+   6:    1  ->  hustvedt ==> hustvent
+   7:    1  ->  is ==> behaviors
+   8:    1  ->  law ==> sisterinlaw
+   9:    1  ->  mail ==> male
+  10:    1  ->  marveled ==> marvelled
+  11:    1  ->  morgan's ==> 's
+  12:    1  ->  oh ==> zero
+  13:    1  ->  siri ==> syria
+  14:    1  ->  siri's ==> siri
+  15:    1  ->  then ==> them
+  16:    1  ->  who ==> i
+  17:    1  ->  written ==> typewritten
+  18:    1  ->  x ==> or
+  19:    1  ->  x ==> ours
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  morgan
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  behavior
+   2:    1  ->  conversation
+   3:    1  ->  in
+   4:    1  ->  sister
+   5:    1  ->  type
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    3  ->  is
+   2:    2  ->  x
+   3:    1  ->  a
+   4:    1  ->  address
+   5:    1  ->  alecks
+   6:    1  ->  astounding
+   7:    1  ->  hustvedt
+   8:    1  ->  law
+   9:    1  ->  mail
+  10:    1  ->  marveled
+  11:    1  ->  morgan's
+  12:    1  ->  oh
+  13:    1  ->  siri
+  14:    1  ->  siri's
+  15:    1  ->  then
+  16:    1  ->  who
+  17:    1  ->  written
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    3  ->  's
+   2:    1  ->  alex
+   3:    1  ->  astounded
+   4:    1  ->  behaviors
+   5:    1  ->  dress
+   6:    1  ->  hustvent
+   7:    1  ->  i
+   8:    1  ->  male
+   9:    1  ->  marvelled
+  10:    1  ->  or
+  11:    1  ->  ours
+  12:    1  ->  siri
+  13:    1  ->  sisterinlaw
+  14:    1  ->  syria
+  15:    1  ->  the
+  16:    1  ->  them
+  17:    1  ->  typewritten
+  18:    1  ->  zero
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

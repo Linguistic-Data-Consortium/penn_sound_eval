@@ -1,0 +1,247 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.2%   ( 108)
+
+Percent Correct           =   88.0%   ( 718)
+
+Percent Substitution      =    5.3%   (  43)
+Percent Deletions         =    6.7%   (  55)
+Percent Insertions        =    1.2%   (  10)
+Percent Word Accuracy     =   86.8%
+
+
+Ref. words                =           ( 816)
+Hyp. words                =           ( 771)
+Aligned words             =           ( 826)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  chez ==> say
+   2:    2  ->  feet ==> ft
+   3:    2  ->  guerneville ==> gurnville
+   4:    2  ->  whalen ==> whalin
+   5:    1  ->  and ==> in
+   6:    1  ->  bearing ==> seedbearing
+   7:    1  ->  been ==> nothing
+   8:    1  ->  blacklight ==> light
+   9:    1  ->  br ==> brother
+  10:    1  ->  bromeliads ==> million
+  11:    1  ->  class ==> middleclass
+  12:    1  ->  coffeepot ==> pot
+  13:    1  ->  do ==> "do
+  14:    1  ->  downstairs ==> downstairs"
+  15:    1  ->  forty ==> four
+  16:    1  ->  frances ==> francis
+  17:    1  ->  globetrotters ==> trotters
+  18:    1  ->  grew ==> a
+  19:    1  ->  have ==> right
+  20:    1  ->  in ==> on
+  21:    1  ->  jeanne ==> jean
+  22:    1  ->  jimi ==> jimmy
+  23:    1  ->  living ==> everliving
+  24:    1  ->  mo ==> moved
+  25:    1  ->  on ==> in
+  26:    1  ->  pelted ==> peltate
+  27:    1  ->  redwoods ==> redwood
+  28:    1  ->  sempervirens ==> semperverens
+  29:    1  ->  sierras ==> sierra
+  30:    1  ->  sorry ==> mean
+  31:    1  ->  souther ==> southern
+  32:    1  ->  stolichnaya ==> louis
+  33:    1  ->  then ==> and
+  34:    1  ->  thirty ==> three
+  35:    1  ->  thousand ==> 90000
+  36:    1  ->  until ==> till
+  37:    1  ->  was ==> it's
+  38:    1  ->  wife ==> exwife
+  39:    1  ->  woods ==> redwood
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  black
+   3:    1  ->  coffee
+   4:    1  ->  globe
+   5:    1  ->  group
+   6:    1  ->  of
+   7:    1  ->  see
+   8:    1  ->  st
+   9:    1  ->  what
+  10:    1  ->  you
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    3  ->  i
+   2:    2  ->  all
+   3:    2  ->  in
+   4:    2  ->  it
+   5:    2  ->  yeah
+   6:    1  ->  a
+   7:    1  ->  am
+   8:    1  ->  br
+   9:    1  ->  course
+  10:    1  ->  ever
+  11:    1  ->  ex
+  12:    1  ->  f
+  13:    1  ->  here
+  14:    1  ->  if
+  15:    1  ->  is
+  16:    1  ->  it's
+  17:    1  ->  items
+  18:    1  ->  k.
+  19:    1  ->  katrina
+  20:    1  ->  like
+  21:    1  ->  middle
+  22:    1  ->  might
+  23:    1  ->  mike
+  24:    1  ->  my
+  25:    1  ->  ninety
+  26:    1  ->  no
+  27:    1  ->  not
+  28:    1  ->  o.
+  29:    1  ->  of
+  30:    1  ->  one
+  31:    1  ->  ph
+  32:    1  ->  red
+  33:    1  ->  right
+  34:    1  ->  rita
+  35:    1  ->  seed
+  36:    1  ->  shuffle
+  37:    1  ->  stove
+  38:    1  ->  tha
+  39:    1  ->  the
+  40:    1  ->  there's
+  41:    1  ->  wagon
+  42:    1  ->  want
+  43:    1  ->  water
+  44:    1  ->  welcome
+  45:    1  ->  well
+  46:    1  ->  wilma
+  47:    1  ->  wooden
+  48:    1  ->  y
+  49:    1  ->  you
+     -------
+        55
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  chez
+   2:    2  ->  feet
+   3:    2  ->  guerneville
+   4:    2  ->  whalen
+   5:    1  ->  and
+   6:    1  ->  bearing
+   7:    1  ->  been
+   8:    1  ->  blacklight
+   9:    1  ->  br
+  10:    1  ->  bromeliads
+  11:    1  ->  class
+  12:    1  ->  coffeepot
+  13:    1  ->  do
+  14:    1  ->  downstairs
+  15:    1  ->  forty
+  16:    1  ->  frances
+  17:    1  ->  globetrotters
+  18:    1  ->  grew
+  19:    1  ->  have
+  20:    1  ->  in
+  21:    1  ->  jeanne
+  22:    1  ->  jimi
+  23:    1  ->  living
+  24:    1  ->  mo
+  25:    1  ->  on
+  26:    1  ->  pelted
+  27:    1  ->  redwoods
+  28:    1  ->  sempervirens
+  29:    1  ->  sierras
+  30:    1  ->  sorry
+  31:    1  ->  souther
+  32:    1  ->  stolichnaya
+  33:    1  ->  then
+  34:    1  ->  thirty
+  35:    1  ->  thousand
+  36:    1  ->  until
+  37:    1  ->  was
+  38:    1  ->  wife
+  39:    1  ->  woods
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  ft
+   2:    2  ->  gurnville
+   3:    2  ->  in
+   4:    2  ->  redwood
+   5:    2  ->  say
+   6:    2  ->  whalin
+   7:    1  ->  "do
+   8:    1  ->  90000
+   9:    1  ->  a
+  10:    1  ->  and
+  11:    1  ->  brother
+  12:    1  ->  downstairs"
+  13:    1  ->  everliving
+  14:    1  ->  exwife
+  15:    1  ->  four
+  16:    1  ->  francis
+  17:    1  ->  it's
+  18:    1  ->  jean
+  19:    1  ->  jimmy
+  20:    1  ->  light
+  21:    1  ->  louis
+  22:    1  ->  mean
+  23:    1  ->  middleclass
+  24:    1  ->  million
+  25:    1  ->  moved
+  26:    1  ->  nothing
+  27:    1  ->  on
+  28:    1  ->  peltate
+  29:    1  ->  pot
+  30:    1  ->  right
+  31:    1  ->  seedbearing
+  32:    1  ->  semperverens
+  33:    1  ->  sierra
+  34:    1  ->  southern
+  35:    1  ->  three
+  36:    1  ->  till
+  37:    1  ->  trotters
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

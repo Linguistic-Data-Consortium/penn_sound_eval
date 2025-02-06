@@ -1,0 +1,187 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.3%   (  52)
+
+Percent Correct           =   95.9%   ( 939)
+
+Percent Substitution      =    3.7%   (  36)
+Percent Deletions         =    0.4%   (   4)
+Percent Insertions        =    1.2%   (  12)
+Percent Word Accuracy     =   94.7%
+
+
+Ref. words                =           ( 979)
+Hyp. words                =           ( 987)
+Aligned words             =           ( 991)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  grandmama's ==> 's
+   2:    1  ->  ailing ==> in
+   3:    1  ->  bellay ==> ballet
+   4:    1  ->  bewitched ==> bewitch
+   5:    1  ->  boll ==> bull
+   6:    1  ->  coltraine ==> coltrane
+   7:    1  ->  dino's ==> 's
+   8:    1  ->  du ==> do
+   9:    1  ->  ghost ==> ghosts
+  10:    1  ->  grandma's ==> 's
+  11:    1  ->  high ==> hi
+  12:    1  ->  in ==> and
+  13:    1  ->  is ==> 's
+  14:    1  ->  jump ==> jumped
+  15:    1  ->  martyr ==> martyrs
+  16:    1  ->  minks ==> minx
+  17:    1  ->  montigo ==> montego
+  18:    1  ->  one's ==> 's
+  19:    1  ->  past ==> passed
+  20:    1  ->  pay ==> helipay
+  21:    1  ->  prez ==> prayers
+  22:    1  ->  raps ==> rats
+  23:    1  ->  shearling ==> shirling
+  24:    1  ->  slims ==> slim
+  25:    1  ->  steal ==> still
+  26:    1  ->  threatened ==> threaten
+  27:    1  ->  today ==> day
+  28:    1  ->  today ==> to
+  29:    1  ->  turncoats ==> coach
+  30:    1  ->  vines ==> vons
+  31:    1  ->  weevil ==> weeble
+  32:    1  ->  wheelchair ==> chair
+  33:    1  ->  windowsill ==> sill
+  34:    1  ->  woes ==> wolves
+  35:    1  ->  yvonda's ==> 's
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  grandmama
+   2:    1  ->  ale
+   3:    1  ->  day
+   4:    1  ->  dino
+   5:    1  ->  grandma
+   6:    1  ->  one
+   7:    1  ->  to
+   8:    1  ->  turn
+   9:    1  ->  wheel
+  10:    1  ->  window
+  11:    1  ->  yavanda
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  hell
+   2:    1  ->  our
+   3:    1  ->  the
+   4:    1  ->  to
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  grandmama's
+   2:    2  ->  today
+   3:    1  ->  ailing
+   4:    1  ->  bellay
+   5:    1  ->  bewitched
+   6:    1  ->  boll
+   7:    1  ->  coltraine
+   8:    1  ->  dino's
+   9:    1  ->  du
+  10:    1  ->  ghost
+  11:    1  ->  grandma's
+  12:    1  ->  high
+  13:    1  ->  in
+  14:    1  ->  is
+  15:    1  ->  jump
+  16:    1  ->  martyr
+  17:    1  ->  minks
+  18:    1  ->  montigo
+  19:    1  ->  one's
+  20:    1  ->  past
+  21:    1  ->  pay
+  22:    1  ->  prez
+  23:    1  ->  raps
+  24:    1  ->  shearling
+  25:    1  ->  slims
+  26:    1  ->  steal
+  27:    1  ->  threatened
+  28:    1  ->  turncoats
+  29:    1  ->  vines
+  30:    1  ->  weevil
+  31:    1  ->  wheelchair
+  32:    1  ->  windowsill
+  33:    1  ->  woes
+  34:    1  ->  yvonda's
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    7  ->  's
+   2:    1  ->  and
+   3:    1  ->  ballet
+   4:    1  ->  bewitch
+   5:    1  ->  bull
+   6:    1  ->  chair
+   7:    1  ->  coach
+   8:    1  ->  coltrane
+   9:    1  ->  day
+  10:    1  ->  do
+  11:    1  ->  ghosts
+  12:    1  ->  helipay
+  13:    1  ->  hi
+  14:    1  ->  in
+  15:    1  ->  jumped
+  16:    1  ->  martyrs
+  17:    1  ->  minx
+  18:    1  ->  montego
+  19:    1  ->  passed
+  20:    1  ->  prayers
+  21:    1  ->  rats
+  22:    1  ->  shirling
+  23:    1  ->  sill
+  24:    1  ->  slim
+  25:    1  ->  still
+  26:    1  ->  threaten
+  27:    1  ->  to
+  28:    1  ->  vons
+  29:    1  ->  weeble
+  30:    1  ->  wolves
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

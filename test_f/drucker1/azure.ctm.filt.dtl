@@ -1,0 +1,214 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.2%   (  69)
+
+Percent Correct           =   94.0%   (1049)
+
+Percent Substitution      =    3.7%   (  41)
+Percent Deletions         =    2.3%   (  26)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   93.8%
+
+
+Ref. words                =           (1116)
+Hyp. words                =           (1092)
+Aligned words             =           (1118)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    1  ->  a ==> and
+   2:    1  ->  a ==> not
+   3:    1  ->  again ==> can
+   4:    1  ->  along ==> on
+   5:    1  ->  art ==> start
+   6:    1  ->  bit ==> it
+   7:    1  ->  cities ==> city
+   8:    1  ->  culls ==> calls
+   9:    1  ->  culmney ==> murakami
+  10:    1  ->  during ==> and
+  11:    1  ->  fil ==> film
+  12:    1  ->  flash ==> flesh
+  13:    1  ->  god ==> could
+  14:    1  ->  hearst ==> hurst
+  15:    1  ->  i ==> to
+  16:    1  ->  installati ==> installation
+  17:    1  ->  intellectual ==> intellectuals
+  18:    1  ->  into ==> in
+  19:    1  ->  it ==> size
+  20:    1  ->  itself ==> yourself
+  21:    1  ->  joy ==> george
+  22:    1  ->  mak ==> making
+  23:    1  ->  mean ==> and
+  24:    1  ->  obser ==> observe
+  25:    1  ->  or ==> of
+  26:    1  ->  person's ==> persons
+  27:    1  ->  priced ==> price
+  28:    1  ->  prized ==> priced
+  29:    1  ->  said ==> at
+  30:    1  ->  said ==> says
+  31:    1  ->  smiths ==> smith
+  32:    1  ->  smiths' ==> smiths
+  33:    1  ->  somaticize ==> meta
+  34:    1  ->  someone ==> some
+  35:    1  ->  tell ==> tells
+  36:    1  ->  that ==> something
+  37:    1  ->  though ==> thought
+  38:    1  ->  to ==> he
+  39:    1  ->  vulgar ==> folder
+  40:    1  ->  who ==> how
+  41:    1  ->  x ==> know
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  so
+   2:    1  ->  you
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  it
+   2:    3  ->  not
+   3:    2  ->  i
+   4:    2  ->  of
+   5:    1  ->  and
+   6:    1  ->  ar
+   7:    1  ->  b
+   8:    1  ->  bo
+   9:    1  ->  do
+  10:    1  ->  ex
+  11:    1  ->  high
+  12:    1  ->  how
+  13:    1  ->  is
+  14:    1  ->  murra
+  15:    1  ->  o
+  16:    1  ->  or
+  17:    1  ->  over
+  18:    1  ->  the
+  19:    1  ->  they
+  20:    1  ->  this
+     -------
+        26
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  a
+   2:    2  ->  said
+   3:    1  ->  again
+   4:    1  ->  along
+   5:    1  ->  art
+   6:    1  ->  bit
+   7:    1  ->  cities
+   8:    1  ->  culls
+   9:    1  ->  culmney
+  10:    1  ->  during
+  11:    1  ->  fil
+  12:    1  ->  flash
+  13:    1  ->  god
+  14:    1  ->  hearst
+  15:    1  ->  i
+  16:    1  ->  installati
+  17:    1  ->  intellectual
+  18:    1  ->  into
+  19:    1  ->  it
+  20:    1  ->  itself
+  21:    1  ->  joy
+  22:    1  ->  mak
+  23:    1  ->  mean
+  24:    1  ->  obser
+  25:    1  ->  or
+  26:    1  ->  person's
+  27:    1  ->  priced
+  28:    1  ->  prized
+  29:    1  ->  smiths
+  30:    1  ->  smiths'
+  31:    1  ->  somaticize
+  32:    1  ->  someone
+  33:    1  ->  tell
+  34:    1  ->  that
+  35:    1  ->  though
+  36:    1  ->  to
+  37:    1  ->  vulgar
+  38:    1  ->  who
+  39:    1  ->  x
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  and
+   2:    1  ->  at
+   3:    1  ->  calls
+   4:    1  ->  can
+   5:    1  ->  city
+   6:    1  ->  could
+   7:    1  ->  film
+   8:    1  ->  flesh
+   9:    1  ->  folder
+  10:    1  ->  george
+  11:    1  ->  he
+  12:    1  ->  how
+  13:    1  ->  hurst
+  14:    1  ->  in
+  15:    1  ->  installation
+  16:    1  ->  intellectuals
+  17:    1  ->  it
+  18:    1  ->  know
+  19:    1  ->  making
+  20:    1  ->  meta
+  21:    1  ->  murakami
+  22:    1  ->  not
+  23:    1  ->  observe
+  24:    1  ->  of
+  25:    1  ->  on
+  26:    1  ->  persons
+  27:    1  ->  price
+  28:    1  ->  priced
+  29:    1  ->  says
+  30:    1  ->  size
+  31:    1  ->  smith
+  32:    1  ->  smiths
+  33:    1  ->  some
+  34:    1  ->  something
+  35:    1  ->  start
+  36:    1  ->  tells
+  37:    1  ->  thought
+  38:    1  ->  to
+  39:    1  ->  yourself
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

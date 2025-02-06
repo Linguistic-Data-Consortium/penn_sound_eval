@@ -1,0 +1,243 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.1%   ( 152)
+
+Percent Correct           =   87.0%   ( 940)
+
+Percent Substitution      =    4.1%   (  44)
+Percent Deletions         =    9.0%   (  97)
+Percent Insertions        =    1.0%   (  11)
+Percent Word Accuracy     =   85.9%
+
+
+Ref. words                =           (1081)
+Hyp. words                =           ( 995)
+Aligned words             =           (1092)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    2  ->  granary ==> granny
+   2:    1  ->  an ==> on
+   3:    1  ->  as ==> artist
+   4:    1  ->  brakhage ==> brackish
+   5:    1  ->  but ==> and
+   6:    1  ->  can ==> could
+   7:    1  ->  contemporaries ==> contemporary
+   8:    1  ->  could ==> can
+   9:    1  ->  create ==> created
+  10:    1  ->  did ==> do
+  11:    1  ->  drawing ==> going
+  12:    1  ->  eighties ==> 80s
+  13:    1  ->  i ==> but
+  14:    1  ->  i ==> might
+  15:    1  ->  in ==> and
+  16:    1  ->  it ==> at
+  17:    1  ->  know ==> known
+  18:    1  ->  known ==> know
+  19:    1  ->  or ==> a
+  20:    1  ->  painter ==> poetpainter
+  21:    1  ->  poetics ==> poetic
+  22:    1  ->  right ==> on
+  23:    1  ->  talk ==> talking
+  24:    1  ->  that ==> but
+  25:    1  ->  the ==> saul
+  26:    1  ->  the ==> that
+  27:    1  ->  the ==> your
+  28:    1  ->  them ==> that
+  29:    1  ->  they ==> and
+  30:    1  ->  tuumba ==> tumba
+  31:    1  ->  typed ==> type
+  32:    1  ->  were ==> are
+  33:    1  ->  what ==> it
+  34:    1  ->  what ==> when
+  35:    1  ->  wit ==> wiad
+  36:    1  ->  x ==> both
+  37:    1  ->  x ==> i
+  38:    1  ->  x ==> rouché
+  39:    1  ->  x ==> that
+  40:    1  ->  x ==> was
+  41:    1  ->  xeroxed ==> xerox
+  42:    1  ->  yeah ==> creely
+  43:    1  ->  yeah ==> have
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  are
+   5:    1  ->  does
+   6:    1  ->  down
+   7:    1  ->  go
+   8:    1  ->  it
+   9:    1  ->  or
+  10:    1  ->  right
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:   12  ->  yeah
+   2:   10  ->  %bcack
+   3:    8  ->  x
+   4:    6  ->  and
+   5:    4  ->  a
+   6:    4  ->  have
+   7:    3  ->  is
+   8:    3  ->  it
+   9:    3  ->  right
+  10:    2  ->  absolutely
+  11:    2  ->  not
+  12:    2  ->  of
+  13:    2  ->  or
+  14:    2  ->  th
+  15:    2  ->  w
+  16:    2  ->  we
+  17:    1  ->  art
+  18:    1  ->  be
+  19:    1  ->  books
+  20:    1  ->  chapter
+  21:    1  ->  con
+  22:    1  ->  creeley
+  23:    1  ->  dick
+  24:    1  ->  down
+  25:    1  ->  f
+  26:    1  ->  famously
+  27:    1  ->  fine
+  28:    1  ->  go
+  29:    1  ->  had
+  30:    1  ->  interesting
+  31:    1  ->  it's
+  32:    1  ->  l
+  33:    1  ->  m
+  34:    1  ->  moby
+  35:    1  ->  most
+  36:    1  ->  oh
+  37:    1  ->  on
+  38:    1  ->  one
+  39:    1  ->  placing
+  40:    1  ->  poet
+  41:    1  ->  r
+  42:    1  ->  saw
+  43:    1  ->  st
+  44:    1  ->  that
+  45:    1  ->  that's
+  46:    1  ->  the
+     -------
+        97
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    5  ->  x
+   2:    3  ->  the
+   3:    2  ->  granary
+   4:    2  ->  i
+   5:    2  ->  what
+   6:    2  ->  yeah
+   7:    1  ->  an
+   8:    1  ->  as
+   9:    1  ->  brakhage
+  10:    1  ->  but
+  11:    1  ->  can
+  12:    1  ->  contemporaries
+  13:    1  ->  could
+  14:    1  ->  create
+  15:    1  ->  did
+  16:    1  ->  drawing
+  17:    1  ->  eighties
+  18:    1  ->  in
+  19:    1  ->  it
+  20:    1  ->  know
+  21:    1  ->  known
+  22:    1  ->  or
+  23:    1  ->  painter
+  24:    1  ->  poetics
+  25:    1  ->  right
+  26:    1  ->  talk
+  27:    1  ->  that
+  28:    1  ->  them
+  29:    1  ->  they
+  30:    1  ->  tuumba
+  31:    1  ->  typed
+  32:    1  ->  were
+  33:    1  ->  wit
+  34:    1  ->  xeroxed
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    3  ->  and
+   2:    3  ->  that
+   3:    2  ->  but
+   4:    2  ->  granny
+   5:    2  ->  on
+   6:    1  ->  80s
+   7:    1  ->  a
+   8:    1  ->  are
+   9:    1  ->  artist
+  10:    1  ->  at
+  11:    1  ->  both
+  12:    1  ->  brackish
+  13:    1  ->  can
+  14:    1  ->  contemporary
+  15:    1  ->  could
+  16:    1  ->  created
+  17:    1  ->  creely
+  18:    1  ->  do
+  19:    1  ->  going
+  20:    1  ->  have
+  21:    1  ->  i
+  22:    1  ->  it
+  23:    1  ->  know
+  24:    1  ->  known
+  25:    1  ->  might
+  26:    1  ->  poetic
+  27:    1  ->  poetpainter
+  28:    1  ->  rouché
+  29:    1  ->  saul
+  30:    1  ->  talking
+  31:    1  ->  tumba
+  32:    1  ->  type
+  33:    1  ->  was
+  34:    1  ->  when
+  35:    1  ->  wiad
+  36:    1  ->  xerox
+  37:    1  ->  your
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

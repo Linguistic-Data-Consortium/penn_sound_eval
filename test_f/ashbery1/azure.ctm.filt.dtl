@@ -1,0 +1,175 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.3%   (  47)
+
+Percent Correct           =   96.3%   (1056)
+
+Percent Substitution      =    2.7%   (  30)
+Percent Deletions         =    1.0%   (  11)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   95.7%
+
+
+Ref. words                =           (1097)
+Hyp. words                =           (1092)
+Aligned words             =           (1103)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  an ==> and
+   2:    1  ->  and ==> in
+   3:    1  ->  approved ==> approve
+   4:    1  ->  as ==> his
+   5:    1  ->  days ==> is
+   6:    1  ->  dully ==> duly
+   7:    1  ->  fall ==> befall
+   8:    1  ->  fed ==> fit
+   9:    1  ->  fours ==> four
+  10:    1  ->  gnossienne ==> nausean
+  11:    1  ->  has ==> is
+  12:    1  ->  into ==> in
+  13:    1  ->  is ==> 's
+  14:    1  ->  jicky ==> jickey
+  15:    1  ->  later ==> late
+  16:    1  ->  motionless ==> emotionless
+  17:    1  ->  nineteenth ==> nineteen
+  18:    1  ->  no ==> number
+  19:    1  ->  obstinacy ==> opposinencing
+  20:    1  ->  pereire ==> pereira
+  21:    1  ->  plain ==> plane
+  22:    1  ->  reason's ==> 's
+  23:    1  ->  route ==> root
+  24:    1  ->  seem ==> seemed
+  25:    1  ->  soir ==> sua
+  26:    1  ->  take ==> taken
+  27:    1  ->  that ==> the
+  28:    1  ->  today ==> day
+  29:    1  ->  tomorrow ==> morrow
+  30:    1  ->  ways ==> way
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  to
+   2:    1  ->  day
+   3:    1  ->  reason
+   4:    1  ->  the
+   5:    1  ->  was
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  s
+   2:    1  ->  and
+   3:    1  ->  anyway
+   4:    1  ->  be
+   5:    1  ->  pleasure
+   6:    1  ->  sadder
+   7:    1  ->  the
+   8:    1  ->  was
+   9:    1  ->  wiser
+  10:    1  ->  you
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    1  ->  an
+   2:    1  ->  and
+   3:    1  ->  approved
+   4:    1  ->  as
+   5:    1  ->  days
+   6:    1  ->  dully
+   7:    1  ->  fall
+   8:    1  ->  fed
+   9:    1  ->  fours
+  10:    1  ->  gnossienne
+  11:    1  ->  has
+  12:    1  ->  into
+  13:    1  ->  is
+  14:    1  ->  jicky
+  15:    1  ->  later
+  16:    1  ->  motionless
+  17:    1  ->  nineteenth
+  18:    1  ->  no
+  19:    1  ->  obstinacy
+  20:    1  ->  pereire
+  21:    1  ->  plain
+  22:    1  ->  reason's
+  23:    1  ->  route
+  24:    1  ->  seem
+  25:    1  ->  soir
+  26:    1  ->  take
+  27:    1  ->  that
+  28:    1  ->  today
+  29:    1  ->  tomorrow
+  30:    1  ->  ways
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  's
+   2:    2  ->  in
+   3:    2  ->  is
+   4:    1  ->  and
+   5:    1  ->  approve
+   6:    1  ->  befall
+   7:    1  ->  day
+   8:    1  ->  duly
+   9:    1  ->  emotionless
+  10:    1  ->  fit
+  11:    1  ->  four
+  12:    1  ->  his
+  13:    1  ->  jickey
+  14:    1  ->  late
+  15:    1  ->  morrow
+  16:    1  ->  nausean
+  17:    1  ->  nineteen
+  18:    1  ->  number
+  19:    1  ->  opposinencing
+  20:    1  ->  pereira
+  21:    1  ->  plane
+  22:    1  ->  root
+  23:    1  ->  seemed
+  24:    1  ->  sua
+  25:    1  ->  taken
+  26:    1  ->  the
+  27:    1  ->  way
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

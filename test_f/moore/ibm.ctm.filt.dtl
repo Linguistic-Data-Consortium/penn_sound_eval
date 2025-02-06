@@ -1,0 +1,236 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.8%   (  61)
+
+Percent Correct           =   92.6%   ( 726)
+
+Percent Substitution      =    6.9%   (  54)
+Percent Deletions         =    0.5%   (   4)
+Percent Insertions        =    0.4%   (   3)
+Percent Word Accuracy     =   92.2%
+
+
+Ref. words                =           ( 784)
+Hyp. words                =           ( 783)
+Aligned words             =           ( 787)
+
+CONFUSION PAIRS                  Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:    2  ->  sea ==> see
+   2:    1  ->  am ==> him
+   3:    1  ->  an ==> and
+   4:    1  ->  and ==> an
+   5:    1  ->  askew ==> skew
+   6:    1  ->  blear ==> blue
+   7:    1  ->  bony ==> bone
+   8:    1  ->  bruise ==> blues
+   9:    1  ->  bulged ==> buzzed
+  10:    1  ->  claw ==> it's
+  11:    1  ->  crests ==> crest
+  12:    1  ->  crows ==> cross
+  13:    1  ->  fenceposts ==> post
+  14:    1  ->  fills ==> fill
+  15:    1  ->  grip ==> clare
+  16:    1  ->  hawk's ==> hawks
+  17:    1  ->  hulk ==> hawk
+  18:    1  ->  husk ==> hus
+  19:    1  ->  husked ==> husk
+  20:    1  ->  i ==> by
+  21:    1  ->  its ==> it
+  22:    1  ->  like ==> light
+  23:    1  ->  livid ==> vivid
+  24:    1  ->  me ==> ma
+  25:    1  ->  mire ==> my
+  26:    1  ->  moth ==> mouth
+  27:    1  ->  of ==> call
+  28:    1  ->  out ==> of
+  29:    1  ->  posts ==> post
+  30:    1  ->  red ==> read
+  31:    1  ->  reeks ==> greeks
+  32:    1  ->  regular ==> regularly
+  33:    1  ->  relief ==> release
+  34:    1  ->  rioting ==> riding
+  35:    1  ->  ripe ==> right
+  36:    1  ->  rocked ==> rock
+  37:    1  ->  sands ==> sounds
+  38:    1  ->  saying ==> same
+  39:    1  ->  scudding ==> cutting
+  40:    1  ->  seperation ==> separation
+  41:    1  ->  shafts ==> shaft
+  42:    1  ->  sown ==> zone
+  43:    1  ->  spittle ==> hospital
+  44:    1  ->  spittle ==> spiral
+  45:    1  ->  stare ==> star
+  46:    1  ->  starved ==> starve
+  47:    1  ->  swinking ==> sinking
+  48:    1  ->  that ==> but
+  49:    1  ->  undeliberate ==> undelivered
+  50:    1  ->  wakening ==> awakening
+  51:    1  ->  whit ==> wit
+  52:    1  ->  wood ==> highwood
+  53:    1  ->  wrath ==> wrap
+     -------
+        54
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  the
+   2:    1  ->  fence
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  caw
+   2:    1  ->  high
+   3:    1  ->  its
+   4:    1  ->  of
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    2  ->  sea
+   2:    2  ->  spittle
+   3:    1  ->  am
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  askew
+   7:    1  ->  blear
+   8:    1  ->  bony
+   9:    1  ->  bruise
+  10:    1  ->  bulged
+  11:    1  ->  claw
+  12:    1  ->  crests
+  13:    1  ->  crows
+  14:    1  ->  fenceposts
+  15:    1  ->  fills
+  16:    1  ->  grip
+  17:    1  ->  hawk's
+  18:    1  ->  hulk
+  19:    1  ->  husk
+  20:    1  ->  husked
+  21:    1  ->  i
+  22:    1  ->  its
+  23:    1  ->  like
+  24:    1  ->  livid
+  25:    1  ->  me
+  26:    1  ->  mire
+  27:    1  ->  moth
+  28:    1  ->  of
+  29:    1  ->  out
+  30:    1  ->  posts
+  31:    1  ->  red
+  32:    1  ->  reeks
+  33:    1  ->  regular
+  34:    1  ->  relief
+  35:    1  ->  rioting
+  36:    1  ->  ripe
+  37:    1  ->  rocked
+  38:    1  ->  sands
+  39:    1  ->  saying
+  40:    1  ->  scudding
+  41:    1  ->  seperation
+  42:    1  ->  shafts
+  43:    1  ->  sown
+  44:    1  ->  stare
+  45:    1  ->  starved
+  46:    1  ->  swinking
+  47:    1  ->  that
+  48:    1  ->  undeliberate
+  49:    1  ->  wakening
+  50:    1  ->  whit
+  51:    1  ->  wood
+  52:    1  ->  wrath
+     -------
+        54
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    2  ->  post
+   2:    2  ->  see
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  awakening
+   6:    1  ->  blue
+   7:    1  ->  blues
+   8:    1  ->  bone
+   9:    1  ->  but
+  10:    1  ->  buzzed
+  11:    1  ->  by
+  12:    1  ->  call
+  13:    1  ->  clare
+  14:    1  ->  crest
+  15:    1  ->  cross
+  16:    1  ->  cutting
+  17:    1  ->  fill
+  18:    1  ->  greeks
+  19:    1  ->  hawk
+  20:    1  ->  hawks
+  21:    1  ->  highwood
+  22:    1  ->  him
+  23:    1  ->  hospital
+  24:    1  ->  hus
+  25:    1  ->  husk
+  26:    1  ->  it
+  27:    1  ->  it's
+  28:    1  ->  light
+  29:    1  ->  ma
+  30:    1  ->  mouth
+  31:    1  ->  my
+  32:    1  ->  of
+  33:    1  ->  read
+  34:    1  ->  regularly
+  35:    1  ->  release
+  36:    1  ->  riding
+  37:    1  ->  right
+  38:    1  ->  rock
+  39:    1  ->  same
+  40:    1  ->  separation
+  41:    1  ->  shaft
+  42:    1  ->  sinking
+  43:    1  ->  skew
+  44:    1  ->  sounds
+  45:    1  ->  spiral
+  46:    1  ->  star
+  47:    1  ->  starve
+  48:    1  ->  undelivered
+  49:    1  ->  vivid
+  50:    1  ->  wit
+  51:    1  ->  wrap
+  52:    1  ->  zone
+     -------
+        54
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

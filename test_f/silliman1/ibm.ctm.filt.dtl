@@ -1,0 +1,229 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.3%   (  81)
+
+Percent Correct           =   91.5%   ( 797)
+
+Percent Substitution      =    4.9%   (  43)
+Percent Deletions         =    3.6%   (  31)
+Percent Insertions        =    0.8%   (   7)
+Percent Word Accuracy     =   90.7%
+
+
+Ref. words                =           ( 871)
+Hyp. words                =           ( 847)
+Aligned words             =           ( 878)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    1  ->  a ==> topa
+   2:    1  ->  abo ==> about
+   3:    1  ->  alien ==> in
+   4:    1  ->  an ==> and
+   5:    1  ->  and ==> in
+   6:    1  ->  are ==> or
+   7:    1  ->  ask ==> asked
+   8:    1  ->  at ==> of
+   9:    1  ->  atop ==> nastia
+  10:    1  ->  balled ==> ball
+  11:    1  ->  blog ==> blow
+  12:    1  ->  called ==> call
+  13:    1  ->  comments ==> comment
+  14:    1  ->  flower's ==> flowers
+  15:    1  ->  get ==> getting
+  16:    1  ->  half ==> have
+  17:    1  ->  in ==> and
+  18:    1  ->  in ==> finding
+  19:    1  ->  is ==> as
+  20:    1  ->  is ==> whereas
+  21:    1  ->  listserv ==> serve
+  22:    1  ->  male ==> mail
+  23:    1  ->  mounds ==> mountains
+  24:    1  ->  of ==> to
+  25:    1  ->  palsy ==> pause
+  26:    1  ->  poplar ==> popular
+  27:    1  ->  road's ==> roads
+  28:    1  ->  self ==> themselves
+  29:    1  ->  shake ==> shakes
+  30:    1  ->  shimmer ==> shimmered
+  31:    1  ->  slut ==> slot
+  32:    1  ->  streetlamp ==> lamp
+  33:    1  ->  the ==> this
+  34:    1  ->  there ==> their
+  35:    1  ->  these ==> knees
+  36:    1  ->  tomb ==> tune
+  37:    1  ->  us ==> watches
+  38:    1  ->  wapiti ==> wiped
+  39:    1  ->  weblog ==> log
+  40:    1  ->  word ==> work
+  41:    1  ->  worlds ==> world
+  42:    1  ->  yawns ==> and
+  43:    1  ->  you ==> janu
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  daily
+   3:    1  ->  list
+   4:    1  ->  not
+   5:    1  ->  of
+   6:    1  ->  street
+   7:    1  ->  web
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  x
+   2:    2  ->  filter
+   3:    2  ->  of
+   4:    2  ->  the
+   5:    2  ->  university
+   6:    1  ->  a
+   7:    1  ->  and
+   8:    1  ->  find
+   9:    1  ->  g
+  10:    1  ->  gave
+  11:    1  ->  grotesque
+  12:    1  ->  high
+  13:    1  ->  i
+  14:    1  ->  if
+  15:    1  ->  in
+  16:    1  ->  it
+  17:    1  ->  jane
+  18:    1  ->  l
+  19:    1  ->  nest
+  20:    1  ->  them
+  21:    1  ->  was
+  22:    1  ->  watch
+  23:    1  ->  where
+  24:    1  ->  yes
+  25:    1  ->  you
+     -------
+        31
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  in
+   2:    2  ->  is
+   3:    1  ->  a
+   4:    1  ->  abo
+   5:    1  ->  alien
+   6:    1  ->  an
+   7:    1  ->  and
+   8:    1  ->  are
+   9:    1  ->  ask
+  10:    1  ->  at
+  11:    1  ->  atop
+  12:    1  ->  balled
+  13:    1  ->  blog
+  14:    1  ->  called
+  15:    1  ->  comments
+  16:    1  ->  flower's
+  17:    1  ->  get
+  18:    1  ->  half
+  19:    1  ->  listserv
+  20:    1  ->  male
+  21:    1  ->  mounds
+  22:    1  ->  of
+  23:    1  ->  palsy
+  24:    1  ->  poplar
+  25:    1  ->  road's
+  26:    1  ->  self
+  27:    1  ->  shake
+  28:    1  ->  shimmer
+  29:    1  ->  slut
+  30:    1  ->  streetlamp
+  31:    1  ->  the
+  32:    1  ->  there
+  33:    1  ->  these
+  34:    1  ->  tomb
+  35:    1  ->  us
+  36:    1  ->  wapiti
+  37:    1  ->  weblog
+  38:    1  ->  word
+  39:    1  ->  worlds
+  40:    1  ->  yawns
+  41:    1  ->  you
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  and
+   2:    2  ->  in
+   3:    1  ->  about
+   4:    1  ->  as
+   5:    1  ->  asked
+   6:    1  ->  ball
+   7:    1  ->  blow
+   8:    1  ->  call
+   9:    1  ->  comment
+  10:    1  ->  finding
+  11:    1  ->  flowers
+  12:    1  ->  getting
+  13:    1  ->  have
+  14:    1  ->  janu
+  15:    1  ->  knees
+  16:    1  ->  lamp
+  17:    1  ->  log
+  18:    1  ->  mail
+  19:    1  ->  mountains
+  20:    1  ->  nastia
+  21:    1  ->  of
+  22:    1  ->  or
+  23:    1  ->  pause
+  24:    1  ->  popular
+  25:    1  ->  roads
+  26:    1  ->  serve
+  27:    1  ->  shakes
+  28:    1  ->  shimmered
+  29:    1  ->  slot
+  30:    1  ->  their
+  31:    1  ->  themselves
+  32:    1  ->  this
+  33:    1  ->  to
+  34:    1  ->  topa
+  35:    1  ->  tune
+  36:    1  ->  watches
+  37:    1  ->  whereas
+  38:    1  ->  wiped
+  39:    1  ->  work
+  40:    1  ->  world
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

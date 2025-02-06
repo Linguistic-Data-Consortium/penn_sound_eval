@@ -1,0 +1,140 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.3%   (  35)
+
+Percent Correct           =   97.1%   (1034)
+
+Percent Substitution      =    2.0%   (  21)
+Percent Deletions         =    0.9%   (  10)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   96.7%
+
+
+Ref. words                =           (1065)
+Hyp. words                =           (1059)
+Aligned words             =           (1069)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  in ==> and
+   2:    2  ->  takka ==> taka
+   3:    1  ->  am ==> and
+   4:    1  ->  brad ==> bread
+   5:    1  ->  bratatat ==> beretta
+   6:    1  ->  did ==> do
+   7:    1  ->  editor's ==> 's
+   8:    1  ->  from ==> for
+   9:    1  ->  his ==> a
+  10:    1  ->  is ==> 's
+  11:    1  ->  mig's ==> 's
+  12:    1  ->  mom ==> mum
+  13:    1  ->  tex ==> tax
+  14:    1  ->  thr ==> three
+  15:    1  ->  thung ==> thong
+  16:    1  ->  toot ==> to
+  17:    1  ->  two ==> to
+  18:    1  ->  why ==> my
+  19:    1  ->  wingding ==> winding
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  editor
+   2:    1  ->  i
+   3:    1  ->  mig
+   4:    1  ->  we
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  brattata
+   2:    1  ->  but
+   3:    1  ->  c
+   4:    1  ->  co
+   5:    1  ->  i
+   6:    1  ->  none
+   7:    1  ->  pai
+   8:    1  ->  ruff
+   9:    1  ->  s
+  10:    1  ->  tho
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  in
+   2:    2  ->  takka
+   3:    1  ->  am
+   4:    1  ->  brad
+   5:    1  ->  bratatat
+   6:    1  ->  did
+   7:    1  ->  editor's
+   8:    1  ->  from
+   9:    1  ->  his
+  10:    1  ->  is
+  11:    1  ->  mig's
+  12:    1  ->  mom
+  13:    1  ->  tex
+  14:    1  ->  thr
+  15:    1  ->  thung
+  16:    1  ->  toot
+  17:    1  ->  two
+  18:    1  ->  why
+  19:    1  ->  wingding
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  's
+   2:    3  ->  and
+   3:    2  ->  taka
+   4:    2  ->  to
+   5:    1  ->  a
+   6:    1  ->  beretta
+   7:    1  ->  bread
+   8:    1  ->  do
+   9:    1  ->  for
+  10:    1  ->  mum
+  11:    1  ->  my
+  12:    1  ->  tax
+  13:    1  ->  thong
+  14:    1  ->  three
+  15:    1  ->  winding
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

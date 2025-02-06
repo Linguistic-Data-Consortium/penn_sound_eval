@@ -1,0 +1,171 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.9%   (  74)
+
+Percent Correct           =   94.6%   (1019)
+
+Percent Substitution      =    2.4%   (  26)
+Percent Deletions         =    3.0%   (  32)
+Percent Insertions        =    1.5%   (  16)
+Percent Word Accuracy     =   93.1%
+
+
+Ref. words                =           (1077)
+Hyp. words                =           (1061)
+Aligned words             =           (1093)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    4  ->  a ==> la
+   2:    1  ->  as ==> there's
+   3:    1  ->  cough ==> a
+   4:    1  ->  grey ==> gray
+   5:    1  ->  i ==> cut
+   6:    1  ->  in ==> mean
+   7:    1  ->  into ==> to
+   8:    1  ->  mean ==> like
+   9:    1  ->  men ==> i
+  10:    1  ->  myles ==> miles
+  11:    1  ->  pass ==> past
+  12:    1  ->  real ==> a
+  13:    1  ->  real ==> there
+  14:    1  ->  schuylkill ==> schoolkill
+  15:    1  ->  suppressant ==> sign
+  16:    1  ->  t ==> pst
+  17:    1  ->  thirty ==> three
+  18:    1  ->  to ==> two
+  19:    1  ->  twenty ==> zero
+  20:    1  ->  was ==> is
+  21:    1  ->  x ==> prohmann
+  22:    1  ->  x ==> xxx
+  23:    1  ->  x ==> yeux
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    4  ->  dear
+   2:    4  ->  kelly
+   3:    2  ->  i
+   4:    1  ->  is
+   5:    1  ->  les
+   6:    1  ->  or
+   7:    1  ->  the
+   8:    1  ->  then
+   9:    1  ->  two
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    4  ->  l
+   2:    3  ->  of
+   3:    2  ->  instead
+   4:    2  ->  s
+   5:    2  ->  x
+   6:    1  ->  allison
+   7:    1  ->  and
+   8:    1  ->  cocktail
+   9:    1  ->  dear
+  10:    1  ->  devo
+  11:    1  ->  eyeliner
+  12:    1  ->  fear
+  13:    1  ->  for
+  14:    1  ->  it's
+  15:    1  ->  kelly
+  16:    1  ->  one
+  17:    1  ->  p
+  18:    1  ->  reassurance
+  19:    1  ->  sh
+  20:    1  ->  so
+  21:    1  ->  son
+  22:    1  ->  sweater
+  23:    1  ->  th
+  24:    1  ->  you
+     -------
+        32
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    4  ->  a
+   2:    3  ->  x
+   3:    2  ->  real
+   4:    1  ->  as
+   5:    1  ->  cough
+   6:    1  ->  grey
+   7:    1  ->  i
+   8:    1  ->  in
+   9:    1  ->  into
+  10:    1  ->  mean
+  11:    1  ->  men
+  12:    1  ->  myles
+  13:    1  ->  pass
+  14:    1  ->  schuylkill
+  15:    1  ->  suppressant
+  16:    1  ->  t
+  17:    1  ->  thirty
+  18:    1  ->  to
+  19:    1  ->  twenty
+  20:    1  ->  was
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    4  ->  la
+   2:    2  ->  a
+   3:    1  ->  cut
+   4:    1  ->  gray
+   5:    1  ->  i
+   6:    1  ->  is
+   7:    1  ->  like
+   8:    1  ->  mean
+   9:    1  ->  miles
+  10:    1  ->  past
+  11:    1  ->  prohmann
+  12:    1  ->  pst
+  13:    1  ->  schoolkill
+  14:    1  ->  sign
+  15:    1  ->  there
+  16:    1  ->  there's
+  17:    1  ->  three
+  18:    1  ->  to
+  19:    1  ->  two
+  20:    1  ->  xxx
+  21:    1  ->  yeux
+  22:    1  ->  zero
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,162 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.9%   (  51)
+
+Percent Correct           =   94.7%   ( 825)
+
+Percent Substitution      =    2.5%   (  22)
+Percent Deletions         =    2.8%   (  24)
+Percent Insertions        =    0.6%   (   5)
+Percent Word Accuracy     =   94.1%
+
+
+Ref. words                =           ( 871)
+Hyp. words                =           ( 852)
+Aligned words             =           ( 876)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  a ==> i
+   2:    1  ->  abo ==> about
+   3:    1  ->  and ==> in
+   4:    1  ->  ask ==> asked
+   5:    1  ->  balled ==> bald
+   6:    1  ->  blog ==> block
+   7:    1  ->  comments ==> comment
+   8:    1  ->  creation ==> nation
+   9:    1  ->  flower's ==> flowers
+  10:    1  ->  four ==> for
+  11:    1  ->  get ==> getting
+  12:    1  ->  in ==> and
+  13:    1  ->  molly's ==> 's
+  14:    1  ->  of ==> counsel
+  15:    1  ->  road's ==> 's
+  16:    1  ->  self ==> himself
+  17:    1  ->  streetlamp ==> lamp
+  18:    1  ->  that ==> out
+  19:    1  ->  the ==> this
+  20:    1  ->  tomb ==> tune
+  21:    1  ->  weblog ==> log
+  22:    1  ->  you ==> janu
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  a
+   2:    1  ->  molly
+   3:    1  ->  road
+   4:    1  ->  street
+   5:    1  ->  web
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  the
+   2:    3  ->  x
+   3:    1  ->  a
+   4:    1  ->  council
+   5:    1  ->  g
+   6:    1  ->  i
+   7:    1  ->  if
+   8:    1  ->  jane
+   9:    1  ->  l
+  10:    1  ->  layered
+  11:    1  ->  like
+  12:    1  ->  muscles
+  13:    1  ->  of
+  14:    1  ->  that
+  15:    1  ->  them
+  16:    1  ->  university
+  17:    1  ->  word
+  18:    1  ->  yes
+  19:    1  ->  you
+     -------
+        24
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  a
+   2:    1  ->  abo
+   3:    1  ->  and
+   4:    1  ->  ask
+   5:    1  ->  balled
+   6:    1  ->  blog
+   7:    1  ->  comments
+   8:    1  ->  creation
+   9:    1  ->  flower's
+  10:    1  ->  four
+  11:    1  ->  get
+  12:    1  ->  in
+  13:    1  ->  molly's
+  14:    1  ->  of
+  15:    1  ->  road's
+  16:    1  ->  self
+  17:    1  ->  streetlamp
+  18:    1  ->  that
+  19:    1  ->  the
+  20:    1  ->  tomb
+  21:    1  ->  weblog
+  22:    1  ->  you
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  's
+   2:    1  ->  about
+   3:    1  ->  and
+   4:    1  ->  asked
+   5:    1  ->  bald
+   6:    1  ->  block
+   7:    1  ->  comment
+   8:    1  ->  counsel
+   9:    1  ->  flowers
+  10:    1  ->  for
+  11:    1  ->  getting
+  12:    1  ->  himself
+  13:    1  ->  i
+  14:    1  ->  in
+  15:    1  ->  janu
+  16:    1  ->  lamp
+  17:    1  ->  log
+  18:    1  ->  nation
+  19:    1  ->  out
+  20:    1  ->  this
+  21:    1  ->  tune
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

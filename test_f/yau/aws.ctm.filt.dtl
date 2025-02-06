@@ -1,0 +1,191 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.5%   (  53)
+
+Percent Correct           =   95.2%   ( 916)
+
+Percent Substitution      =    4.3%   (  41)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    0.7%   (   7)
+Percent Word Accuracy     =   94.5%
+
+
+Ref. words                =           ( 962)
+Hyp. words                =           ( 964)
+Aligned words             =           ( 969)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    4  ->  in ==> and
+   2:    2  ->  atrapado ==> of
+   3:    2  ->  twenty ==> two
+   4:    1  ->  a ==> the
+   5:    1  ->  above ==> about
+   6:    1  ->  always ==> our
+   7:    1  ->  and ==> well
+   8:    1  ->  autograph ==> autographed
+   9:    1  ->  called ==> recall
+  10:    1  ->  debuts ==> debus
+  11:    1  ->  fandangoes ==> fandangos
+  12:    1  ->  gallopers ==> or
+  13:    1  ->  has ==> is
+  14:    1  ->  husks ==> tusks
+  15:    1  ->  ins ==> driveins
+  16:    1  ->  into ==> to
+  17:    1  ->  it ==> that
+  18:    1  ->  its ==> it's
+  19:    1  ->  kneed ==> knee
+  20:    1  ->  m ==> my
+  21:    1  ->  mainspring ==> pur
+  22:    1  ->  oh ==> o
+  23:    1  ->  paint's ==> paints
+  24:    1  ->  planes ==> plains
+  25:    1  ->  poured ==> parted
+  26:    1  ->  purdahs ==> das
+  27:    1  ->  sighs ==> sizes
+  28:    1  ->  slop ==> slot
+  29:    1  ->  stee ==> steep
+  30:    1  ->  stoop ==> sto
+  31:    1  ->  sweetened ==> and
+  32:    1  ->  to ==> through
+  33:    1  ->  towards ==> toward
+  34:    1  ->  towe ==> towel
+  35:    1  ->  were ==> are
+  36:    1  ->  wheeled ==> wheel
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  atropa
+   2:    1  ->  gallop
+   3:    1  ->  main
+   4:    1  ->  spring
+   5:    1  ->  sweet
+   6:    1  ->  the
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  are
+   3:    1  ->  ch
+   4:    1  ->  drive
+   5:    1  ->  had
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    4  ->  in
+   2:    2  ->  atrapado
+   3:    2  ->  twenty
+   4:    1  ->  a
+   5:    1  ->  above
+   6:    1  ->  always
+   7:    1  ->  and
+   8:    1  ->  autograph
+   9:    1  ->  called
+  10:    1  ->  debuts
+  11:    1  ->  fandangoes
+  12:    1  ->  gallopers
+  13:    1  ->  has
+  14:    1  ->  husks
+  15:    1  ->  ins
+  16:    1  ->  into
+  17:    1  ->  it
+  18:    1  ->  its
+  19:    1  ->  kneed
+  20:    1  ->  m
+  21:    1  ->  mainspring
+  22:    1  ->  oh
+  23:    1  ->  paint's
+  24:    1  ->  planes
+  25:    1  ->  poured
+  26:    1  ->  purdahs
+  27:    1  ->  sighs
+  28:    1  ->  slop
+  29:    1  ->  stee
+  30:    1  ->  stoop
+  31:    1  ->  sweetened
+  32:    1  ->  to
+  33:    1  ->  towards
+  34:    1  ->  towe
+  35:    1  ->  were
+  36:    1  ->  wheeled
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    5  ->  and
+   2:    2  ->  of
+   3:    2  ->  two
+   4:    1  ->  about
+   5:    1  ->  are
+   6:    1  ->  autographed
+   7:    1  ->  das
+   8:    1  ->  debus
+   9:    1  ->  driveins
+  10:    1  ->  fandangos
+  11:    1  ->  is
+  12:    1  ->  it's
+  13:    1  ->  knee
+  14:    1  ->  my
+  15:    1  ->  o
+  16:    1  ->  or
+  17:    1  ->  our
+  18:    1  ->  paints
+  19:    1  ->  parted
+  20:    1  ->  plains
+  21:    1  ->  pur
+  22:    1  ->  recall
+  23:    1  ->  sizes
+  24:    1  ->  slot
+  25:    1  ->  steep
+  26:    1  ->  sto
+  27:    1  ->  that
+  28:    1  ->  the
+  29:    1  ->  through
+  30:    1  ->  to
+  31:    1  ->  toward
+  32:    1  ->  towel
+  33:    1  ->  tusks
+  34:    1  ->  well
+  35:    1  ->  wheel
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

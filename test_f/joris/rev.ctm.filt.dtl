@@ -1,0 +1,440 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.6%   ( 187)
+
+Percent Correct           =   80.5%   ( 637)
+
+Percent Substitution      =   16.8%   ( 133)
+Percent Deletions         =    2.7%   (  21)
+Percent Insertions        =    4.2%   (  33)
+Percent Word Accuracy     =   76.4%
+
+
+Ref. words                =           ( 791)
+Hyp. words                =           ( 803)
+Aligned words             =           ( 824)
+
+CONFUSION PAIRS                  Total                 (128)
+                                 With >=  1 occurrences (128)
+
+   1:    4  ->  x ==> is
+   2:    2  ->  x ==> and
+   3:    2  ->  x ==> him
+   4:    1  ->  a ==> ground
+   5:    1  ->  a ==> of
+   6:    1  ->  a ==> our
+   7:    1  ->  a ==> so
+   8:    1  ->  airs ==> as
+   9:    1  ->  an ==> in
+  10:    1  ->  and ==> lines
+  11:    1  ->  as ==> now
+  12:    1  ->  ashes ==> ases
+  13:    1  ->  be ==> the
+  14:    1  ->  bee ==> bees
+  15:    1  ->  bet ==> bed
+  16:    1  ->  brood ==> brooded
+  17:    1  ->  bullets ==> bullet
+  18:    1  ->  cantilevers ==> levers
+  19:    1  ->  cats ==> cat
+  20:    1  ->  cave ==> fond
+  21:    1  ->  century's ==> centuries
+  22:    1  ->  chainsaw ==> salt
+  23:    1  ->  d ==> the
+  24:    1  ->  dead ==> debt
+  25:    1  ->  despot ==> distant
+  26:    1  ->  elegies ==> allergies
+  27:    1  ->  ending ==> resentment
+  28:    1  ->  exertion ==> insertion
+  29:    1  ->  forethought ==> thought
+  30:    1  ->  fronds ==> fronts
+  31:    1  ->  fuchsia ==> fia
+  32:    1  ->  furry ==> ferry
+  33:    1  ->  gem ==> and
+  34:    1  ->  hands ==> heads
+  35:    1  ->  hear ==> here
+  36:    1  ->  heave ==> hea
+  37:    1  ->  here ==> and
+  38:    1  ->  hold ==> marsal
+  39:    1  ->  hover ==> harbor
+  40:    1  ->  hundred ==> oh
+  41:    1  ->  hypertext ==> attacks
+  42:    1  ->  i ==> monoi
+  43:    1  ->  invest ==> invests
+  44:    1  ->  is ==> a
+  45:    1  ->  it ==> and
+  46:    1  ->  king ==> picking
+  47:    1  ->  king's ==> kings
+  48:    1  ->  lacks ==> lax
+  49:    1  ->  lake's ==> lakes
+  50:    1  ->  langorous ==> ous
+  51:    1  ->  lapping's ==> its
+  52:    1  ->  lemur ==> dilemma
+  53:    1  ->  lemur ==> li
+  54:    1  ->  lemur ==> limo
+  55:    1  ->  let ==> wheeler
+  56:    1  ->  lines ==> mono
+  57:    1  ->  melli ==> male
+  58:    1  ->  mellifluency ==> fluency
+  59:    1  ->  mirror ==> killed
+  60:    1  ->  mowed ==> mo
+  61:    1  ->  no ==> you
+  62:    1  ->  nomads ==> nomad
+  63:    1  ->  nor ==> or
+  64:    1  ->  of ==> but
+  65:    1  ->  one ==> monoi
+  66:    1  ->  or ==> awe
+  67:    1  ->  pleasure ==> i
+  68:    1  ->  reassured ==> reassert
+  69:    1  ->  rorschach ==> rosh
+  70:    1  ->  round ==> itself
+  71:    1  ->  savants ==> sance
+  72:    1  ->  shot ==> chart
+  73:    1  ->  song ==> psalm
+  74:    1  ->  sorry ==> so
+  75:    1  ->  squish ==> swish
+  76:    1  ->  structures ==> structure
+  77:    1  ->  that ==> jam
+  78:    1  ->  the ==> counter
+  79:    1  ->  the ==> their
+  80:    1  ->  their ==> deb
+  81:    1  ->  thirty ==> three
+  82:    1  ->  to ==> into
+  83:    1  ->  to ==> the
+  84:    1  ->  truck's ==> truck
+  85:    1  ->  trumped ==> trump
+  86:    1  ->  twenty ==> in
+  87:    1  ->  unavowable ==> avow
+  88:    1  ->  uncommunity ==> un
+  89:    1  ->  was ==> north
+  90:    1  ->  words ==> moorings
+  91:    1  ->  x ==> ans
+  92:    1  ->  x ==> ass
+  93:    1  ->  x ==> boat
+  94:    1  ->  x ==> christic
+  95:    1  ->  x ==> cic
+  96:    1  ->  x ==> cut
+  97:    1  ->  x ==> defic
+  98:    1  ->  x ==> duet
+  99:    1  ->  x ==> escape
+ 100:    1  ->  x ==> fonts
+ 101:    1  ->  x ==> glossier
+ 102:    1  ->  x ==> homologies
+ 103:    1  ->  x ==> hugging
+ 104:    1  ->  x ==> idaho
+ 105:    1  ->  x ==> man
+ 106:    1  ->  x ==> month
+ 107:    1  ->  x ==> mounds
+ 108:    1  ->  x ==> no
+ 109:    1  ->  x ==> nomad
+ 110:    1  ->  x ==> nouns
+ 111:    1  ->  x ==> occasion
+ 112:    1  ->  x ==> or
+ 113:    1  ->  x ==> palmer
+ 114:    1  ->  x ==> possum
+ 115:    1  ->  x ==> rhyme
+ 116:    1  ->  x ==> root
+ 117:    1  ->  x ==> semi
+ 118:    1  ->  x ==> seven
+ 119:    1  ->  x ==> shade
+ 120:    1  ->  x ==> shut
+ 121:    1  ->  x ==> stable
+ 122:    1  ->  x ==> stead
+ 123:    1  ->  x ==> syntax
+ 124:    1  ->  x ==> t's
+ 125:    1  ->  x ==> ta
+ 126:    1  ->  x ==> to
+ 127:    1  ->  x ==> use
+ 128:    1  ->  x ==> vocables
+     -------
+       133
+
+
+
+INSERTIONS                       Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    4  ->  the
+   2:    3  ->  and
+   3:    1  ->  a
+   4:    1  ->  can
+   5:    1  ->  chain
+   6:    1  ->  conco
+   7:    1  ->  dark
+   8:    1  ->  defaults
+   9:    1  ->  dividend
+  10:    1  ->  fe
+  11:    1  ->  for
+  12:    1  ->  grounds
+  13:    1  ->  harasser
+  14:    1  ->  he
+  15:    1  ->  hunk
+  16:    1  ->  hypot
+  17:    1  ->  i
+  18:    1  ->  k
+  19:    1  ->  lapping
+  20:    1  ->  now
+  21:    1  ->  omnium
+  22:    1  ->  set
+  23:    1  ->  summer
+  24:    1  ->  tank
+  25:    1  ->  then
+  26:    1  ->  there
+  27:    1  ->  this
+  28:    1  ->  us
+     -------
+        33
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    4  ->  a
+   2:    3  ->  it
+   3:    3  ->  stur
+   4:    2  ->  of
+   5:    2  ->  x
+   6:    1  ->  count
+   7:    1  ->  hundred
+   8:    1  ->  lemur
+   9:    1  ->  the
+  10:    1  ->  this
+  11:    1  ->  to
+  12:    1  ->  we
+     -------
+        21
+
+
+
+SUBSTITUTIONS                    Total                 (81)
+                                 With >=  1 occurrences (81)
+
+   1:   46  ->  x
+   2:    4  ->  a
+   3:    3  ->  lemur
+   4:    2  ->  the
+   5:    2  ->  to
+   6:    1  ->  airs
+   7:    1  ->  an
+   8:    1  ->  and
+   9:    1  ->  as
+  10:    1  ->  ashes
+  11:    1  ->  be
+  12:    1  ->  bee
+  13:    1  ->  bet
+  14:    1  ->  brood
+  15:    1  ->  bullets
+  16:    1  ->  cantilevers
+  17:    1  ->  cats
+  18:    1  ->  cave
+  19:    1  ->  century's
+  20:    1  ->  chainsaw
+  21:    1  ->  d
+  22:    1  ->  dead
+  23:    1  ->  despot
+  24:    1  ->  elegies
+  25:    1  ->  ending
+  26:    1  ->  exertion
+  27:    1  ->  forethought
+  28:    1  ->  fronds
+  29:    1  ->  fuchsia
+  30:    1  ->  furry
+  31:    1  ->  gem
+  32:    1  ->  hands
+  33:    1  ->  hear
+  34:    1  ->  heave
+  35:    1  ->  here
+  36:    1  ->  hold
+  37:    1  ->  hover
+  38:    1  ->  hundred
+  39:    1  ->  hypertext
+  40:    1  ->  i
+  41:    1  ->  invest
+  42:    1  ->  is
+  43:    1  ->  it
+  44:    1  ->  king
+  45:    1  ->  king's
+  46:    1  ->  lacks
+  47:    1  ->  lake's
+  48:    1  ->  langorous
+  49:    1  ->  lapping's
+  50:    1  ->  let
+  51:    1  ->  lines
+  52:    1  ->  melli
+  53:    1  ->  mellifluency
+  54:    1  ->  mirror
+  55:    1  ->  mowed
+  56:    1  ->  no
+  57:    1  ->  nomads
+  58:    1  ->  nor
+  59:    1  ->  of
+  60:    1  ->  one
+  61:    1  ->  or
+  62:    1  ->  pleasure
+  63:    1  ->  reassured
+  64:    1  ->  rorschach
+  65:    1  ->  round
+  66:    1  ->  savants
+  67:    1  ->  shot
+  68:    1  ->  song
+  69:    1  ->  sorry
+  70:    1  ->  squish
+  71:    1  ->  structures
+  72:    1  ->  that
+  73:    1  ->  their
+  74:    1  ->  thirty
+  75:    1  ->  truck's
+  76:    1  ->  trumped
+  77:    1  ->  twenty
+  78:    1  ->  unavowable
+  79:    1  ->  uncommunity
+  80:    1  ->  was
+  81:    1  ->  words
+     -------
+       133
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (118)
+                                 With >=  1 occurrences (118)
+
+   1:    5  ->  and
+   2:    4  ->  is
+   3:    3  ->  the
+   4:    2  ->  him
+   5:    2  ->  in
+   6:    2  ->  monoi
+   7:    2  ->  nomad
+   8:    2  ->  or
+   9:    2  ->  so
+  10:    1  ->  a
+  11:    1  ->  allergies
+  12:    1  ->  ans
+  13:    1  ->  as
+  14:    1  ->  ases
+  15:    1  ->  ass
+  16:    1  ->  attacks
+  17:    1  ->  avow
+  18:    1  ->  awe
+  19:    1  ->  bed
+  20:    1  ->  bees
+  21:    1  ->  boat
+  22:    1  ->  brooded
+  23:    1  ->  bullet
+  24:    1  ->  but
+  25:    1  ->  cat
+  26:    1  ->  centuries
+  27:    1  ->  chart
+  28:    1  ->  christic
+  29:    1  ->  cic
+  30:    1  ->  counter
+  31:    1  ->  cut
+  32:    1  ->  deb
+  33:    1  ->  debt
+  34:    1  ->  defic
+  35:    1  ->  dilemma
+  36:    1  ->  distant
+  37:    1  ->  duet
+  38:    1  ->  escape
+  39:    1  ->  ferry
+  40:    1  ->  fia
+  41:    1  ->  fluency
+  42:    1  ->  fond
+  43:    1  ->  fonts
+  44:    1  ->  fronts
+  45:    1  ->  glossier
+  46:    1  ->  ground
+  47:    1  ->  harbor
+  48:    1  ->  hea
+  49:    1  ->  heads
+  50:    1  ->  here
+  51:    1  ->  homologies
+  52:    1  ->  hugging
+  53:    1  ->  i
+  54:    1  ->  idaho
+  55:    1  ->  insertion
+  56:    1  ->  into
+  57:    1  ->  invests
+  58:    1  ->  its
+  59:    1  ->  itself
+  60:    1  ->  jam
+  61:    1  ->  killed
+  62:    1  ->  kings
+  63:    1  ->  lakes
+  64:    1  ->  lax
+  65:    1  ->  levers
+  66:    1  ->  li
+  67:    1  ->  limo
+  68:    1  ->  lines
+  69:    1  ->  male
+  70:    1  ->  man
+  71:    1  ->  marsal
+  72:    1  ->  mo
+  73:    1  ->  mono
+  74:    1  ->  month
+  75:    1  ->  moorings
+  76:    1  ->  mounds
+  77:    1  ->  no
+  78:    1  ->  north
+  79:    1  ->  nouns
+  80:    1  ->  now
+  81:    1  ->  occasion
+  82:    1  ->  of
+  83:    1  ->  oh
+  84:    1  ->  our
+  85:    1  ->  ous
+  86:    1  ->  palmer
+  87:    1  ->  picking
+  88:    1  ->  possum
+  89:    1  ->  psalm
+  90:    1  ->  reassert
+  91:    1  ->  resentment
+  92:    1  ->  rhyme
+  93:    1  ->  root
+  94:    1  ->  rosh
+  95:    1  ->  salt
+  96:    1  ->  sance
+  97:    1  ->  semi
+  98:    1  ->  seven
+  99:    1  ->  shade
+ 100:    1  ->  shut
+ 101:    1  ->  stable
+ 102:    1  ->  stead
+ 103:    1  ->  structure
+ 104:    1  ->  swish
+ 105:    1  ->  syntax
+ 106:    1  ->  t's
+ 107:    1  ->  ta
+ 108:    1  ->  their
+ 109:    1  ->  thought
+ 110:    1  ->  three
+ 111:    1  ->  to
+ 112:    1  ->  truck
+ 113:    1  ->  trump
+ 114:    1  ->  un
+ 115:    1  ->  use
+ 116:    1  ->  vocables
+ 117:    1  ->  wheeler
+ 118:    1  ->  you
+     -------
+       133
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

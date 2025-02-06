@@ -1,0 +1,272 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.9%   ( 201)
+
+Percent Correct           =   86.7%   ( 922)
+
+Percent Substitution      =    6.1%   (  65)
+Percent Deletions         =    7.2%   (  77)
+Percent Insertions        =    5.5%   (  59)
+Percent Word Accuracy     =   81.1%
+
+
+Ref. words                =           (1064)
+Hyp. words                =           (1046)
+Aligned words             =           (1123)
+
+CONFUSION PAIRS                  Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    6  ->  ten ==> two
+   2:    3  ->  eight ==> one
+   3:    3  ->  eight ==> two
+   4:    3  ->  nine ==> two
+   5:    2  ->  reinhold ==> reinholdt
+   6:    2  ->  seven ==> two
+   7:    2  ->  ten ==> one
+   8:    1  ->  ahead ==> two
+   9:    1  ->  and ==> if
+  10:    1  ->  and ==> one
+  11:    1  ->  bratatat ==> tat
+  12:    1  ->  brattata ==> ta
+  13:    1  ->  chapter ==> one
+  14:    1  ->  co ==> books
+  15:    1  ->  conspicuously ==> inconspicuously
+  16:    1  ->  eight ==> nine
+  17:    1  ->  few ==> two
+  18:    1  ->  four ==> one
+  19:    1  ->  hungry ==> two
+  20:    1  ->  i ==> taka
+  21:    1  ->  in ==> and
+  22:    1  ->  in ==> two
+  23:    1  ->  kane ==> cain
+  24:    1  ->  keep ==> two
+  25:    1  ->  mother ==> grrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+  26:    1  ->  nine ==> one
+  27:    1  ->  once ==> two
+  28:    1  ->  one ==> two
+  29:    1  ->  roberts ==> roberts'
+  30:    1  ->  ruff ==> urf
+  31:    1  ->  s ==> taka
+  32:    1  ->  six ==> two
+  33:    1  ->  skip ==> one
+  34:    1  ->  some ==> one
+  35:    1  ->  some ==> two
+  36:    1  ->  suspense ==> one
+  37:    1  ->  ten ==> three
+  38:    1  ->  tex ==> tax
+  39:    1  ->  tho ==> painted
+  40:    1  ->  those ==> comic
+  41:    1  ->  three ==> one
+  42:    1  ->  three ==> ten
+  43:    1  ->  thung ==> fung
+  44:    1  ->  twelve ==> one
+  45:    1  ->  twenty ==> two
+  46:    1  ->  two ==> one
+  47:    1  ->  wealth ==> well
+  48:    1  ->  why ==> my
+  49:    1  ->  will ==> one
+  50:    1  ->  wingding ==> winding
+  51:    1  ->  you ==> one
+     -------
+        65
+
+
+
+INSERTIONS                       Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:   15  ->  ten
+   2:   13  ->  one
+   3:    6  ->  two
+   4:    4  ->  three
+   5:    2  ->  brata
+   6:    2  ->  four
+   7:    2  ->  i
+   8:    2  ->  sum
+   9:    1  ->  ahead
+  10:    1  ->  and
+  11:    1  ->  eight
+  12:    1  ->  few
+  13:    1  ->  in
+  14:    1  ->  keep
+  15:    1  ->  seven
+  16:    1  ->  six
+  17:    1  ->  skip
+  18:    1  ->  suspense
+  19:    1  ->  ta
+  20:    1  ->  will
+  21:    1  ->  you
+     -------
+        59
+
+
+
+DELETIONS                        Total                 (61)
+                                 With >=  1 occurrences (61)
+
+   1:    7  ->  i
+   2:    4  ->  to
+   3:    2  ->  am
+   4:    2  ->  and
+   5:    2  ->  eddie
+   6:    2  ->  not
+   7:    2  ->  of
+   8:    2  ->  takka
+   9:    2  ->  tried
+  10:    1  ->  as
+  11:    1  ->  back
+  12:    1  ->  be
+  13:    1  ->  but
+  14:    1  ->  by
+  15:    1  ->  c
+  16:    1  ->  clear
+  17:    1  ->  coming
+  18:    1  ->  common
+  19:    1  ->  could
+  20:    1  ->  dad's
+  21:    1  ->  dear
+  22:    1  ->  eat
+  23:    1  ->  for
+  24:    1  ->  from
+  25:    1  ->  have
+  26:    1  ->  in
+  27:    1  ->  is
+  28:    1  ->  it
+  29:    1  ->  it's
+  30:    1  ->  kept
+  31:    1  ->  kitchen
+  32:    1  ->  mind
+  33:    1  ->  mom
+  34:    1  ->  my
+  35:    1  ->  out
+  36:    1  ->  over
+  37:    1  ->  pai
+  38:    1  ->  painted
+  39:    1  ->  reason
+  40:    1  ->  ring
+  41:    1  ->  see
+  42:    1  ->  sense
+  43:    1  ->  so
+  44:    1  ->  something
+  45:    1  ->  take
+  46:    1  ->  tall
+  47:    1  ->  the
+  48:    1  ->  they
+  49:    1  ->  thing
+  50:    1  ->  think
+  51:    1  ->  thr
+  52:    1  ->  toot
+  53:    1  ->  try
+  54:    1  ->  up
+  55:    1  ->  viewpoint
+  56:    1  ->  vip
+  57:    1  ->  were
+  58:    1  ->  which
+  59:    1  ->  would
+  60:    1  ->  you
+  61:    1  ->  zing
+     -------
+        77
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    9  ->  ten
+   2:    7  ->  eight
+   3:    4  ->  nine
+   4:    2  ->  and
+   5:    2  ->  in
+   6:    2  ->  reinhold
+   7:    2  ->  seven
+   8:    2  ->  some
+   9:    2  ->  three
+  10:    1  ->  ahead
+  11:    1  ->  bratatat
+  12:    1  ->  brattata
+  13:    1  ->  chapter
+  14:    1  ->  co
+  15:    1  ->  conspicuously
+  16:    1  ->  few
+  17:    1  ->  four
+  18:    1  ->  hungry
+  19:    1  ->  i
+  20:    1  ->  kane
+  21:    1  ->  keep
+  22:    1  ->  mother
+  23:    1  ->  once
+  24:    1  ->  one
+  25:    1  ->  roberts
+  26:    1  ->  ruff
+  27:    1  ->  s
+  28:    1  ->  six
+  29:    1  ->  skip
+  30:    1  ->  suspense
+  31:    1  ->  tex
+  32:    1  ->  tho
+  33:    1  ->  those
+  34:    1  ->  thung
+  35:    1  ->  twelve
+  36:    1  ->  twenty
+  37:    1  ->  two
+  38:    1  ->  wealth
+  39:    1  ->  why
+  40:    1  ->  will
+  41:    1  ->  wingding
+  42:    1  ->  you
+     -------
+        65
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   24  ->  two
+   2:   17  ->  one
+   3:    2  ->  reinholdt
+   4:    2  ->  taka
+   5:    1  ->  and
+   6:    1  ->  books
+   7:    1  ->  cain
+   8:    1  ->  comic
+   9:    1  ->  fung
+  10:    1  ->  grrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+  11:    1  ->  if
+  12:    1  ->  inconspicuously
+  13:    1  ->  my
+  14:    1  ->  nine
+  15:    1  ->  painted
+  16:    1  ->  roberts'
+  17:    1  ->  ta
+  18:    1  ->  tat
+  19:    1  ->  tax
+  20:    1  ->  ten
+  21:    1  ->  three
+  22:    1  ->  urf
+  23:    1  ->  well
+  24:    1  ->  winding
+     -------
+        65
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

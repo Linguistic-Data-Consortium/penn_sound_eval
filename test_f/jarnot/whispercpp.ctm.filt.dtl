@@ -1,0 +1,126 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.3%   (  32)
+
+Percent Correct           =   96.8%   ( 727)
+
+Percent Substitution      =    2.4%   (  18)
+Percent Deletions         =    0.8%   (   6)
+Percent Insertions        =    1.1%   (   8)
+Percent Word Accuracy     =   95.7%
+
+
+Ref. words                =           ( 751)
+Hyp. words                =           ( 753)
+Aligned words             =           ( 759)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  oh ==> o
+   2:    2  ->  lost ==> last
+   3:    2  ->  seen ==> scene
+   4:    1  ->  a ==> an
+   5:    1  ->  an ==> airless
+   6:    1  ->  conspirators ==> spirators
+   7:    1  ->  in ==> earless
+   8:    1  ->  j ==> jay
+   9:    1  ->  jades ==> jade's
+  10:    1  ->  kyger ==> kiger
+  11:    1  ->  miniscule ==> minuscule
+  12:    1  ->  pulleys ==> pullies
+  13:    1  ->  x ==> comfort
+  14:    1  ->  x ==> tangors
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  a
+   2:    1  ->  am
+   3:    1  ->  and
+   4:    1  ->  i
+   5:    1  ->  just
+   6:    1  ->  person
+   7:    1  ->  the
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  th
+   2:    1  ->  a
+   3:    1  ->  in
+   4:    1  ->  is
+   5:    1  ->  ps
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    3  ->  oh
+   2:    2  ->  lost
+   3:    2  ->  seen
+   4:    2  ->  x
+   5:    1  ->  a
+   6:    1  ->  an
+   7:    1  ->  conspirators
+   8:    1  ->  in
+   9:    1  ->  j
+  10:    1  ->  jades
+  11:    1  ->  kyger
+  12:    1  ->  miniscule
+  13:    1  ->  pulleys
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    3  ->  o
+   2:    2  ->  last
+   3:    2  ->  scene
+   4:    1  ->  airless
+   5:    1  ->  an
+   6:    1  ->  comfort
+   7:    1  ->  earless
+   8:    1  ->  jade's
+   9:    1  ->  jay
+  10:    1  ->  kiger
+  11:    1  ->  minuscule
+  12:    1  ->  pullies
+  13:    1  ->  spirators
+  14:    1  ->  tangors
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

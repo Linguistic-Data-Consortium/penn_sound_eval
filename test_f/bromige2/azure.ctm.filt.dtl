@@ -1,0 +1,143 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.0%   (  34)
+
+Percent Correct           =   97.5%   (1109)
+
+Percent Substitution      =    1.9%   (  22)
+Percent Deletions         =    0.6%   (   7)
+Percent Insertions        =    0.4%   (   5)
+Percent Word Accuracy     =   97.0%
+
+
+Ref. words                =           (1138)
+Hyp. words                =           (1136)
+Aligned words             =           (1143)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    2  ->  is ==> 's
+   2:    2  ->  knocker ==> naka
+   3:    1  ->  acquired ==> required
+   4:    1  ->  all ==> soil
+   5:    1  ->  bent ==> spent
+   6:    1  ->  cousin's ==> 's
+   7:    1  ->  cutoff ==> off
+   8:    1  ->  elbows ==> elbow
+   9:    1  ->  hilda ==> that
+  10:    1  ->  inset ==> instead
+  11:    1  ->  is ==> highways
+  12:    1  ->  ladder ==> latter
+  13:    1  ->  long ==> lung
+  14:    1  ->  offered ==> it
+  15:    1  ->  raced ==> raised
+  16:    1  ->  resolve ==> resolved
+  17:    1  ->  self ==> oneself
+  18:    1  ->  the ==> for
+  19:    1  ->  unslings ==> slings
+  20:    1  ->  until ==> till
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  are
+   2:    1  ->  cousin
+   3:    1  ->  cut
+   4:    1  ->  hill
+   5:    1  ->  on
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  for
+   2:    1  ->  highway
+   3:    1  ->  is
+   4:    1  ->  k.
+   5:    1  ->  o.
+   6:    1  ->  one's
+   7:    1  ->  th
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    3  ->  is
+   2:    2  ->  knocker
+   3:    1  ->  acquired
+   4:    1  ->  all
+   5:    1  ->  bent
+   6:    1  ->  cousin's
+   7:    1  ->  cutoff
+   8:    1  ->  elbows
+   9:    1  ->  hilda
+  10:    1  ->  inset
+  11:    1  ->  ladder
+  12:    1  ->  long
+  13:    1  ->  offered
+  14:    1  ->  raced
+  15:    1  ->  resolve
+  16:    1  ->  self
+  17:    1  ->  the
+  18:    1  ->  unslings
+  19:    1  ->  until
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    3  ->  's
+   2:    2  ->  naka
+   3:    1  ->  elbow
+   4:    1  ->  for
+   5:    1  ->  highways
+   6:    1  ->  instead
+   7:    1  ->  it
+   8:    1  ->  latter
+   9:    1  ->  lung
+  10:    1  ->  off
+  11:    1  ->  oneself
+  12:    1  ->  raised
+  13:    1  ->  required
+  14:    1  ->  resolved
+  15:    1  ->  slings
+  16:    1  ->  soil
+  17:    1  ->  spent
+  18:    1  ->  that
+  19:    1  ->  till
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

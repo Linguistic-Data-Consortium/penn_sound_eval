@@ -1,0 +1,411 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.6%   ( 287)
+
+Percent Correct           =   80.6%   (1120)
+
+Percent Substitution      =    7.2%   ( 100)
+Percent Deletions         =   12.2%   ( 170)
+Percent Insertions        =    1.2%   (  17)
+Percent Word Accuracy     =   79.4%
+
+
+Ref. words                =           (1390)
+Hyp. words                =           (1237)
+Aligned words             =           (1407)
+
+CONFUSION PAIRS                  Total                 (93)
+                                 With >=  1 occurrences (93)
+
+   1:    2  ->  ashbery ==> ashbury
+   2:    2  ->  being ==> been
+   3:    2  ->  in ==> and
+   4:    2  ->  or ==> for
+   5:    2  ->  poem ==> palm
+   6:    2  ->  resonance ==> residence
+   7:    2  ->  that ==> the
+   8:    1  ->  a ==> and
+   9:    1  ->  a ==> i
+  10:    1  ->  about ==> doing
+  11:    1  ->  about ==> of
+  12:    1  ->  about ==> you
+  13:    1  ->  an ==> a
+  14:    1  ->  and ==> documental
+  15:    1  ->  and ==> have
+  16:    1  ->  and ==> in
+  17:    1  ->  are ==> there's
+  18:    1  ->  be ==> are
+  19:    1  ->  by ==> limit
+  20:    1  ->  crossed ==> cross
+  21:    1  ->  damned ==> garden
+  22:    1  ->  dun ==> all
+  23:    1  ->  duncan ==> dunkin
+  24:    1  ->  duncan ==> junked
+  25:    1  ->  duncan ==> of
+  26:    1  ->  duncan's ==> it's
+  27:    1  ->  enemies ==> it's
+  28:    1  ->  fair ==> prepared
+  29:    1  ->  fantasy ==> that
+  30:    1  ->  for ==> to
+  31:    1  ->  has ==> is
+  32:    1  ->  here ==> o'hara
+  33:    1  ->  his ==> is
+  34:    1  ->  his ==> this
+  35:    1  ->  if ==> sort
+  36:    1  ->  illusory ==> loser
+  37:    1  ->  immediacy ==> sensor
+  38:    1  ->  in ==> i
+  39:    1  ->  in ==> were
+  40:    1  ->  is ==> incentives
+  41:    1  ->  it ==> post
+  42:    1  ->  just ==> have
+  43:    1  ->  like ==> i
+  44:    1  ->  moment ==> mode
+  45:    1  ->  o ==> of
+  46:    1  ->  o'hara ==> her
+  47:    1  ->  o'hara ==> i
+  48:    1  ->  o'hara's ==> harris
+  49:    1  ->  of ==> reason
+  50:    1  ->  oh ==> of
+  51:    1  ->  or ==> are
+  52:    1  ->  or ==> of
+  53:    1  ->  or ==> right
+  54:    1  ->  or ==> where
+  55:    1  ->  part ==> we
+  56:    1  ->  particularities ==> particular
+  57:    1  ->  paths ==> has
+  58:    1  ->  present ==> impressive
+  59:    1  ->  pressing ==> present
+  60:    1  ->  procession ==> perception
+  61:    1  ->  realm ==> wrong
+  62:    1  ->  right ==> this
+  63:    1  ->  rotten ==> and
+  64:    1  ->  s ==> the
+  65:    1  ->  s ==> this
+  66:    1  ->  said ==> set
+  67:    1  ->  say ==> how
+  68:    1  ->  self ==> oneself
+  69:    1  ->  self ==> south
+  70:    1  ->  something ==> reflections
+  71:    1  ->  something ==> say
+  72:    1  ->  speaking ==> reaching
+  73:    1  ->  th ==> that
+  74:    1  ->  that ==> by
+  75:    1  ->  that ==> step
+  76:    1  ->  the ==> go
+  77:    1  ->  this ==> the
+  78:    1  ->  through ==> for
+  79:    1  ->  to ==> do
+  80:    1  ->  unifying ==> unified
+  81:    1  ->  vocabulary ==> locality
+  82:    1  ->  w ==> why
+  83:    1  ->  wanting ==> why
+  84:    1  ->  was ==> as
+  85:    1  ->  was ==> have
+  86:    1  ->  we ==> were
+  87:    1  ->  what ==> duncans
+  88:    1  ->  world ==> work
+  89:    1  ->  writing ==> riding
+  90:    1  ->  you ==> a
+  91:    1  ->  you ==> we
+  92:    1  ->  your ==> are
+  93:    1  ->  your ==> here
+     -------
+       100
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    3  ->  a
+   2:    3  ->  of
+   3:    1  ->  always
+   4:    1  ->  bear
+   5:    1  ->  i
+   6:    1  ->  it
+   7:    1  ->  just
+   8:    1  ->  like
+   9:    1  ->  rot
+  10:    1  ->  that's
+  11:    1  ->  understand
+  12:    1  ->  what
+  13:    1  ->  you
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (94)
+                                 With >=  1 occurrences (94)
+
+   1:   12  ->  the
+   2:    8  ->  a
+   3:    8  ->  i
+   4:    6  ->  not
+   5:    6  ->  of
+   6:    5  ->  it
+   7:    5  ->  you
+   8:    4  ->  are
+   9:    4  ->  in
+  10:    4  ->  is
+  11:    4  ->  u
+  12:    3  ->  it's
+  13:    3  ->  oh
+  14:    3  ->  so
+  15:    3  ->  to
+  16:    3  ->  w
+  17:    3  ->  what
+  18:    2  ->  be
+  19:    2  ->  c
+  20:    2  ->  know
+  21:    2  ->  reading
+  22:    2  ->  sense
+  23:    2  ->  talking
+  24:    2  ->  that
+  25:    2  ->  we
+  26:    2  ->  yeah
+  27:    1  ->  %bcack
+  28:    1  ->  and
+  29:    1  ->  anything
+  30:    1  ->  belabour
+  31:    1  ->  big
+  32:    1  ->  bit
+  33:    1  ->  boy
+  34:    1  ->  but
+  35:    1  ->  do
+  36:    1  ->  does
+  37:    1  ->  duncan's
+  38:    1  ->  ex
+  39:    1  ->  exist
+  40:    1  ->  experience
+  41:    1  ->  h
+  42:    1  ->  had
+  43:    1  ->  have
+  44:    1  ->  how
+  45:    1  ->  human
+  46:    1  ->  idea
+  47:    1  ->  if
+  48:    1  ->  intent
+  49:    1  ->  itself
+  50:    1  ->  junk
+  51:    1  ->  just
+  52:    1  ->  k.
+  53:    1  ->  let
+  54:    1  ->  like
+  55:    1  ->  limited
+  56:    1  ->  little
+  57:    1  ->  long
+  58:    1  ->  me
+  59:    1  ->  meaning
+  60:    1  ->  miss
+  61:    1  ->  more
+  62:    1  ->  no
+  63:    1  ->  o
+  64:    1  ->  o.
+  65:    1  ->  one's
+  66:    1  ->  or
+  67:    1  ->  platonic
+  68:    1  ->  poems
+  69:    1  ->  point
+  70:    1  ->  reflection
+  71:    1  ->  s
+  72:    1  ->  say
+  73:    1  ->  saying
+  74:    1  ->  see
+  75:    1  ->  simp
+  76:    1  ->  something
+  77:    1  ->  soul
+  78:    1  ->  terms
+  79:    1  ->  than
+  80:    1  ->  they
+  81:    1  ->  thing
+  82:    1  ->  think
+  83:    1  ->  time
+  84:    1  ->  was
+  85:    1  ->  way
+  86:    1  ->  were
+  87:    1  ->  when
+  88:    1  ->  would
+  89:    1  ->  wow
+  90:    1  ->  wr
+  91:    1  ->  writhe
+  92:    1  ->  x
+  93:    1  ->  y
+  94:    1  ->  yes
+     -------
+       170
+
+
+
+SUBSTITUTIONS                    Total                 (70)
+                                 With >=  1 occurrences (70)
+
+   1:    6  ->  or
+   2:    4  ->  in
+   3:    4  ->  that
+   4:    3  ->  about
+   5:    3  ->  and
+   6:    3  ->  duncan
+   7:    2  ->  a
+   8:    2  ->  ashbery
+   9:    2  ->  being
+  10:    2  ->  his
+  11:    2  ->  o'hara
+  12:    2  ->  poem
+  13:    2  ->  resonance
+  14:    2  ->  s
+  15:    2  ->  self
+  16:    2  ->  something
+  17:    2  ->  was
+  18:    2  ->  you
+  19:    2  ->  your
+  20:    1  ->  an
+  21:    1  ->  are
+  22:    1  ->  be
+  23:    1  ->  by
+  24:    1  ->  crossed
+  25:    1  ->  damned
+  26:    1  ->  dun
+  27:    1  ->  duncan's
+  28:    1  ->  enemies
+  29:    1  ->  fair
+  30:    1  ->  fantasy
+  31:    1  ->  for
+  32:    1  ->  has
+  33:    1  ->  here
+  34:    1  ->  if
+  35:    1  ->  illusory
+  36:    1  ->  immediacy
+  37:    1  ->  is
+  38:    1  ->  it
+  39:    1  ->  just
+  40:    1  ->  like
+  41:    1  ->  moment
+  42:    1  ->  o
+  43:    1  ->  o'hara's
+  44:    1  ->  of
+  45:    1  ->  oh
+  46:    1  ->  part
+  47:    1  ->  particularities
+  48:    1  ->  paths
+  49:    1  ->  present
+  50:    1  ->  pressing
+  51:    1  ->  procession
+  52:    1  ->  realm
+  53:    1  ->  right
+  54:    1  ->  rotten
+  55:    1  ->  said
+  56:    1  ->  say
+  57:    1  ->  speaking
+  58:    1  ->  th
+  59:    1  ->  the
+  60:    1  ->  this
+  61:    1  ->  through
+  62:    1  ->  to
+  63:    1  ->  unifying
+  64:    1  ->  vocabulary
+  65:    1  ->  w
+  66:    1  ->  wanting
+  67:    1  ->  we
+  68:    1  ->  what
+  69:    1  ->  world
+  70:    1  ->  writing
+     -------
+       100
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (68)
+                                 With >=  1 occurrences (68)
+
+   1:    5  ->  of
+   2:    4  ->  and
+   3:    4  ->  i
+   4:    4  ->  the
+   5:    3  ->  are
+   6:    3  ->  for
+   7:    3  ->  have
+   8:    3  ->  this
+   9:    2  ->  a
+  10:    2  ->  ashbury
+  11:    2  ->  been
+  12:    2  ->  is
+  13:    2  ->  it's
+  14:    2  ->  palm
+  15:    2  ->  residence
+  16:    2  ->  that
+  17:    2  ->  we
+  18:    2  ->  were
+  19:    2  ->  why
+  20:    1  ->  all
+  21:    1  ->  as
+  22:    1  ->  by
+  23:    1  ->  cross
+  24:    1  ->  do
+  25:    1  ->  documental
+  26:    1  ->  doing
+  27:    1  ->  duncans
+  28:    1  ->  dunkin
+  29:    1  ->  garden
+  30:    1  ->  go
+  31:    1  ->  harris
+  32:    1  ->  has
+  33:    1  ->  her
+  34:    1  ->  here
+  35:    1  ->  how
+  36:    1  ->  impressive
+  37:    1  ->  in
+  38:    1  ->  incentives
+  39:    1  ->  junked
+  40:    1  ->  limit
+  41:    1  ->  locality
+  42:    1  ->  loser
+  43:    1  ->  mode
+  44:    1  ->  o'hara
+  45:    1  ->  oneself
+  46:    1  ->  particular
+  47:    1  ->  perception
+  48:    1  ->  post
+  49:    1  ->  prepared
+  50:    1  ->  present
+  51:    1  ->  reaching
+  52:    1  ->  reason
+  53:    1  ->  reflections
+  54:    1  ->  riding
+  55:    1  ->  right
+  56:    1  ->  say
+  57:    1  ->  sensor
+  58:    1  ->  set
+  59:    1  ->  sort
+  60:    1  ->  south
+  61:    1  ->  step
+  62:    1  ->  there's
+  63:    1  ->  to
+  64:    1  ->  unified
+  65:    1  ->  where
+  66:    1  ->  work
+  67:    1  ->  wrong
+  68:    1  ->  you
+     -------
+       100
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

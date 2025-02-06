@@ -1,0 +1,209 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.0%   (  83)
+
+Percent Correct           =   94.0%   (1121)
+
+Percent Substitution      =    2.8%   (  34)
+Percent Deletions         =    3.2%   (  38)
+Percent Insertions        =    0.9%   (  11)
+Percent Word Accuracy     =   93.0%
+
+
+Ref. words                =           (1193)
+Hyp. words                =           (1166)
+Aligned words             =           (1204)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  the ==> a
+   2:    1  ->  %bcack ==> standard
+   3:    1  ->  at ==> out
+   4:    1  ->  bee ==> canoelike
+   5:    1  ->  causes ==> cause's
+   6:    1  ->  code ==> close
+   7:    1  ->  date ==> dates
+   8:    1  ->  even ==> eating
+   9:    1  ->  fascinating ==> might
+  10:    1  ->  fires ==> buyers
+  11:    1  ->  gone ==> on
+  12:    1  ->  he ==> e
+  13:    1  ->  hundred ==> zero
+  14:    1  ->  i ==> points
+  15:    1  ->  like ==> around
+  16:    1  ->  now ==> there
+  17:    1  ->  peering ==> hearing
+  18:    1  ->  poem ==> of
+  19:    1  ->  ravaged ==> antiravaged
+  20:    1  ->  sense ==> says
+  21:    1  ->  signed ==> sign
+  22:    1  ->  sleeks ==> sleeps
+  23:    1  ->  standing ==> notwithstanding
+  24:    1  ->  sweet ==> sweep
+  25:    1  ->  taut ==> top
+  26:    1  ->  them ==> from
+  27:    1  ->  tier ==> tear
+  28:    1  ->  up ==> proppedup
+  29:    1  ->  used ==> use
+  30:    1  ->  wh ==> what
+  31:    1  ->  will ==> all
+  32:    1  ->  words ==> word
+  33:    1  ->  wrought ==> brought
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  the
+   2:    1  ->  are
+   3:    1  ->  door
+   4:    1  ->  games
+   5:    1  ->  high
+   6:    1  ->  of
+   7:    1  ->  out
+   8:    1  ->  then
+   9:    1  ->  we
+  10:    1  ->  yeah
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    4  ->  i
+   2:    4  ->  yeah
+   3:    3  ->  that
+   4:    2  ->  are
+   5:    2  ->  s
+   6:    2  ->  wh
+   7:    1  ->  another
+   8:    1  ->  anti
+   9:    1  ->  canoe
+  10:    1  ->  could
+  11:    1  ->  emphatic
+  12:    1  ->  imply
+  13:    1  ->  knocked
+  14:    1  ->  like
+  15:    1  ->  line
+  16:    1  ->  love
+  17:    1  ->  over
+  18:    1  ->  propped
+  19:    1  ->  see
+  20:    1  ->  that's
+  21:    1  ->  the
+  22:    1  ->  think
+  23:    1  ->  to
+  24:    1  ->  type
+  25:    1  ->  well
+  26:    1  ->  with
+  27:    1  ->  you
+     -------
+        38
+
+
+
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  the
+   2:    1  ->  %bcack
+   3:    1  ->  at
+   4:    1  ->  bee
+   5:    1  ->  causes
+   6:    1  ->  code
+   7:    1  ->  date
+   8:    1  ->  even
+   9:    1  ->  fascinating
+  10:    1  ->  fires
+  11:    1  ->  gone
+  12:    1  ->  he
+  13:    1  ->  hundred
+  14:    1  ->  i
+  15:    1  ->  like
+  16:    1  ->  now
+  17:    1  ->  peering
+  18:    1  ->  poem
+  19:    1  ->  ravaged
+  20:    1  ->  sense
+  21:    1  ->  signed
+  22:    1  ->  sleeks
+  23:    1  ->  standing
+  24:    1  ->  sweet
+  25:    1  ->  taut
+  26:    1  ->  them
+  27:    1  ->  tier
+  28:    1  ->  up
+  29:    1  ->  used
+  30:    1  ->  wh
+  31:    1  ->  will
+  32:    1  ->  words
+  33:    1  ->  wrought
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  a
+   2:    1  ->  all
+   3:    1  ->  antiravaged
+   4:    1  ->  around
+   5:    1  ->  brought
+   6:    1  ->  buyers
+   7:    1  ->  canoelike
+   8:    1  ->  cause's
+   9:    1  ->  close
+  10:    1  ->  dates
+  11:    1  ->  e
+  12:    1  ->  eating
+  13:    1  ->  from
+  14:    1  ->  hearing
+  15:    1  ->  might
+  16:    1  ->  notwithstanding
+  17:    1  ->  of
+  18:    1  ->  on
+  19:    1  ->  out
+  20:    1  ->  points
+  21:    1  ->  proppedup
+  22:    1  ->  says
+  23:    1  ->  sign
+  24:    1  ->  sleeps
+  25:    1  ->  standard
+  26:    1  ->  sweep
+  27:    1  ->  tear
+  28:    1  ->  there
+  29:    1  ->  top
+  30:    1  ->  use
+  31:    1  ->  what
+  32:    1  ->  word
+  33:    1  ->  zero
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

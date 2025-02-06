@@ -1,0 +1,132 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.9%   (  25)
+
+Percent Correct           =   96.8%   ( 628)
+
+Percent Substitution      =    3.1%   (  20)
+Percent Deletions         =    0.2%   (   1)
+Percent Insertions        =    0.6%   (   4)
+Percent Word Accuracy     =   96.1%
+
+
+Ref. words                =           ( 649)
+Hyp. words                =           ( 652)
+Aligned words             =           ( 653)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  is ==> 's
+   2:    1  ->  blue ==> bloom
+   3:    1  ->  breast ==> breath
+   4:    1  ->  chin ==> tin
+   5:    1  ->  cock's ==> 's
+   6:    1  ->  dawn's ==> 's
+   7:    1  ->  hen's ==> hens
+   8:    1  ->  hide ==> height
+   9:    1  ->  it ==> a
+  10:    1  ->  morning ==> mourning
+  11:    1  ->  pallor ==> power
+  12:    1  ->  pelican's ==> pelicans
+  13:    1  ->  poem ==> home
+  14:    1  ->  rakes ==> reeks
+  15:    1  ->  shepherd's ==> 's
+  16:    1  ->  slake ==> sleek
+  17:    1  ->  somewhere ==> somewhat
+  18:    1  ->  towards ==> toward
+  19:    1  ->  yolk ==> yoke
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  cock
+   2:    1  ->  dawn
+   3:    1  ->  i
+   4:    1  ->  shepherd
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  t
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  is
+   2:    1  ->  blue
+   3:    1  ->  breast
+   4:    1  ->  chin
+   5:    1  ->  cock's
+   6:    1  ->  dawn's
+   7:    1  ->  hen's
+   8:    1  ->  hide
+   9:    1  ->  it
+  10:    1  ->  morning
+  11:    1  ->  pallor
+  12:    1  ->  pelican's
+  13:    1  ->  poem
+  14:    1  ->  rakes
+  15:    1  ->  shepherd's
+  16:    1  ->  slake
+  17:    1  ->  somewhere
+  18:    1  ->  towards
+  19:    1  ->  yolk
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    5  ->  's
+   2:    1  ->  a
+   3:    1  ->  bloom
+   4:    1  ->  breath
+   5:    1  ->  height
+   6:    1  ->  hens
+   7:    1  ->  home
+   8:    1  ->  mourning
+   9:    1  ->  pelicans
+  10:    1  ->  power
+  11:    1  ->  reeks
+  12:    1  ->  sleek
+  13:    1  ->  somewhat
+  14:    1  ->  tin
+  15:    1  ->  toward
+  16:    1  ->  yoke
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

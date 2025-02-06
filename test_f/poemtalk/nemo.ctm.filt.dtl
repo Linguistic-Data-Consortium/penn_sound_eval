@@ -1,0 +1,232 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.4%   ( 161)
+
+Percent Correct           =   86.7%   ( 907)
+
+Percent Substitution      =    3.8%   (  40)
+Percent Deletions         =    9.5%   (  99)
+Percent Insertions        =    2.1%   (  22)
+Percent Word Accuracy     =   84.6%
+
+
+Ref. words                =           (1046)
+Hyp. words                =           ( 969)
+Aligned words             =           (1068)
+
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    4  ->  i ==> eye
+   2:    3  ->  antited ==> ted
+   3:    1  ->  a ==> an
+   4:    1  ->  add ==> at
+   5:    1  ->  aisle ==> i
+   6:    1  ->  antipersona ==> persona
+   7:    1  ->  b ==> will
+   8:    1  ->  big ==> bee
+   9:    1  ->  but ==> put
+  10:    1  ->  can ==> kicking
+  11:    1  ->  cocreate ==> create
+  12:    1  ->  em ==> and
+  13:    1  ->  have ==> but
+  14:    1  ->  in ==> and
+  15:    1  ->  inner ==> a
+  16:    1  ->  it's ==> that's
+  17:    1  ->  know ==> conversation
+  18:    1  ->  of ==> molange
+  19:    1  ->  show ==> so
+  20:    1  ->  so ==> though
+  21:    1  ->  soci ==> social
+  22:    1  ->  that ==> it
+  23:    1  ->  theirs ==> there
+  24:    1  ->  then ==> not
+  25:    1  ->  thought ==> guess
+  26:    1  ->  x ==> an
+  27:    1  ->  x ==> be
+  28:    1  ->  x ==> eamon
+  29:    1  ->  x ==> in
+  30:    1  ->  x ==> rest
+  31:    1  ->  x ==> seems
+  32:    1  ->  x ==> undercut
+  33:    1  ->  x ==> yeah
+  34:    1  ->  you ==> over
+  35:    1  ->  you ==> yeah
+     -------
+        40
+
+
+
+INSERTIONS                       Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    4  ->  anti
+   2:    2  ->  of
+   3:    1  ->  and
+   4:    1  ->  as
+   5:    1  ->  co
+   6:    1  ->  course
+   7:    1  ->  did
+   8:    1  ->  have
+   9:    1  ->  in
+  10:    1  ->  is
+  11:    1  ->  it
+  12:    1  ->  k.
+  13:    1  ->  nice
+  14:    1  ->  o.
+  15:    1  ->  the
+  16:    1  ->  we
+  17:    1  ->  with
+  18:    1  ->  you
+     -------
+        22
+
+
+
+DELETIONS                        Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:   11  ->  x
+   2:    9  ->  you
+   3:    7  ->  know
+   4:    6  ->  i
+   5:    5  ->  it's
+   6:    4  ->  %bcack
+   7:    3  ->  a
+   8:    3  ->  so
+   9:    3  ->  that
+  10:    2  ->  and
+  11:    2  ->  e
+  12:    2  ->  in
+  13:    2  ->  is
+  14:    2  ->  not
+  15:    2  ->  right
+  16:    2  ->  s
+  17:    2  ->  th
+  18:    2  ->  that's
+  19:    2  ->  to
+  20:    1  ->  all
+  21:    1  ->  andy
+  22:    1  ->  at
+  23:    1  ->  because
+  24:    1  ->  but
+  25:    1  ->  conservation
+  26:    1  ->  fact
+  27:    1  ->  it
+  28:    1  ->  like
+  29:    1  ->  mean
+  30:    1  ->  melange
+  31:    1  ->  need
+  32:    1  ->  r
+  33:    1  ->  talk
+  34:    1  ->  the
+  35:    1  ->  there's
+  36:    1  ->  they
+  37:    1  ->  think
+  38:    1  ->  thought
+  39:    1  ->  try
+  40:    1  ->  was
+  41:    1  ->  we
+  42:    1  ->  well
+  43:    1  ->  when
+  44:    1  ->  where
+  45:    1  ->  why
+  46:    1  ->  y
+  47:    1  ->  yes
+     -------
+        99
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    8  ->  x
+   2:    4  ->  i
+   3:    3  ->  antited
+   4:    2  ->  you
+   5:    1  ->  a
+   6:    1  ->  add
+   7:    1  ->  aisle
+   8:    1  ->  antipersona
+   9:    1  ->  b
+  10:    1  ->  big
+  11:    1  ->  but
+  12:    1  ->  can
+  13:    1  ->  cocreate
+  14:    1  ->  em
+  15:    1  ->  have
+  16:    1  ->  in
+  17:    1  ->  inner
+  18:    1  ->  it's
+  19:    1  ->  know
+  20:    1  ->  of
+  21:    1  ->  show
+  22:    1  ->  so
+  23:    1  ->  soci
+  24:    1  ->  that
+  25:    1  ->  theirs
+  26:    1  ->  then
+  27:    1  ->  thought
+     -------
+        40
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    4  ->  eye
+   2:    3  ->  ted
+   3:    2  ->  an
+   4:    2  ->  and
+   5:    2  ->  yeah
+   6:    1  ->  a
+   7:    1  ->  at
+   8:    1  ->  be
+   9:    1  ->  bee
+  10:    1  ->  but
+  11:    1  ->  conversation
+  12:    1  ->  create
+  13:    1  ->  eamon
+  14:    1  ->  guess
+  15:    1  ->  i
+  16:    1  ->  in
+  17:    1  ->  it
+  18:    1  ->  kicking
+  19:    1  ->  molange
+  20:    1  ->  not
+  21:    1  ->  over
+  22:    1  ->  persona
+  23:    1  ->  put
+  24:    1  ->  rest
+  25:    1  ->  seems
+  26:    1  ->  so
+  27:    1  ->  social
+  28:    1  ->  that's
+  29:    1  ->  there
+  30:    1  ->  though
+  31:    1  ->  undercut
+  32:    1  ->  will
+     -------
+        40
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

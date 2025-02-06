@@ -1,0 +1,154 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.8%   (  91)
+
+Percent Correct           =   95.9%   ( 894)
+
+Percent Substitution      =    2.6%   (  24)
+Percent Deletions         =    1.5%   (  14)
+Percent Insertions        =    5.7%   (  53)
+Percent Word Accuracy     =   90.2%
+
+
+Ref. words                =           ( 932)
+Hyp. words                =           ( 971)
+Aligned words             =           ( 985)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    4  ->  oh ==> hundred
+   2:    2  ->  oh ==> and
+   3:    1  ->  and ==> an
+   4:    1  ->  artell ==> held
+   5:    1  ->  future ==> feature
+   6:    1  ->  in ==> an
+   7:    1  ->  in ==> treading
+   8:    1  ->  it's ==> this
+   9:    1  ->  literary ==> literature
+  10:    1  ->  manner ==> matter
+  11:    1  ->  or ==> of
+  12:    1  ->  perseverace ==> perseverance
+  13:    1  ->  pertinaciousness ==> pertinacity
+  14:    1  ->  principal ==> principle
+  15:    1  ->  sane ==> saying
+  16:    1  ->  seek ==> sake
+  17:    1  ->  stars' ==> stars
+  18:    1  ->  termination ==> determination
+  19:    1  ->  their ==> other
+  20:    1  ->  with ==> of
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:   13  ->  hundred
+   2:   11  ->  a
+   3:    9  ->  or
+   4:    6  ->  woman
+   5:    4  ->  and
+   6:    3  ->  man
+   7:    1  ->  arts
+   8:    1  ->  english
+   9:    1  ->  form
+  10:    1  ->  noun
+  11:    1  ->  obstinacy
+  12:    1  ->  plain
+  13:    1  ->  seriousness
+     -------
+        53
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    2  ->  it
+   3:    1  ->  an
+   4:    1  ->  for
+   5:    1  ->  necessity
+   6:    1  ->  noun
+   7:    1  ->  or
+   8:    1  ->  poo
+   9:    1  ->  roget's
+  10:    1  ->  thesaurus
+  11:    1  ->  to
+  12:    1  ->  tread
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    6  ->  oh
+   2:    2  ->  in
+   3:    1  ->  and
+   4:    1  ->  artell
+   5:    1  ->  future
+   6:    1  ->  it's
+   7:    1  ->  literary
+   8:    1  ->  manner
+   9:    1  ->  or
+  10:    1  ->  perseverace
+  11:    1  ->  pertinaciousness
+  12:    1  ->  principal
+  13:    1  ->  sane
+  14:    1  ->  seek
+  15:    1  ->  stars'
+  16:    1  ->  termination
+  17:    1  ->  their
+  18:    1  ->  with
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    4  ->  hundred
+   2:    2  ->  an
+   3:    2  ->  and
+   4:    2  ->  of
+   5:    1  ->  determination
+   6:    1  ->  feature
+   7:    1  ->  held
+   8:    1  ->  literature
+   9:    1  ->  matter
+  10:    1  ->  other
+  11:    1  ->  perseverance
+  12:    1  ->  pertinacity
+  13:    1  ->  principle
+  14:    1  ->  sake
+  15:    1  ->  saying
+  16:    1  ->  stars
+  17:    1  ->  this
+  18:    1  ->  treading
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

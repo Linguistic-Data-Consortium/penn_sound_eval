@@ -1,0 +1,178 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.6%   (  54)
+
+Percent Correct           =   96.3%   ( 930)
+
+Percent Substitution      =    3.0%   (  29)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    1.9%   (  18)
+Percent Word Accuracy     =   94.4%
+
+
+Ref. words                =           ( 966)
+Hyp. words                =           ( 977)
+Aligned words             =           ( 984)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    1  ->  allen ==> alan
+   2:    1  ->  and ==> aunt
+   3:    1  ->  audibly ==> inaudibly
+   4:    1  ->  benefits ==> benefit
+   5:    1  ->  blank's ==> blanks
+   6:    1  ->  cum ==> kum
+   7:    1  ->  discotheque ==> take
+   8:    1  ->  ginsberg ==> ginsburg
+   9:    1  ->  given ==> its
+  10:    1  ->  in ==> a
+  11:    1  ->  in ==> people
+  12:    1  ->  longawaited ==> awaited
+  13:    1  ->  mind ==> mine
+  14:    1  ->  mosquitos ==> mosquitoes
+  15:    1  ->  off ==> jackass
+  16:    1  ->  out ==> these
+  17:    1  ->  paterson ==> patterson
+  18:    1  ->  ripoff ==> a
+  19:    1  ->  stomachaches ==> aches
+  20:    1  ->  suite ==> sweet
+  21:    1  ->  suspended ==> suspected
+  22:    1  ->  tout ==> too
+  23:    1  ->  very ==> finished
+  24:    1  ->  were ==> give
+  25:    1  ->  what ==> minute
+  26:    1  ->  x ==> a
+  27:    1  ->  x ==> harris
+  28:    1  ->  x ==> move
+  29:    1  ->  x ==> winnie
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  to
+   2:    1  ->  disco
+   3:    1  ->  everything
+   4:    1  ->  i
+   5:    1  ->  it's
+   6:    1  ->  just
+   7:    1  ->  laugh
+   8:    1  ->  long
+   9:    1  ->  make
+  10:    1  ->  off
+  11:    1  ->  rip
+  12:    1  ->  rob
+  13:    1  ->  stomach
+  14:    1  ->  them
+  15:    1  ->  wanted
+  16:    1  ->  what
+  17:    1  ->  will
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  again
+   2:    1  ->  but
+   3:    1  ->  jack
+   4:    1  ->  not
+   5:    1  ->  on
+   6:    1  ->  then
+   7:    1  ->  x
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    4  ->  x
+   2:    2  ->  in
+   3:    1  ->  allen
+   4:    1  ->  and
+   5:    1  ->  audibly
+   6:    1  ->  benefits
+   7:    1  ->  blank's
+   8:    1  ->  cum
+   9:    1  ->  discotheque
+  10:    1  ->  ginsberg
+  11:    1  ->  given
+  12:    1  ->  longawaited
+  13:    1  ->  mind
+  14:    1  ->  mosquitos
+  15:    1  ->  off
+  16:    1  ->  out
+  17:    1  ->  paterson
+  18:    1  ->  ripoff
+  19:    1  ->  stomachaches
+  20:    1  ->  suite
+  21:    1  ->  suspended
+  22:    1  ->  tout
+  23:    1  ->  very
+  24:    1  ->  were
+  25:    1  ->  what
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  a
+   2:    1  ->  aches
+   3:    1  ->  alan
+   4:    1  ->  aunt
+   5:    1  ->  awaited
+   6:    1  ->  benefit
+   7:    1  ->  blanks
+   8:    1  ->  finished
+   9:    1  ->  ginsburg
+  10:    1  ->  give
+  11:    1  ->  harris
+  12:    1  ->  inaudibly
+  13:    1  ->  its
+  14:    1  ->  jackass
+  15:    1  ->  kum
+  16:    1  ->  mine
+  17:    1  ->  minute
+  18:    1  ->  mosquitoes
+  19:    1  ->  move
+  20:    1  ->  patterson
+  21:    1  ->  people
+  22:    1  ->  suspected
+  23:    1  ->  sweet
+  24:    1  ->  take
+  25:    1  ->  these
+  26:    1  ->  too
+  27:    1  ->  winnie
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

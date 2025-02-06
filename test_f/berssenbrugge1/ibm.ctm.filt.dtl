@@ -1,0 +1,210 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.4%   (  55)
+
+Percent Correct           =   94.3%   ( 814)
+
+Percent Substitution      =    5.1%   (  44)
+Percent Deletions         =    0.6%   (   5)
+Percent Insertions        =    0.7%   (   6)
+Percent Word Accuracy     =   93.6%
+
+
+Ref. words                =           ( 863)
+Hyp. words                =           ( 864)
+Aligned words             =           ( 869)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    1  ->  a ==> up
+   2:    1  ->  activates ==> that's
+   3:    1  ->  an ==> and
+   4:    1  ->  are ==> your
+   5:    1  ->  bell ==> bill
+   6:    1  ->  beside ==> besides
+   7:    1  ->  clearings ==> clearing
+   8:    1  ->  connections ==> connection
+   9:    1  ->  contentless ==> less
+  10:    1  ->  decorate ==> decorated
+  11:    1  ->  derives ==> derived
+  12:    1  ->  enters ==> injures
+  13:    1  ->  facts ==> fax
+  14:    1  ->  feel ==> field
+  15:    1  ->  flesh ==> slash
+  16:    1  ->  friend ==> friends
+  17:    1  ->  heart ==> hard
+  18:    1  ->  implicated ==> indicated
+  19:    1  ->  in ==> and
+  20:    1  ->  inasmuch ==> much
+  21:    1  ->  inhabits ==> habits
+  22:    1  ->  involve ==> involved
+  23:    1  ->  linguistic ==> linguistics
+  24:    1  ->  loom ==> moon
+  25:    1  ->  observe ==> observed
+  26:    1  ->  occurs ==> accuse
+  27:    1  ->  our ==> or
+  28:    1  ->  photograph ==> photographical
+  29:    1  ->  poem ==> home
+  30:    1  ->  remain ==> remained
+  31:    1  ->  rock ==> iraq
+  32:    1  ->  role ==> room
+  33:    1  ->  sight ==> side
+  34:    1  ->  silhouette ==> silouette
+  35:    1  ->  silhouettes ==> silouette
+  36:    1  ->  singer's ==> singers
+  37:    1  ->  to ==> the
+  38:    1  ->  tongues ==> tongue
+  39:    1  ->  transference ==> transparency
+  40:    1  ->  up ==> a
+  41:    1  ->  was ==> with
+  42:    1  ->  waves ==> was
+  43:    1  ->  x ==> just
+  44:    1  ->  you ==> he
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  in
+   2:    1  ->  after
+   3:    1  ->  as
+   4:    1  ->  canyon
+   5:    1  ->  content
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    3  ->  a
+   2:    2  ->  you
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    1  ->  a
+   2:    1  ->  activates
+   3:    1  ->  an
+   4:    1  ->  are
+   5:    1  ->  bell
+   6:    1  ->  beside
+   7:    1  ->  clearings
+   8:    1  ->  connections
+   9:    1  ->  contentless
+  10:    1  ->  decorate
+  11:    1  ->  derives
+  12:    1  ->  enters
+  13:    1  ->  facts
+  14:    1  ->  feel
+  15:    1  ->  flesh
+  16:    1  ->  friend
+  17:    1  ->  heart
+  18:    1  ->  implicated
+  19:    1  ->  in
+  20:    1  ->  inasmuch
+  21:    1  ->  inhabits
+  22:    1  ->  involve
+  23:    1  ->  linguistic
+  24:    1  ->  loom
+  25:    1  ->  observe
+  26:    1  ->  occurs
+  27:    1  ->  our
+  28:    1  ->  photograph
+  29:    1  ->  poem
+  30:    1  ->  remain
+  31:    1  ->  rock
+  32:    1  ->  role
+  33:    1  ->  sight
+  34:    1  ->  silhouette
+  35:    1  ->  silhouettes
+  36:    1  ->  singer's
+  37:    1  ->  to
+  38:    1  ->  tongues
+  39:    1  ->  transference
+  40:    1  ->  up
+  41:    1  ->  was
+  42:    1  ->  waves
+  43:    1  ->  x
+  44:    1  ->  you
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  and
+   2:    2  ->  silouette
+   3:    1  ->  a
+   4:    1  ->  accuse
+   5:    1  ->  besides
+   6:    1  ->  bill
+   7:    1  ->  clearing
+   8:    1  ->  connection
+   9:    1  ->  decorated
+  10:    1  ->  derived
+  11:    1  ->  fax
+  12:    1  ->  field
+  13:    1  ->  friends
+  14:    1  ->  habits
+  15:    1  ->  hard
+  16:    1  ->  he
+  17:    1  ->  home
+  18:    1  ->  indicated
+  19:    1  ->  injures
+  20:    1  ->  involved
+  21:    1  ->  iraq
+  22:    1  ->  just
+  23:    1  ->  less
+  24:    1  ->  linguistics
+  25:    1  ->  moon
+  26:    1  ->  much
+  27:    1  ->  observed
+  28:    1  ->  or
+  29:    1  ->  photographical
+  30:    1  ->  remained
+  31:    1  ->  room
+  32:    1  ->  side
+  33:    1  ->  singers
+  34:    1  ->  slash
+  35:    1  ->  that's
+  36:    1  ->  the
+  37:    1  ->  tongue
+  38:    1  ->  transparency
+  39:    1  ->  up
+  40:    1  ->  was
+  41:    1  ->  with
+  42:    1  ->  your
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

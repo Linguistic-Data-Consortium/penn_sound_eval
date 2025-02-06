@@ -1,0 +1,220 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.6%   ( 111)
+
+Percent Correct           =   91.0%   ( 952)
+
+Percent Substitution      =    4.1%   (  43)
+Percent Deletions         =    4.9%   (  51)
+Percent Insertions        =    1.6%   (  17)
+Percent Word Accuracy     =   89.4%
+
+
+Ref. words                =           (1046)
+Hyp. words                =           (1012)
+Aligned words             =           (1063)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    3  ->  antited ==> ted
+   2:    3  ->  i ==> eye
+   3:    1  ->  a ==> an
+   4:    1  ->  a ==> edit
+   5:    1  ->  altogether ==> together
+   6:    1  ->  antipersona ==> persona
+   7:    1  ->  be ==> b
+   8:    1  ->  be ==> else
+   9:    1  ->  big ==> b
+  10:    1  ->  cocreate ==> create
+  11:    1  ->  conservation ==> conversation
+  12:    1  ->  crowd's ==> crowds
+  13:    1  ->  diselect ==> elect
+  14:    1  ->  have ==> but
+  15:    1  ->  i ==> o.
+  16:    1  ->  in ==> an
+  17:    1  ->  inner ==> a
+  18:    1  ->  is ==> his
+  19:    1  ->  ism ==> talkism
+  20:    1  ->  it's ==> that's
+  21:    1  ->  one ==> anyone
+  22:    1  ->  poem's ==> poems
+  23:    1  ->  show ==> so
+  24:    1  ->  so ==> some
+  25:    1  ->  so ==> though
+  26:    1  ->  soci ==> social
+  27:    1  ->  th ==> the
+  28:    1  ->  that ==> the
+  29:    1  ->  theirs ==> there
+  30:    1  ->  thought ==> k.
+  31:    1  ->  up ==> all
+  32:    1  ->  will ==> isle
+  33:    1  ->  x ==> an
+  34:    1  ->  x ==> even
+  35:    1  ->  x ==> in
+  36:    1  ->  x ==> it's
+  37:    1  ->  x ==> threat
+  38:    1  ->  x ==> undercut
+  39:    1  ->  you ==> yeah
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    4  ->  anti
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  as
+   5:    1  ->  co
+   6:    1  ->  dis
+   7:    1  ->  in
+   8:    1  ->  life
+   9:    1  ->  of
+  10:    1  ->  or
+  11:    1  ->  the
+  12:    1  ->  there
+  13:    1  ->  we
+  14:    1  ->  with
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:   13  ->  x
+   2:    4  ->  %bcack
+   3:    3  ->  a
+   4:    2  ->  but
+   5:    2  ->  e
+   6:    2  ->  is
+   7:    2  ->  it
+   8:    2  ->  s
+   9:    1  ->  add
+  10:    1  ->  and
+  11:    1  ->  any
+  12:    1  ->  at
+  13:    1  ->  em
+  14:    1  ->  i
+  15:    1  ->  in
+  16:    1  ->  no
+  17:    1  ->  not
+  18:    1  ->  of
+  19:    1  ->  oh
+  20:    1  ->  r
+  21:    1  ->  right
+  22:    1  ->  talk
+  23:    1  ->  th
+  24:    1  ->  that
+  25:    1  ->  to
+  26:    1  ->  well
+  27:    1  ->  y
+  28:    1  ->  yes
+  29:    1  ->  you
+     -------
+        51
+
+
+
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    6  ->  x
+   2:    4  ->  i
+   3:    3  ->  antited
+   4:    2  ->  a
+   5:    2  ->  be
+   6:    2  ->  so
+   7:    1  ->  altogether
+   8:    1  ->  antipersona
+   9:    1  ->  big
+  10:    1  ->  cocreate
+  11:    1  ->  conservation
+  12:    1  ->  crowd's
+  13:    1  ->  diselect
+  14:    1  ->  have
+  15:    1  ->  in
+  16:    1  ->  inner
+  17:    1  ->  is
+  18:    1  ->  ism
+  19:    1  ->  it's
+  20:    1  ->  one
+  21:    1  ->  poem's
+  22:    1  ->  show
+  23:    1  ->  soci
+  24:    1  ->  th
+  25:    1  ->  that
+  26:    1  ->  theirs
+  27:    1  ->  thought
+  28:    1  ->  up
+  29:    1  ->  will
+  30:    1  ->  you
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  an
+   2:    3  ->  eye
+   3:    3  ->  ted
+   4:    2  ->  b
+   5:    2  ->  the
+   6:    1  ->  a
+   7:    1  ->  all
+   8:    1  ->  anyone
+   9:    1  ->  but
+  10:    1  ->  conversation
+  11:    1  ->  create
+  12:    1  ->  crowds
+  13:    1  ->  edit
+  14:    1  ->  elect
+  15:    1  ->  else
+  16:    1  ->  even
+  17:    1  ->  his
+  18:    1  ->  in
+  19:    1  ->  isle
+  20:    1  ->  it's
+  21:    1  ->  k.
+  22:    1  ->  o.
+  23:    1  ->  persona
+  24:    1  ->  poems
+  25:    1  ->  so
+  26:    1  ->  social
+  27:    1  ->  some
+  28:    1  ->  talkism
+  29:    1  ->  that's
+  30:    1  ->  there
+  31:    1  ->  though
+  32:    1  ->  threat
+  33:    1  ->  together
+  34:    1  ->  undercut
+  35:    1  ->  yeah
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

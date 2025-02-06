@@ -1,0 +1,197 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.5%   (  91)
+
+Percent Correct           =   93.1%   (1001)
+
+Percent Substitution      =    3.2%   (  34)
+Percent Deletions         =    3.7%   (  40)
+Percent Insertions        =    1.6%   (  17)
+Percent Word Accuracy     =   91.5%
+
+
+Ref. words                =           (1075)
+Hyp. words                =           (1052)
+Aligned words             =           (1092)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    5  ->  fifteen ==> five
+   2:    1  ->  b ==> bee
+   3:    1  ->  bucks ==> oh
+   4:    1  ->  couplets ==> couplets'
+   5:    1  ->  eighth ==> 8th
+   6:    1  ->  eleven ==> one
+   7:    1  ->  five ==> 95
+   8:    1  ->  get ==> will
+   9:    1  ->  india's ==> indies
+  10:    1  ->  laney ==> lainey
+  11:    1  ->  laney's ==> lainie's
+  12:    1  ->  laney's ==> lainies
+  13:    1  ->  line ==> lines
+  14:    1  ->  naïve ==> naive
+  15:    1  ->  ninety ==> nine
+  16:    1  ->  ninety ==> one
+  17:    1  ->  noticed ==> notice
+  18:    1  ->  o'connor ==> 'connor
+  19:    1  ->  of ==> a
+  20:    1  ->  or ==> we
+  21:    1  ->  pass ==> passed
+  22:    1  ->  the ==> definition
+  23:    1  ->  their ==> another
+  24:    1  ->  wanted ==> to
+  25:    1  ->  works ==> work
+  26:    1  ->  x ==> cento
+  27:    1  ->  x ==> centos
+  28:    1  ->  x ==> dee
+  29:    1  ->  x ==> estivations
+  30:    1  ->  you ==> we
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    5  ->  one
+   2:    2  ->  i
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  destiny
+   6:    1  ->  emily
+   7:    1  ->  it's
+   8:    1  ->  o
+   9:    1  ->  so
+  10:    1  ->  them
+  11:    1  ->  want
+  12:    1  ->  your
+     -------
+        17
+
+
+
+DELETIONS                        Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  i
+   2:    3  ->  and
+   3:    3  ->  of
+   4:    3  ->  the
+   5:    2  ->  just
+   6:    2  ->  we
+   7:    1  ->  a
+   8:    1  ->  any
+   9:    1  ->  are
+  10:    1  ->  because
+  11:    1  ->  but
+  12:    1  ->  definitions
+  13:    1  ->  dis
+  14:    1  ->  eight
+  15:    1  ->  have
+  16:    1  ->  ins
+  17:    1  ->  it's
+  18:    1  ->  know
+  19:    1  ->  like
+  20:    1  ->  much
+  21:    1  ->  one
+  22:    1  ->  purpor
+  23:    1  ->  some
+  24:    1  ->  ten
+  25:    1  ->  to
+  26:    1  ->  when
+  27:    1  ->  will
+  28:    1  ->  x
+  29:    1  ->  you
+     -------
+        40
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    5  ->  fifteen
+   2:    4  ->  x
+   3:    2  ->  laney's
+   4:    2  ->  ninety
+   5:    1  ->  b
+   6:    1  ->  bucks
+   7:    1  ->  couplets
+   8:    1  ->  eighth
+   9:    1  ->  eleven
+  10:    1  ->  five
+  11:    1  ->  get
+  12:    1  ->  india's
+  13:    1  ->  laney
+  14:    1  ->  line
+  15:    1  ->  naïve
+  16:    1  ->  noticed
+  17:    1  ->  o'connor
+  18:    1  ->  of
+  19:    1  ->  or
+  20:    1  ->  pass
+  21:    1  ->  the
+  22:    1  ->  their
+  23:    1  ->  wanted
+  24:    1  ->  works
+  25:    1  ->  you
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    5  ->  five
+   2:    2  ->  one
+   3:    2  ->  we
+   4:    1  ->  'connor
+   5:    1  ->  8th
+   6:    1  ->  95
+   7:    1  ->  a
+   8:    1  ->  another
+   9:    1  ->  bee
+  10:    1  ->  cento
+  11:    1  ->  centos
+  12:    1  ->  couplets'
+  13:    1  ->  dee
+  14:    1  ->  definition
+  15:    1  ->  estivations
+  16:    1  ->  indies
+  17:    1  ->  lainey
+  18:    1  ->  lainie's
+  19:    1  ->  lainies
+  20:    1  ->  lines
+  21:    1  ->  naive
+  22:    1  ->  nine
+  23:    1  ->  notice
+  24:    1  ->  oh
+  25:    1  ->  passed
+  26:    1  ->  to
+  27:    1  ->  will
+  28:    1  ->  work
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

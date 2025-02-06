@@ -1,0 +1,142 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.4%   (  39)
+
+Percent Correct           =   95.3%   ( 689)
+
+Percent Substitution      =    2.1%   (  15)
+Percent Deletions         =    2.6%   (  19)
+Percent Insertions        =    0.7%   (   5)
+Percent Word Accuracy     =   94.6%
+
+
+Ref. words                =           ( 723)
+Hyp. words                =           ( 709)
+Aligned words             =           ( 728)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  at ==> of
+   2:    1  ->  black ==> blueblack
+   3:    1  ->  braided ==> ribbonbraided
+   4:    1  ->  combustable ==> combustible
+   5:    1  ->  furrowed ==> weedyfurrowed
+   6:    1  ->  gulley ==> gully
+   7:    1  ->  incipits ==> kippets
+   8:    1  ->  managed ==> mannered
+   9:    1  ->  ogham ==> agam
+  10:    1  ->  puckered ==> nipplepuckered
+  11:    1  ->  scuro ==> chiaroscuro
+  12:    1  ->  sleep ==> halfsleep
+  13:    1  ->  slice ==> notch
+  14:    1  ->  thick ==> treethick
+  15:    1  ->  through ==> followthrough
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  in
+   2:    1  ->  no
+   3:    1  ->  rooms
+   4:    1  ->  windows
+   5:    1  ->  with
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    1  ->  already
+   2:    1  ->  been
+   3:    1  ->  blue
+   4:    1  ->  chiaro
+   5:    1  ->  follow
+   6:    1  ->  half
+   7:    1  ->  has
+   8:    1  ->  invested
+   9:    1  ->  it
+  10:    1  ->  much
+  11:    1  ->  must
+  12:    1  ->  nipple
+  13:    1  ->  ribbon
+  14:    1  ->  so
+  15:    1  ->  stick
+  16:    1  ->  tree
+  17:    1  ->  we
+  18:    1  ->  weedy
+  19:    1  ->  with
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  at
+   2:    1  ->  black
+   3:    1  ->  braided
+   4:    1  ->  combustable
+   5:    1  ->  furrowed
+   6:    1  ->  gulley
+   7:    1  ->  incipits
+   8:    1  ->  managed
+   9:    1  ->  ogham
+  10:    1  ->  puckered
+  11:    1  ->  scuro
+  12:    1  ->  sleep
+  13:    1  ->  slice
+  14:    1  ->  thick
+  15:    1  ->  through
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  agam
+   2:    1  ->  blueblack
+   3:    1  ->  chiaroscuro
+   4:    1  ->  combustible
+   5:    1  ->  followthrough
+   6:    1  ->  gully
+   7:    1  ->  halfsleep
+   8:    1  ->  kippets
+   9:    1  ->  mannered
+  10:    1  ->  nipplepuckered
+  11:    1  ->  notch
+  12:    1  ->  of
+  13:    1  ->  ribbonbraided
+  14:    1  ->  treethick
+  15:    1  ->  weedyfurrowed
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

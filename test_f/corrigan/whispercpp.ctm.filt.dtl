@@ -1,0 +1,207 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.2%   (  66)
+
+Percent Correct           =   94.5%   (1004)
+
+Percent Substitution      =    4.0%   (  43)
+Percent Deletions         =    1.4%   (  15)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   93.8%
+
+
+Ref. words                =           (1062)
+Hyp. words                =           (1055)
+Aligned words             =           (1070)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  its ==> it's
+   2:    2  ->  leaf ==> belief
+   3:    1  ->  adult ==> addled
+   4:    1  ->  calls ==> called
+   5:    1  ->  choses ==> chooses
+   6:    1  ->  christmas' ==> christmas's
+   7:    1  ->  com ==> livejournalcom
+   8:    1  ->  downward ==> downwards
+   9:    1  ->  eleven ==> 411
+  10:    1  ->  eleven ==> one
+  11:    1  ->  end ==> and
+  12:    1  ->  face ==> base
+  13:    1  ->  face ==> space
+  14:    1  ->  filled ==> film
+  15:    1  ->  gentler ==> arc
+  16:    1  ->  he's ==> these
+  17:    1  ->  herbs ==> birds
+  18:    1  ->  hundred ==> zero
+  19:    1  ->  illustrated ==> illustrative
+  20:    1  ->  in ==> and
+  21:    1  ->  leaves ==> assemblies
+  22:    1  ->  malick ==> wife
+  23:    1  ->  maw ==> mob
+  24:    1  ->  mclaughlan ==> mclaughlin
+  25:    1  ->  ninety ==> nine
+  26:    1  ->  not ==> naught
+  27:    1  ->  opened ==> open
+  28:    1  ->  piqued ==> peaked
+  29:    1  ->  ploat ==> float
+  30:    1  ->  seventeen ==> seven
+  31:    1  ->  stat ==> stacked
+  32:    1  ->  sun ==> neuronal
+  33:    1  ->  tax ==> text
+  34:    1  ->  ten ==> zero
+  35:    1  ->  terrence ==> my
+  36:    1  ->  the ==> arc
+  37:    1  ->  the ==> this
+  38:    1  ->  throve ==> drove
+  39:    1  ->  toms ==> tom's
+  40:    1  ->  twelve ==> 412
+  41:    1  ->  twelve ==> two
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    4  ->  one
+   2:    1  ->  gentle
+   3:    1  ->  malik
+   4:    1  ->  reading
+   5:    1  ->  terence
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  four
+   2:    2  ->  point
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  dot
+   6:    1  ->  he
+   7:    1  ->  her
+   8:    1  ->  in
+   9:    1  ->  journal
+  10:    1  ->  live
+  11:    1  ->  of
+  12:    1  ->  ronnel
+  13:    1  ->  the
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  eleven
+   2:    2  ->  face
+   3:    2  ->  its
+   4:    2  ->  leaf
+   5:    2  ->  the
+   6:    2  ->  twelve
+   7:    1  ->  adult
+   8:    1  ->  calls
+   9:    1  ->  choses
+  10:    1  ->  christmas'
+  11:    1  ->  com
+  12:    1  ->  downward
+  13:    1  ->  end
+  14:    1  ->  filled
+  15:    1  ->  gentler
+  16:    1  ->  he's
+  17:    1  ->  herbs
+  18:    1  ->  hundred
+  19:    1  ->  illustrated
+  20:    1  ->  in
+  21:    1  ->  leaves
+  22:    1  ->  malick
+  23:    1  ->  maw
+  24:    1  ->  mclaughlan
+  25:    1  ->  ninety
+  26:    1  ->  not
+  27:    1  ->  opened
+  28:    1  ->  piqued
+  29:    1  ->  ploat
+  30:    1  ->  seventeen
+  31:    1  ->  stat
+  32:    1  ->  sun
+  33:    1  ->  tax
+  34:    1  ->  ten
+  35:    1  ->  terrence
+  36:    1  ->  throve
+  37:    1  ->  toms
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    2  ->  and
+   2:    2  ->  arc
+   3:    2  ->  belief
+   4:    2  ->  it's
+   5:    2  ->  zero
+   6:    1  ->  411
+   7:    1  ->  412
+   8:    1  ->  addled
+   9:    1  ->  assemblies
+  10:    1  ->  base
+  11:    1  ->  birds
+  12:    1  ->  called
+  13:    1  ->  chooses
+  14:    1  ->  christmas's
+  15:    1  ->  downwards
+  16:    1  ->  drove
+  17:    1  ->  film
+  18:    1  ->  float
+  19:    1  ->  illustrative
+  20:    1  ->  livejournalcom
+  21:    1  ->  mclaughlin
+  22:    1  ->  mob
+  23:    1  ->  my
+  24:    1  ->  naught
+  25:    1  ->  neuronal
+  26:    1  ->  nine
+  27:    1  ->  one
+  28:    1  ->  open
+  29:    1  ->  peaked
+  30:    1  ->  seven
+  31:    1  ->  space
+  32:    1  ->  stacked
+  33:    1  ->  text
+  34:    1  ->  these
+  35:    1  ->  this
+  36:    1  ->  tom's
+  37:    1  ->  two
+  38:    1  ->  wife
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

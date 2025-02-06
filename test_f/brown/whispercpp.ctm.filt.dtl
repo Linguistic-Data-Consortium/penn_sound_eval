@@ -1,0 +1,189 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.0%   (  86)
+
+Percent Correct           =   93.7%   (1007)
+
+Percent Substitution      =    3.0%   (  32)
+Percent Deletions         =    3.3%   (  36)
+Percent Insertions        =    1.7%   (  18)
+Percent Word Accuracy     =   92.0%
+
+
+Ref. words                =           (1075)
+Hyp. words                =           (1057)
+Aligned words             =           (1093)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    5  ->  fifteen ==> five
+   2:    2  ->  ninety ==> nine
+   3:    1  ->  and ==> so
+   4:    1  ->  b ==> bee
+   5:    1  ->  be's ==> bees
+   6:    1  ->  downs ==> handmedowns
+   7:    1  ->  eighth ==> 8th
+   8:    1  ->  eleven ==> one
+   9:    1  ->  get ==> will
+  10:    1  ->  laney ==> lainey
+  11:    1  ->  meltdown ==> that
+  12:    1  ->  naïve ==> naive
+  13:    1  ->  noticed ==> notice
+  14:    1  ->  of ==> a
+  15:    1  ->  or ==> we
+  16:    1  ->  pass ==> passed
+  17:    1  ->  pollinating ==> crosspollinating
+  18:    1  ->  purported ==> reported
+  19:    1  ->  shaped ==> lshaped
+  20:    1  ->  the ==> definition
+  21:    1  ->  wanted ==> to
+  22:    1  ->  works ==> work
+  23:    1  ->  x ==> cento
+  24:    1  ->  x ==> centos
+  25:    1  ->  x ==> dee
+  26:    1  ->  x ==> estivations
+  27:    1  ->  you ==> we
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    6  ->  one
+   2:    2  ->  i
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  emily
+   6:    1  ->  gertrude
+   7:    1  ->  it's
+   8:    1  ->  like
+   9:    1  ->  meltdowns
+  10:    1  ->  things
+  11:    1  ->  want
+  12:    1  ->  your
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    4  ->  i
+   2:    3  ->  and
+   3:    3  ->  the
+   4:    2  ->  of
+   5:    2  ->  we
+   6:    1  ->  a
+   7:    1  ->  any
+   8:    1  ->  are
+   9:    1  ->  because
+  10:    1  ->  but
+  11:    1  ->  cross
+  12:    1  ->  definitions
+  13:    1  ->  dis
+  14:    1  ->  eight
+  15:    1  ->  hand
+  16:    1  ->  have
+  17:    1  ->  ins
+  18:    1  ->  it's
+  19:    1  ->  just
+  20:    1  ->  l
+  21:    1  ->  me
+  22:    1  ->  much
+  23:    1  ->  purpor
+  24:    1  ->  to
+  25:    1  ->  when
+  26:    1  ->  will
+  27:    1  ->  x
+     -------
+        36
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    5  ->  fifteen
+   2:    4  ->  x
+   3:    2  ->  ninety
+   4:    1  ->  and
+   5:    1  ->  b
+   6:    1  ->  be's
+   7:    1  ->  downs
+   8:    1  ->  eighth
+   9:    1  ->  eleven
+  10:    1  ->  get
+  11:    1  ->  laney
+  12:    1  ->  meltdown
+  13:    1  ->  naïve
+  14:    1  ->  noticed
+  15:    1  ->  of
+  16:    1  ->  or
+  17:    1  ->  pass
+  18:    1  ->  pollinating
+  19:    1  ->  purported
+  20:    1  ->  shaped
+  21:    1  ->  the
+  22:    1  ->  wanted
+  23:    1  ->  works
+  24:    1  ->  you
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    5  ->  five
+   2:    2  ->  nine
+   3:    2  ->  we
+   4:    1  ->  8th
+   5:    1  ->  a
+   6:    1  ->  bee
+   7:    1  ->  bees
+   8:    1  ->  cento
+   9:    1  ->  centos
+  10:    1  ->  crosspollinating
+  11:    1  ->  dee
+  12:    1  ->  definition
+  13:    1  ->  estivations
+  14:    1  ->  handmedowns
+  15:    1  ->  lainey
+  16:    1  ->  lshaped
+  17:    1  ->  naive
+  18:    1  ->  notice
+  19:    1  ->  one
+  20:    1  ->  passed
+  21:    1  ->  reported
+  22:    1  ->  so
+  23:    1  ->  that
+  24:    1  ->  to
+  25:    1  ->  will
+  26:    1  ->  work
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,235 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.1%   (  82)
+
+Percent Correct           =   92.2%   ( 828)
+
+Percent Substitution      =    6.1%   (  55)
+Percent Deletions         =    1.7%   (  15)
+Percent Insertions        =    1.3%   (  12)
+Percent Word Accuracy     =   90.9%
+
+
+Ref. words                =           ( 898)
+Hyp. words                =           ( 895)
+Aligned words             =           ( 910)
+
+CONFUSION PAIRS                  Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    3  ->  a ==> the
+   2:    2  ->  astride ==> stride
+   3:    2  ->  bleiben ==> is
+   4:    2  ->  german ==> dur
+   5:    2  ->  nirgends ==> against
+   6:    1  ->  are ==> is
+   7:    1  ->  are ==> mirror
+   8:    1  ->  because ==> but
+   9:    1  ->  cut ==> intercut
+  10:    1  ->  dana ==> dania
+  11:    1  ->  denn ==> and
+  12:    1  ->  denn ==> dan
+  13:    1  ->  denn ==> libin
+  14:    1  ->  did ==> do
+  15:    1  ->  englobed ==> glowed
+  16:    1  ->  i ==> it
+  17:    1  ->  in ==> and
+  18:    1  ->  in ==> of
+  19:    1  ->  ing ==> xing
+  20:    1  ->  ist ==> near
+  21:    1  ->  ist ==> new
+  22:    1  ->  just ==> mark
+  23:    1  ->  keats ==> keith
+  24:    1  ->  know ==> the
+  25:    1  ->  known ==> wellknown
+  26:    1  ->  loss ==> lost
+  27:    1  ->  mnemosyne ==> animosity
+  28:    1  ->  mourning ==> morning
+  29:    1  ->  ninety ==> nine
+  30:    1  ->  palimpsest ==> palest
+  31:    1  ->  persons ==> person's
+  32:    1  ->  plenitude ==> platitude
+  33:    1  ->  provenance ==> providence
+  34:    1  ->  quipu ==> oo
+  35:    1  ->  rs ==> ours
+  36:    1  ->  saldana ==> dan
+  37:    1  ->  screams ==> scrims
+  38:    1  ->  snorkels ==> snorkel
+  39:    1  ->  so ==> <inaudible>
+  40:    1  ->  sonnet ==> sign
+  41:    1  ->  starter ==> starker
+  42:    1  ->  their ==> there
+  43:    1  ->  there's ==> it's
+  44:    1  ->  there's ==> others
+  45:    1  ->  they ==> there
+  46:    1  ->  tight ==> titus
+  47:    1  ->  trackable ==> untrackable
+  48:    1  ->  which ==> with
+  49:    1  ->  wor ==> were
+     -------
+        55
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  s
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  are
+   5:    1  ->  bli
+   6:    1  ->  dane
+   7:    1  ->  den
+   8:    1  ->  eng
+   9:    1  ->  spell
+  10:    1  ->  that
+  11:    1  ->  the
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a
+   2:    1  ->  degre
+   3:    1  ->  gul
+   4:    1  ->  in
+   5:    1  ->  indy
+   6:    1  ->  ink
+   7:    1  ->  l
+   8:    1  ->  s
+   9:    1  ->  spelled
+  10:    1  ->  the
+  11:    1  ->  un
+  12:    1  ->  we
+  13:    1  ->  well
+  14:    1  ->  x
+  15:    1  ->  you
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    3  ->  a
+   2:    3  ->  denn
+   3:    2  ->  are
+   4:    2  ->  astride
+   5:    2  ->  bleiben
+   6:    2  ->  german
+   7:    2  ->  in
+   8:    2  ->  ist
+   9:    2  ->  nirgends
+  10:    2  ->  there's
+  11:    1  ->  because
+  12:    1  ->  cut
+  13:    1  ->  dana
+  14:    1  ->  did
+  15:    1  ->  englobed
+  16:    1  ->  i
+  17:    1  ->  ing
+  18:    1  ->  just
+  19:    1  ->  keats
+  20:    1  ->  know
+  21:    1  ->  known
+  22:    1  ->  loss
+  23:    1  ->  mnemosyne
+  24:    1  ->  mourning
+  25:    1  ->  ninety
+  26:    1  ->  palimpsest
+  27:    1  ->  persons
+  28:    1  ->  plenitude
+  29:    1  ->  provenance
+  30:    1  ->  quipu
+  31:    1  ->  rs
+  32:    1  ->  saldana
+  33:    1  ->  screams
+  34:    1  ->  snorkels
+  35:    1  ->  so
+  36:    1  ->  sonnet
+  37:    1  ->  starter
+  38:    1  ->  their
+  39:    1  ->  they
+  40:    1  ->  tight
+  41:    1  ->  trackable
+  42:    1  ->  which
+  43:    1  ->  wor
+     -------
+        55
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    4  ->  the
+   2:    3  ->  is
+   3:    2  ->  against
+   4:    2  ->  and
+   5:    2  ->  dan
+   6:    2  ->  dur
+   7:    2  ->  stride
+   8:    2  ->  there
+   9:    1  ->  <inaudible>
+  10:    1  ->  animosity
+  11:    1  ->  but
+  12:    1  ->  dania
+  13:    1  ->  do
+  14:    1  ->  glowed
+  15:    1  ->  intercut
+  16:    1  ->  it
+  17:    1  ->  it's
+  18:    1  ->  keith
+  19:    1  ->  libin
+  20:    1  ->  lost
+  21:    1  ->  mark
+  22:    1  ->  mirror
+  23:    1  ->  morning
+  24:    1  ->  near
+  25:    1  ->  new
+  26:    1  ->  nine
+  27:    1  ->  of
+  28:    1  ->  oo
+  29:    1  ->  others
+  30:    1  ->  ours
+  31:    1  ->  palest
+  32:    1  ->  person's
+  33:    1  ->  platitude
+  34:    1  ->  providence
+  35:    1  ->  scrims
+  36:    1  ->  sign
+  37:    1  ->  snorkel
+  38:    1  ->  starker
+  39:    1  ->  titus
+  40:    1  ->  untrackable
+  41:    1  ->  wellknown
+  42:    1  ->  were
+  43:    1  ->  with
+  44:    1  ->  xing
+     -------
+        55
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

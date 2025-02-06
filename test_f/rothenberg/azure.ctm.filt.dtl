@@ -1,0 +1,212 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.0%   (  90)
+
+Percent Correct           =   89.5%   ( 730)
+
+Percent Substitution      =    4.0%   (  33)
+Percent Deletions         =    6.5%   (  53)
+Percent Insertions        =    0.5%   (   4)
+Percent Word Accuracy     =   89.0%
+
+
+Ref. words                =           ( 816)
+Hyp. words                =           ( 767)
+Aligned words             =           ( 820)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  chez ==> shay
+   2:    1  ->  an ==> in
+   3:    1  ->  been ==> nothing
+   4:    1  ->  blacklight ==> light
+   5:    1  ->  but ==> if
+   6:    1  ->  coffeepot ==> pot
+   7:    1  ->  cream ==> creamed
+   8:    1  ->  damage ==> damaged
+   9:    1  ->  de ==> a
+  10:    1  ->  dennis ==> denis
+  11:    1  ->  frances ==> francis
+  12:    1  ->  grew ==> group
+  13:    1  ->  have ==> right
+  14:    1  ->  healy ==> healey
+  15:    1  ->  in ==> on
+  16:    1  ->  jeanne ==> jean
+  17:    1  ->  menthe ==> mint
+  18:    1  ->  mink ==> minks
+  19:    1  ->  mo ==> move
+  20:    1  ->  not ==> fantastic
+  21:    1  ->  on ==> in
+  22:    1  ->  pelted ==> peltate
+  23:    1  ->  philip ==> phillip
+  24:    1  ->  souther ==> southern
+  25:    1  ->  stoles ==> dolls
+  26:    1  ->  stolichnaya ==> itchnaya
+  27:    1  ->  tha ==> that
+  28:    1  ->  then ==> and
+  29:    1  ->  to ==> the
+  30:    1  ->  until ==> till
+  31:    1  ->  was ==> it's
+  32:    1  ->  woods ==> redwoods
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  a
+   2:    1  ->  black
+   3:    1  ->  coffee
+   4:    1  ->  stole
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    5  ->  i
+   2:    3  ->  it
+   3:    3  ->  yeah
+   4:    2  ->  all
+   5:    2  ->  br
+   6:    2  ->  it's
+   7:    2  ->  like
+   8:    2  ->  my
+   9:    1  ->  a
+  10:    1  ->  am
+  11:    1  ->  been
+  12:    1  ->  course
+  13:    1  ->  f
+  14:    1  ->  fabulous
+  15:    1  ->  from
+  16:    1  ->  here
+  17:    1  ->  if
+  18:    1  ->  in
+  19:    1  ->  is
+  20:    1  ->  items
+  21:    1  ->  k.
+  22:    1  ->  might
+  23:    1  ->  mike
+  24:    1  ->  moved
+  25:    1  ->  no
+  26:    1  ->  o.
+  27:    1  ->  of
+  28:    1  ->  one
+  29:    1  ->  ph
+  30:    1  ->  red
+  31:    1  ->  right
+  32:    1  ->  sorry
+  33:    1  ->  the
+  34:    1  ->  there's
+  35:    1  ->  wagon
+  36:    1  ->  want
+  37:    1  ->  water
+  38:    1  ->  welcome
+  39:    1  ->  y
+  40:    1  ->  you
+     -------
+        53
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  chez
+   2:    1  ->  an
+   3:    1  ->  been
+   4:    1  ->  blacklight
+   5:    1  ->  but
+   6:    1  ->  coffeepot
+   7:    1  ->  cream
+   8:    1  ->  damage
+   9:    1  ->  de
+  10:    1  ->  dennis
+  11:    1  ->  frances
+  12:    1  ->  grew
+  13:    1  ->  have
+  14:    1  ->  healy
+  15:    1  ->  in
+  16:    1  ->  jeanne
+  17:    1  ->  menthe
+  18:    1  ->  mink
+  19:    1  ->  mo
+  20:    1  ->  not
+  21:    1  ->  on
+  22:    1  ->  pelted
+  23:    1  ->  philip
+  24:    1  ->  souther
+  25:    1  ->  stoles
+  26:    1  ->  stolichnaya
+  27:    1  ->  tha
+  28:    1  ->  then
+  29:    1  ->  to
+  30:    1  ->  until
+  31:    1  ->  was
+  32:    1  ->  woods
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  in
+   2:    2  ->  shay
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  creamed
+   6:    1  ->  damaged
+   7:    1  ->  denis
+   8:    1  ->  dolls
+   9:    1  ->  fantastic
+  10:    1  ->  francis
+  11:    1  ->  group
+  12:    1  ->  healey
+  13:    1  ->  if
+  14:    1  ->  it's
+  15:    1  ->  itchnaya
+  16:    1  ->  jean
+  17:    1  ->  light
+  18:    1  ->  minks
+  19:    1  ->  mint
+  20:    1  ->  move
+  21:    1  ->  nothing
+  22:    1  ->  on
+  23:    1  ->  peltate
+  24:    1  ->  phillip
+  25:    1  ->  pot
+  26:    1  ->  redwoods
+  27:    1  ->  right
+  28:    1  ->  southern
+  29:    1  ->  that
+  30:    1  ->  the
+  31:    1  ->  till
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

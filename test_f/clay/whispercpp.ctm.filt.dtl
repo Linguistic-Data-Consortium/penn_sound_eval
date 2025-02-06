@@ -1,0 +1,226 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   16.4%   ( 177)
+
+Percent Correct           =   84.2%   ( 908)
+
+Percent Substitution      =    3.2%   (  35)
+Percent Deletions         =   12.6%   ( 136)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   83.6%
+
+
+Ref. words                =           (1079)
+Hyp. words                =           ( 949)
+Aligned words             =           (1085)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  in ==> and
+   2:    1  ->  a ==> an
+   3:    1  ->  a ==> my
+   4:    1  ->  as ==> artist
+   5:    1  ->  brakhage ==> brackage
+   6:    1  ->  can ==> could
+   7:    1  ->  contemporaries ==> contemporary
+   8:    1  ->  create ==> created
+   9:    1  ->  did ==> do
+  10:    1  ->  eighties ==> 80s
+  11:    1  ->  i ==> on
+  12:    1  ->  i ==> that
+  13:    1  ->  it ==> books
+  14:    1  ->  known ==> know
+  15:    1  ->  m ==> may
+  16:    1  ->  matter ==> manner
+  17:    1  ->  maybe ==> be
+  18:    1  ->  painter ==> poetpainter
+  19:    1  ->  right ==> go
+  20:    1  ->  saw ==> saul
+  21:    1  ->  talk ==> talking
+  22:    1  ->  the ==> le
+  23:    1  ->  the ==> your
+  24:    1  ->  them ==> that
+  25:    1  ->  tuumba ==> tumba
+  26:    1  ->  were ==> are
+  27:    1  ->  what ==> it
+  28:    1  ->  wit ==> witt
+  29:    1  ->  x ==> and
+  30:    1  ->  x ==> by
+  31:    1  ->  x ==> down
+  32:    1  ->  x ==> ruscha
+  33:    1  ->  yeah ==> have
+  34:    1  ->  yeah ==> know
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  are
+   4:    1  ->  it
+   5:    1  ->  set
+   6:    1  ->  you
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (55)
+                                 With >=  1 occurrences (55)
+
+   1:   15  ->  yeah
+   2:   10  ->  %bcack
+   3:    9  ->  and
+   4:    9  ->  x
+   5:    7  ->  i
+   6:    7  ->  or
+   7:    5  ->  the
+   8:    4  ->  have
+   9:    4  ->  is
+  10:    4  ->  right
+  11:    4  ->  you
+  12:    3  ->  a
+  13:    3  ->  it's
+  14:    2  ->  absolutely
+  15:    2  ->  go
+  16:    2  ->  know
+  17:    2  ->  mean
+  18:    2  ->  not
+  19:    2  ->  of
+  20:    2  ->  th
+  21:    2  ->  that
+  22:    2  ->  w
+  23:    2  ->  we
+  24:    1  ->  an
+  25:    1  ->  art
+  26:    1  ->  as
+  27:    1  ->  be
+  28:    1  ->  books
+  29:    1  ->  but
+  30:    1  ->  con
+  31:    1  ->  down
+  32:    1  ->  exactly
+  33:    1  ->  f
+  34:    1  ->  fine
+  35:    1  ->  had
+  36:    1  ->  interesting
+  37:    1  ->  it
+  38:    1  ->  just
+  39:    1  ->  l
+  40:    1  ->  most
+  41:    1  ->  oh
+  42:    1  ->  on
+  43:    1  ->  one
+  44:    1  ->  placing
+  45:    1  ->  poet
+  46:    1  ->  r
+  47:    1  ->  so
+  48:    1  ->  st
+  49:    1  ->  that's
+  50:    1  ->  then
+  51:    1  ->  there
+  52:    1  ->  they
+  53:    1  ->  was
+  54:    1  ->  well
+  55:    1  ->  with
+     -------
+       136
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    4  ->  x
+   2:    2  ->  a
+   3:    2  ->  i
+   4:    2  ->  in
+   5:    2  ->  the
+   6:    2  ->  yeah
+   7:    1  ->  as
+   8:    1  ->  brakhage
+   9:    1  ->  can
+  10:    1  ->  contemporaries
+  11:    1  ->  create
+  12:    1  ->  did
+  13:    1  ->  eighties
+  14:    1  ->  it
+  15:    1  ->  known
+  16:    1  ->  m
+  17:    1  ->  matter
+  18:    1  ->  maybe
+  19:    1  ->  painter
+  20:    1  ->  right
+  21:    1  ->  saw
+  22:    1  ->  talk
+  23:    1  ->  them
+  24:    1  ->  tuumba
+  25:    1  ->  were
+  26:    1  ->  what
+  27:    1  ->  wit
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  and
+   2:    2  ->  know
+   3:    2  ->  that
+   4:    1  ->  80s
+   5:    1  ->  an
+   6:    1  ->  are
+   7:    1  ->  artist
+   8:    1  ->  be
+   9:    1  ->  books
+  10:    1  ->  brackage
+  11:    1  ->  by
+  12:    1  ->  contemporary
+  13:    1  ->  could
+  14:    1  ->  created
+  15:    1  ->  do
+  16:    1  ->  down
+  17:    1  ->  go
+  18:    1  ->  have
+  19:    1  ->  it
+  20:    1  ->  le
+  21:    1  ->  manner
+  22:    1  ->  may
+  23:    1  ->  my
+  24:    1  ->  on
+  25:    1  ->  poetpainter
+  26:    1  ->  ruscha
+  27:    1  ->  saul
+  28:    1  ->  talking
+  29:    1  ->  tumba
+  30:    1  ->  witt
+  31:    1  ->  your
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

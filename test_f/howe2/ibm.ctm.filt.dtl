@@ -1,0 +1,278 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.3%   (  81)
+
+Percent Correct           =   86.6%   ( 492)
+
+Percent Substitution      =   12.0%   (  68)
+Percent Deletions         =    1.4%   (   8)
+Percent Insertions        =    0.9%   (   5)
+Percent Word Accuracy     =   85.7%
+
+
+Ref. words                =           ( 568)
+Hyp. words                =           ( 565)
+Aligned words             =           ( 573)
+
+CONFUSION PAIRS                  Total                 (65)
+                                 With >=  1 occurrences (65)
+
+   1:    2  ->  occult ==> cult
+   2:    2  ->  sentries ==> centuries
+   3:    2  ->  shoal ==> show
+   4:    1  ->  a ==> of
+   5:    1  ->  all ==> old
+   6:    1  ->  aria ==> area
+   7:    1  ->  ascetic ==> a
+   8:    1  ->  bear ==> fair
+   9:    1  ->  cairn ==> karen
+  10:    1  ->  chamois ==> shama
+  11:    1  ->  debtor ==> deter
+  12:    1  ->  dull ==> dell
+  13:    1  ->  emancipation ==> emancipator
+  14:    1  ->  empirion ==> imperial
+  15:    1  ->  ends ==> stands
+  16:    1  ->  enzyme ==> ensign
+  17:    1  ->  equivocations ==> equivocation
+  18:    1  ->  eyed ==> piney
+  19:    1  ->  figuration ==> configuration
+  20:    1  ->  frost ==> brow
+  21:    1  ->  girdled ==> girdle
+  22:    1  ->  girl ==> girls
+  23:    1  ->  had ==> hood
+  24:    1  ->  hell ==> hill
+  25:    1  ->  hovel ==> hubble
+  26:    1  ->  icarian ==> carry
+  27:    1  ->  in ==> and
+  28:    1  ->  is ==> hair's
+  29:    1  ->  king's ==> kings
+  30:    1  ->  kinsmen ==> kinsman
+  31:    1  ->  lair ==> layer
+  32:    1  ->  mistletoe ==> to
+  33:    1  ->  move ==> moved
+  34:    1  ->  muffle ==> muffled
+  35:    1  ->  negation ==> indication
+  36:    1  ->  nimbus ==> numbers
+  37:    1  ->  or ==> were
+  38:    1  ->  out ==> of
+  39:    1  ->  point ==> standpoint
+  40:    1  ->  revels ==> rebels
+  41:    1  ->  scrawl ==> missile
+  42:    1  ->  screaming ==> streaming
+  43:    1  ->  sea ==> s
+  44:    1  ->  shadowy ==> a
+  45:    1  ->  shear ==> sheer
+  46:    1  ->  sight ==> site
+  47:    1  ->  slough ==> slow
+  48:    1  ->  snare ==> sneer
+  49:    1  ->  splendor ==> splender
+  50:    1  ->  stamp ==> stamped
+  51:    1  ->  steeps ==> deeps
+  52:    1  ->  sullen ==> solon
+  53:    1  ->  sundial ==> sundi
+  54:    1  ->  the ==> but
+  55:    1  ->  them ==> the
+  56:    1  ->  threadbare ==> bear
+  57:    1  ->  thresh ==> thrash
+  58:    1  ->  time ==> nighttime
+  59:    1  ->  tree ==> greentree
+  60:    1  ->  undertow ==> to
+  61:    1  ->  veil ==> absolve
+  62:    1  ->  voracity ==> veracity
+  63:    1  ->  winged ==> wing
+  64:    1  ->  woe ==> wow
+  65:    1  ->  woes ==> was
+     -------
+        68
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  asset
+   2:    1  ->  scroll
+   3:    1  ->  shadowing
+   4:    1  ->  thread
+   5:    1  ->  under
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  abasol
+   2:    1  ->  green
+   3:    1  ->  here
+   4:    1  ->  in
+   5:    1  ->  night
+   6:    1  ->  pin
+   7:    1  ->  stand
+   8:    1  ->  who
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (65)
+                                 With >=  1 occurrences (65)
+
+   1:    2  ->  occult
+   2:    2  ->  sentries
+   3:    2  ->  shoal
+   4:    1  ->  a
+   5:    1  ->  all
+   6:    1  ->  aria
+   7:    1  ->  ascetic
+   8:    1  ->  bear
+   9:    1  ->  cairn
+  10:    1  ->  chamois
+  11:    1  ->  debtor
+  12:    1  ->  dull
+  13:    1  ->  emancipation
+  14:    1  ->  empirion
+  15:    1  ->  ends
+  16:    1  ->  enzyme
+  17:    1  ->  equivocations
+  18:    1  ->  eyed
+  19:    1  ->  figuration
+  20:    1  ->  frost
+  21:    1  ->  girdled
+  22:    1  ->  girl
+  23:    1  ->  had
+  24:    1  ->  hell
+  25:    1  ->  hovel
+  26:    1  ->  icarian
+  27:    1  ->  in
+  28:    1  ->  is
+  29:    1  ->  king's
+  30:    1  ->  kinsmen
+  31:    1  ->  lair
+  32:    1  ->  mistletoe
+  33:    1  ->  move
+  34:    1  ->  muffle
+  35:    1  ->  negation
+  36:    1  ->  nimbus
+  37:    1  ->  or
+  38:    1  ->  out
+  39:    1  ->  point
+  40:    1  ->  revels
+  41:    1  ->  scrawl
+  42:    1  ->  screaming
+  43:    1  ->  sea
+  44:    1  ->  shadowy
+  45:    1  ->  shear
+  46:    1  ->  sight
+  47:    1  ->  slough
+  48:    1  ->  snare
+  49:    1  ->  splendor
+  50:    1  ->  stamp
+  51:    1  ->  steeps
+  52:    1  ->  sullen
+  53:    1  ->  sundial
+  54:    1  ->  the
+  55:    1  ->  them
+  56:    1  ->  threadbare
+  57:    1  ->  thresh
+  58:    1  ->  time
+  59:    1  ->  tree
+  60:    1  ->  undertow
+  61:    1  ->  veil
+  62:    1  ->  voracity
+  63:    1  ->  winged
+  64:    1  ->  woe
+  65:    1  ->  woes
+     -------
+        68
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (62)
+                                 With >=  1 occurrences (62)
+
+   1:    2  ->  a
+   2:    2  ->  centuries
+   3:    2  ->  cult
+   4:    2  ->  of
+   5:    2  ->  show
+   6:    2  ->  to
+   7:    1  ->  absolve
+   8:    1  ->  and
+   9:    1  ->  area
+  10:    1  ->  bear
+  11:    1  ->  brow
+  12:    1  ->  but
+  13:    1  ->  carry
+  14:    1  ->  configuration
+  15:    1  ->  deeps
+  16:    1  ->  dell
+  17:    1  ->  deter
+  18:    1  ->  emancipator
+  19:    1  ->  ensign
+  20:    1  ->  equivocation
+  21:    1  ->  fair
+  22:    1  ->  girdle
+  23:    1  ->  girls
+  24:    1  ->  greentree
+  25:    1  ->  hair's
+  26:    1  ->  hill
+  27:    1  ->  hood
+  28:    1  ->  hubble
+  29:    1  ->  imperial
+  30:    1  ->  indication
+  31:    1  ->  karen
+  32:    1  ->  kings
+  33:    1  ->  kinsman
+  34:    1  ->  layer
+  35:    1  ->  missile
+  36:    1  ->  moved
+  37:    1  ->  muffled
+  38:    1  ->  nighttime
+  39:    1  ->  numbers
+  40:    1  ->  old
+  41:    1  ->  piney
+  42:    1  ->  rebels
+  43:    1  ->  s
+  44:    1  ->  shama
+  45:    1  ->  sheer
+  46:    1  ->  site
+  47:    1  ->  slow
+  48:    1  ->  sneer
+  49:    1  ->  solon
+  50:    1  ->  splender
+  51:    1  ->  stamped
+  52:    1  ->  standpoint
+  53:    1  ->  stands
+  54:    1  ->  streaming
+  55:    1  ->  sundi
+  56:    1  ->  the
+  57:    1  ->  thrash
+  58:    1  ->  veracity
+  59:    1  ->  was
+  60:    1  ->  were
+  61:    1  ->  wing
+  62:    1  ->  wow
+     -------
+        68
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,138 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.7%   (  27)
+
+Percent Correct           =   97.8%   ( 966)
+
+Percent Substitution      =    2.0%   (  20)
+Percent Deletions         =    0.2%   (   2)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   97.3%
+
+
+Ref. words                =           ( 988)
+Hyp. words                =           ( 991)
+Aligned words             =           ( 993)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  an ==> and
+   3:    1  ->  as ==> his
+   4:    1  ->  balks ==> bulks
+   5:    1  ->  car ==> boxcar
+   6:    1  ->  falbalas ==> falah
+   7:    1  ->  imp ==> mp
+   8:    1  ->  in ==> and
+   9:    1  ->  kit ==> kid
+  10:    1  ->  others ==> others'
+  11:    1  ->  pierced ==> pierce
+  12:    1  ->  pyrography ==> graphy
+  13:    1  ->  quotients ==> quotient
+  14:    1  ->  raban ==> rabban
+  15:    1  ->  stares ==> stairs
+  16:    1  ->  straggle ==> strangle
+  17:    1  ->  that ==> the
+  18:    1  ->  the ==> a
+  19:    1  ->  too ==> two
+  20:    1  ->  warren ==> in
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  a
+   2:    1  ->  i
+   3:    1  ->  war
+   4:    1  ->  will
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  box
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  a
+   2:    1  ->  an
+   3:    1  ->  as
+   4:    1  ->  balks
+   5:    1  ->  car
+   6:    1  ->  falbalas
+   7:    1  ->  imp
+   8:    1  ->  in
+   9:    1  ->  kit
+  10:    1  ->  others
+  11:    1  ->  pierced
+  12:    1  ->  pyrography
+  13:    1  ->  quotients
+  14:    1  ->  raban
+  15:    1  ->  stares
+  16:    1  ->  straggle
+  17:    1  ->  that
+  18:    1  ->  the
+  19:    1  ->  too
+  20:    1  ->  warren
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  and
+   2:    1  ->  a
+   3:    1  ->  boxcar
+   4:    1  ->  bulks
+   5:    1  ->  falah
+   6:    1  ->  graphy
+   7:    1  ->  his
+   8:    1  ->  in
+   9:    1  ->  kid
+  10:    1  ->  mp
+  11:    1  ->  of
+  12:    1  ->  others'
+  13:    1  ->  pierce
+  14:    1  ->  quotient
+  15:    1  ->  rabban
+  16:    1  ->  stairs
+  17:    1  ->  strangle
+  18:    1  ->  the
+  19:    1  ->  two
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

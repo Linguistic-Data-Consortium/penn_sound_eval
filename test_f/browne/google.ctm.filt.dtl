@@ -1,0 +1,220 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.3%   (  66)
+
+Percent Correct           =   93.6%   ( 849)
+
+Percent Substitution      =    5.2%   (  47)
+Percent Deletions         =    1.2%   (  11)
+Percent Insertions        =    0.9%   (   8)
+Percent Word Accuracy     =   92.7%
+
+
+Ref. words                =           ( 907)
+Hyp. words                =           ( 904)
+Aligned words             =           ( 915)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    3  ->  pear ==> pair
+   2:    1  ->  antidote ==> anecdote
+   3:    1  ->  ask ==> asked
+   4:    1  ->  bannister ==> banister
+   5:    1  ->  befallen ==> fallen
+   6:    1  ->  bidden ==> bitten
+   7:    1  ->  blade ==> splayed
+   8:    1  ->  continue ==> continued
+   9:    1  ->  contrive ==> contend
+  10:    1  ->  death ==> deft
+  11:    1  ->  deporting ==> supporting
+  12:    1  ->  fathomed ==> fathom
+  13:    1  ->  felt ==> spell
+  14:    1  ->  handmaiden ==> handmaidens
+  15:    1  ->  hold ==> cold
+  16:    1  ->  illuminates ==> eliminates
+  17:    1  ->  in ==> are
+  18:    1  ->  inaction ==> action
+  19:    1  ->  it ==> none
+  20:    1  ->  lilt ==> lilting
+  21:    1  ->  magnificence ==> magnificent
+  22:    1  ->  mind ==> mime
+  23:    1  ->  other ==> utter
+  24:    1  ->  pleads ==> please
+  25:    1  ->  prattle ==> cradle
+  26:    1  ->  pray ==> prayed
+  27:    1  ->  retinol ==> retinal
+  28:    1  ->  scores ==> squares
+  29:    1  ->  stays ==> staves
+  30:    1  ->  sundial ==> dial
+  31:    1  ->  they ==> there
+  32:    1  ->  thoreau ==> furrow
+  33:    1  ->  wait ==> weight
+  34:    1  ->  were ==> worse
+  35:    1  ->  windowpane ==> pane
+  36:    1  ->  wise ==> moonwise
+  37:    1  ->  woodcutters ==> cutters
+  38:    1  ->  work ==> we
+  39:    1  ->  world ==> word
+  40:    1  ->  x ==> are
+  41:    1  ->  x ==> palimpsest
+  42:    1  ->  x ==> psalmist
+  43:    1  ->  x ==> rest
+  44:    1  ->  x ==> sav
+  45:    1  ->  x ==> tigrish
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  in
+   4:    1  ->  sun
+   5:    1  ->  to
+   6:    1  ->  window
+   7:    1  ->  wood
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  e
+   2:    1  ->  festoon
+   3:    1  ->  interlude
+   4:    1  ->  moon
+   5:    1  ->  nat
+   6:    1  ->  ode
+   7:    1  ->  of
+   8:    1  ->  plow
+   9:    1  ->  slender
+  10:    1  ->  the
+  11:    1  ->  then
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    6  ->  x
+   2:    3  ->  pear
+   3:    1  ->  antidote
+   4:    1  ->  ask
+   5:    1  ->  bannister
+   6:    1  ->  befallen
+   7:    1  ->  bidden
+   8:    1  ->  blade
+   9:    1  ->  continue
+  10:    1  ->  contrive
+  11:    1  ->  death
+  12:    1  ->  deporting
+  13:    1  ->  fathomed
+  14:    1  ->  felt
+  15:    1  ->  handmaiden
+  16:    1  ->  hold
+  17:    1  ->  illuminates
+  18:    1  ->  in
+  19:    1  ->  inaction
+  20:    1  ->  it
+  21:    1  ->  lilt
+  22:    1  ->  magnificence
+  23:    1  ->  mind
+  24:    1  ->  other
+  25:    1  ->  pleads
+  26:    1  ->  prattle
+  27:    1  ->  pray
+  28:    1  ->  retinol
+  29:    1  ->  scores
+  30:    1  ->  stays
+  31:    1  ->  sundial
+  32:    1  ->  they
+  33:    1  ->  thoreau
+  34:    1  ->  wait
+  35:    1  ->  were
+  36:    1  ->  windowpane
+  37:    1  ->  wise
+  38:    1  ->  woodcutters
+  39:    1  ->  work
+  40:    1  ->  world
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    3  ->  pair
+   2:    2  ->  are
+   3:    1  ->  action
+   4:    1  ->  anecdote
+   5:    1  ->  asked
+   6:    1  ->  banister
+   7:    1  ->  bitten
+   8:    1  ->  cold
+   9:    1  ->  contend
+  10:    1  ->  continued
+  11:    1  ->  cradle
+  12:    1  ->  cutters
+  13:    1  ->  deft
+  14:    1  ->  dial
+  15:    1  ->  eliminates
+  16:    1  ->  fallen
+  17:    1  ->  fathom
+  18:    1  ->  furrow
+  19:    1  ->  handmaidens
+  20:    1  ->  lilting
+  21:    1  ->  magnificent
+  22:    1  ->  mime
+  23:    1  ->  moonwise
+  24:    1  ->  none
+  25:    1  ->  palimpsest
+  26:    1  ->  pane
+  27:    1  ->  please
+  28:    1  ->  prayed
+  29:    1  ->  psalmist
+  30:    1  ->  rest
+  31:    1  ->  retinal
+  32:    1  ->  sav
+  33:    1  ->  spell
+  34:    1  ->  splayed
+  35:    1  ->  squares
+  36:    1  ->  staves
+  37:    1  ->  supporting
+  38:    1  ->  there
+  39:    1  ->  tigrish
+  40:    1  ->  utter
+  41:    1  ->  we
+  42:    1  ->  weight
+  43:    1  ->  word
+  44:    1  ->  worse
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

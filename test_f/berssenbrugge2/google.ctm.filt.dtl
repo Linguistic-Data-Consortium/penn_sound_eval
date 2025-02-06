@@ -1,0 +1,166 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.4%   (  43)
+
+Percent Correct           =   96.3%   ( 951)
+
+Percent Substitution      =    2.6%   (  26)
+Percent Deletions         =    1.1%   (  11)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   95.6%
+
+
+Ref. words                =           ( 988)
+Hyp. words                =           ( 983)
+Aligned words             =           ( 994)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  and ==> than
+   2:    1  ->  associated ==> associative
+   3:    1  ->  both ==> folk
+   4:    1  ->  cheapness ==> she's
+   5:    1  ->  clothes ==> clogs
+   6:    1  ->  construes ==> constitutes
+   7:    1  ->  defeat ==> deceit
+   8:    1  ->  drawn ==> strong
+   9:    1  ->  encompass ==> compass
+  10:    1  ->  encounter ==> in
+  11:    1  ->  fawn ==> fun
+  12:    1  ->  had ==> passed
+  13:    1  ->  interrelations ==> relations
+  14:    1  ->  it ==> as
+  15:    1  ->  late ==> laid
+  16:    1  ->  minnie ==> mini
+  17:    1  ->  old ==> fouryearold
+  18:    1  ->  priori ==> very
+  19:    1  ->  reflections ==> counterreflections
+  20:    1  ->  relation ==> relations
+  21:    1  ->  return ==> turned
+  22:    1  ->  scout ==> scowled
+  23:    1  ->  these ==> b
+  24:    1  ->  thoroughly ==> barely
+  25:    1  ->  uninterested ==> interested
+  26:    1  ->  whole ==> hole
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  am
+   2:    1  ->  and
+   3:    1  ->  be
+   4:    1  ->  i
+   5:    1  ->  into
+   6:    1  ->  my
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  a
+   2:    1  ->  and
+   3:    1  ->  engine
+   4:    1  ->  four
+   5:    1  ->  had
+   6:    1  ->  have
+   7:    1  ->  i
+   8:    1  ->  in
+   9:    1  ->  it's
+  10:    1  ->  year
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  and
+   2:    1  ->  associated
+   3:    1  ->  both
+   4:    1  ->  cheapness
+   5:    1  ->  clothes
+   6:    1  ->  construes
+   7:    1  ->  defeat
+   8:    1  ->  drawn
+   9:    1  ->  encompass
+  10:    1  ->  encounter
+  11:    1  ->  fawn
+  12:    1  ->  had
+  13:    1  ->  interrelations
+  14:    1  ->  it
+  15:    1  ->  late
+  16:    1  ->  minnie
+  17:    1  ->  old
+  18:    1  ->  priori
+  19:    1  ->  reflections
+  20:    1  ->  relation
+  21:    1  ->  return
+  22:    1  ->  scout
+  23:    1  ->  these
+  24:    1  ->  thoroughly
+  25:    1  ->  uninterested
+  26:    1  ->  whole
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  relations
+   2:    1  ->  as
+   3:    1  ->  associative
+   4:    1  ->  b
+   5:    1  ->  barely
+   6:    1  ->  clogs
+   7:    1  ->  compass
+   8:    1  ->  constitutes
+   9:    1  ->  counterreflections
+  10:    1  ->  deceit
+  11:    1  ->  folk
+  12:    1  ->  fouryearold
+  13:    1  ->  fun
+  14:    1  ->  hole
+  15:    1  ->  in
+  16:    1  ->  interested
+  17:    1  ->  laid
+  18:    1  ->  mini
+  19:    1  ->  passed
+  20:    1  ->  scowled
+  21:    1  ->  she's
+  22:    1  ->  strong
+  23:    1  ->  than
+  24:    1  ->  turned
+  25:    1  ->  very
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

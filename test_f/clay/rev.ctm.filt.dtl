@@ -1,0 +1,272 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.8%   ( 171)
+
+Percent Correct           =   88.1%   ( 952)
+
+Percent Substitution      =    5.5%   (  59)
+Percent Deletions         =    6.4%   (  69)
+Percent Insertions        =    4.0%   (  43)
+Percent Word Accuracy     =   84.2%
+
+
+Ref. words                =           (1080)
+Hyp. words                =           (1054)
+Aligned words             =           (1123)
+
+CONFUSION PAIRS                  Total                 (51)
+                                 With >=  1 occurrences (51)
+
+   1:    6  ->  %bcack ==> <affirmative>
+   2:    3  ->  x ==> i
+   3:    2  ->  in ==> and
+   4:    1  ->  an ==> not
+   5:    1  ->  and ==> place
+   6:    1  ->  and ==> when
+   7:    1  ->  as ==> artist
+   8:    1  ->  brakhage ==> brack
+   9:    1  ->  but ==> a
+  10:    1  ->  can ==> could
+  11:    1  ->  contemporaries ==> contemporary
+  12:    1  ->  create ==> created
+  13:    1  ->  dick ==> and
+  14:    1  ->  did ==> do
+  15:    1  ->  drawing ==> dwell
+  16:    1  ->  duncan ==> lincoln
+  17:    1  ->  engraving ==> gravy
+  18:    1  ->  famously ==> there
+  19:    1  ->  go ==> by
+  20:    1  ->  i ==> might
+  21:    1  ->  it's ==> iss
+  22:    1  ->  know ==> known
+  23:    1  ->  m ==> may
+  24:    1  ->  maybe ==> may
+  25:    1  ->  moby ==> <laugh>
+  26:    1  ->  nonpublisher ==> publisher
+  27:    1  ->  placing ==> the
+  28:    1  ->  right ==> well
+  29:    1  ->  talk ==> talking
+  30:    1  ->  th ==> that
+  31:    1  ->  th ==> the
+  32:    1  ->  that ==> <laugh>
+  33:    1  ->  the ==> after
+  34:    1  ->  the ==> sol
+  35:    1  ->  them ==> interest
+  36:    1  ->  there ==> dick
+  37:    1  ->  tuumba ==> timba
+  38:    1  ->  typed ==> type
+  39:    1  ->  w ==> not
+  40:    1  ->  were ==> are
+  41:    1  ->  what ==> it
+  42:    1  ->  wit ==> lewitt
+  43:    1  ->  x ==> absolutely
+  44:    1  ->  x ==> famously
+  45:    1  ->  x ==> it
+  46:    1  ->  x ==> rouche
+  47:    1  ->  x ==> which
+  48:    1  ->  x ==> you
+  49:    1  ->  yeah ==> have
+  50:    1  ->  yeah ==> moby
+  51:    1  ->  you ==> set
+     -------
+        59
+
+
+
+INSERTIONS                       Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    8  ->  mmhmm
+   2:    7  ->  yeah
+   3:    2  ->  haven
+   4:    2  ->  oh
+   5:    2  ->  that
+   6:    2  ->  we
+   7:    1  ->  <affirmative>
+   8:    1  ->  <laugh>
+   9:    1  ->  a
+  10:    1  ->  are
+  11:    1  ->  but
+  12:    1  ->  down
+  13:    1  ->  eng
+  14:    1  ->  go
+  15:    1  ->  have
+  16:    1  ->  i
+  17:    1  ->  interesting
+  18:    1  ->  non
+  19:    1  ->  not
+  20:    1  ->  of
+  21:    1  ->  on
+  22:    1  ->  right
+  23:    1  ->  that's
+  24:    1  ->  the
+  25:    1  ->  there's
+  26:    1  ->  would
+     -------
+        43
+
+
+
+DELETIONS                        Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:   13  ->  yeah
+   2:    4  ->  %bcack
+   3:    4  ->  and
+   4:    4  ->  x
+   5:    3  ->  have
+   6:    3  ->  is
+   7:    3  ->  right
+   8:    2  ->  a
+   9:    2  ->  it
+  10:    2  ->  not
+  11:    2  ->  of
+  12:    2  ->  or
+  13:    2  ->  we
+  14:    1  ->  absolutely
+  15:    1  ->  art
+  16:    1  ->  at
+  17:    1  ->  chapter
+  18:    1  ->  con
+  19:    1  ->  down
+  20:    1  ->  f
+  21:    1  ->  fine
+  22:    1  ->  had
+  23:    1  ->  interesting
+  24:    1  ->  it's
+  25:    1  ->  l
+  26:    1  ->  most
+  27:    1  ->  oh
+  28:    1  ->  on
+  29:    1  ->  one
+  30:    1  ->  r
+  31:    1  ->  saw
+  32:    1  ->  st
+  33:    1  ->  that's
+  34:    1  ->  the
+  35:    1  ->  they
+  36:    1  ->  w
+     -------
+        69
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    9  ->  x
+   2:    6  ->  %bcack
+   3:    2  ->  and
+   4:    2  ->  in
+   5:    2  ->  th
+   6:    2  ->  the
+   7:    2  ->  yeah
+   8:    1  ->  an
+   9:    1  ->  as
+  10:    1  ->  brakhage
+  11:    1  ->  but
+  12:    1  ->  can
+  13:    1  ->  contemporaries
+  14:    1  ->  create
+  15:    1  ->  dick
+  16:    1  ->  did
+  17:    1  ->  drawing
+  18:    1  ->  duncan
+  19:    1  ->  engraving
+  20:    1  ->  famously
+  21:    1  ->  go
+  22:    1  ->  i
+  23:    1  ->  it's
+  24:    1  ->  know
+  25:    1  ->  m
+  26:    1  ->  maybe
+  27:    1  ->  moby
+  28:    1  ->  nonpublisher
+  29:    1  ->  placing
+  30:    1  ->  right
+  31:    1  ->  talk
+  32:    1  ->  that
+  33:    1  ->  them
+  34:    1  ->  there
+  35:    1  ->  tuumba
+  36:    1  ->  typed
+  37:    1  ->  w
+  38:    1  ->  were
+  39:    1  ->  what
+  40:    1  ->  wit
+  41:    1  ->  you
+     -------
+        59
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    6  ->  <affirmative>
+   2:    3  ->  and
+   3:    3  ->  i
+   4:    2  ->  <laugh>
+   5:    2  ->  it
+   6:    2  ->  may
+   7:    2  ->  not
+   8:    2  ->  the
+   9:    1  ->  a
+  10:    1  ->  absolutely
+  11:    1  ->  after
+  12:    1  ->  are
+  13:    1  ->  artist
+  14:    1  ->  brack
+  15:    1  ->  by
+  16:    1  ->  contemporary
+  17:    1  ->  could
+  18:    1  ->  created
+  19:    1  ->  dick
+  20:    1  ->  do
+  21:    1  ->  dwell
+  22:    1  ->  famously
+  23:    1  ->  gravy
+  24:    1  ->  have
+  25:    1  ->  interest
+  26:    1  ->  iss
+  27:    1  ->  known
+  28:    1  ->  lewitt
+  29:    1  ->  lincoln
+  30:    1  ->  might
+  31:    1  ->  moby
+  32:    1  ->  place
+  33:    1  ->  publisher
+  34:    1  ->  rouche
+  35:    1  ->  set
+  36:    1  ->  sol
+  37:    1  ->  talking
+  38:    1  ->  that
+  39:    1  ->  there
+  40:    1  ->  timba
+  41:    1  ->  type
+  42:    1  ->  well
+  43:    1  ->  when
+  44:    1  ->  which
+  45:    1  ->  you
+     -------
+        59
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

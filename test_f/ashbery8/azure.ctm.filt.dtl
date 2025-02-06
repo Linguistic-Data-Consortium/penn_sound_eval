@@ -1,0 +1,201 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.5%   (  51)
+
+Percent Correct           =   96.0%   (1093)
+
+Percent Substitution      =    3.6%   (  41)
+Percent Deletions         =    0.4%   (   4)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   95.5%
+
+
+Ref. words                =           (1138)
+Hyp. words                =           (1140)
+Aligned words             =           (1144)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    2  ->  an ==> and
+   2:    1  ->  a ==> of
+   3:    1  ->  and ==> in
+   4:    1  ->  as ==> his
+   5:    1  ->  as ==> that
+   6:    1  ->  canons ==> cannons
+   7:    1  ->  celebre ==> celebrex
+   8:    1  ->  colored ==> coloured
+   9:    1  ->  day ==> they
+  10:    1  ->  days ==> is
+  11:    1  ->  dully ==> dullly
+  12:    1  ->  fours ==> four
+  13:    1  ->  francks' ==> frank
+  14:    1  ->  gnossienne ==> gaussian
+  15:    1  ->  him ==> in
+  16:    1  ->  i'v ==> have
+  17:    1  ->  into ==> a
+  18:    1  ->  is ==> has
+  19:    1  ->  it's ==> its
+  20:    1  ->  jicky ==> jickey
+  21:    1  ->  le ==> the
+  22:    1  ->  light ==> life
+  23:    1  ->  no ==> number
+  24:    1  ->  obstinacy ==> obesity
+  25:    1  ->  occurence ==> occurrence
+  26:    1  ->  one ==> someone
+  27:    1  ->  pachelbel ==> bell
+  28:    1  ->  passed ==> past
+  29:    1  ->  petit ==> petite
+  30:    1  ->  plain ==> plane
+  31:    1  ->  plus ==> place
+  32:    1  ->  reason's ==> reasons
+  33:    1  ->  route ==> root
+  34:    1  ->  same ==> sane
+  35:    1  ->  stayed ==> data
+  36:    1  ->  transformed ==> transform
+  37:    1  ->  ways ==> way
+  38:    1  ->  white ==> light
+  39:    1  ->  with ==> was
+  40:    1  ->  x ==> pereira
+     -------
+        41
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  day
+   2:    1  ->  i
+   3:    1  ->  in
+   4:    1  ->  its
+   5:    1  ->  paco
+   6:    1  ->  what
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  it
+   2:    1  ->  s
+   3:    1  ->  so
+   4:    1  ->  the
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  an
+   2:    2  ->  as
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  canons
+   6:    1  ->  celebre
+   7:    1  ->  colored
+   8:    1  ->  day
+   9:    1  ->  days
+  10:    1  ->  dully
+  11:    1  ->  fours
+  12:    1  ->  francks'
+  13:    1  ->  gnossienne
+  14:    1  ->  him
+  15:    1  ->  i'v
+  16:    1  ->  into
+  17:    1  ->  is
+  18:    1  ->  it's
+  19:    1  ->  jicky
+  20:    1  ->  le
+  21:    1  ->  light
+  22:    1  ->  no
+  23:    1  ->  obstinacy
+  24:    1  ->  occurence
+  25:    1  ->  one
+  26:    1  ->  pachelbel
+  27:    1  ->  passed
+  28:    1  ->  petit
+  29:    1  ->  plain
+  30:    1  ->  plus
+  31:    1  ->  reason's
+  32:    1  ->  route
+  33:    1  ->  same
+  34:    1  ->  stayed
+  35:    1  ->  transformed
+  36:    1  ->  ways
+  37:    1  ->  white
+  38:    1  ->  with
+  39:    1  ->  x
+     -------
+        41
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    2  ->  and
+   2:    2  ->  in
+   3:    1  ->  a
+   4:    1  ->  bell
+   5:    1  ->  cannons
+   6:    1  ->  celebrex
+   7:    1  ->  coloured
+   8:    1  ->  data
+   9:    1  ->  dullly
+  10:    1  ->  four
+  11:    1  ->  frank
+  12:    1  ->  gaussian
+  13:    1  ->  has
+  14:    1  ->  have
+  15:    1  ->  his
+  16:    1  ->  is
+  17:    1  ->  its
+  18:    1  ->  jickey
+  19:    1  ->  life
+  20:    1  ->  light
+  21:    1  ->  number
+  22:    1  ->  obesity
+  23:    1  ->  occurrence
+  24:    1  ->  of
+  25:    1  ->  past
+  26:    1  ->  pereira
+  27:    1  ->  petite
+  28:    1  ->  place
+  29:    1  ->  plane
+  30:    1  ->  reasons
+  31:    1  ->  root
+  32:    1  ->  sane
+  33:    1  ->  someone
+  34:    1  ->  that
+  35:    1  ->  the
+  36:    1  ->  they
+  37:    1  ->  transform
+  38:    1  ->  was
+  39:    1  ->  way
+     -------
+        41
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

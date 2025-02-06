@@ -1,0 +1,204 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.9%   (  55)
+
+Percent Correct           =   95.5%   (1067)
+
+Percent Substitution      =    3.9%   (  44)
+Percent Deletions         =    0.5%   (   6)
+Percent Insertions        =    0.4%   (   5)
+Percent Word Accuracy     =   95.1%
+
+
+Ref. words                =           (1117)
+Hyp. words                =           (1116)
+Aligned words             =           (1122)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  and ==> in
+   2:    2  ->  settled ==> settle
+   3:    1  ->  a ==> of
+   4:    1  ->  air'll ==> will
+   5:    1  ->  an ==> and
+   6:    1  ->  apply ==> applied
+   7:    1  ->  chance ==> chants
+   8:    1  ->  cocked ==> caught
+   9:    1  ->  expanses ==> expansions
+  10:    1  ->  fervent ==> urban
+  11:    1  ->  greens ==> green
+  12:    1  ->  had ==> 'd
+  13:    1  ->  halo ==> hazel
+  14:    1  ->  having ==> not
+  15:    1  ->  holocausts ==> holocaust
+  16:    1  ->  i ==> a
+  17:    1  ->  lavender ==> the
+  18:    1  ->  learn ==> learned
+  19:    1  ->  lights ==> light
+  20:    1  ->  me ==> maine
+  21:    1  ->  mere ==> meal
+  22:    1  ->  moon'll ==> will
+  23:    1  ->  pass ==> passed
+  24:    1  ->  patience ==> patients
+  25:    1  ->  pebbles ==> pebbled
+  26:    1  ->  pleased ==> please
+  27:    1  ->  remain ==> remained
+  28:    1  ->  seem ==> same
+  29:    1  ->  talk ==> talked
+  30:    1  ->  than ==> and
+  31:    1  ->  that ==> then
+  32:    1  ->  the ==> a
+  33:    1  ->  then ==> them
+  34:    1  ->  they ==> the
+  35:    1  ->  under ==> the
+  36:    1  ->  until ==> till
+  37:    1  ->  up ==> the
+  38:    1  ->  visions ==> billions
+  39:    1  ->  when ==> went
+  40:    1  ->  whiff ==> with
+  41:    1  ->  whitened ==> whited
+  42:    1  ->  with ==> upward
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  air
+   2:    1  ->  have
+   3:    1  ->  leavened
+   4:    1  ->  moon
+   5:    1  ->  on
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  it
+   2:    1  ->  me
+   3:    1  ->  of
+   4:    1  ->  pat
+   5:    1  ->  vegetable
+   6:    1  ->  visions
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  and
+   2:    2  ->  settled
+   3:    1  ->  a
+   4:    1  ->  air'll
+   5:    1  ->  an
+   6:    1  ->  apply
+   7:    1  ->  chance
+   8:    1  ->  cocked
+   9:    1  ->  expanses
+  10:    1  ->  fervent
+  11:    1  ->  greens
+  12:    1  ->  had
+  13:    1  ->  halo
+  14:    1  ->  having
+  15:    1  ->  holocausts
+  16:    1  ->  i
+  17:    1  ->  lavender
+  18:    1  ->  learn
+  19:    1  ->  lights
+  20:    1  ->  me
+  21:    1  ->  mere
+  22:    1  ->  moon'll
+  23:    1  ->  pass
+  24:    1  ->  patience
+  25:    1  ->  pebbles
+  26:    1  ->  pleased
+  27:    1  ->  remain
+  28:    1  ->  seem
+  29:    1  ->  talk
+  30:    1  ->  than
+  31:    1  ->  that
+  32:    1  ->  the
+  33:    1  ->  then
+  34:    1  ->  they
+  35:    1  ->  under
+  36:    1  ->  until
+  37:    1  ->  up
+  38:    1  ->  visions
+  39:    1  ->  when
+  40:    1  ->  whiff
+  41:    1  ->  whitened
+  42:    1  ->  with
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    4  ->  the
+   2:    2  ->  a
+   3:    2  ->  and
+   4:    2  ->  in
+   5:    2  ->  settle
+   6:    2  ->  will
+   7:    1  ->  'd
+   8:    1  ->  applied
+   9:    1  ->  billions
+  10:    1  ->  caught
+  11:    1  ->  chants
+  12:    1  ->  expansions
+  13:    1  ->  green
+  14:    1  ->  hazel
+  15:    1  ->  holocaust
+  16:    1  ->  learned
+  17:    1  ->  light
+  18:    1  ->  maine
+  19:    1  ->  meal
+  20:    1  ->  not
+  21:    1  ->  of
+  22:    1  ->  passed
+  23:    1  ->  patients
+  24:    1  ->  pebbled
+  25:    1  ->  please
+  26:    1  ->  remained
+  27:    1  ->  same
+  28:    1  ->  talked
+  29:    1  ->  them
+  30:    1  ->  then
+  31:    1  ->  till
+  32:    1  ->  upward
+  33:    1  ->  urban
+  34:    1  ->  went
+  35:    1  ->  whited
+  36:    1  ->  with
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

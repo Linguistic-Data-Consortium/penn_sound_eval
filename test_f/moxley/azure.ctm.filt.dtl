@@ -1,0 +1,456 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   16.8%   ( 186)
+
+Percent Correct           =   84.6%   ( 934)
+
+Percent Substitution      =   11.8%   ( 130)
+Percent Deletions         =    3.6%   (  40)
+Percent Insertions        =    1.4%   (  16)
+Percent Word Accuracy     =   83.2%
+
+
+Ref. words                =           (1104)
+Hyp. words                =           (1080)
+Aligned words             =           (1120)
+
+CONFUSION PAIRS                  Total                 (127)
+                                 With >=  1 occurrences (127)
+
+   1:    2  ->  in ==> and
+   2:    2  ->  the ==> a
+   3:    2  ->  was ==> is
+   4:    1  ->  a ==> could
+   5:    1  ->  a ==> in
+   6:    1  ->  a ==> the
+   7:    1  ->  a ==> this
+   8:    1  ->  accepted ==> for
+   9:    1  ->  an ==> of
+  10:    1  ->  and ==> clearly
+  11:    1  ->  and ==> in
+  12:    1  ->  and ==> jax
+  13:    1  ->  and ==> volume
+  14:    1  ->  as ==> of
+  15:    1  ->  believe ==> beliefs
+  16:    1  ->  blind ==> belong
+  17:    1  ->  bling ==> time
+  18:    1  ->  bringing ==> him
+  19:    1  ->  brought ==> got
+  20:    1  ->  brutal ==> brittle
+  21:    1  ->  but ==> that
+  22:    1  ->  cofounded ==> founded
+  23:    1  ->  comma ==> connor
+  24:    1  ->  condensed ==> content
+  25:    1  ->  contests ==> contest
+  26:    1  ->  doors ==> trapdoors
+  27:    1  ->  duplicitous ==> profits
+  28:    1  ->  ears ==> years
+  29:    1  ->  ensuing ==> obviously
+  30:    1  ->  ever ==> other
+  31:    1  ->  faraway ==> away
+  32:    1  ->  favoured ==> favourite
+  33:    1  ->  filled ==> of
+  34:    1  ->  finds ==> find
+  35:    1  ->  fits ==> first
+  36:    1  ->  form ==> from
+  37:    1  ->  from ==> through
+  38:    1  ->  glance ==> is
+  39:    1  ->  good ==> words
+  40:    1  ->  had ==> not
+  41:    1  ->  have ==> age
+  42:    1  ->  he ==> did
+  43:    1  ->  he ==> me
+  44:    1  ->  helena's ==> far
+  45:    1  ->  helena's ==> his
+  46:    1  ->  hold ==> been
+  47:    1  ->  i ==> she
+  48:    1  ->  i ==> this
+  49:    1  ->  if ==> to
+  50:    1  ->  illusion ==> illusions
+  51:    1  ->  in ==> a
+  52:    1  ->  in ==> holding
+  53:    1  ->  into ==> acceptance
+  54:    1  ->  is ==> always
+  55:    1  ->  jenn ==> jen
+  56:    1  ->  just ==> it
+  57:    1  ->  law ==> and
+  58:    1  ->  life ==> animate
+  59:    1  ->  like ==> i
+  60:    1  ->  looked ==> looks
+  61:    1  ->  made ==> in
+  62:    1  ->  made ==> mag
+  63:    1  ->  means ==> remains
+  64:    1  ->  meek ==> me
+  65:    1  ->  merely ==> nearly
+  66:    1  ->  mouths ==> mass
+  67:    1  ->  mpn ==> and
+  68:    1  ->  norse ==> nurse
+  69:    1  ->  nymphomaniac ==> maniac
+  70:    1  ->  odin's ==> 's
+  71:    1  ->  of ==> is
+  72:    1  ->  of ==> or
+  73:    1  ->  one ==> when
+  74:    1  ->  ooh ==> room
+  75:    1  ->  others ==> wish
+  76:    1  ->  our ==> incorrect
+  77:    1  ->  out ==> was
+  78:    1  ->  pass ==> passed
+  79:    1  ->  plums ==> palms
+  80:    1  ->  poem ==> odin
+  81:    1  ->  ravens ==> rosens
+  82:    1  ->  revealing ==> renewing
+  83:    1  ->  s ==> edith
+  84:    1  ->  said ==> here
+  85:    1  ->  said ==> set
+  86:    1  ->  sat ==> sought
+  87:    1  ->  saw ==> thought
+  88:    1  ->  set ==> except
+  89:    1  ->  should ==> then
+  90:    1  ->  skip ==> skipped
+  91:    1  ->  snowflake ==> like
+  92:    1  ->  so ==> for
+  93:    1  ->  spout ==> sought
+  94:    1  ->  spread ==> split
+  95:    1  ->  sullen ==> seven
+  96:    1  ->  sullen ==> solemn
+  97:    1  ->  that ==> but
+  98:    1  ->  that ==> it
+  99:    1  ->  that ==> odd
+ 100:    1  ->  that ==> when
+ 101:    1  ->  the ==> had
+ 102:    1  ->  the ==> her
+ 103:    1  ->  the ==> pain
+ 104:    1  ->  the ==> to
+ 105:    1  ->  then ==> they
+ 106:    1  ->  thin ==> swing
+ 107:    1  ->  thing ==> theme
+ 108:    1  ->  this ==> first
+ 109:    1  ->  thy ==> my
+ 110:    1  ->  to ==> older
+ 111:    1  ->  two ==> to
+ 112:    1  ->  vase ==> very
+ 113:    1  ->  was ==> bid
+ 114:    1  ->  watched ==> over
+ 115:    1  ->  wedge ==> rudge
+ 116:    1  ->  were ==> was
+ 117:    1  ->  when ==> and
+ 118:    1  ->  whir ==> war
+ 119:    1  ->  windowed ==> hindered
+ 120:    1  ->  wore ==> was
+ 121:    1  ->  would ==> we
+ 122:    1  ->  wovens ==> rovings
+ 123:    1  ->  written ==> hidden
+ 124:    1  ->  xeroxed ==> xerox
+ 125:    1  ->  you ==> i
+ 126:    1  ->  you ==> the
+ 127:    1  ->  you ==> your
+     -------
+       130
+
+
+
+INSERTIONS                       Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  an
+   2:    1  ->  bring
+   3:    1  ->  co
+   4:    1  ->  full
+   5:    1  ->  home
+   6:    1  ->  i
+   7:    1  ->  in
+   8:    1  ->  is
+   9:    1  ->  it
+  10:    1  ->  mp
+  11:    1  ->  note
+  12:    1  ->  nympho
+  13:    1  ->  she
+  14:    1  ->  that
+  15:    1  ->  who
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    3  ->  the
+   2:    2  ->  a
+   3:    2  ->  we
+   4:    2  ->  word
+   5:    1  ->  aft
+   6:    1  ->  all
+   7:    1  ->  as
+   8:    1  ->  beyond
+   9:    1  ->  but
+  10:    1  ->  clear
+  11:    1  ->  e
+  12:    1  ->  favour
+  13:    1  ->  gubernatorally
+  14:    1  ->  h
+  15:    1  ->  how
+  16:    1  ->  i
+  17:    1  ->  if
+  18:    1  ->  in
+  19:    1  ->  inanimate
+  20:    1  ->  jacks
+  21:    1  ->  m
+  22:    1  ->  me
+  23:    1  ->  no
+  24:    1  ->  of
+  25:    1  ->  our
+  26:    1  ->  preference
+  27:    1  ->  questioning
+  28:    1  ->  sounded
+  29:    1  ->  there
+  30:    1  ->  think
+  31:    1  ->  trap
+  32:    1  ->  was
+  33:    1  ->  with
+  34:    1  ->  wrong
+  35:    1  ->  you
+     -------
+        40
+
+
+
+SUBSTITUTIONS                    Total                 (102)
+                                 With >=  1 occurrences (102)
+
+   1:    6  ->  the
+   2:    4  ->  a
+   3:    4  ->  and
+   4:    4  ->  in
+   5:    4  ->  that
+   6:    3  ->  was
+   7:    3  ->  you
+   8:    2  ->  he
+   9:    2  ->  helena's
+  10:    2  ->  i
+  11:    2  ->  made
+  12:    2  ->  of
+  13:    2  ->  said
+  14:    2  ->  sullen
+  15:    1  ->  accepted
+  16:    1  ->  an
+  17:    1  ->  as
+  18:    1  ->  believe
+  19:    1  ->  blind
+  20:    1  ->  bling
+  21:    1  ->  bringing
+  22:    1  ->  brought
+  23:    1  ->  brutal
+  24:    1  ->  but
+  25:    1  ->  cofounded
+  26:    1  ->  comma
+  27:    1  ->  condensed
+  28:    1  ->  contests
+  29:    1  ->  doors
+  30:    1  ->  duplicitous
+  31:    1  ->  ears
+  32:    1  ->  ensuing
+  33:    1  ->  ever
+  34:    1  ->  faraway
+  35:    1  ->  favoured
+  36:    1  ->  filled
+  37:    1  ->  finds
+  38:    1  ->  fits
+  39:    1  ->  form
+  40:    1  ->  from
+  41:    1  ->  glance
+  42:    1  ->  good
+  43:    1  ->  had
+  44:    1  ->  have
+  45:    1  ->  hold
+  46:    1  ->  if
+  47:    1  ->  illusion
+  48:    1  ->  into
+  49:    1  ->  is
+  50:    1  ->  jenn
+  51:    1  ->  just
+  52:    1  ->  law
+  53:    1  ->  life
+  54:    1  ->  like
+  55:    1  ->  looked
+  56:    1  ->  means
+  57:    1  ->  meek
+  58:    1  ->  merely
+  59:    1  ->  mouths
+  60:    1  ->  mpn
+  61:    1  ->  norse
+  62:    1  ->  nymphomaniac
+  63:    1  ->  odin's
+  64:    1  ->  one
+  65:    1  ->  ooh
+  66:    1  ->  others
+  67:    1  ->  our
+  68:    1  ->  out
+  69:    1  ->  pass
+  70:    1  ->  plums
+  71:    1  ->  poem
+  72:    1  ->  ravens
+  73:    1  ->  revealing
+  74:    1  ->  s
+  75:    1  ->  sat
+  76:    1  ->  saw
+  77:    1  ->  set
+  78:    1  ->  should
+  79:    1  ->  skip
+  80:    1  ->  snowflake
+  81:    1  ->  so
+  82:    1  ->  spout
+  83:    1  ->  spread
+  84:    1  ->  then
+  85:    1  ->  thin
+  86:    1  ->  thing
+  87:    1  ->  this
+  88:    1  ->  thy
+  89:    1  ->  to
+  90:    1  ->  two
+  91:    1  ->  vase
+  92:    1  ->  watched
+  93:    1  ->  wedge
+  94:    1  ->  were
+  95:    1  ->  when
+  96:    1  ->  whir
+  97:    1  ->  windowed
+  98:    1  ->  wore
+  99:    1  ->  would
+ 100:    1  ->  wovens
+ 101:    1  ->  written
+ 102:    1  ->  xeroxed
+     -------
+       130
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (104)
+                                 With >=  1 occurrences (104)
+
+   1:    5  ->  and
+   2:    4  ->  is
+   3:    3  ->  a
+   4:    3  ->  in
+   5:    3  ->  of
+   6:    3  ->  to
+   7:    3  ->  was
+   8:    2  ->  first
+   9:    2  ->  for
+  10:    2  ->  i
+  11:    2  ->  it
+  12:    2  ->  me
+  13:    2  ->  sought
+  14:    2  ->  the
+  15:    2  ->  this
+  16:    2  ->  when
+  17:    1  ->  's
+  18:    1  ->  acceptance
+  19:    1  ->  age
+  20:    1  ->  always
+  21:    1  ->  animate
+  22:    1  ->  away
+  23:    1  ->  been
+  24:    1  ->  beliefs
+  25:    1  ->  belong
+  26:    1  ->  bid
+  27:    1  ->  brittle
+  28:    1  ->  but
+  29:    1  ->  clearly
+  30:    1  ->  connor
+  31:    1  ->  content
+  32:    1  ->  contest
+  33:    1  ->  could
+  34:    1  ->  did
+  35:    1  ->  edith
+  36:    1  ->  except
+  37:    1  ->  far
+  38:    1  ->  favourite
+  39:    1  ->  find
+  40:    1  ->  founded
+  41:    1  ->  from
+  42:    1  ->  got
+  43:    1  ->  had
+  44:    1  ->  her
+  45:    1  ->  here
+  46:    1  ->  hidden
+  47:    1  ->  him
+  48:    1  ->  hindered
+  49:    1  ->  his
+  50:    1  ->  holding
+  51:    1  ->  illusions
+  52:    1  ->  incorrect
+  53:    1  ->  jax
+  54:    1  ->  jen
+  55:    1  ->  like
+  56:    1  ->  looks
+  57:    1  ->  mag
+  58:    1  ->  maniac
+  59:    1  ->  mass
+  60:    1  ->  my
+  61:    1  ->  nearly
+  62:    1  ->  not
+  63:    1  ->  nurse
+  64:    1  ->  obviously
+  65:    1  ->  odd
+  66:    1  ->  odin
+  67:    1  ->  older
+  68:    1  ->  or
+  69:    1  ->  other
+  70:    1  ->  over
+  71:    1  ->  pain
+  72:    1  ->  palms
+  73:    1  ->  passed
+  74:    1  ->  profits
+  75:    1  ->  remains
+  76:    1  ->  renewing
+  77:    1  ->  room
+  78:    1  ->  rosens
+  79:    1  ->  rovings
+  80:    1  ->  rudge
+  81:    1  ->  set
+  82:    1  ->  seven
+  83:    1  ->  she
+  84:    1  ->  skipped
+  85:    1  ->  solemn
+  86:    1  ->  split
+  87:    1  ->  swing
+  88:    1  ->  that
+  89:    1  ->  theme
+  90:    1  ->  then
+  91:    1  ->  they
+  92:    1  ->  thought
+  93:    1  ->  through
+  94:    1  ->  time
+  95:    1  ->  trapdoors
+  96:    1  ->  very
+  97:    1  ->  volume
+  98:    1  ->  war
+  99:    1  ->  we
+ 100:    1  ->  wish
+ 101:    1  ->  words
+ 102:    1  ->  xerox
+ 103:    1  ->  years
+ 104:    1  ->  your
+     -------
+       130
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

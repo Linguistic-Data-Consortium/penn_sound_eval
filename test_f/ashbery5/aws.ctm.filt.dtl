@@ -1,0 +1,181 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.4%   (  48)
+
+Percent Correct           =   95.7%   ( 856)
+
+Percent Substitution      =    3.9%   (  35)
+Percent Deletions         =    0.3%   (   3)
+Percent Insertions        =    1.1%   (  10)
+Percent Word Accuracy     =   94.6%
+
+
+Ref. words                =           ( 894)
+Hyp. words                =           ( 901)
+Aligned words             =           ( 904)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  onto ==> to
+   2:    1  ->  and ==> in
+   3:    1  ->  ashbery ==> ashbury
+   4:    1  ->  bills ==> bill
+   5:    1  ->  days' ==> day
+   6:    1  ->  far ==> forest
+   7:    1  ->  in ==> and
+   8:    1  ->  into ==> to
+   9:    1  ->  is ==> was
+  10:    1  ->  lithography ==> gray
+  11:    1  ->  lived ==> lift
+  12:    1  ->  mazes ==> as
+  13:    1  ->  near ==> know
+  14:    1  ->  nodes ==> notes
+  15:    1  ->  of ==> or
+  16:    1  ->  of ==> the
+  17:    1  ->  others' ==> others
+  18:    1  ->  painterly ==> painfully
+  19:    1  ->  pretended ==> pretend
+  20:    1  ->  prowled ==> proud
+  21:    1  ->  rec ==> re
+  22:    1  ->  riverbanks ==> banks
+  23:    1  ->  sensual ==> central
+  24:    1  ->  shells ==> shelves
+  25:    1  ->  some ==> in
+  26:    1  ->  the ==> a
+  27:    1  ->  the ==> that
+  28:    1  ->  towards ==> toward
+  29:    1  ->  trembled ==> crumbled
+  30:    1  ->  villainous ==> villainy
+  31:    1  ->  voices ==> is
+  32:    1  ->  w ==> jmw
+  33:    1  ->  warm ==> and
+  34:    1  ->  were ==> are
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  and
+   2:    2  ->  on
+   3:    1  ->  it's
+   4:    1  ->  maze
+   5:    1  ->  river
+   6:    1  ->  voice
+   7:    1  ->  war
+   8:    1  ->  you
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  at
+   2:    1  ->  j
+   3:    1  ->  m
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  of
+   2:    2  ->  onto
+   3:    2  ->  the
+   4:    1  ->  and
+   5:    1  ->  ashbery
+   6:    1  ->  bills
+   7:    1  ->  days'
+   8:    1  ->  far
+   9:    1  ->  in
+  10:    1  ->  into
+  11:    1  ->  is
+  12:    1  ->  lithography
+  13:    1  ->  lived
+  14:    1  ->  mazes
+  15:    1  ->  near
+  16:    1  ->  nodes
+  17:    1  ->  others'
+  18:    1  ->  painterly
+  19:    1  ->  pretended
+  20:    1  ->  prowled
+  21:    1  ->  rec
+  22:    1  ->  riverbanks
+  23:    1  ->  sensual
+  24:    1  ->  shells
+  25:    1  ->  some
+  26:    1  ->  towards
+  27:    1  ->  trembled
+  28:    1  ->  villainous
+  29:    1  ->  voices
+  30:    1  ->  w
+  31:    1  ->  warm
+  32:    1  ->  were
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  to
+   2:    2  ->  and
+   3:    2  ->  in
+   4:    1  ->  a
+   5:    1  ->  are
+   6:    1  ->  as
+   7:    1  ->  ashbury
+   8:    1  ->  banks
+   9:    1  ->  bill
+  10:    1  ->  central
+  11:    1  ->  crumbled
+  12:    1  ->  day
+  13:    1  ->  forest
+  14:    1  ->  gray
+  15:    1  ->  is
+  16:    1  ->  jmw
+  17:    1  ->  know
+  18:    1  ->  lift
+  19:    1  ->  notes
+  20:    1  ->  or
+  21:    1  ->  others
+  22:    1  ->  painfully
+  23:    1  ->  pretend
+  24:    1  ->  proud
+  25:    1  ->  re
+  26:    1  ->  shelves
+  27:    1  ->  that
+  28:    1  ->  the
+  29:    1  ->  toward
+  30:    1  ->  villainy
+  31:    1  ->  was
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

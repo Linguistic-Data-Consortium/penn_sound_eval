@@ -1,0 +1,128 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.3%   (  32)
+
+Percent Correct           =   96.3%   ( 723)
+
+Percent Substitution      =    3.5%   (  26)
+Percent Deletions         =    0.3%   (   2)
+Percent Insertions        =    0.5%   (   4)
+Percent Word Accuracy     =   95.7%
+
+
+Ref. words                =           ( 751)
+Hyp. words                =           ( 753)
+Aligned words             =           ( 755)
+
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    5  ->  psalm ==> song
+   2:    3  ->  oh ==> o
+   3:    2  ->  psalm ==> some
+   4:    2  ->  th ==> the
+   5:    1  ->  a ==> an
+   6:    1  ->  eruptions ==> eruption
+   7:    1  ->  jades ==> jade
+   8:    1  ->  kyger ==> ker
+   9:    1  ->  lost ==> last
+  10:    1  ->  lost ==> lot
+  11:    1  ->  parkour ==> parker
+  12:    1  ->  seen ==> scene
+  13:    1  ->  sung ==> song
+  14:    1  ->  taut ==> taught
+  15:    1  ->  trance ==> trant
+  16:    1  ->  uninscribed ==> inscribed
+  17:    1  ->  x ==> comfort
+  18:    1  ->  x ==> tankers
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    2  ->  a
+   2:    1  ->  and
+   3:    1  ->  un
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  ps
+   2:    1  ->  psalm
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    7  ->  psalm
+   2:    3  ->  oh
+   3:    2  ->  lost
+   4:    2  ->  th
+   5:    2  ->  x
+   6:    1  ->  a
+   7:    1  ->  eruptions
+   8:    1  ->  jades
+   9:    1  ->  kyger
+  10:    1  ->  parkour
+  11:    1  ->  seen
+  12:    1  ->  sung
+  13:    1  ->  taut
+  14:    1  ->  trance
+  15:    1  ->  uninscribed
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    6  ->  song
+   2:    3  ->  o
+   3:    2  ->  some
+   4:    2  ->  the
+   5:    1  ->  an
+   6:    1  ->  comfort
+   7:    1  ->  eruption
+   8:    1  ->  inscribed
+   9:    1  ->  jade
+  10:    1  ->  ker
+  11:    1  ->  last
+  12:    1  ->  lot
+  13:    1  ->  parker
+  14:    1  ->  scene
+  15:    1  ->  tankers
+  16:    1  ->  taught
+  17:    1  ->  trant
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

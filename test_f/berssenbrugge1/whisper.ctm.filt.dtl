@@ -1,0 +1,113 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.4%   (  21)
+
+Percent Correct           =   97.9%   ( 846)
+
+Percent Substitution      =    1.2%   (  10)
+Percent Deletions         =    0.9%   (   8)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   97.6%
+
+
+Ref. words                =           ( 864)
+Hyp. words                =           ( 859)
+Aligned words             =           ( 867)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  aesthetic ==> anesthetic
+   2:    1  ->  are ==> your
+   3:    1  ->  far ==> insofar
+   4:    1  ->  feel ==> field
+   5:    1  ->  hatched ==> crosshatched
+   6:    1  ->  implicated ==> invocated
+   7:    1  ->  photograph ==> photographable
+   8:    1  ->  role ==> room
+   9:    1  ->  tongues ==> tongue
+  10:    1  ->  x ==> plasticity
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  quan
+   3:    1  ->  yin
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  in
+   2:    1  ->  a
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  cross
+   6:    1  ->  so
+   7:    1  ->  you
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  aesthetic
+   2:    1  ->  are
+   3:    1  ->  far
+   4:    1  ->  feel
+   5:    1  ->  hatched
+   6:    1  ->  implicated
+   7:    1  ->  photograph
+   8:    1  ->  role
+   9:    1  ->  tongues
+  10:    1  ->  x
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  anesthetic
+   2:    1  ->  crosshatched
+   3:    1  ->  field
+   4:    1  ->  insofar
+   5:    1  ->  invocated
+   6:    1  ->  photographable
+   7:    1  ->  plasticity
+   8:    1  ->  room
+   9:    1  ->  tongue
+  10:    1  ->  your
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

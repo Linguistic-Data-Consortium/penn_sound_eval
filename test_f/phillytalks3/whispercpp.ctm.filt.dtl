@@ -1,0 +1,168 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.4%   (  80)
+
+Percent Correct           =   91.4%   ( 775)
+
+Percent Substitution      =    2.7%   (  23)
+Percent Deletions         =    5.9%   (  50)
+Percent Insertions        =    0.8%   (   7)
+Percent Word Accuracy     =   90.6%
+
+
+Ref. words                =           ( 848)
+Hyp. words                =           ( 805)
+Aligned words             =           ( 855)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    1  ->  an ==> a
+   2:    1  ->  answers ==> is
+   3:    1  ->  artaud ==> arto
+   4:    1  ->  cross ==> across
+   5:    1  ->  ever ==> never
+   6:    1  ->  five ==> in
+   7:    1  ->  his ==> this
+   8:    1  ->  interest ==> interesting
+   9:    1  ->  it ==> this
+  10:    1  ->  nostalgic ==> cpers
+  11:    1  ->  once ==> was
+  12:    1  ->  or ==> where
+  13:    1  ->  phenomena ==> phenomenon
+  14:    1  ->  retro ==> retronostalgic
+  15:    1  ->  term ==> longterm
+  16:    1  ->  term ==> shorterterm
+  17:    1  ->  the ==> that
+  18:    1  ->  there's ==> it's
+  19:    1  ->  x ==> actually
+  20:    1  ->  x ==> facts
+  21:    1  ->  x ==> i
+  22:    1  ->  x ==> mean
+  23:    1  ->  you ==> we
+     -------
+        23
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  i
+   2:    1  ->  in
+   3:    1  ->  is
+   4:    1  ->  mean
+   5:    1  ->  of
+   6:    1  ->  so
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    7  ->  x
+   2:    6  ->  and
+   3:    6  ->  it
+   4:    4  ->  the
+   5:    3  ->  a
+   6:    3  ->  i
+   7:    2  ->  %bcack
+   8:    2  ->  of
+   9:    1  ->  any
+  10:    1  ->  debt
+  11:    1  ->  feels
+  12:    1  ->  is
+  13:    1  ->  l
+  14:    1  ->  long
+  15:    1  ->  me
+  16:    1  ->  or
+  17:    1  ->  p
+  18:    1  ->  quite
+  19:    1  ->  shorter
+  20:    1  ->  so
+  21:    1  ->  social
+  22:    1  ->  that
+  23:    1  ->  there's
+  24:    1  ->  they
+  25:    1  ->  to
+     -------
+        50
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    4  ->  x
+   2:    2  ->  term
+   3:    1  ->  an
+   4:    1  ->  answers
+   5:    1  ->  artaud
+   6:    1  ->  cross
+   7:    1  ->  ever
+   8:    1  ->  five
+   9:    1  ->  his
+  10:    1  ->  interest
+  11:    1  ->  it
+  12:    1  ->  nostalgic
+  13:    1  ->  once
+  14:    1  ->  or
+  15:    1  ->  phenomena
+  16:    1  ->  retro
+  17:    1  ->  the
+  18:    1  ->  there's
+  19:    1  ->  you
+     -------
+        23
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  this
+   2:    1  ->  a
+   3:    1  ->  across
+   4:    1  ->  actually
+   5:    1  ->  arto
+   6:    1  ->  cpers
+   7:    1  ->  facts
+   8:    1  ->  i
+   9:    1  ->  in
+  10:    1  ->  interesting
+  11:    1  ->  is
+  12:    1  ->  it's
+  13:    1  ->  longterm
+  14:    1  ->  mean
+  15:    1  ->  never
+  16:    1  ->  phenomenon
+  17:    1  ->  retronostalgic
+  18:    1  ->  shorterterm
+  19:    1  ->  that
+  20:    1  ->  was
+  21:    1  ->  we
+  22:    1  ->  where
+     -------
+        23
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

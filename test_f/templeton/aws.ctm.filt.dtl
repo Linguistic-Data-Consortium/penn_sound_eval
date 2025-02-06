@@ -1,0 +1,384 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   20.7%   ( 226)
+
+Percent Correct           =   80.8%   ( 881)
+
+Percent Substitution      =    7.0%   (  76)
+Percent Deletions         =   12.3%   ( 134)
+Percent Insertions        =    1.5%   (  16)
+Percent Word Accuracy     =   79.3%
+
+
+Ref. words                =           (1091)
+Hyp. words                =           ( 973)
+Aligned words             =           (1107)
+
+CONFUSION PAIRS                  Total                 (75)
+                                 With >=  1 occurrences (75)
+
+   1:    2  ->  is ==> was
+   2:    1  ->  a ==> her
+   3:    1  ->  accumulative ==> cumulative
+   4:    1  ->  allowed ==> aloud
+   5:    1  ->  an ==> a
+   6:    1  ->  an ==> and
+   7:    1  ->  and ==> in
+   8:    1  ->  and ==> oh
+   9:    1  ->  and ==> on
+  10:    1  ->  are ==> row
+  11:    1  ->  axe ==> ax
+  12:    1  ->  be ==> your
+  13:    1  ->  beam ==> beat
+  14:    1  ->  bedroom's ==> bedrooms
+  15:    1  ->  bottom ==> but
+  16:    1  ->  brain ==> rain
+  17:    1  ->  bread ==> tame
+  18:    1  ->  constructions ==> construction
+  19:    1  ->  convention ==> kick
+  20:    1  ->  deci ==> de
+  21:    1  ->  destroy ==> destroyed
+  22:    1  ->  doing's ==> doings
+  23:    1  ->  face ==> staff
+  24:    1  ->  fifty ==> oh
+  25:    1  ->  fine ==> going
+  26:    1  ->  head ==> heads
+  27:    1  ->  her ==> car
+  28:    1  ->  hides ==> hide
+  29:    1  ->  how ==> do
+  30:    1  ->  ids ==> ideas
+  31:    1  ->  in ==> and
+  32:    1  ->  la ==> a
+  33:    1  ->  lev ==> love
+  34:    1  ->  look ==> book
+  35:    1  ->  man ==> stickman
+  36:    1  ->  mean ==> yeah
+  37:    1  ->  more ==> need
+  38:    1  ->  much ==> i
+  39:    1  ->  not ==> out
+  40:    1  ->  others ==> line
+  41:    1  ->  papercut ==> cut
+  42:    1  ->  pillows ==> s
+  43:    1  ->  rising ==> writhing
+  44:    1  ->  she ==> he
+  45:    1  ->  sounds ==> hounds
+  46:    1  ->  sounds ==> sound
+  47:    1  ->  stained ==> stay
+  48:    1  ->  stick ==> insist
+  49:    1  ->  straw ==> strong
+  50:    1  ->  tameless ==> less
+  51:    1  ->  this ==> it
+  52:    1  ->  til ==> till
+  53:    1  ->  today ==> day
+  54:    1  ->  turns ==> turn
+  55:    1  ->  unpromised ==> unpromising
+  56:    1  ->  used ==> spoke
+  57:    1  ->  viv ==> have
+  58:    1  ->  was ==> it's
+  59:    1  ->  what ==> be
+  60:    1  ->  where ==> l
+  61:    1  ->  width ==> lips
+  62:    1  ->  wither ==> withers
+  63:    1  ->  x ==> and
+  64:    1  ->  x ==> bene
+  65:    1  ->  x ==> can
+  66:    1  ->  x ==> drinks
+  67:    1  ->  x ==> have
+  68:    1  ->  x ==> psycho
+  69:    1  ->  x ==> the
+  70:    1  ->  x ==> to
+  71:    1  ->  x ==> up
+  72:    1  ->  x ==> was
+  73:    1  ->  x ==> we
+  74:    1  ->  x ==> what
+  75:    1  ->  yeah ==> kid
+     -------
+        76
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    1  ->  and
+   2:    1  ->  bred
+   3:    1  ->  i
+   4:    1  ->  in
+   5:    1  ->  it
+   6:    1  ->  k.
+   7:    1  ->  made
+   8:    1  ->  no
+   9:    1  ->  o.
+  10:    1  ->  paper
+  11:    1  ->  they
+  12:    1  ->  think
+  13:    1  ->  to
+  14:    1  ->  we
+  15:    1  ->  why
+  16:    1  ->  yeah
+     -------
+        16
+
+
+
+DELETIONS                        Total                 (91)
+                                 With >=  1 occurrences (91)
+
+   1:   11  ->  x
+   2:   10  ->  of
+   3:    6  ->  the
+   4:    5  ->  to
+   5:    4  ->  it
+   6:    3  ->  in
+   7:    2  ->  all
+   8:    2  ->  and
+   9:    2  ->  first
+  10:    2  ->  just
+  11:    2  ->  kick
+  12:    2  ->  kicker
+  13:    2  ->  not
+  14:    2  ->  out
+  15:    2  ->  shy
+  16:    2  ->  their
+  17:    1  ->  absentia
+  18:    1  ->  alleged
+  19:    1  ->  almost
+  20:    1  ->  are
+  21:    1  ->  at
+  22:    1  ->  authorities
+  23:    1  ->  b
+  24:    1  ->  back
+  25:    1  ->  because
+  26:    1  ->  beer
+  27:    1  ->  blatant
+  28:    1  ->  by
+  29:    1  ->  call
+  30:    1  ->  car
+  31:    1  ->  cluster
+  32:    1  ->  conscientious
+  33:    1  ->  corners
+  34:    1  ->  corpus
+  35:    1  ->  count
+  36:    1  ->  denied
+  37:    1  ->  dies
+  38:    1  ->  does
+  39:    1  ->  drinking
+  40:    1  ->  ever
+  41:    1  ->  expression
+  42:    1  ->  from
+  43:    1  ->  get
+  44:    1  ->  habeas
+  45:    1  ->  have
+  46:    1  ->  having
+  47:    1  ->  i
+  48:    1  ->  insists
+  49:    1  ->  is
+  50:    1  ->  known
+  51:    1  ->  long
+  52:    1  ->  love
+  53:    1  ->  make
+  54:    1  ->  matter
+  55:    1  ->  me
+  56:    1  ->  misconduct
+  57:    1  ->  much
+  58:    1  ->  names
+  59:    1  ->  new
+  60:    1  ->  no
+  61:    1  ->  obtain
+  62:    1  ->  one
+  63:    1  ->  opportunistic
+  64:    1  ->  permission
+  65:    1  ->  pillows
+  66:    1  ->  presence
+  67:    1  ->  refugees
+  68:    1  ->  replied
+  69:    1  ->  saw
+  70:    1  ->  sentences
+  71:    1  ->  so
+  72:    1  ->  status
+  73:    1  ->  street
+  74:    1  ->  survival
+  75:    1  ->  this
+  76:    1  ->  time
+  77:    1  ->  up
+  78:    1  ->  us
+  79:    1  ->  utilities
+  80:    1  ->  victims
+  81:    1  ->  visit
+  82:    1  ->  way
+  83:    1  ->  we
+  84:    1  ->  what
+  85:    1  ->  what's
+  86:    1  ->  where
+  87:    1  ->  with
+  88:    1  ->  women
+  89:    1  ->  yet
+  90:    1  ->  york
+  91:    1  ->  you
+     -------
+       134
+
+
+
+SUBSTITUTIONS                    Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:   12  ->  x
+   2:    3  ->  and
+   3:    2  ->  an
+   4:    2  ->  is
+   5:    2  ->  sounds
+   6:    1  ->  a
+   7:    1  ->  accumulative
+   8:    1  ->  allowed
+   9:    1  ->  are
+  10:    1  ->  axe
+  11:    1  ->  be
+  12:    1  ->  beam
+  13:    1  ->  bedroom's
+  14:    1  ->  bottom
+  15:    1  ->  brain
+  16:    1  ->  bread
+  17:    1  ->  constructions
+  18:    1  ->  convention
+  19:    1  ->  deci
+  20:    1  ->  destroy
+  21:    1  ->  doing's
+  22:    1  ->  face
+  23:    1  ->  fifty
+  24:    1  ->  fine
+  25:    1  ->  head
+  26:    1  ->  her
+  27:    1  ->  hides
+  28:    1  ->  how
+  29:    1  ->  ids
+  30:    1  ->  in
+  31:    1  ->  la
+  32:    1  ->  lev
+  33:    1  ->  look
+  34:    1  ->  man
+  35:    1  ->  mean
+  36:    1  ->  more
+  37:    1  ->  much
+  38:    1  ->  not
+  39:    1  ->  others
+  40:    1  ->  papercut
+  41:    1  ->  pillows
+  42:    1  ->  rising
+  43:    1  ->  she
+  44:    1  ->  stained
+  45:    1  ->  stick
+  46:    1  ->  straw
+  47:    1  ->  tameless
+  48:    1  ->  this
+  49:    1  ->  til
+  50:    1  ->  today
+  51:    1  ->  turns
+  52:    1  ->  unpromised
+  53:    1  ->  used
+  54:    1  ->  viv
+  55:    1  ->  was
+  56:    1  ->  what
+  57:    1  ->  where
+  58:    1  ->  width
+  59:    1  ->  wither
+  60:    1  ->  yeah
+     -------
+        76
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (69)
+                                 With >=  1 occurrences (69)
+
+   1:    3  ->  and
+   2:    3  ->  was
+   3:    2  ->  a
+   4:    2  ->  have
+   5:    2  ->  oh
+   6:    1  ->  aloud
+   7:    1  ->  ax
+   8:    1  ->  be
+   9:    1  ->  beat
+  10:    1  ->  bedrooms
+  11:    1  ->  bene
+  12:    1  ->  book
+  13:    1  ->  but
+  14:    1  ->  can
+  15:    1  ->  car
+  16:    1  ->  construction
+  17:    1  ->  cumulative
+  18:    1  ->  cut
+  19:    1  ->  day
+  20:    1  ->  de
+  21:    1  ->  destroyed
+  22:    1  ->  do
+  23:    1  ->  doings
+  24:    1  ->  drinks
+  25:    1  ->  going
+  26:    1  ->  he
+  27:    1  ->  heads
+  28:    1  ->  her
+  29:    1  ->  hide
+  30:    1  ->  hounds
+  31:    1  ->  i
+  32:    1  ->  ideas
+  33:    1  ->  in
+  34:    1  ->  insist
+  35:    1  ->  it
+  36:    1  ->  it's
+  37:    1  ->  kick
+  38:    1  ->  kid
+  39:    1  ->  l
+  40:    1  ->  less
+  41:    1  ->  line
+  42:    1  ->  lips
+  43:    1  ->  love
+  44:    1  ->  need
+  45:    1  ->  on
+  46:    1  ->  out
+  47:    1  ->  psycho
+  48:    1  ->  rain
+  49:    1  ->  row
+  50:    1  ->  s
+  51:    1  ->  sound
+  52:    1  ->  spoke
+  53:    1  ->  staff
+  54:    1  ->  stay
+  55:    1  ->  stickman
+  56:    1  ->  strong
+  57:    1  ->  tame
+  58:    1  ->  the
+  59:    1  ->  till
+  60:    1  ->  to
+  61:    1  ->  turn
+  62:    1  ->  unpromising
+  63:    1  ->  up
+  64:    1  ->  we
+  65:    1  ->  what
+  66:    1  ->  withers
+  67:    1  ->  writhing
+  68:    1  ->  yeah
+  69:    1  ->  your
+     -------
+        76
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

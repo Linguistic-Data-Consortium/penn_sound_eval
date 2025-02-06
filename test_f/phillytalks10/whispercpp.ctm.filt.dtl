@@ -1,0 +1,162 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.2%   (  89)
+
+Percent Correct           =   95.6%   ( 758)
+
+Percent Substitution      =    3.3%   (  26)
+Percent Deletions         =    1.1%   (   9)
+Percent Insertions        =    6.8%   (  54)
+Percent Word Accuracy     =   88.8%
+
+
+Ref. words                =           ( 793)
+Hyp. words                =           ( 838)
+Aligned words             =           ( 847)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    7  ->  onto ==> to
+   2:    2  ->  a ==> the
+   3:    1  ->  a ==> of
+   4:    1  ->  blocked ==> block
+   5:    1  ->  book's ==> books
+   6:    1  ->  but ==> about
+   7:    1  ->  cheesemaking ==> making
+   8:    1  ->  do ==> will
+   9:    1  ->  farmworker's ==> worker's
+  10:    1  ->  ficcio ==> fico
+  11:    1  ->  growth ==> grove
+  12:    1  ->  hello ==> aplausos
+  13:    1  ->  in ==> and
+  14:    1  ->  laughingstock ==> stock
+  15:    1  ->  lit ==> highlit
+  16:    1  ->  louie ==> louis
+  17:    1  ->  talking ==> talked
+  18:    1  ->  that ==> thank
+  19:    1  ->  was ==> you
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:   10  ->  on
+   2:    3  ->  a
+   3:    3  ->  going
+   4:    3  ->  knee
+   5:    3  ->  one
+   6:    3  ->  spoon
+   7:    3  ->  to
+   8:    3  ->  with
+   9:    2  ->  aplausos
+  10:    2  ->  his
+  11:    2  ->  loss
+  12:    2  ->  mother's
+  13:    2  ->  of
+  14:    2  ->  smile
+  15:    2  ->  the
+  16:    1  ->  ceremony
+  17:    1  ->  cheese
+  18:    1  ->  contact
+  19:    1  ->  farm
+  20:    1  ->  from
+  21:    1  ->  i
+  22:    1  ->  laughing
+  23:    1  ->  orders
+  24:    1  ->  taking
+     -------
+        54
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  am
+   2:    1  ->  and
+   3:    1  ->  going
+   4:    1  ->  high
+   5:    1  ->  in
+   6:    1  ->  then
+   7:    1  ->  to
+   8:    1  ->  were
+   9:    1  ->  x
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    7  ->  onto
+   2:    3  ->  a
+   3:    1  ->  blocked
+   4:    1  ->  book's
+   5:    1  ->  but
+   6:    1  ->  cheesemaking
+   7:    1  ->  do
+   8:    1  ->  farmworker's
+   9:    1  ->  ficcio
+  10:    1  ->  growth
+  11:    1  ->  hello
+  12:    1  ->  in
+  13:    1  ->  laughingstock
+  14:    1  ->  lit
+  15:    1  ->  louie
+  16:    1  ->  talking
+  17:    1  ->  that
+  18:    1  ->  was
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    7  ->  to
+   2:    2  ->  the
+   3:    1  ->  about
+   4:    1  ->  and
+   5:    1  ->  aplausos
+   6:    1  ->  block
+   7:    1  ->  books
+   8:    1  ->  fico
+   9:    1  ->  grove
+  10:    1  ->  highlit
+  11:    1  ->  louis
+  12:    1  ->  making
+  13:    1  ->  of
+  14:    1  ->  stock
+  15:    1  ->  talked
+  16:    1  ->  thank
+  17:    1  ->  will
+  18:    1  ->  worker's
+  19:    1  ->  you
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

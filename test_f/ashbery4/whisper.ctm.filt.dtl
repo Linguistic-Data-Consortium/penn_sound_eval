@@ -1,0 +1,247 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   18.1%   ( 179)
+
+Percent Correct           =   83.1%   ( 823)
+
+Percent Substitution      =    5.4%   (  53)
+Percent Deletions         =   11.5%   ( 114)
+Percent Insertions        =    1.2%   (  12)
+Percent Word Accuracy     =   81.9%
+
+
+Ref. words                =           ( 990)
+Hyp. words                =           ( 888)
+Aligned words             =           (1002)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    2  ->  a ==> coneia
+   2:    2  ->  des ==> day
+   3:    2  ->  dollars ==> 150
+   4:    2  ->  du ==> de
+   5:    2  ->  had ==> have
+   6:    2  ->  obligitoire ==> obligatoire
+   7:    2  ->  was ==> is
+   8:    2  ->  x ==> mercure
+   9:    1  ->  %bcack ==> him
+  10:    1  ->  a ==> the
+  11:    1  ->  genevieve ==> geneviève
+  12:    1  ->  his ==> the
+  13:    1  ->  i ==> all
+  14:    1  ->  max ==> mark
+  15:    1  ->  my ==> might
+  16:    1  ->  no ==> i
+  17:    1  ->  noel ==> noelle
+  18:    1  ->  novel ==> novels
+  19:    1  ->  o'hara ==> 'hara
+  20:    1  ->  pole ==> goal
+  21:    1  ->  reason ==> somebody
+  22:    1  ->  reverdy ==> o
+  23:    1  ->  she ==> it
+  24:    1  ->  was ==> always
+  25:    1  ->  was ==> dittis
+  26:    1  ->  was ==> jamais
+  27:    1  ->  was ==> were
+  28:    1  ->  whose ==> it
+  29:    1  ->  x ==> actually
+  30:    1  ->  x ==> all
+  31:    1  ->  x ==> but
+  32:    1  ->  x ==> cermani
+  33:    1  ->  x ==> did
+  34:    1  ->  x ==> do
+  35:    1  ->  x ==> eckhart
+  36:    1  ->  x ==> it
+  37:    1  ->  x ==> montserrand
+  38:    1  ->  x ==> plus
+  39:    1  ->  x ==> remember
+  40:    1  ->  x ==> saillet
+  41:    1  ->  x ==> verse
+  42:    1  ->  x ==> was
+  43:    1  ->  yeah ==> attracted
+  44:    1  ->  yeah ==> d
+  45:    1  ->  yep ==> oh
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    3  ->  the
+   2:    1  ->  dittis
+   3:    1  ->  from
+   4:    1  ->  it
+   5:    1  ->  jacobin
+   6:    1  ->  le
+   7:    1  ->  meister
+   8:    1  ->  no
+   9:    1  ->  o
+  10:    1  ->  sex
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (53)
+                                 With >=  1 occurrences (53)
+
+   1:   15  ->  i
+   2:   11  ->  and
+   3:    8  ->  x
+   4:    5  ->  a
+   5:    5  ->  it
+   6:    5  ->  yeah
+   7:    4  ->  the
+   8:    3  ->  he
+   9:    3  ->  oh
+  10:    2  ->  am
+  11:    2  ->  cornet
+  12:    2  ->  f
+  13:    2  ->  fifty
+  14:    2  ->  how
+  15:    2  ->  hundred
+  16:    2  ->  of
+  17:    2  ->  th
+  18:    2  ->  to
+  19:    2  ->  was
+  20:    2  ->  you
+  21:    1  ->  any
+  22:    1  ->  anyway
+  23:    1  ->  bef
+  24:    1  ->  but
+  25:    1  ->  d
+  26:    1  ->  do
+  27:    1  ->  for
+  28:    1  ->  h
+  29:    1  ->  his
+  30:    1  ->  in
+  31:    1  ->  is
+  32:    1  ->  it's
+  33:    1  ->  keep
+  34:    1  ->  know
+  35:    1  ->  m
+  36:    1  ->  mean
+  37:    1  ->  not
+  38:    1  ->  notes
+  39:    1  ->  now
+  40:    1  ->  or
+  41:    1  ->  said
+  42:    1  ->  sixty
+  43:    1  ->  some
+  44:    1  ->  that's
+  45:    1  ->  them
+  46:    1  ->  then
+  47:    1  ->  w
+  48:    1  ->  wh
+  49:    1  ->  what
+  50:    1  ->  where
+  51:    1  ->  who
+  52:    1  ->  whose
+  53:    1  ->  will
+     -------
+       114
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:   16  ->  x
+   2:    6  ->  was
+   3:    3  ->  a
+   4:    2  ->  des
+   5:    2  ->  dollars
+   6:    2  ->  du
+   7:    2  ->  had
+   8:    2  ->  obligitoire
+   9:    2  ->  yeah
+  10:    1  ->  %bcack
+  11:    1  ->  genevieve
+  12:    1  ->  his
+  13:    1  ->  i
+  14:    1  ->  max
+  15:    1  ->  my
+  16:    1  ->  no
+  17:    1  ->  noel
+  18:    1  ->  novel
+  19:    1  ->  o'hara
+  20:    1  ->  pole
+  21:    1  ->  reason
+  22:    1  ->  reverdy
+  23:    1  ->  she
+  24:    1  ->  whose
+  25:    1  ->  yep
+     -------
+        53
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    3  ->  it
+   2:    2  ->  150
+   3:    2  ->  all
+   4:    2  ->  coneia
+   5:    2  ->  day
+   6:    2  ->  de
+   7:    2  ->  have
+   8:    2  ->  is
+   9:    2  ->  mercure
+  10:    2  ->  obligatoire
+  11:    2  ->  the
+  12:    1  ->  'hara
+  13:    1  ->  actually
+  14:    1  ->  always
+  15:    1  ->  attracted
+  16:    1  ->  but
+  17:    1  ->  cermani
+  18:    1  ->  d
+  19:    1  ->  did
+  20:    1  ->  dittis
+  21:    1  ->  do
+  22:    1  ->  eckhart
+  23:    1  ->  geneviève
+  24:    1  ->  goal
+  25:    1  ->  him
+  26:    1  ->  i
+  27:    1  ->  jamais
+  28:    1  ->  mark
+  29:    1  ->  might
+  30:    1  ->  montserrand
+  31:    1  ->  noelle
+  32:    1  ->  novels
+  33:    1  ->  o
+  34:    1  ->  oh
+  35:    1  ->  plus
+  36:    1  ->  remember
+  37:    1  ->  saillet
+  38:    1  ->  somebody
+  39:    1  ->  verse
+  40:    1  ->  was
+  41:    1  ->  were
+     -------
+        53
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

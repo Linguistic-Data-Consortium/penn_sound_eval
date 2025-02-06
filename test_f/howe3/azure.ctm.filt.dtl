@@ -1,0 +1,419 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   23.5%   ( 320)
+
+Percent Correct           =   78.6%   (1072)
+
+Percent Substitution      =    7.5%   ( 102)
+Percent Deletions         =   13.9%   ( 190)
+Percent Insertions        =    2.1%   (  28)
+Percent Word Accuracy     =   76.5%
+
+
+Ref. words                =           (1364)
+Hyp. words                =           (1202)
+Aligned words             =           (1392)
+
+CONFUSION PAIRS                  Total                 (101)
+                                 With >=  1 occurrences (101)
+
+   1:    2  ->  x ==> the
+   2:    1  ->  a ==> it
+   3:    1  ->  a ==> smiles
+   4:    1  ->  all ==> will
+   5:    1  ->  and ==> in
+   6:    1  ->  anything ==> be
+   7:    1  ->  are ==> were
+   8:    1  ->  as ==> is
+   9:    1  ->  back ==> and
+  10:    1  ->  be ==> something
+  11:    1  ->  becomes ==> comes
+  12:    1  ->  come ==> comes
+  13:    1  ->  consistent ==> that
+  14:    1  ->  crossed ==> cross
+  15:    1  ->  d ==> because
+  16:    1  ->  demurral ==> demural
+  17:    1  ->  dickinson ==> difference
+  18:    1  ->  dickinson's ==> 's
+  19:    1  ->  either ==> those
+  20:    1  ->  fan ==> an
+  21:    1  ->  fitting ==> fitted
+  22:    1  ->  go ==> cool
+  23:    1  ->  going ==> go
+  24:    1  ->  has ==> is
+  25:    1  ->  have ==> had
+  26:    1  ->  i ==> do
+  27:    1  ->  i ==> not
+  28:    1  ->  it ==> if
+  29:    1  ->  it's ==> this
+  30:    1  ->  mean ==> me
+  31:    1  ->  might ==> axiom
+  32:    1  ->  minute ==> new
+  33:    1  ->  missed ==> miss
+  34:    1  ->  no ==> just
+  35:    1  ->  no ==> now
+  36:    1  ->  no ==> will
+  37:    1  ->  not ==> or
+  38:    1  ->  not ==> put
+  39:    1  ->  of ==> at
+  40:    1  ->  of ==> unknown
+  41:    1  ->  or ==> fitter
+  42:    1  ->  or ==> mixture
+  43:    1  ->  pain ==> he
+  44:    1  ->  poem ==> home
+  45:    1  ->  poems ==> phones
+  46:    1  ->  right ==> go
+  47:    1  ->  see ==> said
+  48:    1  ->  she ==> an
+  49:    1  ->  smile's ==> my
+  50:    1  ->  t ==> home
+  51:    1  ->  t ==> two
+  52:    1  ->  t's ==> teenies
+  53:    1  ->  t's ==> tees
+  54:    1  ->  t's ==> things
+  55:    1  ->  the ==> a
+  56:    1  ->  the ==> broken
+  57:    1  ->  the ==> this
+  58:    1  ->  think ==> you
+  59:    1  ->  thinking ==> know
+  60:    1  ->  this ==> its
+  61:    1  ->  this ==> over
+  62:    1  ->  til ==> till
+  63:    1  ->  to ==> some
+  64:    1  ->  tr ==> try
+  65:    1  ->  usually ==> crosses
+  66:    1  ->  w ==> well
+  67:    1  ->  will ==> and
+  68:    1  ->  will ==> would
+  69:    1  ->  would ==> will
+  70:    1  ->  x ==> a
+  71:    1  ->  x ==> and
+  72:    1  ->  x ==> back
+  73:    1  ->  x ==> because
+  74:    1  ->  x ==> but
+  75:    1  ->  x ==> continue
+  76:    1  ->  x ==> darn
+  77:    1  ->  x ==> do
+  78:    1  ->  x ==> else
+  79:    1  ->  x ==> every
+  80:    1  ->  x ==> first
+  81:    1  ->  x ==> gone
+  82:    1  ->  x ==> i
+  83:    1  ->  x ==> if
+  84:    1  ->  x ==> issue
+  85:    1  ->  x ==> it
+  86:    1  ->  x ==> like
+  87:    1  ->  x ==> net
+  88:    1  ->  x ==> not
+  89:    1  ->  x ==> now
+  90:    1  ->  x ==> party
+  91:    1  ->  x ==> put
+  92:    1  ->  x ==> relations
+  93:    1  ->  x ==> run
+  94:    1  ->  x ==> sound
+  95:    1  ->  x ==> thing
+  96:    1  ->  x ==> to
+  97:    1  ->  x ==> up
+  98:    1  ->  x ==> us
+  99:    1  ->  x ==> vascicle
+ 100:    1  ->  x ==> we
+ 101:    1  ->  year ==> here
+     -------
+       102
+
+
+
+INSERTIONS                       Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  the
+   2:    3  ->  you
+   3:    2  ->  of
+   4:    2  ->  would
+   5:    1  ->  add
+   6:    1  ->  added
+   7:    1  ->  an
+   8:    1  ->  are
+   9:    1  ->  dickens
+  10:    1  ->  dickinson
+  11:    1  ->  do
+  12:    1  ->  have
+  13:    1  ->  it
+  14:    1  ->  just
+  15:    1  ->  let
+  16:    1  ->  needs
+  17:    1  ->  oh
+  18:    1  ->  part
+  19:    1  ->  seem
+  20:    1  ->  thing
+  21:    1  ->  to
+  22:    1  ->  umm
+     -------
+        28
+
+
+
+DELETIONS                        Total                 (84)
+                                 With >=  1 occurrences (84)
+
+   1:   41  ->  x
+   2:    8  ->  i
+   3:    7  ->  the
+   4:    5  ->  it
+   5:    5  ->  right
+   6:    5  ->  we
+   7:    4  ->  have
+   8:    4  ->  this
+   9:    3  ->  all
+  10:    3  ->  at
+  11:    3  ->  be
+  12:    3  ->  but
+  13:    3  ->  could
+  14:    3  ->  in
+  15:    3  ->  is
+  16:    3  ->  that
+  17:    3  ->  that's
+  18:    3  ->  to
+  19:    3  ->  what
+  20:    3  ->  would
+  21:    3  ->  yes
+  22:    2  ->  a
+  23:    2  ->  c
+  24:    2  ->  go
+  25:    2  ->  oh
+  26:    2  ->  something
+  27:    2  ->  them
+  28:    2  ->  there
+  29:    2  ->  they
+  30:    2  ->  was
+  31:    1  ->  %bcack
+  32:    1  ->  again
+  33:    1  ->  am
+  34:    1  ->  amherst
+  35:    1  ->  and
+  36:    1  ->  appear
+  37:    1  ->  are
+  38:    1  ->  as
+  39:    1  ->  asking
+  40:    1  ->  book
+  41:    1  ->  both
+  42:    1  ->  caused
+  43:    1  ->  cr
+  44:    1  ->  did
+  45:    1  ->  discovered
+  46:    1  ->  do
+  47:    1  ->  done
+  48:    1  ->  fit
+  49:    1  ->  get
+  50:    1  ->  got
+  51:    1  ->  had
+  52:    1  ->  handwriting
+  53:    1  ->  her
+  54:    1  ->  if
+  55:    1  ->  it's
+  56:    1  ->  jammed
+  57:    1  ->  know
+  58:    1  ->  mean
+  59:    1  ->  missing
+  60:    1  ->  mystery
+  61:    1  ->  not
+  62:    1  ->  o
+  63:    1  ->  of
+  64:    1  ->  on
+  65:    1  ->  out
+  66:    1  ->  poem
+  67:    1  ->  printed
+  68:    1  ->  printer
+  69:    1  ->  recently
+  70:    1  ->  reference
+  71:    1  ->  same
+  72:    1  ->  see
+  73:    1  ->  she's
+  74:    1  ->  silly
+  75:    1  ->  slides
+  76:    1  ->  somewhere
+  77:    1  ->  stuck
+  78:    1  ->  thought
+  79:    1  ->  want
+  80:    1  ->  well
+  81:    1  ->  where
+  82:    1  ->  with
+  83:    1  ->  wrong
+  84:    1  ->  yeah
+     -------
+       190
+
+
+
+SUBSTITUTIONS                    Total                 (56)
+                                 With >=  1 occurrences (56)
+
+   1:   33  ->  x
+   2:    3  ->  no
+   3:    3  ->  t's
+   4:    3  ->  the
+   5:    2  ->  a
+   6:    2  ->  i
+   7:    2  ->  not
+   8:    2  ->  of
+   9:    2  ->  or
+  10:    2  ->  t
+  11:    2  ->  this
+  12:    2  ->  will
+  13:    1  ->  all
+  14:    1  ->  and
+  15:    1  ->  anything
+  16:    1  ->  are
+  17:    1  ->  as
+  18:    1  ->  back
+  19:    1  ->  be
+  20:    1  ->  becomes
+  21:    1  ->  come
+  22:    1  ->  consistent
+  23:    1  ->  crossed
+  24:    1  ->  d
+  25:    1  ->  demurral
+  26:    1  ->  dickinson
+  27:    1  ->  dickinson's
+  28:    1  ->  either
+  29:    1  ->  fan
+  30:    1  ->  fitting
+  31:    1  ->  go
+  32:    1  ->  going
+  33:    1  ->  has
+  34:    1  ->  have
+  35:    1  ->  it
+  36:    1  ->  it's
+  37:    1  ->  mean
+  38:    1  ->  might
+  39:    1  ->  minute
+  40:    1  ->  missed
+  41:    1  ->  pain
+  42:    1  ->  poem
+  43:    1  ->  poems
+  44:    1  ->  right
+  45:    1  ->  see
+  46:    1  ->  she
+  47:    1  ->  smile's
+  48:    1  ->  think
+  49:    1  ->  thinking
+  50:    1  ->  til
+  51:    1  ->  to
+  52:    1  ->  tr
+  53:    1  ->  usually
+  54:    1  ->  w
+  55:    1  ->  would
+  56:    1  ->  year
+     -------
+       102
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (83)
+                                 With >=  1 occurrences (83)
+
+   1:    3  ->  and
+   2:    3  ->  will
+   3:    2  ->  a
+   4:    2  ->  an
+   5:    2  ->  because
+   6:    2  ->  comes
+   7:    2  ->  do
+   8:    2  ->  go
+   9:    2  ->  home
+  10:    2  ->  if
+  11:    2  ->  is
+  12:    2  ->  it
+  13:    2  ->  not
+  14:    2  ->  now
+  15:    2  ->  put
+  16:    2  ->  the
+  17:    2  ->  this
+  18:    1  ->  's
+  19:    1  ->  at
+  20:    1  ->  axiom
+  21:    1  ->  back
+  22:    1  ->  be
+  23:    1  ->  broken
+  24:    1  ->  but
+  25:    1  ->  continue
+  26:    1  ->  cool
+  27:    1  ->  cross
+  28:    1  ->  crosses
+  29:    1  ->  darn
+  30:    1  ->  demural
+  31:    1  ->  difference
+  32:    1  ->  else
+  33:    1  ->  every
+  34:    1  ->  first
+  35:    1  ->  fitted
+  36:    1  ->  fitter
+  37:    1  ->  gone
+  38:    1  ->  had
+  39:    1  ->  he
+  40:    1  ->  here
+  41:    1  ->  i
+  42:    1  ->  in
+  43:    1  ->  issue
+  44:    1  ->  its
+  45:    1  ->  just
+  46:    1  ->  know
+  47:    1  ->  like
+  48:    1  ->  me
+  49:    1  ->  miss
+  50:    1  ->  mixture
+  51:    1  ->  my
+  52:    1  ->  net
+  53:    1  ->  new
+  54:    1  ->  or
+  55:    1  ->  over
+  56:    1  ->  party
+  57:    1  ->  phones
+  58:    1  ->  relations
+  59:    1  ->  run
+  60:    1  ->  said
+  61:    1  ->  smiles
+  62:    1  ->  some
+  63:    1  ->  something
+  64:    1  ->  sound
+  65:    1  ->  teenies
+  66:    1  ->  tees
+  67:    1  ->  that
+  68:    1  ->  thing
+  69:    1  ->  things
+  70:    1  ->  those
+  71:    1  ->  till
+  72:    1  ->  to
+  73:    1  ->  try
+  74:    1  ->  two
+  75:    1  ->  unknown
+  76:    1  ->  up
+  77:    1  ->  us
+  78:    1  ->  vascicle
+  79:    1  ->  we
+  80:    1  ->  well
+  81:    1  ->  were
+  82:    1  ->  would
+  83:    1  ->  you
+     -------
+       102
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

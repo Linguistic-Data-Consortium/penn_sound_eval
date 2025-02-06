@@ -1,0 +1,209 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.7%   (  56)
+
+Percent Correct           =   94.5%   ( 924)
+
+Percent Substitution      =    4.7%   (  46)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   94.3%
+
+
+Ref. words                =           ( 978)
+Hyp. words                =           ( 972)
+Aligned words             =           ( 980)
+
+CONFUSION PAIRS                  Total                 (45)
+                                 With >=  1 occurrences (45)
+
+   1:    2  ->  is ==> 's
+   2:    1  ->  a ==> hannah
+   3:    1  ->  a ==> the
+   4:    1  ->  abandon ==> abandoned
+   5:    1  ->  ability ==> incommensurability
+   6:    1  ->  and ==> in
+   7:    1  ->  antimony ==> antinomy
+   8:    1  ->  apathetic ==> epiphytic
+   9:    1  ->  armpit's ==> armpits
+  10:    1  ->  cart ==> car
+  11:    1  ->  cedar ==> seder
+  12:    1  ->  charmed ==> charm
+  13:    1  ->  confidences ==> confidence
+  14:    1  ->  dew ==> do
+  15:    1  ->  dot ==> adopt
+  16:    1  ->  forbes' ==> forbes
+  17:    1  ->  had ==> and
+  18:    1  ->  in ==> and
+  19:    1  ->  interest ==> interests
+  20:    1  ->  is ==> was
+  21:    1  ->  it ==> and
+  22:    1  ->  it ==> i
+  23:    1  ->  man ==> and
+  24:    1  ->  modernism ==> postmodernism
+  25:    1  ->  name ==> names
+  26:    1  ->  now ==> how
+  27:    1  ->  our ==> or
+  28:    1  ->  phones ==> foams
+  29:    1  ->  prophesize ==> prophesized
+  30:    1  ->  purpled ==> purple
+  31:    1  ->  rider ==> writer
+  32:    1  ->  scalp ==> gap
+  33:    1  ->  see ==> si
+  34:    1  ->  so ==> some
+  35:    1  ->  soo ==> sue
+  36:    1  ->  sudden ==> in
+  37:    1  ->  that ==> and
+  38:    1  ->  the ==> also
+  39:    1  ->  the ==> this
+  40:    1  ->  through ==> to
+  41:    1  ->  time ==> tongue
+  42:    1  ->  tinder ==> tender
+  43:    1  ->  trustville ==> trussville
+  44:    1  ->  were ==> are
+  45:    1  ->  why ==> what
+     -------
+        46
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  or
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  all
+   3:    1  ->  her
+   4:    1  ->  i
+   5:    1  ->  increments
+   6:    1  ->  post
+   7:    1  ->  s
+   8:    1  ->  who
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    3  ->  is
+   2:    2  ->  a
+   3:    2  ->  it
+   4:    2  ->  the
+   5:    1  ->  abandon
+   6:    1  ->  ability
+   7:    1  ->  and
+   8:    1  ->  antimony
+   9:    1  ->  apathetic
+  10:    1  ->  armpit's
+  11:    1  ->  cart
+  12:    1  ->  cedar
+  13:    1  ->  charmed
+  14:    1  ->  confidences
+  15:    1  ->  dew
+  16:    1  ->  dot
+  17:    1  ->  forbes'
+  18:    1  ->  had
+  19:    1  ->  in
+  20:    1  ->  interest
+  21:    1  ->  man
+  22:    1  ->  modernism
+  23:    1  ->  name
+  24:    1  ->  now
+  25:    1  ->  our
+  26:    1  ->  phones
+  27:    1  ->  prophesize
+  28:    1  ->  purpled
+  29:    1  ->  rider
+  30:    1  ->  scalp
+  31:    1  ->  see
+  32:    1  ->  so
+  33:    1  ->  soo
+  34:    1  ->  sudden
+  35:    1  ->  that
+  36:    1  ->  through
+  37:    1  ->  time
+  38:    1  ->  tinder
+  39:    1  ->  trustville
+  40:    1  ->  were
+  41:    1  ->  why
+     -------
+        46
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    5  ->  and
+   2:    2  ->  's
+   3:    2  ->  in
+   4:    1  ->  abandoned
+   5:    1  ->  adopt
+   6:    1  ->  also
+   7:    1  ->  antinomy
+   8:    1  ->  are
+   9:    1  ->  armpits
+  10:    1  ->  car
+  11:    1  ->  charm
+  12:    1  ->  confidence
+  13:    1  ->  do
+  14:    1  ->  epiphytic
+  15:    1  ->  foams
+  16:    1  ->  forbes
+  17:    1  ->  gap
+  18:    1  ->  hannah
+  19:    1  ->  how
+  20:    1  ->  i
+  21:    1  ->  incommensurability
+  22:    1  ->  interests
+  23:    1  ->  names
+  24:    1  ->  or
+  25:    1  ->  postmodernism
+  26:    1  ->  prophesized
+  27:    1  ->  purple
+  28:    1  ->  seder
+  29:    1  ->  si
+  30:    1  ->  some
+  31:    1  ->  sue
+  32:    1  ->  tender
+  33:    1  ->  the
+  34:    1  ->  this
+  35:    1  ->  to
+  36:    1  ->  tongue
+  37:    1  ->  trussville
+  38:    1  ->  was
+  39:    1  ->  what
+  40:    1  ->  writer
+     -------
+        46
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

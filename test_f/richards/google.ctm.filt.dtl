@@ -1,0 +1,119 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.8%   (  18)
+
+Percent Correct           =   97.2%   ( 629)
+
+Percent Substitution      =    2.2%   (  14)
+Percent Deletions         =    0.6%   (   4)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   97.2%
+
+
+Ref. words                =           ( 647)
+Hyp. words                =           ( 643)
+Aligned words             =           ( 647)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  breast ==> breath
+   2:    1  ->  dapple ==> dappled
+   3:    1  ->  gale ==> gate
+   4:    1  ->  groan ==> grown
+   5:    1  ->  hen's ==> hens
+   6:    1  ->  in ==> and
+   7:    1  ->  it ==> a
+   8:    1  ->  motion ==> slowmotion
+   9:    1  ->  pallor ==> power
+  10:    1  ->  poem ==> home
+  11:    1  ->  slow ==> gulets
+  12:    1  ->  tines ==> tides
+  13:    1  ->  towards ==> toward
+  14:    1  ->  yolk ==> yoke
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  gullets
+   2:    1  ->  into
+   3:    1  ->  t
+   4:    1  ->  waves
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  breast
+   2:    1  ->  dapple
+   3:    1  ->  gale
+   4:    1  ->  groan
+   5:    1  ->  hen's
+   6:    1  ->  in
+   7:    1  ->  it
+   8:    1  ->  motion
+   9:    1  ->  pallor
+  10:    1  ->  poem
+  11:    1  ->  slow
+  12:    1  ->  tines
+  13:    1  ->  towards
+  14:    1  ->  yolk
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  breath
+   4:    1  ->  dappled
+   5:    1  ->  gate
+   6:    1  ->  grown
+   7:    1  ->  gulets
+   8:    1  ->  hens
+   9:    1  ->  home
+  10:    1  ->  power
+  11:    1  ->  slowmotion
+  12:    1  ->  tides
+  13:    1  ->  toward
+  14:    1  ->  yoke
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

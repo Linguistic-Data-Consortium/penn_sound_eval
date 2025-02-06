@@ -1,0 +1,196 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.1%   (  83)
+
+Percent Correct           =   91.8%   ( 839)
+
+Percent Substitution      =    4.0%   (  37)
+Percent Deletions         =    4.2%   (  38)
+Percent Insertions        =    0.9%   (   8)
+Percent Word Accuracy     =   90.9%
+
+
+Ref. words                =           ( 914)
+Hyp. words                =           ( 884)
+Aligned words             =           ( 922)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    9  ->  saint ==> st
+   2:    3  ->  icebox ==> box
+   3:    1  ->  bluhm ==> bloom
+   4:    1  ->  but ==> well
+   5:    1  ->  casay ==> cassetête
+   6:    1  ->  claven's ==> clavens
+   7:    1  ->  davide ==> david
+   8:    1  ->  dum ==> doom
+   9:    1  ->  fagin ==> fagan
+  10:    1  ->  glennan's ==> glenens
+  11:    1  ->  guston ==> gaston
+  12:    1  ->  headlights ==> light
+  13:    1  ->  in ==> an
+  14:    1  ->  mcgillivray's ==> mcgillivries
+  15:    1  ->  mcgivern's ==> mcgivrins
+  16:    1  ->  musique ==> music
+  17:    1  ->  nine ==> 1939
+  18:    1  ->  padgett ==> paget
+  19:    1  ->  pitcher ==> picture
+  20:    1  ->  sapeep ==> pip
+  21:    1  ->  the ==> a
+  22:    1  ->  thirty ==> 30th
+  23:    1  ->  traveled ==> travelled
+  24:    1  ->  uphill ==> hill
+  25:    1  ->  welcomed ==> welcome
+  26:    1  ->  williams' ==> williams
+  27:    1  ->  with ==> of
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    3  ->  ice
+   2:    1  ->  head
+   3:    1  ->  here
+   4:    1  ->  in
+   5:    1  ->  or
+   6:    1  ->  up
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  take
+   2:    2  ->  that
+   3:    1  ->  %bcack
+   4:    1  ->  a
+   5:    1  ->  actually
+   6:    1  ->  come
+   7:    1  ->  either
+   8:    1  ->  had
+   9:    1  ->  halfway
+  10:    1  ->  i
+  11:    1  ->  if
+  12:    1  ->  is
+  13:    1  ->  k.
+  14:    1  ->  le
+  15:    1  ->  let
+  16:    1  ->  me
+  17:    1  ->  meet
+  18:    1  ->  nineteen
+  19:    1  ->  o.
+  20:    1  ->  oeufs
+  21:    1  ->  plat
+  22:    1  ->  so
+  23:    1  ->  stage
+  24:    1  ->  sur
+  25:    1  ->  the
+  26:    1  ->  thirtieth
+  27:    1  ->  time
+  28:    1  ->  to
+  29:    1  ->  up
+  30:    1  ->  water
+  31:    1  ->  way
+  32:    1  ->  we
+  33:    1  ->  will
+  34:    1  ->  x
+  35:    1  ->  you
+  36:    1  ->  your
+     -------
+        38
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    9  ->  saint
+   2:    3  ->  icebox
+   3:    1  ->  bluhm
+   4:    1  ->  but
+   5:    1  ->  casay
+   6:    1  ->  claven's
+   7:    1  ->  davide
+   8:    1  ->  dum
+   9:    1  ->  fagin
+  10:    1  ->  glennan's
+  11:    1  ->  guston
+  12:    1  ->  headlights
+  13:    1  ->  in
+  14:    1  ->  mcgillivray's
+  15:    1  ->  mcgivern's
+  16:    1  ->  musique
+  17:    1  ->  nine
+  18:    1  ->  padgett
+  19:    1  ->  pitcher
+  20:    1  ->  sapeep
+  21:    1  ->  the
+  22:    1  ->  thirty
+  23:    1  ->  traveled
+  24:    1  ->  uphill
+  25:    1  ->  welcomed
+  26:    1  ->  williams'
+  27:    1  ->  with
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    9  ->  st
+   2:    3  ->  box
+   3:    1  ->  1939
+   4:    1  ->  30th
+   5:    1  ->  a
+   6:    1  ->  an
+   7:    1  ->  bloom
+   8:    1  ->  cassetête
+   9:    1  ->  clavens
+  10:    1  ->  david
+  11:    1  ->  doom
+  12:    1  ->  fagan
+  13:    1  ->  gaston
+  14:    1  ->  glenens
+  15:    1  ->  hill
+  16:    1  ->  light
+  17:    1  ->  mcgillivries
+  18:    1  ->  mcgivrins
+  19:    1  ->  music
+  20:    1  ->  of
+  21:    1  ->  paget
+  22:    1  ->  picture
+  23:    1  ->  pip
+  24:    1  ->  travelled
+  25:    1  ->  welcome
+  26:    1  ->  well
+  27:    1  ->  williams
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

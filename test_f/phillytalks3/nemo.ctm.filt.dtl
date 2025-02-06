@@ -1,0 +1,176 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.3%   (  87)
+
+Percent Correct           =   90.6%   ( 768)
+
+Percent Substitution      =    3.1%   (  26)
+Percent Deletions         =    6.4%   (  54)
+Percent Insertions        =    0.8%   (   7)
+Percent Word Accuracy     =   89.7%
+
+
+Ref. words                =           ( 848)
+Hyp. words                =           ( 801)
+Aligned words             =           ( 855)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    1  ->  an ==> a
+   2:    1  ->  and ==> an
+   3:    1  ->  answers ==> is
+   4:    1  ->  artaud ==> arto
+   5:    1  ->  certeau ==> deserteaux
+   6:    1  ->  cross ==> across
+   7:    1  ->  disgust ==> discuss
+   8:    1  ->  five ==> as
+   9:    1  ->  his ==> this
+  10:    1  ->  interest ==> interesting
+  11:    1  ->  it ==> this
+  12:    1  ->  look ==> looks
+  13:    1  ->  once ==> list
+  14:    1  ->  or ==> where
+  15:    1  ->  phenomena ==> phenomenon
+  16:    1  ->  quite ==> it's
+  17:    1  ->  sped ==> spit
+  18:    1  ->  that ==> of
+  19:    1  ->  the ==> that
+  20:    1  ->  there's ==> it's
+  21:    1  ->  toe ==> arto
+  22:    1  ->  while ==> well
+  23:    1  ->  x ==> a
+  24:    1  ->  x ==> actually
+  25:    1  ->  x ==> cpers
+  26:    1  ->  x ==> of
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  at
+   2:    1  ->  brecht
+   3:    1  ->  i
+   4:    1  ->  is
+   5:    1  ->  mean
+   6:    1  ->  oh
+   7:    1  ->  so
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    7  ->  x
+   2:    6  ->  and
+   3:    6  ->  it
+   4:    4  ->  the
+   5:    3  ->  a
+   6:    3  ->  i
+   7:    2  ->  %bcack
+   8:    2  ->  know
+   9:    2  ->  of
+  10:    2  ->  that
+  11:    2  ->  you
+  12:    1  ->  about
+  13:    1  ->  but
+  14:    1  ->  de
+  15:    1  ->  feels
+  16:    1  ->  is
+  17:    1  ->  l
+  18:    1  ->  me
+  19:    1  ->  our
+  20:    1  ->  p
+  21:    1  ->  so
+  22:    1  ->  there's
+  23:    1  ->  this
+  24:    1  ->  to
+  25:    1  ->  will
+  26:    1  ->  within
+     -------
+        54
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    4  ->  x
+   2:    1  ->  an
+   3:    1  ->  and
+   4:    1  ->  answers
+   5:    1  ->  artaud
+   6:    1  ->  certeau
+   7:    1  ->  cross
+   8:    1  ->  disgust
+   9:    1  ->  five
+  10:    1  ->  his
+  11:    1  ->  interest
+  12:    1  ->  it
+  13:    1  ->  look
+  14:    1  ->  once
+  15:    1  ->  or
+  16:    1  ->  phenomena
+  17:    1  ->  quite
+  18:    1  ->  sped
+  19:    1  ->  that
+  20:    1  ->  the
+  21:    1  ->  there's
+  22:    1  ->  toe
+  23:    1  ->  while
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  a
+   2:    2  ->  arto
+   3:    2  ->  it's
+   4:    2  ->  of
+   5:    2  ->  this
+   6:    1  ->  across
+   7:    1  ->  actually
+   8:    1  ->  an
+   9:    1  ->  as
+  10:    1  ->  cpers
+  11:    1  ->  deserteaux
+  12:    1  ->  discuss
+  13:    1  ->  interesting
+  14:    1  ->  is
+  15:    1  ->  list
+  16:    1  ->  looks
+  17:    1  ->  phenomenon
+  18:    1  ->  spit
+  19:    1  ->  that
+  20:    1  ->  well
+  21:    1  ->  where
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

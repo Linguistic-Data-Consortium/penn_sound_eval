@@ -1,0 +1,152 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.6%   (  37)
+
+Percent Correct           =   97.1%   (1007)
+
+Percent Substitution      =    2.1%   (  22)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    0.7%   (   7)
+Percent Word Accuracy     =   96.4%
+
+
+Ref. words                =           (1037)
+Hyp. words                =           (1036)
+Aligned words             =           (1044)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  down ==> on
+   3:    1  ->  dunne ==> dunn
+   4:    1  ->  frieze ==> threes
+   5:    1  ->  has ==> as
+   6:    1  ->  heavyset ==> set
+   7:    1  ->  it ==> you
+   8:    1  ->  kalevala ==> kavala
+   9:    1  ->  looming ==> gloomy
+  10:    1  ->  of ==> in
+  11:    1  ->  piled ==> pile
+  12:    1  ->  placed ==> place
+  13:    1  ->  poem ==> film
+  14:    1  ->  poem ==> one
+  15:    1  ->  pohjola ==> poola
+  16:    1  ->  scapegrace ==> grace
+  17:    1  ->  son ==> so
+  18:    1  ->  succumbed ==> succumb
+  19:    1  ->  sun ==> so
+  20:    1  ->  tania ==> tanya
+  21:    1  ->  thought ==> though
+  22:    1  ->  wha ==> what
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  heavy
+   3:    1  ->  i
+   4:    1  ->  is
+   5:    1  ->  scape
+   6:    1  ->  them
+   7:    1  ->  was
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  b
+   3:    1  ->  hear
+   4:    1  ->  how
+   5:    1  ->  just
+   6:    1  ->  s
+   7:    1  ->  then
+   8:    1  ->  you
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  poem
+   2:    1  ->  a
+   3:    1  ->  down
+   4:    1  ->  dunne
+   5:    1  ->  frieze
+   6:    1  ->  has
+   7:    1  ->  heavyset
+   8:    1  ->  it
+   9:    1  ->  kalevala
+  10:    1  ->  looming
+  11:    1  ->  of
+  12:    1  ->  piled
+  13:    1  ->  placed
+  14:    1  ->  pohjola
+  15:    1  ->  scapegrace
+  16:    1  ->  son
+  17:    1  ->  succumbed
+  18:    1  ->  sun
+  19:    1  ->  tania
+  20:    1  ->  thought
+  21:    1  ->  wha
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  so
+   2:    1  ->  as
+   3:    1  ->  dunn
+   4:    1  ->  film
+   5:    1  ->  gloomy
+   6:    1  ->  grace
+   7:    1  ->  in
+   8:    1  ->  kavala
+   9:    1  ->  on
+  10:    1  ->  one
+  11:    1  ->  pile
+  12:    1  ->  place
+  13:    1  ->  poola
+  14:    1  ->  set
+  15:    1  ->  succumb
+  16:    1  ->  tanya
+  17:    1  ->  the
+  18:    1  ->  though
+  19:    1  ->  threes
+  20:    1  ->  what
+  21:    1  ->  you
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

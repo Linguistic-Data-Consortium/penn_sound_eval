@@ -1,0 +1,153 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.6%   (  45)
+
+Percent Correct           =   96.5%   ( 937)
+
+Percent Substitution      =    2.7%   (  26)
+Percent Deletions         =    0.8%   (   8)
+Percent Insertions        =    1.1%   (  11)
+Percent Word Accuracy     =   95.4%
+
+
+Ref. words                =           ( 971)
+Hyp. words                =           ( 974)
+Aligned words             =           ( 982)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    3  ->  shirley ==> surely
+   2:    2  ->  is ==> 's
+   3:    2  ->  janice's ==> 's
+   4:    1  ->  catchphrase ==> phrase
+   5:    1  ->  deckered ==> deckard
+   6:    1  ->  elka's ==> is
+   7:    1  ->  gnawed ==> not
+   8:    1  ->  got ==> scott
+   9:    1  ->  hothead ==> head
+  10:    1  ->  is ==> as
+  11:    1  ->  j ==> jumpscoping
+  12:    1  ->  janice's ==> genesis
+  13:    1  ->  jutting ==> jetting
+  14:    1  ->  long ==> longed
+  15:    1  ->  loudmouth ==> mouth
+  16:    1  ->  no ==> know
+  17:    1  ->  rode ==> wrote
+  18:    1  ->  smoker's ==> chainsmokers
+  19:    1  ->  snot ==> not
+  20:    1  ->  stoned ==> stone
+  21:    1  ->  the ==> it's
+  22:    1  ->  turn ==> turned
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  catch
+   2:    1  ->  dashika
+   3:    1  ->  dashiko
+   4:    1  ->  dashikush
+   5:    1  ->  elk
+   6:    1  ->  hot
+   7:    1  ->  i
+   8:    1  ->  janice
+   9:    1  ->  loud
+  10:    1  ->  sazutsa
+  11:    1  ->  suza
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  had
+   2:    1  ->  and
+   3:    1  ->  chain
+   4:    1  ->  elka
+   5:    1  ->  jump
+   6:    1  ->  scoping
+   7:    1  ->  yeah
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    3  ->  is
+   2:    3  ->  janice's
+   3:    3  ->  shirley
+   4:    1  ->  catchphrase
+   5:    1  ->  deckered
+   6:    1  ->  elka's
+   7:    1  ->  gnawed
+   8:    1  ->  got
+   9:    1  ->  hothead
+  10:    1  ->  j
+  11:    1  ->  jutting
+  12:    1  ->  long
+  13:    1  ->  loudmouth
+  14:    1  ->  no
+  15:    1  ->  rode
+  16:    1  ->  smoker's
+  17:    1  ->  snot
+  18:    1  ->  stoned
+  19:    1  ->  the
+  20:    1  ->  turn
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    4  ->  's
+   2:    3  ->  surely
+   3:    2  ->  not
+   4:    1  ->  as
+   5:    1  ->  chainsmokers
+   6:    1  ->  deckard
+   7:    1  ->  genesis
+   8:    1  ->  head
+   9:    1  ->  is
+  10:    1  ->  it's
+  11:    1  ->  jetting
+  12:    1  ->  jumpscoping
+  13:    1  ->  know
+  14:    1  ->  longed
+  15:    1  ->  mouth
+  16:    1  ->  phrase
+  17:    1  ->  scott
+  18:    1  ->  stone
+  19:    1  ->  turned
+  20:    1  ->  wrote
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

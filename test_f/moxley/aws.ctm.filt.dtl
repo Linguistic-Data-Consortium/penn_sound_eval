@@ -1,0 +1,385 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   15.0%   ( 166)
+
+Percent Correct           =   85.9%   ( 948)
+
+Percent Substitution      =    9.1%   ( 101)
+Percent Deletions         =    5.0%   (  55)
+Percent Insertions        =    0.9%   (  10)
+Percent Word Accuracy     =   85.0%
+
+
+Ref. words                =           (1104)
+Hyp. words                =           (1059)
+Aligned words             =           (1114)
+
+CONFUSION PAIRS                  Total                 (97)
+                                 With >=  1 occurrences (97)
+
+   1:    3  ->  the ==> a
+   2:    2  ->  in ==> and
+   3:    2  ->  of ==> is
+   4:    1  ->  a ==> and
+   5:    1  ->  a ==> could
+   6:    1  ->  a ==> of
+   7:    1  ->  a ==> this
+   8:    1  ->  accepted ==> acceptance
+   9:    1  ->  an ==> of
+  10:    1  ->  and ==> in
+  11:    1  ->  and ==> volume
+  12:    1  ->  believe ==> beliefs
+  13:    1  ->  blind ==> belong
+  14:    1  ->  bling ==> poems
+  15:    1  ->  brutal ==> brittle
+  16:    1  ->  but ==> it
+  17:    1  ->  comma ==> ka
+  18:    1  ->  condensed ==> coned
+  19:    1  ->  contests ==> contest
+  20:    1  ->  ever ==> other
+  21:    1  ->  faraway ==> away
+  22:    1  ->  fifteen ==> five
+  23:    1  ->  filled ==> of
+  24:    1  ->  fits ==> first
+  25:    1  ->  good ==> did
+  26:    1  ->  gubernatorally ==> giton
+  27:    1  ->  had ==> not
+  28:    1  ->  have ==> age
+  29:    1  ->  he ==> did
+  30:    1  ->  he ==> me
+  31:    1  ->  he ==> we
+  32:    1  ->  helena's ==> far
+  33:    1  ->  helena's ==> his
+  34:    1  ->  honed ==> ruined
+  35:    1  ->  if ==> to
+  36:    1  ->  inanimate ==> animate
+  37:    1  ->  is ==> always
+  38:    1  ->  jenn ==> again
+  39:    1  ->  just ==> it
+  40:    1  ->  k. ==> and
+  41:    1  ->  law ==> and
+  42:    1  ->  like ==> i
+  43:    1  ->  made ==> ma
+  44:    1  ->  made ==> the
+  45:    1  ->  meek ==> beaks
+  46:    1  ->  merely ==> nearly
+  47:    1  ->  mouths ==> mass
+  48:    1  ->  mpn ==> opinion
+  49:    1  ->  norse ==> most
+  50:    1  ->  ooh ==> o
+  51:    1  ->  out ==> was
+  52:    1  ->  pass ==> passed
+  53:    1  ->  perched ==> perch
+  54:    1  ->  plums ==> poems
+  55:    1  ->  poem ==> whom
+  56:    1  ->  poems ==> he
+  57:    1  ->  raven ==> roven
+  58:    1  ->  robert ==> robin
+  59:    1  ->  s ==> edith
+  60:    1  ->  said ==> here
+  61:    1  ->  sat ==> thought
+  62:    1  ->  saw ==> thought
+  63:    1  ->  scratched ==> scotched
+  64:    1  ->  set ==> except
+  65:    1  ->  skip ==> skipped
+  66:    1  ->  snowflake ==> flake
+  67:    1  ->  snowflake ==> like
+  68:    1  ->  so ==> for
+  69:    1  ->  soon ==> see
+  70:    1  ->  spout ==> sought
+  71:    1  ->  sullen ==> solemn
+  72:    1  ->  ten ==> the
+  73:    1  ->  that ==> but
+  74:    1  ->  that ==> out
+  75:    1  ->  the ==> had
+  76:    1  ->  the ==> her
+  77:    1  ->  the ==> to
+  78:    1  ->  then ==> i
+  79:    1  ->  there ==> for
+  80:    1  ->  thing ==> ma
+  81:    1  ->  think ==> see
+  82:    1  ->  this ==> smell
+  83:    1  ->  thy ==> their
+  84:    1  ->  to ==> older
+  85:    1  ->  to ==> one
+  86:    1  ->  unimportant ==> with
+  87:    1  ->  usually ==> found
+  88:    1  ->  vase ==> that
+  89:    1  ->  was ==> for
+  90:    1  ->  were ==> was
+  91:    1  ->  whir ==> wh
+  92:    1  ->  windowed ==> seven
+  93:    1  ->  with ==> would
+  94:    1  ->  word ==> words
+  95:    1  ->  wovens ==> rovens
+  96:    1  ->  you ==> the
+  97:    1  ->  you ==> your
+     -------
+       101
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  an
+   2:    1  ->  full
+   3:    1  ->  h
+   4:    1  ->  in
+   5:    1  ->  note
+   6:    1  ->  of
+   7:    1  ->  she
+   8:    1  ->  that
+   9:    1  ->  the
+  10:    1  ->  voice
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    4  ->  and
+   2:    3  ->  in
+   3:    3  ->  the
+   4:    2  ->  a
+   5:    2  ->  of
+   6:    2  ->  was
+   7:    2  ->  we
+   8:    1  ->  aft
+   9:    1  ->  all
+  10:    1  ->  as
+  11:    1  ->  back
+  12:    1  ->  bones
+  13:    1  ->  bringing
+  14:    1  ->  clear
+  15:    1  ->  e
+  16:    1  ->  ears
+  17:    1  ->  ensuing
+  18:    1  ->  face
+  19:    1  ->  finds
+  20:    1  ->  form
+  21:    1  ->  from
+  22:    1  ->  glance
+  23:    1  ->  h
+  24:    1  ->  hey
+  25:    1  ->  hold
+  26:    1  ->  if
+  27:    1  ->  it
+  28:    1  ->  m
+  29:    1  ->  means
+  30:    1  ->  men
+  31:    1  ->  news
+  32:    1  ->  no
+  33:    1  ->  o.
+  34:    1  ->  permanent
+  35:    1  ->  she
+  36:    1  ->  should
+  37:    1  ->  stunned
+  38:    1  ->  sullen
+  39:    1  ->  that
+  40:    1  ->  these
+  41:    1  ->  with
+  42:    1  ->  written
+  43:    1  ->  wrong
+  44:    1  ->  you
+     -------
+        55
+
+
+
+SUBSTITUTIONS                    Total                 (82)
+                                 With >=  1 occurrences (82)
+
+   1:    6  ->  the
+   2:    4  ->  a
+   3:    3  ->  he
+   4:    2  ->  and
+   5:    2  ->  helena's
+   6:    2  ->  in
+   7:    2  ->  made
+   8:    2  ->  of
+   9:    2  ->  snowflake
+  10:    2  ->  that
+  11:    2  ->  to
+  12:    2  ->  you
+  13:    1  ->  accepted
+  14:    1  ->  an
+  15:    1  ->  believe
+  16:    1  ->  blind
+  17:    1  ->  bling
+  18:    1  ->  brutal
+  19:    1  ->  but
+  20:    1  ->  comma
+  21:    1  ->  condensed
+  22:    1  ->  contests
+  23:    1  ->  ever
+  24:    1  ->  faraway
+  25:    1  ->  fifteen
+  26:    1  ->  filled
+  27:    1  ->  fits
+  28:    1  ->  good
+  29:    1  ->  gubernatorally
+  30:    1  ->  had
+  31:    1  ->  have
+  32:    1  ->  honed
+  33:    1  ->  if
+  34:    1  ->  inanimate
+  35:    1  ->  is
+  36:    1  ->  jenn
+  37:    1  ->  just
+  38:    1  ->  k.
+  39:    1  ->  law
+  40:    1  ->  like
+  41:    1  ->  meek
+  42:    1  ->  merely
+  43:    1  ->  mouths
+  44:    1  ->  mpn
+  45:    1  ->  norse
+  46:    1  ->  ooh
+  47:    1  ->  out
+  48:    1  ->  pass
+  49:    1  ->  perched
+  50:    1  ->  plums
+  51:    1  ->  poem
+  52:    1  ->  poems
+  53:    1  ->  raven
+  54:    1  ->  robert
+  55:    1  ->  s
+  56:    1  ->  said
+  57:    1  ->  sat
+  58:    1  ->  saw
+  59:    1  ->  scratched
+  60:    1  ->  set
+  61:    1  ->  skip
+  62:    1  ->  so
+  63:    1  ->  soon
+  64:    1  ->  spout
+  65:    1  ->  sullen
+  66:    1  ->  ten
+  67:    1  ->  then
+  68:    1  ->  there
+  69:    1  ->  thing
+  70:    1  ->  think
+  71:    1  ->  this
+  72:    1  ->  thy
+  73:    1  ->  unimportant
+  74:    1  ->  usually
+  75:    1  ->  vase
+  76:    1  ->  was
+  77:    1  ->  were
+  78:    1  ->  whir
+  79:    1  ->  windowed
+  80:    1  ->  with
+  81:    1  ->  word
+  82:    1  ->  wovens
+     -------
+       101
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (79)
+                                 With >=  1 occurrences (79)
+
+   1:    5  ->  and
+   2:    3  ->  a
+   3:    3  ->  for
+   4:    3  ->  of
+   5:    3  ->  the
+   6:    2  ->  did
+   7:    2  ->  i
+   8:    2  ->  is
+   9:    2  ->  it
+  10:    2  ->  ma
+  11:    2  ->  poems
+  12:    2  ->  see
+  13:    2  ->  thought
+  14:    2  ->  to
+  15:    2  ->  was
+  16:    1  ->  acceptance
+  17:    1  ->  again
+  18:    1  ->  age
+  19:    1  ->  always
+  20:    1  ->  animate
+  21:    1  ->  away
+  22:    1  ->  beaks
+  23:    1  ->  beliefs
+  24:    1  ->  belong
+  25:    1  ->  brittle
+  26:    1  ->  but
+  27:    1  ->  coned
+  28:    1  ->  contest
+  29:    1  ->  could
+  30:    1  ->  edith
+  31:    1  ->  except
+  32:    1  ->  far
+  33:    1  ->  first
+  34:    1  ->  five
+  35:    1  ->  flake
+  36:    1  ->  found
+  37:    1  ->  giton
+  38:    1  ->  had
+  39:    1  ->  he
+  40:    1  ->  her
+  41:    1  ->  here
+  42:    1  ->  his
+  43:    1  ->  in
+  44:    1  ->  ka
+  45:    1  ->  like
+  46:    1  ->  mass
+  47:    1  ->  me
+  48:    1  ->  most
+  49:    1  ->  nearly
+  50:    1  ->  not
+  51:    1  ->  o
+  52:    1  ->  older
+  53:    1  ->  one
+  54:    1  ->  opinion
+  55:    1  ->  other
+  56:    1  ->  out
+  57:    1  ->  passed
+  58:    1  ->  perch
+  59:    1  ->  robin
+  60:    1  ->  roven
+  61:    1  ->  rovens
+  62:    1  ->  ruined
+  63:    1  ->  scotched
+  64:    1  ->  seven
+  65:    1  ->  skipped
+  66:    1  ->  smell
+  67:    1  ->  solemn
+  68:    1  ->  sought
+  69:    1  ->  that
+  70:    1  ->  their
+  71:    1  ->  this
+  72:    1  ->  volume
+  73:    1  ->  we
+  74:    1  ->  wh
+  75:    1  ->  whom
+  76:    1  ->  with
+  77:    1  ->  words
+  78:    1  ->  would
+  79:    1  ->  your
+     -------
+       101
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,142 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.3%   (  59)
+
+Percent Correct           =   93.1%   ( 753)
+
+Percent Substitution      =    1.9%   (  15)
+Percent Deletions         =    5.1%   (  41)
+Percent Insertions        =    0.4%   (   3)
+Percent Word Accuracy     =   92.7%
+
+
+Ref. words                =           ( 809)
+Hyp. words                =           ( 771)
+Aligned words             =           ( 812)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  gianlorenzo ==> lorenzo
+   2:    1  ->  aire ==> ayre
+   3:    1  ->  busto ==> unpocobusto
+   4:    1  ->  completely ==> reason
+   5:    1  ->  constanza ==> costanza
+   6:    1  ->  et ==> a
+   7:    1  ->  flavor ==> flavour
+   8:    1  ->  gtmo ==> gitmo
+   9:    1  ->  he ==> you
+  10:    1  ->  mathilda's ==> matilda's
+  11:    1  ->  rothko ==> rothgow
+  12:    1  ->  the ==> a
+  13:    1  ->  wittkower’s ==> wittkauer's
+  14:    1  ->  zookeepers' ==> zookeepers
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  complete
+   2:    1  ->  gian
+   3:    1  ->  john
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    4  ->  in
+   2:    3  ->  a
+   3:    3  ->  and
+   4:    3  ->  is
+   5:    3  ->  the
+   6:    2  ->  it's
+   7:    2  ->  know
+   8:    2  ->  or
+   9:    2  ->  this
+  10:    2  ->  you
+  11:    1  ->  as
+  12:    1  ->  called
+  13:    1  ->  oh
+  14:    1  ->  on
+  15:    1  ->  p
+  16:    1  ->  poco
+  17:    1  ->  poem
+  18:    1  ->  poetry
+  19:    1  ->  rea
+  20:    1  ->  s
+  21:    1  ->  sleep
+  22:    1  ->  t
+  23:    1  ->  u
+  24:    1  ->  un
+  25:    1  ->  what
+     -------
+        41
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  gianlorenzo
+   2:    1  ->  aire
+   3:    1  ->  busto
+   4:    1  ->  completely
+   5:    1  ->  constanza
+   6:    1  ->  et
+   7:    1  ->  flavor
+   8:    1  ->  gtmo
+   9:    1  ->  he
+  10:    1  ->  mathilda's
+  11:    1  ->  rothko
+  12:    1  ->  the
+  13:    1  ->  wittkower’s
+  14:    1  ->  zookeepers'
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  a
+   2:    2  ->  lorenzo
+   3:    1  ->  ayre
+   4:    1  ->  costanza
+   5:    1  ->  flavour
+   6:    1  ->  gitmo
+   7:    1  ->  matilda's
+   8:    1  ->  reason
+   9:    1  ->  rothgow
+  10:    1  ->  unpocobusto
+  11:    1  ->  wittkauer's
+  12:    1  ->  you
+  13:    1  ->  zookeepers
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

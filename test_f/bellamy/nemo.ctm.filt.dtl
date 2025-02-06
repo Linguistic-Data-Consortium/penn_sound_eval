@@ -1,0 +1,144 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.4%   (  43)
+
+Percent Correct           =   96.5%   ( 935)
+
+Percent Substitution      =    1.8%   (  17)
+Percent Deletions         =    1.8%   (  17)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   95.6%
+
+
+Ref. words                =           ( 969)
+Hyp. words                =           ( 961)
+Aligned words             =           ( 978)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  bloody ==> dilated
+   2:    1  ->  deckered ==> decored
+   3:    1  ->  from ==> for
+   4:    1  ->  in ==> and
+   5:    1  ->  in ==> on
+   6:    1  ->  j ==> jumpscoping
+   7:    1  ->  jutting ==> jetting
+   8:    1  ->  long ==> longed
+   9:    1  ->  loudmouth ==> mouth
+  10:    1  ->  men ==> deliveryman
+  11:    1  ->  sit ==> there
+  12:    1  ->  snot ==> knot
+  13:    1  ->  stoned ==> stone
+  14:    1  ->  the ==> a
+  15:    1  ->  the ==> this
+  16:    1  ->  turn ==> turned
+  17:    1  ->  us ==> dashikas
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  azutsa
+   2:    2  ->  dashikas
+   3:    1  ->  dollars
+   4:    1  ->  had
+   5:    1  ->  loud
+   6:    1  ->  of
+   7:    1  ->  sitting
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  and
+   2:    2  ->  had
+   3:    1  ->  about
+   4:    1  ->  but
+   5:    1  ->  delivery
+   6:    1  ->  four
+   7:    1  ->  gnawed
+   8:    1  ->  his
+   9:    1  ->  it
+  10:    1  ->  janice
+  11:    1  ->  jump
+  12:    1  ->  of
+  13:    1  ->  scoping
+  14:    1  ->  the
+  15:    1  ->  yeah
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  in
+   2:    2  ->  the
+   3:    1  ->  bloody
+   4:    1  ->  deckered
+   5:    1  ->  from
+   6:    1  ->  j
+   7:    1  ->  jutting
+   8:    1  ->  long
+   9:    1  ->  loudmouth
+  10:    1  ->  men
+  11:    1  ->  sit
+  12:    1  ->  snot
+  13:    1  ->  stoned
+  14:    1  ->  turn
+  15:    1  ->  us
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  dashikas
+   4:    1  ->  decored
+   5:    1  ->  deliveryman
+   6:    1  ->  dilated
+   7:    1  ->  for
+   8:    1  ->  jetting
+   9:    1  ->  jumpscoping
+  10:    1  ->  knot
+  11:    1  ->  longed
+  12:    1  ->  mouth
+  13:    1  ->  on
+  14:    1  ->  stone
+  15:    1  ->  there
+  16:    1  ->  this
+  17:    1  ->  turned
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

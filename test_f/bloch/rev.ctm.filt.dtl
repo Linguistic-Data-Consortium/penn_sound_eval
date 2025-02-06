@@ -1,0 +1,164 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.6%   (  50)
+
+Percent Correct           =   96.5%   (1039)
+
+Percent Substitution      =    2.8%   (  30)
+Percent Deletions         =    0.7%   (   8)
+Percent Insertions        =    1.1%   (  12)
+Percent Word Accuracy     =   95.4%
+
+
+Ref. words                =           (1077)
+Hyp. words                =           (1081)
+Aligned words             =           (1089)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    2  ->  a ==> <laugh>
+   2:    2  ->  a ==> la
+   3:    2  ->  l ==> la
+   4:    1  ->  grey ==> gray
+   5:    1  ->  into ==> to
+   6:    1  ->  many ==> mini
+   7:    1  ->  myles ==> miles
+   8:    1  ->  needs ==> need
+   9:    1  ->  oh ==> 0
+  10:    1  ->  one ==> when
+  11:    1  ->  pass ==> past
+  12:    1  ->  sacroiliac ==> iliac
+  13:    1  ->  schuylkill ==> kill
+  14:    1  ->  she ==> you
+  15:    1  ->  should ==> can
+  16:    1  ->  sighted ==> cited
+  17:    1  ->  son ==> sa
+  18:    1  ->  t ==> pst
+  19:    1  ->  th ==> that
+  20:    1  ->  there ==> sacro
+  21:    1  ->  there ==> their
+  22:    1  ->  thirty ==> three
+  23:    1  ->  to ==> two
+  24:    1  ->  twenty ==> oh
+  25:    1  ->  x ==> <inaudible>
+  26:    1  ->  x ==> proman
+  27:    1  ->  x ==> xx
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    4  ->  <laugh>
+   2:    1  ->  <inaudible>
+   3:    1  ->  is
+   4:    1  ->  ooh
+   5:    1  ->  or
+   6:    1  ->  school
+   7:    1  ->  the
+   8:    1  ->  their
+   9:    1  ->  then
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  l
+   2:    2  ->  s
+   3:    1  ->  devo
+   4:    1  ->  p
+   5:    1  ->  sh
+   6:    1  ->  x
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    4  ->  a
+   2:    3  ->  x
+   3:    2  ->  l
+   4:    2  ->  there
+   5:    1  ->  grey
+   6:    1  ->  into
+   7:    1  ->  many
+   8:    1  ->  myles
+   9:    1  ->  needs
+  10:    1  ->  oh
+  11:    1  ->  one
+  12:    1  ->  pass
+  13:    1  ->  sacroiliac
+  14:    1  ->  schuylkill
+  15:    1  ->  she
+  16:    1  ->  should
+  17:    1  ->  sighted
+  18:    1  ->  son
+  19:    1  ->  t
+  20:    1  ->  th
+  21:    1  ->  thirty
+  22:    1  ->  to
+  23:    1  ->  twenty
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    4  ->  la
+   2:    2  ->  <laugh>
+   3:    1  ->  0
+   4:    1  ->  <inaudible>
+   5:    1  ->  can
+   6:    1  ->  cited
+   7:    1  ->  gray
+   8:    1  ->  iliac
+   9:    1  ->  kill
+  10:    1  ->  miles
+  11:    1  ->  mini
+  12:    1  ->  need
+  13:    1  ->  oh
+  14:    1  ->  past
+  15:    1  ->  proman
+  16:    1  ->  pst
+  17:    1  ->  sa
+  18:    1  ->  sacro
+  19:    1  ->  that
+  20:    1  ->  their
+  21:    1  ->  three
+  22:    1  ->  to
+  23:    1  ->  two
+  24:    1  ->  when
+  25:    1  ->  xx
+  26:    1  ->  you
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

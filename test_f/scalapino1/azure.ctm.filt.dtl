@@ -1,0 +1,178 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.2%   (  58)
+
+Percent Correct           =   95.5%   (1057)
+
+Percent Substitution      =    3.3%   (  37)
+Percent Deletions         =    1.2%   (  13)
+Percent Insertions        =    0.7%   (   8)
+Percent Word Accuracy     =   94.8%
+
+
+Ref. words                =           (1107)
+Hyp. words                =           (1102)
+Aligned words             =           (1115)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    3  ->  or ==> are
+   2:    2  ->  hennaed ==> and
+   3:    2  ->  hennaed ==> henned
+   4:    2  ->  me ==> maine
+   5:    2  ->  ribcage ==> cage
+   6:    1  ->  amid ==> in
+   7:    1  ->  and ==> in
+   8:    1  ->  are ==> our
+   9:    1  ->  blow ==> blowing
+  10:    1  ->  boy's ==> boys
+  11:    1  ->  cocooned ==> cocoon
+  12:    1  ->  deserts ==> desert
+  13:    1  ->  eyeholes ==> holes
+  14:    1  ->  flippering ==> flickering
+  15:    1  ->  from ==> that's
+  16:    1  ->  head ==> ahead
+  17:    1  ->  hennaed ==> handed
+  18:    1  ->  hennaed ==> hennet
+  19:    1  ->  is ==> 's
+  20:    1  ->  is ==> as
+  21:    1  ->  its ==> it
+  22:    1  ->  jeering ==> disappearing
+  23:    1  ->  me ==> be
+  24:    1  ->  plain ==> plane
+  25:    1  ->  sack ==> sac
+  26:    1  ->  sheath ==> sheaf
+  27:    1  ->  street ==> straight
+  28:    1  ->  v ==> av
+  29:    1  ->  were ==> are
+  30:    1  ->  who's ==> whose
+  31:    1  ->  with ==> which
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  hen
+   2:    2  ->  rib
+   3:    1  ->  and
+   4:    1  ->  are
+   5:    1  ->  eye
+   6:    1  ->  have
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  am
+   3:    1  ->  hooping
+   4:    1  ->  is
+   5:    1  ->  not
+   6:    1  ->  or
+   7:    1  ->  so
+   8:    1  ->  thin
+   9:    1  ->  though
+  10:    1  ->  to
+  11:    1  ->  w
+  12:    1  ->  who
+  13:    1  ->  whose
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    6  ->  hennaed
+   2:    3  ->  me
+   3:    3  ->  or
+   4:    2  ->  is
+   5:    2  ->  ribcage
+   6:    1  ->  amid
+   7:    1  ->  and
+   8:    1  ->  are
+   9:    1  ->  blow
+  10:    1  ->  boy's
+  11:    1  ->  cocooned
+  12:    1  ->  deserts
+  13:    1  ->  eyeholes
+  14:    1  ->  flippering
+  15:    1  ->  from
+  16:    1  ->  head
+  17:    1  ->  its
+  18:    1  ->  jeering
+  19:    1  ->  plain
+  20:    1  ->  sack
+  21:    1  ->  sheath
+  22:    1  ->  street
+  23:    1  ->  v
+  24:    1  ->  were
+  25:    1  ->  who's
+  26:    1  ->  with
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    4  ->  are
+   2:    2  ->  and
+   3:    2  ->  cage
+   4:    2  ->  henned
+   5:    2  ->  in
+   6:    2  ->  maine
+   7:    1  ->  's
+   8:    1  ->  ahead
+   9:    1  ->  as
+  10:    1  ->  av
+  11:    1  ->  be
+  12:    1  ->  blowing
+  13:    1  ->  boys
+  14:    1  ->  cocoon
+  15:    1  ->  desert
+  16:    1  ->  disappearing
+  17:    1  ->  flickering
+  18:    1  ->  handed
+  19:    1  ->  hennet
+  20:    1  ->  holes
+  21:    1  ->  it
+  22:    1  ->  our
+  23:    1  ->  plane
+  24:    1  ->  sac
+  25:    1  ->  sheaf
+  26:    1  ->  straight
+  27:    1  ->  that's
+  28:    1  ->  which
+  29:    1  ->  whose
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

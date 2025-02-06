@@ -1,0 +1,404 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   28.9%   ( 326)
+
+Percent Correct           =   71.7%   ( 810)
+
+Percent Substitution      =    7.8%   (  88)
+Percent Deletions         =   20.5%   ( 231)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   71.1%
+
+
+Ref. words                =           (1129)
+Hyp. words                =           ( 905)
+Aligned words             =           (1136)
+
+CONFUSION PAIRS                  Total                 (86)
+                                 With >=  1 occurrences (86)
+
+   1:    2  ->  dust ==> just
+   2:    2  ->  no ==> now
+   3:    1  ->  a ==> at
+   4:    1  ->  am ==> rack
+   5:    1  ->  and ==> on
+   6:    1  ->  announcements ==> announcement
+   7:    1  ->  are ==> their
+   8:    1  ->  are ==> there
+   9:    1  ->  as ==> very
+  10:    1  ->  barry's ==> right
+  11:    1  ->  but ==> with
+  12:    1  ->  cabinet ==> you
+  13:    1  ->  can ==> to
+  14:    1  ->  d ==> benefit
+  15:    1  ->  do ==> care
+  16:    1  ->  door ==> story
+  17:    1  ->  ever ==> here
+  18:    1  ->  figured ==> figure
+  19:    1  ->  for ==> that
+  20:    1  ->  guest ==> age
+  21:    1  ->  have ==> there's
+  22:    1  ->  here ==> to
+  23:    1  ->  how ==> now
+  24:    1  ->  idea ==> yeah
+  25:    1  ->  impress ==> address
+  26:    1  ->  it ==> the
+  27:    1  ->  just ==> does
+  28:    1  ->  keep ==> all
+  29:    1  ->  know ==> it
+  30:    1  ->  know ==> k.
+  31:    1  ->  know ==> matter
+  32:    1  ->  long ==> it
+  33:    1  ->  medicine ==> nose
+  34:    1  ->  no ==> happen
+  35:    1  ->  no ==> know
+  36:    1  ->  not ==> o.
+  37:    1  ->  not ==> this
+  38:    1  ->  notice ==> know
+  39:    1  ->  obsolete ==> absolute
+  40:    1  ->  of ==> it
+  41:    1  ->  old ==> are
+  42:    1  ->  on ==> from
+  43:    1  ->  out ==> i
+  44:    1  ->  people ==> able
+  45:    1  ->  sam's ==> sounds
+  46:    1  ->  scent ==> cent
+  47:    1  ->  scent ==> does
+  48:    1  ->  scents ==> sense
+  49:    1  ->  seeing ==> saying
+  50:    1  ->  seemed ==> team
+  51:    1  ->  shawn ==> disaster
+  52:    1  ->  sweated ==> flooded
+  53:    1  ->  tacks ==> tax
+  54:    1  ->  that's ==> adder
+  55:    1  ->  that's ==> just
+  56:    1  ->  the ==> see
+  57:    1  ->  them ==> him
+  58:    1  ->  them ==> system
+  59:    1  ->  they ==> have
+  60:    1  ->  they ==> zero
+  61:    1  ->  this ==> the
+  62:    1  ->  those ==> that
+  63:    1  ->  to ==> i
+  64:    1  ->  to ==> of
+  65:    1  ->  try ==> tried
+  66:    1  ->  vacuum ==> back
+  67:    1  ->  vote ==> boat
+  68:    1  ->  walls ==> wall
+  69:    1  ->  want ==> what
+  70:    1  ->  what ==> an
+  71:    1  ->  x ==> desk
+  72:    1  ->  x ==> m
+  73:    1  ->  x ==> married
+  74:    1  ->  x ==> oil
+  75:    1  ->  x ==> papers
+  76:    1  ->  x ==> paste
+  77:    1  ->  x ==> things
+  78:    1  ->  x ==> up
+  79:    1  ->  x ==> yeah
+  80:    1  ->  yeah ==> minutes
+  81:    1  ->  yeah ==> then
+  82:    1  ->  yeah ==> yep
+  83:    1  ->  you ==> and
+  84:    1  ->  you ==> mean
+  85:    1  ->  you ==> not
+  86:    1  ->  yours ==> here
+     -------
+        88
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  is
+   2:    1  ->  a
+   3:    1  ->  just
+   4:    1  ->  not
+   5:    1  ->  per
+   6:    1  ->  to
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (102)
+                                 With >=  1 occurrences (102)
+
+   1:   16  ->  you
+   2:   12  ->  i
+   3:   12  ->  it
+   4:   11  ->  x
+   5:    9  ->  do
+   6:    8  ->  not
+   7:    8  ->  the
+   8:    7  ->  and
+   9:    6  ->  dust
+  10:    5  ->  everything
+  11:    5  ->  is
+  12:    5  ->  oh
+  13:    5  ->  when
+  14:    4  ->  oil
+  15:    4  ->  peanut
+  16:    4  ->  that
+  17:    4  ->  then
+  18:    3  ->  know
+  19:    3  ->  like
+  20:    3  ->  or
+  21:    3  ->  right
+  22:    3  ->  smell
+  23:    3  ->  yeah
+  24:    2  ->  a
+  25:    2  ->  an
+  26:    2  ->  back
+  27:    2  ->  does
+  28:    2  ->  have
+  29:    2  ->  here
+  30:    2  ->  take
+  31:    2  ->  them
+  32:    2  ->  your
+  33:    1  ->  adult
+  34:    1  ->  all
+  35:    1  ->  always
+  36:    1  ->  am
+  37:    1  ->  anything
+  38:    1  ->  are
+  39:    1  ->  at
+  40:    1  ->  be
+  41:    1  ->  better
+  42:    1  ->  bringing
+  43:    1  ->  can
+  44:    1  ->  careful
+  45:    1  ->  did
+  46:    1  ->  ev
+  47:    1  ->  ever
+  48:    1  ->  every
+  49:    1  ->  found
+  50:    1  ->  gee
+  51:    1  ->  get
+  52:    1  ->  glass
+  53:    1  ->  got
+  54:    1  ->  guess
+  55:    1  ->  happen
+  56:    1  ->  holidays
+  57:    1  ->  house
+  58:    1  ->  in
+  59:    1  ->  invalid
+  60:    1  ->  likes
+  61:    1  ->  look
+  62:    1  ->  lot
+  63:    1  ->  make
+  64:    1  ->  me
+  65:    1  ->  months
+  66:    1  ->  my
+  67:    1  ->  o
+  68:    1  ->  of
+  69:    1  ->  off
+  70:    1  ->  oily
+  71:    1  ->  on
+  72:    1  ->  once
+  73:    1  ->  over
+  74:    1  ->  paper
+  75:    1  ->  peanuts
+  76:    1  ->  pink
+  77:    1  ->  put
+  78:    1  ->  rearrange
+  79:    1  ->  save
+  80:    1  ->  scen
+  81:    1  ->  scent
+  82:    1  ->  see
+  83:    1  ->  shelves
+  84:    1  ->  something
+  85:    1  ->  spend
+  86:    1  ->  steve
+  87:    1  ->  that's
+  88:    1  ->  there's
+  89:    1  ->  they
+  90:    1  ->  think
+  91:    1  ->  this
+  92:    1  ->  those
+  93:    1  ->  times
+  94:    1  ->  to
+  95:    1  ->  together
+  96:    1  ->  told
+  97:    1  ->  try
+  98:    1  ->  vacuum
+  99:    1  ->  which
+ 100:    1  ->  whiz
+ 101:    1  ->  who
+ 102:    1  ->  will
+     -------
+       231
+
+
+
+SUBSTITUTIONS                    Total                 (63)
+                                 With >=  1 occurrences (63)
+
+   1:    9  ->  x
+   2:    4  ->  no
+   3:    3  ->  know
+   4:    3  ->  yeah
+   5:    3  ->  you
+   6:    2  ->  are
+   7:    2  ->  dust
+   8:    2  ->  not
+   9:    2  ->  scent
+  10:    2  ->  that's
+  11:    2  ->  them
+  12:    2  ->  they
+  13:    2  ->  to
+  14:    1  ->  a
+  15:    1  ->  am
+  16:    1  ->  and
+  17:    1  ->  announcements
+  18:    1  ->  as
+  19:    1  ->  barry's
+  20:    1  ->  but
+  21:    1  ->  cabinet
+  22:    1  ->  can
+  23:    1  ->  d
+  24:    1  ->  do
+  25:    1  ->  door
+  26:    1  ->  ever
+  27:    1  ->  figured
+  28:    1  ->  for
+  29:    1  ->  guest
+  30:    1  ->  have
+  31:    1  ->  here
+  32:    1  ->  how
+  33:    1  ->  idea
+  34:    1  ->  impress
+  35:    1  ->  it
+  36:    1  ->  just
+  37:    1  ->  keep
+  38:    1  ->  long
+  39:    1  ->  medicine
+  40:    1  ->  notice
+  41:    1  ->  obsolete
+  42:    1  ->  of
+  43:    1  ->  old
+  44:    1  ->  on
+  45:    1  ->  out
+  46:    1  ->  people
+  47:    1  ->  sam's
+  48:    1  ->  scents
+  49:    1  ->  seeing
+  50:    1  ->  seemed
+  51:    1  ->  shawn
+  52:    1  ->  sweated
+  53:    1  ->  tacks
+  54:    1  ->  the
+  55:    1  ->  this
+  56:    1  ->  those
+  57:    1  ->  try
+  58:    1  ->  vacuum
+  59:    1  ->  vote
+  60:    1  ->  walls
+  61:    1  ->  want
+  62:    1  ->  what
+  63:    1  ->  yours
+     -------
+        88
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (74)
+                                 With >=  1 occurrences (74)
+
+   1:    3  ->  it
+   2:    3  ->  just
+   3:    3  ->  now
+   4:    2  ->  does
+   5:    2  ->  here
+   6:    2  ->  i
+   7:    2  ->  know
+   8:    2  ->  that
+   9:    2  ->  the
+  10:    2  ->  to
+  11:    2  ->  yeah
+  12:    1  ->  able
+  13:    1  ->  absolute
+  14:    1  ->  adder
+  15:    1  ->  address
+  16:    1  ->  age
+  17:    1  ->  all
+  18:    1  ->  an
+  19:    1  ->  and
+  20:    1  ->  announcement
+  21:    1  ->  are
+  22:    1  ->  at
+  23:    1  ->  back
+  24:    1  ->  benefit
+  25:    1  ->  boat
+  26:    1  ->  care
+  27:    1  ->  cent
+  28:    1  ->  desk
+  29:    1  ->  disaster
+  30:    1  ->  figure
+  31:    1  ->  flooded
+  32:    1  ->  from
+  33:    1  ->  happen
+  34:    1  ->  have
+  35:    1  ->  him
+  36:    1  ->  k.
+  37:    1  ->  m
+  38:    1  ->  married
+  39:    1  ->  matter
+  40:    1  ->  mean
+  41:    1  ->  minutes
+  42:    1  ->  nose
+  43:    1  ->  not
+  44:    1  ->  o.
+  45:    1  ->  of
+  46:    1  ->  oil
+  47:    1  ->  on
+  48:    1  ->  papers
+  49:    1  ->  paste
+  50:    1  ->  rack
+  51:    1  ->  right
+  52:    1  ->  saying
+  53:    1  ->  see
+  54:    1  ->  sense
+  55:    1  ->  sounds
+  56:    1  ->  story
+  57:    1  ->  system
+  58:    1  ->  tax
+  59:    1  ->  team
+  60:    1  ->  their
+  61:    1  ->  then
+  62:    1  ->  there
+  63:    1  ->  there's
+  64:    1  ->  things
+  65:    1  ->  this
+  66:    1  ->  tried
+  67:    1  ->  up
+  68:    1  ->  very
+  69:    1  ->  wall
+  70:    1  ->  what
+  71:    1  ->  with
+  72:    1  ->  yep
+  73:    1  ->  you
+  74:    1  ->  zero
+     -------
+        88
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

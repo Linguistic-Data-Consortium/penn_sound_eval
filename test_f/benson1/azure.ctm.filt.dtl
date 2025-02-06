@@ -1,0 +1,205 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.5%   (  78)
+
+Percent Correct           =   94.1%   (1123)
+
+Percent Substitution      =    3.1%   (  37)
+Percent Deletions         =    2.8%   (  34)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   93.5%
+
+
+Ref. words                =           (1194)
+Hyp. words                =           (1167)
+Aligned words             =           (1201)
+
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  wh ==> what
+   2:    2  ->  the ==> a
+   3:    1  ->  bee ==> beef
+   4:    1  ->  can ==> not
+   5:    1  ->  causes ==> 's
+   6:    1  ->  cells ==> selves
+   7:    1  ->  code ==> coach
+   8:    1  ->  date ==> dates
+   9:    1  ->  e ==> he
+  10:    1  ->  even ==> eating
+  11:    1  ->  fires ==> buyers
+  12:    1  ->  gone ==> on
+  13:    1  ->  i ==> pulling
+  14:    1  ->  is ==> 's
+  15:    1  ->  it ==> at
+  16:    1  ->  like ==> around
+  17:    1  ->  mess ==> mists
+  18:    1  ->  now ==> moment
+  19:    1  ->  over ==> weeknders
+  20:    1  ->  peering ==> hearing
+  21:    1  ->  pinafores ==> 's
+  22:    1  ->  read ==> rip
+  23:    1  ->  self's ==> selfs
+  24:    1  ->  sense ==> says
+  25:    1  ->  side ==> beside
+  26:    1  ->  sleeks ==> sleeps
+  27:    1  ->  standing ==> notwithstanding
+  28:    1  ->  sweet ==> sweep
+  29:    1  ->  taut ==> top
+  30:    1  ->  them ==> the
+  31:    1  ->  will ==> all
+  32:    1  ->  words ==> word
+  33:    1  ->  wrought ==> brought
+  34:    1  ->  you ==> did
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  cause
+   4:    1  ->  high
+   5:    1  ->  in
+   6:    1  ->  pinafore
+   7:    1  ->  yeah
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    4  ->  yeah
+   2:    3  ->  are
+   3:    3  ->  that
+   4:    2  ->  i
+   5:    2  ->  s
+   6:    1  ->  %bcack
+   7:    1  ->  another
+   8:    1  ->  could
+   9:    1  ->  fairly
+  10:    1  ->  fascinating
+  11:    1  ->  had
+  12:    1  ->  imply
+  13:    1  ->  knocked
+  14:    1  ->  line
+  15:    1  ->  love
+  16:    1  ->  poem
+  17:    1  ->  that's
+  18:    1  ->  the
+  19:    1  ->  think
+  20:    1  ->  to
+  21:    1  ->  type
+  22:    1  ->  weekenders
+  23:    1  ->  well
+  24:    1  ->  with
+  25:    1  ->  you
+     -------
+        34
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    3  ->  wh
+   2:    2  ->  the
+   3:    1  ->  bee
+   4:    1  ->  can
+   5:    1  ->  causes
+   6:    1  ->  cells
+   7:    1  ->  code
+   8:    1  ->  date
+   9:    1  ->  e
+  10:    1  ->  even
+  11:    1  ->  fires
+  12:    1  ->  gone
+  13:    1  ->  i
+  14:    1  ->  is
+  15:    1  ->  it
+  16:    1  ->  like
+  17:    1  ->  mess
+  18:    1  ->  now
+  19:    1  ->  over
+  20:    1  ->  peering
+  21:    1  ->  pinafores
+  22:    1  ->  read
+  23:    1  ->  self's
+  24:    1  ->  sense
+  25:    1  ->  side
+  26:    1  ->  sleeks
+  27:    1  ->  standing
+  28:    1  ->  sweet
+  29:    1  ->  taut
+  30:    1  ->  them
+  31:    1  ->  will
+  32:    1  ->  words
+  33:    1  ->  wrought
+  34:    1  ->  you
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    3  ->  's
+   2:    3  ->  what
+   3:    2  ->  a
+   4:    1  ->  all
+   5:    1  ->  around
+   6:    1  ->  at
+   7:    1  ->  beef
+   8:    1  ->  beside
+   9:    1  ->  brought
+  10:    1  ->  buyers
+  11:    1  ->  coach
+  12:    1  ->  dates
+  13:    1  ->  did
+  14:    1  ->  eating
+  15:    1  ->  he
+  16:    1  ->  hearing
+  17:    1  ->  mists
+  18:    1  ->  moment
+  19:    1  ->  not
+  20:    1  ->  notwithstanding
+  21:    1  ->  on
+  22:    1  ->  pulling
+  23:    1  ->  rip
+  24:    1  ->  says
+  25:    1  ->  selfs
+  26:    1  ->  selves
+  27:    1  ->  sleeps
+  28:    1  ->  sweep
+  29:    1  ->  the
+  30:    1  ->  top
+  31:    1  ->  weeknders
+  32:    1  ->  word
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

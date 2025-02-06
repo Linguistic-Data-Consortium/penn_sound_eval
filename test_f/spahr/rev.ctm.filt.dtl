@@ -1,0 +1,226 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.2%   (  74)
+
+Percent Correct           =   94.6%   ( 967)
+
+Percent Substitution      =    5.0%   (  51)
+Percent Deletions         =    0.4%   (   4)
+Percent Insertions        =    1.9%   (  19)
+Percent Word Accuracy     =   92.8%
+
+
+Ref. words                =           (1022)
+Hyp. words                =           (1037)
+Aligned words             =           (1041)
+
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    3  ->  hundred ==> zero
+   2:    3  ->  in ==> and
+   3:    1  ->  a ==> eye
+   4:    1  ->  bittern ==> bitter
+   5:    1  ->  bluet ==> it
+   6:    1  ->  chubsucker ==> sucker
+   7:    1  ->  claimed ==> claim
+   8:    1  ->  climactic ==> climatic
+   9:    1  ->  colombia ==> columbia
+  10:    1  ->  duskywing ==> wing
+  11:    1  ->  gods ==> god's
+  12:    1  ->  goshawk ==> hawk
+  13:    1  ->  ironcolor ==> color
+  14:    1  ->  jair ==> under
+  15:    1  ->  karner ==> carner
+  16:    1  ->  kiribati ==> carabas
+  17:    1  ->  kiribati ==> kiba
+  18:    1  ->  lake ==> chubb
+  19:    1  ->  lamprey ==> prix
+  20:    1  ->  leatherback ==> back
+  21:    1  ->  leedy's ==> rose
+  22:    1  ->  longear ==> ear
+  23:    1  ->  longhead ==> had
+  24:    1  ->  longtail ==> tail
+  25:    1  ->  massasauga ==> saga
+  26:    1  ->  monk's ==> monks
+  27:    1  ->  mooneye ==> eye
+  28:    1  ->  mottled ==> dusky
+  29:    1  ->  roseroot ==> root
+  30:    1  ->  shrike ==> strike
+  31:    1  ->  ten ==> oh
+  32:    1  ->  term ==> longterm
+  33:    1  ->  tern ==> turn
+  34:    1  ->  thirty ==> oh
+  35:    1  ->  this ==> the
+  36:    1  ->  tokelau ==> koala
+  37:    1  ->  tokelau ==> lau
+  38:    1  ->  try ==> tried
+  39:    1  ->  tuvalu ==> ou
+  40:    1  ->  tuvalu ==> ulu
+  41:    1  ->  tuvalu ==> velu
+  42:    1  ->  twenty ==> two
+  43:    1  ->  underwing ==> wing
+  44:    1  ->  valvata ==> valda
+  45:    1  ->  vatnajokull ==> cool
+  46:    1  ->  water ==> groundwater
+  47:    1  ->  water ==> underwater
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  long
+   2:    2  ->  two
+   3:    1  ->  blew
+   4:    1  ->  ghost
+   5:    1  ->  iron
+   6:    1  ->  jar
+   7:    1  ->  ladies
+   8:    1  ->  lamp
+   9:    1  ->  late
+  10:    1  ->  leather
+  11:    1  ->  masa
+  12:    1  ->  moon
+  13:    1  ->  not
+  14:    1  ->  tled
+  15:    1  ->  to
+  16:    1  ->  va
+     -------
+        19
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  ground
+   2:    1  ->  long
+   3:    1  ->  under
+   4:    1  ->  w
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    3  ->  hundred
+   2:    3  ->  in
+   3:    3  ->  tuvalu
+   4:    2  ->  kiribati
+   5:    2  ->  tokelau
+   6:    2  ->  water
+   7:    1  ->  a
+   8:    1  ->  bittern
+   9:    1  ->  bluet
+  10:    1  ->  chubsucker
+  11:    1  ->  claimed
+  12:    1  ->  climactic
+  13:    1  ->  colombia
+  14:    1  ->  duskywing
+  15:    1  ->  gods
+  16:    1  ->  goshawk
+  17:    1  ->  ironcolor
+  18:    1  ->  jair
+  19:    1  ->  karner
+  20:    1  ->  lake
+  21:    1  ->  lamprey
+  22:    1  ->  leatherback
+  23:    1  ->  leedy's
+  24:    1  ->  longear
+  25:    1  ->  longhead
+  26:    1  ->  longtail
+  27:    1  ->  massasauga
+  28:    1  ->  monk's
+  29:    1  ->  mooneye
+  30:    1  ->  mottled
+  31:    1  ->  roseroot
+  32:    1  ->  shrike
+  33:    1  ->  ten
+  34:    1  ->  term
+  35:    1  ->  tern
+  36:    1  ->  thirty
+  37:    1  ->  this
+  38:    1  ->  try
+  39:    1  ->  twenty
+  40:    1  ->  underwing
+  41:    1  ->  valvata
+  42:    1  ->  vatnajokull
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    3  ->  and
+   2:    3  ->  zero
+   3:    2  ->  eye
+   4:    2  ->  oh
+   5:    2  ->  wing
+   6:    1  ->  back
+   7:    1  ->  bitter
+   8:    1  ->  carabas
+   9:    1  ->  carner
+  10:    1  ->  chubb
+  11:    1  ->  claim
+  12:    1  ->  climatic
+  13:    1  ->  color
+  14:    1  ->  columbia
+  15:    1  ->  cool
+  16:    1  ->  dusky
+  17:    1  ->  ear
+  18:    1  ->  god's
+  19:    1  ->  groundwater
+  20:    1  ->  had
+  21:    1  ->  hawk
+  22:    1  ->  it
+  23:    1  ->  kiba
+  24:    1  ->  koala
+  25:    1  ->  lau
+  26:    1  ->  longterm
+  27:    1  ->  monks
+  28:    1  ->  ou
+  29:    1  ->  prix
+  30:    1  ->  root
+  31:    1  ->  rose
+  32:    1  ->  saga
+  33:    1  ->  strike
+  34:    1  ->  sucker
+  35:    1  ->  tail
+  36:    1  ->  the
+  37:    1  ->  tried
+  38:    1  ->  turn
+  39:    1  ->  two
+  40:    1  ->  ulu
+  41:    1  ->  under
+  42:    1  ->  underwater
+  43:    1  ->  valda
+  44:    1  ->  velu
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

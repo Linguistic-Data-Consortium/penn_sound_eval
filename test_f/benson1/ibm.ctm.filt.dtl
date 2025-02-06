@@ -1,0 +1,303 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.6%   ( 126)
+
+Percent Correct           =   91.0%   (1086)
+
+Percent Substitution      =    6.0%   (  71)
+Percent Deletions         =    3.0%   (  36)
+Percent Insertions        =    1.6%   (  19)
+Percent Word Accuracy     =   89.4%
+
+
+Ref. words                =           (1193)
+Hyp. words                =           (1176)
+Aligned words             =           (1212)
+
+CONFUSION PAIRS                  Total                 (66)
+                                 With >=  1 occurrences (66)
+
+   1:    3  ->  wh ==> what
+   2:    2  ->  and ==> in
+   3:    2  ->  soar ==> sore
+   4:    2  ->  the ==> a
+   5:    1  ->  %bcack ==> that
+   6:    1  ->  are ==> know
+   7:    1  ->  at ==> back
+   8:    1  ->  awry ==> arrive
+   9:    1  ->  back ==> that
+  10:    1  ->  bed ==> bet
+  11:    1  ->  boom ==> boo
+  12:    1  ->  brow ==> brown
+  13:    1  ->  bruised ==> bruise
+  14:    1  ->  cells ==> themselves
+  15:    1  ->  code ==> so
+  16:    1  ->  date ==> dates
+  17:    1  ->  decide ==> sign
+  18:    1  ->  e ==> he
+  19:    1  ->  emphatic ==> in
+  20:    1  ->  even ==> eating
+  21:    1  ->  fall ==> falls
+  22:    1  ->  fascinating ==> exactly
+  23:    1  ->  fires ==> fire
+  24:    1  ->  fool ==> pool
+  25:    1  ->  gone ==> on
+  26:    1  ->  he ==> e
+  27:    1  ->  i ==> problem
+  28:    1  ->  is ==> as
+  29:    1  ->  it ==> at
+  30:    1  ->  it ==> is
+  31:    1  ->  it ==> think
+  32:    1  ->  knot ==> not
+  33:    1  ->  like ==> around
+  34:    1  ->  linking ==> making
+  35:    1  ->  locked ==> blocks
+  36:    1  ->  looked ==> looks
+  37:    1  ->  mess ==> miss
+  38:    1  ->  now ==> the
+  39:    1  ->  of ==> up
+  40:    1  ->  or ==> here
+  41:    1  ->  peering ==> hearing
+  42:    1  ->  poem ==> of
+  43:    1  ->  punctuation ==> away
+  44:    1  ->  punctuation ==> consolation
+  45:    1  ->  read ==> am
+  46:    1  ->  self's ==> self
+  47:    1  ->  sense ==> says
+  48:    1  ->  sleeks ==> sleeps
+  49:    1  ->  standing ==> withstanding
+  50:    1  ->  sweet ==> sweep
+  51:    1  ->  taut ==> top
+  52:    1  ->  that's ==> yeah
+  53:    1  ->  the ==> not
+  54:    1  ->  them ==> from
+  55:    1  ->  thoughts ==> stocks
+  56:    1  ->  tide ==> tied
+  57:    1  ->  tier ==> tear
+  58:    1  ->  very ==> whispering
+  59:    1  ->  was ==> from
+  60:    1  ->  weekenders ==> weekender
+  61:    1  ->  why ==> part
+  62:    1  ->  will ==> all
+  63:    1  ->  with ==> not
+  64:    1  ->  words ==> word
+  65:    1  ->  wrought ==> brought
+  66:    1  ->  you ==> yeah
+     -------
+        71
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  i
+   2:    2  ->  of
+   3:    2  ->  to
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  but
+   7:    1  ->  he
+   8:    1  ->  high
+   9:    1  ->  if
+  10:    1  ->  in
+  11:    1  ->  it
+  12:    1  ->  it's
+  13:    1  ->  might
+  14:    1  ->  risk
+  15:    1  ->  the
+  16:    1  ->  you
+     -------
+        19
+
+
+
+DELETIONS                        Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    4  ->  i
+   2:    3  ->  that
+   3:    3  ->  yeah
+   4:    2  ->  and
+   5:    2  ->  s
+   6:    2  ->  to
+   7:    1  ->  another
+   8:    1  ->  bee
+   9:    1  ->  could
+  10:    1  ->  had
+  11:    1  ->  imply
+  12:    1  ->  in
+  13:    1  ->  it's
+  14:    1  ->  knocked
+  15:    1  ->  line
+  16:    1  ->  love
+  17:    1  ->  now
+  18:    1  ->  over
+  19:    1  ->  poems
+  20:    1  ->  read
+  21:    1  ->  think
+  22:    1  ->  three
+  23:    1  ->  type
+  24:    1  ->  want
+  25:    1  ->  well
+  26:    1  ->  you
+     -------
+        36
+
+
+
+SUBSTITUTIONS                    Total                 (62)
+                                 With >=  1 occurrences (62)
+
+   1:    3  ->  it
+   2:    3  ->  the
+   3:    3  ->  wh
+   4:    2  ->  and
+   5:    2  ->  punctuation
+   6:    2  ->  soar
+   7:    1  ->  %bcack
+   8:    1  ->  are
+   9:    1  ->  at
+  10:    1  ->  awry
+  11:    1  ->  back
+  12:    1  ->  bed
+  13:    1  ->  boom
+  14:    1  ->  brow
+  15:    1  ->  bruised
+  16:    1  ->  cells
+  17:    1  ->  code
+  18:    1  ->  date
+  19:    1  ->  decide
+  20:    1  ->  e
+  21:    1  ->  emphatic
+  22:    1  ->  even
+  23:    1  ->  fall
+  24:    1  ->  fascinating
+  25:    1  ->  fires
+  26:    1  ->  fool
+  27:    1  ->  gone
+  28:    1  ->  he
+  29:    1  ->  i
+  30:    1  ->  is
+  31:    1  ->  knot
+  32:    1  ->  like
+  33:    1  ->  linking
+  34:    1  ->  locked
+  35:    1  ->  looked
+  36:    1  ->  mess
+  37:    1  ->  now
+  38:    1  ->  of
+  39:    1  ->  or
+  40:    1  ->  peering
+  41:    1  ->  poem
+  42:    1  ->  read
+  43:    1  ->  self's
+  44:    1  ->  sense
+  45:    1  ->  sleeks
+  46:    1  ->  standing
+  47:    1  ->  sweet
+  48:    1  ->  taut
+  49:    1  ->  that's
+  50:    1  ->  them
+  51:    1  ->  thoughts
+  52:    1  ->  tide
+  53:    1  ->  tier
+  54:    1  ->  very
+  55:    1  ->  was
+  56:    1  ->  weekenders
+  57:    1  ->  why
+  58:    1  ->  will
+  59:    1  ->  with
+  60:    1  ->  words
+  61:    1  ->  wrought
+  62:    1  ->  you
+     -------
+        71
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    3  ->  in
+   2:    3  ->  not
+   3:    3  ->  what
+   4:    2  ->  a
+   5:    2  ->  from
+   6:    2  ->  sore
+   7:    2  ->  that
+   8:    2  ->  yeah
+   9:    1  ->  all
+  10:    1  ->  am
+  11:    1  ->  around
+  12:    1  ->  arrive
+  13:    1  ->  as
+  14:    1  ->  at
+  15:    1  ->  away
+  16:    1  ->  back
+  17:    1  ->  bet
+  18:    1  ->  blocks
+  19:    1  ->  boo
+  20:    1  ->  brought
+  21:    1  ->  brown
+  22:    1  ->  bruise
+  23:    1  ->  consolation
+  24:    1  ->  dates
+  25:    1  ->  e
+  26:    1  ->  eating
+  27:    1  ->  exactly
+  28:    1  ->  falls
+  29:    1  ->  fire
+  30:    1  ->  he
+  31:    1  ->  hearing
+  32:    1  ->  here
+  33:    1  ->  is
+  34:    1  ->  know
+  35:    1  ->  looks
+  36:    1  ->  making
+  37:    1  ->  miss
+  38:    1  ->  of
+  39:    1  ->  on
+  40:    1  ->  part
+  41:    1  ->  pool
+  42:    1  ->  problem
+  43:    1  ->  says
+  44:    1  ->  self
+  45:    1  ->  sign
+  46:    1  ->  sleeps
+  47:    1  ->  so
+  48:    1  ->  stocks
+  49:    1  ->  sweep
+  50:    1  ->  tear
+  51:    1  ->  the
+  52:    1  ->  themselves
+  53:    1  ->  think
+  54:    1  ->  tied
+  55:    1  ->  top
+  56:    1  ->  up
+  57:    1  ->  weekender
+  58:    1  ->  whispering
+  59:    1  ->  withstanding
+  60:    1  ->  word
+     -------
+        71
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

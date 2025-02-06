@@ -1,0 +1,181 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.4%   (  77)
+
+Percent Correct           =   92.9%   ( 962)
+
+Percent Substitution      =    2.5%   (  26)
+Percent Deletions         =    4.6%   (  48)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   92.6%
+
+
+Ref. words                =           (1036)
+Hyp. words                =           ( 991)
+Aligned words             =           (1039)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    2  ->  theresienstadt ==> theresstat
+   2:    1  ->  a ==> it
+   3:    1  ->  a ==> the
+   4:    1  ->  dressed ==> welldressed
+   5:    1  ->  eighty ==> eight
+   6:    1  ->  happen ==> happened
+   7:    1  ->  i ==> let
+   8:    1  ->  s ==> one
+   9:    1  ->  say ==> see
+  10:    1  ->  seidman ==> sideman
+  11:    1  ->  shod ==> wellshot
+  12:    1  ->  sixteen ==> six
+  13:    1  ->  so ==> what
+  14:    1  ->  surmisal ==> surmise
+  15:    1  ->  ten ==> 2010
+  16:    1  ->  ten ==> oh
+  17:    1  ->  tha ==> the
+  18:    1  ->  that's ==> it's
+  19:    1  ->  theaters ==> theories
+  20:    1  ->  twenty ==> oh
+  21:    1  ->  twenty ==> two
+  22:    1  ->  two ==> ii
+  23:    1  ->  unstilled ==> unstill
+  24:    1  ->  voiceover ==> over
+  25:    1  ->  will ==> us
+     -------
+        26
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  may
+   2:    1  ->  the
+   3:    1  ->  voice
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    5  ->  a
+   2:    5  ->  well
+   3:    4  ->  it
+   4:    2  ->  f
+   5:    2  ->  w
+   6:    1  ->  any
+   7:    1  ->  are
+   8:    1  ->  at
+   9:    1  ->  four
+  10:    1  ->  from
+  11:    1  ->  harvard
+  12:    1  ->  i
+  13:    1  ->  in
+  14:    1  ->  it's
+  15:    1  ->  n
+  16:    1  ->  no
+  17:    1  ->  o
+  18:    1  ->  oh
+  19:    1  ->  p
+  20:    1  ->  s
+  21:    1  ->  sc
+  22:    1  ->  so
+  23:    1  ->  there
+  24:    1  ->  they
+  25:    1  ->  thousand
+  26:    1  ->  to
+  27:    1  ->  twenty
+  28:    1  ->  two
+  29:    1  ->  u
+  30:    1  ->  ver
+  31:    1  ->  was
+  32:    1  ->  we
+  33:    1  ->  yeah
+  34:    1  ->  years
+  35:    1  ->  you
+     -------
+        48
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    2  ->  a
+   2:    2  ->  ten
+   3:    2  ->  theresienstadt
+   4:    2  ->  twenty
+   5:    1  ->  dressed
+   6:    1  ->  eighty
+   7:    1  ->  happen
+   8:    1  ->  i
+   9:    1  ->  s
+  10:    1  ->  say
+  11:    1  ->  seidman
+  12:    1  ->  shod
+  13:    1  ->  sixteen
+  14:    1  ->  so
+  15:    1  ->  surmisal
+  16:    1  ->  tha
+  17:    1  ->  that's
+  18:    1  ->  theaters
+  19:    1  ->  two
+  20:    1  ->  unstilled
+  21:    1  ->  voiceover
+  22:    1  ->  will
+     -------
+        26
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  oh
+   2:    2  ->  the
+   3:    2  ->  theresstat
+   4:    1  ->  2010
+   5:    1  ->  eight
+   6:    1  ->  happened
+   7:    1  ->  ii
+   8:    1  ->  it
+   9:    1  ->  it's
+  10:    1  ->  let
+  11:    1  ->  one
+  12:    1  ->  over
+  13:    1  ->  see
+  14:    1  ->  sideman
+  15:    1  ->  six
+  16:    1  ->  surmise
+  17:    1  ->  theories
+  18:    1  ->  two
+  19:    1  ->  unstill
+  20:    1  ->  us
+  21:    1  ->  welldressed
+  22:    1  ->  wellshot
+  23:    1  ->  what
+     -------
+        26
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

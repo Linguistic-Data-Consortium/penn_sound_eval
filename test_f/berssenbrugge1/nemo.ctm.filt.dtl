@@ -1,0 +1,122 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.4%   (  29)
+
+Percent Correct           =   96.8%   ( 835)
+
+Percent Substitution      =    1.4%   (  12)
+Percent Deletions         =    1.9%   (  16)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   96.6%
+
+
+Ref. words                =           ( 863)
+Hyp. words                =           ( 848)
+Aligned words             =           ( 864)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  aesthetic ==> anaesthetic
+   2:    1  ->  along ==> alone
+   3:    1  ->  cross ==> woes
+   4:    1  ->  hatched ==> crosshatched
+   5:    1  ->  motive ==> emotive
+   6:    1  ->  much ==> inasmuch
+   7:    1  ->  photograph ==> photographable
+   8:    1  ->  role ==> room
+   9:    1  ->  spurious ==> furious
+  10:    1  ->  tongues ==> tongue
+  11:    1  ->  walls ==> undeclared
+  12:    1  ->  you ==> to
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  kwanyin
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  in
+   2:    2  ->  a
+   3:    2  ->  as
+   4:    1  ->  an
+   5:    1  ->  are
+   6:    1  ->  distinct
+   7:    1  ->  do
+   8:    1  ->  for
+   9:    1  ->  identity
+  10:    1  ->  not
+  11:    1  ->  undetermined
+  12:    1  ->  x
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  aesthetic
+   2:    1  ->  along
+   3:    1  ->  cross
+   4:    1  ->  hatched
+   5:    1  ->  motive
+   6:    1  ->  much
+   7:    1  ->  photograph
+   8:    1  ->  role
+   9:    1  ->  spurious
+  10:    1  ->  tongues
+  11:    1  ->  walls
+  12:    1  ->  you
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  alone
+   2:    1  ->  anaesthetic
+   3:    1  ->  crosshatched
+   4:    1  ->  emotive
+   5:    1  ->  furious
+   6:    1  ->  inasmuch
+   7:    1  ->  photographable
+   8:    1  ->  room
+   9:    1  ->  to
+  10:    1  ->  tongue
+  11:    1  ->  undeclared
+  12:    1  ->  woes
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

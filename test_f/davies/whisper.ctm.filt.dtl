@@ -1,0 +1,163 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.9%   (  60)
+
+Percent Correct           =   96.2%   (1167)
+
+Percent Substitution      =    2.7%   (  33)
+Percent Deletions         =    1.1%   (  13)
+Percent Insertions        =    1.2%   (  14)
+Percent Word Accuracy     =   95.1%
+
+
+Ref. words                =           (1213)
+Hyp. words                =           (1214)
+Aligned words             =           (1227)
+
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    5  ->  t'aime ==> 'aime
+   2:    4  ->  temps ==> 'en
+   3:    3  ->  reuben ==> ruben
+   4:    1  ->  and ==> an
+   5:    1  ->  apostrophe ==> v
+   6:    1  ->  arithmatic ==> arithmetic
+   7:    1  ->  at ==> it
+   8:    1  ->  bad ==> that
+   9:    1  ->  behinds ==> behind
+  10:    1  ->  finally ==> fondly
+  11:    1  ->  it's ==> there's
+  12:    1  ->  lustrous ==> blusterous
+  13:    1  ->  moved ==> nude
+  14:    1  ->  onto ==> to
+  15:    1  ->  peer ==> here
+  16:    1  ->  pore ==> poor
+  17:    1  ->  quran ==> koran
+  18:    1  ->  saint ==> st
+  19:    1  ->  sod ==> so
+  20:    1  ->  the ==> this
+  21:    1  ->  then ==> the
+  22:    1  ->  titled ==> called
+  23:    1  ->  valentines ==> valentine's
+  24:    1  ->  will ==> were
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    9  ->  t
+   2:    1  ->  'yepache
+   3:    1  ->  me
+   4:    1  ->  on
+   5:    1  ->  thank
+   6:    1  ->  you
+     -------
+        14
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  i
+   2:    1  ->  and
+   3:    1  ->  between
+   4:    1  ->  c
+   5:    1  ->  how
+   6:    1  ->  in
+   7:    1  ->  much
+   8:    1  ->  or
+   9:    1  ->  other
+  10:    1  ->  place
+  11:    1  ->  that
+  12:    1  ->  we
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    5  ->  t'aime
+   2:    4  ->  temps
+   3:    3  ->  reuben
+   4:    1  ->  and
+   5:    1  ->  apostrophe
+   6:    1  ->  arithmatic
+   7:    1  ->  at
+   8:    1  ->  bad
+   9:    1  ->  behinds
+  10:    1  ->  finally
+  11:    1  ->  it's
+  12:    1  ->  lustrous
+  13:    1  ->  moved
+  14:    1  ->  onto
+  15:    1  ->  peer
+  16:    1  ->  pore
+  17:    1  ->  quran
+  18:    1  ->  saint
+  19:    1  ->  sod
+  20:    1  ->  the
+  21:    1  ->  then
+  22:    1  ->  titled
+  23:    1  ->  valentines
+  24:    1  ->  will
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    5  ->  'aime
+   2:    4  ->  'en
+   3:    3  ->  ruben
+   4:    1  ->  an
+   5:    1  ->  arithmetic
+   6:    1  ->  behind
+   7:    1  ->  blusterous
+   8:    1  ->  called
+   9:    1  ->  fondly
+  10:    1  ->  here
+  11:    1  ->  it
+  12:    1  ->  koran
+  13:    1  ->  nude
+  14:    1  ->  poor
+  15:    1  ->  so
+  16:    1  ->  st
+  17:    1  ->  that
+  18:    1  ->  the
+  19:    1  ->  there's
+  20:    1  ->  this
+  21:    1  ->  to
+  22:    1  ->  v
+  23:    1  ->  valentine's
+  24:    1  ->  were
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

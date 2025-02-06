@@ -1,0 +1,300 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.7%   ( 103)
+
+Percent Correct           =   90.7%   ( 876)
+
+Percent Substitution      =    7.3%   (  71)
+Percent Deletions         =    2.0%   (  19)
+Percent Insertions        =    1.3%   (  13)
+Percent Word Accuracy     =   89.3%
+
+
+Ref. words                =           ( 966)
+Hyp. words                =           ( 960)
+Aligned words             =           ( 979)
+
+CONFUSION PAIRS                  Total                 (70)
+                                 With >=  1 occurrences (70)
+
+   1:    2  ->  poem ==> home
+   2:    1  ->  a ==> to
+   3:    1  ->  air ==> cooler
+   4:    1  ->  allen ==> alan
+   5:    1  ->  anguished ==> anguish
+   6:    1  ->  aphorisms ==> forms
+   7:    1  ->  ass ==> ***
+   8:    1  ->  audibly ==> inaudibly
+   9:    1  ->  backlog ==> yard
+  10:    1  ->  best ==> fast
+  11:    1  ->  blank's ==> blacks
+  12:    1  ->  bulbs ==> balls
+  13:    1  ->  bulldozers ==> are
+  14:    1  ->  coda ==> dakota
+  15:    1  ->  colt ==> cold
+  16:    1  ->  crotch ==> cuts
+  17:    1  ->  cum ==> com
+  18:    1  ->  day ==> landy
+  19:    1  ->  day ==> monday
+  20:    1  ->  death ==> desk
+  21:    1  ->  death ==> disk
+  22:    1  ->  death ==> the
+  23:    1  ->  discotheque ==> take
+  24:    1  ->  dissolution ==> disillusion
+  25:    1  ->  dopey ==> dope
+  26:    1  ->  drink ==> drank
+  27:    1  ->  ecstatic ==> static
+  28:    1  ->  fuck ==> ***
+  29:    1  ->  fuck ==> for
+  30:    1  ->  gentlemen ==> gentleman
+  31:    1  ->  ginsberg ==> ginsburg
+  32:    1  ->  given ==> its
+  33:    1  ->  glamour ==> glamor
+  34:    1  ->  habeas ==> have's
+  35:    1  ->  i ==> my
+  36:    1  ->  idiom ==> idiot
+  37:    1  ->  in ==> and
+  38:    1  ->  in ==> integra
+  39:    1  ->  in ==> on
+  40:    1  ->  is ==> poetries
+  41:    1  ->  lightning ==> lightening
+  42:    1  ->  longawaited ==> to
+  43:    1  ->  mangoes ==> mangles
+  44:    1  ->  mind ==> mine
+  45:    1  ->  mine ==> mind
+  46:    1  ->  mosquitos ==> mosquitoes
+  47:    1  ->  nerves ==> nurse
+  48:    1  ->  off ==> jacko
+  49:    1  ->  or ==> but
+  50:    1  ->  paterson ==> madison
+  51:    1  ->  poem ==> redo
+  52:    1  ->  putrefaction ==> faction
+  53:    1  ->  reintegrates ==> reintegrate
+  54:    1  ->  ripoff ==> off
+  55:    1  ->  shit ==> ***
+  56:    1  ->  song ==> some
+  57:    1  ->  stomachaches ==> aches
+  58:    1  ->  suite ==> sweet
+  59:    1  ->  surprised ==> surprise
+  60:    1  ->  technicolor ==> color
+  61:    1  ->  tout ==> too
+  62:    1  ->  very ==> of
+  63:    1  ->  walk ==> walked
+  64:    1  ->  were ==> give
+  65:    1  ->  what ==> but
+  66:    1  ->  white ==> right
+  67:    1  ->  x ==> cars
+  68:    1  ->  x ==> minute
+  69:    1  ->  x ==> move
+  70:    1  ->  x ==> winnie
+     -------
+        71
+
+
+
+INSERTIONS                       Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    1  ->  a
+   2:    1  ->  afraid
+   3:    1  ->  back
+   4:    1  ->  bulldogs
+   5:    1  ->  disco
+   6:    1  ->  future
+   7:    1  ->  just
+   8:    1  ->  long
+   9:    1  ->  rip
+  10:    1  ->  stomach
+  11:    1  ->  way
+  12:    1  ->  will
+  13:    1  ->  with
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  a
+   2:    1  ->  and
+   3:    1  ->  cool
+   4:    1  ->  in
+   5:    1  ->  it's
+   6:    1  ->  jack
+   7:    1  ->  k.
+   8:    1  ->  land
+   9:    1  ->  moon
+  10:    1  ->  not
+  11:    1  ->  o.
+  12:    1  ->  of
+  13:    1  ->  on
+  14:    1  ->  out
+  15:    1  ->  poetry
+  16:    1  ->  read
+  17:    1  ->  the
+  18:    1  ->  x
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    4  ->  x
+   2:    3  ->  death
+   3:    3  ->  in
+   4:    3  ->  poem
+   5:    2  ->  day
+   6:    2  ->  fuck
+   7:    1  ->  a
+   8:    1  ->  air
+   9:    1  ->  allen
+  10:    1  ->  anguished
+  11:    1  ->  aphorisms
+  12:    1  ->  ass
+  13:    1  ->  audibly
+  14:    1  ->  backlog
+  15:    1  ->  best
+  16:    1  ->  blank's
+  17:    1  ->  bulbs
+  18:    1  ->  bulldozers
+  19:    1  ->  coda
+  20:    1  ->  colt
+  21:    1  ->  crotch
+  22:    1  ->  cum
+  23:    1  ->  discotheque
+  24:    1  ->  dissolution
+  25:    1  ->  dopey
+  26:    1  ->  drink
+  27:    1  ->  ecstatic
+  28:    1  ->  gentlemen
+  29:    1  ->  ginsberg
+  30:    1  ->  given
+  31:    1  ->  glamour
+  32:    1  ->  habeas
+  33:    1  ->  i
+  34:    1  ->  idiom
+  35:    1  ->  is
+  36:    1  ->  lightning
+  37:    1  ->  longawaited
+  38:    1  ->  mangoes
+  39:    1  ->  mind
+  40:    1  ->  mine
+  41:    1  ->  mosquitos
+  42:    1  ->  nerves
+  43:    1  ->  off
+  44:    1  ->  or
+  45:    1  ->  paterson
+  46:    1  ->  putrefaction
+  47:    1  ->  reintegrates
+  48:    1  ->  ripoff
+  49:    1  ->  shit
+  50:    1  ->  song
+  51:    1  ->  stomachaches
+  52:    1  ->  suite
+  53:    1  ->  surprised
+  54:    1  ->  technicolor
+  55:    1  ->  tout
+  56:    1  ->  very
+  57:    1  ->  walk
+  58:    1  ->  were
+  59:    1  ->  what
+  60:    1  ->  white
+     -------
+        71
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (66)
+                                 With >=  1 occurrences (66)
+
+   1:    3  ->  ***
+   2:    2  ->  but
+   3:    2  ->  home
+   4:    2  ->  to
+   5:    1  ->  aches
+   6:    1  ->  alan
+   7:    1  ->  and
+   8:    1  ->  anguish
+   9:    1  ->  are
+  10:    1  ->  balls
+  11:    1  ->  blacks
+  12:    1  ->  cars
+  13:    1  ->  cold
+  14:    1  ->  color
+  15:    1  ->  com
+  16:    1  ->  cooler
+  17:    1  ->  cuts
+  18:    1  ->  dakota
+  19:    1  ->  desk
+  20:    1  ->  disillusion
+  21:    1  ->  disk
+  22:    1  ->  dope
+  23:    1  ->  drank
+  24:    1  ->  faction
+  25:    1  ->  fast
+  26:    1  ->  for
+  27:    1  ->  forms
+  28:    1  ->  gentleman
+  29:    1  ->  ginsburg
+  30:    1  ->  give
+  31:    1  ->  glamor
+  32:    1  ->  have's
+  33:    1  ->  idiot
+  34:    1  ->  inaudibly
+  35:    1  ->  integra
+  36:    1  ->  its
+  37:    1  ->  jacko
+  38:    1  ->  landy
+  39:    1  ->  lightening
+  40:    1  ->  madison
+  41:    1  ->  mangles
+  42:    1  ->  mind
+  43:    1  ->  mine
+  44:    1  ->  minute
+  45:    1  ->  monday
+  46:    1  ->  mosquitoes
+  47:    1  ->  move
+  48:    1  ->  my
+  49:    1  ->  nurse
+  50:    1  ->  of
+  51:    1  ->  off
+  52:    1  ->  on
+  53:    1  ->  poetries
+  54:    1  ->  redo
+  55:    1  ->  reintegrate
+  56:    1  ->  right
+  57:    1  ->  some
+  58:    1  ->  static
+  59:    1  ->  surprise
+  60:    1  ->  sweet
+  61:    1  ->  take
+  62:    1  ->  the
+  63:    1  ->  too
+  64:    1  ->  walked
+  65:    1  ->  winnie
+  66:    1  ->  yard
+     -------
+        71
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

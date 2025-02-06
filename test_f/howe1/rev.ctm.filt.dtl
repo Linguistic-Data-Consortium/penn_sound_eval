@@ -1,0 +1,189 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.9%   (  47)
+
+Percent Correct           =   94.7%   ( 748)
+
+Percent Substitution      =    4.9%   (  39)
+Percent Deletions         =    0.4%   (   3)
+Percent Insertions        =    0.6%   (   5)
+Percent Word Accuracy     =   94.1%
+
+
+Ref. words                =           ( 790)
+Hyp. words                =           ( 792)
+Aligned words             =           ( 795)
+
+CONFUSION PAIRS                  Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  sanctus ==> sanus
+   2:    2  ->  starboat ==> boat
+   3:    1  ->  about ==> out
+   4:    1  ->  an ==> and
+   5:    1  ->  as ==> languages
+   6:    1  ->  astride ==> atri
+   7:    1  ->  balloon ==> boom
+   8:    1  ->  called ==> calls
+   9:    1  ->  doll ==> dolls
+  10:    1  ->  either ==> ether
+  11:    1  ->  eviction ==> fiction
+  12:    1  ->  five ==> 5
+  13:    1  ->  forty ==> oh
+  14:    1  ->  four ==> 4
+  15:    1  ->  g ==> gib
+  16:    1  ->  he ==> you
+  17:    1  ->  homebase ==> base
+  18:    1  ->  in ==> and
+  19:    1  ->  kim ==> nap
+  20:    1  ->  language ==> anate
+  21:    1  ->  napalmed ==> palmed
+  22:    1  ->  of ==> outta
+  23:    1  ->  phan ==> fond
+  24:    1  ->  reentrance ==> entrance
+  25:    1  ->  reentrance ==> reran
+  26:    1  ->  shyly ==> shy
+  27:    1  ->  slantingly ==> slanting
+  28:    1  ->  smiles ==> smile
+  29:    1  ->  sphinx ==> hinx
+  30:    1  ->  spree ==> re
+  31:    1  ->  swings ==> swing
+  32:    1  ->  syvash ==> si
+  33:    1  ->  the ==> a
+  34:    1  ->  though ==> through
+  35:    1  ->  wails ==> whales
+  36:    1  ->  wanly ==> wanderly
+  37:    1  ->  well ==> while
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  star
+   2:    1  ->  a
+   3:    1  ->  home
+   4:    1  ->  kin
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  antedate
+   2:    1  ->  as
+   3:    1  ->  out
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  reentrance
+   2:    2  ->  sanctus
+   3:    2  ->  starboat
+   4:    1  ->  about
+   5:    1  ->  an
+   6:    1  ->  as
+   7:    1  ->  astride
+   8:    1  ->  balloon
+   9:    1  ->  called
+  10:    1  ->  doll
+  11:    1  ->  either
+  12:    1  ->  eviction
+  13:    1  ->  five
+  14:    1  ->  forty
+  15:    1  ->  four
+  16:    1  ->  g
+  17:    1  ->  he
+  18:    1  ->  homebase
+  19:    1  ->  in
+  20:    1  ->  kim
+  21:    1  ->  language
+  22:    1  ->  napalmed
+  23:    1  ->  of
+  24:    1  ->  phan
+  25:    1  ->  shyly
+  26:    1  ->  slantingly
+  27:    1  ->  smiles
+  28:    1  ->  sphinx
+  29:    1  ->  spree
+  30:    1  ->  swings
+  31:    1  ->  syvash
+  32:    1  ->  the
+  33:    1  ->  though
+  34:    1  ->  wails
+  35:    1  ->  wanly
+  36:    1  ->  well
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  and
+   2:    2  ->  boat
+   3:    2  ->  sanus
+   4:    1  ->  4
+   5:    1  ->  5
+   6:    1  ->  a
+   7:    1  ->  anate
+   8:    1  ->  atri
+   9:    1  ->  base
+  10:    1  ->  boom
+  11:    1  ->  calls
+  12:    1  ->  dolls
+  13:    1  ->  entrance
+  14:    1  ->  ether
+  15:    1  ->  fiction
+  16:    1  ->  fond
+  17:    1  ->  gib
+  18:    1  ->  hinx
+  19:    1  ->  languages
+  20:    1  ->  nap
+  21:    1  ->  oh
+  22:    1  ->  out
+  23:    1  ->  outta
+  24:    1  ->  palmed
+  25:    1  ->  re
+  26:    1  ->  reran
+  27:    1  ->  shy
+  28:    1  ->  si
+  29:    1  ->  slanting
+  30:    1  ->  smile
+  31:    1  ->  swing
+  32:    1  ->  through
+  33:    1  ->  wanderly
+  34:    1  ->  whales
+  35:    1  ->  while
+  36:    1  ->  you
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

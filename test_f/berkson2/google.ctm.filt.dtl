@@ -1,0 +1,173 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.3%   (  51)
+
+Percent Correct           =   94.4%   ( 765)
+
+Percent Substitution      =    3.6%   (  29)
+Percent Deletions         =    2.0%   (  16)
+Percent Insertions        =    0.7%   (   6)
+Percent Word Accuracy     =   93.7%
+
+
+Ref. words                =           ( 810)
+Hyp. words                =           ( 800)
+Aligned words             =           ( 816)
+
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  gianlorenzo ==> lorenzo
+   2:    1  ->  aire ==> ayr
+   3:    1  ->  bare ==> bear
+   4:    1  ->  clove ==> clothe
+   5:    1  ->  constanza ==> costanza
+   6:    1  ->  costanza's ==> custanza's
+   7:    1  ->  eight ==> 2008
+   8:    1  ->  embolden ==> golden
+   9:    1  ->  exogeny ==> exogamy
+  10:    1  ->  gtmo ==> gitmo
+  11:    1  ->  guessed ==> guess
+  12:    1  ->  handed ==> emptyhanded
+  13:    1  ->  mathilda's ==> matilda's
+  14:    1  ->  mcphee ==> mcfee
+  15:    1  ->  nine ==> 2009
+  16:    1  ->  of ==> in
+  17:    1  ->  rothko ==> rothco
+  18:    1  ->  s ==> a
+  19:    1  ->  saint ==> st
+  20:    1  ->  seventies ==> 1970s
+  21:    1  ->  the ==> a
+  22:    1  ->  tousled ==> a
+  23:    1  ->  trope ==> tropes
+  24:    1  ->  twenty ==> two
+  25:    1  ->  voila ==> voilà
+  26:    1  ->  was ==> is
+  27:    1  ->  wittkower’s ==> wittkower's
+  28:    1  ->  zookeepers' ==> keepers
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  jean
+   2:    1  ->  and
+   3:    1  ->  now
+   4:    1  ->  to
+   5:    1  ->  zoo
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  it
+   2:    2  ->  thousand
+   3:    2  ->  two
+   4:    1  ->  empty
+   5:    1  ->  is
+   6:    1  ->  nineteen
+   7:    1  ->  oh
+   8:    1  ->  p
+   9:    1  ->  parched
+  10:    1  ->  rea
+  11:    1  ->  stern
+  12:    1  ->  t
+  13:    1  ->  u
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  gianlorenzo
+   2:    1  ->  aire
+   3:    1  ->  bare
+   4:    1  ->  clove
+   5:    1  ->  constanza
+   6:    1  ->  costanza's
+   7:    1  ->  eight
+   8:    1  ->  embolden
+   9:    1  ->  exogeny
+  10:    1  ->  gtmo
+  11:    1  ->  guessed
+  12:    1  ->  handed
+  13:    1  ->  mathilda's
+  14:    1  ->  mcphee
+  15:    1  ->  nine
+  16:    1  ->  of
+  17:    1  ->  rothko
+  18:    1  ->  s
+  19:    1  ->  saint
+  20:    1  ->  seventies
+  21:    1  ->  the
+  22:    1  ->  tousled
+  23:    1  ->  trope
+  24:    1  ->  twenty
+  25:    1  ->  voila
+  26:    1  ->  was
+  27:    1  ->  wittkower’s
+  28:    1  ->  zookeepers'
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    3  ->  a
+   2:    2  ->  lorenzo
+   3:    1  ->  1970s
+   4:    1  ->  2008
+   5:    1  ->  2009
+   6:    1  ->  ayr
+   7:    1  ->  bear
+   8:    1  ->  clothe
+   9:    1  ->  costanza
+  10:    1  ->  custanza's
+  11:    1  ->  emptyhanded
+  12:    1  ->  exogamy
+  13:    1  ->  gitmo
+  14:    1  ->  golden
+  15:    1  ->  guess
+  16:    1  ->  in
+  17:    1  ->  is
+  18:    1  ->  keepers
+  19:    1  ->  matilda's
+  20:    1  ->  mcfee
+  21:    1  ->  rothco
+  22:    1  ->  st
+  23:    1  ->  tropes
+  24:    1  ->  two
+  25:    1  ->  voilà
+  26:    1  ->  wittkower's
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

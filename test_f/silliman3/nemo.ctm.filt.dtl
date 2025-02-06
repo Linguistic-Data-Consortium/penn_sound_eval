@@ -1,0 +1,200 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.4%   (  73)
+
+Percent Correct           =   93.1%   ( 924)
+
+Percent Substitution      =    3.4%   (  34)
+Percent Deletions         =    3.4%   (  34)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   92.6%
+
+
+Ref. words                =           ( 992)
+Hyp. words                =           ( 963)
+Aligned words             =           ( 997)
+
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    3  ->  a ==> the
+   2:    1  ->  at ==> to
+   3:    1  ->  be ==> me
+   4:    1  ->  bones ==> poems
+   5:    1  ->  bronwich's ==> brommage's
+   6:    1  ->  eightieth ==> eddie
+   7:    1  ->  has ==> as
+   8:    1  ->  illogicalities ==> illegicalities
+   9:    1  ->  in ==> and
+  10:    1  ->  its ==> the
+  11:    1  ->  n ==> then
+  12:    1  ->  oppression ==> suppression
+  13:    1  ->  or ==> cleaner
+  14:    1  ->  others' ==> others
+  15:    1  ->  peers ==> is
+  16:    1  ->  premised ==> premise
+  17:    1  ->  proceeds ==> precedes
+  18:    1  ->  question's ==> is
+  19:    1  ->  quote ==> altogether
+  20:    1  ->  referent ==> reference
+  21:    1  ->  rig ==> create
+  22:    1  ->  seem ==> seems
+  23:    1  ->  semiotician ==> semiatician
+  24:    1  ->  ships ==> chips
+  25:    1  ->  sofala ==> sephala
+  26:    1  ->  tagmemic ==> tagmatic
+  27:    1  ->  the ==> a
+  28:    1  ->  tight ==> type
+  29:    1  ->  towards ==> toward
+  30:    1  ->  voloshinov ==> valishinov
+  31:    1  ->  voloshinov's ==> evolutiono's
+  32:    1  ->  wellek ==> willich
+     -------
+        34
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  here
+   3:    1  ->  question
+   4:    1  ->  the
+   5:    1  ->  would
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    3  ->  of
+   2:    2  ->  all
+   3:    2  ->  and
+   4:    2  ->  in
+   5:    2  ->  well
+   6:    1  ->  a
+   7:    1  ->  also
+   8:    1  ->  call
+   9:    1  ->  classic
+  10:    1  ->  five
+  11:    1  ->  intere
+  12:    1  ->  is
+  13:    1  ->  it
+  14:    1  ->  paragra
+  15:    1  ->  plane
+  16:    1  ->  point
+  17:    1  ->  s
+  18:    1  ->  sen
+  19:    1  ->  t
+  20:    1  ->  th
+  21:    1  ->  that
+  22:    1  ->  these
+  23:    1  ->  this
+  24:    1  ->  together
+  25:    1  ->  two
+  26:    1  ->  type
+  27:    1  ->  which
+  28:    1  ->  x
+     -------
+        34
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    3  ->  a
+   2:    1  ->  at
+   3:    1  ->  be
+   4:    1  ->  bones
+   5:    1  ->  bronwich's
+   6:    1  ->  eightieth
+   7:    1  ->  has
+   8:    1  ->  illogicalities
+   9:    1  ->  in
+  10:    1  ->  its
+  11:    1  ->  n
+  12:    1  ->  oppression
+  13:    1  ->  or
+  14:    1  ->  others'
+  15:    1  ->  peers
+  16:    1  ->  premised
+  17:    1  ->  proceeds
+  18:    1  ->  question's
+  19:    1  ->  quote
+  20:    1  ->  referent
+  21:    1  ->  rig
+  22:    1  ->  seem
+  23:    1  ->  semiotician
+  24:    1  ->  ships
+  25:    1  ->  sofala
+  26:    1  ->  tagmemic
+  27:    1  ->  the
+  28:    1  ->  tight
+  29:    1  ->  towards
+  30:    1  ->  voloshinov
+  31:    1  ->  voloshinov's
+  32:    1  ->  wellek
+     -------
+        34
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    4  ->  the
+   2:    2  ->  is
+   3:    1  ->  a
+   4:    1  ->  altogether
+   5:    1  ->  and
+   6:    1  ->  as
+   7:    1  ->  brommage's
+   8:    1  ->  chips
+   9:    1  ->  cleaner
+  10:    1  ->  create
+  11:    1  ->  eddie
+  12:    1  ->  evolutiono's
+  13:    1  ->  illegicalities
+  14:    1  ->  me
+  15:    1  ->  others
+  16:    1  ->  poems
+  17:    1  ->  precedes
+  18:    1  ->  premise
+  19:    1  ->  reference
+  20:    1  ->  seems
+  21:    1  ->  semiatician
+  22:    1  ->  sephala
+  23:    1  ->  suppression
+  24:    1  ->  tagmatic
+  25:    1  ->  then
+  26:    1  ->  to
+  27:    1  ->  toward
+  28:    1  ->  type
+  29:    1  ->  valishinov
+  30:    1  ->  willich
+     -------
+        34
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

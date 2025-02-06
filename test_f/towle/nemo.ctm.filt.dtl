@@ -1,0 +1,216 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.7%   (  64)
+
+Percent Correct           =   94.4%   (1059)
+
+Percent Substitution      =    4.2%   (  47)
+Percent Deletions         =    1.4%   (  16)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   94.3%
+
+
+Ref. words                =           (1122)
+Hyp. words                =           (1107)
+Aligned words             =           (1123)
+
+CONFUSION PAIRS                  Total                 (44)
+                                 With >=  1 occurrences (44)
+
+   1:    3  ->  velazquez ==> velasquez
+   2:    2  ->  oh ==> o
+   3:    1  ->  allan ==> alan
+   4:    1  ->  anne ==> ann
+   5:    1  ->  art ==> arts
+   6:    1  ->  ashbery ==> ashbury
+   7:    1  ->  ask ==> asked
+   8:    1  ->  berkson ==> burksen
+   9:    1  ->  brainard ==> brainer
+  10:    1  ->  by ==> while
+  11:    1  ->  carpentier ==> charpentier
+  12:    1  ->  ceravolo ==> travolo
+  13:    1  ->  concertina ==> concertino
+  14:    1  ->  does ==> is
+  15:    1  ->  elmslie ==> elmsley
+  16:    1  ->  enquire ==> inquire
+  17:    1  ->  everything ==> monet
+  18:    1  ->  for ==> to
+  19:    1  ->  girono ==> jorno
+  20:    1  ->  hart ==> hard
+  21:    1  ->  hurt ==> heard
+  22:    1  ->  immortal ==> immortals
+  23:    1  ->  in ==> and
+  24:    1  ->  intoxicant ==> toxicant
+  25:    1  ->  it ==> at
+  26:    1  ->  k. ==> fort
+  27:    1  ->  kenward ==> kenrad
+  28:    1  ->  know ==> no
+  29:    1  ->  koch ==> coke
+  30:    1  ->  lewis ==> louis
+  31:    1  ->  manet ==> monet
+  32:    1  ->  me ==> i
+  33:    1  ->  padgett ==> paget
+  34:    1  ->  parts ==> parks
+  35:    1  ->  poised ==> poise
+  36:    1  ->  poor ==> porcini
+  37:    1  ->  rocked ==> brought
+  38:    1  ->  schjeldahl ==> sheldall
+  39:    1  ->  shelves ==> shells
+  40:    1  ->  sixteen ==> sixty
+  41:    1  ->  soul ==> so
+  42:    1  ->  tchaikovsky ==> tchaikowski
+  43:    1  ->  velazquez ==> plaskis
+  44:    1  ->  warsh ==> worsh
+     -------
+        47
+
+
+
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  and
+     -------
+         1
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  and
+   2:    2  ->  but
+   3:    2  ->  o.
+   4:    1  ->  fourth
+   5:    1  ->  from
+   6:    1  ->  humid
+   7:    1  ->  in
+   8:    1  ->  k.
+   9:    1  ->  let
+  10:    1  ->  manet
+  11:    1  ->  not
+  12:    1  ->  the
+     -------
+        16
+
+
+
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    4  ->  velazquez
+   2:    2  ->  oh
+   3:    1  ->  allan
+   4:    1  ->  anne
+   5:    1  ->  art
+   6:    1  ->  ashbery
+   7:    1  ->  ask
+   8:    1  ->  berkson
+   9:    1  ->  brainard
+  10:    1  ->  by
+  11:    1  ->  carpentier
+  12:    1  ->  ceravolo
+  13:    1  ->  concertina
+  14:    1  ->  does
+  15:    1  ->  elmslie
+  16:    1  ->  enquire
+  17:    1  ->  everything
+  18:    1  ->  for
+  19:    1  ->  girono
+  20:    1  ->  hart
+  21:    1  ->  hurt
+  22:    1  ->  immortal
+  23:    1  ->  in
+  24:    1  ->  intoxicant
+  25:    1  ->  it
+  26:    1  ->  k.
+  27:    1  ->  kenward
+  28:    1  ->  know
+  29:    1  ->  koch
+  30:    1  ->  lewis
+  31:    1  ->  manet
+  32:    1  ->  me
+  33:    1  ->  padgett
+  34:    1  ->  parts
+  35:    1  ->  poised
+  36:    1  ->  poor
+  37:    1  ->  rocked
+  38:    1  ->  schjeldahl
+  39:    1  ->  shelves
+  40:    1  ->  sixteen
+  41:    1  ->  soul
+  42:    1  ->  tchaikovsky
+  43:    1  ->  warsh
+     -------
+        47
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    3  ->  velasquez
+   2:    2  ->  monet
+   3:    2  ->  o
+   4:    1  ->  alan
+   5:    1  ->  and
+   6:    1  ->  ann
+   7:    1  ->  arts
+   8:    1  ->  ashbury
+   9:    1  ->  asked
+  10:    1  ->  at
+  11:    1  ->  brainer
+  12:    1  ->  brought
+  13:    1  ->  burksen
+  14:    1  ->  charpentier
+  15:    1  ->  coke
+  16:    1  ->  concertino
+  17:    1  ->  elmsley
+  18:    1  ->  fort
+  19:    1  ->  hard
+  20:    1  ->  heard
+  21:    1  ->  i
+  22:    1  ->  immortals
+  23:    1  ->  inquire
+  24:    1  ->  is
+  25:    1  ->  jorno
+  26:    1  ->  kenrad
+  27:    1  ->  louis
+  28:    1  ->  no
+  29:    1  ->  paget
+  30:    1  ->  parks
+  31:    1  ->  plaskis
+  32:    1  ->  poise
+  33:    1  ->  porcini
+  34:    1  ->  sheldall
+  35:    1  ->  shells
+  36:    1  ->  sixty
+  37:    1  ->  so
+  38:    1  ->  tchaikowski
+  39:    1  ->  to
+  40:    1  ->  toxicant
+  41:    1  ->  travolo
+  42:    1  ->  while
+  43:    1  ->  worsh
+     -------
+        47
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

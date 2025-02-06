@@ -1,0 +1,416 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   19.8%   ( 161)
+
+Percent Correct           =   81.7%   ( 666)
+
+Percent Substitution      =   13.9%   ( 113)
+Percent Deletions         =    4.4%   (  36)
+Percent Insertions        =    1.5%   (  12)
+Percent Word Accuracy     =   80.2%
+
+
+Ref. words                =           ( 815)
+Hyp. words                =           ( 791)
+Aligned words             =           ( 827)
+
+CONFUSION PAIRS                  Total                 (111)
+                                 With >=  1 occurrences (111)
+
+   1:    2  ->  ebon ==> evan
+   2:    2  ->  rhymer ==> rhyme
+   3:    1  ->  a ==> scribbler
+   4:    1  ->  afloat ==> float
+   5:    1  ->  alive ==> live
+   6:    1  ->  and ==> it
+   7:    1  ->  and ==> the
+   8:    1  ->  aperta ==> to
+   9:    1  ->  are ==> was
+  10:    1  ->  bed ==> sh
+  11:    1  ->  bled ==> bed
+  12:    1  ->  bows ==> buses
+  13:    1  ->  bulgy ==> bulge
+  14:    1  ->  called ==> ebeneezer
+  15:    1  ->  cancel ==> presuming
+  16:    1  ->  cnr ==> car
+  17:    1  ->  coleridge ==> coverage
+  18:    1  ->  confinement ==> and
+  19:    1  ->  crawled ==> crowd
+  20:    1  ->  cumberbark ==> back
+  21:    1  ->  curtainment ==> ment
+  22:    1  ->  devil's ==> devils
+  23:    1  ->  dire ==> die
+  24:    1  ->  ebenezer ==> ebony's
+  25:    1  ->  ebenezer ==> elliot
+  26:    1  ->  el ==> a
+  27:    1  ->  elliott ==> and
+  28:    1  ->  elliott ==> earlier
+  29:    1  ->  elliott ==> elliot
+  30:    1  ->  elusive ==> delusive
+  31:    1  ->  enfetters ==> fetters
+  32:    1  ->  entrancement ==> enhancement
+  33:    1  ->  era ==> error
+  34:    1  ->  fact ==> had
+  35:    1  ->  feeling ==> fleeing
+  36:    1  ->  geraldine ==> majority
+  37:    1  ->  h ==> help
+  38:    1  ->  harkley ==> heartly
+  39:    1  ->  henry ==> henley
+  40:    1  ->  his ==> on
+  41:    1  ->  hit ==> hipped
+  42:    1  ->  i ==> coverage
+  43:    1  ->  i ==> e
+  44:    1  ->  i ==> licence
+  45:    1  ->  i ==> one
+  46:    1  ->  i ==> though
+  47:    1  ->  immedicable ==> medical
+  48:    1  ->  in ==> and
+  49:    1  ->  in ==> have
+  50:    1  ->  is ==> his
+  51:    1  ->  kessick ==> ces
+  52:    1  ->  laudanum ==> lorena
+  53:    1  ->  man ==> mango
+  54:    1  ->  mean ==> and
+  55:    1  ->  mute ==> new
+  56:    1  ->  nobody's ==> he's
+  57:    1  ->  nuncinations ==> nations
+  58:    1  ->  nunia ==> karina
+  59:    1  ->  of ==> am
+  60:    1  ->  of ==> at
+  61:    1  ->  of ==> so
+  62:    1  ->  on ==> some
+  63:    1  ->  on ==> uncertain
+  64:    1  ->  our ==> taxol
+  65:    1  ->  out ==> i
+  66:    1  ->  parson ==> and
+  67:    1  ->  paul ==> poor
+  68:    1  ->  perfectible ==> ble
+  69:    1  ->  phantom ==> fantom
+  70:    1  ->  pisermine ==> mama
+  71:    1  ->  pocketbooks ==> books
+  72:    1  ->  poem ==> payment
+  73:    1  ->  poet ==> put
+  74:    1  ->  poets ==> periods
+  75:    1  ->  poets ==> pilates
+  76:    1  ->  poole ==> pool
+  77:    1  ->  precipice ==> recipes
+  78:    1  ->  pulcherrima ==> appear
+  79:    1  ->  ranter ==> ranta
+  80:    1  ->  rectories ==> is
+  81:    1  ->  revoked ==> revert
+  82:    1  ->  riot ==> write
+  83:    1  ->  s ==> council
+  84:    1  ->  s ==> st
+  85:    1  ->  shawnson ==> hanson
+  86:    1  ->  sonnets ==> its
+  87:    1  ->  spiderweb ==> web
+  88:    1  ->  t ==> comber
+  89:    1  ->  tales ==> tails
+  90:    1  ->  tax ==> attack
+  91:    1  ->  that ==> but
+  92:    1  ->  the ==> a
+  93:    1  ->  the ==> either
+  94:    1  ->  their ==> rectory
+  95:    1  ->  then ==> than
+  96:    1  ->  there's ==> of
+  97:    1  ->  these ==> his
+  98:    1  ->  too ==> to
+  99:    1  ->  transpierced ==> transpires
+ 100:    1  ->  tyrannic ==> tronic
+ 101:    1  ->  unchastities ==> unchaste
+ 102:    1  ->  unmeaning ==> meaning
+ 103:    1  ->  whirled ==> world
+ 104:    1  ->  who ==> we
+ 105:    1  ->  who ==> you
+ 106:    1  ->  worm ==> multi
+ 107:    1  ->  writing ==> relating
+ 108:    1  ->  x ==> that
+ 109:    1  ->  y ==> but
+ 110:    1  ->  you ==> age
+ 111:    1  ->  you ==> color
+     -------
+       113
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  a
+   2:    1  ->  bad
+   3:    1  ->  confinements
+   4:    1  ->  lance
+   5:    1  ->  pass
+   6:    1  ->  perfect
+   7:    1  ->  pocket
+   8:    1  ->  sense
+   9:    1  ->  spider
+  10:    1  ->  the
+  11:    1  ->  un
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    5  ->  i
+   2:    2  ->  a
+   3:    2  ->  coleridge
+   4:    2  ->  had
+   5:    2  ->  me
+   6:    2  ->  of
+   7:    2  ->  sort
+   8:    1  ->  and
+   9:    1  ->  as
+  10:    1  ->  be
+  11:    1  ->  it
+  12:    1  ->  lighter
+  13:    1  ->  malt
+  14:    1  ->  meant
+  15:    1  ->  note
+  16:    1  ->  on
+  17:    1  ->  poets
+  18:    1  ->  scribble
+  19:    1  ->  sense
+  20:    1  ->  taxed
+  21:    1  ->  that
+  22:    1  ->  these
+  23:    1  ->  they
+  24:    1  ->  to
+  25:    1  ->  when
+  26:    1  ->  wi
+     -------
+        36
+
+
+
+SUBSTITUTIONS                    Total                 (94)
+                                 With >=  1 occurrences (94)
+
+   1:    5  ->  i
+   2:    3  ->  elliott
+   3:    3  ->  of
+   4:    2  ->  and
+   5:    2  ->  ebenezer
+   6:    2  ->  ebon
+   7:    2  ->  in
+   8:    2  ->  on
+   9:    2  ->  poets
+  10:    2  ->  rhymer
+  11:    2  ->  s
+  12:    2  ->  the
+  13:    2  ->  who
+  14:    2  ->  you
+  15:    1  ->  a
+  16:    1  ->  afloat
+  17:    1  ->  alive
+  18:    1  ->  aperta
+  19:    1  ->  are
+  20:    1  ->  bed
+  21:    1  ->  bled
+  22:    1  ->  bows
+  23:    1  ->  bulgy
+  24:    1  ->  called
+  25:    1  ->  cancel
+  26:    1  ->  cnr
+  27:    1  ->  coleridge
+  28:    1  ->  confinement
+  29:    1  ->  crawled
+  30:    1  ->  cumberbark
+  31:    1  ->  curtainment
+  32:    1  ->  devil's
+  33:    1  ->  dire
+  34:    1  ->  el
+  35:    1  ->  elusive
+  36:    1  ->  enfetters
+  37:    1  ->  entrancement
+  38:    1  ->  era
+  39:    1  ->  fact
+  40:    1  ->  feeling
+  41:    1  ->  geraldine
+  42:    1  ->  h
+  43:    1  ->  harkley
+  44:    1  ->  henry
+  45:    1  ->  his
+  46:    1  ->  hit
+  47:    1  ->  immedicable
+  48:    1  ->  is
+  49:    1  ->  kessick
+  50:    1  ->  laudanum
+  51:    1  ->  man
+  52:    1  ->  mean
+  53:    1  ->  mute
+  54:    1  ->  nobody's
+  55:    1  ->  nuncinations
+  56:    1  ->  nunia
+  57:    1  ->  our
+  58:    1  ->  out
+  59:    1  ->  parson
+  60:    1  ->  paul
+  61:    1  ->  perfectible
+  62:    1  ->  phantom
+  63:    1  ->  pisermine
+  64:    1  ->  pocketbooks
+  65:    1  ->  poem
+  66:    1  ->  poet
+  67:    1  ->  poole
+  68:    1  ->  precipice
+  69:    1  ->  pulcherrima
+  70:    1  ->  ranter
+  71:    1  ->  rectories
+  72:    1  ->  revoked
+  73:    1  ->  riot
+  74:    1  ->  shawnson
+  75:    1  ->  sonnets
+  76:    1  ->  spiderweb
+  77:    1  ->  t
+  78:    1  ->  tales
+  79:    1  ->  tax
+  80:    1  ->  that
+  81:    1  ->  their
+  82:    1  ->  then
+  83:    1  ->  there's
+  84:    1  ->  these
+  85:    1  ->  too
+  86:    1  ->  transpierced
+  87:    1  ->  tyrannic
+  88:    1  ->  unchastities
+  89:    1  ->  unmeaning
+  90:    1  ->  whirled
+  91:    1  ->  worm
+  92:    1  ->  writing
+  93:    1  ->  x
+  94:    1  ->  y
+     -------
+       113
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (101)
+                                 With >=  1 occurrences (101)
+
+   1:    5  ->  and
+   2:    2  ->  a
+   3:    2  ->  but
+   4:    2  ->  coverage
+   5:    2  ->  elliot
+   6:    2  ->  evan
+   7:    2  ->  his
+   8:    2  ->  rhyme
+   9:    2  ->  to
+  10:    1  ->  age
+  11:    1  ->  am
+  12:    1  ->  appear
+  13:    1  ->  at
+  14:    1  ->  attack
+  15:    1  ->  back
+  16:    1  ->  bed
+  17:    1  ->  ble
+  18:    1  ->  books
+  19:    1  ->  bulge
+  20:    1  ->  buses
+  21:    1  ->  car
+  22:    1  ->  ces
+  23:    1  ->  color
+  24:    1  ->  comber
+  25:    1  ->  council
+  26:    1  ->  crowd
+  27:    1  ->  delusive
+  28:    1  ->  devils
+  29:    1  ->  die
+  30:    1  ->  e
+  31:    1  ->  earlier
+  32:    1  ->  ebeneezer
+  33:    1  ->  ebony's
+  34:    1  ->  either
+  35:    1  ->  enhancement
+  36:    1  ->  error
+  37:    1  ->  fantom
+  38:    1  ->  fetters
+  39:    1  ->  fleeing
+  40:    1  ->  float
+  41:    1  ->  had
+  42:    1  ->  hanson
+  43:    1  ->  have
+  44:    1  ->  he's
+  45:    1  ->  heartly
+  46:    1  ->  help
+  47:    1  ->  henley
+  48:    1  ->  hipped
+  49:    1  ->  i
+  50:    1  ->  is
+  51:    1  ->  it
+  52:    1  ->  its
+  53:    1  ->  karina
+  54:    1  ->  licence
+  55:    1  ->  live
+  56:    1  ->  lorena
+  57:    1  ->  majority
+  58:    1  ->  mama
+  59:    1  ->  mango
+  60:    1  ->  meaning
+  61:    1  ->  medical
+  62:    1  ->  ment
+  63:    1  ->  multi
+  64:    1  ->  nations
+  65:    1  ->  new
+  66:    1  ->  of
+  67:    1  ->  on
+  68:    1  ->  one
+  69:    1  ->  payment
+  70:    1  ->  periods
+  71:    1  ->  pilates
+  72:    1  ->  pool
+  73:    1  ->  poor
+  74:    1  ->  presuming
+  75:    1  ->  put
+  76:    1  ->  ranta
+  77:    1  ->  recipes
+  78:    1  ->  rectory
+  79:    1  ->  relating
+  80:    1  ->  revert
+  81:    1  ->  scribbler
+  82:    1  ->  sh
+  83:    1  ->  so
+  84:    1  ->  some
+  85:    1  ->  st
+  86:    1  ->  tails
+  87:    1  ->  taxol
+  88:    1  ->  than
+  89:    1  ->  that
+  90:    1  ->  the
+  91:    1  ->  though
+  92:    1  ->  transpires
+  93:    1  ->  tronic
+  94:    1  ->  uncertain
+  95:    1  ->  unchaste
+  96:    1  ->  was
+  97:    1  ->  we
+  98:    1  ->  web
+  99:    1  ->  world
+ 100:    1  ->  write
+ 101:    1  ->  you
+     -------
+       113
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

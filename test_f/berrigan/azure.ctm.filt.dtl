@@ -1,0 +1,206 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.2%   (  60)
+
+Percent Correct           =   94.6%   ( 915)
+
+Percent Substitution      =    4.4%   (  43)
+Percent Deletions         =    0.9%   (   9)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   93.8%
+
+
+Ref. words                =           ( 967)
+Hyp. words                =           ( 966)
+Aligned words             =           ( 975)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    2  ->  is ==> 's
+   2:    1  ->  a ==> to
+   3:    1  ->  and ==> aunt
+   4:    1  ->  anguished ==> anguish
+   5:    1  ->  audibly ==> inaudible
+   6:    1  ->  benefits ==> benefit
+   7:    1  ->  blank's ==> blanks
+   8:    1  ->  colt ==> cult
+   9:    1  ->  cum ==> come
+  10:    1  ->  day ==> landy
+  11:    1  ->  decay ==> dk
+  12:    1  ->  down ==> on
+  13:    1  ->  given ==> its
+  14:    1  ->  habeas ==> babies
+  15:    1  ->  hats ==> hide
+  16:    1  ->  hospital's ==> 's
+  17:    1  ->  in ==> on
+  18:    1  ->  in ==> the
+  19:    1  ->  is ==> poetries
+  20:    1  ->  it's ==> its
+  21:    1  ->  longawaited ==> awaited
+  22:    1  ->  mine ==> mind
+  23:    1  ->  mosquitos ==> mosquitoes
+  24:    1  ->  off ==> south
+  25:    1  ->  or ==> if
+  26:    1  ->  rest ==> wrist
+  27:    1  ->  ripoff ==> off
+  28:    1  ->  song ==> some
+  29:    1  ->  stomachaches ==> eggs
+  30:    1  ->  suite ==> sweet
+  31:    1  ->  surprised ==> surprise
+  32:    1  ->  the ==> to
+  33:    1  ->  tout ==> too
+  34:    1  ->  very ==> pretty
+  35:    1  ->  walk ==> walked
+  36:    1  ->  were ==> give
+  37:    1  ->  what ==> but
+  38:    1  ->  when ==> with
+  39:    1  ->  x ==> minute
+  40:    1  ->  x ==> move
+  41:    1  ->  x ==> sure
+  42:    1  ->  x ==> winnie
+     -------
+        43
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  a
+   2:    1  ->  cool
+   3:    1  ->  hospital
+   4:    1  ->  just
+   5:    1  ->  long
+   6:    1  ->  rip
+   7:    1  ->  stomach
+   8:    1  ->  will
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  the
+   2:    1  ->  it's
+   3:    1  ->  land
+   4:    1  ->  not
+   5:    1  ->  on
+   6:    1  ->  out
+   7:    1  ->  poetry
+   8:    1  ->  x
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    4  ->  x
+   2:    3  ->  is
+   3:    2  ->  in
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  anguished
+   7:    1  ->  audibly
+   8:    1  ->  benefits
+   9:    1  ->  blank's
+  10:    1  ->  colt
+  11:    1  ->  cum
+  12:    1  ->  day
+  13:    1  ->  decay
+  14:    1  ->  down
+  15:    1  ->  given
+  16:    1  ->  habeas
+  17:    1  ->  hats
+  18:    1  ->  hospital's
+  19:    1  ->  it's
+  20:    1  ->  longawaited
+  21:    1  ->  mine
+  22:    1  ->  mosquitos
+  23:    1  ->  off
+  24:    1  ->  or
+  25:    1  ->  rest
+  26:    1  ->  ripoff
+  27:    1  ->  song
+  28:    1  ->  stomachaches
+  29:    1  ->  suite
+  30:    1  ->  surprised
+  31:    1  ->  the
+  32:    1  ->  tout
+  33:    1  ->  very
+  34:    1  ->  walk
+  35:    1  ->  were
+  36:    1  ->  what
+  37:    1  ->  when
+     -------
+        43
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    3  ->  's
+   2:    2  ->  its
+   3:    2  ->  on
+   4:    2  ->  to
+   5:    1  ->  anguish
+   6:    1  ->  aunt
+   7:    1  ->  awaited
+   8:    1  ->  babies
+   9:    1  ->  benefit
+  10:    1  ->  blanks
+  11:    1  ->  but
+  12:    1  ->  come
+  13:    1  ->  cult
+  14:    1  ->  dk
+  15:    1  ->  eggs
+  16:    1  ->  give
+  17:    1  ->  hide
+  18:    1  ->  if
+  19:    1  ->  inaudible
+  20:    1  ->  landy
+  21:    1  ->  mind
+  22:    1  ->  minute
+  23:    1  ->  mosquitoes
+  24:    1  ->  move
+  25:    1  ->  off
+  26:    1  ->  poetries
+  27:    1  ->  pretty
+  28:    1  ->  some
+  29:    1  ->  south
+  30:    1  ->  sure
+  31:    1  ->  surprise
+  32:    1  ->  sweet
+  33:    1  ->  the
+  34:    1  ->  too
+  35:    1  ->  walked
+  36:    1  ->  winnie
+  37:    1  ->  with
+  38:    1  ->  wrist
+     -------
+        43
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,215 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    9.7%   ( 101)
+
+Percent Correct           =   92.0%   ( 954)
+
+Percent Substitution      =    3.1%   (  32)
+Percent Deletions         =    4.9%   (  51)
+Percent Insertions        =    1.7%   (  18)
+Percent Word Accuracy     =   90.3%
+
+
+Ref. words                =           (1037)
+Hyp. words                =           (1004)
+Aligned words             =           (1055)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  write ==> right
+   2:    1  ->  a ==> the
+   3:    1  ->  and ==> here
+   4:    1  ->  and ==> in
+   5:    1  ->  as ==> it's
+   6:    1  ->  doorframe ==> frame
+   7:    1  ->  estimate ==> estimated
+   8:    1  ->  for ==> from
+   9:    1  ->  had ==> kaufman
+  10:    1  ->  highballs ==> balls
+  11:    1  ->  is ==> was
+  12:    1  ->  marines ==> maritime
+  13:    1  ->  my ==> a
+  14:    1  ->  of ==> oh
+  15:    1  ->  phone ==> payphone
+  16:    1  ->  prayer ==> are
+  17:    1  ->  pulling ==> plying
+  18:    1  ->  quaker's ==> quakers
+  19:    1  ->  routine ==> throwout
+  20:    1  ->  scent ==> descent
+  21:    1  ->  slick ==> mudslip
+  22:    1  ->  streets ==> street
+  23:    1  ->  temouzi ==> tamuzi
+  24:    1  ->  that ==> nice
+  25:    1  ->  the ==> these
+  26:    1  ->  them ==> him
+  27:    1  ->  to ==> a
+  28:    1  ->  too ==> gratitude
+  29:    1  ->  tune ==> tomb
+  30:    1  ->  we ==> to
+     -------
+        32
+
+
+
+INSERTIONS                       Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    1  ->  american
+   2:    1  ->  are
+   3:    1  ->  back
+   4:    1  ->  come
+   5:    1  ->  door
+   6:    1  ->  gi's
+   7:    1  ->  high
+   8:    1  ->  hundreds
+   9:    1  ->  iraq
+  10:    1  ->  of
+  11:    1  ->  oh
+  12:    1  ->  only
+  13:    1  ->  prey
+  14:    1  ->  there
+  15:    1  ->  veterans
+  16:    1  ->  war
+  17:    1  ->  who
+  18:    1  ->  your
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    4  ->  the
+   2:    4  ->  we
+   3:    3  ->  had
+   4:    3  ->  i
+   5:    2  ->  a
+   6:    2  ->  are
+   7:    2  ->  in
+   8:    2  ->  not
+   9:    2  ->  of
+  10:    1  ->  and
+  11:    1  ->  at
+  12:    1  ->  babysitter
+  13:    1  ->  breath
+  14:    1  ->  do
+  15:    1  ->  front
+  16:    1  ->  he
+  17:    1  ->  inst
+  18:    1  ->  is
+  19:    1  ->  k.
+  20:    1  ->  kauffman
+  21:    1  ->  mud
+  22:    1  ->  o.
+  23:    1  ->  off
+  24:    1  ->  only
+  25:    1  ->  ooh
+  26:    1  ->  pay
+  27:    1  ->  so
+  28:    1  ->  thinking
+  29:    1  ->  throw
+  30:    1  ->  unless
+  31:    1  ->  us
+  32:    1  ->  view
+  33:    1  ->  was
+  34:    1  ->  what
+  35:    1  ->  where
+  36:    1  ->  wo
+     -------
+        51
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  write
+   2:    2  ->  and
+   3:    1  ->  a
+   4:    1  ->  as
+   5:    1  ->  doorframe
+   6:    1  ->  estimate
+   7:    1  ->  for
+   8:    1  ->  had
+   9:    1  ->  highballs
+  10:    1  ->  is
+  11:    1  ->  marines
+  12:    1  ->  my
+  13:    1  ->  of
+  14:    1  ->  phone
+  15:    1  ->  prayer
+  16:    1  ->  pulling
+  17:    1  ->  quaker's
+  18:    1  ->  routine
+  19:    1  ->  scent
+  20:    1  ->  slick
+  21:    1  ->  streets
+  22:    1  ->  temouzi
+  23:    1  ->  that
+  24:    1  ->  the
+  25:    1  ->  them
+  26:    1  ->  to
+  27:    1  ->  too
+  28:    1  ->  tune
+  29:    1  ->  we
+     -------
+        32
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  right
+   2:    2  ->  a
+   3:    1  ->  are
+   4:    1  ->  balls
+   5:    1  ->  descent
+   6:    1  ->  estimated
+   7:    1  ->  frame
+   8:    1  ->  from
+   9:    1  ->  gratitude
+  10:    1  ->  here
+  11:    1  ->  him
+  12:    1  ->  in
+  13:    1  ->  it's
+  14:    1  ->  kaufman
+  15:    1  ->  maritime
+  16:    1  ->  mudslip
+  17:    1  ->  nice
+  18:    1  ->  oh
+  19:    1  ->  payphone
+  20:    1  ->  plying
+  21:    1  ->  quakers
+  22:    1  ->  street
+  23:    1  ->  tamuzi
+  24:    1  ->  the
+  25:    1  ->  these
+  26:    1  ->  throwout
+  27:    1  ->  to
+  28:    1  ->  tomb
+  29:    1  ->  was
+     -------
+        32
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

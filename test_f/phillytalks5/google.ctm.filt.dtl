@@ -1,0 +1,202 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.0%   ( 129)
+
+Percent Correct           =   89.4%   (1045)
+
+Percent Substitution      =    1.9%   (  22)
+Percent Deletions         =    8.7%   ( 102)
+Percent Insertions        =    0.4%   (   5)
+Percent Word Accuracy     =   89.0%
+
+
+Ref. words                =           (1169)
+Hyp. words                =           (1072)
+Aligned words             =           (1174)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  absence ==> absent
+   3:    1  ->  cetera ==> etc
+   4:    1  ->  contest ==> test
+   5:    1  ->  could ==> can
+   6:    1  ->  et ==> etc
+   7:    1  ->  in ==> and
+   8:    1  ->  is ==> as
+   9:    1  ->  its ==> it's
+  10:    1  ->  of ==> the
+  11:    1  ->  poetic ==> quasipoetic
+  12:    1  ->  round ==> around
+  13:    1  ->  saf ==> south
+  14:    1  ->  see ==> no
+  15:    1  ->  sensorium ==> censorium
+  16:    1  ->  sixteenth ==> 16th
+  17:    1  ->  that ==> it's
+  18:    1  ->  theoretical ==> quasitheoretical
+  19:    1  ->  there ==> it
+  20:    1  ->  unquote ==> quoteunquote
+  21:    1  ->  well ==> and
+  22:    1  ->  yeah ==> another
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  and
+   2:    1  ->  it's
+   3:    1  ->  of
+   4:    1  ->  that
+   5:    1  ->  things
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (62)
+                                 With >=  1 occurrences (62)
+
+   1:    8  ->  a
+   2:    7  ->  the
+   3:    6  ->  it
+   4:    5  ->  i
+   5:    5  ->  w
+   6:    4  ->  that
+   7:    2  ->  answer
+   8:    2  ->  in
+   9:    2  ->  k.
+  10:    2  ->  o.
+  11:    2  ->  oh
+  12:    2  ->  quasi
+  13:    2  ->  question
+  14:    2  ->  u
+  15:    2  ->  y
+  16:    2  ->  yeah
+  17:    2  ->  you
+  18:    1  ->  about
+  19:    1  ->  am
+  20:    1  ->  anth
+  21:    1  ->  ask
+  22:    1  ->  asking
+  23:    1  ->  at
+  24:    1  ->  before
+  25:    1  ->  c
+  26:    1  ->  can
+  27:    1  ->  cetera
+  28:    1  ->  colle
+  29:    1  ->  do
+  30:    1  ->  et
+  31:    1  ->  first
+  32:    1  ->  g
+  33:    1  ->  gave
+  34:    1  ->  her
+  35:    1  ->  is
+  36:    1  ->  it's
+  37:    1  ->  just
+  38:    1  ->  know
+  39:    1  ->  m
+  40:    1  ->  midra
+  41:    1  ->  n
+  42:    1  ->  name
+  43:    1  ->  not
+  44:    1  ->  or
+  45:    1  ->  p
+  46:    1  ->  people
+  47:    1  ->  qu
+  48:    1  ->  quote
+  49:    1  ->  r
+  50:    1  ->  rather
+  51:    1  ->  s
+  52:    1  ->  scream
+  53:    1  ->  so
+  54:    1  ->  speak
+  55:    1  ->  that's
+  56:    1  ->  to
+  57:    1  ->  too
+  58:    1  ->  v
+  59:    1  ->  wh
+  60:    1  ->  would
+  61:    1  ->  wq
+  62:    1  ->  wr
+     -------
+       102
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  a
+   2:    1  ->  absence
+   3:    1  ->  cetera
+   4:    1  ->  contest
+   5:    1  ->  could
+   6:    1  ->  et
+   7:    1  ->  in
+   8:    1  ->  is
+   9:    1  ->  its
+  10:    1  ->  of
+  11:    1  ->  poetic
+  12:    1  ->  round
+  13:    1  ->  saf
+  14:    1  ->  see
+  15:    1  ->  sensorium
+  16:    1  ->  sixteenth
+  17:    1  ->  that
+  18:    1  ->  theoretical
+  19:    1  ->  there
+  20:    1  ->  unquote
+  21:    1  ->  well
+  22:    1  ->  yeah
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  and
+   2:    2  ->  etc
+   3:    2  ->  it's
+   4:    2  ->  the
+   5:    1  ->  16th
+   6:    1  ->  absent
+   7:    1  ->  another
+   8:    1  ->  around
+   9:    1  ->  as
+  10:    1  ->  can
+  11:    1  ->  censorium
+  12:    1  ->  it
+  13:    1  ->  no
+  14:    1  ->  quasipoetic
+  15:    1  ->  quasitheoretical
+  16:    1  ->  quoteunquote
+  17:    1  ->  south
+  18:    1  ->  test
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

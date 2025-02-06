@@ -1,0 +1,144 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.6%   (  33)
+
+Percent Correct           =   96.8%   ( 689)
+
+Percent Substitution      =    2.8%   (  20)
+Percent Deletions         =    0.4%   (   3)
+Percent Insertions        =    1.4%   (  10)
+Percent Word Accuracy     =   95.4%
+
+
+Ref. words                =           ( 712)
+Hyp. words                =           ( 719)
+Aligned words             =           ( 722)
+
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  airs ==> heirs
+   2:    1  ->  as ==> is
+   3:    1  ->  conciliation ==> reconciliation
+   4:    1  ->  cracked ==> act
+   5:    1  ->  election's ==> elections
+   6:    1  ->  faux ==> foe
+   7:    1  ->  fishers ==> and
+   8:    1  ->  for ==> where
+   9:    1  ->  forsworn ==> sworn
+  10:    1  ->  grips ==> grives
+  11:    1  ->  hundred ==> zero
+  12:    1  ->  in ==> and
+  13:    1  ->  incoherent ==> coherence
+  14:    1  ->  ours ==> our
+  15:    1  ->  ratcheted ==> ratchet
+  16:    1  ->  seemed ==> seems
+  17:    1  ->  stills ==> instills
+  18:    1  ->  tailbones ==> bones
+  19:    1  ->  therein ==> in
+  20:    1  ->  whose ==> who's
+     -------
+        20
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  i
+   2:    1  ->  am
+   3:    1  ->  fissures
+   4:    1  ->  force
+   5:    1  ->  good
+   6:    1  ->  k.
+   7:    1  ->  o.
+   8:    1  ->  tail
+   9:    1  ->  there
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  any
+   2:    1  ->  in
+   3:    1  ->  our
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (20)
+                                 With >=  1 occurrences (20)
+
+   1:    1  ->  airs
+   2:    1  ->  as
+   3:    1  ->  conciliation
+   4:    1  ->  cracked
+   5:    1  ->  election's
+   6:    1  ->  faux
+   7:    1  ->  fishers
+   8:    1  ->  for
+   9:    1  ->  forsworn
+  10:    1  ->  grips
+  11:    1  ->  hundred
+  12:    1  ->  in
+  13:    1  ->  incoherent
+  14:    1  ->  ours
+  15:    1  ->  ratcheted
+  16:    1  ->  seemed
+  17:    1  ->  stills
+  18:    1  ->  tailbones
+  19:    1  ->  therein
+  20:    1  ->  whose
+     -------
+        20
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  and
+   2:    1  ->  act
+   3:    1  ->  bones
+   4:    1  ->  coherence
+   5:    1  ->  elections
+   6:    1  ->  foe
+   7:    1  ->  grives
+   8:    1  ->  heirs
+   9:    1  ->  in
+  10:    1  ->  instills
+  11:    1  ->  is
+  12:    1  ->  our
+  13:    1  ->  ratchet
+  14:    1  ->  reconciliation
+  15:    1  ->  seems
+  16:    1  ->  sworn
+  17:    1  ->  where
+  18:    1  ->  who's
+  19:    1  ->  zero
+     -------
+        20
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

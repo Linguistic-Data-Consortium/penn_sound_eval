@@ -1,0 +1,231 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.7%   (  62)
+
+Percent Correct           =   92.1%   ( 655)
+
+Percent Substitution      =    7.3%   (  52)
+Percent Deletions         =    0.6%   (   4)
+Percent Insertions        =    0.8%   (   6)
+Percent Word Accuracy     =   91.3%
+
+
+Ref. words                =           ( 711)
+Hyp. words                =           ( 713)
+Aligned words             =           ( 717)
+
+CONFUSION PAIRS                  Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    1  ->  acanthus ==> is
+   2:    1  ->  aegean ==> then
+   3:    1  ->  are ==> were
+   4:    1  ->  are ==> your
+   5:    1  ->  at ==> had
+   6:    1  ->  at ==> it
+   7:    1  ->  bass ==> base
+   8:    1  ->  blackbird ==> bird
+   9:    1  ->  candlelight ==> light
+  10:    1  ->  chenaga ==> china
+  11:    1  ->  chewed ==> to
+  12:    1  ->  cryptomeria ==> maria
+  13:    1  ->  epiphanies ==> iphones
+  14:    1  ->  fold ==> folded
+  15:    1  ->  fresh ==> rush
+  16:    1  ->  frieze ==> freeze
+  17:    1  ->  immolated ==> emulated
+  18:    1  ->  in ==> and
+  19:    1  ->  laurel ==> laura
+  20:    1  ->  lay ==> calla
+  21:    1  ->  lyres ==> liars
+  22:    1  ->  necks ==> neck
+  23:    1  ->  off ==> of
+  24:    1  ->  one ==> in
+  25:    1  ->  one ==> when
+  26:    1  ->  palmettes ==> pallets
+  27:    1  ->  peristyle ==> style
+  28:    1  ->  petunias ==> batons
+  29:    1  ->  place ==> a
+  30:    1  ->  realise ==> realised
+  31:    1  ->  reprisal ==> appraisal
+  32:    1  ->  scumsucker ==> sucker
+  33:    1  ->  seed ==> seat
+  34:    1  ->  shards ==> charges
+  35:    1  ->  stridulating ==> stimulating
+  36:    1  ->  strin ==> strength
+  37:    1  ->  the ==> and
+  38:    1  ->  the ==> black
+  39:    1  ->  the ==> candle
+  40:    1  ->  there ==> they
+  41:    1  ->  they ==> the
+  42:    1  ->  tulip ==> tool
+  43:    1  ->  up ==> off
+  44:    1  ->  urn ==> earn
+  45:    1  ->  vase ==> base
+  46:    1  ->  wade ==> weighed
+  47:    1  ->  wet ==> quad
+  48:    1  ->  what ==> white
+  49:    1  ->  when ==> on
+  50:    1  ->  woman ==> women
+  51:    1  ->  you ==> is
+  52:    1  ->  zigzag ==> zigzagged
+     -------
+        52
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  account
+   2:    1  ->  crypt
+   3:    1  ->  paras
+   4:    1  ->  placed
+   5:    1  ->  scum
+   6:    1  ->  they
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  as
+   2:    1  ->  in
+   3:    1  ->  thank
+   4:    1  ->  you
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (47)
+                                 With >=  1 occurrences (47)
+
+   1:    3  ->  the
+   2:    2  ->  are
+   3:    2  ->  at
+   4:    2  ->  one
+   5:    1  ->  acanthus
+   6:    1  ->  aegean
+   7:    1  ->  bass
+   8:    1  ->  blackbird
+   9:    1  ->  candlelight
+  10:    1  ->  chenaga
+  11:    1  ->  chewed
+  12:    1  ->  cryptomeria
+  13:    1  ->  epiphanies
+  14:    1  ->  fold
+  15:    1  ->  fresh
+  16:    1  ->  frieze
+  17:    1  ->  immolated
+  18:    1  ->  in
+  19:    1  ->  laurel
+  20:    1  ->  lay
+  21:    1  ->  lyres
+  22:    1  ->  necks
+  23:    1  ->  off
+  24:    1  ->  palmettes
+  25:    1  ->  peristyle
+  26:    1  ->  petunias
+  27:    1  ->  place
+  28:    1  ->  realise
+  29:    1  ->  reprisal
+  30:    1  ->  scumsucker
+  31:    1  ->  seed
+  32:    1  ->  shards
+  33:    1  ->  stridulating
+  34:    1  ->  strin
+  35:    1  ->  there
+  36:    1  ->  they
+  37:    1  ->  tulip
+  38:    1  ->  up
+  39:    1  ->  urn
+  40:    1  ->  vase
+  41:    1  ->  wade
+  42:    1  ->  wet
+  43:    1  ->  what
+  44:    1  ->  when
+  45:    1  ->  woman
+  46:    1  ->  you
+  47:    1  ->  zigzag
+     -------
+        52
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (49)
+                                 With >=  1 occurrences (49)
+
+   1:    2  ->  and
+   2:    2  ->  base
+   3:    2  ->  is
+   4:    1  ->  a
+   5:    1  ->  appraisal
+   6:    1  ->  batons
+   7:    1  ->  bird
+   8:    1  ->  black
+   9:    1  ->  calla
+  10:    1  ->  candle
+  11:    1  ->  charges
+  12:    1  ->  china
+  13:    1  ->  earn
+  14:    1  ->  emulated
+  15:    1  ->  folded
+  16:    1  ->  freeze
+  17:    1  ->  had
+  18:    1  ->  in
+  19:    1  ->  iphones
+  20:    1  ->  it
+  21:    1  ->  laura
+  22:    1  ->  liars
+  23:    1  ->  light
+  24:    1  ->  maria
+  25:    1  ->  neck
+  26:    1  ->  of
+  27:    1  ->  off
+  28:    1  ->  on
+  29:    1  ->  pallets
+  30:    1  ->  quad
+  31:    1  ->  realised
+  32:    1  ->  rush
+  33:    1  ->  seat
+  34:    1  ->  stimulating
+  35:    1  ->  strength
+  36:    1  ->  style
+  37:    1  ->  sucker
+  38:    1  ->  the
+  39:    1  ->  then
+  40:    1  ->  they
+  41:    1  ->  to
+  42:    1  ->  tool
+  43:    1  ->  weighed
+  44:    1  ->  were
+  45:    1  ->  when
+  46:    1  ->  white
+  47:    1  ->  women
+  48:    1  ->  your
+  49:    1  ->  zigzagged
+     -------
+        52
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

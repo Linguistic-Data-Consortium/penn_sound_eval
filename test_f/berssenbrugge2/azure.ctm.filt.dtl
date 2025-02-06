@@ -1,0 +1,153 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.4%   (  34)
+
+Percent Correct           =   96.9%   ( 958)
+
+Percent Substitution      =    2.8%   (  28)
+Percent Deletions         =    0.3%   (   3)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   96.6%
+
+
+Ref. words                =           ( 989)
+Hyp. words                =           ( 989)
+Aligned words             =           ( 992)
+
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    2  ->  light ==> life
+   2:    2  ->  space ==> face
+   3:    1  ->  and ==> in
+   4:    1  ->  and ==> then
+   5:    1  ->  annie ==> kicking
+   6:    1  ->  arch ==> arched
+   7:    1  ->  associated ==> associative
+   8:    1  ->  course ==> chorus
+   9:    1  ->  defeat ==> deceit
+  10:    1  ->  encounter ==> in
+  11:    1  ->  engendered ==> gendered
+  12:    1  ->  fawn ==> fun
+  13:    1  ->  formerly ==> formally
+  14:    1  ->  girls ==> girl
+  15:    1  ->  had ==> passed
+  16:    1  ->  kiki ==> and
+  17:    1  ->  kiki ==> kicking
+  18:    1  ->  model ==> mottled
+  19:    1  ->  reflections ==> counter
+  20:    1  ->  relation ==> relations
+  21:    1  ->  return ==> turned
+  22:    1  ->  sinus ==> signus
+  23:    1  ->  smock ==> smog
+  24:    1  ->  stolid ==> solid
+  25:    1  ->  the ==> its
+  26:    1  ->  try ==> tried
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  and
+   2:    1  ->  be
+   3:    1  ->  his
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  have
+   3:    1  ->  since
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  and
+   2:    2  ->  kiki
+   3:    2  ->  light
+   4:    2  ->  space
+   5:    1  ->  annie
+   6:    1  ->  arch
+   7:    1  ->  associated
+   8:    1  ->  course
+   9:    1  ->  defeat
+  10:    1  ->  encounter
+  11:    1  ->  engendered
+  12:    1  ->  fawn
+  13:    1  ->  formerly
+  14:    1  ->  girls
+  15:    1  ->  had
+  16:    1  ->  model
+  17:    1  ->  reflections
+  18:    1  ->  relation
+  19:    1  ->  return
+  20:    1  ->  sinus
+  21:    1  ->  smock
+  22:    1  ->  stolid
+  23:    1  ->  the
+  24:    1  ->  try
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    2  ->  face
+   2:    2  ->  in
+   3:    2  ->  kicking
+   4:    2  ->  life
+   5:    1  ->  and
+   6:    1  ->  arched
+   7:    1  ->  associative
+   8:    1  ->  chorus
+   9:    1  ->  counter
+  10:    1  ->  deceit
+  11:    1  ->  formally
+  12:    1  ->  fun
+  13:    1  ->  gendered
+  14:    1  ->  girl
+  15:    1  ->  its
+  16:    1  ->  mottled
+  17:    1  ->  passed
+  18:    1  ->  relations
+  19:    1  ->  signus
+  20:    1  ->  smog
+  21:    1  ->  solid
+  22:    1  ->  then
+  23:    1  ->  tried
+  24:    1  ->  turned
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

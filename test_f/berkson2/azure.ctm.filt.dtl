@@ -1,0 +1,155 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.6%   (  45)
+
+Percent Correct           =   95.3%   ( 772)
+
+Percent Substitution      =    3.0%   (  24)
+Percent Deletions         =    1.7%   (  14)
+Percent Insertions        =    0.9%   (   7)
+Percent Word Accuracy     =   94.4%
+
+
+Ref. words                =           ( 810)
+Hyp. words                =           ( 803)
+Aligned words             =           ( 817)
+
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  gianlorenzo ==> lorenzo
+   2:    1  ->  a ==> an
+   3:    1  ->  aire ==> ayer
+   4:    1  ->  bare ==> bear
+   5:    1  ->  bauble ==> bobble
+   6:    1  ->  constanza ==> costanza
+   7:    1  ->  costanza's ==> 's
+   8:    1  ->  distant ==> instant
+   9:    1  ->  embolden ==> emboldened
+  10:    1  ->  et ==> a
+  11:    1  ->  gtmo ==> gitmo
+  12:    1  ->  in ==> and
+  13:    1  ->  it ==> moment
+  14:    1  ->  mathilda's ==> 's
+  15:    1  ->  matteo ==> mateo
+  16:    1  ->  peter's ==> 's
+  17:    1  ->  poco ==> unpoco
+  18:    1  ->  s ==> a
+  19:    1  ->  schneeman ==> sneeman
+  20:    1  ->  the ==> a
+  21:    1  ->  was ==> is
+  22:    1  ->  wittkower’s ==> 's
+  23:    1  ->  zookeepers' ==> zookeepers
+     -------
+        24
+
+
+
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  jean
+   2:    1  ->  a
+   3:    1  ->  costanza
+   4:    1  ->  matilda
+   5:    1  ->  peter
+   6:    1  ->  wittkower
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    3  ->  a
+   2:    1  ->  and
+   3:    1  ->  as
+   4:    1  ->  is
+   5:    1  ->  it
+   6:    1  ->  moma
+   7:    1  ->  oh
+   8:    1  ->  p
+   9:    1  ->  rea
+  10:    1  ->  t
+  11:    1  ->  u
+  12:    1  ->  un
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  gianlorenzo
+   2:    1  ->  a
+   3:    1  ->  aire
+   4:    1  ->  bare
+   5:    1  ->  bauble
+   6:    1  ->  constanza
+   7:    1  ->  costanza's
+   8:    1  ->  distant
+   9:    1  ->  embolden
+  10:    1  ->  et
+  11:    1  ->  gtmo
+  12:    1  ->  in
+  13:    1  ->  it
+  14:    1  ->  mathilda's
+  15:    1  ->  matteo
+  16:    1  ->  peter's
+  17:    1  ->  poco
+  18:    1  ->  s
+  19:    1  ->  schneeman
+  20:    1  ->  the
+  21:    1  ->  was
+  22:    1  ->  wittkower’s
+  23:    1  ->  zookeepers'
+     -------
+        24
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    4  ->  's
+   2:    3  ->  a
+   3:    2  ->  lorenzo
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  ayer
+   7:    1  ->  bear
+   8:    1  ->  bobble
+   9:    1  ->  costanza
+  10:    1  ->  emboldened
+  11:    1  ->  gitmo
+  12:    1  ->  instant
+  13:    1  ->  is
+  14:    1  ->  mateo
+  15:    1  ->  moment
+  16:    1  ->  sneeman
+  17:    1  ->  unpoco
+  18:    1  ->  zookeepers
+     -------
+        24
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

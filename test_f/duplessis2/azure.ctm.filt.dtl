@@ -1,0 +1,123 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.6%   (  22)
+
+Percent Correct           =   97.8%   ( 837)
+
+Percent Substitution      =    1.9%   (  16)
+Percent Deletions         =    0.4%   (   3)
+Percent Insertions        =    0.4%   (   3)
+Percent Word Accuracy     =   97.4%
+
+
+Ref. words                =           ( 856)
+Hyp. words                =           ( 856)
+Aligned words             =           ( 859)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  stair ==> stare
+   2:    1  ->  behindhand ==> hand
+   3:    1  ->  bits ==> alphabets
+   4:    1  ->  bloodied ==> bloody
+   5:    1  ->  cosy ==> cozy
+   6:    1  ->  hole ==> whole
+   7:    1  ->  in ==> and
+   8:    1  ->  is ==> 's
+   9:    1  ->  it ==> have
+  10:    1  ->  laid ==> lay
+  11:    1  ->  l’ingresso ==> gresso
+  12:    1  ->  mine ==> mind
+  13:    1  ->  moon's ==> 's
+  14:    1  ->  remembered ==> remember
+  15:    1  ->  vow ==> avow
+     -------
+        16
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  behind
+   2:    1  ->  lin
+   3:    1  ->  moon
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  a
+   2:    1  ->  alpha
+   3:    1  ->  i
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  stair
+   2:    1  ->  behindhand
+   3:    1  ->  bits
+   4:    1  ->  bloodied
+   5:    1  ->  cosy
+   6:    1  ->  hole
+   7:    1  ->  in
+   8:    1  ->  is
+   9:    1  ->  it
+  10:    1  ->  laid
+  11:    1  ->  l’ingresso
+  12:    1  ->  mine
+  13:    1  ->  moon's
+  14:    1  ->  remembered
+  15:    1  ->  vow
+     -------
+        16
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    2  ->  's
+   2:    2  ->  stare
+   3:    1  ->  alphabets
+   4:    1  ->  and
+   5:    1  ->  avow
+   6:    1  ->  bloody
+   7:    1  ->  cozy
+   8:    1  ->  gresso
+   9:    1  ->  hand
+  10:    1  ->  have
+  11:    1  ->  lay
+  12:    1  ->  mind
+  13:    1  ->  remember
+  14:    1  ->  whole
+     -------
+        16
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,151 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.0%   (  42)
+
+Percent Correct           =   95.6%   ( 801)
+
+Percent Substitution      =    2.6%   (  22)
+Percent Deletions         =    1.8%   (  15)
+Percent Insertions        =    0.6%   (   5)
+Percent Word Accuracy     =   95.0%
+
+
+Ref. words                =           ( 838)
+Hyp. words                =           ( 828)
+Aligned words             =           ( 843)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    1  ->  an ==> and
+   2:    1  ->  as ==> is
+   3:    1  ->  disearned ==> disurned
+   4:    1  ->  for ==> or
+   5:    1  ->  jiggs ==> jigs
+   6:    1  ->  keeping ==> keepy
+   7:    1  ->  laze ==> lays
+   8:    1  ->  m ==> am
+   9:    1  ->  non ==> naan
+  10:    1  ->  orgone ==> oregon
+  11:    1  ->  paddle ==> prattle
+  12:    1  ->  reencode ==> encode
+  13:    1  ->  seen ==> scene
+  14:    1  ->  simple ==> symbols
+  15:    1  ->  thing ==> sing
+  16:    1  ->  total ==> will
+  17:    1  ->  x ==> clucknuck's
+  18:    1  ->  x ==> graffitoed
+  19:    1  ->  x ==> keepy
+  20:    1  ->  x ==> laura
+  21:    1  ->  x ==> luwoma
+  22:    1  ->  x ==> nah
+     -------
+        22
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  an
+   2:    1  ->  keepy
+   3:    1  ->  re
+   4:    1  ->  toad
+   5:    1  ->  what
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
+
+   1:    2  ->  and
+   2:    2  ->  it
+   3:    1  ->  al
+   4:    1  ->  boober
+   5:    1  ->  c
+   6:    1  ->  is
+   7:    1  ->  lo
+   8:    1  ->  o
+   9:    1  ->  partici
+  10:    1  ->  plac
+  11:    1  ->  time
+  12:    1  ->  twi
+  13:    1  ->  weapon
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    6  ->  x
+   2:    1  ->  an
+   3:    1  ->  as
+   4:    1  ->  disearned
+   5:    1  ->  for
+   6:    1  ->  jiggs
+   7:    1  ->  keeping
+   8:    1  ->  laze
+   9:    1  ->  m
+  10:    1  ->  non
+  11:    1  ->  orgone
+  12:    1  ->  paddle
+  13:    1  ->  reencode
+  14:    1  ->  seen
+  15:    1  ->  simple
+  16:    1  ->  thing
+  17:    1  ->  total
+     -------
+        22
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    2  ->  keepy
+   2:    1  ->  am
+   3:    1  ->  and
+   4:    1  ->  clucknuck's
+   5:    1  ->  disurned
+   6:    1  ->  encode
+   7:    1  ->  graffitoed
+   8:    1  ->  is
+   9:    1  ->  jigs
+  10:    1  ->  laura
+  11:    1  ->  lays
+  12:    1  ->  luwoma
+  13:    1  ->  naan
+  14:    1  ->  nah
+  15:    1  ->  or
+  16:    1  ->  oregon
+  17:    1  ->  prattle
+  18:    1  ->  scene
+  19:    1  ->  sing
+  20:    1  ->  symbols
+  21:    1  ->  will
+     -------
+        22
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

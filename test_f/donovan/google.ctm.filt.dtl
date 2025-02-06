@@ -1,0 +1,214 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.1%   (  70)
+
+Percent Correct           =   93.8%   ( 930)
+
+Percent Substitution      =    4.4%   (  44)
+Percent Deletions         =    1.8%   (  18)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   92.9%
+
+
+Ref. words                =           ( 992)
+Hyp. words                =           ( 982)
+Aligned words             =           (1000)
+
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  somatic ==> semantic
+   2:    2  ->  a ==> ca
+   3:    2  ->  nine ==> 9:00
+   4:    1  ->  and ==> in
+   5:    1  ->  balanced ==> balance
+   6:    1  ->  bass ==> base
+   7:    1  ->  book ==> buck
+   8:    1  ->  boombox ==> box
+   9:    1  ->  boykoff's ==> boycott's
+  10:    1  ->  cellist ==> chelsea
+  11:    1  ->  clothespins ==> pins
+  12:    1  ->  controls ==> control
+  13:    1  ->  critique ==> practice
+  14:    1  ->  dependent ==> i
+  15:    1  ->  fabric ==> fabolous
+  16:    1  ->  five ==> a
+  17:    1  ->  folktales ==> tales
+  18:    1  ->  gave ==> gained
+  19:    1  ->  had ==> have
+  20:    1  ->  hellen ==> helen
+  21:    1  ->  hour ==> 12hour
+  22:    1  ->  housesitting ==> sitting
+  23:    1  ->  included ==> include
+  24:    1  ->  intention ==> attention
+  25:    1  ->  jambet ==> jebb
+  26:    1  ->  liljestrand ==> strand
+  27:    1  ->  on ==> at
+  28:    1  ->  on ==> of
+  29:    1  ->  on ==> upon
+  30:    1  ->  on ==> would
+  31:    1  ->  onto ==> to
+  32:    1  ->  peer ==> appear
+  33:    1  ->  ponty's ==> merleauponty's
+  34:    1  ->  repeat ==> unrepeat
+  35:    1  ->  rhubarb ==> koch
+  36:    1  ->  stereos ==> stereo
+  37:    1  ->  story ==> fivestory
+  38:    1  ->  treetops ==> tops
+  39:    1  ->  twelve ==> two
+  40:    1  ->  wholly ==> holy
+     -------
+        44
+
+
+
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  boom
+   2:    1  ->  clothes
+   3:    1  ->  folk
+   4:    1  ->  house
+   5:    1  ->  le
+   6:    1  ->  on
+   7:    1  ->  one
+   8:    1  ->  tree
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  c
+   2:    2  ->  echo
+   3:    1  ->  a
+   4:    1  ->  arthur
+   5:    1  ->  coeval
+   6:    1  ->  had
+   7:    1  ->  it's
+   8:    1  ->  koch's
+   9:    1  ->  masterpiece
+  10:    1  ->  merleau
+  11:    1  ->  of
+  12:    1  ->  on
+  13:    1  ->  russell's
+  14:    1  ->  the
+  15:    1  ->  twelve
+  16:    1  ->  world
+     -------
+        18
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    4  ->  on
+   2:    3  ->  somatic
+   3:    2  ->  a
+   4:    2  ->  nine
+   5:    1  ->  and
+   6:    1  ->  balanced
+   7:    1  ->  bass
+   8:    1  ->  book
+   9:    1  ->  boombox
+  10:    1  ->  boykoff's
+  11:    1  ->  cellist
+  12:    1  ->  clothespins
+  13:    1  ->  controls
+  14:    1  ->  critique
+  15:    1  ->  dependent
+  16:    1  ->  fabric
+  17:    1  ->  five
+  18:    1  ->  folktales
+  19:    1  ->  gave
+  20:    1  ->  had
+  21:    1  ->  hellen
+  22:    1  ->  hour
+  23:    1  ->  housesitting
+  24:    1  ->  included
+  25:    1  ->  intention
+  26:    1  ->  jambet
+  27:    1  ->  liljestrand
+  28:    1  ->  onto
+  29:    1  ->  peer
+  30:    1  ->  ponty's
+  31:    1  ->  repeat
+  32:    1  ->  rhubarb
+  33:    1  ->  stereos
+  34:    1  ->  story
+  35:    1  ->  treetops
+  36:    1  ->  twelve
+  37:    1  ->  wholly
+     -------
+        44
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    3  ->  semantic
+   2:    2  ->  9:00
+   3:    2  ->  ca
+   4:    1  ->  12hour
+   5:    1  ->  a
+   6:    1  ->  appear
+   7:    1  ->  at
+   8:    1  ->  attention
+   9:    1  ->  balance
+  10:    1  ->  base
+  11:    1  ->  box
+  12:    1  ->  boycott's
+  13:    1  ->  buck
+  14:    1  ->  chelsea
+  15:    1  ->  control
+  16:    1  ->  fabolous
+  17:    1  ->  fivestory
+  18:    1  ->  gained
+  19:    1  ->  have
+  20:    1  ->  helen
+  21:    1  ->  holy
+  22:    1  ->  i
+  23:    1  ->  in
+  24:    1  ->  include
+  25:    1  ->  jebb
+  26:    1  ->  koch
+  27:    1  ->  merleauponty's
+  28:    1  ->  of
+  29:    1  ->  pins
+  30:    1  ->  practice
+  31:    1  ->  sitting
+  32:    1  ->  stereo
+  33:    1  ->  strand
+  34:    1  ->  tales
+  35:    1  ->  to
+  36:    1  ->  tops
+  37:    1  ->  two
+  38:    1  ->  unrepeat
+  39:    1  ->  upon
+  40:    1  ->  would
+     -------
+        44
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

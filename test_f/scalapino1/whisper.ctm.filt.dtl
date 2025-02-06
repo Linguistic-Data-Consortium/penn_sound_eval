@@ -1,0 +1,139 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.5%   (  39)
+
+Percent Correct           =   97.0%   (1072)
+
+Percent Substitution      =    2.5%   (  28)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   96.5%
+
+
+Ref. words                =           (1105)
+Hyp. words                =           (1106)
+Aligned words             =           (1111)
+
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    7  ->  hennaed ==> henned
+   2:    3  ->  or ==> are
+   3:    2  ->  ribcage ==> cage
+   4:    1  ->  amid ==> in
+   5:    1  ->  blow ==> blowing
+   6:    1  ->  boy's ==> voice
+   7:    1  ->  cocooned ==> cocoon
+   8:    1  ->  deserts ==> desert
+   9:    1  ->  eyeholes ==> holes
+  10:    1  ->  flippering ==> flickering
+  11:    1  ->  from ==> that's
+  12:    1  ->  halves ==> haves
+  13:    1  ->  head ==> ahead
+  14:    1  ->  its ==> it
+  15:    1  ->  jeering ==> cheering
+  16:    1  ->  sheath ==> sheaf
+  17:    1  ->  side ==> outside
+  18:    1  ->  were ==> are
+  19:    1  ->  with ==> which
+     -------
+        28
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  rib
+   2:    1  ->  and
+   3:    1  ->  are
+   4:    1  ->  eye
+   5:    1  ->  have
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  in
+   2:    1  ->  out
+   3:    1  ->  to
+   4:    1  ->  w
+   5:    1  ->  who
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    7  ->  hennaed
+   2:    3  ->  or
+   3:    2  ->  ribcage
+   4:    1  ->  amid
+   5:    1  ->  blow
+   6:    1  ->  boy's
+   7:    1  ->  cocooned
+   8:    1  ->  deserts
+   9:    1  ->  eyeholes
+  10:    1  ->  flippering
+  11:    1  ->  from
+  12:    1  ->  halves
+  13:    1  ->  head
+  14:    1  ->  its
+  15:    1  ->  jeering
+  16:    1  ->  sheath
+  17:    1  ->  side
+  18:    1  ->  were
+  19:    1  ->  with
+     -------
+        28
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    7  ->  henned
+   2:    4  ->  are
+   3:    2  ->  cage
+   4:    1  ->  ahead
+   5:    1  ->  blowing
+   6:    1  ->  cheering
+   7:    1  ->  cocoon
+   8:    1  ->  desert
+   9:    1  ->  flickering
+  10:    1  ->  haves
+  11:    1  ->  holes
+  12:    1  ->  in
+  13:    1  ->  it
+  14:    1  ->  outside
+  15:    1  ->  sheaf
+  16:    1  ->  that's
+  17:    1  ->  voice
+  18:    1  ->  which
+     -------
+        28
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

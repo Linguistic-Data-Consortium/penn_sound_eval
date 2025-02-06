@@ -1,0 +1,188 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.9%   (  53)
+
+Percent Correct           =   95.4%   (1028)
+
+Percent Substitution      =    3.2%   (  35)
+Percent Deletions         =    1.4%   (  15)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   95.1%
+
+
+Ref. words                =           (1078)
+Hyp. words                =           (1066)
+Aligned words             =           (1081)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    2  ->  fourteenth ==> 14th
+   2:    2  ->  seven ==> 7
+   3:    1  ->  a ==> off
+   4:    1  ->  and ==> an
+   5:    1  ->  and ==> eighteen
+   6:    1  ->  aunt ==> i
+   7:    1  ->  bo ==> boy
+   8:    1  ->  conservative's ==> as
+   9:    1  ->  dentist's ==> dentist
+  10:    1  ->  dollars ==> oh
+  11:    1  ->  doorjamb ==> jam
+  12:    1  ->  five ==> 5
+  13:    1  ->  foot ==> 20ft
+  14:    1  ->  four ==> 4:00
+  15:    1  ->  got ==> god
+  16:    1  ->  lied ==> relied
+  17:    1  ->  may ==> name
+  18:    1  ->  more ==> anymore"
+  19:    1  ->  myrtle's ==> toddler's
+  20:    1  ->  nora ==> "nora
+  21:    1  ->  penned ==> and
+  22:    1  ->  protection ==> selfprotection
+  23:    1  ->  realise ==> realised
+  24:    1  ->  room ==> threeroom
+  25:    1  ->  sixteen ==> six
+  26:    1  ->  sixty ==> oh
+  27:    1  ->  that ==> it
+  28:    1  ->  them ==> then
+  29:    1  ->  towards ==> toward
+  30:    1  ->  twenty ==> two
+  31:    1  ->  we ==> one
+  32:    1  ->  whiz ==> with
+  33:    1  ->  year ==> 5year
+     -------
+        35
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  conservative
+   2:    1  ->  door
+   3:    1  ->  one
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  a
+   2:    1  ->  any
+   3:    1  ->  eight
+   4:    1  ->  five
+   5:    1  ->  had
+   6:    1  ->  hundred
+   7:    1  ->  me
+   8:    1  ->  one
+   9:    1  ->  self
+  10:    1  ->  ten
+  11:    1  ->  thousand
+  12:    1  ->  three
+  13:    1  ->  twenty
+  14:    1  ->  were
+  15:    1  ->  when
+     -------
+        15
+
+
+
+SUBSTITUTIONS                    Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  and
+   2:    2  ->  fourteenth
+   3:    2  ->  seven
+   4:    1  ->  a
+   5:    1  ->  aunt
+   6:    1  ->  bo
+   7:    1  ->  conservative's
+   8:    1  ->  dentist's
+   9:    1  ->  dollars
+  10:    1  ->  doorjamb
+  11:    1  ->  five
+  12:    1  ->  foot
+  13:    1  ->  four
+  14:    1  ->  got
+  15:    1  ->  lied
+  16:    1  ->  may
+  17:    1  ->  more
+  18:    1  ->  myrtle's
+  19:    1  ->  nora
+  20:    1  ->  penned
+  21:    1  ->  protection
+  22:    1  ->  realise
+  23:    1  ->  room
+  24:    1  ->  sixteen
+  25:    1  ->  sixty
+  26:    1  ->  that
+  27:    1  ->  them
+  28:    1  ->  towards
+  29:    1  ->  twenty
+  30:    1  ->  we
+  31:    1  ->  whiz
+  32:    1  ->  year
+     -------
+        35
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (32)
+                                 With >=  1 occurrences (32)
+
+   1:    2  ->  14th
+   2:    2  ->  7
+   3:    2  ->  oh
+   4:    1  ->  "nora
+   5:    1  ->  20ft
+   6:    1  ->  4:00
+   7:    1  ->  5
+   8:    1  ->  5year
+   9:    1  ->  an
+  10:    1  ->  and
+  11:    1  ->  anymore"
+  12:    1  ->  as
+  13:    1  ->  boy
+  14:    1  ->  dentist
+  15:    1  ->  eighteen
+  16:    1  ->  god
+  17:    1  ->  i
+  18:    1  ->  it
+  19:    1  ->  jam
+  20:    1  ->  name
+  21:    1  ->  off
+  22:    1  ->  one
+  23:    1  ->  realised
+  24:    1  ->  relied
+  25:    1  ->  selfprotection
+  26:    1  ->  six
+  27:    1  ->  then
+  28:    1  ->  threeroom
+  29:    1  ->  toddler's
+  30:    1  ->  toward
+  31:    1  ->  two
+  32:    1  ->  with
+     -------
+        35
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,187 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.3%   (  50)
+
+Percent Correct           =   95.3%   ( 895)
+
+Percent Substitution      =    3.9%   (  37)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   94.7%
+
+
+Ref. words                =           ( 939)
+Hyp. words                =           ( 938)
+Aligned words             =           ( 945)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  as ==> is
+   2:    1  ->  afterlife ==> life
+   3:    1  ->  an ==> and
+   4:    1  ->  and ==> on
+   5:    1  ->  back ==> paperback
+   6:    1  ->  branded ==> spreaded
+   7:    1  ->  changed ==> change
+   8:    1  ->  dollar ==> dollars
+   9:    1  ->  emergent ==> merchant
+  10:    1  ->  film ==> filmed
+  11:    1  ->  heart's ==> 's
+  12:    1  ->  herself ==> self
+  13:    1  ->  hunted ==> haunted
+  14:    1  ->  is ==> 's
+  15:    1  ->  kneed ==> need
+  16:    1  ->  knock ==> not
+  17:    1  ->  knows ==> nose
+  18:    1  ->  leaving ==> leading
+  19:    1  ->  line ==> on
+  20:    1  ->  love ==> loved
+  21:    1  ->  mealtime ==> time
+  22:    1  ->  mien ==> amian
+  23:    1  ->  mottled ==> muddled
+  24:    1  ->  nell ==> now
+  25:    1  ->  of ==> on
+  26:    1  ->  of ==> their
+  27:    1  ->  pause ==> paws
+  28:    1  ->  petal ==> pedal
+  29:    1  ->  petal ==> petals
+  30:    1  ->  room ==> backroom
+  31:    1  ->  rouen ==> rouhani
+  32:    1  ->  short ==> chart
+  33:    1  ->  shoulders ==> shoulder
+  34:    1  ->  store ==> dimestore
+  35:    1  ->  tepid ==> of
+  36:    1  ->  weeks ==> week
+     -------
+        37
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  a
+   2:    1  ->  heart
+   3:    1  ->  lie
+   4:    1  ->  meal
+   5:    1  ->  tip
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    2  ->  s
+   2:    1  ->  back
+   3:    1  ->  dime
+   4:    1  ->  kisch
+   5:    1  ->  on
+   6:    1  ->  paper
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  as
+   2:    2  ->  of
+   3:    2  ->  petal
+   4:    1  ->  afterlife
+   5:    1  ->  an
+   6:    1  ->  and
+   7:    1  ->  back
+   8:    1  ->  branded
+   9:    1  ->  changed
+  10:    1  ->  dollar
+  11:    1  ->  emergent
+  12:    1  ->  film
+  13:    1  ->  heart's
+  14:    1  ->  herself
+  15:    1  ->  hunted
+  16:    1  ->  is
+  17:    1  ->  kneed
+  18:    1  ->  knock
+  19:    1  ->  knows
+  20:    1  ->  leaving
+  21:    1  ->  line
+  22:    1  ->  love
+  23:    1  ->  mealtime
+  24:    1  ->  mien
+  25:    1  ->  mottled
+  26:    1  ->  nell
+  27:    1  ->  pause
+  28:    1  ->  room
+  29:    1  ->  rouen
+  30:    1  ->  short
+  31:    1  ->  shoulders
+  32:    1  ->  store
+  33:    1  ->  tepid
+  34:    1  ->  weeks
+     -------
+        37
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    3  ->  on
+   2:    2  ->  's
+   3:    2  ->  is
+   4:    1  ->  amian
+   5:    1  ->  and
+   6:    1  ->  backroom
+   7:    1  ->  change
+   8:    1  ->  chart
+   9:    1  ->  dimestore
+  10:    1  ->  dollars
+  11:    1  ->  filmed
+  12:    1  ->  haunted
+  13:    1  ->  leading
+  14:    1  ->  life
+  15:    1  ->  loved
+  16:    1  ->  merchant
+  17:    1  ->  muddled
+  18:    1  ->  need
+  19:    1  ->  nose
+  20:    1  ->  not
+  21:    1  ->  now
+  22:    1  ->  of
+  23:    1  ->  paperback
+  24:    1  ->  paws
+  25:    1  ->  pedal
+  26:    1  ->  petals
+  27:    1  ->  rouhani
+  28:    1  ->  self
+  29:    1  ->  shoulder
+  30:    1  ->  spreaded
+  31:    1  ->  their
+  32:    1  ->  time
+  33:    1  ->  week
+     -------
+        37
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

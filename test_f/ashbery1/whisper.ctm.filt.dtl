@@ -1,0 +1,135 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.8%   (  31)
+
+Percent Correct           =   98.0%   (1074)
+
+Percent Substitution      =    1.6%   (  17)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    0.8%   (   9)
+Percent Word Accuracy     =   97.2%
+
+
+Ref. words                =           (1096)
+Hyp. words                =           (1100)
+Aligned words             =           (1105)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  days ==> is
+   2:    1  ->  fall ==> befall
+   3:    1  ->  fours ==> four
+   4:    1  ->  gnossienne ==> gnosienne
+   5:    1  ->  immigrated ==> emigrated
+   6:    1  ->  into ==> a
+   7:    1  ->  jicky ==> jiki
+   8:    1  ->  later ==> late
+   9:    1  ->  nineteenth ==> 19th
+  10:    1  ->  refused ==> refuse
+  11:    1  ->  route ==> root
+  12:    1  ->  seem ==> seemed
+  13:    1  ->  soir ==> soire
+  14:    1  ->  survive ==> survived
+  15:    1  ->  take ==> taken
+  16:    1  ->  that ==> the
+  17:    1  ->  ways ==> way
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  in
+   2:    2  ->  the
+   3:    1  ->  day
+   4:    1  ->  happening
+   5:    1  ->  sky
+   6:    1  ->  was
+   7:    1  ->  were
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  s
+   2:    1  ->  be
+   3:    1  ->  the
+   4:    1  ->  was
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  days
+   2:    1  ->  fall
+   3:    1  ->  fours
+   4:    1  ->  gnossienne
+   5:    1  ->  immigrated
+   6:    1  ->  into
+   7:    1  ->  jicky
+   8:    1  ->  later
+   9:    1  ->  nineteenth
+  10:    1  ->  refused
+  11:    1  ->  route
+  12:    1  ->  seem
+  13:    1  ->  soir
+  14:    1  ->  survive
+  15:    1  ->  take
+  16:    1  ->  that
+  17:    1  ->  ways
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  19th
+   2:    1  ->  a
+   3:    1  ->  befall
+   4:    1  ->  emigrated
+   5:    1  ->  four
+   6:    1  ->  gnosienne
+   7:    1  ->  is
+   8:    1  ->  jiki
+   9:    1  ->  late
+  10:    1  ->  refuse
+  11:    1  ->  root
+  12:    1  ->  seemed
+  13:    1  ->  soire
+  14:    1  ->  survived
+  15:    1  ->  taken
+  16:    1  ->  the
+  17:    1  ->  way
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

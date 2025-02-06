@@ -1,0 +1,210 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: aws.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.1%   (  67)
+
+Percent Correct           =   93.9%   ( 892)
+
+Percent Substitution      =    5.1%   (  48)
+Percent Deletions         =    1.1%   (  10)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   92.9%
+
+
+Ref. words                =           ( 950)
+Hyp. words                =           ( 949)
+Aligned words             =           ( 959)
+
+CONFUSION PAIRS                  Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    5  ->  in ==> and
+   2:    3  ->  taped ==> tape
+   3:    2  ->  and ==> in
+   4:    1  ->  a ==> twins
+   5:    1  ->  and ==> tn
+   6:    1  ->  ansem ==> and
+   7:    1  ->  ansem's ==> is
+   8:    1  ->  bandanna ==> bandana
+   9:    1  ->  beep ==> beat
+  10:    1  ->  casts ==> cast
+  11:    1  ->  com ==> spycom
+  12:    1  ->  crushed ==> crush
+  13:    1  ->  delancey ==> lancey
+  14:    1  ->  dot ==> worlds
+  15:    1  ->  families' ==> family
+  16:    1  ->  fourteenth ==> 14th
+  17:    1  ->  futility ==> utility
+  18:    1  ->  hamburger ==> hamburgers
+  19:    1  ->  hundred ==> zero
+  20:    1  ->  is ==> was
+  21:    1  ->  kids' ==> kids
+  22:    1  ->  know ==> no
+  23:    1  ->  meika ==> mica
+  24:    1  ->  mommas ==> mamas
+  25:    1  ->  motion ==> emotion
+  26:    1  ->  mta ==> a
+  27:    1  ->  obsesso ==> so
+  28:    1  ->  one ==> zero
+  29:    1  ->  onto ==> to
+  30:    1  ->  pasa ==> kasa
+  31:    1  ->  phat ==> fat
+  32:    1  ->  prince ==> prints
+  33:    1  ->  prowl ==> prow
+  34:    1  ->  pushe ==> push
+  35:    1  ->  scheme ==> skiing
+  36:    1  ->  schemerhorn ==> horn
+  37:    1  ->  sleep ==> fecklessly
+  38:    1  ->  stares ==> stairs
+  39:    1  ->  twins' ==> twins
+  40:    1  ->  wack ==> whack
+  41:    1  ->  waterfront ==> obsess
+     -------
+        48
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    1  ->  an
+   2:    1  ->  anson
+   3:    1  ->  front
+   4:    1  ->  it
+   5:    1  ->  mt
+   6:    1  ->  on
+   7:    1  ->  shimmer
+   8:    1  ->  the
+   9:    1  ->  water
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  dollar
+   2:    1  ->  feckless
+   3:    1  ->  have
+   4:    1  ->  que
+   5:    1  ->  spy
+   6:    1  ->  t
+   7:    1  ->  thing
+   8:    1  ->  twins'
+   9:    1  ->  world
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    5  ->  in
+   2:    3  ->  and
+   3:    3  ->  taped
+   4:    1  ->  a
+   5:    1  ->  ansem
+   6:    1  ->  ansem's
+   7:    1  ->  bandanna
+   8:    1  ->  beep
+   9:    1  ->  casts
+  10:    1  ->  com
+  11:    1  ->  crushed
+  12:    1  ->  delancey
+  13:    1  ->  dot
+  14:    1  ->  families'
+  15:    1  ->  fourteenth
+  16:    1  ->  futility
+  17:    1  ->  hamburger
+  18:    1  ->  hundred
+  19:    1  ->  is
+  20:    1  ->  kids'
+  21:    1  ->  know
+  22:    1  ->  meika
+  23:    1  ->  mommas
+  24:    1  ->  motion
+  25:    1  ->  mta
+  26:    1  ->  obsesso
+  27:    1  ->  one
+  28:    1  ->  onto
+  29:    1  ->  pasa
+  30:    1  ->  phat
+  31:    1  ->  prince
+  32:    1  ->  prowl
+  33:    1  ->  pushe
+  34:    1  ->  scheme
+  35:    1  ->  schemerhorn
+  36:    1  ->  sleep
+  37:    1  ->  stares
+  38:    1  ->  twins'
+  39:    1  ->  wack
+  40:    1  ->  waterfront
+     -------
+        48
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    6  ->  and
+   2:    3  ->  tape
+   3:    2  ->  in
+   4:    2  ->  twins
+   5:    2  ->  zero
+   6:    1  ->  14th
+   7:    1  ->  a
+   8:    1  ->  bandana
+   9:    1  ->  beat
+  10:    1  ->  cast
+  11:    1  ->  crush
+  12:    1  ->  emotion
+  13:    1  ->  family
+  14:    1  ->  fat
+  15:    1  ->  fecklessly
+  16:    1  ->  hamburgers
+  17:    1  ->  horn
+  18:    1  ->  is
+  19:    1  ->  kasa
+  20:    1  ->  kids
+  21:    1  ->  lancey
+  22:    1  ->  mamas
+  23:    1  ->  mica
+  24:    1  ->  no
+  25:    1  ->  obsess
+  26:    1  ->  prints
+  27:    1  ->  prow
+  28:    1  ->  push
+  29:    1  ->  skiing
+  30:    1  ->  so
+  31:    1  ->  spycom
+  32:    1  ->  stairs
+  33:    1  ->  tn
+  34:    1  ->  to
+  35:    1  ->  utility
+  36:    1  ->  was
+  37:    1  ->  whack
+  38:    1  ->  worlds
+     -------
+        48
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

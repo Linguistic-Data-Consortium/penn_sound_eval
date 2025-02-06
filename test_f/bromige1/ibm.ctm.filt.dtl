@@ -1,0 +1,466 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   14.6%   ( 170)
+
+Percent Correct           =   86.4%   (1008)
+
+Percent Substitution      =   11.6%   ( 135)
+Percent Deletions         =    2.1%   (  24)
+Percent Insertions        =    0.9%   (  11)
+Percent Word Accuracy     =   85.4%
+
+
+Ref. words                =           (1167)
+Hyp. words                =           (1154)
+Aligned words             =           (1178)
+
+CONFUSION PAIRS                  Total                 (129)
+                                 With >=  1 occurrences (129)
+
+   1:    3  ->  that ==> but
+   2:    2  ->  and ==> in
+   3:    2  ->  in ==> and
+   4:    2  ->  it ==> that
+   5:    2  ->  laughs ==> laughed
+   6:    1  ->  a ==> her
+   7:    1  ->  a ==> i
+   8:    1  ->  a ==> masterfoods
+   9:    1  ->  agreed ==> disagreed
+  10:    1  ->  and ==> it's
+  11:    1  ->  and ==> screen
+  12:    1  ->  as ==> faces
+  13:    1  ->  as ==> is
+  14:    1  ->  as ==> of
+  15:    1  ->  at ==> a
+  16:    1  ->  at ==> davila
+  17:    1  ->  beckoned ==> beckon
+  18:    1  ->  begun ==> began
+  19:    1  ->  blonde ==> blond
+  20:    1  ->  blue ==> boom
+  21:    1  ->  bones ==> bone
+  22:    1  ->  broad ==> brown
+  23:    1  ->  cake ==> cage
+  24:    1  ->  cast ==> past
+  25:    1  ->  clasps ==> clasp
+  26:    1  ->  climbed ==> climb
+  27:    1  ->  coagulates ==> coagulate
+  28:    1  ->  coal ==> cold
+  29:    1  ->  conifers ==> comics
+  30:    1  ->  conspiring ==> inspiring
+  31:    1  ->  daisy ==> davy
+  32:    1  ->  debut ==> parade
+  33:    1  ->  dice ==> vice
+  34:    1  ->  dimly ==> stimuli
+  35:    1  ->  due ==> do
+  36:    1  ->  dust ==> out
+  37:    1  ->  ease ==> venues
+  38:    1  ->  emotionally ==> motionless
+  39:    1  ->  ends ==> end
+  40:    1  ->  ensue ==> see
+  41:    1  ->  face ==> seem
+  42:    1  ->  fate ==> face
+  43:    1  ->  fierce ==> out
+  44:    1  ->  flesh ==> flashed
+  45:    1  ->  globules ==> glovis
+  46:    1  ->  go ==> gold
+  47:    1  ->  goggles ==> bubbles
+  48:    1  ->  grasp ==> grasps
+  49:    1  ->  had ==> have
+  50:    1  ->  hath ==> have
+  51:    1  ->  have ==> am
+  52:    1  ->  head ==> had
+  53:    1  ->  heard ==> hood
+  54:    1  ->  heart ==> eyes
+  55:    1  ->  hips ==> hip
+  56:    1  ->  holds ==> holes
+  57:    1  ->  hoped ==> hope
+  58:    1  ->  in ==> arguing
+  59:    1  ->  in ==> of
+  60:    1  ->  inept ==> apt
+  61:    1  ->  is ==> izon
+  62:    1  ->  is ==> was
+  63:    1  ->  land ==> lamp
+  64:    1  ->  lay ==> shortly
+  65:    1  ->  lead ==> shelled
+  66:    1  ->  lift ==> lived
+  67:    1  ->  merely ==> milly
+  68:    1  ->  mine ==> mind
+  69:    1  ->  mold ==> male
+  70:    1  ->  not ==> my
+  71:    1  ->  of ==> counter
+  72:    1  ->  of ==> off
+  73:    1  ->  of ==> with
+  74:    1  ->  on ==> in
+  75:    1  ->  outburst ==> first
+  76:    1  ->  path ==> hapa
+  77:    1  ->  perilous ==> parallel
+  78:    1  ->  pickaxe ==> pick
+  79:    1  ->  pithead ==> had
+  80:    1  ->  point ==> ballpoint
+  81:    1  ->  render ==> under
+  82:    1  ->  riddle ==> middle
+  83:    1  ->  rumors ==> rumours
+  84:    1  ->  sank ==> thank
+  85:    1  ->  scarp ==> scarf
+  86:    1  ->  scorn ==> scan
+  87:    1  ->  seamed ==> you
+  88:    1  ->  seams ==> scenes
+  89:    1  ->  seen ==> obscene
+  90:    1  ->  she ==> cookie
+  91:    1  ->  sheet ==> sheets
+  92:    1  ->  should ==> ship
+  93:    1  ->  shrills ==> shills
+  94:    1  ->  silences ==> silence
+  95:    1  ->  slurred ==> slowed
+  96:    1  ->  softest ==> soft
+  97:    1  ->  song ==> sun
+  98:    1  ->  start ==> stocks
+  99:    1  ->  succor ==> soccer
+ 100:    1  ->  swims ==> swings
+ 101:    1  ->  than ==> and
+ 102:    1  ->  that ==> with
+ 103:    1  ->  the ==> a
+ 104:    1  ->  then ==> alan
+ 105:    1  ->  there ==> sausage
+ 106:    1  ->  thicket ==> ticket
+ 107:    1  ->  this ==> the
+ 108:    1  ->  though ==> so
+ 109:    1  ->  thought ==> had
+ 110:    1  ->  to ==> thought
+ 111:    1  ->  tribute ==> attribute
+ 112:    1  ->  tsunami ==> army
+ 113:    1  ->  tunnel ==> camel
+ 114:    1  ->  unavailing ==> availing
+ 115:    1  ->  unending ==> empty
+ 116:    1  ->  until ==> till
+ 117:    1  ->  wanderers ==> wanders
+ 118:    1  ->  was ==> as
+ 119:    1  ->  was ==> with
+ 120:    1  ->  weight ==> wait
+ 121:    1  ->  wherein ==> in
+ 122:    1  ->  womanhood ==> but
+ 123:    1  ->  word ==> wood
+ 124:    1  ->  x ==> pair
+ 125:    1  ->  x ==> pounds
+ 126:    1  ->  x ==> swiss
+ 127:    1  ->  yards' ==> yards
+ 128:    1  ->  yearn ==> young
+ 129:    1  ->  your ==> capture
+     -------
+       135
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  an
+   2:    1  ->  and
+   3:    1  ->  as
+   4:    1  ->  fears
+   5:    1  ->  in
+   6:    1  ->  is
+   7:    1  ->  it
+   8:    1  ->  pit
+   9:    1  ->  we
+  10:    1  ->  where
+  11:    1  ->  women
+     -------
+        11
+
+
+
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    2  ->  her
+   2:    1  ->  argue
+   3:    1  ->  ball
+   4:    1  ->  cook
+   5:    1  ->  count
+   6:    1  ->  earth
+   7:    1  ->  f
+   8:    1  ->  forehead
+   9:    1  ->  good
+  10:    1  ->  have
+  11:    1  ->  i
+  12:    1  ->  it
+  13:    1  ->  master
+  14:    1  ->  of
+  15:    1  ->  saw
+  16:    1  ->  scree
+  17:    1  ->  she
+  18:    1  ->  taps
+  19:    1  ->  this
+  20:    1  ->  vain
+  21:    1  ->  will
+  22:    1  ->  with
+  23:    1  ->  your
+     -------
+        24
+
+
+
+SUBSTITUTIONS                    Total                 (113)
+                                 With >=  1 occurrences (113)
+
+   1:    4  ->  and
+   2:    4  ->  in
+   3:    4  ->  that
+   4:    3  ->  a
+   5:    3  ->  as
+   6:    3  ->  of
+   7:    3  ->  x
+   8:    2  ->  at
+   9:    2  ->  is
+  10:    2  ->  it
+  11:    2  ->  laughs
+  12:    2  ->  was
+  13:    1  ->  agreed
+  14:    1  ->  beckoned
+  15:    1  ->  begun
+  16:    1  ->  blonde
+  17:    1  ->  blue
+  18:    1  ->  bones
+  19:    1  ->  broad
+  20:    1  ->  cake
+  21:    1  ->  cast
+  22:    1  ->  clasps
+  23:    1  ->  climbed
+  24:    1  ->  coagulates
+  25:    1  ->  coal
+  26:    1  ->  conifers
+  27:    1  ->  conspiring
+  28:    1  ->  daisy
+  29:    1  ->  debut
+  30:    1  ->  dice
+  31:    1  ->  dimly
+  32:    1  ->  due
+  33:    1  ->  dust
+  34:    1  ->  ease
+  35:    1  ->  emotionally
+  36:    1  ->  ends
+  37:    1  ->  ensue
+  38:    1  ->  face
+  39:    1  ->  fate
+  40:    1  ->  fierce
+  41:    1  ->  flesh
+  42:    1  ->  globules
+  43:    1  ->  go
+  44:    1  ->  goggles
+  45:    1  ->  grasp
+  46:    1  ->  had
+  47:    1  ->  hath
+  48:    1  ->  have
+  49:    1  ->  head
+  50:    1  ->  heard
+  51:    1  ->  heart
+  52:    1  ->  hips
+  53:    1  ->  holds
+  54:    1  ->  hoped
+  55:    1  ->  inept
+  56:    1  ->  land
+  57:    1  ->  lay
+  58:    1  ->  lead
+  59:    1  ->  lift
+  60:    1  ->  merely
+  61:    1  ->  mine
+  62:    1  ->  mold
+  63:    1  ->  not
+  64:    1  ->  on
+  65:    1  ->  outburst
+  66:    1  ->  path
+  67:    1  ->  perilous
+  68:    1  ->  pickaxe
+  69:    1  ->  pithead
+  70:    1  ->  point
+  71:    1  ->  render
+  72:    1  ->  riddle
+  73:    1  ->  rumors
+  74:    1  ->  sank
+  75:    1  ->  scarp
+  76:    1  ->  scorn
+  77:    1  ->  seamed
+  78:    1  ->  seams
+  79:    1  ->  seen
+  80:    1  ->  she
+  81:    1  ->  sheet
+  82:    1  ->  should
+  83:    1  ->  shrills
+  84:    1  ->  silences
+  85:    1  ->  slurred
+  86:    1  ->  softest
+  87:    1  ->  song
+  88:    1  ->  start
+  89:    1  ->  succor
+  90:    1  ->  swims
+  91:    1  ->  than
+  92:    1  ->  the
+  93:    1  ->  then
+  94:    1  ->  there
+  95:    1  ->  thicket
+  96:    1  ->  this
+  97:    1  ->  though
+  98:    1  ->  thought
+  99:    1  ->  to
+ 100:    1  ->  tribute
+ 101:    1  ->  tsunami
+ 102:    1  ->  tunnel
+ 103:    1  ->  unavailing
+ 104:    1  ->  unending
+ 105:    1  ->  until
+ 106:    1  ->  wanderers
+ 107:    1  ->  weight
+ 108:    1  ->  wherein
+ 109:    1  ->  womanhood
+ 110:    1  ->  word
+ 111:    1  ->  yards'
+ 112:    1  ->  yearn
+ 113:    1  ->  your
+     -------
+       135
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (117)
+                                 With >=  1 occurrences (117)
+
+   1:    4  ->  but
+   2:    4  ->  in
+   3:    3  ->  and
+   4:    3  ->  had
+   5:    3  ->  with
+   6:    2  ->  a
+   7:    2  ->  have
+   8:    2  ->  laughed
+   9:    2  ->  of
+  10:    2  ->  out
+  11:    2  ->  that
+  12:    1  ->  alan
+  13:    1  ->  am
+  14:    1  ->  apt
+  15:    1  ->  arguing
+  16:    1  ->  army
+  17:    1  ->  as
+  18:    1  ->  attribute
+  19:    1  ->  availing
+  20:    1  ->  ballpoint
+  21:    1  ->  beckon
+  22:    1  ->  began
+  23:    1  ->  blond
+  24:    1  ->  bone
+  25:    1  ->  boom
+  26:    1  ->  brown
+  27:    1  ->  bubbles
+  28:    1  ->  cage
+  29:    1  ->  camel
+  30:    1  ->  capture
+  31:    1  ->  clasp
+  32:    1  ->  climb
+  33:    1  ->  coagulate
+  34:    1  ->  cold
+  35:    1  ->  comics
+  36:    1  ->  cookie
+  37:    1  ->  counter
+  38:    1  ->  davila
+  39:    1  ->  davy
+  40:    1  ->  disagreed
+  41:    1  ->  do
+  42:    1  ->  empty
+  43:    1  ->  end
+  44:    1  ->  eyes
+  45:    1  ->  face
+  46:    1  ->  faces
+  47:    1  ->  first
+  48:    1  ->  flashed
+  49:    1  ->  glovis
+  50:    1  ->  gold
+  51:    1  ->  grasps
+  52:    1  ->  hapa
+  53:    1  ->  her
+  54:    1  ->  hip
+  55:    1  ->  holes
+  56:    1  ->  hood
+  57:    1  ->  hope
+  58:    1  ->  i
+  59:    1  ->  inspiring
+  60:    1  ->  is
+  61:    1  ->  it's
+  62:    1  ->  izon
+  63:    1  ->  lamp
+  64:    1  ->  lived
+  65:    1  ->  male
+  66:    1  ->  masterfoods
+  67:    1  ->  middle
+  68:    1  ->  milly
+  69:    1  ->  mind
+  70:    1  ->  motionless
+  71:    1  ->  my
+  72:    1  ->  obscene
+  73:    1  ->  off
+  74:    1  ->  pair
+  75:    1  ->  parade
+  76:    1  ->  parallel
+  77:    1  ->  past
+  78:    1  ->  pick
+  79:    1  ->  pounds
+  80:    1  ->  rumours
+  81:    1  ->  sausage
+  82:    1  ->  scan
+  83:    1  ->  scarf
+  84:    1  ->  scenes
+  85:    1  ->  screen
+  86:    1  ->  see
+  87:    1  ->  seem
+  88:    1  ->  sheets
+  89:    1  ->  shelled
+  90:    1  ->  shills
+  91:    1  ->  ship
+  92:    1  ->  shortly
+  93:    1  ->  silence
+  94:    1  ->  slowed
+  95:    1  ->  so
+  96:    1  ->  soccer
+  97:    1  ->  soft
+  98:    1  ->  stimuli
+  99:    1  ->  stocks
+ 100:    1  ->  sun
+ 101:    1  ->  swings
+ 102:    1  ->  swiss
+ 103:    1  ->  thank
+ 104:    1  ->  the
+ 105:    1  ->  thought
+ 106:    1  ->  ticket
+ 107:    1  ->  till
+ 108:    1  ->  under
+ 109:    1  ->  venues
+ 110:    1  ->  vice
+ 111:    1  ->  wait
+ 112:    1  ->  wanders
+ 113:    1  ->  was
+ 114:    1  ->  wood
+ 115:    1  ->  yards
+ 116:    1  ->  you
+ 117:    1  ->  young
+     -------
+       135
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

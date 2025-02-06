@@ -1,0 +1,217 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.8%   (  82)
+
+Percent Correct           =   94.8%   (1142)
+
+Percent Substitution      =    4.2%   (  51)
+Percent Deletions         =    1.0%   (  12)
+Percent Insertions        =    1.6%   (  19)
+Percent Word Accuracy     =   93.2%
+
+
+Ref. words                =           (1205)
+Hyp. words                =           (1212)
+Aligned words             =           (1224)
+
+CONFUSION PAIRS                  Total                 (46)
+                                 With >=  1 occurrences (46)
+
+   1:    4  ->  and ==> in
+   2:    2  ->  is ==> 's
+   3:    2  ->  o'hara's ==> 's
+   4:    1  ->  a ==> and
+   5:    1  ->  a ==> is
+   6:    1  ->  a ==> it's
+   7:    1  ->  a ==> the
+   8:    1  ->  abusive ==> of
+   9:    1  ->  ambience ==> ambiance
+  10:    1  ->  and ==> then
+  11:    1  ->  annul ==> annulled
+  12:    1  ->  baudelaire's ==> 's
+  13:    1  ->  baudelairean ==> baudelarian
+  14:    1  ->  beats ==> beads
+  15:    1  ->  elitism ==> and
+  16:    1  ->  for ==> leaders
+  17:    1  ->  ginsberg ==> ginsburg
+  18:    1  ->  images ==> is
+  19:    1  ->  in ==> cretin
+  20:    1  ->  influenced ==> influence
+  21:    1  ->  interlude ==> intolute
+  22:    1  ->  is ==> harris
+  23:    1  ->  love's ==> 's
+  24:    1  ->  madison ==> an
+  25:    1  ->  o'hara's ==> as
+  26:    1  ->  o'hara's ==> is
+  27:    1  ->  or ==> and
+  28:    1  ->  pose ==> polls
+  29:    1  ->  scene ==> seemed
+  30:    1  ->  selfconscious ==> conscious
+  31:    1  ->  selfdestruction ==> destruction
+  32:    1  ->  selfsatisfied ==> satisfied
+  33:    1  ->  the ==> a
+  34:    1  ->  thus ==> unless
+  35:    1  ->  to ==> and
+  36:    1  ->  weepiness ==> as
+  37:    1  ->  wellfounded ==> founded
+  38:    1  ->  wellorganised ==> organised
+  39:    1  ->  whitman's ==> 's
+  40:    1  ->  worldrenowned ==> renowned
+  41:    1  ->  writer's ==> writers
+  42:    1  ->  x ==> edged
+  43:    1  ->  x ==> iowa
+  44:    1  ->  x ==> that's
+  45:    1  ->  x ==> years
+  46:    1  ->  yet ==> and
+     -------
+        51
+
+
+
+INSERTIONS                       Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  self
+   2:    2  ->  o'hara
+   3:    2  ->  well
+   4:    1  ->  and
+   5:    1  ->  baudelaire
+   6:    1  ->  but
+   7:    1  ->  image
+   8:    1  ->  love
+   9:    1  ->  ohare
+  10:    1  ->  their
+  11:    1  ->  two
+  12:    1  ->  use
+  13:    1  ->  weeping
+  14:    1  ->  women
+  15:    1  ->  world
+     -------
+        19
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  add
+   2:    1  ->  and
+   3:    1  ->  attributed
+   4:    1  ->  baude
+   5:    1  ->  creep
+   6:    1  ->  cried
+   7:    1  ->  he's
+   8:    1  ->  in
+   9:    1  ->  o'hara
+  10:    1  ->  or
+  11:    1  ->  others'
+  12:    1  ->  to
+     -------
+        12
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    5  ->  and
+   2:    4  ->  a
+   3:    4  ->  o'hara's
+   4:    4  ->  x
+   5:    3  ->  is
+   6:    1  ->  abusive
+   7:    1  ->  ambience
+   8:    1  ->  annul
+   9:    1  ->  baudelaire's
+  10:    1  ->  baudelairean
+  11:    1  ->  beats
+  12:    1  ->  elitism
+  13:    1  ->  for
+  14:    1  ->  ginsberg
+  15:    1  ->  images
+  16:    1  ->  in
+  17:    1  ->  influenced
+  18:    1  ->  interlude
+  19:    1  ->  love's
+  20:    1  ->  madison
+  21:    1  ->  or
+  22:    1  ->  pose
+  23:    1  ->  scene
+  24:    1  ->  selfconscious
+  25:    1  ->  selfdestruction
+  26:    1  ->  selfsatisfied
+  27:    1  ->  the
+  28:    1  ->  thus
+  29:    1  ->  to
+  30:    1  ->  weepiness
+  31:    1  ->  wellfounded
+  32:    1  ->  wellorganised
+  33:    1  ->  whitman's
+  34:    1  ->  worldrenowned
+  35:    1  ->  writer's
+  36:    1  ->  yet
+     -------
+        51
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    7  ->  's
+   2:    5  ->  and
+   3:    4  ->  in
+   4:    3  ->  is
+   5:    2  ->  as
+   6:    1  ->  a
+   7:    1  ->  ambiance
+   8:    1  ->  an
+   9:    1  ->  annulled
+  10:    1  ->  baudelarian
+  11:    1  ->  beads
+  12:    1  ->  conscious
+  13:    1  ->  cretin
+  14:    1  ->  destruction
+  15:    1  ->  edged
+  16:    1  ->  founded
+  17:    1  ->  ginsburg
+  18:    1  ->  harris
+  19:    1  ->  influence
+  20:    1  ->  intolute
+  21:    1  ->  iowa
+  22:    1  ->  it's
+  23:    1  ->  leaders
+  24:    1  ->  of
+  25:    1  ->  organised
+  26:    1  ->  polls
+  27:    1  ->  renowned
+  28:    1  ->  satisfied
+  29:    1  ->  seemed
+  30:    1  ->  that's
+  31:    1  ->  the
+  32:    1  ->  then
+  33:    1  ->  unless
+  34:    1  ->  writers
+  35:    1  ->  years
+     -------
+        51
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

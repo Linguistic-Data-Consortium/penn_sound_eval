@@ -1,0 +1,204 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.3%   (  61)
+
+Percent Correct           =   94.0%   ( 917)
+
+Percent Substitution      =    3.9%   (  38)
+Percent Deletions         =    2.2%   (  21)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   93.8%
+
+
+Ref. words                =           ( 976)
+Hyp. words                =           ( 957)
+Aligned words             =           ( 978)
+
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  abandon ==> abandoned
+   3:    1  ->  ability ==> incommensurability
+   4:    1  ->  antimony ==> antinomy
+   5:    1  ->  apathetic ==> epiphatic
+   6:    1  ->  armpit's ==> armpits
+   7:    1  ->  borne ==> born
+   8:    1  ->  cart ==> car
+   9:    1  ->  cedar ==> seder
+  10:    1  ->  charmed ==> charm
+  11:    1  ->  dew ==> do
+  12:    1  ->  dot ==> adopt
+  13:    1  ->  failing ==> unfailing
+  14:    1  ->  in ==> and
+  15:    1  ->  interest ==> interests
+  16:    1  ->  is ==> with
+  17:    1  ->  man ==> and
+  18:    1  ->  modernism ==> postmodernism
+  19:    1  ->  name ==> names
+  20:    1  ->  now ==> how
+  21:    1  ->  phones ==> foams
+  22:    1  ->  prophesize ==> prophesies
+  23:    1  ->  rider ==> writer
+  24:    1  ->  scalp ==> gap
+  25:    1  ->  see ==> c
+  26:    1  ->  see ==> sea
+  27:    1  ->  senses ==> sentences
+  28:    1  ->  so ==> some
+  29:    1  ->  soo ==> sue
+  30:    1  ->  strong ==> sperm
+  31:    1  ->  that ==> it
+  32:    1  ->  the ==> this
+  33:    1  ->  time ==> tongue
+  34:    1  ->  tinder ==> tender
+  35:    1  ->  weiner ==> wiener
+  36:    1  ->  were ==> are
+  37:    1  ->  why ==> what
+  38:    1  ->  words ==> this
+     -------
+        38
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  a
+   2:    1  ->  or
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  a
+   2:    2  ->  and
+   3:    2  ->  the
+   4:    1  ->  all
+   5:    1  ->  filled
+   6:    1  ->  four
+   7:    1  ->  her
+   8:    1  ->  increments
+   9:    1  ->  post
+  10:    1  ->  s
+  11:    1  ->  screen
+  12:    1  ->  second
+  13:    1  ->  split
+  14:    1  ->  sudden
+  15:    1  ->  was
+  16:    1  ->  who
+  17:    1  ->  with
+  18:    1  ->  within
+     -------
+        21
+
+
+
+SUBSTITUTIONS                    Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  see
+   2:    1  ->  a
+   3:    1  ->  abandon
+   4:    1  ->  ability
+   5:    1  ->  antimony
+   6:    1  ->  apathetic
+   7:    1  ->  armpit's
+   8:    1  ->  borne
+   9:    1  ->  cart
+  10:    1  ->  cedar
+  11:    1  ->  charmed
+  12:    1  ->  dew
+  13:    1  ->  dot
+  14:    1  ->  failing
+  15:    1  ->  in
+  16:    1  ->  interest
+  17:    1  ->  is
+  18:    1  ->  man
+  19:    1  ->  modernism
+  20:    1  ->  name
+  21:    1  ->  now
+  22:    1  ->  phones
+  23:    1  ->  prophesize
+  24:    1  ->  rider
+  25:    1  ->  scalp
+  26:    1  ->  senses
+  27:    1  ->  so
+  28:    1  ->  soo
+  29:    1  ->  strong
+  30:    1  ->  that
+  31:    1  ->  the
+  32:    1  ->  time
+  33:    1  ->  tinder
+  34:    1  ->  weiner
+  35:    1  ->  were
+  36:    1  ->  why
+  37:    1  ->  words
+     -------
+        38
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  and
+   2:    2  ->  this
+   3:    1  ->  abandoned
+   4:    1  ->  adopt
+   5:    1  ->  antinomy
+   6:    1  ->  are
+   7:    1  ->  armpits
+   8:    1  ->  born
+   9:    1  ->  c
+  10:    1  ->  car
+  11:    1  ->  charm
+  12:    1  ->  do
+  13:    1  ->  epiphatic
+  14:    1  ->  foams
+  15:    1  ->  gap
+  16:    1  ->  how
+  17:    1  ->  incommensurability
+  18:    1  ->  interests
+  19:    1  ->  it
+  20:    1  ->  names
+  21:    1  ->  postmodernism
+  22:    1  ->  prophesies
+  23:    1  ->  sea
+  24:    1  ->  seder
+  25:    1  ->  sentences
+  26:    1  ->  some
+  27:    1  ->  sperm
+  28:    1  ->  sue
+  29:    1  ->  tender
+  30:    1  ->  the
+  31:    1  ->  tongue
+  32:    1  ->  unfailing
+  33:    1  ->  what
+  34:    1  ->  wiener
+  35:    1  ->  with
+  36:    1  ->  writer
+     -------
+        38
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,183 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.2%   (  41)
+
+Percent Correct           =   93.1%   ( 530)
+
+Percent Substitution      =    6.3%   (  36)
+Percent Deletions         =    0.5%   (   3)
+Percent Insertions        =    0.4%   (   2)
+Percent Word Accuracy     =   92.8%
+
+
+Ref. words                =           ( 569)
+Hyp. words                =           ( 568)
+Aligned words             =           ( 571)
+
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  abasol ==> abyssal
+   3:    1  ->  ascetic ==> aesthetic
+   4:    1  ->  cairn ==> karen
+   5:    1  ->  colon ==> on
+   6:    1  ->  easternmost ==> most
+   7:    1  ->  emancipation ==> emancipator
+   8:    1  ->  empirion ==> imperian
+   9:    1  ->  enzyme ==> signs
+  10:    1  ->  garden ==> guden
+  11:    1  ->  girl ==> girls
+  12:    1  ->  had ==> hood
+  13:    1  ->  here ==> hairs
+  14:    1  ->  icarian ==> akarian
+  15:    1  ->  is ==> 's
+  16:    1  ->  is ==> call
+  17:    1  ->  keen ==> quinoa
+  18:    1  ->  kinsmen ==> kinsman
+  19:    1  ->  lost ==> last
+  20:    1  ->  muffle ==> muffled
+  21:    1  ->  or ==> were
+  22:    1  ->  point ==> standpoint
+  23:    1  ->  reevaluation ==> revaluation
+  24:    1  ->  scrawl ==> scroll
+  25:    1  ->  screaming ==> streaming
+  26:    1  ->  sea ==> c
+  27:    1  ->  sentries ==> centuries
+  28:    1  ->  shear ==> share
+  29:    1  ->  shoal ==> shall
+  30:    1  ->  shoal ==> show
+  31:    1  ->  spoken ==> underspoken
+  32:    1  ->  stamp ==> stamped
+  33:    1  ->  steeps ==> deeps
+  34:    1  ->  voracity ==> veracity
+  35:    1  ->  woe ==> world
+  36:    1  ->  woes ==> 's
+     -------
+        36
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  and
+   2:    1  ->  eastern
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  stand
+   2:    1  ->  under
+   3:    1  ->  who
+     -------
+         3
+
+
+
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    2  ->  is
+   2:    2  ->  shoal
+   3:    1  ->  a
+   4:    1  ->  abasol
+   5:    1  ->  ascetic
+   6:    1  ->  cairn
+   7:    1  ->  colon
+   8:    1  ->  easternmost
+   9:    1  ->  emancipation
+  10:    1  ->  empirion
+  11:    1  ->  enzyme
+  12:    1  ->  garden
+  13:    1  ->  girl
+  14:    1  ->  had
+  15:    1  ->  here
+  16:    1  ->  icarian
+  17:    1  ->  keen
+  18:    1  ->  kinsmen
+  19:    1  ->  lost
+  20:    1  ->  muffle
+  21:    1  ->  or
+  22:    1  ->  point
+  23:    1  ->  reevaluation
+  24:    1  ->  scrawl
+  25:    1  ->  screaming
+  26:    1  ->  sea
+  27:    1  ->  sentries
+  28:    1  ->  shear
+  29:    1  ->  spoken
+  30:    1  ->  stamp
+  31:    1  ->  steeps
+  32:    1  ->  voracity
+  33:    1  ->  woe
+  34:    1  ->  woes
+     -------
+        36
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
+
+   1:    2  ->  's
+   2:    1  ->  abyssal
+   3:    1  ->  aesthetic
+   4:    1  ->  akarian
+   5:    1  ->  c
+   6:    1  ->  call
+   7:    1  ->  centuries
+   8:    1  ->  deeps
+   9:    1  ->  emancipator
+  10:    1  ->  girls
+  11:    1  ->  guden
+  12:    1  ->  hairs
+  13:    1  ->  hood
+  14:    1  ->  imperian
+  15:    1  ->  karen
+  16:    1  ->  kinsman
+  17:    1  ->  last
+  18:    1  ->  most
+  19:    1  ->  muffled
+  20:    1  ->  of
+  21:    1  ->  on
+  22:    1  ->  quinoa
+  23:    1  ->  revaluation
+  24:    1  ->  scroll
+  25:    1  ->  shall
+  26:    1  ->  share
+  27:    1  ->  show
+  28:    1  ->  signs
+  29:    1  ->  stamped
+  30:    1  ->  standpoint
+  31:    1  ->  streaming
+  32:    1  ->  underspoken
+  33:    1  ->  veracity
+  34:    1  ->  were
+  35:    1  ->  world
+     -------
+        36
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

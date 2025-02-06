@@ -1,0 +1,366 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   12.2%   ( 137)
+
+Percent Correct           =   88.9%   ( 998)
+
+Percent Substitution      =    9.3%   ( 104)
+Percent Deletions         =    1.8%   (  20)
+Percent Insertions        =    1.2%   (  13)
+Percent Word Accuracy     =   87.8%
+
+
+Ref. words                =           (1122)
+Hyp. words                =           (1115)
+Aligned words             =           (1135)
+
+CONFUSION PAIRS                  Total                 (94)
+                                 With >=  1 occurrences (94)
+
+   1:    4  ->  in ==> and
+   2:    3  ->  tchaikovsky ==> schakowsky
+   3:    2  ->  and ==> in
+   4:    2  ->  baroque ==> broke
+   5:    2  ->  concertino ==> concertina
+   6:    2  ->  manet ==> money
+   7:    2  ->  velazquez ==> alaska's
+   8:    1  ->  a ==> was
+   9:    1  ->  airily ==> arrow
+  10:    1  ->  allan ==> alan
+  11:    1  ->  aloud ==> loud
+  12:    1  ->  an ==> and
+  13:    1  ->  and ==> wilson
+  14:    1  ->  anne ==> and
+  15:    1  ->  antoine ==> tom
+  16:    1  ->  are ==> slider
+  17:    1  ->  are ==> user
+  18:    1  ->  ashbery ==> ashbury
+  19:    1  ->  ask ==> asked
+  20:    1  ->  at ==> with
+  21:    1  ->  atop ==> top
+  22:    1  ->  berrigan ==> barragan
+  23:    1  ->  bmt ==> t
+  24:    1  ->  brahms ==> bronze
+  25:    1  ->  brainard ==> brainer
+  26:    1  ->  buffoon ==> buffet
+  27:    1  ->  bye ==> by
+  28:    1  ->  caravaggio ==> garbage
+  29:    1  ->  carpentier ==> charpentier
+  30:    1  ->  ceravolo ==> ravelo
+  31:    1  ->  chartered ==> charted
+  32:    1  ->  comb ==> calm
+  33:    1  ->  concertina ==> constantino
+  34:    1  ->  continue ==> continued
+  35:    1  ->  croissant ==> cholesterol
+  36:    1  ->  croissant ==> colossal
+  37:    1  ->  denby ==> be
+  38:    1  ->  do ==> be
+  39:    1  ->  earshot ==> shot
+  40:    1  ->  earth ==> herb
+  41:    1  ->  edwin ==> then
+  42:    1  ->  elmslie ==> emsley
+  43:    1  ->  enquire ==> inquire
+  44:    1  ->  expansive ==> of
+  45:    1  ->  explorers ==> explores
+  46:    1  ->  fagin ==> fagan
+  47:    1  ->  gallup ==> gallop
+  48:    1  ->  girono ==> jarno
+  49:    1  ->  good ==> and
+  50:    1  ->  had ==> it
+  51:    1  ->  hart ==> hard
+  52:    1  ->  ilyich ==> elliott
+  53:    1  ->  immersed ==> merced
+  54:    1  ->  in ==> mountain
+  55:    1  ->  inept ==> mp
+  56:    1  ->  it ==> at
+  57:    1  ->  its ==> that's
+  58:    1  ->  kaplan ==> captain
+  59:    1  ->  koch ==> coke
+  60:    1  ->  labyrinth ==> elabourate
+  61:    1  ->  lachaise ==> has
+  62:    1  ->  lachaise ==> paralyses
+  63:    1  ->  leaves ==> eves
+  64:    1  ->  marc ==> on
+  65:    1  ->  melancholy ==> melancholic
+  66:    1  ->  not ==> of
+  67:    1  ->  of ==> at
+  68:    1  ->  oh ==> so
+  69:    1  ->  or ==> but
+  70:    1  ->  outline ==> outlined
+  71:    1  ->  pacing ==> facing
+  72:    1  ->  padgett ==> page
+  73:    1  ->  parts ==> parks
+  74:    1  ->  peopling ==> in
+  75:    1  ->  pere ==> parallel
+  76:    1  ->  poet ==> post
+  77:    1  ->  poised ==> boys
+  78:    1  ->  read ==> anyway
+  79:    1  ->  ruffle ==> ruffled
+  80:    1  ->  schjeldahl ==> shed
+  81:    1  ->  schuyler ==> skyler
+  82:    1  ->  shelves ==> shells
+  83:    1  ->  sixteen ==> sixty
+  84:    1  ->  soul ==> so
+  85:    1  ->  the ==> te
+  86:    1  ->  thrashing ==> crashing
+  87:    1  ->  travel ==> traveled
+  88:    1  ->  velazquez ==> vilasco
+  89:    1  ->  warsh ==> was
+  90:    1  ->  way ==> away
+  91:    1  ->  when ==> and
+  92:    1  ->  whose ==> who's
+  93:    1  ->  wind ==> win
+  94:    1  ->  you ==> we
+     -------
+       104
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  the
+   2:    1  ->  a
+   3:    1  ->  beer
+   4:    1  ->  bm
+   5:    1  ->  ed
+   6:    1  ->  expanse
+   7:    1  ->  lead
+   8:    1  ->  mark
+   9:    1  ->  not
+  10:    1  ->  on
+  11:    1  ->  people
+  12:    1  ->  would
+     -------
+        13
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    3  ->  and
+   2:    2  ->  k.
+   3:    2  ->  o.
+   4:    2  ->  the
+   5:    1  ->  a
+   6:    1  ->  as
+   7:    1  ->  let
+   8:    1  ->  me
+   9:    1  ->  not
+  10:    1  ->  oh
+  11:    1  ->  pere
+  12:    1  ->  sleet
+  13:    1  ->  these
+  14:    1  ->  time
+  15:    1  ->  velazquez
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (88)
+                                 With >=  1 occurrences (88)
+
+   1:    5  ->  in
+   2:    3  ->  and
+   3:    3  ->  tchaikovsky
+   4:    3  ->  velazquez
+   5:    2  ->  are
+   6:    2  ->  baroque
+   7:    2  ->  concertino
+   8:    2  ->  croissant
+   9:    2  ->  lachaise
+  10:    2  ->  manet
+  11:    1  ->  a
+  12:    1  ->  airily
+  13:    1  ->  allan
+  14:    1  ->  aloud
+  15:    1  ->  an
+  16:    1  ->  anne
+  17:    1  ->  antoine
+  18:    1  ->  ashbery
+  19:    1  ->  ask
+  20:    1  ->  at
+  21:    1  ->  atop
+  22:    1  ->  berrigan
+  23:    1  ->  bmt
+  24:    1  ->  brahms
+  25:    1  ->  brainard
+  26:    1  ->  buffoon
+  27:    1  ->  bye
+  28:    1  ->  caravaggio
+  29:    1  ->  carpentier
+  30:    1  ->  ceravolo
+  31:    1  ->  chartered
+  32:    1  ->  comb
+  33:    1  ->  concertina
+  34:    1  ->  continue
+  35:    1  ->  denby
+  36:    1  ->  do
+  37:    1  ->  earshot
+  38:    1  ->  earth
+  39:    1  ->  edwin
+  40:    1  ->  elmslie
+  41:    1  ->  enquire
+  42:    1  ->  expansive
+  43:    1  ->  explorers
+  44:    1  ->  fagin
+  45:    1  ->  gallup
+  46:    1  ->  girono
+  47:    1  ->  good
+  48:    1  ->  had
+  49:    1  ->  hart
+  50:    1  ->  ilyich
+  51:    1  ->  immersed
+  52:    1  ->  inept
+  53:    1  ->  it
+  54:    1  ->  its
+  55:    1  ->  kaplan
+  56:    1  ->  koch
+  57:    1  ->  labyrinth
+  58:    1  ->  leaves
+  59:    1  ->  marc
+  60:    1  ->  melancholy
+  61:    1  ->  not
+  62:    1  ->  of
+  63:    1  ->  oh
+  64:    1  ->  or
+  65:    1  ->  outline
+  66:    1  ->  pacing
+  67:    1  ->  padgett
+  68:    1  ->  parts
+  69:    1  ->  peopling
+  70:    1  ->  pere
+  71:    1  ->  poet
+  72:    1  ->  poised
+  73:    1  ->  read
+  74:    1  ->  ruffle
+  75:    1  ->  schjeldahl
+  76:    1  ->  schuyler
+  77:    1  ->  shelves
+  78:    1  ->  sixteen
+  79:    1  ->  soul
+  80:    1  ->  the
+  81:    1  ->  thrashing
+  82:    1  ->  travel
+  83:    1  ->  warsh
+  84:    1  ->  way
+  85:    1  ->  when
+  86:    1  ->  whose
+  87:    1  ->  wind
+  88:    1  ->  you
+     -------
+       104
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (84)
+                                 With >=  1 occurrences (84)
+
+   1:    8  ->  and
+   2:    3  ->  in
+   3:    3  ->  schakowsky
+   4:    2  ->  alaska's
+   5:    2  ->  at
+   6:    2  ->  be
+   7:    2  ->  broke
+   8:    2  ->  concertina
+   9:    2  ->  money
+  10:    2  ->  of
+  11:    2  ->  so
+  12:    2  ->  was
+  13:    1  ->  alan
+  14:    1  ->  anyway
+  15:    1  ->  arrow
+  16:    1  ->  ashbury
+  17:    1  ->  asked
+  18:    1  ->  away
+  19:    1  ->  barragan
+  20:    1  ->  boys
+  21:    1  ->  brainer
+  22:    1  ->  bronze
+  23:    1  ->  buffet
+  24:    1  ->  but
+  25:    1  ->  by
+  26:    1  ->  calm
+  27:    1  ->  captain
+  28:    1  ->  charpentier
+  29:    1  ->  charted
+  30:    1  ->  cholesterol
+  31:    1  ->  coke
+  32:    1  ->  colossal
+  33:    1  ->  constantino
+  34:    1  ->  continued
+  35:    1  ->  crashing
+  36:    1  ->  elabourate
+  37:    1  ->  elliott
+  38:    1  ->  emsley
+  39:    1  ->  eves
+  40:    1  ->  explores
+  41:    1  ->  facing
+  42:    1  ->  fagan
+  43:    1  ->  gallop
+  44:    1  ->  garbage
+  45:    1  ->  hard
+  46:    1  ->  has
+  47:    1  ->  herb
+  48:    1  ->  inquire
+  49:    1  ->  it
+  50:    1  ->  jarno
+  51:    1  ->  loud
+  52:    1  ->  melancholic
+  53:    1  ->  merced
+  54:    1  ->  mountain
+  55:    1  ->  mp
+  56:    1  ->  on
+  57:    1  ->  outlined
+  58:    1  ->  page
+  59:    1  ->  parallel
+  60:    1  ->  paralyses
+  61:    1  ->  parks
+  62:    1  ->  post
+  63:    1  ->  ravelo
+  64:    1  ->  ruffled
+  65:    1  ->  shed
+  66:    1  ->  shells
+  67:    1  ->  shot
+  68:    1  ->  sixty
+  69:    1  ->  skyler
+  70:    1  ->  slider
+  71:    1  ->  t
+  72:    1  ->  te
+  73:    1  ->  that's
+  74:    1  ->  then
+  75:    1  ->  tom
+  76:    1  ->  top
+  77:    1  ->  traveled
+  78:    1  ->  user
+  79:    1  ->  vilasco
+  80:    1  ->  we
+  81:    1  ->  who's
+  82:    1  ->  wilson
+  83:    1  ->  win
+  84:    1  ->  with
+     -------
+       104
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

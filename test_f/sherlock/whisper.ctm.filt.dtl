@@ -1,0 +1,199 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.6%   (  60)
+
+Percent Correct           =   94.3%   ( 855)
+
+Percent Substitution      =    4.3%   (  39)
+Percent Deletions         =    1.4%   (  13)
+Percent Insertions        =    0.9%   (   8)
+Percent Word Accuracy     =   93.4%
+
+
+Ref. words                =           ( 907)
+Hyp. words                =           ( 902)
+Aligned words             =           ( 915)
+
+CONFUSION PAIRS                  Total                 (37)
+                                 With >=  1 occurrences (37)
+
+   1:    2  ->  one ==> 1901
+   2:    2  ->  twentieth ==> 20th
+   3:    1  ->  as ==> is
+   4:    1  ->  conto ==> canto
+   5:    1  ->  depazzi ==> pazzi
+   6:    1  ->  eighties ==> 1880s
+   7:    1  ->  eleventh ==> 11th
+   8:    1  ->  fabula ==> fabiola
+   9:    1  ->  father ==> fr
+  10:    1  ->  hundred ==> oh
+  11:    1  ->  isoleri ==> isolari
+  12:    1  ->  istfan ==> isvan
+  13:    1  ->  italianamerican ==> american
+  14:    1  ->  korkemaz ==> korkomas
+  15:    1  ->  mar ==> st
+  16:    1  ->  merrymaking ==> making
+  17:    1  ->  midseventeenth ==> 17th
+  18:    1  ->  molise ==> melis
+  19:    1  ->  montrose ==> montreux
+  20:    1  ->  nineteen ==> 19th
+  21:    1  ->  ninth ==> 9th
+  22:    1  ->  passyunk ==> passiocque
+  23:    1  ->  pier ==> peer
+  24:    1  ->  saint ==> st
+  25:    1  ->  screenings ==> screening
+  26:    1  ->  seven ==> 1887
+  27:    1  ->  seventy ==> seven
+  28:    1  ->  snockey's ==> snocky's
+  29:    1  ->  states ==> states'
+  30:    1  ->  tayoun's ==> tayun's
+  31:    1  ->  tenth ==> tent
+  32:    1  ->  the ==> a
+  33:    1  ->  the ==> to
+  34:    1  ->  twelfth ==> 12th
+  35:    1  ->  version ==> virgin
+  36:    1  ->  win ==> nguyen
+  37:    1  ->  x ==> feste
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  the
+   2:    1  ->  and
+   3:    1  ->  de
+   4:    1  ->  is
+   5:    1  ->  italian
+   6:    1  ->  mid
+   7:    1  ->  murray
+     -------
+         8
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    2  ->  eighteen
+   2:    2  ->  nineteen
+   3:    2  ->  oh
+   4:    1  ->  a
+   5:    1  ->  and
+   6:    1  ->  eighty
+   7:    1  ->  i
+   8:    1  ->  r
+   9:    1  ->  s
+  10:    1  ->  saint
+     -------
+        13
+
+
+
+SUBSTITUTIONS                    Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  one
+   2:    2  ->  the
+   3:    2  ->  twentieth
+   4:    1  ->  as
+   5:    1  ->  conto
+   6:    1  ->  depazzi
+   7:    1  ->  eighties
+   8:    1  ->  eleventh
+   9:    1  ->  fabula
+  10:    1  ->  father
+  11:    1  ->  hundred
+  12:    1  ->  isoleri
+  13:    1  ->  istfan
+  14:    1  ->  italianamerican
+  15:    1  ->  korkemaz
+  16:    1  ->  mar
+  17:    1  ->  merrymaking
+  18:    1  ->  midseventeenth
+  19:    1  ->  molise
+  20:    1  ->  montrose
+  21:    1  ->  nineteen
+  22:    1  ->  ninth
+  23:    1  ->  passyunk
+  24:    1  ->  pier
+  25:    1  ->  saint
+  26:    1  ->  screenings
+  27:    1  ->  seven
+  28:    1  ->  seventy
+  29:    1  ->  snockey's
+  30:    1  ->  states
+  31:    1  ->  tayoun's
+  32:    1  ->  tenth
+  33:    1  ->  twelfth
+  34:    1  ->  version
+  35:    1  ->  win
+  36:    1  ->  x
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    2  ->  1901
+   2:    2  ->  20th
+   3:    2  ->  st
+   4:    1  ->  11th
+   5:    1  ->  12th
+   6:    1  ->  17th
+   7:    1  ->  1880s
+   8:    1  ->  1887
+   9:    1  ->  19th
+  10:    1  ->  9th
+  11:    1  ->  a
+  12:    1  ->  american
+  13:    1  ->  canto
+  14:    1  ->  fabiola
+  15:    1  ->  feste
+  16:    1  ->  fr
+  17:    1  ->  is
+  18:    1  ->  isolari
+  19:    1  ->  isvan
+  20:    1  ->  korkomas
+  21:    1  ->  making
+  22:    1  ->  melis
+  23:    1  ->  montreux
+  24:    1  ->  nguyen
+  25:    1  ->  oh
+  26:    1  ->  passiocque
+  27:    1  ->  pazzi
+  28:    1  ->  peer
+  29:    1  ->  screening
+  30:    1  ->  seven
+  31:    1  ->  snocky's
+  32:    1  ->  states'
+  33:    1  ->  tayun's
+  34:    1  ->  tent
+  35:    1  ->  to
+  36:    1  ->  virgin
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

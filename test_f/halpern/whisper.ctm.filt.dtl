@@ -1,0 +1,121 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.8%   (  20)
+
+Percent Correct           =   97.8%   ( 696)
+
+Percent Substitution      =    2.0%   (  14)
+Percent Deletions         =    0.3%   (   2)
+Percent Insertions        =    0.6%   (   4)
+Percent Word Accuracy     =   97.2%
+
+
+Ref. words                =           ( 712)
+Hyp. words                =           ( 714)
+Aligned words             =           ( 716)
+
+CONFUSION PAIRS                  Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  airs ==> heirs
+   2:    1  ->  as ==> is
+   3:    1  ->  conciliation ==> reconciliation
+   4:    1  ->  election's ==> elections
+   5:    1  ->  faux ==> foe
+   6:    1  ->  fishers ==> in
+   7:    1  ->  for ==> where
+   8:    1  ->  grips ==> grieves
+   9:    1  ->  hundred ==> zero
+  10:    1  ->  incoherent ==> coherence
+  11:    1  ->  insert ==> cert
+  12:    1  ->  particles ==> he
+  13:    1  ->  seemed ==> seems
+  14:    1  ->  vowels ==> vows
+     -------
+        14
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  fissures
+   2:    1  ->  in
+   3:    1  ->  is
+   4:    1  ->  particle
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  i
+   2:    1  ->  our
+     -------
+         2
+
+
+
+SUBSTITUTIONS                    Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  airs
+   2:    1  ->  as
+   3:    1  ->  conciliation
+   4:    1  ->  election's
+   5:    1  ->  faux
+   6:    1  ->  fishers
+   7:    1  ->  for
+   8:    1  ->  grips
+   9:    1  ->  hundred
+  10:    1  ->  incoherent
+  11:    1  ->  insert
+  12:    1  ->  particles
+  13:    1  ->  seemed
+  14:    1  ->  vowels
+     -------
+        14
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  cert
+   2:    1  ->  coherence
+   3:    1  ->  elections
+   4:    1  ->  foe
+   5:    1  ->  grieves
+   6:    1  ->  he
+   7:    1  ->  heirs
+   8:    1  ->  in
+   9:    1  ->  is
+  10:    1  ->  reconciliation
+  11:    1  ->  seems
+  12:    1  ->  vows
+  13:    1  ->  where
+  14:    1  ->  zero
+     -------
+        14
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

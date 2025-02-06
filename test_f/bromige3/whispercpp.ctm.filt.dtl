@@ -1,0 +1,227 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whispercpp.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.2%   (  71)
+
+Percent Correct           =   94.0%   ( 922)
+
+Percent Substitution      =    4.3%   (  42)
+Percent Deletions         =    1.7%   (  17)
+Percent Insertions        =    1.2%   (  12)
+Percent Word Accuracy     =   92.8%
+
+
+Ref. words                =           ( 981)
+Hyp. words                =           ( 976)
+Aligned words             =           ( 993)
+
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  a ==> of
+   2:    1  ->  alone ==> along
+   3:    1  ->  blanket ==> blankets
+   4:    1  ->  brakes ==> breaks
+   5:    1  ->  but ==> that
+   6:    1  ->  butcher's ==> butchers
+   7:    1  ->  chevy's ==> chevies
+   8:    1  ->  chiaroscuro ==> skewer
+   9:    1  ->  covers ==> cupboards
+  10:    1  ->  crosspiece ==> piece
+  11:    1  ->  cutthroat ==> throw
+  12:    1  ->  eddies ==> is
+  13:    1  ->  enormity ==> anonymity
+  14:    1  ->  falls ==> false
+  15:    1  ->  five ==> 1965
+  16:    1  ->  governments ==> government's
+  17:    1  ->  hatrack ==> rack
+  18:    1  ->  heath ==> heap
+  19:    1  ->  hiding ==> fighting
+  20:    1  ->  hold ==> old
+  21:    1  ->  in ==> into
+  22:    1  ->  in ==> striking
+  23:    1  ->  knocked ==> not
+  24:    1  ->  light ==> life
+  25:    1  ->  of ==> on
+  26:    1  ->  poems ==> from
+  27:    1  ->  posit ==> it
+  28:    1  ->  save ==> saved
+  29:    1  ->  seen ==> scene
+  30:    1  ->  silver ==> tree
+  31:    1  ->  slide ==> side
+  32:    1  ->  street ==> stream
+  33:    1  ->  sun ==> sunsilver
+  34:    1  ->  this ==> the
+  35:    1  ->  tommy's ==> tummy's
+  36:    1  ->  trees ==> leads
+  37:    1  ->  want ==> won
+  38:    1  ->  wed ==> newlywed
+  39:    1  ->  went ==> when
+  40:    1  ->  with ==> poem
+  41:    1  ->  you ==> he
+  42:    1  ->  your ==> you
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  a
+   2:    1  ->  cross
+   3:    1  ->  cup
+   4:    1  ->  day
+   5:    1  ->  hat
+   6:    1  ->  have
+   7:    1  ->  is
+   8:    1  ->  it
+   9:    1  ->  other
+  10:    1  ->  pause
+  11:    1  ->  skewer
+  12:    1  ->  the
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    1  ->  angeles
+   2:    1  ->  black
+   3:    1  ->  by
+   4:    1  ->  in
+   5:    1  ->  it
+   6:    1  ->  los
+   7:    1  ->  newly
+   8:    1  ->  nineteen
+   9:    1  ->  out
+  10:    1  ->  press
+  11:    1  ->  put
+  12:    1  ->  sixty
+  13:    1  ->  sparrow
+  14:    1  ->  strike
+  15:    1  ->  this
+  16:    1  ->  was
+  17:    1  ->  year
+     -------
+        17
+
+
+
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
+
+   1:    2  ->  in
+   2:    1  ->  a
+   3:    1  ->  alone
+   4:    1  ->  blanket
+   5:    1  ->  brakes
+   6:    1  ->  but
+   7:    1  ->  butcher's
+   8:    1  ->  chevy's
+   9:    1  ->  chiaroscuro
+  10:    1  ->  covers
+  11:    1  ->  crosspiece
+  12:    1  ->  cutthroat
+  13:    1  ->  eddies
+  14:    1  ->  enormity
+  15:    1  ->  falls
+  16:    1  ->  five
+  17:    1  ->  governments
+  18:    1  ->  hatrack
+  19:    1  ->  heath
+  20:    1  ->  hiding
+  21:    1  ->  hold
+  22:    1  ->  knocked
+  23:    1  ->  light
+  24:    1  ->  of
+  25:    1  ->  poems
+  26:    1  ->  posit
+  27:    1  ->  save
+  28:    1  ->  seen
+  29:    1  ->  silver
+  30:    1  ->  slide
+  31:    1  ->  street
+  32:    1  ->  sun
+  33:    1  ->  this
+  34:    1  ->  tommy's
+  35:    1  ->  trees
+  36:    1  ->  want
+  37:    1  ->  wed
+  38:    1  ->  went
+  39:    1  ->  with
+  40:    1  ->  you
+  41:    1  ->  your
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
+
+   1:    1  ->  1965
+   2:    1  ->  along
+   3:    1  ->  anonymity
+   4:    1  ->  blankets
+   5:    1  ->  breaks
+   6:    1  ->  butchers
+   7:    1  ->  chevies
+   8:    1  ->  cupboards
+   9:    1  ->  false
+  10:    1  ->  fighting
+  11:    1  ->  from
+  12:    1  ->  government's
+  13:    1  ->  he
+  14:    1  ->  heap
+  15:    1  ->  into
+  16:    1  ->  is
+  17:    1  ->  it
+  18:    1  ->  leads
+  19:    1  ->  life
+  20:    1  ->  newlywed
+  21:    1  ->  not
+  22:    1  ->  of
+  23:    1  ->  old
+  24:    1  ->  on
+  25:    1  ->  piece
+  26:    1  ->  poem
+  27:    1  ->  rack
+  28:    1  ->  saved
+  29:    1  ->  scene
+  30:    1  ->  side
+  31:    1  ->  skewer
+  32:    1  ->  stream
+  33:    1  ->  striking
+  34:    1  ->  sunsilver
+  35:    1  ->  that
+  36:    1  ->  the
+  37:    1  ->  throw
+  38:    1  ->  tree
+  39:    1  ->  tummy's
+  40:    1  ->  when
+  41:    1  ->  won
+  42:    1  ->  you
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

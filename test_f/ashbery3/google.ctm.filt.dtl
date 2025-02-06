@@ -1,0 +1,150 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.5%   (  52)
+
+Percent Correct           =   94.7%   ( 898)
+
+Percent Substitution      =    1.9%   (  18)
+Percent Deletions         =    3.4%   (  32)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   94.5%
+
+
+Ref. words                =           ( 948)
+Hyp. words                =           ( 918)
+Aligned words             =           ( 950)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    2  ->  ashbery ==> ashbury
+   2:    1  ->  a ==> i
+   3:    1  ->  an ==> and
+   4:    1  ->  and ==> but
+   5:    1  ->  ashbery's ==> ashbury's
+   6:    1  ->  bass ==> base
+   7:    1  ->  discreet ==> discrete
+   8:    1  ->  eurydice ==> erudiacy
+   9:    1  ->  not ==> no
+  10:    1  ->  orpheus ==> ashbury
+  11:    1  ->  shall ==> should
+  12:    1  ->  stop ==> was
+  13:    1  ->  syringa ==> seringa
+  14:    1  ->  syringa ==> the
+  15:    1  ->  tentativeness ==> tenativeness
+  16:    1  ->  the ==> a
+  17:    1  ->  would ==> will
+     -------
+        18
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  it
+   2:    1  ->  seringa
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    3  ->  a
+   2:    3  ->  the
+   3:    2  ->  and
+   4:    2  ->  i
+   5:    1  ->  did
+   6:    1  ->  going
+   7:    1  ->  had
+   8:    1  ->  in
+   9:    1  ->  it
+  10:    1  ->  legend
+  11:    1  ->  mezzo
+  12:    1  ->  not
+  13:    1  ->  of
+  14:    1  ->  on
+  15:    1  ->  orpheus
+  16:    1  ->  p
+  17:    1  ->  r
+  18:    1  ->  simultaneously
+  19:    1  ->  sings
+  20:    1  ->  so
+  21:    1  ->  soprano
+  22:    1  ->  syringa
+  23:    1  ->  that
+  24:    1  ->  to
+  25:    1  ->  while
+  26:    1  ->  x
+     -------
+        32
+
+
+
+SUBSTITUTIONS                    Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  ashbery
+   2:    2  ->  syringa
+   3:    1  ->  a
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  ashbery's
+   7:    1  ->  bass
+   8:    1  ->  discreet
+   9:    1  ->  eurydice
+  10:    1  ->  not
+  11:    1  ->  orpheus
+  12:    1  ->  shall
+  13:    1  ->  stop
+  14:    1  ->  tentativeness
+  15:    1  ->  the
+  16:    1  ->  would
+     -------
+        18
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  ashbury
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  ashbury's
+   5:    1  ->  base
+   6:    1  ->  but
+   7:    1  ->  discrete
+   8:    1  ->  erudiacy
+   9:    1  ->  i
+  10:    1  ->  no
+  11:    1  ->  seringa
+  12:    1  ->  should
+  13:    1  ->  tenativeness
+  14:    1  ->  the
+  15:    1  ->  was
+  16:    1  ->  will
+     -------
+        18
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

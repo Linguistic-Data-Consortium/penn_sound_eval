@@ -1,0 +1,200 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.0%   (  68)
+
+Percent Correct           =   94.1%   ( 798)
+
+Percent Substitution      =    4.6%   (  39)
+Percent Deletions         =    1.3%   (  11)
+Percent Insertions        =    2.1%   (  18)
+Percent Word Accuracy     =   92.0%
+
+
+Ref. words                =           ( 848)
+Hyp. words                =           ( 855)
+Aligned words             =           ( 866)
+
+CONFUSION PAIRS                  Total                 (39)
+                                 With >=  1 occurrences (39)
+
+   1:    1  ->  %bcack ==> i
+   2:    1  ->  %bcack ==> to
+   3:    1  ->  an ==> a
+   4:    1  ->  and ==> a
+   5:    1  ->  and ==> know
+   6:    1  ->  answers ==> is
+   7:    1  ->  artaud ==> roke
+   8:    1  ->  brechtian ==> brean
+   9:    1  ->  certeau ==> certo
+  10:    1  ->  cross ==> across
+  11:    1  ->  discussed ==> disgusted
+  12:    1  ->  disgust ==> discuss
+  13:    1  ->  disgust ==> discussed
+  14:    1  ->  his ==> this
+  15:    1  ->  if ==> where
+  16:    1  ->  interest ==> interesting
+  17:    1  ->  it ==> this
+  18:    1  ->  libidinal ==> mill
+  19:    1  ->  look ==> looks
+  20:    1  ->  michel ==> michelle
+  21:    1  ->  of ==> have
+  22:    1  ->  once ==> was
+  23:    1  ->  phenomena ==> phenomenon
+  24:    1  ->  ten ==> oh
+  25:    1  ->  that ==> of
+  26:    1  ->  the ==> that
+  27:    1  ->  then ==> than
+  28:    1  ->  there's ==> it's
+  29:    1  ->  there's ==> that's
+  30:    1  ->  this ==> it
+  31:    1  ->  while ==> well
+  32:    1  ->  x ==> a
+  33:    1  ->  x ==> and
+  34:    1  ->  x ==> as
+  35:    1  ->  x ==> cps
+  36:    1  ->  x ==> fashion
+  37:    1  ->  x ==> had
+  38:    1  ->  x ==> mean
+  39:    1  ->  x ==> you
+     -------
+        39
+
+
+
+INSERTIONS                       Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    3  ->  i
+   2:    1  ->  <affirmative>
+   3:    1  ->  and
+   4:    1  ->  are
+   5:    1  ->  is
+   6:    1  ->  it
+   7:    1  ->  it's
+   8:    1  ->  just
+   9:    1  ->  lipid
+  10:    1  ->  mean
+  11:    1  ->  mmhmm
+  12:    1  ->  not
+  13:    1  ->  oh
+  14:    1  ->  that
+  15:    1  ->  when
+  16:    1  ->  you
+     -------
+        18
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    3  ->  x
+   2:    2  ->  it
+   3:    1  ->  fashions
+   4:    1  ->  l
+   5:    1  ->  or
+   6:    1  ->  p
+   7:    1  ->  so
+   8:    1  ->  will
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    8  ->  x
+   2:    2  ->  %bcack
+   3:    2  ->  and
+   4:    2  ->  disgust
+   5:    2  ->  there's
+   6:    1  ->  an
+   7:    1  ->  answers
+   8:    1  ->  artaud
+   9:    1  ->  brechtian
+  10:    1  ->  certeau
+  11:    1  ->  cross
+  12:    1  ->  discussed
+  13:    1  ->  his
+  14:    1  ->  if
+  15:    1  ->  interest
+  16:    1  ->  it
+  17:    1  ->  libidinal
+  18:    1  ->  look
+  19:    1  ->  michel
+  20:    1  ->  of
+  21:    1  ->  once
+  22:    1  ->  phenomena
+  23:    1  ->  ten
+  24:    1  ->  that
+  25:    1  ->  the
+  26:    1  ->  then
+  27:    1  ->  this
+  28:    1  ->  while
+     -------
+        39
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (36)
+                                 With >=  1 occurrences (36)
+
+   1:    3  ->  a
+   2:    2  ->  this
+   3:    1  ->  across
+   4:    1  ->  and
+   5:    1  ->  as
+   6:    1  ->  brean
+   7:    1  ->  certo
+   8:    1  ->  cps
+   9:    1  ->  discuss
+  10:    1  ->  discussed
+  11:    1  ->  disgusted
+  12:    1  ->  fashion
+  13:    1  ->  had
+  14:    1  ->  have
+  15:    1  ->  i
+  16:    1  ->  interesting
+  17:    1  ->  is
+  18:    1  ->  it
+  19:    1  ->  it's
+  20:    1  ->  know
+  21:    1  ->  looks
+  22:    1  ->  mean
+  23:    1  ->  michelle
+  24:    1  ->  mill
+  25:    1  ->  of
+  26:    1  ->  oh
+  27:    1  ->  phenomenon
+  28:    1  ->  roke
+  29:    1  ->  than
+  30:    1  ->  that
+  31:    1  ->  that's
+  32:    1  ->  to
+  33:    1  ->  was
+  34:    1  ->  well
+  35:    1  ->  where
+  36:    1  ->  you
+     -------
+        39
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

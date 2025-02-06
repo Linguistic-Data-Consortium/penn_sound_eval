@@ -1,0 +1,141 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.3%   (  46)
+
+Percent Correct           =   96.2%   (1036)
+
+Percent Substitution      =    1.9%   (  21)
+Percent Deletions         =    1.9%   (  20)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   95.7%
+
+
+Ref. words                =           (1077)
+Hyp. words                =           (1062)
+Aligned words             =           (1082)
+
+CONFUSION PAIRS                  Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    4  ->  a ==> la
+   2:    2  ->  tshirt ==> shirt
+   3:    1  ->  etiological ==> ideological
+   4:    1  ->  grey ==> gray
+   5:    1  ->  into ==> to
+   6:    1  ->  myles ==> miles
+   7:    1  ->  one ==> when
+   8:    1  ->  pass ==> past
+   9:    1  ->  schuylkill ==> skullkill
+  10:    1  ->  t ==> pst
+  11:    1  ->  th ==> that
+  12:    1  ->  thirty ==> three
+  13:    1  ->  to ==> two
+  14:    1  ->  twenty ==> zero
+  15:    1  ->  x ==> prowman
+  16:    1  ->  x ==> xxx
+  17:    1  ->  x ==> yeux
+     -------
+        21
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  t
+   2:    1  ->  les
+   3:    1  ->  then
+   4:    1  ->  two
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    4  ->  l
+   2:    2  ->  s
+   3:    2  ->  x
+   4:    1  ->  but
+   5:    1  ->  devo
+   6:    1  ->  of
+   7:    1  ->  one
+   8:    1  ->  p
+   9:    1  ->  public
+  10:    1  ->  sh
+  11:    1  ->  so
+  12:    1  ->  son
+  13:    1  ->  sorry
+  14:    1  ->  standard
+  15:    1  ->  you
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    4  ->  a
+   2:    3  ->  x
+   3:    2  ->  tshirt
+   4:    1  ->  etiological
+   5:    1  ->  grey
+   6:    1  ->  into
+   7:    1  ->  myles
+   8:    1  ->  one
+   9:    1  ->  pass
+  10:    1  ->  schuylkill
+  11:    1  ->  t
+  12:    1  ->  th
+  13:    1  ->  thirty
+  14:    1  ->  to
+  15:    1  ->  twenty
+     -------
+        21
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (17)
+                                 With >=  1 occurrences (17)
+
+   1:    4  ->  la
+   2:    2  ->  shirt
+   3:    1  ->  gray
+   4:    1  ->  ideological
+   5:    1  ->  miles
+   6:    1  ->  past
+   7:    1  ->  prowman
+   8:    1  ->  pst
+   9:    1  ->  skullkill
+  10:    1  ->  that
+  11:    1  ->  three
+  12:    1  ->  to
+  13:    1  ->  two
+  14:    1  ->  when
+  15:    1  ->  xxx
+  16:    1  ->  yeux
+  17:    1  ->  zero
+     -------
+        21
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

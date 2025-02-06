@@ -1,0 +1,125 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.9%   (  28)
+
+Percent Correct           =   96.4%   ( 697)
+
+Percent Substitution      =    1.7%   (  12)
+Percent Deletions         =    1.9%   (  14)
+Percent Insertions        =    0.3%   (   2)
+Percent Word Accuracy     =   96.1%
+
+
+Ref. words                =           ( 723)
+Hyp. words                =           ( 711)
+Aligned words             =           ( 725)
+
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  at ==> of
+   2:    1  ->  combustable ==> combustible
+   3:    1  ->  companions ==> compassion
+   4:    1  ->  gulley ==> gully
+   5:    1  ->  incipits ==> inkippets
+   6:    1  ->  managed ==> mannered
+   7:    1  ->  noir ==> noire
+   8:    1  ->  ogham ==> agam
+   9:    1  ->  pouring ==> poring
+  10:    1  ->  slice ==> notch
+  11:    1  ->  strage ==> lastraje
+  12:    1  ->  to ==> chiaroscuro
+     -------
+        12
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    1  ->  angel
+   2:    1  ->  containers
+     -------
+         2
+
+
+
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    1  ->  and
+   2:    1  ->  better
+   3:    1  ->  chiaro
+   4:    1  ->  have
+   5:    1  ->  how
+   6:    1  ->  it
+   7:    1  ->  la
+   8:    1  ->  much
+   9:    1  ->  one
+  10:    1  ->  scuro
+  11:    1  ->  seemed
+  12:    1  ->  thought
+  13:    1  ->  what
+  14:    1  ->  would
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  at
+   2:    1  ->  combustable
+   3:    1  ->  companions
+   4:    1  ->  gulley
+   5:    1  ->  incipits
+   6:    1  ->  managed
+   7:    1  ->  noir
+   8:    1  ->  ogham
+   9:    1  ->  pouring
+  10:    1  ->  slice
+  11:    1  ->  strage
+  12:    1  ->  to
+     -------
+        12
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  agam
+   2:    1  ->  chiaroscuro
+   3:    1  ->  combustible
+   4:    1  ->  compassion
+   5:    1  ->  gully
+   6:    1  ->  inkippets
+   7:    1  ->  lastraje
+   8:    1  ->  mannered
+   9:    1  ->  noire
+  10:    1  ->  notch
+  11:    1  ->  of
+  12:    1  ->  poring
+     -------
+        12
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

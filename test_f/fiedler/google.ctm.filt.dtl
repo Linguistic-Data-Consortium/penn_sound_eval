@@ -1,0 +1,156 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: google.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    4.3%   (  49)
+
+Percent Correct           =   96.2%   (1101)
+
+Percent Substitution      =    2.5%   (  29)
+Percent Deletions         =    1.2%   (  14)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   95.7%
+
+
+Ref. words                =           (1144)
+Hyp. words                =           (1136)
+Aligned words             =           (1150)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    5  ->  donburi ==> domburi
+   2:    2  ->  borne ==> born
+   3:    2  ->  dango ==> kibidango
+   4:    2  ->  doggerel ==> girl
+   5:    1  ->  and ==> in
+   6:    1  ->  as ==> does
+   7:    1  ->  called ==> socalled
+   8:    1  ->  could ==> can
+   9:    1  ->  courteous ==> curious
+  10:    1  ->  emplacement ==> placement
+  11:    1  ->  in ==> them
+  12:    1  ->  it's ==> there's
+  13:    1  ->  longish ==> longest
+  14:    1  ->  momotaro ==> momotarō
+  15:    1  ->  return ==> turn
+  16:    1  ->  she ==> he
+  17:    1  ->  soft ==> what
+  18:    1  ->  stopped ==> stop
+  19:    1  ->  until ==> till
+  20:    1  ->  was ==> is
+  21:    1  ->  woodchopper ==> chopper
+  22:    1  ->  your ==> her
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    2  ->  dog
+   2:    1  ->  i
+   3:    1  ->  tale
+   4:    1  ->  the
+   5:    1  ->  wood
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  a
+   2:    2  ->  kibi
+   3:    1  ->  b
+   4:    1  ->  had
+   5:    1  ->  have
+   6:    1  ->  heroism
+   7:    1  ->  it
+   8:    1  ->  sic
+   9:    1  ->  so
+  10:    1  ->  t
+  11:    1  ->  the
+  12:    1  ->  under
+     -------
+        14
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    5  ->  donburi
+   2:    2  ->  borne
+   3:    2  ->  dango
+   4:    2  ->  doggerel
+   5:    1  ->  and
+   6:    1  ->  as
+   7:    1  ->  called
+   8:    1  ->  could
+   9:    1  ->  courteous
+  10:    1  ->  emplacement
+  11:    1  ->  in
+  12:    1  ->  it's
+  13:    1  ->  longish
+  14:    1  ->  momotaro
+  15:    1  ->  return
+  16:    1  ->  she
+  17:    1  ->  soft
+  18:    1  ->  stopped
+  19:    1  ->  until
+  20:    1  ->  was
+  21:    1  ->  woodchopper
+  22:    1  ->  your
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    5  ->  domburi
+   2:    2  ->  born
+   3:    2  ->  girl
+   4:    2  ->  kibidango
+   5:    1  ->  can
+   6:    1  ->  chopper
+   7:    1  ->  curious
+   8:    1  ->  does
+   9:    1  ->  he
+  10:    1  ->  her
+  11:    1  ->  in
+  12:    1  ->  is
+  13:    1  ->  longest
+  14:    1  ->  momotarō
+  15:    1  ->  placement
+  16:    1  ->  socalled
+  17:    1  ->  stop
+  18:    1  ->  them
+  19:    1  ->  there's
+  20:    1  ->  till
+  21:    1  ->  turn
+  22:    1  ->  what
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

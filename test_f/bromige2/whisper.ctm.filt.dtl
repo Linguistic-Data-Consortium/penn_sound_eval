@@ -1,0 +1,115 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.0%   (  23)
+
+Percent Correct           =   98.2%   (1115)
+
+Percent Substitution      =    0.9%   (  10)
+Percent Deletions         =    0.9%   (  10)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   98.0%
+
+
+Ref. words                =           (1135)
+Hyp. words                =           (1128)
+Aligned words             =           (1138)
+
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a ==> her
+   2:    1  ->  acquired ==> required
+   3:    1  ->  is ==> highways
+   4:    1  ->  ladder ==> latter
+   5:    1  ->  resolve ==> resolved
+   6:    1  ->  self ==> oneself
+   7:    1  ->  ten ==> oh
+   8:    1  ->  the ==> for
+   9:    1  ->  twenty ==> two
+  10:    1  ->  until ==> till
+     -------
+        10
+
+
+
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
+
+   1:    2  ->  and
+   2:    1  ->  is
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  highway
+   2:    1  ->  i
+   3:    1  ->  it's
+   4:    1  ->  k.
+   5:    1  ->  o.
+   6:    1  ->  one's
+   7:    1  ->  read
+   8:    1  ->  so
+   9:    1  ->  th
+  10:    1  ->  will
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  a
+   2:    1  ->  acquired
+   3:    1  ->  is
+   4:    1  ->  ladder
+   5:    1  ->  resolve
+   6:    1  ->  self
+   7:    1  ->  ten
+   8:    1  ->  the
+   9:    1  ->  twenty
+  10:    1  ->  until
+     -------
+        10
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  for
+   2:    1  ->  her
+   3:    1  ->  highways
+   4:    1  ->  latter
+   5:    1  ->  oh
+   6:    1  ->  oneself
+   7:    1  ->  required
+   8:    1  ->  resolved
+   9:    1  ->  till
+  10:    1  ->  two
+     -------
+        10
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

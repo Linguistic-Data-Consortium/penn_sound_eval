@@ -1,0 +1,171 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.2%   (  43)
+
+Percent Correct           =   95.3%   ( 791)
+
+Percent Substitution      =    4.0%   (  33)
+Percent Deletions         =    0.7%   (   6)
+Percent Insertions        =    0.5%   (   4)
+Percent Word Accuracy     =   94.8%
+
+
+Ref. words                =           ( 830)
+Hyp. words                =           ( 828)
+Aligned words             =           ( 834)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    2  ->  aklavik ==> avic
+   2:    2  ->  moors ==> mos
+   3:    2  ->  oh ==> o
+   4:    1  ->  aklavik ==> alaik
+   5:    1  ->  aye ==> i
+   6:    1  ->  bay ==> bath
+   7:    1  ->  bolivar ==> boulevard
+   8:    1  ->  bombs ==> firebombs
+   9:    1  ->  chaste ==> chased
+  10:    1  ->  contained ==> selfcontained
+  11:    1  ->  croyden ==> cried
+  12:    1  ->  economic ==> geoeconomic
+  13:    1  ->  herriman ==> harriman
+  14:    1  ->  in ==> innu
+  15:    1  ->  insupportably ==> portably
+  16:    1  ->  interest ==> selfinterest
+  17:    1  ->  inuvik ==> vic
+  18:    1  ->  ishamelite ==> ishmaelite
+  19:    1  ->  nation ==> nations
+  20:    1  ->  pregnantly ==> ly
+  21:    1  ->  regents ==> regent
+  22:    1  ->  self ==> enlighten
+  23:    1  ->  shutter ==> shudder
+  24:    1  ->  stiltedly ==> stilted
+  25:    1  ->  stolidly ==> solidly
+  26:    1  ->  thence ==> vince
+  27:    1  ->  to ==> into
+  28:    1  ->  too ==> to
+  29:    1  ->  unsurpassable ==> unpassable
+  30:    1  ->  you ==> innu
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  ins
+   2:    1  ->  oh
+   3:    1  ->  old
+   4:    1  ->  the
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  and
+   2:    1  ->  enlightened
+   3:    1  ->  fire
+   4:    1  ->  geo
+   5:    1  ->  inuvik
+   6:    1  ->  self
+     -------
+         6
+
+
+
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    3  ->  aklavik
+   2:    2  ->  moors
+   3:    2  ->  oh
+   4:    1  ->  aye
+   5:    1  ->  bay
+   6:    1  ->  bolivar
+   7:    1  ->  bombs
+   8:    1  ->  chaste
+   9:    1  ->  contained
+  10:    1  ->  croyden
+  11:    1  ->  economic
+  12:    1  ->  herriman
+  13:    1  ->  in
+  14:    1  ->  insupportably
+  15:    1  ->  interest
+  16:    1  ->  inuvik
+  17:    1  ->  ishamelite
+  18:    1  ->  nation
+  19:    1  ->  pregnantly
+  20:    1  ->  regents
+  21:    1  ->  self
+  22:    1  ->  shutter
+  23:    1  ->  stiltedly
+  24:    1  ->  stolidly
+  25:    1  ->  thence
+  26:    1  ->  to
+  27:    1  ->  too
+  28:    1  ->  unsurpassable
+  29:    1  ->  you
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  avic
+   2:    2  ->  innu
+   3:    2  ->  mos
+   4:    2  ->  o
+   5:    1  ->  alaik
+   6:    1  ->  bath
+   7:    1  ->  boulevard
+   8:    1  ->  chased
+   9:    1  ->  cried
+  10:    1  ->  enlighten
+  11:    1  ->  firebombs
+  12:    1  ->  geoeconomic
+  13:    1  ->  harriman
+  14:    1  ->  i
+  15:    1  ->  into
+  16:    1  ->  ishmaelite
+  17:    1  ->  ly
+  18:    1  ->  nations
+  19:    1  ->  portably
+  20:    1  ->  regent
+  21:    1  ->  selfcontained
+  22:    1  ->  selfinterest
+  23:    1  ->  shudder
+  24:    1  ->  solidly
+  25:    1  ->  stilted
+  26:    1  ->  to
+  27:    1  ->  unpassable
+  28:    1  ->  vic
+  29:    1  ->  vince
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

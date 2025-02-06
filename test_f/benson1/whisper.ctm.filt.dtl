@@ -1,0 +1,193 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    5.9%   (  70)
+
+Percent Correct           =   94.4%   (1126)
+
+Percent Substitution      =    2.8%   (  33)
+Percent Deletions         =    2.8%   (  34)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   94.1%
+
+
+Ref. words                =           (1193)
+Hyp. words                =           (1162)
+Aligned words             =           (1196)
+
+CONFUSION PAIRS                  Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  the ==> a
+   2:    2  ->  wh ==> what
+   3:    1  ->  %bcack ==> standard
+   4:    1  ->  at ==> out
+   5:    1  ->  braids ==> braves
+   6:    1  ->  causes ==> cause's
+   7:    1  ->  cells ==> selves
+   8:    1  ->  date ==> dates
+   9:    1  ->  even ==> eating
+  10:    1  ->  fascinating ==> might
+  11:    1  ->  fires ==> buyers
+  12:    1  ->  gone ==> on
+  13:    1  ->  had ==> have
+  14:    1  ->  he ==> e
+  15:    1  ->  i ==> points
+  16:    1  ->  like ==> around
+  17:    1  ->  now ==> there
+  18:    1  ->  peering ==> hearing
+  19:    1  ->  poem ==> of
+  20:    1  ->  sense ==> says
+  21:    1  ->  signed ==> sign
+  22:    1  ->  sleeks ==> sleeps
+  23:    1  ->  standing ==> notwithstanding
+  24:    1  ->  sweet ==> sweep
+  25:    1  ->  taut ==> top
+  26:    1  ->  them ==> from
+  27:    1  ->  tier ==> tear
+  28:    1  ->  used ==> use
+  29:    1  ->  will ==> all
+  30:    1  ->  words ==> word
+  31:    1  ->  wrought ==> brought
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  high
+   2:    1  ->  of
+   3:    1  ->  yeah
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    4  ->  i
+   2:    4  ->  yeah
+   3:    3  ->  that
+   4:    2  ->  are
+   5:    2  ->  s
+   6:    1  ->  another
+   7:    1  ->  bee
+   8:    1  ->  could
+   9:    1  ->  emphatic
+  10:    1  ->  imply
+  11:    1  ->  knocked
+  12:    1  ->  line
+  13:    1  ->  love
+  14:    1  ->  over
+  15:    1  ->  see
+  16:    1  ->  that's
+  17:    1  ->  the
+  18:    1  ->  think
+  19:    1  ->  to
+  20:    1  ->  type
+  21:    1  ->  well
+  22:    1  ->  wh
+  23:    1  ->  with
+  24:    1  ->  you
+     -------
+        34
+
+
+
+SUBSTITUTIONS                    Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  the
+   2:    2  ->  wh
+   3:    1  ->  %bcack
+   4:    1  ->  at
+   5:    1  ->  braids
+   6:    1  ->  causes
+   7:    1  ->  cells
+   8:    1  ->  date
+   9:    1  ->  even
+  10:    1  ->  fascinating
+  11:    1  ->  fires
+  12:    1  ->  gone
+  13:    1  ->  had
+  14:    1  ->  he
+  15:    1  ->  i
+  16:    1  ->  like
+  17:    1  ->  now
+  18:    1  ->  peering
+  19:    1  ->  poem
+  20:    1  ->  sense
+  21:    1  ->  signed
+  22:    1  ->  sleeks
+  23:    1  ->  standing
+  24:    1  ->  sweet
+  25:    1  ->  taut
+  26:    1  ->  them
+  27:    1  ->  tier
+  28:    1  ->  used
+  29:    1  ->  will
+  30:    1  ->  words
+  31:    1  ->  wrought
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  a
+   2:    2  ->  what
+   3:    1  ->  all
+   4:    1  ->  around
+   5:    1  ->  braves
+   6:    1  ->  brought
+   7:    1  ->  buyers
+   8:    1  ->  cause's
+   9:    1  ->  dates
+  10:    1  ->  e
+  11:    1  ->  eating
+  12:    1  ->  from
+  13:    1  ->  have
+  14:    1  ->  hearing
+  15:    1  ->  might
+  16:    1  ->  notwithstanding
+  17:    1  ->  of
+  18:    1  ->  on
+  19:    1  ->  out
+  20:    1  ->  points
+  21:    1  ->  says
+  22:    1  ->  selves
+  23:    1  ->  sign
+  24:    1  ->  sleeps
+  25:    1  ->  standard
+  26:    1  ->  sweep
+  27:    1  ->  tear
+  28:    1  ->  there
+  29:    1  ->  top
+  30:    1  ->  use
+  31:    1  ->  word
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

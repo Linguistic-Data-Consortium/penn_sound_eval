@@ -1,0 +1,112 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    2.6%   (  17)
+
+Percent Correct           =   98.1%   ( 635)
+
+Percent Substitution      =    1.7%   (  11)
+Percent Deletions         =    0.2%   (   1)
+Percent Insertions        =    0.8%   (   5)
+Percent Word Accuracy     =   97.4%
+
+
+Ref. words                =           ( 647)
+Hyp. words                =           ( 651)
+Aligned words             =           ( 652)
+
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  breast ==> breath
+   2:    1  ->  cock's ==> cocks
+   3:    1  ->  egret ==> egt
+   4:    1  ->  hen's ==> hens
+   5:    1  ->  in ==> and
+   6:    1  ->  it ==> a
+   7:    1  ->  morning ==> mourning
+   8:    1  ->  pallor ==> power
+   9:    1  ->  right ==> rite
+  10:    1  ->  tines ==> tins
+  11:    1  ->  towards ==> toward
+     -------
+        11
+
+
+
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  <affirmative>
+   2:    1  ->  heal
+   3:    1  ->  mmhmm
+   4:    1  ->  now
+   5:    1  ->  sound
+     -------
+         5
+
+
+
+DELETIONS                        Total                 (1)
+                                 With >=  1 occurrences (1)
+
+   1:    1  ->  t
+     -------
+         1
+
+
+
+SUBSTITUTIONS                    Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  breast
+   2:    1  ->  cock's
+   3:    1  ->  egret
+   4:    1  ->  hen's
+   5:    1  ->  in
+   6:    1  ->  it
+   7:    1  ->  morning
+   8:    1  ->  pallor
+   9:    1  ->  right
+  10:    1  ->  tines
+  11:    1  ->  towards
+     -------
+        11
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  breath
+   4:    1  ->  cocks
+   5:    1  ->  egt
+   6:    1  ->  hens
+   7:    1  ->  mourning
+   8:    1  ->  power
+   9:    1  ->  rite
+  10:    1  ->  tins
+  11:    1  ->  toward
+     -------
+        11
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,198 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.5%   ( 110)
+
+Percent Correct           =   91.3%   ( 955)
+
+Percent Substitution      =    3.2%   (  33)
+Percent Deletions         =    5.5%   (  58)
+Percent Insertions        =    1.8%   (  19)
+Percent Word Accuracy     =   89.5%
+
+
+Ref. words                =           (1046)
+Hyp. words                =           (1007)
+Aligned words             =           (1065)
+
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
+
+   1:    3  ->  antited ==> ted
+   2:    2  ->  fifteen ==> five
+   3:    1  ->  a ==> an
+   4:    1  ->  a ==> out
+   5:    1  ->  add ==> it
+   6:    1  ->  aisle ==> i
+   7:    1  ->  antipersona ==> persona
+   8:    1  ->  b ==> will
+   9:    1  ->  big ==> see
+  10:    1  ->  cocreate ==> create
+  11:    1  ->  conservation ==> conversation
+  12:    1  ->  have ==> yeah
+  13:    1  ->  in ==> an
+  14:    1  ->  inner ==> a
+  15:    1  ->  it's ==> that's
+  16:    1  ->  its ==> it's
+  17:    1  ->  show ==> though
+  18:    1  ->  so ==> though
+  19:    1  ->  that's ==> right
+  20:    1  ->  theirs ==> there
+  21:    1  ->  to ==> as
+  22:    1  ->  to ==> but
+  23:    1  ->  x ==> be
+  24:    1  ->  x ==> else
+  25:    1  ->  x ==> in
+  26:    1  ->  x ==> right
+  27:    1  ->  x ==> seriously
+  28:    1  ->  x ==> the
+  29:    1  ->  x ==> to
+  30:    1  ->  x ==> yeah
+     -------
+        33
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    4  ->  anti
+   2:    2  ->  of
+   3:    2  ->  one
+   4:    1  ->  and
+   5:    1  ->  as
+   6:    1  ->  co
+   7:    1  ->  course
+   8:    1  ->  edit
+   9:    1  ->  i
+  10:    1  ->  in
+  11:    1  ->  that's
+  12:    1  ->  think
+  13:    1  ->  we
+  14:    1  ->  yeah
+     -------
+        19
+
+
+
+DELETIONS                        Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:   11  ->  x
+   2:    4  ->  %bcack
+   3:    3  ->  i
+   4:    3  ->  it's
+   5:    2  ->  a
+   6:    2  ->  e
+   7:    2  ->  in
+   8:    2  ->  is
+   9:    2  ->  s
+  10:    2  ->  th
+  11:    2  ->  you
+  12:    1  ->  and
+  13:    1  ->  at
+  14:    1  ->  because
+  15:    1  ->  but
+  16:    1  ->  em
+  17:    1  ->  fact
+  18:    1  ->  it
+  19:    1  ->  love
+  20:    1  ->  of
+  21:    1  ->  r
+  22:    1  ->  right
+  23:    1  ->  so
+  24:    1  ->  soci
+  25:    1  ->  that
+  26:    1  ->  the
+  27:    1  ->  thought
+  28:    1  ->  try
+  29:    1  ->  well
+  30:    1  ->  when
+  31:    1  ->  where
+  32:    1  ->  why
+  33:    1  ->  y
+  34:    1  ->  yes
+     -------
+        58
+
+
+
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    8  ->  x
+   2:    3  ->  antited
+   3:    2  ->  a
+   4:    2  ->  fifteen
+   5:    2  ->  to
+   6:    1  ->  add
+   7:    1  ->  aisle
+   8:    1  ->  antipersona
+   9:    1  ->  b
+  10:    1  ->  big
+  11:    1  ->  cocreate
+  12:    1  ->  conservation
+  13:    1  ->  have
+  14:    1  ->  in
+  15:    1  ->  inner
+  16:    1  ->  it's
+  17:    1  ->  its
+  18:    1  ->  show
+  19:    1  ->  so
+  20:    1  ->  that's
+  21:    1  ->  theirs
+     -------
+        33
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
+
+   1:    3  ->  ted
+   2:    2  ->  an
+   3:    2  ->  five
+   4:    2  ->  right
+   5:    2  ->  though
+   6:    2  ->  yeah
+   7:    1  ->  a
+   8:    1  ->  as
+   9:    1  ->  be
+  10:    1  ->  but
+  11:    1  ->  conversation
+  12:    1  ->  create
+  13:    1  ->  else
+  14:    1  ->  i
+  15:    1  ->  in
+  16:    1  ->  it
+  17:    1  ->  it's
+  18:    1  ->  out
+  19:    1  ->  persona
+  20:    1  ->  see
+  21:    1  ->  seriously
+  22:    1  ->  that's
+  23:    1  ->  the
+  24:    1  ->  there
+  25:    1  ->  to
+  26:    1  ->  will
+     -------
+        33
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,159 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                        0.0%   (   0)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.8%   (  40)
+
+Percent Correct           =   96.2%   (1026)
+
+Percent Substitution      =    2.8%   (  30)
+Percent Deletions         =    0.9%   (  10)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   96.2%
+
+
+Ref. words                =           (1066)
+Hyp. words                =           (1056)
+Aligned words             =           (1066)
+
+CONFUSION PAIRS                  Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:    3  ->  siri ==> syria
+   2:    2  ->  taipei ==> taiba
+   3:    1  ->  about ==> above
+   4:    1  ->  address ==> dress
+   5:    1  ->  alecks ==> alex
+   6:    1  ->  and ==> mean
+   7:    1  ->  are ==> there
+   8:    1  ->  are ==> your
+   9:    1  ->  asked ==> or
+  10:    1  ->  astounding ==> astounded
+  11:    1  ->  at ==> and
+  12:    1  ->  fifteen ==> fifteenth
+  13:    1  ->  hustvedt ==> hosted
+  14:    1  ->  i ==> asta
+  15:    1  ->  in ==> and
+  16:    1  ->  is ==> behaviors
+  17:    1  ->  led ==> lead
+  18:    1  ->  loud ==> outloud
+  19:    1  ->  mail ==> male
+  20:    1  ->  name ==> named
+  21:    1  ->  return ==> returned
+  22:    1  ->  scant ==> scanned
+  23:    1  ->  siri's ==> series
+  24:    1  ->  taipei ==> tape
+  25:    1  ->  taipei ==> type
+  26:    1  ->  written ==> typewritten
+  27:    1  ->  x ==> or
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    1  ->  and
+   2:    1  ->  been
+   3:    1  ->  behavior
+   4:    1  ->  it
+   5:    1  ->  me
+   6:    1  ->  out
+   7:    1  ->  they
+   8:    1  ->  type
+   9:    1  ->  x
+  10:    1  ->  you
+     -------
+        10
+
+
+
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
+
+   1:    4  ->  taipei
+   2:    3  ->  siri
+   3:    2  ->  are
+   4:    1  ->  about
+   5:    1  ->  address
+   6:    1  ->  alecks
+   7:    1  ->  and
+   8:    1  ->  asked
+   9:    1  ->  astounding
+  10:    1  ->  at
+  11:    1  ->  fifteen
+  12:    1  ->  hustvedt
+  13:    1  ->  i
+  14:    1  ->  in
+  15:    1  ->  is
+  16:    1  ->  led
+  17:    1  ->  loud
+  18:    1  ->  mail
+  19:    1  ->  name
+  20:    1  ->  return
+  21:    1  ->  scant
+  22:    1  ->  siri's
+  23:    1  ->  written
+  24:    1  ->  x
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    3  ->  syria
+   2:    2  ->  and
+   3:    2  ->  or
+   4:    2  ->  taiba
+   5:    1  ->  above
+   6:    1  ->  alex
+   7:    1  ->  asta
+   8:    1  ->  astounded
+   9:    1  ->  behaviors
+  10:    1  ->  dress
+  11:    1  ->  fifteenth
+  12:    1  ->  hosted
+  13:    1  ->  lead
+  14:    1  ->  male
+  15:    1  ->  mean
+  16:    1  ->  named
+  17:    1  ->  outloud
+  18:    1  ->  returned
+  19:    1  ->  scanned
+  20:    1  ->  series
+  21:    1  ->  tape
+  22:    1  ->  there
+  23:    1  ->  type
+  24:    1  ->  typewritten
+  25:    1  ->  your
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

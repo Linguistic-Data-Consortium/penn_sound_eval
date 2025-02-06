@@ -1,0 +1,131 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.2%   (  33)
+
+Percent Correct           =   97.7%   (1016)
+
+Percent Substitution      =    1.6%   (  17)
+Percent Deletions         =    0.7%   (   7)
+Percent Insertions        =    0.9%   (   9)
+Percent Word Accuracy     =   96.8%
+
+
+Ref. words                =           (1040)
+Hyp. words                =           (1042)
+Aligned words             =           (1049)
+
+CONFUSION PAIRS                  Total                 (16)
+                                 With >=  1 occurrences (16)
+
+   1:    2  ->  onto ==> to
+   2:    1  ->  a ==> that
+   3:    1  ->  and ==> of
+   4:    1  ->  and ==> the
+   5:    1  ->  came ==> king
+   6:    1  ->  draws ==> dross
+   7:    1  ->  in ==> and
+   8:    1  ->  its ==> it's
+   9:    1  ->  jena ==> jenna
+  10:    1  ->  now ==> and
+  11:    1  ->  osman ==> osmond
+  12:    1  ->  out ==> lookout
+  13:    1  ->  planes ==> plains
+  14:    1  ->  revving ==> having
+  15:    1  ->  spahr ==> spar
+  16:    1  ->  whatever's ==> 's
+     -------
+        17
+
+
+
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    2  ->  on
+   2:    2  ->  the
+   3:    1  ->  are
+   4:    1  ->  ever
+   5:    1  ->  or
+   6:    1  ->  we
+   7:    1  ->  what
+     -------
+         9
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    3  ->  a
+   2:    1  ->  have
+   3:    1  ->  in
+   4:    1  ->  look
+   5:    1  ->  po
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  and
+   2:    2  ->  onto
+   3:    1  ->  a
+   4:    1  ->  came
+   5:    1  ->  draws
+   6:    1  ->  in
+   7:    1  ->  its
+   8:    1  ->  jena
+   9:    1  ->  now
+  10:    1  ->  osman
+  11:    1  ->  out
+  12:    1  ->  planes
+  13:    1  ->  revving
+  14:    1  ->  spahr
+  15:    1  ->  whatever's
+     -------
+        17
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    2  ->  and
+   2:    2  ->  to
+   3:    1  ->  's
+   4:    1  ->  dross
+   5:    1  ->  having
+   6:    1  ->  it's
+   7:    1  ->  jenna
+   8:    1  ->  king
+   9:    1  ->  lookout
+  10:    1  ->  of
+  11:    1  ->  osmond
+  12:    1  ->  plains
+  13:    1  ->  spar
+  14:    1  ->  that
+  15:    1  ->  the
+     -------
+        17
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

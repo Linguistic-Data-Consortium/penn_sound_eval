@@ -1,0 +1,264 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   10.1%   (  80)
+
+Percent Correct           =   91.4%   ( 722)
+
+Percent Substitution      =    8.0%   (  63)
+Percent Deletions         =    0.6%   (   5)
+Percent Insertions        =    1.5%   (  12)
+Percent Word Accuracy     =   89.9%
+
+
+Ref. words                =           ( 790)
+Hyp. words                =           ( 797)
+Aligned words             =           ( 802)
+
+CONFUSION PAIRS                  Total                 (60)
+                                 With >=  1 occurrences (60)
+
+   1:    3  ->  sail ==> sale
+   2:    2  ->  reentrance ==> entrance
+   3:    1  ->  about ==> jaba
+   4:    1  ->  aerialist ==> aerial
+   5:    1  ->  an ==> and
+   6:    1  ->  antedate ==> anti
+   7:    1  ->  are ==> were
+   8:    1  ->  as ==> languages
+   9:    1  ->  ashore ==> shore
+  10:    1  ->  at ==> it
+  11:    1  ->  balloon ==> boom
+  12:    1  ->  balloons ==> bloom
+  13:    1  ->  called ==> calls
+  14:    1  ->  closeup ==> up
+  15:    1  ->  convey ==> conveyed
+  16:    1  ->  could ==> would
+  17:    1  ->  emitting ==> admitting
+  18:    1  ->  error ==> era
+  19:    1  ->  eviction ==> fiction
+  20:    1  ->  filling ==> selling
+  21:    1  ->  furlough ==> farlow
+  22:    1  ->  he ==> you
+  23:    1  ->  heaven ==> haven
+  24:    1  ->  homebase ==> base
+  25:    1  ->  hovering ==> covering
+  26:    1  ->  hovers ==> ever
+  27:    1  ->  if ==> re
+  28:    1  ->  in ==> an
+  29:    1  ->  in ==> and
+  30:    1  ->  into ==> ly
+  31:    1  ->  is ==> as
+  32:    1  ->  juxtaposition ==> opposition
+  33:    1  ->  kim ==> canna
+  34:    1  ->  language ==> date
+  35:    1  ->  liftoff ==> off
+  36:    1  ->  melodies ==> melody's
+  37:    1  ->  men ==> man
+  38:    1  ->  napalmed ==> pomd
+  39:    1  ->  newsreel ==> real
+  40:    1  ->  out ==> down
+  41:    1  ->  rig ==> ray
+  42:    1  ->  sanctus ==> songs
+  43:    1  ->  sanctus ==> to
+  44:    1  ->  scenes ==> seems
+  45:    1  ->  shake ==> shape
+  46:    1  ->  shown ==> show
+  47:    1  ->  shyly ==> charley
+  48:    1  ->  slantingly ==> slanting
+  49:    1  ->  sphinx ==> thinks
+  50:    1  ->  spinnaker ==> occurred
+  51:    1  ->  starboat ==> boat
+  52:    1  ->  starboat ==> star
+  53:    1  ->  syvash ==> sivas
+  54:    1  ->  thi ==> fonte
+  55:    1  ->  though ==> through
+  56:    1  ->  tugging ==> tabbing
+  57:    1  ->  view ==> interview
+  58:    1  ->  wails ==> wheels
+  59:    1  ->  wanly ==> only
+  60:    1  ->  weighty ==> weight
+     -------
+        63
+
+
+
+INSERTIONS                       Total                 (10)
+                                 With >=  1 occurrences (10)
+
+   1:    3  ->  a
+   2:    1  ->  close
+   3:    1  ->  home
+   4:    1  ->  how
+   5:    1  ->  just
+   6:    1  ->  lift
+   7:    1  ->  news
+   8:    1  ->  re
+   9:    1  ->  spin
+  10:    1  ->  star
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
+
+   1:    1  ->  as
+   2:    1  ->  g
+   3:    1  ->  phan
+   4:    1  ->  spree
+   5:    1  ->  who
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (57)
+                                 With >=  1 occurrences (57)
+
+   1:    3  ->  sail
+   2:    2  ->  in
+   3:    2  ->  reentrance
+   4:    2  ->  sanctus
+   5:    2  ->  starboat
+   6:    1  ->  about
+   7:    1  ->  aerialist
+   8:    1  ->  an
+   9:    1  ->  antedate
+  10:    1  ->  are
+  11:    1  ->  as
+  12:    1  ->  ashore
+  13:    1  ->  at
+  14:    1  ->  balloon
+  15:    1  ->  balloons
+  16:    1  ->  called
+  17:    1  ->  closeup
+  18:    1  ->  convey
+  19:    1  ->  could
+  20:    1  ->  emitting
+  21:    1  ->  error
+  22:    1  ->  eviction
+  23:    1  ->  filling
+  24:    1  ->  furlough
+  25:    1  ->  he
+  26:    1  ->  heaven
+  27:    1  ->  homebase
+  28:    1  ->  hovering
+  29:    1  ->  hovers
+  30:    1  ->  if
+  31:    1  ->  into
+  32:    1  ->  is
+  33:    1  ->  juxtaposition
+  34:    1  ->  kim
+  35:    1  ->  language
+  36:    1  ->  liftoff
+  37:    1  ->  melodies
+  38:    1  ->  men
+  39:    1  ->  napalmed
+  40:    1  ->  newsreel
+  41:    1  ->  out
+  42:    1  ->  rig
+  43:    1  ->  scenes
+  44:    1  ->  shake
+  45:    1  ->  shown
+  46:    1  ->  shyly
+  47:    1  ->  slantingly
+  48:    1  ->  sphinx
+  49:    1  ->  spinnaker
+  50:    1  ->  syvash
+  51:    1  ->  thi
+  52:    1  ->  though
+  53:    1  ->  tugging
+  54:    1  ->  view
+  55:    1  ->  wails
+  56:    1  ->  wanly
+  57:    1  ->  weighty
+     -------
+        63
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (59)
+                                 With >=  1 occurrences (59)
+
+   1:    3  ->  sale
+   2:    2  ->  and
+   3:    2  ->  entrance
+   4:    1  ->  admitting
+   5:    1  ->  aerial
+   6:    1  ->  an
+   7:    1  ->  anti
+   8:    1  ->  as
+   9:    1  ->  base
+  10:    1  ->  bloom
+  11:    1  ->  boat
+  12:    1  ->  boom
+  13:    1  ->  calls
+  14:    1  ->  canna
+  15:    1  ->  charley
+  16:    1  ->  conveyed
+  17:    1  ->  covering
+  18:    1  ->  date
+  19:    1  ->  down
+  20:    1  ->  era
+  21:    1  ->  ever
+  22:    1  ->  farlow
+  23:    1  ->  fiction
+  24:    1  ->  fonte
+  25:    1  ->  haven
+  26:    1  ->  interview
+  27:    1  ->  it
+  28:    1  ->  jaba
+  29:    1  ->  languages
+  30:    1  ->  ly
+  31:    1  ->  man
+  32:    1  ->  melody's
+  33:    1  ->  occurred
+  34:    1  ->  off
+  35:    1  ->  only
+  36:    1  ->  opposition
+  37:    1  ->  pomd
+  38:    1  ->  ray
+  39:    1  ->  re
+  40:    1  ->  real
+  41:    1  ->  seems
+  42:    1  ->  selling
+  43:    1  ->  shape
+  44:    1  ->  shore
+  45:    1  ->  show
+  46:    1  ->  sivas
+  47:    1  ->  slanting
+  48:    1  ->  songs
+  49:    1  ->  star
+  50:    1  ->  tabbing
+  51:    1  ->  thinks
+  52:    1  ->  through
+  53:    1  ->  to
+  54:    1  ->  up
+  55:    1  ->  weight
+  56:    1  ->  were
+  57:    1  ->  wheels
+  58:    1  ->  would
+  59:    1  ->  you
+     -------
+        63
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

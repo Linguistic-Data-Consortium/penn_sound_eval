@@ -1,0 +1,213 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: azure.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.6%   (  72)
+
+Percent Correct           =   93.7%   ( 892)
+
+Percent Substitution      =    5.1%   (  49)
+Percent Deletions         =    1.2%   (  11)
+Percent Insertions        =    1.3%   (  12)
+Percent Word Accuracy     =   92.4%
+
+
+Ref. words                =           ( 952)
+Hyp. words                =           ( 953)
+Aligned words             =           ( 964)
+
+CONFUSION PAIRS                  Total                 (43)
+                                 With >=  1 occurrences (43)
+
+   1:    4  ->  in ==> and
+   2:    2  ->  is ==> 's
+   3:    2  ->  taped ==> tape
+   4:    2  ->  twins' ==> twins
+   5:    1  ->  a ==> are
+   6:    1  ->  a ==> caster
+   7:    1  ->  a ==> tna
+   8:    1  ->  and ==> in
+   9:    1  ->  ansem ==> and
+  10:    1  ->  ansem's ==> 's
+  11:    1  ->  attendant ==> attended
+  12:    1  ->  bandanna ==> bandana
+  13:    1  ->  charles's ==> 's
+  14:    1  ->  cle ==> clemente
+  15:    1  ->  clemente's ==> 's
+  16:    1  ->  colored ==> coloured
+  17:    1  ->  cracked ==> speckled
+  18:    1  ->  crushed ==> crush
+  19:    1  ->  families' ==> 's
+  20:    1  ->  feckless ==> ex
+  21:    1  ->  hamburger ==> hamburgers
+  22:    1  ->  is ==> was
+  23:    1  ->  kids' ==> kids
+  24:    1  ->  lookalike ==> alike
+  25:    1  ->  lover's ==> 's
+  26:    1  ->  meika ==> micah
+  27:    1  ->  mommas ==> mamas
+  28:    1  ->  motion ==> emotion
+  29:    1  ->  nights ==> knights
+  30:    1  ->  on ==> and
+  31:    1  ->  onto ==> to
+  32:    1  ->  phat ==> fat
+  33:    1  ->  plane ==> plain
+  34:    1  ->  prowl ==> proud
+  35:    1  ->  scheme ==> skiing
+  36:    1  ->  schemerhorn ==> you
+  37:    1  ->  sleep ==> fecklessly
+  38:    1  ->  spy ==> worldspy
+  39:    1  ->  stares ==> stairs
+  40:    1  ->  thing ==> something
+  41:    1  ->  wack ==> wac
+  42:    1  ->  weston's ==> 's
+  43:    1  ->  your ==> are
+     -------
+        49
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    1  ->  anselm
+   2:    1  ->  charles
+   3:    1  ->  family
+   4:    1  ->  handsome
+   5:    1  ->  horn
+   6:    1  ->  it
+   7:    1  ->  look
+   8:    1  ->  lover
+   9:    1  ->  on
+  10:    1  ->  our
+  11:    1  ->  shimmer
+  12:    1  ->  weston
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    1  ->  and
+   2:    1  ->  casts
+   3:    1  ->  have
+   4:    1  ->  heart
+   5:    1  ->  in
+   6:    1  ->  pushe
+   7:    1  ->  some
+   8:    1  ->  speckle
+   9:    1  ->  t
+  10:    1  ->  world
+  11:    1  ->  x
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
+
+   1:    4  ->  in
+   2:    3  ->  a
+   3:    3  ->  is
+   4:    2  ->  taped
+   5:    2  ->  twins'
+   6:    1  ->  and
+   7:    1  ->  ansem
+   8:    1  ->  ansem's
+   9:    1  ->  attendant
+  10:    1  ->  bandanna
+  11:    1  ->  charles's
+  12:    1  ->  cle
+  13:    1  ->  clemente's
+  14:    1  ->  colored
+  15:    1  ->  cracked
+  16:    1  ->  crushed
+  17:    1  ->  families'
+  18:    1  ->  feckless
+  19:    1  ->  hamburger
+  20:    1  ->  kids'
+  21:    1  ->  lookalike
+  22:    1  ->  lover's
+  23:    1  ->  meika
+  24:    1  ->  mommas
+  25:    1  ->  motion
+  26:    1  ->  nights
+  27:    1  ->  on
+  28:    1  ->  onto
+  29:    1  ->  phat
+  30:    1  ->  plane
+  31:    1  ->  prowl
+  32:    1  ->  scheme
+  33:    1  ->  schemerhorn
+  34:    1  ->  sleep
+  35:    1  ->  spy
+  36:    1  ->  stares
+  37:    1  ->  thing
+  38:    1  ->  wack
+  39:    1  ->  weston's
+  40:    1  ->  your
+     -------
+        49
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
+
+   1:    8  ->  's
+   2:    6  ->  and
+   3:    2  ->  are
+   4:    2  ->  tape
+   5:    2  ->  twins
+   6:    1  ->  alike
+   7:    1  ->  attended
+   8:    1  ->  bandana
+   9:    1  ->  caster
+  10:    1  ->  clemente
+  11:    1  ->  coloured
+  12:    1  ->  crush
+  13:    1  ->  emotion
+  14:    1  ->  ex
+  15:    1  ->  fat
+  16:    1  ->  fecklessly
+  17:    1  ->  hamburgers
+  18:    1  ->  in
+  19:    1  ->  kids
+  20:    1  ->  knights
+  21:    1  ->  mamas
+  22:    1  ->  micah
+  23:    1  ->  plain
+  24:    1  ->  proud
+  25:    1  ->  skiing
+  26:    1  ->  something
+  27:    1  ->  speckled
+  28:    1  ->  stairs
+  29:    1  ->  tna
+  30:    1  ->  to
+  31:    1  ->  wac
+  32:    1  ->  was
+  33:    1  ->  worldspy
+  34:    1  ->  you
+     -------
+        49
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

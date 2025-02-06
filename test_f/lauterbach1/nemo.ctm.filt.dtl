@@ -1,0 +1,179 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    7.3%   (  60)
+
+Percent Correct           =   93.0%   ( 762)
+
+Percent Substitution      =    3.1%   (  25)
+Percent Deletions         =    3.9%   (  32)
+Percent Insertions        =    0.4%   (   3)
+Percent Word Accuracy     =   92.7%
+
+
+Ref. words                =           ( 819)
+Hyp. words                =           ( 790)
+Aligned words             =           ( 822)
+
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  a ==> the
+   2:    1  ->  and ==> in
+   3:    1  ->  appellate ==> applet
+   4:    1  ->  bailiwick ==> baliwick
+   5:    1  ->  bleacher ==> bleachers
+   6:    1  ->  dao ==> tao
+   7:    1  ->  doc ==> aprildocaprildoc
+   8:    1  ->  ekphrastic ==> ecphrastic
+   9:    1  ->  emmylou ==> lou
+  10:    1  ->  fabulist ==> fabulous
+  11:    1  ->  hymns ==> hems
+  12:    1  ->  impostor ==> impasto
+  13:    1  ->  is ==> was
+  14:    1  ->  juvenalia ==> juveniles
+  15:    1  ->  mayakovsky ==> myakovsky
+  16:    1  ->  memoir's ==> memoirs
+  17:    1  ->  mirror ==> mere
+  18:    1  ->  oh ==> o
+  19:    1  ->  park's ==> park
+  20:    1  ->  rah ==> hurrah
+  21:    1  ->  skies ==> sky
+  22:    1  ->  spontaneity ==> sponsored
+  23:    1  ->  welish ==> wellesh
+  24:    1  ->  wind ==> wing
+  25:    1  ->  with ==> of
+     -------
+        25
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  emmy
+   2:    1  ->  oh
+   3:    1  ->  really
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  april
+   2:    2  ->  dot
+   3:    2  ->  i
+   4:    2  ->  into
+   5:    1  ->  am
+   6:    1  ->  and
+   7:    1  ->  cu
+   8:    1  ->  d
+   9:    1  ->  doc
+  10:    1  ->  flag
+  11:    1  ->  get
+  12:    1  ->  got
+  13:    1  ->  ke
+  14:    1  ->  l
+  15:    1  ->  light
+  16:    1  ->  like
+  17:    1  ->  m
+  18:    1  ->  must
+  19:    1  ->  oh
+  20:    1  ->  rah
+  21:    1  ->  really
+  22:    1  ->  ride
+  23:    1  ->  the
+  24:    1  ->  these
+  25:    1  ->  untitled
+  26:    1  ->  walk
+  27:    1  ->  wr
+  28:    1  ->  yeah
+     -------
+        32
+
+
+
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  appellate
+   4:    1  ->  bailiwick
+   5:    1  ->  bleacher
+   6:    1  ->  dao
+   7:    1  ->  doc
+   8:    1  ->  ekphrastic
+   9:    1  ->  emmylou
+  10:    1  ->  fabulist
+  11:    1  ->  hymns
+  12:    1  ->  impostor
+  13:    1  ->  is
+  14:    1  ->  juvenalia
+  15:    1  ->  mayakovsky
+  16:    1  ->  memoir's
+  17:    1  ->  mirror
+  18:    1  ->  oh
+  19:    1  ->  park's
+  20:    1  ->  rah
+  21:    1  ->  skies
+  22:    1  ->  spontaneity
+  23:    1  ->  welish
+  24:    1  ->  wind
+  25:    1  ->  with
+     -------
+        25
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
+
+   1:    1  ->  applet
+   2:    1  ->  aprildocaprildoc
+   3:    1  ->  baliwick
+   4:    1  ->  bleachers
+   5:    1  ->  ecphrastic
+   6:    1  ->  fabulous
+   7:    1  ->  hems
+   8:    1  ->  hurrah
+   9:    1  ->  impasto
+  10:    1  ->  in
+  11:    1  ->  juveniles
+  12:    1  ->  lou
+  13:    1  ->  memoirs
+  14:    1  ->  mere
+  15:    1  ->  myakovsky
+  16:    1  ->  o
+  17:    1  ->  of
+  18:    1  ->  park
+  19:    1  ->  sky
+  20:    1  ->  sponsored
+  21:    1  ->  tao
+  22:    1  ->  the
+  23:    1  ->  was
+  24:    1  ->  wellesh
+  25:    1  ->  wing
+     -------
+        25
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

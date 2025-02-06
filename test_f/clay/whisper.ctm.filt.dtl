@@ -1,0 +1,216 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   13.7%   ( 148)
+
+Percent Correct           =   87.4%   ( 943)
+
+Percent Substitution      =    2.8%   (  30)
+Percent Deletions         =    9.8%   ( 106)
+Percent Insertions        =    1.1%   (  12)
+Percent Word Accuracy     =   86.3%
+
+
+Ref. words                =           (1079)
+Hyp. words                =           ( 985)
+Aligned words             =           (1091)
+
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
+
+   1:    2  ->  in ==> and
+   2:    1  ->  a ==> an
+   3:    1  ->  as ==> artist
+   4:    1  ->  brakhage ==> brackage
+   5:    1  ->  can ==> could
+   6:    1  ->  contemporaries ==> contemporary
+   7:    1  ->  create ==> created
+   8:    1  ->  did ==> do
+   9:    1  ->  i ==> on
+  10:    1  ->  i ==> that
+  11:    1  ->  m ==> may
+  12:    1  ->  maybe ==> be
+  13:    1  ->  nonpublisher ==> publisher
+  14:    1  ->  right ==> go
+  15:    1  ->  socalled ==> called
+  16:    1  ->  talk ==> talked
+  17:    1  ->  th ==> that
+  18:    1  ->  the ==> saul
+  19:    1  ->  the ==> your
+  20:    1  ->  tuumba ==> tumba
+  21:    1  ->  were ==> are
+  22:    1  ->  what ==> it
+  23:    1  ->  wit ==> lewitt
+  24:    1  ->  x ==> absolutely
+  25:    1  ->  x ==> down
+  26:    1  ->  x ==> famously
+  27:    1  ->  x ==> i
+  28:    1  ->  x ==> ruscha
+  29:    1  ->  yeah ==> have
+     -------
+        30
+
+
+
+INSERTIONS                       Total                 (11)
+                                 With >=  1 occurrences (11)
+
+   1:    2  ->  right
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  by
+   5:    1  ->  have
+   6:    1  ->  it
+   7:    1  ->  it's
+   8:    1  ->  non
+   9:    1  ->  set
+  10:    1  ->  so
+  11:    1  ->  yeah
+     -------
+        12
+
+
+
+DELETIONS                        Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:   14  ->  yeah
+   2:   10  ->  %bcack
+   3:    8  ->  x
+   4:    6  ->  and
+   5:    4  ->  is
+   6:    4  ->  right
+   7:    4  ->  the
+   8:    3  ->  a
+   9:    3  ->  have
+  10:    2  ->  absolutely
+  11:    2  ->  i
+  12:    2  ->  not
+  13:    2  ->  of
+  14:    2  ->  or
+  15:    2  ->  w
+  16:    2  ->  we
+  17:    1  ->  an
+  18:    1  ->  art
+  19:    1  ->  be
+  20:    1  ->  books
+  21:    1  ->  but
+  22:    1  ->  chapter
+  23:    1  ->  con
+  24:    1  ->  dick
+  25:    1  ->  down
+  26:    1  ->  exactly
+  27:    1  ->  f
+  28:    1  ->  famously
+  29:    1  ->  fine
+  30:    1  ->  go
+  31:    1  ->  had
+  32:    1  ->  interesting
+  33:    1  ->  it
+  34:    1  ->  it's
+  35:    1  ->  l
+  36:    1  ->  maybe
+  37:    1  ->  moby
+  38:    1  ->  most
+  39:    1  ->  oh
+  40:    1  ->  on
+  41:    1  ->  one
+  42:    1  ->  placing
+  43:    1  ->  r
+  44:    1  ->  saw
+  45:    1  ->  so
+  46:    1  ->  st
+  47:    1  ->  th
+  48:    1  ->  that
+  49:    1  ->  that's
+  50:    1  ->  then
+  51:    1  ->  they
+  52:    1  ->  with
+     -------
+       106
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
+
+   1:    5  ->  x
+   2:    2  ->  i
+   3:    2  ->  in
+   4:    2  ->  the
+   5:    1  ->  a
+   6:    1  ->  as
+   7:    1  ->  brakhage
+   8:    1  ->  can
+   9:    1  ->  contemporaries
+  10:    1  ->  create
+  11:    1  ->  did
+  12:    1  ->  m
+  13:    1  ->  maybe
+  14:    1  ->  nonpublisher
+  15:    1  ->  right
+  16:    1  ->  socalled
+  17:    1  ->  talk
+  18:    1  ->  th
+  19:    1  ->  tuumba
+  20:    1  ->  were
+  21:    1  ->  what
+  22:    1  ->  wit
+  23:    1  ->  yeah
+     -------
+        30
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
+
+   1:    2  ->  and
+   2:    2  ->  that
+   3:    1  ->  absolutely
+   4:    1  ->  an
+   5:    1  ->  are
+   6:    1  ->  artist
+   7:    1  ->  be
+   8:    1  ->  brackage
+   9:    1  ->  called
+  10:    1  ->  contemporary
+  11:    1  ->  could
+  12:    1  ->  created
+  13:    1  ->  do
+  14:    1  ->  down
+  15:    1  ->  famously
+  16:    1  ->  go
+  17:    1  ->  have
+  18:    1  ->  i
+  19:    1  ->  it
+  20:    1  ->  lewitt
+  21:    1  ->  may
+  22:    1  ->  on
+  23:    1  ->  publisher
+  24:    1  ->  ruscha
+  25:    1  ->  saul
+  26:    1  ->  talked
+  27:    1  ->  tumba
+  28:    1  ->  your
+     -------
+        30
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

@@ -1,0 +1,129 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: whisper.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    3.9%   (  28)
+
+Percent Correct           =   96.9%   ( 689)
+
+Percent Substitution      =    2.1%   (  15)
+Percent Deletions         =    1.0%   (   7)
+Percent Insertions        =    0.8%   (   6)
+Percent Word Accuracy     =   96.1%
+
+
+Ref. words                =           ( 711)
+Hyp. words                =           ( 710)
+Aligned words             =           ( 717)
+
+CONFUSION PAIRS                  Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  are ==> were
+   2:    1  ->  bass ==> base
+   3:    1  ->  caps ==> whitecaps
+   4:    1  ->  dashboard ==> dashboards
+   5:    1  ->  five ==> 855
+   6:    1  ->  fresh ==> reshed
+   7:    1  ->  frieze ==> freeze
+   8:    1  ->  lay ==> chinacale
+   9:    1  ->  place ==> placed
+  10:    1  ->  scumsucker ==> sucker
+  11:    1  ->  sixty ==> six
+  12:    1  ->  the ==> a
+  13:    1  ->  wet ==> quet
+  14:    1  ->  when ==> one
+  15:    1  ->  winstead ==> at
+     -------
+        15
+
+
+
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  thank
+   2:    2  ->  you
+   3:    1  ->  scum
+   4:    1  ->  winced
+     -------
+         6
+
+
+
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
+
+   1:    1  ->  chenaga
+   2:    1  ->  eight
+   3:    1  ->  fifty
+   4:    1  ->  hundred
+   5:    1  ->  strin
+   6:    1  ->  thousand
+   7:    1  ->  what
+     -------
+         7
+
+
+
+SUBSTITUTIONS                    Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  are
+   2:    1  ->  bass
+   3:    1  ->  caps
+   4:    1  ->  dashboard
+   5:    1  ->  five
+   6:    1  ->  fresh
+   7:    1  ->  frieze
+   8:    1  ->  lay
+   9:    1  ->  place
+  10:    1  ->  scumsucker
+  11:    1  ->  sixty
+  12:    1  ->  the
+  13:    1  ->  wet
+  14:    1  ->  when
+  15:    1  ->  winstead
+     -------
+        15
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (15)
+                                 With >=  1 occurrences (15)
+
+   1:    1  ->  855
+   2:    1  ->  a
+   3:    1  ->  at
+   4:    1  ->  base
+   5:    1  ->  chinacale
+   6:    1  ->  dashboards
+   7:    1  ->  freeze
+   8:    1  ->  one
+   9:    1  ->  placed
+  10:    1  ->  quet
+  11:    1  ->  reshed
+  12:    1  ->  six
+  13:    1  ->  sucker
+  14:    1  ->  were
+  15:    1  ->  whitecaps
+     -------
+        15
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

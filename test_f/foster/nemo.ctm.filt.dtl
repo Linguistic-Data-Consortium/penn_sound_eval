@@ -1,0 +1,160 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: nemo.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    6.8%   (  52)
+
+Percent Correct           =   93.6%   ( 713)
+
+Percent Substitution      =    3.8%   (  29)
+Percent Deletions         =    2.6%   (  20)
+Percent Insertions        =    0.4%   (   3)
+Percent Word Accuracy     =   93.2%
+
+
+Ref. words                =           ( 762)
+Hyp. words                =           ( 745)
+Aligned words             =           ( 765)
+
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    7  ->  b ==> be
+   2:    2  ->  eating ==> eaten
+   3:    1  ->  as ==> of
+   4:    1  ->  ben ==> been
+   5:    1  ->  bodegas ==> cornobodagus
+   6:    1  ->  coming ==> become
+   7:    1  ->  coulades ==> coolots
+   8:    1  ->  face ==> faces
+   9:    1  ->  fist ==> fists
+  10:    1  ->  green ==> greene
+  11:    1  ->  is ==> was
+  12:    1  ->  knit ==> knits
+  13:    1  ->  maybe ==> be
+  14:    1  ->  memories ==> memory's
+  15:    1  ->  momma ==> mama
+  16:    1  ->  months' ==> months
+  17:    1  ->  reenie ==> renee
+  18:    1  ->  shoe ==> tushoo
+  19:    1  ->  tem ==> temp
+  20:    1  ->  the ==> a
+  21:    1  ->  to ==> into
+  22:    1  ->  yore ==> your
+     -------
+        29
+
+
+
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
+
+   1:    1  ->  may
+   2:    1  ->  not
+   3:    1  ->  warning
+     -------
+         3
+
+
+
+DELETIONS                        Total                 (19)
+                                 With >=  1 occurrences (19)
+
+   1:    2  ->  had
+   2:    1  ->  a
+   3:    1  ->  are
+   4:    1  ->  be
+   5:    1  ->  corner
+   6:    1  ->  eve
+   7:    1  ->  filled
+   8:    1  ->  his
+   9:    1  ->  know
+  10:    1  ->  m
+  11:    1  ->  she
+  12:    1  ->  there
+  13:    1  ->  think
+  14:    1  ->  two
+  15:    1  ->  voice
+  16:    1  ->  what
+  17:    1  ->  woman
+  18:    1  ->  you
+  19:    1  ->  young
+     -------
+        20
+
+
+
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
+
+   1:    7  ->  b
+   2:    2  ->  eating
+   3:    1  ->  as
+   4:    1  ->  ben
+   5:    1  ->  bodegas
+   6:    1  ->  coming
+   7:    1  ->  coulades
+   8:    1  ->  face
+   9:    1  ->  fist
+  10:    1  ->  green
+  11:    1  ->  is
+  12:    1  ->  knit
+  13:    1  ->  maybe
+  14:    1  ->  memories
+  15:    1  ->  momma
+  16:    1  ->  months'
+  17:    1  ->  reenie
+  18:    1  ->  shoe
+  19:    1  ->  tem
+  20:    1  ->  the
+  21:    1  ->  to
+  22:    1  ->  yore
+     -------
+        29
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    8  ->  be
+   2:    2  ->  eaten
+   3:    1  ->  a
+   4:    1  ->  become
+   5:    1  ->  been
+   6:    1  ->  coolots
+   7:    1  ->  cornobodagus
+   8:    1  ->  faces
+   9:    1  ->  fists
+  10:    1  ->  greene
+  11:    1  ->  into
+  12:    1  ->  knits
+  13:    1  ->  mama
+  14:    1  ->  memory's
+  15:    1  ->  months
+  16:    1  ->  of
+  17:    1  ->  renee
+  18:    1  ->  temp
+  19:    1  ->  tushoo
+  20:    1  ->  was
+  21:    1  ->  your
+     -------
+        29
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

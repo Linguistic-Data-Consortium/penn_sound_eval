@@ -1,0 +1,184 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: rev.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =    8.2%   (  69)
+
+Percent Correct           =   94.5%   ( 792)
+
+Percent Substitution      =    5.0%   (  42)
+Percent Deletions         =    0.5%   (   4)
+Percent Insertions        =    2.7%   (  23)
+Percent Word Accuracy     =   91.8%
+
+
+Ref. words                =           ( 838)
+Hyp. words                =           ( 857)
+Aligned words             =           ( 861)
+
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    8  ->  boober ==> buber
+   2:    3  ->  boober ==> ber
+   3:    1  ->  as ==> is
+   4:    1  ->  backcountry ==> country
+   5:    1  ->  culled ==> called
+   6:    1  ->  disearned ==> earned
+   7:    1  ->  for ==> or
+   8:    1  ->  intervenient ==> in
+   9:    1  ->  jiggs ==> jigs
+  10:    1  ->  latticework ==> work
+  11:    1  ->  laze ==> lays
+  12:    1  ->  m ==> am
+  13:    1  ->  o ==> of
+  14:    1  ->  oaf ==> oath
+  15:    1  ->  orgone ==> organ
+  16:    1  ->  other's ==> others'
+  17:    1  ->  paddle ==> prattle
+  18:    1  ->  passed ==> past
+  19:    1  ->  plac ==> pla
+  20:    1  ->  saturate ==> saturated
+  21:    1  ->  seen ==> scene
+  22:    1  ->  stalactites ==> stites
+  23:    1  ->  tawdry ==> tory
+  24:    1  ->  they ==> that
+  25:    1  ->  tiered ==> twotiered
+  26:    1  ->  twi ==> twitch
+  27:    1  ->  witness ==> witnessed
+  28:    1  ->  x ==> gred
+  29:    1  ->  x ==> keep
+  30:    1  ->  x ==> knucks
+  31:    1  ->  x ==> laura
+  32:    1  ->  x ==> nah
+  33:    1  ->  x ==> oma
+     -------
+        42
+
+
+
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
+
+   1:    9  ->  <laugh>
+   2:    2  ->  two
+   3:    1  ->  an
+   4:    1  ->  back
+   5:    1  ->  cluck
+   6:    1  ->  dis
+   7:    1  ->  five
+   8:    1  ->  is
+   9:    1  ->  it's
+  10:    1  ->  k
+  11:    1  ->  kepy
+  12:    1  ->  lattice
+  13:    1  ->  s
+  14:    1  ->  what
+     -------
+        23
+
+
+
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    1  ->  c
+   2:    1  ->  like
+   3:    1  ->  there's
+   4:    1  ->  two
+     -------
+         4
+
+
+
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
+
+   1:   11  ->  boober
+   2:    6  ->  x
+   3:    1  ->  as
+   4:    1  ->  backcountry
+   5:    1  ->  culled
+   6:    1  ->  disearned
+   7:    1  ->  for
+   8:    1  ->  intervenient
+   9:    1  ->  jiggs
+  10:    1  ->  latticework
+  11:    1  ->  laze
+  12:    1  ->  m
+  13:    1  ->  o
+  14:    1  ->  oaf
+  15:    1  ->  orgone
+  16:    1  ->  other's
+  17:    1  ->  paddle
+  18:    1  ->  passed
+  19:    1  ->  plac
+  20:    1  ->  saturate
+  21:    1  ->  seen
+  22:    1  ->  stalactites
+  23:    1  ->  tawdry
+  24:    1  ->  they
+  25:    1  ->  tiered
+  26:    1  ->  twi
+  27:    1  ->  witness
+     -------
+        42
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
+
+   1:    8  ->  buber
+   2:    3  ->  ber
+   3:    1  ->  am
+   4:    1  ->  called
+   5:    1  ->  country
+   6:    1  ->  earned
+   7:    1  ->  gred
+   8:    1  ->  in
+   9:    1  ->  is
+  10:    1  ->  jigs
+  11:    1  ->  keep
+  12:    1  ->  knucks
+  13:    1  ->  laura
+  14:    1  ->  lays
+  15:    1  ->  nah
+  16:    1  ->  oath
+  17:    1  ->  of
+  18:    1  ->  oma
+  19:    1  ->  or
+  20:    1  ->  organ
+  21:    1  ->  others'
+  22:    1  ->  past
+  23:    1  ->  pla
+  24:    1  ->  prattle
+  25:    1  ->  saturated
+  26:    1  ->  scene
+  27:    1  ->  stites
+  28:    1  ->  that
+  29:    1  ->  tory
+  30:    1  ->  twitch
+  31:    1  ->  twotiered
+  32:    1  ->  witnessed
+  33:    1  ->  work
+     -------
+        42
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

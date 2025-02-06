@@ -1,0 +1,333 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   11.5%   ( 114)
+
+Percent Correct           =   89.5%   ( 888)
+
+Percent Substitution      =    9.4%   (  93)
+Percent Deletions         =    1.1%   (  11)
+Percent Insertions        =    1.0%   (  10)
+Percent Word Accuracy     =   88.5%
+
+
+Ref. words                =           ( 992)
+Hyp. words                =           ( 991)
+Aligned words             =           (1002)
+
+CONFUSION PAIRS                  Total                 (85)
+                                 With >=  1 occurrences (85)
+
+   1:    3  ->  and ==> in
+   2:    3  ->  russell's ==> russell
+   3:    2  ->  a ==> ca
+   4:    2  ->  cd ==> cv
+   5:    2  ->  in ==> and
+   6:    2  ->  was ==> is
+   7:    1  ->  acolyte ==> called
+   8:    1  ->  amidst ==> mis
+   9:    1  ->  and ==> of
+  10:    1  ->  ballads ==> ballots
+  11:    1  ->  bass ==> base
+  12:    1  ->  blog ==> block
+  13:    1  ->  book ==> bug
+  14:    1  ->  books ==> folks
+  15:    1  ->  boykoff's ==> boycotts
+  16:    1  ->  c ==> friends
+  17:    1  ->  cellist ==> callous
+  18:    1  ->  cello ==> cell
+  19:    1  ->  cello ==> shallow
+  20:    1  ->  clothespins ==> pins
+  21:    1  ->  coeval ==> cheval
+  22:    1  ->  confluence ==> conflicts
+  23:    1  ->  corbin ==> corman
+  24:    1  ->  critique ==> pratique
+  25:    1  ->  dependent ==> of
+  26:    1  ->  drip ==> drink
+  27:    1  ->  drum ==> drug
+  28:    1  ->  floor ==> four
+  29:    1  ->  folktales ==> hotels
+  30:    1  ->  gaelic ==> gallic
+  31:    1  ->  gave ==> gained
+  32:    1  ->  had ==> have
+  33:    1  ->  he ==> it
+  34:    1  ->  hellen ==> helen
+  35:    1  ->  his ==> this
+  36:    1  ->  housesitting ==> sitting
+  37:    1  ->  included ==> include
+  38:    1  ->  infusion ==> fusion
+  39:    1  ->  intention ==> attention
+  40:    1  ->  invokes ==> and
+  41:    1  ->  is ==> capitals
+  42:    1  ->  it ==> eco
+  43:    1  ->  jambet ==> jumba
+  44:    1  ->  jules ==> jewels
+  45:    1  ->  koch's ==> coaches
+  46:    1  ->  liljestrand ==> strange
+  47:    1  ->  line ==> midline
+  48:    1  ->  low ==> love
+  49:    1  ->  maurice ==> marie
+  50:    1  ->  maximum ==> maxima
+  51:    1  ->  merleau ==> merla
+  52:    1  ->  move ==> moved
+  53:    1  ->  multitrack ==> track
+  54:    1  ->  muses ==> themuses
+  55:    1  ->  nouns ==> mounds
+  56:    1  ->  occult ==> vehicle
+  57:    1  ->  on ==> a
+  58:    1  ->  on ==> at
+  59:    1  ->  on ==> of
+  60:    1  ->  on ==> upon
+  61:    1  ->  onto ==> to
+  62:    1  ->  or ==> were
+  63:    1  ->  otherworldly ==> worldly
+  64:    1  ->  peer ==> appear
+  65:    1  ->  poetry ==> post
+  66:    1  ->  ponty's ==> punches
+  67:    1  ->  potion ==> ocean
+  68:    1  ->  rerecord ==> record
+  69:    1  ->  rhubarb ==> rebar
+  70:    1  ->  robert ==> rubber
+  71:    1  ->  sacks's ==> sox's
+  72:    1  ->  set ==> sent
+  73:    1  ->  settings ==> setting
+  74:    1  ->  splice ==> spice
+  75:    1  ->  splice ==> spliced
+  76:    1  ->  tabla ==> table
+  77:    1  ->  tarot ==> tero
+  78:    1  ->  the ==> a
+  79:    1  ->  the ==> folks
+  80:    1  ->  then ==> than
+  81:    1  ->  tibetan ==> seven
+  82:    1  ->  treble ==> trouble
+  83:    1  ->  vision ==> envision
+  84:    1  ->  wholly ==> holly
+  85:    1  ->  with ==> of
+     -------
+        93
+
+
+
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  on
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  clothes
+   5:    1  ->  house
+   6:    1  ->  multi
+   7:    1  ->  other
+   8:    1  ->  re
+   9:    1  ->  was
+     -------
+        10
+
+
+
+DELETIONS                        Total                 (9)
+                                 With >=  1 occurrences (9)
+
+   1:    2  ->  a
+   2:    2  ->  echo
+   3:    1  ->  and
+   4:    1  ->  c
+   5:    1  ->  capital
+   6:    1  ->  friend
+   7:    1  ->  mid
+   8:    1  ->  our
+   9:    1  ->  the
+     -------
+        11
+
+
+
+SUBSTITUTIONS                    Total                 (78)
+                                 With >=  1 occurrences (78)
+
+   1:    4  ->  and
+   2:    4  ->  on
+   3:    3  ->  russell's
+   4:    2  ->  a
+   5:    2  ->  cd
+   6:    2  ->  cello
+   7:    2  ->  in
+   8:    2  ->  splice
+   9:    2  ->  the
+  10:    2  ->  was
+  11:    1  ->  acolyte
+  12:    1  ->  amidst
+  13:    1  ->  ballads
+  14:    1  ->  bass
+  15:    1  ->  blog
+  16:    1  ->  book
+  17:    1  ->  books
+  18:    1  ->  boykoff's
+  19:    1  ->  c
+  20:    1  ->  cellist
+  21:    1  ->  clothespins
+  22:    1  ->  coeval
+  23:    1  ->  confluence
+  24:    1  ->  corbin
+  25:    1  ->  critique
+  26:    1  ->  dependent
+  27:    1  ->  drip
+  28:    1  ->  drum
+  29:    1  ->  floor
+  30:    1  ->  folktales
+  31:    1  ->  gaelic
+  32:    1  ->  gave
+  33:    1  ->  had
+  34:    1  ->  he
+  35:    1  ->  hellen
+  36:    1  ->  his
+  37:    1  ->  housesitting
+  38:    1  ->  included
+  39:    1  ->  infusion
+  40:    1  ->  intention
+  41:    1  ->  invokes
+  42:    1  ->  is
+  43:    1  ->  it
+  44:    1  ->  jambet
+  45:    1  ->  jules
+  46:    1  ->  koch's
+  47:    1  ->  liljestrand
+  48:    1  ->  line
+  49:    1  ->  low
+  50:    1  ->  maurice
+  51:    1  ->  maximum
+  52:    1  ->  merleau
+  53:    1  ->  move
+  54:    1  ->  multitrack
+  55:    1  ->  muses
+  56:    1  ->  nouns
+  57:    1  ->  occult
+  58:    1  ->  onto
+  59:    1  ->  or
+  60:    1  ->  otherworldly
+  61:    1  ->  peer
+  62:    1  ->  poetry
+  63:    1  ->  ponty's
+  64:    1  ->  potion
+  65:    1  ->  rerecord
+  66:    1  ->  rhubarb
+  67:    1  ->  robert
+  68:    1  ->  sacks's
+  69:    1  ->  set
+  70:    1  ->  settings
+  71:    1  ->  tabla
+  72:    1  ->  tarot
+  73:    1  ->  then
+  74:    1  ->  tibetan
+  75:    1  ->  treble
+  76:    1  ->  vision
+  77:    1  ->  wholly
+  78:    1  ->  with
+     -------
+        93
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (79)
+                                 With >=  1 occurrences (79)
+
+   1:    4  ->  of
+   2:    3  ->  and
+   3:    3  ->  in
+   4:    3  ->  russell
+   5:    2  ->  a
+   6:    2  ->  ca
+   7:    2  ->  cv
+   8:    2  ->  folks
+   9:    2  ->  is
+  10:    1  ->  appear
+  11:    1  ->  at
+  12:    1  ->  attention
+  13:    1  ->  ballots
+  14:    1  ->  base
+  15:    1  ->  block
+  16:    1  ->  boycotts
+  17:    1  ->  bug
+  18:    1  ->  called
+  19:    1  ->  callous
+  20:    1  ->  capitals
+  21:    1  ->  cell
+  22:    1  ->  cheval
+  23:    1  ->  coaches
+  24:    1  ->  conflicts
+  25:    1  ->  corman
+  26:    1  ->  drink
+  27:    1  ->  drug
+  28:    1  ->  eco
+  29:    1  ->  envision
+  30:    1  ->  four
+  31:    1  ->  friends
+  32:    1  ->  fusion
+  33:    1  ->  gained
+  34:    1  ->  gallic
+  35:    1  ->  have
+  36:    1  ->  helen
+  37:    1  ->  holly
+  38:    1  ->  hotels
+  39:    1  ->  include
+  40:    1  ->  it
+  41:    1  ->  jewels
+  42:    1  ->  jumba
+  43:    1  ->  love
+  44:    1  ->  marie
+  45:    1  ->  maxima
+  46:    1  ->  merla
+  47:    1  ->  midline
+  48:    1  ->  mis
+  49:    1  ->  mounds
+  50:    1  ->  moved
+  51:    1  ->  ocean
+  52:    1  ->  pins
+  53:    1  ->  post
+  54:    1  ->  pratique
+  55:    1  ->  punches
+  56:    1  ->  rebar
+  57:    1  ->  record
+  58:    1  ->  rubber
+  59:    1  ->  sent
+  60:    1  ->  setting
+  61:    1  ->  seven
+  62:    1  ->  shallow
+  63:    1  ->  sitting
+  64:    1  ->  sox's
+  65:    1  ->  spice
+  66:    1  ->  spliced
+  67:    1  ->  strange
+  68:    1  ->  table
+  69:    1  ->  tero
+  70:    1  ->  than
+  71:    1  ->  themuses
+  72:    1  ->  this
+  73:    1  ->  to
+  74:    1  ->  track
+  75:    1  ->  trouble
+  76:    1  ->  upon
+  77:    1  ->  vehicle
+  78:    1  ->  were
+  79:    1  ->  worldly
+     -------
+        93
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

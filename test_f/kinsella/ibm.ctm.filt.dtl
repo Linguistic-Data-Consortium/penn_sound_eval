@@ -1,0 +1,632 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: ibm.ctm
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                           1
+ with errors                            100.0%   (   1)
+
+   with substitutions                   100.0%   (   1)
+   with deletions                       100.0%   (   1)
+   with insertions                      100.0%   (   1)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   25.9%   ( 251)
+
+Percent Correct           =   77.4%   ( 749)
+
+Percent Substitution      =   19.6%   ( 190)
+Percent Deletions         =    3.0%   (  29)
+Percent Insertions        =    3.3%   (  32)
+Percent Word Accuracy     =   74.1%
+
+
+Ref. words                =           ( 968)
+Hyp. words                =           ( 971)
+Aligned words             =           (1000)
+
+CONFUSION PAIRS                  Total                 (181)
+                                 With >=  1 occurrences (181)
+
+   1:    4  ->  a ==> the
+   2:    2  ->  adjuncting ==> junking
+   3:    2  ->  an ==> a
+   4:    2  ->  and ==> in
+   5:    2  ->  echidna ==> kidnap
+   6:    2  ->  it ==> that
+   7:    2  ->  its ==> it's
+   8:    1  ->  a ==> porky
+   9:    1  ->  a ==> sweating
+  10:    1  ->  agitators ==> agitates
+  11:    1  ->  and ==> all
+  12:    1  ->  and ==> downton
+  13:    1  ->  and ==> even
+  14:    1  ->  and ==> train
+  15:    1  ->  are ==> of
+  16:    1  ->  axminster ==> mister
+  17:    1  ->  azurine ==> assuring
+  18:    1  ->  backs ==> halfbacks
+  19:    1  ->  bas ==> fast
+  20:    1  ->  bloat ==> bloke
+  21:    1  ->  bootlegging ==> leaking
+  22:    1  ->  budding ==> funding
+  23:    1  ->  burrowing ==> borrowing
+  24:    1  ->  butcher's ==> butcher
+  25:    1  ->  called ==> kidnap
+  26:    1  ->  camouflaged ==> lodge
+  27:    1  ->  cane ==> can
+  28:    1  ->  cane ==> cave
+  29:    1  ->  chair ==> treat
+  30:    1  ->  choric ==> coric
+  31:    1  ->  churn ==> toby
+  32:    1  ->  clods ==> clubs
+  33:    1  ->  contrivers ==> contrives
+  34:    1  ->  corpse ==> corps
+  35:    1  ->  cracking ==> and
+  36:    1  ->  croak ==> quote
+  37:    1  ->  cross ==> across
+  38:    1  ->  cups ==> cup
+  39:    1  ->  curled ==> called
+  40:    1  ->  cut ==> cup
+  41:    1  ->  cutter ==> cuza
+  42:    1  ->  cutter’s ==> covers
+  43:    1  ->  decaying ==> became
+  44:    1  ->  derrida ==> start
+  45:    1  ->  doorpost ==> post
+  46:    1  ->  drabness ==> us
+  47:    1  ->  dust ==> thus
+  48:    1  ->  earthy ==> earth
+  49:    1  ->  echidna ==> a
+  50:    1  ->  eggs ==> aches
+  51:    1  ->  emissaries ==> masteries
+  52:    1  ->  ericsson ==> arizona
+  53:    1  ->  executors ==> executives
+  54:    1  ->  exhuming ==> assuming
+  55:    1  ->  expressive ==> express
+  56:    1  ->  fall ==> pull
+  57:    1  ->  faustus ==> fourth
+  58:    1  ->  fencewire ==> wire
+  59:    1  ->  first ==> those
+  60:    1  ->  flappers ==> flatters
+  61:    1  ->  flappers ==> is
+  62:    1  ->  floor ==> for
+  63:    1  ->  folds ==> falls
+  64:    1  ->  for ==> with
+  65:    1  ->  forking ==> ***
+  66:    1  ->  forums ==> tropic
+  67:    1  ->  four ==> fall
+  68:    1  ->  from ==> the
+  69:    1  ->  glamor ==> disclaimer
+  70:    1  ->  grated ==> immigrated
+  71:    1  ->  gritted ==> gridded
+  72:    1  ->  grow ==> drove
+  73:    1  ->  halt ==> pulled
+  74:    1  ->  halts ==> holt
+  75:    1  ->  he ==> his
+  76:    1  ->  headlights ==> headline
+  77:    1  ->  heady ==> heavy
+  78:    1  ->  highlife ==> highlight
+  79:    1  ->  homonculus ==> homunculus
+  80:    1  ->  humidicribs ==> cribs
+  81:    1  ->  humitrophic ==> with
+  82:    1  ->  in ==> stretching
+  83:    1  ->  inheritors ==> inherits
+  84:    1  ->  into ==> in
+  85:    1  ->  is ==> as
+  86:    1  ->  is ==> errors
+  87:    1  ->  jacques ==> jack
+  88:    1  ->  jamming ==> gaming
+  89:    1  ->  la ==> a
+  90:    1  ->  lavender ==> levander
+  91:    1  ->  lax ==> legs
+  92:    1  ->  leathery ==> delivery
+  93:    1  ->  light ==> lights
+  94:    1  ->  light ==> like
+  95:    1  ->  like ==> light
+  96:    1  ->  litters ==> leases
+  97:    1  ->  load ==> contend
+  98:    1  ->  loamy ==> blooming
+  99:    1  ->  looting ==> losing
+ 100:    1  ->  lovers ==> loves
+ 101:    1  ->  lugging ==> grabbing
+ 102:    1  ->  mallee ==> melly
+ 103:    1  ->  marsupial ==> fuel
+ 104:    1  ->  mescal ==> goal
+ 105:    1  ->  miasma ==> chemical
+ 106:    1  ->  monotreme ==> monitoring
+ 107:    1  ->  monotreme ==> one
+ 108:    1  ->  muscled ==> muscle
+ 109:    1  ->  needles ==> needle
+ 110:    1  ->  nose ==> no
+ 111:    1  ->  of ==> marshall
+ 112:    1  ->  ooh ==> a
+ 113:    1  ->  or ==> of
+ 114:    1  ->  or ==> open
+ 115:    1  ->  our ==> al
+ 116:    1  ->  palpitating ==> fall
+ 117:    1  ->  particle ==> panicle
+ 118:    1  ->  pellegra ==> pellagra
+ 119:    1  ->  pinheaded ==> header
+ 120:    1  ->  planets ==> planet's
+ 121:    1  ->  platypus ==> platforms
+ 122:    1  ->  ploy ==> employ
+ 123:    1  ->  poem ==> palm
+ 124:    1  ->  poem ==> to
+ 125:    1  ->  poem's ==> problems
+ 126:    1  ->  poise ==> clarifying
+ 127:    1  ->  porcupine ==> pine
+ 128:    1  ->  predella ==> patella
+ 129:    1  ->  press ==> pressed
+ 130:    1  ->  prose ==> pros
+ 131:    1  ->  prosody ==> procede
+ 132:    1  ->  pulpy ==> poppy
+ 133:    1  ->  racketing ==> rocketing
+ 134:    1  ->  raddled ==> rattled
+ 135:    1  ->  releasing ==> relaying
+ 136:    1  ->  retentive ==> pretending
+ 137:    1  ->  rhizomic ==> resonic
+ 138:    1  ->  rhomboidal ==> but
+ 139:    1  ->  riddled ==> riddle
+ 140:    1  ->  roots ==> routes
+ 141:    1  ->  saws ==> saw
+ 142:    1  ->  sex ==> six
+ 143:    1  ->  shapes ==> ***
+ 144:    1  ->  sheep ==> sheet
+ 145:    1  ->  sibilance ==> siblings
+ 146:    1  ->  silk ==> soup
+ 147:    1  ->  splurges ==> urges
+ 148:    1  ->  spot ==> but
+ 149:    1  ->  squirrel ==> swirl
+ 150:    1  ->  stills ==> still
+ 151:    1  ->  streams ==> screams
+ 152:    1  ->  striping ==> scripting
+ 153:    1  ->  substratas ==> substrates
+ 154:    1  ->  subterranean ==> train
+ 155:    1  ->  suckles ==> suckle
+ 156:    1  ->  sursurrous ==> serious
+ 157:    1  ->  swampy ==> swamp
+ 158:    1  ->  swarming ==> warming
+ 159:    1  ->  syzygy ==> size
+ 160:    1  ->  tails ==> to
+ 161:    1  ->  takers ==> his
+ 162:    1  ->  takers ==> takes
+ 163:    1  ->  tales ==> legging
+ 164:    1  ->  tall ==> tails
+ 165:    1  ->  tan ==> and
+ 166:    1  ->  the ==> boys
+ 167:    1  ->  the ==> ten
+ 168:    1  ->  tinfoiling ==> foiling
+ 169:    1  ->  tired ==> tide
+ 170:    1  ->  to ==> the
+ 171:    1  ->  tractor ==> attracted
+ 172:    1  ->  trifolate ==> light
+ 173:    1  ->  two ==> to
+ 174:    1  ->  underminer ==> undermine
+ 175:    1  ->  undermovings ==> moving
+ 176:    1  ->  wandoo ==> feld
+ 177:    1  ->  warholing ==> holding
+ 178:    1  ->  water ==> a
+ 179:    1  ->  weather ==> whether
+ 180:    1  ->  zebra ==> ever
+ 181:    1  ->  zoning ==> joining
+     -------
+       190
+
+
+
+INSERTIONS                       Total                 (31)
+                                 With >=  1 occurrences (31)
+
+   1:    2  ->  the
+   2:    1  ->  and
+   3:    1  ->  asthma
+   4:    1  ->  but
+   5:    1  ->  cry
+   6:    1  ->  door
+   7:    1  ->  fence
+   8:    1  ->  flat
+   9:    1  ->  forms
+  10:    1  ->  human
+  11:    1  ->  in
+  12:    1  ->  kin
+  13:    1  ->  mass
+  14:    1  ->  me
+  15:    1  ->  miss
+  16:    1  ->  my
+  17:    1  ->  of
+  18:    1  ->  populating
+  19:    1  ->  powerful
+  20:    1  ->  room
+  21:    1  ->  sub
+  22:    1  ->  take
+  23:    1  ->  to
+  24:    1  ->  toll
+  25:    1  ->  tracking
+  26:    1  ->  under
+  27:    1  ->  very
+  28:    1  ->  war
+  29:    1  ->  when
+  30:    1  ->  x
+  31:    1  ->  you
+     -------
+        32
+
+
+
+DELETIONS                        Total                 (21)
+                                 With >=  1 occurrences (21)
+
+   1:    6  ->  a
+   2:    4  ->  the
+   3:    1  ->  air
+   4:    1  ->  contention
+   5:    1  ->  dowsed
+   6:    1  ->  felled
+   7:    1  ->  foo
+   8:    1  ->  half
+   9:    1  ->  i
+  10:    1  ->  in
+  11:    1  ->  it
+  12:    1  ->  marsh
+  13:    1  ->  now
+  14:    1  ->  scarifying
+  15:    1  ->  stretch
+  16:    1  ->  sweat
+  17:    1  ->  tree
+  18:    1  ->  turbine
+  19:    1  ->  very
+  20:    1  ->  wet
+  21:    1  ->  with
+     -------
+        29
+
+
+
+SUBSTITUTIONS                    Total                 (165)
+                                 With >=  1 occurrences (165)
+
+   1:    6  ->  a
+   2:    6  ->  and
+   3:    3  ->  echidna
+   4:    2  ->  adjuncting
+   5:    2  ->  an
+   6:    2  ->  cane
+   7:    2  ->  flappers
+   8:    2  ->  is
+   9:    2  ->  it
+  10:    2  ->  its
+  11:    2  ->  light
+  12:    2  ->  monotreme
+  13:    2  ->  or
+  14:    2  ->  poem
+  15:    2  ->  takers
+  16:    2  ->  the
+  17:    1  ->  agitators
+  18:    1  ->  are
+  19:    1  ->  axminster
+  20:    1  ->  azurine
+  21:    1  ->  backs
+  22:    1  ->  bas
+  23:    1  ->  bloat
+  24:    1  ->  bootlegging
+  25:    1  ->  budding
+  26:    1  ->  burrowing
+  27:    1  ->  butcher's
+  28:    1  ->  called
+  29:    1  ->  camouflaged
+  30:    1  ->  chair
+  31:    1  ->  choric
+  32:    1  ->  churn
+  33:    1  ->  clods
+  34:    1  ->  contrivers
+  35:    1  ->  corpse
+  36:    1  ->  cracking
+  37:    1  ->  croak
+  38:    1  ->  cross
+  39:    1  ->  cups
+  40:    1  ->  curled
+  41:    1  ->  cut
+  42:    1  ->  cutter
+  43:    1  ->  cutter’s
+  44:    1  ->  decaying
+  45:    1  ->  derrida
+  46:    1  ->  doorpost
+  47:    1  ->  drabness
+  48:    1  ->  dust
+  49:    1  ->  earthy
+  50:    1  ->  eggs
+  51:    1  ->  emissaries
+  52:    1  ->  ericsson
+  53:    1  ->  executors
+  54:    1  ->  exhuming
+  55:    1  ->  expressive
+  56:    1  ->  fall
+  57:    1  ->  faustus
+  58:    1  ->  fencewire
+  59:    1  ->  first
+  60:    1  ->  floor
+  61:    1  ->  folds
+  62:    1  ->  for
+  63:    1  ->  forking
+  64:    1  ->  forums
+  65:    1  ->  four
+  66:    1  ->  from
+  67:    1  ->  glamor
+  68:    1  ->  grated
+  69:    1  ->  gritted
+  70:    1  ->  grow
+  71:    1  ->  halt
+  72:    1  ->  halts
+  73:    1  ->  he
+  74:    1  ->  headlights
+  75:    1  ->  heady
+  76:    1  ->  highlife
+  77:    1  ->  homonculus
+  78:    1  ->  humidicribs
+  79:    1  ->  humitrophic
+  80:    1  ->  in
+  81:    1  ->  inheritors
+  82:    1  ->  into
+  83:    1  ->  jacques
+  84:    1  ->  jamming
+  85:    1  ->  la
+  86:    1  ->  lavender
+  87:    1  ->  lax
+  88:    1  ->  leathery
+  89:    1  ->  like
+  90:    1  ->  litters
+  91:    1  ->  load
+  92:    1  ->  loamy
+  93:    1  ->  looting
+  94:    1  ->  lovers
+  95:    1  ->  lugging
+  96:    1  ->  mallee
+  97:    1  ->  marsupial
+  98:    1  ->  mescal
+  99:    1  ->  miasma
+ 100:    1  ->  muscled
+ 101:    1  ->  needles
+ 102:    1  ->  nose
+ 103:    1  ->  of
+ 104:    1  ->  ooh
+ 105:    1  ->  our
+ 106:    1  ->  palpitating
+ 107:    1  ->  particle
+ 108:    1  ->  pellegra
+ 109:    1  ->  pinheaded
+ 110:    1  ->  planets
+ 111:    1  ->  platypus
+ 112:    1  ->  ploy
+ 113:    1  ->  poem's
+ 114:    1  ->  poise
+ 115:    1  ->  porcupine
+ 116:    1  ->  predella
+ 117:    1  ->  press
+ 118:    1  ->  prose
+ 119:    1  ->  prosody
+ 120:    1  ->  pulpy
+ 121:    1  ->  racketing
+ 122:    1  ->  raddled
+ 123:    1  ->  releasing
+ 124:    1  ->  retentive
+ 125:    1  ->  rhizomic
+ 126:    1  ->  rhomboidal
+ 127:    1  ->  riddled
+ 128:    1  ->  roots
+ 129:    1  ->  saws
+ 130:    1  ->  sex
+ 131:    1  ->  shapes
+ 132:    1  ->  sheep
+ 133:    1  ->  sibilance
+ 134:    1  ->  silk
+ 135:    1  ->  splurges
+ 136:    1  ->  spot
+ 137:    1  ->  squirrel
+ 138:    1  ->  stills
+ 139:    1  ->  streams
+ 140:    1  ->  striping
+ 141:    1  ->  substratas
+ 142:    1  ->  subterranean
+ 143:    1  ->  suckles
+ 144:    1  ->  sursurrous
+ 145:    1  ->  swampy
+ 146:    1  ->  swarming
+ 147:    1  ->  syzygy
+ 148:    1  ->  tails
+ 149:    1  ->  tales
+ 150:    1  ->  tall
+ 151:    1  ->  tan
+ 152:    1  ->  tinfoiling
+ 153:    1  ->  tired
+ 154:    1  ->  to
+ 155:    1  ->  tractor
+ 156:    1  ->  trifolate
+ 157:    1  ->  two
+ 158:    1  ->  underminer
+ 159:    1  ->  undermovings
+ 160:    1  ->  wandoo
+ 161:    1  ->  warholing
+ 162:    1  ->  water
+ 163:    1  ->  weather
+ 164:    1  ->  zebra
+ 165:    1  ->  zoning
+     -------
+       190
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (161)
+                                 With >=  1 occurrences (161)
+
+   1:    6  ->  a
+   2:    6  ->  the
+   3:    3  ->  in
+   4:    3  ->  kidnap
+   5:    3  ->  to
+   6:    2  ->  ***
+   7:    2  ->  and
+   8:    2  ->  but
+   9:    2  ->  cup
+  10:    2  ->  fall
+  11:    2  ->  his
+  12:    2  ->  it's
+  13:    2  ->  junking
+  14:    2  ->  light
+  15:    2  ->  of
+  16:    2  ->  that
+  17:    2  ->  train
+  18:    2  ->  with
+  19:    1  ->  aches
+  20:    1  ->  across
+  21:    1  ->  agitates
+  22:    1  ->  al
+  23:    1  ->  all
+  24:    1  ->  arizona
+  25:    1  ->  as
+  26:    1  ->  assuming
+  27:    1  ->  assuring
+  28:    1  ->  attracted
+  29:    1  ->  became
+  30:    1  ->  bloke
+  31:    1  ->  blooming
+  32:    1  ->  borrowing
+  33:    1  ->  boys
+  34:    1  ->  butcher
+  35:    1  ->  called
+  36:    1  ->  can
+  37:    1  ->  cave
+  38:    1  ->  chemical
+  39:    1  ->  clarifying
+  40:    1  ->  clubs
+  41:    1  ->  contend
+  42:    1  ->  contrives
+  43:    1  ->  coric
+  44:    1  ->  corps
+  45:    1  ->  covers
+  46:    1  ->  cribs
+  47:    1  ->  cuza
+  48:    1  ->  delivery
+  49:    1  ->  disclaimer
+  50:    1  ->  downton
+  51:    1  ->  drove
+  52:    1  ->  earth
+  53:    1  ->  employ
+  54:    1  ->  errors
+  55:    1  ->  even
+  56:    1  ->  ever
+  57:    1  ->  executives
+  58:    1  ->  express
+  59:    1  ->  falls
+  60:    1  ->  fast
+  61:    1  ->  feld
+  62:    1  ->  flatters
+  63:    1  ->  foiling
+  64:    1  ->  for
+  65:    1  ->  fourth
+  66:    1  ->  fuel
+  67:    1  ->  funding
+  68:    1  ->  gaming
+  69:    1  ->  goal
+  70:    1  ->  grabbing
+  71:    1  ->  gridded
+  72:    1  ->  halfbacks
+  73:    1  ->  header
+  74:    1  ->  headline
+  75:    1  ->  heavy
+  76:    1  ->  highlight
+  77:    1  ->  holding
+  78:    1  ->  holt
+  79:    1  ->  homunculus
+  80:    1  ->  immigrated
+  81:    1  ->  inherits
+  82:    1  ->  is
+  83:    1  ->  jack
+  84:    1  ->  joining
+  85:    1  ->  leaking
+  86:    1  ->  leases
+  87:    1  ->  legging
+  88:    1  ->  legs
+  89:    1  ->  levander
+  90:    1  ->  lights
+  91:    1  ->  like
+  92:    1  ->  lodge
+  93:    1  ->  losing
+  94:    1  ->  loves
+  95:    1  ->  marshall
+  96:    1  ->  masteries
+  97:    1  ->  melly
+  98:    1  ->  mister
+  99:    1  ->  monitoring
+ 100:    1  ->  moving
+ 101:    1  ->  muscle
+ 102:    1  ->  needle
+ 103:    1  ->  no
+ 104:    1  ->  one
+ 105:    1  ->  open
+ 106:    1  ->  palm
+ 107:    1  ->  panicle
+ 108:    1  ->  patella
+ 109:    1  ->  pellagra
+ 110:    1  ->  pine
+ 111:    1  ->  planet's
+ 112:    1  ->  platforms
+ 113:    1  ->  poppy
+ 114:    1  ->  porky
+ 115:    1  ->  post
+ 116:    1  ->  pressed
+ 117:    1  ->  pretending
+ 118:    1  ->  problems
+ 119:    1  ->  procede
+ 120:    1  ->  pros
+ 121:    1  ->  pull
+ 122:    1  ->  pulled
+ 123:    1  ->  quote
+ 124:    1  ->  rattled
+ 125:    1  ->  relaying
+ 126:    1  ->  resonic
+ 127:    1  ->  riddle
+ 128:    1  ->  rocketing
+ 129:    1  ->  routes
+ 130:    1  ->  saw
+ 131:    1  ->  screams
+ 132:    1  ->  scripting
+ 133:    1  ->  serious
+ 134:    1  ->  sheet
+ 135:    1  ->  siblings
+ 136:    1  ->  six
+ 137:    1  ->  size
+ 138:    1  ->  soup
+ 139:    1  ->  start
+ 140:    1  ->  still
+ 141:    1  ->  stretching
+ 142:    1  ->  substrates
+ 143:    1  ->  suckle
+ 144:    1  ->  swamp
+ 145:    1  ->  sweating
+ 146:    1  ->  swirl
+ 147:    1  ->  tails
+ 148:    1  ->  takes
+ 149:    1  ->  ten
+ 150:    1  ->  those
+ 151:    1  ->  thus
+ 152:    1  ->  tide
+ 153:    1  ->  toby
+ 154:    1  ->  treat
+ 155:    1  ->  tropic
+ 156:    1  ->  undermine
+ 157:    1  ->  urges
+ 158:    1  ->  us
+ 159:    1  ->  warming
+ 160:    1  ->  whether
+ 161:    1  ->  wire
+     -------
+       190
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+
