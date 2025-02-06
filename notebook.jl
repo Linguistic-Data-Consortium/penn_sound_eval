@@ -114,10 +114,9 @@ der = CSV.read("der.tsv", DataFrame, delim="\t")
 
 # ╔═╡ f1f7c60b-65cf-41bd-ad3d-4de34047a143
 begin
-	plot(sort(der.ibm),label="ibm",linestyle=:solid,color=:black,xlim=(0,100),ylim=(0,80))
-	plot!(sort(der.rev),label="rev", linestyle=:dash, color=:tan)
+	plot(sort(der.rev),label="rev",linestyle=:solid,color=:red,xlim=(0,101),ylim=(0,80))
 	plot!(sort(der.azure),label="azure", linestyle=:dashdotdot, color=:green)
-	plot!(sort(der.aws),label="aws", color=:black)
+	plot!(sort(der.aws),label="aws", linestyle=:dash, color=:black)
 end
 
 # ╔═╡ 94830cd3-1203-4621-a4c6-a2eceef135cd
