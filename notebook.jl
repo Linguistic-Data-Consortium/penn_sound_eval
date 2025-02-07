@@ -8,7 +8,13 @@ using InteractiveUtils
 using DataFrames, CSV, Statistics, Dates, Plots, Distributions,RollingFunctions
 
 # ╔═╡ a6d62476-dece-4c86-900d-69d0592f9711
-md"Analysis of PennSound speech-to-text, includes more information not included in the paper"
+md"
+# Analysis of PennSound speech-to-text
+includes additional analysis
+"
+
+# ╔═╡ d6e2d5ea-76f2-49a2-99bd-b8081b99d2b6
+md"## Sample Characteristics"
 
 # ╔═╡ ff597914-bfd6-4bcc-9db8-7c84977dab4d
 md"The original goal was a random sample of 100 clips, each 5 minutes in duration, which would be 8.3 hours of audio if done exactly that way.  The total audio duration is 12.15 hours, which would mean quite a lot of silence if the speech was only 8.3 hours.  However, the reference transcripts tend to indicate more than 5 minutes of speech, due to speech undetected by SAD, overlapping speech, or possibly human error (segments padded with silence).  Summing the segment lengths from the human transcripts gives a total of 9.84 hours of speech, with a mean of 354 seconds and a standard deviation of 61.5 seconds.  The histogram below shows the amount of speech per file in seconds."
@@ -42,6 +48,9 @@ durations = CSV.read("durations.tsv", DataFrame, delim="\t")
 # ╔═╡ 3168af55-09f0-4e59-b3af-c0601bf99f63
 sum(durations.duration) / 3600
 
+# ╔═╡ b336e9ac-613c-4b72-aa89-2093ab1b4b4d
+md"## Word Error Rates"
+
 # ╔═╡ 33724ce9-8d7a-4567-988d-324520a38c69
 md"here we display individual WERs in various ways"
 
@@ -49,11 +58,41 @@ md"here we display individual WERs in various ways"
 wers = CSV.read("wer.tsv", DataFrame, delim="\t")
 
 
+# ╔═╡ 39ce97a6-659a-4467-8bf2-e3047d57f70c
+md"substitution error rates only"
+
+# ╔═╡ b944ee5c-14be-4351-af91-00166fca8479
+wers_s = CSV.read("wer_s.tsv", DataFrame, delim="\t")
+
+
+# ╔═╡ 889a4487-b4ca-45b8-bcae-00b6eee32a55
+md"deletion error rates only"
+
+# ╔═╡ f114d15c-ce94-49ad-aaee-5556335bd28a
+wers_d = CSV.read("wer_d.tsv", DataFrame, delim="\t")
+
+
+# ╔═╡ 406c8eeb-34ab-458b-996e-1519d8e225e7
+md"insertion error rates only"
+
+# ╔═╡ 871d2eb8-b97d-4029-b96e-c3139bc4417f
+wers_i = CSV.read("wer_i.tsv", DataFrame, delim="\t")
+
+
+# ╔═╡ 4b27fa5e-790c-49a0-91d1-2eb718ac12b3
+md"sort by rev, the best performer"
+
 # ╔═╡ 8a729986-cb68-4cb1-8643-d962923a0571
 wers_sorted_by_rev = sort(wers, [:rev])
 
-# ╔═╡ 93149f52-a1d0-48d9-ab5e-bde254f4f1ac
-wers_with_mean = transform(wers, [:rev, :whisper] => ((x,y) -> (x.+y)./2) => :mean)
+# ╔═╡ 05a9c1a0-01e9-4ad9-93b7-fadd96be437d
+md"add mean WER to table"
+
+# ╔═╡ 4dfcef46-2775-4c18-9b5f-d6c67ac93883
+wers_with_mean = transform(wers, AsTable([:aws, :azure, :google, :ibm, :nemo, :rev, :whisper, :whispercpp]) => ByRow(mean) => :mean)
+
+# ╔═╡ d3bd707b-52e5-4373-bd64-debce4244845
+md"sort by mean WER"
 
 # ╔═╡ a9c4bc21-7dce-4db6-a589-7bf21765baaa
 wers_sorted_by_mean = sort(wers_with_mean, :mean)
@@ -74,7 +113,7 @@ begin
 end
 
 # ╔═╡ 202ff61a-07bd-43b3-bf4d-25827a7da4c6
-md"WERs sorted by rev"
+md"WERs sorted by rev (best system)"
 
 # ╔═╡ 7fb2689a-3cb6-4f9f-ad41-a7c424fe054c
 begin
@@ -89,6 +128,9 @@ begin
 	plot!(w1.rev,label="rev", linestyle=:solid,color=:black)
 end
 
+# ╔═╡ 0a941046-b043-4265-b619-f173abc5ed09
+md"WERs sorted by mean WER"
+
 # ╔═╡ ace2977f-1eee-4521-8da4-c7726aeb5125
 begin
 	w2 = wers_sorted_by_mean
@@ -102,15 +144,15 @@ begin
 	plot!(w2.rev,label="rev", linestyle=:solid,color=:black)
 end
 
-# ╔═╡ f70662c2-565d-4e62-a02d-baa881fc8343
-
-
 # ╔═╡ 125639b6-835c-47a7-957d-317096bada07
-
+md"## Diarization Error Rates"
 
 # ╔═╡ 5fb5704d-00df-4961-a61a-c5c2e1ab8d2d
 der = CSV.read("der.tsv", DataFrame, delim="\t")
 
+
+# ╔═╡ 5d81da28-2783-4f6e-8335-a4dd6d77d4ac
+md"DERs sorted separately"
 
 # ╔═╡ f1f7c60b-65cf-41bd-ad3d-4de34047a143
 begin
@@ -119,8 +161,96 @@ begin
 	plot!(sort(der.aws),label="aws", linestyle=:dash, color=:black)
 end
 
-# ╔═╡ 94830cd3-1203-4621-a4c6-a2eceef135cd
-der[der.aws .- der.azure .> 10, :]
+# ╔═╡ af470960-1683-4d19-af82-bb22c030bba5
+md"# What about the outliers?"
+
+# ╔═╡ 9b3e4f06-0222-4074-903b-6a509cc35307
+md"WERs sorted by SNR provided by IBM"
+
+# ╔═╡ c22c7b6b-115c-4866-9bc0-d430d5c32a9f
+wers_sorted_by_snr = sort(wers, [:nsp])
+
+# ╔═╡ 4175cc5c-7e29-4c41-983b-07b3421c1ef4
+md"SNR seems to have an overall effect, but not consistently, and doesn't seem to explain the outliers"
+
+# ╔═╡ e659f4ac-19ee-4e11-826b-d79d78e3a6fe
+begin
+	plot(wers_sorted_by_snr.ibm,label="ibm", linestyle=:solid, color=:black)
+	plot!(wers_sorted_by_snr.google,label="google", linestyle=:solid, color=:tan)
+	plot!(wers_sorted_by_snr.nemo,label="nemo", linestyle=:dashdotdot, color=:green)
+	plot!(wers_sorted_by_snr.whispercpp,label="whispercpp", linestyle=:dash, color=:blue)
+	plot!(wers_sorted_by_snr.azure,label="azure", linestyle=:solid, color=:darkgray)
+	plot!(wers_sorted_by_snr.aws,label="aws",xlim=(0,101),ylim=(0,80), linestyle=:dashdotdot,color=:red)
+	plot!(wers_sorted_by_snr.whisper,label="whisper", linestyle=:dash, color=:magenta)
+	plot!(wers_sorted_by_snr.rev,label="rev", linestyle=:solid,color=:black)
+end
+
+# ╔═╡ 8b27d6f1-c128-4b49-ab2c-b5b511b73c5a
+md"### IBM specifically"
+
+# ╔═╡ 9da413f0-bcfc-45d6-8155-9cd2931bbbc3
+md"what happened with ibm?"
+
+# ╔═╡ ea53c7f4-a378-44da-b0c1-a21b043e2635
+md"There's one extreme outlier, *joris*, where most words are missing.  This recording has a lot of distortion/feedback."
+
+# ╔═╡ 7ef07464-a2b0-45b6-8bca-98ab53666cca
+wers[ wers.file .== "joris", :]
+
+# ╔═╡ a0bde506-7242-47c7-bacd-8e4da4869dfc
+md"Mark, Neville, James, You can listen to it [here](https://webtrans.ldcresearch.org/workflows/6/read_only/675447840000000000000056)"
+
+# ╔═╡ da5b156e-a524-4a31-be27-78d9de29f662
+md"Another outlier is *corrigan*"
+
+# ╔═╡ 4cdf43ba-ec2e-4922-b250-df1e199f7b50
+wers[wers.file .== "corrigan", :]
+
+# ╔═╡ b3318a6e-06c0-4c6f-a214-1016e7d68cba
+md"this file is unremarkable, but also has a lot of deletions.  E.g., there's a 15s region from 100s to 115s that's missing, which is where a second speaker joins."
+
+# ╔═╡ 4730c73a-5a5b-45f5-a51e-613e9f9a60d1
+wers_d[ wers_d.file .== "corrigan", :]
+
+# ╔═╡ ccd53dd1-e0ff-4393-9ca4-36c6014109df
+md"so IBM seems to have an issue with deletions, maybe due to speakers.  sorting by number of speakers shows some effect.  The first 68 have a single speaker.  *corrigan* has two speakers, so this doesn't seem total explanatory for it's high DER."
+
+# ╔═╡ 21b6c2ae-73a1-46ab-8786-22ac62d1301f
+begin
+	wers_dn = sort(wers_d, [:nsp])
+	plot(wers_dn.ibm, label="wer")
+	# plot!(wers_d.ibm)
+	plot!(wers_dn.nsp,label="nsp")
+	# plot!(wers.snr,label="snr")
+end
+
+# ╔═╡ 561b5e7d-f7d7-485e-8ca1-7a220423e7c3
+md"### Whisper and Whisper cpp specifically"
+
+# ╔═╡ 9ac8f0f8-f040-4c73-afb4-56d54f578231
+md"*whispercpp* (dark blue solid) stands out among IERs due to hallucinations, but *whisper* (red dashed) does not.  *whispercpp* doesn't have the new options to limit hallucinations"
+
+# ╔═╡ 2650c240-b47f-4728-b4ba-052069168b62
+begin
+	wm = wers_i
+	plot(wm.whisper, label="whisper", color=:red, linestyle=:dash)
+	plot!(wm.whispercpp, label="whispercpp", color=:blue)
+	plot!(wm.aws)
+	plot!(wm.azure)
+	plot!(wm.google)
+	plot!(wm.ibm)
+	plot!(wm.nemo)
+	plot!(wm.rev)
+end
+
+# ╔═╡ 7aa3d4e9-b0ba-4447-863f-8cbd2dd27e23
+md"### Google specifically"
+
+# ╔═╡ d854d3ec-3f87-4fc9-9ff2-05c9a978d6a5
+md"*phillytalk10* is an outlier for google with a very high IER.  There's a long string of individual digits inserted during a period of silence (no speech), similar to a hallucination in whisper, although it's only digits."
+
+# ╔═╡ 3f6a88fe-fafe-48ee-9abe-2be1f9ef73fe
+wers_i[wers_i.file .== "phillytalks10", :]
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -1438,6 +1568,7 @@ version = "1.4.1+1"
 # ╔═╡ Cell order:
 # ╟─a6d62476-dece-4c86-900d-69d0592f9711
 # ╠═92de71ee-a3f4-4461-b389-c6e1d55b0ea6
+# ╟─d6e2d5ea-76f2-49a2-99bd-b8081b99d2b6
 # ╟─ff597914-bfd6-4bcc-9db8-7c84977dab4d
 # ╠═44b61a98-7028-4755-a03a-7b0e934b0196
 # ╠═300b26a9-7816-4de1-b056-1d525e534067
@@ -1448,20 +1579,52 @@ version = "1.4.1+1"
 # ╟─8821f1d0-6046-4ead-b1cf-ec537e656cb7
 # ╠═24579088-a492-453d-872d-11a1ab1a0da3
 # ╠═3168af55-09f0-4e59-b3af-c0601bf99f63
+# ╟─b336e9ac-613c-4b72-aa89-2093ab1b4b4d
 # ╟─33724ce9-8d7a-4567-988d-324520a38c69
 # ╠═77284867-7069-4469-b46c-1da4f420f2ee
+# ╟─39ce97a6-659a-4467-8bf2-e3047d57f70c
+# ╠═b944ee5c-14be-4351-af91-00166fca8479
+# ╟─889a4487-b4ca-45b8-bcae-00b6eee32a55
+# ╠═f114d15c-ce94-49ad-aaee-5556335bd28a
+# ╟─406c8eeb-34ab-458b-996e-1519d8e225e7
+# ╠═871d2eb8-b97d-4029-b96e-c3139bc4417f
+# ╟─4b27fa5e-790c-49a0-91d1-2eb718ac12b3
 # ╠═8a729986-cb68-4cb1-8643-d962923a0571
-# ╠═93149f52-a1d0-48d9-ab5e-bde254f4f1ac
+# ╟─05a9c1a0-01e9-4ad9-93b7-fadd96be437d
+# ╠═4dfcef46-2775-4c18-9b5f-d6c67ac93883
+# ╟─d3bd707b-52e5-4373-bd64-debce4244845
 # ╠═a9c4bc21-7dce-4db6-a589-7bf21765baaa
 # ╟─f01670b1-9210-4079-9ab5-6bd470624ab3
 # ╠═e845a48d-0d73-46f6-a0c7-1c29741d9f68
 # ╟─202ff61a-07bd-43b3-bf4d-25827a7da4c6
 # ╠═7fb2689a-3cb6-4f9f-ad41-a7c424fe054c
+# ╟─0a941046-b043-4265-b619-f173abc5ed09
 # ╠═ace2977f-1eee-4521-8da4-c7726aeb5125
-# ╠═f70662c2-565d-4e62-a02d-baa881fc8343
-# ╠═125639b6-835c-47a7-957d-317096bada07
+# ╟─125639b6-835c-47a7-957d-317096bada07
 # ╠═5fb5704d-00df-4961-a61a-c5c2e1ab8d2d
+# ╟─5d81da28-2783-4f6e-8335-a4dd6d77d4ac
 # ╠═f1f7c60b-65cf-41bd-ad3d-4de34047a143
-# ╠═94830cd3-1203-4621-a4c6-a2eceef135cd
+# ╟─af470960-1683-4d19-af82-bb22c030bba5
+# ╟─9b3e4f06-0222-4074-903b-6a509cc35307
+# ╠═c22c7b6b-115c-4866-9bc0-d430d5c32a9f
+# ╟─4175cc5c-7e29-4c41-983b-07b3421c1ef4
+# ╠═e659f4ac-19ee-4e11-826b-d79d78e3a6fe
+# ╟─8b27d6f1-c128-4b49-ab2c-b5b511b73c5a
+# ╟─9da413f0-bcfc-45d6-8155-9cd2931bbbc3
+# ╟─ea53c7f4-a378-44da-b0c1-a21b043e2635
+# ╠═7ef07464-a2b0-45b6-8bca-98ab53666cca
+# ╟─a0bde506-7242-47c7-bacd-8e4da4869dfc
+# ╟─da5b156e-a524-4a31-be27-78d9de29f662
+# ╠═4cdf43ba-ec2e-4922-b250-df1e199f7b50
+# ╟─b3318a6e-06c0-4c6f-a214-1016e7d68cba
+# ╠═4730c73a-5a5b-45f5-a51e-613e9f9a60d1
+# ╠═ccd53dd1-e0ff-4393-9ca4-36c6014109df
+# ╠═21b6c2ae-73a1-46ab-8786-22ac62d1301f
+# ╟─561b5e7d-f7d7-485e-8ca1-7a220423e7c3
+# ╟─9ac8f0f8-f040-4c73-afb4-56d54f578231
+# ╠═2650c240-b47f-4728-b4ba-052069168b62
+# ╠═7aa3d4e9-b0ba-4447-863f-8cbd2dd27e23
+# ╟─d854d3ec-3f87-4fc9-9ff2-05c9a978d6a5
+# ╠═3f6a88fe-fafe-48ee-9abe-2be1f9ef73fe
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
