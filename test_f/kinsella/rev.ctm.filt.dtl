@@ -12,402 +12,348 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =   16.1%   ( 156)
+Percent Total Error       =   13.9%   ( 134)
 
-Percent Correct           =   87.0%   ( 841)
+Percent Correct           =   88.2%   ( 853)
 
-Percent Substitution      =   11.3%   ( 109)
-Percent Deletions         =    1.8%   (  17)
-Percent Insertions        =    3.1%   (  30)
-Percent Word Accuracy     =   83.9%
+Percent Substitution      =    9.2%   (  89)
+Percent Deletions         =    2.6%   (  25)
+Percent Insertions        =    2.1%   (  20)
+Percent Word Accuracy     =   86.1%
 
 
 Ref. words                =           ( 967)
-Hyp. words                =           ( 980)
-Aligned words             =           ( 997)
+Hyp. words                =           ( 962)
+Aligned words             =           ( 987)
 
-CONFUSION PAIRS                  Total                 (103)
-                                 With >=  1 occurrences (103)
+CONFUSION PAIRS                  Total                 (86)
+                                 With >=  1 occurrences (86)
 
    1:    3  ->  a ==> the
-   2:    2  ->  adjuncting ==> junking
-   3:    2  ->  echidna ==> kidner
-   4:    2  ->  its ==> it's
-   5:    2  ->  monotreme ==> cream
-   6:    1  ->  a ==> sweater
-   7:    1  ->  all ==> oh
-   8:    1  ->  an ==> a
-   9:    1  ->  an ==> the
-  10:    1  ->  archaeological ==> archeological
-  11:    1  ->  axminster ==> to
-  12:    1  ->  azurine ==> ene
-  13:    1  ->  backs ==> halfbacks
-  14:    1  ->  bas ==> bass
-  15:    1  ->  budding ==> bud
-  16:    1  ->  camouflaged ==> camouflage
-  17:    1  ->  chair ==> creature
-  18:    1  ->  choric ==> coic
-  19:    1  ->  clods ==> clos
-  20:    1  ->  contrivers ==> contrives
-  21:    1  ->  cracking ==> and
-  22:    1  ->  croak ==> quote
-  23:    1  ->  cutter’s ==> cutters
-  24:    1  ->  derrida ==> deida
-  25:    1  ->  doorpost ==> posts
-  26:    1  ->  dowsed ==> do
-  27:    1  ->  drabness ==> this
-  28:    1  ->  dust ==> thus
-  29:    1  ->  ericsson ==> aerosol
-  30:    1  ->  excelling ==> ceiling
-  31:    1  ->  exhuming ==> exum
-  32:    1  ->  eyed ==> eye
-  33:    1  ->  faustus ==> fourth
-  34:    1  ->  felled ==> feld
-  35:    1  ->  fencewire ==> wire
-  36:    1  ->  first ==> those
-  37:    1  ->  folds ==> falls
-  38:    1  ->  for ==> with
-  39:    1  ->  from ==> high
-  40:    1  ->  frost ==> frosts
-  41:    1  ->  glamor ==> disclaimer
-  42:    1  ->  glistening ==> blistering
-  43:    1  ->  grated ==> graded
-  44:    1  ->  gritted ==> gridded
-  45:    1  ->  grow ==> throw
-  46:    1  ->  headlights ==> headline
-  47:    1  ->  highlands ==> lands
-  48:    1  ->  highlife ==> life
-  49:    1  ->  hole ==> hull
-  50:    1  ->  humidicribs ==> cribs
-  51:    1  ->  humitrophic ==> tropic
-  52:    1  ->  inheritors ==> inherits
-  53:    1  ->  is ==> as
-  54:    1  ->  it ==> that
-  55:    1  ->  la ==> so
-  56:    1  ->  like ==> light
-  57:    1  ->  litters ==> lists
-  58:    1  ->  loamy ==> loy
-  59:    1  ->  looting ==> losing
-  60:    1  ->  mallee ==> mely
-  61:    1  ->  marsupial ==> mono
-  62:    1  ->  mescal ==> mezcal
-  63:    1  ->  miasma ==> asthma
-  64:    1  ->  mudbrick ==> brick
-  65:    1  ->  muscled ==> muscle
-  66:    1  ->  needed ==> neither
-  67:    1  ->  needles ==> needle
-  68:    1  ->  of ==> the
-  69:    1  ->  out ==> outta
-  70:    1  ->  pellegra ==> gra
-  71:    1  ->  pinheaded ==> is
-  72:    1  ->  predella ==> a
-  73:    1  ->  prizing ==> prai
-  74:    1  ->  raddled ==> rattled
-  75:    1  ->  reflex ==> reflects
-  76:    1  ->  regarding ==> selfregarding
-  77:    1  ->  rhizomic ==> rmic
-  78:    1  ->  rhomboidal ==> ror
-  79:    1  ->  riddled ==> riddle
-  80:    1  ->  scarifying ==> scaring
-  81:    1  ->  shade ==> shader
-  82:    1  ->  souls ==> selves
-  83:    1  ->  spent ==> spence
-  84:    1  ->  squirrel ==> swirl
-  85:    1  ->  striping ==> stripping
-  86:    1  ->  substratas ==> stratas
-  87:    1  ->  sursurrous ==> serious
-  88:    1  ->  swarming ==> warming
-  89:    1  ->  syzygy ==> cji
-  90:    1  ->  tales ==> tails
-  91:    1  ->  the ==> a
-  92:    1  ->  the ==> to
-  93:    1  ->  time ==> thy
-  94:    1  ->  tinfoiling ==> foiling
-  95:    1  ->  tired ==> tide
-  96:    1  ->  to ==> the
-  97:    1  ->  tractor ==> attract
-  98:    1  ->  undermovings ==> movings
-  99:    1  ->  wandoo ==> ue
- 100:    1  ->  warholing ==> hauling
- 101:    1  ->  with ==> criollo
- 102:    1  ->  year ==> goodyear
- 103:    1  ->  your ==> in
+   2:    2  ->  its ==> it's
+   3:    1  ->  a ==> sweater
+   4:    1  ->  adjuncting ==> pointing
+   5:    1  ->  adjuncting ==> tin
+   6:    1  ->  agitators ==> facilitators
+   7:    1  ->  an ==> a
+   8:    1  ->  axminster ==> to
+   9:    1  ->  backs ==> halfbacks
+  10:    1  ->  bas ==> halfbass
+  11:    1  ->  camouflaged ==> camouflage
+  12:    1  ->  chair ==> tricha
+  13:    1  ->  choric ==> corric
+  14:    1  ->  clods ==> clogs
+  15:    1  ->  cracking ==> tracking
+  16:    1  ->  croak ==> croaked
+  17:    1  ->  cutter’s ==> cutters
+  18:    1  ->  damage ==> damaged
+  19:    1  ->  doorpost ==> post
+  20:    1  ->  dowsed ==> doused
+  21:    1  ->  drabness ==> grabness
+  22:    1  ->  ericsson ==> aeroson
+  23:    1  ->  excelling ==> ceiling
+  24:    1  ->  executors ==> executives
+  25:    1  ->  eyed ==> feebleeyed
+  26:    1  ->  faustus ==> fourth
+  27:    1  ->  fencewire ==> wire
+  28:    1  ->  first ==> those
+  29:    1  ->  for ==> with
+  30:    1  ->  from ==> high
+  31:    1  ->  glamor ==> disclaimer
+  32:    1  ->  grated ==> graded
+  33:    1  ->  gritted ==> gridded
+  34:    1  ->  grow ==> throw
+  35:    1  ->  half ==> goodsides
+  36:    1  ->  headlights ==> headlight
+  37:    1  ->  highlife ==> life
+  38:    1  ->  hole ==> hull
+  39:    1  ->  humidicribs ==> cribs
+  40:    1  ->  humitrophic ==> humotrophic
+  41:    1  ->  is ==> as
+  42:    1  ->  it ==> churnake
+  43:    1  ->  it ==> that
+  44:    1  ->  la ==> so
+  45:    1  ->  light ==> lightetched
+  46:    1  ->  light ==> lights
+  47:    1  ->  light ==> like
+  48:    1  ->  like ==> ducklike
+  49:    1  ->  like ==> light
+  50:    1  ->  like ==> porcupinelike
+  51:    1  ->  litters ==> listers
+  52:    1  ->  lugging ==> lagging
+  53:    1  ->  mallee ==> melly
+  54:    1  ->  miasma ==> asthma
+  55:    1  ->  moving ==> slowmoving
+  56:    1  ->  mudbrick ==> brick
+  57:    1  ->  needed ==> neither
+  58:    1  ->  needles ==> needle
+  59:    1  ->  of ==> the
+  60:    1  ->  on ==> or
+  61:    1  ->  out ==> outta
+  62:    1  ->  pellegra ==> polegra
+  63:    1  ->  pinheaded ==> is
+  64:    1  ->  poem's ==> is
+  65:    1  ->  prizing ==> prising
+  66:    1  ->  racketing ==> reckoning
+  67:    1  ->  raddled ==> rattle
+  68:    1  ->  reflex ==> reflects
+  69:    1  ->  regarding ==> selfregarding
+  70:    1  ->  rhomboidal ==> rombordle
+  71:    1  ->  shade ==> shader
+  72:    1  ->  spot ==> but
+  73:    1  ->  squirrel ==> swirl
+  74:    1  ->  striping ==> stripping
+  75:    1  ->  sursurrous ==> serious
+  76:    1  ->  syzygy ==> gee
+  77:    1  ->  tails ==> tales
+  78:    1  ->  the ==> a
+  79:    1  ->  tinfoiling ==> foiling
+  80:    1  ->  tired ==> tied
+  81:    1  ->  to ==> the
+  82:    1  ->  tree ==> jamtree
+  83:    1  ->  trifolate ==> criollo
+  84:    1  ->  wandoo ==> stormfeldwandoo
+  85:    1  ->  year ==> goodyear
+  86:    1  ->  your ==> in
      -------
-       109
+        89
 
 
 
-INSERTIONS                       Total                 (27)
-                                 With >=  1 occurrences (27)
+INSERTIONS                       Total                 (18)
+                                 With >=  1 occurrences (18)
 
-   1:    3  ->  the
-   2:    2  ->  a
-   3:    1  ->  are
-   4:    1  ->  ax
-   5:    1  ->  door
-   6:    1  ->  etch
-   7:    1  ->  fence
-   8:    1  ->  fuel
-   9:    1  ->  grab
-  10:    1  ->  high
-  11:    1  ->  hum
-  12:    1  ->  masu
-  13:    1  ->  mi
-  14:    1  ->  mono
-  15:    1  ->  mud
-  16:    1  ->  my
-  17:    1  ->  oh
-  18:    1  ->  pella
-  19:    1  ->  pinhead
-  20:    1  ->  subst
-  21:    1  ->  that
-  22:    1  ->  tin
-  23:    1  ->  tracking
-  24:    1  ->  underm
-  25:    1  ->  very
-  26:    1  ->  war
-  27:    1  ->  when
+   1:    3  ->  a
+   2:    1  ->  ax
+   3:    1  ->  door
+   4:    1  ->  fence
+   5:    1  ->  humidor
+   6:    1  ->  is
+   7:    1  ->  junk
+   8:    1  ->  mince
+   9:    1  ->  mud
+  10:    1  ->  my
+  11:    1  ->  oh
+  12:    1  ->  pinhead
+  13:    1  ->  poem
+  14:    1  ->  scissor
+  15:    1  ->  the
+  16:    1  ->  tin
+  17:    1  ->  very
+  18:    1  ->  when
      -------
-        30
+        20
 
 
 
-DELETIONS                        Total                 (15)
-                                 With >=  1 occurrences (15)
+DELETIONS                        Total                 (23)
+                                 With >=  1 occurrences (23)
 
-   1:    2  ->  a
-   2:    2  ->  the
-   3:    1  ->  and
-   4:    1  ->  country
-   5:    1  ->  foo
-   6:    1  ->  good
-   7:    1  ->  half
-   8:    1  ->  i
-   9:    1  ->  it
-  10:    1  ->  now
-  11:    1  ->  self
-  12:    1  ->  sweat
-  13:    1  ->  tree
-  14:    1  ->  trifolate
-  15:    1  ->  very
+   1:    2  ->  and
+   2:    2  ->  good
+   3:    1  ->  a
+   4:    1  ->  churn
+   5:    1  ->  duck
+   6:    1  ->  feeble
+   7:    1  ->  felled
+   8:    1  ->  foo
+   9:    1  ->  glistening
+  10:    1  ->  half
+  11:    1  ->  i
+  12:    1  ->  jam
+  13:    1  ->  lovers
+  14:    1  ->  now
+  15:    1  ->  porcupine
+  16:    1  ->  self
+  17:    1  ->  sides
+  18:    1  ->  slow
+  19:    1  ->  storm
+  20:    1  ->  sweat
+  21:    1  ->  the
+  22:    1  ->  tree
+  23:    1  ->  very
      -------
-        17
+        25
 
 
 
-SUBSTITUTIONS                    Total                 (100)
-                                 With >=  1 occurrences (100)
+SUBSTITUTIONS                    Total                 (79)
+                                 With >=  1 occurrences (79)
 
    1:    4  ->  a
-   2:    2  ->  adjuncting
-   3:    2  ->  an
-   4:    2  ->  echidna
-   5:    2  ->  its
-   6:    2  ->  monotreme
-   7:    2  ->  the
-   8:    1  ->  all
-   9:    1  ->  archaeological
-  10:    1  ->  axminster
-  11:    1  ->  azurine
-  12:    1  ->  backs
-  13:    1  ->  bas
-  14:    1  ->  budding
-  15:    1  ->  camouflaged
-  16:    1  ->  chair
-  17:    1  ->  choric
-  18:    1  ->  clods
-  19:    1  ->  contrivers
-  20:    1  ->  cracking
-  21:    1  ->  croak
-  22:    1  ->  cutter’s
-  23:    1  ->  derrida
-  24:    1  ->  doorpost
-  25:    1  ->  dowsed
-  26:    1  ->  drabness
-  27:    1  ->  dust
-  28:    1  ->  ericsson
-  29:    1  ->  excelling
-  30:    1  ->  exhuming
-  31:    1  ->  eyed
-  32:    1  ->  faustus
-  33:    1  ->  felled
-  34:    1  ->  fencewire
-  35:    1  ->  first
-  36:    1  ->  folds
-  37:    1  ->  for
-  38:    1  ->  from
-  39:    1  ->  frost
-  40:    1  ->  glamor
-  41:    1  ->  glistening
-  42:    1  ->  grated
-  43:    1  ->  gritted
-  44:    1  ->  grow
-  45:    1  ->  headlights
-  46:    1  ->  highlands
-  47:    1  ->  highlife
-  48:    1  ->  hole
-  49:    1  ->  humidicribs
-  50:    1  ->  humitrophic
-  51:    1  ->  inheritors
-  52:    1  ->  is
-  53:    1  ->  it
-  54:    1  ->  la
-  55:    1  ->  like
-  56:    1  ->  litters
-  57:    1  ->  loamy
-  58:    1  ->  looting
-  59:    1  ->  mallee
-  60:    1  ->  marsupial
-  61:    1  ->  mescal
-  62:    1  ->  miasma
-  63:    1  ->  mudbrick
-  64:    1  ->  muscled
-  65:    1  ->  needed
-  66:    1  ->  needles
-  67:    1  ->  of
-  68:    1  ->  out
-  69:    1  ->  pellegra
-  70:    1  ->  pinheaded
-  71:    1  ->  predella
-  72:    1  ->  prizing
-  73:    1  ->  raddled
-  74:    1  ->  reflex
-  75:    1  ->  regarding
-  76:    1  ->  rhizomic
-  77:    1  ->  rhomboidal
-  78:    1  ->  riddled
-  79:    1  ->  scarifying
-  80:    1  ->  shade
-  81:    1  ->  souls
-  82:    1  ->  spent
-  83:    1  ->  squirrel
-  84:    1  ->  striping
-  85:    1  ->  substratas
-  86:    1  ->  sursurrous
-  87:    1  ->  swarming
-  88:    1  ->  syzygy
-  89:    1  ->  tales
-  90:    1  ->  time
-  91:    1  ->  tinfoiling
-  92:    1  ->  tired
-  93:    1  ->  to
-  94:    1  ->  tractor
-  95:    1  ->  undermovings
-  96:    1  ->  wandoo
-  97:    1  ->  warholing
-  98:    1  ->  with
-  99:    1  ->  year
- 100:    1  ->  your
+   2:    3  ->  light
+   3:    3  ->  like
+   4:    2  ->  adjuncting
+   5:    2  ->  it
+   6:    2  ->  its
+   7:    1  ->  agitators
+   8:    1  ->  an
+   9:    1  ->  axminster
+  10:    1  ->  backs
+  11:    1  ->  bas
+  12:    1  ->  camouflaged
+  13:    1  ->  chair
+  14:    1  ->  choric
+  15:    1  ->  clods
+  16:    1  ->  cracking
+  17:    1  ->  croak
+  18:    1  ->  cutter’s
+  19:    1  ->  damage
+  20:    1  ->  doorpost
+  21:    1  ->  dowsed
+  22:    1  ->  drabness
+  23:    1  ->  ericsson
+  24:    1  ->  excelling
+  25:    1  ->  executors
+  26:    1  ->  eyed
+  27:    1  ->  faustus
+  28:    1  ->  fencewire
+  29:    1  ->  first
+  30:    1  ->  for
+  31:    1  ->  from
+  32:    1  ->  glamor
+  33:    1  ->  grated
+  34:    1  ->  gritted
+  35:    1  ->  grow
+  36:    1  ->  half
+  37:    1  ->  headlights
+  38:    1  ->  highlife
+  39:    1  ->  hole
+  40:    1  ->  humidicribs
+  41:    1  ->  humitrophic
+  42:    1  ->  is
+  43:    1  ->  la
+  44:    1  ->  litters
+  45:    1  ->  lugging
+  46:    1  ->  mallee
+  47:    1  ->  miasma
+  48:    1  ->  moving
+  49:    1  ->  mudbrick
+  50:    1  ->  needed
+  51:    1  ->  needles
+  52:    1  ->  of
+  53:    1  ->  on
+  54:    1  ->  out
+  55:    1  ->  pellegra
+  56:    1  ->  pinheaded
+  57:    1  ->  poem's
+  58:    1  ->  prizing
+  59:    1  ->  racketing
+  60:    1  ->  raddled
+  61:    1  ->  reflex
+  62:    1  ->  regarding
+  63:    1  ->  rhomboidal
+  64:    1  ->  shade
+  65:    1  ->  spot
+  66:    1  ->  squirrel
+  67:    1  ->  striping
+  68:    1  ->  sursurrous
+  69:    1  ->  syzygy
+  70:    1  ->  tails
+  71:    1  ->  the
+  72:    1  ->  tinfoiling
+  73:    1  ->  tired
+  74:    1  ->  to
+  75:    1  ->  tree
+  76:    1  ->  trifolate
+  77:    1  ->  wandoo
+  78:    1  ->  year
+  79:    1  ->  your
      -------
-       109
+        89
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (97)
-                                 With >=  1 occurrences (97)
+FALSELY RECOGNIZED               Total                 (82)
+                                 With >=  1 occurrences (82)
 
-   1:    6  ->  the
-   2:    3  ->  a
-   3:    2  ->  cream
+   1:    5  ->  the
+   2:    2  ->  a
+   3:    2  ->  is
    4:    2  ->  it's
-   5:    2  ->  junking
-   6:    2  ->  kidner
-   7:    2  ->  to
-   8:    1  ->  aerosol
-   9:    1  ->  and
-  10:    1  ->  archeological
-  11:    1  ->  as
-  12:    1  ->  asthma
-  13:    1  ->  attract
-  14:    1  ->  bass
-  15:    1  ->  blistering
-  16:    1  ->  brick
-  17:    1  ->  bud
-  18:    1  ->  camouflage
-  19:    1  ->  ceiling
-  20:    1  ->  cji
-  21:    1  ->  clos
-  22:    1  ->  coic
-  23:    1  ->  contrives
-  24:    1  ->  creature
-  25:    1  ->  cribs
-  26:    1  ->  criollo
-  27:    1  ->  cutters
-  28:    1  ->  deida
-  29:    1  ->  disclaimer
-  30:    1  ->  do
-  31:    1  ->  ene
-  32:    1  ->  exum
-  33:    1  ->  eye
-  34:    1  ->  falls
-  35:    1  ->  feld
-  36:    1  ->  foiling
-  37:    1  ->  fourth
-  38:    1  ->  frosts
-  39:    1  ->  goodyear
-  40:    1  ->  gra
-  41:    1  ->  graded
-  42:    1  ->  gridded
-  43:    1  ->  halfbacks
-  44:    1  ->  hauling
-  45:    1  ->  headline
-  46:    1  ->  high
-  47:    1  ->  hull
-  48:    1  ->  in
-  49:    1  ->  inherits
-  50:    1  ->  is
-  51:    1  ->  lands
-  52:    1  ->  life
-  53:    1  ->  light
-  54:    1  ->  lists
-  55:    1  ->  losing
-  56:    1  ->  loy
-  57:    1  ->  mely
-  58:    1  ->  mezcal
-  59:    1  ->  mono
-  60:    1  ->  movings
-  61:    1  ->  muscle
-  62:    1  ->  needle
-  63:    1  ->  neither
-  64:    1  ->  oh
-  65:    1  ->  outta
-  66:    1  ->  posts
-  67:    1  ->  prai
-  68:    1  ->  quote
-  69:    1  ->  rattled
-  70:    1  ->  reflects
-  71:    1  ->  riddle
-  72:    1  ->  rmic
-  73:    1  ->  ror
-  74:    1  ->  scaring
-  75:    1  ->  selfregarding
-  76:    1  ->  selves
-  77:    1  ->  serious
-  78:    1  ->  shader
-  79:    1  ->  so
-  80:    1  ->  spence
-  81:    1  ->  stratas
-  82:    1  ->  stripping
-  83:    1  ->  sweater
-  84:    1  ->  swirl
-  85:    1  ->  tails
-  86:    1  ->  that
-  87:    1  ->  this
-  88:    1  ->  those
-  89:    1  ->  throw
-  90:    1  ->  thus
-  91:    1  ->  thy
-  92:    1  ->  tide
-  93:    1  ->  tropic
-  94:    1  ->  ue
-  95:    1  ->  warming
-  96:    1  ->  wire
-  97:    1  ->  with
+   5:    1  ->  aeroson
+   6:    1  ->  as
+   7:    1  ->  asthma
+   8:    1  ->  brick
+   9:    1  ->  but
+  10:    1  ->  camouflage
+  11:    1  ->  ceiling
+  12:    1  ->  churnake
+  13:    1  ->  clogs
+  14:    1  ->  corric
+  15:    1  ->  cribs
+  16:    1  ->  criollo
+  17:    1  ->  croaked
+  18:    1  ->  cutters
+  19:    1  ->  damaged
+  20:    1  ->  disclaimer
+  21:    1  ->  doused
+  22:    1  ->  ducklike
+  23:    1  ->  executives
+  24:    1  ->  facilitators
+  25:    1  ->  feebleeyed
+  26:    1  ->  foiling
+  27:    1  ->  fourth
+  28:    1  ->  gee
+  29:    1  ->  goodsides
+  30:    1  ->  goodyear
+  31:    1  ->  grabness
+  32:    1  ->  graded
+  33:    1  ->  gridded
+  34:    1  ->  halfbacks
+  35:    1  ->  halfbass
+  36:    1  ->  headlight
+  37:    1  ->  high
+  38:    1  ->  hull
+  39:    1  ->  humotrophic
+  40:    1  ->  in
+  41:    1  ->  jamtree
+  42:    1  ->  lagging
+  43:    1  ->  life
+  44:    1  ->  light
+  45:    1  ->  lightetched
+  46:    1  ->  lights
+  47:    1  ->  like
+  48:    1  ->  listers
+  49:    1  ->  melly
+  50:    1  ->  needle
+  51:    1  ->  neither
+  52:    1  ->  or
+  53:    1  ->  outta
+  54:    1  ->  pointing
+  55:    1  ->  polegra
+  56:    1  ->  porcupinelike
+  57:    1  ->  post
+  58:    1  ->  prising
+  59:    1  ->  rattle
+  60:    1  ->  reckoning
+  61:    1  ->  reflects
+  62:    1  ->  rombordle
+  63:    1  ->  selfregarding
+  64:    1  ->  serious
+  65:    1  ->  shader
+  66:    1  ->  slowmoving
+  67:    1  ->  so
+  68:    1  ->  stormfeldwandoo
+  69:    1  ->  stripping
+  70:    1  ->  sweater
+  71:    1  ->  swirl
+  72:    1  ->  tales
+  73:    1  ->  that
+  74:    1  ->  those
+  75:    1  ->  throw
+  76:    1  ->  tied
+  77:    1  ->  tin
+  78:    1  ->  to
+  79:    1  ->  tracking
+  80:    1  ->  tricha
+  81:    1  ->  wire
+  82:    1  ->  with
      -------
-       109
+        89
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

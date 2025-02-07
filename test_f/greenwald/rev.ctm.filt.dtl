@@ -12,177 +12,157 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    4.6%   (  51)
+Percent Total Error       =    3.8%   (  43)
 
-Percent Correct           =   96.2%   (1074)
+Percent Correct           =   96.7%   (1080)
 
-Percent Substitution      =    3.7%   (  41)
-Percent Deletions         =    0.2%   (   2)
-Percent Insertions        =    0.7%   (   8)
-Percent Word Accuracy     =   95.4%
+Percent Substitution      =    3.0%   (  33)
+Percent Deletions         =    0.4%   (   4)
+Percent Insertions        =    0.5%   (   6)
+Percent Word Accuracy     =   96.2%
 
 
 Ref. words                =           (1117)
-Hyp. words                =           (1123)
-Aligned words             =           (1125)
+Hyp. words                =           (1119)
+Aligned words             =           (1123)
 
-CONFUSION PAIRS                  Total                 (37)
-                                 With >=  1 occurrences (37)
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
 
    1:    2  ->  and ==> in
    2:    2  ->  past ==> pass
-   3:    2  ->  settled ==> settle
-   4:    2  ->  the ==> a
-   5:    1  ->  a ==> am
-   6:    1  ->  air'll ==> will
-   7:    1  ->  an ==> and
-   8:    1  ->  apply ==> applied
-   9:    1  ->  cocked ==> caught
-  10:    1  ->  enter ==> to
-  11:    1  ->  frond ==> front
-  12:    1  ->  greens ==> green
-  13:    1  ->  halo ==> hazel
-  14:    1  ->  having ==> not
-  15:    1  ->  holocausts ==> holocaust
-  16:    1  ->  lavender ==> the
-  17:    1  ->  learn ==> learned
-  18:    1  ->  mere ==> meal
-  19:    1  ->  misters ==> mrs
-  20:    1  ->  moon'll ==> will
-  21:    1  ->  pass ==> passed
-  22:    1  ->  pat ==> pa
-  23:    1  ->  patience ==> patients
-  24:    1  ->  pebbles ==> pebbled
-  25:    1  ->  seem ==> same
-  26:    1  ->  social ==> socially
-  27:    1  ->  spring ==> springing
-  28:    1  ->  then ==> them
-  29:    1  ->  they ==> the
-  30:    1  ->  thigh ==> tie
-  31:    1  ->  until ==> till
-  32:    1  ->  up ==> the
-  33:    1  ->  when ==> one
-  34:    1  ->  whiff ==> with
-  35:    1  ->  whitened ==> whited
-  36:    1  ->  winters ==> winter's
-  37:    1  ->  with ==> upward
+   3:    2  ->  the ==> a
+   4:    1  ->  air'll ==> will
+   5:    1  ->  an ==> and
+   6:    1  ->  apply ==> applied
+   7:    1  ->  chance ==> chants
+   8:    1  ->  cocked ==> caught
+   9:    1  ->  enter ==> to
+  10:    1  ->  greens ==> green
+  11:    1  ->  halo ==> hazel
+  12:    1  ->  having ==> not
+  13:    1  ->  holocausts ==> holocaust
+  14:    1  ->  jealousies ==> jalacies
+  15:    1  ->  learn ==> learned
+  16:    1  ->  moon'll ==> will
+  17:    1  ->  pat ==> pa
+  18:    1  ->  pebbles ==> pebbled
+  19:    1  ->  seem ==> same
+  20:    1  ->  sitting ==> and
+  21:    1  ->  then ==> them
+  22:    1  ->  they ==> the
+  23:    1  ->  thigh ==> tie
+  24:    1  ->  until ==> till
+  25:    1  ->  up ==> the
+  26:    1  ->  when ==> one
+  27:    1  ->  whiff ==> with
+  28:    1  ->  whitened ==> whited
+  29:    1  ->  wider ==> whiter
+  30:    1  ->  with ==> upward
      -------
-        41
+        33
 
 
 
-INSERTIONS                       Total                 (7)
-                                 With >=  1 occurrences (7)
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
 
-   1:    2  ->  one
-   2:    1  ->  air
-   3:    1  ->  and
-   4:    1  ->  have
-   5:    1  ->  k.
-   6:    1  ->  moon
-   7:    1  ->  o.
+   1:    1  ->  air
+   2:    1  ->  and
+   3:    1  ->  have
+   4:    1  ->  k.
+   5:    1  ->  moon
+   6:    1  ->  o.
      -------
-         8
+         6
 
 
 
-DELETIONS                        Total                 (2)
-                                 With >=  1 occurrences (2)
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
 
    1:    1  ->  it
    2:    1  ->  me
+   3:    1  ->  social
+   4:    1  ->  visions
      -------
-         2
+         4
 
 
 
-SUBSTITUTIONS                    Total                 (37)
-                                 With >=  1 occurrences (37)
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
 
    1:    2  ->  and
    2:    2  ->  past
-   3:    2  ->  settled
-   4:    2  ->  the
-   5:    1  ->  a
-   6:    1  ->  air'll
-   7:    1  ->  an
-   8:    1  ->  apply
-   9:    1  ->  cocked
-  10:    1  ->  enter
-  11:    1  ->  frond
-  12:    1  ->  greens
-  13:    1  ->  halo
-  14:    1  ->  having
-  15:    1  ->  holocausts
-  16:    1  ->  lavender
-  17:    1  ->  learn
-  18:    1  ->  mere
-  19:    1  ->  misters
-  20:    1  ->  moon'll
-  21:    1  ->  pass
-  22:    1  ->  pat
-  23:    1  ->  patience
-  24:    1  ->  pebbles
-  25:    1  ->  seem
-  26:    1  ->  social
-  27:    1  ->  spring
-  28:    1  ->  then
-  29:    1  ->  they
-  30:    1  ->  thigh
-  31:    1  ->  until
-  32:    1  ->  up
-  33:    1  ->  when
-  34:    1  ->  whiff
-  35:    1  ->  whitened
-  36:    1  ->  winters
-  37:    1  ->  with
+   3:    2  ->  the
+   4:    1  ->  air'll
+   5:    1  ->  an
+   6:    1  ->  apply
+   7:    1  ->  chance
+   8:    1  ->  cocked
+   9:    1  ->  enter
+  10:    1  ->  greens
+  11:    1  ->  halo
+  12:    1  ->  having
+  13:    1  ->  holocausts
+  14:    1  ->  jealousies
+  15:    1  ->  learn
+  16:    1  ->  moon'll
+  17:    1  ->  pat
+  18:    1  ->  pebbles
+  19:    1  ->  seem
+  20:    1  ->  sitting
+  21:    1  ->  then
+  22:    1  ->  they
+  23:    1  ->  thigh
+  24:    1  ->  until
+  25:    1  ->  up
+  26:    1  ->  when
+  27:    1  ->  whiff
+  28:    1  ->  whitened
+  29:    1  ->  wider
+  30:    1  ->  with
      -------
-        41
+        33
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (34)
-                                 With >=  1 occurrences (34)
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
 
-   1:    3  ->  the
-   2:    2  ->  a
+   1:    2  ->  a
+   2:    2  ->  and
    3:    2  ->  in
    4:    2  ->  pass
-   5:    2  ->  settle
+   5:    2  ->  the
    6:    2  ->  will
-   7:    1  ->  am
-   8:    1  ->  and
-   9:    1  ->  applied
-  10:    1  ->  caught
-  11:    1  ->  front
-  12:    1  ->  green
-  13:    1  ->  hazel
-  14:    1  ->  holocaust
-  15:    1  ->  learned
-  16:    1  ->  meal
-  17:    1  ->  mrs
-  18:    1  ->  not
-  19:    1  ->  one
-  20:    1  ->  pa
-  21:    1  ->  passed
-  22:    1  ->  patients
-  23:    1  ->  pebbled
-  24:    1  ->  same
-  25:    1  ->  socially
-  26:    1  ->  springing
-  27:    1  ->  them
-  28:    1  ->  tie
-  29:    1  ->  till
-  30:    1  ->  to
-  31:    1  ->  upward
-  32:    1  ->  whited
-  33:    1  ->  winter's
-  34:    1  ->  with
+   7:    1  ->  applied
+   8:    1  ->  caught
+   9:    1  ->  chants
+  10:    1  ->  green
+  11:    1  ->  hazel
+  12:    1  ->  holocaust
+  13:    1  ->  jalacies
+  14:    1  ->  learned
+  15:    1  ->  not
+  16:    1  ->  one
+  17:    1  ->  pa
+  18:    1  ->  pebbled
+  19:    1  ->  same
+  20:    1  ->  them
+  21:    1  ->  tie
+  22:    1  ->  till
+  23:    1  ->  to
+  24:    1  ->  upward
+  25:    1  ->  whited
+  26:    1  ->  whiter
+  27:    1  ->  with
      -------
-        41
+        33
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

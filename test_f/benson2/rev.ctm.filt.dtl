@@ -12,114 +12,104 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =   16.6%   ( 187)
+Percent Total Error       =   15.8%   ( 178)
 
-Percent Correct           =   85.5%   ( 965)
+Percent Correct           =   85.6%   ( 966)
 
-Percent Substitution      =    5.7%   (  64)
-Percent Deletions         =    8.9%   ( 100)
-Percent Insertions        =    2.0%   (  23)
-Percent Word Accuracy     =   83.4%
+Percent Substitution      =    4.7%   (  53)
+Percent Deletions         =    9.7%   ( 110)
+Percent Insertions        =    1.3%   (  15)
+Percent Word Accuracy     =   84.2%
 
 
 Ref. words                =           (1129)
-Hyp. words                =           (1052)
-Aligned words             =           (1152)
+Hyp. words                =           (1034)
+Aligned words             =           (1144)
 
-CONFUSION PAIRS                  Total                 (60)
+CONFUSION PAIRS                  Total                 (52)
+                                 With >=  1 occurrences (52)
+
+   1:    2  ->  that's ==> it's
+   2:    1  ->  and ==> back
+   3:    1  ->  and ==> do
+   4:    1  ->  and ==> on
+   5:    1  ->  anything ==> do
+   6:    1  ->  better ==> it
+   7:    1  ->  can ==> to
+   8:    1  ->  d ==> benefit
+   9:    1  ->  does ==> is
+  10:    1  ->  does ==> this
+  11:    1  ->  every ==> me
+  12:    1  ->  everything ==> <inaudible>
+  13:    1  ->  got ==> at
+  14:    1  ->  guest ==> guy
+  15:    1  ->  holidays ==> days
+  16:    1  ->  invalid ==> valid
+  17:    1  ->  is ==> <laugh>
+  18:    1  ->  is ==> was
+  19:    1  ->  it ==> <laugh>
+  20:    1  ->  know ==> dunno
+  21:    1  ->  know ==> it
+  22:    1  ->  like ==> i
+  23:    1  ->  likes ==> to
+  24:    1  ->  make ==> making
+  25:    1  ->  months ==> minutes
+  26:    1  ->  no ==> know
+  27:    1  ->  not ==> is
+  28:    1  ->  of ==> it
+  29:    1  ->  oh ==> wet
+  30:    1  ->  old ==> want
+  31:    1  ->  on ==> from
+  32:    1  ->  or ==> peanut
+  33:    1  ->  pink ==> pen
+  34:    1  ->  say ==> scent
+  35:    1  ->  scen ==> scent
+  36:    1  ->  scents ==> scent
+  37:    1  ->  shawn ==> sean
+  38:    1  ->  smell ==> how
+  39:    1  ->  smell ==> smells
+  40:    1  ->  tacks ==> tax
+  41:    1  ->  the ==> does
+  42:    1  ->  the ==> those
+  43:    1  ->  vacuum ==> do
+  44:    1  ->  vote ==> boat
+  45:    1  ->  who ==> remember
+  46:    1  ->  x ==> <laugh>
+  47:    1  ->  x ==> dust
+  48:    1  ->  x ==> must
+  49:    1  ->  x ==> stuff
+  50:    1  ->  x ==> them
+  51:    1  ->  you ==> in
+  52:    1  ->  yours ==> here
+     -------
+        53
+
+
+
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
+
+   1:    2  ->  i
+   2:    2  ->  right
+   3:    2  ->  you
+   4:    1  ->  but
+   5:    1  ->  do
+   6:    1  ->  ever
+   7:    1  ->  hear
+   8:    1  ->  just
+   9:    1  ->  looked
+  10:    1  ->  not
+  11:    1  ->  wants
+  12:    1  ->  whole
+     -------
+        15
+
+
+
+DELETIONS                        Total                 (60)
                                  With >=  1 occurrences (60)
 
-   1:    3  ->  x ==> <laugh>
-   2:    2  ->  is ==> <laugh>
-   3:    2  ->  that's ==> it's
-   4:    1  ->  a ==> guy
-   5:    1  ->  and ==> back
-   6:    1  ->  and ==> do
-   7:    1  ->  and ==> on
-   8:    1  ->  anything ==> do
-   9:    1  ->  better ==> it
-  10:    1  ->  bringing ==> <laugh>
-  11:    1  ->  can ==> to
-  12:    1  ->  d ==> benefit
-  13:    1  ->  does ==> is
-  14:    1  ->  does ==> this
-  15:    1  ->  estimate ==> estimation
-  16:    1  ->  every ==> dust
-  17:    1  ->  everything ==> <inaudible>
-  18:    1  ->  got ==> at
-  19:    1  ->  guest ==> <laugh>
-  20:    1  ->  holidays ==> days
-  21:    1  ->  invalid ==> valid
-  22:    1  ->  is ==> was
-  23:    1  ->  it ==> <laugh>
-  24:    1  ->  know ==> dunno
-  25:    1  ->  know ==> it
-  26:    1  ->  like ==> i
-  27:    1  ->  likes ==> to
-  28:    1  ->  make ==> making
-  29:    1  ->  months ==> minutes
-  30:    1  ->  no ==> know
-  31:    1  ->  not ==> is
-  32:    1  ->  of ==> it
-  33:    1  ->  oh ==> strong
-  34:    1  ->  oh ==> wet
-  35:    1  ->  oil ==> <laugh>
-  36:    1  ->  oily ==> it's
-  37:    1  ->  old ==> want
-  38:    1  ->  on ==> from
-  39:    1  ->  or ==> peanut
-  40:    1  ->  out ==> <laugh>
-  41:    1  ->  pink ==> pen
-  42:    1  ->  say ==> scent
-  43:    1  ->  scen ==> scent
-  44:    1  ->  scent ==> rather
-  45:    1  ->  scents ==> scent
-  46:    1  ->  shawn ==> sean
-  47:    1  ->  smell ==> how
-  48:    1  ->  strong ==> oil
-  49:    1  ->  tacks ==> tax
-  50:    1  ->  that's ==> actual
-  51:    1  ->  the ==> does
-  52:    1  ->  the ==> those
-  53:    1  ->  vacuum ==> do
-  54:    1  ->  vote ==> boat
-  55:    1  ->  who ==> remember
-  56:    1  ->  x ==> must
-  57:    1  ->  x ==> stuff
-  58:    1  ->  x ==> them
-  59:    1  ->  you ==> in
-  60:    1  ->  yours ==> here
-     -------
-        64
-
-
-
-INSERTIONS                       Total                 (14)
-                                 With >=  1 occurrences (14)
-
-   1:    7  ->  <laugh>
-   2:    2  ->  i
-   3:    2  ->  right
-   4:    2  ->  you
-   5:    1  ->  but
-   6:    1  ->  do
-   7:    1  ->  ever
-   8:    1  ->  hear
-   9:    1  ->  just
-  10:    1  ->  looked
-  11:    1  ->  me
-  12:    1  ->  not
-  13:    1  ->  wants
-  14:    1  ->  whole
-     -------
-        23
-
-
-
-DELETIONS                        Total                 (56)
-                                 With >=  1 occurrences (56)
-
-   1:   14  ->  x
+   1:   15  ->  x
    2:    6  ->  it
    3:    5  ->  i
    4:    5  ->  you
@@ -128,168 +118,161 @@ DELETIONS                        Total                 (56)
    7:    3  ->  and
    8:    3  ->  not
    9:    3  ->  when
-  10:    2  ->  am
-  11:    2  ->  peanut
-  12:    2  ->  right
-  13:    2  ->  them
-  14:    2  ->  then
-  15:    2  ->  yeah
-  16:    1  ->  adult
-  17:    1  ->  all
-  18:    1  ->  an
-  19:    1  ->  are
-  20:    1  ->  back
-  21:    1  ->  be
-  22:    1  ->  cabinet
-  23:    1  ->  careful
-  24:    1  ->  did
-  25:    1  ->  for
-  26:    1  ->  found
-  27:    1  ->  gee
-  28:    1  ->  glass
-  29:    1  ->  guess
-  30:    1  ->  happen
-  31:    1  ->  house
-  32:    1  ->  in
-  33:    1  ->  is
-  34:    1  ->  know
-  35:    1  ->  like
-  36:    1  ->  look
-  37:    1  ->  my
-  38:    1  ->  o
-  39:    1  ->  oh
-  40:    1  ->  oil
-  41:    1  ->  on
-  42:    1  ->  over
-  43:    1  ->  peanuts
-  44:    1  ->  rearrange
-  45:    1  ->  smell
-  46:    1  ->  that
-  47:    1  ->  that's
-  48:    1  ->  there
-  49:    1  ->  this
-  50:    1  ->  those
-  51:    1  ->  times
-  52:    1  ->  together
-  53:    1  ->  told
-  54:    1  ->  try
-  55:    1  ->  whiz
-  56:    1  ->  your
+  10:    3  ->  yeah
+  11:    2  ->  am
+  12:    2  ->  is
+  13:    2  ->  oh
+  14:    2  ->  oil
+  15:    2  ->  peanut
+  16:    2  ->  right
+  17:    2  ->  that's
+  18:    2  ->  them
+  19:    2  ->  then
+  20:    1  ->  a
+  21:    1  ->  adult
+  22:    1  ->  all
+  23:    1  ->  an
+  24:    1  ->  are
+  25:    1  ->  back
+  26:    1  ->  be
+  27:    1  ->  bringing
+  28:    1  ->  cabinet
+  29:    1  ->  careful
+  30:    1  ->  did
+  31:    1  ->  ev
+  32:    1  ->  for
+  33:    1  ->  found
+  34:    1  ->  gee
+  35:    1  ->  glass
+  36:    1  ->  guess
+  37:    1  ->  happen
+  38:    1  ->  house
+  39:    1  ->  in
+  40:    1  ->  know
+  41:    1  ->  like
+  42:    1  ->  look
+  43:    1  ->  my
+  44:    1  ->  o
+  45:    1  ->  oily
+  46:    1  ->  on
+  47:    1  ->  out
+  48:    1  ->  over
+  49:    1  ->  peanuts
+  50:    1  ->  rearrange
+  51:    1  ->  that
+  52:    1  ->  there
+  53:    1  ->  this
+  54:    1  ->  those
+  55:    1  ->  times
+  56:    1  ->  together
+  57:    1  ->  told
+  58:    1  ->  try
+  59:    1  ->  whiz
+  60:    1  ->  your
      -------
-       100
+       110
 
 
 
-SUBSTITUTIONS                    Total                 (49)
-                                 With >=  1 occurrences (49)
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
 
-   1:    6  ->  x
+   1:    5  ->  x
    2:    3  ->  and
-   3:    3  ->  is
-   4:    3  ->  that's
-   5:    2  ->  does
-   6:    2  ->  know
-   7:    2  ->  oh
+   3:    2  ->  does
+   4:    2  ->  is
+   5:    2  ->  know
+   6:    2  ->  smell
+   7:    2  ->  that's
    8:    2  ->  the
-   9:    1  ->  a
-  10:    1  ->  anything
-  11:    1  ->  better
-  12:    1  ->  bringing
-  13:    1  ->  can
-  14:    1  ->  d
-  15:    1  ->  estimate
-  16:    1  ->  every
-  17:    1  ->  everything
-  18:    1  ->  got
-  19:    1  ->  guest
-  20:    1  ->  holidays
-  21:    1  ->  invalid
-  22:    1  ->  it
-  23:    1  ->  like
-  24:    1  ->  likes
-  25:    1  ->  make
-  26:    1  ->  months
-  27:    1  ->  no
-  28:    1  ->  not
-  29:    1  ->  of
-  30:    1  ->  oil
-  31:    1  ->  oily
-  32:    1  ->  old
-  33:    1  ->  on
-  34:    1  ->  or
-  35:    1  ->  out
-  36:    1  ->  pink
-  37:    1  ->  say
-  38:    1  ->  scen
-  39:    1  ->  scent
-  40:    1  ->  scents
-  41:    1  ->  shawn
-  42:    1  ->  smell
-  43:    1  ->  strong
-  44:    1  ->  tacks
-  45:    1  ->  vacuum
-  46:    1  ->  vote
-  47:    1  ->  who
-  48:    1  ->  you
-  49:    1  ->  yours
+   9:    1  ->  anything
+  10:    1  ->  better
+  11:    1  ->  can
+  12:    1  ->  d
+  13:    1  ->  every
+  14:    1  ->  everything
+  15:    1  ->  got
+  16:    1  ->  guest
+  17:    1  ->  holidays
+  18:    1  ->  invalid
+  19:    1  ->  it
+  20:    1  ->  like
+  21:    1  ->  likes
+  22:    1  ->  make
+  23:    1  ->  months
+  24:    1  ->  no
+  25:    1  ->  not
+  26:    1  ->  of
+  27:    1  ->  oh
+  28:    1  ->  old
+  29:    1  ->  on
+  30:    1  ->  or
+  31:    1  ->  pink
+  32:    1  ->  say
+  33:    1  ->  scen
+  34:    1  ->  scents
+  35:    1  ->  shawn
+  36:    1  ->  tacks
+  37:    1  ->  vacuum
+  38:    1  ->  vote
+  39:    1  ->  who
+  40:    1  ->  you
+  41:    1  ->  yours
      -------
-        64
+        53
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (45)
-                                 With >=  1 occurrences (45)
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
 
-   1:   10  ->  <laugh>
+   1:    3  ->  <laugh>
    2:    3  ->  do
    3:    3  ->  it
-   4:    3  ->  it's
-   5:    3  ->  scent
-   6:    2  ->  is
+   4:    3  ->  scent
+   5:    2  ->  is
+   6:    2  ->  it's
    7:    2  ->  to
    8:    1  ->  <inaudible>
-   9:    1  ->  actual
-  10:    1  ->  at
-  11:    1  ->  back
-  12:    1  ->  benefit
-  13:    1  ->  boat
-  14:    1  ->  days
-  15:    1  ->  does
-  16:    1  ->  dunno
-  17:    1  ->  dust
-  18:    1  ->  estimation
-  19:    1  ->  from
-  20:    1  ->  guy
-  21:    1  ->  here
-  22:    1  ->  how
-  23:    1  ->  i
-  24:    1  ->  in
-  25:    1  ->  know
-  26:    1  ->  making
-  27:    1  ->  minutes
-  28:    1  ->  must
-  29:    1  ->  oil
-  30:    1  ->  on
-  31:    1  ->  peanut
-  32:    1  ->  pen
-  33:    1  ->  rather
-  34:    1  ->  remember
-  35:    1  ->  sean
-  36:    1  ->  strong
-  37:    1  ->  stuff
-  38:    1  ->  tax
-  39:    1  ->  them
-  40:    1  ->  this
-  41:    1  ->  those
-  42:    1  ->  valid
-  43:    1  ->  want
-  44:    1  ->  was
-  45:    1  ->  wet
+   9:    1  ->  at
+  10:    1  ->  back
+  11:    1  ->  benefit
+  12:    1  ->  boat
+  13:    1  ->  days
+  14:    1  ->  does
+  15:    1  ->  dunno
+  16:    1  ->  dust
+  17:    1  ->  from
+  18:    1  ->  guy
+  19:    1  ->  here
+  20:    1  ->  how
+  21:    1  ->  i
+  22:    1  ->  in
+  23:    1  ->  know
+  24:    1  ->  making
+  25:    1  ->  me
+  26:    1  ->  minutes
+  27:    1  ->  must
+  28:    1  ->  on
+  29:    1  ->  peanut
+  30:    1  ->  pen
+  31:    1  ->  remember
+  32:    1  ->  sean
+  33:    1  ->  smells
+  34:    1  ->  stuff
+  35:    1  ->  tax
+  36:    1  ->  them
+  37:    1  ->  this
+  38:    1  ->  those
+  39:    1  ->  valid
+  40:    1  ->  want
+  41:    1  ->  was
+  42:    1  ->  wet
      -------
-        64
+        53
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

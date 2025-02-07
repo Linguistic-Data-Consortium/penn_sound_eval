@@ -12,194 +12,155 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    8.6%   (  83)
+Percent Total Error       =    5.9%   (  57)
 
-Percent Correct           =   95.8%   ( 925)
+Percent Correct           =   96.6%   ( 933)
 
-Percent Substitution      =    3.5%   (  34)
-Percent Deletions         =    0.7%   (   7)
-Percent Insertions        =    4.3%   (  42)
-Percent Word Accuracy     =   91.4%
+Percent Substitution      =    2.3%   (  22)
+Percent Deletions         =    1.1%   (  11)
+Percent Insertions        =    2.5%   (  24)
+Percent Word Accuracy     =   94.1%
 
 
 Ref. words                =           ( 966)
-Hyp. words                =           (1001)
-Aligned words             =           (1008)
+Hyp. words                =           ( 979)
+Aligned words             =           ( 990)
 
-CONFUSION PAIRS                  Total                 (34)
-                                 With >=  1 occurrences (34)
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
 
    1:    1  ->  and ==> an
-   2:    1  ->  anguished ==> anguish
-   3:    1  ->  between ==> inbetween
+   2:    1  ->  audibly ==> inaudibly
+   3:    1  ->  benefits ==> benefit
    4:    1  ->  blank's ==> blanks
-   5:    1  ->  colt ==> cult
-   6:    1  ->  cum ==> cu
-   7:    1  ->  decay ==> gk
-   8:    1  ->  discotheque ==> take
-   9:    1  ->  ginsberg ==> ginsburg
-  10:    1  ->  given ==> it
-  11:    1  ->  glamour ==> glamor
-  12:    1  ->  i ==> my
-  13:    1  ->  in ==> on
-  14:    1  ->  in ==> the
-  15:    1  ->  longawaited ==> awaited
-  16:    1  ->  mind ==> mine
-  17:    1  ->  mosquitos ==> mosquitoes
-  18:    1  ->  nerves ==> nerve
-  19:    1  ->  on ==> in
-  20:    1  ->  paterson ==> patterson
-  21:    1  ->  putrefaction ==> dk
-  22:    1  ->  stomachaches ==> eggs
-  23:    1  ->  suite ==> sweet
-  24:    1  ->  surprised ==> surprise
-  25:    1  ->  tout ==> too
-  26:    1  ->  very ==> finished
-  27:    1  ->  walk ==> walked
-  28:    1  ->  were ==> give
-  29:    1  ->  world's ==> off
-  30:    1  ->  wrote ==> rope
-  31:    1  ->  x ==> anyway
-  32:    1  ->  x ==> harris
-  33:    1  ->  x ==> move
-  34:    1  ->  x ==> winnie
+   5:    1  ->  given ==> it
+   6:    1  ->  in ==> on
+   7:    1  ->  in ==> the
+   8:    1  ->  mind ==> cloudmine
+   9:    1  ->  off ==> jackoff
+  10:    1  ->  pity ==> selfpity
+  11:    1  ->  shaded ==> palmshaded
+  12:    1  ->  stomachaches ==> aches
+  13:    1  ->  suite ==> sweet
+  14:    1  ->  surprised ==> surprise
+  15:    1  ->  tout ==> too
+  16:    1  ->  very ==> finished
+  17:    1  ->  walk ==> walked
+  18:    1  ->  were ==> give
+  19:    1  ->  x ==> anyway
+  20:    1  ->  x ==> harris
+  21:    1  ->  x ==> lou
+  22:    1  ->  x ==> winnie
      -------
-        34
+        22
 
 
 
-INSERTIONS                       Total                 (29)
-                                 With >=  1 occurrences (29)
+INSERTIONS                       Total                 (22)
+                                 With >=  1 occurrences (22)
 
-   1:   12  ->  <laugh>
+   1:    2  ->  a
    2:    2  ->  all
-   3:    2  ->  will
-   4:    1  ->  a
-   5:    1  ->  affection
-   6:    1  ->  disco
-   7:    1  ->  go
-   8:    1  ->  good
-   9:    1  ->  her
-  10:    1  ->  if
-  11:    1  ->  just
-  12:    1  ->  laugh
-  13:    1  ->  long
-  14:    1  ->  make
-  15:    1  ->  minute
-  16:    1  ->  oh
-  17:    1  ->  people
-  18:    1  ->  puke
-  19:    1  ->  right
-  20:    1  ->  rip
-  21:    1  ->  six
-  22:    1  ->  stomach
-  23:    1  ->  them
-  24:    1  ->  these
-  25:    1  ->  to
-  26:    1  ->  two
-  27:    1  ->  wanted
-  28:    1  ->  worlds
-  29:    1  ->  yeah
+   3:    1  ->  go
+   4:    1  ->  good
+   5:    1  ->  her
+   6:    1  ->  if
+   7:    1  ->  just
+   8:    1  ->  laugh
+   9:    1  ->  make
+  10:    1  ->  minute
+  11:    1  ->  oh
+  12:    1  ->  people
+  13:    1  ->  right
+  14:    1  ->  six
+  15:    1  ->  stomach
+  16:    1  ->  them
+  17:    1  ->  these
+  18:    1  ->  to
+  19:    1  ->  two
+  20:    1  ->  wanted
+  21:    1  ->  will
+  22:    1  ->  yeah
      -------
-        42
+        24
 
 
 
-DELETIONS                        Total                 (7)
-                                 With >=  1 occurrences (7)
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
 
    1:    1  ->  a
-   2:    1  ->  in
+   2:    1  ->  cloud
    3:    1  ->  is
-   4:    1  ->  not
-   5:    1  ->  out
-   6:    1  ->  ripoff
-   7:    1  ->  x
+   4:    1  ->  jack
+   5:    1  ->  mosquitos
+   6:    1  ->  not
+   7:    1  ->  on
+   8:    1  ->  out
+   9:    1  ->  palm
+  10:    1  ->  self
+  11:    1  ->  x
      -------
-         7
+        11
 
 
 
-SUBSTITUTIONS                    Total                 (30)
-                                 With >=  1 occurrences (30)
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
 
    1:    4  ->  x
    2:    2  ->  in
    3:    1  ->  and
-   4:    1  ->  anguished
-   5:    1  ->  between
+   4:    1  ->  audibly
+   5:    1  ->  benefits
    6:    1  ->  blank's
-   7:    1  ->  colt
-   8:    1  ->  cum
-   9:    1  ->  decay
-  10:    1  ->  discotheque
-  11:    1  ->  ginsberg
-  12:    1  ->  given
-  13:    1  ->  glamour
-  14:    1  ->  i
-  15:    1  ->  longawaited
-  16:    1  ->  mind
-  17:    1  ->  mosquitos
-  18:    1  ->  nerves
-  19:    1  ->  on
-  20:    1  ->  paterson
-  21:    1  ->  putrefaction
-  22:    1  ->  stomachaches
-  23:    1  ->  suite
-  24:    1  ->  surprised
-  25:    1  ->  tout
-  26:    1  ->  very
-  27:    1  ->  walk
-  28:    1  ->  were
-  29:    1  ->  world's
-  30:    1  ->  wrote
+   7:    1  ->  given
+   8:    1  ->  mind
+   9:    1  ->  off
+  10:    1  ->  pity
+  11:    1  ->  shaded
+  12:    1  ->  stomachaches
+  13:    1  ->  suite
+  14:    1  ->  surprised
+  15:    1  ->  tout
+  16:    1  ->  very
+  17:    1  ->  walk
+  18:    1  ->  were
      -------
-        34
+        22
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (34)
-                                 With >=  1 occurrences (34)
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
 
-   1:    1  ->  an
-   2:    1  ->  anguish
+   1:    1  ->  aches
+   2:    1  ->  an
    3:    1  ->  anyway
-   4:    1  ->  awaited
+   4:    1  ->  benefit
    5:    1  ->  blanks
-   6:    1  ->  cu
-   7:    1  ->  cult
-   8:    1  ->  dk
-   9:    1  ->  eggs
-  10:    1  ->  finished
-  11:    1  ->  ginsburg
-  12:    1  ->  give
-  13:    1  ->  gk
-  14:    1  ->  glamor
-  15:    1  ->  harris
-  16:    1  ->  in
-  17:    1  ->  inbetween
-  18:    1  ->  it
-  19:    1  ->  mine
-  20:    1  ->  mosquitoes
-  21:    1  ->  move
-  22:    1  ->  my
-  23:    1  ->  nerve
-  24:    1  ->  off
-  25:    1  ->  on
-  26:    1  ->  patterson
-  27:    1  ->  rope
-  28:    1  ->  surprise
-  29:    1  ->  sweet
-  30:    1  ->  take
-  31:    1  ->  the
-  32:    1  ->  too
-  33:    1  ->  walked
-  34:    1  ->  winnie
+   6:    1  ->  cloudmine
+   7:    1  ->  finished
+   8:    1  ->  give
+   9:    1  ->  harris
+  10:    1  ->  inaudibly
+  11:    1  ->  it
+  12:    1  ->  jackoff
+  13:    1  ->  lou
+  14:    1  ->  on
+  15:    1  ->  palmshaded
+  16:    1  ->  selfpity
+  17:    1  ->  surprise
+  18:    1  ->  sweet
+  19:    1  ->  the
+  20:    1  ->  too
+  21:    1  ->  walked
+  22:    1  ->  winnie
      -------
-        34
+        22
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

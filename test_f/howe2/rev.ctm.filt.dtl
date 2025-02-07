@@ -12,199 +12,154 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =   10.2%   (  58)
+Percent Total Error       =    6.5%   (  37)
 
-Percent Correct           =   91.9%   ( 522)
+Percent Correct           =   93.7%   ( 532)
 
-Percent Substitution      =    7.6%   (  43)
-Percent Deletions         =    0.5%   (   3)
-Percent Insertions        =    2.1%   (  12)
-Percent Word Accuracy     =   89.8%
+Percent Substitution      =    5.3%   (  30)
+Percent Deletions         =    1.1%   (   6)
+Percent Insertions        =    0.2%   (   1)
+Percent Word Accuracy     =   93.5%
 
 
 Ref. words                =           ( 568)
-Hyp. words                =           ( 577)
-Aligned words             =           ( 580)
+Hyp. words                =           ( 563)
+Aligned words             =           ( 569)
 
-CONFUSION PAIRS                  Total                 (42)
-                                 With >=  1 occurrences (42)
+CONFUSION PAIRS                  Total                 (29)
+                                 With >=  1 occurrences (29)
 
    1:    2  ->  sentries ==> centuries
    2:    1  ->  a ==> of
-   3:    1  ->  abasol ==> abby
-   4:    1  ->  are ==> our
-   5:    1  ->  ascetic ==> acetic
-   6:    1  ->  cairn ==> caren
-   7:    1  ->  chamois ==> shawa
-   8:    1  ->  colon ==> on
-   9:    1  ->  dull ==> ll
-  10:    1  ->  easternmost ==> most
-  11:    1  ->  emancipation ==> emancipator
-  12:    1  ->  empirion ==> imperian
-  13:    1  ->  enzyme ==> inside
-  14:    1  ->  eyed ==> eye
-  15:    1  ->  garden ==> giden
-  16:    1  ->  had ==> hooed
-  17:    1  ->  here ==> hairs
-  18:    1  ->  hideout ==> out
-  19:    1  ->  icarian ==> and
-  20:    1  ->  inarticulate ==> articulate
-  21:    1  ->  is ==> call
-  22:    1  ->  kinsmen ==> kinsman
-  23:    1  ->  mistletoe ==> toe
-  24:    1  ->  muffle ==> muffled
-  25:    1  ->  mummy ==> ma
-  26:    1  ->  or ==> were
-  27:    1  ->  physiognomy ==> physionomy
-  28:    1  ->  point ==> standpoint
-  29:    1  ->  reevaluation ==> revaluation
-  30:    1  ->  scrawl ==> missile
-  31:    1  ->  screaming ==> streaming
-  32:    1  ->  shear ==> sheer
-  33:    1  ->  slacken ==> slacking
-  34:    1  ->  slough ==> sl
-  35:    1  ->  stamp ==> stamped
-  36:    1  ->  steeps ==> deeps
-  37:    1  ->  sullen ==> and
-  38:    1  ->  threadbare ==> bear
-  39:    1  ->  tree ==> greentree
-  40:    1  ->  voracity ==> veracity
-  41:    1  ->  wanton ==> and
-  42:    1  ->  wildflowers ==> flowers
+   3:    1  ->  abasol ==> abyssal
+   4:    1  ->  antic ==> antique
+   5:    1  ->  are ==> our
+   6:    1  ->  bear ==> bare
+   7:    1  ->  colon ==> on
+   8:    1  ->  emancipation ==> emancipator
+   9:    1  ->  empirion ==> empyrean
+  10:    1  ->  enzyme ==> ensign
+  11:    1  ->  eyed ==> pineyed
+  12:    1  ->  had ==> hooded
+  13:    1  ->  here ==> hairs
+  14:    1  ->  icarian ==> ikarian
+  15:    1  ->  is ==> call
+  16:    1  ->  kinsmen ==> kinsman
+  17:    1  ->  muffle ==> muffled
+  18:    1  ->  mummy ==> ma
+  19:    1  ->  or ==> were
+  20:    1  ->  point ==> standpoint
+  21:    1  ->  reevaluation ==> revaluation
+  22:    1  ->  ruin ==> ruined
+  23:    1  ->  screaming ==> streaming
+  24:    1  ->  shear ==> sheer
+  25:    1  ->  spoken ==> underspoken
+  26:    1  ->  stamp ==> stamped
+  27:    1  ->  steeps ==> deeps
+  28:    1  ->  thresh ==> thrash
+  29:    1  ->  voracity ==> veracity
      -------
-        43
+        30
 
 
 
-INSERTIONS                       Total                 (12)
-                                 With >=  1 occurrences (12)
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
 
-   1:    1  ->  a
-   2:    1  ->  carry
-   3:    1  ->  eastern
-   4:    1  ->  hide
-   5:    1  ->  in
-   6:    1  ->  s
-   7:    1  ->  scroll
-   8:    1  ->  so
-   9:    1  ->  thread
-  10:    1  ->  want
-  11:    1  ->  wild
-  12:    1  ->  your
+   1:    1  ->  s
      -------
-        12
+         1
 
 
 
-DELETIONS                        Total                 (3)
-                                 With >=  1 occurrences (3)
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
 
-   1:    1  ->  in
-   2:    1  ->  stand
-   3:    1  ->  who
+   1:    1  ->  crowned
+   2:    1  ->  in
+   3:    1  ->  pin
+   4:    1  ->  stand
+   5:    1  ->  under
+   6:    1  ->  who
      -------
-         3
+         6
 
 
 
-SUBSTITUTIONS                    Total                 (42)
-                                 With >=  1 occurrences (42)
+SUBSTITUTIONS                    Total                 (29)
+                                 With >=  1 occurrences (29)
 
    1:    2  ->  sentries
    2:    1  ->  a
    3:    1  ->  abasol
-   4:    1  ->  are
-   5:    1  ->  ascetic
-   6:    1  ->  cairn
-   7:    1  ->  chamois
-   8:    1  ->  colon
-   9:    1  ->  dull
-  10:    1  ->  easternmost
-  11:    1  ->  emancipation
-  12:    1  ->  empirion
-  13:    1  ->  enzyme
-  14:    1  ->  eyed
-  15:    1  ->  garden
-  16:    1  ->  had
-  17:    1  ->  here
-  18:    1  ->  hideout
-  19:    1  ->  icarian
-  20:    1  ->  inarticulate
-  21:    1  ->  is
-  22:    1  ->  kinsmen
-  23:    1  ->  mistletoe
-  24:    1  ->  muffle
-  25:    1  ->  mummy
-  26:    1  ->  or
-  27:    1  ->  physiognomy
-  28:    1  ->  point
-  29:    1  ->  reevaluation
-  30:    1  ->  scrawl
-  31:    1  ->  screaming
-  32:    1  ->  shear
-  33:    1  ->  slacken
-  34:    1  ->  slough
-  35:    1  ->  stamp
-  36:    1  ->  steeps
-  37:    1  ->  sullen
-  38:    1  ->  threadbare
-  39:    1  ->  tree
-  40:    1  ->  voracity
-  41:    1  ->  wanton
-  42:    1  ->  wildflowers
+   4:    1  ->  antic
+   5:    1  ->  are
+   6:    1  ->  bear
+   7:    1  ->  colon
+   8:    1  ->  emancipation
+   9:    1  ->  empirion
+  10:    1  ->  enzyme
+  11:    1  ->  eyed
+  12:    1  ->  had
+  13:    1  ->  here
+  14:    1  ->  icarian
+  15:    1  ->  is
+  16:    1  ->  kinsmen
+  17:    1  ->  muffle
+  18:    1  ->  mummy
+  19:    1  ->  or
+  20:    1  ->  point
+  21:    1  ->  reevaluation
+  22:    1  ->  ruin
+  23:    1  ->  screaming
+  24:    1  ->  shear
+  25:    1  ->  spoken
+  26:    1  ->  stamp
+  27:    1  ->  steeps
+  28:    1  ->  thresh
+  29:    1  ->  voracity
      -------
-        43
+        30
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (40)
-                                 With >=  1 occurrences (40)
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
 
-   1:    3  ->  and
-   2:    2  ->  centuries
-   3:    1  ->  abby
-   4:    1  ->  acetic
-   5:    1  ->  articulate
-   6:    1  ->  bear
-   7:    1  ->  call
-   8:    1  ->  caren
-   9:    1  ->  deeps
-  10:    1  ->  emancipator
-  11:    1  ->  eye
-  12:    1  ->  flowers
-  13:    1  ->  giden
-  14:    1  ->  greentree
-  15:    1  ->  hairs
-  16:    1  ->  hooed
-  17:    1  ->  imperian
-  18:    1  ->  inside
-  19:    1  ->  kinsman
-  20:    1  ->  ll
-  21:    1  ->  ma
-  22:    1  ->  missile
-  23:    1  ->  most
-  24:    1  ->  muffled
-  25:    1  ->  of
-  26:    1  ->  on
-  27:    1  ->  our
-  28:    1  ->  out
-  29:    1  ->  physionomy
-  30:    1  ->  revaluation
-  31:    1  ->  shawa
-  32:    1  ->  sheer
-  33:    1  ->  sl
-  34:    1  ->  slacking
-  35:    1  ->  stamped
-  36:    1  ->  standpoint
-  37:    1  ->  streaming
-  38:    1  ->  toe
-  39:    1  ->  veracity
-  40:    1  ->  were
+   1:    2  ->  centuries
+   2:    1  ->  abyssal
+   3:    1  ->  antique
+   4:    1  ->  bare
+   5:    1  ->  call
+   6:    1  ->  deeps
+   7:    1  ->  emancipator
+   8:    1  ->  empyrean
+   9:    1  ->  ensign
+  10:    1  ->  hairs
+  11:    1  ->  hooded
+  12:    1  ->  ikarian
+  13:    1  ->  kinsman
+  14:    1  ->  ma
+  15:    1  ->  muffled
+  16:    1  ->  of
+  17:    1  ->  on
+  18:    1  ->  our
+  19:    1  ->  pineyed
+  20:    1  ->  revaluation
+  21:    1  ->  ruined
+  22:    1  ->  sheer
+  23:    1  ->  stamped
+  24:    1  ->  standpoint
+  25:    1  ->  streaming
+  26:    1  ->  thrash
+  27:    1  ->  underspoken
+  28:    1  ->  veracity
+  29:    1  ->  were
      -------
-        43
+        30
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

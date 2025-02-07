@@ -12,42 +12,37 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    2.7%   (  23)
+Percent Total Error       =    2.0%   (  17)
 
-Percent Correct           =   97.4%   ( 833)
+Percent Correct           =   98.1%   ( 839)
 
-Percent Substitution      =    2.2%   (  19)
+Percent Substitution      =    1.5%   (  13)
 Percent Deletions         =    0.4%   (   3)
 Percent Insertions        =    0.1%   (   1)
-Percent Word Accuracy     =   97.3%
+Percent Word Accuracy     =   98.0%
 
 
 Ref. words                =           ( 855)
 Hyp. words                =           ( 853)
 Aligned words             =           ( 856)
 
-CONFUSION PAIRS                  Total                 (17)
-                                 With >=  1 occurrences (17)
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
 
    1:    2  ->  hole ==> whole
-   2:    2  ->  stair ==> stare
-   3:    1  ->  behindhand ==> hand
-   4:    1  ->  bits ==> alphabets
-   5:    1  ->  bloodied ==> bloody
-   6:    1  ->  canzone ==> canne
-   7:    1  ->  cosy ==> cozy
-   8:    1  ->  dolls ==> doll
-   9:    1  ->  in ==> and
-  10:    1  ->  it ==> had
-  11:    1  ->  its ==> it's
-  12:    1  ->  laid ==> lay
-  13:    1  ->  l’ingresso ==> reso
-  14:    1  ->  rectitudes ==> rectitude
-  15:    1  ->  shuddering ==> shuttering
-  16:    1  ->  vow ==> avow
-  17:    1  ->  watch ==> watched
+   2:    1  ->  behindhand ==> hand
+   3:    1  ->  bits ==> alphabets
+   4:    1  ->  bloodied ==> bloody
+   5:    1  ->  cosy ==> cozy
+   6:    1  ->  in ==> and
+   7:    1  ->  it ==> had
+   8:    1  ->  its ==> it's
+   9:    1  ->  laid ==> lay
+  10:    1  ->  l’ingresso ==> l'ingresso
+  11:    1  ->  vow ==> avow
+  12:    1  ->  watch ==> watched
      -------
-        19
+        13
 
 
 
@@ -65,62 +60,52 @@ DELETIONS                        Total                 (3)
 
    1:    1  ->  a
    2:    1  ->  alpha
-   3:    1  ->  vietato
+   3:    1  ->  looked
      -------
          3
 
 
 
-SUBSTITUTIONS                    Total                 (17)
-                                 With >=  1 occurrences (17)
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
 
    1:    2  ->  hole
-   2:    2  ->  stair
-   3:    1  ->  behindhand
-   4:    1  ->  bits
-   5:    1  ->  bloodied
-   6:    1  ->  canzone
-   7:    1  ->  cosy
-   8:    1  ->  dolls
-   9:    1  ->  in
-  10:    1  ->  it
-  11:    1  ->  its
-  12:    1  ->  laid
-  13:    1  ->  l’ingresso
-  14:    1  ->  rectitudes
-  15:    1  ->  shuddering
-  16:    1  ->  vow
-  17:    1  ->  watch
+   2:    1  ->  behindhand
+   3:    1  ->  bits
+   4:    1  ->  bloodied
+   5:    1  ->  cosy
+   6:    1  ->  in
+   7:    1  ->  it
+   8:    1  ->  its
+   9:    1  ->  laid
+  10:    1  ->  l’ingresso
+  11:    1  ->  vow
+  12:    1  ->  watch
      -------
-        19
+        13
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (17)
-                                 With >=  1 occurrences (17)
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
 
-   1:    2  ->  stare
-   2:    2  ->  whole
-   3:    1  ->  alphabets
-   4:    1  ->  and
-   5:    1  ->  avow
-   6:    1  ->  bloody
-   7:    1  ->  canne
-   8:    1  ->  cozy
-   9:    1  ->  doll
-  10:    1  ->  had
-  11:    1  ->  hand
-  12:    1  ->  it's
-  13:    1  ->  lay
-  14:    1  ->  rectitude
-  15:    1  ->  reso
-  16:    1  ->  shuttering
-  17:    1  ->  watched
+   1:    2  ->  whole
+   2:    1  ->  alphabets
+   3:    1  ->  and
+   4:    1  ->  avow
+   5:    1  ->  bloody
+   6:    1  ->  cozy
+   7:    1  ->  had
+   8:    1  ->  hand
+   9:    1  ->  it's
+  10:    1  ->  l'ingresso
+  11:    1  ->  lay
+  12:    1  ->  watched
      -------
-        19
+        13
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

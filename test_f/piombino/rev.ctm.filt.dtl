@@ -12,19 +12,19 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    4.3%   (  40)
+Percent Total Error       =    4.7%   (  44)
 
-Percent Correct           =   96.3%   ( 897)
+Percent Correct           =   96.0%   ( 894)
 
 Percent Substitution      =    3.3%   (  31)
-Percent Deletions         =    0.3%   (   3)
-Percent Insertions        =    0.6%   (   6)
-Percent Word Accuracy     =   95.7%
+Percent Deletions         =    0.6%   (   6)
+Percent Insertions        =    0.8%   (   7)
+Percent Word Accuracy     =   95.3%
 
 
 Ref. words                =           ( 931)
-Hyp. words                =           ( 934)
-Aligned words             =           ( 937)
+Hyp. words                =           ( 932)
+Aligned words             =           ( 938)
 
 CONFUSION PAIRS                  Total                 (28)
                                  With >=  1 occurrences (28)
@@ -32,24 +32,24 @@ CONFUSION PAIRS                  Total                 (28)
    1:    3  ->  seven ==> 7
    2:    2  ->  twenty ==> two
    3:    1  ->  a ==> of
-   4:    1  ->  asl ==> als
-   5:    1  ->  betray ==> betrayed
-   6:    1  ->  cerebration ==> celebration
-   7:    1  ->  conquistad ==> conor
-   8:    1  ->  could ==> can
-   9:    1  ->  eight ==> 28
-  10:    1  ->  eight ==> 88
-  11:    1  ->  eighteen ==> eight
-  12:    1  ->  eighty ==> one
-  13:    1  ->  eleven ==> one
-  14:    1  ->  forgo ==> forego
-  15:    1  ->  fourteen ==> four
-  16:    1  ->  grave ==> engraved
-  17:    1  ->  in ==> an
-  18:    1  ->  in ==> and
-  19:    1  ->  of ==> a
-  20:    1  ->  ruined ==> really
-  21:    1  ->  sanjo's ==> andrews'
+   4:    1  ->  cerebration ==> celebration
+   5:    1  ->  could ==> can
+   6:    1  ->  eight ==> 28
+   7:    1  ->  eight ==> 88
+   8:    1  ->  eighteen ==> eight
+   9:    1  ->  eighty ==> one
+  10:    1  ->  eleven ==> one
+  11:    1  ->  embattled ==> battled
+  12:    1  ->  equivalence ==> equivalents
+  13:    1  ->  forgo ==> forego
+  14:    1  ->  fourteen ==> four
+  15:    1  ->  in ==> an
+  16:    1  ->  in ==> and
+  17:    1  ->  making ==> identitymaking
+  18:    1  ->  of ==> a
+  19:    1  ->  reproducibility ==> nonreproducibility
+  20:    1  ->  ruined ==> weary
+  21:    1  ->  sanjo's ==> andrews
   22:    1  ->  seventeen ==> seven
   23:    1  ->  terrai ==> terrain
   24:    1  ->  that ==> of
@@ -62,25 +62,29 @@ CONFUSION PAIRS                  Total                 (28)
 
 
 
-INSERTIONS                       Total                 (3)
-                                 With >=  1 occurrences (3)
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
 
    1:    4  ->  one
-   2:    1  ->  of
-   3:    1  ->  these
+   2:    1  ->  and
+   3:    1  ->  of
+   4:    1  ->  these
+     -------
+         7
+
+
+
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
+
+   1:    1  ->  asl
+   2:    1  ->  conquistad
+   3:    1  ->  identity
+   4:    1  ->  non
+   5:    1  ->  res
+   6:    1  ->  seven
      -------
          6
-
-
-
-DELETIONS                        Total                 (3)
-                                 With >=  1 occurrences (3)
-
-   1:    1  ->  in
-   2:    1  ->  res
-   3:    1  ->  seven
-     -------
-         3
 
 
 
@@ -92,18 +96,18 @@ SUBSTITUTIONS                    Total                 (25)
    3:    2  ->  eight
    4:    2  ->  in
    5:    1  ->  a
-   6:    1  ->  asl
-   7:    1  ->  betray
-   8:    1  ->  cerebration
-   9:    1  ->  conquistad
-  10:    1  ->  could
-  11:    1  ->  eighteen
-  12:    1  ->  eighty
-  13:    1  ->  eleven
-  14:    1  ->  forgo
-  15:    1  ->  fourteen
-  16:    1  ->  grave
-  17:    1  ->  of
+   6:    1  ->  cerebration
+   7:    1  ->  could
+   8:    1  ->  eighteen
+   9:    1  ->  eighty
+  10:    1  ->  eleven
+  11:    1  ->  embattled
+  12:    1  ->  equivalence
+  13:    1  ->  forgo
+  14:    1  ->  fourteen
+  15:    1  ->  making
+  16:    1  ->  of
+  17:    1  ->  reproducibility
   18:    1  ->  ruined
   19:    1  ->  sanjo's
   20:    1  ->  seventeen
@@ -130,23 +134,23 @@ FALSELY RECOGNIZED               Total                 (24)
    5:    1  ->  28
    6:    1  ->  88
    7:    1  ->  a
-   8:    1  ->  als
-   9:    1  ->  an
-  10:    1  ->  and
-  11:    1  ->  andrews'
-  12:    1  ->  betrayed
-  13:    1  ->  can
-  14:    1  ->  celebration
-  15:    1  ->  conor
-  16:    1  ->  eight
-  17:    1  ->  engraved
-  18:    1  ->  forego
-  19:    1  ->  four
-  20:    1  ->  really
-  21:    1  ->  reaping
-  22:    1  ->  seven
-  23:    1  ->  terrain
-  24:    1  ->  three
+   8:    1  ->  an
+   9:    1  ->  and
+  10:    1  ->  andrews
+  11:    1  ->  battled
+  12:    1  ->  can
+  13:    1  ->  celebration
+  14:    1  ->  eight
+  15:    1  ->  equivalents
+  16:    1  ->  forego
+  17:    1  ->  four
+  18:    1  ->  identitymaking
+  19:    1  ->  nonreproducibility
+  20:    1  ->  reaping
+  21:    1  ->  seven
+  22:    1  ->  terrain
+  23:    1  ->  three
+  24:    1  ->  weary
      -------
         31
 

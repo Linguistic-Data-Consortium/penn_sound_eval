@@ -12,19 +12,19 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    2.7%   (  28)
+Percent Total Error       =    2.9%   (  30)
 
-Percent Correct           =   97.8%   (1017)
+Percent Correct           =   97.5%   (1014)
 
 Percent Substitution      =    1.9%   (  20)
-Percent Deletions         =    0.3%   (   3)
-Percent Insertions        =    0.5%   (   5)
-Percent Word Accuracy     =   97.3%
+Percent Deletions         =    0.6%   (   6)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   97.1%
 
 
 Ref. words                =           (1040)
-Hyp. words                =           (1042)
-Aligned words             =           (1045)
+Hyp. words                =           (1038)
+Aligned words             =           (1044)
 
 CONFUSION PAIRS                  Total                 (18)
                                  With >=  1 occurrences (18)
@@ -34,17 +34,17 @@ CONFUSION PAIRS                  Total                 (18)
    3:    1  ->  and ==> to
    4:    1  ->  built ==> build
    5:    1  ->  came ==> cane
-   6:    1  ->  clothes ==> cloth
+   6:    1  ->  draws ==> dross
    7:    1  ->  eyed ==> glassyeyed
-   8:    1  ->  fragged ==> fragmented
-   9:    1  ->  in ==> and
+   8:    1  ->  in ==> and
+   9:    1  ->  inscribed ==> preinscribed
   10:    1  ->  jena ==> jenna
-  11:    1  ->  julianna ==> juliana
-  12:    1  ->  now ==> and
-  13:    1  ->  one ==> won
-  14:    1  ->  osman ==> osmond
+  11:    1  ->  now ==> and
+  12:    1  ->  one ==> won
+  13:    1  ->  osman ==> osmond
+  14:    1  ->  planes ==> plains
   15:    1  ->  po ==> pro
-  16:    1  ->  redman ==> redmond
+  16:    1  ->  signification ==> the
   17:    1  ->  spahr ==> spar
   18:    1  ->  ups ==> changeups
      -------
@@ -52,27 +52,29 @@ CONFUSION PAIRS                  Total                 (18)
 
 
 
-INSERTIONS                       Total                 (5)
-                                 With >=  1 occurrences (5)
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
 
-   1:    1  ->  <laugh>
-   2:    1  ->  i
-   3:    1  ->  of
-   4:    1  ->  or
-   5:    1  ->  the
+   1:    1  ->  i
+   2:    1  ->  of
+   3:    1  ->  or
+   4:    1  ->  simplification
      -------
-         5
+         4
 
 
 
-DELETIONS                        Total                 (3)
-                                 With >=  1 occurrences (3)
+DELETIONS                        Total                 (6)
+                                 With >=  1 occurrences (6)
 
    1:    1  ->  a
    2:    1  ->  change
-   3:    1  ->  glassy
+   3:    1  ->  finalizing
+   4:    1  ->  glassy
+   5:    1  ->  pre
+   6:    1  ->  writing
      -------
-         3
+         6
 
 
 
@@ -83,17 +85,17 @@ SUBSTITUTIONS                    Total                 (17)
    2:    2  ->  and
    3:    1  ->  built
    4:    1  ->  came
-   5:    1  ->  clothes
+   5:    1  ->  draws
    6:    1  ->  eyed
-   7:    1  ->  fragged
-   8:    1  ->  in
+   7:    1  ->  in
+   8:    1  ->  inscribed
    9:    1  ->  jena
-  10:    1  ->  julianna
-  11:    1  ->  now
-  12:    1  ->  one
-  13:    1  ->  osman
+  10:    1  ->  now
+  11:    1  ->  one
+  12:    1  ->  osman
+  13:    1  ->  planes
   14:    1  ->  po
-  15:    1  ->  redman
+  15:    1  ->  signification
   16:    1  ->  spahr
   17:    1  ->  ups
      -------
@@ -112,15 +114,15 @@ FALSELY RECOGNIZED               Total                 (17)
    3:    1  ->  build
    4:    1  ->  cane
    5:    1  ->  changeups
-   6:    1  ->  cloth
-   7:    1  ->  fragmented
-   8:    1  ->  glassyeyed
-   9:    1  ->  jenna
-  10:    1  ->  juliana
-  11:    1  ->  osmond
+   6:    1  ->  dross
+   7:    1  ->  glassyeyed
+   8:    1  ->  jenna
+   9:    1  ->  osmond
+  10:    1  ->  plains
+  11:    1  ->  preinscribed
   12:    1  ->  pro
-  13:    1  ->  redmond
-  14:    1  ->  spar
+  13:    1  ->  spar
+  14:    1  ->  the
   15:    1  ->  them
   16:    1  ->  to
   17:    1  ->  won

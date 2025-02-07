@@ -12,209 +12,199 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =   12.0%   ( 125)
+Percent Total Error       =    9.9%   ( 104)
 
-Percent Correct           =   92.1%   ( 963)
+Percent Correct           =   92.7%   ( 970)
 
-Percent Substitution      =    4.8%   (  50)
+Percent Substitution      =    4.1%   (  43)
 Percent Deletions         =    3.2%   (  33)
-Percent Insertions        =    4.0%   (  42)
-Percent Word Accuracy     =   88.0%
+Percent Insertions        =    2.7%   (  28)
+Percent Word Accuracy     =   90.1%
 
 
 Ref. words                =           (1046)
-Hyp. words                =           (1055)
-Aligned words             =           (1088)
+Hyp. words                =           (1041)
+Aligned words             =           (1074)
 
-CONFUSION PAIRS                  Total                 (42)
-                                 With >=  1 occurrences (42)
+CONFUSION PAIRS                  Total                 (38)
+                                 With >=  1 occurrences (38)
 
-   1:    3  ->  antited ==> ted
-   2:    3  ->  i ==> eye
-   3:    2  ->  %bcack ==> <affirmative>
-   4:    2  ->  fifteen ==> five
-   5:    2  ->  will ==> aisle
-   6:    2  ->  x ==> in
-   7:    1  ->  a ==> an
-   8:    1  ->  altogether ==> together
-   9:    1  ->  antipersona ==> <laugh>
-  10:    1  ->  be ==> b
-  11:    1  ->  be ==> else
-  12:    1  ->  be ==> ilb
-  13:    1  ->  be ==> lb
-  14:    1  ->  big ==> edit
-  15:    1  ->  conservation ==> conversation
-  16:    1  ->  diselect ==> elect
-  17:    1  ->  em ==> in
-  18:    1  ->  have ==> yeah
-  19:    1  ->  in ==> an
-  20:    1  ->  inner ==> a
-  21:    1  ->  it's ==> that's
-  22:    1  ->  melange ==> mailage
-  23:    1  ->  on ==> in
-  24:    1  ->  r ==> re
-  25:    1  ->  show ==> so
-  26:    1  ->  so ==> some
-  27:    1  ->  so ==> though
-  28:    1  ->  soci ==> social
-  29:    1  ->  th ==> the
-  30:    1  ->  that ==> the
-  31:    1  ->  theirs ==> there
-  32:    1  ->  then ==> and
-  33:    1  ->  to ==> just
-  34:    1  ->  when ==> one
-  35:    1  ->  x ==> <laugh>
-  36:    1  ->  x ==> mean
-  37:    1  ->  x ==> right
-  38:    1  ->  x ==> seriously
-  39:    1  ->  x ==> to
-  40:    1  ->  x ==> under
-  41:    1  ->  x ==> yeah
-  42:    1  ->  yes ==> right
+   1:    3  ->  i ==> eye
+   2:    2  ->  %bcack ==> mmhmm
+   3:    2  ->  fifteen ==> five
+   4:    2  ->  x ==> in
+   5:    1  ->  a ==> an
+   6:    1  ->  aisle ==> i
+   7:    1  ->  antipersona ==> persona
+   8:    1  ->  b ==> will
+   9:    1  ->  be ==> else
+  10:    1  ->  be ==> ilb
+  11:    1  ->  big ==> edit
+  12:    1  ->  conservation ==> conversation
+  13:    1  ->  em ==> in
+  14:    1  ->  ethical ==> it's
+  15:    1  ->  have ==> yeah
+  16:    1  ->  in ==> and
+  17:    1  ->  inner ==> a
+  18:    1  ->  ism ==> talkism
+  19:    1  ->  it's ==> that's
+  20:    1  ->  on ==> in
+  21:    1  ->  r ==> re
+  22:    1  ->  show ==> so
+  23:    1  ->  so ==> some
+  24:    1  ->  so ==> though
+  25:    1  ->  soci ==> social
+  26:    1  ->  th ==> the
+  27:    1  ->  that ==> the
+  28:    1  ->  theirs ==> there
+  29:    1  ->  then ==> and
+  30:    1  ->  to ==> just
+  31:    1  ->  when ==> one
+  32:    1  ->  x ==> be
+  33:    1  ->  x ==> mean
+  34:    1  ->  x ==> threats
+  35:    1  ->  x ==> to
+  36:    1  ->  x ==> undercutting
+  37:    1  ->  x ==> yeah
+  38:    1  ->  yes ==> right
      -------
-        50
+        43
 
 
 
-INSERTIONS                       Total                 (25)
-                                 With >=  1 occurrences (25)
+INSERTIONS                       Total                 (21)
+                                 With >=  1 occurrences (21)
 
-   1:    6  ->  mmhmm
-   2:    4  ->  anti
-   3:    3  ->  <affirmative>
-   4:    3  ->  <laugh>
-   5:    2  ->  i
-   6:    2  ->  in
-   7:    2  ->  of
-   8:    2  ->  one
-   9:    2  ->  the
-  10:    1  ->  all
-  11:    1  ->  and
-  12:    1  ->  as
-  13:    1  ->  but
-  14:    1  ->  course
-  15:    1  ->  k.
-  16:    1  ->  lights
-  17:    1  ->  not
-  18:    1  ->  o.
-  19:    1  ->  persona
-  20:    1  ->  right
-  21:    1  ->  there
-  22:    1  ->  we
-  23:    1  ->  with
-  24:    1  ->  yeah
-  25:    1  ->  yes
+   1:    4  ->  mmhmm
+   2:    2  ->  i
+   3:    2  ->  in
+   4:    2  ->  of
+   5:    2  ->  one
+   6:    1  ->  and
+   7:    1  ->  anti
+   8:    1  ->  as
+   9:    1  ->  but
+  10:    1  ->  course
+  11:    1  ->  k.
+  12:    1  ->  life
+  13:    1  ->  not
+  14:    1  ->  o.
+  15:    1  ->  right
+  16:    1  ->  the
+  17:    1  ->  there
+  18:    1  ->  we
+  19:    1  ->  with
+  20:    1  ->  yeah
+  21:    1  ->  yes
      -------
-        42
+        28
 
 
 
-DELETIONS                        Total                 (16)
-                                 With >=  1 occurrences (16)
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
 
-   1:   10  ->  x
+   1:   11  ->  x
    2:    3  ->  a
-   3:    3  ->  i
-   4:    2  ->  %bcack
-   5:    2  ->  e
-   6:    2  ->  s
-   7:    2  ->  you
-   8:    1  ->  add
-   9:    1  ->  at
+   3:    2  ->  %bcack
+   4:    2  ->  e
+   5:    2  ->  s
+   6:    2  ->  you
+   7:    1  ->  add
+   8:    1  ->  at
+   9:    1  ->  i
   10:    1  ->  is
   11:    1  ->  it
   12:    1  ->  right
-  13:    1  ->  th
-  14:    1  ->  well
-  15:    1  ->  will
-  16:    1  ->  y
+  13:    1  ->  talk
+  14:    1  ->  th
+  15:    1  ->  well
+  16:    1  ->  will
+  17:    1  ->  y
      -------
         33
 
 
 
-SUBSTITUTIONS                    Total                 (31)
-                                 With >=  1 occurrences (31)
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
 
-   1:    9  ->  x
-   2:    4  ->  be
-   3:    3  ->  antited
-   4:    3  ->  i
-   5:    2  ->  %bcack
-   6:    2  ->  fifteen
-   7:    2  ->  so
-   8:    2  ->  will
-   9:    1  ->  a
-  10:    1  ->  altogether
-  11:    1  ->  antipersona
-  12:    1  ->  big
-  13:    1  ->  conservation
-  14:    1  ->  diselect
-  15:    1  ->  em
-  16:    1  ->  have
-  17:    1  ->  in
-  18:    1  ->  inner
+   1:    8  ->  x
+   2:    3  ->  i
+   3:    2  ->  %bcack
+   4:    2  ->  be
+   5:    2  ->  fifteen
+   6:    2  ->  so
+   7:    1  ->  a
+   8:    1  ->  aisle
+   9:    1  ->  antipersona
+  10:    1  ->  b
+  11:    1  ->  big
+  12:    1  ->  conservation
+  13:    1  ->  em
+  14:    1  ->  ethical
+  15:    1  ->  have
+  16:    1  ->  in
+  17:    1  ->  inner
+  18:    1  ->  ism
   19:    1  ->  it's
-  20:    1  ->  melange
-  21:    1  ->  on
-  22:    1  ->  r
-  23:    1  ->  show
-  24:    1  ->  soci
-  25:    1  ->  th
-  26:    1  ->  that
-  27:    1  ->  theirs
-  28:    1  ->  then
-  29:    1  ->  to
-  30:    1  ->  when
-  31:    1  ->  yes
+  20:    1  ->  on
+  21:    1  ->  r
+  22:    1  ->  show
+  23:    1  ->  soci
+  24:    1  ->  th
+  25:    1  ->  that
+  26:    1  ->  theirs
+  27:    1  ->  then
+  28:    1  ->  to
+  29:    1  ->  when
+  30:    1  ->  yes
      -------
-        50
+        43
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (35)
-                                 With >=  1 occurrences (35)
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
 
    1:    4  ->  in
    2:    3  ->  eye
-   3:    3  ->  ted
-   4:    2  ->  <affirmative>
-   5:    2  ->  <laugh>
-   6:    2  ->  aisle
-   7:    2  ->  an
-   8:    2  ->  five
-   9:    2  ->  right
-  10:    2  ->  the
-  11:    2  ->  yeah
-  12:    1  ->  a
-  13:    1  ->  and
-  14:    1  ->  b
-  15:    1  ->  conversation
-  16:    1  ->  edit
-  17:    1  ->  elect
-  18:    1  ->  else
-  19:    1  ->  ilb
-  20:    1  ->  just
-  21:    1  ->  lb
-  22:    1  ->  mailage
-  23:    1  ->  mean
-  24:    1  ->  one
-  25:    1  ->  re
-  26:    1  ->  seriously
-  27:    1  ->  so
-  28:    1  ->  social
-  29:    1  ->  some
-  30:    1  ->  that's
-  31:    1  ->  there
-  32:    1  ->  though
-  33:    1  ->  to
-  34:    1  ->  together
-  35:    1  ->  under
+   3:    2  ->  and
+   4:    2  ->  five
+   5:    2  ->  mmhmm
+   6:    2  ->  the
+   7:    2  ->  yeah
+   8:    1  ->  a
+   9:    1  ->  an
+  10:    1  ->  be
+  11:    1  ->  conversation
+  12:    1  ->  edit
+  13:    1  ->  else
+  14:    1  ->  i
+  15:    1  ->  ilb
+  16:    1  ->  it's
+  17:    1  ->  just
+  18:    1  ->  mean
+  19:    1  ->  one
+  20:    1  ->  persona
+  21:    1  ->  re
+  22:    1  ->  right
+  23:    1  ->  so
+  24:    1  ->  social
+  25:    1  ->  some
+  26:    1  ->  talkism
+  27:    1  ->  that's
+  28:    1  ->  there
+  29:    1  ->  though
+  30:    1  ->  threats
+  31:    1  ->  to
+  32:    1  ->  undercutting
+  33:    1  ->  will
      -------
-        50
+        43
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

@@ -12,104 +12,102 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    6.3%   (  59)
+Percent Total Error       =    6.1%   (  57)
 
 Percent Correct           =   94.3%   ( 885)
 
-Percent Substitution      =    4.4%   (  41)
-Percent Deletions         =    1.3%   (  12)
-Percent Insertions        =    0.6%   (   6)
-Percent Word Accuracy     =   93.7%
+Percent Substitution      =    3.7%   (  35)
+Percent Deletions         =    1.9%   (  18)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   93.9%
 
 
 Ref. words                =           ( 938)
-Hyp. words                =           ( 932)
-Aligned words             =           ( 944)
+Hyp. words                =           ( 924)
+Aligned words             =           ( 942)
 
-CONFUSION PAIRS                  Total                 (41)
-                                 With >=  1 occurrences (41)
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
 
    1:    1  ->  a ==> the
    2:    1  ->  an ==> and
    3:    1  ->  and ==> on
    4:    1  ->  as ==> is
    5:    1  ->  back ==> paperback
-   6:    1  ->  bering ==> bearing
-   7:    1  ->  blonde ==> blood
-   8:    1  ->  branded ==> spreaded
-   9:    1  ->  defining ==> selfdefining
-  10:    1  ->  dollar ==> 180
-  11:    1  ->  eighteen ==> eight
-  12:    1  ->  extopian ==> xtop
-  13:    1  ->  film ==> filmed
-  14:    1  ->  forty ==> oh
-  15:    1  ->  four ==> for
-  16:    1  ->  heeled ==> highheeled
-  17:    1  ->  insipid ==> cid
-  18:    1  ->  kneed ==> knee
-  19:    1  ->  knows ==> nose
-  20:    1  ->  leaving ==> leading
-  21:    1  ->  line ==> on
-  22:    1  ->  love ==> loved
-  23:    1  ->  macadam ==> adam
-  24:    1  ->  magpies ==> pies
-  25:    1  ->  mien ==> onan
-  26:    1  ->  mottled ==> modeled
-  27:    1  ->  of ==> on
-  28:    1  ->  petal ==> pedal
-  29:    1  ->  petal ==> pedals
-  30:    1  ->  remoter ==> motor
-  31:    1  ->  rouen ==> ruan
-  32:    1  ->  short ==> char
-  33:    1  ->  sixty ==> oh
-  34:    1  ->  ten ==> oh
-  35:    1  ->  tepid ==> tippi
-  36:    1  ->  that ==> it
-  37:    1  ->  thirty ==> oh
-  38:    1  ->  thirty ==> three
-  39:    1  ->  torpid ==> orpi
-  40:    1  ->  twenty ==> two
-  41:    1  ->  weeks ==> week
+   6:    1  ->  blonde ==> longblood
+   7:    1  ->  branded ==> spreaded
+   8:    1  ->  defining ==> selfdefining
+   9:    1  ->  dollar ==> 180
+  10:    1  ->  eighteen ==> eight
+  11:    1  ->  forty ==> oh
+  12:    1  ->  heeled ==> highheeled
+  13:    1  ->  kneed ==> knockkneed
+  14:    1  ->  knows ==> nose
+  15:    1  ->  leaving ==> leading
+  16:    1  ->  line ==> on
+  17:    1  ->  love ==> loved
+  18:    1  ->  made ==> machinemade
+  19:    1  ->  mien ==> amiens
+  20:    1  ->  of ==> on
+  21:    1  ->  pause ==> paws
+  22:    1  ->  petal ==> peddled
+  23:    1  ->  petal ==> petals
+  24:    1  ->  self ==> autopoetic
+  25:    1  ->  short ==> chartres
+  26:    1  ->  sixty ==> oh
+  27:    1  ->  sterner ==> sterner's
+  28:    1  ->  ten ==> oh
+  29:    1  ->  tepid ==> at
+  30:    1  ->  that ==> it
+  31:    1  ->  thirty ==> oh
+  32:    1  ->  thirty ==> three
+  33:    1  ->  to ==> through
+  34:    1  ->  twenty ==> two
+  35:    1  ->  weeks ==> week
      -------
-        41
+        35
 
 
 
-INSERTIONS                       Total                 (6)
-                                 With >=  1 occurrences (6)
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
 
-   1:    1  ->  in
-   2:    1  ->  lie
-   3:    1  ->  mac
-   4:    1  ->  mag
-   5:    1  ->  one
-   6:    1  ->  to
+   1:    1  ->  lie
+   2:    1  ->  one
+   3:    1  ->  tipped
+   4:    1  ->  to
      -------
-         6
+         4
 
 
 
-DELETIONS                        Total                 (11)
-                                 With >=  1 occurrences (11)
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
 
    1:    2  ->  s
    2:    1  ->  a
    3:    1  ->  and
-   4:    1  ->  eighty
-   5:    1  ->  high
-   6:    1  ->  hundred
-   7:    1  ->  in
-   8:    1  ->  kisch
-   9:    1  ->  on
-  10:    1  ->  paper
-  11:    1  ->  self
+   4:    1  ->  auto
+   5:    1  ->  cult
+   6:    1  ->  eighty
+   7:    1  ->  high
+   8:    1  ->  hundred
+   9:    1  ->  in
+  10:    1  ->  kisch
+  11:    1  ->  knock
+  12:    1  ->  limbs
+  13:    1  ->  long
+  14:    1  ->  machine
+  15:    1  ->  on
+  16:    1  ->  paper
+  17:    1  ->  poetic
      -------
-        12
+        18
 
 
 
-SUBSTITUTIONS                    Total                 (39)
-                                 With >=  1 occurrences (39)
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
 
    1:    2  ->  petal
    2:    2  ->  thirty
@@ -118,87 +116,75 @@ SUBSTITUTIONS                    Total                 (39)
    5:    1  ->  and
    6:    1  ->  as
    7:    1  ->  back
-   8:    1  ->  bering
-   9:    1  ->  blonde
-  10:    1  ->  branded
-  11:    1  ->  defining
-  12:    1  ->  dollar
-  13:    1  ->  eighteen
-  14:    1  ->  extopian
-  15:    1  ->  film
-  16:    1  ->  forty
-  17:    1  ->  four
-  18:    1  ->  heeled
-  19:    1  ->  insipid
-  20:    1  ->  kneed
-  21:    1  ->  knows
-  22:    1  ->  leaving
-  23:    1  ->  line
-  24:    1  ->  love
-  25:    1  ->  macadam
-  26:    1  ->  magpies
-  27:    1  ->  mien
-  28:    1  ->  mottled
-  29:    1  ->  of
-  30:    1  ->  remoter
-  31:    1  ->  rouen
-  32:    1  ->  short
-  33:    1  ->  sixty
-  34:    1  ->  ten
-  35:    1  ->  tepid
-  36:    1  ->  that
-  37:    1  ->  torpid
-  38:    1  ->  twenty
-  39:    1  ->  weeks
+   8:    1  ->  blonde
+   9:    1  ->  branded
+  10:    1  ->  defining
+  11:    1  ->  dollar
+  12:    1  ->  eighteen
+  13:    1  ->  forty
+  14:    1  ->  heeled
+  15:    1  ->  kneed
+  16:    1  ->  knows
+  17:    1  ->  leaving
+  18:    1  ->  line
+  19:    1  ->  love
+  20:    1  ->  made
+  21:    1  ->  mien
+  22:    1  ->  of
+  23:    1  ->  pause
+  24:    1  ->  self
+  25:    1  ->  short
+  26:    1  ->  sixty
+  27:    1  ->  sterner
+  28:    1  ->  ten
+  29:    1  ->  tepid
+  30:    1  ->  that
+  31:    1  ->  to
+  32:    1  ->  twenty
+  33:    1  ->  weeks
      -------
-        41
+        35
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (36)
-                                 With >=  1 occurrences (36)
+FALSELY RECOGNIZED               Total                 (30)
+                                 With >=  1 occurrences (30)
 
    1:    4  ->  oh
    2:    3  ->  on
    3:    1  ->  180
-   4:    1  ->  adam
+   4:    1  ->  amiens
    5:    1  ->  and
-   6:    1  ->  bearing
-   7:    1  ->  blood
-   8:    1  ->  char
-   9:    1  ->  cid
-  10:    1  ->  eight
-  11:    1  ->  filmed
-  12:    1  ->  for
-  13:    1  ->  highheeled
-  14:    1  ->  is
-  15:    1  ->  it
-  16:    1  ->  knee
-  17:    1  ->  leading
-  18:    1  ->  loved
-  19:    1  ->  modeled
-  20:    1  ->  motor
-  21:    1  ->  nose
-  22:    1  ->  onan
-  23:    1  ->  orpi
-  24:    1  ->  paperback
-  25:    1  ->  pedal
-  26:    1  ->  pedals
-  27:    1  ->  pies
-  28:    1  ->  ruan
-  29:    1  ->  selfdefining
-  30:    1  ->  spreaded
-  31:    1  ->  the
-  32:    1  ->  three
-  33:    1  ->  tippi
-  34:    1  ->  two
-  35:    1  ->  week
-  36:    1  ->  xtop
+   6:    1  ->  at
+   7:    1  ->  autopoetic
+   8:    1  ->  chartres
+   9:    1  ->  eight
+  10:    1  ->  highheeled
+  11:    1  ->  is
+  12:    1  ->  it
+  13:    1  ->  knockkneed
+  14:    1  ->  leading
+  15:    1  ->  longblood
+  16:    1  ->  loved
+  17:    1  ->  machinemade
+  18:    1  ->  nose
+  19:    1  ->  paperback
+  20:    1  ->  paws
+  21:    1  ->  peddled
+  22:    1  ->  petals
+  23:    1  ->  selfdefining
+  24:    1  ->  spreaded
+  25:    1  ->  sterner's
+  26:    1  ->  the
+  27:    1  ->  three
+  28:    1  ->  through
+  29:    1  ->  two
+  30:    1  ->  week
      -------
-        41
+        35
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

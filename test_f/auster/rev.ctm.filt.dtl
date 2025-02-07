@@ -12,22 +12,22 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    4.1%   (  44)
+Percent Total Error       =    4.8%   (  51)
 
-Percent Correct           =   96.2%   (1025)
+Percent Correct           =   95.5%   (1018)
 
-Percent Substitution      =    2.5%   (  27)
-Percent Deletions         =    1.3%   (  14)
+Percent Substitution      =    2.7%   (  29)
+Percent Deletions         =    1.8%   (  19)
 Percent Insertions        =    0.3%   (   3)
-Percent Word Accuracy     =   95.9%
+Percent Word Accuracy     =   95.2%
 
 
 Ref. words                =           (1066)
-Hyp. words                =           (1055)
+Hyp. words                =           (1050)
 Aligned words             =           (1069)
 
-CONFUSION PAIRS                  Total                 (23)
-                                 With >=  1 occurrences (23)
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
 
    1:    2  ->  law ==> sisterinlaw
    2:    2  ->  oh ==> 0
@@ -35,32 +35,34 @@ CONFUSION PAIRS                  Total                 (23)
    4:    2  ->  x ==> our
    5:    1  ->  a ==> the
    6:    1  ->  address ==> dress
-   7:    1  ->  alecks ==> alex
-   8:    1  ->  are ==> your
-   9:    1  ->  at ==> in
-  10:    1  ->  auster ==> oster
+   7:    1  ->  are ==> your
+   8:    1  ->  at ==> in
+   9:    1  ->  auster ==> oster
+  10:    1  ->  bookstore ==> store
   11:    1  ->  can ==> could
-  12:    1  ->  course ==> chorus
-  13:    1  ->  families ==> family's
-  14:    1  ->  fifteen ==> 15th
+  12:    1  ->  families ==> family's
+  13:    1  ->  fifteen ==> 15th
+  14:    1  ->  flown ==> highflown
   15:    1  ->  hundred ==> zero
-  16:    1  ->  hustvedt ==> <inaudible>
+  16:    1  ->  hustvedt ==> hustved
   17:    1  ->  mail ==> male
-  18:    1  ->  satisfaction ==> selfsatisfaction
-  19:    1  ->  scant ==> scanned
-  20:    1  ->  ten ==> oh
-  21:    1  ->  thousand ==> 10000
-  22:    1  ->  twelve ==> two
-  23:    1  ->  written ==> typewritten
+  18:    1  ->  marveled ==> marvelled
+  19:    1  ->  satisfaction ==> selfsatisfaction
+  20:    1  ->  siri's ==> siri
+  21:    1  ->  ten ==> oh
+  22:    1  ->  thousand ==> 10000
+  23:    1  ->  twelve ==> two
+  24:    1  ->  us ==> thes
+  25:    1  ->  written ==> typewritten
      -------
-        27
+        29
 
 
 
 INSERTIONS                       Total                 (3)
                                  With >=  1 occurrences (3)
 
-   1:    1  ->  <laugh>
+   1:    1  ->  book
    2:    1  ->  one
    3:    1  ->  quote
      -------
@@ -68,24 +70,28 @@ INSERTIONS                       Total                 (3)
 
 
 
-DELETIONS                        Total                 (8)
-                                 With >=  1 occurrences (8)
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
 
    1:    3  ->  a
    2:    3  ->  and
-   3:    2  ->  in
+   3:    3  ->  in
    4:    2  ->  sister
-   5:    1  ->  self
-   6:    1  ->  ten
-   7:    1  ->  type
-   8:    1  ->  you
+   5:    1  ->  high
+   6:    1  ->  riddled
+   7:    1  ->  self
+   8:    1  ->  ten
+   9:    1  ->  the
+  10:    1  ->  to
+  11:    1  ->  type
+  12:    1  ->  you
      -------
-        14
+        19
 
 
 
-SUBSTITUTIONS                    Total                 (23)
-                                 With >=  1 occurrences (23)
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
 
    1:    2  ->  law
    2:    2  ->  oh
@@ -93,33 +99,35 @@ SUBSTITUTIONS                    Total                 (23)
    4:    2  ->  x
    5:    1  ->  a
    6:    1  ->  address
-   7:    1  ->  alecks
-   8:    1  ->  are
-   9:    1  ->  at
-  10:    1  ->  auster
+   7:    1  ->  are
+   8:    1  ->  at
+   9:    1  ->  auster
+  10:    1  ->  bookstore
   11:    1  ->  can
-  12:    1  ->  course
-  13:    1  ->  families
-  14:    1  ->  fifteen
+  12:    1  ->  families
+  13:    1  ->  fifteen
+  14:    1  ->  flown
   15:    1  ->  hundred
   16:    1  ->  hustvedt
   17:    1  ->  mail
-  18:    1  ->  satisfaction
-  19:    1  ->  scant
-  20:    1  ->  ten
-  21:    1  ->  thousand
-  22:    1  ->  twelve
-  23:    1  ->  written
+  18:    1  ->  marveled
+  19:    1  ->  satisfaction
+  20:    1  ->  siri's
+  21:    1  ->  ten
+  22:    1  ->  thousand
+  23:    1  ->  twelve
+  24:    1  ->  us
+  25:    1  ->  written
      -------
-        27
+        29
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (23)
-                                 With >=  1 occurrences (23)
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
 
    1:    2  ->  0
    2:    2  ->  our
@@ -127,25 +135,27 @@ FALSELY RECOGNIZED               Total                 (23)
    4:    2  ->  sisterinlaw
    5:    1  ->  10000
    6:    1  ->  15th
-   7:    1  ->  <inaudible>
-   8:    1  ->  alex
-   9:    1  ->  chorus
-  10:    1  ->  could
-  11:    1  ->  dress
-  12:    1  ->  family's
-  13:    1  ->  in
-  14:    1  ->  male
+   7:    1  ->  could
+   8:    1  ->  dress
+   9:    1  ->  family's
+  10:    1  ->  highflown
+  11:    1  ->  hustved
+  12:    1  ->  in
+  13:    1  ->  male
+  14:    1  ->  marvelled
   15:    1  ->  oh
   16:    1  ->  oster
-  17:    1  ->  scanned
-  18:    1  ->  selfsatisfaction
-  19:    1  ->  the
-  20:    1  ->  two
-  21:    1  ->  typewritten
-  22:    1  ->  your
-  23:    1  ->  zero
+  17:    1  ->  selfsatisfaction
+  18:    1  ->  siri
+  19:    1  ->  store
+  20:    1  ->  the
+  21:    1  ->  thes
+  22:    1  ->  two
+  23:    1  ->  typewritten
+  24:    1  ->  your
+  25:    1  ->  zero
      -------
-        27
+        29
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

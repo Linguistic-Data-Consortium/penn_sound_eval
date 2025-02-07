@@ -12,62 +12,57 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    4.1%   (  41)
+Percent Total Error       =    3.5%   (  35)
 
-Percent Correct           =   96.3%   ( 951)
+Percent Correct           =   96.9%   ( 957)
 
-Percent Substitution      =    3.0%   (  30)
-Percent Deletions         =    0.7%   (   7)
+Percent Substitution      =    2.5%   (  25)
+Percent Deletions         =    0.6%   (   6)
 Percent Insertions        =    0.4%   (   4)
-Percent Word Accuracy     =   95.9%
+Percent Word Accuracy     =   96.5%
 
 
 Ref. words                =           ( 988)
-Hyp. words                =           ( 985)
+Hyp. words                =           ( 986)
 Aligned words             =           ( 992)
 
-CONFUSION PAIRS                  Total                 (27)
-                                 With >=  1 occurrences (27)
+CONFUSION PAIRS                  Total                 (22)
+                                 With >=  1 occurrences (22)
 
    1:    2  ->  an ==> and
    2:    2  ->  in ==> and
    3:    2  ->  space ==> face
    4:    1  ->  a ==> of
-   5:    1  ->  arch ==> arched
-   6:    1  ->  asleep ==> sleek
-   7:    1  ->  bleeds ==> leads
-   8:    1  ->  clothes ==> clogs
-   9:    1  ->  course ==> chorus
-  10:    1  ->  encounter ==> counter
-  11:    1  ->  formerly ==> formally
-  12:    1  ->  fox ==> false
-  13:    1  ->  had ==> passed
-  14:    1  ->  interrelations ==> relations
-  15:    1  ->  is ==> if
-  16:    1  ->  it ==> as
-  17:    1  ->  light ==> life
-  18:    1  ->  like ==> lack
-  19:    1  ->  minnie ==> mini
-  20:    1  ->  model ==> modeled
-  21:    1  ->  old ==> 4yearold
-  22:    1  ->  priori ==> apriori
-  23:    1  ->  scout ==> scowl
-  24:    1  ->  smock ==> smog
-  25:    1  ->  specificity ==> specificate
-  26:    1  ->  stolid ==> solid
-  27:    1  ->  these ==> b
+   5:    1  ->  and ==> in
+   6:    1  ->  associated ==> associative
+   7:    1  ->  clothes ==> clogs
+   8:    1  ->  encounter ==> counter
+   9:    1  ->  fox ==> false
+  10:    1  ->  had ==> passed
+  11:    1  ->  innocent ==> innocence
+  12:    1  ->  is ==> if
+  13:    1  ->  it ==> as
+  14:    1  ->  light ==> life
+  15:    1  ->  like ==> lack
+  16:    1  ->  old ==> fouryearold
+  17:    1  ->  scout ==> scowl
+  18:    1  ->  sinus ==> signless
+  19:    1  ->  stolid ==> solid
+  20:    1  ->  these ==> bee
+  21:    1  ->  thoroughly ==> fairly
+  22:    1  ->  uninterested ==> interested
      -------
-        30
+        25
 
 
 
 INSERTIONS                       Total                 (4)
                                  With >=  1 occurrences (4)
 
-   1:    1  ->  and
-   2:    1  ->  inter
-   3:    1  ->  its
-   4:    1  ->  of
+   1:    1  ->  am
+   2:    1  ->  and
+   3:    1  ->  i
+   4:    1  ->  its
      -------
          4
 
@@ -76,86 +71,76 @@ INSERTIONS                       Total                 (4)
 DELETIONS                        Total                 (6)
                                  With >=  1 occurrences (6)
 
-   1:    2  ->  a
+   1:    1  ->  a
    2:    1  ->  and
    3:    1  ->  four
    4:    1  ->  had
    5:    1  ->  have
    6:    1  ->  year
      -------
-         7
+         6
 
 
 
-SUBSTITUTIONS                    Total                 (27)
-                                 With >=  1 occurrences (27)
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
 
    1:    2  ->  an
    2:    2  ->  in
    3:    2  ->  space
    4:    1  ->  a
-   5:    1  ->  arch
-   6:    1  ->  asleep
-   7:    1  ->  bleeds
-   8:    1  ->  clothes
-   9:    1  ->  course
-  10:    1  ->  encounter
-  11:    1  ->  formerly
-  12:    1  ->  fox
-  13:    1  ->  had
-  14:    1  ->  interrelations
-  15:    1  ->  is
-  16:    1  ->  it
-  17:    1  ->  light
-  18:    1  ->  like
-  19:    1  ->  minnie
-  20:    1  ->  model
-  21:    1  ->  old
-  22:    1  ->  priori
-  23:    1  ->  scout
-  24:    1  ->  smock
-  25:    1  ->  specificity
-  26:    1  ->  stolid
-  27:    1  ->  these
+   5:    1  ->  and
+   6:    1  ->  associated
+   7:    1  ->  clothes
+   8:    1  ->  encounter
+   9:    1  ->  fox
+  10:    1  ->  had
+  11:    1  ->  innocent
+  12:    1  ->  is
+  13:    1  ->  it
+  14:    1  ->  light
+  15:    1  ->  like
+  16:    1  ->  old
+  17:    1  ->  scout
+  18:    1  ->  sinus
+  19:    1  ->  stolid
+  20:    1  ->  these
+  21:    1  ->  thoroughly
+  22:    1  ->  uninterested
      -------
-        30
+        25
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (26)
-                                 With >=  1 occurrences (26)
+FALSELY RECOGNIZED               Total                 (21)
+                                 With >=  1 occurrences (21)
 
    1:    4  ->  and
    2:    2  ->  face
-   3:    1  ->  4yearold
-   4:    1  ->  apriori
-   5:    1  ->  arched
-   6:    1  ->  as
-   7:    1  ->  b
-   8:    1  ->  chorus
-   9:    1  ->  clogs
-  10:    1  ->  counter
-  11:    1  ->  false
-  12:    1  ->  formally
-  13:    1  ->  if
-  14:    1  ->  lack
-  15:    1  ->  leads
+   3:    1  ->  as
+   4:    1  ->  associative
+   5:    1  ->  bee
+   6:    1  ->  clogs
+   7:    1  ->  counter
+   8:    1  ->  fairly
+   9:    1  ->  false
+  10:    1  ->  fouryearold
+  11:    1  ->  if
+  12:    1  ->  in
+  13:    1  ->  innocence
+  14:    1  ->  interested
+  15:    1  ->  lack
   16:    1  ->  life
-  17:    1  ->  mini
-  18:    1  ->  modeled
-  19:    1  ->  of
-  20:    1  ->  passed
-  21:    1  ->  relations
-  22:    1  ->  scowl
-  23:    1  ->  sleek
-  24:    1  ->  smog
-  25:    1  ->  solid
-  26:    1  ->  specificate
+  17:    1  ->  of
+  18:    1  ->  passed
+  19:    1  ->  scowl
+  20:    1  ->  signless
+  21:    1  ->  solid
      -------
-        30
+        25
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

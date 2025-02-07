@@ -14,107 +14,107 @@ WORD RECOGNITION PERFORMANCE
 
 Percent Total Error       =   13.5%   ( 158)
 
-Percent Correct           =   89.4%   (1049)
+Percent Correct           =   88.8%   (1043)
 
 Percent Substitution      =    5.1%   (  60)
-Percent Deletions         =    5.5%   (  65)
-Percent Insertions        =    2.8%   (  33)
+Percent Deletions         =    6.0%   (  71)
+Percent Insertions        =    2.3%   (  27)
 Percent Word Accuracy     =   86.5%
 
 
 Ref. words                =           (1174)
-Hyp. words                =           (1142)
-Aligned words             =           (1207)
+Hyp. words                =           (1130)
+Aligned words             =           (1201)
 
-CONFUSION PAIRS                  Total                 (53)
-                                 With >=  1 occurrences (53)
+CONFUSION PAIRS                  Total                 (54)
+                                 With >=  1 occurrences (54)
 
    1:    3  ->  in ==> and
    2:    3  ->  ten ==> oh
    3:    2  ->  had ==> are
    4:    2  ->  its ==> it's
-   5:    2  ->  twenty ==> oh
-   6:    1  ->  %bcack ==> <affirmative>
-   7:    1  ->  %bcack ==> have
-   8:    1  ->  als ==> also
-   9:    1  ->  an ==> a
-  10:    1  ->  an ==> they
-  11:    1  ->  and ==> i
-  12:    1  ->  ass ==> symmetry
-  13:    1  ->  asymmetry ==> make
-  14:    1  ->  asymmetry ==> symmetry
-  15:    1  ->  attached ==> attach
-  16:    1  ->  be ==> going
-  17:    1  ->  bec ==> be
-  18:    1  ->  changed ==> change
-  19:    1  ->  changes ==> is
-  20:    1  ->  counting ==> accounting
-  21:    1  ->  i ==> or
+   5:    1  ->  %bcack ==> have
+   6:    1  ->  %bcack ==> mmhmm
+   7:    1  ->  als ==> also
+   8:    1  ->  an ==> a
+   9:    1  ->  an ==> they
+  10:    1  ->  and ==> i
+  11:    1  ->  ass ==> symmetry
+  12:    1  ->  asymmetry ==> make
+  13:    1  ->  asymmetry ==> symmetry
+  14:    1  ->  attached ==> attach
+  15:    1  ->  be ==> going
+  16:    1  ->  bec ==> be
+  17:    1  ->  changed ==> change
+  18:    1  ->  changes ==> is
+  19:    1  ->  counting ==> accounting
+  20:    1  ->  explanatory ==> antiexplanatory
+  21:    1  ->  i ==> it
   22:    1  ->  i ==> yeah
   23:    1  ->  if ==> is
   24:    1  ->  in ==> at
   25:    1  ->  is ==> as
   26:    1  ->  it's ==> think
-  27:    1  ->  lenin ==> limp
-  28:    1  ->  like ==> <laugh>
-  29:    1  ->  many ==> informative
-  30:    1  ->  merit ==> marriage
-  31:    1  ->  narrative ==> error
-  32:    1  ->  numinous ==> as
+  27:    1  ->  know ==> a
+  28:    1  ->  lenin ==> limp
+  29:    1  ->  like ==> <laugh>
+  30:    1  ->  many ==> informative
+  31:    1  ->  merit ==> marriage
+  32:    1  ->  narrative ==> error
   33:    1  ->  of ==> a
-  34:    1  ->  points ==> what
-  35:    1  ->  right ==> <laugh>
-  36:    1  ->  should ==> <laugh>
-  37:    1  ->  so ==> and
-  38:    1  ->  some ==> sort
-  39:    1  ->  stasis ==> anastasis
-  40:    1  ->  symmetries ==> cemeteries
-  41:    1  ->  tackling ==> cackling
-  42:    1  ->  the ==> that
-  43:    1  ->  then ==> and
-  44:    1  ->  there's ==> that's
-  45:    1  ->  this ==> the
-  46:    1  ->  though ==> through
-  47:    1  ->  to ==> you
+  34:    1  ->  poems ==> homes
+  35:    1  ->  points ==> what
+  36:    1  ->  so ==> and
+  37:    1  ->  some ==> sort
+  38:    1  ->  stasis ==> antistasis
+  39:    1  ->  symmetries ==> cemeteries
+  40:    1  ->  the ==> that
+  41:    1  ->  then ==> and
+  42:    1  ->  there's ==> that's
+  43:    1  ->  this ==> the
+  44:    1  ->  though ==> through
+  45:    1  ->  to ==> you
+  46:    1  ->  twenty ==> oh
+  47:    1  ->  twenty ==> trying
   48:    1  ->  we ==> way
   49:    1  ->  were ==> are
   50:    1  ->  whereas ==> so
   51:    1  ->  wit ==> way
   52:    1  ->  within ==> <affirmative>
   53:    1  ->  yeah ==> <laugh>
+  54:    1  ->  you ==> or
      -------
         60
 
 
 
-INSERTIONS                       Total                 (18)
-                                 With >=  1 occurrences (18)
+INSERTIONS                       Total                 (17)
+                                 With >=  1 occurrences (17)
 
-   1:    7  ->  <laugh>
+   1:    3  ->  <laugh>
    2:    3  ->  i
    3:    3  ->  no
    4:    2  ->  but
    5:    2  ->  it
-   6:    2  ->  mmhmm
-   7:    2  ->  oh
-   8:    2  ->  that
-   9:    1  ->  %bcack
-  10:    1  ->  and
-  11:    1  ->  change
-  12:    1  ->  david
-  13:    1  ->  good
-  14:    1  ->  mean
-  15:    1  ->  numan
-  16:    1  ->  should
-  17:    1  ->  symmetry
-  18:    1  ->  they
+   6:    2  ->  oh
+   7:    2  ->  that
+   8:    1  ->  %bcack
+   9:    1  ->  and
+  10:    1  ->  change
+  11:    1  ->  david
+  12:    1  ->  good
+  13:    1  ->  mean
+  14:    1  ->  mmhmm
+  15:    1  ->  should
+  16:    1  ->  symmetry
+  17:    1  ->  they
      -------
-        33
+        27
 
 
 
-DELETIONS                        Total                 (38)
-                                 With >=  1 occurrences (38)
+DELETIONS                        Total                 (41)
+                                 With >=  1 occurrences (41)
 
    1:    7  ->  %bcack
    2:    5  ->  i
@@ -122,40 +122,43 @@ DELETIONS                        Total                 (38)
    4:    4  ->  a
    5:    4  ->  in
    6:    3  ->  that
-   7:    2  ->  he
-   8:    2  ->  they
-   9:    2  ->  x
-  10:    2  ->  yeah
-  11:    2  ->  you
-  12:    1  ->  an
-  13:    1  ->  anti
-  14:    1  ->  are
-  15:    1  ->  but
-  16:    1  ->  ending
-  17:    1  ->  ess
-  18:    1  ->  go
-  19:    1  ->  it
-  20:    1  ->  just
-  21:    1  ->  know
-  22:    1  ->  lots
-  23:    1  ->  make
-  24:    1  ->  n
-  25:    1  ->  not
-  26:    1  ->  of
-  27:    1  ->  oh
-  28:    1  ->  see
-  29:    1  ->  sort
-  30:    1  ->  symmetry
-  31:    1  ->  tha
-  32:    1  ->  there
-  33:    1  ->  to
-  34:    1  ->  up
-  35:    1  ->  w
-  36:    1  ->  will
-  37:    1  ->  ye
-  38:    1  ->  yo
+   7:    2  ->  anti
+   8:    2  ->  he
+   9:    2  ->  of
+  10:    2  ->  sort
+  11:    2  ->  they
+  12:    2  ->  x
+  13:    2  ->  yeah
+  14:    2  ->  you
+  15:    1  ->  an
+  16:    1  ->  are
+  17:    1  ->  but
+  18:    1  ->  combinatory
+  19:    1  ->  ending
+  20:    1  ->  ess
+  21:    1  ->  go
+  22:    1  ->  it
+  23:    1  ->  just
+  24:    1  ->  know
+  25:    1  ->  lots
+  26:    1  ->  make
+  27:    1  ->  n
+  28:    1  ->  not
+  29:    1  ->  oh
+  30:    1  ->  right
+  31:    1  ->  see
+  32:    1  ->  should
+  33:    1  ->  symmetry
+  34:    1  ->  tha
+  35:    1  ->  there
+  36:    1  ->  to
+  37:    1  ->  up
+  38:    1  ->  w
+  39:    1  ->  will
+  40:    1  ->  ye
+  41:    1  ->  yo
      -------
-        65
+        71
 
 
 
@@ -180,36 +183,36 @@ SUBSTITUTIONS                    Total                 (48)
   16:    1  ->  changed
   17:    1  ->  changes
   18:    1  ->  counting
-  19:    1  ->  if
-  20:    1  ->  is
-  21:    1  ->  it's
-  22:    1  ->  lenin
-  23:    1  ->  like
-  24:    1  ->  many
-  25:    1  ->  merit
-  26:    1  ->  narrative
-  27:    1  ->  numinous
-  28:    1  ->  of
-  29:    1  ->  points
-  30:    1  ->  right
-  31:    1  ->  should
+  19:    1  ->  explanatory
+  20:    1  ->  if
+  21:    1  ->  is
+  22:    1  ->  it's
+  23:    1  ->  know
+  24:    1  ->  lenin
+  25:    1  ->  like
+  26:    1  ->  many
+  27:    1  ->  merit
+  28:    1  ->  narrative
+  29:    1  ->  of
+  30:    1  ->  poems
+  31:    1  ->  points
   32:    1  ->  so
   33:    1  ->  some
   34:    1  ->  stasis
   35:    1  ->  symmetries
-  36:    1  ->  tackling
-  37:    1  ->  the
-  38:    1  ->  then
-  39:    1  ->  there's
-  40:    1  ->  this
-  41:    1  ->  though
-  42:    1  ->  to
-  43:    1  ->  we
-  44:    1  ->  were
-  45:    1  ->  whereas
-  46:    1  ->  wit
-  47:    1  ->  within
-  48:    1  ->  yeah
+  36:    1  ->  the
+  37:    1  ->  then
+  38:    1  ->  there's
+  39:    1  ->  this
+  40:    1  ->  though
+  41:    1  ->  to
+  42:    1  ->  we
+  43:    1  ->  were
+  44:    1  ->  whereas
+  45:    1  ->  wit
+  46:    1  ->  within
+  47:    1  ->  yeah
+  48:    1  ->  you
      -------
         60
 
@@ -218,49 +221,53 @@ SUBSTITUTIONS                    Total                 (48)
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (40)
-                                 With >=  1 occurrences (40)
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
 
    1:    5  ->  and
-   2:    5  ->  oh
-   3:    4  ->  <laugh>
+   2:    4  ->  oh
+   3:    3  ->  a
    4:    3  ->  are
-   5:    2  ->  <affirmative>
-   6:    2  ->  a
-   7:    2  ->  as
-   8:    2  ->  is
-   9:    2  ->  it's
-  10:    2  ->  symmetry
-  11:    2  ->  way
-  12:    1  ->  accounting
-  13:    1  ->  also
-  14:    1  ->  anastasis
-  15:    1  ->  at
-  16:    1  ->  attach
-  17:    1  ->  be
-  18:    1  ->  cackling
+   5:    2  ->  <laugh>
+   6:    2  ->  is
+   7:    2  ->  it's
+   8:    2  ->  symmetry
+   9:    2  ->  way
+  10:    1  ->  <affirmative>
+  11:    1  ->  accounting
+  12:    1  ->  also
+  13:    1  ->  antiexplanatory
+  14:    1  ->  antistasis
+  15:    1  ->  as
+  16:    1  ->  at
+  17:    1  ->  attach
+  18:    1  ->  be
   19:    1  ->  cemeteries
   20:    1  ->  change
   21:    1  ->  error
   22:    1  ->  going
   23:    1  ->  have
-  24:    1  ->  i
-  25:    1  ->  informative
-  26:    1  ->  limp
-  27:    1  ->  make
-  28:    1  ->  marriage
-  29:    1  ->  or
-  30:    1  ->  so
-  31:    1  ->  sort
-  32:    1  ->  that
-  33:    1  ->  that's
-  34:    1  ->  the
-  35:    1  ->  they
-  36:    1  ->  think
-  37:    1  ->  through
-  38:    1  ->  what
-  39:    1  ->  yeah
-  40:    1  ->  you
+  24:    1  ->  homes
+  25:    1  ->  i
+  26:    1  ->  informative
+  27:    1  ->  it
+  28:    1  ->  limp
+  29:    1  ->  make
+  30:    1  ->  marriage
+  31:    1  ->  mmhmm
+  32:    1  ->  or
+  33:    1  ->  so
+  34:    1  ->  sort
+  35:    1  ->  that
+  36:    1  ->  that's
+  37:    1  ->  the
+  38:    1  ->  they
+  39:    1  ->  think
+  40:    1  ->  through
+  41:    1  ->  trying
+  42:    1  ->  what
+  43:    1  ->  yeah
+  44:    1  ->  you
      -------
         60
 

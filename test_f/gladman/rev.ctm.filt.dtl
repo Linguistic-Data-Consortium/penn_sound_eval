@@ -7,123 +7,121 @@ SENTENCE RECOGNITION PERFORMANCE
 
    with substitutions                   100.0%   (   1)
    with deletions                       100.0%   (   1)
-   with insertions                      100.0%   (   1)
+   with insertions                        0.0%   (   0)
 
 
 WORD RECOGNITION PERFORMANCE
 
 Percent Total Error       =    2.2%   (  23)
 
-Percent Correct           =   97.9%   (1011)
+Percent Correct           =   97.8%   (1010)
 
-Percent Substitution      =    1.9%   (  20)
-Percent Deletions         =    0.2%   (   2)
-Percent Insertions        =    0.1%   (   1)
+Percent Substitution      =    1.8%   (  19)
+Percent Deletions         =    0.4%   (   4)
+Percent Insertions        =    0.0%   (   0)
 Percent Word Accuracy     =   97.8%
 
 
 Ref. words                =           (1033)
-Hyp. words                =           (1032)
-Aligned words             =           (1034)
+Hyp. words                =           (1029)
+Aligned words             =           (1033)
 
-CONFUSION PAIRS                  Total                 (19)
-                                 With >=  1 occurrences (19)
+CONFUSION PAIRS                  Total                 (18)
+                                 With >=  1 occurrences (18)
 
    1:    2  ->  air ==> error
    2:    1  ->  a ==> the
-   3:    1  ->  begin ==> began
-   4:    1  ->  entrails ==> trails
-   5:    1  ->  experience ==> experienced
-   6:    1  ->  hands ==> hand
-   7:    1  ->  haunted ==> hunted
-   8:    1  ->  ho ==> how
-   9:    1  ->  in ==> and
-  10:    1  ->  it ==> and
-  11:    1  ->  lived ==> lifed
-  12:    1  ->  moods ==> moves
-  13:    1  ->  of ==> off
-  14:    1  ->  over ==> of
-  15:    1  ->  protest ==> protests
-  16:    1  ->  rid ==> ridden
-  17:    1  ->  ten ==> oh
-  18:    1  ->  text ==> texts
-  19:    1  ->  thirty ==> oh
+   3:    1  ->  bedroom ==> twobedroom
+   4:    1  ->  begin ==> began
+   5:    1  ->  chubby ==> chebby
+   6:    1  ->  experience ==> experienced
+   7:    1  ->  hands ==> hand
+   8:    1  ->  haunted ==> hunted
+   9:    1  ->  ho ==> how
+  10:    1  ->  in ==> and
+  11:    1  ->  it ==> and
+  12:    1  ->  lived ==> shortlived
+  13:    1  ->  moods ==> moves
+  14:    1  ->  of ==> off
+  15:    1  ->  over ==> of
+  16:    1  ->  ten ==> oh
+  17:    1  ->  text ==> texts
+  18:    1  ->  thirty ==> oh
      -------
-        20
+        19
 
 
 
-INSERTIONS                       Total                 (1)
-                                 With >=  1 occurrences (1)
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
 
-   1:    1  ->  in
      -------
-         1
+         0
 
 
 
-DELETIONS                        Total                 (2)
-                                 With >=  1 occurrences (2)
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
 
    1:    1  ->  and
    2:    1  ->  o
+   3:    1  ->  short
+   4:    1  ->  two
      -------
-         2
+         4
 
 
 
-SUBSTITUTIONS                    Total                 (19)
-                                 With >=  1 occurrences (19)
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
 
    1:    2  ->  air
    2:    1  ->  a
-   3:    1  ->  begin
-   4:    1  ->  entrails
-   5:    1  ->  experience
-   6:    1  ->  hands
-   7:    1  ->  haunted
-   8:    1  ->  ho
-   9:    1  ->  in
-  10:    1  ->  it
-  11:    1  ->  lived
-  12:    1  ->  moods
-  13:    1  ->  of
-  14:    1  ->  over
-  15:    1  ->  protest
-  16:    1  ->  rid
-  17:    1  ->  ten
-  18:    1  ->  text
-  19:    1  ->  thirty
+   3:    1  ->  bedroom
+   4:    1  ->  begin
+   5:    1  ->  chubby
+   6:    1  ->  experience
+   7:    1  ->  hands
+   8:    1  ->  haunted
+   9:    1  ->  ho
+  10:    1  ->  in
+  11:    1  ->  it
+  12:    1  ->  lived
+  13:    1  ->  moods
+  14:    1  ->  of
+  15:    1  ->  over
+  16:    1  ->  ten
+  17:    1  ->  text
+  18:    1  ->  thirty
      -------
-        20
+        19
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (17)
-                                 With >=  1 occurrences (17)
+FALSELY RECOGNIZED               Total                 (16)
+                                 With >=  1 occurrences (16)
 
    1:    2  ->  and
    2:    2  ->  error
    3:    2  ->  oh
    4:    1  ->  began
-   5:    1  ->  experienced
-   6:    1  ->  hand
-   7:    1  ->  how
-   8:    1  ->  hunted
-   9:    1  ->  lifed
+   5:    1  ->  chebby
+   6:    1  ->  experienced
+   7:    1  ->  hand
+   8:    1  ->  how
+   9:    1  ->  hunted
   10:    1  ->  moves
   11:    1  ->  of
   12:    1  ->  off
-  13:    1  ->  protests
-  14:    1  ->  ridden
-  15:    1  ->  texts
-  16:    1  ->  the
-  17:    1  ->  trails
+  13:    1  ->  shortlived
+  14:    1  ->  texts
+  15:    1  ->  the
+  16:    1  ->  twobedroom
      -------
-        20
+        19
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

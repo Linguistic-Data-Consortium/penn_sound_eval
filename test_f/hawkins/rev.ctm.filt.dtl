@@ -12,22 +12,22 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    3.4%   (  37)
+Percent Total Error       =    4.1%   (  44)
 
-Percent Correct           =   97.0%   (1046)
+Percent Correct           =   96.3%   (1038)
 
-Percent Substitution      =    2.3%   (  25)
-Percent Deletions         =    0.6%   (   7)
-Percent Insertions        =    0.5%   (   5)
-Percent Word Accuracy     =   96.6%
+Percent Substitution      =    2.5%   (  27)
+Percent Deletions         =    1.2%   (  13)
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   95.9%
 
 
 Ref. words                =           (1078)
-Hyp. words                =           (1076)
-Aligned words             =           (1083)
+Hyp. words                =           (1069)
+Aligned words             =           (1082)
 
-CONFUSION PAIRS                  Total                 (24)
-                                 With >=  1 occurrences (24)
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
 
    1:    2  ->  fourteenth ==> 14th
    2:    1  ->  a ==> of
@@ -37,115 +37,128 @@ CONFUSION PAIRS                  Total                 (24)
    6:    1  ->  conservative's ==> as
    7:    1  ->  dentist's ==> dentist
    8:    1  ->  dollars ==> oh
-   9:    1  ->  doorjamb ==> jam
+   9:    1  ->  doorjamb ==> jamb
   10:    1  ->  got ==> god
-  11:    1  ->  landladies ==> landlady
-  12:    1  ->  last ==> blast
-  13:    1  ->  may ==> name
-  14:    1  ->  penned ==> and
-  15:    1  ->  presents ==> presence
-  16:    1  ->  realise ==> realised
-  17:    1  ->  sixteen ==> six
-  18:    1  ->  sixty ==> oh
-  19:    1  ->  that ==> it
-  20:    1  ->  them ==> then
-  21:    1  ->  towards ==> toward
-  22:    1  ->  twenty ==> oh
-  23:    1  ->  twenty ==> two
-  24:    1  ->  what ==> but
+  11:    1  ->  high ==> twentyfoothigh
+  12:    1  ->  landladies ==> landlady's
+  13:    1  ->  lied ==> relied
+  14:    1  ->  may ==> name
+  15:    1  ->  penned ==> and
+  16:    1  ->  protection ==> selfprotection
+  17:    1  ->  realise ==> realised
+  18:    1  ->  room ==> threeroom
+  19:    1  ->  sixteen ==> six
+  20:    1  ->  sixty ==> oh
+  21:    1  ->  that ==> it
+  22:    1  ->  them ==> then
+  23:    1  ->  towards ==> toward
+  24:    1  ->  twenty ==> two
+  25:    1  ->  what ==> but
+  26:    1  ->  year ==> fiveyear
      -------
-        25
+        27
 
 
 
-INSERTIONS                       Total                 (5)
-                                 With >=  1 occurrences (5)
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
 
-   1:    1  ->  <laugh>
-   2:    1  ->  and
-   3:    1  ->  conservative
-   4:    1  ->  door
-   5:    1  ->  one
+   1:    1  ->  and
+   2:    1  ->  conservative
+   3:    1  ->  door
+   4:    1  ->  one
      -------
-         5
+         4
 
 
 
-DELETIONS                        Total                 (7)
-                                 With >=  1 occurrences (7)
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
 
    1:    1  ->  a
    2:    1  ->  eight
-   3:    1  ->  had
-   4:    1  ->  hundred
-   5:    1  ->  one
-   6:    1  ->  ten
-   7:    1  ->  thousand
+   3:    1  ->  five
+   4:    1  ->  foot
+   5:    1  ->  had
+   6:    1  ->  hundred
+   7:    1  ->  one
+   8:    1  ->  self
+   9:    1  ->  ten
+  10:    1  ->  thousand
+  11:    1  ->  three
+  12:    1  ->  twenty
+  13:    1  ->  were
      -------
-         7
+        13
 
 
 
-SUBSTITUTIONS                    Total                 (22)
-                                 With >=  1 occurrences (22)
+SUBSTITUTIONS                    Total                 (25)
+                                 With >=  1 occurrences (25)
 
    1:    2  ->  and
    2:    2  ->  fourteenth
-   3:    2  ->  twenty
-   4:    1  ->  a
-   5:    1  ->  bo
-   6:    1  ->  conservative's
-   7:    1  ->  dentist's
-   8:    1  ->  dollars
-   9:    1  ->  doorjamb
-  10:    1  ->  got
+   3:    1  ->  a
+   4:    1  ->  bo
+   5:    1  ->  conservative's
+   6:    1  ->  dentist's
+   7:    1  ->  dollars
+   8:    1  ->  doorjamb
+   9:    1  ->  got
+  10:    1  ->  high
   11:    1  ->  landladies
-  12:    1  ->  last
+  12:    1  ->  lied
   13:    1  ->  may
   14:    1  ->  penned
-  15:    1  ->  presents
+  15:    1  ->  protection
   16:    1  ->  realise
-  17:    1  ->  sixteen
-  18:    1  ->  sixty
-  19:    1  ->  that
-  20:    1  ->  them
-  21:    1  ->  towards
-  22:    1  ->  what
+  17:    1  ->  room
+  18:    1  ->  sixteen
+  19:    1  ->  sixty
+  20:    1  ->  that
+  21:    1  ->  them
+  22:    1  ->  towards
+  23:    1  ->  twenty
+  24:    1  ->  what
+  25:    1  ->  year
      -------
-        25
+        27
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (22)
-                                 With >=  1 occurrences (22)
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
 
-   1:    3  ->  oh
-   2:    2  ->  14th
+   1:    2  ->  14th
+   2:    2  ->  oh
    3:    1  ->  and
    4:    1  ->  as
-   5:    1  ->  blast
-   6:    1  ->  boy
-   7:    1  ->  but
-   8:    1  ->  dentist
-   9:    1  ->  eighteen
+   5:    1  ->  boy
+   6:    1  ->  but
+   7:    1  ->  dentist
+   8:    1  ->  eighteen
+   9:    1  ->  fiveyear
   10:    1  ->  god
   11:    1  ->  in
   12:    1  ->  it
-  13:    1  ->  jam
-  14:    1  ->  landlady
+  13:    1  ->  jamb
+  14:    1  ->  landlady's
   15:    1  ->  name
   16:    1  ->  of
-  17:    1  ->  presence
-  18:    1  ->  realised
-  19:    1  ->  six
-  20:    1  ->  then
-  21:    1  ->  toward
-  22:    1  ->  two
+  17:    1  ->  realised
+  18:    1  ->  relied
+  19:    1  ->  selfprotection
+  20:    1  ->  six
+  21:    1  ->  then
+  22:    1  ->  threeroom
+  23:    1  ->  toward
+  24:    1  ->  twentyfoothigh
+  25:    1  ->  two
      -------
-        25
+        27
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

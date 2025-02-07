@@ -7,8 +7,8 @@
                  --------------  --------------  --------------  -------------- 
         aws.ctm       same            same            same            same      
       azure.ctm       same            same            same            same      
-     google.ctm       same            same            same            same      
-        ibm.ctm       same            same            same            same      
+     google.ctm     rev.ctm           same            same            same      
+        ibm.ctm     rev.ctm           same            same            same      
        nemo.ctm       same            same            same            same      
     whisper.ctm       same            same            same            same      
  whispercpp.ctm       same            same            same            same      

@@ -12,162 +12,142 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    4.8%   (  38)
+Percent Total Error       =    4.2%   (  33)
 
-Percent Correct           =   95.5%   ( 749)
+Percent Correct           =   95.9%   ( 752)
 
-Percent Substitution      =    4.2%   (  33)
-Percent Deletions         =    0.3%   (   2)
-Percent Insertions        =    0.4%   (   3)
-Percent Word Accuracy     =   95.2%
+Percent Substitution      =    3.2%   (  25)
+Percent Deletions         =    0.9%   (   7)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   95.8%
 
 
 Ref. words                =           ( 784)
-Hyp. words                =           ( 785)
-Aligned words             =           ( 787)
+Hyp. words                =           ( 778)
+Aligned words             =           ( 785)
 
-CONFUSION PAIRS                  Total                 (33)
-                                 With >=  1 occurrences (33)
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
 
-   1:    1  ->  abstraction ==> ion
+   1:    1  ->  abandoned ==> abandon
    2:    1  ->  an ==> and
    3:    1  ->  and ==> an
-   4:    1  ->  augury ==> aery
-   5:    1  ->  blear ==> ble
-   6:    1  ->  day's ==> days
-   7:    1  ->  fenceposts ==> posts
-   8:    1  ->  grip ==> rip
-   9:    1  ->  hawk's ==> hawks
-  10:    1  ->  heart ==> hearts
-  11:    1  ->  hurly ==> hurley
-  12:    1  ->  look ==> looks
-  13:    1  ->  of ==> call
-  14:    1  ->  of ==> outta
-  15:    1  ->  on ==> in
-  16:    1  ->  out ==> of
-  17:    1  ->  red ==> read
-  18:    1  ->  reeks ==> wreaks
-  19:    1  ->  relief ==> release
-  20:    1  ->  rightness ==> ripeness
-  21:    1  ->  rightness ==> s
-  22:    1  ->  rioting ==> riding
-  23:    1  ->  rocked ==> rot
-  24:    1  ->  saying ==> same
-  25:    1  ->  seperation ==> separation
-  26:    1  ->  sown ==> sewn
-  27:    1  ->  swinking ==> winking
-  28:    1  ->  that ==> but
-  29:    1  ->  undeliberate ==> deliberate
-  30:    1  ->  wage ==> rage
-  31:    1  ->  wastes ==> waists
-  32:    1  ->  whit ==> wit
-  33:    1  ->  wrath ==> wrap
+   4:    1  ->  burly ==> hurlyburly
+   5:    1  ->  eye ==> hazeleye
+   6:    1  ->  fenceposts ==> posts
+   7:    1  ->  look ==> looks
+   8:    1  ->  molding ==> moulding
+   9:    1  ->  nailing ==> coffinnailing
+  10:    1  ->  of ==> call
+  11:    1  ->  of ==> outta
+  12:    1  ->  on ==> in
+  13:    1  ->  out ==> of
+  14:    1  ->  red ==> read
+  15:    1  ->  relief ==> release
+  16:    1  ->  rioting ==> riding
+  17:    1  ->  rocked ==> rot
+  18:    1  ->  saying ==> same
+  19:    1  ->  seperation ==> separation
+  20:    1  ->  speaking ==> heartspeaking
+  21:    1  ->  telling ==> timetelling
+  22:    1  ->  that ==> but
+  23:    1  ->  wage ==> rage
+  24:    1  ->  whit ==> wit
+  25:    1  ->  wrath ==> rap
      -------
-        33
+        25
 
 
 
-INSERTIONS                       Total                 (3)
-                                 With >=  1 occurrences (3)
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
 
    1:    1  ->  fence
-   2:    1  ->  ripeness
-   3:    1  ->  un
      -------
-         3
+         1
 
 
 
-DELETIONS                        Total                 (2)
-                                 With >=  1 occurrences (2)
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
 
    1:    1  ->  caw
-   2:    1  ->  out
+   2:    1  ->  coffin
+   3:    1  ->  hazel
+   4:    1  ->  heart
+   5:    1  ->  hurly
+   6:    1  ->  out
+   7:    1  ->  time
      -------
-         2
+         7
 
 
 
-SUBSTITUTIONS                    Total                 (31)
-                                 With >=  1 occurrences (31)
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
 
    1:    2  ->  of
-   2:    2  ->  rightness
-   3:    1  ->  abstraction
-   4:    1  ->  an
-   5:    1  ->  and
-   6:    1  ->  augury
-   7:    1  ->  blear
-   8:    1  ->  day's
-   9:    1  ->  fenceposts
-  10:    1  ->  grip
-  11:    1  ->  hawk's
-  12:    1  ->  heart
-  13:    1  ->  hurly
-  14:    1  ->  look
-  15:    1  ->  on
-  16:    1  ->  out
-  17:    1  ->  red
-  18:    1  ->  reeks
-  19:    1  ->  relief
-  20:    1  ->  rioting
-  21:    1  ->  rocked
-  22:    1  ->  saying
-  23:    1  ->  seperation
-  24:    1  ->  sown
-  25:    1  ->  swinking
-  26:    1  ->  that
-  27:    1  ->  undeliberate
-  28:    1  ->  wage
-  29:    1  ->  wastes
-  30:    1  ->  whit
-  31:    1  ->  wrath
+   2:    1  ->  abandoned
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  burly
+   6:    1  ->  eye
+   7:    1  ->  fenceposts
+   8:    1  ->  look
+   9:    1  ->  molding
+  10:    1  ->  nailing
+  11:    1  ->  on
+  12:    1  ->  out
+  13:    1  ->  red
+  14:    1  ->  relief
+  15:    1  ->  rioting
+  16:    1  ->  rocked
+  17:    1  ->  saying
+  18:    1  ->  seperation
+  19:    1  ->  speaking
+  20:    1  ->  telling
+  21:    1  ->  that
+  22:    1  ->  wage
+  23:    1  ->  whit
+  24:    1  ->  wrath
      -------
-        33
+        25
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (33)
-                                 With >=  1 occurrences (33)
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
 
-   1:    1  ->  aery
+   1:    1  ->  abandon
    2:    1  ->  an
    3:    1  ->  and
-   4:    1  ->  ble
-   5:    1  ->  but
-   6:    1  ->  call
-   7:    1  ->  days
-   8:    1  ->  deliberate
-   9:    1  ->  hawks
-  10:    1  ->  hearts
-  11:    1  ->  hurley
-  12:    1  ->  in
-  13:    1  ->  ion
-  14:    1  ->  looks
-  15:    1  ->  of
-  16:    1  ->  outta
-  17:    1  ->  posts
-  18:    1  ->  rage
-  19:    1  ->  read
-  20:    1  ->  release
-  21:    1  ->  riding
-  22:    1  ->  rip
-  23:    1  ->  ripeness
-  24:    1  ->  rot
-  25:    1  ->  s
-  26:    1  ->  same
-  27:    1  ->  separation
-  28:    1  ->  sewn
-  29:    1  ->  waists
-  30:    1  ->  winking
-  31:    1  ->  wit
-  32:    1  ->  wrap
-  33:    1  ->  wreaks
+   4:    1  ->  but
+   5:    1  ->  call
+   6:    1  ->  coffinnailing
+   7:    1  ->  hazeleye
+   8:    1  ->  heartspeaking
+   9:    1  ->  hurlyburly
+  10:    1  ->  in
+  11:    1  ->  looks
+  12:    1  ->  moulding
+  13:    1  ->  of
+  14:    1  ->  outta
+  15:    1  ->  posts
+  16:    1  ->  rage
+  17:    1  ->  rap
+  18:    1  ->  read
+  19:    1  ->  release
+  20:    1  ->  riding
+  21:    1  ->  rot
+  22:    1  ->  same
+  23:    1  ->  separation
+  24:    1  ->  timetelling
+  25:    1  ->  wit
      -------
-        33
+        25
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

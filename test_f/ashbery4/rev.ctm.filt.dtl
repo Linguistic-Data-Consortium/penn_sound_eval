@@ -12,204 +12,205 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =   15.9%   ( 157)
+Percent Total Error       =   15.6%   ( 154)
 
-Percent Correct           =   88.2%   ( 873)
+Percent Correct           =   87.2%   ( 863)
 
 Percent Substitution      =    7.2%   (  71)
-Percent Deletions         =    4.6%   (  46)
-Percent Insertions        =    4.0%   (  40)
-Percent Word Accuracy     =   84.1%
+Percent Deletions         =    5.7%   (  56)
+Percent Insertions        =    2.7%   (  27)
+Percent Word Accuracy     =   84.4%
 
 
 Ref. words                =           ( 990)
-Hyp. words                =           ( 984)
-Aligned words             =           (1030)
+Hyp. words                =           ( 961)
+Aligned words             =           (1017)
 
 CONFUSION PAIRS                  Total                 (65)
                                  With >=  1 occurrences (65)
 
-   1:    3  ->  reverdy ==> <inaudible>
-   2:    2  ->  a ==> cornea
-   3:    2  ->  dollars ==> 150
-   4:    2  ->  du ==> de
-   5:    2  ->  f ==> have
-   6:    1  ->  am ==> yeah
-   7:    1  ->  and ==> if
-   8:    1  ->  but ==> it
-   9:    1  ->  champagne ==> chomp
-  10:    1  ->  champagne ==> obligi
-  11:    1  ->  contact ==> i
-  12:    1  ->  des ==> day
-  13:    1  ->  des ==> de
-  14:    1  ->  describe ==> describes
-  15:    1  ->  frank ==> franco
-  16:    1  ->  frederic ==> feder
-  17:    1  ->  h ==> his
-  18:    1  ->  i ==> <laugh>
-  19:    1  ->  i ==> all
-  20:    1  ->  it ==> a
-  21:    1  ->  jacob ==> mko
-  22:    1  ->  know ==> that
-  23:    1  ->  montmartre ==> <laugh>
-  24:    1  ->  montmartre ==> for
-  25:    1  ->  no ==> one
-  26:    1  ->  not ==> dunno
-  27:    1  ->  o'hara ==> era
-  28:    1  ->  obligitoire ==> <laugh>
-  29:    1  ->  obligitoire ==> obligi
-  30:    1  ->  one ==> anyone
-  31:    1  ->  reveal ==> review
-  32:    1  ->  reverdy ==> d
-  33:    1  ->  she ==> actually
-  34:    1  ->  sixty ==> oh
-  35:    1  ->  sorbonne ==> soun
-  36:    1  ->  the ==> a
-  37:    1  ->  them ==> that
-  38:    1  ->  was ==> always
+   1:    2  ->  des ==> corneade
+   2:    2  ->  dollars ==> 150
+   3:    2  ->  du ==> de
+   4:    2  ->  f ==> have
+   5:    2  ->  obligitoire ==> obligatoire
+   6:    2  ->  reverdy ==> <inaudible>
+   7:    1  ->  about ==> year
+   8:    1  ->  am ==> yeah
+   9:    1  ->  and ==> if
+  10:    1  ->  and ==> of
+  11:    1  ->  but ==> it
+  12:    1  ->  edition ==> Édition
+  13:    1  ->  frank ==> franco
+  14:    1  ->  from ==> of
+  15:    1  ->  h ==> his
+  16:    1  ->  how ==> the
+  17:    1  ->  i ==> all
+  18:    1  ->  it ==> a
+  19:    1  ->  jacob ==> mko
+  20:    1  ->  know ==> that
+  21:    1  ->  my ==> might
+  22:    1  ->  n ==> vexin
+  23:    1  ->  no ==> one
+  24:    1  ->  not ==> dunno
+  25:    1  ->  novel ==> novels
+  26:    1  ->  o'hara ==> era
+  27:    1  ->  occasion ==> year
+  28:    1  ->  one ==> anyone
+  29:    1  ->  pole ==> year
+  30:    1  ->  reason ==> somebody
+  31:    1  ->  reverdy ==> d
+  32:    1  ->  reverdy ==> the
+  33:    1  ->  run ==> gangsterrun
+  34:    1  ->  she ==> it
+  35:    1  ->  sixty ==> oh
+  36:    1  ->  them ==> that
+  37:    1  ->  was ==> always
+  38:    1  ->  was ==> dites
   39:    1  ->  wh ==> what
-  40:    1  ->  who ==> it
+  40:    1  ->  who ==> frederick
   41:    1  ->  who ==> whom
   42:    1  ->  whose ==> it
   43:    1  ->  whose ==> who
   44:    1  ->  with ==> was
   45:    1  ->  x ==> <laugh>
   46:    1  ->  x ==> a
-  47:    1  ->  x ==> ais
+  47:    1  ->  x ==> actually
   48:    1  ->  x ==> all
-  49:    1  ->  x ==> ani
-  50:    1  ->  x ==> attracted
-  51:    1  ->  x ==> but
-  52:    1  ->  x ==> contacted
-  53:    1  ->  x ==> deis
-  54:    1  ->  x ==> eckhart
-  55:    1  ->  x ==> gt
-  56:    1  ->  x ==> jacquez
-  57:    1  ->  x ==> know
-  58:    1  ->  x ==> mer
-  59:    1  ->  x ==> pi
-  60:    1  ->  x ==> sex
-  61:    1  ->  x ==> vie
-  62:    1  ->  x ==> was
-  63:    1  ->  x ==> ye
-  64:    1  ->  x ==> yes
+  49:    1  ->  x ==> attracted
+  50:    1  ->  x ==> but
+  51:    1  ->  x ==> cramani
+  52:    1  ->  x ==> dites
+  53:    1  ->  x ==> eckhart
+  54:    1  ->  x ==> know
+  55:    1  ->  x ==> mer
+  56:    1  ->  x ==> montserrant
+  57:    1  ->  x ==> pi
+  58:    1  ->  x ==> sex
+  59:    1  ->  x ==> them
+  60:    1  ->  x ==> verse
+  61:    1  ->  x ==> was
+  62:    1  ->  x ==> ye
+  63:    1  ->  x ==> yes
+  64:    1  ->  yeah ==> year
   65:    1  ->  yep ==> yeah
      -------
         71
 
 
 
-INSERTIONS                       Total                 (24)
-                                 With >=  1 occurrences (24)
+INSERTIONS                       Total                 (18)
+                                 With >=  1 occurrences (18)
 
-   1:   10  ->  <laugh>
-   2:    5  ->  i
+   1:    5  ->  i
+   2:    3  ->  <laugh>
    3:    2  ->  in
    4:    2  ->  it
    5:    2  ->  that
    6:    1  ->  <affirmative>
    7:    1  ->  but
    8:    1  ->  if
-   9:    1  ->  mar
-  10:    1  ->  march
-  11:    1  ->  mayor
-  12:    1  ->  meister
-  13:    1  ->  mmhmm
-  14:    1  ->  mo
-  15:    1  ->  more
-  16:    1  ->  nia
-  17:    1  ->  not
-  18:    1  ->  ob
-  19:    1  ->  on
-  20:    1  ->  river
-  21:    1  ->  veon
-  22:    1  ->  was
-  23:    1  ->  yeah
-  24:    1  ->  you
+   9:    1  ->  jacobin
+  10:    1  ->  mayor
+  11:    1  ->  meister
+  12:    1  ->  mmhmm
+  13:    1  ->  not
+  14:    1  ->  on
+  15:    1  ->  river
+  16:    1  ->  was
+  17:    1  ->  yeah
+  18:    1  ->  you
      -------
-        40
+        27
 
 
 
-DELETIONS                        Total                 (30)
-                                 With >=  1 occurrences (30)
+DELETIONS                        Total                 (34)
+                                 With >=  1 occurrences (34)
 
-   1:    5  ->  x
-   2:    4  ->  a
-   3:    3  ->  i
-   4:    3  ->  it
-   5:    2  ->  and
+   1:    6  ->  a
+   2:    6  ->  x
+   3:    4  ->  and
+   4:    4  ->  i
+   5:    3  ->  it
    6:    2  ->  cornet
    7:    2  ->  fifty
    8:    2  ->  hundred
    9:    2  ->  th
   10:    1  ->  %bcack
   11:    1  ->  bef
-  12:    1  ->  d
-  13:    1  ->  do
-  14:    1  ->  e
-  15:    1  ->  edition
-  16:    1  ->  genevieve
-  17:    1  ->  into
-  18:    1  ->  is
-  19:    1  ->  m
-  20:    1  ->  max
-  21:    1  ->  my
-  22:    1  ->  n
-  23:    1  ->  oh
-  24:    1  ->  the
-  25:    1  ->  them
-  26:    1  ->  to
-  27:    1  ->  v
-  28:    1  ->  w
-  29:    1  ->  where
-  30:    1  ->  yeah
+  12:    1  ->  but
+  13:    1  ->  d
+  14:    1  ->  do
+  15:    1  ->  e
+  16:    1  ->  for
+  17:    1  ->  frederic
+  18:    1  ->  gangster
+  19:    1  ->  he
+  20:    1  ->  into
+  21:    1  ->  is
+  22:    1  ->  m
+  23:    1  ->  max
+  24:    1  ->  oh
+  25:    1  ->  opposite
+  26:    1  ->  some
+  27:    1  ->  the
+  28:    1  ->  them
+  29:    1  ->  to
+  30:    1  ->  v
+  31:    1  ->  w
+  32:    1  ->  where
+  33:    1  ->  will
+  34:    1  ->  yeah
      -------
-        46
+        56
 
 
 
-SUBSTITUTIONS                    Total                 (38)
-                                 With >=  1 occurrences (38)
+SUBSTITUTIONS                    Total                 (41)
+                                 With >=  1 occurrences (41)
 
-   1:   20  ->  x
+   1:   19  ->  x
    2:    4  ->  reverdy
-   3:    2  ->  a
-   4:    2  ->  champagne
-   5:    2  ->  des
-   6:    2  ->  dollars
-   7:    2  ->  du
-   8:    2  ->  f
-   9:    2  ->  i
-  10:    2  ->  montmartre
-  11:    2  ->  obligitoire
-  12:    2  ->  who
-  13:    2  ->  whose
-  14:    1  ->  am
-  15:    1  ->  and
-  16:    1  ->  but
-  17:    1  ->  contact
-  18:    1  ->  describe
-  19:    1  ->  frank
-  20:    1  ->  frederic
-  21:    1  ->  h
-  22:    1  ->  it
-  23:    1  ->  jacob
-  24:    1  ->  know
-  25:    1  ->  no
-  26:    1  ->  not
-  27:    1  ->  o'hara
-  28:    1  ->  one
-  29:    1  ->  reveal
-  30:    1  ->  she
-  31:    1  ->  sixty
-  32:    1  ->  sorbonne
-  33:    1  ->  the
-  34:    1  ->  them
-  35:    1  ->  was
-  36:    1  ->  wh
-  37:    1  ->  with
-  38:    1  ->  yep
+   3:    2  ->  and
+   4:    2  ->  des
+   5:    2  ->  dollars
+   6:    2  ->  du
+   7:    2  ->  f
+   8:    2  ->  obligitoire
+   9:    2  ->  was
+  10:    2  ->  who
+  11:    2  ->  whose
+  12:    1  ->  about
+  13:    1  ->  am
+  14:    1  ->  but
+  15:    1  ->  edition
+  16:    1  ->  frank
+  17:    1  ->  from
+  18:    1  ->  h
+  19:    1  ->  how
+  20:    1  ->  i
+  21:    1  ->  it
+  22:    1  ->  jacob
+  23:    1  ->  know
+  24:    1  ->  my
+  25:    1  ->  n
+  26:    1  ->  no
+  27:    1  ->  not
+  28:    1  ->  novel
+  29:    1  ->  o'hara
+  30:    1  ->  occasion
+  31:    1  ->  one
+  32:    1  ->  pole
+  33:    1  ->  reason
+  34:    1  ->  run
+  35:    1  ->  she
+  36:    1  ->  sixty
+  37:    1  ->  them
+  38:    1  ->  wh
+  39:    1  ->  with
+  40:    1  ->  yeah
+  41:    1  ->  yep
      -------
         71
 
@@ -221,58 +222,58 @@ SUBSTITUTIONS                    Total                 (38)
 FALSELY RECOGNIZED               Total                 (52)
                                  With >=  1 occurrences (52)
 
-   1:    4  ->  <laugh>
-   2:    3  ->  <inaudible>
-   3:    3  ->  a
-   4:    3  ->  de
-   5:    3  ->  it
-   6:    2  ->  150
-   7:    2  ->  all
-   8:    2  ->  cornea
-   9:    2  ->  have
-  10:    2  ->  obligi
-  11:    2  ->  that
-  12:    2  ->  was
-  13:    2  ->  yeah
-  14:    1  ->  actually
-  15:    1  ->  ais
-  16:    1  ->  always
-  17:    1  ->  ani
-  18:    1  ->  anyone
-  19:    1  ->  attracted
-  20:    1  ->  but
-  21:    1  ->  chomp
-  22:    1  ->  contacted
-  23:    1  ->  d
-  24:    1  ->  day
-  25:    1  ->  deis
-  26:    1  ->  describes
-  27:    1  ->  dunno
-  28:    1  ->  eckhart
-  29:    1  ->  era
-  30:    1  ->  feder
-  31:    1  ->  for
-  32:    1  ->  franco
-  33:    1  ->  gt
-  34:    1  ->  his
-  35:    1  ->  i
-  36:    1  ->  if
-  37:    1  ->  jacquez
-  38:    1  ->  know
-  39:    1  ->  mer
-  40:    1  ->  mko
-  41:    1  ->  oh
-  42:    1  ->  one
-  43:    1  ->  pi
-  44:    1  ->  review
-  45:    1  ->  sex
-  46:    1  ->  soun
-  47:    1  ->  vie
-  48:    1  ->  what
-  49:    1  ->  who
-  50:    1  ->  whom
-  51:    1  ->  ye
-  52:    1  ->  yes
+   1:    4  ->  year
+   2:    3  ->  it
+   3:    2  ->  150
+   4:    2  ->  <inaudible>
+   5:    2  ->  a
+   6:    2  ->  all
+   7:    2  ->  corneade
+   8:    2  ->  de
+   9:    2  ->  dites
+  10:    2  ->  have
+  11:    2  ->  obligatoire
+  12:    2  ->  of
+  13:    2  ->  that
+  14:    2  ->  the
+  15:    2  ->  was
+  16:    2  ->  yeah
+  17:    1  ->  <laugh>
+  18:    1  ->  actually
+  19:    1  ->  always
+  20:    1  ->  anyone
+  21:    1  ->  attracted
+  22:    1  ->  but
+  23:    1  ->  cramani
+  24:    1  ->  d
+  25:    1  ->  dunno
+  26:    1  ->  eckhart
+  27:    1  ->  era
+  28:    1  ->  franco
+  29:    1  ->  frederick
+  30:    1  ->  gangsterrun
+  31:    1  ->  his
+  32:    1  ->  if
+  33:    1  ->  know
+  34:    1  ->  mer
+  35:    1  ->  might
+  36:    1  ->  mko
+  37:    1  ->  montserrant
+  38:    1  ->  novels
+  39:    1  ->  oh
+  40:    1  ->  one
+  41:    1  ->  pi
+  42:    1  ->  sex
+  43:    1  ->  somebody
+  44:    1  ->  them
+  45:    1  ->  verse
+  46:    1  ->  vexin
+  47:    1  ->  what
+  48:    1  ->  who
+  49:    1  ->  whom
+  50:    1  ->  ye
+  51:    1  ->  yes
+  52:    1  ->  Édition
      -------
         71
 

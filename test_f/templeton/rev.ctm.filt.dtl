@@ -12,119 +12,104 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =   16.1%   ( 176)
+Percent Total Error       =   16.0%   ( 175)
 
-Percent Correct           =   87.4%   ( 954)
+Percent Correct           =   87.5%   ( 955)
 
-Percent Substitution      =    8.6%   (  94)
-Percent Deletions         =    4.0%   (  44)
+Percent Substitution      =    7.4%   (  81)
+Percent Deletions         =    5.1%   (  56)
 Percent Insertions        =    3.5%   (  38)
-Percent Word Accuracy     =   83.9%
+Percent Word Accuracy     =   84.0%
 
 
 Ref. words                =           (1092)
-Hyp. words                =           (1086)
+Hyp. words                =           (1074)
 Aligned words             =           (1130)
 
-CONFUSION PAIRS                  Total                 (94)
-                                 With >=  1 occurrences (94)
+CONFUSION PAIRS                  Total                 (79)
+                                 With >=  1 occurrences (79)
 
-   1:    1  ->  accumulative ==> cumulative
-   2:    1  ->  an ==> and
-   3:    1  ->  and ==> <laugh>
+   1:    2  ->  in ==> and
+   2:    2  ->  kicker ==> kicka
+   3:    1  ->  an ==> and
    4:    1  ->  and ==> in
    5:    1  ->  and ==> on
    6:    1  ->  and ==> the
-   7:    1  ->  are ==> a
-   8:    1  ->  away ==> way
-   9:    1  ->  back ==> of
-  10:    1  ->  beam ==> beating
+   7:    1  ->  and ==> us
+   8:    1  ->  are ==> a
+   9:    1  ->  away ==> way
+  10:    1  ->  beam ==> beat
   11:    1  ->  because ==> shy
   12:    1  ->  bedroom's ==> bedrooms
-  13:    1  ->  by ==> going
-  14:    1  ->  cluster ==> just
-  15:    1  ->  conches ==> conscious
-  16:    1  ->  corpus ==> the
-  17:    1  ->  deci ==> dec
-  18:    1  ->  divine ==> design
-  19:    1  ->  doing's ==> doings
-  20:    1  ->  effects ==> affects
-  21:    1  ->  elated ==> mated
-  22:    1  ->  ever ==> corpus
+  13:    1  ->  bread ==> queenbred
+  14:    1  ->  by ==> going
+  15:    1  ->  cluster ==> just
+  16:    1  ->  constructions ==> construction
+  17:    1  ->  dead ==> braindead
+  18:    1  ->  deci ==> dec
+  19:    1  ->  destroy ==> destroyed
+  20:    1  ->  divine ==> design
+  21:    1  ->  doing's ==> doings
+  22:    1  ->  effects ==> affects
   23:    1  ->  face ==> kiss
   24:    1  ->  fifty ==> oh
   25:    1  ->  first ==> visit
-  26:    1  ->  gardens ==> guardians
-  27:    1  ->  glenn ==> glen
-  28:    1  ->  habeas ==> make
-  29:    1  ->  having ==> and
-  30:    1  ->  head ==> heads
-  31:    1  ->  in ==> and
-  32:    1  ->  in ==> imp
-  33:    1  ->  just ==> cluster
-  34:    1  ->  kiss ==> out
-  35:    1  ->  lapped ==> la
-  36:    1  ->  lev ==> love
-  37:    1  ->  make ==> utility
-  38:    1  ->  man ==> stickman
-  39:    1  ->  me ==> drinking
-  40:    1  ->  much ==> match
-  41:    1  ->  of ==> beer
-  42:    1  ->  of ==> outta
-  43:    1  ->  oh ==> well
-  44:    1  ->  out ==> habe
-  45:    1  ->  papercut ==> cut
-  46:    1  ->  presence ==> status
-  47:    1  ->  runnerup ==> up
-  48:    1  ->  saw ==> expression
-  49:    1  ->  scene ==> seen
-  50:    1  ->  sentences ==> because
-  51:    1  ->  she ==> he
-  52:    1  ->  shells ==> shell
-  53:    1  ->  shy ==> bunch
-  54:    1  ->  sounds ==> hounds
-  55:    1  ->  stained ==> staying
-  56:    1  ->  status ==> face
-  57:    1  ->  straw ==> strong
-  58:    1  ->  street ==> streets
-  59:    1  ->  talk ==> top
-  60:    1  ->  tameless ==> timeless
-  61:    1  ->  the ==> right
-  62:    1  ->  their ==> the
-  63:    1  ->  thrall ==> thro
-  64:    1  ->  til ==> till
-  65:    1  ->  to ==> a
-  66:    1  ->  to ==> conscientious
-  67:    1  ->  turns ==> terms
-  68:    1  ->  up ==> their
-  69:    1  ->  us ==> kicker
-  70:    1  ->  viv ==> have
-  71:    1  ->  was ==> is
-  72:    1  ->  way ==> away
-  73:    1  ->  what ==> <laugh>
-  74:    1  ->  width ==> lips
-  75:    1  ->  wither ==> withers
-  76:    1  ->  wooing ==> totaling
-  77:    1  ->  word's ==> words
-  78:    1  ->  wraith ==> wrath
-  79:    1  ->  x ==> alliance
-  80:    1  ->  x ==> and
-  81:    1  ->  x ==> beginning
-  82:    1  ->  x ==> blood
-  83:    1  ->  x ==> drinks
-  84:    1  ->  x ==> ezio
-  85:    1  ->  x ==> from
-  86:    1  ->  x ==> k.
-  87:    1  ->  x ==> psycholo
-  88:    1  ->  x ==> that
-  89:    1  ->  x ==> the
-  90:    1  ->  x ==> to
-  91:    1  ->  x ==> up
-  92:    1  ->  x ==> was
-  93:    1  ->  x ==> yeah
-  94:    1  ->  x ==> your
+  26:    1  ->  head ==> heads
+  27:    1  ->  insists ==> insist
+  28:    1  ->  jugular ==> jaguar
+  29:    1  ->  kiss ==> out
+  30:    1  ->  lev ==> love
+  31:    1  ->  minder ==> reminder
+  32:    1  ->  much ==> match
+  33:    1  ->  of ==> outta
+  34:    1  ->  oh ==> well
+  35:    1  ->  others ==> line
+  36:    1  ->  papercut ==> cut
+  37:    1  ->  presence ==> status
+  38:    1  ->  rumor ==> rumors
+  39:    1  ->  scene ==> seam
+  40:    1  ->  she ==> he
+  41:    1  ->  sounds ==> hounds
+  42:    1  ->  stained ==> staying
+  43:    1  ->  status ==> face
+  44:    1  ->  straw ==> strong
+  45:    1  ->  street ==> streets
+  46:    1  ->  talk ==> top
+  47:    1  ->  tameless ==> timeless
+  48:    1  ->  the ==> a
+  49:    1  ->  the ==> right
+  50:    1  ->  their ==> the
+  51:    1  ->  til ==> till
+  52:    1  ->  to ==> a
+  53:    1  ->  to ==> infection
+  54:    1  ->  trusted ==> distrusted
+  55:    1  ->  turns ==> terms
+  56:    1  ->  us ==> kicka
+  57:    1  ->  viv ==> have
+  58:    1  ->  was ==> is
+  59:    1  ->  way ==> away
+  60:    1  ->  what ==> <laugh>
+  61:    1  ->  where ==> are
+  62:    1  ->  width ==> lips
+  63:    1  ->  wither ==> withers
+  64:    1  ->  wooing ==> doing
+  65:    1  ->  x ==> and
+  66:    1  ->  x ==> beginning
+  67:    1  ->  x ==> blood
+  68:    1  ->  x ==> drinks
+  69:    1  ->  x ==> from
+  70:    1  ->  x ==> k.
+  71:    1  ->  x ==> of
+  72:    1  ->  x ==> psychopolis
+  73:    1  ->  x ==> the
+  74:    1  ->  x ==> to
+  75:    1  ->  x ==> up
+  76:    1  ->  x ==> venizio
+  77:    1  ->  x ==> was
+  78:    1  ->  x ==> yeah
+  79:    1  ->  x ==> your
      -------
-        94
+        81
 
 
 
@@ -133,11 +118,11 @@ INSERTIONS                       Total                 (36)
 
    1:    3  ->  to
    2:    1  ->  <affirmative>
-   3:    1  ->  <laugh>
-   4:    1  ->  a
-   5:    1  ->  and
-   6:    1  ->  blatant
-   7:    1  ->  child
+   3:    1  ->  a
+   4:    1  ->  and
+   5:    1  ->  bunch
+   6:    1  ->  child
+   7:    1  ->  cluster
    8:    1  ->  convention
    9:    1  ->  countless
   10:    1  ->  fine
@@ -150,242 +135,222 @@ INSERTIONS                       Total                 (36)
   17:    1  ->  made
   18:    1  ->  me
   19:    1  ->  means
-  20:    1  ->  misconduct
-  21:    1  ->  mmhmm
-  22:    1  ->  more
-  23:    1  ->  o.
+  20:    1  ->  mmhmm
+  21:    1  ->  more
+  22:    1  ->  o.
+  23:    1  ->  of
   24:    1  ->  oh
   25:    1  ->  on
   26:    1  ->  paper
   27:    1  ->  permission
   28:    1  ->  refugee
-  29:    1  ->  runner
-  30:    1  ->  same
-  31:    1  ->  sentences
-  32:    1  ->  spoke
-  33:    1  ->  stack
-  34:    1  ->  they
-  35:    1  ->  up
+  29:    1  ->  sentences
+  30:    1  ->  spoke
+  31:    1  ->  stack
+  32:    1  ->  they
+  33:    1  ->  up
+  34:    1  ->  utility
+  35:    1  ->  we
   36:    1  ->  y
      -------
         38
 
 
 
-DELETIONS                        Total                 (32)
-                                 With >=  1 occurrences (32)
+DELETIONS                        Total                 (38)
+                                 With >=  1 occurrences (38)
 
-   1:    7  ->  x
-   2:    3  ->  the
-   3:    2  ->  in
-   4:    2  ->  it
-   5:    2  ->  out
-   6:    2  ->  to
-   7:    1  ->  a
-   8:    1  ->  absentia
-   9:    1  ->  am
-  10:    1  ->  are
-  11:    1  ->  authorities
-  12:    1  ->  b
-  13:    1  ->  beer
-  14:    1  ->  blatant
-  15:    1  ->  conscientious
-  16:    1  ->  convention
-  17:    1  ->  drinking
-  18:    1  ->  expression
-  19:    1  ->  just
-  20:    1  ->  kick
-  21:    1  ->  misconduct
-  22:    1  ->  of
-  23:    1  ->  on
-  24:    1  ->  permission
-  25:    1  ->  pillows
-  26:    1  ->  refugees
-  27:    1  ->  shy
-  28:    1  ->  stick
-  29:    1  ->  their
-  30:    1  ->  utilities
-  31:    1  ->  visit
-  32:    1  ->  with
+   1:    8  ->  x
+   2:    4  ->  of
+   3:    3  ->  it
+   4:    2  ->  in
+   5:    2  ->  just
+   6:    2  ->  out
+   7:    2  ->  shy
+   8:    2  ->  this
+   9:    2  ->  to
+  10:    1  ->  a
+  11:    1  ->  absentia
+  12:    1  ->  and
+  13:    1  ->  are
+  14:    1  ->  authorities
+  15:    1  ->  b
+  16:    1  ->  back
+  17:    1  ->  blatant
+  18:    1  ->  brain
+  19:    1  ->  conscientious
+  20:    1  ->  convention
+  21:    1  ->  corpus
+  22:    1  ->  habeas
+  23:    1  ->  her
+  24:    1  ->  kick
+  25:    1  ->  me
+  26:    1  ->  misconduct
+  27:    1  ->  on
+  28:    1  ->  permission
+  29:    1  ->  pillows
+  30:    1  ->  queen
+  31:    1  ->  refugees
+  32:    1  ->  saw
+  33:    1  ->  sentences
+  34:    1  ->  the
+  35:    1  ->  their
+  36:    1  ->  up
+  37:    1  ->  utilities
+  38:    1  ->  visit
      -------
-        44
+        56
 
 
 
-SUBSTITUTIONS                    Total                 (73)
-                                 With >=  1 occurrences (73)
+SUBSTITUTIONS                    Total                 (60)
+                                 With >=  1 occurrences (60)
 
-   1:   16  ->  x
+   1:   15  ->  x
    2:    4  ->  and
    3:    2  ->  in
-   4:    2  ->  of
-   5:    2  ->  to
-   6:    1  ->  accumulative
+   4:    2  ->  kicker
+   5:    2  ->  the
+   6:    2  ->  to
    7:    1  ->  an
    8:    1  ->  are
    9:    1  ->  away
-  10:    1  ->  back
-  11:    1  ->  beam
-  12:    1  ->  because
-  13:    1  ->  bedroom's
+  10:    1  ->  beam
+  11:    1  ->  because
+  12:    1  ->  bedroom's
+  13:    1  ->  bread
   14:    1  ->  by
   15:    1  ->  cluster
-  16:    1  ->  conches
-  17:    1  ->  corpus
+  16:    1  ->  constructions
+  17:    1  ->  dead
   18:    1  ->  deci
-  19:    1  ->  divine
-  20:    1  ->  doing's
-  21:    1  ->  effects
-  22:    1  ->  elated
-  23:    1  ->  ever
-  24:    1  ->  face
-  25:    1  ->  fifty
-  26:    1  ->  first
-  27:    1  ->  gardens
-  28:    1  ->  glenn
-  29:    1  ->  habeas
-  30:    1  ->  having
-  31:    1  ->  head
-  32:    1  ->  just
-  33:    1  ->  kiss
-  34:    1  ->  lapped
-  35:    1  ->  lev
-  36:    1  ->  make
-  37:    1  ->  man
-  38:    1  ->  me
-  39:    1  ->  much
-  40:    1  ->  oh
-  41:    1  ->  out
-  42:    1  ->  papercut
-  43:    1  ->  presence
-  44:    1  ->  runnerup
-  45:    1  ->  saw
-  46:    1  ->  scene
-  47:    1  ->  sentences
-  48:    1  ->  she
-  49:    1  ->  shells
-  50:    1  ->  shy
-  51:    1  ->  sounds
-  52:    1  ->  stained
-  53:    1  ->  status
-  54:    1  ->  straw
-  55:    1  ->  street
-  56:    1  ->  talk
-  57:    1  ->  tameless
-  58:    1  ->  the
-  59:    1  ->  their
-  60:    1  ->  thrall
-  61:    1  ->  til
-  62:    1  ->  turns
-  63:    1  ->  up
-  64:    1  ->  us
-  65:    1  ->  viv
-  66:    1  ->  was
-  67:    1  ->  way
-  68:    1  ->  what
-  69:    1  ->  width
-  70:    1  ->  wither
-  71:    1  ->  wooing
-  72:    1  ->  word's
-  73:    1  ->  wraith
+  19:    1  ->  destroy
+  20:    1  ->  divine
+  21:    1  ->  doing's
+  22:    1  ->  effects
+  23:    1  ->  face
+  24:    1  ->  fifty
+  25:    1  ->  first
+  26:    1  ->  head
+  27:    1  ->  insists
+  28:    1  ->  jugular
+  29:    1  ->  kiss
+  30:    1  ->  lev
+  31:    1  ->  minder
+  32:    1  ->  much
+  33:    1  ->  of
+  34:    1  ->  oh
+  35:    1  ->  others
+  36:    1  ->  papercut
+  37:    1  ->  presence
+  38:    1  ->  rumor
+  39:    1  ->  scene
+  40:    1  ->  she
+  41:    1  ->  sounds
+  42:    1  ->  stained
+  43:    1  ->  status
+  44:    1  ->  straw
+  45:    1  ->  street
+  46:    1  ->  talk
+  47:    1  ->  tameless
+  48:    1  ->  their
+  49:    1  ->  til
+  50:    1  ->  trusted
+  51:    1  ->  turns
+  52:    1  ->  us
+  53:    1  ->  viv
+  54:    1  ->  was
+  55:    1  ->  way
+  56:    1  ->  what
+  57:    1  ->  where
+  58:    1  ->  width
+  59:    1  ->  wither
+  60:    1  ->  wooing
      -------
-        94
+        81
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (85)
-                                 With >=  1 occurrences (85)
+FALSELY RECOGNIZED               Total                 (72)
+                                 With >=  1 occurrences (72)
 
    1:    4  ->  and
-   2:    4  ->  the
-   3:    2  ->  <laugh>
-   4:    2  ->  a
-   5:    2  ->  up
+   2:    3  ->  a
+   3:    3  ->  kicka
+   4:    3  ->  the
+   5:    1  ->  <laugh>
    6:    1  ->  affects
-   7:    1  ->  alliance
+   7:    1  ->  are
    8:    1  ->  away
-   9:    1  ->  beating
-  10:    1  ->  because
-  11:    1  ->  bedrooms
-  12:    1  ->  beer
-  13:    1  ->  beginning
-  14:    1  ->  blood
-  15:    1  ->  bunch
-  16:    1  ->  cluster
-  17:    1  ->  conscientious
-  18:    1  ->  conscious
-  19:    1  ->  corpus
-  20:    1  ->  cumulative
-  21:    1  ->  cut
-  22:    1  ->  dec
-  23:    1  ->  design
-  24:    1  ->  doings
-  25:    1  ->  drinking
-  26:    1  ->  drinks
-  27:    1  ->  expression
-  28:    1  ->  ezio
-  29:    1  ->  face
-  30:    1  ->  from
-  31:    1  ->  glen
-  32:    1  ->  going
-  33:    1  ->  guardians
-  34:    1  ->  habe
-  35:    1  ->  have
-  36:    1  ->  he
-  37:    1  ->  heads
-  38:    1  ->  hounds
-  39:    1  ->  imp
-  40:    1  ->  in
-  41:    1  ->  is
-  42:    1  ->  just
-  43:    1  ->  k.
-  44:    1  ->  kicker
-  45:    1  ->  kiss
-  46:    1  ->  la
-  47:    1  ->  lips
-  48:    1  ->  love
-  49:    1  ->  make
-  50:    1  ->  match
-  51:    1  ->  mated
-  52:    1  ->  of
-  53:    1  ->  oh
-  54:    1  ->  on
-  55:    1  ->  out
-  56:    1  ->  outta
-  57:    1  ->  psycholo
-  58:    1  ->  right
-  59:    1  ->  seen
-  60:    1  ->  shell
-  61:    1  ->  shy
-  62:    1  ->  status
-  63:    1  ->  staying
-  64:    1  ->  stickman
-  65:    1  ->  streets
-  66:    1  ->  strong
-  67:    1  ->  terms
-  68:    1  ->  that
-  69:    1  ->  their
-  70:    1  ->  thro
-  71:    1  ->  till
-  72:    1  ->  timeless
-  73:    1  ->  to
-  74:    1  ->  top
-  75:    1  ->  totaling
-  76:    1  ->  utility
-  77:    1  ->  visit
-  78:    1  ->  was
-  79:    1  ->  way
-  80:    1  ->  well
-  81:    1  ->  withers
-  82:    1  ->  words
-  83:    1  ->  wrath
-  84:    1  ->  yeah
-  85:    1  ->  your
+   9:    1  ->  beat
+  10:    1  ->  bedrooms
+  11:    1  ->  beginning
+  12:    1  ->  blood
+  13:    1  ->  braindead
+  14:    1  ->  construction
+  15:    1  ->  cut
+  16:    1  ->  dec
+  17:    1  ->  design
+  18:    1  ->  destroyed
+  19:    1  ->  distrusted
+  20:    1  ->  doing
+  21:    1  ->  doings
+  22:    1  ->  drinks
+  23:    1  ->  face
+  24:    1  ->  from
+  25:    1  ->  going
+  26:    1  ->  have
+  27:    1  ->  he
+  28:    1  ->  heads
+  29:    1  ->  hounds
+  30:    1  ->  in
+  31:    1  ->  infection
+  32:    1  ->  insist
+  33:    1  ->  is
+  34:    1  ->  jaguar
+  35:    1  ->  just
+  36:    1  ->  k.
+  37:    1  ->  kiss
+  38:    1  ->  line
+  39:    1  ->  lips
+  40:    1  ->  love
+  41:    1  ->  match
+  42:    1  ->  of
+  43:    1  ->  oh
+  44:    1  ->  on
+  45:    1  ->  out
+  46:    1  ->  outta
+  47:    1  ->  psychopolis
+  48:    1  ->  queenbred
+  49:    1  ->  reminder
+  50:    1  ->  right
+  51:    1  ->  rumors
+  52:    1  ->  seam
+  53:    1  ->  shy
+  54:    1  ->  status
+  55:    1  ->  staying
+  56:    1  ->  streets
+  57:    1  ->  strong
+  58:    1  ->  terms
+  59:    1  ->  till
+  60:    1  ->  timeless
+  61:    1  ->  to
+  62:    1  ->  top
+  63:    1  ->  up
+  64:    1  ->  us
+  65:    1  ->  venizio
+  66:    1  ->  visit
+  67:    1  ->  was
+  68:    1  ->  way
+  69:    1  ->  well
+  70:    1  ->  withers
+  71:    1  ->  yeah
+  72:    1  ->  your
      -------
-        94
+        81
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

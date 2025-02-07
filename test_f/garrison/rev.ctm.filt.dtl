@@ -12,220 +12,216 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    6.7%   (  81)
+Percent Total Error       =    6.8%   (  82)
 
-Percent Correct           =   93.9%   (1136)
+Percent Correct           =   93.6%   (1132)
 
-Percent Substitution      =    4.7%   (  57)
-Percent Deletions         =    1.4%   (  17)
-Percent Insertions        =    0.6%   (   7)
-Percent Word Accuracy     =   93.3%
+Percent Substitution      =    4.4%   (  53)
+Percent Deletions         =    2.1%   (  25)
+Percent Insertions        =    0.3%   (   4)
+Percent Word Accuracy     =   93.2%
 
 
 Ref. words                =           (1210)
-Hyp. words                =           (1200)
-Aligned words             =           (1217)
+Hyp. words                =           (1189)
+Aligned words             =           (1214)
 
-CONFUSION PAIRS                  Total                 (49)
-                                 With >=  1 occurrences (49)
+CONFUSION PAIRS                  Total                 (46)
+                                 With >=  1 occurrences (46)
 
    1:    3  ->  twenty ==> two
    2:    2  ->  and ==> in
    3:    2  ->  fourteen ==> four
-   4:    2  ->  idle ==> idol
-   5:    2  ->  in ==> and
-   6:    2  ->  passed ==> pass
-   7:    2  ->  the ==> a
-   8:    1  ->  a ==> imber
-   9:    1  ->  a ==> the
-  10:    1  ->  amis ==> amos
-  11:    1  ->  boards ==> longboards
-  12:    1  ->  broker ==> broke
-  13:    1  ->  carpentered ==> dirt
-  14:    1  ->  dos ==> candos
+   4:    2  ->  in ==> and
+   5:    2  ->  passed ==> pass
+   6:    2  ->  the ==> a
+   7:    1  ->  a ==> the
+   8:    1  ->  broker ==> powerbroker
+   9:    1  ->  bubbles ==> threebubbles
+  10:    1  ->  by ==> were
+  11:    1  ->  carpentered ==> dirt
+  12:    1  ->  dos ==> cando's
+  13:    1  ->  flap ==> aflap
+  14:    1  ->  footed ==> wrongfooted
   15:    1  ->  forty ==> oh
-  16:    1  ->  gone ==> going
-  17:    1  ->  have ==> are
-  18:    1  ->  hole ==> hold
-  19:    1  ->  is ==> tastes
-  20:    1  ->  is ==> was
-  21:    1  ->  leathered ==> levered
-  22:    1  ->  many ==> the
-  23:    1  ->  one ==> when
-  24:    1  ->  others ==> other's
-  25:    1  ->  owned ==> own
-  26:    1  ->  planed ==> plain
-  27:    1  ->  pleated ==> pleaded
-  28:    1  ->  plumbed ==> plumb
-  29:    1  ->  realise ==> realised
-  30:    1  ->  salt ==> thought
-  31:    1  ->  sawed ==> sold
-  32:    1  ->  schoolgirl ==> girl
-  33:    1  ->  seal ==> sealed
-  34:    1  ->  seductresses ==> seduces
+  16:    1  ->  four ==> twobyfour
+  17:    1  ->  gone ==> going
+  18:    1  ->  have ==> are
+  19:    1  ->  hole ==> hold
+  20:    1  ->  is ==> tastes
+  21:    1  ->  is ==> was
+  22:    1  ->  leathered ==> levered
+  23:    1  ->  lugging ==> plugging
+  24:    1  ->  many ==> the
+  25:    1  ->  one ==> when
+  26:    1  ->  others ==> other's
+  27:    1  ->  owned ==> own
+  28:    1  ->  planed ==> plain
+  29:    1  ->  plumbed ==> plumb
+  30:    1  ->  prompted ==> prompt
+  31:    1  ->  realise ==> realised
+  32:    1  ->  salt ==> thought
+  33:    1  ->  side ==> sidebyside
+  34:    1  ->  sixes ==> twobysixes
   35:    1  ->  so ==> of
-  36:    1  ->  swing ==> sway
-  37:    1  ->  ten ==> 10:00
-  38:    1  ->  the ==> with
+  36:    1  ->  squared ==> and
+  37:    1  ->  t ==> tsquared
+  38:    1  ->  ten ==> oh
   39:    1  ->  thirty ==> oh
-  40:    1  ->  through ==> to
-  41:    1  ->  til ==> till
-  42:    1  ->  tinny ==> tin
-  43:    1  ->  toenail ==> toenails
-  44:    1  ->  waist ==> waste
-  45:    1  ->  walk ==> walked
-  46:    1  ->  who ==> whom
-  47:    1  ->  window ==> winder
-  48:    1  ->  working ==> were
-  49:    1  ->  works ==> worked
+  40:    1  ->  three ==> with
+  41:    1  ->  through ==> to
+  42:    1  ->  til ==> till
+  43:    1  ->  waist ==> waste
+  44:    1  ->  walk ==> walked
+  45:    1  ->  who ==> whom
+  46:    1  ->  works ==> worked
      -------
-        57
+        53
 
 
 
-INSERTIONS                       Total                 (6)
-                                 With >=  1 occurrences (6)
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
 
    1:    2  ->  one
-   2:    1  ->  and
-   3:    1  ->  c
-   4:    1  ->  oops
-   5:    1  ->  school
-   6:    1  ->  some
+   2:    1  ->  copped
+   3:    1  ->  some
      -------
-         7
+         4
 
 
 
-DELETIONS                        Total                 (12)
-                                 With >=  1 occurrences (12)
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
 
-   1:    4  ->  i
-   2:    2  ->  am
+   1:    3  ->  i
+   2:    2  ->  by
    3:    2  ->  it's
-   4:    1  ->  about
-   5:    1  ->  and
-   6:    1  ->  as
-   7:    1  ->  at
-   8:    1  ->  can
-   9:    1  ->  had
-  10:    1  ->  in
-  11:    1  ->  long
-  12:    1  ->  taste
+   4:    2  ->  two
+   5:    1  ->  a
+   6:    1  ->  about
+   7:    1  ->  am
+   8:    1  ->  and
+   9:    1  ->  as
+  10:    1  ->  at
+  11:    1  ->  can
+  12:    1  ->  had
+  13:    1  ->  haggard
+  14:    1  ->  in
+  15:    1  ->  power
+  16:    1  ->  side
+  17:    1  ->  taste
+  18:    1  ->  the
+  19:    1  ->  working
+  20:    1  ->  wrong
      -------
-        17
+        25
 
 
 
-SUBSTITUTIONS                    Total                 (46)
-                                 With >=  1 occurrences (46)
+SUBSTITUTIONS                    Total                 (45)
+                                 With >=  1 occurrences (45)
 
-   1:    3  ->  the
-   2:    3  ->  twenty
-   3:    2  ->  a
-   4:    2  ->  and
-   5:    2  ->  fourteen
-   6:    2  ->  idle
-   7:    2  ->  in
-   8:    2  ->  is
-   9:    2  ->  passed
-  10:    1  ->  amis
-  11:    1  ->  boards
-  12:    1  ->  broker
-  13:    1  ->  carpentered
-  14:    1  ->  dos
-  15:    1  ->  forty
-  16:    1  ->  gone
-  17:    1  ->  have
-  18:    1  ->  hole
-  19:    1  ->  leathered
-  20:    1  ->  many
-  21:    1  ->  one
-  22:    1  ->  others
-  23:    1  ->  owned
-  24:    1  ->  planed
-  25:    1  ->  pleated
-  26:    1  ->  plumbed
-  27:    1  ->  realise
-  28:    1  ->  salt
-  29:    1  ->  sawed
-  30:    1  ->  schoolgirl
-  31:    1  ->  seal
-  32:    1  ->  seductresses
-  33:    1  ->  so
-  34:    1  ->  swing
-  35:    1  ->  ten
-  36:    1  ->  thirty
-  37:    1  ->  through
-  38:    1  ->  til
-  39:    1  ->  tinny
-  40:    1  ->  toenail
-  41:    1  ->  waist
-  42:    1  ->  walk
-  43:    1  ->  who
-  44:    1  ->  window
-  45:    1  ->  working
-  46:    1  ->  works
+   1:    3  ->  twenty
+   2:    2  ->  and
+   3:    2  ->  fourteen
+   4:    2  ->  in
+   5:    2  ->  is
+   6:    2  ->  passed
+   7:    2  ->  the
+   8:    1  ->  a
+   9:    1  ->  broker
+  10:    1  ->  bubbles
+  11:    1  ->  by
+  12:    1  ->  carpentered
+  13:    1  ->  dos
+  14:    1  ->  flap
+  15:    1  ->  footed
+  16:    1  ->  forty
+  17:    1  ->  four
+  18:    1  ->  gone
+  19:    1  ->  have
+  20:    1  ->  hole
+  21:    1  ->  leathered
+  22:    1  ->  lugging
+  23:    1  ->  many
+  24:    1  ->  one
+  25:    1  ->  others
+  26:    1  ->  owned
+  27:    1  ->  planed
+  28:    1  ->  plumbed
+  29:    1  ->  prompted
+  30:    1  ->  realise
+  31:    1  ->  salt
+  32:    1  ->  side
+  33:    1  ->  sixes
+  34:    1  ->  so
+  35:    1  ->  squared
+  36:    1  ->  t
+  37:    1  ->  ten
+  38:    1  ->  thirty
+  39:    1  ->  three
+  40:    1  ->  through
+  41:    1  ->  til
+  42:    1  ->  waist
+  43:    1  ->  walk
+  44:    1  ->  who
+  45:    1  ->  works
      -------
-        57
+        53
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (47)
-                                 With >=  1 occurrences (47)
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
 
-   1:    3  ->  two
-   2:    2  ->  a
-   3:    2  ->  and
-   4:    2  ->  four
-   5:    2  ->  idol
+   1:    3  ->  and
+   2:    3  ->  oh
+   3:    3  ->  two
+   4:    2  ->  a
+   5:    2  ->  four
    6:    2  ->  in
-   7:    2  ->  oh
-   8:    2  ->  pass
-   9:    2  ->  the
-  10:    1  ->  10:00
-  11:    1  ->  amos
-  12:    1  ->  are
-  13:    1  ->  broke
-  14:    1  ->  candos
-  15:    1  ->  dirt
-  16:    1  ->  girl
-  17:    1  ->  going
-  18:    1  ->  hold
-  19:    1  ->  imber
-  20:    1  ->  levered
-  21:    1  ->  longboards
-  22:    1  ->  of
-  23:    1  ->  other's
-  24:    1  ->  own
-  25:    1  ->  plain
-  26:    1  ->  pleaded
-  27:    1  ->  plumb
-  28:    1  ->  realised
-  29:    1  ->  sealed
-  30:    1  ->  seduces
-  31:    1  ->  sold
-  32:    1  ->  sway
-  33:    1  ->  tastes
-  34:    1  ->  thought
-  35:    1  ->  till
-  36:    1  ->  tin
-  37:    1  ->  to
-  38:    1  ->  toenails
-  39:    1  ->  walked
-  40:    1  ->  was
-  41:    1  ->  waste
-  42:    1  ->  were
-  43:    1  ->  when
-  44:    1  ->  whom
-  45:    1  ->  winder
-  46:    1  ->  with
-  47:    1  ->  worked
+   7:    2  ->  pass
+   8:    2  ->  the
+   9:    1  ->  aflap
+  10:    1  ->  are
+  11:    1  ->  cando's
+  12:    1  ->  dirt
+  13:    1  ->  going
+  14:    1  ->  hold
+  15:    1  ->  levered
+  16:    1  ->  of
+  17:    1  ->  other's
+  18:    1  ->  own
+  19:    1  ->  plain
+  20:    1  ->  plugging
+  21:    1  ->  plumb
+  22:    1  ->  powerbroker
+  23:    1  ->  prompt
+  24:    1  ->  realised
+  25:    1  ->  sidebyside
+  26:    1  ->  tastes
+  27:    1  ->  thought
+  28:    1  ->  threebubbles
+  29:    1  ->  till
+  30:    1  ->  to
+  31:    1  ->  tsquared
+  32:    1  ->  twobyfour
+  33:    1  ->  twobysixes
+  34:    1  ->  walked
+  35:    1  ->  was
+  36:    1  ->  waste
+  37:    1  ->  were
+  38:    1  ->  when
+  39:    1  ->  whom
+  40:    1  ->  with
+  41:    1  ->  worked
+  42:    1  ->  wrongfooted
      -------
-        57
+        53
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

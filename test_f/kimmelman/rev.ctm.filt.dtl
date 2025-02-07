@@ -12,76 +12,72 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    6.1%   (  63)
+Percent Total Error       =    5.7%   (  59)
 
-Percent Correct           =   94.6%   ( 982)
+Percent Correct           =   94.8%   ( 984)
 
-Percent Substitution      =    2.8%   (  29)
-Percent Deletions         =    2.6%   (  27)
-Percent Insertions        =    0.7%   (   7)
-Percent Word Accuracy     =   93.9%
+Percent Substitution      =    2.5%   (  26)
+Percent Deletions         =    2.7%   (  28)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   94.3%
 
 
 Ref. words                =           (1038)
-Hyp. words                =           (1018)
-Aligned words             =           (1045)
+Hyp. words                =           (1015)
+Aligned words             =           (1043)
 
-CONFUSION PAIRS                  Total                 (28)
-                                 With >=  1 occurrences (28)
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
 
-   1:    2  ->  theresienstadt ==> stat
+   1:    2  ->  theresienstadt ==> therenstadt
    2:    1  ->  a ==> not
    3:    1  ->  dressed ==> welldressed
    4:    1  ->  eighty ==> eight
    5:    1  ->  f ==> have
-   6:    1  ->  happen ==> happened
-   7:    1  ->  i ==> let
-   8:    1  ->  in ==> awakened
+   6:    1  ->  fed ==> wellfed
+   7:    1  ->  happen ==> happened
+   8:    1  ->  i ==> let
    9:    1  ->  it ==> there
   10:    1  ->  me ==> lemme
-  11:    1  ->  parade ==> paraded
-  12:    1  ->  s ==> one
-  13:    1  ->  say ==> see
-  14:    1  ->  seidman ==> sideman
-  15:    1  ->  shod ==> shot
-  16:    1  ->  sixteen ==> six
-  17:    1  ->  surmisal ==> suris
-  18:    1  ->  ten ==> 2010
-  19:    1  ->  ten ==> oh
-  20:    1  ->  tha ==> the
-  21:    1  ->  that's ==> it's
-  22:    1  ->  twenty ==> oh
-  23:    1  ->  twenty ==> two
-  24:    1  ->  two ==> ii
-  25:    1  ->  unstilled ==> unskilled
-  26:    1  ->  ver ==> very
-  27:    1  ->  well ==> what
-  28:    1  ->  will ==> us
+  11:    1  ->  s ==> one
+  12:    1  ->  say ==> see
+  13:    1  ->  shod ==> wellshod
+  14:    1  ->  sixteen ==> six
+  15:    1  ->  surmisal ==> all
+  16:    1  ->  ten ==> 2010
+  17:    1  ->  ten ==> oh
+  18:    1  ->  tha ==> the
+  19:    1  ->  that's ==> it's
+  20:    1  ->  twenty ==> oh
+  21:    1  ->  twenty ==> two
+  22:    1  ->  two ==> ii
+  23:    1  ->  ver ==> very
+  24:    1  ->  well ==> what
+  25:    1  ->  will ==> us
      -------
-        29
+        26
 
 
 
-INSERTIONS                       Total                 (6)
-                                 With >=  1 occurrences (6)
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
 
-   1:    2  ->  theran
-   2:    1  ->  <laugh>
-   3:    1  ->  is
-   4:    1  ->  may
-   5:    1  ->  the
-   6:    1  ->  yeah
+   1:    1  ->  is
+   2:    1  ->  may
+   3:    1  ->  surmise
+   4:    1  ->  the
+   5:    1  ->  yeah
      -------
-         7
+         5
 
 
 
-DELETIONS                        Total                 (25)
-                                 With >=  1 occurrences (25)
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
 
-   1:    2  ->  a
-   2:    2  ->  w
-   3:    1  ->  awake
+   1:    3  ->  well
+   2:    2  ->  a
+   3:    2  ->  w
    4:    1  ->  f
    5:    1  ->  four
    6:    1  ->  i
@@ -102,15 +98,14 @@ DELETIONS                        Total                 (25)
   21:    1  ->  two
   22:    1  ->  u
   23:    1  ->  we
-  24:    1  ->  well
-  25:    1  ->  years
+  24:    1  ->  years
      -------
-        27
+        28
 
 
 
-SUBSTITUTIONS                    Total                 (26)
-                                 With >=  1 occurrences (26)
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
 
    1:    2  ->  ten
    2:    2  ->  theresienstadt
@@ -119,40 +114,37 @@ SUBSTITUTIONS                    Total                 (26)
    5:    1  ->  dressed
    6:    1  ->  eighty
    7:    1  ->  f
-   8:    1  ->  happen
-   9:    1  ->  i
-  10:    1  ->  in
+   8:    1  ->  fed
+   9:    1  ->  happen
+  10:    1  ->  i
   11:    1  ->  it
   12:    1  ->  me
-  13:    1  ->  parade
-  14:    1  ->  s
-  15:    1  ->  say
-  16:    1  ->  seidman
-  17:    1  ->  shod
-  18:    1  ->  sixteen
-  19:    1  ->  surmisal
-  20:    1  ->  tha
-  21:    1  ->  that's
-  22:    1  ->  two
-  23:    1  ->  unstilled
-  24:    1  ->  ver
-  25:    1  ->  well
-  26:    1  ->  will
+  13:    1  ->  s
+  14:    1  ->  say
+  15:    1  ->  shod
+  16:    1  ->  sixteen
+  17:    1  ->  surmisal
+  18:    1  ->  tha
+  19:    1  ->  that's
+  20:    1  ->  two
+  21:    1  ->  ver
+  22:    1  ->  well
+  23:    1  ->  will
      -------
-        29
+        26
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (27)
-                                 With >=  1 occurrences (27)
+FALSELY RECOGNIZED               Total                 (24)
+                                 With >=  1 occurrences (24)
 
    1:    2  ->  oh
-   2:    2  ->  stat
+   2:    2  ->  therenstadt
    3:    1  ->  2010
-   4:    1  ->  awakened
+   4:    1  ->  all
    5:    1  ->  eight
    6:    1  ->  happened
    7:    1  ->  have
@@ -162,22 +154,19 @@ FALSELY RECOGNIZED               Total                 (27)
   11:    1  ->  let
   12:    1  ->  not
   13:    1  ->  one
-  14:    1  ->  paraded
-  15:    1  ->  see
-  16:    1  ->  shot
-  17:    1  ->  sideman
-  18:    1  ->  six
-  19:    1  ->  suris
-  20:    1  ->  the
-  21:    1  ->  there
-  22:    1  ->  two
-  23:    1  ->  unskilled
-  24:    1  ->  us
-  25:    1  ->  very
-  26:    1  ->  welldressed
-  27:    1  ->  what
+  14:    1  ->  see
+  15:    1  ->  six
+  16:    1  ->  the
+  17:    1  ->  there
+  18:    1  ->  two
+  19:    1  ->  us
+  20:    1  ->  very
+  21:    1  ->  welldressed
+  22:    1  ->  wellfed
+  23:    1  ->  wellshod
+  24:    1  ->  what
      -------
-        29
+        26
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

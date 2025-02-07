@@ -5,13 +5,13 @@
 
                        MP              SI              WI              MN       
                  --------------  --------------  --------------  -------------- 
-        aws.ctm     aws.ctm           same            same            same      
+        aws.ctm       same            same            same            same      
       azure.ctm       same            same            same            same      
      google.ctm       same            same            same            same      
         ibm.ctm     rev.ctm           same            same            same      
-       nemo.ctm     nemo.ctm          same            same            same      
+       nemo.ctm       same            same            same            same      
     whisper.ctm   whisper.ctm         same            same            same      
- whispercpp.ctm  whispercpp.ctm       same            same            same      
+ whispercpp.ctm       same            same            same            same      
 
 
 

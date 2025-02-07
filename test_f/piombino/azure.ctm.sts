@@ -9,7 +9,7 @@
      google.ctm    azure.ctm          same            same            same      
         ibm.ctm    azure.ctm          same            same            same      
        nemo.ctm       same            same            same            same      
-        rev.ctm       same            same            same            same      
+        rev.ctm    azure.ctm          same            same            same      
     whisper.ctm    azure.ctm          same            same            same      
  whispercpp.ctm       same            same            same            same      
 

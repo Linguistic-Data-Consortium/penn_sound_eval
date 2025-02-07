@@ -12,166 +12,132 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    5.9%   (  67)
+Percent Total Error       =    3.8%   (  44)
 
-Percent Correct           =   95.3%   (1091)
+Percent Correct           =   96.8%   (1108)
 
-Percent Substitution      =    3.1%   (  36)
-Percent Deletions         =    1.6%   (  18)
-Percent Insertions        =    1.1%   (  13)
-Percent Word Accuracy     =   94.1%
+Percent Substitution      =    2.1%   (  24)
+Percent Deletions         =    1.1%   (  13)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   96.2%
 
 
 Ref. words                =           (1145)
-Hyp. words                =           (1140)
-Aligned words             =           (1158)
+Hyp. words                =           (1139)
+Aligned words             =           (1152)
 
-CONFUSION PAIRS                  Total                 (29)
-                                 With >=  1 occurrences (29)
+CONFUSION PAIRS                  Total                 (19)
+                                 With >=  1 occurrences (19)
 
-   1:    3  ->  tale ==> fairytale
-   2:    2  ->  antiheroic ==> heroic
-   3:    2  ->  borne ==> born
-   4:    2  ->  dango ==> dongo
-   5:    2  ->  kibi ==> ki
-   6:    2  ->  tales ==> fairytales
-   7:    1  ->  afloat ==> float
-   8:    1  ->  an ==> anti
-   9:    1  ->  and ==> in
-  10:    1  ->  called ==> socalled
-  11:    1  ->  could ==> can
-  12:    1  ->  doggerel ==> row
-  13:    1  ->  doggerel ==> rule
-  14:    1  ->  donburi ==> don
-  15:    1  ->  emplacement ==> placement
-  16:    1  ->  fairy ==> fairytale
-  17:    1  ->  had ==> have
-  18:    1  ->  in ==> them
-  19:    1  ->  millet ==> milit
-  20:    1  ->  momotaro ==> tado
-  21:    1  ->  onigashima ==> gima
-  22:    1  ->  peach ==> beach
-  23:    1  ->  said ==> so
-  24:    1  ->  stopped ==> stop
-  25:    1  ->  their ==> there
-  26:    1  ->  until ==> till
-  27:    1  ->  was ==> is
-  28:    1  ->  will ==> al
-  29:    1  ->  woodchopper ==> chopper
+   1:    5  ->  donburi ==> domburi
+   2:    2  ->  dango ==> kibidango
+   3:    1  ->  an ==> and
+   4:    1  ->  and ==> in
+   5:    1  ->  borne ==> born
+   6:    1  ->  called ==> socalled
+   7:    1  ->  could ==> can
+   8:    1  ->  doggerel ==> row
+   9:    1  ->  doggerel ==> rule
+  10:    1  ->  form ==> forum
+  11:    1  ->  had ==> have
+  12:    1  ->  in ==> them
+  13:    1  ->  peach ==> beach
+  14:    1  ->  said ==> so
+  15:    1  ->  stopped ==> stop
+  16:    1  ->  their ==> there
+  17:    1  ->  until ==> till
+  18:    1  ->  was ==> is
+  19:    1  ->  will ==> al
      -------
-        36
+        24
 
 
 
-INSERTIONS                       Total                 (11)
-                                 With >=  1 occurrences (11)
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
 
    1:    2  ->  dog
-   2:    2  ->  i
-   3:    1  ->  <laugh>
-   4:    1  ->  a
-   5:    1  ->  and
-   6:    1  ->  anti
-   7:    1  ->  ho
-   8:    1  ->  it
-   9:    1  ->  momo
-  10:    1  ->  of
-  11:    1  ->  wood
+   2:    1  ->  <laugh>
+   3:    1  ->  i
+   4:    1  ->  it
+   5:    1  ->  of
+   6:    1  ->  tale
      -------
-        13
+         7
 
 
 
 DELETIONS                        Total                 (10)
                                  With >=  1 occurrences (10)
 
-   1:    5  ->  fairy
-   2:    4  ->  donburi
-   3:    2  ->  it
-   4:    1  ->  a
-   5:    1  ->  b
-   6:    1  ->  i
-   7:    1  ->  sic
-   8:    1  ->  so
-   9:    1  ->  t
-  10:    1  ->  the
+   1:    2  ->  a
+   2:    2  ->  it
+   3:    2  ->  kibi
+   4:    1  ->  b
+   5:    1  ->  i
+   6:    1  ->  sic
+   7:    1  ->  so
+   8:    1  ->  t
+   9:    1  ->  the
+  10:    1  ->  under
      -------
-        18
+        13
 
 
 
-SUBSTITUTIONS                    Total                 (28)
-                                 With >=  1 occurrences (28)
+SUBSTITUTIONS                    Total                 (18)
+                                 With >=  1 occurrences (18)
 
-   1:    3  ->  tale
-   2:    2  ->  antiheroic
-   3:    2  ->  borne
-   4:    2  ->  dango
-   5:    2  ->  doggerel
-   6:    2  ->  kibi
-   7:    2  ->  tales
-   8:    1  ->  afloat
-   9:    1  ->  an
-  10:    1  ->  and
-  11:    1  ->  called
-  12:    1  ->  could
-  13:    1  ->  donburi
-  14:    1  ->  emplacement
-  15:    1  ->  fairy
-  16:    1  ->  had
-  17:    1  ->  in
-  18:    1  ->  millet
-  19:    1  ->  momotaro
-  20:    1  ->  onigashima
-  21:    1  ->  peach
-  22:    1  ->  said
-  23:    1  ->  stopped
-  24:    1  ->  their
-  25:    1  ->  until
-  26:    1  ->  was
-  27:    1  ->  will
-  28:    1  ->  woodchopper
+   1:    5  ->  donburi
+   2:    2  ->  dango
+   3:    2  ->  doggerel
+   4:    1  ->  an
+   5:    1  ->  and
+   6:    1  ->  borne
+   7:    1  ->  called
+   8:    1  ->  could
+   9:    1  ->  form
+  10:    1  ->  had
+  11:    1  ->  in
+  12:    1  ->  peach
+  13:    1  ->  said
+  14:    1  ->  stopped
+  15:    1  ->  their
+  16:    1  ->  until
+  17:    1  ->  was
+  18:    1  ->  will
      -------
-        36
+        24
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (28)
-                                 With >=  1 occurrences (28)
+FALSELY RECOGNIZED               Total                 (19)
+                                 With >=  1 occurrences (19)
 
-   1:    4  ->  fairytale
-   2:    2  ->  born
-   3:    2  ->  dongo
-   4:    2  ->  fairytales
-   5:    2  ->  heroic
-   6:    2  ->  ki
-   7:    1  ->  al
-   8:    1  ->  anti
-   9:    1  ->  beach
-  10:    1  ->  can
-  11:    1  ->  chopper
-  12:    1  ->  don
-  13:    1  ->  float
-  14:    1  ->  gima
-  15:    1  ->  have
-  16:    1  ->  in
-  17:    1  ->  is
-  18:    1  ->  milit
-  19:    1  ->  placement
-  20:    1  ->  row
-  21:    1  ->  rule
-  22:    1  ->  so
-  23:    1  ->  socalled
-  24:    1  ->  stop
-  25:    1  ->  tado
-  26:    1  ->  them
-  27:    1  ->  there
-  28:    1  ->  till
+   1:    5  ->  domburi
+   2:    2  ->  kibidango
+   3:    1  ->  al
+   4:    1  ->  and
+   5:    1  ->  beach
+   6:    1  ->  born
+   7:    1  ->  can
+   8:    1  ->  forum
+   9:    1  ->  have
+  10:    1  ->  in
+  11:    1  ->  is
+  12:    1  ->  row
+  13:    1  ->  rule
+  14:    1  ->  so
+  15:    1  ->  socalled
+  16:    1  ->  stop
+  17:    1  ->  them
+  18:    1  ->  there
+  19:    1  ->  till
      -------
-        36
+        24
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

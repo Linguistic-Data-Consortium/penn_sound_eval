@@ -11,7 +11,7 @@
         ibm.ctm       same            same            same            same      
        nemo.ctm       same            same            same            same      
     whisper.ctm       same            same            same            same      
- whispercpp.ctm       same            same            same            same      
+ whispercpp.ctm     rev.ctm           same            same            same      
 
 
 

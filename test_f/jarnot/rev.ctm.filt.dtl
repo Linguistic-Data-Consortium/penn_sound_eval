@@ -12,114 +12,96 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    3.1%   (  23)
+Percent Total Error       =    2.3%   (  17)
 
-Percent Correct           =   97.5%   ( 732)
+Percent Correct           =   98.0%   ( 736)
 
-Percent Substitution      =    2.4%   (  18)
-Percent Deletions         =    0.1%   (   1)
-Percent Insertions        =    0.5%   (   4)
-Percent Word Accuracy     =   96.9%
+Percent Substitution      =    1.7%   (  13)
+Percent Deletions         =    0.3%   (   2)
+Percent Insertions        =    0.3%   (   2)
+Percent Word Accuracy     =   97.7%
 
 
 Ref. words                =           ( 751)
-Hyp. words                =           ( 754)
-Aligned words             =           ( 755)
+Hyp. words                =           ( 751)
+Aligned words             =           ( 753)
 
-CONFUSION PAIRS                  Total                 (17)
-                                 With >=  1 occurrences (17)
+CONFUSION PAIRS                  Total                 (11)
+                                 With >=  1 occurrences (11)
 
-   1:    2  ->  th ==> the
-   2:    1  ->  an ==> and
-   3:    1  ->  apt ==> app
-   4:    1  ->  cot ==> caught
+   1:    2  ->  lost ==> lars
+   2:    2  ->  th ==> the
+   3:    1  ->  an ==> and
+   4:    1  ->  apt ==> app
    5:    1  ->  eruptions ==> eruption
-   6:    1  ->  kyger ==> kiger
-   7:    1  ->  lost ==> lars
-   8:    1  ->  lost ==> lath
-   9:    1  ->  miniscule ==> minuscule
-  10:    1  ->  minuet ==> minette
-  11:    1  ->  parkour ==> parker
-  12:    1  ->  rebbe ==> rebi
-  13:    1  ->  taut ==> tt
-  14:    1  ->  uninscribed ==> inscribed
-  15:    1  ->  x ==> hangers
-  16:    1  ->  x ==> you
-  17:    1  ->  your ==> are
+   6:    1  ->  jades ==> jade's
+   7:    1  ->  kyger ==> kiger
+   8:    1  ->  miniscule ==> minuscule
+   9:    1  ->  taught ==> taut
+  10:    1  ->  x ==> comfort
+  11:    1  ->  x ==> hangers
      -------
-        18
+        13
 
 
 
-INSERTIONS                       Total                 (4)
-                                 With >=  1 occurrences (4)
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
 
    1:    1  ->  a
    2:    1  ->  and
-   3:    1  ->  comfort
-   4:    1  ->  un
      -------
-         4
+         2
 
 
 
-DELETIONS                        Total                 (1)
-                                 With >=  1 occurrences (1)
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
 
    1:    1  ->  ps
+   2:    1  ->  recoverable
      -------
-         1
+         2
 
 
 
-SUBSTITUTIONS                    Total                 (15)
-                                 With >=  1 occurrences (15)
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
 
    1:    2  ->  lost
    2:    2  ->  th
    3:    2  ->  x
    4:    1  ->  an
    5:    1  ->  apt
-   6:    1  ->  cot
-   7:    1  ->  eruptions
+   6:    1  ->  eruptions
+   7:    1  ->  jades
    8:    1  ->  kyger
    9:    1  ->  miniscule
-  10:    1  ->  minuet
-  11:    1  ->  parkour
-  12:    1  ->  rebbe
-  13:    1  ->  taut
-  14:    1  ->  uninscribed
-  15:    1  ->  your
+  10:    1  ->  taught
      -------
-        18
+        13
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (17)
-                                 With >=  1 occurrences (17)
+FALSELY RECOGNIZED               Total                 (11)
+                                 With >=  1 occurrences (11)
 
-   1:    2  ->  the
-   2:    1  ->  and
-   3:    1  ->  app
-   4:    1  ->  are
-   5:    1  ->  caught
+   1:    2  ->  lars
+   2:    2  ->  the
+   3:    1  ->  and
+   4:    1  ->  app
+   5:    1  ->  comfort
    6:    1  ->  eruption
    7:    1  ->  hangers
-   8:    1  ->  inscribed
+   8:    1  ->  jade's
    9:    1  ->  kiger
-  10:    1  ->  lars
-  11:    1  ->  lath
-  12:    1  ->  minette
-  13:    1  ->  minuscule
-  14:    1  ->  parker
-  15:    1  ->  rebi
-  16:    1  ->  tt
-  17:    1  ->  you
+  10:    1  ->  minuscule
+  11:    1  ->  taut
      -------
-        18
+        13
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

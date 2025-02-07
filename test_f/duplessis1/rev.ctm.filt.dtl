@@ -7,104 +7,98 @@ SENTENCE RECOGNITION PERFORMANCE
 
    with substitutions                   100.0%   (   1)
    with deletions                       100.0%   (   1)
-   with insertions                      100.0%   (   1)
+   with insertions                        0.0%   (   0)
 
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    2.1%   (  15)
+Percent Total Error       =    1.8%   (  13)
 
-Percent Correct           =   98.1%   ( 709)
+Percent Correct           =   98.2%   ( 710)
 
-Percent Substitution      =    1.7%   (  12)
-Percent Deletions         =    0.3%   (   2)
-Percent Insertions        =    0.1%   (   1)
-Percent Word Accuracy     =   97.9%
+Percent Substitution      =    1.4%   (  10)
+Percent Deletions         =    0.4%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   98.2%
 
 
 Ref. words                =           ( 723)
-Hyp. words                =           ( 722)
-Aligned words             =           ( 724)
+Hyp. words                =           ( 720)
+Aligned words             =           ( 723)
 
-CONFUSION PAIRS                  Total                 (12)
-                                 With >=  1 occurrences (12)
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
 
-   1:    1  ->  awls ==> alls
-   2:    1  ->  chimera ==> mira
-   3:    1  ->  combustable ==> combustible
+   1:    1  ->  black ==> blueblack
+   2:    1  ->  combustable ==> combustible
+   3:    1  ->  debts ==> nets
    4:    1  ->  gulley ==> gully
-   5:    1  ->  historiated ==> ated
-   6:    1  ->  incipits ==> kipps
-   7:    1  ->  lehman ==> layman
-   8:    1  ->  managed ==> mannered
-   9:    1  ->  scuro ==> kero
+   5:    1  ->  managed ==> mannered
+   6:    1  ->  ogham ==> agum
+   7:    1  ->  scrim ==> scrimm
+   8:    1  ->  scuro ==> chiaroscuro
+   9:    1  ->  sleep ==> halfsleep
   10:    1  ->  slice ==> notch
-  11:    1  ->  splay ==> display
-  12:    1  ->  strage ==> je
      -------
-        12
+        10
 
 
 
-INSERTIONS                       Total                 (1)
-                                 With >=  1 occurrences (1)
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
 
-   1:    1  ->  in
      -------
-         1
+         0
 
 
 
-DELETIONS                        Total                 (2)
-                                 With >=  1 occurrences (2)
+DELETIONS                        Total                 (3)
+                                 With >=  1 occurrences (3)
 
-   1:    1  ->  chiaro
-   2:    1  ->  la
+   1:    1  ->  blue
+   2:    1  ->  chiaro
+   3:    1  ->  half
      -------
-         2
+         3
 
 
 
-SUBSTITUTIONS                    Total                 (12)
-                                 With >=  1 occurrences (12)
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
 
-   1:    1  ->  awls
-   2:    1  ->  chimera
-   3:    1  ->  combustable
+   1:    1  ->  black
+   2:    1  ->  combustable
+   3:    1  ->  debts
    4:    1  ->  gulley
-   5:    1  ->  historiated
-   6:    1  ->  incipits
-   7:    1  ->  lehman
-   8:    1  ->  managed
-   9:    1  ->  scuro
+   5:    1  ->  managed
+   6:    1  ->  ogham
+   7:    1  ->  scrim
+   8:    1  ->  scuro
+   9:    1  ->  sleep
   10:    1  ->  slice
-  11:    1  ->  splay
-  12:    1  ->  strage
      -------
-        12
+        10
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (12)
-                                 With >=  1 occurrences (12)
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
 
-   1:    1  ->  alls
-   2:    1  ->  ated
-   3:    1  ->  combustible
-   4:    1  ->  display
+   1:    1  ->  agum
+   2:    1  ->  blueblack
+   3:    1  ->  chiaroscuro
+   4:    1  ->  combustible
    5:    1  ->  gully
-   6:    1  ->  je
-   7:    1  ->  kero
-   8:    1  ->  kipps
-   9:    1  ->  layman
-  10:    1  ->  mannered
-  11:    1  ->  mira
-  12:    1  ->  notch
+   6:    1  ->  halfsleep
+   7:    1  ->  mannered
+   8:    1  ->  nets
+   9:    1  ->  notch
+  10:    1  ->  scrimm
      -------
-        12
+        10
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

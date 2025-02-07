@@ -12,59 +12,58 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    6.9%   (  74)
+Percent Total Error       =    7.0%   (  75)
 
-Percent Correct           =   94.9%   (1021)
+Percent Correct           =   94.7%   (1018)
 
-Percent Substitution      =    3.7%   (  40)
-Percent Deletions         =    1.4%   (  15)
-Percent Insertions        =    1.8%   (  19)
-Percent Word Accuracy     =   93.1%
+Percent Substitution      =    3.6%   (  39)
+Percent Deletions         =    1.7%   (  18)
+Percent Insertions        =    1.7%   (  18)
+Percent Word Accuracy     =   93.0%
 
 
-Ref. words                =           (1076)
-Hyp. words                =           (1080)
-Aligned words             =           (1095)
+Ref. words                =           (1075)
+Hyp. words                =           (1075)
+Aligned words             =           (1093)
 
-CONFUSION PAIRS                  Total                 (34)
-                                 With >=  1 occurrences (34)
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
 
    1:    5  ->  fifteen ==> five
    2:    2  ->  ninety ==> nine
    3:    2  ->  ten ==> oh
-   4:    1  ->  abandon ==> abandoned
-   5:    1  ->  b ==> be
-   6:    1  ->  be's ==> bes
-   7:    1  ->  downs ==> handmedowns
-   8:    1  ->  eleven ==> one
-   9:    1  ->  get ==> give
-  10:    1  ->  inflorescence ==> fluorescence
-  11:    1  ->  ins ==> in
-  12:    1  ->  insufflations ==> insufflation
-  13:    1  ->  laney ==> lainey
-  14:    1  ->  laney's ==> laneys
+   4:    1  ->  b ==> be
+   5:    1  ->  be's ==> bees
+   6:    1  ->  bot ==> bought
+   7:    1  ->  colic ==> collic
+   8:    1  ->  definitions ==> definition
+   9:    1  ->  downs ==> handmedowns
+  10:    1  ->  eleven ==> one
+  11:    1  ->  geraldine ==> dean
+  12:    1  ->  get ==> give
+  13:    1  ->  horsey ==> doublehorsey
+  14:    1  ->  ins ==> in
   15:    1  ->  mine ==> mind
   16:    1  ->  naïve ==> naive
-  17:    1  ->  odes ==> os
-  18:    1  ->  of ==> a
+  17:    1  ->  of ==> a
+  18:    1  ->  of ==> is
   19:    1  ->  of ==> outta
   20:    1  ->  or ==> will
   21:    1  ->  pass ==> passed
-  22:    1  ->  permutational ==> permutation
+  22:    1  ->  pollinating ==> crosspollinating
   23:    1  ->  shaped ==> lshaped
-  24:    1  ->  sinead ==> schine
-  25:    1  ->  the ==> that
-  26:    1  ->  to ==> wanted
-  27:    1  ->  wanted ==> to
-  28:    1  ->  will ==> i
-  29:    1  ->  works ==> work
-  30:    1  ->  x ==> cento
-  31:    1  ->  x ==> centos
-  32:    1  ->  x ==> d
-  33:    1  ->  x ==> excavations
-  34:    1  ->  x ==> they
+  24:    1  ->  the ==> that
+  25:    1  ->  to ==> wanted
+  26:    1  ->  wanted ==> to
+  27:    1  ->  will ==> i
+  28:    1  ->  works ==> work
+  29:    1  ->  x ==> cento
+  30:    1  ->  x ==> centos
+  31:    1  ->  x ==> dee
+  32:    1  ->  x ==> estivations
+  33:    1  ->  x ==> they
      -------
-        40
+        39
 
 
 
@@ -72,122 +71,123 @@ INSERTIONS                       Total                 (12)
                                  With >=  1 occurrences (12)
 
    1:    6  ->  one
-   2:    3  ->  <laugh>
+   2:    2  ->  i
    3:    1  ->  a
-   4:    1  ->  and
-   5:    1  ->  emily
-   6:    1  ->  i
-   7:    1  ->  in
+   4:    1  ->  am
+   5:    1  ->  and
+   6:    1  ->  emily
+   7:    1  ->  gerald
    8:    1  ->  it
    9:    1  ->  it's
   10:    1  ->  want
   11:    1  ->  we
   12:    1  ->  your
      -------
-        19
+        18
 
 
 
-DELETIONS                        Total                 (13)
-                                 With >=  1 occurrences (13)
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
 
    1:    2  ->  i
-   2:    2  ->  of
-   3:    1  ->  and
-   4:    1  ->  hand
-   5:    1  ->  is
-   6:    1  ->  l
-   7:    1  ->  me
-   8:    1  ->  oh
-   9:    1  ->  out
-  10:    1  ->  purpor
-  11:    1  ->  want
-  12:    1  ->  we
-  13:    1  ->  will
+   2:    1  ->  and
+   3:    1  ->  cross
+   4:    1  ->  dis
+   5:    1  ->  double
+   6:    1  ->  hand
+   7:    1  ->  l
+   8:    1  ->  me
+   9:    1  ->  of
+  10:    1  ->  oh
+  11:    1  ->  out
+  12:    1  ->  purpor
+  13:    1  ->  the
+  14:    1  ->  varied
+  15:    1  ->  want
+  16:    1  ->  we
+  17:    1  ->  will
      -------
-        15
+        18
 
 
 
-SUBSTITUTIONS                    Total                 (29)
-                                 With >=  1 occurrences (29)
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
 
    1:    5  ->  fifteen
    2:    5  ->  x
-   3:    2  ->  ninety
-   4:    2  ->  of
+   3:    3  ->  of
+   4:    2  ->  ninety
    5:    2  ->  ten
-   6:    1  ->  abandon
-   7:    1  ->  b
-   8:    1  ->  be's
-   9:    1  ->  downs
-  10:    1  ->  eleven
-  11:    1  ->  get
-  12:    1  ->  inflorescence
-  13:    1  ->  ins
-  14:    1  ->  insufflations
-  15:    1  ->  laney
-  16:    1  ->  laney's
+   6:    1  ->  b
+   7:    1  ->  be's
+   8:    1  ->  bot
+   9:    1  ->  colic
+  10:    1  ->  definitions
+  11:    1  ->  downs
+  12:    1  ->  eleven
+  13:    1  ->  geraldine
+  14:    1  ->  get
+  15:    1  ->  horsey
+  16:    1  ->  ins
   17:    1  ->  mine
   18:    1  ->  naïve
-  19:    1  ->  odes
-  20:    1  ->  or
-  21:    1  ->  pass
-  22:    1  ->  permutational
-  23:    1  ->  shaped
-  24:    1  ->  sinead
-  25:    1  ->  the
-  26:    1  ->  to
-  27:    1  ->  wanted
-  28:    1  ->  will
-  29:    1  ->  works
+  19:    1  ->  or
+  20:    1  ->  pass
+  21:    1  ->  pollinating
+  22:    1  ->  shaped
+  23:    1  ->  the
+  24:    1  ->  to
+  25:    1  ->  wanted
+  26:    1  ->  will
+  27:    1  ->  works
      -------
-        40
+        39
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (34)
-                                 With >=  1 occurrences (34)
+FALSELY RECOGNIZED               Total                 (33)
+                                 With >=  1 occurrences (33)
 
    1:    5  ->  five
    2:    2  ->  nine
    3:    2  ->  oh
    4:    1  ->  a
-   5:    1  ->  abandoned
-   6:    1  ->  be
-   7:    1  ->  bes
+   5:    1  ->  be
+   6:    1  ->  bees
+   7:    1  ->  bought
    8:    1  ->  cento
    9:    1  ->  centos
-  10:    1  ->  d
-  11:    1  ->  excavations
-  12:    1  ->  fluorescence
-  13:    1  ->  give
-  14:    1  ->  handmedowns
-  15:    1  ->  i
-  16:    1  ->  in
-  17:    1  ->  insufflation
-  18:    1  ->  lainey
-  19:    1  ->  laneys
-  20:    1  ->  lshaped
-  21:    1  ->  mind
-  22:    1  ->  naive
-  23:    1  ->  one
-  24:    1  ->  os
-  25:    1  ->  outta
-  26:    1  ->  passed
-  27:    1  ->  permutation
-  28:    1  ->  schine
-  29:    1  ->  that
-  30:    1  ->  they
-  31:    1  ->  to
-  32:    1  ->  wanted
-  33:    1  ->  will
-  34:    1  ->  work
+  10:    1  ->  collic
+  11:    1  ->  crosspollinating
+  12:    1  ->  dean
+  13:    1  ->  dee
+  14:    1  ->  definition
+  15:    1  ->  doublehorsey
+  16:    1  ->  estivations
+  17:    1  ->  give
+  18:    1  ->  handmedowns
+  19:    1  ->  i
+  20:    1  ->  in
+  21:    1  ->  is
+  22:    1  ->  lshaped
+  23:    1  ->  mind
+  24:    1  ->  naive
+  25:    1  ->  one
+  26:    1  ->  outta
+  27:    1  ->  passed
+  28:    1  ->  that
+  29:    1  ->  they
+  30:    1  ->  to
+  31:    1  ->  wanted
+  32:    1  ->  will
+  33:    1  ->  work
      -------
-        40
+        39
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

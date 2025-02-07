@@ -9,7 +9,7 @@
      google.ctm       same            same            same            same      
         ibm.ctm     aws.ctm           same            same            same      
        nemo.ctm     aws.ctm           same            same            same      
-        rev.ctm     aws.ctm           same            same            same      
+        rev.ctm       same            same            same            same      
     whisper.ctm       same            same            same            same      
  whispercpp.ctm     aws.ctm           same            same            same      
 

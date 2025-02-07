@@ -12,113 +12,116 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    5.8%   (  56)
+Percent Total Error       =    5.5%   (  53)
 
-Percent Correct           =   96.0%   ( 930)
+Percent Correct           =   95.4%   ( 924)
 
-Percent Substitution      =    2.6%   (  25)
-Percent Deletions         =    1.4%   (  14)
-Percent Insertions        =    1.8%   (  17)
-Percent Word Accuracy     =   94.2%
+Percent Substitution      =    2.3%   (  22)
+Percent Deletions         =    2.4%   (  23)
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   94.5%
 
 
 Ref. words                =           ( 969)
-Hyp. words                =           ( 972)
-Aligned words             =           ( 986)
+Hyp. words                =           ( 954)
+Aligned words             =           ( 977)
 
 CONFUSION PAIRS                  Total                 (22)
                                  With >=  1 occurrences (22)
 
-   1:    4  ->  elka ==> elca
-   2:    1  ->  beds ==> bed
-   3:    1  ->  bellied ==> potbellied
-   4:    1  ->  chenille ==> chanel
-   5:    1  ->  crazed ==> craze
-   6:    1  ->  deckered ==> decked
-   7:    1  ->  eek ==> ee
-   8:    1  ->  eighty ==> oh
-   9:    1  ->  elka ==> has
-  10:    1  ->  elka's ==> is
-  11:    1  ->  first ==> 21st
-  12:    1  ->  forty ==> oh
-  13:    1  ->  gnawed ==> nod
-  14:    1  ->  got ==> scott
-  15:    1  ->  loudmouth ==> mouth
-  16:    1  ->  nine ==> 2009
-  17:    1  ->  old ==> 19yearold
-  18:    1  ->  one ==> 1981
-  19:    1  ->  sisters ==> sister
-  20:    1  ->  stoned ==> stone
-  21:    1  ->  turn ==> turned
-  22:    1  ->  unwedged ==> unwed
+   1:    1  ->  bellied ==> potbellied
+   2:    1  ->  deckered ==> doubledeckered
+   3:    1  ->  eighty ==> oh
+   4:    1  ->  first ==> 21st
+   5:    1  ->  forty ==> oh
+   6:    1  ->  gnawed ==> nod
+   7:    1  ->  inch ==> fourinch
+   8:    1  ->  inch ==> halfinch
+   9:    1  ->  jutting ==> jetting
+  10:    1  ->  knuckling ==> whiteknuckling
+  11:    1  ->  long ==> longed
+  12:    1  ->  men ==> deliveryman
+  13:    1  ->  nine ==> 2009
+  14:    1  ->  old ==> nineteenyearold
+  15:    1  ->  one ==> 1981
+  16:    1  ->  painted ==> spraypainted
+  17:    1  ->  pitched ==> highpitched
+  18:    1  ->  roping ==> jumproping
+  19:    1  ->  scoping ==> jumpscoping
+  20:    1  ->  sisters ==> sister
+  21:    1  ->  stoned ==> greenstoned
+  22:    1  ->  turn ==> turned
      -------
-        25
+        22
 
 
 
-INSERTIONS                       Total                 (9)
-                                 With >=  1 occurrences (9)
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
 
-   1:    8  ->  <laugh>
-   2:    2  ->  dash
+   1:    3  ->  daschicka
+   2:    3  ->  zuzza
    3:    1  ->  and
-   4:    1  ->  azua
-   5:    1  ->  elca
-   6:    1  ->  elk
-   7:    1  ->  loud
-   8:    1  ->  ugh
-   9:    1  ->  za
+   4:    1  ->  ugh
      -------
-        17
+         8
 
 
 
-DELETIONS                        Total                 (12)
-                                 With >=  1 occurrences (12)
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
 
    1:    2  ->  had
-   2:    2  ->  nineteen
-   3:    1  ->  and
-   4:    1  ->  eek
-   5:    1  ->  eighty
-   6:    1  ->  long
-   7:    1  ->  pot
-   8:    1  ->  thousand
-   9:    1  ->  twenty
-  10:    1  ->  two
-  11:    1  ->  yeah
-  12:    1  ->  year
+   2:    2  ->  jump
+   3:    2  ->  nineteen
+   4:    1  ->  and
+   5:    1  ->  delivery
+   6:    1  ->  double
+   7:    1  ->  eighty
+   8:    1  ->  four
+   9:    1  ->  green
+  10:    1  ->  half
+  11:    1  ->  high
+  12:    1  ->  janice
+  13:    1  ->  pot
+  14:    1  ->  spray
+  15:    1  ->  thousand
+  16:    1  ->  twenty
+  17:    1  ->  two
+  18:    1  ->  white
+  19:    1  ->  yeah
+  20:    1  ->  year
      -------
-        14
+        23
 
 
 
 SUBSTITUTIONS                    Total                 (21)
                                  With >=  1 occurrences (21)
 
-   1:    5  ->  elka
-   2:    1  ->  beds
-   3:    1  ->  bellied
-   4:    1  ->  chenille
-   5:    1  ->  crazed
-   6:    1  ->  deckered
-   7:    1  ->  eek
-   8:    1  ->  eighty
-   9:    1  ->  elka's
-  10:    1  ->  first
-  11:    1  ->  forty
-  12:    1  ->  gnawed
-  13:    1  ->  got
-  14:    1  ->  loudmouth
-  15:    1  ->  nine
-  16:    1  ->  old
-  17:    1  ->  one
-  18:    1  ->  sisters
-  19:    1  ->  stoned
-  20:    1  ->  turn
-  21:    1  ->  unwedged
+   1:    2  ->  inch
+   2:    1  ->  bellied
+   3:    1  ->  deckered
+   4:    1  ->  eighty
+   5:    1  ->  first
+   6:    1  ->  forty
+   7:    1  ->  gnawed
+   8:    1  ->  jutting
+   9:    1  ->  knuckling
+  10:    1  ->  long
+  11:    1  ->  men
+  12:    1  ->  nine
+  13:    1  ->  old
+  14:    1  ->  one
+  15:    1  ->  painted
+  16:    1  ->  pitched
+  17:    1  ->  roping
+  18:    1  ->  scoping
+  19:    1  ->  sisters
+  20:    1  ->  stoned
+  21:    1  ->  turn
      -------
-        25
+        22
 
 
 * NOTE: The 'Substitution' words are those reference words
@@ -128,29 +131,29 @@ SUBSTITUTIONS                    Total                 (21)
 FALSELY RECOGNIZED               Total                 (21)
                                  With >=  1 occurrences (21)
 
-   1:    4  ->  elca
-   2:    2  ->  oh
-   3:    1  ->  1981
-   4:    1  ->  19yearold
-   5:    1  ->  2009
-   6:    1  ->  21st
-   7:    1  ->  bed
-   8:    1  ->  chanel
-   9:    1  ->  craze
-  10:    1  ->  decked
-  11:    1  ->  ee
-  12:    1  ->  has
-  13:    1  ->  is
-  14:    1  ->  mouth
-  15:    1  ->  nod
-  16:    1  ->  potbellied
-  17:    1  ->  scott
+   1:    2  ->  oh
+   2:    1  ->  1981
+   3:    1  ->  2009
+   4:    1  ->  21st
+   5:    1  ->  deliveryman
+   6:    1  ->  doubledeckered
+   7:    1  ->  fourinch
+   8:    1  ->  greenstoned
+   9:    1  ->  halfinch
+  10:    1  ->  highpitched
+  11:    1  ->  jetting
+  12:    1  ->  jumproping
+  13:    1  ->  jumpscoping
+  14:    1  ->  longed
+  15:    1  ->  nineteenyearold
+  16:    1  ->  nod
+  17:    1  ->  potbellied
   18:    1  ->  sister
-  19:    1  ->  stone
+  19:    1  ->  spraypainted
   20:    1  ->  turned
-  21:    1  ->  unwed
+  21:    1  ->  whiteknuckling
      -------
-        25
+        22
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

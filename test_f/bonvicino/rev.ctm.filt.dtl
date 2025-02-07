@@ -12,198 +12,169 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =   24.3%   ( 203)
+Percent Total Error       =   21.5%   ( 179)
 
-Percent Correct           =   77.4%   ( 646)
+Percent Correct           =   79.4%   ( 661)
 
-Percent Substitution      =   11.7%   (  98)
-Percent Deletions         =   10.9%   (  91)
-Percent Insertions        =    1.7%   (  14)
-Percent Word Accuracy     =   75.7%
+Percent Substitution      =    9.1%   (  76)
+Percent Deletions         =   11.5%   (  96)
+Percent Insertions        =    0.8%   (   7)
+Percent Word Accuracy     =   78.5%
 
 
-Ref. words                =           ( 835)
-Hyp. words                =           ( 758)
-Aligned words             =           ( 849)
+Ref. words                =           ( 833)
+Hyp. words                =           ( 744)
+Aligned words             =           ( 840)
 
-CONFUSION PAIRS                  Total                 (96)
-                                 With >=  1 occurrences (96)
+CONFUSION PAIRS                  Total                 (73)
+                                 With >=  1 occurrences (73)
 
-   1:    2  ->  macaw ==> macall
+   1:    3  ->  macaw ==> mackaw
    2:    2  ->  ten ==> oh
-   3:    1  ->  a ==> aka
-   4:    1  ->  a ==> definition
-   5:    1  ->  a ==> the
-   6:    1  ->  aipim ==> apin
-   7:    1  ->  and ==> in
-   8:    1  ->  are ==> law
-   9:    1  ->  are ==> yeah
-  10:    1  ->  ask ==> asked
-  11:    1  ->  balinghoy ==> ho
-  12:    1  ->  ballet ==> be
-  13:    1  ->  bebel ==> bel
-  14:    1  ->  betrayer ==> prayer
-  15:    1  ->  better ==> other
-  16:    1  ->  book ==> joke
-  17:    1  ->  bracelet ==> pate
-  18:    1  ->  brasilia ==> brazilia
-  19:    1  ->  brazil ==> fan
-  20:    1  ->  bureaucratic ==> bureau
-  21:    1  ->  c ==> pcc
-  22:    1  ->  caetano ==> keano
-  23:    1  ->  caipira ==> capra
-  24:    1  ->  caipirinha ==> capina
-  25:    1  ->  called ==> karaka
-  26:    1  ->  can ==> could
-  27:    1  ->  carioca ==> karaka
-  28:    1  ->  cuckoo ==> cco
-  29:    1  ->  david ==> w
-  30:    1  ->  dehomie ==> me
-  31:    1  ->  elis ==> elise
-  32:    1  ->  favela ==> avea
-  33:    1  ->  feijoada ==> ada
-  34:    1  ->  fifty ==> oh
-  35:    1  ->  finish ==> finished
-  36:    1  ->  first ==> brazil
-  37:    1  ->  foot ==> food
-  38:    1  ->  forty ==> oh
-  39:    1  ->  frutti ==> fruity
-  40:    1  ->  fury ==> ferry
-  41:    1  ->  geneva ==> he
-  42:    1  ->  gilberto’s ==> gilberto's
-  43:    1  ->  guarnaríse ==> two
-  44:    1  ->  hands ==> forehand
-  45:    1  ->  i ==> there
-  46:    1  ->  inglese ==> english
-  47:    1  ->  it's ==> called
-  48:    1  ->  it's ==> its
-  49:    1  ->  language ==> a
-  50:    1  ->  macaw ==> mac
-  51:    1  ->  macaxeira ==> maxi
-  52:    1  ->  mandioca ==> manka
-  53:    1  ->  manioc ==> man
-  54:    1  ->  man’s ==> man's
-  55:    1  ->  moogo ==> mugu
-  56:    1  ->  my ==> <laugh>
-  57:    1  ->  my ==> i
-  58:    1  ->  necklace ==> les
-  59:    1  ->  not ==> karaka
-  60:    1  ->  not ==> never
-  61:    1  ->  philadelphianese ==> ese
-  62:    1  ->  poem ==> poet
-  63:    1  ->  polka ==> puka
-  64:    1  ->  polka ==> pul
-  65:    1  ->  read ==> some
-  66:    1  ->  read ==> with
-  67:    1  ->  reputation ==> repetition
-  68:    1  ->  rio ==> owe
-  69:    1  ->  russe ==> ru
-  70:    1  ->  saint ==> san
-  71:    1  ->  singkong ==> sang
-  72:    1  ->  sings ==> sinks
-  73:    1  ->  sinking ==> stinking
-  74:    1  ->  six ==> 186
-  75:    1  ->  spa ==> po
-  76:    1  ->  syncopations ==> patients
-  77:    1  ->  tears ==> tier
-  78:    1  ->  the ==> this
-  79:    1  ->  the ==> trophe
-  80:    1  ->  them ==> lines
-  81:    1  ->  thought ==> fought
-  82:    1  ->  thought ==> so
-  83:    1  ->  thousand ==> 186000
-  84:    1  ->  to ==> <laugh>
-  85:    1  ->  tolstoy ==> sto
-  86:    1  ->  tom ==> tone
-  87:    1  ->  tr ==> try
-  88:    1  ->  tropicalismo ==> ismo
-  89:    1  ->  tugi ==> tgi
-  90:    1  ->  tupiese ==> pea
-  91:    1  ->  tutti ==> 2d
-  92:    1  ->  twenty ==> oh
-  93:    1  ->  veloso’s ==> velos
-  94:    1  ->  woman’s ==> woman's
-  95:    1  ->  words ==> word
-  96:    1  ->  you ==> well
+   3:    1  ->  a ==> the
+   4:    1  ->  aipim ==> apin
+   5:    1  ->  all ==> veloso's
+   6:    1  ->  and ==> in
+   7:    1  ->  are ==> law
+   8:    1  ->  are ==> yeah
+   9:    1  ->  ask ==> asked
+  10:    1  ->  balinghoy ==> balinghoi
+  11:    1  ->  ballet ==> belair
+  12:    1  ->  better ==> other
+  13:    1  ->  book ==> joke
+  14:    1  ->  brasilia ==> is
+  15:    1  ->  brazil ==> fan
+  16:    1  ->  c ==> pcc
+  17:    1  ->  caipira ==> capira
+  18:    1  ->  caipirinha ==> capirina
+  19:    1  ->  can ==> could
+  20:    1  ->  david ==> w
+  21:    1  ->  dehomie ==> me
+  22:    1  ->  elis ==> lise
+  23:    1  ->  favela ==> favea
+  24:    1  ->  fifty ==> oh
+  25:    1  ->  finish ==> finished
+  26:    1  ->  first ==> brazil
+  27:    1  ->  foot ==> food
+  28:    1  ->  forty ==> oh
+  29:    1  ->  fury ==> fairy
+  30:    1  ->  gaucho ==> gaúcho
+  31:    1  ->  gilberto’s ==> gilberto's
+  32:    1  ->  guarnaríse ==> guaranese
+  33:    1  ->  i ==> there
+  34:    1  ->  in ==> an
+  35:    1  ->  inglese ==> english
+  36:    1  ->  intriguing ==> intrigue
+  37:    1  ->  it's ==> its
+  38:    1  ->  kardida ==> arkady
+  39:    1  ->  language ==> a
+  40:    1  ->  macaxeira ==> maxeria
+  41:    1  ->  man’s ==> man's
+  42:    1  ->  moogo ==> mugu
+  43:    1  ->  my ==> i
+  44:    1  ->  myopia ==> opiate
+  45:    1  ->  not ==> never
+  46:    1  ->  paul ==> brazil
+  47:    1  ->  pele ==> pelé
+  48:    1  ->  read ==> some
+  49:    1  ->  read ==> with
+  50:    1  ->  romoshinko ==> dragomoschenko
+  51:    1  ->  russe ==> roots
+  52:    1  ->  saint ==> paulo
+  53:    1  ->  sao ==> são
+  54:    1  ->  singkong ==> sincang
+  55:    1  ->  six ==> 186
+  56:    1  ->  spa ==> park
+  57:    1  ->  tears ==> tier
+  58:    1  ->  the ==> strofe
+  59:    1  ->  the ==> this
+  60:    1  ->  them ==> lines
+  61:    1  ->  thought ==> fought
+  62:    1  ->  thought ==> so
+  63:    1  ->  thousand ==> 186000
+  64:    1  ->  tom ==> tone
+  65:    1  ->  tr ==> try
+  66:    1  ->  tugi ==> tugui
+  67:    1  ->  twenty ==> oh
+  68:    1  ->  weather ==> allweather
+  69:    1  ->  with ==> dinizinski
+  70:    1  ->  woman’s ==> woman's
+  71:    1  ->  words ==> word
+  72:    1  ->  you ==> maniac
+  73:    1  ->  you ==> well
      -------
-        98
+        76
 
 
 
-INSERTIONS                       Total                 (13)
-                                 With >=  1 occurrences (13)
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
 
-   1:    2  ->  <laugh>
-   2:    1  ->  a
-   3:    1  ->  be
-   4:    1  ->  bing
-   5:    1  ->  geneve
-   6:    1  ->  i
-   7:    1  ->  knees
-   8:    1  ->  oh
-   9:    1  ->  philadelphia
-  10:    1  ->  synco
-  11:    1  ->  tell
-  12:    1  ->  that
-  13:    1  ->  tropical
+   1:    1  ->  a
+   2:    1  ->  i
+   3:    1  ->  my
+   4:    1  ->  oh
+   5:    1  ->  são
+   6:    1  ->  tell
+   7:    1  ->  that
      -------
-        14
+         7
 
 
 
-DELETIONS                        Total                 (63)
-                                 With >=  1 occurrences (63)
+DELETIONS                        Total                 (62)
+                                 With >=  1 occurrences (62)
 
    1:    4  ->  a
    2:    4  ->  no
-   3:    4  ->  you
-   4:    3  ->  and
-   5:    3  ->  oh
-   6:    3  ->  the
-   7:    2  ->  carioca
-   8:    2  ->  eighty
-   9:    2  ->  go
-  10:    2  ->  hundred
-  11:    2  ->  i
-  12:    2  ->  is
-  13:    2  ->  it
-  14:    2  ->  my
-  15:    2  ->  on
-  16:    2  ->  one
-  17:    2  ->  polka
-  18:    2  ->  sure
-  19:    2  ->  yeah
-  20:    1  ->  at
-  21:    1  ->  b
-  22:    1  ->  but
-  23:    1  ->  by
-  24:    1  ->  c
-  25:    1  ->  called
-  26:    1  ->  definitions
-  27:    1  ->  do
-  28:    1  ->  english
-  29:    1  ->  fell
-  30:    1  ->  four
-  31:    1  ->  gaucho
+   3:    4  ->  the
+   4:    4  ->  you
+   5:    3  ->  and
+   6:    3  ->  go
+   7:    3  ->  it's
+   8:    3  ->  my
+   9:    3  ->  oh
+  10:    2  ->  brazil
+  11:    2  ->  called
+  12:    2  ->  eighty
+  13:    2  ->  hundred
+  14:    2  ->  i
+  15:    2  ->  is
+  16:    2  ->  on
+  17:    2  ->  one
+  18:    2  ->  polka
+  19:    2  ->  sure
+  20:    2  ->  to
+  21:    2  ->  yeah
+  22:    1  ->  alluring
+  23:    1  ->  at
+  24:    1  ->  b
+  25:    1  ->  but
+  26:    1  ->  by
+  27:    1  ->  c
+  28:    1  ->  definitions
+  29:    1  ->  do
+  30:    1  ->  english
+  31:    1  ->  fell
   32:    1  ->  good
   33:    1  ->  have
-  34:    1  ->  in
-  35:    1  ->  it's
-  36:    1  ->  jou
-  37:    1  ->  just
-  38:    1  ->  kardida
-  39:    1  ->  know
-  40:    1  ->  line
-  41:    1  ->  nijinsky
-  42:    1  ->  o
-  43:    1  ->  or
-  44:    1  ->  over
-  45:    1  ->  p
+  34:    1  ->  jou
+  35:    1  ->  just
+  36:    1  ->  know
+  37:    1  ->  line
+  38:    1  ->  manioc
+  39:    1  ->  nijinsky
+  40:    1  ->  not
+  41:    1  ->  o
+  42:    1  ->  or
+  43:    1  ->  over
+  44:    1  ->  p
+  45:    1  ->  poet
   46:    1  ->  portuguese
   47:    1  ->  pour
   48:    1  ->  re
-  49:    1  ->  romoshinko
-  50:    1  ->  ronaldo
+  49:    1  ->  russian
+  50:    1  ->  sinking
   51:    1  ->  six
   52:    1  ->  so
   53:    1  ->  soon
@@ -213,206 +184,167 @@ DELETIONS                        Total                 (63)
   57:    1  ->  that's
   58:    1  ->  them
   59:    1  ->  this
-  60:    1  ->  to
+  60:    1  ->  veloso’s
   61:    1  ->  well
-  62:    1  ->  with
-  63:    1  ->  yes
+  62:    1  ->  yes
      -------
-        91
+        96
 
 
 
-SUBSTITUTIONS                    Total                 (85)
-                                 With >=  1 occurrences (85)
+SUBSTITUTIONS                    Total                 (68)
+                                 With >=  1 occurrences (68)
 
-   1:    3  ->  a
-   2:    3  ->  macaw
-   3:    2  ->  are
-   4:    2  ->  it's
-   5:    2  ->  my
-   6:    2  ->  not
-   7:    2  ->  polka
-   8:    2  ->  read
-   9:    2  ->  ten
-  10:    2  ->  the
-  11:    2  ->  thought
-  12:    1  ->  aipim
-  13:    1  ->  and
-  14:    1  ->  ask
-  15:    1  ->  balinghoy
-  16:    1  ->  ballet
-  17:    1  ->  bebel
-  18:    1  ->  betrayer
-  19:    1  ->  better
-  20:    1  ->  book
-  21:    1  ->  bracelet
-  22:    1  ->  brasilia
-  23:    1  ->  brazil
-  24:    1  ->  bureaucratic
-  25:    1  ->  c
-  26:    1  ->  caetano
-  27:    1  ->  caipira
-  28:    1  ->  caipirinha
-  29:    1  ->  called
-  30:    1  ->  can
-  31:    1  ->  carioca
-  32:    1  ->  cuckoo
-  33:    1  ->  david
-  34:    1  ->  dehomie
-  35:    1  ->  elis
-  36:    1  ->  favela
-  37:    1  ->  feijoada
-  38:    1  ->  fifty
-  39:    1  ->  finish
-  40:    1  ->  first
-  41:    1  ->  foot
-  42:    1  ->  forty
-  43:    1  ->  frutti
-  44:    1  ->  fury
-  45:    1  ->  geneva
-  46:    1  ->  gilberto’s
-  47:    1  ->  guarnaríse
-  48:    1  ->  hands
-  49:    1  ->  i
-  50:    1  ->  inglese
-  51:    1  ->  language
-  52:    1  ->  macaxeira
-  53:    1  ->  mandioca
-  54:    1  ->  manioc
-  55:    1  ->  man’s
-  56:    1  ->  moogo
-  57:    1  ->  necklace
-  58:    1  ->  philadelphianese
-  59:    1  ->  poem
-  60:    1  ->  reputation
-  61:    1  ->  rio
-  62:    1  ->  russe
-  63:    1  ->  saint
-  64:    1  ->  singkong
-  65:    1  ->  sings
-  66:    1  ->  sinking
-  67:    1  ->  six
-  68:    1  ->  spa
-  69:    1  ->  syncopations
-  70:    1  ->  tears
-  71:    1  ->  them
-  72:    1  ->  thousand
-  73:    1  ->  to
-  74:    1  ->  tolstoy
-  75:    1  ->  tom
-  76:    1  ->  tr
-  77:    1  ->  tropicalismo
-  78:    1  ->  tugi
-  79:    1  ->  tupiese
-  80:    1  ->  tutti
-  81:    1  ->  twenty
-  82:    1  ->  veloso’s
-  83:    1  ->  woman’s
-  84:    1  ->  words
-  85:    1  ->  you
+   1:    3  ->  macaw
+   2:    2  ->  are
+   3:    2  ->  read
+   4:    2  ->  ten
+   5:    2  ->  the
+   6:    2  ->  thought
+   7:    2  ->  you
+   8:    1  ->  a
+   9:    1  ->  aipim
+  10:    1  ->  all
+  11:    1  ->  and
+  12:    1  ->  ask
+  13:    1  ->  balinghoy
+  14:    1  ->  ballet
+  15:    1  ->  better
+  16:    1  ->  book
+  17:    1  ->  brasilia
+  18:    1  ->  brazil
+  19:    1  ->  c
+  20:    1  ->  caipira
+  21:    1  ->  caipirinha
+  22:    1  ->  can
+  23:    1  ->  david
+  24:    1  ->  dehomie
+  25:    1  ->  elis
+  26:    1  ->  favela
+  27:    1  ->  fifty
+  28:    1  ->  finish
+  29:    1  ->  first
+  30:    1  ->  foot
+  31:    1  ->  forty
+  32:    1  ->  fury
+  33:    1  ->  gaucho
+  34:    1  ->  gilberto’s
+  35:    1  ->  guarnaríse
+  36:    1  ->  i
+  37:    1  ->  in
+  38:    1  ->  inglese
+  39:    1  ->  intriguing
+  40:    1  ->  it's
+  41:    1  ->  kardida
+  42:    1  ->  language
+  43:    1  ->  macaxeira
+  44:    1  ->  man’s
+  45:    1  ->  moogo
+  46:    1  ->  my
+  47:    1  ->  myopia
+  48:    1  ->  not
+  49:    1  ->  paul
+  50:    1  ->  pele
+  51:    1  ->  romoshinko
+  52:    1  ->  russe
+  53:    1  ->  saint
+  54:    1  ->  sao
+  55:    1  ->  singkong
+  56:    1  ->  six
+  57:    1  ->  spa
+  58:    1  ->  tears
+  59:    1  ->  them
+  60:    1  ->  thousand
+  61:    1  ->  tom
+  62:    1  ->  tr
+  63:    1  ->  tugi
+  64:    1  ->  twenty
+  65:    1  ->  weather
+  66:    1  ->  with
+  67:    1  ->  woman’s
+  68:    1  ->  words
      -------
-        98
+        76
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (90)
-                                 With >=  1 occurrences (90)
+FALSELY RECOGNIZED               Total                 (69)
+                                 With >=  1 occurrences (69)
 
    1:    5  ->  oh
-   2:    3  ->  karaka
-   3:    2  ->  <laugh>
-   4:    2  ->  macall
-   5:    1  ->  186
-   6:    1  ->  186000
-   7:    1  ->  2d
-   8:    1  ->  a
-   9:    1  ->  ada
-  10:    1  ->  aka
-  11:    1  ->  apin
-  12:    1  ->  asked
-  13:    1  ->  avea
-  14:    1  ->  be
-  15:    1  ->  bel
-  16:    1  ->  brazil
-  17:    1  ->  brazilia
-  18:    1  ->  bureau
-  19:    1  ->  called
-  20:    1  ->  capina
-  21:    1  ->  capra
-  22:    1  ->  cco
-  23:    1  ->  could
-  24:    1  ->  definition
-  25:    1  ->  elise
-  26:    1  ->  english
-  27:    1  ->  ese
-  28:    1  ->  fan
-  29:    1  ->  ferry
-  30:    1  ->  finished
-  31:    1  ->  food
-  32:    1  ->  forehand
-  33:    1  ->  fought
-  34:    1  ->  fruity
-  35:    1  ->  gilberto's
-  36:    1  ->  he
-  37:    1  ->  ho
-  38:    1  ->  i
-  39:    1  ->  in
-  40:    1  ->  ismo
-  41:    1  ->  its
-  42:    1  ->  joke
-  43:    1  ->  keano
-  44:    1  ->  law
-  45:    1  ->  les
-  46:    1  ->  lines
-  47:    1  ->  mac
-  48:    1  ->  man
-  49:    1  ->  man's
-  50:    1  ->  manka
-  51:    1  ->  maxi
-  52:    1  ->  me
-  53:    1  ->  mugu
-  54:    1  ->  never
-  55:    1  ->  other
-  56:    1  ->  owe
-  57:    1  ->  pate
-  58:    1  ->  patients
-  59:    1  ->  pcc
-  60:    1  ->  pea
-  61:    1  ->  po
-  62:    1  ->  poet
-  63:    1  ->  prayer
-  64:    1  ->  puka
-  65:    1  ->  pul
-  66:    1  ->  repetition
-  67:    1  ->  ru
-  68:    1  ->  san
-  69:    1  ->  sang
-  70:    1  ->  sinks
-  71:    1  ->  so
-  72:    1  ->  some
-  73:    1  ->  stinking
-  74:    1  ->  sto
-  75:    1  ->  tgi
-  76:    1  ->  the
-  77:    1  ->  there
-  78:    1  ->  this
-  79:    1  ->  tier
-  80:    1  ->  tone
-  81:    1  ->  trophe
-  82:    1  ->  try
-  83:    1  ->  two
-  84:    1  ->  velos
-  85:    1  ->  w
-  86:    1  ->  well
-  87:    1  ->  with
-  88:    1  ->  woman's
-  89:    1  ->  word
-  90:    1  ->  yeah
+   2:    3  ->  mackaw
+   3:    2  ->  brazil
+   4:    1  ->  186
+   5:    1  ->  186000
+   6:    1  ->  a
+   7:    1  ->  allweather
+   8:    1  ->  an
+   9:    1  ->  apin
+  10:    1  ->  arkady
+  11:    1  ->  asked
+  12:    1  ->  balinghoi
+  13:    1  ->  belair
+  14:    1  ->  capira
+  15:    1  ->  capirina
+  16:    1  ->  could
+  17:    1  ->  dinizinski
+  18:    1  ->  dragomoschenko
+  19:    1  ->  english
+  20:    1  ->  fairy
+  21:    1  ->  fan
+  22:    1  ->  favea
+  23:    1  ->  finished
+  24:    1  ->  food
+  25:    1  ->  fought
+  26:    1  ->  gaúcho
+  27:    1  ->  gilberto's
+  28:    1  ->  guaranese
+  29:    1  ->  i
+  30:    1  ->  in
+  31:    1  ->  intrigue
+  32:    1  ->  is
+  33:    1  ->  its
+  34:    1  ->  joke
+  35:    1  ->  law
+  36:    1  ->  lines
+  37:    1  ->  lise
+  38:    1  ->  man's
+  39:    1  ->  maniac
+  40:    1  ->  maxeria
+  41:    1  ->  me
+  42:    1  ->  mugu
+  43:    1  ->  never
+  44:    1  ->  opiate
+  45:    1  ->  other
+  46:    1  ->  park
+  47:    1  ->  paulo
+  48:    1  ->  pcc
+  49:    1  ->  pelé
+  50:    1  ->  roots
+  51:    1  ->  sincang
+  52:    1  ->  so
+  53:    1  ->  some
+  54:    1  ->  strofe
+  55:    1  ->  são
+  56:    1  ->  the
+  57:    1  ->  there
+  58:    1  ->  this
+  59:    1  ->  tier
+  60:    1  ->  tone
+  61:    1  ->  try
+  62:    1  ->  tugui
+  63:    1  ->  veloso's
+  64:    1  ->  w
+  65:    1  ->  well
+  66:    1  ->  with
+  67:    1  ->  woman's
+  68:    1  ->  word
+  69:    1  ->  yeah
      -------
-        98
+        76
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

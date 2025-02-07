@@ -12,163 +12,139 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    4.0%   (  48)
+Percent Total Error       =    3.2%   (  38)
 
-Percent Correct           =   96.8%   (1164)
+Percent Correct           =   97.2%   (1169)
 
-Percent Substitution      =    2.7%   (  33)
-Percent Deletions         =    0.5%   (   6)
-Percent Insertions        =    0.7%   (   9)
-Percent Word Accuracy     =   96.0%
+Percent Substitution      =    2.1%   (  25)
+Percent Deletions         =    0.7%   (   9)
+Percent Insertions        =    0.3%   (   4)
+Percent Word Accuracy     =   96.8%
 
 
 Ref. words                =           (1203)
-Hyp. words                =           (1206)
-Aligned words             =           (1212)
+Hyp. words                =           (1198)
+Aligned words             =           (1207)
 
-CONFUSION PAIRS                  Total                 (31)
-                                 With >=  1 occurrences (31)
+CONFUSION PAIRS                  Total                 (24)
+                                 With >=  1 occurrences (24)
 
    1:    2  ->  and ==> in
-   2:    2  ->  o'hara's ==> harris
-   3:    1  ->  a ==> the
-   4:    1  ->  add ==> ad
-   5:    1  ->  and ==> then
-   6:    1  ->  annul ==> null
-   7:    1  ->  baudelaire's ==> air's
-   8:    1  ->  baudelairean ==> bud
-   9:    1  ->  campy ==> be
-  10:    1  ->  crabbed ==> crab
-  11:    1  ->  creep ==> cretin
-  12:    1  ->  elitism ==> and
-  13:    1  ->  emotionalisms ==> emotionalism
-  14:    1  ->  fact ==> effect
-  15:    1  ->  fate ==> f
-  16:    1  ->  ginsberg ==> ginsburg
-  17:    1  ->  hip ==> hit
-  18:    1  ->  images ==> is
-  19:    1  ->  influenced ==> influence
-  20:    1  ->  or ==> and
-  21:    1  ->  scene ==> seen
-  22:    1  ->  shrewdest ==> shrews
-  23:    1  ->  sores ==> swords
-  24:    1  ->  tediousness ==> tedious
-  25:    1  ->  to ==> and
-  26:    1  ->  wellorganised ==> organised
-  27:    1  ->  worldrenowned ==> renowned
-  28:    1  ->  writer's ==> writers
-  29:    1  ->  x ==> iowa
-  30:    1  ->  x ==> twoedged
-  31:    1  ->  x ==> years
+   2:    1  ->  a ==> the
+   3:    1  ->  add ==> ad
+   4:    1  ->  and ==> then
+   5:    1  ->  baude ==> baudelaire
+   6:    1  ->  baudelairean ==> in
+   7:    1  ->  crabbed ==> crab
+   8:    1  ->  creep ==> cretin
+   9:    1  ->  exposed ==> expose
+  10:    1  ->  fact ==> effect
+  11:    1  ->  ginsberg ==> ginsburg
+  12:    1  ->  heartstring ==> string
+  13:    1  ->  hip ==> hit
+  14:    1  ->  images ==> is
+  15:    1  ->  influenced ==> influence
+  16:    1  ->  or ==> and
+  17:    1  ->  poem ==> poem's
+  18:    1  ->  scene ==> seen
+  19:    1  ->  to ==> and
+  20:    1  ->  weepiness ==> weakness
+  21:    1  ->  writer's ==> writers
+  22:    1  ->  x ==> iowa
+  23:    1  ->  x ==> twoedged
+  24:    1  ->  x ==> years
      -------
-        33
+        25
 
 
 
-INSERTIONS                       Total                 (9)
-                                 With >=  1 occurrences (9)
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
 
    1:    1  ->  and
-   2:    1  ->  bodel
-   3:    1  ->  but
-   4:    1  ->  cannot
-   5:    1  ->  image
-   6:    1  ->  leaders
-   7:    1  ->  o'
-   8:    1  ->  well
-   9:    1  ->  world
+   2:    1  ->  but
+   3:    1  ->  heart
+   4:    1  ->  image
+     -------
+         4
+
+
+
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  a
+   2:    1  ->  about
+   3:    1  ->  he's
+   4:    1  ->  in
+   5:    1  ->  of
+   6:    1  ->  to
+   7:    1  ->  x
+   8:    1  ->  year
      -------
          9
 
 
 
-DELETIONS                        Total                 (6)
-                                 With >=  1 occurrences (6)
-
-   1:    1  ->  a
-   2:    1  ->  baude
-   3:    1  ->  he's
-   4:    1  ->  in
-   5:    1  ->  to
-   6:    1  ->  x
-     -------
-         6
-
-
-
-SUBSTITUTIONS                    Total                 (28)
-                                 With >=  1 occurrences (28)
+SUBSTITUTIONS                    Total                 (21)
+                                 With >=  1 occurrences (21)
 
    1:    3  ->  and
    2:    3  ->  x
-   3:    2  ->  o'hara's
-   4:    1  ->  a
-   5:    1  ->  add
-   6:    1  ->  annul
-   7:    1  ->  baudelaire's
-   8:    1  ->  baudelairean
-   9:    1  ->  campy
-  10:    1  ->  crabbed
-  11:    1  ->  creep
-  12:    1  ->  elitism
-  13:    1  ->  emotionalisms
-  14:    1  ->  fact
-  15:    1  ->  fate
-  16:    1  ->  ginsberg
-  17:    1  ->  hip
-  18:    1  ->  images
-  19:    1  ->  influenced
-  20:    1  ->  or
-  21:    1  ->  scene
-  22:    1  ->  shrewdest
-  23:    1  ->  sores
-  24:    1  ->  tediousness
-  25:    1  ->  to
-  26:    1  ->  wellorganised
-  27:    1  ->  worldrenowned
-  28:    1  ->  writer's
+   3:    1  ->  a
+   4:    1  ->  add
+   5:    1  ->  baude
+   6:    1  ->  baudelairean
+   7:    1  ->  crabbed
+   8:    1  ->  creep
+   9:    1  ->  exposed
+  10:    1  ->  fact
+  11:    1  ->  ginsberg
+  12:    1  ->  heartstring
+  13:    1  ->  hip
+  14:    1  ->  images
+  15:    1  ->  influenced
+  16:    1  ->  or
+  17:    1  ->  poem
+  18:    1  ->  scene
+  19:    1  ->  to
+  20:    1  ->  weepiness
+  21:    1  ->  writer's
      -------
-        33
+        25
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (29)
-                                 With >=  1 occurrences (29)
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
 
-   1:    3  ->  and
-   2:    2  ->  harris
-   3:    2  ->  in
-   4:    1  ->  ad
-   5:    1  ->  air's
-   6:    1  ->  be
-   7:    1  ->  bud
-   8:    1  ->  crab
-   9:    1  ->  cretin
-  10:    1  ->  effect
-  11:    1  ->  emotionalism
-  12:    1  ->  f
-  13:    1  ->  ginsburg
-  14:    1  ->  hit
-  15:    1  ->  influence
-  16:    1  ->  iowa
-  17:    1  ->  is
-  18:    1  ->  null
-  19:    1  ->  organised
-  20:    1  ->  renowned
-  21:    1  ->  seen
-  22:    1  ->  shrews
-  23:    1  ->  swords
-  24:    1  ->  tedious
-  25:    1  ->  the
-  26:    1  ->  then
-  27:    1  ->  twoedged
-  28:    1  ->  writers
-  29:    1  ->  years
+   1:    3  ->  in
+   2:    2  ->  and
+   3:    1  ->  ad
+   4:    1  ->  baudelaire
+   5:    1  ->  crab
+   6:    1  ->  cretin
+   7:    1  ->  effect
+   8:    1  ->  expose
+   9:    1  ->  ginsburg
+  10:    1  ->  hit
+  11:    1  ->  influence
+  12:    1  ->  iowa
+  13:    1  ->  is
+  14:    1  ->  poem's
+  15:    1  ->  seen
+  16:    1  ->  string
+  17:    1  ->  the
+  18:    1  ->  then
+  19:    1  ->  twoedged
+  20:    1  ->  weakness
+  21:    1  ->  writers
+  22:    1  ->  years
      -------
-        33
+        25
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

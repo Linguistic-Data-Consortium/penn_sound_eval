@@ -12,128 +12,111 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    3.1%   (  33)
+Percent Total Error       =    2.5%   (  26)
 
-Percent Correct           =   97.4%   (1030)
+Percent Correct           =   97.6%   (1032)
 
-Percent Substitution      =    1.9%   (  20)
-Percent Deletions         =    0.7%   (   7)
-Percent Insertions        =    0.6%   (   6)
-Percent Word Accuracy     =   96.9%
+Percent Substitution      =    1.3%   (  14)
+Percent Deletions         =    1.0%   (  11)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   97.5%
 
 
 Ref. words                =           (1057)
-Hyp. words                =           (1056)
-Aligned words             =           (1063)
+Hyp. words                =           (1047)
+Aligned words             =           (1058)
 
-CONFUSION PAIRS                  Total                 (19)
-                                 With >=  1 occurrences (19)
+CONFUSION PAIRS                  Total                 (13)
+                                 With >=  1 occurrences (13)
 
    1:    2  ->  bough ==> bow
    2:    1  ->  a ==> the
-   3:    1  ->  but ==> <laugh>
-   4:    1  ->  buzzsaw ==> saw
-   5:    1  ->  due ==> do
-   6:    1  ->  fifty ==> oh
-   7:    1  ->  flowerbed ==> bed
-   8:    1  ->  griffin ==> gron
-   9:    1  ->  its ==> is
-  10:    1  ->  old ==> 1yearold
-  11:    1  ->  preys ==> prays
-  12:    1  ->  rolls ==> rules
-  13:    1  ->  summery ==> summary
-  14:    1  ->  the ==> to
-  15:    1  ->  then ==> it
-  16:    1  ->  totters ==> tots
-  17:    1  ->  truck ==> semitruck
-  18:    1  ->  will ==> lemme
-  19:    1  ->  witch ==> which
+   3:    1  ->  broken ==> halfbroken
+   4:    1  ->  due ==> do
+   5:    1  ->  fifty ==> oh
+   6:    1  ->  flowerbed ==> bed
+   7:    1  ->  in ==> standin
+   8:    1  ->  its ==> is
+   9:    1  ->  old ==> oneyearold
+  10:    1  ->  stand ==> to
+  11:    1  ->  then ==> it
+  12:    1  ->  will ==> lemme
+  13:    1  ->  witch ==> which
      -------
-        20
+        14
 
 
 
-INSERTIONS                       Total                 (4)
-                                 With >=  1 occurrences (4)
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
 
-   1:    3  ->  <laugh>
-   2:    1  ->  buzz
-   3:    1  ->  flower
-   4:    1  ->  the
+   1:    1  ->  flower
      -------
-         6
+         1
 
 
 
-DELETIONS                        Total                 (7)
-                                 With >=  1 occurrences (7)
+DELETIONS                        Total                 (11)
+                                 With >=  1 occurrences (11)
 
-   1:    1  ->  c
-   2:    1  ->  had
-   3:    1  ->  i
-   4:    1  ->  is
-   5:    1  ->  one
-   6:    1  ->  semi
-   7:    1  ->  year
+   1:    1  ->  but
+   2:    1  ->  c
+   3:    1  ->  driveway
+   4:    1  ->  griffin
+   5:    1  ->  had
+   6:    1  ->  half
+   7:    1  ->  i
+   8:    1  ->  is
+   9:    1  ->  one
+  10:    1  ->  the
+  11:    1  ->  year
      -------
-         7
+        11
 
 
 
-SUBSTITUTIONS                    Total                 (19)
-                                 With >=  1 occurrences (19)
+SUBSTITUTIONS                    Total                 (13)
+                                 With >=  1 occurrences (13)
 
    1:    2  ->  bough
    2:    1  ->  a
-   3:    1  ->  but
-   4:    1  ->  buzzsaw
-   5:    1  ->  due
-   6:    1  ->  fifty
-   7:    1  ->  flowerbed
-   8:    1  ->  griffin
-   9:    1  ->  its
-  10:    1  ->  old
-  11:    1  ->  preys
-  12:    1  ->  rolls
-  13:    1  ->  summery
-  14:    1  ->  the
-  15:    1  ->  then
-  16:    1  ->  totters
-  17:    1  ->  truck
-  18:    1  ->  will
-  19:    1  ->  witch
+   3:    1  ->  broken
+   4:    1  ->  due
+   5:    1  ->  fifty
+   6:    1  ->  flowerbed
+   7:    1  ->  in
+   8:    1  ->  its
+   9:    1  ->  old
+  10:    1  ->  stand
+  11:    1  ->  then
+  12:    1  ->  will
+  13:    1  ->  witch
      -------
-        20
+        14
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (19)
-                                 With >=  1 occurrences (19)
+FALSELY RECOGNIZED               Total                 (13)
+                                 With >=  1 occurrences (13)
 
    1:    2  ->  bow
-   2:    1  ->  1yearold
-   3:    1  ->  <laugh>
-   4:    1  ->  bed
-   5:    1  ->  do
-   6:    1  ->  gron
-   7:    1  ->  is
-   8:    1  ->  it
-   9:    1  ->  lemme
-  10:    1  ->  oh
-  11:    1  ->  prays
-  12:    1  ->  rules
-  13:    1  ->  saw
-  14:    1  ->  semitruck
-  15:    1  ->  summary
-  16:    1  ->  the
-  17:    1  ->  to
-  18:    1  ->  tots
-  19:    1  ->  which
+   2:    1  ->  bed
+   3:    1  ->  do
+   4:    1  ->  halfbroken
+   5:    1  ->  is
+   6:    1  ->  it
+   7:    1  ->  lemme
+   8:    1  ->  oh
+   9:    1  ->  oneyearold
+  10:    1  ->  standin
+  11:    1  ->  the
+  12:    1  ->  to
+  13:    1  ->  which
      -------
-        20
+        14
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

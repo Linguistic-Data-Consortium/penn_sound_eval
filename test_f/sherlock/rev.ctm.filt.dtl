@@ -12,202 +12,182 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    7.4%   (  67)
+Percent Total Error       =    6.9%   (  63)
 
-Percent Correct           =   93.4%   ( 847)
+Percent Correct           =   93.6%   ( 849)
 
-Percent Substitution      =    5.1%   (  46)
-Percent Deletions         =    1.5%   (  14)
-Percent Insertions        =    0.8%   (   7)
-Percent Word Accuracy     =   92.6%
+Percent Substitution      =    4.3%   (  39)
+Percent Deletions         =    2.1%   (  19)
+Percent Insertions        =    0.6%   (   5)
+Percent Word Accuracy     =   93.1%
 
 
 Ref. words                =           ( 907)
-Hyp. words                =           ( 900)
-Aligned words             =           ( 914)
+Hyp. words                =           ( 893)
+Aligned words             =           ( 912)
 
-CONFUSION PAIRS                  Total                 (42)
-                                 With >=  1 occurrences (42)
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
 
-   1:    2  ->  one ==> 1901
-   2:    2  ->  saint ==> st
-   3:    2  ->  twentieth ==> 20th
-   4:    2  ->  unita ==> onita
-   5:    1  ->  a ==> volunt
-   6:    1  ->  abruzzo ==> bruso
-   7:    1  ->  and ==> a
-   8:    1  ->  as ==> of
+   1:    2  ->  american ==> africanamerican
+   2:    2  ->  isoleri ==> isolari
+   3:    2  ->  one ==> 1901
+   4:    2  ->  twentieth ==> 20th
+   5:    1  ->  americans ==> africanamericans
+   6:    1  ->  and ==> a
+   7:    1  ->  and ==> tenton
+   8:    1  ->  coffey ==> coffee
    9:    1  ->  conto ==> canto
-  10:    1  ->  depazzi ==> dezi
-  11:    1  ->  early ==> earliest
-  12:    1  ->  eighties ==> 1880s
-  13:    1  ->  eleventh ==> 11th
-  14:    1  ->  fabula ==> fabiola
-  15:    1  ->  isoleri ==> issa
-  16:    1  ->  istfan ==> van
-  17:    1  ->  italianamerican ==> american
-  18:    1  ->  korkemaz ==> corma
-  19:    1  ->  la ==> las
-  20:    1  ->  lanza ==> lonza
-  21:    1  ->  mar ==> mary
-  22:    1  ->  maron's ==> marin's
-  23:    1  ->  member ==> members
-  24:    1  ->  merrymaking ==> making
-  25:    1  ->  midseventeenth ==> 17th
-  26:    1  ->  molise ==> malise
-  27:    1  ->  mummers ==> murmurs
-  28:    1  ->  mummers ==> murs
-  29:    1  ->  nineteen ==> nine
-  30:    1  ->  passyunk ==> pasant
-  31:    1  ->  seven ==> 1887
-  32:    1  ->  seventy ==> seven
-  33:    1  ->  snock ==> snuck
-  34:    1  ->  snockey's ==> sns
-  35:    1  ->  superba ==> erba
-  36:    1  ->  tayoun's ==> ta's
-  37:    1  ->  tenth ==> tent
-  38:    1  ->  twelfth ==> 12th
-  39:    1  ->  unita ==> za
-  40:    1  ->  wharves ==> ves
-  41:    1  ->  win ==> bain
-  42:    1  ->  x ==> festa
+  10:    1  ->  depazzi ==> pazzi
+  11:    1  ->  eighties ==> 1880s
+  12:    1  ->  eleventh ==> 11th
+  13:    1  ->  fabula ==> fabiola
+  14:    1  ->  friendly ==> userfriendly
+  15:    1  ->  istfan ==> isvan
+  16:    1  ->  italianamerican ==> american
+  17:    1  ->  korkemaz ==> korkamas
+  18:    1  ->  mar ==> st
+  19:    1  ->  maron's ==> marins
+  20:    1  ->  merrymaking ==> making
+  21:    1  ->  molise ==> melis
+  22:    1  ->  nineteen ==> 19th
+  23:    1  ->  passyunk ==> passyonk
+  24:    1  ->  quarters ==> threequarters
+  25:    1  ->  saint ==> st
+  26:    1  ->  screenings ==> screening
+  27:    1  ->  seven ==> 1887
+  28:    1  ->  seventy ==> seven
+  29:    1  ->  snock ==> snok
+  30:    1  ->  snockey's ==> snocky's
+  31:    1  ->  tayoun's ==> yun's
+  32:    1  ->  twelfth ==> 12th
+  33:    1  ->  version ==> virgin
+  34:    1  ->  win ==> huynh
+  35:    1  ->  x ==> feste
      -------
-        46
+        39
 
 
 
-INSERTIONS                       Total                 (7)
-                                 With >=  1 occurrences (7)
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
 
-   1:    1  ->  ab
-   2:    1  ->  is
-   3:    1  ->  italian
-   4:    1  ->  mid
-   5:    1  ->  murray
-   6:    1  ->  one
-   7:    1  ->  the
+   1:    1  ->  de
+   2:    1  ->  italian
+   3:    1  ->  murray
+   4:    1  ->  tai
+   5:    1  ->  the
      -------
-         7
+         5
 
 
 
-DELETIONS                        Total                 (11)
-                                 With >=  1 occurrences (11)
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
 
-   1:    2  ->  eighteen
-   2:    2  ->  nineteen
-   3:    2  ->  oh
-   4:    1  ->  and
-   5:    1  ->  ba
-   6:    1  ->  coffey
-   7:    1  ->  eighty
-   8:    1  ->  isoleri
-   9:    1  ->  of
-  10:    1  ->  r
-  11:    1  ->  s
+   1:    3  ->  african
+   2:    2  ->  eighteen
+   3:    2  ->  nineteen
+   4:    2  ->  oh
+   5:    1  ->  and
+   6:    1  ->  eighty
+   7:    1  ->  i
+   8:    1  ->  of
+   9:    1  ->  r
+  10:    1  ->  s
+  11:    1  ->  saint
+  12:    1  ->  tenth
+  13:    1  ->  three
+  14:    1  ->  user
      -------
-        14
+        19
 
 
 
-SUBSTITUTIONS                    Total                 (40)
-                                 With >=  1 occurrences (40)
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
 
-   1:    3  ->  unita
-   2:    2  ->  mummers
-   3:    2  ->  one
-   4:    2  ->  saint
+   1:    2  ->  american
+   2:    2  ->  and
+   3:    2  ->  isoleri
+   4:    2  ->  one
    5:    2  ->  twentieth
-   6:    1  ->  a
-   7:    1  ->  abruzzo
-   8:    1  ->  and
-   9:    1  ->  as
-  10:    1  ->  conto
-  11:    1  ->  depazzi
-  12:    1  ->  early
-  13:    1  ->  eighties
-  14:    1  ->  eleventh
-  15:    1  ->  fabula
-  16:    1  ->  isoleri
-  17:    1  ->  istfan
-  18:    1  ->  italianamerican
-  19:    1  ->  korkemaz
-  20:    1  ->  la
-  21:    1  ->  lanza
-  22:    1  ->  mar
-  23:    1  ->  maron's
-  24:    1  ->  member
-  25:    1  ->  merrymaking
-  26:    1  ->  midseventeenth
-  27:    1  ->  molise
-  28:    1  ->  nineteen
-  29:    1  ->  passyunk
-  30:    1  ->  seven
-  31:    1  ->  seventy
-  32:    1  ->  snock
-  33:    1  ->  snockey's
-  34:    1  ->  superba
-  35:    1  ->  tayoun's
-  36:    1  ->  tenth
-  37:    1  ->  twelfth
-  38:    1  ->  wharves
-  39:    1  ->  win
-  40:    1  ->  x
+   6:    1  ->  americans
+   7:    1  ->  coffey
+   8:    1  ->  conto
+   9:    1  ->  depazzi
+  10:    1  ->  eighties
+  11:    1  ->  eleventh
+  12:    1  ->  fabula
+  13:    1  ->  friendly
+  14:    1  ->  istfan
+  15:    1  ->  italianamerican
+  16:    1  ->  korkemaz
+  17:    1  ->  mar
+  18:    1  ->  maron's
+  19:    1  ->  merrymaking
+  20:    1  ->  molise
+  21:    1  ->  nineteen
+  22:    1  ->  passyunk
+  23:    1  ->  quarters
+  24:    1  ->  saint
+  25:    1  ->  screenings
+  26:    1  ->  seven
+  27:    1  ->  seventy
+  28:    1  ->  snock
+  29:    1  ->  snockey's
+  30:    1  ->  tayoun's
+  31:    1  ->  twelfth
+  32:    1  ->  version
+  33:    1  ->  win
+  34:    1  ->  x
      -------
-        46
+        39
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (42)
-                                 With >=  1 occurrences (42)
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
 
    1:    2  ->  1901
    2:    2  ->  20th
-   3:    2  ->  onita
-   4:    2  ->  st
-   5:    1  ->  11th
-   6:    1  ->  12th
-   7:    1  ->  17th
+   3:    2  ->  africanamerican
+   4:    2  ->  isolari
+   5:    2  ->  st
+   6:    1  ->  11th
+   7:    1  ->  12th
    8:    1  ->  1880s
    9:    1  ->  1887
-  10:    1  ->  a
-  11:    1  ->  american
-  12:    1  ->  bain
-  13:    1  ->  bruso
+  10:    1  ->  19th
+  11:    1  ->  a
+  12:    1  ->  africanamericans
+  13:    1  ->  american
   14:    1  ->  canto
-  15:    1  ->  corma
-  16:    1  ->  dezi
-  17:    1  ->  earliest
-  18:    1  ->  erba
-  19:    1  ->  fabiola
-  20:    1  ->  festa
-  21:    1  ->  issa
-  22:    1  ->  las
-  23:    1  ->  lonza
-  24:    1  ->  making
-  25:    1  ->  malise
-  26:    1  ->  marin's
-  27:    1  ->  mary
-  28:    1  ->  members
-  29:    1  ->  murmurs
-  30:    1  ->  murs
-  31:    1  ->  nine
-  32:    1  ->  of
-  33:    1  ->  pasant
-  34:    1  ->  seven
-  35:    1  ->  sns
-  36:    1  ->  snuck
-  37:    1  ->  ta's
-  38:    1  ->  tent
-  39:    1  ->  van
-  40:    1  ->  ves
-  41:    1  ->  volunt
-  42:    1  ->  za
+  15:    1  ->  coffee
+  16:    1  ->  fabiola
+  17:    1  ->  feste
+  18:    1  ->  huynh
+  19:    1  ->  isvan
+  20:    1  ->  korkamas
+  21:    1  ->  making
+  22:    1  ->  marins
+  23:    1  ->  melis
+  24:    1  ->  passyonk
+  25:    1  ->  pazzi
+  26:    1  ->  screening
+  27:    1  ->  seven
+  28:    1  ->  snocky's
+  29:    1  ->  snok
+  30:    1  ->  tenton
+  31:    1  ->  threequarters
+  32:    1  ->  userfriendly
+  33:    1  ->  virgin
+  34:    1  ->  yun's
      -------
-        46
+        39
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

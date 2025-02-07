@@ -12,187 +12,179 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    8.2%   (  76)
+Percent Total Error       =    8.3%   (  77)
 
-Percent Correct           =   92.5%   ( 862)
+Percent Correct           =   92.1%   ( 858)
 
-Percent Substitution      =    5.9%   (  55)
-Percent Deletions         =    1.6%   (  15)
-Percent Insertions        =    0.6%   (   6)
-Percent Word Accuracy     =   91.8%
+Percent Substitution      =    5.3%   (  49)
+Percent Deletions         =    2.7%   (  25)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   91.7%
 
 
 Ref. words                =           ( 932)
-Hyp. words                =           ( 923)
-Aligned words             =           ( 938)
+Hyp. words                =           ( 910)
+Aligned words             =           ( 935)
 
-CONFUSION PAIRS                  Total                 (39)
-                                 With >=  1 occurrences (39)
+CONFUSION PAIRS                  Total                 (34)
+                                 With >=  1 occurrences (34)
 
-   1:    6  ->  ninety ==> 5
+   1:    5  ->  ninety ==> 5
    2:    4  ->  oh ==> 0
    3:    4  ->  six ==> 96
-   4:    2  ->  forty ==> oh
-   5:    2  ->  hundred ==> zero
-   6:    2  ->  it ==> this
-   7:    2  ->  nine ==> 99
+   4:    2  ->  cetera ==> etc
+   5:    2  ->  forty ==> oh
+   6:    2  ->  hundred ==> zero
+   7:    2  ->  it ==> this
    8:    2  ->  three ==> 53
    9:    1  ->  an ==> and
   10:    1  ->  and ==> an
   11:    1  ->  artell ==> tell
-  12:    1  ->  choicelessness ==> choice
-  13:    1  ->  collocation ==> colocation
-  14:    1  ->  expositor ==> door
-  15:    1  ->  five ==> and
-  16:    1  ->  five ==> of
-  17:    1  ->  formed ==> foreign
-  18:    1  ->  four ==> 44
-  19:    1  ->  future ==> feature
-  20:    1  ->  in ==> treading
-  21:    1  ->  incorporeal ==> inal
-  22:    1  ->  manner ==> matter
-  23:    1  ->  or ==> of
-  24:    1  ->  penning ==> pen
-  25:    1  ->  perseverace ==> perseverance
-  26:    1  ->  pertinaciousness ==> tenaciousness
-  27:    1  ->  pertinacity ==> per
-  28:    1  ->  poo ==> attract
-  29:    1  ->  principal ==> principle
-  30:    1  ->  roget's ==> rose's
-  31:    1  ->  role ==> rule
-  32:    1  ->  sane ==> saying
-  33:    1  ->  seek ==> sake
-  34:    1  ->  sentence ==> sense
-  35:    1  ->  stars' ==> stars
-  36:    1  ->  ten ==> oh
-  37:    1  ->  unenclosed ==> unclosed
-  38:    1  ->  with ==> of
-  39:    1  ->  writing ==> right
+  12:    1  ->  definiteness ==> deafness
+  13:    1  ->  expositor ==> exposter
+  14:    1  ->  five ==> of
+  15:    1  ->  formed ==> foreign
+  16:    1  ->  four ==> 44
+  17:    1  ->  future ==> feature
+  18:    1  ->  in ==> treading
+  19:    1  ->  manner ==> matter
+  20:    1  ->  nine ==> 99
+  21:    1  ->  or ==> etc
+  22:    1  ->  penning ==> pen
+  23:    1  ->  perseverace ==> perseverance
+  24:    1  ->  principal ==> principle
+  25:    1  ->  roget's ==> roger's
+  26:    1  ->  role ==> rule
+  27:    1  ->  sane ==> saying
+  28:    1  ->  seek ==> sake
+  29:    1  ->  sentence ==> sense
+  30:    1  ->  stars' ==> stars
+  31:    1  ->  ten ==> oh
+  32:    1  ->  with ==> of
+  33:    1  ->  words ==> penning
+  34:    1  ->  writing ==> right
      -------
-        55
+        49
 
 
 
-INSERTIONS                       Total                 (6)
-                                 With >=  1 occurrences (6)
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
 
    1:    1  ->  a
-   2:    1  ->  art
-   3:    1  ->  exposed
-   4:    1  ->  per
-   5:    1  ->  tenacity
-   6:    1  ->  un
+   2:    1  ->  and
+   3:    1  ->  art
      -------
-         6
+         3
 
 
 
-DELETIONS                        Total                 (9)
-                                 With >=  1 occurrences (9)
+DELETIONS                        Total                 (17)
+                                 With >=  1 occurrences (17)
 
    1:    4  ->  five
-   2:    3  ->  a
-   3:    2  ->  fifty
-   4:    1  ->  an
-   5:    1  ->  for
-   6:    1  ->  forty
-   7:    1  ->  to
-   8:    1  ->  track
-   9:    1  ->  tread
+   2:    3  ->  et
+   3:    2  ->  a
+   4:    2  ->  fifty
+   5:    2  ->  noun
+   6:    1  ->  alchemy
+   7:    1  ->  an
+   8:    1  ->  cetera
+   9:    1  ->  conducing
+  10:    1  ->  for
+  11:    1  ->  forty
+  12:    1  ->  ninety
+  13:    1  ->  or
+  14:    1  ->  poo
+  15:    1  ->  to
+  16:    1  ->  tread
+  17:    1  ->  utterance
      -------
-        15
+        25
 
 
 
-SUBSTITUTIONS                    Total                 (38)
-                                 With >=  1 occurrences (38)
+SUBSTITUTIONS                    Total                 (34)
+                                 With >=  1 occurrences (34)
 
-   1:    6  ->  ninety
+   1:    5  ->  ninety
    2:    4  ->  oh
    3:    4  ->  six
-   4:    2  ->  five
+   4:    2  ->  cetera
    5:    2  ->  forty
    6:    2  ->  hundred
    7:    2  ->  it
-   8:    2  ->  nine
-   9:    2  ->  three
-  10:    1  ->  an
-  11:    1  ->  and
-  12:    1  ->  artell
-  13:    1  ->  choicelessness
-  14:    1  ->  collocation
-  15:    1  ->  expositor
-  16:    1  ->  formed
-  17:    1  ->  four
-  18:    1  ->  future
-  19:    1  ->  in
-  20:    1  ->  incorporeal
-  21:    1  ->  manner
-  22:    1  ->  or
-  23:    1  ->  penning
-  24:    1  ->  perseverace
-  25:    1  ->  pertinaciousness
-  26:    1  ->  pertinacity
-  27:    1  ->  poo
-  28:    1  ->  principal
-  29:    1  ->  roget's
-  30:    1  ->  role
-  31:    1  ->  sane
-  32:    1  ->  seek
-  33:    1  ->  sentence
-  34:    1  ->  stars'
-  35:    1  ->  ten
-  36:    1  ->  unenclosed
-  37:    1  ->  with
-  38:    1  ->  writing
+   8:    2  ->  three
+   9:    1  ->  an
+  10:    1  ->  and
+  11:    1  ->  artell
+  12:    1  ->  definiteness
+  13:    1  ->  expositor
+  14:    1  ->  five
+  15:    1  ->  formed
+  16:    1  ->  four
+  17:    1  ->  future
+  18:    1  ->  in
+  19:    1  ->  manner
+  20:    1  ->  nine
+  21:    1  ->  or
+  22:    1  ->  penning
+  23:    1  ->  perseverace
+  24:    1  ->  principal
+  25:    1  ->  roget's
+  26:    1  ->  role
+  27:    1  ->  sane
+  28:    1  ->  seek
+  29:    1  ->  sentence
+  30:    1  ->  stars'
+  31:    1  ->  ten
+  32:    1  ->  with
+  33:    1  ->  words
+  34:    1  ->  writing
      -------
-        55
+        49
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (35)
-                                 With >=  1 occurrences (35)
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
 
-   1:    6  ->  5
+   1:    5  ->  5
    2:    4  ->  0
    3:    4  ->  96
-   4:    3  ->  of
+   4:    3  ->  etc
    5:    3  ->  oh
    6:    2  ->  53
-   7:    2  ->  99
-   8:    2  ->  and
-   9:    2  ->  this
-  10:    2  ->  zero
-  11:    1  ->  44
+   7:    2  ->  of
+   8:    2  ->  this
+   9:    2  ->  zero
+  10:    1  ->  44
+  11:    1  ->  99
   12:    1  ->  an
-  13:    1  ->  attract
-  14:    1  ->  choice
-  15:    1  ->  colocation
-  16:    1  ->  door
-  17:    1  ->  feature
-  18:    1  ->  foreign
-  19:    1  ->  inal
-  20:    1  ->  matter
-  21:    1  ->  pen
-  22:    1  ->  per
-  23:    1  ->  perseverance
-  24:    1  ->  principle
-  25:    1  ->  right
-  26:    1  ->  rose's
-  27:    1  ->  rule
-  28:    1  ->  sake
-  29:    1  ->  saying
-  30:    1  ->  sense
-  31:    1  ->  stars
-  32:    1  ->  tell
-  33:    1  ->  tenaciousness
-  34:    1  ->  treading
-  35:    1  ->  unclosed
+  13:    1  ->  and
+  14:    1  ->  deafness
+  15:    1  ->  exposter
+  16:    1  ->  feature
+  17:    1  ->  foreign
+  18:    1  ->  matter
+  19:    1  ->  pen
+  20:    1  ->  penning
+  21:    1  ->  perseverance
+  22:    1  ->  principle
+  23:    1  ->  right
+  24:    1  ->  roger's
+  25:    1  ->  rule
+  26:    1  ->  sake
+  27:    1  ->  saying
+  28:    1  ->  sense
+  29:    1  ->  stars
+  30:    1  ->  tell
+  31:    1  ->  treading
      -------
-        55
+        49
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

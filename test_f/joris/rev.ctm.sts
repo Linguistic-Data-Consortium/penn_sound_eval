@@ -5,7 +5,7 @@
 
                        MP              SI              WI              MN       
                  --------------  --------------  --------------  -------------- 
-        aws.ctm       same            same            same            same      
+        aws.ctm     rev.ctm           same            same            same      
       azure.ctm       same            same            same            same      
      google.ctm       same            same            same            same      
         ibm.ctm     rev.ctm           same            same            same      

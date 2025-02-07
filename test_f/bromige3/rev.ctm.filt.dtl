@@ -14,231 +14,214 @@ WORD RECOGNITION PERFORMANCE
 
 Percent Total Error       =    7.4%   (  73)
 
-Percent Correct           =   93.8%   ( 921)
+Percent Correct           =   93.6%   ( 918)
 
-Percent Substitution      =    5.5%   (  54)
-Percent Deletions         =    0.7%   (   7)
-Percent Insertions        =    1.2%   (  12)
+Percent Substitution      =    4.9%   (  48)
+Percent Deletions         =    1.5%   (  15)
+Percent Insertions        =    1.0%   (  10)
 Percent Word Accuracy     =   92.6%
 
 
-Ref. words                =           ( 982)
-Hyp. words                =           ( 987)
-Aligned words             =           ( 994)
+Ref. words                =           ( 981)
+Hyp. words                =           ( 976)
+Aligned words             =           ( 991)
 
-CONFUSION PAIRS                  Total                 (54)
-                                 With >=  1 occurrences (54)
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
 
-   1:    1  ->  a ==> of
-   2:    1  ->  a ==> the
-   3:    1  ->  alone ==> along
-   4:    1  ->  at ==> that
-   5:    1  ->  begun ==> began
-   6:    1  ->  blanket ==> blankets
-   7:    1  ->  body ==> bud
-   8:    1  ->  butcher's ==> butches
-   9:    1  ->  chevy's ==> chevys
-  10:    1  ->  chiaroscuro ==> akira
-  11:    1  ->  count ==> camped
+   1:    2  ->  night ==> nights
+   2:    1  ->  a ==> of
+   3:    1  ->  a ==> the
+   4:    1  ->  abruption ==> subruption
+   5:    1  ->  alone ==> along
+   6:    1  ->  at ==> quieted
+   7:    1  ->  at ==> that
+   8:    1  ->  blanket ==> blankets
+   9:    1  ->  butcher's ==> butchers
+  10:    1  ->  chiaroscuro ==> of
+  11:    1  ->  complacencies ==> complacences
   12:    1  ->  crosspiece ==> piece
   13:    1  ->  cut ==> covered
-  14:    1  ->  cutthroat ==> throat
-  15:    1  ->  eddies ==> is
+  14:    1  ->  eddies ==> is
+  15:    1  ->  enormity ==> anonymity
   16:    1  ->  falls ==> false
   17:    1  ->  five ==> 1965
-  18:    1  ->  floods ==> flooded
-  19:    1  ->  fragilely ==> fragile
-  20:    1  ->  gorse ==> course
-  21:    1  ->  hampstead ==> hamstead
-  22:    1  ->  hatrack ==> rack
-  23:    1  ->  heath ==> heat
-  24:    1  ->  hiding ==> fighting
-  25:    1  ->  in ==> and
-  26:    1  ->  in ==> into
-  27:    1  ->  in ==> stirring
-  28:    1  ->  in ==> striking
-  29:    1  ->  is ==> was
-  30:    1  ->  it ==> bridget
-  31:    1  ->  lamps ==> lamp
-  32:    1  ->  light ==> life
-  33:    1  ->  lit ==> slipped
-  34:    1  ->  look ==> looks
-  35:    1  ->  night ==> knights
-  36:    1  ->  night ==> mite
-  37:    1  ->  of ==> <affirmative>
-  38:    1  ->  our ==> are
-  39:    1  ->  poems ==> from
-  40:    1  ->  pool ==> full
-  41:    1  ->  posit ==> poit
-  42:    1  ->  seen ==> scene
-  43:    1  ->  slide ==> side
-  44:    1  ->  sparrow ==> spar
-  45:    1  ->  take ==> tape
-  46:    1  ->  the ==> a
-  47:    1  ->  the ==> of
-  48:    1  ->  their ==> that
-  49:    1  ->  tommy's ==> thomas'
-  50:    1  ->  unknowing ==> knowing
-  51:    1  ->  wed ==> weed
-  52:    1  ->  went ==> when
-  53:    1  ->  window ==> windows
-  54:    1  ->  your ==> you
+  18:    1  ->  governments ==> government's
+  19:    1  ->  hatrack ==> rack
+  20:    1  ->  heath ==> heap
+  21:    1  ->  in ==> and
+  22:    1  ->  in ==> into
+  23:    1  ->  in ==> striking
+  24:    1  ->  is ==> was
+  25:    1  ->  light ==> life
+  26:    1  ->  look ==> looks
+  27:    1  ->  of ==> <affirmative>
+  28:    1  ->  our ==> are
+  29:    1  ->  packet ==> jacket
+  30:    1  ->  parry ==> carry
+  31:    1  ->  poems ==> from
+  32:    1  ->  pool ==> full
+  33:    1  ->  posit ==> posits
+  34:    1  ->  seen ==> scene
+  35:    1  ->  silver ==> sunsilver
+  36:    1  ->  slide ==> side
+  37:    1  ->  take ==> tape
+  38:    1  ->  the ==> a
+  39:    1  ->  the ==> of
+  40:    1  ->  their ==> that
+  41:    1  ->  tires ==> ties
+  42:    1  ->  tommy's ==> thomas'
+  43:    1  ->  wed ==> newlywed
+  44:    1  ->  went ==> when
+  45:    1  ->  window ==> windows
+  46:    1  ->  year ==> friend
+  47:    1  ->  your ==> you
      -------
-        54
+        48
 
 
 
-INSERTIONS                       Total                 (12)
-                                 With >=  1 occurrences (12)
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
 
-   1:    1  ->  a
-   2:    1  ->  am
-   3:    1  ->  crust
-   4:    1  ->  cuff
-   5:    1  ->  ed
-   6:    1  ->  end
-   7:    1  ->  hat
-   8:    1  ->  i
-   9:    1  ->  key
-  10:    1  ->  off
-  11:    1  ->  or
-  12:    1  ->  poem
+   1:    2  ->  a
+   2:    1  ->  cross
+   3:    1  ->  ed
+   4:    1  ->  end
+   5:    1  ->  hat
+   6:    1  ->  hear
+   7:    1  ->  off
+   8:    1  ->  poem
+   9:    1  ->  skewer
      -------
-        12
+        10
 
 
 
-DELETIONS                        Total                 (7)
-                                 With >=  1 occurrences (7)
+DELETIONS                        Total                 (14)
+                                 With >=  1 occurrences (14)
 
-   1:    1  ->  bridge
-   2:    1  ->  but
-   3:    1  ->  in
-   4:    1  ->  nineteen
-   5:    1  ->  sixty
-   6:    1  ->  stir
-   7:    1  ->  strike
+   1:    2  ->  in
+   2:    1  ->  angeles
+   3:    1  ->  black
+   4:    1  ->  but
+   5:    1  ->  los
+   6:    1  ->  newly
+   7:    1  ->  nineteen
+   8:    1  ->  press
+   9:    1  ->  quiet
+  10:    1  ->  sixty
+  11:    1  ->  sparrow
+  12:    1  ->  strike
+  13:    1  ->  sun
+  14:    1  ->  this
      -------
-         7
+        15
 
 
 
-SUBSTITUTIONS                    Total                 (48)
-                                 With >=  1 occurrences (48)
+SUBSTITUTIONS                    Total                 (42)
+                                 With >=  1 occurrences (42)
 
-   1:    4  ->  in
+   1:    3  ->  in
    2:    2  ->  a
-   3:    2  ->  night
-   4:    2  ->  the
-   5:    1  ->  alone
-   6:    1  ->  at
-   7:    1  ->  begun
+   3:    2  ->  at
+   4:    2  ->  night
+   5:    2  ->  the
+   6:    1  ->  abruption
+   7:    1  ->  alone
    8:    1  ->  blanket
-   9:    1  ->  body
-  10:    1  ->  butcher's
-  11:    1  ->  chevy's
-  12:    1  ->  chiaroscuro
-  13:    1  ->  count
-  14:    1  ->  crosspiece
-  15:    1  ->  cut
-  16:    1  ->  cutthroat
-  17:    1  ->  eddies
-  18:    1  ->  falls
-  19:    1  ->  five
-  20:    1  ->  floods
-  21:    1  ->  fragilely
-  22:    1  ->  gorse
-  23:    1  ->  hampstead
-  24:    1  ->  hatrack
-  25:    1  ->  heath
-  26:    1  ->  hiding
-  27:    1  ->  is
-  28:    1  ->  it
-  29:    1  ->  lamps
-  30:    1  ->  light
-  31:    1  ->  lit
-  32:    1  ->  look
-  33:    1  ->  of
-  34:    1  ->  our
-  35:    1  ->  poems
-  36:    1  ->  pool
-  37:    1  ->  posit
-  38:    1  ->  seen
-  39:    1  ->  slide
-  40:    1  ->  sparrow
-  41:    1  ->  take
-  42:    1  ->  their
-  43:    1  ->  tommy's
-  44:    1  ->  unknowing
-  45:    1  ->  wed
-  46:    1  ->  went
-  47:    1  ->  window
-  48:    1  ->  your
+   9:    1  ->  butcher's
+  10:    1  ->  chiaroscuro
+  11:    1  ->  complacencies
+  12:    1  ->  crosspiece
+  13:    1  ->  cut
+  14:    1  ->  eddies
+  15:    1  ->  enormity
+  16:    1  ->  falls
+  17:    1  ->  five
+  18:    1  ->  governments
+  19:    1  ->  hatrack
+  20:    1  ->  heath
+  21:    1  ->  is
+  22:    1  ->  light
+  23:    1  ->  look
+  24:    1  ->  of
+  25:    1  ->  our
+  26:    1  ->  packet
+  27:    1  ->  parry
+  28:    1  ->  poems
+  29:    1  ->  pool
+  30:    1  ->  posit
+  31:    1  ->  seen
+  32:    1  ->  silver
+  33:    1  ->  slide
+  34:    1  ->  take
+  35:    1  ->  their
+  36:    1  ->  tires
+  37:    1  ->  tommy's
+  38:    1  ->  wed
+  39:    1  ->  went
+  40:    1  ->  window
+  41:    1  ->  year
+  42:    1  ->  your
      -------
-        54
+        48
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (52)
-                                 With >=  1 occurrences (52)
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
 
-   1:    2  ->  of
-   2:    2  ->  that
-   3:    1  ->  1965
-   4:    1  ->  <affirmative>
-   5:    1  ->  a
-   6:    1  ->  akira
+   1:    3  ->  of
+   2:    2  ->  nights
+   3:    2  ->  that
+   4:    1  ->  1965
+   5:    1  ->  <affirmative>
+   6:    1  ->  a
    7:    1  ->  along
    8:    1  ->  and
-   9:    1  ->  are
-  10:    1  ->  began
+   9:    1  ->  anonymity
+  10:    1  ->  are
   11:    1  ->  blankets
-  12:    1  ->  bridget
-  13:    1  ->  bud
-  14:    1  ->  butches
-  15:    1  ->  camped
-  16:    1  ->  chevys
-  17:    1  ->  course
-  18:    1  ->  covered
-  19:    1  ->  false
-  20:    1  ->  fighting
-  21:    1  ->  flooded
-  22:    1  ->  fragile
-  23:    1  ->  from
-  24:    1  ->  full
-  25:    1  ->  hamstead
-  26:    1  ->  heat
-  27:    1  ->  into
-  28:    1  ->  is
-  29:    1  ->  knights
-  30:    1  ->  knowing
-  31:    1  ->  lamp
-  32:    1  ->  life
-  33:    1  ->  looks
-  34:    1  ->  mite
-  35:    1  ->  piece
-  36:    1  ->  poit
-  37:    1  ->  rack
-  38:    1  ->  scene
-  39:    1  ->  side
-  40:    1  ->  slipped
-  41:    1  ->  spar
-  42:    1  ->  stirring
-  43:    1  ->  striking
-  44:    1  ->  tape
-  45:    1  ->  the
-  46:    1  ->  thomas'
-  47:    1  ->  throat
-  48:    1  ->  was
-  49:    1  ->  weed
-  50:    1  ->  when
-  51:    1  ->  windows
-  52:    1  ->  you
+  12:    1  ->  butchers
+  13:    1  ->  carry
+  14:    1  ->  complacences
+  15:    1  ->  covered
+  16:    1  ->  false
+  17:    1  ->  friend
+  18:    1  ->  from
+  19:    1  ->  full
+  20:    1  ->  government's
+  21:    1  ->  heap
+  22:    1  ->  into
+  23:    1  ->  is
+  24:    1  ->  jacket
+  25:    1  ->  life
+  26:    1  ->  looks
+  27:    1  ->  newlywed
+  28:    1  ->  piece
+  29:    1  ->  posits
+  30:    1  ->  quieted
+  31:    1  ->  rack
+  32:    1  ->  scene
+  33:    1  ->  side
+  34:    1  ->  striking
+  35:    1  ->  subruption
+  36:    1  ->  sunsilver
+  37:    1  ->  tape
+  38:    1  ->  the
+  39:    1  ->  thomas'
+  40:    1  ->  ties
+  41:    1  ->  was
+  42:    1  ->  when
+  43:    1  ->  windows
+  44:    1  ->  you
      -------
-        54
+        48
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

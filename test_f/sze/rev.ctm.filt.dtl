@@ -12,194 +12,146 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    7.9%   (  56)
+Percent Total Error       =    5.5%   (  39)
 
-Percent Correct           =   92.8%   ( 660)
+Percent Correct           =   95.2%   ( 677)
 
-Percent Substitution      =    6.0%   (  43)
-Percent Deletions         =    1.1%   (   8)
+Percent Substitution      =    3.8%   (  27)
+Percent Deletions         =    1.0%   (   7)
 Percent Insertions        =    0.7%   (   5)
-Percent Word Accuracy     =   92.1%
+Percent Word Accuracy     =   94.5%
 
 
 Ref. words                =           ( 711)
-Hyp. words                =           ( 708)
+Hyp. words                =           ( 709)
 Aligned words             =           ( 716)
 
-CONFUSION PAIRS                  Total                 (41)
-                                 With >=  1 occurrences (41)
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
 
    1:    2  ->  a ==> of
    2:    2  ->  one ==> when
-   3:    1  ->  a ==> essential
-   4:    1  ->  acanthus ==> that's
-   5:    1  ->  aegean ==> aian
-   6:    1  ->  anteaters ==> eaters
-   7:    1  ->  at ==> weed
-   8:    1  ->  bass ==> base
-   9:    1  ->  blackbird ==> bird
-  10:    1  ->  central ==> account
-  11:    1  ->  combust ==> combusts
-  12:    1  ->  cryptomeria ==> karia
-  13:    1  ->  dingy ==> stingy
-  14:    1  ->  entrails ==> ras
-  15:    1  ->  forsythia ==> foria
-  16:    1  ->  fresh ==> rushed
-  17:    1  ->  frieze ==> freeze
-  18:    1  ->  griffins ==> griffin's
-  19:    1  ->  hundred ==> eighteen
-  20:    1  ->  immolated ==> mated
-  21:    1  ->  in ==> and
-  22:    1  ->  laurel ==> laura
-  23:    1  ->  lay ==> chinle
-  24:    1  ->  leopards ==> leos
-  25:    1  ->  lyres ==> liars
-  26:    1  ->  palmettes ==> palms
-  27:    1  ->  peristyle ==> perial
-  28:    1  ->  place ==> a
-  29:    1  ->  scumsucker ==> sucker
-  30:    1  ->  shards ==> chards
-  31:    1  ->  sixty ==> six
-  32:    1  ->  stridulating ==> ululating
-  33:    1  ->  swayed ==> suede
-  34:    1  ->  teal ==> unhealed
-  35:    1  ->  the ==> black
-  36:    1  ->  the ==> they
-  37:    1  ->  vase ==> phase
-  38:    1  ->  what ==> white
-  39:    1  ->  when ==> one
-  40:    1  ->  winstead ==> at
-  41:    1  ->  zigzag ==> zigzagged
+   3:    1  ->  bass ==> base
+   4:    1  ->  blackbird ==> bird
+   5:    1  ->  combust ==> combusts
+   6:    1  ->  dashboard ==> dashboards
+   7:    1  ->  forsythia ==> scythia
+   8:    1  ->  fresh ==> bloodresh
+   9:    1  ->  frieze ==> freeze
+  10:    1  ->  hooped ==> goldhooped
+  11:    1  ->  hundred ==> eighteen
+  12:    1  ->  in ==> and
+  13:    1  ->  lay ==> chinacale
+  14:    1  ->  lyres ==> liars
+  15:    1  ->  place ==> a
+  16:    1  ->  plaque ==> plaques
+  17:    1  ->  scumsucker ==> sucker
+  18:    1  ->  sixty ==> six
+  19:    1  ->  the ==> black
+  20:    1  ->  the ==> they
+  21:    1  ->  urn ==> earned
+  22:    1  ->  wet ==> qued
+  23:    1  ->  what ==> white
+  24:    1  ->  when ==> one
+  25:    1  ->  winstead ==> at
      -------
-        43
+        27
 
 
 
 INSERTIONS                       Total                 (5)
                                  With >=  1 occurrences (5)
 
-   1:    1  ->  ant
+   1:    1  ->  for
    2:    1  ->  is
    3:    1  ->  placed
    4:    1  ->  scum
-   5:    1  ->  winds
+   5:    1  ->  winced
      -------
          5
 
 
 
-DELETIONS                        Total                 (8)
-                                 With >=  1 occurrences (8)
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
 
-   1:    1  ->  chenaga
-   2:    1  ->  eight
-   3:    1  ->  on
-   4:    1  ->  one
-   5:    1  ->  strin
-   6:    1  ->  thousand
-   7:    1  ->  urn
-   8:    1  ->  wet
+   1:    1  ->  blood
+   2:    1  ->  chenaga
+   3:    1  ->  eight
+   4:    1  ->  gold
+   5:    1  ->  one
+   6:    1  ->  strin
+   7:    1  ->  thousand
      -------
-         8
+         7
 
 
 
-SUBSTITUTIONS                    Total                 (39)
-                                 With >=  1 occurrences (39)
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
 
-   1:    3  ->  a
+   1:    2  ->  a
    2:    2  ->  one
    3:    2  ->  the
-   4:    1  ->  acanthus
-   5:    1  ->  aegean
-   6:    1  ->  anteaters
-   7:    1  ->  at
-   8:    1  ->  bass
-   9:    1  ->  blackbird
-  10:    1  ->  central
-  11:    1  ->  combust
-  12:    1  ->  cryptomeria
-  13:    1  ->  dingy
-  14:    1  ->  entrails
-  15:    1  ->  forsythia
-  16:    1  ->  fresh
-  17:    1  ->  frieze
-  18:    1  ->  griffins
-  19:    1  ->  hundred
-  20:    1  ->  immolated
-  21:    1  ->  in
-  22:    1  ->  laurel
-  23:    1  ->  lay
-  24:    1  ->  leopards
-  25:    1  ->  lyres
-  26:    1  ->  palmettes
-  27:    1  ->  peristyle
-  28:    1  ->  place
-  29:    1  ->  scumsucker
-  30:    1  ->  shards
-  31:    1  ->  sixty
-  32:    1  ->  stridulating
-  33:    1  ->  swayed
-  34:    1  ->  teal
-  35:    1  ->  vase
-  36:    1  ->  what
-  37:    1  ->  when
-  38:    1  ->  winstead
-  39:    1  ->  zigzag
+   4:    1  ->  bass
+   5:    1  ->  blackbird
+   6:    1  ->  combust
+   7:    1  ->  dashboard
+   8:    1  ->  forsythia
+   9:    1  ->  fresh
+  10:    1  ->  frieze
+  11:    1  ->  hooped
+  12:    1  ->  hundred
+  13:    1  ->  in
+  14:    1  ->  lay
+  15:    1  ->  lyres
+  16:    1  ->  place
+  17:    1  ->  plaque
+  18:    1  ->  scumsucker
+  19:    1  ->  sixty
+  20:    1  ->  urn
+  21:    1  ->  wet
+  22:    1  ->  what
+  23:    1  ->  when
+  24:    1  ->  winstead
      -------
-        43
+        27
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (41)
-                                 With >=  1 occurrences (41)
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
 
    1:    2  ->  of
    2:    2  ->  when
    3:    1  ->  a
-   4:    1  ->  account
-   5:    1  ->  aian
-   6:    1  ->  and
-   7:    1  ->  at
-   8:    1  ->  base
-   9:    1  ->  bird
-  10:    1  ->  black
-  11:    1  ->  chards
-  12:    1  ->  chinle
-  13:    1  ->  combusts
-  14:    1  ->  eaters
-  15:    1  ->  eighteen
-  16:    1  ->  essential
-  17:    1  ->  foria
-  18:    1  ->  freeze
-  19:    1  ->  griffin's
-  20:    1  ->  karia
-  21:    1  ->  laura
-  22:    1  ->  leos
-  23:    1  ->  liars
-  24:    1  ->  mated
-  25:    1  ->  one
-  26:    1  ->  palms
-  27:    1  ->  perial
-  28:    1  ->  phase
-  29:    1  ->  ras
-  30:    1  ->  rushed
-  31:    1  ->  six
-  32:    1  ->  stingy
-  33:    1  ->  sucker
-  34:    1  ->  suede
-  35:    1  ->  that's
-  36:    1  ->  they
-  37:    1  ->  ululating
-  38:    1  ->  unhealed
-  39:    1  ->  weed
-  40:    1  ->  white
-  41:    1  ->  zigzagged
+   4:    1  ->  and
+   5:    1  ->  at
+   6:    1  ->  base
+   7:    1  ->  bird
+   8:    1  ->  black
+   9:    1  ->  bloodresh
+  10:    1  ->  chinacale
+  11:    1  ->  combusts
+  12:    1  ->  dashboards
+  13:    1  ->  earned
+  14:    1  ->  eighteen
+  15:    1  ->  freeze
+  16:    1  ->  goldhooped
+  17:    1  ->  liars
+  18:    1  ->  one
+  19:    1  ->  plaques
+  20:    1  ->  qued
+  21:    1  ->  scythia
+  22:    1  ->  six
+  23:    1  ->  sucker
+  24:    1  ->  they
+  25:    1  ->  white
      -------
-        43
+        27
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

@@ -12,336 +12,320 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =   13.5%   ( 155)
+Percent Total Error       =   13.0%   ( 149)
 
-Percent Correct           =   88.1%   (1010)
+Percent Correct           =   88.7%   (1017)
 
-Percent Substitution      =    8.4%   (  96)
+Percent Substitution      =    7.8%   (  89)
 Percent Deletions         =    3.5%   (  40)
-Percent Insertions        =    1.7%   (  19)
-Percent Word Accuracy     =   86.5%
+Percent Insertions        =    1.7%   (  20)
+Percent Word Accuracy     =   87.0%
 
 
 Ref. words                =           (1146)
-Hyp. words                =           (1125)
-Aligned words             =           (1165)
+Hyp. words                =           (1126)
+Aligned words             =           (1166)
 
-CONFUSION PAIRS                  Total                 (92)
-                                 With >=  1 occurrences (92)
+CONFUSION PAIRS                  Total                 (85)
+                                 With >=  1 occurrences (85)
 
-   1:    2  ->  cantos ==> candles
-   2:    2  ->  doves ==> dove
-   3:    2  ->  form ==> poem
-   4:    2  ->  poem ==> form
-   5:    1  ->  a ==> and
-   6:    1  ->  a ==> or
-   7:    1  ->  a ==> the
-   8:    1  ->  about ==> bows
-   9:    1  ->  an ==> and
-  10:    1  ->  an ==> it
-  11:    1  ->  and ==> any
-  12:    1  ->  and ==> in
-  13:    1  ->  and ==> now
-  14:    1  ->  anyway ==> way
-  15:    1  ->  apprehension ==> apprehensions
-  16:    1  ->  at ==> that
-  17:    1  ->  beat ==> be
-  18:    1  ->  beckoning ==> becking
-  19:    1  ->  bough ==> bow
-  20:    1  ->  bowl ==> bow
-  21:    1  ->  boxe ==> boxes
-  22:    1  ->  cantos ==> candle
-  23:    1  ->  chortling ==> shoring
-  24:    1  ->  compose ==> composed
-  25:    1  ->  courses ==> is
-  26:    1  ->  d ==> hd
-  27:    1  ->  define ==> find
-  28:    1  ->  doctor ==> dr
-  29:    1  ->  dove ==> doves
-  30:    1  ->  dove ==> her
-  31:    1  ->  eighteen ==> eight
-  32:    1  ->  eighth ==> 8th
-  33:    1  ->  essential ==> central
-  34:    1  ->  fitfully ==> fiercely
-  35:    1  ->  form ==> paul
-  36:    1  ->  fort ==> it
-  37:    1  ->  had ==> has
-  38:    1  ->  have ==> am
-  39:    1  ->  have ==> candles
-  40:    1  ->  holds ==> host
-  41:    1  ->  i ==> you
-  42:    1  ->  in ==> a
-  43:    1  ->  in ==> and
-  44:    1  ->  in ==> pullman
-  45:    1  ->  into ==> to
-  46:    1  ->  is ==> the
-  47:    1  ->  is ==> was
-  48:    1  ->  it ==> williams
-  49:    1  ->  it's ==> as
-  50:    1  ->  just ==> with
-  51:    1  ->  ledges ==> alleges
-  52:    1  ->  light ==> like
-  53:    1  ->  loved ==> am
-  54:    1  ->  loved ==> love's
-  55:    1  ->  masks ==> to
-  56:    1  ->  mimeographed ==> mimeograph
-  57:    1  ->  morning ==> mourning
-  58:    1  ->  mouthings ==> mouthing
-  59:    1  ->  nineteen ==> nine
-  60:    1  ->  not ==> at
-  61:    1  ->  pass ==> fa
-  62:    1  ->  pearson ==> harrison
-  63:    1  ->  poem ==> hd
-  64:    1  ->  quimby ==> quimbee
-  65:    1  ->  rind ==> rhyme
-  66:    1  ->  sensitive ==> it
-  67:    1  ->  sequences ==> sequence
-  68:    1  ->  shapes ==> shakes
-  69:    1  ->  so ==> says
-  70:    1  ->  strayed ==> shade
-  71:    1  ->  that ==> the
-  72:    1  ->  that's ==> a
-  73:    1  ->  the ==> a
-  74:    1  ->  the ==> which
-  75:    1  ->  thirty ==> three
-  76:    1  ->  tip ==> hip
-  77:    1  ->  to ==> a
-  78:    1  ->  to ==> as
-  79:    1  ->  to ==> through
-  80:    1  ->  to ==> would
-  81:    1  ->  too ==> two
-  82:    1  ->  top ==> cupped
-  83:    1  ->  trees ==> tree
-  84:    1  ->  turtle ==> total
-  85:    1  ->  warnings ==> warning
-  86:    1  ->  was ==> am
-  87:    1  ->  when ==> and
-  88:    1  ->  where ==> for
-  89:    1  ->  where ==> her
-  90:    1  ->  with ==> which
-  91:    1  ->  words ==> word
-  92:    1  ->  worked ==> work
+   1:    3  ->  form ==> poem
+   2:    2  ->  d ==> hd
+   3:    2  ->  doves ==> dove
+   4:    1  ->  a ==> and
+   5:    1  ->  a ==> or
+   6:    1  ->  a ==> the
+   7:    1  ->  about ==> boughs
+   8:    1  ->  an ==> and
+   9:    1  ->  an ==> it
+  10:    1  ->  and ==> any
+  11:    1  ->  and ==> in
+  12:    1  ->  and ==> now
+  13:    1  ->  anyway ==> way
+  14:    1  ->  at ==> that
+  15:    1  ->  beat ==> be
+  16:    1  ->  bough ==> vows
+  17:    1  ->  boxe ==> boxes
+  18:    1  ->  chortling ==> chartling
+  19:    1  ->  courses ==> is
+  20:    1  ->  define ==> find
+  21:    1  ->  doctor ==> dr
+  22:    1  ->  dove ==> does
+  23:    1  ->  dove ==> rrrr
+  24:    1  ->  ears ==> years
+  25:    1  ->  eighteen ==> eight
+  26:    1  ->  eighth ==> 8th
+  27:    1  ->  essential ==> central
+  28:    1  ->  fitfully ==> fiercely
+  29:    1  ->  fort ==> it
+  30:    1  ->  had ==> has
+  31:    1  ->  have ==> am
+  32:    1  ->  holds ==> host
+  33:    1  ->  i ==> you
+  34:    1  ->  in ==> a
+  35:    1  ->  in ==> and
+  36:    1  ->  into ==> to
+  37:    1  ->  is ==> the
+  38:    1  ->  is ==> was
+  39:    1  ->  it ==> williams
+  40:    1  ->  it's ==> as
+  41:    1  ->  just ==> with
+  42:    1  ->  ledges ==> alleges
+  43:    1  ->  light ==> like
+  44:    1  ->  lights ==> light's
+  45:    1  ->  loved ==> am
+  46:    1  ->  loved ==> love's
+  47:    1  ->  masks ==> to
+  48:    1  ->  mimeographed ==> mimeograph
+  49:    1  ->  mouthings ==> mouthing
+  50:    1  ->  nineteen ==> nine
+  51:    1  ->  not ==> at
+  52:    1  ->  pass ==> fat
+  53:    1  ->  rind ==> rhine
+  54:    1  ->  sensitive ==> it
+  55:    1  ->  sequences ==> sequence
+  56:    1  ->  shapes ==> shakes
+  57:    1  ->  so ==> says
+  58:    1  ->  strayed ==> shade
+  59:    1  ->  stripped ==> script
+  60:    1  ->  that ==> the
+  61:    1  ->  that's ==> a
+  62:    1  ->  the ==> a
+  63:    1  ->  the ==> which
+  64:    1  ->  thirty ==> three
+  65:    1  ->  to ==> a
+  66:    1  ->  to ==> as
+  67:    1  ->  to ==> through
+  68:    1  ->  to ==> would
+  69:    1  ->  tones ==> her
+  70:    1  ->  tongue's ==> tongue
+  71:    1  ->  tongue's ==> tongues
+  72:    1  ->  too ==> two
+  73:    1  ->  top ==> cut
+  74:    1  ->  trees ==> tree
+  75:    1  ->  turtle ==> total
+  76:    1  ->  typed ==> time
+  77:    1  ->  warnings ==> warning
+  78:    1  ->  was ==> am
+  79:    1  ->  watery ==> tone
+  80:    1  ->  when ==> and
+  81:    1  ->  where ==> for
+  82:    1  ->  where ==> her
+  83:    1  ->  with ==> which
+  84:    1  ->  words ==> word
+  85:    1  ->  worked ==> work
      -------
-        96
+        89
 
 
 
-INSERTIONS                       Total                 (13)
-                                 With >=  1 occurrences (13)
+INSERTIONS                       Total                 (12)
+                                 With >=  1 occurrences (12)
 
-   1:    3  ->  and
-   2:    3  ->  her
-   3:    2  ->  a
-   4:    2  ->  one
-   5:    1  ->  course
-   6:    1  ->  dog
-   7:    1  ->  for
-   8:    1  ->  i
-   9:    1  ->  it
-  10:    1  ->  love
-  11:    1  ->  mask
-  12:    1  ->  of
-  13:    1  ->  sentence
+   1:    3  ->  a
+   2:    3  ->  and
+   3:    3  ->  rrrr
+   4:    2  ->  for
+   5:    2  ->  one
+   6:    1  ->  course
+   7:    1  ->  dog's
+   8:    1  ->  it
+   9:    1  ->  longed
+  10:    1  ->  mask
+  11:    1  ->  of
+  12:    1  ->  sentence
      -------
-        19
+        20
 
 
 
-DELETIONS                        Total                 (25)
-                                 With >=  1 occurrences (25)
+DELETIONS                        Total                 (24)
+                                 With >=  1 occurrences (24)
 
    1:    6  ->  and
    2:    6  ->  i
    3:    2  ->  a
    4:    2  ->  h
-   5:    2  ->  just
-   6:    2  ->  that
-   7:    2  ->  the
-   8:    1  ->  an
-   9:    1  ->  cannot
-  10:    1  ->  cantos
-  11:    1  ->  d
+   5:    2  ->  have
+   6:    2  ->  just
+   7:    2  ->  that
+   8:    2  ->  the
+   9:    1  ->  able
+  10:    1  ->  an
+  11:    1  ->  cannot
   12:    1  ->  find
   13:    1  ->  got
-  14:    1  ->  have
-  15:    1  ->  or
-  16:    1  ->  spri
-  17:    1  ->  th
-  18:    1  ->  they
-  19:    1  ->  this
-  20:    1  ->  was
-  21:    1  ->  were
-  22:    1  ->  what
-  23:    1  ->  williams'
-  24:    1  ->  with
-  25:    1  ->  you
+  14:    1  ->  or
+  15:    1  ->  spri
+  16:    1  ->  th
+  17:    1  ->  they
+  18:    1  ->  this
+  19:    1  ->  was
+  20:    1  ->  were
+  21:    1  ->  what
+  22:    1  ->  williams'
+  23:    1  ->  with
+  24:    1  ->  you
      -------
         40
 
 
 
-SUBSTITUTIONS                    Total                 (73)
-                                 With >=  1 occurrences (73)
+SUBSTITUTIONS                    Total                 (70)
+                                 With >=  1 occurrences (70)
 
    1:    4  ->  to
    2:    3  ->  a
    3:    3  ->  and
-   4:    3  ->  cantos
-   5:    3  ->  form
-   6:    3  ->  in
-   7:    3  ->  poem
-   8:    2  ->  an
-   9:    2  ->  dove
-  10:    2  ->  doves
-  11:    2  ->  have
-  12:    2  ->  is
-  13:    2  ->  loved
-  14:    2  ->  the
-  15:    2  ->  where
-  16:    1  ->  about
-  17:    1  ->  anyway
-  18:    1  ->  apprehension
-  19:    1  ->  at
-  20:    1  ->  beat
-  21:    1  ->  beckoning
-  22:    1  ->  bough
-  23:    1  ->  bowl
-  24:    1  ->  boxe
-  25:    1  ->  chortling
-  26:    1  ->  compose
-  27:    1  ->  courses
-  28:    1  ->  d
-  29:    1  ->  define
-  30:    1  ->  doctor
-  31:    1  ->  eighteen
-  32:    1  ->  eighth
-  33:    1  ->  essential
-  34:    1  ->  fitfully
-  35:    1  ->  fort
-  36:    1  ->  had
-  37:    1  ->  holds
-  38:    1  ->  i
-  39:    1  ->  into
-  40:    1  ->  it
-  41:    1  ->  it's
-  42:    1  ->  just
-  43:    1  ->  ledges
-  44:    1  ->  light
-  45:    1  ->  masks
-  46:    1  ->  mimeographed
-  47:    1  ->  morning
-  48:    1  ->  mouthings
-  49:    1  ->  nineteen
-  50:    1  ->  not
-  51:    1  ->  pass
-  52:    1  ->  pearson
-  53:    1  ->  quimby
-  54:    1  ->  rind
-  55:    1  ->  sensitive
-  56:    1  ->  sequences
-  57:    1  ->  shapes
-  58:    1  ->  so
-  59:    1  ->  strayed
-  60:    1  ->  that
-  61:    1  ->  that's
-  62:    1  ->  thirty
-  63:    1  ->  tip
-  64:    1  ->  too
-  65:    1  ->  top
-  66:    1  ->  trees
-  67:    1  ->  turtle
-  68:    1  ->  warnings
-  69:    1  ->  was
-  70:    1  ->  when
-  71:    1  ->  with
-  72:    1  ->  words
-  73:    1  ->  worked
+   4:    3  ->  form
+   5:    2  ->  an
+   6:    2  ->  d
+   7:    2  ->  dove
+   8:    2  ->  doves
+   9:    2  ->  in
+  10:    2  ->  is
+  11:    2  ->  loved
+  12:    2  ->  the
+  13:    2  ->  tongue's
+  14:    2  ->  where
+  15:    1  ->  about
+  16:    1  ->  anyway
+  17:    1  ->  at
+  18:    1  ->  beat
+  19:    1  ->  bough
+  20:    1  ->  boxe
+  21:    1  ->  chortling
+  22:    1  ->  courses
+  23:    1  ->  define
+  24:    1  ->  doctor
+  25:    1  ->  ears
+  26:    1  ->  eighteen
+  27:    1  ->  eighth
+  28:    1  ->  essential
+  29:    1  ->  fitfully
+  30:    1  ->  fort
+  31:    1  ->  had
+  32:    1  ->  have
+  33:    1  ->  holds
+  34:    1  ->  i
+  35:    1  ->  into
+  36:    1  ->  it
+  37:    1  ->  it's
+  38:    1  ->  just
+  39:    1  ->  ledges
+  40:    1  ->  light
+  41:    1  ->  lights
+  42:    1  ->  masks
+  43:    1  ->  mimeographed
+  44:    1  ->  mouthings
+  45:    1  ->  nineteen
+  46:    1  ->  not
+  47:    1  ->  pass
+  48:    1  ->  rind
+  49:    1  ->  sensitive
+  50:    1  ->  sequences
+  51:    1  ->  shapes
+  52:    1  ->  so
+  53:    1  ->  strayed
+  54:    1  ->  stripped
+  55:    1  ->  that
+  56:    1  ->  that's
+  57:    1  ->  thirty
+  58:    1  ->  tones
+  59:    1  ->  too
+  60:    1  ->  top
+  61:    1  ->  trees
+  62:    1  ->  turtle
+  63:    1  ->  typed
+  64:    1  ->  warnings
+  65:    1  ->  was
+  66:    1  ->  watery
+  67:    1  ->  when
+  68:    1  ->  with
+  69:    1  ->  words
+  70:    1  ->  worked
      -------
-        96
+        89
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (73)
-                                 With >=  1 occurrences (73)
+FALSELY RECOGNIZED               Total                 (69)
+                                 With >=  1 occurrences (69)
 
    1:    4  ->  a
    2:    4  ->  and
    3:    3  ->  am
-   4:    3  ->  candles
-   5:    3  ->  it
+   4:    3  ->  it
+   5:    3  ->  poem
    6:    3  ->  the
    7:    2  ->  as
-   8:    2  ->  bow
-   9:    2  ->  dove
-  10:    2  ->  form
-  11:    2  ->  hd
-  12:    2  ->  her
-  13:    2  ->  poem
-  14:    2  ->  to
-  15:    2  ->  which
-  16:    1  ->  8th
-  17:    1  ->  alleges
-  18:    1  ->  any
-  19:    1  ->  apprehensions
-  20:    1  ->  at
-  21:    1  ->  be
-  22:    1  ->  becking
-  23:    1  ->  bows
-  24:    1  ->  boxes
-  25:    1  ->  candle
-  26:    1  ->  central
-  27:    1  ->  composed
-  28:    1  ->  cupped
-  29:    1  ->  doves
-  30:    1  ->  dr
-  31:    1  ->  eight
-  32:    1  ->  fa
-  33:    1  ->  fiercely
-  34:    1  ->  find
-  35:    1  ->  for
-  36:    1  ->  harrison
-  37:    1  ->  has
-  38:    1  ->  hip
-  39:    1  ->  host
-  40:    1  ->  in
-  41:    1  ->  is
-  42:    1  ->  like
-  43:    1  ->  love's
-  44:    1  ->  mimeograph
-  45:    1  ->  mourning
-  46:    1  ->  mouthing
-  47:    1  ->  nine
-  48:    1  ->  now
-  49:    1  ->  or
-  50:    1  ->  paul
-  51:    1  ->  pullman
-  52:    1  ->  quimbee
-  53:    1  ->  rhyme
-  54:    1  ->  says
-  55:    1  ->  sequence
-  56:    1  ->  shade
-  57:    1  ->  shakes
-  58:    1  ->  shoring
-  59:    1  ->  that
-  60:    1  ->  three
-  61:    1  ->  through
-  62:    1  ->  total
-  63:    1  ->  tree
-  64:    1  ->  two
-  65:    1  ->  warning
-  66:    1  ->  was
-  67:    1  ->  way
-  68:    1  ->  williams
-  69:    1  ->  with
-  70:    1  ->  word
-  71:    1  ->  work
-  72:    1  ->  would
-  73:    1  ->  you
+   8:    2  ->  dove
+   9:    2  ->  hd
+  10:    2  ->  her
+  11:    2  ->  to
+  12:    2  ->  which
+  13:    1  ->  8th
+  14:    1  ->  alleges
+  15:    1  ->  any
+  16:    1  ->  at
+  17:    1  ->  be
+  18:    1  ->  boughs
+  19:    1  ->  boxes
+  20:    1  ->  central
+  21:    1  ->  chartling
+  22:    1  ->  cut
+  23:    1  ->  does
+  24:    1  ->  dr
+  25:    1  ->  eight
+  26:    1  ->  fat
+  27:    1  ->  fiercely
+  28:    1  ->  find
+  29:    1  ->  for
+  30:    1  ->  has
+  31:    1  ->  host
+  32:    1  ->  in
+  33:    1  ->  is
+  34:    1  ->  light's
+  35:    1  ->  like
+  36:    1  ->  love's
+  37:    1  ->  mimeograph
+  38:    1  ->  mouthing
+  39:    1  ->  nine
+  40:    1  ->  now
+  41:    1  ->  or
+  42:    1  ->  rhine
+  43:    1  ->  rrrr
+  44:    1  ->  says
+  45:    1  ->  script
+  46:    1  ->  sequence
+  47:    1  ->  shade
+  48:    1  ->  shakes
+  49:    1  ->  that
+  50:    1  ->  three
+  51:    1  ->  through
+  52:    1  ->  time
+  53:    1  ->  tone
+  54:    1  ->  tongue
+  55:    1  ->  tongues
+  56:    1  ->  total
+  57:    1  ->  tree
+  58:    1  ->  two
+  59:    1  ->  vows
+  60:    1  ->  warning
+  61:    1  ->  was
+  62:    1  ->  way
+  63:    1  ->  williams
+  64:    1  ->  with
+  65:    1  ->  word
+  66:    1  ->  work
+  67:    1  ->  would
+  68:    1  ->  years
+  69:    1  ->  you
      -------
-        96
+        89
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

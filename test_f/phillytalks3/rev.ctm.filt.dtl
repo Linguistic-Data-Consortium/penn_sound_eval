@@ -12,187 +12,172 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    8.0%   (  68)
+Percent Total Error       =    7.7%   (  65)
 
 Percent Correct           =   94.1%   ( 798)
 
-Percent Substitution      =    4.6%   (  39)
-Percent Deletions         =    1.3%   (  11)
-Percent Insertions        =    2.1%   (  18)
-Percent Word Accuracy     =   92.0%
+Percent Substitution      =    4.0%   (  34)
+Percent Deletions         =    1.9%   (  16)
+Percent Insertions        =    1.8%   (  15)
+Percent Word Accuracy     =   92.3%
 
 
 Ref. words                =           ( 848)
-Hyp. words                =           ( 855)
-Aligned words             =           ( 866)
+Hyp. words                =           ( 847)
+Aligned words             =           ( 863)
 
-CONFUSION PAIRS                  Total                 (39)
-                                 With >=  1 occurrences (39)
+CONFUSION PAIRS                  Total                 (33)
+                                 With >=  1 occurrences (33)
 
-   1:    1  ->  %bcack ==> i
-   2:    1  ->  %bcack ==> to
-   3:    1  ->  an ==> a
-   4:    1  ->  and ==> a
-   5:    1  ->  and ==> know
-   6:    1  ->  answers ==> is
-   7:    1  ->  artaud ==> roke
-   8:    1  ->  brechtian ==> brean
-   9:    1  ->  certeau ==> certo
+   1:    2  ->  x ==> and
+   2:    1  ->  %bcack ==> i
+   3:    1  ->  %bcack ==> to
+   4:    1  ->  an ==> a
+   5:    1  ->  and ==> a
+   6:    1  ->  and ==> know
+   7:    1  ->  answers ==> is
+   8:    1  ->  artaud ==> arto
+   9:    1  ->  certeau ==> deserteaux
   10:    1  ->  cross ==> across
-  11:    1  ->  discussed ==> disgusted
-  12:    1  ->  disgust ==> discuss
-  13:    1  ->  disgust ==> discussed
-  14:    1  ->  his ==> this
-  15:    1  ->  if ==> where
-  16:    1  ->  interest ==> interesting
-  17:    1  ->  it ==> this
-  18:    1  ->  libidinal ==> mill
-  19:    1  ->  look ==> looks
-  20:    1  ->  michel ==> michelle
-  21:    1  ->  of ==> have
-  22:    1  ->  once ==> was
-  23:    1  ->  phenomena ==> phenomenon
-  24:    1  ->  ten ==> oh
-  25:    1  ->  that ==> of
-  26:    1  ->  the ==> that
-  27:    1  ->  then ==> than
-  28:    1  ->  there's ==> it's
-  29:    1  ->  there's ==> that's
-  30:    1  ->  this ==> it
-  31:    1  ->  while ==> well
-  32:    1  ->  x ==> a
-  33:    1  ->  x ==> and
-  34:    1  ->  x ==> as
-  35:    1  ->  x ==> cps
-  36:    1  ->  x ==> fashion
-  37:    1  ->  x ==> had
-  38:    1  ->  x ==> mean
-  39:    1  ->  x ==> you
+  11:    1  ->  his ==> this
+  12:    1  ->  if ==> where
+  13:    1  ->  interest ==> interesting
+  14:    1  ->  it ==> this
+  15:    1  ->  look ==> looks
+  16:    1  ->  nostalgic ==> retronostalgic
+  17:    1  ->  once ==> was
+  18:    1  ->  phenomena ==> phenomenon
+  19:    1  ->  ten ==> oh
+  20:    1  ->  term ==> shorterterm
+  21:    1  ->  that ==> of
+  22:    1  ->  the ==> that
+  23:    1  ->  then ==> than
+  24:    1  ->  there's ==> it's
+  25:    1  ->  there's ==> that's
+  26:    1  ->  toe ==> arto
+  27:    1  ->  while ==> well
+  28:    1  ->  x ==> a
+  29:    1  ->  x ==> as
+  30:    1  ->  x ==> cpers
+  31:    1  ->  x ==> had
+  32:    1  ->  x ==> i
+  33:    1  ->  x ==> you
      -------
-        39
+        34
 
 
 
-INSERTIONS                       Total                 (16)
-                                 With >=  1 occurrences (16)
+INSERTIONS                       Total                 (14)
+                                 With >=  1 occurrences (14)
 
-   1:    3  ->  i
+   1:    2  ->  i
    2:    1  ->  <affirmative>
    3:    1  ->  and
    4:    1  ->  are
    5:    1  ->  is
    6:    1  ->  it
    7:    1  ->  it's
-   8:    1  ->  just
-   9:    1  ->  lipid
-  10:    1  ->  mean
-  11:    1  ->  mmhmm
-  12:    1  ->  not
-  13:    1  ->  oh
-  14:    1  ->  that
-  15:    1  ->  when
-  16:    1  ->  you
+   8:    1  ->  mean
+   9:    1  ->  mmhmm
+  10:    1  ->  not
+  11:    1  ->  oh
+  12:    1  ->  that
+  13:    1  ->  when
+  14:    1  ->  you
      -------
-        18
+        15
 
 
 
-DELETIONS                        Total                 (8)
-                                 With >=  1 occurrences (8)
+DELETIONS                        Total                 (13)
+                                 With >=  1 occurrences (13)
 
    1:    3  ->  x
    2:    2  ->  it
-   3:    1  ->  fashions
-   4:    1  ->  l
-   5:    1  ->  or
-   6:    1  ->  p
-   7:    1  ->  so
-   8:    1  ->  will
+   3:    1  ->  de
+   4:    1  ->  if
+   5:    1  ->  l
+   6:    1  ->  or
+   7:    1  ->  our
+   8:    1  ->  p
+   9:    1  ->  retro
+  10:    1  ->  shorter
+  11:    1  ->  so
+  12:    1  ->  will
+  13:    1  ->  with
      -------
-        11
+        16
 
 
 
-SUBSTITUTIONS                    Total                 (28)
-                                 With >=  1 occurrences (28)
+SUBSTITUTIONS                    Total                 (24)
+                                 With >=  1 occurrences (24)
 
    1:    8  ->  x
    2:    2  ->  %bcack
    3:    2  ->  and
-   4:    2  ->  disgust
-   5:    2  ->  there's
-   6:    1  ->  an
-   7:    1  ->  answers
-   8:    1  ->  artaud
-   9:    1  ->  brechtian
-  10:    1  ->  certeau
-  11:    1  ->  cross
-  12:    1  ->  discussed
-  13:    1  ->  his
-  14:    1  ->  if
-  15:    1  ->  interest
-  16:    1  ->  it
-  17:    1  ->  libidinal
-  18:    1  ->  look
-  19:    1  ->  michel
-  20:    1  ->  of
-  21:    1  ->  once
-  22:    1  ->  phenomena
-  23:    1  ->  ten
-  24:    1  ->  that
-  25:    1  ->  the
-  26:    1  ->  then
-  27:    1  ->  this
-  28:    1  ->  while
+   4:    2  ->  there's
+   5:    1  ->  an
+   6:    1  ->  answers
+   7:    1  ->  artaud
+   8:    1  ->  certeau
+   9:    1  ->  cross
+  10:    1  ->  his
+  11:    1  ->  if
+  12:    1  ->  interest
+  13:    1  ->  it
+  14:    1  ->  look
+  15:    1  ->  nostalgic
+  16:    1  ->  once
+  17:    1  ->  phenomena
+  18:    1  ->  ten
+  19:    1  ->  term
+  20:    1  ->  that
+  21:    1  ->  the
+  22:    1  ->  then
+  23:    1  ->  toe
+  24:    1  ->  while
      -------
-        39
+        34
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (36)
-                                 With >=  1 occurrences (36)
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
 
    1:    3  ->  a
-   2:    2  ->  this
-   3:    1  ->  across
-   4:    1  ->  and
-   5:    1  ->  as
-   6:    1  ->  brean
-   7:    1  ->  certo
-   8:    1  ->  cps
-   9:    1  ->  discuss
-  10:    1  ->  discussed
-  11:    1  ->  disgusted
-  12:    1  ->  fashion
-  13:    1  ->  had
-  14:    1  ->  have
-  15:    1  ->  i
-  16:    1  ->  interesting
-  17:    1  ->  is
-  18:    1  ->  it
-  19:    1  ->  it's
-  20:    1  ->  know
-  21:    1  ->  looks
-  22:    1  ->  mean
-  23:    1  ->  michelle
-  24:    1  ->  mill
-  25:    1  ->  of
-  26:    1  ->  oh
-  27:    1  ->  phenomenon
-  28:    1  ->  roke
-  29:    1  ->  than
-  30:    1  ->  that
-  31:    1  ->  that's
-  32:    1  ->  to
-  33:    1  ->  was
-  34:    1  ->  well
-  35:    1  ->  where
-  36:    1  ->  you
+   2:    2  ->  and
+   3:    2  ->  arto
+   4:    2  ->  i
+   5:    2  ->  this
+   6:    1  ->  across
+   7:    1  ->  as
+   8:    1  ->  cpers
+   9:    1  ->  deserteaux
+  10:    1  ->  had
+  11:    1  ->  interesting
+  12:    1  ->  is
+  13:    1  ->  it's
+  14:    1  ->  know
+  15:    1  ->  looks
+  16:    1  ->  of
+  17:    1  ->  oh
+  18:    1  ->  phenomenon
+  19:    1  ->  retronostalgic
+  20:    1  ->  shorterterm
+  21:    1  ->  than
+  22:    1  ->  that
+  23:    1  ->  that's
+  24:    1  ->  to
+  25:    1  ->  was
+  26:    1  ->  well
+  27:    1  ->  where
+  28:    1  ->  you
      -------
-        39
+        34
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

@@ -12,181 +12,186 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    5.5%   (  54)
+Percent Total Error       =    5.4%   (  53)
 
-Percent Correct           =   95.3%   ( 932)
+Percent Correct           =   94.9%   ( 928)
 
-Percent Substitution      =    4.3%   (  42)
-Percent Deletions         =    0.4%   (   4)
-Percent Insertions        =    0.8%   (   8)
-Percent Word Accuracy     =   94.5%
+Percent Substitution      =    4.6%   (  45)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    0.3%   (   3)
+Percent Word Accuracy     =   94.6%
 
 
 Ref. words                =           ( 978)
-Hyp. words                =           ( 982)
-Aligned words             =           ( 986)
+Hyp. words                =           ( 976)
+Aligned words             =           ( 981)
 
-CONFUSION PAIRS                  Total                 (37)
-                                 With >=  1 occurrences (37)
+CONFUSION PAIRS                  Total                 (40)
+                                 With >=  1 occurrences (40)
 
    1:    5  ->  forty ==> oh
    2:    2  ->  in ==> and
    3:    1  ->  a ==> the
-   4:    1  ->  ailing ==> in
-   5:    1  ->  and ==> in
-   6:    1  ->  banton ==> bonton
-   7:    1  ->  bellay ==> belay
-   8:    1  ->  bewitched ==> witch
-   9:    1  ->  boll ==> bull
-  10:    1  ->  buju ==> bourgou
-  11:    1  ->  coltraine ==> coltrane
-  12:    1  ->  dido ==> man
-  13:    1  ->  doctors ==> docked
-  14:    1  ->  doom ==> dune
-  15:    1  ->  du ==> do
-  16:    1  ->  eyed ==> blueeyed
-  17:    1  ->  fifth ==> 45th
-  18:    1  ->  formed ==> halfformed
-  19:    1  ->  fourth ==> 44th
-  20:    1  ->  high ==> hi
-  21:    1  ->  jump ==> jumped
-  22:    1  ->  mandingo ==> dingo
-  23:    1  ->  montigo ==> montego
-  24:    1  ->  ninety ==> nine
-  25:    1  ->  noel ==> noelle
-  26:    1  ->  past ==> passed
-  27:    1  ->  people's ==> pee's
-  28:    1  ->  prez ==> pre
-  29:    1  ->  raps ==> rats
-  30:    1  ->  shearling ==> hurling
-  31:    1  ->  slims ==> slim
-  32:    1  ->  steal ==> still
-  33:    1  ->  threatened ==> threaten
-  34:    1  ->  turncoats ==> coach
-  35:    1  ->  washboards ==> boards
-  36:    1  ->  windowsill ==> sill
-  37:    1  ->  yvonda's ==> vonda's
+   4:    1  ->  and ==> in
+   5:    1  ->  banton ==> bantan
+   6:    1  ->  bellay ==> belay
+   7:    1  ->  boll ==> bull
+   8:    1  ->  buju ==> boujou
+   9:    1  ->  coltraine ==> coltrane
+  10:    1  ->  dido ==> ditto
+  11:    1  ->  du ==> do
+  12:    1  ->  eye ==> i
+  13:    1  ->  fifth ==> 45th
+  14:    1  ->  formed ==> halfformed
+  15:    1  ->  fourth ==> 44th
+  16:    1  ->  handedness ==> secondhandedness
+  17:    1  ->  headedness ==> twoheadedness
+  18:    1  ->  high ==> i
+  19:    1  ->  jump ==> jumped
+  20:    1  ->  martyr ==> martyrs
+  21:    1  ->  mist ==> missed
+  22:    1  ->  montigo ==> montego
+  23:    1  ->  ninety ==> nine
+  24:    1  ->  noel ==> noelle
+  25:    1  ->  past ==> passed
+  26:    1  ->  people's ==> pee's
+  27:    1  ->  plotting ==> plottin
+  28:    1  ->  raps ==> rats
+  29:    1  ->  risque ==> risqué
+  30:    1  ->  shearling ==> shirling
+  31:    1  ->  sipping ==> sippin
+  32:    1  ->  slims ==> slim
+  33:    1  ->  steal ==> still
+  34:    1  ->  threatened ==> threaten
+  35:    1  ->  turncoats ==> turncoach
+  36:    1  ->  virginia ==> virginia's
+  37:    1  ->  windowsill ==> sill
+  38:    1  ->  wiz ==> whiz
+  39:    1  ->  your ==> are
+  40:    1  ->  yvonda's ==> yvanda's
      -------
-        42
+        45
 
 
 
-INSERTIONS                       Total                 (8)
-                                 With >=  1 occurrences (8)
-
-   1:    1  ->  <affirmative>
-   2:    1  ->  ail
-   3:    1  ->  be
-   4:    1  ->  dedo
-   5:    1  ->  i
-   6:    1  ->  turn
-   7:    1  ->  wash
-   8:    1  ->  window
-     -------
-         8
-
-
-
-DELETIONS                        Total                 (3)
+INSERTIONS                       Total                 (3)
                                  With >=  1 occurrences (3)
 
-   1:    2  ->  forty
-   2:    1  ->  blue
-   3:    1  ->  half
+   1:    1  ->  i
+   2:    1  ->  window
+   3:    1  ->  you
      -------
-         4
+         3
 
 
 
-SUBSTITUTIONS                    Total                 (37)
-                                 With >=  1 occurrences (37)
+DELETIONS                        Total                 (4)
+                                 With >=  1 occurrences (4)
+
+   1:    2  ->  forty
+   2:    1  ->  half
+   3:    1  ->  second
+   4:    1  ->  two
+     -------
+         5
+
+
+
+SUBSTITUTIONS                    Total                 (40)
+                                 With >=  1 occurrences (40)
 
    1:    5  ->  forty
    2:    2  ->  in
    3:    1  ->  a
-   4:    1  ->  ailing
-   5:    1  ->  and
-   6:    1  ->  banton
-   7:    1  ->  bellay
-   8:    1  ->  bewitched
-   9:    1  ->  boll
-  10:    1  ->  buju
-  11:    1  ->  coltraine
-  12:    1  ->  dido
-  13:    1  ->  doctors
-  14:    1  ->  doom
-  15:    1  ->  du
-  16:    1  ->  eyed
-  17:    1  ->  fifth
-  18:    1  ->  formed
-  19:    1  ->  fourth
-  20:    1  ->  high
-  21:    1  ->  jump
-  22:    1  ->  mandingo
-  23:    1  ->  montigo
-  24:    1  ->  ninety
-  25:    1  ->  noel
-  26:    1  ->  past
-  27:    1  ->  people's
-  28:    1  ->  prez
-  29:    1  ->  raps
+   4:    1  ->  and
+   5:    1  ->  banton
+   6:    1  ->  bellay
+   7:    1  ->  boll
+   8:    1  ->  buju
+   9:    1  ->  coltraine
+  10:    1  ->  dido
+  11:    1  ->  du
+  12:    1  ->  eye
+  13:    1  ->  fifth
+  14:    1  ->  formed
+  15:    1  ->  fourth
+  16:    1  ->  handedness
+  17:    1  ->  headedness
+  18:    1  ->  high
+  19:    1  ->  jump
+  20:    1  ->  martyr
+  21:    1  ->  mist
+  22:    1  ->  montigo
+  23:    1  ->  ninety
+  24:    1  ->  noel
+  25:    1  ->  past
+  26:    1  ->  people's
+  27:    1  ->  plotting
+  28:    1  ->  raps
+  29:    1  ->  risque
   30:    1  ->  shearling
-  31:    1  ->  slims
-  32:    1  ->  steal
-  33:    1  ->  threatened
-  34:    1  ->  turncoats
-  35:    1  ->  washboards
-  36:    1  ->  windowsill
-  37:    1  ->  yvonda's
+  31:    1  ->  sipping
+  32:    1  ->  slims
+  33:    1  ->  steal
+  34:    1  ->  threatened
+  35:    1  ->  turncoats
+  36:    1  ->  virginia
+  37:    1  ->  windowsill
+  38:    1  ->  wiz
+  39:    1  ->  your
+  40:    1  ->  yvonda's
      -------
-        42
+        45
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (36)
-                                 With >=  1 occurrences (36)
+FALSELY RECOGNIZED               Total                 (39)
+                                 With >=  1 occurrences (39)
 
    1:    5  ->  oh
    2:    2  ->  and
-   3:    2  ->  in
+   3:    2  ->  i
    4:    1  ->  44th
    5:    1  ->  45th
-   6:    1  ->  belay
-   7:    1  ->  blueeyed
-   8:    1  ->  boards
-   9:    1  ->  bonton
-  10:    1  ->  bourgou
-  11:    1  ->  bull
-  12:    1  ->  coach
-  13:    1  ->  coltrane
-  14:    1  ->  dingo
-  15:    1  ->  do
-  16:    1  ->  docked
-  17:    1  ->  dune
-  18:    1  ->  halfformed
-  19:    1  ->  hi
-  20:    1  ->  hurling
-  21:    1  ->  jumped
-  22:    1  ->  man
-  23:    1  ->  montego
-  24:    1  ->  nine
-  25:    1  ->  noelle
-  26:    1  ->  passed
-  27:    1  ->  pee's
-  28:    1  ->  pre
-  29:    1  ->  rats
-  30:    1  ->  sill
+   6:    1  ->  are
+   7:    1  ->  bantan
+   8:    1  ->  belay
+   9:    1  ->  boujou
+  10:    1  ->  bull
+  11:    1  ->  coltrane
+  12:    1  ->  ditto
+  13:    1  ->  do
+  14:    1  ->  halfformed
+  15:    1  ->  in
+  16:    1  ->  jumped
+  17:    1  ->  martyrs
+  18:    1  ->  missed
+  19:    1  ->  montego
+  20:    1  ->  nine
+  21:    1  ->  noelle
+  22:    1  ->  passed
+  23:    1  ->  pee's
+  24:    1  ->  plottin
+  25:    1  ->  rats
+  26:    1  ->  risqué
+  27:    1  ->  secondhandedness
+  28:    1  ->  shirling
+  29:    1  ->  sill
+  30:    1  ->  sippin
   31:    1  ->  slim
   32:    1  ->  still
   33:    1  ->  the
   34:    1  ->  threaten
-  35:    1  ->  vonda's
-  36:    1  ->  witch
+  35:    1  ->  turncoach
+  36:    1  ->  twoheadedness
+  37:    1  ->  virginia's
+  38:    1  ->  whiz
+  39:    1  ->  yvanda's
      -------
-        42
+        45
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

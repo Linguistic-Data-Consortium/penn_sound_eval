@@ -12,155 +12,139 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    5.0%   (  40)
+Percent Total Error       =    4.3%   (  34)
 
-Percent Correct           =   95.6%   ( 758)
+Percent Correct           =   96.1%   ( 762)
 
-Percent Substitution      =    3.5%   (  28)
-Percent Deletions         =    0.9%   (   7)
-Percent Insertions        =    0.6%   (   5)
-Percent Word Accuracy     =   95.0%
+Percent Substitution      =    2.9%   (  23)
+Percent Deletions         =    1.0%   (   8)
+Percent Insertions        =    0.4%   (   3)
+Percent Word Accuracy     =   95.7%
 
 
 Ref. words                =           ( 793)
-Hyp. words                =           ( 791)
-Aligned words             =           ( 798)
+Hyp. words                =           ( 788)
+Aligned words             =           ( 796)
 
-CONFUSION PAIRS                  Total                 (28)
-                                 With >=  1 occurrences (28)
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
 
-   1:    1  ->  an ==> and
-   2:    1  ->  and ==> in
-   3:    1  ->  as ==> is
-   4:    1  ->  blocked ==> block
-   5:    1  ->  but ==> about
-   6:    1  ->  careen ==> irene
-   7:    1  ->  casa ==> the
+   1:    1  ->  a ==> the
+   2:    1  ->  an ==> and
+   3:    1  ->  and ==> in
+   4:    1  ->  as ==> is
+   5:    1  ->  blocked ==> block
+   6:    1  ->  book's ==> books
+   7:    1  ->  but ==> about
    8:    1  ->  cheesemaking ==> making
-   9:    1  ->  do ==> will
-  10:    1  ->  drying ==> drawing
-  11:    1  ->  electrics ==> electric's
-  12:    1  ->  farmworker's ==> workers
-  13:    1  ->  ficcio ==> cascio
-  14:    1  ->  growth ==> grove
+   9:    1  ->  clawed ==> claude
+  10:    1  ->  do ==> will
+  11:    1  ->  farmworker's ==> workers
+  12:    1  ->  ficcio ==> feature
+  13:    1  ->  growth ==> grove
+  14:    1  ->  impact ==> lowimpact
   15:    1  ->  in ==> and
   16:    1  ->  laughingstock ==> stock
   17:    1  ->  lit ==> highlit
-  18:    1  ->  louie ==> louis
-  19:    1  ->  luminators ==> illuminators
-  20:    1  ->  mass ==> mast
-  21:    1  ->  metonymy ==> autonomy
-  22:    1  ->  mirepoix ==> mirapoix
-  23:    1  ->  monody ==> mony
-  24:    1  ->  sue ==> soothe
-  25:    1  ->  talking ==> talked
-  26:    1  ->  unrights ==> writes
-  27:    1  ->  vacuo ==> vao
-  28:    1  ->  xs ==> exes
+  18:    1  ->  mass ==> masked
+  19:    1  ->  nature ==> natured
+  20:    1  ->  sue ==> soothe
+  21:    1  ->  talking ==> talked
+  22:    1  ->  underwhelmed ==> overwhelmed
+  23:    1  ->  xs ==> x's
      -------
-        28
+        23
 
 
 
-INSERTIONS                       Total                 (5)
-                                 With >=  1 occurrences (5)
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
 
    1:    1  ->  cheese
    2:    1  ->  farm
-   3:    1  ->  karine
-   4:    1  ->  laughing
-   5:    1  ->  unw
+   3:    1  ->  laughing
      -------
-         5
+         3
 
 
 
-DELETIONS                        Total                 (7)
-                                 With >=  1 occurrences (7)
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    1  ->  and
+   2:    1  ->  high
+   3:    1  ->  low
+   4:    1  ->  rendered
+   5:    1  ->  then
+   6:    1  ->  were
+   7:    1  ->  will
+   8:    1  ->  x
+     -------
+         8
+
+
+
+SUBSTITUTIONS                    Total                 (23)
+                                 With >=  1 occurrences (23)
 
    1:    1  ->  a
-   2:    1  ->  and
-   3:    1  ->  high
-   4:    1  ->  then
-   5:    1  ->  were
-   6:    1  ->  will
-   7:    1  ->  x
-     -------
-         7
-
-
-
-SUBSTITUTIONS                    Total                 (28)
-                                 With >=  1 occurrences (28)
-
-   1:    1  ->  an
-   2:    1  ->  and
-   3:    1  ->  as
-   4:    1  ->  blocked
-   5:    1  ->  but
-   6:    1  ->  careen
-   7:    1  ->  casa
+   2:    1  ->  an
+   3:    1  ->  and
+   4:    1  ->  as
+   5:    1  ->  blocked
+   6:    1  ->  book's
+   7:    1  ->  but
    8:    1  ->  cheesemaking
-   9:    1  ->  do
-  10:    1  ->  drying
-  11:    1  ->  electrics
-  12:    1  ->  farmworker's
-  13:    1  ->  ficcio
-  14:    1  ->  growth
+   9:    1  ->  clawed
+  10:    1  ->  do
+  11:    1  ->  farmworker's
+  12:    1  ->  ficcio
+  13:    1  ->  growth
+  14:    1  ->  impact
   15:    1  ->  in
   16:    1  ->  laughingstock
   17:    1  ->  lit
-  18:    1  ->  louie
-  19:    1  ->  luminators
-  20:    1  ->  mass
-  21:    1  ->  metonymy
-  22:    1  ->  mirepoix
-  23:    1  ->  monody
-  24:    1  ->  sue
-  25:    1  ->  talking
-  26:    1  ->  unrights
-  27:    1  ->  vacuo
-  28:    1  ->  xs
+  18:    1  ->  mass
+  19:    1  ->  nature
+  20:    1  ->  sue
+  21:    1  ->  talking
+  22:    1  ->  underwhelmed
+  23:    1  ->  xs
      -------
-        28
+        23
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (27)
-                                 With >=  1 occurrences (27)
+FALSELY RECOGNIZED               Total                 (22)
+                                 With >=  1 occurrences (22)
 
    1:    2  ->  and
    2:    1  ->  about
-   3:    1  ->  autonomy
-   4:    1  ->  block
-   5:    1  ->  cascio
-   6:    1  ->  drawing
-   7:    1  ->  electric's
-   8:    1  ->  exes
-   9:    1  ->  grove
-  10:    1  ->  highlit
-  11:    1  ->  illuminators
-  12:    1  ->  in
-  13:    1  ->  irene
-  14:    1  ->  is
-  15:    1  ->  louis
-  16:    1  ->  making
-  17:    1  ->  mast
-  18:    1  ->  mirapoix
-  19:    1  ->  mony
-  20:    1  ->  soothe
-  21:    1  ->  stock
-  22:    1  ->  talked
-  23:    1  ->  the
-  24:    1  ->  vao
-  25:    1  ->  will
-  26:    1  ->  workers
-  27:    1  ->  writes
+   3:    1  ->  block
+   4:    1  ->  books
+   5:    1  ->  claude
+   6:    1  ->  feature
+   7:    1  ->  grove
+   8:    1  ->  highlit
+   9:    1  ->  in
+  10:    1  ->  is
+  11:    1  ->  lowimpact
+  12:    1  ->  making
+  13:    1  ->  masked
+  14:    1  ->  natured
+  15:    1  ->  overwhelmed
+  16:    1  ->  soothe
+  17:    1  ->  stock
+  18:    1  ->  talked
+  19:    1  ->  the
+  20:    1  ->  will
+  21:    1  ->  workers
+  22:    1  ->  x's
      -------
-        28
+        23
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

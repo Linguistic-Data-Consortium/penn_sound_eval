@@ -4,7 +4,7 @@ set title ""
 set key
 set ylabel "Systems"
 set xlabel "Speaker Word Error Rate (%)"
-set ytics ("nemo.ctm" 1,"whisper.ctm" 2,"google.ctm" 3,"whispercpp.ctm" 4,"aws.ctm" 5,"rev.ctm" 6,"azure.ctm" 7,"ibm.ctm" 8)
+set ytics ("rev.ctm" 1,"nemo.ctm" 2,"whisper.ctm" 3,"google.ctm" 4,"whispercpp.ctm" 5,"aws.ctm" 6,"azure.ctm" 7,"ibm.ctm" 8)
 plot "Ensemble.grange2.sys.mean" using 2:1 title "Mean Speaker Word Error Rate (%)" with lines,\
      "Ensemble.grange2.sys.median" using 2:1 title "Median Speaker Word Error Rate (%)" with lines,\
      "Ensemble.grange2.sys.dat" using 2:1 "%lf%lf" title "subject"

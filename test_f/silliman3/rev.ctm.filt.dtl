@@ -12,103 +12,95 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    8.2%   (  81)
+Percent Total Error       =    7.2%   (  71)
 
-Percent Correct           =   92.2%   ( 915)
+Percent Correct           =   93.0%   ( 923)
 
-Percent Substitution      =    5.9%   (  59)
-Percent Deletions         =    1.8%   (  18)
-Percent Insertions        =    0.4%   (   4)
-Percent Word Accuracy     =   91.8%
+Percent Substitution      =    5.2%   (  52)
+Percent Deletions         =    1.7%   (  17)
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   92.8%
 
 
 Ref. words                =           ( 992)
-Hyp. words                =           ( 978)
-Aligned words             =           ( 996)
+Hyp. words                =           ( 977)
+Aligned words             =           ( 994)
 
-CONFUSION PAIRS                  Total                 (53)
-                                 With >=  1 occurrences (53)
+CONFUSION PAIRS                  Total                 (47)
+                                 With >=  1 occurrences (47)
 
    1:    4  ->  a ==> the
    2:    2  ->  and ==> in
    3:    2  ->  landi ==> landy
-   4:    2  ->  syllogistic ==> sistic
-   5:    1  ->  a ==> is
-   6:    1  ->  addressee's ==> addressees
-   7:    1  ->  an ==> and
-   8:    1  ->  analogues ==> analogs
-   9:    1  ->  bones ==> poems
-  10:    1  ->  bronwich's ==> bromage
-  11:    1  ->  eightieth ==> eddie
+   4:    1  ->  addressee's ==> addressees
+   5:    1  ->  an ==> and
+   6:    1  ->  analogues ==> analogs
+   7:    1  ->  anton ==> atten
+   8:    1  ->  bones ==> poems
+   9:    1  ->  bronwich's ==> bromwich's
+  10:    1  ->  eightieth ==> eddie
+  11:    1  ->  elliptical ==> nonelliptical
   12:    1  ->  has ==> as
-  13:    1  ->  illogicalities ==> illeg
-  14:    1  ->  intere ==> inter
-  15:    1  ->  its ==> the
-  16:    1  ->  monologic ==> monolog
-  17:    1  ->  mottoes ==> mottos
-  18:    1  ->  n ==> then
-  19:    1  ->  one ==> 51
-  20:    1  ->  oppression ==> suppression
-  21:    1  ->  or ==> cleaner
-  22:    1  ->  others' ==> others
-  23:    1  ->  our ==> are
-  24:    1  ->  peers ==> appears
-  25:    1  ->  point ==> eight
-  26:    1  ->  premised ==> premise
-  27:    1  ->  presumptiveness ==> presumptively
-  28:    1  ->  question's ==> is
-  29:    1  ->  rig ==> great
-  30:    1  ->  seem ==> seems
-  31:    1  ->  semiotician ==> tian
-  32:    1  ->  sentence ==> cents
-  33:    1  ->  sofala ==> safaa
-  34:    1  ->  strophic ==> dystrophic
-  35:    1  ->  tagmemic ==> mimic
-  36:    1  ->  th ==> paragraph
-  37:    1  ->  that ==> a
-  38:    1  ->  the ==> a
-  39:    1  ->  their ==> under
-  40:    1  ->  thirteen ==> three
-  41:    1  ->  three ==> 53
-  42:    1  ->  tight ==> type
-  43:    1  ->  together ==> altogether
-  44:    1  ->  towards ==> toward
-  45:    1  ->  twentieth ==> 20th
-  46:    1  ->  vitiated ==> officiated
-  47:    1  ->  vocatives ==> evocative
-  48:    1  ->  voloshinov ==> vino
-  49:    1  ->  voloshinov's ==> vinos
-  50:    1  ->  warren ==> warrant
-  51:    1  ->  well ==> although
-  52:    1  ->  wellek ==> will
-  53:    1  ->  x ==> but
+  13:    1  ->  intere ==> inter
+  14:    1  ->  its ==> the
+  15:    1  ->  mottoes ==> mottos
+  16:    1  ->  n ==> and
+  17:    1  ->  non ==> then
+  18:    1  ->  one ==> 51
+  19:    1  ->  oppression ==> suppression
+  20:    1  ->  or ==> cleaner
+  21:    1  ->  others' ==> others
+  22:    1  ->  our ==> are
+  23:    1  ->  peers ==> appears
+  24:    1  ->  point ==> eight
+  25:    1  ->  premised ==> premise
+  26:    1  ->  question's ==> is
+  27:    1  ->  rig ==> great
+  28:    1  ->  seem ==> seems
+  29:    1  ->  sentence ==> cents
+  30:    1  ->  sofala ==> zafala
+  31:    1  ->  tagmemic ==> tagnemic
+  32:    1  ->  th ==> paragraph
+  33:    1  ->  that ==> a
+  34:    1  ->  the ==> a
+  35:    1  ->  their ==> under
+  36:    1  ->  thirteen ==> three
+  37:    1  ->  three ==> 53
+  38:    1  ->  tight ==> type
+  39:    1  ->  together ==> altogether
+  40:    1  ->  towards ==> toward
+  41:    1  ->  twentieth ==> 20th
+  42:    1  ->  voloshinov ==> valashinov
+  43:    1  ->  voloshinov's ==> olashino's
+  44:    1  ->  watton ==> watten
+  45:    1  ->  well ==> although
+  46:    1  ->  wellek ==> willeck
+  47:    1  ->  x ==> but
      -------
-        59
+        52
 
 
 
-INSERTIONS                       Total                 (4)
-                                 With >=  1 occurrences (4)
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
 
-   1:    1  ->  and
-   2:    1  ->  one
-   3:    1  ->  question
-   4:    1  ->  tag
+   1:    1  ->  one
+   2:    1  ->  question
      -------
-         4
+         2
 
 
 
-DELETIONS                        Total                 (16)
-                                 With >=  1 occurrences (16)
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
 
    1:    2  ->  five
    2:    2  ->  in
    3:    1  ->  all
    4:    1  ->  and
-   5:    1  ->  as
-   6:    1  ->  is
-   7:    1  ->  it
+   5:    1  ->  is
+   6:    1  ->  it
+   7:    1  ->  minimum
    8:    1  ->  now
    9:    1  ->  paragra
   10:    1  ->  plane
@@ -116,33 +108,32 @@ DELETIONS                        Total                 (16)
   12:    1  ->  s
   13:    1  ->  sen
   14:    1  ->  t
-  15:    1  ->  the
-  16:    1  ->  well
+  15:    1  ->  well
      -------
-        18
+        17
 
 
 
-SUBSTITUTIONS                    Total                 (52)
-                                 With >=  1 occurrences (52)
+SUBSTITUTIONS                    Total                 (47)
+                                 With >=  1 occurrences (47)
 
-   1:    5  ->  a
+   1:    4  ->  a
    2:    2  ->  and
    3:    2  ->  landi
-   4:    2  ->  syllogistic
-   5:    1  ->  addressee's
-   6:    1  ->  an
-   7:    1  ->  analogues
+   4:    1  ->  addressee's
+   5:    1  ->  an
+   6:    1  ->  analogues
+   7:    1  ->  anton
    8:    1  ->  bones
    9:    1  ->  bronwich's
   10:    1  ->  eightieth
-  11:    1  ->  has
-  12:    1  ->  illogicalities
+  11:    1  ->  elliptical
+  12:    1  ->  has
   13:    1  ->  intere
   14:    1  ->  its
-  15:    1  ->  monologic
-  16:    1  ->  mottoes
-  17:    1  ->  n
+  15:    1  ->  mottoes
+  16:    1  ->  n
+  17:    1  ->  non
   18:    1  ->  one
   19:    1  ->  oppression
   20:    1  ->  or
@@ -151,96 +142,85 @@ SUBSTITUTIONS                    Total                 (52)
   23:    1  ->  peers
   24:    1  ->  point
   25:    1  ->  premised
-  26:    1  ->  presumptiveness
-  27:    1  ->  question's
-  28:    1  ->  rig
-  29:    1  ->  seem
-  30:    1  ->  semiotician
-  31:    1  ->  sentence
-  32:    1  ->  sofala
-  33:    1  ->  strophic
-  34:    1  ->  tagmemic
-  35:    1  ->  th
-  36:    1  ->  that
-  37:    1  ->  the
-  38:    1  ->  their
-  39:    1  ->  thirteen
-  40:    1  ->  three
-  41:    1  ->  tight
-  42:    1  ->  together
-  43:    1  ->  towards
-  44:    1  ->  twentieth
-  45:    1  ->  vitiated
-  46:    1  ->  vocatives
-  47:    1  ->  voloshinov
-  48:    1  ->  voloshinov's
-  49:    1  ->  warren
-  50:    1  ->  well
-  51:    1  ->  wellek
-  52:    1  ->  x
+  26:    1  ->  question's
+  27:    1  ->  rig
+  28:    1  ->  seem
+  29:    1  ->  sentence
+  30:    1  ->  sofala
+  31:    1  ->  tagmemic
+  32:    1  ->  th
+  33:    1  ->  that
+  34:    1  ->  the
+  35:    1  ->  their
+  36:    1  ->  thirteen
+  37:    1  ->  three
+  38:    1  ->  tight
+  39:    1  ->  together
+  40:    1  ->  towards
+  41:    1  ->  twentieth
+  42:    1  ->  voloshinov
+  43:    1  ->  voloshinov's
+  44:    1  ->  watton
+  45:    1  ->  well
+  46:    1  ->  wellek
+  47:    1  ->  x
      -------
-        59
+        52
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (50)
-                                 With >=  1 occurrences (50)
+FALSELY RECOGNIZED               Total                 (44)
+                                 With >=  1 occurrences (44)
 
    1:    5  ->  the
    2:    2  ->  a
-   3:    2  ->  in
-   4:    2  ->  is
+   3:    2  ->  and
+   4:    2  ->  in
    5:    2  ->  landy
-   6:    2  ->  sistic
-   7:    1  ->  20th
-   8:    1  ->  51
-   9:    1  ->  53
-  10:    1  ->  addressees
-  11:    1  ->  although
-  12:    1  ->  altogether
-  13:    1  ->  analogs
-  14:    1  ->  and
-  15:    1  ->  appears
-  16:    1  ->  are
-  17:    1  ->  as
-  18:    1  ->  bromage
-  19:    1  ->  but
-  20:    1  ->  cents
-  21:    1  ->  cleaner
-  22:    1  ->  dystrophic
-  23:    1  ->  eddie
-  24:    1  ->  eight
-  25:    1  ->  evocative
-  26:    1  ->  great
-  27:    1  ->  illeg
-  28:    1  ->  inter
-  29:    1  ->  mimic
-  30:    1  ->  monolog
-  31:    1  ->  mottos
-  32:    1  ->  officiated
-  33:    1  ->  others
-  34:    1  ->  paragraph
-  35:    1  ->  poems
-  36:    1  ->  premise
-  37:    1  ->  presumptively
-  38:    1  ->  safaa
-  39:    1  ->  seems
-  40:    1  ->  suppression
-  41:    1  ->  then
-  42:    1  ->  three
-  43:    1  ->  tian
-  44:    1  ->  toward
-  45:    1  ->  type
-  46:    1  ->  under
-  47:    1  ->  vino
-  48:    1  ->  vinos
-  49:    1  ->  warrant
-  50:    1  ->  will
+   6:    1  ->  20th
+   7:    1  ->  51
+   8:    1  ->  53
+   9:    1  ->  addressees
+  10:    1  ->  although
+  11:    1  ->  altogether
+  12:    1  ->  analogs
+  13:    1  ->  appears
+  14:    1  ->  are
+  15:    1  ->  as
+  16:    1  ->  atten
+  17:    1  ->  bromwich's
+  18:    1  ->  but
+  19:    1  ->  cents
+  20:    1  ->  cleaner
+  21:    1  ->  eddie
+  22:    1  ->  eight
+  23:    1  ->  great
+  24:    1  ->  inter
+  25:    1  ->  is
+  26:    1  ->  mottos
+  27:    1  ->  nonelliptical
+  28:    1  ->  olashino's
+  29:    1  ->  others
+  30:    1  ->  paragraph
+  31:    1  ->  poems
+  32:    1  ->  premise
+  33:    1  ->  seems
+  34:    1  ->  suppression
+  35:    1  ->  tagnemic
+  36:    1  ->  then
+  37:    1  ->  three
+  38:    1  ->  toward
+  39:    1  ->  type
+  40:    1  ->  under
+  41:    1  ->  valashinov
+  42:    1  ->  watten
+  43:    1  ->  willeck
+  44:    1  ->  zafala
      -------
-        59
+        52
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

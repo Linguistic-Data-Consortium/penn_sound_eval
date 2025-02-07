@@ -12,327 +12,294 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =   16.8%   ( 137)
+Percent Total Error       =   14.6%   ( 119)
 
-Percent Correct           =   85.3%   ( 695)
+Percent Correct           =   86.4%   ( 704)
 
-Percent Substitution      =   10.6%   (  86)
-Percent Deletions         =    4.2%   (  34)
-Percent Insertions        =    2.1%   (  17)
-Percent Word Accuracy     =   83.2%
+Percent Substitution      =    8.8%   (  72)
+Percent Deletions         =    4.8%   (  39)
+Percent Insertions        =    1.0%   (   8)
+Percent Word Accuracy     =   85.4%
 
 
 Ref. words                =           ( 815)
-Hyp. words                =           ( 798)
-Aligned words             =           ( 832)
+Hyp. words                =           ( 784)
+Aligned words             =           ( 823)
 
-CONFUSION PAIRS                  Total                 (81)
-                                 With >=  1 occurrences (81)
+CONFUSION PAIRS                  Total                 (69)
+                                 With >=  1 occurrences (69)
 
-   1:    3  ->  elliott ==> elliot
-   2:    2  ->  coleridge ==> ridge
-   3:    2  ->  ebon ==> eon
-   4:    2  ->  nineteenth ==> 19th
-   5:    1  ->  a ==> scribbler
-   6:    1  ->  afloat ==> float
-   7:    1  ->  an ==> and
-   8:    1  ->  an ==> the
-   9:    1  ->  and ==> it
-  10:    1  ->  and ==> the
-  11:    1  ->  aperta ==> <inaudible>
-  12:    1  ->  are ==> it
-  13:    1  ->  are ==> of
-  14:    1  ->  ashville ==> feld
-  15:    1  ->  azra ==> ara
-  16:    1  ->  bled ==> bed
-  17:    1  ->  called ==> mangled
-  18:    1  ->  cnr ==> clr
-  19:    1  ->  coleridge ==> with
-  20:    1  ->  corn ==> ako
-  21:    1  ->  crawled ==> crowded
-  22:    1  ->  cumberbark ==> bark
-  23:    1  ->  curtainment ==> uncontent
-  24:    1  ->  doctor ==> to
-  25:    1  ->  eighteenth ==> 18th
-  26:    1  ->  elusive ==> dilutive
-  27:    1  ->  enfetters ==> fets
-  28:    1  ->  entrancement ==> ment
-  29:    1  ->  feeling ==> fleeing
-  30:    1  ->  fifty ==> 150
-  31:    1  ->  geraldine ==> everything
-  32:    1  ->  harkley ==> heartly
-  33:    1  ->  henry ==> henley
-  34:    1  ->  i ==> in
-  35:    1  ->  i ==> it
-  36:    1  ->  immedicable ==> medical
-  37:    1  ->  is ==> his
-  38:    1  ->  kessick ==> kezik
-  39:    1  ->  laudanum ==> them
-  40:    1  ->  liking ==> lighting
-  41:    1  ->  long ==> in
-  42:    1  ->  me ==> be
-  43:    1  ->  mean ==> and
-  44:    1  ->  mute ==> new
-  45:    1  ->  never ==> ever
-  46:    1  ->  nobody's ==> he's
-  47:    1  ->  note ==> though
-  48:    1  ->  nuncinations ==> ations
-  49:    1  ->  of ==> at
-  50:    1  ->  of ==> outta
-  51:    1  ->  paul ==> poor
-  52:    1  ->  perfectible ==> perfectable
-  53:    1  ->  poole ==> pool
-  54:    1  ->  pulcherrima ==> lp
-  55:    1  ->  rectories ==> aries
-  56:    1  ->  riot ==> write
-  57:    1  ->  s ==> beds
-  58:    1  ->  s ==> st
-  59:    1  ->  salvi ==> salhi
-  60:    1  ->  shawnson ==> hanson
-  61:    1  ->  soul ==> souls
-  62:    1  ->  sun ==> son
-  63:    1  ->  t ==> kba
-  64:    1  ->  that ==> many
-  65:    1  ->  the ==> either
-  66:    1  ->  these ==> his
-  67:    1  ->  these ==> one
-  68:    1  ->  thirty ==> oh
-  69:    1  ->  too ==> to
-  70:    1  ->  transpierced ==> transpi
-  71:    1  ->  twelve ==> two
-  72:    1  ->  tyrannic ==> taric
-  73:    1  ->  unchastities ==> chastities
-  74:    1  ->  unmeaning ==> meaning
-  75:    1  ->  w's ==> ws
-  76:    1  ->  when ==> which
-  77:    1  ->  whirled ==> world
-  78:    1  ->  wordsworth ==> worth
-  79:    1  ->  x ==> that
-  80:    1  ->  y ==> you
-  81:    1  ->  you ==> ridge
+   1:    2  ->  ebon ==> ebben
+   2:    2  ->  elliott ==> elliot
+   3:    2  ->  nineteenth ==> 19th
+   4:    1  ->  a ==> scribbler
+   5:    1  ->  an ==> and
+   6:    1  ->  and ==> it
+   7:    1  ->  and ==> the
+   8:    1  ->  aperta ==> <inaudible>
+   9:    1  ->  are ==> it
+  10:    1  ->  are ==> of
+  11:    1  ->  ashville ==> ashefeld
+  12:    1  ->  azra ==> asra
+  13:    1  ->  bled ==> bed
+  14:    1  ->  cnr ==> clr
+  15:    1  ->  crawled ==> crowd
+  16:    1  ->  curtainment ==> uncurtainment
+  17:    1  ->  doctor ==> dr
+  18:    1  ->  eighteenth ==> 18th
+  19:    1  ->  elliott ==> elliot's
+  20:    1  ->  elusive ==> delusive
+  21:    1  ->  enfetters ==> fetters
+  22:    1  ->  entrancement ==> entrancment
+  23:    1  ->  feeling ==> fleeing
+  24:    1  ->  fifty ==> 150
+  25:    1  ->  geraldine ==> everything
+  26:    1  ->  h ==> sh
+  27:    1  ->  harkley ==> heartly
+  28:    1  ->  his ==> bulls
+  29:    1  ->  hit ==> hipped
+  30:    1  ->  house ==> pesthouse
+  31:    1  ->  i ==> in
+  32:    1  ->  i ==> it
+  33:    1  ->  is ==> his
+  34:    1  ->  kessick ==> keswick
+  35:    1  ->  laudanum ==> lordenham
+  36:    1  ->  like ==> clawlike
+  37:    1  ->  me ==> be
+  38:    1  ->  mean ==> and
+  39:    1  ->  mute ==> new
+  40:    1  ->  never ==> ever
+  41:    1  ->  nobody's ==> he's
+  42:    1  ->  note ==> though
+  43:    1  ->  nuncinations ==> lancinations
+  44:    1  ->  of ==> at
+  45:    1  ->  of ==> outta
+  46:    1  ->  paul ==> poor
+  47:    1  ->  perfectible ==> perfectable
+  48:    1  ->  pest ==> henley
+  49:    1  ->  poole ==> pool
+  50:    1  ->  pulcherrima ==> lp
+  51:    1  ->  riot ==> write
+  52:    1  ->  salvi ==> salty
+  53:    1  ->  shawnson ==> shonson
+  54:    1  ->  soul ==> souls
+  55:    1  ->  spiderweb ==> web
+  56:    1  ->  sun ==> son
+  57:    1  ->  t ==> st
+  58:    1  ->  that ==> many
+  59:    1  ->  the ==> a
+  60:    1  ->  the ==> either
+  61:    1  ->  these ==> his
+  62:    1  ->  these ==> one
+  63:    1  ->  thirty ==> oh
+  64:    1  ->  twelve ==> two
+  65:    1  ->  when ==> which
+  66:    1  ->  whirled ==> world
+  67:    1  ->  worm ==> maltworm
+  68:    1  ->  x ==> that
+  69:    1  ->  y ==> you
      -------
-        86
+        72
 
 
 
-INSERTIONS                       Total                 (13)
-                                 With >=  1 occurrences (13)
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
 
-   1:    2  ->  <laugh>
-   2:    2  ->  a
-   3:    2  ->  and
-   4:    2  ->  un
-   5:    1  ->  can
-   6:    1  ->  he's
-   7:    1  ->  lord
-   8:    1  ->  lung
-   9:    1  ->  one
-  10:    1  ->  sense
-  11:    1  ->  talk
-  12:    1  ->  which
-  13:    1  ->  words
+   1:    1  ->  a
+   2:    1  ->  and
+   3:    1  ->  can
+   4:    1  ->  he's
+   5:    1  ->  one
+   6:    1  ->  sense
+   7:    1  ->  spider
+   8:    1  ->  which
      -------
-        17
+         8
 
 
 
-DELETIONS                        Total                 (27)
-                                 With >=  1 occurrences (27)
+DELETIONS                        Total                 (30)
+                                 With >=  1 occurrences (30)
 
    1:    4  ->  of
    2:    3  ->  i
    3:    2  ->  and
    4:    2  ->  out
-   5:    1  ->  a
-   6:    1  ->  as
-   7:    1  ->  be
-   8:    1  ->  bed
-   9:    1  ->  el
-  10:    1  ->  hundred
-  11:    1  ->  it
-  12:    1  ->  man
-  13:    1  ->  me
-  14:    1  ->  meant
-  15:    1  ->  nunia
-  16:    1  ->  on
-  17:    1  ->  pisermine
-  18:    1  ->  scribble
-  19:    1  ->  sense
-  20:    1  ->  sort
-  21:    1  ->  that
-  22:    1  ->  the
-  23:    1  ->  there's
-  24:    1  ->  these
-  25:    1  ->  they
-  26:    1  ->  who
-  27:    1  ->  wi
+   5:    2  ->  s
+   6:    2  ->  you
+   7:    1  ->  a
+   8:    1  ->  as
+   9:    1  ->  be
+  10:    1  ->  bows
+  11:    1  ->  claw
+  12:    1  ->  el
+  13:    1  ->  henry
+  14:    1  ->  hundred
+  15:    1  ->  it
+  16:    1  ->  malt
+  17:    1  ->  me
+  18:    1  ->  meant
+  19:    1  ->  nunia
+  20:    1  ->  on
+  21:    1  ->  pisermine
+  22:    1  ->  scribble
+  23:    1  ->  sense
+  24:    1  ->  sort
+  25:    1  ->  that
+  26:    1  ->  there's
+  27:    1  ->  these
+  28:    1  ->  they
+  29:    1  ->  who
+  30:    1  ->  wi
      -------
-        34
+        39
 
 
 
-SUBSTITUTIONS                    Total                 (73)
-                                 With >=  1 occurrences (73)
+SUBSTITUTIONS                    Total                 (62)
+                                 With >=  1 occurrences (62)
 
-   1:    3  ->  coleridge
-   2:    3  ->  elliott
-   3:    2  ->  an
-   4:    2  ->  and
-   5:    2  ->  are
-   6:    2  ->  ebon
-   7:    2  ->  i
-   8:    2  ->  nineteenth
-   9:    2  ->  of
-  10:    2  ->  s
-  11:    2  ->  these
-  12:    1  ->  a
-  13:    1  ->  afloat
-  14:    1  ->  aperta
-  15:    1  ->  ashville
-  16:    1  ->  azra
-  17:    1  ->  bled
-  18:    1  ->  called
-  19:    1  ->  cnr
-  20:    1  ->  corn
-  21:    1  ->  crawled
-  22:    1  ->  cumberbark
-  23:    1  ->  curtainment
-  24:    1  ->  doctor
-  25:    1  ->  eighteenth
-  26:    1  ->  elusive
-  27:    1  ->  enfetters
-  28:    1  ->  entrancement
-  29:    1  ->  feeling
-  30:    1  ->  fifty
-  31:    1  ->  geraldine
-  32:    1  ->  harkley
-  33:    1  ->  henry
-  34:    1  ->  immedicable
-  35:    1  ->  is
-  36:    1  ->  kessick
-  37:    1  ->  laudanum
-  38:    1  ->  liking
-  39:    1  ->  long
-  40:    1  ->  me
-  41:    1  ->  mean
-  42:    1  ->  mute
-  43:    1  ->  never
-  44:    1  ->  nobody's
-  45:    1  ->  note
-  46:    1  ->  nuncinations
-  47:    1  ->  paul
-  48:    1  ->  perfectible
-  49:    1  ->  poole
-  50:    1  ->  pulcherrima
-  51:    1  ->  rectories
-  52:    1  ->  riot
-  53:    1  ->  salvi
-  54:    1  ->  shawnson
-  55:    1  ->  soul
-  56:    1  ->  sun
-  57:    1  ->  t
-  58:    1  ->  that
-  59:    1  ->  the
-  60:    1  ->  thirty
-  61:    1  ->  too
-  62:    1  ->  transpierced
-  63:    1  ->  twelve
-  64:    1  ->  tyrannic
-  65:    1  ->  unchastities
-  66:    1  ->  unmeaning
-  67:    1  ->  w's
-  68:    1  ->  when
-  69:    1  ->  whirled
-  70:    1  ->  wordsworth
-  71:    1  ->  x
-  72:    1  ->  y
-  73:    1  ->  you
+   1:    3  ->  elliott
+   2:    2  ->  and
+   3:    2  ->  are
+   4:    2  ->  ebon
+   5:    2  ->  i
+   6:    2  ->  nineteenth
+   7:    2  ->  of
+   8:    2  ->  the
+   9:    2  ->  these
+  10:    1  ->  a
+  11:    1  ->  an
+  12:    1  ->  aperta
+  13:    1  ->  ashville
+  14:    1  ->  azra
+  15:    1  ->  bled
+  16:    1  ->  cnr
+  17:    1  ->  crawled
+  18:    1  ->  curtainment
+  19:    1  ->  doctor
+  20:    1  ->  eighteenth
+  21:    1  ->  elusive
+  22:    1  ->  enfetters
+  23:    1  ->  entrancement
+  24:    1  ->  feeling
+  25:    1  ->  fifty
+  26:    1  ->  geraldine
+  27:    1  ->  h
+  28:    1  ->  harkley
+  29:    1  ->  his
+  30:    1  ->  hit
+  31:    1  ->  house
+  32:    1  ->  is
+  33:    1  ->  kessick
+  34:    1  ->  laudanum
+  35:    1  ->  like
+  36:    1  ->  me
+  37:    1  ->  mean
+  38:    1  ->  mute
+  39:    1  ->  never
+  40:    1  ->  nobody's
+  41:    1  ->  note
+  42:    1  ->  nuncinations
+  43:    1  ->  paul
+  44:    1  ->  perfectible
+  45:    1  ->  pest
+  46:    1  ->  poole
+  47:    1  ->  pulcherrima
+  48:    1  ->  riot
+  49:    1  ->  salvi
+  50:    1  ->  shawnson
+  51:    1  ->  soul
+  52:    1  ->  spiderweb
+  53:    1  ->  sun
+  54:    1  ->  t
+  55:    1  ->  that
+  56:    1  ->  thirty
+  57:    1  ->  twelve
+  58:    1  ->  when
+  59:    1  ->  whirled
+  60:    1  ->  worm
+  61:    1  ->  x
+  62:    1  ->  y
      -------
-        86
+        72
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (73)
-                                 With >=  1 occurrences (73)
+FALSELY RECOGNIZED               Total                 (65)
+                                 With >=  1 occurrences (65)
 
-   1:    3  ->  elliot
-   2:    3  ->  it
-   3:    3  ->  ridge
-   4:    2  ->  19th
-   5:    2  ->  and
-   6:    2  ->  eon
-   7:    2  ->  his
-   8:    2  ->  in
-   9:    2  ->  the
-  10:    2  ->  to
-  11:    1  ->  150
-  12:    1  ->  18th
-  13:    1  ->  <inaudible>
-  14:    1  ->  ako
-  15:    1  ->  ara
-  16:    1  ->  aries
-  17:    1  ->  at
-  18:    1  ->  ations
-  19:    1  ->  bark
-  20:    1  ->  be
-  21:    1  ->  bed
-  22:    1  ->  beds
-  23:    1  ->  chastities
-  24:    1  ->  clr
-  25:    1  ->  crowded
-  26:    1  ->  dilutive
-  27:    1  ->  either
-  28:    1  ->  ever
-  29:    1  ->  everything
-  30:    1  ->  feld
-  31:    1  ->  fets
-  32:    1  ->  fleeing
-  33:    1  ->  float
-  34:    1  ->  hanson
-  35:    1  ->  he's
-  36:    1  ->  heartly
-  37:    1  ->  henley
-  38:    1  ->  kba
-  39:    1  ->  kezik
-  40:    1  ->  lighting
-  41:    1  ->  lp
-  42:    1  ->  mangled
-  43:    1  ->  many
-  44:    1  ->  meaning
-  45:    1  ->  medical
-  46:    1  ->  ment
-  47:    1  ->  new
-  48:    1  ->  of
-  49:    1  ->  oh
-  50:    1  ->  one
-  51:    1  ->  outta
-  52:    1  ->  perfectable
-  53:    1  ->  pool
-  54:    1  ->  poor
-  55:    1  ->  salhi
-  56:    1  ->  scribbler
-  57:    1  ->  son
-  58:    1  ->  souls
-  59:    1  ->  st
-  60:    1  ->  taric
-  61:    1  ->  that
-  62:    1  ->  them
-  63:    1  ->  though
-  64:    1  ->  transpi
-  65:    1  ->  two
-  66:    1  ->  uncontent
-  67:    1  ->  which
-  68:    1  ->  with
-  69:    1  ->  world
-  70:    1  ->  worth
-  71:    1  ->  write
-  72:    1  ->  ws
-  73:    1  ->  you
+   1:    3  ->  it
+   2:    2  ->  19th
+   3:    2  ->  and
+   4:    2  ->  ebben
+   5:    2  ->  elliot
+   6:    2  ->  his
+   7:    1  ->  150
+   8:    1  ->  18th
+   9:    1  ->  <inaudible>
+  10:    1  ->  a
+  11:    1  ->  ashefeld
+  12:    1  ->  asra
+  13:    1  ->  at
+  14:    1  ->  be
+  15:    1  ->  bed
+  16:    1  ->  bulls
+  17:    1  ->  clawlike
+  18:    1  ->  clr
+  19:    1  ->  crowd
+  20:    1  ->  delusive
+  21:    1  ->  dr
+  22:    1  ->  either
+  23:    1  ->  elliot's
+  24:    1  ->  entrancment
+  25:    1  ->  ever
+  26:    1  ->  everything
+  27:    1  ->  fetters
+  28:    1  ->  fleeing
+  29:    1  ->  he's
+  30:    1  ->  heartly
+  31:    1  ->  henley
+  32:    1  ->  hipped
+  33:    1  ->  in
+  34:    1  ->  keswick
+  35:    1  ->  lancinations
+  36:    1  ->  lordenham
+  37:    1  ->  lp
+  38:    1  ->  maltworm
+  39:    1  ->  many
+  40:    1  ->  new
+  41:    1  ->  of
+  42:    1  ->  oh
+  43:    1  ->  one
+  44:    1  ->  outta
+  45:    1  ->  perfectable
+  46:    1  ->  pesthouse
+  47:    1  ->  pool
+  48:    1  ->  poor
+  49:    1  ->  salty
+  50:    1  ->  scribbler
+  51:    1  ->  sh
+  52:    1  ->  shonson
+  53:    1  ->  son
+  54:    1  ->  souls
+  55:    1  ->  st
+  56:    1  ->  that
+  57:    1  ->  the
+  58:    1  ->  though
+  59:    1  ->  two
+  60:    1  ->  uncurtainment
+  61:    1  ->  web
+  62:    1  ->  which
+  63:    1  ->  world
+  64:    1  ->  write
+  65:    1  ->  you
      -------
-        86
+        72
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

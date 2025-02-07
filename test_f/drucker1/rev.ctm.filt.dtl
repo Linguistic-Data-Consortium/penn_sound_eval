@@ -12,78 +12,73 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    5.5%   (  61)
+Percent Total Error       =    4.8%   (  54)
 
-Percent Correct           =   95.0%   (1059)
+Percent Correct           =   95.5%   (1065)
 
-Percent Substitution      =    3.8%   (  42)
+Percent Substitution      =    3.2%   (  36)
 Percent Deletions         =    1.3%   (  14)
-Percent Insertions        =    0.4%   (   5)
-Percent Word Accuracy     =   94.5%
+Percent Insertions        =    0.4%   (   4)
+Percent Word Accuracy     =   95.2%
 
 
 Ref. words                =           (1115)
-Hyp. words                =           (1106)
-Aligned words             =           (1120)
+Hyp. words                =           (1105)
+Aligned words             =           (1119)
 
-CONFUSION PAIRS                  Total                 (40)
-                                 With >=  1 occurrences (40)
+CONFUSION PAIRS                  Total                 (36)
+                                 With >=  1 occurrences (36)
 
-   1:    3  ->  garnett ==> garnet
-   2:    1  ->  a ==> and
-   3:    1  ->  a ==> not
-   4:    1  ->  again ==> k.
-   5:    1  ->  along ==> on
-   6:    1  ->  bit ==> it
+   1:    1  ->  a ==> not
+   2:    1  ->  again ==> k.
+   3:    1  ->  along ==> on
+   4:    1  ->  ar ==> art
+   5:    1  ->  bit ==> it
+   6:    1  ->  celebrated ==> undercelebrated
    7:    1  ->  conscious ==> selfconscious
-   8:    1  ->  culls ==> calls
-   9:    1  ->  culmney ==> right
-  10:    1  ->  during ==> and
-  11:    1  ->  fil ==> film
-  12:    1  ->  flash ==> flesh
-  13:    1  ->  god ==> could
-  14:    1  ->  gratifications ==> gratification
-  15:    1  ->  hearst ==> hurst
-  16:    1  ->  i ==> you
-  17:    1  ->  installati ==> installation
-  18:    1  ->  intellectual ==> intellectuals
-  19:    1  ->  into ==> in
-  20:    1  ->  its ==> this
-  21:    1  ->  itself ==> yourself
-  22:    1  ->  mak ==> making
-  23:    1  ->  mark ==> market
-  24:    1  ->  murra ==> economy
-  25:    1  ->  obser ==> ober
-  26:    1  ->  or ==> of
-  27:    1  ->  out ==> her
-  28:    1  ->  out ==> up
-  29:    1  ->  person's ==> persons
-  30:    1  ->  prized ==> priced
-  31:    1  ->  said ==> says
-  32:    1  ->  smiths ==> smith
-  33:    1  ->  smiths' ==> smiths
-  34:    1  ->  someone ==> how
-  35:    1  ->  stakes ==> stake
-  36:    1  ->  tell ==> tells
-  37:    1  ->  though ==> thought
-  38:    1  ->  to ==> he
-  39:    1  ->  who's ==> as
-  40:    1  ->  x ==> know
+   8:    1  ->  culmney ==> murakami
+   9:    1  ->  during ==> and
+  10:    1  ->  fil ==> film
+  11:    1  ->  flash ==> flesh
+  12:    1  ->  god ==> could
+  13:    1  ->  hearst ==> hirst
+  14:    1  ->  i ==> you
+  15:    1  ->  installati ==> installation
+  16:    1  ->  intellectual ==> intellectuals
+  17:    1  ->  into ==> in
+  18:    1  ->  its ==> this
+  19:    1  ->  itself ==> yourself
+  20:    1  ->  mak ==> making
+  21:    1  ->  mark ==> market
+  22:    1  ->  obser ==> persons
+  23:    1  ->  or ==> of
+  24:    1  ->  out ==> her
+  25:    1  ->  out ==> up
+  26:    1  ->  person's ==> and
+  27:    1  ->  prized ==> priced
+  28:    1  ->  said ==> says
+  29:    1  ->  smiths ==> smith
+  30:    1  ->  smiths' ==> smiths
+  31:    1  ->  someone ==> how
+  32:    1  ->  tell ==> tells
+  33:    1  ->  though ==> thought
+  34:    1  ->  to ==> he
+  35:    1  ->  who's ==> as
+  36:    1  ->  x ==> know
      -------
-        42
+        36
 
 
 
-INSERTIONS                       Total                 (5)
-                                 With >=  1 occurrences (5)
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
 
    1:    1  ->  at
-   2:    1  ->  mur
-   3:    1  ->  o.
-   4:    1  ->  some
-   5:    1  ->  that's
+   2:    1  ->  o.
+   3:    1  ->  some
+   4:    1  ->  that's
      -------
-         5
+         4
 
 
 
@@ -91,115 +86,108 @@ DELETIONS                        Total                 (12)
                                  With >=  1 occurrences (12)
 
    1:    3  ->  it
-   2:    1  ->  and
-   3:    1  ->  ar
+   2:    1  ->  a
+   3:    1  ->  and
    4:    1  ->  b
-   5:    1  ->  how
+   5:    1  ->  bo
    6:    1  ->  is
-   7:    1  ->  not
-   8:    1  ->  o
-   9:    1  ->  of
-  10:    1  ->  or
-  11:    1  ->  priced
-  12:    1  ->  self
+   7:    1  ->  murra
+   8:    1  ->  not
+   9:    1  ->  o
+  10:    1  ->  of
+  11:    1  ->  self
+  12:    1  ->  under
      -------
         14
 
 
 
-SUBSTITUTIONS                    Total                 (38)
-                                 With >=  1 occurrences (38)
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
 
-   1:    3  ->  garnett
-   2:    2  ->  a
-   3:    2  ->  out
-   4:    1  ->  again
-   5:    1  ->  along
+   1:    2  ->  out
+   2:    1  ->  a
+   3:    1  ->  again
+   4:    1  ->  along
+   5:    1  ->  ar
    6:    1  ->  bit
-   7:    1  ->  conscious
-   8:    1  ->  culls
+   7:    1  ->  celebrated
+   8:    1  ->  conscious
    9:    1  ->  culmney
   10:    1  ->  during
   11:    1  ->  fil
   12:    1  ->  flash
   13:    1  ->  god
-  14:    1  ->  gratifications
-  15:    1  ->  hearst
-  16:    1  ->  i
-  17:    1  ->  installati
-  18:    1  ->  intellectual
-  19:    1  ->  into
-  20:    1  ->  its
-  21:    1  ->  itself
-  22:    1  ->  mak
-  23:    1  ->  mark
-  24:    1  ->  murra
-  25:    1  ->  obser
-  26:    1  ->  or
-  27:    1  ->  person's
-  28:    1  ->  prized
-  29:    1  ->  said
-  30:    1  ->  smiths
-  31:    1  ->  smiths'
-  32:    1  ->  someone
-  33:    1  ->  stakes
-  34:    1  ->  tell
-  35:    1  ->  though
-  36:    1  ->  to
-  37:    1  ->  who's
-  38:    1  ->  x
+  14:    1  ->  hearst
+  15:    1  ->  i
+  16:    1  ->  installati
+  17:    1  ->  intellectual
+  18:    1  ->  into
+  19:    1  ->  its
+  20:    1  ->  itself
+  21:    1  ->  mak
+  22:    1  ->  mark
+  23:    1  ->  obser
+  24:    1  ->  or
+  25:    1  ->  person's
+  26:    1  ->  prized
+  27:    1  ->  said
+  28:    1  ->  smiths
+  29:    1  ->  smiths'
+  30:    1  ->  someone
+  31:    1  ->  tell
+  32:    1  ->  though
+  33:    1  ->  to
+  34:    1  ->  who's
+  35:    1  ->  x
      -------
-        42
+        36
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (39)
-                                 With >=  1 occurrences (39)
+FALSELY RECOGNIZED               Total                 (35)
+                                 With >=  1 occurrences (35)
 
-   1:    3  ->  garnet
-   2:    2  ->  and
+   1:    2  ->  and
+   2:    1  ->  art
    3:    1  ->  as
-   4:    1  ->  calls
-   5:    1  ->  could
-   6:    1  ->  economy
-   7:    1  ->  film
-   8:    1  ->  flesh
-   9:    1  ->  gratification
-  10:    1  ->  he
-  11:    1  ->  her
-  12:    1  ->  how
-  13:    1  ->  hurst
-  14:    1  ->  in
-  15:    1  ->  installation
-  16:    1  ->  intellectuals
-  17:    1  ->  it
-  18:    1  ->  k.
-  19:    1  ->  know
-  20:    1  ->  making
-  21:    1  ->  market
-  22:    1  ->  not
-  23:    1  ->  ober
-  24:    1  ->  of
-  25:    1  ->  on
-  26:    1  ->  persons
-  27:    1  ->  priced
-  28:    1  ->  right
-  29:    1  ->  says
-  30:    1  ->  selfconscious
-  31:    1  ->  smith
-  32:    1  ->  smiths
-  33:    1  ->  stake
-  34:    1  ->  tells
-  35:    1  ->  this
-  36:    1  ->  thought
-  37:    1  ->  up
-  38:    1  ->  you
-  39:    1  ->  yourself
+   4:    1  ->  could
+   5:    1  ->  film
+   6:    1  ->  flesh
+   7:    1  ->  he
+   8:    1  ->  her
+   9:    1  ->  hirst
+  10:    1  ->  how
+  11:    1  ->  in
+  12:    1  ->  installation
+  13:    1  ->  intellectuals
+  14:    1  ->  it
+  15:    1  ->  k.
+  16:    1  ->  know
+  17:    1  ->  making
+  18:    1  ->  market
+  19:    1  ->  murakami
+  20:    1  ->  not
+  21:    1  ->  of
+  22:    1  ->  on
+  23:    1  ->  persons
+  24:    1  ->  priced
+  25:    1  ->  says
+  26:    1  ->  selfconscious
+  27:    1  ->  smith
+  28:    1  ->  smiths
+  29:    1  ->  tells
+  30:    1  ->  this
+  31:    1  ->  thought
+  32:    1  ->  undercelebrated
+  33:    1  ->  up
+  34:    1  ->  you
+  35:    1  ->  yourself
      -------
-        42
+        36
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

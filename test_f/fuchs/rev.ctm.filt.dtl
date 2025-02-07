@@ -12,163 +12,163 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    7.9%   (  75)
+Percent Total Error       =    8.1%   (  77)
 
-Percent Correct           =   92.8%   ( 882)
+Percent Correct           =   92.4%   ( 878)
 
-Percent Substitution      =    5.3%   (  50)
-Percent Deletions         =    1.9%   (  18)
-Percent Insertions        =    0.7%   (   7)
-Percent Word Accuracy     =   92.1%
+Percent Substitution      =    5.2%   (  49)
+Percent Deletions         =    2.4%   (  23)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   91.9%
 
 
 Ref. words                =           ( 950)
-Hyp. words                =           ( 939)
-Aligned words             =           ( 957)
+Hyp. words                =           ( 932)
+Aligned words             =           ( 955)
 
-CONFUSION PAIRS                  Total                 (47)
-                                 With >=  1 occurrences (47)
+CONFUSION PAIRS                  Total                 (46)
+                                 With >=  1 occurrences (46)
 
    1:    3  ->  in ==> and
    2:    2  ->  twins' ==> twins
    3:    1  ->  a ==> arm
    4:    1  ->  a ==> their
    5:    1  ->  a ==> tna
-   6:    1  ->  and ==> in
-   7:    1  ->  and ==> loving
-   8:    1  ->  ansem ==> and
-   9:    1  ->  ansem's ==> ansel's
-  10:    1  ->  attendant ==> attended
-  11:    1  ->  bandanna ==> bandana
-  12:    1  ->  broken ==> heartbroken
-  13:    1  ->  charles's ==> charles'
-  14:    1  ->  cle ==> cl
-  15:    1  ->  com ==> spycom
-  16:    1  ->  crushed ==> crush
-  17:    1  ->  doctor ==> dr
-  18:    1  ->  end ==> highend
-  19:    1  ->  families' ==> families
-  20:    1  ->  fourteenth ==> 14th
-  21:    1  ->  hamburger ==> hamburgers
-  22:    1  ->  ho ==> gungho
-  23:    1  ->  hundred ==> zero
-  24:    1  ->  kids' ==> kid's
-  25:    1  ->  meika ==> micah
-  26:    1  ->  mind ==> mine
-  27:    1  ->  mommas ==> mamas
-  28:    1  ->  motion ==> emotion
-  29:    1  ->  nights ==> knights
-  30:    1  ->  obsesso ==> o
-  31:    1  ->  on ==> in
-  32:    1  ->  pasa ==> kpaa
+   6:    1  ->  air ==> prints
+   7:    1  ->  and ==> in
+   8:    1  ->  and ==> loving
+   9:    1  ->  ansem ==> anselm
+  10:    1  ->  ansem's ==> anselm's
+  11:    1  ->  attendant ==> attended
+  12:    1  ->  bandanna ==> bandana
+  13:    1  ->  broken ==> heartbroken
+  14:    1  ->  colored ==> rustcolored
+  15:    1  ->  com ==> worldspycom
+  16:    1  ->  conditioned ==> airconditioned
+  17:    1  ->  crushed ==> crush
+  18:    1  ->  doctor ==> dr
+  19:    1  ->  duct ==> duck
+  20:    1  ->  end ==> highend
+  21:    1  ->  families' ==> families
+  22:    1  ->  fourteenth ==> 14th
+  23:    1  ->  hamburger ==> hamburgers
+  24:    1  ->  hundred ==> zero
+  25:    1  ->  kids' ==> kid's
+  26:    1  ->  m ==> s&m
+  27:    1  ->  meika ==> micah
+  28:    1  ->  mind ==> mine
+  29:    1  ->  mommas ==> mamas
+  30:    1  ->  motion ==> emotion
+  31:    1  ->  obsesso ==> o
+  32:    1  ->  on ==> in
   33:    1  ->  phat ==> fat
-  34:    1  ->  prowl ==> prow
-  35:    1  ->  pushe ==> push
-  36:    1  ->  saks ==> sacks
-  37:    1  ->  scheme ==> skiing
-  38:    1  ->  schemerhorn ==> horn
-  39:    1  ->  sleep ==> fecklessly
-  40:    1  ->  snakeskin ==> skin
-  41:    1  ->  speckle ==> speckled
-  42:    1  ->  stares ==> stairs
-  43:    1  ->  thing ==> something
-  44:    1  ->  up ==> windup
-  45:    1  ->  us ==> this
-  46:    1  ->  wack ==> whack
-  47:    1  ->  yo ==> yoyo
+  34:    1  ->  pushe ==> push
+  35:    1  ->  que ==> kay
+  36:    1  ->  scheme ==> skein
+  37:    1  ->  schemerhorn ==> shimmerhorn
+  38:    1  ->  sleep ==> fecklessly
+  39:    1  ->  snakeskin ==> skin
+  40:    1  ->  speckle ==> speckled
+  41:    1  ->  stares ==> stairs
+  42:    1  ->  thing ==> something
+  43:    1  ->  up ==> windup
+  44:    1  ->  us ==> this
+  45:    1  ->  wack ==> whack
+  46:    1  ->  yo ==> yoyo
      -------
-        50
+        49
 
 
 
-INSERTIONS                       Total                 (7)
-                                 With >=  1 occurrences (7)
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
 
    1:    1  ->  and
-   2:    1  ->  anso
-   3:    1  ->  it
-   4:    1  ->  obsess
-   5:    1  ->  shimmer
-   6:    1  ->  snake
-   7:    1  ->  the
+   2:    1  ->  it
+   3:    1  ->  obsess
+   4:    1  ->  snake
+   5:    1  ->  the
      -------
-         7
+         5
 
 
 
-DELETIONS                        Total                 (16)
-                                 With >=  1 occurrences (16)
+DELETIONS                        Total                 (20)
+                                 With >=  1 occurrences (20)
 
    1:    3  ->  dollar
-   2:    1  ->  and
-   3:    1  ->  dot
-   4:    1  ->  feckless
-   5:    1  ->  gung
-   6:    1  ->  have
-   7:    1  ->  heart
-   8:    1  ->  high
-   9:    1  ->  in
-  10:    1  ->  love
-  11:    1  ->  que
-  12:    1  ->  some
-  13:    1  ->  spy
-  14:    1  ->  t
-  15:    1  ->  wind
-  16:    1  ->  yo
+   2:    2  ->  and
+   3:    1  ->  cle
+   4:    1  ->  cracked
+   5:    1  ->  dot
+   6:    1  ->  feckless
+   7:    1  ->  have
+   8:    1  ->  heart
+   9:    1  ->  high
+  10:    1  ->  in
+  11:    1  ->  love
+  12:    1  ->  prince
+  13:    1  ->  rust
+  14:    1  ->  s
+  15:    1  ->  some
+  16:    1  ->  spy
+  17:    1  ->  t
+  18:    1  ->  wind
+  19:    1  ->  world
+  20:    1  ->  yo
      -------
-        18
+        23
 
 
 
-SUBSTITUTIONS                    Total                 (44)
-                                 With >=  1 occurrences (44)
+SUBSTITUTIONS                    Total                 (43)
+                                 With >=  1 occurrences (43)
 
    1:    3  ->  a
    2:    3  ->  in
    3:    2  ->  and
    4:    2  ->  twins'
-   5:    1  ->  ansem
-   6:    1  ->  ansem's
-   7:    1  ->  attendant
-   8:    1  ->  bandanna
-   9:    1  ->  broken
-  10:    1  ->  charles's
-  11:    1  ->  cle
+   5:    1  ->  air
+   6:    1  ->  ansem
+   7:    1  ->  ansem's
+   8:    1  ->  attendant
+   9:    1  ->  bandanna
+  10:    1  ->  broken
+  11:    1  ->  colored
   12:    1  ->  com
-  13:    1  ->  crushed
-  14:    1  ->  doctor
-  15:    1  ->  end
-  16:    1  ->  families'
-  17:    1  ->  fourteenth
-  18:    1  ->  hamburger
-  19:    1  ->  ho
-  20:    1  ->  hundred
-  21:    1  ->  kids'
-  22:    1  ->  meika
-  23:    1  ->  mind
-  24:    1  ->  mommas
-  25:    1  ->  motion
-  26:    1  ->  nights
-  27:    1  ->  obsesso
-  28:    1  ->  on
-  29:    1  ->  pasa
+  13:    1  ->  conditioned
+  14:    1  ->  crushed
+  15:    1  ->  doctor
+  16:    1  ->  duct
+  17:    1  ->  end
+  18:    1  ->  families'
+  19:    1  ->  fourteenth
+  20:    1  ->  hamburger
+  21:    1  ->  hundred
+  22:    1  ->  kids'
+  23:    1  ->  m
+  24:    1  ->  meika
+  25:    1  ->  mind
+  26:    1  ->  mommas
+  27:    1  ->  motion
+  28:    1  ->  obsesso
+  29:    1  ->  on
   30:    1  ->  phat
-  31:    1  ->  prowl
-  32:    1  ->  pushe
-  33:    1  ->  saks
-  34:    1  ->  scheme
-  35:    1  ->  schemerhorn
-  36:    1  ->  sleep
-  37:    1  ->  snakeskin
-  38:    1  ->  speckle
-  39:    1  ->  stares
-  40:    1  ->  thing
-  41:    1  ->  up
-  42:    1  ->  us
-  43:    1  ->  wack
-  44:    1  ->  yo
+  31:    1  ->  pushe
+  32:    1  ->  que
+  33:    1  ->  scheme
+  34:    1  ->  schemerhorn
+  35:    1  ->  sleep
+  36:    1  ->  snakeskin
+  37:    1  ->  speckle
+  38:    1  ->  stares
+  39:    1  ->  thing
+  40:    1  ->  up
+  41:    1  ->  us
+  42:    1  ->  wack
+  43:    1  ->  yo
      -------
-        50
+        49
 
 
 * NOTE: The 'Substitution' words are those reference words
@@ -178,53 +178,53 @@ SUBSTITUTIONS                    Total                 (44)
 FALSELY RECOGNIZED               Total                 (45)
                                  With >=  1 occurrences (45)
 
-   1:    4  ->  and
+   1:    3  ->  and
    2:    2  ->  in
    3:    2  ->  twins
    4:    1  ->  14th
-   5:    1  ->  ansel's
-   6:    1  ->  arm
-   7:    1  ->  attended
-   8:    1  ->  bandana
-   9:    1  ->  charles'
-  10:    1  ->  cl
+   5:    1  ->  airconditioned
+   6:    1  ->  anselm
+   7:    1  ->  anselm's
+   8:    1  ->  arm
+   9:    1  ->  attended
+  10:    1  ->  bandana
   11:    1  ->  crush
   12:    1  ->  dr
-  13:    1  ->  emotion
-  14:    1  ->  families
-  15:    1  ->  fat
-  16:    1  ->  fecklessly
-  17:    1  ->  gungho
+  13:    1  ->  duck
+  14:    1  ->  emotion
+  15:    1  ->  families
+  16:    1  ->  fat
+  17:    1  ->  fecklessly
   18:    1  ->  hamburgers
   19:    1  ->  heartbroken
   20:    1  ->  highend
-  21:    1  ->  horn
+  21:    1  ->  kay
   22:    1  ->  kid's
-  23:    1  ->  knights
-  24:    1  ->  kpaa
-  25:    1  ->  loving
-  26:    1  ->  mamas
-  27:    1  ->  micah
-  28:    1  ->  mine
-  29:    1  ->  o
-  30:    1  ->  prow
-  31:    1  ->  push
-  32:    1  ->  sacks
-  33:    1  ->  skiing
+  23:    1  ->  loving
+  24:    1  ->  mamas
+  25:    1  ->  micah
+  26:    1  ->  mine
+  27:    1  ->  o
+  28:    1  ->  prints
+  29:    1  ->  push
+  30:    1  ->  rustcolored
+  31:    1  ->  s&m
+  32:    1  ->  shimmerhorn
+  33:    1  ->  skein
   34:    1  ->  skin
   35:    1  ->  something
   36:    1  ->  speckled
-  37:    1  ->  spycom
-  38:    1  ->  stairs
-  39:    1  ->  their
-  40:    1  ->  this
-  41:    1  ->  tna
-  42:    1  ->  whack
-  43:    1  ->  windup
+  37:    1  ->  stairs
+  38:    1  ->  their
+  39:    1  ->  this
+  40:    1  ->  tna
+  41:    1  ->  whack
+  42:    1  ->  windup
+  43:    1  ->  worldspycom
   44:    1  ->  yoyo
   45:    1  ->  zero
      -------
-        50
+        49
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

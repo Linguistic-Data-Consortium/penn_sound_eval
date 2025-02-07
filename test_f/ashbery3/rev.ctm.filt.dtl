@@ -7,142 +7,112 @@ SENTENCE RECOGNITION PERFORMANCE
 
    with substitutions                   100.0%   (   1)
    with deletions                       100.0%   (   1)
-   with insertions                        0.0%   (   0)
+   with insertions                      100.0%   (   1)
 
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    4.1%   (  39)
+Percent Total Error       =    3.2%   (  30)
 
-Percent Correct           =   95.9%   ( 909)
+Percent Correct           =   96.9%   ( 919)
 
-Percent Substitution      =    2.5%   (  24)
-Percent Deletions         =    1.6%   (  15)
-Percent Insertions        =    0.0%   (   0)
-Percent Word Accuracy     =   95.9%
+Percent Substitution      =    1.2%   (  11)
+Percent Deletions         =    1.9%   (  18)
+Percent Insertions        =    0.1%   (   1)
+Percent Word Accuracy     =   96.8%
 
 
 Ref. words                =           ( 948)
-Hyp. words                =           ( 933)
-Aligned words             =           ( 948)
+Hyp. words                =           ( 931)
+Aligned words             =           ( 949)
 
-CONFUSION PAIRS                  Total                 (22)
-                                 With >=  1 occurrences (22)
+CONFUSION PAIRS                  Total                 (10)
+                                 With >=  1 occurrences (10)
 
-   1:    2  ->  ashbery ==> ashbury
-   2:    2  ->  mezzo ==> metzo
-   3:    1  ->  a ==> i
-   4:    1  ->  an ==> and
-   5:    1  ->  and ==> by
-   6:    1  ->  ashbery's ==> ashby's
-   7:    1  ->  ashbery's ==> berry's
-   8:    1  ->  discreet ==> discrete
-   9:    1  ->  elliott ==> elliot
-  10:    1  ->  eurydice ==> acy
-  11:    1  ->  its ==> bores
-  12:    1  ->  not ==> no
-  13:    1  ->  prosiness ==> prose
-  14:    1  ->  rounded ==> wellrounded
-  15:    1  ->  shall ==> should
-  16:    1  ->  stop ==> what's
-  17:    1  ->  syringa ==> sarga
-  18:    1  ->  syringa ==> singa
-  19:    1  ->  syringa ==> soa
-  20:    1  ->  tale ==> tail
-  21:    1  ->  the ==> a
-  22:    1  ->  would ==> will
+   1:    2  ->  soprano ==> mezzosoprano
+   2:    1  ->  a ==> i
+   3:    1  ->  an ==> and
+   4:    1  ->  and ==> by
+   5:    1  ->  not ==> no
+   6:    1  ->  rounded ==> wellrounded
+   7:    1  ->  shall ==> should
+   8:    1  ->  stop ==> what's
+   9:    1  ->  the ==> a
+  10:    1  ->  would ==> will
      -------
-        24
+        11
 
 
 
-INSERTIONS                       Total                 (0)
-                                 With >=  1 occurrences (0)
+INSERTIONS                       Total                 (1)
+                                 With >=  1 occurrences (1)
 
+   1:    1  ->  the
      -------
-         0
+         1
 
 
 
-DELETIONS                        Total                 (14)
-                                 With >=  1 occurrences (14)
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
 
    1:    2  ->  a
-   2:    1  ->  bore
-   3:    1  ->  did
-   4:    1  ->  going
-   5:    1  ->  had
-   6:    1  ->  in
-   7:    1  ->  not
-   8:    1  ->  p
-   9:    1  ->  r
-  10:    1  ->  so
-  11:    1  ->  that
-  12:    1  ->  to
-  13:    1  ->  well
-  14:    1  ->  x
+   2:    2  ->  mezzo
+   3:    1  ->  accurately
+   4:    1  ->  as
+   5:    1  ->  did
+   6:    1  ->  going
+   7:    1  ->  had
+   8:    1  ->  in
+   9:    1  ->  not
+  10:    1  ->  p
+  11:    1  ->  r
+  12:    1  ->  so
+  13:    1  ->  that
+  14:    1  ->  to
+  15:    1  ->  well
+  16:    1  ->  x
      -------
-        15
+        18
 
 
 
-SUBSTITUTIONS                    Total                 (19)
-                                 With >=  1 occurrences (19)
+SUBSTITUTIONS                    Total                 (10)
+                                 With >=  1 occurrences (10)
 
-   1:    3  ->  syringa
-   2:    2  ->  ashbery
-   3:    2  ->  ashbery's
-   4:    2  ->  mezzo
-   5:    1  ->  a
-   6:    1  ->  an
-   7:    1  ->  and
-   8:    1  ->  discreet
-   9:    1  ->  elliott
-  10:    1  ->  eurydice
-  11:    1  ->  its
-  12:    1  ->  not
-  13:    1  ->  prosiness
-  14:    1  ->  rounded
-  15:    1  ->  shall
-  16:    1  ->  stop
-  17:    1  ->  tale
-  18:    1  ->  the
-  19:    1  ->  would
+   1:    2  ->  soprano
+   2:    1  ->  a
+   3:    1  ->  an
+   4:    1  ->  and
+   5:    1  ->  not
+   6:    1  ->  rounded
+   7:    1  ->  shall
+   8:    1  ->  stop
+   9:    1  ->  the
+  10:    1  ->  would
      -------
-        24
+        11
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (22)
-                                 With >=  1 occurrences (22)
+FALSELY RECOGNIZED               Total                 (10)
+                                 With >=  1 occurrences (10)
 
-   1:    2  ->  ashbury
-   2:    2  ->  metzo
-   3:    1  ->  a
-   4:    1  ->  acy
-   5:    1  ->  and
-   6:    1  ->  ashby's
-   7:    1  ->  berry's
-   8:    1  ->  bores
-   9:    1  ->  by
-  10:    1  ->  discrete
-  11:    1  ->  elliot
-  12:    1  ->  i
-  13:    1  ->  no
-  14:    1  ->  prose
-  15:    1  ->  sarga
-  16:    1  ->  should
-  17:    1  ->  singa
-  18:    1  ->  soa
-  19:    1  ->  tail
-  20:    1  ->  wellrounded
-  21:    1  ->  what's
-  22:    1  ->  will
+   1:    2  ->  mezzosoprano
+   2:    1  ->  a
+   3:    1  ->  and
+   4:    1  ->  by
+   5:    1  ->  i
+   6:    1  ->  no
+   7:    1  ->  should
+   8:    1  ->  wellrounded
+   9:    1  ->  what's
+  10:    1  ->  will
      -------
-        24
+        11
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

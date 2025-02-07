@@ -12,148 +12,145 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    8.8%   ( 103)
+Percent Total Error       =    8.5%   (  99)
 
-Percent Correct           =   91.9%   (1072)
+Percent Correct           =   92.1%   (1075)
 
-Percent Substitution      =    7.1%   (  83)
-Percent Deletions         =    1.0%   (  12)
-Percent Insertions        =    0.7%   (   8)
-Percent Word Accuracy     =   91.2%
+Percent Substitution      =    6.6%   (  77)
+Percent Deletions         =    1.3%   (  15)
+Percent Insertions        =    0.6%   (   7)
+Percent Word Accuracy     =   91.5%
 
 
 Ref. words                =           (1167)
-Hyp. words                =           (1163)
-Aligned words             =           (1175)
+Hyp. words                =           (1159)
+Aligned words             =           (1174)
 
-CONFUSION PAIRS                  Total                 (79)
-                                 With >=  1 occurrences (79)
+CONFUSION PAIRS                  Total                 (73)
+                                 With >=  1 occurrences (73)
 
    1:    2  ->  less ==> list
    2:    2  ->  than ==> in
    3:    2  ->  that ==> but
    4:    2  ->  weight ==> wait
-   5:    1  ->  a ==> at
-   6:    1  ->  a ==> her
-   7:    1  ->  a ==> the
-   8:    1  ->  and ==> its
-   9:    1  ->  and ==> than
-  10:    1  ->  as ==> is
-  11:    1  ->  as ==> of
-  12:    1  ->  at ==> app
-  13:    1  ->  beckoned ==> beckon
-  14:    1  ->  begun ==> began
-  15:    1  ->  cake ==> cage
-  16:    1  ->  climbed ==> climbs
-  17:    1  ->  complied ==> complies
-  18:    1  ->  conifers ==> cones
-  19:    1  ->  count ==> 47th
-  20:    1  ->  daisy ==> daily
-  21:    1  ->  dalian ==> dalia
-  22:    1  ->  dimly ==> stimming
-  23:    1  ->  emotionally ==> motionless
-  24:    1  ->  enchantment ==> enchantments
-  25:    1  ->  ends ==> end
-  26:    1  ->  flesh ==> fleshed
-  27:    1  ->  forefinger ==> finger
-  28:    1  ->  go ==> gold
-  29:    1  ->  hath ==> have
-  30:    1  ->  have ==> am
-  31:    1  ->  heart ==> art
-  32:    1  ->  hips ==> hip
-  33:    1  ->  holds ==> holes
-  34:    1  ->  hundred ==> zero
-  35:    1  ->  in ==> that's
-  36:    1  ->  is ==> was
-  37:    1  ->  it ==> its
-  38:    1  ->  it ==> tu
-  39:    1  ->  just ==> obscene
-  40:    1  ->  land ==> lamps
-  41:    1  ->  mainly ==> namely
-  42:    1  ->  merely ==> mely
-  43:    1  ->  mine ==> mind
-  44:    1  ->  mold ==> mo
-  45:    1  ->  more ==> moore
-  46:    1  ->  of ==> a
-  47:    1  ->  of ==> can
-  48:    1  ->  of ==> off
-  49:    1  ->  path ==> paw
-  50:    1  ->  pen ==> oh
-  51:    1  ->  pickaxe ==> pickax
-  52:    1  ->  pithead ==> head
-  53:    1  ->  scorn ==> scon
-  54:    1  ->  seen ==> an
-  55:    1  ->  seventh ==> pam's
-  56:    1  ->  shaped ==> shape
-  57:    1  ->  sheet ==> sheets
-  58:    1  ->  should ==> shit
-  59:    1  ->  shoulder ==> shoulders
-  60:    1  ->  softest ==> softer
-  61:    1  ->  song ==> sung
-  62:    1  ->  start ==> stars
-  63:    1  ->  succor ==> sucker
-  64:    1  ->  that ==> at
-  65:    1  ->  the ==> a
-  66:    1  ->  then ==> end
-  67:    1  ->  there ==> also
-  68:    1  ->  two ==> to
-  69:    1  ->  unavailing ==> unveiling
-  70:    1  ->  unending ==> empty
-  71:    1  ->  until ==> till
-  72:    1  ->  vain ==> va
-  73:    1  ->  was ==> with
-  74:    1  ->  were ==> who
-  75:    1  ->  with ==> at
-  76:    1  ->  x ==> first
-  77:    1  ->  x ==> poem
-  78:    1  ->  yards' ==> yards
-  79:    1  ->  your ==> gesture
+   5:    1  ->  a ==> her
+   6:    1  ->  a ==> the
+   7:    1  ->  and ==> its
+   8:    1  ->  and ==> than
+   9:    1  ->  as ==> is
+  10:    1  ->  as ==> of
+  11:    1  ->  at ==> lamp
+  12:    1  ->  cake ==> cage
+  13:    1  ->  climbed ==> climbs
+  14:    1  ->  complied ==> complies
+  15:    1  ->  count ==> 47th
+  16:    1  ->  daisy ==> baby
+  17:    1  ->  dalian ==> dahlia
+  18:    1  ->  debut ==> davy
+  19:    1  ->  emotionally ==> motionless
+  20:    1  ->  enchantment ==> enchantments
+  21:    1  ->  ends ==> end
+  22:    1  ->  ensue ==> ensues
+  23:    1  ->  except ==> etc
+  24:    1  ->  go ==> gold
+  25:    1  ->  good ==> masterhood
+  26:    1  ->  hath ==> have
+  27:    1  ->  have ==> am
+  28:    1  ->  heart ==> art
+  29:    1  ->  hips ==> hip
+  30:    1  ->  holds ==> holes
+  31:    1  ->  hundred ==> zero
+  32:    1  ->  in ==> that's
+  33:    1  ->  is ==> was
+  34:    1  ->  it ==> its
+  35:    1  ->  it ==> what
+  36:    1  ->  just ==> obscene
+  37:    1  ->  land ==> lamp
+  38:    1  ->  mainly ==> namely
+  39:    1  ->  mine ==> mind
+  40:    1  ->  mold ==> mo
+  41:    1  ->  of ==> a
+  42:    1  ->  of ==> canter
+  43:    1  ->  of ==> off
+  44:    1  ->  path ==> paw
+  45:    1  ->  pithead ==> head
+  46:    1  ->  point ==> ballpoint
+  47:    1  ->  scarp ==> scarred
+  48:    1  ->  seen ==> an
+  49:    1  ->  seventh ==> pound's
+  50:    1  ->  shaped ==> shape
+  51:    1  ->  sheet ==> sheets
+  52:    1  ->  should ==> shit
+  53:    1  ->  shoulder ==> shoulders
+  54:    1  ->  spoken ==> softerspoken
+  55:    1  ->  start ==> stars
+  56:    1  ->  succor ==> soccer
+  57:    1  ->  that ==> at
+  58:    1  ->  the ==> a
+  59:    1  ->  then ==> end
+  60:    1  ->  there ==> also
+  61:    1  ->  to ==> thought
+  62:    1  ->  two ==> to
+  63:    1  ->  unending ==> empty
+  64:    1  ->  until ==> till
+  65:    1  ->  voices ==> chants
+  66:    1  ->  was ==> with
+  67:    1  ->  were ==> who
+  68:    1  ->  wherein ==> in
+  69:    1  ->  with ==> at
+  70:    1  ->  x ==> first
+  71:    1  ->  x ==> poem
+  72:    1  ->  yards' ==> yards
+  73:    1  ->  your ==> gesture
      -------
-        83
+        77
 
 
 
-INSERTIONS                       Total                 (8)
-                                 With >=  1 occurrences (8)
+INSERTIONS                       Total                 (7)
+                                 With >=  1 occurrences (7)
 
    1:    1  ->  a
    2:    1  ->  am
-   3:    1  ->  four
-   4:    1  ->  have
-   5:    1  ->  i
-   6:    1  ->  is
-   7:    1  ->  pit
-   8:    1  ->  soft
+   3:    1  ->  have
+   4:    1  ->  i
+   5:    1  ->  is
+   6:    1  ->  pit
+   7:    1  ->  where
      -------
-         8
+         7
 
 
 
-DELETIONS                        Total                 (11)
-                                 With >=  1 occurrences (11)
+DELETIONS                        Total                 (15)
+                                 With >=  1 occurrences (15)
 
-   1:    2  ->  to
-   2:    1  ->  and
-   3:    1  ->  f
-   4:    1  ->  forty
-   5:    1  ->  good
+   1:    1  ->  and
+   2:    1  ->  ball
+   3:    1  ->  chance
+   4:    1  ->  f
+   5:    1  ->  forty
    6:    1  ->  had
    7:    1  ->  have
    8:    1  ->  it
-   9:    1  ->  saw
-  10:    1  ->  with
-  11:    1  ->  x
+   9:    1  ->  master
+  10:    1  ->  saw
+  11:    1  ->  soft
+  12:    1  ->  softest
+  13:    1  ->  were
+  14:    1  ->  with
+  15:    1  ->  x
      -------
-        12
+        15
 
 
 
-SUBSTITUTIONS                    Total                 (70)
-                                 With >=  1 occurrences (70)
+SUBSTITUTIONS                    Total                 (65)
+                                 With >=  1 occurrences (65)
 
-   1:    3  ->  a
-   2:    3  ->  of
-   3:    3  ->  that
+   1:    3  ->  of
+   2:    3  ->  that
+   3:    2  ->  a
    4:    2  ->  and
    5:    2  ->  as
    6:    2  ->  it
@@ -162,104 +159,99 @@ SUBSTITUTIONS                    Total                 (70)
    9:    2  ->  weight
   10:    2  ->  x
   11:    1  ->  at
-  12:    1  ->  beckoned
-  13:    1  ->  begun
-  14:    1  ->  cake
-  15:    1  ->  climbed
-  16:    1  ->  complied
-  17:    1  ->  conifers
-  18:    1  ->  count
-  19:    1  ->  daisy
-  20:    1  ->  dalian
-  21:    1  ->  dimly
-  22:    1  ->  emotionally
-  23:    1  ->  enchantment
-  24:    1  ->  ends
-  25:    1  ->  flesh
-  26:    1  ->  forefinger
-  27:    1  ->  go
-  28:    1  ->  hath
-  29:    1  ->  have
-  30:    1  ->  heart
-  31:    1  ->  hips
-  32:    1  ->  holds
-  33:    1  ->  hundred
-  34:    1  ->  in
-  35:    1  ->  is
-  36:    1  ->  just
-  37:    1  ->  land
-  38:    1  ->  mainly
-  39:    1  ->  merely
-  40:    1  ->  mine
-  41:    1  ->  mold
-  42:    1  ->  more
-  43:    1  ->  path
-  44:    1  ->  pen
-  45:    1  ->  pickaxe
-  46:    1  ->  pithead
-  47:    1  ->  scorn
-  48:    1  ->  seen
-  49:    1  ->  seventh
-  50:    1  ->  shaped
-  51:    1  ->  sheet
-  52:    1  ->  should
-  53:    1  ->  shoulder
-  54:    1  ->  softest
-  55:    1  ->  song
-  56:    1  ->  start
-  57:    1  ->  succor
-  58:    1  ->  the
-  59:    1  ->  then
-  60:    1  ->  there
-  61:    1  ->  two
-  62:    1  ->  unavailing
-  63:    1  ->  unending
-  64:    1  ->  until
-  65:    1  ->  vain
-  66:    1  ->  was
-  67:    1  ->  were
-  68:    1  ->  with
-  69:    1  ->  yards'
-  70:    1  ->  your
+  12:    1  ->  cake
+  13:    1  ->  climbed
+  14:    1  ->  complied
+  15:    1  ->  count
+  16:    1  ->  daisy
+  17:    1  ->  dalian
+  18:    1  ->  debut
+  19:    1  ->  emotionally
+  20:    1  ->  enchantment
+  21:    1  ->  ends
+  22:    1  ->  ensue
+  23:    1  ->  except
+  24:    1  ->  go
+  25:    1  ->  good
+  26:    1  ->  hath
+  27:    1  ->  have
+  28:    1  ->  heart
+  29:    1  ->  hips
+  30:    1  ->  holds
+  31:    1  ->  hundred
+  32:    1  ->  in
+  33:    1  ->  is
+  34:    1  ->  just
+  35:    1  ->  land
+  36:    1  ->  mainly
+  37:    1  ->  mine
+  38:    1  ->  mold
+  39:    1  ->  path
+  40:    1  ->  pithead
+  41:    1  ->  point
+  42:    1  ->  scarp
+  43:    1  ->  seen
+  44:    1  ->  seventh
+  45:    1  ->  shaped
+  46:    1  ->  sheet
+  47:    1  ->  should
+  48:    1  ->  shoulder
+  49:    1  ->  spoken
+  50:    1  ->  start
+  51:    1  ->  succor
+  52:    1  ->  the
+  53:    1  ->  then
+  54:    1  ->  there
+  55:    1  ->  to
+  56:    1  ->  two
+  57:    1  ->  unending
+  58:    1  ->  until
+  59:    1  ->  voices
+  60:    1  ->  was
+  61:    1  ->  were
+  62:    1  ->  wherein
+  63:    1  ->  with
+  64:    1  ->  yards'
+  65:    1  ->  your
      -------
-        83
+        77
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (74)
-                                 With >=  1 occurrences (74)
+FALSELY RECOGNIZED               Total                 (67)
+                                 With >=  1 occurrences (67)
 
-   1:    3  ->  at
+   1:    3  ->  in
    2:    2  ->  a
-   3:    2  ->  but
-   4:    2  ->  end
-   5:    2  ->  in
+   3:    2  ->  at
+   4:    2  ->  but
+   5:    2  ->  end
    6:    2  ->  its
-   7:    2  ->  list
-   8:    2  ->  wait
-   9:    1  ->  47th
-  10:    1  ->  also
-  11:    1  ->  am
-  12:    1  ->  an
-  13:    1  ->  app
+   7:    2  ->  lamp
+   8:    2  ->  list
+   9:    2  ->  wait
+  10:    1  ->  47th
+  11:    1  ->  also
+  12:    1  ->  am
+  13:    1  ->  an
   14:    1  ->  art
-  15:    1  ->  beckon
-  16:    1  ->  began
+  15:    1  ->  baby
+  16:    1  ->  ballpoint
   17:    1  ->  cage
-  18:    1  ->  can
-  19:    1  ->  climbs
-  20:    1  ->  complies
-  21:    1  ->  cones
-  22:    1  ->  daily
-  23:    1  ->  dalia
+  18:    1  ->  canter
+  19:    1  ->  chants
+  20:    1  ->  climbs
+  21:    1  ->  complies
+  22:    1  ->  dahlia
+  23:    1  ->  davy
   24:    1  ->  empty
   25:    1  ->  enchantments
-  26:    1  ->  finger
-  27:    1  ->  first
-  28:    1  ->  fleshed
+  26:    1  ->  ensues
+  27:    1  ->  etc
+  28:    1  ->  first
   29:    1  ->  gesture
   30:    1  ->  gold
   31:    1  ->  have
@@ -268,46 +260,39 @@ FALSELY RECOGNIZED               Total                 (74)
   34:    1  ->  hip
   35:    1  ->  holes
   36:    1  ->  is
-  37:    1  ->  lamps
-  38:    1  ->  mely
-  39:    1  ->  mind
-  40:    1  ->  mo
-  41:    1  ->  moore
-  42:    1  ->  motionless
-  43:    1  ->  namely
-  44:    1  ->  obscene
-  45:    1  ->  of
-  46:    1  ->  off
-  47:    1  ->  oh
-  48:    1  ->  pam's
-  49:    1  ->  paw
-  50:    1  ->  pickax
-  51:    1  ->  poem
-  52:    1  ->  scon
-  53:    1  ->  shape
-  54:    1  ->  sheets
-  55:    1  ->  shit
-  56:    1  ->  shoulders
-  57:    1  ->  softer
-  58:    1  ->  stars
-  59:    1  ->  stimming
-  60:    1  ->  sucker
-  61:    1  ->  sung
-  62:    1  ->  than
-  63:    1  ->  that's
-  64:    1  ->  the
-  65:    1  ->  till
-  66:    1  ->  to
-  67:    1  ->  tu
-  68:    1  ->  unveiling
-  69:    1  ->  va
-  70:    1  ->  was
-  71:    1  ->  who
-  72:    1  ->  with
-  73:    1  ->  yards
-  74:    1  ->  zero
+  37:    1  ->  masterhood
+  38:    1  ->  mind
+  39:    1  ->  mo
+  40:    1  ->  motionless
+  41:    1  ->  namely
+  42:    1  ->  obscene
+  43:    1  ->  of
+  44:    1  ->  off
+  45:    1  ->  paw
+  46:    1  ->  poem
+  47:    1  ->  pound's
+  48:    1  ->  scarred
+  49:    1  ->  shape
+  50:    1  ->  sheets
+  51:    1  ->  shit
+  52:    1  ->  shoulders
+  53:    1  ->  soccer
+  54:    1  ->  softerspoken
+  55:    1  ->  stars
+  56:    1  ->  than
+  57:    1  ->  that's
+  58:    1  ->  the
+  59:    1  ->  thought
+  60:    1  ->  till
+  61:    1  ->  to
+  62:    1  ->  was
+  63:    1  ->  what
+  64:    1  ->  who
+  65:    1  ->  with
+  66:    1  ->  yards
+  67:    1  ->  zero
      -------
-        83
+        77
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

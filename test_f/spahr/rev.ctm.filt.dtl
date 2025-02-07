@@ -12,96 +12,76 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    7.2%   (  74)
+Percent Total Error       =    5.0%   (  51)
 
-Percent Correct           =   94.6%   ( 967)
+Percent Correct           =   95.8%   ( 979)
 
-Percent Substitution      =    5.0%   (  51)
+Percent Substitution      =    3.8%   (  39)
 Percent Deletions         =    0.4%   (   4)
-Percent Insertions        =    1.9%   (  19)
-Percent Word Accuracy     =   92.8%
+Percent Insertions        =    0.8%   (   8)
+Percent Word Accuracy     =   95.0%
 
 
 Ref. words                =           (1022)
-Hyp. words                =           (1037)
-Aligned words             =           (1041)
+Hyp. words                =           (1026)
+Aligned words             =           (1030)
 
-CONFUSION PAIRS                  Total                 (47)
-                                 With >=  1 occurrences (47)
+CONFUSION PAIRS                  Total                 (35)
+                                 With >=  1 occurrences (35)
 
    1:    3  ->  hundred ==> zero
    2:    3  ->  in ==> and
-   3:    1  ->  a ==> eye
-   4:    1  ->  bittern ==> bitter
-   5:    1  ->  bluet ==> it
-   6:    1  ->  chubsucker ==> sucker
-   7:    1  ->  claimed ==> claim
-   8:    1  ->  climactic ==> climatic
-   9:    1  ->  colombia ==> columbia
+   3:    1  ->  a ==> isle
+   4:    1  ->  bluet ==> it
+   5:    1  ->  burned ==> burn
+   6:    1  ->  claimed ==> claim
+   7:    1  ->  climactic ==> climatic
+   8:    1  ->  colombia ==> columbia
+   9:    1  ->  displacing ==> replacing
   10:    1  ->  duskywing ==> wing
-  11:    1  ->  gods ==> god's
-  12:    1  ->  goshawk ==> hawk
+  11:    1  ->  goshawk ==> hawk
+  12:    1  ->  humpback ==> humback
   13:    1  ->  ironcolor ==> color
-  14:    1  ->  jair ==> under
-  15:    1  ->  karner ==> carner
-  16:    1  ->  kiribati ==> carabas
-  17:    1  ->  kiribati ==> kiba
-  18:    1  ->  lake ==> chubb
-  19:    1  ->  lamprey ==> prix
-  20:    1  ->  leatherback ==> back
-  21:    1  ->  leedy's ==> rose
-  22:    1  ->  longear ==> ear
-  23:    1  ->  longhead ==> had
-  24:    1  ->  longtail ==> tail
-  25:    1  ->  massasauga ==> saga
-  26:    1  ->  monk's ==> monks
-  27:    1  ->  mooneye ==> eye
-  28:    1  ->  mottled ==> dusky
-  29:    1  ->  roseroot ==> root
-  30:    1  ->  shrike ==> strike
-  31:    1  ->  ten ==> oh
-  32:    1  ->  term ==> longterm
-  33:    1  ->  tern ==> turn
-  34:    1  ->  thirty ==> oh
-  35:    1  ->  this ==> the
-  36:    1  ->  tokelau ==> koala
-  37:    1  ->  tokelau ==> lau
-  38:    1  ->  try ==> tried
-  39:    1  ->  tuvalu ==> ou
-  40:    1  ->  tuvalu ==> ulu
-  41:    1  ->  tuvalu ==> velu
-  42:    1  ->  twenty ==> two
-  43:    1  ->  underwing ==> wing
-  44:    1  ->  valvata ==> valda
-  45:    1  ->  vatnajokull ==> cool
-  46:    1  ->  water ==> groundwater
-  47:    1  ->  water ==> underwater
+  14:    1  ->  jair ==> jara
+  15:    1  ->  karner ==> karnur
+  16:    1  ->  kiribati ==> karabas
+  17:    1  ->  longear ==> ear
+  18:    1  ->  massasauga ==> masasaga
+  19:    1  ->  monk's ==> monks
+  20:    1  ->  mooneye ==> eye
+  21:    1  ->  roseroot ==> root
+  22:    1  ->  smallish ==> smaller
+  23:    1  ->  ten ==> oh
+  24:    1  ->  term ==> longterm
+  25:    1  ->  tern ==> turn
+  26:    1  ->  thirty ==> oh
+  27:    1  ->  this ==> the
+  28:    1  ->  tokelau ==> takalao
+  29:    1  ->  tokelau ==> tokalau
+  30:    1  ->  try ==> tried
+  31:    1  ->  twenty ==> two
+  32:    1  ->  valvata ==> valvada
+  33:    1  ->  vatnajokull ==> natchakul
+  34:    1  ->  water ==> groundwater
+  35:    1  ->  water ==> underwater
      -------
-        51
+        39
 
 
 
-INSERTIONS                       Total                 (16)
-                                 With >=  1 occurrences (16)
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
 
-   1:    3  ->  long
-   2:    2  ->  two
-   3:    1  ->  blew
-   4:    1  ->  ghost
-   5:    1  ->  iron
-   6:    1  ->  jar
-   7:    1  ->  ladies
-   8:    1  ->  lamp
-   9:    1  ->  late
-  10:    1  ->  leather
-  11:    1  ->  masa
-  12:    1  ->  moon
-  13:    1  ->  not
-  14:    1  ->  tled
-  15:    1  ->  to
-  16:    1  ->  va
+   1:    1  ->  blew
+   2:    1  ->  dusky
+   3:    1  ->  ghost
+   4:    1  ->  iron
+   5:    1  ->  long
+   6:    1  ->  moon
+   7:    1  ->  rose
+   8:    1  ->  vat
      -------
-        19
+         8
 
 
 
@@ -117,108 +97,89 @@ DELETIONS                        Total                 (4)
 
 
 
-SUBSTITUTIONS                    Total                 (42)
-                                 With >=  1 occurrences (42)
+SUBSTITUTIONS                    Total                 (33)
+                                 With >=  1 occurrences (33)
 
    1:    3  ->  hundred
    2:    3  ->  in
-   3:    3  ->  tuvalu
-   4:    2  ->  kiribati
-   5:    2  ->  tokelau
-   6:    2  ->  water
-   7:    1  ->  a
-   8:    1  ->  bittern
-   9:    1  ->  bluet
-  10:    1  ->  chubsucker
-  11:    1  ->  claimed
-  12:    1  ->  climactic
-  13:    1  ->  colombia
-  14:    1  ->  duskywing
-  15:    1  ->  gods
-  16:    1  ->  goshawk
-  17:    1  ->  ironcolor
-  18:    1  ->  jair
-  19:    1  ->  karner
-  20:    1  ->  lake
-  21:    1  ->  lamprey
-  22:    1  ->  leatherback
-  23:    1  ->  leedy's
-  24:    1  ->  longear
-  25:    1  ->  longhead
-  26:    1  ->  longtail
-  27:    1  ->  massasauga
-  28:    1  ->  monk's
-  29:    1  ->  mooneye
-  30:    1  ->  mottled
-  31:    1  ->  roseroot
-  32:    1  ->  shrike
-  33:    1  ->  ten
-  34:    1  ->  term
-  35:    1  ->  tern
-  36:    1  ->  thirty
-  37:    1  ->  this
-  38:    1  ->  try
-  39:    1  ->  twenty
-  40:    1  ->  underwing
-  41:    1  ->  valvata
-  42:    1  ->  vatnajokull
+   3:    2  ->  tokelau
+   4:    2  ->  water
+   5:    1  ->  a
+   6:    1  ->  bluet
+   7:    1  ->  burned
+   8:    1  ->  claimed
+   9:    1  ->  climactic
+  10:    1  ->  colombia
+  11:    1  ->  displacing
+  12:    1  ->  duskywing
+  13:    1  ->  goshawk
+  14:    1  ->  humpback
+  15:    1  ->  ironcolor
+  16:    1  ->  jair
+  17:    1  ->  karner
+  18:    1  ->  kiribati
+  19:    1  ->  longear
+  20:    1  ->  massasauga
+  21:    1  ->  monk's
+  22:    1  ->  mooneye
+  23:    1  ->  roseroot
+  24:    1  ->  smallish
+  25:    1  ->  ten
+  26:    1  ->  term
+  27:    1  ->  tern
+  28:    1  ->  thirty
+  29:    1  ->  this
+  30:    1  ->  try
+  31:    1  ->  twenty
+  32:    1  ->  valvata
+  33:    1  ->  vatnajokull
      -------
-        51
+        39
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (44)
-                                 With >=  1 occurrences (44)
+FALSELY RECOGNIZED               Total                 (34)
+                                 With >=  1 occurrences (34)
 
    1:    3  ->  and
    2:    3  ->  zero
-   3:    2  ->  eye
-   4:    2  ->  oh
-   5:    2  ->  wing
-   6:    1  ->  back
-   7:    1  ->  bitter
-   8:    1  ->  carabas
-   9:    1  ->  carner
-  10:    1  ->  chubb
-  11:    1  ->  claim
-  12:    1  ->  climatic
-  13:    1  ->  color
-  14:    1  ->  columbia
-  15:    1  ->  cool
-  16:    1  ->  dusky
-  17:    1  ->  ear
-  18:    1  ->  god's
-  19:    1  ->  groundwater
-  20:    1  ->  had
-  21:    1  ->  hawk
-  22:    1  ->  it
-  23:    1  ->  kiba
-  24:    1  ->  koala
-  25:    1  ->  lau
-  26:    1  ->  longterm
-  27:    1  ->  monks
-  28:    1  ->  ou
-  29:    1  ->  prix
-  30:    1  ->  root
-  31:    1  ->  rose
-  32:    1  ->  saga
-  33:    1  ->  strike
-  34:    1  ->  sucker
-  35:    1  ->  tail
-  36:    1  ->  the
-  37:    1  ->  tried
-  38:    1  ->  turn
-  39:    1  ->  two
-  40:    1  ->  ulu
-  41:    1  ->  under
-  42:    1  ->  underwater
-  43:    1  ->  valda
-  44:    1  ->  velu
+   3:    2  ->  oh
+   4:    1  ->  burn
+   5:    1  ->  claim
+   6:    1  ->  climatic
+   7:    1  ->  color
+   8:    1  ->  columbia
+   9:    1  ->  ear
+  10:    1  ->  eye
+  11:    1  ->  groundwater
+  12:    1  ->  hawk
+  13:    1  ->  humback
+  14:    1  ->  isle
+  15:    1  ->  it
+  16:    1  ->  jara
+  17:    1  ->  karabas
+  18:    1  ->  karnur
+  19:    1  ->  longterm
+  20:    1  ->  masasaga
+  21:    1  ->  monks
+  22:    1  ->  natchakul
+  23:    1  ->  replacing
+  24:    1  ->  root
+  25:    1  ->  smaller
+  26:    1  ->  takalao
+  27:    1  ->  the
+  28:    1  ->  tokalau
+  29:    1  ->  tried
+  30:    1  ->  turn
+  31:    1  ->  two
+  32:    1  ->  underwater
+  33:    1  ->  valvada
+  34:    1  ->  wing
      -------
-        51
+        39
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

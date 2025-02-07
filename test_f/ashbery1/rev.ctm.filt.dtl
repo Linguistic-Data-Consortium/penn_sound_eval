@@ -12,79 +12,59 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    4.1%   (  45)
+Percent Total Error       =    3.7%   (  41)
 
-Percent Correct           =   96.4%   (1057)
+Percent Correct           =   96.7%   (1060)
 
-Percent Substitution      =    3.1%   (  34)
-Percent Deletions         =    0.5%   (   5)
-Percent Insertions        =    0.5%   (   6)
-Percent Word Accuracy     =   95.9%
+Percent Substitution      =    2.5%   (  27)
+Percent Deletions         =    0.8%   (   9)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   96.3%
 
 
 Ref. words                =           (1096)
-Hyp. words                =           (1097)
-Aligned words             =           (1102)
+Hyp. words                =           (1092)
+Aligned words             =           (1101)
 
-CONFUSION PAIRS                  Total                 (33)
-                                 With >=  1 occurrences (33)
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
 
    1:    2  ->  into ==> a
-   2:    1  ->  a ==> ec
-   3:    1  ->  alighting ==> lighting
-   4:    1  ->  and ==> in
+   2:    1  ->  afternoon ==> lateafternoon
+   3:    1  ->  and ==> in
+   4:    1  ->  anticipation ==> the
    5:    1  ->  as ==> his
-   6:    1  ->  days ==> is
-   7:    1  ->  fall ==> befall
-   8:    1  ->  fours ==> four
-   9:    1  ->  gnossienne ==> ian
+   6:    1  ->  century ==> nineteenthcentury
+   7:    1  ->  days ==> is
+   8:    1  ->  fall ==> befall
+   9:    1  ->  fours ==> four
   10:    1  ->  in ==> and
   11:    1  ->  its ==> it's
-  12:    1  ->  jicky ==> jy
-  13:    1  ->  later ==> late
-  14:    1  ->  motionless ==> emotionless
-  15:    1  ->  nineteenth ==> 19th
-  16:    1  ->  past ==> passed
-  17:    1  ->  pereire ==> pere
-  18:    1  ->  place ==> plus
-  19:    1  ->  plain ==> plane
-  20:    1  ->  reason's ==> reasons
-  21:    1  ->  refused ==> refuse
-  22:    1  ->  route ==> root
-  23:    1  ->  said ==> set
-  24:    1  ->  scheherazade ==> shaharazad
-  25:    1  ->  seem ==> seemed
-  26:    1  ->  soir ==> sua
-  27:    1  ->  spake ==> spand
-  28:    1  ->  survive ==> survived
-  29:    1  ->  take ==> taken
-  30:    1  ->  that ==> the
-  31:    1  ->  wariness ==> weariness
-  32:    1  ->  ways ==> way
-  33:    1  ->  wriggle ==> riggle
+  12:    1  ->  jicky ==> jickey
+  13:    1  ->  obstinacy ==> obscenity
+  14:    1  ->  past ==> passed
+  15:    1  ->  pereire ==> pereir
+  16:    1  ->  plain ==> plane
+  17:    1  ->  refused ==> refuse
+  18:    1  ->  route ==> root
+  19:    1  ->  said ==> set
+  20:    1  ->  seem ==> seemed
+  21:    1  ->  stick ==> bugandstick
+  22:    1  ->  survive ==> survived
+  23:    1  ->  take ==> taken
+  24:    1  ->  that ==> the
+  25:    1  ->  transform ==> transformed
+  26:    1  ->  ways ==> way
      -------
-        34
+        27
 
 
 
-INSERTIONS                       Total                 (5)
-                                 With >=  1 occurrences (5)
-
-   1:    2  ->  in
-   2:    1  ->  are
-   3:    1  ->  day
-   4:    1  ->  the
-   5:    1  ->  was
-     -------
-         6
-
-
-
-DELETIONS                        Total                 (4)
+INSERTIONS                       Total                 (4)
                                  With >=  1 occurrences (4)
 
-   1:    2  ->  s
-   2:    1  ->  be
+   1:    2  ->  in
+   2:    1  ->  day
    3:    1  ->  the
    4:    1  ->  was
      -------
@@ -92,88 +72,89 @@ DELETIONS                        Total                 (4)
 
 
 
-SUBSTITUTIONS                    Total                 (33)
-                                 With >=  1 occurrences (33)
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
+
+   1:    2  ->  s
+   2:    1  ->  and
+   3:    1  ->  be
+   4:    1  ->  bug
+   5:    1  ->  later
+   6:    1  ->  nineteenth
+   7:    1  ->  the
+   8:    1  ->  was
+     -------
+         9
+
+
+
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
 
    1:    2  ->  into
-   2:    1  ->  a
-   3:    1  ->  alighting
-   4:    1  ->  and
+   2:    1  ->  afternoon
+   3:    1  ->  and
+   4:    1  ->  anticipation
    5:    1  ->  as
-   6:    1  ->  days
-   7:    1  ->  fall
-   8:    1  ->  fours
-   9:    1  ->  gnossienne
+   6:    1  ->  century
+   7:    1  ->  days
+   8:    1  ->  fall
+   9:    1  ->  fours
   10:    1  ->  in
   11:    1  ->  its
   12:    1  ->  jicky
-  13:    1  ->  later
-  14:    1  ->  motionless
-  15:    1  ->  nineteenth
-  16:    1  ->  past
-  17:    1  ->  pereire
-  18:    1  ->  place
-  19:    1  ->  plain
-  20:    1  ->  reason's
-  21:    1  ->  refused
-  22:    1  ->  route
-  23:    1  ->  said
-  24:    1  ->  scheherazade
-  25:    1  ->  seem
-  26:    1  ->  soir
-  27:    1  ->  spake
-  28:    1  ->  survive
-  29:    1  ->  take
-  30:    1  ->  that
-  31:    1  ->  wariness
-  32:    1  ->  ways
-  33:    1  ->  wriggle
+  13:    1  ->  obstinacy
+  14:    1  ->  past
+  15:    1  ->  pereire
+  16:    1  ->  plain
+  17:    1  ->  refused
+  18:    1  ->  route
+  19:    1  ->  said
+  20:    1  ->  seem
+  21:    1  ->  stick
+  22:    1  ->  survive
+  23:    1  ->  take
+  24:    1  ->  that
+  25:    1  ->  transform
+  26:    1  ->  ways
      -------
-        34
+        27
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (33)
-                                 With >=  1 occurrences (33)
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
 
    1:    2  ->  a
-   2:    1  ->  19th
+   2:    2  ->  the
    3:    1  ->  and
    4:    1  ->  befall
-   5:    1  ->  ec
-   6:    1  ->  emotionless
-   7:    1  ->  four
-   8:    1  ->  his
-   9:    1  ->  ian
-  10:    1  ->  in
-  11:    1  ->  is
-  12:    1  ->  it's
-  13:    1  ->  jy
-  14:    1  ->  late
-  15:    1  ->  lighting
-  16:    1  ->  passed
-  17:    1  ->  pere
-  18:    1  ->  plane
-  19:    1  ->  plus
-  20:    1  ->  reasons
-  21:    1  ->  refuse
-  22:    1  ->  riggle
-  23:    1  ->  root
-  24:    1  ->  seemed
-  25:    1  ->  set
-  26:    1  ->  shaharazad
-  27:    1  ->  spand
-  28:    1  ->  sua
-  29:    1  ->  survived
-  30:    1  ->  taken
-  31:    1  ->  the
-  32:    1  ->  way
-  33:    1  ->  weariness
+   5:    1  ->  bugandstick
+   6:    1  ->  four
+   7:    1  ->  his
+   8:    1  ->  in
+   9:    1  ->  is
+  10:    1  ->  it's
+  11:    1  ->  jickey
+  12:    1  ->  lateafternoon
+  13:    1  ->  nineteenthcentury
+  14:    1  ->  obscenity
+  15:    1  ->  passed
+  16:    1  ->  pereir
+  17:    1  ->  plane
+  18:    1  ->  refuse
+  19:    1  ->  root
+  20:    1  ->  seemed
+  21:    1  ->  set
+  22:    1  ->  survived
+  23:    1  ->  taken
+  24:    1  ->  transformed
+  25:    1  ->  way
      -------
-        34
+        27
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

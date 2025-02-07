@@ -12,176 +12,164 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    8.6%   (  84)
+Percent Total Error       =    7.4%   (  72)
 
-Percent Correct           =   94.6%   ( 924)
+Percent Correct           =   94.4%   ( 922)
 
-Percent Substitution      =    4.1%   (  40)
-Percent Deletions         =    1.3%   (  13)
-Percent Insertions        =    3.2%   (  31)
-Percent Word Accuracy     =   91.4%
+Percent Substitution      =    3.7%   (  36)
+Percent Deletions         =    1.9%   (  19)
+Percent Insertions        =    1.7%   (  17)
+Percent Word Accuracy     =   92.6%
 
 
 Ref. words                =           ( 977)
-Hyp. words                =           ( 995)
-Aligned words             =           (1008)
+Hyp. words                =           ( 975)
+Aligned words             =           ( 994)
 
-CONFUSION PAIRS                  Total                 (32)
-                                 With >=  1 occurrences (32)
+CONFUSION PAIRS                  Total                 (25)
+                                 With >=  1 occurrences (25)
 
    1:    4  ->  hon ==> hun
-   2:    2  ->  bayhdole ==> do
-   3:    2  ->  burqa ==> bca
-   4:    2  ->  liberty ==> erti
-   5:    2  ->  x ==> corky
-   6:    2  ->  x ==> quickie
-   7:    1  ->  a ==> aha
-   8:    1  ->  and ==> in
-   9:    1  ->  burqa ==> oh
+   2:    3  ->  burqa ==> brca
+   3:    2  ->  and ==> in
+   4:    2  ->  creme ==> crème
+   5:    2  ->  liberty ==> erty
+   6:    2  ->  x ==> corky
+   7:    2  ->  x ==> levent
+   8:    2  ->  x ==> quixy
+   9:    1  ->  a ==> aha
   10:    1  ->  can ==> could
-  11:    1  ->  fashioned ==> oldfashioned
-  12:    1  ->  gene ==> jean
-  13:    1  ->  genies ==> genie
+  11:    1  ->  class ==> workingclass
+  12:    1  ->  fashioned ==> oldfashioned
+  13:    1  ->  funded ==> taxpayerfunded
   14:    1  ->  her ==> are
-  15:    1  ->  hons ==> huns
-  16:    1  ->  in ==> marchin
-  17:    1  ->  ipod ==> <laugh>
-  18:    1  ->  ipod ==> pod
-  19:    1  ->  lib ==> lip
-  20:    1  ->  lib ==> lube
-  21:    1  ->  liberty ==> liberte
-  22:    1  ->  our ==> gnar
-  23:    1  ->  our ==> r
-  24:    1  ->  p ==> asap
-  25:    1  ->  s ==> us
-  26:    1  ->  singalong ==> along
-  27:    1  ->  the ==> a
-  28:    1  ->  twentieth ==> 20th
-  29:    1  ->  would ==> will
-  30:    1  ->  x ==> <laugh>
-  31:    1  ->  x ==> la
-  32:    1  ->  x ==> lavan
+  15:    1  ->  in ==> marchin
+  16:    1  ->  known ==> littleknown
+  17:    1  ->  lib ==> lube
+  18:    1  ->  p ==> asap
+  19:    1  ->  s ==> us
+  20:    1  ->  skin ==> leopardskin
+  21:    1  ->  the ==> a
+  22:    1  ->  tortured ==> torture
+  23:    1  ->  twentieth ==> 20th
+  24:    1  ->  working ==> huns
+  25:    1  ->  would ==> will
      -------
-        40
+        36
 
 
 
-INSERTIONS                       Total                 (20)
-                                 With >=  1 occurrences (20)
+INSERTIONS                       Total                 (15)
+                                 With >=  1 occurrences (15)
 
-   1:    7  ->  <laugh>
-   2:    3  ->  i
-   3:    2  ->  by
-   4:    2  ->  gal
-   5:    2  ->  lib
-   6:    1  ->  a
-   7:    1  ->  am
-   8:    1  ->  at
-   9:    1  ->  bca
-  10:    1  ->  had
-  11:    1  ->  have
-  12:    1  ->  ipod
-  13:    1  ->  no
-  14:    1  ->  paper
-  15:    1  ->  pod
-  16:    1  ->  replacing
-  17:    1  ->  sing
-  18:    1  ->  skateboard
-  19:    1  ->  the
-  20:    1  ->  there's
+   1:    2  ->  gal
+   2:    2  ->  lib
+   3:    1  ->  a
+   4:    1  ->  am
+   5:    1  ->  at
+   6:    1  ->  had
+   7:    1  ->  have
+   8:    1  ->  i
+   9:    1  ->  ipod
+  10:    1  ->  no
+  11:    1  ->  paper
+  12:    1  ->  replacing
+  13:    1  ->  skateboard
+  14:    1  ->  the
+  15:    1  ->  there's
      -------
-        31
+        17
 
 
 
-DELETIONS                        Total                 (10)
-                                 With >=  1 occurrences (10)
+DELETIONS                        Total                 (16)
+                                 With >=  1 occurrences (16)
 
    1:    4  ->  a
    2:    1  ->  f
-   3:    1  ->  gene
-   4:    1  ->  m
-   5:    1  ->  march
-   6:    1  ->  microphone
-   7:    1  ->  oh
-   8:    1  ->  old
-   9:    1  ->  s
-  10:    1  ->  u
+   3:    1  ->  hons
+   4:    1  ->  leopard
+   5:    1  ->  little
+   6:    1  ->  m
+   7:    1  ->  march
+   8:    1  ->  microphone
+   9:    1  ->  oh
+  10:    1  ->  old
+  11:    1  ->  payer
+  12:    1  ->  pharmaceutical
+  13:    1  ->  s
+  14:    1  ->  tax
+  15:    1  ->  u
+  16:    1  ->  x
      -------
-        13
+        19
 
 
 
 SUBSTITUTIONS                    Total                 (23)
                                  With >=  1 occurrences (23)
 
-   1:    7  ->  x
+   1:    6  ->  x
    2:    4  ->  hon
    3:    3  ->  burqa
-   4:    3  ->  liberty
-   5:    2  ->  bayhdole
-   6:    2  ->  ipod
-   7:    2  ->  lib
-   8:    2  ->  our
-   9:    1  ->  a
-  10:    1  ->  and
-  11:    1  ->  can
-  12:    1  ->  fashioned
-  13:    1  ->  gene
-  14:    1  ->  genies
-  15:    1  ->  her
-  16:    1  ->  hons
-  17:    1  ->  in
-  18:    1  ->  p
-  19:    1  ->  s
-  20:    1  ->  singalong
-  21:    1  ->  the
-  22:    1  ->  twentieth
+   4:    2  ->  and
+   5:    2  ->  creme
+   6:    2  ->  liberty
+   7:    1  ->  a
+   8:    1  ->  can
+   9:    1  ->  class
+  10:    1  ->  fashioned
+  11:    1  ->  funded
+  12:    1  ->  her
+  13:    1  ->  in
+  14:    1  ->  known
+  15:    1  ->  lib
+  16:    1  ->  p
+  17:    1  ->  s
+  18:    1  ->  skin
+  19:    1  ->  the
+  20:    1  ->  tortured
+  21:    1  ->  twentieth
+  22:    1  ->  working
   23:    1  ->  would
      -------
-        40
+        36
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (31)
-                                 With >=  1 occurrences (31)
+FALSELY RECOGNIZED               Total                 (25)
+                                 With >=  1 occurrences (25)
 
    1:    4  ->  hun
-   2:    2  ->  <laugh>
-   3:    2  ->  bca
-   4:    2  ->  corky
-   5:    2  ->  do
-   6:    2  ->  erti
-   7:    2  ->  quickie
-   8:    1  ->  20th
-   9:    1  ->  a
-  10:    1  ->  aha
-  11:    1  ->  along
+   2:    3  ->  brca
+   3:    2  ->  corky
+   4:    2  ->  crème
+   5:    2  ->  erty
+   6:    2  ->  in
+   7:    2  ->  levent
+   8:    2  ->  quixy
+   9:    1  ->  20th
+  10:    1  ->  a
+  11:    1  ->  aha
   12:    1  ->  are
   13:    1  ->  asap
   14:    1  ->  could
-  15:    1  ->  genie
-  16:    1  ->  gnar
-  17:    1  ->  huns
-  18:    1  ->  in
-  19:    1  ->  jean
-  20:    1  ->  la
-  21:    1  ->  lavan
-  22:    1  ->  liberte
-  23:    1  ->  lip
-  24:    1  ->  lube
-  25:    1  ->  marchin
-  26:    1  ->  oh
-  27:    1  ->  oldfashioned
-  28:    1  ->  pod
-  29:    1  ->  r
-  30:    1  ->  us
-  31:    1  ->  will
+  15:    1  ->  huns
+  16:    1  ->  leopardskin
+  17:    1  ->  littleknown
+  18:    1  ->  lube
+  19:    1  ->  marchin
+  20:    1  ->  oldfashioned
+  21:    1  ->  taxpayerfunded
+  22:    1  ->  torture
+  23:    1  ->  us
+  24:    1  ->  will
+  25:    1  ->  workingclass
      -------
-        40
+        36
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

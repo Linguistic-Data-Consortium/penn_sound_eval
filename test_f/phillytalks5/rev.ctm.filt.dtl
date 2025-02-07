@@ -12,187 +12,197 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    7.8%   (  91)
+Percent Total Error       =    8.5%   ( 100)
 
-Percent Correct           =   93.1%   (1089)
+Percent Correct           =   92.2%   (1079)
 
-Percent Substitution      =    2.6%   (  30)
-Percent Deletions         =    4.4%   (  51)
-Percent Insertions        =    0.9%   (  10)
-Percent Word Accuracy     =   92.2%
+Percent Substitution      =    2.6%   (  31)
+Percent Deletions         =    5.1%   (  60)
+Percent Insertions        =    0.8%   (   9)
+Percent Word Accuracy     =   91.5%
 
 
 Ref. words                =           (1170)
-Hyp. words                =           (1129)
-Aligned words             =           (1180)
+Hyp. words                =           (1119)
+Aligned words             =           (1179)
 
-CONFUSION PAIRS                  Total                 (28)
-                                 With >=  1 occurrences (28)
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
 
-   1:    2  ->  safed ==> saed
-   2:    2  ->  there ==> it
-   3:    1  ->  a ==> are
-   4:    1  ->  a ==> the
-   5:    1  ->  absence ==> absent
-   6:    1  ->  at ==> this
+   1:    2  ->  there ==> it
+   2:    1  ->  a ==> are
+   3:    1  ->  a ==> the
+   4:    1  ->  absence ==> absinthe
+   5:    1  ->  at ==> this
+   6:    1  ->  cetera ==> etc
    7:    1  ->  could ==> can
-   8:    1  ->  etel ==> atel
-   9:    1  ->  her ==> out
-  10:    1  ->  is ==> as
-  11:    1  ->  it ==> invited
-  12:    1  ->  it ==> read
-  13:    1  ->  its ==> that's
-  14:    1  ->  kinship's ==> kinships
+   8:    1  ->  era ==> kamenir
+   9:    1  ->  et ==> etc
+  10:    1  ->  her ==> out
+  11:    1  ->  is ==> as
+  12:    1  ->  it ==> invited
+  13:    1  ->  it ==> read
+  14:    1  ->  its ==> that's
   15:    1  ->  midra ==> mid
-  16:    1  ->  midrashim ==> and
-  17:    1  ->  not ==> no
+  16:    1  ->  not ==> no
+  17:    1  ->  poetic ==> quasipoetic
   18:    1  ->  r ==> re
   19:    1  ->  round ==> around
-  20:    1  ->  saf ==> sa
-  21:    1  ->  see ==> it's
+  20:    1  ->  see ==> it's
+  21:    1  ->  sensorium ==> censorium
   22:    1  ->  sixteenth ==> 16th
   23:    1  ->  so ==> should
   24:    1  ->  the ==> an
-  25:    1  ->  they ==> there
-  26:    1  ->  well ==> and
-  27:    1  ->  yeah ==> another
-  28:    1  ->  yeah ==> but
+  25:    1  ->  theoretical ==> quasitheoretical
+  26:    1  ->  they ==> there
+  27:    1  ->  unquote ==> quoteunquote
+  28:    1  ->  well ==> and
+  29:    1  ->  yeah ==> another
+  30:    1  ->  yeah ==> but
      -------
-        30
+        31
 
 
 
-INSERTIONS                       Total                 (10)
-                                 With >=  1 occurrences (10)
+INSERTIONS                       Total                 (8)
+                                 With >=  1 occurrences (8)
 
-   1:    1  ->  <laugh>
-   2:    1  ->  and
-   3:    1  ->  k.
-   4:    1  ->  midras
-   5:    1  ->  o.
-   6:    1  ->  of
-   7:    1  ->  oh
-   8:    1  ->  that
-   9:    1  ->  the
-  10:    1  ->  things
+   1:    2  ->  and
+   2:    1  ->  k.
+   3:    1  ->  o.
+   4:    1  ->  of
+   5:    1  ->  oh
+   6:    1  ->  that
+   7:    1  ->  the
+   8:    1  ->  things
      -------
-        10
+         9
 
 
 
-DELETIONS                        Total                 (37)
-                                 With >=  1 occurrences (37)
+DELETIONS                        Total                 (43)
+                                 With >=  1 occurrences (43)
 
-   1:    4  ->  it
-   2:    3  ->  that
-   3:    3  ->  the
+   1:    5  ->  the
+   2:    4  ->  it
+   3:    3  ->  that
    4:    3  ->  w
    5:    2  ->  a
    6:    2  ->  i
    7:    2  ->  is
-   8:    2  ->  u
-   9:    2  ->  y
-  10:    1  ->  anth
-  11:    1  ->  c
-  12:    1  ->  colle
-  13:    1  ->  do
-  14:    1  ->  g
-  15:    1  ->  in
-  16:    1  ->  invite
-  17:    1  ->  it's
-  18:    1  ->  just
-  19:    1  ->  k.
-  20:    1  ->  know
-  21:    1  ->  m
-  22:    1  ->  n
-  23:    1  ->  name
-  24:    1  ->  o.
-  25:    1  ->  oh
-  26:    1  ->  or
-  27:    1  ->  p
-  28:    1  ->  people
-  29:    1  ->  qu
-  30:    1  ->  s
-  31:    1  ->  scream
-  32:    1  ->  too
-  33:    1  ->  v
-  34:    1  ->  wh
-  35:    1  ->  would
-  36:    1  ->  wq
-  37:    1  ->  wr
+   8:    2  ->  quasi
+   9:    2  ->  u
+  10:    2  ->  y
+  11:    1  ->  anth
+  12:    1  ->  c
+  13:    1  ->  cetera
+  14:    1  ->  colle
+  15:    1  ->  common
+  16:    1  ->  do
+  17:    1  ->  et
+  18:    1  ->  g
+  19:    1  ->  in
+  20:    1  ->  invite
+  21:    1  ->  it's
+  22:    1  ->  just
+  23:    1  ->  k.
+  24:    1  ->  know
+  25:    1  ->  m
+  26:    1  ->  n
+  27:    1  ->  name
+  28:    1  ->  o.
+  29:    1  ->  oh
+  30:    1  ->  or
+  31:    1  ->  p
+  32:    1  ->  people
+  33:    1  ->  qu
+  34:    1  ->  quote
+  35:    1  ->  s
+  36:    1  ->  saf
+  37:    1  ->  scream
+  38:    1  ->  too
+  39:    1  ->  v
+  40:    1  ->  wh
+  41:    1  ->  would
+  42:    1  ->  wq
+  43:    1  ->  wr
      -------
-        51
+        60
 
 
 
-SUBSTITUTIONS                    Total                 (25)
-                                 With >=  1 occurrences (25)
+SUBSTITUTIONS                    Total                 (27)
+                                 With >=  1 occurrences (27)
 
    1:    2  ->  a
    2:    2  ->  it
-   3:    2  ->  safed
-   4:    2  ->  there
-   5:    2  ->  yeah
-   6:    1  ->  absence
-   7:    1  ->  at
+   3:    2  ->  there
+   4:    2  ->  yeah
+   5:    1  ->  absence
+   6:    1  ->  at
+   7:    1  ->  cetera
    8:    1  ->  could
-   9:    1  ->  etel
-  10:    1  ->  her
-  11:    1  ->  is
-  12:    1  ->  its
-  13:    1  ->  kinship's
+   9:    1  ->  era
+  10:    1  ->  et
+  11:    1  ->  her
+  12:    1  ->  is
+  13:    1  ->  its
   14:    1  ->  midra
-  15:    1  ->  midrashim
-  16:    1  ->  not
+  15:    1  ->  not
+  16:    1  ->  poetic
   17:    1  ->  r
   18:    1  ->  round
-  19:    1  ->  saf
-  20:    1  ->  see
+  19:    1  ->  see
+  20:    1  ->  sensorium
   21:    1  ->  sixteenth
   22:    1  ->  so
   23:    1  ->  the
-  24:    1  ->  they
-  25:    1  ->  well
+  24:    1  ->  theoretical
+  25:    1  ->  they
+  26:    1  ->  unquote
+  27:    1  ->  well
      -------
-        30
+        31
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (27)
-                                 With >=  1 occurrences (27)
+FALSELY RECOGNIZED               Total                 (29)
+                                 With >=  1 occurrences (29)
 
-   1:    2  ->  and
+   1:    2  ->  etc
    2:    2  ->  it
-   3:    2  ->  saed
-   4:    1  ->  16th
-   5:    1  ->  absent
-   6:    1  ->  an
+   3:    1  ->  16th
+   4:    1  ->  absinthe
+   5:    1  ->  an
+   6:    1  ->  and
    7:    1  ->  another
    8:    1  ->  are
    9:    1  ->  around
   10:    1  ->  as
-  11:    1  ->  atel
-  12:    1  ->  but
-  13:    1  ->  can
+  11:    1  ->  but
+  12:    1  ->  can
+  13:    1  ->  censorium
   14:    1  ->  invited
   15:    1  ->  it's
-  16:    1  ->  kinships
+  16:    1  ->  kamenir
   17:    1  ->  mid
   18:    1  ->  no
   19:    1  ->  out
-  20:    1  ->  re
-  21:    1  ->  read
-  22:    1  ->  sa
-  23:    1  ->  should
-  24:    1  ->  that's
-  25:    1  ->  the
-  26:    1  ->  there
-  27:    1  ->  this
+  20:    1  ->  quasipoetic
+  21:    1  ->  quasitheoretical
+  22:    1  ->  quoteunquote
+  23:    1  ->  re
+  24:    1  ->  read
+  25:    1  ->  should
+  26:    1  ->  that's
+  27:    1  ->  the
+  28:    1  ->  there
+  29:    1  ->  this
      -------
-        30
+        31
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

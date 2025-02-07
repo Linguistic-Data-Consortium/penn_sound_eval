@@ -12,139 +12,131 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    5.9%   (  55)
+Percent Total Error       =    5.1%   (  48)
 
-Percent Correct           =   95.1%   ( 890)
+Percent Correct           =   95.5%   ( 894)
 
-Percent Substitution      =    4.1%   (  38)
+Percent Substitution      =    3.6%   (  34)
 Percent Deletions         =    0.9%   (   8)
-Percent Insertions        =    1.0%   (   9)
-Percent Word Accuracy     =   94.1%
+Percent Insertions        =    0.6%   (   6)
+Percent Word Accuracy     =   94.9%
 
 
 Ref. words                =           ( 936)
-Hyp. words                =           ( 937)
-Aligned words             =           ( 945)
+Hyp. words                =           ( 934)
+Aligned words             =           ( 942)
 
-CONFUSION PAIRS                  Total                 (34)
-                                 With >=  1 occurrences (34)
+CONFUSION PAIRS                  Total                 (30)
+                                 With >=  1 occurrences (30)
 
    1:    3  ->  in ==> and
    2:    2  ->  ninety ==> nine
    3:    2  ->  saint ==> st
    4:    1  ->  am ==> in
    5:    1  ->  and ==> in
-   6:    1  ->  arcane ==> archaic
-   7:    1  ->  conscious ==> unconscious
-   8:    1  ->  craft ==> cropped
-   9:    1  ->  dawn ==> don
-  10:    1  ->  declined ==> clyde
+   6:    1  ->  arcane ==> arcade
+   7:    1  ->  bound ==> timebound
+   8:    1  ->  constellation ==> constellations
+   9:    1  ->  craft ==> cropped
+  10:    1  ->  declined ==> collide
   11:    1  ->  four ==> 2004
-  12:    1  ->  i ==> a
-  13:    1  ->  in ==> pussing
+  12:    1  ->  humble ==> humbled
+  13:    1  ->  i ==> a
   14:    1  ->  is ==> a
   15:    1  ->  it ==> market
   16:    1  ->  jenn ==> jen
-  17:    1  ->  lease ==> perise
-  18:    1  ->  nests ==> nest
-  19:    1  ->  oft ==> off
+  17:    1  ->  lease ==> paralyze
+  18:    1  ->  oft ==> off
+  19:    1  ->  pirates ==> pirate's
   20:    1  ->  remains ==> to
   21:    1  ->  seeing ==> scene
   22:    1  ->  shelled ==> germane
-  23:    1  ->  tensegrity ==> tene
-  24:    1  ->  tent ==> oh
-  25:    1  ->  then ==> the
-  26:    1  ->  trace ==> traced
-  27:    1  ->  twenty ==> two
-  28:    1  ->  unaware ==> where
-  29:    1  ->  walfisch ==> fish
-  30:    1  ->  want ==> wants
-  31:    1  ->  what ==> when
-  32:    1  ->  yours' ==> yours
-  33:    1  ->  zizek ==> jacque
-  34:    1  ->  zizek ==> je
+  23:    1  ->  then ==> the
+  24:    1  ->  twenty ==> two
+  25:    1  ->  unaware ==> where
+  26:    1  ->  vines ==> lines
+  27:    1  ->  walfisch ==> walfish
+  28:    1  ->  want ==> wants
+  29:    1  ->  what ==> when
+  30:    1  ->  yours' ==> yours
      -------
-        38
+        34
 
 
 
-INSERTIONS                       Total                 (8)
-                                 With >=  1 occurrences (8)
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
 
-   1:    2  ->  <laugh>
-   2:    1  ->  <inaudible>
-   3:    1  ->  a
-   4:    1  ->  of
-   5:    1  ->  out
-   6:    1  ->  shell's
-   7:    1  ->  so
-   8:    1  ->  wild
+   1:    1  ->  <inaudible>
+   2:    1  ->  a
+   3:    1  ->  of
+   4:    1  ->  out
+   5:    1  ->  shells
+   6:    1  ->  so
      -------
-         9
+         6
 
 
 
 DELETIONS                        Total                 (8)
                                  With >=  1 occurrences (8)
 
-   1:    1  ->  and
-   2:    1  ->  in
-   3:    1  ->  mark
+   1:    1  ->  in
+   2:    1  ->  mark
+   3:    1  ->  nests
    4:    1  ->  para
-   5:    1  ->  puss
-   6:    1  ->  soil
-   7:    1  ->  thousand
+   5:    1  ->  soil
+   6:    1  ->  thousand
+   7:    1  ->  time
    8:    1  ->  two
      -------
          8
 
 
 
-SUBSTITUTIONS                    Total                 (32)
-                                 With >=  1 occurrences (32)
+SUBSTITUTIONS                    Total                 (30)
+                                 With >=  1 occurrences (30)
 
-   1:    4  ->  in
+   1:    3  ->  in
    2:    2  ->  ninety
    3:    2  ->  saint
-   4:    2  ->  zizek
-   5:    1  ->  am
-   6:    1  ->  and
-   7:    1  ->  arcane
-   8:    1  ->  conscious
+   4:    1  ->  am
+   5:    1  ->  and
+   6:    1  ->  arcane
+   7:    1  ->  bound
+   8:    1  ->  constellation
    9:    1  ->  craft
-  10:    1  ->  dawn
-  11:    1  ->  declined
-  12:    1  ->  four
+  10:    1  ->  declined
+  11:    1  ->  four
+  12:    1  ->  humble
   13:    1  ->  i
   14:    1  ->  is
   15:    1  ->  it
   16:    1  ->  jenn
   17:    1  ->  lease
-  18:    1  ->  nests
-  19:    1  ->  oft
+  18:    1  ->  oft
+  19:    1  ->  pirates
   20:    1  ->  remains
   21:    1  ->  seeing
   22:    1  ->  shelled
-  23:    1  ->  tensegrity
-  24:    1  ->  tent
-  25:    1  ->  then
-  26:    1  ->  trace
-  27:    1  ->  twenty
-  28:    1  ->  unaware
-  29:    1  ->  walfisch
-  30:    1  ->  want
-  31:    1  ->  what
-  32:    1  ->  yours'
+  23:    1  ->  then
+  24:    1  ->  twenty
+  25:    1  ->  unaware
+  26:    1  ->  vines
+  27:    1  ->  walfisch
+  28:    1  ->  want
+  29:    1  ->  what
+  30:    1  ->  yours'
      -------
-        38
+        34
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (32)
-                                 With >=  1 occurrences (32)
+FALSELY RECOGNIZED               Total                 (28)
+                                 With >=  1 occurrences (28)
 
    1:    3  ->  and
    2:    2  ->  a
@@ -152,34 +144,30 @@ FALSELY RECOGNIZED               Total                 (32)
    4:    2  ->  nine
    5:    2  ->  st
    6:    1  ->  2004
-   7:    1  ->  archaic
-   8:    1  ->  clyde
-   9:    1  ->  cropped
-  10:    1  ->  don
-  11:    1  ->  fish
-  12:    1  ->  germane
-  13:    1  ->  jacque
-  14:    1  ->  je
-  15:    1  ->  jen
-  16:    1  ->  market
-  17:    1  ->  nest
-  18:    1  ->  off
-  19:    1  ->  oh
-  20:    1  ->  perise
-  21:    1  ->  pussing
-  22:    1  ->  scene
-  23:    1  ->  tene
-  24:    1  ->  the
-  25:    1  ->  to
-  26:    1  ->  traced
-  27:    1  ->  two
-  28:    1  ->  unconscious
-  29:    1  ->  wants
-  30:    1  ->  when
-  31:    1  ->  where
-  32:    1  ->  yours
+   7:    1  ->  arcade
+   8:    1  ->  collide
+   9:    1  ->  constellations
+  10:    1  ->  cropped
+  11:    1  ->  germane
+  12:    1  ->  humbled
+  13:    1  ->  jen
+  14:    1  ->  lines
+  15:    1  ->  market
+  16:    1  ->  off
+  17:    1  ->  paralyze
+  18:    1  ->  pirate's
+  19:    1  ->  scene
+  20:    1  ->  the
+  21:    1  ->  timebound
+  22:    1  ->  to
+  23:    1  ->  two
+  24:    1  ->  walfish
+  25:    1  ->  wants
+  26:    1  ->  when
+  27:    1  ->  where
+  28:    1  ->  yours
      -------
-        38
+        34
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

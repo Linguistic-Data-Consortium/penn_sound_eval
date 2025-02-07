@@ -12,19 +12,19 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    8.3%   (  88)
+Percent Total Error       =    8.6%   (  91)
 
-Percent Correct           =   93.1%   ( 991)
+Percent Correct           =   92.3%   ( 982)
 
-Percent Substitution      =    6.0%   (  64)
-Percent Deletions         =    0.8%   (   9)
-Percent Insertions        =    1.4%   (  15)
-Percent Word Accuracy     =   91.7%
+Percent Substitution      =    5.9%   (  63)
+Percent Deletions         =    1.8%   (  19)
+Percent Insertions        =    0.8%   (   9)
+Percent Word Accuracy     =   91.4%
 
 
 Ref. words                =           (1064)
-Hyp. words                =           (1070)
-Aligned words             =           (1079)
+Hyp. words                =           (1054)
+Aligned words             =           (1073)
 
 CONFUSION PAIRS                  Total                 (41)
                                  With >=  1 occurrences (41)
@@ -32,124 +32,132 @@ CONFUSION PAIRS                  Total                 (41)
    1:   21  ->  ten ==> oh
    2:    2  ->  in ==> and
    3:    2  ->  seven ==> 7
-   4:    2  ->  takka ==> taaka
-   5:    1  ->  am ==> and
-   6:    1  ->  and ==> if
+   4:    1  ->  am ==> and
+   5:    1  ->  and ==> if
+   6:    1  ->  brattata ==> bratatata
    7:    1  ->  conspicuously ==> inconspicuously
    8:    1  ->  eighty ==> oh
    9:    1  ->  eleven ==> one
   10:    1  ->  fifteen ==> five
   11:    1  ->  five ==> 5
-  12:    1  ->  four ==> 4
-  13:    1  ->  hundred ==> zero
-  14:    1  ->  kane ==> cain
-  15:    1  ->  mig's ==> migs
-  16:    1  ->  neckties ==> ties
+  12:    1  ->  flatten ==> flattened
+  13:    1  ->  four ==> 4
+  14:    1  ->  hundred ==> zero
+  15:    1  ->  looking ==> goodlooking
+  16:    1  ->  new ==> my
   17:    1  ->  nineteen ==> nine
   18:    1  ->  none ==> nine
   19:    1  ->  pai ==> pa
-  20:    1  ->  reinhold ==> reinholdt
-  21:    1  ->  reticently ==> reticent
-  22:    1  ->  return ==> returned
-  23:    1  ->  ruff ==> herf
-  24:    1  ->  six ==> 36
-  25:    1  ->  sixteen ==> six
-  26:    1  ->  sixties ==> sixtys
-  27:    1  ->  sixty ==> six
-  28:    1  ->  ten ==> one
-  29:    1  ->  tex ==> tax
-  30:    1  ->  thing ==> things
-  31:    1  ->  tho ==> com
-  32:    1  ->  thr ==> three
-  33:    1  ->  thung ==> th
-  34:    1  ->  twelve ==> two
-  35:    1  ->  twenty ==> oh
-  36:    1  ->  twenty ==> two
-  37:    1  ->  vip ==> two
+  20:    1  ->  painted ==> he
+  21:    1  ->  return ==> returned
+  22:    1  ->  ring ==> two
+  23:    1  ->  ruff ==> hrff
+  24:    1  ->  shot ==> hotshot
+  25:    1  ->  six ==> 36
+  26:    1  ->  sixteen ==> six
+  27:    1  ->  sixties ==> sixtys
+  28:    1  ->  sixty ==> six
+  29:    1  ->  takka ==> takataka
+  30:    1  ->  ten ==> one
+  31:    1  ->  tex ==> tax
+  32:    1  ->  thing ==> things
+  33:    1  ->  tho ==> com
+  34:    1  ->  thr ==> three
+  35:    1  ->  twelve ==> two
+  36:    1  ->  twenty ==> oh
+  37:    1  ->  twenty ==> two
   38:    1  ->  wealth ==> well
   39:    1  ->  why ==> boy
-  40:    1  ->  why ==> my
-  41:    1  ->  wingding ==> winding
+  40:    1  ->  wingding ==> winding
+  41:    1  ->  york ==> soonyouwillhaveallofnewyork
      -------
-        64
+        63
 
 
 
-INSERTIONS                       Total                 (7)
-                                 With >=  1 occurrences (7)
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
 
-   1:    5  ->  <laugh>
-   2:    4  ->  one
-   3:    2  ->  i
-   4:    1  ->  a
-   5:    1  ->  neck
-   6:    1  ->  oh
-   7:    1  ->  will
-     -------
-        15
-
-
-
-DELETIONS                        Total                 (9)
-                                 With >=  1 occurrences (9)
-
-   1:    1  ->  bratatat
-   2:    1  ->  brattata
-   3:    1  ->  c
-   4:    1  ->  co
-   5:    1  ->  of
-   6:    1  ->  ring
-   7:    1  ->  s
-   8:    1  ->  thirty
-   9:    1  ->  toot
+   1:    4  ->  one
+   2:    2  ->  i
+   3:    1  ->  a
+   4:    1  ->  oh
+   5:    1  ->  will
      -------
          9
 
 
 
-SUBSTITUTIONS                    Total                 (38)
-                                 With >=  1 occurrences (38)
+DELETIONS                        Total                 (18)
+                                 With >=  1 occurrences (18)
+
+   1:    2  ->  of
+   2:    1  ->  all
+   3:    1  ->  bat
+   4:    1  ->  c
+   5:    1  ->  co
+   6:    1  ->  good
+   7:    1  ->  have
+   8:    1  ->  hot
+   9:    1  ->  knock
+  10:    1  ->  s
+  11:    1  ->  soon
+  12:    1  ->  takka
+  13:    1  ->  target
+  14:    1  ->  thirty
+  15:    1  ->  toot
+  16:    1  ->  why
+  17:    1  ->  will
+  18:    1  ->  you
+     -------
+        19
+
+
+
+SUBSTITUTIONS                    Total                 (39)
+                                 With >=  1 occurrences (39)
 
    1:   22  ->  ten
    2:    2  ->  in
    3:    2  ->  seven
-   4:    2  ->  takka
-   5:    2  ->  twenty
-   6:    2  ->  why
-   7:    1  ->  am
-   8:    1  ->  and
-   9:    1  ->  conspicuously
-  10:    1  ->  eighty
-  11:    1  ->  eleven
-  12:    1  ->  fifteen
-  13:    1  ->  five
+   4:    2  ->  twenty
+   5:    1  ->  am
+   6:    1  ->  and
+   7:    1  ->  brattata
+   8:    1  ->  conspicuously
+   9:    1  ->  eighty
+  10:    1  ->  eleven
+  11:    1  ->  fifteen
+  12:    1  ->  five
+  13:    1  ->  flatten
   14:    1  ->  four
   15:    1  ->  hundred
-  16:    1  ->  kane
-  17:    1  ->  mig's
-  18:    1  ->  neckties
-  19:    1  ->  nineteen
-  20:    1  ->  none
-  21:    1  ->  pai
-  22:    1  ->  reinhold
-  23:    1  ->  reticently
-  24:    1  ->  return
-  25:    1  ->  ruff
+  16:    1  ->  looking
+  17:    1  ->  new
+  18:    1  ->  nineteen
+  19:    1  ->  none
+  20:    1  ->  pai
+  21:    1  ->  painted
+  22:    1  ->  return
+  23:    1  ->  ring
+  24:    1  ->  ruff
+  25:    1  ->  shot
   26:    1  ->  six
   27:    1  ->  sixteen
   28:    1  ->  sixties
   29:    1  ->  sixty
-  30:    1  ->  tex
-  31:    1  ->  thing
-  32:    1  ->  tho
-  33:    1  ->  thr
-  34:    1  ->  thung
+  30:    1  ->  takka
+  31:    1  ->  tex
+  32:    1  ->  thing
+  33:    1  ->  tho
+  34:    1  ->  thr
   35:    1  ->  twelve
-  36:    1  ->  vip
-  37:    1  ->  wealth
+  36:    1  ->  wealth
+  37:    1  ->  why
   38:    1  ->  wingding
+  39:    1  ->  york
      -------
-        64
+        63
 
 
 * NOTE: The 'Substitution' words are those reference words
@@ -166,34 +174,34 @@ FALSELY RECOGNIZED               Total                 (33)
    5:    2  ->  nine
    6:    2  ->  one
    7:    2  ->  six
-   8:    2  ->  taaka
-   9:    1  ->  36
-  10:    1  ->  4
-  11:    1  ->  5
-  12:    1  ->  boy
-  13:    1  ->  cain
-  14:    1  ->  com
-  15:    1  ->  five
-  16:    1  ->  herf
-  17:    1  ->  if
-  18:    1  ->  inconspicuously
-  19:    1  ->  migs
-  20:    1  ->  my
-  21:    1  ->  pa
-  22:    1  ->  reinholdt
-  23:    1  ->  reticent
+   8:    1  ->  36
+   9:    1  ->  4
+  10:    1  ->  5
+  11:    1  ->  boy
+  12:    1  ->  bratatata
+  13:    1  ->  com
+  14:    1  ->  five
+  15:    1  ->  flattened
+  16:    1  ->  goodlooking
+  17:    1  ->  he
+  18:    1  ->  hotshot
+  19:    1  ->  hrff
+  20:    1  ->  if
+  21:    1  ->  inconspicuously
+  22:    1  ->  my
+  23:    1  ->  pa
   24:    1  ->  returned
   25:    1  ->  sixtys
-  26:    1  ->  tax
-  27:    1  ->  th
-  28:    1  ->  things
-  29:    1  ->  three
-  30:    1  ->  ties
+  26:    1  ->  soonyouwillhaveallofnewyork
+  27:    1  ->  takataka
+  28:    1  ->  tax
+  29:    1  ->  things
+  30:    1  ->  three
   31:    1  ->  well
   32:    1  ->  winding
   33:    1  ->  zero
      -------
-        64
+        63
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

@@ -12,99 +12,102 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    2.6%   (  17)
+Percent Total Error       =    2.8%   (  18)
 
-Percent Correct           =   98.1%   ( 635)
+Percent Correct           =   97.8%   ( 633)
 
-Percent Substitution      =    1.7%   (  11)
-Percent Deletions         =    0.2%   (   1)
-Percent Insertions        =    0.8%   (   5)
-Percent Word Accuracy     =   97.4%
+Percent Substitution      =    1.9%   (  12)
+Percent Deletions         =    0.3%   (   2)
+Percent Insertions        =    0.6%   (   4)
+Percent Word Accuracy     =   97.2%
 
 
 Ref. words                =           ( 647)
-Hyp. words                =           ( 651)
-Aligned words             =           ( 652)
+Hyp. words                =           ( 649)
+Aligned words             =           ( 651)
 
-CONFUSION PAIRS                  Total                 (11)
-                                 With >=  1 occurrences (11)
+CONFUSION PAIRS                  Total                 (12)
+                                 With >=  1 occurrences (12)
 
    1:    1  ->  breast ==> breath
    2:    1  ->  cock's ==> cocks
-   3:    1  ->  egret ==> egt
+   3:    1  ->  gullets ==> bullets
    4:    1  ->  hen's ==> hens
    5:    1  ->  in ==> and
    6:    1  ->  it ==> a
-   7:    1  ->  morning ==> mourning
+   7:    1  ->  jasper ==> jesper
    8:    1  ->  pallor ==> power
-   9:    1  ->  right ==> rite
-  10:    1  ->  tines ==> tins
-  11:    1  ->  towards ==> toward
+   9:    1  ->  pelican's ==> pelicans
+  10:    1  ->  pine ==> vine
+  11:    1  ->  right ==> rite
+  12:    1  ->  towards ==> toward
      -------
-        11
+        12
 
 
 
-INSERTIONS                       Total                 (5)
-                                 With >=  1 occurrences (5)
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
 
-   1:    1  ->  <affirmative>
-   2:    1  ->  heal
-   3:    1  ->  mmhmm
-   4:    1  ->  now
-   5:    1  ->  sound
+   1:    1  ->  heal
+   2:    1  ->  mmhmm
+   3:    1  ->  now
+   4:    1  ->  sound
      -------
-         5
+         4
 
 
 
-DELETIONS                        Total                 (1)
-                                 With >=  1 occurrences (1)
+DELETIONS                        Total                 (2)
+                                 With >=  1 occurrences (2)
 
    1:    1  ->  t
+   2:    1  ->  teats
      -------
-         1
+         2
 
 
 
-SUBSTITUTIONS                    Total                 (11)
-                                 With >=  1 occurrences (11)
+SUBSTITUTIONS                    Total                 (12)
+                                 With >=  1 occurrences (12)
 
    1:    1  ->  breast
    2:    1  ->  cock's
-   3:    1  ->  egret
+   3:    1  ->  gullets
    4:    1  ->  hen's
    5:    1  ->  in
    6:    1  ->  it
-   7:    1  ->  morning
+   7:    1  ->  jasper
    8:    1  ->  pallor
-   9:    1  ->  right
-  10:    1  ->  tines
-  11:    1  ->  towards
+   9:    1  ->  pelican's
+  10:    1  ->  pine
+  11:    1  ->  right
+  12:    1  ->  towards
      -------
-        11
+        12
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (11)
-                                 With >=  1 occurrences (11)
+FALSELY RECOGNIZED               Total                 (12)
+                                 With >=  1 occurrences (12)
 
    1:    1  ->  a
    2:    1  ->  and
    3:    1  ->  breath
-   4:    1  ->  cocks
-   5:    1  ->  egt
+   4:    1  ->  bullets
+   5:    1  ->  cocks
    6:    1  ->  hens
-   7:    1  ->  mourning
-   8:    1  ->  power
-   9:    1  ->  rite
-  10:    1  ->  tins
+   7:    1  ->  jesper
+   8:    1  ->  pelicans
+   9:    1  ->  power
+  10:    1  ->  rite
   11:    1  ->  toward
+  12:    1  ->  vine
      -------
-        11
+        12
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

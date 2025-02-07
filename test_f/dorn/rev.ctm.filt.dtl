@@ -12,158 +12,135 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    5.2%   (  43)
+Percent Total Error       =    4.6%   (  38)
 
-Percent Correct           =   95.3%   ( 791)
+Percent Correct           =   95.7%   ( 794)
 
-Percent Substitution      =    4.0%   (  33)
+Percent Substitution      =    3.6%   (  30)
 Percent Deletions         =    0.7%   (   6)
-Percent Insertions        =    0.5%   (   4)
-Percent Word Accuracy     =   94.8%
+Percent Insertions        =    0.2%   (   2)
+Percent Word Accuracy     =   95.4%
 
 
 Ref. words                =           ( 830)
-Hyp. words                =           ( 828)
-Aligned words             =           ( 834)
+Hyp. words                =           ( 826)
+Aligned words             =           ( 832)
 
-CONFUSION PAIRS                  Total                 (30)
-                                 With >=  1 occurrences (30)
+CONFUSION PAIRS                  Total                 (23)
+                                 With >=  1 occurrences (23)
 
-   1:    2  ->  aklavik ==> avic
-   2:    2  ->  moors ==> mos
-   3:    2  ->  oh ==> o
-   4:    1  ->  aklavik ==> alaik
-   5:    1  ->  aye ==> i
-   6:    1  ->  bay ==> bath
-   7:    1  ->  bolivar ==> boulevard
-   8:    1  ->  bombs ==> firebombs
-   9:    1  ->  chaste ==> chased
-  10:    1  ->  contained ==> selfcontained
-  11:    1  ->  croyden ==> cried
-  12:    1  ->  economic ==> geoeconomic
-  13:    1  ->  herriman ==> harriman
-  14:    1  ->  in ==> innu
-  15:    1  ->  insupportably ==> portably
-  16:    1  ->  interest ==> selfinterest
-  17:    1  ->  inuvik ==> vic
-  18:    1  ->  ishamelite ==> ishmaelite
-  19:    1  ->  nation ==> nations
-  20:    1  ->  pregnantly ==> ly
-  21:    1  ->  regents ==> regent
-  22:    1  ->  self ==> enlighten
-  23:    1  ->  shutter ==> shudder
-  24:    1  ->  stiltedly ==> stilted
-  25:    1  ->  stolidly ==> solidly
-  26:    1  ->  thence ==> vince
-  27:    1  ->  to ==> into
-  28:    1  ->  too ==> to
-  29:    1  ->  unsurpassable ==> unpassable
-  30:    1  ->  you ==> innu
+   1:    7  ->  aklavik ==> aklovik
+   2:    2  ->  aklavik ==> acklovick
+   3:    1  ->  aye ==> i
+   4:    1  ->  bay ==> bathe
+   5:    1  ->  bolivar ==> boulevard
+   6:    1  ->  bombs ==> firebombs
+   7:    1  ->  contained ==> selfcontained
+   8:    1  ->  croyden ==> croydon
+   9:    1  ->  economic ==> geoeconomic
+  10:    1  ->  grown ==> fullgrown
+  11:    1  ->  herriman ==> harriman
+  12:    1  ->  interest ==> selfinterest
+  13:    1  ->  ishamelite ==> ishmaelite
+  14:    1  ->  katmandu ==> catmandu
+  15:    1  ->  nation ==> nations
+  16:    1  ->  oh ==> o
+  17:    1  ->  productions ==> production
+  18:    1  ->  regents ==> regent
+  19:    1  ->  shaking ==> walking
+  20:    1  ->  shutter ==> shudder
+  21:    1  ->  strained ==> strange
+  22:    1  ->  to ==> into
+  23:    1  ->  too ==> to
      -------
-        33
+        30
 
 
 
-INSERTIONS                       Total                 (4)
-                                 With >=  1 occurrences (4)
+INSERTIONS                       Total                 (2)
+                                 With >=  1 occurrences (2)
 
-   1:    1  ->  ins
-   2:    1  ->  oh
-   3:    1  ->  old
-   4:    1  ->  the
+   1:    1  ->  old
+   2:    1  ->  the
      -------
-         4
+         2
 
 
 
-DELETIONS                        Total                 (6)
-                                 With >=  1 occurrences (6)
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
 
-   1:    1  ->  and
-   2:    1  ->  enlightened
+   1:    2  ->  self
+   2:    1  ->  and
    3:    1  ->  fire
-   4:    1  ->  geo
-   5:    1  ->  inuvik
-   6:    1  ->  self
+   4:    1  ->  full
+   5:    1  ->  geo
      -------
          6
 
 
 
-SUBSTITUTIONS                    Total                 (29)
-                                 With >=  1 occurrences (29)
+SUBSTITUTIONS                    Total                 (22)
+                                 With >=  1 occurrences (22)
 
-   1:    3  ->  aklavik
-   2:    2  ->  moors
-   3:    2  ->  oh
-   4:    1  ->  aye
-   5:    1  ->  bay
-   6:    1  ->  bolivar
-   7:    1  ->  bombs
-   8:    1  ->  chaste
-   9:    1  ->  contained
-  10:    1  ->  croyden
-  11:    1  ->  economic
-  12:    1  ->  herriman
-  13:    1  ->  in
-  14:    1  ->  insupportably
-  15:    1  ->  interest
-  16:    1  ->  inuvik
-  17:    1  ->  ishamelite
-  18:    1  ->  nation
-  19:    1  ->  pregnantly
-  20:    1  ->  regents
-  21:    1  ->  self
-  22:    1  ->  shutter
-  23:    1  ->  stiltedly
-  24:    1  ->  stolidly
-  25:    1  ->  thence
-  26:    1  ->  to
-  27:    1  ->  too
-  28:    1  ->  unsurpassable
-  29:    1  ->  you
+   1:    9  ->  aklavik
+   2:    1  ->  aye
+   3:    1  ->  bay
+   4:    1  ->  bolivar
+   5:    1  ->  bombs
+   6:    1  ->  contained
+   7:    1  ->  croyden
+   8:    1  ->  economic
+   9:    1  ->  grown
+  10:    1  ->  herriman
+  11:    1  ->  interest
+  12:    1  ->  ishamelite
+  13:    1  ->  katmandu
+  14:    1  ->  nation
+  15:    1  ->  oh
+  16:    1  ->  productions
+  17:    1  ->  regents
+  18:    1  ->  shaking
+  19:    1  ->  shutter
+  20:    1  ->  strained
+  21:    1  ->  to
+  22:    1  ->  too
      -------
-        33
+        30
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (29)
-                                 With >=  1 occurrences (29)
+FALSELY RECOGNIZED               Total                 (23)
+                                 With >=  1 occurrences (23)
 
-   1:    2  ->  avic
-   2:    2  ->  innu
-   3:    2  ->  mos
-   4:    2  ->  o
-   5:    1  ->  alaik
-   6:    1  ->  bath
-   7:    1  ->  boulevard
-   8:    1  ->  chased
-   9:    1  ->  cried
-  10:    1  ->  enlighten
-  11:    1  ->  firebombs
-  12:    1  ->  geoeconomic
-  13:    1  ->  harriman
-  14:    1  ->  i
-  15:    1  ->  into
-  16:    1  ->  ishmaelite
-  17:    1  ->  ly
-  18:    1  ->  nations
-  19:    1  ->  portably
-  20:    1  ->  regent
-  21:    1  ->  selfcontained
-  22:    1  ->  selfinterest
-  23:    1  ->  shudder
-  24:    1  ->  solidly
-  25:    1  ->  stilted
-  26:    1  ->  to
-  27:    1  ->  unpassable
-  28:    1  ->  vic
-  29:    1  ->  vince
+   1:    7  ->  aklovik
+   2:    2  ->  acklovick
+   3:    1  ->  bathe
+   4:    1  ->  boulevard
+   5:    1  ->  catmandu
+   6:    1  ->  croydon
+   7:    1  ->  firebombs
+   8:    1  ->  fullgrown
+   9:    1  ->  geoeconomic
+  10:    1  ->  harriman
+  11:    1  ->  i
+  12:    1  ->  into
+  13:    1  ->  ishmaelite
+  14:    1  ->  nations
+  15:    1  ->  o
+  16:    1  ->  production
+  17:    1  ->  regent
+  18:    1  ->  selfcontained
+  19:    1  ->  selfinterest
+  20:    1  ->  shudder
+  21:    1  ->  strange
+  22:    1  ->  to
+  23:    1  ->  walking
      -------
-        33
+        30
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

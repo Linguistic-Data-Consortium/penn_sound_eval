@@ -12,257 +12,230 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    8.3%   (  79)
+Percent Total Error       =    7.5%   (  71)
 
-Percent Correct           =   92.8%   ( 881)
+Percent Correct           =   93.8%   ( 890)
 
-Percent Substitution      =    6.7%   (  64)
-Percent Deletions         =    0.4%   (   4)
-Percent Insertions        =    1.2%   (  11)
-Percent Word Accuracy     =   91.7%
+Percent Substitution      =    5.7%   (  54)
+Percent Deletions         =    0.5%   (   5)
+Percent Insertions        =    1.3%   (  12)
+Percent Word Accuracy     =   92.5%
 
 
 Ref. words                =           ( 949)
 Hyp. words                =           ( 956)
-Aligned words             =           ( 960)
+Aligned words             =           ( 961)
 
-CONFUSION PAIRS                  Total                 (63)
-                                 With >=  1 occurrences (63)
+CONFUSION PAIRS                  Total                 (53)
+                                 With >=  1 occurrences (53)
 
    1:    2  ->  as ==> is
    2:    1  ->  an ==> and
-   3:    1  ->  anew ==> new
-   4:    1  ->  at ==> it
-   5:    1  ->  burned ==> bird
-   6:    1  ->  cobwebbed ==> cobweb
-   7:    1  ->  connotations ==> connotation
-   8:    1  ->  corners ==> corner
-   9:    1  ->  defies ==> buys
-  10:    1  ->  do ==> vote
-  11:    1  ->  face ==> base
-  12:    1  ->  fetch ==> vet
-  13:    1  ->  fifteen ==> five
-  14:    1  ->  filmy ==> filming
-  15:    1  ->  fogs ==> boggs
-  16:    1  ->  for ==> four
-  17:    1  ->  foretell ==> tell
-  18:    1  ->  fuchsias ==> is
-  19:    1  ->  googawed ==> god
-  20:    1  ->  gullywasher ==> washer
-  21:    1  ->  have ==> had
-  22:    1  ->  his ==> this
-  23:    1  ->  hoots ==> hoos
-  24:    1  ->  in ==> and
-  25:    1  ->  it ==> move
-  26:    1  ->  lingonberry ==> berry
-  27:    1  ->  lip ==> lisp
-  28:    1  ->  memory's ==> memories
-  29:    1  ->  mowed ==> moan
-  30:    1  ->  occurred ==> heard
-  31:    1  ->  one ==> my
-  32:    1  ->  orbison ==> orison
-  33:    1  ->  our ==> her
-  34:    1  ->  penny's ==> pennies
-  35:    1  ->  petals ==> pedal
-  36:    1  ->  phones ==> bones
-  37:    1  ->  pick ==> picked
-  38:    1  ->  plaster ==> plastic
-  39:    1  ->  return ==> returned
-  40:    1  ->  ring ==> rings
-  41:    1  ->  seizes ==> ceases
-  42:    1  ->  shower ==> showers
-  43:    1  ->  skivvies ==> skis
-  44:    1  ->  stain ==> staining
-  45:    1  ->  street ==> streak
-  46:    1  ->  stump ==> stu
-  47:    1  ->  swoony ==> swee
-  48:    1  ->  ten ==> oh
-  49:    1  ->  than ==> the
-  50:    1  ->  thick ==> pick
-  51:    1  ->  think ==> thick
-  52:    1  ->  through ==> for
-  53:    1  ->  train ==> crane
-  54:    1  ->  travelled ==> traveled
-  55:    1  ->  twelve ==> two
-  56:    1  ->  twenty ==> two
-  57:    1  ->  until ==> that
-  58:    1  ->  until ==> till
-  59:    1  ->  upon ==> pond
-  60:    1  ->  when ==> on
-  61:    1  ->  whistle ==> muscle
-  62:    1  ->  woolworth ==> woolworths
-  63:    1  ->  wrought ==> brought
+   3:    1  ->  burned ==> bird
+   4:    1  ->  cheesecake ==> cake
+   5:    1  ->  cobwebbed ==> cobweb
+   6:    1  ->  corners ==> corner
+   7:    1  ->  defies ==> buys
+   8:    1  ->  face ==> base
+   9:    1  ->  fifteen ==> five
+  10:    1  ->  fogs ==> bogs
+  11:    1  ->  for ==> four
+  12:    1  ->  fuchsias ==> fuchsia's
+  13:    1  ->  googawed ==> god
+  14:    1  ->  gullywasher ==> washer
+  15:    1  ->  have ==> had
+  16:    1  ->  high ==> hive
+  17:    1  ->  his ==> this
+  18:    1  ->  in ==> and
+  19:    1  ->  it ==> move
+  20:    1  ->  lingonberry ==> cheese
+  21:    1  ->  lip ==> lisp
+  22:    1  ->  memory's ==> memories
+  23:    1  ->  mowed ==> moment
+  24:    1  ->  occurred ==> heard
+  25:    1  ->  officious ==> vicious
+  26:    1  ->  one ==> my
+  27:    1  ->  our ==> her
+  28:    1  ->  penny's ==> pennies
+  29:    1  ->  people ==> peopled
+  30:    1  ->  pick ==> picked
+  31:    1  ->  plaster ==> plastic
+  32:    1  ->  quiets ==> quiet
+  33:    1  ->  return ==> returned
+  34:    1  ->  ring ==> rings
+  35:    1  ->  seizes ==> ceases
+  36:    1  ->  sore ==> sword's
+  37:    1  ->  stain ==> stains
+  38:    1  ->  street ==> a
+  39:    1  ->  ten ==> oh
+  40:    1  ->  than ==> the
+  41:    1  ->  throat ==> rope
+  42:    1  ->  through ==> for
+  43:    1  ->  train ==> crane
+  44:    1  ->  travelled ==> traveled
+  45:    1  ->  trunks ==> drones
+  46:    1  ->  turned ==> turn
+  47:    1  ->  twelve ==> two
+  48:    1  ->  twenty ==> two
+  49:    1  ->  until ==> that
+  50:    1  ->  until ==> till
+  51:    1  ->  upon ==> pond
+  52:    1  ->  when ==> on
+  53:    1  ->  whistle ==> muscle
      -------
-        64
+        54
 
 
 
-INSERTIONS                       Total                 (8)
-                                 With >=  1 occurrences (8)
+INSERTIONS                       Total                 (9)
+                                 With >=  1 occurrences (9)
 
-   1:    2  ->  a
-   2:    2  ->  g
-   3:    2  ->  one
-   4:    1  ->  and
-   5:    1  ->  for
-   6:    1  ->  fuchs
+   1:    3  ->  a
+   2:    2  ->  one
+   3:    1  ->  and
+   4:    1  ->  eating
+   5:    1  ->  g
+   6:    1  ->  gully
    7:    1  ->  so
-   8:    1  ->  wingham
+   8:    1  ->  streak
+   9:    1  ->  very
      -------
-        11
+        12
 
 
 
-DELETIONS                        Total                 (4)
-                                 With >=  1 occurrences (4)
+DELETIONS                        Total                 (5)
+                                 With >=  1 occurrences (5)
 
    1:    1  ->  and
-   2:    1  ->  both
-   3:    1  ->  tune
-   4:    1  ->  what
+   2:    1  ->  do
+   3:    1  ->  europe
+   4:    1  ->  tune
+   5:    1  ->  what
      -------
-         4
+         5
 
 
 
-SUBSTITUTIONS                    Total                 (62)
-                                 With >=  1 occurrences (62)
+SUBSTITUTIONS                    Total                 (52)
+                                 With >=  1 occurrences (52)
 
    1:    2  ->  as
    2:    2  ->  until
    3:    1  ->  an
-   4:    1  ->  anew
-   5:    1  ->  at
-   6:    1  ->  burned
-   7:    1  ->  cobwebbed
-   8:    1  ->  connotations
-   9:    1  ->  corners
-  10:    1  ->  defies
-  11:    1  ->  do
-  12:    1  ->  face
-  13:    1  ->  fetch
-  14:    1  ->  fifteen
-  15:    1  ->  filmy
-  16:    1  ->  fogs
-  17:    1  ->  for
-  18:    1  ->  foretell
-  19:    1  ->  fuchsias
-  20:    1  ->  googawed
-  21:    1  ->  gullywasher
-  22:    1  ->  have
-  23:    1  ->  his
-  24:    1  ->  hoots
-  25:    1  ->  in
-  26:    1  ->  it
-  27:    1  ->  lingonberry
-  28:    1  ->  lip
-  29:    1  ->  memory's
-  30:    1  ->  mowed
-  31:    1  ->  occurred
-  32:    1  ->  one
-  33:    1  ->  orbison
-  34:    1  ->  our
-  35:    1  ->  penny's
-  36:    1  ->  petals
-  37:    1  ->  phones
-  38:    1  ->  pick
-  39:    1  ->  plaster
-  40:    1  ->  return
-  41:    1  ->  ring
-  42:    1  ->  seizes
-  43:    1  ->  shower
-  44:    1  ->  skivvies
-  45:    1  ->  stain
-  46:    1  ->  street
-  47:    1  ->  stump
-  48:    1  ->  swoony
-  49:    1  ->  ten
-  50:    1  ->  than
-  51:    1  ->  thick
-  52:    1  ->  think
-  53:    1  ->  through
-  54:    1  ->  train
-  55:    1  ->  travelled
-  56:    1  ->  twelve
-  57:    1  ->  twenty
-  58:    1  ->  upon
-  59:    1  ->  when
-  60:    1  ->  whistle
-  61:    1  ->  woolworth
-  62:    1  ->  wrought
+   4:    1  ->  burned
+   5:    1  ->  cheesecake
+   6:    1  ->  cobwebbed
+   7:    1  ->  corners
+   8:    1  ->  defies
+   9:    1  ->  face
+  10:    1  ->  fifteen
+  11:    1  ->  fogs
+  12:    1  ->  for
+  13:    1  ->  fuchsias
+  14:    1  ->  googawed
+  15:    1  ->  gullywasher
+  16:    1  ->  have
+  17:    1  ->  high
+  18:    1  ->  his
+  19:    1  ->  in
+  20:    1  ->  it
+  21:    1  ->  lingonberry
+  22:    1  ->  lip
+  23:    1  ->  memory's
+  24:    1  ->  mowed
+  25:    1  ->  occurred
+  26:    1  ->  officious
+  27:    1  ->  one
+  28:    1  ->  our
+  29:    1  ->  penny's
+  30:    1  ->  people
+  31:    1  ->  pick
+  32:    1  ->  plaster
+  33:    1  ->  quiets
+  34:    1  ->  return
+  35:    1  ->  ring
+  36:    1  ->  seizes
+  37:    1  ->  sore
+  38:    1  ->  stain
+  39:    1  ->  street
+  40:    1  ->  ten
+  41:    1  ->  than
+  42:    1  ->  throat
+  43:    1  ->  through
+  44:    1  ->  train
+  45:    1  ->  travelled
+  46:    1  ->  trunks
+  47:    1  ->  turned
+  48:    1  ->  twelve
+  49:    1  ->  twenty
+  50:    1  ->  upon
+  51:    1  ->  when
+  52:    1  ->  whistle
      -------
-        64
+        54
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (60)
-                                 With >=  1 occurrences (60)
+FALSELY RECOGNIZED               Total                 (51)
+                                 With >=  1 occurrences (51)
 
-   1:    3  ->  is
-   2:    2  ->  and
+   1:    2  ->  and
+   2:    2  ->  is
    3:    2  ->  two
-   4:    1  ->  base
-   5:    1  ->  berry
+   4:    1  ->  a
+   5:    1  ->  base
    6:    1  ->  bird
-   7:    1  ->  boggs
-   8:    1  ->  bones
-   9:    1  ->  brought
-  10:    1  ->  buys
-  11:    1  ->  ceases
+   7:    1  ->  bogs
+   8:    1  ->  buys
+   9:    1  ->  cake
+  10:    1  ->  ceases
+  11:    1  ->  cheese
   12:    1  ->  cobweb
-  13:    1  ->  connotation
-  14:    1  ->  corner
-  15:    1  ->  crane
-  16:    1  ->  filming
-  17:    1  ->  five
-  18:    1  ->  for
-  19:    1  ->  four
+  13:    1  ->  corner
+  14:    1  ->  crane
+  15:    1  ->  drones
+  16:    1  ->  five
+  17:    1  ->  for
+  18:    1  ->  four
+  19:    1  ->  fuchsia's
   20:    1  ->  god
   21:    1  ->  had
   22:    1  ->  heard
   23:    1  ->  her
-  24:    1  ->  hoos
-  25:    1  ->  it
-  26:    1  ->  lisp
-  27:    1  ->  memories
-  28:    1  ->  moan
-  29:    1  ->  move
-  30:    1  ->  muscle
-  31:    1  ->  my
-  32:    1  ->  new
-  33:    1  ->  oh
-  34:    1  ->  on
-  35:    1  ->  orison
-  36:    1  ->  pedal
-  37:    1  ->  pennies
-  38:    1  ->  pick
-  39:    1  ->  picked
-  40:    1  ->  plastic
-  41:    1  ->  pond
-  42:    1  ->  returned
-  43:    1  ->  rings
-  44:    1  ->  showers
-  45:    1  ->  skis
-  46:    1  ->  staining
-  47:    1  ->  streak
-  48:    1  ->  stu
-  49:    1  ->  swee
-  50:    1  ->  tell
-  51:    1  ->  that
-  52:    1  ->  the
-  53:    1  ->  thick
-  54:    1  ->  this
-  55:    1  ->  till
-  56:    1  ->  traveled
-  57:    1  ->  vet
-  58:    1  ->  vote
-  59:    1  ->  washer
-  60:    1  ->  woolworths
+  24:    1  ->  hive
+  25:    1  ->  lisp
+  26:    1  ->  memories
+  27:    1  ->  moment
+  28:    1  ->  move
+  29:    1  ->  muscle
+  30:    1  ->  my
+  31:    1  ->  oh
+  32:    1  ->  on
+  33:    1  ->  pennies
+  34:    1  ->  peopled
+  35:    1  ->  picked
+  36:    1  ->  plastic
+  37:    1  ->  pond
+  38:    1  ->  quiet
+  39:    1  ->  returned
+  40:    1  ->  rings
+  41:    1  ->  rope
+  42:    1  ->  stains
+  43:    1  ->  sword's
+  44:    1  ->  that
+  45:    1  ->  the
+  46:    1  ->  this
+  47:    1  ->  till
+  48:    1  ->  traveled
+  49:    1  ->  turn
+  50:    1  ->  vicious
+  51:    1  ->  washer
      -------
-        64
+        54
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

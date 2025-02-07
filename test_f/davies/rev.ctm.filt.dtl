@@ -12,169 +12,160 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    5.5%   (  67)
+Percent Total Error       =    4.7%   (  57)
 
-Percent Correct           =   95.0%   (1152)
+Percent Correct           =   95.5%   (1158)
 
-Percent Substitution      =    2.6%   (  31)
-Percent Deletions         =    2.4%   (  29)
-Percent Insertions        =    0.6%   (   7)
-Percent Word Accuracy     =   94.5%
+Percent Substitution      =    2.1%   (  26)
+Percent Deletions         =    2.3%   (  28)
+Percent Insertions        =    0.2%   (   3)
+Percent Word Accuracy     =   95.3%
 
 
 Ref. words                =           (1212)
-Hyp. words                =           (1190)
-Aligned words             =           (1219)
+Hyp. words                =           (1187)
+Aligned words             =           (1215)
 
-CONFUSION PAIRS                  Total                 (30)
-                                 With >=  1 occurrences (30)
+CONFUSION PAIRS                  Total                 (26)
+                                 With >=  1 occurrences (26)
 
-   1:    2  ->  reuben ==> ruben
-   2:    1  ->  adjectivize ==> objectify
-   3:    1  ->  and ==> an
-   4:    1  ->  and ==> ka
-   5:    1  ->  arithmatic ==> arithmetic
-   6:    1  ->  at ==> it
-   7:    1  ->  bad ==> that
-   8:    1  ->  behinds ==> behind
-   9:    1  ->  cockhead ==> head
-  10:    1  ->  e ==> time
-  11:    1  ->  g ==> jg
-  12:    1  ->  in ==> and
-  13:    1  ->  inharmonious ==> harmonious
-  14:    1  ->  literatures ==> literature
-  15:    1  ->  m ==> tim
-  16:    1  ->  moved ==> lewd
-  17:    1  ->  peer ==> here
-  18:    1  ->  place ==> places
-  19:    1  ->  poems ==> poem
-  20:    1  ->  pore ==> poor
-  21:    1  ->  quran ==> koran
-  22:    1  ->  saint ==> st
-  23:    1  ->  sod ==> so
-  24:    1  ->  temps ==> <inaudible>
-  25:    1  ->  the ==> this
-  26:    1  ->  then ==> the
-  27:    1  ->  titled ==> called
-  28:    1  ->  tout ==> ku
-  29:    1  ->  valentines ==> valentine's
-  30:    1  ->  will ==> were
+   1:    1  ->  adjectivize ==> objectivize
+   2:    1  ->  and ==> an
+   3:    1  ->  arithmatic ==> arithmetic
+   4:    1  ->  at ==> it
+   5:    1  ->  bad ==> that
+   6:    1  ->  behinds ==> behind
+   7:    1  ->  finally ==> fondly
+   8:    1  ->  g ==> jg
+   9:    1  ->  in ==> and
+  10:    1  ->  moved ==> lewd
+  11:    1  ->  peer ==> here
+  12:    1  ->  place ==> places
+  13:    1  ->  pore ==> poor
+  14:    1  ->  prehistoric ==> postprehistoric
+  15:    1  ->  quran ==> koran
+  16:    1  ->  saint ==> st
+  17:    1  ->  sod ==> so
+  18:    1  ->  t'aime ==> temps
+  19:    1  ->  temps ==> t'aime
+  20:    1  ->  the ==> this
+  21:    1  ->  then ==> the
+  22:    1  ->  titled ==> called
+  23:    1  ->  tout ==> ku
+  24:    1  ->  valentines ==> valentine's
+  25:    1  ->  we ==> tepees
+  26:    1  ->  will ==> were
      -------
-        31
+        26
 
 
 
-INSERTIONS                       Total                 (7)
-                                 With >=  1 occurrences (7)
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
 
-   1:    1  ->  <laugh>
-   2:    1  ->  capitalism
-   3:    1  ->  cock
-   4:    1  ->  in
-   5:    1  ->  k.
-   6:    1  ->  me
-   7:    1  ->  o.
+   1:    1  ->  k.
+   2:    1  ->  me
+   3:    1  ->  o.
      -------
-         7
+         3
 
 
 
-DELETIONS                        Total                 (13)
-                                 With >=  1 occurrences (13)
+DELETIONS                        Total                 (19)
+                                 With >=  1 occurrences (19)
 
-   1:    8  ->  je
-   2:    5  ->  t'aime
+   1:    5  ->  je
+   2:    3  ->  i
    3:    3  ->  temps
-   4:    2  ->  beaucoup
-   5:    2  ->  comme
-   6:    2  ->  i
-   7:    1  ->  a
-   8:    1  ->  apostrophe
+   4:    2  ->  t'aime
+   5:    1  ->  a
+   6:    1  ->  and
+   7:    1  ->  apostrophe
+   8:    1  ->  beaucoup
    9:    1  ->  c
-  10:    1  ->  et
-  11:    1  ->  j
-  12:    1  ->  t
-  13:    1  ->  we
+  10:    1  ->  comme
+  11:    1  ->  e
+  12:    1  ->  et
+  13:    1  ->  how
+  14:    1  ->  j
+  15:    1  ->  love
+  16:    1  ->  m
+  17:    1  ->  post
+  18:    1  ->  teepees
+  19:    1  ->  you
      -------
-        29
+        28
 
 
 
-SUBSTITUTIONS                    Total                 (29)
-                                 With >=  1 occurrences (29)
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
 
-   1:    2  ->  and
-   2:    2  ->  reuben
-   3:    1  ->  adjectivize
-   4:    1  ->  arithmatic
-   5:    1  ->  at
-   6:    1  ->  bad
-   7:    1  ->  behinds
-   8:    1  ->  cockhead
-   9:    1  ->  e
-  10:    1  ->  g
-  11:    1  ->  in
-  12:    1  ->  inharmonious
-  13:    1  ->  literatures
-  14:    1  ->  m
-  15:    1  ->  moved
-  16:    1  ->  peer
-  17:    1  ->  place
-  18:    1  ->  poems
-  19:    1  ->  pore
-  20:    1  ->  quran
-  21:    1  ->  saint
-  22:    1  ->  sod
-  23:    1  ->  temps
-  24:    1  ->  the
-  25:    1  ->  then
-  26:    1  ->  titled
-  27:    1  ->  tout
-  28:    1  ->  valentines
-  29:    1  ->  will
+   1:    1  ->  adjectivize
+   2:    1  ->  and
+   3:    1  ->  arithmatic
+   4:    1  ->  at
+   5:    1  ->  bad
+   6:    1  ->  behinds
+   7:    1  ->  finally
+   8:    1  ->  g
+   9:    1  ->  in
+  10:    1  ->  moved
+  11:    1  ->  peer
+  12:    1  ->  place
+  13:    1  ->  pore
+  14:    1  ->  prehistoric
+  15:    1  ->  quran
+  16:    1  ->  saint
+  17:    1  ->  sod
+  18:    1  ->  t'aime
+  19:    1  ->  temps
+  20:    1  ->  the
+  21:    1  ->  then
+  22:    1  ->  titled
+  23:    1  ->  tout
+  24:    1  ->  valentines
+  25:    1  ->  we
+  26:    1  ->  will
      -------
-        31
+        26
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (30)
-                                 With >=  1 occurrences (30)
+FALSELY RECOGNIZED               Total                 (26)
+                                 With >=  1 occurrences (26)
 
-   1:    2  ->  ruben
-   2:    1  ->  <inaudible>
-   3:    1  ->  an
-   4:    1  ->  and
-   5:    1  ->  arithmetic
-   6:    1  ->  behind
-   7:    1  ->  called
-   8:    1  ->  harmonious
-   9:    1  ->  head
-  10:    1  ->  here
-  11:    1  ->  it
-  12:    1  ->  jg
-  13:    1  ->  ka
-  14:    1  ->  koran
-  15:    1  ->  ku
-  16:    1  ->  lewd
-  17:    1  ->  literature
-  18:    1  ->  objectify
-  19:    1  ->  places
-  20:    1  ->  poem
-  21:    1  ->  poor
-  22:    1  ->  so
-  23:    1  ->  st
-  24:    1  ->  that
-  25:    1  ->  the
-  26:    1  ->  this
-  27:    1  ->  tim
-  28:    1  ->  time
-  29:    1  ->  valentine's
-  30:    1  ->  were
+   1:    1  ->  an
+   2:    1  ->  and
+   3:    1  ->  arithmetic
+   4:    1  ->  behind
+   5:    1  ->  called
+   6:    1  ->  fondly
+   7:    1  ->  here
+   8:    1  ->  it
+   9:    1  ->  jg
+  10:    1  ->  koran
+  11:    1  ->  ku
+  12:    1  ->  lewd
+  13:    1  ->  objectivize
+  14:    1  ->  places
+  15:    1  ->  poor
+  16:    1  ->  postprehistoric
+  17:    1  ->  so
+  18:    1  ->  st
+  19:    1  ->  t'aime
+  20:    1  ->  temps
+  21:    1  ->  tepees
+  22:    1  ->  that
+  23:    1  ->  the
+  24:    1  ->  this
+  25:    1  ->  valentine's
+  26:    1  ->  were
      -------
-        31
+        26
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

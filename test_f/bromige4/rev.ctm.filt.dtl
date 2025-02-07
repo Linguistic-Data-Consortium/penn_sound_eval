@@ -12,196 +12,158 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    6.5%   (  61)
+Percent Total Error       =    5.0%   (  47)
 
-Percent Correct           =   94.7%   ( 886)
+Percent Correct           =   95.7%   ( 896)
 
-Percent Substitution      =    4.5%   (  42)
-Percent Deletions         =    0.9%   (   8)
-Percent Insertions        =    1.2%   (  11)
-Percent Word Accuracy     =   93.5%
+Percent Substitution      =    3.0%   (  28)
+Percent Deletions         =    1.3%   (  12)
+Percent Insertions        =    0.7%   (   7)
+Percent Word Accuracy     =   95.0%
 
 
 Ref. words                =           ( 936)
-Hyp. words                =           ( 939)
-Aligned words             =           ( 947)
+Hyp. words                =           ( 931)
+Aligned words             =           ( 943)
 
-CONFUSION PAIRS                  Total                 (41)
-                                 With >=  1 occurrences (41)
+CONFUSION PAIRS                  Total                 (28)
+                                 With >=  1 occurrences (28)
 
-   1:    2  ->  daisies ==> daisy
-   2:    1  ->  a ==> it
-   3:    1  ->  a ==> the
-   4:    1  ->  a ==> va
-   5:    1  ->  bangs ==> veins
-   6:    1  ->  barbary ==> barbery
-   7:    1  ->  barber's ==> barbara's
-   8:    1  ->  biggest ==> big
-   9:    1  ->  burgeoning ==> burging
-  10:    1  ->  cartwheel ==> will
-  11:    1  ->  chrysanthemums ==> kant's
-  12:    1  ->  door's ==> is
-  13:    1  ->  doorjamb ==> jamb
-  14:    1  ->  elder ==> elmer
-  15:    1  ->  extoll ==> extol
-  16:    1  ->  flower ==> flowers
-  17:    1  ->  forty ==> four
-  18:    1  ->  had ==> have
-  19:    1  ->  has ==> have
-  20:    1  ->  hassled ==> hassles
-  21:    1  ->  hits ==> it's
-  22:    1  ->  hundred ==> zero
-  23:    1  ->  jeers ==> cheers
-  24:    1  ->  like ==> slike
-  25:    1  ->  marigold ==> miracle
-  26:    1  ->  marigolds ==> miracles
-  27:    1  ->  nasturtiums ==> sters
-  28:    1  ->  nasturtiums ==> stirs
-  29:    1  ->  parque ==> que
-  30:    1  ->  paths ==> pads
-  31:    1  ->  rain ==> reign
-  32:    1  ->  roofs ==> roof
-  33:    1  ->  rooftop ==> rooftops
-  34:    1  ->  shingled ==> shingle
-  35:    1  ->  shops ==> shop
-  36:    1  ->  silk ==> graves
-  37:    1  ->  sluices ==> slus
-  38:    1  ->  state ==> estate
-  39:    1  ->  streets ==> <laugh>
-  40:    1  ->  ten ==> oh
-  41:    1  ->  week ==> weak
+   1:    1  ->  a ==> it
+   2:    1  ->  a ==> the
+   3:    1  ->  a ==> va
+   4:    1  ->  bangs ==> veins
+   5:    1  ->  be ==> soontobe
+   6:    1  ->  biggest ==> big
+   7:    1  ->  burgeoning ==> burgundy
+   8:    1  ->  cartwheel ==> will
+   9:    1  ->  door's ==> is
+  10:    1  ->  doorjamb ==> jams
+  11:    1  ->  elder ==> elmer
+  12:    1  ->  extoll ==> extol
+  13:    1  ->  flower ==> flowers
+  14:    1  ->  forty ==> four
+  15:    1  ->  had ==> have
+  16:    1  ->  has ==> have
+  17:    1  ->  hassled ==> hassles
+  18:    1  ->  hits ==> it's
+  19:    1  ->  hundred ==> zero
+  20:    1  ->  like ==> sylphlike
+  21:    1  ->  marigold ==> marigolds
+  22:    1  ->  poem ==> hall
+  23:    1  ->  rooftop ==> rooftops
+  24:    1  ->  shops ==> shop
+  25:    1  ->  state ==> estate
+  26:    1  ->  streets ==> mays
+  27:    1  ->  ten ==> oh
+  28:    1  ->  week ==> weak
      -------
-        42
+        28
 
 
 
-INSERTIONS                       Total                 (9)
-                                 With >=  1 occurrences (9)
+INSERTIONS                       Total                 (5)
+                                 With >=  1 occurrences (5)
 
-   1:    2  ->  <laugh>
-   2:    2  ->  door
+   1:    2  ->  door
+   2:    2  ->  the
    3:    1  ->  about
-   4:    1  ->  ms
-   5:    1  ->  park
-   6:    1  ->  street
-   7:    1  ->  the
-   8:    1  ->  they
-   9:    1  ->  with
+   4:    1  ->  park
+   5:    1  ->  they
      -------
-        11
+         7
 
 
 
-DELETIONS                        Total                 (8)
-                                 With >=  1 occurrences (8)
+DELETIONS                        Total                 (12)
+                                 With >=  1 occurrences (12)
 
-   1:    1  ->  cut
-   2:    1  ->  ea
-   3:    1  ->  este
-   4:    1  ->  grave
-   5:    1  ->  mi
+   1:    1  ->  cheers
+   2:    1  ->  cut
+   3:    1  ->  ea
+   4:    1  ->  may
+   5:    1  ->  of
    6:    1  ->  rain
-   7:    1  ->  v
-   8:    1  ->  yeah
+   7:    1  ->  silk
+   8:    1  ->  soon
+   9:    1  ->  the
+  10:    1  ->  to
+  11:    1  ->  v
+  12:    1  ->  yeah
      -------
-         8
+        12
 
 
 
-SUBSTITUTIONS                    Total                 (38)
-                                 With >=  1 occurrences (38)
+SUBSTITUTIONS                    Total                 (26)
+                                 With >=  1 occurrences (26)
 
    1:    3  ->  a
-   2:    2  ->  daisies
-   3:    2  ->  nasturtiums
-   4:    1  ->  bangs
-   5:    1  ->  barbary
-   6:    1  ->  barber's
-   7:    1  ->  biggest
-   8:    1  ->  burgeoning
-   9:    1  ->  cartwheel
-  10:    1  ->  chrysanthemums
-  11:    1  ->  door's
-  12:    1  ->  doorjamb
-  13:    1  ->  elder
-  14:    1  ->  extoll
-  15:    1  ->  flower
-  16:    1  ->  forty
-  17:    1  ->  had
-  18:    1  ->  has
-  19:    1  ->  hassled
-  20:    1  ->  hits
-  21:    1  ->  hundred
-  22:    1  ->  jeers
-  23:    1  ->  like
-  24:    1  ->  marigold
-  25:    1  ->  marigolds
-  26:    1  ->  parque
-  27:    1  ->  paths
-  28:    1  ->  rain
-  29:    1  ->  roofs
-  30:    1  ->  rooftop
-  31:    1  ->  shingled
-  32:    1  ->  shops
-  33:    1  ->  silk
-  34:    1  ->  sluices
-  35:    1  ->  state
-  36:    1  ->  streets
-  37:    1  ->  ten
-  38:    1  ->  week
+   2:    1  ->  bangs
+   3:    1  ->  be
+   4:    1  ->  biggest
+   5:    1  ->  burgeoning
+   6:    1  ->  cartwheel
+   7:    1  ->  door's
+   8:    1  ->  doorjamb
+   9:    1  ->  elder
+  10:    1  ->  extoll
+  11:    1  ->  flower
+  12:    1  ->  forty
+  13:    1  ->  had
+  14:    1  ->  has
+  15:    1  ->  hassled
+  16:    1  ->  hits
+  17:    1  ->  hundred
+  18:    1  ->  like
+  19:    1  ->  marigold
+  20:    1  ->  poem
+  21:    1  ->  rooftop
+  22:    1  ->  shops
+  23:    1  ->  state
+  24:    1  ->  streets
+  25:    1  ->  ten
+  26:    1  ->  week
      -------
-        42
+        28
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (40)
-                                 With >=  1 occurrences (40)
+FALSELY RECOGNIZED               Total                 (27)
+                                 With >=  1 occurrences (27)
 
-   1:    2  ->  daisy
-   2:    2  ->  have
-   3:    1  ->  <laugh>
-   4:    1  ->  barbara's
-   5:    1  ->  barbery
-   6:    1  ->  big
-   7:    1  ->  burging
-   8:    1  ->  cheers
-   9:    1  ->  elmer
-  10:    1  ->  estate
-  11:    1  ->  extol
-  12:    1  ->  flowers
-  13:    1  ->  four
-  14:    1  ->  graves
-  15:    1  ->  hassles
-  16:    1  ->  is
-  17:    1  ->  it
-  18:    1  ->  it's
-  19:    1  ->  jamb
-  20:    1  ->  kant's
-  21:    1  ->  miracle
-  22:    1  ->  miracles
-  23:    1  ->  oh
-  24:    1  ->  pads
-  25:    1  ->  que
-  26:    1  ->  reign
-  27:    1  ->  roof
-  28:    1  ->  rooftops
-  29:    1  ->  shingle
-  30:    1  ->  shop
-  31:    1  ->  slike
-  32:    1  ->  slus
-  33:    1  ->  sters
-  34:    1  ->  stirs
-  35:    1  ->  the
-  36:    1  ->  va
-  37:    1  ->  veins
-  38:    1  ->  weak
-  39:    1  ->  will
-  40:    1  ->  zero
+   1:    2  ->  have
+   2:    1  ->  big
+   3:    1  ->  burgundy
+   4:    1  ->  elmer
+   5:    1  ->  estate
+   6:    1  ->  extol
+   7:    1  ->  flowers
+   8:    1  ->  four
+   9:    1  ->  hall
+  10:    1  ->  hassles
+  11:    1  ->  is
+  12:    1  ->  it
+  13:    1  ->  it's
+  14:    1  ->  jams
+  15:    1  ->  marigolds
+  16:    1  ->  mays
+  17:    1  ->  oh
+  18:    1  ->  rooftops
+  19:    1  ->  shop
+  20:    1  ->  soontobe
+  21:    1  ->  sylphlike
+  22:    1  ->  the
+  23:    1  ->  va
+  24:    1  ->  veins
+  25:    1  ->  weak
+  26:    1  ->  will
+  27:    1  ->  zero
      -------
-        42
+        28
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

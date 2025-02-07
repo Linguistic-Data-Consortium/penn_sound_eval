@@ -7,114 +7,95 @@ SENTENCE RECOGNITION PERFORMANCE
 
    with substitutions                   100.0%   (   1)
    with deletions                       100.0%   (   1)
-   with insertions                      100.0%   (   1)
+   with insertions                        0.0%   (   0)
 
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    1.8%   (  21)
+Percent Total Error       =    1.1%   (  12)
 
-Percent Correct           =   98.4%   (1118)
+Percent Correct           =   98.9%   (1124)
 
-Percent Substitution      =    1.2%   (  14)
-Percent Deletions         =    0.4%   (   4)
-Percent Insertions        =    0.3%   (   3)
-Percent Word Accuracy     =   98.2%
+Percent Substitution      =    0.8%   (   9)
+Percent Deletions         =    0.3%   (   3)
+Percent Insertions        =    0.0%   (   0)
+Percent Word Accuracy     =   98.9%
 
 
 Ref. words                =           (1136)
-Hyp. words                =           (1135)
-Aligned words             =           (1139)
+Hyp. words                =           (1133)
+Aligned words             =           (1136)
 
-CONFUSION PAIRS                  Total                 (14)
-                                 With >=  1 occurrences (14)
+CONFUSION PAIRS                  Total                 (9)
+                                 With >=  1 occurrences (9)
 
    1:    1  ->  acquired ==> required
    2:    1  ->  elbows ==> elbow
-   3:    1  ->  is ==> highways
-   4:    1  ->  peering ==> appearing
-   5:    1  ->  scorned ==> scorn
-   6:    1  ->  selects ==> select
-   7:    1  ->  self ==> oneself
-   8:    1  ->  sufficed ==> suffice
-   9:    1  ->  ten ==> oh
-  10:    1  ->  the ==> for
-  11:    1  ->  they ==> their
-  12:    1  ->  twenty ==> two
-  13:    1  ->  unslings ==> slings
-  14:    1  ->  until ==> till
+   3:    1  ->  ladder ==> latter
+   4:    1  ->  self ==> oneself
+   5:    1  ->  ten ==> oh
+   6:    1  ->  the ==> for
+   7:    1  ->  they ==> their
+   8:    1  ->  twenty ==> two
+   9:    1  ->  until ==> till
      -------
-        14
+         9
 
 
 
-INSERTIONS                       Total                 (3)
+INSERTIONS                       Total                 (0)
+                                 With >=  1 occurrences (0)
+
+     -------
+         0
+
+
+
+DELETIONS                        Total                 (3)
                                  With >=  1 occurrences (3)
 
-   1:    1  ->  <laugh>
-   2:    1  ->  is
-   3:    1  ->  un
+   1:    1  ->  is
+   2:    1  ->  one's
+   3:    1  ->  th
      -------
          3
 
 
 
-DELETIONS                        Total                 (4)
-                                 With >=  1 occurrences (4)
-
-   1:    1  ->  highway
-   2:    1  ->  is
-   3:    1  ->  one's
-   4:    1  ->  th
-     -------
-         4
-
-
-
-SUBSTITUTIONS                    Total                 (14)
-                                 With >=  1 occurrences (14)
+SUBSTITUTIONS                    Total                 (9)
+                                 With >=  1 occurrences (9)
 
    1:    1  ->  acquired
    2:    1  ->  elbows
-   3:    1  ->  is
-   4:    1  ->  peering
-   5:    1  ->  scorned
-   6:    1  ->  selects
-   7:    1  ->  self
-   8:    1  ->  sufficed
-   9:    1  ->  ten
-  10:    1  ->  the
-  11:    1  ->  they
-  12:    1  ->  twenty
-  13:    1  ->  unslings
-  14:    1  ->  until
+   3:    1  ->  ladder
+   4:    1  ->  self
+   5:    1  ->  ten
+   6:    1  ->  the
+   7:    1  ->  they
+   8:    1  ->  twenty
+   9:    1  ->  until
      -------
-        14
+         9
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (14)
-                                 With >=  1 occurrences (14)
+FALSELY RECOGNIZED               Total                 (9)
+                                 With >=  1 occurrences (9)
 
-   1:    1  ->  appearing
-   2:    1  ->  elbow
-   3:    1  ->  for
-   4:    1  ->  highways
-   5:    1  ->  oh
-   6:    1  ->  oneself
-   7:    1  ->  required
-   8:    1  ->  scorn
-   9:    1  ->  select
-  10:    1  ->  slings
-  11:    1  ->  suffice
-  12:    1  ->  their
-  13:    1  ->  till
-  14:    1  ->  two
+   1:    1  ->  elbow
+   2:    1  ->  for
+   3:    1  ->  latter
+   4:    1  ->  oh
+   5:    1  ->  oneself
+   6:    1  ->  required
+   7:    1  ->  their
+   8:    1  ->  till
+   9:    1  ->  two
      -------
-        14
+         9
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

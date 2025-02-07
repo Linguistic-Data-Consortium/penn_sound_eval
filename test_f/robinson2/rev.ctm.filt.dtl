@@ -14,30 +14,30 @@ WORD RECOGNITION PERFORMANCE
 
 Percent Total Error       =    3.9%   (  40)
 
-Percent Correct           =   96.8%   (1003)
+Percent Correct           =   96.6%   (1001)
 
 Percent Substitution      =    2.3%   (  24)
-Percent Deletions         =    0.9%   (   9)
-Percent Insertions        =    0.7%   (   7)
+Percent Deletions         =    1.1%   (  11)
+Percent Insertions        =    0.5%   (   5)
 Percent Word Accuracy     =   96.1%
 
 
 Ref. words                =           (1036)
-Hyp. words                =           (1034)
-Aligned words             =           (1043)
+Hyp. words                =           (1030)
+Aligned words             =           (1041)
 
-CONFUSION PAIRS                  Total                 (19)
-                                 With >=  1 occurrences (19)
+CONFUSION PAIRS                  Total                 (20)
+                                 With >=  1 occurrences (20)
 
-   1:    5  ->  ten ==> oh
+   1:    4  ->  ten ==> oh
    2:    2  ->  in ==> and
    3:    1  ->  an ==> and
-   4:    1  ->  antimemoir ==> memoir
+   4:    1  ->  cane ==> came
    5:    1  ->  eyed ==> glassyeyed
    6:    1  ->  i ==> eye
    7:    1  ->  jena ==> gina
-   8:    1  ->  just ==> is
-   9:    1  ->  onrushing ==> rushing
+   8:    1  ->  juliana ==> julianna
+   9:    1  ->  just ==> is
   10:    1  ->  osman ==> osmond
   11:    1  ->  redman ==> redmond
   12:    1  ->  seventy ==> seven
@@ -48,26 +48,25 @@ CONFUSION PAIRS                  Total                 (19)
   17:    1  ->  wee ==> peewee
   18:    1  ->  wh ==> who
   19:    1  ->  x ==> and
+  20:    1  ->  year ==> tenyear
      -------
         24
 
 
 
-INSERTIONS                       Total                 (5)
-                                 With >=  1 occurrences (5)
+INSERTIONS                       Total                 (3)
+                                 With >=  1 occurrences (3)
 
    1:    3  ->  the
-   2:    1  ->  anti
-   3:    1  ->  have
-   4:    1  ->  it
-   5:    1  ->  on
+   2:    1  ->  have
+   3:    1  ->  it
      -------
-         7
+         5
 
 
 
-DELETIONS                        Total                 (8)
-                                 With >=  1 occurrences (8)
+DELETIONS                        Total                 (10)
+                                 With >=  1 occurrences (10)
 
    1:    2  ->  m
    2:    1  ->  an
@@ -75,26 +74,28 @@ DELETIONS                        Total                 (8)
    4:    1  ->  change
    5:    1  ->  glassy
    6:    1  ->  pee
-   7:    1  ->  w
-   8:    1  ->  x
+   7:    1  ->  ten
+   8:    1  ->  time
+   9:    1  ->  w
+  10:    1  ->  x
      -------
-         9
+        11
 
 
 
-SUBSTITUTIONS                    Total                 (18)
-                                 With >=  1 occurrences (18)
+SUBSTITUTIONS                    Total                 (19)
+                                 With >=  1 occurrences (19)
 
-   1:    5  ->  ten
+   1:    4  ->  ten
    2:    2  ->  in
    3:    2  ->  th
    4:    1  ->  an
-   5:    1  ->  antimemoir
+   5:    1  ->  cane
    6:    1  ->  eyed
    7:    1  ->  i
    8:    1  ->  jena
-   9:    1  ->  just
-  10:    1  ->  onrushing
+   9:    1  ->  juliana
+  10:    1  ->  just
   11:    1  ->  osman
   12:    1  ->  redman
   13:    1  ->  seventy
@@ -103,6 +104,7 @@ SUBSTITUTIONS                    Total                 (18)
   16:    1  ->  wee
   17:    1  ->  wh
   18:    1  ->  x
+  19:    1  ->  year
      -------
         24
 
@@ -111,26 +113,27 @@ SUBSTITUTIONS                    Total                 (18)
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (17)
-                                 With >=  1 occurrences (17)
+FALSELY RECOGNIZED               Total                 (18)
+                                 With >=  1 occurrences (18)
 
-   1:    5  ->  oh
-   2:    4  ->  and
-   3:    1  ->  changeups
-   4:    1  ->  eye
-   5:    1  ->  gina
-   6:    1  ->  glassyeyed
-   7:    1  ->  is
-   8:    1  ->  memoir
-   9:    1  ->  osmond
-  10:    1  ->  peewee
-  11:    1  ->  redmond
-  12:    1  ->  rushing
+   1:    4  ->  and
+   2:    4  ->  oh
+   3:    1  ->  came
+   4:    1  ->  changeups
+   5:    1  ->  eye
+   6:    1  ->  gina
+   7:    1  ->  glassyeyed
+   8:    1  ->  is
+   9:    1  ->  julianna
+  10:    1  ->  osmond
+  11:    1  ->  peewee
+  12:    1  ->  redmond
   13:    1  ->  seven
   14:    1  ->  spar
-  15:    1  ->  that
-  16:    1  ->  the
-  17:    1  ->  who
+  15:    1  ->  tenyear
+  16:    1  ->  that
+  17:    1  ->  the
+  18:    1  ->  who
      -------
         24
 

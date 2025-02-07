@@ -12,172 +12,148 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    7.7%   (  70)
+Percent Total Error       =    6.5%   (  59)
 
-Percent Correct           =   93.3%   ( 846)
+Percent Correct           =   94.3%   ( 855)
 
-Percent Substitution      =    6.3%   (  57)
-Percent Deletions         =    0.4%   (   4)
-Percent Insertions        =    1.0%   (   9)
-Percent Word Accuracy     =   92.3%
+Percent Substitution      =    4.9%   (  44)
+Percent Deletions         =    0.9%   (   8)
+Percent Insertions        =    0.8%   (   7)
+Percent Word Accuracy     =   93.5%
 
 
 Ref. words                =           ( 907)
-Hyp. words                =           ( 912)
-Aligned words             =           ( 916)
+Hyp. words                =           ( 906)
+Aligned words             =           ( 914)
 
-CONFUSION PAIRS                  Total                 (55)
-                                 With >=  1 occurrences (55)
+CONFUSION PAIRS                  Total                 (42)
+                                 With >=  1 occurrences (42)
 
    1:    3  ->  pear ==> pair
-   2:    1  ->  and ==> in
-   3:    1  ->  as ==> is
-   4:    1  ->  ask ==> asked
-   5:    1  ->  asked ==> ask
-   6:    1  ->  bannister ==> banister
-   7:    1  ->  bidden ==> forbidden
-   8:    1  ->  blade ==> splayed
-   9:    1  ->  circlet ==> cate
-  10:    1  ->  coif ==> coi
-  11:    1  ->  death ==> deft
-  12:    1  ->  deporting ==> supporting
-  13:    1  ->  felt ==> spelled
-  14:    1  ->  festoon ==> fast
-  15:    1  ->  ghosts ==> ghost
-  16:    1  ->  grasp ==> grasped
-  17:    1  ->  hold ==> cold
-  18:    1  ->  illuminates ==> eliminates
-  19:    1  ->  in ==> and
-  20:    1  ->  in ==> lighten
-  21:    1  ->  inaction ==> action
-  22:    1  ->  it ==> none
-  23:    1  ->  lilt ==> lt
-  24:    1  ->  lookingly ==> looking
-  25:    1  ->  mind ==> mime
-  26:    1  ->  mind ==> mine
-  27:    1  ->  nat ==> na
-  28:    1  ->  ode ==> owed
-  29:    1  ->  odes ==> os
-  30:    1  ->  other ==> utter
-  31:    1  ->  pair ==> pear
-  32:    1  ->  played ==> plagued
-  33:    1  ->  pleads ==> please
-  34:    1  ->  pray ==> prayed
-  35:    1  ->  purpled ==> purple
-  36:    1  ->  retinol ==> retinal
-  37:    1  ->  scorpionic ==> scorpion
-  38:    1  ->  scurried ==> scurred
-  39:    1  ->  shelley ==> shelly
-  40:    1  ->  slender ==> sle
-  41:    1  ->  stays ==> staves
-  42:    1  ->  thoreau ==> furrow
-  43:    1  ->  thus ==> best
-  44:    1  ->  unshed ==> sheed
-  45:    1  ->  wait ==> weight
-  46:    1  ->  windowpane ==> pane
-  47:    1  ->  woodcutters ==> cutters
-  48:    1  ->  world ==> word
-  49:    1  ->  writing ==> riding
-  50:    1  ->  x ==> artist
-  51:    1  ->  x ==> obsessed
-  52:    1  ->  x ==> psalmist
-  53:    1  ->  x ==> rest
-  54:    1  ->  x ==> salve
-  55:    1  ->  x ==> tish
+   2:    1  ->  as ==> is
+   3:    1  ->  ask ==> asked
+   4:    1  ->  asked ==> ask
+   5:    1  ->  bannister ==> canister
+   6:    1  ->  befall ==> fall
+   7:    1  ->  befallen ==> fallen
+   8:    1  ->  bidden ==> bitten
+   9:    1  ->  blade ==> splayed
+  10:    1  ->  deporting ==> supporting
+  11:    1  ->  felt ==> spelt
+  12:    1  ->  ghosts ==> ghost
+  13:    1  ->  hold ==> cold
+  14:    1  ->  illuminates ==> eliminates
+  15:    1  ->  in ==> and
+  16:    1  ->  in ==> lighten
+  17:    1  ->  inaction ==> action
+  18:    1  ->  it ==> none
+  19:    1  ->  limbs ==> forelimbs
+  20:    1  ->  mind ==> mime
+  21:    1  ->  mind ==> mine
+  22:    1  ->  nat ==> na
+  23:    1  ->  other ==> utter
+  24:    1  ->  played ==> plague
+  25:    1  ->  pleaded ==> pleated
+  26:    1  ->  plow ==> plough
+  27:    1  ->  pray ==> prayed
+  28:    1  ->  retinol ==> retinal
+  29:    1  ->  scores ==> squares
+  30:    1  ->  stays ==> staves
+  31:    1  ->  thoreau ==> furrow
+  32:    1  ->  wait ==> weight
+  33:    1  ->  windowpane ==> pane
+  34:    1  ->  wise ==> moonwise
+  35:    1  ->  world ==> word
+  36:    1  ->  writing ==> riding
+  37:    1  ->  x ==> artist
+  38:    1  ->  x ==> palimpsest
+  39:    1  ->  x ==> psalmist
+  40:    1  ->  x ==> rest
+  41:    1  ->  x ==> sav
+  42:    1  ->  x ==> tigrish
      -------
-        57
+        44
 
 
 
-INSERTIONS                       Total                 (8)
-                                 With >=  1 occurrences (8)
+INSERTIONS                       Total                 (6)
+                                 With >=  1 occurrences (6)
 
    1:    2  ->  the
    2:    1  ->  a
-   3:    1  ->  how
+   3:    1  ->  be
    4:    1  ->  in
    5:    1  ->  to
-   6:    1  ->  un
-   7:    1  ->  window
-   8:    1  ->  wood
+   6:    1  ->  window
      -------
-         9
+         7
 
 
 
-DELETIONS                        Total                 (4)
-                                 With >=  1 occurrences (4)
+DELETIONS                        Total                 (8)
+                                 With >=  1 occurrences (8)
 
-   1:    1  ->  light
-   2:    1  ->  of
-   3:    1  ->  the
-   4:    1  ->  then
+   1:    1  ->  death
+   2:    1  ->  four
+   3:    1  ->  light
+   4:    1  ->  moon
+   5:    1  ->  of
+   6:    1  ->  slender
+   7:    1  ->  the
+   8:    1  ->  then
      -------
-         4
+         8
 
 
 
-SUBSTITUTIONS                    Total                 (48)
-                                 With >=  1 occurrences (48)
+SUBSTITUTIONS                    Total                 (35)
+                                 With >=  1 occurrences (35)
 
    1:    6  ->  x
    2:    3  ->  pear
    3:    2  ->  in
    4:    2  ->  mind
-   5:    1  ->  and
-   6:    1  ->  as
-   7:    1  ->  ask
-   8:    1  ->  asked
-   9:    1  ->  bannister
-  10:    1  ->  bidden
-  11:    1  ->  blade
-  12:    1  ->  circlet
-  13:    1  ->  coif
-  14:    1  ->  death
-  15:    1  ->  deporting
-  16:    1  ->  felt
-  17:    1  ->  festoon
-  18:    1  ->  ghosts
-  19:    1  ->  grasp
-  20:    1  ->  hold
-  21:    1  ->  illuminates
-  22:    1  ->  inaction
-  23:    1  ->  it
-  24:    1  ->  lilt
-  25:    1  ->  lookingly
-  26:    1  ->  nat
-  27:    1  ->  ode
-  28:    1  ->  odes
-  29:    1  ->  other
-  30:    1  ->  pair
-  31:    1  ->  played
-  32:    1  ->  pleads
-  33:    1  ->  pray
-  34:    1  ->  purpled
-  35:    1  ->  retinol
-  36:    1  ->  scorpionic
-  37:    1  ->  scurried
-  38:    1  ->  shelley
-  39:    1  ->  slender
-  40:    1  ->  stays
-  41:    1  ->  thoreau
-  42:    1  ->  thus
-  43:    1  ->  unshed
-  44:    1  ->  wait
-  45:    1  ->  windowpane
-  46:    1  ->  woodcutters
-  47:    1  ->  world
-  48:    1  ->  writing
+   5:    1  ->  as
+   6:    1  ->  ask
+   7:    1  ->  asked
+   8:    1  ->  bannister
+   9:    1  ->  befall
+  10:    1  ->  befallen
+  11:    1  ->  bidden
+  12:    1  ->  blade
+  13:    1  ->  deporting
+  14:    1  ->  felt
+  15:    1  ->  ghosts
+  16:    1  ->  hold
+  17:    1  ->  illuminates
+  18:    1  ->  inaction
+  19:    1  ->  it
+  20:    1  ->  limbs
+  21:    1  ->  nat
+  22:    1  ->  other
+  23:    1  ->  played
+  24:    1  ->  pleaded
+  25:    1  ->  plow
+  26:    1  ->  pray
+  27:    1  ->  retinol
+  28:    1  ->  scores
+  29:    1  ->  stays
+  30:    1  ->  thoreau
+  31:    1  ->  wait
+  32:    1  ->  windowpane
+  33:    1  ->  wise
+  34:    1  ->  world
+  35:    1  ->  writing
      -------
-        57
+        44
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (55)
-                                 With >=  1 occurrences (55)
+FALSELY RECOGNIZED               Total                 (42)
+                                 With >=  1 occurrences (42)
 
    1:    3  ->  pair
    2:    1  ->  action
@@ -185,57 +161,44 @@ FALSELY RECOGNIZED               Total                 (55)
    4:    1  ->  artist
    5:    1  ->  ask
    6:    1  ->  asked
-   7:    1  ->  banister
-   8:    1  ->  best
-   9:    1  ->  cate
-  10:    1  ->  coi
-  11:    1  ->  cold
-  12:    1  ->  cutters
-  13:    1  ->  deft
-  14:    1  ->  eliminates
-  15:    1  ->  fast
-  16:    1  ->  forbidden
-  17:    1  ->  furrow
-  18:    1  ->  ghost
-  19:    1  ->  grasped
-  20:    1  ->  in
-  21:    1  ->  is
-  22:    1  ->  lighten
-  23:    1  ->  looking
-  24:    1  ->  lt
-  25:    1  ->  mime
-  26:    1  ->  mine
-  27:    1  ->  na
-  28:    1  ->  none
-  29:    1  ->  obsessed
-  30:    1  ->  os
-  31:    1  ->  owed
-  32:    1  ->  pane
-  33:    1  ->  pear
-  34:    1  ->  plagued
-  35:    1  ->  please
-  36:    1  ->  prayed
-  37:    1  ->  psalmist
-  38:    1  ->  purple
-  39:    1  ->  rest
-  40:    1  ->  retinal
-  41:    1  ->  riding
-  42:    1  ->  salve
-  43:    1  ->  scorpion
-  44:    1  ->  scurred
-  45:    1  ->  sheed
-  46:    1  ->  shelly
-  47:    1  ->  sle
-  48:    1  ->  spelled
-  49:    1  ->  splayed
-  50:    1  ->  staves
-  51:    1  ->  supporting
-  52:    1  ->  tish
-  53:    1  ->  utter
-  54:    1  ->  weight
-  55:    1  ->  word
+   7:    1  ->  bitten
+   8:    1  ->  canister
+   9:    1  ->  cold
+  10:    1  ->  eliminates
+  11:    1  ->  fall
+  12:    1  ->  fallen
+  13:    1  ->  forelimbs
+  14:    1  ->  furrow
+  15:    1  ->  ghost
+  16:    1  ->  is
+  17:    1  ->  lighten
+  18:    1  ->  mime
+  19:    1  ->  mine
+  20:    1  ->  moonwise
+  21:    1  ->  na
+  22:    1  ->  none
+  23:    1  ->  palimpsest
+  24:    1  ->  pane
+  25:    1  ->  plague
+  26:    1  ->  pleated
+  27:    1  ->  plough
+  28:    1  ->  prayed
+  29:    1  ->  psalmist
+  30:    1  ->  rest
+  31:    1  ->  retinal
+  32:    1  ->  riding
+  33:    1  ->  sav
+  34:    1  ->  spelt
+  35:    1  ->  splayed
+  36:    1  ->  squares
+  37:    1  ->  staves
+  38:    1  ->  supporting
+  39:    1  ->  tigrish
+  40:    1  ->  utter
+  41:    1  ->  weight
+  42:    1  ->  word
      -------
-        57
+        44
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words

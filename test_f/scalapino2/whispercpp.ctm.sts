@@ -10,7 +10,7 @@
      google.ctm       same            same            same            same      
         ibm.ctm       same            same            same            same      
        nemo.ctm  whispercpp.ctm       same            same            same      
-        rev.ctm       same            same            same            same      
+        rev.ctm     rev.ctm           same            same            same      
     whisper.ctm       same            same            same            same      
 
 

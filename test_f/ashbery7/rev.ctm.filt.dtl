@@ -12,196 +12,162 @@ SENTENCE RECOGNITION PERFORMANCE
 
 WORD RECOGNITION PERFORMANCE
 
-Percent Total Error       =    5.2%   (  57)
+Percent Total Error       =    4.2%   (  46)
 
-Percent Correct           =   95.4%   (1048)
+Percent Correct           =   96.3%   (1058)
 
-Percent Substitution      =    4.3%   (  47)
-Percent Deletions         =    0.4%   (   4)
-Percent Insertions        =    0.5%   (   6)
-Percent Word Accuracy     =   94.8%
+Percent Substitution      =    3.1%   (  34)
+Percent Deletions         =    0.6%   (   7)
+Percent Insertions        =    0.5%   (   5)
+Percent Word Accuracy     =   95.8%
 
 
 Ref. words                =           (1099)
-Hyp. words                =           (1101)
-Aligned words             =           (1105)
+Hyp. words                =           (1097)
+Aligned words             =           (1104)
 
-CONFUSION PAIRS                  Total                 (45)
-                                 With >=  1 occurrences (45)
+CONFUSION PAIRS                  Total                 (32)
+                                 With >=  1 occurrences (32)
 
    1:    2  ->  and ==> in
-   2:    2  ->  servant's ==> servants
+   2:    2  ->  sepulcher ==> sepulchre
    3:    1  ->  a ==> the
-   4:    1  ->  air ==> heir
-   5:    1  ->  along ==> the
-   6:    1  ->  bade ==> bad
-   7:    1  ->  bottomward ==> bottom
-   8:    1  ->  cultivate ==> cultivates
-   9:    1  ->  eighteen ==> eight
-  10:    1  ->  encases ==> incase
-  11:    1  ->  find ==> define
-  12:    1  ->  grey ==> gray
-  13:    1  ->  in ==> and
-  14:    1  ->  is ==> as
-  15:    1  ->  is ==> marvelous
-  16:    1  ->  is ==> was
-  17:    1  ->  jests ==> jest
-  18:    1  ->  line ==> wine
-  19:    1  ->  marked ==> mocked
-  20:    1  ->  musing ==> amusing
-  21:    1  ->  narcissus ==> narcissist
-  22:    1  ->  ours ==> hours
-  23:    1  ->  pack ==> packed
-  24:    1  ->  patterned ==> pattern
-  25:    1  ->  peace ==> piece
-  26:    1  ->  pent ==> pant
-  27:    1  ->  plant ==> plan
-  28:    1  ->  poem ==> swamp
-  29:    1  ->  privet ==> pri
-  30:    1  ->  sepulcher ==> curve
-  31:    1  ->  sepulcher ==> sica
-  32:    1  ->  sepulcher ==> sker
-  33:    1  ->  store ==> drugstore
-  34:    1  ->  the ==> a
-  35:    1  ->  this ==> the
-  36:    1  ->  thyme ==> time
-  37:    1  ->  to ==> from
-  38:    1  ->  to ==> who
-  39:    1  ->  to ==> word
-  40:    1  ->  treetop's ==> treetops
-  41:    1  ->  twenty ==> two
-  42:    1  ->  unassassinated ==> assassinated
-  43:    1  ->  wan ==> one
-  44:    1  ->  writing ==> riding
-  45:    1  ->  x ==> with
+   4:    1  ->  along ==> the
+   5:    1  ->  brown ==> graybrown
+   6:    1  ->  deaf ==> death
+   7:    1  ->  eighteen ==> eight
+   8:    1  ->  in ==> and
+   9:    1  ->  is ==> as
+  10:    1  ->  is ==> marvelous
+  11:    1  ->  is ==> was
+  12:    1  ->  jests ==> jest
+  13:    1  ->  line ==> wine
+  14:    1  ->  ours ==> hours
+  15:    1  ->  pack ==> packed
+  16:    1  ->  patterned ==> pattern
+  17:    1  ->  peace ==> piece
+  18:    1  ->  plant ==> plan
+  19:    1  ->  privet ==> pri
+  20:    1  ->  servant's ==> servants
+  21:    1  ->  sized ==> chairsized
+  22:    1  ->  sized ==> normalsized
+  23:    1  ->  smarting ==> smart
+  24:    1  ->  the ==> a
+  25:    1  ->  thyme ==> time
+  26:    1  ->  to ==> from
+  27:    1  ->  to ==> who
+  28:    1  ->  treetop's ==> treetops
+  29:    1  ->  twenty ==> two
+  30:    1  ->  wan ==> one
+  31:    1  ->  writing ==> riding
+  32:    1  ->  x ==> with
      -------
-        47
+        34
 
 
 
-INSERTIONS                       Total                 (5)
-                                 With >=  1 occurrences (5)
+INSERTIONS                       Total                 (4)
+                                 With >=  1 occurrences (4)
 
    1:    2  ->  to
    2:    1  ->  among
-   3:    1  ->  ce
-   4:    1  ->  in
-   5:    1  ->  one
+   3:    1  ->  in
+   4:    1  ->  one
      -------
-         6
+         5
 
 
 
-DELETIONS                        Total                 (4)
-                                 With >=  1 occurrences (4)
+DELETIONS                        Total                 (7)
+                                 With >=  1 occurrences (7)
 
-   1:    1  ->  drug
-   2:    1  ->  marvel
-   3:    1  ->  the
-   4:    1  ->  to
+   1:    1  ->  boats
+   2:    1  ->  chair
+   3:    1  ->  grey
+   4:    1  ->  marvel
+   5:    1  ->  normal
+   6:    1  ->  the
+   7:    1  ->  to
      -------
-         4
+         7
 
 
 
-SUBSTITUTIONS                    Total                 (39)
-                                 With >=  1 occurrences (39)
+SUBSTITUTIONS                    Total                 (28)
+                                 With >=  1 occurrences (28)
 
    1:    3  ->  is
-   2:    3  ->  sepulcher
-   3:    3  ->  to
-   4:    2  ->  and
-   5:    2  ->  servant's
+   2:    2  ->  and
+   3:    2  ->  sepulcher
+   4:    2  ->  sized
+   5:    2  ->  to
    6:    1  ->  a
-   7:    1  ->  air
-   8:    1  ->  along
-   9:    1  ->  bade
-  10:    1  ->  bottomward
-  11:    1  ->  cultivate
-  12:    1  ->  eighteen
-  13:    1  ->  encases
-  14:    1  ->  find
-  15:    1  ->  grey
-  16:    1  ->  in
-  17:    1  ->  jests
-  18:    1  ->  line
-  19:    1  ->  marked
-  20:    1  ->  musing
-  21:    1  ->  narcissus
-  22:    1  ->  ours
-  23:    1  ->  pack
-  24:    1  ->  patterned
-  25:    1  ->  peace
-  26:    1  ->  pent
-  27:    1  ->  plant
-  28:    1  ->  poem
-  29:    1  ->  privet
-  30:    1  ->  store
-  31:    1  ->  the
-  32:    1  ->  this
-  33:    1  ->  thyme
-  34:    1  ->  treetop's
-  35:    1  ->  twenty
-  36:    1  ->  unassassinated
-  37:    1  ->  wan
-  38:    1  ->  writing
-  39:    1  ->  x
+   7:    1  ->  along
+   8:    1  ->  brown
+   9:    1  ->  deaf
+  10:    1  ->  eighteen
+  11:    1  ->  in
+  12:    1  ->  jests
+  13:    1  ->  line
+  14:    1  ->  ours
+  15:    1  ->  pack
+  16:    1  ->  patterned
+  17:    1  ->  peace
+  18:    1  ->  plant
+  19:    1  ->  privet
+  20:    1  ->  servant's
+  21:    1  ->  smarting
+  22:    1  ->  the
+  23:    1  ->  thyme
+  24:    1  ->  treetop's
+  25:    1  ->  twenty
+  26:    1  ->  wan
+  27:    1  ->  writing
+  28:    1  ->  x
      -------
-        47
+        34
 
 
 * NOTE: The 'Substitution' words are those reference words
         for which the recognizer supplied an incorrect word.
 
 
-FALSELY RECOGNIZED               Total                 (43)
-                                 With >=  1 occurrences (43)
+FALSELY RECOGNIZED               Total                 (31)
+                                 With >=  1 occurrences (31)
 
-   1:    3  ->  the
-   2:    2  ->  in
-   3:    2  ->  servants
+   1:    2  ->  in
+   2:    2  ->  sepulchre
+   3:    2  ->  the
    4:    1  ->  a
-   5:    1  ->  amusing
-   6:    1  ->  and
-   7:    1  ->  as
-   8:    1  ->  assassinated
-   9:    1  ->  bad
-  10:    1  ->  bottom
-  11:    1  ->  cultivates
-  12:    1  ->  curve
-  13:    1  ->  define
-  14:    1  ->  drugstore
-  15:    1  ->  eight
-  16:    1  ->  from
-  17:    1  ->  gray
-  18:    1  ->  heir
-  19:    1  ->  hours
-  20:    1  ->  incase
-  21:    1  ->  jest
-  22:    1  ->  marvelous
-  23:    1  ->  mocked
-  24:    1  ->  narcissist
-  25:    1  ->  one
-  26:    1  ->  packed
-  27:    1  ->  pant
-  28:    1  ->  pattern
-  29:    1  ->  piece
-  30:    1  ->  plan
-  31:    1  ->  pri
-  32:    1  ->  riding
-  33:    1  ->  sica
-  34:    1  ->  sker
-  35:    1  ->  swamp
-  36:    1  ->  time
-  37:    1  ->  treetops
-  38:    1  ->  two
-  39:    1  ->  was
-  40:    1  ->  who
-  41:    1  ->  wine
-  42:    1  ->  with
-  43:    1  ->  word
+   5:    1  ->  and
+   6:    1  ->  as
+   7:    1  ->  chairsized
+   8:    1  ->  death
+   9:    1  ->  eight
+  10:    1  ->  from
+  11:    1  ->  graybrown
+  12:    1  ->  hours
+  13:    1  ->  jest
+  14:    1  ->  marvelous
+  15:    1  ->  normalsized
+  16:    1  ->  one
+  17:    1  ->  packed
+  18:    1  ->  pattern
+  19:    1  ->  piece
+  20:    1  ->  plan
+  21:    1  ->  pri
+  22:    1  ->  riding
+  23:    1  ->  servants
+  24:    1  ->  smart
+  25:    1  ->  time
+  26:    1  ->  treetops
+  27:    1  ->  two
+  28:    1  ->  was
+  29:    1  ->  who
+  30:    1  ->  wine
+  31:    1  ->  with
      -------
-        47
+        34
 
 
 * NOTE: The 'Falsely Recognized' words are those hypothesis words
