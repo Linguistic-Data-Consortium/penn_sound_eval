@@ -29,5 +29,8 @@ files that align the reference and hypothesis segments.  However, these files in
 
 `test_c` contains the output of SCTK on whisper trials meant to test the occurrence of hallucinations.
 
+# Test D
+
+`test_d` contains the output of SCTK by individual recording.
 
 
