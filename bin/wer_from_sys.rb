@@ -13,7 +13,7 @@ ARGV.each do |fn|
   ins = a[-4]
   del = a[-5]
   sb = a[-6]
-  puts "#{wer} s=#{sb} i=#{ins} d=#{del} #{fn}"
+  puts "#{wer} s=#{sb} d=#{del} i=#{ins}  #{fn}"
 end
 
 # for rsum output

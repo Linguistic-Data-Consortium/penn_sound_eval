@@ -19,6 +19,7 @@ repo parallel to this one and run "rake code".
   check_for_final_hallucination
   text_only
   filter_pra
+  wer_from_sys
 ].each do |x|
   fn = "#{ x == 'models' ? 'lib' : 'bin' }/#{x}.rb"
   file fn => "../ldcsplbtk/#{fn}" do |t|
@@ -105,7 +106,7 @@ task :test_c do |t|
   sh "cp english.glm #{dn}/english.glm"
   cd dn
   hubscr
-  sh "bin/check_for_final_hallucination.rb combined/turbo.tsv durations.txt > #{dn}/turbo_h.tsv"
+  sh "bin/check_for_final_hallucination.rb combined/turbo.tsv durations.tsv > #{dn}/turbo_h.tsv"
   sh "bin/text_only.rb #{dn}/turbo_h.tsv #{dn}/turbo_h_text"
 end
 
@@ -295,8 +296,6 @@ task :test_ff => 'split' do |t|
     dnn = "#{dn}/#{k.downcase}"
     next if File.exist? dnn
     mkdir_p dnn
-    next unless File.exists? "split/rev/#{v}.tsv"
-    sets = %w[ human aws rev newrev ]
     sets.each do |set|
       if set == 'human'
         sh "bin/stm.rb split/one/#{v}.tsv > #{dnn}/ref.stm"
@@ -314,9 +313,9 @@ end
 task :testf do
 
   snr = {}
-  File.readlines('/clinical/poetry/wav/snr.rank').each do |x|
+  File.readlines('ibmsnr.tsv').each do |x|
     a = x.split
-    snr[a[1].sub('.wav', '')] = a[0]
+    snr[a[0]] = a[1]
   end
   map.each do |k, v|
     snr[k.downcase] = snr[v]
@@ -324,26 +323,38 @@ task :testf do
 
   sp = {}
   map.each do |k, v|
-    x = `grep #{v} combined/human.tsv | cut -f 5 | sort -u | wc -l`
+    x = `grep #{v} combined/human.tsv | cut -f 5 | sort -u | wc -l`.chomp
     sp[k.downcase] = x
   end
 
-  puts %w[ file aws azure google ibm nemo rev whisper whispercpp snr nsp ].join("\t")
+
+  h = %w[ file aws azure google ibm nemo rev whisper whispercpp nsp snr ].join("\t")
+  output = [
+    [ 'wer' ],
+    [ 'wer_s' ],
+    [ 'wer_d' ],
+    [ 'wer_i' ]
+  ]
   # Dir['test_f/*/En*sys'].each do |x|
   Dir['test_f/*'].each do |x|
     y = []
     sets.sort.each do |set|
       next if set == 'human'
-      if set == 'rev'
-        y << `bin/wer.rb #{x.sub('_f','_ff')}/new#{set}.ctm.filt.sys`.split.first
-      else
-        y << `bin/wer.rb #{x}/#{set}.ctm.filt.sys`.split.first
-      end
+      y << `bin/wer_from_sys.rb #{x}/#{set}.ctm.filt.sys`.split
     end
     # y = `grep Average #{x}`
     z = x.split('/')[1]
     # puts [ z, y.split('|')[2..-2], snr[z], sp[z] ].flatten.join("\t").gsub(' ', '')
-    puts [ z, y, snr[z], sp[z] ].flatten.join("\t").gsub(' ', '')
+    (0..3).to_a.each do |i|
+      output[i] << [ z, y.map { |x| x[i].sub(/\w=/, '') }, sp[z], snr[z] ].flatten.join("\t").gsub(' ', '')
+    end
+  end
+
+  output.each do |x|
+    open("#{x[0]}.tsv", 'w') do |f|
+      f.puts h
+      f.puts x[1..-1]
+    end
   end
 
 end
