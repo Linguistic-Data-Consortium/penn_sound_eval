@@ -1,5 +1,11 @@
 #!/usr/bin/env ruby
+=begin
 
+greps for the word error rate from SCTK .sys files
+
+    wer_from_sys.rb *.sys
+
+=end
 
 ARGV.each do |fn|
   a = `grep Sum #{fn}`.split
@@ -10,13 +16,11 @@ ARGV.each do |fn|
   puts "#{wer} s=#{sb} i=#{ins} d=#{del} #{fn}"
 end
 
-exit
-
 # for rsum output
 
-ARGV.each do |fn|
-  a = `grep Mean #{fn}`.split
-  wer = (a[-3].to_f / a[4].to_f * 100).round 2
-  puts "#{wer} #{fn}"
-end
+# ARGV.each do |fn|
+#   a = `grep Mean #{fn}`.split
+#   wer = (a[-3].to_f / a[4].to_f * 100).round 2
+#   puts "#{wer} #{fn}"
+# end
 

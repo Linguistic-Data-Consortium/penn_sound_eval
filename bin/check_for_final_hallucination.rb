@@ -3,11 +3,14 @@
 
 check for final hallucinations in whisper output
 
-    check_for_final_hallucinations.rb *.wav *.txt
+    check_for_final_hallucinations.rb transcripts.tsv durations.tsv
 
-The arguments can be given in any order.  If matching wav and txt files are found,
-the wav file is used to determine the length of the file.  That length is then used
-to see if hallucinations occur past that point in the txt files.
+The file durations.tsv is a two column map from filename to duration.
+
+The durations are then used to see if hallucinations occur past that point
+in the transcripts.  That is, the script filters for such final text.  For
+normal data where this problem doesn't occur, the output is just a header
+with no segments.
 
 =end
 
