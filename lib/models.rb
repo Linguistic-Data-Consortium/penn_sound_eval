@@ -733,7 +733,7 @@ class Sample
     files = {}
     @segments.each do |x|
       files[x[:file]] ||= 0
-      files[x[:file]] += x[:text].split.count { |x| x == '(())' }
+      files[x[:file]] += x[:text].split.count { |x| x =~ /^\(\(/ }
     end
     files
   end
