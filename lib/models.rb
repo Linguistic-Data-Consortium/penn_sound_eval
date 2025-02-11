@@ -738,5 +738,25 @@ class Sample
     files
   end
 
+  def count_overlap
+    files = {}
+    overlap = {}
+    @segments.each do |x|
+      files[x[:file]] ||= []
+      files[x[:file]] << x
+      overlap[x[:file]] ||= 0
+      files[x[:file]].each do |y|
+        next if x == y
+        if x[:end] > y[:beg] and x[:beg] < y[:end]
+          b = x[:beg] > y[:beg] ? x[:beg] : y[:beg]
+          e = x[:end] < y[:end] ? x[:end] : y[:end]
+          o = e - b
+          overlap[x[:file]] += o
+        end
+      end
+    end
+    overlap
+  end
+
 end
 

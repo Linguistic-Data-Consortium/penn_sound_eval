@@ -20,6 +20,8 @@ repo parallel to this one and run "rake code".
   text_only
   filter_pra
   wer_from_sys
+  count_unintelligible
+  count_overlap
 ].each do |x|
   fn = "#{ x == 'models' ? 'lib' : 'bin' }/#{x}.rb"
   file fn => "../ldcsplbtk/#{fn}" do |t|
@@ -152,6 +154,24 @@ task :wer do
     snr[k.downcase] = snr[v]
   end
 
+  un = {}
+  File.readlines('unintelligible.tsv').each do |x|
+    a = x.split
+    un[a[0]] = a[1]
+  end
+  map.each do |k, v|
+    un[k.downcase] = un[v]
+  end
+
+  ov = {}
+  File.readlines('overlap.tsv').each do |x|
+    a = x.split
+    ov[a[0]] = a[1]
+  end
+  map.each do |k, v|
+    ov[k.downcase] = ov[v]
+  end
+
   sp = {}
   map.each do |k, v|
     x = `grep #{v} combined/human.tsv | cut -f 5 | sort -u | wc -l`.chomp
@@ -159,7 +179,7 @@ task :wer do
   end
 
 
-  h = %w[ file aws azure google ibm nemo rev whisper whispercpp nsp snr ].join("\t")
+  h = %w[ file aws azure google ibm nemo rev whisper whispercpp nsp snr unintelligible overlap ].join("\t")
   output = [
     [ 'wer' ],
     [ 'wer_s' ],
@@ -167,7 +187,7 @@ task :wer do
     [ 'wer_i' ]
   ]
   # Dir['test_f/*/En*sys'].each do |x|
-  Dir['test_f/*'].each do |x|
+  Dir['test_d/*'].each do |x|
     y = []
     sets.sort.each do |set|
       next if set == 'human'
@@ -177,7 +197,7 @@ task :wer do
     z = x.split('/')[1]
     # puts [ z, y.split('|')[2..-2], snr[z], sp[z] ].flatten.join("\t").gsub(' ', '')
     (0..3).to_a.each do |i|
-      output[i] << [ z, y.map { |x| x[i].sub(/\w=/, '') }, sp[z], snr[z] ].flatten.join("\t").gsub(' ', '')
+      output[i] << [ z, y.map { |x| x[i].sub(/\w=/, '') }, sp[z], snr[z], un[z], ov[z] ].flatten.join("\t").gsub(' ', '')
     end
   end
 
