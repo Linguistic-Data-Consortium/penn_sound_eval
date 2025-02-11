@@ -729,5 +729,14 @@ class Sample
     end
   end
 
+  def count_unintelligible
+    files = {}
+    @segments.each do |x|
+      files[x[:file]] ||= 0
+      files[x[:file]] += x[:text].split.count { |x| x == '(())' }
+    end
+    files
+  end
+
 end
 
