@@ -5,12 +5,50 @@ using Markdown
 using InteractiveUtils
 
 # ╔═╡ 92de71ee-a3f4-4461-b389-c6e1d55b0ea6
-using DataFrames, CSV, Statistics, Dates, Plots, Distributions,RollingFunctions
+using DataFrames, CSV, Statistics, Dates, Plots, Distributions,RollingFunctions,GLM,StatsBase,StatsPlots
 
 # ╔═╡ a6d62476-dece-4c86-900d-69d0592f9711
 md"
 # Analysis of PennSound speech-to-text
 includes additional analysis
+"
+
+# ╔═╡ 17aae31d-98cc-47c4-bd01-120ba1df16b4
+md"## Full Corpus Estimate"
+
+# ╔═╡ 6c5e15ff-02f0-44c3-828e-7e36ea3527ca
+pennsound_durations = CSV.read("pennsound_durations.tsv", DataFrame, delim="\t")
+
+
+# ╔═╡ 078a6ae8-fd9c-4129-a200-76594569e3a7
+histogram(pennsound_durations.duration ./ 60, bins=0:120, label=:none, xlabel="minutes", ylabel="number of files")
+
+# ╔═╡ 73ab4b64-15c2-436b-9bd0-c255ea24efb9
+size(pennsound_durations[pennsound_durations.duration .> 7200,:])
+
+# ╔═╡ 14036d34-1511-451a-b54f-aebc857da751
+md"## Sample Construction"
+
+# ╔═╡ 71555410-ff9a-4067-b180-d5089fef1a35
+md"A random list of 100 files with the word *Complete* were selected, and the two following files were added from outside the Authors' page:
+- Clay-Steve\_Close-Listening\_5-17-21
+- PoemTalk-198\_On-three-Larry-Price-poems
+"
+
+# ╔═╡ c444c6da-b18e-4f3b-8e56-bcbdeb9b7ca9
+md"Some files were very short or had very little speech, so a second random list of 100 files was created. From this list, these 12 files were drawn alphabetically to return the list to length 100:
+- Ashbery-John\_Complete-Reading\_Contemporary-American-Poetry...
+- Ashbery-John\_Complete-Recording\_St-Marks_NY
+- Auster-Paul\_Complete-Reading\_UB\_4-26-95
+- Bellamy-Dodie\_Complete-Reading\_A-Voice-Box\_Canessa-Park\_1-17-09
+- Benson-Steve\_Complete-Recording\_Views-of-Communist-China\_1220...
+- Berkson-Bill\_Complete-Reading\_Poetry-Project\_St-Marks-NY\_5-17-78
+- Berssenbrugge-Mei-Mei\_Complete-Reading\_UB\_9-20-00
+- Berssenbrugge-Mei-Mei\_Complete-Recording\_Segue-DH\_NYC\_2-21-98
+- Bromige-David\_Complete-Reading\_Albany-CA\_Fall-1968
+- Bromige-David\_Complete-Recording\_New-Poems\_Unknown-Reel
+- Browne-Laynie\_Complete-Reading\_Contemporary-Writers-Series...
+- Brown-Lee-Ann\_Complete-Reading\_Tender-Buttons-Press\_UPenn\_10-21-03
 "
 
 # ╔═╡ d6e2d5ea-76f2-49a2-99bd-b8081b99d2b6
@@ -24,7 +62,7 @@ speech = CSV.read("speech.tsv", DataFrame, delim="\t")
 
 
 # ╔═╡ 300b26a9-7816-4de1-b056-1d525e534067
-histogram(speech[:,:speech])
+histogram(speech[:,:speech],label="speech",xlabel="seconds", ylabel="number of files")
 
 # ╔═╡ 623929ba-470e-4344-910d-ae37a0b0d00b
 mean(speech.speech)
@@ -52,11 +90,14 @@ sum(durations.duration) / 3600
 md"## Word Error Rates"
 
 # ╔═╡ 33724ce9-8d7a-4567-988d-324520a38c69
-md"here we display individual WERs in various ways"
+md"Here we load in raw WERs.  We have separate tables for the WER as well as the substitution, deletion, and insertion components."
 
 # ╔═╡ 77284867-7069-4469-b46c-1da4f420f2ee
 wers = CSV.read("wer.tsv", DataFrame, delim="\t")
 
+
+# ╔═╡ 517bce52-7e3b-46d3-8c02-5778fcb9136a
+wers[wers.file .== "bonvicino",:]
 
 # ╔═╡ 39ce97a6-659a-4467-8bf2-e3047d57f70c
 md"substitution error rates only"
@@ -98,7 +139,7 @@ md"sort by mean WER"
 wers_sorted_by_mean = sort(wers_with_mean, :mean)
 
 # ╔═╡ f01670b1-9210-4079-9ab5-6bd470624ab3
-md"WERs sorted separately"
+md"plot WERs, each system sorted separately"
 
 # ╔═╡ e845a48d-0d73-46f6-a0c7-1c29741d9f68
 begin
@@ -113,7 +154,10 @@ begin
 end
 
 # ╔═╡ 202ff61a-07bd-43b3-bf4d-25827a7da4c6
-md"WERs sorted by rev (best system)"
+md"plot WERs, sorted by rev (best system)"
+
+# ╔═╡ d6590360-c99f-4909-aba3-6b706f2b8493
+md"note rev is the bottom black line, smoothly ascending"
 
 # ╔═╡ 7fb2689a-3cb6-4f9f-ad41-a7c424fe054c
 begin
@@ -144,6 +188,106 @@ begin
 	plot!(w2.rev,label="rev", linestyle=:solid,color=:black)
 end
 
+# ╔═╡ 7d32a24c-23b4-41b1-93c0-3a306cd9e589
+md"plot WERs sorted by IBM provided snr"
+
+# ╔═╡ 0e5bc869-f752-49a0-8cd6-70609c392ed5
+md"it's perhaps slightly true that higher SNR yields lower WER"
+
+# ╔═╡ 95884233-62d8-4799-8acb-20895196582a
+begin
+	wers_sorted_by_snr = sort(wers, [:snr])
+	plot(wers_sorted_by_snr.ibm,label="ibm", linestyle=:solid, color=:black)
+	plot!(wers_sorted_by_snr.google,label="google", linestyle=:solid, color=:tan)
+	plot!(wers_sorted_by_snr.nemo,label="nemo", linestyle=:dashdotdot, color=:green)
+	plot!(wers_sorted_by_snr.whispercpp,label="whispercpp", linestyle=:dash, color=:blue)
+	plot!(wers_sorted_by_snr.azure,label="azure", linestyle=:solid, color=:darkgray)
+	plot!(wers_sorted_by_snr.aws,label="aws",xlim=(0,101),ylim=(0,90), linestyle=:dashdotdot,color=:red)
+	plot!(wers_sorted_by_snr.whisper,label="whisper", linestyle=:dash, color=:magenta)
+	plot!(wers_sorted_by_snr.rev,label="rev", linestyle=:solid,color=:black)
+end
+
+# ╔═╡ a0ed584e-a26f-4944-b8c5-3c1454d08c3d
+md"The SNR values are produced by IBM, so let's look at just that system"
+
+# ╔═╡ 4b55b7bc-5808-4e08-8744-1e8904eb3704
+begin
+	scatter(wers.snr, wers.ibm, label=:none, xlabel="SNR returned from IBM",ylabel="WER for IBM")
+end
+
+# ╔═╡ 13378aea-1720-40b4-ae47-b00a1d4fa90b
+snr_model = lm(@formula(mean ~ snr), wers_with_mean)
+
+# ╔═╡ 0a1214e6-e190-4ed0-80a0-6b21b7d52aeb
+xx, yy = snr_model.model.pp.beta0
+
+# ╔═╡ 06ef29a7-2792-4c7c-ac08-edc1f2c712ab
+md"68 recordings have one speaker, 32 recordings have multiple speakers"
+
+# ╔═╡ deb80f64-18a5-474d-bc03-2a6820b95131
+count(wers.nsp .== 1)
+
+# ╔═╡ f758c495-29ec-48a6-a9db-c12d95f3231a
+md"plot WERs sorted by number of speakers with line at 68:  left hand side has one speaker, right hand side has multiple speakers"
+
+# ╔═╡ af9f10a9-ee03-45a1-8807-7d7b09be62e1
+begin
+	wers_sorted_by_nsp = sort(wers, [:nsp])
+	plot(wers_sorted_by_nsp.ibm,label="ibm", linestyle=:solid, color=:black)
+	plot!(wers_sorted_by_nsp.google,label="google", linestyle=:solid, color=:tan)
+	plot!(wers_sorted_by_nsp.nemo,label="nemo", linestyle=:dashdotdot, color=:green)
+	plot!(wers_sorted_by_nsp.whispercpp,label="whispercpp", linestyle=:dash, color=:blue)
+	plot!(wers_sorted_by_nsp.azure,label="azure", linestyle=:solid, color=:darkgray)
+	plot!(wers_sorted_by_nsp.aws,label="aws",xlim=(0,101),ylim=(0,90), linestyle=:dashdotdot,color=:red)
+	plot!(wers_sorted_by_nsp.whisper,label="whisper", linestyle=:dash, color=:magenta)
+	plot!(wers_sorted_by_nsp.rev,label="rev", linestyle=:solid,color=:black)
+	vline!([68],label="68")
+end
+
+# ╔═╡ 2f20ffc1-4891-45f2-ba9c-057b723da163
+md"Rather than the number of speakers directly, WER seems to be affected by overlapping speech, where systems will drop some of the speech.  Here we plot WER sorted by the amount of overlapped speech."
+
+# ╔═╡ fa85b82c-ba1e-4f41-9cc9-bb2bebf25eba
+begin
+	wers_sorted_by_ov = sort(wers, [:overlap])
+	plot(wers_sorted_by_ov.ibm,label="ibm", linestyle=:solid, color=:black)
+	plot!(wers_sorted_by_ov.google,label="google", linestyle=:solid, color=:tan)
+	plot!(wers_sorted_by_ov.nemo,label="nemo", linestyle=:dashdotdot, color=:green)
+	plot!(wers_sorted_by_ov.whispercpp,label="whispercpp", linestyle=:dash, color=:blue)
+	plot!(wers_sorted_by_ov.azure,label="azure", linestyle=:solid, color=:darkgray)
+	plot!(wers_sorted_by_ov.aws,label="aws",xlim=(0,101),ylim=(0,90), linestyle=:dashdotdot,color=:red)
+	plot!(wers_sorted_by_ov.whisper,label="whisper", linestyle=:dash, color=:magenta)
+	plot!(wers_sorted_by_ov.rev,label="rev", linestyle=:solid,color=:black)
+end
+
+# ╔═╡ d6cab45b-4434-4768-85b5-a95d7326a163
+md"Transcribers would annotate unintelligible regions, meaning regions they couldn't understand, or were making a best guess.  These regions are almost always errors for the system.  Here we plot WERs sorted by a count of these unintelligible regions."
+
+# ╔═╡ f81c2b74-9e9b-4411-bfb9-ae36649726db
+begin
+	wers_sorted_by_un = sort(wers, [:unintelligible])
+	plot(wers_sorted_by_un.ibm,label="ibm", linestyle=:solid, color=:black)
+	plot!(wers_sorted_by_un.google,label="google", linestyle=:solid, color=:tan)
+	plot!(wers_sorted_by_un.nemo,label="nemo", linestyle=:dashdotdot, color=:green)
+	plot!(wers_sorted_by_un.whispercpp,label="whispercpp", linestyle=:dash, color=:blue)
+	plot!(wers_sorted_by_un.azure,label="azure", linestyle=:solid, color=:darkgray)
+	plot!(wers_sorted_by_un.aws,label="aws",xlim=(0,101),ylim=(0,90), linestyle=:dashdotdot,color=:red)
+	plot!(wers_sorted_by_un.whisper,label="whisper", linestyle=:dash, color=:magenta)
+	plot!(wers_sorted_by_un.rev,label="rev", linestyle=:solid,color=:black)
+end
+
+# ╔═╡ 9eec709b-2631-4da5-848e-2747249c384b
+md"Overlap and unintelligibility account for much of the higher WERs.  Here we plot both, sorted by mean WER.  Note that the y values of the two plots are completely different:  the line plot is the count of unintellible regions in the transcripts, and the scatter plot is the amount of overlapping speech in seconds, usually zero."
+
+# ╔═╡ 0991ea0b-e613-4571-826d-5bcfec7b1a5f
+begin
+	scatter(wers_sorted_by_mean.unintelligible, label="unintelligible regions", legend=(0.15,.9), xaxis="Recordings Sorted by Mean WER", ylabel="Number of Unintelligible Regions", yguidefontcolor=:blue,color=:blue)
+	scatter!(twinx(),wers_sorted_by_mean.overlap, label="overlapping speech", color=:red, legend=(0.15,0.8), ylabel="Seconds of Overlapping Speech",yguidefontcolor=:red,m=:rect)
+end
+
+# ╔═╡ a2d7e8fe-21a2-4d87-bb2d-b997a478a13b
+unov_model = lm(@formula(mean ~ unintelligible + overlap), wers_with_mean)
+
 # ╔═╡ 125639b6-835c-47a7-957d-317096bada07
 md"## Diarization Error Rates"
 
@@ -168,7 +312,10 @@ md"# What about the outliers?"
 md"WERs sorted by SNR provided by IBM"
 
 # ╔═╡ c22c7b6b-115c-4866-9bc0-d430d5c32a9f
+# ╠═╡ disabled = true
+#=╠═╡
 wers_sorted_by_snr = sort(wers, [:nsp])
+  ╠═╡ =#
 
 # ╔═╡ 4175cc5c-7e29-4c41-983b-07b3421c1ef4
 md"SNR seems to have an overall effect, but not consistently, and doesn't seem to explain the outliers"
@@ -213,7 +360,7 @@ md"this file is unremarkable, but also has a lot of deletions.  E.g., there's a 
 wers_d[ wers_d.file .== "corrigan", :]
 
 # ╔═╡ ccd53dd1-e0ff-4393-9ca4-36c6014109df
-md"so IBM seems to have an issue with deletions, maybe due to speakers.  sorting by number of speakers shows some effect.  The first 68 have a single speaker.  *corrigan* has two speakers, so this doesn't seem total explanatory for it's high DER."
+md"so IBM seems to have an issue with deletions, maybe due to speakers.  sorting by number of speakers shows some effect.  The first 68 have a single speaker.  *corrigan* has two speakers, so this doesn't seem totally explanatory for it's high DER."
 
 # ╔═╡ 21b6c2ae-73a1-46ab-8786-22ac62d1301f
 begin
@@ -259,16 +406,22 @@ CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 RollingFunctions = "b0e4dd01-7b14-53d8-9b45-175a3e362653"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
 
 [compat]
 CSV = "~0.10.15"
 DataFrames = "~1.7.0"
 Distributions = "~0.25.112"
+GLM = "~1.9.0"
 Plots = "~1.40.4"
 RollingFunctions = "~0.8.1"
+StatsBase = "~0.34.3"
+StatsPlots = "~0.15.7"
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000002
@@ -277,7 +430,28 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.10.5"
 manifest_format = "2.0"
-project_hash = "a64bd359b0ce57ff9b02ed2c5a6bdc6375c7ced4"
+project_hash = "c41f8ccf20b0de0fec50292cb3594840f7b01b9c"
+
+[[deps.AbstractFFTs]]
+deps = ["LinearAlgebra"]
+git-tree-sha1 = "d92ad398961a3ed262d8bf04a1a2b8340f915fef"
+uuid = "621f4979-c628-5d54-868e-fcf4e3e8185c"
+version = "1.5.0"
+weakdeps = ["ChainRulesCore", "Test"]
+
+    [deps.AbstractFFTs.extensions]
+    AbstractFFTsChainRulesCoreExt = "ChainRulesCore"
+    AbstractFFTsTestExt = "Test"
+
+[[deps.Adapt]]
+deps = ["LinearAlgebra", "Requires"]
+git-tree-sha1 = "50c3c56a52972d78e8be9fd135bfb91c9574c140"
+uuid = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+version = "4.1.1"
+weakdeps = ["StaticArrays"]
+
+    [deps.Adapt.extensions]
+    AdaptStaticArraysExt = "StaticArrays"
 
 [[deps.AliasTables]]
 deps = ["PtrArrays", "Random"]
@@ -289,8 +463,26 @@ version = "1.1.3"
 uuid = "0dad84c5-d112-42e6-8d28-ef12dabb789f"
 version = "1.1.1"
 
+[[deps.Arpack]]
+deps = ["Arpack_jll", "Libdl", "LinearAlgebra", "Logging"]
+git-tree-sha1 = "9b9b347613394885fd1c8c7729bfc60528faa436"
+uuid = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
+version = "0.5.4"
+
+[[deps.Arpack_jll]]
+deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "OpenBLAS_jll", "Pkg"]
+git-tree-sha1 = "5ba6c757e8feccf03a1554dfaf3e26b3cfc7fd5e"
+uuid = "68821587-b530-5797-8361-c406ea357684"
+version = "3.5.1+1"
+
 [[deps.Artifacts]]
 uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[[deps.AxisAlgorithms]]
+deps = ["LinearAlgebra", "Random", "SparseArrays", "WoodburyMatrices"]
+git-tree-sha1 = "01b8ccb13d68535d73d2b0c23e39bd23155fb712"
+uuid = "13072b0f-2c55-5437-9ae7-d433b7a33950"
+version = "1.1.0"
 
 [[deps.Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
@@ -317,6 +509,22 @@ deps = ["Artifacts", "Bzip2_jll", "CompilerSupportLibraries_jll", "Fontconfig_jl
 git-tree-sha1 = "a2f1c8c668c8e3cb4cca4e57a8efdb09067bb3fd"
 uuid = "83423d85-b0ee-5818-9007-b63ccbeb887a"
 version = "1.18.0+2"
+
+[[deps.ChainRulesCore]]
+deps = ["Compat", "LinearAlgebra"]
+git-tree-sha1 = "1713c74e00545bfe14605d2a2be1712de8fbcb58"
+uuid = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+version = "1.25.1"
+weakdeps = ["SparseArrays"]
+
+    [deps.ChainRulesCore.extensions]
+    ChainRulesCoreSparseArraysExt = "SparseArrays"
+
+[[deps.Clustering]]
+deps = ["Distances", "LinearAlgebra", "NearestNeighbors", "Printf", "Random", "SparseArrays", "Statistics", "StatsBase"]
+git-tree-sha1 = "3e22db924e2945282e70c33b75d4dde8bfa44c94"
+uuid = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+version = "0.15.8"
 
 [[deps.CodecZlib]]
 deps = ["TranscodingStreams", "Zlib_jll"]
@@ -421,6 +629,21 @@ git-tree-sha1 = "9e2f36d3c96a820c678f2f1f1782582fcf685bae"
 uuid = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 version = "1.9.1"
 
+[[deps.Distances]]
+deps = ["LinearAlgebra", "Statistics", "StatsAPI"]
+git-tree-sha1 = "c7e3a542b999843086e2f29dac96a618c105be1d"
+uuid = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+version = "0.10.12"
+weakdeps = ["ChainRulesCore", "SparseArrays"]
+
+    [deps.Distances.extensions]
+    DistancesChainRulesCoreExt = "ChainRulesCore"
+    DistancesSparseArraysExt = "SparseArrays"
+
+[[deps.Distributed]]
+deps = ["Random", "Serialization", "Sockets"]
+uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+
 [[deps.Distributions]]
 deps = ["AliasTables", "FillArrays", "LinearAlgebra", "PDMats", "Printf", "QuadGK", "Random", "SpecialFunctions", "Statistics", "StatsAPI", "StatsBase", "StatsFuns"]
 git-tree-sha1 = "d7477ecdafb813ddee2ae727afa94e9dcb5f3fb0"
@@ -477,6 +700,18 @@ deps = ["Artifacts", "Bzip2_jll", "FreeType2_jll", "FriBidi_jll", "JLLWrappers",
 git-tree-sha1 = "466d45dc38e15794ec7d5d63ec03d776a9aff36e"
 uuid = "b22a6f82-2f65-5046-a5b2-351ab43fb4e5"
 version = "4.4.4+1"
+
+[[deps.FFTW]]
+deps = ["AbstractFFTs", "FFTW_jll", "LinearAlgebra", "MKL_jll", "Preferences", "Reexport"]
+git-tree-sha1 = "4820348781ae578893311153d69049a93d05f39d"
+uuid = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+version = "1.8.0"
+
+[[deps.FFTW_jll]]
+deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
+git-tree-sha1 = "4d81ed14783ec49ce9f2e168208a12ce1815aa25"
+uuid = "f5851436-0d7a-5f13-b9de-f02708fd171a"
+version = "3.3.10+3"
 
 [[deps.FilePathsBase]]
 deps = ["Compat", "Dates"]
@@ -542,6 +777,12 @@ deps = ["Artifacts", "JLLWrappers", "Libdl", "Libglvnd_jll", "Xorg_libXcursor_jl
 git-tree-sha1 = "532f9126ad901533af1d4f5c198867227a7bb077"
 uuid = "0656b61e-2033-5cc2-a64a-77c0f6c09b89"
 version = "3.4.0+1"
+
+[[deps.GLM]]
+deps = ["Distributions", "LinearAlgebra", "Printf", "Reexport", "SparseArrays", "SpecialFunctions", "Statistics", "StatsAPI", "StatsBase", "StatsFuns", "StatsModels"]
+git-tree-sha1 = "273bd1cd30768a2fddfa3fd63bbc746ed7249e5f"
+uuid = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
+version = "1.9.0"
 
 [[deps.GR]]
 deps = ["Artifacts", "Base64", "DelimitedFiles", "Downloads", "GR_jll", "HTTP", "JSON", "Libdl", "LinearAlgebra", "Preferences", "Printf", "Random", "Serialization", "Sockets", "TOML", "Tar", "Test", "p7zip_jll"]
@@ -609,9 +850,25 @@ version = "1.4.2"
     ArrowTypes = "31f734f8-188a-4ce0-8406-c8a06bd891cd"
     Parsers = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
 
+[[deps.IntelOpenMP_jll]]
+deps = ["Artifacts", "JLLWrappers", "LazyArtifacts", "Libdl"]
+git-tree-sha1 = "10bd689145d2c3b2a9844005d01087cc1194e79e"
+uuid = "1d5cc7b8-4909-519e-a0f8-d0f5ad9712d0"
+version = "2024.2.1+0"
+
 [[deps.InteractiveUtils]]
 deps = ["Markdown"]
 uuid = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+
+[[deps.Interpolations]]
+deps = ["Adapt", "AxisAlgorithms", "ChainRulesCore", "LinearAlgebra", "OffsetArrays", "Random", "Ratios", "Requires", "SharedArrays", "SparseArrays", "StaticArrays", "WoodburyMatrices"]
+git-tree-sha1 = "88a101217d7cb38a7b481ccd50d21876e1d1b0e0"
+uuid = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+version = "0.15.1"
+weakdeps = ["Unitful"]
+
+    [deps.Interpolations.extensions]
+    InterpolationsUnitfulExt = "Unitful"
 
 [[deps.InvertedIndices]]
 git-tree-sha1 = "6da3c4316095de0f5ee2ebd875df8721e7e0bdbe"
@@ -657,6 +914,12 @@ git-tree-sha1 = "6292e7878fe190651e74148edb11356dbbc2e194"
 uuid = "8e2b3108-d4c1-50be-a7a2-16352aec75c3"
 version = "0.3.1"
 
+[[deps.KernelDensity]]
+deps = ["Distributions", "DocStringExtensions", "FFTW", "Interpolations", "StatsBase"]
+git-tree-sha1 = "7d703202e65efa1369de1279c162b915e245eed1"
+uuid = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
+version = "0.6.9"
+
 [[deps.LAME_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
 git-tree-sha1 = "170b660facf5df5de098d866564877e119141cbd"
@@ -699,6 +962,10 @@ version = "0.16.3"
     [deps.Latexify.weakdeps]
     DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
     SymEngine = "123dc426-2d89-5057-bbad-38513e3affd8"
+
+[[deps.LazyArtifacts]]
+deps = ["Artifacts", "Pkg"]
+uuid = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 
 [[deps.LibCURL]]
 deps = ["LibCURL_jll", "MozillaCACerts_jll"]
@@ -804,6 +1071,12 @@ git-tree-sha1 = "c1dd6d7978c12545b4179fb6153b9250c96b0075"
 uuid = "e6f89c97-d47a-5376-807f-9c37f3926c36"
 version = "1.0.3"
 
+[[deps.MKL_jll]]
+deps = ["Artifacts", "IntelOpenMP_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "oneTBB_jll"]
+git-tree-sha1 = "f046ccd0c6db2832a9f639e2c669c6fe867e5f4f"
+uuid = "856f044c-d86e-5d09-b602-aeab76dc8ba7"
+version = "2024.2.0+0"
+
 [[deps.MacroTools]]
 deps = ["Markdown", "Random"]
 git-tree-sha1 = "2fa9ee3e63fd3a4f7a9a4f4744a52f4856de82df"
@@ -843,15 +1116,41 @@ uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
 version = "2023.1.10"
 
+[[deps.MultivariateStats]]
+deps = ["Arpack", "Distributions", "LinearAlgebra", "SparseArrays", "Statistics", "StatsAPI", "StatsBase"]
+git-tree-sha1 = "816620e3aac93e5b5359e4fdaf23ca4525b00ddf"
+uuid = "6f286f6a-111f-5878-ab1e-185364afe411"
+version = "0.10.3"
+
 [[deps.NaNMath]]
 deps = ["OpenLibm_jll"]
 git-tree-sha1 = "0877504529a3e5c3343c6f8b4c0381e57e4387e4"
 uuid = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
 version = "1.0.2"
 
+[[deps.NearestNeighbors]]
+deps = ["Distances", "StaticArrays"]
+git-tree-sha1 = "8a3271d8309285f4db73b4f662b1b290c715e85e"
+uuid = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
+version = "0.4.21"
+
 [[deps.NetworkOptions]]
 uuid = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
 version = "1.2.0"
+
+[[deps.Observables]]
+git-tree-sha1 = "7438a59546cf62428fc9d1bc94729146d37a7225"
+uuid = "510215fc-4207-5dde-b226-833fc4488ee2"
+version = "0.5.5"
+
+[[deps.OffsetArrays]]
+git-tree-sha1 = "5e1897147d1ff8d98883cda2be2187dcf57d8f0c"
+uuid = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
+version = "1.15.0"
+weakdeps = ["Adapt"]
+
+    [deps.OffsetArrays.extensions]
+    OffsetArraysAdaptExt = "Adapt"
 
 [[deps.Ogg_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -1028,6 +1327,16 @@ uuid = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 deps = ["SHA"]
 uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
+[[deps.Ratios]]
+deps = ["Requires"]
+git-tree-sha1 = "1342a47bf3260ee108163042310d26f2be5ec90b"
+uuid = "c84ed2f1-dad5-54f0-aa8e-dbefe2724439"
+version = "0.4.5"
+weakdeps = ["FixedPointNumbers"]
+
+    [deps.Ratios.extensions]
+    RatiosFixedPointNumbersExt = "FixedPointNumbers"
+
 [[deps.RecipesBase]]
 deps = ["PrecompileTools"]
 git-tree-sha1 = "5c3d09cc4f31f5fc6af001c250bf1278733100ff"
@@ -1094,6 +1403,15 @@ version = "1.4.8"
 [[deps.Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 
+[[deps.SharedArrays]]
+deps = ["Distributed", "Mmap", "Random", "Serialization"]
+uuid = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
+
+[[deps.ShiftedArrays]]
+git-tree-sha1 = "503688b59397b3307443af35cd953a13e8005c16"
+uuid = "1277b4bf-5013-50f5-be3d-901d8477a67a"
+version = "2.0.0"
+
 [[deps.Showoff]]
 deps = ["Dates", "Grisu"]
 git-tree-sha1 = "91eddf657aca81df9ae6ceb20b959ae5653ad1de"
@@ -1124,12 +1442,26 @@ deps = ["IrrationalConstants", "LogExpFunctions", "OpenLibm_jll", "OpenSpecFun_j
 git-tree-sha1 = "2f5d4697f21388cbe1ff299430dd169ef97d7e14"
 uuid = "276daf66-3868-5448-9aa4-cd146d93841b"
 version = "2.4.0"
+weakdeps = ["ChainRulesCore"]
 
     [deps.SpecialFunctions.extensions]
     SpecialFunctionsChainRulesCoreExt = "ChainRulesCore"
 
-    [deps.SpecialFunctions.weakdeps]
-    ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+[[deps.StaticArrays]]
+deps = ["LinearAlgebra", "PrecompileTools", "Random", "StaticArraysCore"]
+git-tree-sha1 = "47091a0340a675c738b1304b58161f3b0839d454"
+uuid = "90137ffa-7385-5640-81b9-e52037218182"
+version = "1.9.10"
+weakdeps = ["ChainRulesCore", "Statistics"]
+
+    [deps.StaticArrays.extensions]
+    StaticArraysChainRulesCoreExt = "ChainRulesCore"
+    StaticArraysStatisticsExt = "Statistics"
+
+[[deps.StaticArraysCore]]
+git-tree-sha1 = "192954ef1208c7019899fbf8049e717f92959682"
+uuid = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
+version = "1.4.3"
 
 [[deps.Statistics]]
 deps = ["LinearAlgebra", "SparseArrays"]
@@ -1162,6 +1494,18 @@ version = "1.3.2"
     ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
     InverseFunctions = "3587e190-3f89-42d0-90ee-14403ec27112"
 
+[[deps.StatsModels]]
+deps = ["DataAPI", "DataStructures", "LinearAlgebra", "Printf", "REPL", "ShiftedArrays", "SparseArrays", "StatsAPI", "StatsBase", "StatsFuns", "Tables"]
+git-tree-sha1 = "9022bcaa2fc1d484f1326eaa4db8db543ca8c66d"
+uuid = "3eaba693-59b7-5ba5-a881-562e759f1c8d"
+version = "0.7.4"
+
+[[deps.StatsPlots]]
+deps = ["AbstractFFTs", "Clustering", "DataStructures", "Distributions", "Interpolations", "KernelDensity", "LinearAlgebra", "MultivariateStats", "NaNMath", "Observables", "Plots", "RecipesBase", "RecipesPipeline", "Reexport", "StatsBase", "TableOperations", "Tables", "Widgets"]
+git-tree-sha1 = "3b1dcbf62e469a67f6733ae493401e53d92ff543"
+uuid = "f3b207a7-027a-5e70-b257-86293d7955fd"
+version = "0.15.7"
+
 [[deps.StringManipulation]]
 deps = ["PrecompileTools"]
 git-tree-sha1 = "a6b1675a536c5ad1a60e5a5153e1fee12eb146e3"
@@ -1181,6 +1525,12 @@ version = "7.2.1+1"
 deps = ["Dates"]
 uuid = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 version = "1.0.3"
+
+[[deps.TableOperations]]
+deps = ["SentinelArrays", "Tables", "Test"]
+git-tree-sha1 = "e383c87cf2a1dc41fa30c093b2a19877c83e1bc1"
+uuid = "ab02a1b2-a7df-11e8-156e-fb1833f50b87"
+version = "1.2.0"
 
 [[deps.TableTraits]]
 deps = ["IteratorInterfaceExtensions"]
@@ -1280,6 +1630,18 @@ deps = ["DataAPI", "InlineStrings", "Parsers"]
 git-tree-sha1 = "b1be2855ed9ed8eac54e5caff2afcdb442d52c23"
 uuid = "ea10d353-3f73-51f8-a26c-33c1cb351aa5"
 version = "1.4.2"
+
+[[deps.Widgets]]
+deps = ["Colors", "Dates", "Observables", "OrderedCollections"]
+git-tree-sha1 = "e9aeb174f95385de31e70bd15fa066a505ea82b9"
+uuid = "cc8bc4a8-27d6-5769-a93b-9d913e69aa62"
+version = "0.6.7"
+
+[[deps.WoodburyMatrices]]
+deps = ["LinearAlgebra", "SparseArrays"]
+git-tree-sha1 = "c1a7aa6219628fcd757dede0ca95e245c5cd9511"
+uuid = "efce3f68-66dc-5838-9240-27a6d6f5f9b6"
+version = "1.0.0"
 
 [[deps.WorkerUtilities]]
 git-tree-sha1 = "cd1659ba0d57b71a464a29e64dbc67cfe83d54e7"
@@ -1541,6 +1903,12 @@ deps = ["Artifacts", "Libdl"]
 uuid = "8e850ede-7688-5339-a07c-302acd2aaf8d"
 version = "1.52.0+1"
 
+[[deps.oneTBB_jll]]
+deps = ["Artifacts", "JLLWrappers", "Libdl"]
+git-tree-sha1 = "7d0ea0f4895ef2f5cb83645fa689e52cb55cf493"
+uuid = "1317d2d5-d96f-522e-a858-c73665f53c3e"
+version = "2021.12.0+0"
+
 [[deps.p7zip_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
@@ -1568,6 +1936,13 @@ version = "1.4.1+1"
 # ╔═╡ Cell order:
 # ╟─a6d62476-dece-4c86-900d-69d0592f9711
 # ╠═92de71ee-a3f4-4461-b389-c6e1d55b0ea6
+# ╟─17aae31d-98cc-47c4-bd01-120ba1df16b4
+# ╠═6c5e15ff-02f0-44c3-828e-7e36ea3527ca
+# ╠═078a6ae8-fd9c-4129-a200-76594569e3a7
+# ╠═73ab4b64-15c2-436b-9bd0-c255ea24efb9
+# ╟─14036d34-1511-451a-b54f-aebc857da751
+# ╟─71555410-ff9a-4067-b180-d5089fef1a35
+# ╟─c444c6da-b18e-4f3b-8e56-bcbdeb9b7ca9
 # ╟─d6e2d5ea-76f2-49a2-99bd-b8081b99d2b6
 # ╟─ff597914-bfd6-4bcc-9db8-7c84977dab4d
 # ╠═44b61a98-7028-4755-a03a-7b0e934b0196
@@ -1582,6 +1957,7 @@ version = "1.4.1+1"
 # ╟─b336e9ac-613c-4b72-aa89-2093ab1b4b4d
 # ╟─33724ce9-8d7a-4567-988d-324520a38c69
 # ╠═77284867-7069-4469-b46c-1da4f420f2ee
+# ╠═517bce52-7e3b-46d3-8c02-5778fcb9136a
 # ╟─39ce97a6-659a-4467-8bf2-e3047d57f70c
 # ╠═b944ee5c-14be-4351-af91-00166fca8479
 # ╟─889a4487-b4ca-45b8-bcae-00b6eee32a55
@@ -1597,9 +1973,28 @@ version = "1.4.1+1"
 # ╟─f01670b1-9210-4079-9ab5-6bd470624ab3
 # ╠═e845a48d-0d73-46f6-a0c7-1c29741d9f68
 # ╟─202ff61a-07bd-43b3-bf4d-25827a7da4c6
+# ╟─d6590360-c99f-4909-aba3-6b706f2b8493
 # ╠═7fb2689a-3cb6-4f9f-ad41-a7c424fe054c
 # ╟─0a941046-b043-4265-b619-f173abc5ed09
 # ╠═ace2977f-1eee-4521-8da4-c7726aeb5125
+# ╟─7d32a24c-23b4-41b1-93c0-3a306cd9e589
+# ╟─0e5bc869-f752-49a0-8cd6-70609c392ed5
+# ╠═95884233-62d8-4799-8acb-20895196582a
+# ╟─a0ed584e-a26f-4944-b8c5-3c1454d08c3d
+# ╠═4b55b7bc-5808-4e08-8744-1e8904eb3704
+# ╠═13378aea-1720-40b4-ae47-b00a1d4fa90b
+# ╠═0a1214e6-e190-4ed0-80a0-6b21b7d52aeb
+# ╟─06ef29a7-2792-4c7c-ac08-edc1f2c712ab
+# ╠═deb80f64-18a5-474d-bc03-2a6820b95131
+# ╟─f758c495-29ec-48a6-a9db-c12d95f3231a
+# ╠═af9f10a9-ee03-45a1-8807-7d7b09be62e1
+# ╟─2f20ffc1-4891-45f2-ba9c-057b723da163
+# ╠═fa85b82c-ba1e-4f41-9cc9-bb2bebf25eba
+# ╟─d6cab45b-4434-4768-85b5-a95d7326a163
+# ╠═f81c2b74-9e9b-4411-bfb9-ae36649726db
+# ╟─9eec709b-2631-4da5-848e-2747249c384b
+# ╠═0991ea0b-e613-4571-826d-5bcfec7b1a5f
+# ╠═a2d7e8fe-21a2-4d87-bb2d-b997a478a13b
 # ╟─125639b6-835c-47a7-957d-317096bada07
 # ╠═5fb5704d-00df-4961-a61a-c5c2e1ab8d2d
 # ╟─5d81da28-2783-4f6e-8335-a4dd6d77d4ac
