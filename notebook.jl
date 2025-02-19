@@ -16,6 +16,9 @@ includes additional analysis
 # ╔═╡ 17aae31d-98cc-47c4-bd01-120ba1df16b4
 md"## Full Corpus Estimate"
 
+# ╔═╡ 325341a8-ce13-4c9b-bce6-0d4844873872
+md"This set of files, downloaded from the website, is a majority of the complete recordings, representing about 1300 hours.  The full set of audio files on the website is actually several thousand hours more, but there are a large number of files that are excerpts from the complete recordings (e.g. individual poems)."
+
 # ╔═╡ 6c5e15ff-02f0-44c3-828e-7e36ea3527ca
 pennsound_durations = CSV.read("pennsound_durations.tsv", DataFrame, delim="\t")
 
@@ -51,11 +54,27 @@ md"Some files were very short or had very little speech, so a second random list
 - Brown-Lee-Ann\_Complete-Reading\_Tender-Buttons-Press\_UPenn\_10-21-03
 "
 
-# ╔═╡ d6e2d5ea-76f2-49a2-99bd-b8081b99d2b6
-md"## Sample Characteristics"
+# ╔═╡ ed6ecb87-d4fb-4c50-b7dc-b36828b1cba1
+md"Therefore, the sample comes from a near-random selection of 100 complete recordings available from the website.  For each file, a small excerpt was taken for analysis, based on speech activity detection (SAD) labels.  Starting from the midpoint of each file, SAD labels were read until 5 minutes of speech had accumulated.  These labels then determined the bounds of the excerpts, after padding with silence.  The following table describes the excerpts in terms of offset into the original file and duration of the excerpt.  The table also gives the short name used throughout for the excerpt."
+
+# ╔═╡ 854f8bdd-dc9e-4f30-990a-32e65f64fe48
+excerpts = CSV.read("excerpts.tsv", DataFrame, delim="\t")
+
+
+# ╔═╡ 0a814c75-20b6-49e3-a871-ac11eec23381
+mean(excerpts.duration)
+
+# ╔═╡ 3beaa34a-84a3-47ab-9bb7-30f63df7a3ac
+std(excerpts.duration)
+
+# ╔═╡ fadedb96-e95f-46cb-a2c4-5a45d6bd9b71
+md"total hours of audio"
+
+# ╔═╡ 83dc383b-606d-4f6e-b787-aa1a618c17b8
+sum(excerpts.duration) / 3600
 
 # ╔═╡ ff597914-bfd6-4bcc-9db8-7c84977dab4d
-md"The original goal was a random sample of 100 clips, each 5 minutes in duration, which would be 8.3 hours of audio if done exactly that way.  The total audio duration is 12.15 hours, which would mean quite a lot of silence if the speech was only 8.3 hours.  However, the reference transcripts tend to indicate more than 5 minutes of speech, due to speech undetected by SAD, overlapping speech, or possibly human error (segments padded with silence).  Summing the segment lengths from the human transcripts gives a total of 9.84 hours of speech, with a mean of 354 seconds and a standard deviation of 61.5 seconds.  The histogram below shows the amount of speech per file in seconds."
+md"The original goal was a random sample of 100 clips, each 5 minutes in duration, which would be 8.3 hours of audio if done exactly that way.  As described above, SAD labels were used to locate 5 minutes of speech, meaning the excerpts are longer than 5 minutes.  The total audio duration is 12.15 hours, which would suggest about one third of the audio is non-speech.  However, the reference transcripts tend to indicate more than 5 minutes of speech, due to speech undetected by SAD, overlapping speech (represented by transcribers but not by SAD), or possibly human error (segments padded with silence).  Summing the segment lengths from the human transcripts gives a total of 9.84 hours of speech, so the amount of non-speech is closer to one fifth of the audio.  The table and histogram below illustrate the amount of speech per file in seconds."
 
 # ╔═╡ 44b61a98-7028-4755-a03a-7b0e934b0196
 speech = CSV.read("speech.tsv", DataFrame, delim="\t")
@@ -76,16 +95,6 @@ speech[speech.speech .> 800,:]
 # ╔═╡ 0ae40edd-b162-411c-b6ba-eaa609a16aae
 sum(speech.speech) / 3600
 
-# ╔═╡ 8821f1d0-6046-4ead-b1cf-ec537e656cb7
-md"total duration of audio clips is 12.15 hours"
-
-# ╔═╡ 24579088-a492-453d-872d-11a1ab1a0da3
-durations = CSV.read("durations.tsv", DataFrame, delim="\t")
-
-
-# ╔═╡ 3168af55-09f0-4e59-b3af-c0601bf99f63
-sum(durations.duration) / 3600
-
 # ╔═╡ b336e9ac-613c-4b72-aa89-2093ab1b4b4d
 md"## Word Error Rates"
 
@@ -97,7 +106,7 @@ wers = CSV.read("wer.tsv", DataFrame, delim="\t")
 
 
 # ╔═╡ 517bce52-7e3b-46d3-8c02-5778fcb9136a
-wers[wers.file .== "bonvicino",:]
+wers[wers.file .== "BonvicinoEx1",:]
 
 # ╔═╡ 39ce97a6-659a-4467-8bf2-e3047d57f70c
 md"substitution error rates only"
@@ -308,30 +317,6 @@ end
 # ╔═╡ af470960-1683-4d19-af82-bb22c030bba5
 md"# What about the outliers?"
 
-# ╔═╡ 9b3e4f06-0222-4074-903b-6a509cc35307
-md"WERs sorted by SNR provided by IBM"
-
-# ╔═╡ c22c7b6b-115c-4866-9bc0-d430d5c32a9f
-# ╠═╡ disabled = true
-#=╠═╡
-wers_sorted_by_snr = sort(wers, [:nsp])
-  ╠═╡ =#
-
-# ╔═╡ 4175cc5c-7e29-4c41-983b-07b3421c1ef4
-md"SNR seems to have an overall effect, but not consistently, and doesn't seem to explain the outliers"
-
-# ╔═╡ e659f4ac-19ee-4e11-826b-d79d78e3a6fe
-begin
-	plot(wers_sorted_by_snr.ibm,label="ibm", linestyle=:solid, color=:black)
-	plot!(wers_sorted_by_snr.google,label="google", linestyle=:solid, color=:tan)
-	plot!(wers_sorted_by_snr.nemo,label="nemo", linestyle=:dashdotdot, color=:green)
-	plot!(wers_sorted_by_snr.whispercpp,label="whispercpp", linestyle=:dash, color=:blue)
-	plot!(wers_sorted_by_snr.azure,label="azure", linestyle=:solid, color=:darkgray)
-	plot!(wers_sorted_by_snr.aws,label="aws",xlim=(0,101),ylim=(0,80), linestyle=:dashdotdot,color=:red)
-	plot!(wers_sorted_by_snr.whisper,label="whisper", linestyle=:dash, color=:magenta)
-	plot!(wers_sorted_by_snr.rev,label="rev", linestyle=:solid,color=:black)
-end
-
 # ╔═╡ 8b27d6f1-c128-4b49-ab2c-b5b511b73c5a
 md"### IBM specifically"
 
@@ -339,28 +324,25 @@ md"### IBM specifically"
 md"what happened with ibm?"
 
 # ╔═╡ ea53c7f4-a378-44da-b0c1-a21b043e2635
-md"There's one extreme outlier, *joris*, where most words are missing.  This recording has a lot of distortion/feedback."
+md"There's one extreme outlier, *JorisEx1*, where most words are missing.  This recording has a lot of distortion/feedback."
 
 # ╔═╡ 7ef07464-a2b0-45b6-8bca-98ab53666cca
-wers[ wers.file .== "joris", :]
-
-# ╔═╡ a0bde506-7242-47c7-bacd-8e4da4869dfc
-md"Mark, Neville, James, You can listen to it [here](https://webtrans.ldcresearch.org/workflows/6/read_only/675447840000000000000056)"
+wers[ wers.file .== "JorisEx1", :]
 
 # ╔═╡ da5b156e-a524-4a31-be27-78d9de29f662
-md"Another outlier is *corrigan*"
+md"Another outlier is *CorriganEx1*"
 
 # ╔═╡ 4cdf43ba-ec2e-4922-b250-df1e199f7b50
-wers[wers.file .== "corrigan", :]
+wers[wers.file .== "CorriganEx1", :]
 
 # ╔═╡ b3318a6e-06c0-4c6f-a214-1016e7d68cba
 md"this file is unremarkable, but also has a lot of deletions.  E.g., there's a 15s region from 100s to 115s that's missing, which is where a second speaker joins."
 
 # ╔═╡ 4730c73a-5a5b-45f5-a51e-613e9f9a60d1
-wers_d[ wers_d.file .== "corrigan", :]
+wers_d[ wers_d.file .== "CorriganEx1", :]
 
 # ╔═╡ ccd53dd1-e0ff-4393-9ca4-36c6014109df
-md"so IBM seems to have an issue with deletions, maybe due to speakers.  sorting by number of speakers shows some effect.  The first 68 have a single speaker.  *corrigan* has two speakers, so this doesn't seem totally explanatory for it's high DER."
+md"so IBM seems to have an issue with deletions, maybe due to speakers.  sorting by number of speakers shows some effect.  The first 68 have a single speaker.  *CorriganEx1* has two speakers, so this doesn't seem totally explanatory for it's high DER."
 
 # ╔═╡ 21b6c2ae-73a1-46ab-8786-22ac62d1301f
 begin
@@ -394,10 +376,10 @@ end
 md"### Google specifically"
 
 # ╔═╡ d854d3ec-3f87-4fc9-9ff2-05c9a978d6a5
-md"*phillytalk10* is an outlier for google with a very high IER.  There's a long string of individual digits inserted during a period of silence (no speech), similar to a hallucination in whisper, although it's only digits."
+md"*PhillyTalks10Ex1* is an outlier for google with a very high IER.  There's a long string of individual digits inserted during a period of silence (no speech), similar to a hallucination in whisper, although it's only digits."
 
 # ╔═╡ 3f6a88fe-fafe-48ee-9abe-2be1f9ef73fe
-wers_i[wers_i.file .== "phillytalks10", :]
+wers_i[wers_i.file .== "PhillyTalks10Ex1", :]
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -1937,13 +1919,19 @@ version = "1.4.1+1"
 # ╟─a6d62476-dece-4c86-900d-69d0592f9711
 # ╠═92de71ee-a3f4-4461-b389-c6e1d55b0ea6
 # ╟─17aae31d-98cc-47c4-bd01-120ba1df16b4
+# ╟─325341a8-ce13-4c9b-bce6-0d4844873872
 # ╠═6c5e15ff-02f0-44c3-828e-7e36ea3527ca
 # ╠═078a6ae8-fd9c-4129-a200-76594569e3a7
 # ╠═73ab4b64-15c2-436b-9bd0-c255ea24efb9
 # ╟─14036d34-1511-451a-b54f-aebc857da751
 # ╟─71555410-ff9a-4067-b180-d5089fef1a35
 # ╟─c444c6da-b18e-4f3b-8e56-bcbdeb9b7ca9
-# ╟─d6e2d5ea-76f2-49a2-99bd-b8081b99d2b6
+# ╟─ed6ecb87-d4fb-4c50-b7dc-b36828b1cba1
+# ╠═854f8bdd-dc9e-4f30-990a-32e65f64fe48
+# ╠═0a814c75-20b6-49e3-a871-ac11eec23381
+# ╠═3beaa34a-84a3-47ab-9bb7-30f63df7a3ac
+# ╟─fadedb96-e95f-46cb-a2c4-5a45d6bd9b71
+# ╠═83dc383b-606d-4f6e-b787-aa1a618c17b8
 # ╟─ff597914-bfd6-4bcc-9db8-7c84977dab4d
 # ╠═44b61a98-7028-4755-a03a-7b0e934b0196
 # ╠═300b26a9-7816-4de1-b056-1d525e534067
@@ -1951,9 +1939,6 @@ version = "1.4.1+1"
 # ╠═58a6de5b-3185-4ddf-a571-ebbef5481ed6
 # ╠═06bf8d21-d53f-445f-8b64-92e39f1a8564
 # ╠═0ae40edd-b162-411c-b6ba-eaa609a16aae
-# ╟─8821f1d0-6046-4ead-b1cf-ec537e656cb7
-# ╠═24579088-a492-453d-872d-11a1ab1a0da3
-# ╠═3168af55-09f0-4e59-b3af-c0601bf99f63
 # ╟─b336e9ac-613c-4b72-aa89-2093ab1b4b4d
 # ╟─33724ce9-8d7a-4567-988d-324520a38c69
 # ╠═77284867-7069-4469-b46c-1da4f420f2ee
@@ -2000,25 +1985,20 @@ version = "1.4.1+1"
 # ╟─5d81da28-2783-4f6e-8335-a4dd6d77d4ac
 # ╠═f1f7c60b-65cf-41bd-ad3d-4de34047a143
 # ╟─af470960-1683-4d19-af82-bb22c030bba5
-# ╟─9b3e4f06-0222-4074-903b-6a509cc35307
-# ╠═c22c7b6b-115c-4866-9bc0-d430d5c32a9f
-# ╟─4175cc5c-7e29-4c41-983b-07b3421c1ef4
-# ╠═e659f4ac-19ee-4e11-826b-d79d78e3a6fe
 # ╟─8b27d6f1-c128-4b49-ab2c-b5b511b73c5a
 # ╟─9da413f0-bcfc-45d6-8155-9cd2931bbbc3
 # ╟─ea53c7f4-a378-44da-b0c1-a21b043e2635
 # ╠═7ef07464-a2b0-45b6-8bca-98ab53666cca
-# ╟─a0bde506-7242-47c7-bacd-8e4da4869dfc
 # ╟─da5b156e-a524-4a31-be27-78d9de29f662
 # ╠═4cdf43ba-ec2e-4922-b250-df1e199f7b50
 # ╟─b3318a6e-06c0-4c6f-a214-1016e7d68cba
 # ╠═4730c73a-5a5b-45f5-a51e-613e9f9a60d1
-# ╠═ccd53dd1-e0ff-4393-9ca4-36c6014109df
+# ╟─ccd53dd1-e0ff-4393-9ca4-36c6014109df
 # ╠═21b6c2ae-73a1-46ab-8786-22ac62d1301f
 # ╟─561b5e7d-f7d7-485e-8ca1-7a220423e7c3
 # ╟─9ac8f0f8-f040-4c73-afb4-56d54f578231
 # ╠═2650c240-b47f-4728-b4ba-052069168b62
-# ╠═7aa3d4e9-b0ba-4447-863f-8cbd2dd27e23
+# ╟─7aa3d4e9-b0ba-4447-863f-8cbd2dd27e23
 # ╟─d854d3ec-3f87-4fc9-9ff2-05c9a978d6a5
 # ╠═3f6a88fe-fafe-48ee-9abe-2be1f9ef73fe
 # ╟─00000000-0000-0000-0000-000000000001
