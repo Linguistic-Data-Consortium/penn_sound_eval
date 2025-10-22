@@ -296,13 +296,14 @@ class Sample
       raise "the file name must be set" if @fn.nil?
       set_header %w[ file beg end text ]
       # @header ||= %w[ file beg end text speaker ]
+      return if object['transcription'].length == 0
       last = object['transcription'][0]['offsets']['from']
       object['transcription'].each do |m|
         next if m['text'].length == 0
         # puts e['text']
         bb = (m['offsets']['from'].to_f / 1000).round(3)
         ee = (m['offsets']['to'].to_f / 1000).round(3)
-        tt = m['text'].gsub(/\s|"/, '')
+        tt = m['text']#.gsub(/\s|"/, '')
         s = {
           file: @fn,
           beg: bb,
