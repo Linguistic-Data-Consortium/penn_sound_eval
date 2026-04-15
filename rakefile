@@ -71,6 +71,7 @@ task :test_a do |t|
   sh "cp english.glm #{dn}/english.glm"
   cd dn
   hubscr
+  cd '..'
   Dir["#{dn}/*pra"].each do |x|
     sh "bin/filter_pra.rb #{x} > #{x}.errors"
   end
